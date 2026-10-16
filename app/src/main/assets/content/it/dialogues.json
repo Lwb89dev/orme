@@ -1,0 +1,590 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Che cosa significa essere umili?",
+      "theme": "umilta",
+      "description": "Una guida onesta smonta il malinteso dell'umiltà come svalutazione di sé: la «verità su di sé» di Francesco, il nome dei «minori» e la propria volontà nelle Ammonizioni.",
+      "teachingIds": ["teaching.umilta.ultimo"],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Benvenuto nel Dialogo. Mi presento: sono una guida attraverso le fonti francescane, non sono Francesco e non parlo in sua vece. La domanda di oggi suona semplice: che cosa significa essere umili? Molti, sentendo la parola «umiltà», pensano subito a sminuirsi. Prima di partire mi interessa il tuo punto di partenza.",
+          "options": [
+            { "id": "umilta.n1.o1", "text": "Per me umiltà è non darsi importanza, restare al proprio posto.", "next": "umilta.n2" },
+            { "id": "umilta.n1.o2", "text": "Sospetto sia qualcosa di diverso, ma non saprei dire cosa.", "next": "umilta.n3" },
+            { "id": "umilta.n1.o3", "text": "Perché i frati di Francesco si chiamavano «minori»?", "next": "umilta.n4" }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "È l'idea più diffusa, e anche il malinteso più resistente. Se l'umiltà fosse svalutarsi, diventerebbe un modo sottile di occuparsi ancora di sé: della propria immagine, del proprio posto, perfino della propria mediocrità esibita. Le fonti francescane puntano altrove: non a pensarsi piccoli, ma a vedersi nella verità. La differenza sembra sottile, ma cambia tutto.",
+          "options": [
+            { "id": "umilta.n2.o1", "text": "Allora che cos'è davvero l'umiltà?", "next": "umilta.n5" },
+            { "id": "umilta.n2.o2", "text": "C'è un testo di Francesco che lo dice?", "next": "umilta.n6" }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Questa incertezza è un buon punto di partenza, te lo dico senza ironia. Chi ammette di non sapere ha già fatto un passo verso ciò che Francesco intende per umiltà: vedersi nella verità, senza gonfiarsi e senza stracciarsi. Proviamo a dare forma a questa idea, partendo dalle fonti.",
+          "options": [
+            { "id": "umilta.n3.o1", "text": "Va bene: qual è il cuore dell'umiltà francescana?", "next": "umilta.n5" },
+            { "id": "umilta.n3.o2", "text": "C'è un passo delle fonti da leggere insieme?", "next": "umilta.n6" }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Domanda precisa, e la risposta è un piccolo programma. In una società fondata sull'onore e sul rango, Francesco volle che i suoi si chiamassero frati minori: nessuno «maggiore», nessuno da servire. Perfino i responsabili della fraternità li chiamò «ministri», che in latino significa servi. Non era un vezzo linguistico: era la scelta di un posto, l'ultimo, da cui nessuno può essere scalzato.",
+          "options": [
+            { "id": "umilta.n4.o1", "text": "E nella vita quotidiana, che differenza fa?", "next": "umilta.n5" },
+            { "id": "umilta.n4.o2", "text": "Nei suoi scritti c'è qualcosa su questo?", "next": "umilta.n6" }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Eccoci al centro. Per Francesco l'umiltà è verità su di sé: piccoli davanti a Dio, debitori di tutto ciò che siamo e abbiamo, capaci di servire senza pretendere riconoscimento. Nota che questa verità include anche i tuoi talenti: riconoscerli come doni ricevuti non è superbia, è onestà. L'umile non si svaluta: smette di recitare, in un senso e nell'altro. Ed è libero dal bisogno di apparire, che è una delle schiavitù più faticose.",
+          "options": [
+            { "id": "umilta.n5.o1", "text": "E i propri talenti? Bisogna negarli per essere umili?", "next": "umilta.n10" },
+            { "id": "umilta.n5.o2", "text": "Come si traduce oggi, per esempio nel lavoro e online?", "next": "umilta.n7" },
+            { "id": "umilta.n5.o3", "text": "Cosa dice esattamente il testo delle Ammonizioni?", "next": "umilta.n6" },
+            { "id": "umilta.n5.o4", "text": "Mi basta così: possiamo concludere.", "next": "umilta.chiusura" }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "C'è un testo breve e tagliente: le Ammonizioni, istruzioni che Francesco rivolgeva alla fraternità. Uno dei bersagli è la «propria volontà» fatta misura di tutto: chi si ritiene giusto e sapiente da sé, avverte Francesco, si allontana dalla vera umiltà, che consiste nel sottomettere il proprio giudizio e nel servire. Attenzione però: sottomettere non significa spegnere. Le fonti non chiedono di smettere di pensare, ma di non assolutizzare il proprio punto di vista.",
+          "options": [
+            { "id": "umilta.n6.o1", "text": "Sembra una rinuncia alla propria testa. Non è troppo?", "next": "umilta.n8" },
+            { "id": "umilta.n6.o2", "text": "E concretamente, oggi, che aspetto ha?", "next": "umilta.n7" }
+          ],
+          "sourcePassageIds": ["pass.ammonizioni.propria_volonta"]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Proviamo a tradurre, consapevoli che questa è un'interpretazione moderna, non un testo medievale. Nel lavoro, umiltà è fare bene la propria parte senza farne uno spettacolo, ammettere un errore senza costruire alibi, lasciare il merito a chi lo merita. Online, dove molto si misura in visibilità, è poter pubblicare e lavorare senza che il giudizio degli altri diventi il tuo padrone. Non è un invito a nasconderti: è un invito a non dipendere dall'applauso.",
+          "options": [
+            { "id": "umilta.n7.o1", "text": "Bello, ma nel mio ambiente vince chi si fa avanti.", "next": "umilta.n9" },
+            { "id": "umilta.n7.o2", "text": "Mi convince. Concludiamo.", "next": "umilta.chiusura" }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Obiezione legittima, e merita una risposta onesta. Nelle fonti l'obbedienza non è annullamento: la stessa fraternità era un luogo in cui ci si manifestava i bisogni a vicenda, cioè si parlava. Il punto non è abolire il proprio giudizio, ma rifiutare che sia il tribunale supremo di tutto. Qui però le fonti non ci consegnano una casistica: non ti posso dire dove passa il confine nel tuo caso concreto. Quello resta un lavoro tuo, e di chi ti conosce davvero.",
+          "options": [
+            { "id": "umilta.n8.o1", "text": "Ha senso. E nella vita di tutti i giorni?", "next": "umilta.n7" },
+            { "id": "umilta.n8.o2", "text": "Preferisco fermarmi qui.", "next": "umilta.chiusura" }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Hai ragione a sollevarlo, e non ti rispondo con un consiglio di carriera: non è il mio ruolo. Dico solo che le fonti francescane non promettono che l'umiltà «funzioni»: promettono che rende liberi. A volte costa, e fingere il contrario sarebbe disonesto. La scelta di non vivere per l'approvazione resta appunto una scelta: tua, misurata sul tuo contesto.",
+          "options": [
+            { "id": "umilta.n9.o1", "text": "Onesto, grazie. Concludiamo.", "next": "umilta.chiusura" },
+            { "id": "umilta.n9.o2", "text": "Rileggiamo il cuore dell'insegnamento.", "next": "umilta.n5" }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "No, e le fonti, lette con attenzione, dicono il contrario. La logica di Francesco è quella del dono: se tutto è ricevuto, anche le tue capacità lo sono, e negarle sarebbe solo un altro modo di mentire su di sé. L'umiltà non chiede di dire «non valgo niente», ma di dire la verità: «questo ho ricevuto, di questo sono debitore». E chi sa riconoscere un dono sa anche ringraziare: nel cammino francescano la gratitudine è una porta della gioia.",
+          "options": [
+            { "id": "umilta.n10.o1", "text": "E come si vive questo, nel concreto di oggi?", "next": "umilta.n7" },
+            { "id": "umilta.n10.o2", "text": "Possiamo chiudere qui.", "next": "umilta.chiusura" }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Ci fermiamo qui. Se ti va, porta con te una domanda, non un compito: in quale punto della tua giornata reciti una parte, invece di stare nella verità di ciò che sei, nel bene e nel limite? Non devi rispondere a me, né a nessuno. Le altre conversazioni del Dialogo ti aspettano, quando vorrai: il perdono, la povertà, il creato, la fede di Francesco.",
+          "options": [
+            { "id": "umilta.chiusura.o1", "text": "Ripercorri questa conversazione dall'inizio.", "next": "umilta.n1" },
+            { "id": "umilta.chiusura.o2", "text": "Scopri le altre conversazioni del Dialogo.", "next": "umilta.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Grazie per aver camminato con me dentro queste fonti. Dall'elenco del Dialogo puoi aprire un'altra conversazione, oppure ritrovare questa quando vorrai: i testi restano, e le domande anche.",
+          "options": [
+            { "id": "umilta.fine.o1", "text": "Ricomincia questa conversazione.", "next": "umilta.n1" },
+            { "id": "umilta.fine.o2", "text": "Concludi per ora." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Come si può perdonare qualcuno?",
+      "theme": "perdono",
+      "description": "La Lettera a un ministro e la strofa del Cantico: il perdono come decisione ripetuta, la differenza con la giustizia e una risposta onesta a chi non ce la fa.",
+      "teachingIds": ["teaching.perdono.mille_volte"],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Benvenuto nel Dialogo. Ti guido io: non sono Francesco e non parlo in sua vece, ti accompagno dentro ciò che le fonti dicono davvero. La domanda di oggi è una delle più difficili che esistano: come si può perdonare qualcuno? Non ti prometto una risposta comoda. Mi aiuta sapere da dove parti.",
+          "options": [
+            { "id": "perdono.n1.o1", "text": "Ho subito un torto e non riesco a lasciar andare la rabbia.", "next": "perdono.n2" },
+            { "id": "perdono.n1.o2", "text": "Perdonare non significa forse far finta di niente?", "next": "perdono.n3" },
+            { "id": "perdono.n1.o3", "text": "Vorrei prima sapere cosa dice Francesco sul perdono.", "next": "perdono.n4" }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Grazie per la franchezza. Le fonti francescane non promettono che la rabbia sparisca, e non ti chiedono di fingere che il torto non sia avvenuto. Quello che propongono è diverso: il perdono come una decisione che si rinnova, anche quando il sentimento non la segue. Se oggi non riesci, questo non ti squalifica: è la norma, non l'eccezione.",
+          "options": [
+            { "id": "perdono.n2.o1", "text": "Una decisione che si rinnova: spiegami.", "next": "perdono.n6" },
+            { "id": "perdono.n2.o2", "text": "E se proprio non ce la faccio?", "next": "perdono.n7" },
+            { "id": "perdono.n2.o3", "text": "Cosa scrive Francesco a proposito?", "next": "perdono.n4" }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "No, e vale la pena dirlo subito con chiarezza: perdonare non è negare. Le fonti francescane non confondono misericordia e ingiustizia: il male fatto resta male, e le sue conseguenze restano reali. Il perdono, qui, non cancella ciò che è accaduto: rifiuta che l'offesa abbia l'ultima parola sulla relazione. Sono due piani diversi, e tenerli distinti è il primo passo.",
+          "options": [
+            { "id": "perdono.n3.o1", "text": "Allora perdono e giustizia possono stare insieme?", "next": "perdono.n5" },
+            { "id": "perdono.n3.o2", "text": "Cosa dice esattamente Francesco?", "next": "perdono.n4" }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Il testo chiave è la Lettera a un ministro: Francesco scrive a un responsabile della fraternità che deve trattare con fratelli che sbagliano. Il passaggio celebre dice, in sostanza: se un fratello avesse peccato mille volte davanti ai tuoi occhi, amalo più di me, e annunciagli misericordia. Mille volte: non una decisione eroica presa una volta per sempre, ma una scelta rifatta ogni giorno. Questo cambia la domanda: non «sento di perdonare?», ma «scelgo di perdonare anche oggi?».",
+          "options": [
+            { "id": "perdono.n4.o1", "text": "Mille volte è troppo. È una richiesta realistica?", "next": "perdono.n6" },
+            { "id": "perdono.n4.o2", "text": "E la giustizia? Chi sbaglia non deve risponderne?", "next": "perdono.n5" },
+            { "id": "perdono.n4.o3", "text": "Il Cantico delle creature parla di perdono, giusto?", "next": "perdono.n8" }
+          ],
+          "sourcePassageIds": ["pass.lettera_ministro.mille_volte"],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Sì, e la stessa Lettera lo lascia intravedere: Francesco chiede di annunciare misericordia purché l'altro si penta, cioè il perdono non dichiara innocente chi ha sbagliato e non lo esime dal riparare. Anche nel suo tempo i frati pacificatori non abolirono tribunali e responsabilità: lavoravano perché la vendetta non fosse l'unica giustizia possibile. Perdonare e chiedere che il male sia riconosciuto non sono nemici. Possono camminare insieme, anche se faticosamente.",
+          "options": [
+            { "id": "perdono.n5.o1", "text": "E da dove si comincia, in pratica?", "next": "perdono.n6" },
+            { "id": "perdono.n5.o2", "text": "C'entra qualcosa la strofa del Cantico?", "next": "perdono.n8" },
+            { "id": "perdono.n5.o3", "text": "E se il torto è troppo grande, o troppo recente?", "next": "perdono.n7" },
+            { "id": "perdono.n5.o4", "text": "E nelle città divise del suo tempo?", "next": "perdono.n10" }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Si comincia da una correzione di prospettiva. Se il perdono fosse un sentimento, dovresti aspettare che arrivi: e spesso non arriva, o arriva e poi se ne va. Se è una decisione, puoi prenderla anche con la rabbia ancora accesa, e riprenderla domani, e dopodomani. Le fonti non descrivono un percorso lineare: la parola «mille volte» suggerisce anzi il contrario. Onestà: nei testi francescani non ci sono tecniche. C'è una direzione.",
+          "options": [
+            { "id": "perdono.n6.o1", "text": "E se oggi non ce la faccio proprio?", "next": "perdono.n7" },
+            { "id": "perdono.n6.o2", "text": "E con se stessi? Ci si può perdonare?", "next": "perdono.n9" },
+            { "id": "perdono.n6.o3", "text": "Raccontami la strofa del Cantico sul perdono.", "next": "perdono.n8" }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Risposta onesta: può succedere, e le fonti non ti giudicano per questo. Né io lo faccio: sono una guida attraverso i testi, non un confessore e non un terapeuta. Ti dico due cose documentabili. La prima: la Lettera parla di mille volte, il che significa che già nel Duecento il perdono non era pensato come un gesto istantaneo. La seconda: se una ferita è profonda, condividerla con qualcuno di fiducia, o con un professionista quando serve, non è una sconfitta. Sui tempi del perdono le fonti francescane tacciono: qui non possiamo dire di più.",
+          "options": [
+            { "id": "perdono.n7.o1", "text": "E il perdono verso se stessi?", "next": "perdono.n9" },
+            { "id": "perdono.n7.o2", "text": "Grazie dell'onestà. Concludiamo.", "next": "perdono.chiusura" }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "C'è una strofa del Cantico delle creature che loda Dio per quanti perdonano per il suo amore, sopportando infermità e tribolazione. La critica la data comunemente all'estate del 1226, e la tradizione la collega a un episodio concreto: il vescovo e il podestà di Assisi erano in aperto conflitto, e Francesco, ormai malato, avrebbe aggiunto quella strofa e fatto cantare il Cantico davanti a loro, per riconciliarli. Preciso i livelli: la strofa è autentica, il racconto dell'episodio ci arriva attraverso la tradizione agiografica. Resta il fatto: il perdono, per Francesco, era degno di lode anche dentro i conflitti della sua città.",
+          "options": [
+            { "id": "perdono.n8.o1", "text": "Perdonare nel mezzo di un conflitto: è possibile?", "next": "perdono.n5" },
+            { "id": "perdono.n8.o2", "text": "E chi non riesce a perdonare?", "next": "perdono.n7" },
+            { "id": "perdono.n8.o3", "text": "Possiamo concludere.", "next": "perdono.chiusura" }
+          ],
+          "sourcePassageIds": ["pass.cantico.perdono_morte"]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Qui devo essere onesto sui limiti delle fonti. I testi francescani parlano del perdono verso i fratelli e verso chi offende; sul perdono di sé, come lo intendiamo oggi, non dicono quasi nulla di esplicito. Possiamo ragionare per analogia: se si annuncia misericordia mille volte a chi sbaglia, è difficile escludere se stessi. Ma resta un ragionamento nostro, non una citazione. Preferisco dirtelo, piuttosto che mettere in bocca a Francesco parole che non ha scritto.",
+          "options": [
+            { "id": "perdono.n9.o1", "text": "Apprezzo la precisione. E da dove si riparte?", "next": "perdono.n6" },
+            { "id": "perdono.n9.o2", "text": "Chiudiamo qui.", "next": "perdono.chiusura" }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "C'è anche una dimensione pubblica. L'Italia dei comuni era attraversata da faide e vendette, e le fonti ricordano i primi frati annunciare la pace di casa in casa, con un saluto che Francesco attestò di aver ricevuto. Il perdono, in quel mondo, non era solo un fatto privato: era il punto in cui si poteva spezzare la catena della ritorsione. Anche oggi le faide esistono, nelle famiglie, nei quartieri, sui social, e la logica è la stessa: qualcuno deve smettere di restituire il colpo.",
+          "options": [
+            { "id": "perdono.n10.o1", "text": "E la strofa del Cantico nacque proprio da un conflitto, no?", "next": "perdono.n8" },
+            { "id": "perdono.n10.o2", "text": "Mi basta. Concludiamo.", "next": "perdono.chiusura" }
+          ],
+          "sourcePassageIds": ["pass.testamento.saluto_pace"]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Ci fermiamo qui. Se vuoi, porta con te una sola immagine, non un compito: il perdono come una strada che si rifà un metro al giorno, non come un salto da compiere una volta per sempre. E se la tua ferita oggi non lo consente, questo dialogo non ti chiedeva di riuscirci: ti chiedeva di capire. Le altre conversazioni del Dialogo ti aspettano quando vorrai.",
+          "options": [
+            { "id": "perdono.chiusura.o1", "text": "Ripercorri questa conversazione dall'inizio.", "next": "perdono.n1" },
+            { "id": "perdono.chiusura.o2", "text": "Scopri le altre conversazioni del Dialogo.", "next": "perdono.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Grazie per aver affrontato una domanda difficile senza scorciatoie. Dall'elenco del Dialogo trovi le altre conversazioni: io resto qui, e i testi anche.",
+          "options": [
+            { "id": "perdono.fine.o1", "text": "Ricomincia questa conversazione.", "next": "perdono.n1" },
+            { "id": "perdono.fine.o2", "text": "Concludi per ora." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Francesco era contrario alla ricchezza?",
+      "theme": "poverta",
+      "description": "Francesco non condannava i beni: liberava dal possesso. La Regola del 1223, la rinuncia davanti al vescovo e che cosa significa oggi, senza romanticismi.",
+      "teachingIds": ["teaching.poverta.liberta", "teaching.rinuncia.sine_proprio"],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Benvenuto nel Dialogo. Mi presento: sono una guida, non Francesco; con te leggo le fonti e ti dico quando non bastano a rispondere. La domanda di oggi è piena di equivoci: Francesco era contrario alla ricchezza? La risposta breve è «no, non nel senso che forse immagini». Ma merita la strada lunga. Da dove partiamo?",
+          "options": [
+            { "id": "poverta.n1.o1", "text": "Ho sempre pensato che disprezzasse il denaro in sé.", "next": "poverta.n2" },
+            { "id": "poverta.n1.o2", "text": "Sospetto che il punto sia un altro, ma non so dirlo.", "next": "poverta.n3" },
+            { "id": "poverta.n1.o3", "text": "Non è solo povertà romantica, da poster ottocentesco?", "next": "poverta.n4" }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "È la ricostruzione più diffusa, e anche la meno esatta. Nei testi di Francesco non trovi una condanna dei beni come se fossero sporchi: trovi qualcosa di più radicale e più sottile, cioè il rifiuto di appropriarsene. Il bersaglio non è la ricchezza, è il possesso: ciò che le cose fanno a chi crede di possederle. Andiamo al testo che lo dice meglio.",
+          "options": [
+            { "id": "poverta.n2.o1", "text": "Quale testo?", "next": "poverta.n5" },
+            { "id": "poverta.n2.o2", "text": "E la famosa scena della rinuncia?", "next": "poverta.n6" }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Il tuo sospetto è fondato. Il punto non è la quantità dei beni, ma il tipo di legame: Francesco vuole frati che non si appropriano di nulla, perché chi non possiede non deve difendere, e chi non deve difendere è libero di amare. È una logica di libertà, non di disgusto. Te lo mostro nel testo della Regola.",
+          "options": [
+            { "id": "poverta.n3.o1", "text": "Leggiamo la Regola.", "next": "poverta.n5" },
+            { "id": "poverta.n3.o2", "text": "Prima raccontami la scena davanti al vescovo.", "next": "poverta.n6" }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "L'obiezione è seria e merita rispetto: la povertà romantica esiste, ed è una caricatura che di francescano ha poco. Quindi facciamo un patto: niente idealizzazioni. Guardiamo cosa dicono le fonti — una scena raccontata dal primo biografo e un testo normativo scritto da Francesco stesso — e poi giudichi tu se reggono.",
+          "options": [
+            { "id": "poverta.n4.o1", "text": "Va bene: la scena del primo biografo.", "next": "poverta.n6" },
+            { "id": "poverta.n4.o2", "text": "Il testo normativo.", "next": "poverta.n5" }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Regola del 1223, il testo definitivo approvato dalla Chiesa: i frati non si appropriano di nulla, «né casa né luogo né alcuna cosa»; vivono come pellegrini e forestieri e vanno per elemosina senza vergognarsene. Il motivo dichiarato è teologico: il Signore si è fatto povero per noi. Ma c'è anche una logica umana limpida: ciò che non possiedi non ti possiede. La tradizione tecnica lo chiama «sine proprio», senza nulla di proprio. Non disprezzo delle cose, che si ricevono, si usano e si ringraziano: liberazione dal possesso.",
+          "options": [
+            { "id": "poverta.n5.o1", "text": "Raccontami la rinuncia davanti al vescovo.", "next": "poverta.n6" },
+            { "id": "poverta.n5.o2", "text": "E oggi? Dovremmo vendere tutto?", "next": "poverta.n7" },
+            { "id": "poverta.n5.o3", "text": "E i poveri veri? Non si rischia di abbellire la miseria?", "next": "poverta.n8" }
+          ],
+          "sourcePassageIds": ["pass.regola_bollata.poverta"],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Tommaso da Celano, il primo biografo, la racconta così: davanti al vescovo Guido e al padre Pietro di Bernardone, Francesco restituisce perfino i vestiti e rinuncia ai beni paterni, dicendo di poter ormai chiamare padre solo Dio. Il vescovo lo copre con il proprio mantello. Preciso i livelli: l'episodio è un cardine documentato, ma i dettagli scenografici appartengono alla narrazione di Celano, che è agiografia, letteratura edificante, non un verbale. Il senso comunque è limpido: tagliare pubblicamente il legame con la ricchezza di famiglia.",
+          "options": [
+            { "id": "poverta.n6.o1", "text": "Un gesto teatrale o una scelta meditata?", "next": "poverta.n9" },
+            { "id": "poverta.n6.o2", "text": "E noi oggi, che ne facciamo?", "next": "poverta.n7" }
+          ],
+          "sourcePassageIds": ["pass.celano1.rinuncia"],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Domanda inevitabile, e la risposta onesta è: le fonti non chiedono a tutti la stessa cosa. Quella Regola era per i frati; Francesco non scrisse regole per mercanti, genitori, artigiani. Quindi no: non esiste un testo francescano che ti ordina di vendere tutto. Quello che esiste è una domanda scomoda da abitare: quali cose possiedo, e quali mi possiedono? La risposta concreta è proporzionata alla tua vita, non alla sua.",
+          "options": [
+            { "id": "poverta.n7.o1", "text": "Come distinguiamo povertà scelta e indigenza subita?", "next": "poverta.n8" },
+            { "id": "poverta.n7.o2", "text": "E chi lavora, guadagna, mantiene una famiglia?", "next": "poverta.n11" },
+            { "id": "poverta.n7.o3", "text": "Dammi qualcosa di concreto, senza gesti estremi.", "next": "poverta.n10" }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "È la distinzione più importante di questa conversazione. L'indigenza subita — non avere da mangiare, da curarsi, un tetto — è una ferita sociale da curare, non un ideale da contemplare: Francesco serviva i poveri, non li estetizzava. La povertà francescana è un'altra cosa: una scelta libera di non appropriarsi, fatta per libertà e per solidarietà. Confonderle è l'errore da evitare sempre: glorificare la miseria altrui sarebbe esattamente la «povertà romantica» di cui parlavamo.",
+          "options": [
+            { "id": "poverta.n8.o1", "text": "Quindi la critica del romanticismo aveva un fondo di verità?", "next": "poverta.n9" },
+            { "id": "poverta.n8.o2", "text": "E in pratica, per me, oggi?", "next": "poverta.n10" },
+            { "id": "poverta.n8.o3", "text": "Chiudiamo qui.", "next": "poverta.chiusura" }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Teatrale lo era di sicuro: e in una società fondata sul diritto e sul possesso, solo un gesto pubblico poteva sciogliere un vincolo pubblico. Ma non fu un'improvvisazione: Celano lo colloca dopo mesi di crisi, la prigionia a Perugia, la malattia, le delusioni. Se vuoi un criterio per giudicare i gesti, suoi e tuoi, eccolo: non l'intensità del momento, ma ciò che viene dopo. Francesco visse coerentemente per altri vent'anni. I gesti veri si riconoscono dalla lunga durata.",
+          "options": [
+            { "id": "poverta.n9.o1", "text": "E oggi, senza gesti estremi?", "next": "poverta.n10" },
+            { "id": "poverta.n9.o2", "text": "Ho capito. Concludiamo.", "next": "poverta.chiusura" }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Concreto, allora, ma senza ricette: non è il mio ruolo dartele. La tradizione francescana suggerisce una direzione in tre mosse: guardare ciò che possiedi chiedendoti se ti rende libero o prudente; usare le cose come ricevute, non come dovute; lasciare che la semplicità liberi spazio — tempo, attenzione, denaro — per gli altri. È interpretazione moderna, te lo dico con onestà: ma è un'interpretazione fedele allo spirito del «sine proprio».",
+          "options": [
+            { "id": "poverta.n10.o1", "text": "Torna al testo della Regola.", "next": "poverta.n5" },
+            { "id": "poverta.n10.o2", "text": "Concludiamo.", "next": "poverta.chiusura" }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Nessuna fonte francescana dice che lavorare e guadagnare renda lontani da Francesco: la Regola è la forma di vita di una fraternità specifica, non la misura di ogni esistenza. Anzi, la logica è quasi rovesciata: il problema non è avere, ma servire ciò che si ha. Se il tuo lavoro, il tuo guadagno, la tua casa diventano strumenti — tuoi e degli altri — e non padroni, sei più vicino allo spirito della Regola di quanto pensi.",
+          "options": [
+            { "id": "poverta.n11.o1", "text": "E il rischio di romanticizzare la povertà?", "next": "poverta.n8" },
+            { "id": "poverta.n11.o2", "text": "Concludiamo.", "next": "poverta.chiusura" }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Ci fermiamo qui. Non ti lascio un compito: ti lascio la domanda che questa conversazione ha provato ad aprire. Che cosa, tra ciò che possiedi, possiede te? Rispondila con calma, o non rispondere affatto. Quando vorrai, le altre conversazioni del Dialogo sono all'elenco: l'umiltà, il perdono, il creato, la fede.",
+          "options": [
+            { "id": "poverta.chiusura.o1", "text": "Ripercorri questa conversazione dall'inizio.", "next": "poverta.n1" },
+            { "id": "poverta.chiusura.o2", "text": "Scopri le altre conversazioni del Dialogo.", "next": "poverta.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Grazie per aver cercato una risposta articolata a una domanda che spesso riceve slogan. Ci si rivede nel Dialogo, quando vorrai: le fonti non scadono.",
+          "options": [
+            { "id": "poverta.fine.o1", "text": "Ricomincia questa conversazione.", "next": "poverta.n1" },
+            { "id": "poverta.fine.o2", "text": "Concludi per ora." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Perché Francesco parlava con gli animali?",
+      "theme": "creato",
+      "description": "Parentela, non panteismo: il Cantico, gli uccelli di Celano, il lupo dei Fioretti e che cosa tutto questo dice — e non dice — all'ecologia di oggi.",
+      "teachingIds": ["teaching.creato.cantico"],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Benvenuto nel Dialogo. Sono la tua guida: non sono Francesco, e quando le fonti non bastano te lo dico. La domanda di oggi affonda in secoli di immagini: Francesco che parla agli uccelli, al lupo, ai pesci. Che cosa c'è dietro? Dipende da che cosa stai cercando.",
+          "options": [
+            { "id": "creato.n1.o1", "text": "Voglio la verità: è solo leggenda che parlasse con gli animali?", "next": "creato.n2" },
+            { "id": "creato.n1.o2", "text": "Mi chiedo se vedesse Dio nella natura: era panteista?", "next": "creato.n3" },
+            { "id": "creato.n1.o3", "text": "Raccontami il Cantico delle creature.", "next": "creato.n4" }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Domanda da storico, e la risposta è stratificata, come quasi tutto ciò che riguarda Francesco. Il nucleo è attestato presto: Tommaso da Celano, biografo vicino, racconta la predicazione agli uccelli in toni sobri. I racconti più scenografici — il lupo di Gubbio, i pesci, i lombrichi — fioriscono un secolo dopo nei Fioretti. Quindi: una memoria antica e un'amplificazione letteraria. Te li mostro entrambi, separati.",
+          "options": [
+            { "id": "creato.n2.o1", "text": "La versione sobria di Celano.", "next": "creato.n5" },
+            { "id": "creato.n2.o2", "text": "La versione dei Fioretti: il lupo.", "next": "creato.n6" }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "No, e il testo che lo dimostra è il Cantico delle creature. Francesco loda Dio «per» le creature — frate sole, sora luna — non loda le creature come se fossero divine. La differenza è decisiva: la natura non è Dio, è famiglia. Le creature sono sorelle perché figlie dello stesso Padre. La parola giusta è «parentela», non panteismo.",
+          "options": [
+            { "id": "creato.n3.o1", "text": "Leggiamo il Cantico.", "next": "creato.n4" },
+            { "id": "creato.n3.o2", "text": "E le storie con gli animali?", "next": "creato.n2" }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Il Cantico delle creature, composto nel 1225-1226, quando Francesco era malato e quasi cieco: è tra i primi testi poetici in volgare italiano. Loda Dio per frate sole, «che è il giorno», per sora luna e le stelle, per frate vento, per sora acqua «utile e umile e preziosa e casta», per frate fuoco e per «sora nostra madre terra». Due cose da notare. La prima: non è un inno alla natura, è una lode a Dio attraverso la natura. La seconda: nasce nella sofferenza, non in una passeggiata idilliaca.",
+          "options": [
+            { "id": "creato.n4.o1", "text": "E la predicazione agli uccelli?", "next": "creato.n5" },
+            { "id": "creato.n4.o2", "text": "E il lupo di Gubbio?", "next": "creato.n6" },
+            { "id": "creato.n4.o3", "text": "Che cosa dice tutto questo all'ecologia di oggi?", "next": "creato.n7" }
+          ],
+          "sourcePassageIds": ["pass.cantico.apertura", "pass.cantico.creature"],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "La versione di Celano è sorprendentemente sobria: Francesco vede degli stormi di uccelli, si rivolge a loro come a creature capaci di ascolto e li esorta a lodare Dio. Niente dialoghi articolati, niente miracoli spettacolari: un gesto di riconoscimento. I Fioretti, un secolo dopo, aggiungeranno il segno della croce, gli stormi che si dispongono ad ascoltare, il congedo solenne. Prima lo stile di Francesco, poi lo stile della devozione. Entrambi ci dicono qualcosa, ma di diverso.",
+          "options": [
+            { "id": "creato.n5.o1", "text": "E il lupo di Gubbio?", "next": "creato.n6" },
+            { "id": "creato.n5.o2", "text": "Se è letteratura, che valore ha?", "next": "creato.n8" },
+            { "id": "creato.n5.o3", "text": "E l'ecologia contemporanea?", "next": "creato.n7" }
+          ],
+          "sourcePassageIds": ["pass.celano1.uccelli"]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Il lupo di Gubbio è il capolavoro dei Fioretti: la città terrorizzata, Francesco che va incontro alla belva, le parla come a un fratello e media un patto — la città lo nutrirà, lui non farà più male a nessuno. Devo essere chiaro sul genere letterario: è agiografia trecentesca, memoria della devozione, non cronaca verificabile. Ma guarda che cosa conserva: la pace che nasce andando incontro a ciò che fa paura, e un animale trattato come interlocutore e non come oggetto. La forma è leggenda; la direzione è francescana autentica.",
+          "options": [
+            { "id": "creato.n6.o1", "text": "Quindi, in fondo, è inventato?", "next": "creato.n8" },
+            { "id": "creato.n6.o2", "text": "E l'ecologia di oggi cosa ne ricava?", "next": "creato.n7" }
+          ],
+          "sourcePassageIds": ["pass.fioretti.lupo"]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Qui serve onestà in entrambe le direzioni. Da una parte: il Cantico offre oggi una grammatica rara, la cura del creato per gratitudine e parentela, non per utilità o paura. Dall'altra: Francesco non era un ambientalista moderno, e le sue fonti non conoscono clima, estinzioni, inquinamento. Chi cerca in lui un programma ecologico dettagliato forza i testi. Chi cerca uno sguardo — il mondo come famiglia, non come magazzino — trova qualcosa di ancora capace di spostare comportamenti.",
+          "options": [
+            { "id": "creato.n7.o1", "text": "Eppure è stato proclamato patrono dell'ecologia, no?", "next": "creato.n9" },
+            { "id": "creato.n7.o2", "text": "Che cosa resta di concreto per me?", "next": "creato.n10" }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "No: «non cronaca» non significa «inventato dal nulla». La predicazione agli uccelli è in Celano, a pochi anni dalla morte di Francesco; i Fioretti la rivestono di colori leggendari, ma il filo parte da una memoria. Funziona così per molta agiografia: la forma racconta la devozione di chi l'ha tramandata, la sostanza conserva un tratto reale. Leggere le fonti significa proprio questo: tenere insieme le due cose senza confonderle.",
+          "options": [
+            { "id": "creato.n8.o1", "text": "Chiaro. E per l'ecologia di oggi?", "next": "creato.n7" },
+            { "id": "creato.n8.o2", "text": "Torniamo al Cantico, allora.", "next": "creato.n4" }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Sì: nel 1979 Giovanni Paolo II lo proclamò patrono degli ecologisti. È un titolo moderno — interpretazione, non fonte medievale — e come tale va maneggiato. È legittimo se indica la radice dello sguardo francescano: la parentela con tutte le creature. Diventa fuorviante se appiattisce Francesco a ecologista ante litteram, cancellando che il Cantico è prima di tutto una lode a Dio, composta da un uomo malato che ringraziava. Il titolo dice qualcosa di vero, a condizione di non ridurlo a quello.",
+          "options": [
+            { "id": "creato.n9.o1", "text": "E per me, concretamente?", "next": "creato.n10" },
+            { "id": "creato.n9.o2", "text": "Possiamo concludere.", "next": "creato.chiusura" }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Concreto, qui, significa una questione di sguardo prima che di azioni. Il Cantico suggerisce di abitare il mondo come parentela: l'acqua come sorella da non sprecare, la terra come madre di cui si è figli, le creature come compagne di lode e non come scorte. Le scelte pratiche — cosa compri, cosa butti, come viaggi — vengono dopo, e le fonti non le dettano. Ma uno sguardo cambiato le rende possibili, e meno faticose.",
+          "options": [
+            { "id": "creato.n10.o1", "text": "Rileggiamo insieme il Cantico.", "next": "creato.n4" },
+            { "id": "creato.n10.o2", "text": "Concludiamo.", "next": "creato.chiusura" }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Ci fermiamo qui. Ti lascio un'immagine, non un compito: un uomo quasi cieco che compone una lode per il sole che non vede più, e lo chiama fratello. Se un giorno ti capiterà di guardare un albero, un cane, l'acqua del rubinetto come un parente invece che come una cosa, saprai da dove viene quello sguardo. Le altre conversazioni del Dialogo ti aspettano all'elenco.",
+          "options": [
+            { "id": "creato.chiusura.o1", "text": "Ripercorri questa conversazione dall'inizio.", "next": "creato.n1" },
+            { "id": "creato.chiusura.o2", "text": "Scopri le altre conversazioni del Dialogo.", "next": "creato.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Grazie per aver distinto con me cronaca, leggenda e lode: è un esercizio che serve ben oltre Francesco. Ci si rivede nel Dialogo, quando vorrai.",
+          "options": [
+            { "id": "creato.fine.o1", "text": "Ricomincia questa conversazione.", "next": "creato.n1" },
+            { "id": "creato.fine.o2", "text": "Concludi per ora." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Si può seguire Francesco senza essere credenti?",
+      "theme": "fede",
+      "description": "Risposta non evasiva a una domanda seria: la fede cristiana era il centro di Francesco e l'app non la nasconde. Che cosa resta a chi non crede.",
+      "teachingIds": ["teaching.fede.cristo_centro"],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Benvenuto nel Dialogo. Sono una guida attraverso le fonti: non sono Francesco, non sono un confessore, e non valuto la fede di nessuno, nemmeno la tua. La domanda di oggi è legittima e seria: si può seguire Francesco senza essere credenti? Ti prometto una risposta non evasiva. Prima, dimmi da dove parli tu.",
+          "options": [
+            { "id": "fede.n1.o1", "text": "Sono credente, e voglio capire meglio la sua fede.", "next": "fede.n2" },
+            { "id": "fede.n1.o2", "text": "Non sono credente: che cosa posso ricevere da lui?", "next": "fede.n3" },
+            { "id": "fede.n1.o3", "text": "Non so che cosa credo. Questo dialogo fa per me?", "next": "fede.n4" }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Allora andiamo dritti al centro. La fede di Francesco non era un'etichetta culturale: era la sorgente di tutto il resto — della povertà, della fraternità, della pace. Nel Testamento racconta che il Signore gli diede una fede semplice nelle chiese; e tutta la sua vicenda, da San Damiano alla Verna, è letta dalle fonti come sequela del Cristo povero e crocifisso. Vediamo i testi.",
+          "options": [
+            { "id": "fede.n2.o1", "text": "I testi, sì.", "next": "fede.n5" },
+            { "id": "fede.n2.o2", "text": "E il suo rapporto con la Chiesa del tempo?", "next": "fede.n10" }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Risposta breve: sì, si può, con una condizione di onestà. Puoi studiarlo, ammirarlo, lasciarti interrogare dal suo stile senza aderire alla sua fede; questa app è fatta anche per te, e nessuno qui valuta la tua posizione. La condizione è non amputarlo: un Francesco senza Cristo non diventa più universale, diventa un altro personaggio. Se accetti di incontrarlo intero, radice compresa, c'è molto da ricevere.",
+          "options": [
+            { "id": "fede.n3.o1", "text": "Mostrami questa radice, allora.", "next": "fede.n5" },
+            { "id": "fede.n3.o2", "text": "Che cosa resta di concreto per chi non crede?", "next": "fede.n8" }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Sì, fa per te: forse più che per chiunque altro. Le domande sulla fede non richiedono un certificato di appartenenza: richiedono onestà, e tu l'hai appena avuta. Io non ti spingerò in nessuna direzione: ti mostro i testi, distinguo i livelli e mi fermo dove le fonti si fermano. Partiamo da ciò che Francesco stesso racconta.",
+          "options": [
+            { "id": "fede.n4.o1", "text": "Va bene: che cosa racconta?", "next": "fede.n5" },
+            { "id": "fede.n4.o2", "text": "E chi non arriva a credere, che cosa riceve?", "next": "fede.n8" }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Due testimonianze. La prima è sua: nel Testamento, dettato poco prima di morire, Francesco ricorda che il Signore gli diede una fede semplice nelle chiese, dove pregava rivolto a Cristo. La seconda è di Celano: nel 1224, sul monte della Verna, Francesco avrebbe ricevuto le stimmate, i segni della passione, che cercò di nascondere. Nota i livelli: il Testamento è parola di Francesco; le stimmate ci arrivano come testimonianza delle fonti più vicine, e l'app le presenta così, non come un dato misurabile. Insieme dicono una cosa sola: il centro della sua vita era la persona di Cristo.",
+          "options": [
+            { "id": "fede.n5.o1", "text": "Le stimmate: come dovrei intenderle?", "next": "fede.n6" },
+            { "id": "fede.n5.o2", "text": "Perché l'app insiste tanto su questo punto?", "next": "fede.n7" },
+            { "id": "fede.n5.o3", "text": "E per chi non crede, che cosa resta?", "next": "fede.n8" },
+            { "id": "fede.n5.o4", "text": "Una fede così totale non lasciava spazio ai dubbi?", "next": "fede.n9" }
+          ],
+          "sourcePassageIds": ["pass.testamento.chiese", "pass.celano1.stimmate"],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Con la stessa onestà con cui le presentano le fonti. Celano le racconta pochi anni dopo la morte di Francesco, e la tradizione le conserva come segno di una conformazione totale a Cristo crocifisso. La valutazione storica e teologica è discussa dagli studiosi; qui le fonti non ci permettono di dire di più, e chi ti dicesse di più, in un senso o nell'altro, andrebbe oltre i testi. Quello che possiamo dire: per la sua fraternità, quel segno confermava ciò che la sua vita già diceva.",
+          "options": [
+            { "id": "fede.n6.o1", "text": "E il rapporto con la Chiesa?", "next": "fede.n10" },
+            { "id": "fede.n6.o2", "text": "Capisco. E per chi resta fuori dalla fede?", "next": "fede.n8" }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Per due ragioni, entrambe dichiarate. La prima è storica: togliere la radice cristiana a Francesco non lo rende più universale, lo rende irriconoscibile — la povertà è «perché il Signore si è fatto povero», la pace è un saluto ricevuto, la fraternità è vangelo vissuto insieme. La seconda è editoriale: questa app spiega, non fa proselitismo. Spiegare la fede di Francesco non è chiederti di farla tua; è rifiutare di darti una versione edulcorata dei fatti.",
+          "options": [
+            { "id": "fede.n7.o1", "text": "E che cosa può ricevere chi non aderisce?", "next": "fede.n8" },
+            { "id": "fede.n7.o2", "text": "E Francesco come visse la Chiesa istituzionale?", "next": "fede.n10" },
+            { "id": "fede.n7.o3", "text": "Mi basta. Concludiamo.", "next": "fede.chiusura" }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Molto, purché preso intero. Lo stile — la gratuità, la minorità, la pace costruita andando incontro, lo sguardo di parentela sul creato — parla anche a chi non condivide la radice. Ma quelle cose, nei testi, sono frutti di quell'albero: conoscerle senza la radice è possibile, capirle fino in fondo senza la radice no. Puoi lasciarti interrogare senza aderire: è una postura seria, e la storia delle idee è piena di persone che hanno imparato da tradizioni non loro. Nessuno qui segna il tuo punteggio spirituale.",
+          "options": [
+            { "id": "fede.n8.o1", "text": "Allora rileggiamo i testi che raccontano quella radice.", "next": "fede.n5" },
+            { "id": "fede.n8.o2", "text": "Concludiamo.", "next": "fede.chiusura" }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Le fonti non raccontano dubbi dottrinali nel senso moderno: qui non possiamo dire ciò che i testi non dicono. Ma raccontano prove durissime: la malattia, la vista quasi perduta, il dolore di vedere la fraternità crescere e cambiare oltre le sue intenzioni. E proprio da quella stagione, secondo Bonaventura, nasce il Cantico delle creature. La fede di Francesco non fu assenza di notte: fu lode dentro la notte. Che è cosa molto diversa dall'ingenuità.",
+          "options": [
+            { "id": "fede.n9.o1", "text": "E le stimmate rientrano in questa stagione?", "next": "fede.n6" },
+            { "id": "fede.n9.o2", "text": "Possiamo concludere.", "next": "fede.chiusura" }
+          ],
+          "sourcePassageIds": ["pass.bonaventura.cantico"]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Né ribelle né allineato: qualcosa di più interessante. Francesco visse dentro la Chiesa medievale, ne cercò tenacemente l'approvazione per la sua forma di vita e ne accettò i limiti, pur spingendola a riformarsi dal basso, con l'esempio e non con la rivolta. La sua obbedienza alla Chiesa era parte della sua fede, non un calcolo. Capirlo evita due caricature speculari: il santo disobbediente caro ai moderni e il santo docile caro ai devoti.",
+          "options": [
+            { "id": "fede.n10.o1", "text": "Torniamo ai testi della sua fede.", "next": "fede.n5" },
+            { "id": "fede.n10.o2", "text": "Concludiamo.", "next": "fede.chiusura" }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Ci fermiamo qui. Non ti lascio un compito e men che mai un esame: ti lascio un criterio. Quando incontrerai Francesco, in questa app o altrove, chiediti sempre se la versione che hai davanti lo mostra intero, radice cristiana compresa. Poi la tua posizione resta tua: nessuno, qui, la giudica. Le altre conversazioni del Dialogo ti aspettano all'elenco.",
+          "options": [
+            { "id": "fede.chiusura.o1", "text": "Ripercorri questa conversazione dall'inizio.", "next": "fede.n1" },
+            { "id": "fede.chiusura.o2", "text": "Scopri le altre conversazioni del Dialogo.", "next": "fede.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Grazie per la serietà della domanda e per aver accettato una risposta senza scorciatoie. Ci si rivede nel Dialogo quando vorrai: le domande vere non hanno scadenza.",
+          "options": [
+            { "id": "fede.fine.o1", "text": "Ricomincia questa conversazione.", "next": "fede.n1" },
+            { "id": "fede.fine.o2", "text": "Concludi per ora." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

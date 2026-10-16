@@ -1,0 +1,1104 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Maestro Bernardo",
+      "description": "Oste del Borgo delle Querce da trent'anni: pratico, sospettoso con i forestieri, incapace di lasciare qualcuno al freddo. Del borgo conosce ogni debito e ogni gentilezza.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Vedova ed erborista del Borgo delle Querce. Osservatrice acuta e memoria del borgo: nulla di ciò che accade sulla strada le sfugge.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Frate Tommaso",
+      "description": "Frate minore di passaggio sulle strade dell'Umbria. Sandali consumati, saio rattoppato: ha l'abitudine al silenzio e il dono raro di ascoltare.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martino",
+      "description": "Mendicante incontrato sulla strada del Borgo delle Querce. Fu maniscalco a Spoleto, prima che la malattia gli portasse via la fucina, la casa e infine il posto tra gli uomini.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Giacomo",
+      "description": "Muratore di Assisi. Lavora al restauro della chiesetta di San Damiano e ha visto da vicino il giovane Francesco portare pietre e cantare.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matteo",
+      "description": "Cacciatore di montagna, comanda la guardia di una porta di Gubbio nei giorni della paura del lupo. Faccia segnata, lancia mai lontana, parola data che vale.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido II, vescovo di Assisi",
+      "description": "Vescovo di Assisi dal 1204. Documentato dalle fonti: davanti alla città coprì Francesco con il proprio mantello nella scena della rinuncia ai beni paterni.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Pietro di Bernardone",
+      "description": "Ricco mercante di panni di Assisi, padre di Francesco. Il conflitto con il figlio per i beni venduti sfociò nella scena pubblica davanti al vescovo, raccontata da Tommaso da Celano.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Francesco di Bernardone",
+      "description": "Il giovane figlio del mercante che ad Assisi, in questi anni, lascia tutto e ricomincia scalzo. Il viandante lo incrocia da lontano o per pochi istanti; le sue parole, qui, sono poche e fedeli alle fonti.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Il mantello del viandante",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Sotto una pioggia di fine autunno il viandante arriva al Borgo delle Querce e incontra un mendicante infreddolito: la prima scelta del cammino.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "La pioggia di fine autunno ti ha accompagnato per tre giorni. Quando scorgi le prime case del Borgo delle Querce, la sera sta già chiudendo i sentieri e il tuo mantello gronda acqua.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Sotto una siepe di prugnolo, una figura rannicchiata si stringe in un sacco logoro. Non tende la mano: ti guarda soltanto, con gli occhi chiari di chi ha smesso di chiedere.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martino ha l'età dei sentieri. È stato maniscalco a Spoleto, prima che la malattia gli portasse via la fucina e la casa. Ora la strada è tutto ciò che gli resta.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Non chiedo nulla, forestiero. Ma la notte sarà lunga e gelata, e la mia schiena non regge più l'umido.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martino trema sotto la siepe. Che fai?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Ti togli il mantello e glielo posi sulle spalle.",
+              "next": "mant.a1",
+              "effects": [
+                { "type": "set_flag", "flag": "mantello_dato", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 2 },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 2 }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Gli offri il braccio e lo accompagni fino al borgo.",
+              "next": "mant.b1",
+              "effects": [
+                { "type": "set_flag", "flag": "martino_accompagnato", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 1 },
+                { "type": "add_relation", "characterId": "char.bernardo", "delta": 1 }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Ti siedi accanto a lui, sotto la siepe, e lo ascolti.",
+              "next": "mant.d1",
+              "effects": [
+                { "type": "set_flag", "flag": "martino_ascoltato", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 1 },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 1 },
+                { "type": "add_relation", "characterId": "char.lucia", "delta": 1 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Il mantello lascia le tue spalle e il freddo ti entra subito nelle ossa. Ma in quel freddo c'è una leggerezza nuova, che non sai spiegare.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Non ho nulla da renderti, amico. Solo il mio nome: Martino. Al borgo sapranno che razza di forestiero sei.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Camminate piano, appoggiati l'uno all'altro, sotto la pioggia fitta. Al cancello dell'osteria le luci sono ancora accese.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Hai raccolto compagnia per strada, forestiero? Entrate tutti e due: il mio fuoco non fa domande.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Ero maniscalco a Spoleto: ferravo i cavalli dei signori. Poi le mani hanno cominciato a tremare, e nessuno vuole un fabbro che trema. Ti ringrazio di esserti seduto: la gente passa e tira dritto, come se la sfortuna fosse contagiosa.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Quando vi alzate, la pioggia è cessata. Gli indichi la strada del borgo e lo guardi allontanarsi piano, finché il buio non se lo prende.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "L'osteria del Borgo delle Querce odora di legna e di pane. Il fuoco basso asciuga i panni e scioglie la stanchezza del cammino.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                { "type": "flag", "flag": "mantello_dato", "value": true }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Ti presenti al banco infreddolito e senza mantello. Maestro Bernardo ti squadra a lungo, poi ti porge un mestolo di vino caldo: «Il mantello l'hai dato via, in una sera così? O sei matto, o sei migliore di come sembri. Vedremo.»",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            { "type": "add_relation", "characterId": "char.bernardo", "delta": 1 }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Maestro Bernardo regge l'osteria da trent'anni: pratico, diffidente, incapace di lasciare qualcuno al freddo. Del borgo conosce ogni debito e ogni gentilezza.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Qui nessuno regala niente, forestiero: il pane si paga e i guai pure. Ma il posto accanto al fuoco non è in vendita. Quello è di chi arriva.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "In un angolo, una donna dagli occhi attenti sminuzza erbe in un mortaio. È Lucia, la vedova che cura il borgo con radici e pazienza. Nulla di ciò che accade sulla strada le sfugge.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Ti ho visto fermarti sotto la siepe del prugnolo. Molti passano oltre, in quella curva: la strada insegna in fretta a non guardare. Tu ti sei fermato. Ricordalo, quando qualcuno ti dirà chi sei.",
+          "next": "mant.t1",
+          "effects": [
+            { "type": "discover_teaching", "teachingId": "teaching.accoglienza.ogni_uomo" }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Hai scoperto: Nessuno è estraneo. L'accoglienza comincia così: non da un'idea, ma da una siepe, da un uomo infreddolito, da una sosta. Andare incontro a chi il mondo insegna a evitare è il primo passo di ogni cammino.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Sotto quella siepe, cosa ti ha mosso e cosa ti tratteneva? Pensa alle tue strade di oggi: chi incontri abitualmente, e davanti a chi hai imparato a passare oltre?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "La notte passa quieta. Al mattino, sul banco dell'osteria, trovi una manciata di castagne e nessuna parola: al borgo le cose si ricordano. Il tuo cammino è cominciato.",
+          "exploredTeachingIds": ["teaching.accoglienza.ogni_uomo"]
+        }
+      ],
+      "sourceDocumentIds": ["source.narrazione_gioco"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Il figlio del mercante",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, inizio 1206: il viandante giunge nei giorni in cui Francesco, davanti al vescovo Guido, restituisce tutto al padre. La città guarda, e si interroga.",
+      "isBiographical": true,
+      "requiredChapters": ["story.mantello.001"],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi ti accoglie con un brusio che non è quello dei giorni di mercato. Nei vicoli la gente parla a voce bassa di un solo nome: il figlio di ser Pietro di Bernardone, il mercante di panni.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Alla fonte del borgo una donna ti spiega: il padre ha trascinato il giovane davanti al vescovo, per riavere i beni venduti, e la piazza si sta riempiendo. Sotto le mura, alla chiesetta diroccata di San Damiano, un muratore lotta da solo con un muro crollato.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Le voci in piazza crescono. Da una parte la folla, dall'altra un uomo solo con le sue pietre.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Scendi a San Damiano a dare una mano al muratore.",
+              "next": "rin.h1",
+              "effects": [
+                { "type": "set_flag", "flag": "aiutato_san_damiano", "value": true },
+                { "type": "add_relation", "characterId": "char.giacomo", "delta": 2 }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Corri in piazza, prima che la folla si chiuda.",
+              "next": "rin.p1",
+              "effects": [
+                { "type": "set_flag", "flag": "visto_rinuncia_da_vicino", "value": true }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Sali sui gradini di San Rufino, per osservare dall'alto.",
+              "next": "rin.v1",
+              "effects": [
+                { "type": "set_flag", "flag": "osservato_rinuncia", "value": true }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Per un'ora sollevi pietre accanto al muratore, mentre la folla rumoreggia lassù. L'uomo lavora in silenzio, poi indica la chiesetta: la ripara un ragazzo di Assisi, dice. Quello di cui parlano tutti.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Portava pietre qui come se fossero reliquie, e cantava. Dicono che sia impazzito. Io di matti ne ho visti molti: nessuno lavorava così.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Quando risali in piazza, la folla si sta già sciogliendo. Raccogli frammenti: il giovane ha restituito tutto al padre, persino i vestiti, e il vescovo l'ha coperto con il proprio mantello. Qualcuno ride. Molti no.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Ti fai largo tra la folla fin sotto il palazzo del vescovo. In mezzo, un giovane smagrito dagli occhi accesi; di fronte a lui, un uomo anziano che trema di rabbia: ser Pietro di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Francesco ha circa ventiquattro anni e il portamento di chi è cresciuto tra stoffe preziose e feste. Oggi, in piedi davanti al vescovo, sembra avere già lasciato tutto questo alle spalle.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "I miei panni, il mio cavallo, i miei denari: venduti per le sue follie! Voglio giustizia, monsignore. Che rinunci a ogni cosa mia, fino all'ultimo filo.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Un silenzio lungo. Poi il giovane si sfila i vestiti, uno a uno, e li depone ai piedi del padre. La folla trattiene il fiato. Il vescovo Guido si toglie il mantello e gli copre le spalle nude.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Fino a oggi ho chiamato padre Pietro di Bernardone. D'ora in poi potrò dire liberamente: Padre nostro, che sei nei cieli.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Dai gradini della cattedrale la piazza è un formicaio. Non senti le parole, ma vedi tutto: il giovane che si spoglia, il vecchio che raccoglie i vestiti, il vescovo che apre il suo mantello.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Accanto a te un venditore di mele sospira: ho visto processi e risse in questa piazza, dice, ma mai un figlio che restituisce tutto così. Intorno, qualcuno ride sguaiato, qualcuno si asciuga gli occhi.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "La sera cala su Assisi. Nelle osterie non si parla d'altro: c'è chi deride il giovane, chi lo dice santo, chi scuote la testa pensando ai propri figli.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Il vescovo Guido attraversa la piazza spopolata con il passo stanco di chi ha governato un giorno difficile. È lui che ha coperto Francesco con il proprio mantello, davanti a tutti.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Ho visto molti uomini aggrapparsi alle cose, nella mia vita. Mai nessuno lasciarle andare così. Pregate per quel ragazzo: e pregate per noi, che guardiamo e non capiamo.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "La piazza si svuota. Che fai, prima di riprendere la strada?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Segui da lontano Francesco, sceso verso San Damiano.",
+              "next": "rin.s1",
+              "effects": [
+                { "type": "set_flag", "flag": "seguito_francesco", "value": true },
+                { "type": "discover_teaching", "teachingId": "teaching.rinuncia.sine_proprio" }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Resti ad ascoltare le voci della piazza.",
+              "next": "rin.s2",
+              "effects": [
+                { "type": "set_flag", "flag": "voci_assisi", "value": true },
+                { "type": "discover_teaching", "teachingId": "teaching.rinuncia.sine_proprio" }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Torni dal muratore, a finire ciò che hai iniziato.",
+              "next": "rin.s3",
+              "conditions": [
+                { "type": "flag", "flag": "aiutato_san_damiano", "value": true }
+              ],
+              "effects": [
+                { "type": "add_relation", "characterId": "char.giacomo", "delta": 1 },
+                { "type": "discover_teaching", "teachingId": "teaching.rinuncia.sine_proprio" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Segui Francesco fino alla chiesetta diroccata. Lo vedi raccogliere una pietra, spolverarla, riporla sul muro come chi riordina una casa. Non osi disturbarlo. Riprendi la strada con quell'immagine negli occhi.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Resti finché le torce si spengono. Senti tutto il bestiario umano: l'invidia, la derisione, l'ammirazione trattenuta, la paura dei padri. La città ci metterà anni a decidere cosa ha visto.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Tornato a finire il muro? Bravo. Le pietre non mentono: restano dove le metti. Quel ragazzo lo capisce: sta ripartendo dalle fondamenta. Di sé, non solo delle chiese.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Cosa è documentato",
+          "text": "La rinuncia di Francesco davanti al vescovo Guido, all'inizio del 1206, è raccontata dalla Vita prima di Tommaso da Celano, la biografia più vicina al santo: la restituzione dei vestiti, le parole sul Padre che è nei cieli, il mantello del vescovo. Documentato è anche il restauro di San Damiano. Appartengono invece alla fiction il viandante che interpreti, il muratore Giacomo e i dialoghi raccolti in piazza.",
+          "sourceDocumentIds": ["source.celano_vita_prima"],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Hai scoperto: Niente di proprio, tutto ricevuto. La rinuncia non è disprezzo delle cose: è liberazione dall'idea di possederle. Chi non possiede nulla non deve difendere nulla, e può ricevere ogni cosa come dono.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Lasci Assisi mentre le luci si accendono una a una. Hai visto un uomo restare nudo e libero in una piazza, e una città intera interrogarsi. Anche tu cammini più leggero: o forse soltanto più attento al peso delle cose.",
+          "exploredTeachingIds": ["teaching.rinuncia.sine_proprio"]
+        }
+      ],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "L'uomo sul ciglio della strada",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Sulle strade tra i borghi, il suono di un battacchio annuncia un lebbroso. Il viandante deve fare i conti con la paura, il disgusto e il rispetto: e con una faccia che conosce.",
+      "isBiographical": false,
+      "requiredChapters": ["story.mantello.001"],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "La strada tra il borgo e la valle costeggia campi riposati e boschi di leccio. A un bivio senti un suono secco, ritmico: il battacchio di legno con cui i lebbrosi annunciano il loro passaggio.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Sul ciglio della strada, avvolto in stracci, siede un uomo. La prima cosa che senti è il tuo stesso corpo che si irrigidisce: il passo che rallenta, il fiato trattenuto, la voglia di attraversare dall'altra parte.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                { "type": "flag", "flag": "mantello_dato", "value": true }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Poi lo vedi: sulle spalle dell'uomo, rattoppato e sbiadito, c'è il tuo mantello. Quello che hai dato via la sera del tuo arrivo al Borgo delle Querce. Riconosci il mantello prima di riconoscere lui.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Non venire più vicino, amico: il male mi ha preso, e la legge mi manda fuori dal mondo. Ma il tuo mantello mi ha tenuto vivo l'inverno. Sono Martino: ti devo la vita, e non posso neppure stringerti la mano.",
+          "next": "leb.c1",
+          "effects": [
+            { "type": "add_relation", "characterId": "char.martino", "delta": 1 }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Un lebbroso sul ciglio della strada. Che fai?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Ti avvicini a un passo da lui e gli parli.",
+              "next": "leb.a1",
+              "effects": [
+                { "type": "set_flag", "flag": "parlato_lebbroso", "value": true },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 1 }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Gli lasci pane e fichi su una pietra, senza avvicinarti.",
+              "next": "leb.b1",
+              "effects": [
+                { "type": "set_flag", "flag": "cibo_lasciato", "value": true },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 1 }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Passi oltre. Ma dopo venti passi ti fermi e torni indietro.",
+              "next": "leb.d1",
+              "effects": [
+                { "type": "set_flag", "flag": "tornato_indietro", "value": true }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Da vicino, sotto la cenere grigia della malattia, riconosci gli occhi chiari dell'uomo della siepe: è Martino, il mendicante del tuo primo giorno al borgo.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "La malattia mi ha preso le dita, poi il borgo mi ha preso il resto. Suono questo legno e la gente scappa prima ancora di vedermi. Tu invece sei rimasto. Non sai che dono è essere guardati in faccia.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Deponi il pane e i fichi su una pietra piatta, a metà strada fra te e lui. È il modo che tutti usano: la carità a distanza di sicurezza. Lui china il capo, lentamente.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Il pane mi basta, e ti ringrazio. Ma ricordalo, forestiero: quelli come me muoiono due volte. La prima quando arriva il male, la seconda quando nessuno li chiama più per nome.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Fai venti passi verso la valle. Poi la vergogna ti ferma più del battacchio: torni indietro, lentamente, fino al ciglio della strada. L'uomo alza lo sguardo, stupito.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "In molti passano, pochi tornano. Il passo all'indietro è il più difficile di tutti: lo so, l'ho imparato anch'io. Siediti, se vuoi. Raccontami da dove vieni.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Restate a parlare mentre il sole scende. Martino ti racconta di un frate di Assisi, quel figlio del mercante che lasciò tutto: ora entra nei lazzaretti, lava le piaghe e chiama ciascuno per nome.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Il lazzaretto è nella valle, oltre il ponte, dice Martino. Se cerchi quel frate, lo troverai là.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Ti offri di accompagnarlo fino al lazzaretto.",
+              "next": "leb.e1",
+              "effects": [
+                { "type": "set_flag", "flag": "accompagnato_lazzaretto", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 1 },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 1 },
+                { "type": "discover_teaching", "teachingId": "teaching.carita.lebbrosi" },
+                { "type": "discover_teaching", "teachingId": "teaching.misericordia.compassione" }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Gli prometti che al borgo nessuno lo dimenticherà.",
+              "next": "leb.e2",
+              "effects": [
+                { "type": "set_flag", "flag": "promessa_martino", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 1 },
+                { "type": "discover_teaching", "teachingId": "teaching.carita.lebbrosi" },
+                { "type": "discover_teaching", "teachingId": "teaching.misericordia.compassione" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Lo accompagni lungo la valle, piano, senza toccarlo ma senza scansarlo. Al ponte vi salutate come si salutano gli amici: con il rimpianto di doversi lasciare.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Il borgo mi ha cacciato, dice Martino. Ma se qualcuno lassù pronuncerà ancora il mio nome, sarò meno morto. Glielo prometti. Non sai ancora quanto costerà mantenerla, quella promessa.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Le parole di Francesco",
+          "text": "Nel Testamento, il suo scritto più personale dettato alla fine della vita, Francesco racconta che il Signore lo condusse tra i lebbrosi e che con loro fece misericordia: ciò che gli sembrava amaro si convertì in dolcezza (Testamento 1-3). È uno dei pochi episodi attestati dalla sua stessa voce. Martino e il vostro incontro appartengono alla fiction del Viandante.",
+          "sourceDocumentIds": ["source.testamento"],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Hai scoperto: L'incontro che cambia la vita. La carità non è un sentimento: è il gesto fisico di chi si avvicina a chi è escluso, e scopre che l'amarezza si converte in dolcezza. Chi dona non si pone sopra chi riceve: si incontra.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Hai scoperto: Farsi prossimo con il corpo. Nel Testamento Francesco non dice che provò misericordia: dice che la fece. La compassione è vera quando si lascia raggiungere dalla sofferenza dell'altro fino a muovere le mani.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Che cosa ha mosso il tuo corpo oggi, prima dei tuoi pensieri: paura, disgusto, tenerezza? Ricorda un volto che hai imparato a evitare. Come si chiama?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Riprendi la strada al buio, con il suono del battacchio che si perde alle spalle. Qualcosa, nel tuo modo di guardare le persone, è cambiato per sempre.",
+          "exploredTeachingIds": ["teaching.carita.lebbrosi", "teaching.misericordia.compassione"]
+        }
+      ],
+      "sourceDocumentIds": ["source.testamento"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "La belva di Gubbio",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio vive nel terrore di un lupo feroce. Tra chi organizza la difesa, chi segue il frate disarmato e chi cerca una mediazione, il viandante vede nascere una pace.",
+      "isBiographical": false,
+      "requiredChapters": ["story.rinuncia.001"],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio ti appare all'improvviso, aggrappata al monte. Ma le porte sono sbarrate in pieno giorno e i campi intorno sono deserti: nessuno manda più le greggi al pascolo.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matteo comanda la guardia della porta: cacciatore di montagna, faccia segnata e lancia mai lontana. È lui che organizza le battute contro la belva.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Un lupo, forestiero. Grosso come un vitello e senza paura degli uomini. Ha preso pecore, cani, e poi peggio. Usciremo in venti, armati. Se hai salde le gambe, sta' lontano dal bosco.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "Nella taverna presso la porta gira una voce che pare una beffa: è in città un frate di Assisi, di quelli scalzi che salutano augurando la pace. Dice che andrà lui solo, disarmato, a incontrare la belva.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "La città è stretta fra la paura e l'incredulità. Che fai?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Aiuta Matteo a organizzare la difesa di case e greggi.",
+              "next": "lupo.d1",
+              "effects": [
+                { "type": "set_flag", "flag": "lupo_difesa", "value": true },
+                { "type": "add_relation", "characterId": "char.matteo", "delta": 2 }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Segui il frate fuori dalle mura, restando qualche passo indietro.",
+              "next": "lupo.f1",
+              "effects": [
+                { "type": "set_flag", "flag": "lupo_seguito_frate", "value": true }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Convinci i cacciatori ad accompagnare il frate senza lance.",
+              "next": "lupo.m1",
+              "effects": [
+                { "type": "set_flag", "flag": "lupo_mediazione", "value": true },
+                { "type": "add_relation", "characterId": "char.matteo", "delta": 1 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Per tutta la notte sbarrate porte, portate fascine, organizzate i turni di guardia. Se la belva attacca, la città non sarà sorpresa. È un lavoro vero, e la gente respira.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Non amo chi parla ai lupi, ma amo chi lavora. Tu hai lavorato. Domani, con le lance o senza, Gubbio sarà pronta.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Al mattino, dalle mura, vedete il frate uscire solo verso il bosco. Un silenzio lunghissimo. Poi riappare sulla strada: e accanto a lui, docile come un agnello, cammina il lupo.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Cammini tre passi dietro il frate, oltre l'ultima casa. Il bosco si chiude sopra il sentiero e la paura ti stringe la gola: ma i suoi passi sono quieti, e tirano avanti anche i tuoi.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Non temere, fratello. Andiamo a incontrare una creatura che ha fame e paura, come tutti noi. Resta vicino, se ti va.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "La belva esce dal bosco ringhiando. Il frate si fa il segno della croce e le parla come a un fratello: le offre pace, in nome di un patto. E il lupo, davanti ai tuoi occhi, gli si sdraia ai piedi.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Parli a lungo con Matteo e i suoi: niente lance, niente cani. Seguirete il frate a distanza, pronti a tutto ma decisi a non colpire per primi. Costa fatica convincerli: la paura vuole sempre il ferro.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Faremo come dici. Ma se la belva salta, non rispondo di niente. Che il cielo ci aiuti: andiamo a una battuta senza armi.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Mezza città segue in silenzio, lungo il sentiero. Quando il lupo appare, cento mani cercano armi che non ci sono: ma nessuna si leva. Il frate parla, la belva si acquatta, e la pace comincia così: da una paura che nessuno scarica sull'altro.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "In piazza, davanti a tutta Gubbio, il frate suggella il patto: la città nutrirà il lupo per tutti i suoi giorni, e il lupo non torcerà più un pelo a uomini né ad animali. La belva alza la zampa, e la piazza scoppia.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "La paura si scioglie in festa. Che fai?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Ti offri di portare ogni giorno un pane alla tana del lupo.",
+              "next": "lupo.g1",
+              "effects": [
+                { "type": "set_flag", "flag": "pane_al_lupo", "value": true },
+                { "type": "discover_teaching", "teachingId": "teaching.pace.saluto" }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Resti con Matteo a smontare le trappole nel bosco.",
+              "next": "lupo.g2",
+              "effects": [
+                { "type": "set_flag", "flag": "trappole_smontate", "value": true },
+                { "type": "add_relation", "characterId": "char.matteo", "delta": 1 },
+                { "type": "discover_teaching", "teachingId": "teaching.pace.saluto" }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Ti siedi in piazza e raccogli le voci della città.",
+              "next": "lupo.g3",
+              "effects": [
+                { "type": "set_flag", "flag": "voci_gubbio", "value": true },
+                { "type": "discover_teaching", "teachingId": "teaching.pace.saluto" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "Per i giorni che resti a Gubbio, ogni mattina un pane tuo arriva alla tana. I bambini ti seguono a distanza: vogliono vedere se è vero che la belva non morde la mano che la nutre.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Smontate tagliole e lacci per un giorno intero. Anni a tenderle, dice Matteo, e un frate scalzo le rende inutili in un mattino. Ride, ma c'è rispetto nella sua risata.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "In piazza senti la città che torna a raccontarsi: la vecchia che gli portava la minestra di nascosto, il fornaio che gli deve le dita, i bambini che ormai lo chiamano per nome. La paura aveva spento perfino le storie.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Racconto o storia?",
+          "text": "Il lupo di Gubbio è narrato dai Fioretti, una raccolta della fine del Trecento (cap. 21): letteratura agiografica, non cronaca, e nessun documento del tempo lo conferma. Lo proponiamo come racconto della memoria, non come fatto storico. Hanno invece fondamento documentario il saluto di pace che Francesco dice di aver ricevuto, ricordato nel Testamento, e l'annuncio della pace da parte dei primi frati. Il tuo ruolo nella vicenda è fiction.",
+          "sourceDocumentIds": ["source.fioretti"],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Hai scoperto: Il saluto della pace. La pace non è assenza di guerra: è un annuncio da portare, un coraggio da avere. Nasce andando incontro a ciò che fa paura, senza armi in pugno.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbio aveva tre strade: difendersi, fidarsi, mediare. Tu quale hai scelto, e perché? Nella tua vita, chi o che cosa è il lupo da cui tutti si difendono sbarrando le porte?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Lasci Gubbio mentre il lupo, ormai pasciuto e innocuo, dorme al sole presso il forno. La città ha imparato una parola nuova, e tu l'hai imparata con lei: la pace si fa, non si aspetta.",
+          "exploredTeachingIds": ["teaching.pace.saluto"]
+        }
+      ],
+      "sourceDocumentIds": ["source.fioretti"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "La notte del temporale",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Sorpreso da un temporale, il viandante divide una grotta con frate Tommaso: una notte di racconto e ascolto, e un mattino di sole sulle foglie bagnate.",
+      "isBiographical": false,
+      "requiredChapters": ["story.lupo.001"],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Sulla via del ritorno verso il Borgo delle Querce, il cielo si chiude in fretta. Il vento porta odore di pioggia e i primi tuoni rotolano oltre i crinali.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Mentre il temporale scoppia, una voce ti chiama da una grotta sul ciglio del sentiero. Un frate scalzo ti fa cenno di entrare, tra due gocce e un lampo.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Frate Tommaso è un minore di passaggio: sandali consumati, saio rattoppato, un bastone e null'altro. Ha l'abitudine al silenzio e il dono raro di ascoltare.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Entra, fratello, e asciugati. La grotta non è di nessuno: stanotte la dividiamo con la pioggia. Ho un po' di pane e il fuoco: per due viandanti è un palazzo.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Il fuoco prende, il pane si divide da sé. Fuori il temporale fa rumore di fiume; dentro, per la prima volta dopo molti giorni, non hai fretta.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "La notte sarà lunga. Come la riempi?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Chiedi a frate Tommaso della sua vita, prima del saio.",
+              "next": "temp.s1",
+              "effects": [
+                { "type": "set_flag", "flag": "storia_tommaso", "value": true },
+                { "type": "add_relation", "characterId": "char.frate_tommaso", "delta": 2 }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Racconti tu: il borgo, Martino, la piazza di Assisi, il lupo di Gubbio.",
+              "next": "temp.s2",
+              "effects": [
+                { "type": "set_flag", "flag": "raccontato_viaggio", "value": true },
+                { "type": "add_relation", "characterId": "char.frate_tommaso", "delta": 1 }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Restate in silenzio, ad ascoltare la pioggia.",
+              "next": "temp.s3",
+              "effects": [
+                { "type": "set_flag", "flag": "silenzio_condiviso", "value": true },
+                { "type": "add_relation", "characterId": "char.frate_tommaso", "delta": 1 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Facevo il pastore, su questi monti. Una piena mi prese il gregge e la capanna, in una notte come questa. Piansi come un bambino. Poi scoprii che, non possedendo più nulla, non temevo più nulla: fu lì che compresi i frati di Assisi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Frate Tommaso ascolta senza interrompere, gli occhi sul fuoco. Alla fine annuisce: ogni strada insegna, dice, se la cammini a occhi aperti. Tu hai lasciato che la strada ti cambiasse, e si vede.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Il silenzio non è vuoto: la pioggia scandisce, il fuoco risponde, il respiro dell'altro tiene il ritmo. Capisci che ci sono conversazioni che non hanno bisogno di parole.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Verso l'alba il temporale si assottiglia in una pioggia dolce. Frate Tommaso parla del suo fratello Francesco, che anche dal letto del dolore compone lodi: chiama fratello il sole, sorella l'acqua, madre la terra che ci porta in grembo.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Dice che ogni creatura loda il Creatore facendo ciò che è: il sole scaldando, l'acqua dissetando, la terra nutrendo. E che anche il giorno brutto è ricevuto, non dovuto. Se lo ripeto, è perché stanotte, qui, l'ho visto con i miei occhi.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Le prime luci filtrano nella grotta.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Gli chiedi come si fa a ringraziare quando tutto va male.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Non chiedi nulla: guardi le gocce sulle foglie, e basta.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Non lo so spiegare, fratello. So che la gratitudine non è il premio dei giorni buoni: è un esercizio, come camminare. Chi lo fa ogni giorno, nei giorni neri ha le gambe allenate.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Restate a guardare finché il sole non buca le nubi. Le foglie bagnate si accendono una a una, e la valle intera sembra appena creata.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Uscite dalla grotta in un mondo lavato. L'acqua scroscia ancora dalle fronde, il sole la fa brillare, e tu scopri di sorridere senza motivo. Frate Tommaso riprende il suo bastone: le vostre strade si dividono qui.",
+          "next": "temp.hist1",
+          "effects": [
+            { "type": "discover_teaching", "teachingId": "teaching.creato.cantico" },
+            { "type": "discover_teaching", "teachingId": "teaching.gratitudine.lodi" }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Il Cantico, la grotta, la fiction",
+          "text": "Il Cantico delle creature è opera autentica di Francesco, composta nel 1225-1226, nella stagione della malattia: una lauda in volgare in cui sole, luna, vento, acqua, fuoco e terra lodano Dio come fratelli e sorelle. Autentiche sono anche le Lodi di Dio Altissimo, una preghiera senza richieste. Frate Tommaso e la notte nella grotta appartengono alla fiction del Viandante; le sue parole parafrasano il Cantico senza citarlo.",
+          "sourceDocumentIds": ["source.cantico"],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Hai scoperto: Frate sole, sora acqua. Il mondo non è un magazzino di risorse né un idolo: è una famiglia di creature che lodano il Creatore. La cura del creato nasce da parentela e gratitudine, non da utilità.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Hai scoperto: La lode che non chiede nulla. La gratitudine non premia la fortuna: è uno sguardo allenato che riconosce il dono in ogni cosa, l'acqua, il sole, il giorno, perfino nella malattia.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Questa notte hai diviso pane, fuoco e silenzio con uno sconosciuto. Guarda la tua giornata di oggi come la grotta guardava il temporale: che cosa, di ciò che hai, è ricevuto e non dovuto?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Camminando verso il borgo ripensi a sora acqua, che disseta e lava e canta nei fossi. Nel giardino della memoria, da oggi, scorre una fontana.",
+          "unlocks": [
+            { "type": "unlock_garden", "elementId": "garden.fontana" }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "Al Borgo delle Querce ti accolgono come chi torna da lontano. Hai ancora l'odore del fumo e della pioggia nei panni, e negli orecchi il verso dell'acqua. Il cammino continua.",
+          "exploredTeachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi"]
+        }
+      ],
+      "sourceDocumentIds": ["source.cantico"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

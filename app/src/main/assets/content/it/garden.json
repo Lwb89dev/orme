@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Il sentiero di pietra",
+      "kind": "sentiero",
+      "description": "Un sentiero di pietre chiare attraversa il giardino: il punto da cui ogni cammino comincia.",
+      "symbolism": "Il cammino come immagine della vita: si fa strada camminando, una pietra alla volta.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "L'ulivo della pace",
+      "kind": "albero",
+      "description": "Un ulivo antico, dalla chioma argentea, piantato quando hai scoperto il saluto della pace.",
+      "symbolism": "L'ulivo: pianta mediterranea della pace e della pazienza. Cresce lento e dura generazioni.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "La fontana di sora acqua",
+      "kind": "acqua",
+      "description": "Una fontana di pietra con acqua limpida, che il sole accende al mattino.",
+      "symbolism": "\"Sora acqua, utile e umile e preziosa e casta\": nel Cantico l'acqua è sorella da ringraziare.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Le rose di San Damiano",
+      "kind": "fiore",
+      "description": "Un rosaio fiorito vicino al muro: cresce dove qualcuno si è preso cura degli altri.",
+      "symbolism": "La bellezza che nasce dal servizio: la carità fa fiorire i luoghi aridi.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "L'orto condiviso",
+      "kind": "orto",
+      "description": "Piccole aiuole di erbe e ortaggi, curate a turno: il lavoro umile che nutre tutti.",
+      "symbolism": "Il servizio quotidiano: chi coltiva l'orto non lo possiede, lo custodisce per chi verrà.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Il cipresso del silenzio",
+      "kind": "albero",
+      "description": "Un cipresso alto e dritto, che segna il confine tra il giardino e il bosco.",
+      "symbolism": "La preghiera come verticale: radici nella terra, la punta verso il cielo.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Il nido dei fringuelli",
+      "kind": "animali",
+      "description": "Tra i rami più sicuri, una coppia di fringuelli ha scelto il giardino per fare il nido.",
+      "symbolism": "L'accoglienza: il giardino diventa casa anche di chi arriva da fuori.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "La panca di pietra",
+      "kind": "struttura",
+      "description": "Una panca di pietra sotto il muro a mezzogiorno: il posto dove sedersi e restare.",
+      "symbolism": "La fede come sosta fiduciosa: non sempre camminare, a volte semplicemente stare.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "I girasoli del ringraziamento",
+      "kind": "fiore",
+      "description": "Un filare di girasoli che ruotano seguendo la luce durante il giorno.",
+      "symbolism": "La gratitudine: girarsi verso la luce è un esercizio quotidiano dello sguardo.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "L'alveare delle api",
+      "kind": "animali",
+      "description": "Un'arnia di legno profuma di cera; le api vanno e vengono dai fiori del giardino.",
+      "symbolism": "La fraternità: nessuna ape fa miele da sola, e nessuna possiede il favo.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Guardare il cielo",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        { "kind": "osserva", "text": "Alza lo sguardo dal giardino verso il cielo. Resta qualche istante in silenzio, senza fare nulla." },
+        { "kind": "leggi", "text": "Leggi lentamente l'apertura del Cantico delle creature.", "sourcePassageId": "pass.cantico.apertura" },
+        { "kind": "rifletti", "text": "Francesco chiama il sole \"frate\" e la luna \"sora\". Che differenza farebbe guardare il mondo come una famiglia invece che come una risorsa?" },
+        { "kind": "annota", "text": "Se vuoi, annota nel diario una cosa per cui oggi puoi dire: \"Laudato sie, mi' Signore\"." }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Ascoltare l'acqua",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        { "kind": "ascolta", "text": "Avvicinati alla fontana. Ascolta il suono dell'acqua per qualche respiro, senza fretta." },
+        { "kind": "leggi", "text": "Rilegge la lode di Dio scritta alla Verna: una preghiera che non chiede nulla.", "sourcePassageId": "pass.lodi_dio.lode" },
+        { "kind": "rifletti", "text": "Le Lodi di Dio non contengono richieste: solo riconoscimento. Quando è stata l'ultima volta che hai ringraziato senza chiedere?" },
+        { "kind": "annota", "text": "Se vuoi, scrivi nel diario tre cose ricevute oggi, anche piccole." }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Il passo lento",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        { "kind": "osserva", "text": "Percorri il sentiero di pietra lentamente, notando ogni passo: il peso, il contatto, il ritmo." },
+        { "kind": "leggi", "text": "Leggi la risposta di Francesco a frate Leone, che cercava la scelta giusta.", "sourcePassageId": "pass.lettera_leone.coscienza" },
+        { "kind": "rifletti", "text": "A frate Leone, Francesco non dà istruzioni ma libertà: \"segui la tua coscienza davanti a Dio\". Cosa ti insegna questo modo di accompagnare?" },
+        { "kind": "annota", "text": "Se vuoi, annota nel diario una decisione che stai portando, e dove senti la tua coscienza orientarsi." }
+      ]
+    }
+  ]
+}
