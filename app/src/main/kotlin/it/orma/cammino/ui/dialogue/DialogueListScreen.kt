@@ -35,20 +35,24 @@ import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.Route
 import it.orma.cammino.R
 import it.orma.cammino.ui.components.IllustratedBanner
+import it.orma.cammino.ui.i18n.uiText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DialogueListScreen(container: AppContainer, catalog: ContentCatalog, navController: NavHostController) {
-    val vm: DialogueListViewModel = viewModel(factory = DialogueListViewModel.factory(container, catalog))
+    val vm: DialogueListViewModel = viewModel(
+        factory = DialogueListViewModel.factory(container, catalog),
+        key = "dialogue-list:${catalog.manifest.language}",
+    )
     val state by vm.state.collectAsStateWithLifecycle()
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Il Dialogo") },
+                title = { Text(uiText("Il Dialogo", "The Dialogue")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
             )
@@ -64,10 +68,10 @@ fun DialogueListScreen(container: AppContainer, catalog: ContentCatalog, navCont
         ) {
             IllustratedBanner(
                 artworkRes = R.drawable.art_mode_dialogue,
-                contentDescription = "Due panche in un chiostro aperto sulle colline umbre",
+                contentDescription = uiText("Due panche in un chiostro aperto sulle colline umbre", "Two benches in a cloister open to the Umbrian hills"),
             )
             Text(
-                "Una guida risponde alle grandi domande su Francesco. Non è il santo e non ne possiede l'autorità: ti accompagna tra le fonti. Funziona interamente offline.",
+                uiText("Una guida risponde alle grandi domande su Francesco. Non è il santo e non ne possiede l'autorità: ti accompagna tra le fonti. Funziona interamente offline.", "A guide answers great questions about Francis. It is not the saint and has no authority in his place: it accompanies you through the sources. It works entirely offline."),
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -90,14 +94,14 @@ fun DialogueListScreen(container: AppContainer, catalog: ContentCatalog, navCont
                             )
                             if (row.completed) {
                                 Text(
-                                    "Già percorsa — puoi ricominciarla",
+                                    uiText("Già percorsa — puoi ricominciarla", "Already walked — you may begin again"),
                                     style = MaterialTheme.typography.labelSmall,
                                     color = MaterialTheme.colorScheme.secondary,
                                 )
                             }
                         }
                         if (row.completed) {
-                            Icon(Icons.Filled.CheckCircle, contentDescription = "Completata", tint = MaterialTheme.colorScheme.primary)
+                            Icon(Icons.Filled.CheckCircle, contentDescription = uiText("Completata", "Completed"), tint = MaterialTheme.colorScheme.primary)
                         }
                     }
                 }

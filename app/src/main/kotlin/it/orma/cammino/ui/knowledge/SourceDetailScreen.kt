@@ -32,6 +32,8 @@ import it.orma.cammino.core.designsystem.components.SourceBadge
 import it.orma.cammino.core.model.Authenticity
 import it.orma.cammino.core.model.ReviewStatus
 import it.orma.cammino.di.AppContainer
+import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.sourceCategoryText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -47,10 +49,10 @@ fun SourceDetailScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(doc?.title ?: "Fonte") },
+                title = { Text(doc?.title ?: uiText("Fonte", "Source")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
             )
@@ -65,11 +67,11 @@ fun SourceDetailScreen(
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
             if (doc == null) {
-                Text("Documento non trovato", color = MaterialTheme.colorScheme.error)
+                Text(uiText("Documento non trovato", "Document not found"), color = MaterialTheme.colorScheme.error)
                 return@Column
             }
 
-            SourceBadge(doc.category)
+            SourceBadge(doc.category, label = sourceCategoryText(doc.category))
             Text(
                 doc.title,
                 style = MaterialTheme.typography.headlineMedium,
@@ -87,10 +89,10 @@ fun SourceDetailScreen(
             )
             Text(
                 when (doc.authenticity) {
-                    Authenticity.AUTHENTIC -> "Attribuzione generalmente accettata"
-                    Authenticity.DISPUTED -> "Attribuzione discussa dalla critica"
-                    Authenticity.NOT_BY_FRANCIS -> "Non attribuibile a Francesco"
-                    Authenticity.LEGENDARY -> "Racconto agiografico"
+                    Authenticity.AUTHENTIC -> uiText("Attribuzione generalmente accettata", "Generally accepted attribution")
+                    Authenticity.DISPUTED -> uiText("Attribuzione discussa dalla critica", "Attribution debated by scholarship")
+                    Authenticity.NOT_BY_FRANCIS -> uiText("Non attribuibile a Francesco", "Not attributable to Francis")
+                    Authenticity.LEGENDARY -> uiText("Racconto agiografico", "Hagiographic tale")
                 },
                 style = MaterialTheme.typography.labelMedium,
                 color = MaterialTheme.colorScheme.secondary,
@@ -102,7 +104,7 @@ fun SourceDetailScreen(
             if (doc.licenseNote.isNotBlank()) {
                 PergamenaSection {
                     Text(
-                        "Diritti e licenze",
+                        uiText("Diritti e licenze", "Rights and licences"),
                         style = MaterialTheme.typography.titleMedium,
                         color = MaterialTheme.colorScheme.primary,
                     )
@@ -114,7 +116,7 @@ fun SourceDetailScreen(
             if (passages.isNotEmpty()) {
                 OrnamentalDivider()
                 Text(
-                    "Passi citati in questa app",
+                    uiText("Passi citati in questa app", "Passages cited in this app"),
                     style = MaterialTheme.typography.titleLarge,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.semantics { heading() },
@@ -138,14 +140,14 @@ fun SourceDetailScreen(
                         if (passage.translation.isNotBlank()) {
                             Text(passage.translation, style = MaterialTheme.typography.bodyLarge)
                             Text(
-                                "Traduzione editoriale",
+                                uiText("Traduzione editoriale", "Editorial translation"),
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                             )
                         } else if (passage.paraphrase.isNotBlank()) {
                             Text(passage.paraphrase, style = MaterialTheme.typography.bodyLarge)
                             Text(
-                                "Parafrasi editoriale",
+                                uiText("Parafrasi editoriale", "Editorial paraphrase"),
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                             )
@@ -157,7 +159,7 @@ fun SourceDetailScreen(
                         if (passage.reviewStatus == ReviewStatus.NEEDS_VERIFICATION) {
                             Spacer(Modifier.height(6.dp))
                             Text(
-                                "Riferimento in corso di verifica: da non citare letteralmente.",
+                                uiText("Riferimento in corso di verifica: da non citare letteralmente.", "Reference under review: do not quote literally."),
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.tertiary,
                             )

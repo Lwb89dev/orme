@@ -44,6 +44,7 @@ import it.orma.cammino.core.model.ContemplationCompleted
 import it.orma.cammino.core.model.Modality
 import it.orma.cammino.core.model.TeachingExplored
 import it.orma.cammino.di.AppContainer
+import it.orma.cammino.ui.i18n.uiText
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -65,10 +66,10 @@ fun ContemplationScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(contemplation?.title ?: "Contemplazione") },
+                title = { Text(contemplation?.title ?: uiText("Contemplazione", "Contemplation")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.Filled.Close, contentDescription = "Chiudi la contemplazione")
+                        Icon(Icons.Filled.Close, contentDescription = uiText("Chiudi la contemplazione", "Close contemplation"))
                     }
                 },
             )
@@ -83,12 +84,12 @@ fun ContemplationScreen(
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
             if (contemplation == null) {
-                Text("Contemplazione non trovata", color = MaterialTheme.colorScheme.error)
+                Text(uiText("Contemplazione non trovata", "Contemplation not found"), color = MaterialTheme.colorScheme.error)
                 return@Column
             }
 
             Text(
-                "Passo ${stepIndex + 1} di ${contemplation.steps.size}",
+                uiText("Passo ${stepIndex + 1} di ${contemplation.steps.size}", "Step ${stepIndex + 1} of ${contemplation.steps.size}"),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -96,11 +97,11 @@ fun ContemplationScreen(
             val step = contemplation.steps[stepIndex]
             Text(
                 when (step.kind) {
-                    ContemplationStepKind.OSSERVA -> "Osserva"
-                    ContemplationStepKind.ASCOLTA -> "Ascolta"
-                    ContemplationStepKind.LEGGI -> "Leggi"
-                    ContemplationStepKind.RIFLETTI -> "Rifletti"
-                    ContemplationStepKind.ANNOTA -> "Annota"
+                    ContemplationStepKind.OSSERVA -> uiText("Osserva", "Observe")
+                    ContemplationStepKind.ASCOLTA -> uiText("Ascolta", "Listen")
+                    ContemplationStepKind.LEGGI -> uiText("Leggi", "Read")
+                    ContemplationStepKind.RIFLETTI -> uiText("Rifletti", "Reflect")
+                    ContemplationStepKind.ANNOTA -> uiText("Annota", "Write")
                 },
                 style = MaterialTheme.typography.headlineMedium,
                 color = MaterialTheme.colorScheme.primary,
@@ -134,7 +135,7 @@ fun ContemplationScreen(
                 OutlinedTextField(
                     value = noteText,
                     onValueChange = { noteText = it; noteSaved = false },
-                    label = { Text("La tua nota (resta nel diario, solo sul dispositivo)") },
+                    label = { Text(uiText("La tua nota (resta nel diario, solo sul dispositivo)", "Your note (kept in the journal, on this device only)")) },
                     modifier = Modifier.fillMaxWidth(),
                     minLines = 3,
                 )
@@ -148,21 +149,21 @@ fun ContemplationScreen(
                             )
                         }
                         noteSaved = true
-                    }) { Text("Salva nel diario") }
+                    }) { Text(uiText("Salva nel diario", "Save to journal")) }
                 }
                 if (noteSaved) {
-                    Text("Annotato nel diario.", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.secondary)
+                    Text(uiText("Annotato nel diario.", "Added to the journal."), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.secondary)
                 }
             }
 
             OrnamentalDivider()
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 if (stepIndex > 0) {
-                    TextButton(onClick = { stepIndex-- }) { Text("Indietro") }
+                    TextButton(onClick = { stepIndex-- }) { Text(uiText("Indietro", "Back")) }
                 }
                 Spacer(Modifier.weight(1f))
                 if (stepIndex < contemplation.steps.size - 1) {
-                    Button(onClick = { stepIndex++ }) { Text("Avanti") }
+                    Button(onClick = { stepIndex++ }) { Text(uiText("Avanti", "Next")) }
                 } else if (!completed) {
                     Button(onClick = {
                         completed = true
@@ -171,9 +172,9 @@ fun ContemplationScreen(
                         )
                         contemplation.teachingId?.let { events += TeachingExplored(it, Modality.GIARDINO) }
                         CoroutineScope(Dispatchers.IO).launch { container.dispatch(events) }
-                    }) { Text("Concludi") }
+                    }) { Text(uiText("Concludi", "Conclude")) }
                 } else {
-                    Button(onClick = { navController.popBackStack() }) { Text("Torna al giardino") }
+                    Button(onClick = { navController.popBackStack() }) { Text(uiText("Torna al giardino", "Back to the garden")) }
                 }
             }
             Spacer(Modifier.height(24.dp))

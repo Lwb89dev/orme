@@ -79,14 +79,15 @@ class JournalRepository(private val db: CamminoDatabase) {
         return Json { prettyPrint = true; encodeDefaults = true }.encodeToString(JournalExport.serializer(), export)
     }
 
-    suspend fun exportMarkdown(): String {
+    suspend fun exportMarkdown(language: String = "it"): String {
         val all = db.journalDao().observeAll().first()
-        val sb = StringBuilder("# Diario — Orme\n\n")
+        val english = language.equals("en", ignoreCase = true)
+        val sb = StringBuilder(if (english) "# Journal — Orme\n\n" else "# Diario — Orme\n\n")
         all.sortedBy { it.createdAt }.forEach { e ->
-            sb.append("## ").append(java.text.SimpleDateFormat("d MMMM y, HH:mm", java.util.Locale.ITALIAN).format(java.util.Date(e.createdAt))).append("\n\n")
-            sb.append("*").append(e.kind.lowercase()).append("*")
-            e.teachingId?.let { sb.append(" · insegnamento: ").append(it) }
-            e.chapterId?.let { sb.append(" · capitolo: ").append(it) }
+            sb.append("## ").append(java.text.SimpleDateFormat("d MMMM y, HH:mm", if (english) java.util.Locale.ENGLISH else java.util.Locale.ITALIAN).format(java.util.Date(e.createdAt))).append("\n\n")
+            sb.append("*").append(if (english) e.kind.lowercase().replace("riflessione", "reflection").replace("domanda", "question").replace("appunto", "note").replace("libera", "free") else e.kind.lowercase()).append("*")
+            e.teachingId?.let { sb.append(if (english) " · teaching: " else " · insegnamento: ").append(it) }
+            e.chapterId?.let { sb.append(if (english) " · chapter: " else " · capitolo: ").append(it) }
             sb.append("\n\n").append(e.text).append("\n\n---\n\n")
         }
         return sb.toString()

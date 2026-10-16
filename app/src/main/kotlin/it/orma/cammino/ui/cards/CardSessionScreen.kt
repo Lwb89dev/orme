@@ -38,6 +38,7 @@ import it.orma.cammino.di.AppContainer
 import it.orma.cammino.R
 import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.navigation.Route
+import it.orma.cammino.ui.i18n.uiText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -47,7 +48,10 @@ fun CardSessionScreen(
     pathId: String,
     navController: NavHostController,
 ) {
-    val vm: CardSessionViewModel = viewModel(factory = CardSessionViewModel.factory(container, catalog, pathId))
+    val vm: CardSessionViewModel = viewModel(
+        factory = CardSessionViewModel.factory(container, catalog, pathId),
+        key = "card-session:$pathId:${catalog.manifest.language}",
+    )
     val state by vm.state.collectAsStateWithLifecycle()
 
     Scaffold(
@@ -56,7 +60,7 @@ fun CardSessionScreen(
                 title = { Text(state.pathTitle) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.Filled.Close, contentDescription = "Esci dal percorso")
+                        Icon(Icons.Filled.Close, contentDescription = uiText("Esci dal percorso", "Exit the way"))
                     }
                 },
             )
@@ -72,7 +76,7 @@ fun CardSessionScreen(
         ) {
             IllustratedBanner(
                 artworkRes = R.drawable.art_mode_wisdom,
-                contentDescription = "Carte illustrate su un tavolo medievale",
+                contentDescription = uiText("Carte illustrate su un tavolo medievale", "Illustrated cards on a medieval table"),
             )
             if (state.scenarioCount > 0) {
                 LinearProgressIndicator(
@@ -80,7 +84,7 @@ fun CardSessionScreen(
                     modifier = Modifier.fillMaxWidth(),
                 )
                 Text(
-                    "Scenario ${state.scenarioIndex + 1} di ${state.scenarioCount}",
+                    uiText("Scenario ${state.scenarioIndex + 1} di ${state.scenarioCount}", "Scenario ${state.scenarioIndex + 1} of ${state.scenarioCount}"),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -95,20 +99,20 @@ fun CardSessionScreen(
                 )
                 state.phase == SessionPhase.PATH_COMPLETE -> {
                     Text(
-                        "Via percorsa",
+                        uiText("Via percorsa", "Way walked"),
                         style = MaterialTheme.typography.headlineMedium,
                         color = MaterialTheme.colorScheme.primary,
                         modifier = Modifier.semantics { heading() },
                     )
                     Text(
-                        "Hai attraversato tutti gli scenari di questa via. Le prospettive incontrate restano nel tuo cammino; ripercorri quando vuoi: le situazioni si rileggono diversamente con il tempo.",
+                        uiText("Hai attraversato tutti gli scenari di questa via. Le prospettive incontrate restano nel tuo cammino; ripercorri quando vuoi: le situazioni si rileggono diversamente con il tempo.", "You have crossed every scenario on this way. The perspectives remain in your journey; walk it again whenever you wish, for situations read differently with time."),
                         style = MaterialTheme.typography.bodyLarge,
                     )
                     Button(onClick = { navController.popBackStack() }, modifier = Modifier.fillMaxWidth()) {
-                        Text("Torna alle vie")
+                        Text(uiText("Torna alle vie", "Back to ways"))
                     }
                 }
-                scenario == null -> Text("Caricamento…")
+                scenario == null -> Text(uiText("Caricamento…", "Loading…"))
                 state.phase == SessionPhase.SITUATION -> {
                     Text(
                         scenario.title,
@@ -137,7 +141,7 @@ fun CardSessionScreen(
                     )
                     if (chosen != null) {
                         PergamenaSection {
-                            Text("Hai scelto: ${chosen.text}", style = MaterialTheme.typography.titleMedium)
+                            Text(uiText("Hai scelto: ${chosen.text}", "You chose: ${chosen.text}"), style = MaterialTheme.typography.titleMedium)
                             Spacer(Modifier.height(6.dp))
                             Text(chosen.consequence, style = MaterialTheme.typography.bodyLarge)
                         }
@@ -152,7 +156,7 @@ fun CardSessionScreen(
                                 Text(perspective.text, style = MaterialTheme.typography.bodyMedium)
                                 if (perspective.isEditorial) {
                                     Text(
-                                        "Interpretazione editoriale",
+                                        uiText("Interpretazione editoriale", "Editorial interpretation"),
                                         style = MaterialTheme.typography.labelSmall,
                                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                                     )
@@ -167,7 +171,7 @@ fun CardSessionScreen(
                                 modifier = Modifier.fillMaxWidth(),
                             ) {
                                 Text(
-                                    "La fonte a confronto",
+                                    uiText("La fonte a confronto", "Source in dialogue"),
                                     style = MaterialTheme.typography.labelLarge,
                                     color = MaterialTheme.colorScheme.tertiary,
                                 )
@@ -188,7 +192,7 @@ fun CardSessionScreen(
                         Text(scenario.closingReflection, style = MaterialTheme.typography.bodyLarge)
                     }
                     Button(onClick = { vm.next() }, modifier = Modifier.fillMaxWidth()) {
-                        Text("Prosegui")
+                        Text(uiText("Prosegui", "Proceed"))
                     }
                 }
             }

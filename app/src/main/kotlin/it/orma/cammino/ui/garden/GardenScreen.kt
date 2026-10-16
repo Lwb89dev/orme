@@ -70,6 +70,7 @@ import it.orma.cammino.core.progression.ProgressionState
 import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.LocalReduceAnimations
 import it.orma.cammino.ui.navigation.Route
+import it.orma.cammino.ui.i18n.uiText
 import it.orma.cammino.R
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -149,17 +150,20 @@ private val elementPlacements = mapOf(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun GardenScreen(container: AppContainer, catalog: ContentCatalog, navController: NavHostController) {
-    val vm: GardenViewModel = viewModel(factory = GardenViewModel.factory(container, catalog))
+    val vm: GardenViewModel = viewModel(
+        factory = GardenViewModel.factory(container, catalog),
+        key = "garden:${catalog.manifest.language}",
+    )
     val state by vm.state.collectAsStateWithLifecycle()
     var selectedElement by remember { mutableStateOf<GardenElement?>(null) }
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Il Giardino di Francesco") },
+                title = { Text(uiText("Il Giardino di Francesco", "Francis's Garden")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
             )
@@ -174,13 +178,14 @@ fun GardenScreen(container: AppContainer, catalog: ContentCatalog, navController
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             Text(
-                "Il giardino cresce con ciò che scopri lungo le vie. Tocca gli elementi per conoscerne il simbolismo.",
+                uiText("Il giardino cresce con ciò che scopri lungo le vie. Tocca gli elementi per conoscerne il simbolismo.", "The garden grows with what you discover along the ways. Touch its elements to learn their symbolism."),
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
 
             val unlockedCount = state.unlockedIds.size
             val total = catalog.gardenElements.size
+            val sceneDescription = uiText("Scena del giardino: $unlockedCount elementi su $total sbocciati", "Garden scene: $unlockedCount of $total elements in bloom")
             GardenScene(
                 catalog = catalog,
                 unlockedIds = state.unlockedIds,
@@ -189,13 +194,13 @@ fun GardenScreen(container: AppContainer, catalog: ContentCatalog, navController
                     .fillMaxWidth()
                     .aspectRatio(4f / 3f)
                     .semantics {
-                        contentDescription = "Scena del giardino: $unlockedCount elementi su $total sbocciati"
+                        contentDescription = sceneDescription
                     },
             )
 
             Spacer(Modifier.height(4.dp))
             Text(
-                "Contemplazioni",
+                uiText("Contemplazioni", "Contemplations"),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
@@ -208,9 +213,9 @@ fun GardenScreen(container: AppContainer, catalog: ContentCatalog, navController
                     Text(row.contemplation.title, style = MaterialTheme.typography.titleMedium)
                     Text(
                         when {
-                            row.completed -> "Già vissuta — puoi riviverla quando vuoi"
-                            row.available -> "Disponibile"
-                            else -> "Si apre scoprendo l'insegnamento collegato"
+                            row.completed -> uiText("Già vissuta — puoi riviverla quando vuoi", "Already lived — you may live it again whenever you wish")
+                            row.available -> uiText("Disponibile", "Available")
+                            else -> uiText("Si apre scoprendo l'insegnamento collegato", "Opens when the linked teaching is discovered")
                         },
                         style = MaterialTheme.typography.labelSmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -237,11 +242,11 @@ fun GardenScreen(container: AppContainer, catalog: ContentCatalog, navController
                     TextButton(onClick = {
                         selectedElement = null
                         navController.navigate(Route.TeachingDetail(teaching.id))
-                    }) { Text("L'insegnamento") }
+                    }) { Text(uiText("L'insegnamento", "The teaching")) }
                 }
             },
             dismissButton = {
-                TextButton(onClick = { selectedElement = null }) { Text("Chiudi") }
+                TextButton(onClick = { selectedElement = null }) { Text(uiText("Chiudi", "Close")) }
             },
         )
     }

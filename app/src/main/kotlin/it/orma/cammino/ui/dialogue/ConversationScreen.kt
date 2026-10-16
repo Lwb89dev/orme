@@ -39,6 +39,7 @@ import it.orma.cammino.di.AppContainer
 import it.orma.cammino.R
 import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.navigation.Route
+import it.orma.cammino.ui.i18n.uiText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -48,7 +49,10 @@ fun ConversationScreen(
     conversationId: String,
     navController: NavHostController,
 ) {
-    val vm: ConversationViewModel = viewModel(factory = ConversationViewModel.factory(container, catalog, conversationId))
+    val vm: ConversationViewModel = viewModel(
+        factory = ConversationViewModel.factory(container, catalog, conversationId),
+        key = "conversation:$conversationId:${catalog.manifest.language}",
+    )
     val state by vm.state.collectAsStateWithLifecycle()
 
     LaunchedEffect(state.isComplete) {
@@ -61,12 +65,12 @@ fun ConversationScreen(
                 title = { Text(state.title) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.Filled.Close, contentDescription = "Chiudi la conversazione")
+                        Icon(Icons.Filled.Close, contentDescription = uiText("Chiudi la conversazione", "Close conversation"))
                     }
                 },
                 actions = {
                     IconButton(onClick = { vm.restart() }) {
-                        Icon(Icons.Filled.RestartAlt, contentDescription = "Ricomincia la conversazione")
+                        Icon(Icons.Filled.RestartAlt, contentDescription = uiText("Ricomincia la conversazione", "Restart conversation"))
                     }
                 },
             )
@@ -82,7 +86,7 @@ fun ConversationScreen(
         ) {
             IllustratedBanner(
                 artworkRes = R.drawable.art_mode_dialogue,
-                contentDescription = "Spazio di ascolto in un chiostro umbro",
+                contentDescription = uiText("Spazio di ascolto in un chiostro umbro", "A listening space in an Umbrian cloister"),
             )
             val node = state.node
             when {
@@ -91,11 +95,11 @@ fun ConversationScreen(
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.error,
                 )
-                node == null -> Text("Caricamento…")
+                node == null -> Text(uiText("Caricamento…", "Loading…"))
                 else -> {
                     PergamenaSection {
                         Text(
-                            "La guida",
+                            uiText("La guida", "The guide"),
                             style = MaterialTheme.typography.labelLarge,
                             color = MaterialTheme.colorScheme.secondary,
                         )
@@ -110,7 +114,7 @@ fun ConversationScreen(
                                 modifier = Modifier.fillMaxWidth(),
                             ) {
                                 Text(
-                                    "Dalle fonti",
+                                    uiText("Dalle fonti", "From the sources"),
                                     style = MaterialTheme.typography.labelLarge,
                                     color = MaterialTheme.colorScheme.tertiary,
                                 )
@@ -134,7 +138,7 @@ fun ConversationScreen(
                                 modifier = Modifier.fillMaxWidth(),
                             ) {
                                 Text(
-                                    "L'insegnamento collegato",
+                                    uiText("L'insegnamento collegato", "Linked teaching"),
                                     style = MaterialTheme.typography.labelLarge,
                                     color = MaterialTheme.colorScheme.tertiary,
                                 )
@@ -158,10 +162,10 @@ fun ConversationScreen(
                     } else if (node.isTerminal) {
                         OrnamentalDivider()
                         Button(onClick = { navController.popBackStack() }, modifier = Modifier.fillMaxWidth()) {
-                            Text("Concludi")
+                            Text(uiText("Concludi", "Conclude"))
                         }
                         OutlinedButton(onClick = { vm.restart() }, modifier = Modifier.fillMaxWidth()) {
-                            Text("Ricomincia")
+                            Text(uiText("Ricomincia", "Restart"))
                         }
                     }
                 }

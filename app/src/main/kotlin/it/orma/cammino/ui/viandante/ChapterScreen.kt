@@ -60,6 +60,8 @@ import it.orma.cammino.ui.navigation.LocalReduceAnimations
 import it.orma.cammino.ui.navigation.Route
 import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.components.chapterArtworkRes
+import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.sourceCategoryText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -69,7 +71,10 @@ fun ChapterScreen(
     chapterId: String,
     navController: NavHostController,
 ) {
-    val vm: ChapterViewModel = viewModel(factory = ChapterViewModel.factory(container, catalog, chapterId))
+    val vm: ChapterViewModel = viewModel(
+        factory = ChapterViewModel.factory(container, catalog, chapterId),
+        key = "chapter:$chapterId:${catalog.manifest.language}",
+    )
     val state by vm.state.collectAsStateWithLifecycle()
     val snackbarHostState = remember { SnackbarHostState() }
 
@@ -88,12 +93,12 @@ fun ChapterScreen(
                 title = { Text(state.chapterTitle) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.Filled.Close, contentDescription = "Chiudi il capitolo")
+                        Icon(Icons.Filled.Close, contentDescription = uiText("Chiudi il capitolo", "Close chapter"))
                     }
                 },
                 actions = {
                     IconButton(onClick = { vm.restart() }) {
-                        Icon(Icons.Filled.RestartAlt, contentDescription = "Ricomincia il capitolo")
+                        Icon(Icons.Filled.RestartAlt, contentDescription = uiText("Ricomincia il capitolo", "Restart chapter"))
                     }
                 },
             )
@@ -109,12 +114,12 @@ fun ChapterScreen(
         ) {
             IllustratedBanner(
                 artworkRes = chapterArtworkRes(chapterId),
-                contentDescription = "Illustrazione introduttiva del capitolo ${state.chapterTitle}",
+                contentDescription = uiText("Illustrazione introduttiva del capitolo ${state.chapterTitle}", "Introductory illustration for ${state.chapterTitle}"),
             )
             when {
-                state.loading -> Text("Caricamento…", style = MaterialTheme.typography.bodyLarge)
+                state.loading -> Text(uiText("Caricamento…", "Loading…"), style = MaterialTheme.typography.bodyLarge)
                 state.error != null -> Text(
-                    "Qualcosa non va: ${state.error}",
+                    uiText("Qualcosa non va: ${state.error}", "Something went wrong: ${state.error}"),
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.error,
                 )
@@ -172,26 +177,26 @@ private fun NodeContent(
                 }
                 is CompletionNode -> {
                     Button(onClick = onBackToMap, modifier = Modifier.fillMaxWidth()) {
-                        Text("Torna alla mappa")
+                        Text(uiText("Torna alla mappa", "Back to map"))
                     }
                     TextButton(onClick = onRestart, modifier = Modifier.fillMaxWidth()) {
-                        Text("Rivivi questo capitolo")
+                        Text(uiText("Rivivi questo capitolo", "Relive this chapter"))
                     }
                 }
                 is ReflectionNode -> {
                     Button(onClick = onAdvance, modifier = Modifier.fillMaxWidth()) {
-                        Text("Prosegui")
+                        Text(uiText("Prosegui", "Proceed"))
                     }
                     TextButton(
                         onClick = { onWriteJournal(animatedNode.teachingId) },
                         modifier = Modifier.fillMaxWidth(),
                     ) {
-                        Text("Scrivi nel diario")
+                        Text(uiText("Scrivi nel diario", "Write in the journal"))
                     }
                 }
                 else -> {
                     Button(onClick = onAdvance, modifier = Modifier.fillMaxWidth()) {
-                        Text("Continua")
+                        Text(uiText("Continua", "Continue"))
                     }
                 }
             }
@@ -235,7 +240,7 @@ private fun NodeBody(
         is CharacterEncounterNode -> {
             PergamenaSection {
                 Text(
-                    "Incontri: ${state.speakerName ?: ""}",
+                    uiText("Incontri: ${state.speakerName ?: ""}", "Encounter: ${state.speakerName ?: ""}"),
                     style = MaterialTheme.typography.titleMedium,
                     color = MaterialTheme.colorScheme.tertiary,
                     modifier = Modifier.semantics { heading() },
@@ -246,7 +251,10 @@ private fun NodeBody(
         }
         is HistoricalInsightNode -> {
             PergamenaSection {
-                SourceBadge(SourceCategory.TESTIMONIANZA_MEDIEVALE)
+                SourceBadge(
+                    SourceCategory.TESTIMONIANZA_MEDIEVALE,
+                    label = sourceCategoryText(SourceCategory.TESTIMONIANZA_MEDIEVALE),
+                )
                 Spacer(Modifier.height(8.dp))
                 Text(
                     node.title,
@@ -259,7 +267,7 @@ private fun NodeBody(
                 node.sourceDocumentIds.forEach { docId ->
                     catalog.documentsById[docId]?.let { doc ->
                         Text(
-                            "Fonte: ${doc.title}",
+                            uiText("Fonte: ${doc.title}", "Source: ${doc.title}"),
                             style = MaterialTheme.typography.labelSmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
@@ -271,7 +279,7 @@ private fun NodeBody(
             PergamenaSection {
                 val teaching = catalog.teachingsById[node.teachingId]
                 Text(
-                    "Un insegnamento",
+                    uiText("Un insegnamento", "A teaching"),
                     style = MaterialTheme.typography.labelLarge,
                     color = MaterialTheme.colorScheme.secondary,
                 )
@@ -280,7 +288,7 @@ private fun NodeBody(
                 if (teaching != null) {
                     Spacer(Modifier.height(10.dp))
                     OutlinedButton(onClick = { onOpenTeaching(node.teachingId) }) {
-                        Text("Approfondisci: ${teaching.title}")
+                        Text(uiText("Approfondisci: ${teaching.title}", "Explore: ${teaching.title}"))
                     }
                 }
             }
@@ -288,7 +296,7 @@ private fun NodeBody(
         is ReflectionNode -> {
             PergamenaSection {
                 Text(
-                    "Per riflettere",
+                    uiText("Per riflettere", "For reflection"),
                     style = MaterialTheme.typography.titleMedium,
                     color = MaterialTheme.colorScheme.tertiary,
                     modifier = Modifier.semantics { heading() },

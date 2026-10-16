@@ -1,0 +1,572 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Birth at Assisi",
+      "description": "Giovanni di Pietro di Bernardone, called Francis, is born at Assisi to a wealthy cloth merchant and Madonna Pica.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 or 1182 (uncertain)",
+      "chronologicalUncertainty": "The sources do not agree on the year: both 1181 and 1182 are proposed by historians.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.pietro_bernardone", "person.madonna_pica"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "War and Captivity",
+      "description": "In the war between Assisi and Perugia, Francis fights at the battle of Collestrada (November 1202), is taken prisoner, and remains in Perugia for about a year. On his return, an illness begins to change him.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "The Dream at Spoleto and the Return",
+      "description": "Having set out for Apulia in search of military glory, Francis has a dream at Spoleto that sends him back to Assisi. He begins to loosen his hold on his former life: dreams, prayer, and pilgrimage to Rome.",
+      "yearFrom": 1205,
+      "dateLabel": "c. 1204–1205",
+      "chronologicalUncertainty": "The reconstruction of these months comes from medieval biographies; the exact dates are conventional.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.celano_vita_seconda"],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "The Encounter with the Lepers",
+      "description": "In his Testament Francis tells how the Lord led him among the lepers and how he \"showed them mercy\": the episode he himself names as the beginning of his conversion.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "c. 1205–1206",
+      "chronologicalUncertainty": "The Testament gives no date; the event precedes the public break with his family.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.testamento", "source.celano_vita_prima"],
+      "teachingIds": ["teaching.carita.lebbrosi", "teaching.misericordia.compassione"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "The Crucifix of San Damiano",
+      "description": "In the ruined little church of San Damiano, according to tradition, Francis hears the crucifix address him: \"Repair my house.\" At first he understands it literally and restores churches with his own hands.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "c. 1205–1206",
+      "chronologicalUncertainty": "The episode is attested chiefly by the Second Life and later tradition; the literal dialogue belongs to devotional narrative.",
+      "placeId": "place.san_damiano",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_seconda"],
+      "teachingIds": ["teaching.fede.cristo_centro"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Renunciation before the Bishop",
+      "description": "Brought before Bishop Guido by his father over goods he had sold, Francis returns everything, even his clothes, and entrusts himself to the \"Father who is in heaven.\" The bishop covers him with his own mantle.",
+      "yearFrom": 1206,
+      "dateLabel": "early 1206",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.vescovo_guido", "person.pietro_bernardone"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.rinuncia.sine_proprio"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "The First Companions",
+      "description": "Bernard of Quintavalle, Giles, and others join Francis, sharing his form of life: an itinerant fraternity, amid work, almsgiving, and the proclamation of peace.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": ["person.francesco", "person.bernardo_quintavalle", "person.frate_egidio"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "The Approval of Innocent III",
+      "description": "Francis and his companions go to Rome; Innocent III gives oral approval to their evangelical form of life. No document of the approval survives: tradition dates it to 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (or 1209)",
+      "chronologicalUncertainty": "The approval was oral and no document survives; the exact year (1209 or 1210) is disputed.",
+      "placeId": null,
+      "personIds": ["person.francesco", "person.innocenzo_iii"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.comunita.regola"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "The Portiuncula, Home of the Fraternity",
+      "description": "The little church of Saint Mary of the Angels, called the Portiuncula, becomes the settled home of the fraternity: the movement's spiritual and affective centre.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Clare's Flight",
+      "description": "Clare Offreduccio leaves her father's house and reaches Francis at the Portiuncula on the night between Palm Sunday and Monday in 1212: her form of life begins, giving rise to the Poor Clares.",
+      "yearFrom": 1212,
+      "dateLabel": "18–19 March 1212",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.chiara", "person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.rinuncia.sine_proprio"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "The Meeting with the Sultan",
+      "description": "During the Fifth Crusade Francis crosses the lines and meets the sultan al-Malik al-Kamil at Damietta: an encounter of dialogue in wartime, documented by Franciscan sources and remembered by outside chroniclers.",
+      "yearFrom": 1219,
+      "dateLabel": "September 1219",
+      "placeId": "place.damietta",
+      "personIds": ["person.francesco", "person.sultano"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.accoglienza.ogni_uomo", "teaching.pace.saluto"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "The Earlier Rule",
+      "description": "At Fonte Colombo, near Rieti, the fraternity's first complete rule is composed (the Regula non bullata): long and spiritual, it is never formally approved.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.regola_non_bollata"],
+      "teachingIds": ["teaching.fraternita.minori", "teaching.comunita.regola"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "The Later Rule",
+      "description": "Honorius III approves the definitive rule with the bull \"Solet annuere\" (29 November 1223): briefer and juridical, it remains the foundation of the Order of Friars Minor.",
+      "yearFrom": 1223,
+      "dateLabel": "29 November 1223",
+      "placeId": null,
+      "personIds": ["person.francesco", "person.onorio_iii"],
+      "sourceDocumentIds": ["source.regola_bollata"],
+      "teachingIds": ["teaching.poverta.liberta", "teaching.comunita.regola"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Christmas at Greccio",
+      "description": "At Christmas 1223 Francis has a real manger prepared at Greccio, with hay, an ox, and an ass, in order to see Bethlehem's poverty \"with the eyes of the body\": the origin of the Nativity scene tradition.",
+      "yearFrom": 1223,
+      "dateLabel": "Christmas 1223",
+      "placeId": "place.greccio",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.poverta.liberta"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "In September 1224, withdrawn on Mount La Verna, Francis receives—according to the closest medieval sources—the stigmata of Christ's Passion, which he seeks to keep hidden.",
+      "yearFrom": 1224,
+      "dateLabel": "September 1224",
+      "placeId": "place.laverna",
+      "personIds": ["person.francesco", "person.frate_leone"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.preghiera.eremo", "teaching.fede.cristo_centro"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "The Canticle of the Creatures",
+      "description": "Ill and almost blind, Francis composes in stages the hymn in Umbrian vernacular known as the Canticle of the Creatures: praise of God through Brother Sun, Sister Water, Mother Earth, and finally Sister Bodily Death.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.cantico", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "The Wolf of Gubbio",
+      "description": "The Little Flowers tell that Francis mediated peace between the city of Gubbio and a fierce wolf: the city would feed him, and the wolf would harm no one again. A hagiographic tale, not a chronicle.",
+      "yearFrom": 1220,
+      "dateLabel": "date uncertain",
+      "chronologicalUncertainty": "An episode of fourteenth-century hagiographic tradition (Little Flowers, chapter 21), without documentary corroboration: we offer it as a tale of memory, not as historical fact.",
+      "placeId": "place.gubbio",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.fioretti"],
+      "teachingIds": ["teaching.pace.saluto", "teaching.accoglienza.ogni_uomo"],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Death at the Portiuncula",
+      "description": "Francis dies on the evening of 3 October 1226 at the Portiuncula, after dictating his Testament and asking to be laid naked upon the naked earth.",
+      "yearFrom": 1226,
+      "dateLabel": "3 October 1226",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.testamento"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Canonization",
+      "description": "Gregory IX proclaims Francis a saint at Assisi on 16 July 1228, less than two years after his death, and commissions Thomas of Celano to write the first official biography.",
+      "yearFrom": 1228,
+      "dateLabel": "16 July 1228",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.celano"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Francis of Assisi",
+      "role": "Founder of the Friars Minor fraternity",
+      "description": "Giovanni di Pietro di Bernardone (1181/82–1226). Merchant, then itinerant penitent, then founder of a fraternity that changed the history of the Church. Canonized in 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.testamento"]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Clare of Assisi",
+      "role": "Foundress of the Poor Clares",
+      "description": "A noblewoman of Assisi (1193/94–1253), she follows Francis in 1212 and founds the community of the \"Poor Ladies\" at San Damiano. The first woman to write an approved religious rule.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernard of Quintavalle",
+      "role": "First companion",
+      "description": "A wealthy man of Assisi, he distributes his goods and becomes Francis's first companion (1208). He died in 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Brother Giles",
+      "role": "Among the first companions",
+      "description": "An educated farmer and mystic, the third companion of Francis; tradition attributes to him the wise \"Sayings.\"",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Brother Leo",
+      "role": "Confessor and faithful companion",
+      "description": "A companion of the final years, recipient of Francis's autograph letter and witness at La Verna.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.lettera_leone", "source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II, Bishop of Assisi",
+      "role": "Protector of Francis",
+      "description": "Bishop of Assisi from 1204; he covered Francis with his mantle at the renunciation and supported his first steps.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Francis's father",
+      "description": "A cloth merchant of Assisi; the conflict with his son over the goods sold culminated in the public scene before the bishop.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pica",
+      "role": "Francis's mother",
+      "description": "Tradition remembers her as closer to her son during the crisis of his conversion; the sources about her are sparse.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Pope Innocent III",
+      "role": "Pontiff (1198–1216)",
+      "description": "Among the most influential popes of the Middle Ages; according to tradition, he gave oral approval to Francis's form of life in 1210.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Pope Honorius III",
+      "role": "Pontiff (1216–1227)",
+      "description": "He approved the Later Rule in 1223 and supported the young fraternity.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": ["source.regola_bollata"]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Sultan of Egypt",
+      "description": "The Ayyubid sultan who met Francis at Damietta in 1219, during the Fifth Crusade.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.celano",
+      "name": "Thomas of Celano",
+      "role": "First biographer",
+      "description": "A Friar Minor, he wrote the First Life (1228–29) at Gregory IX's commission and the Second Life (1246–47), gathering the companions' testimonies.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventure of Bagnoregio",
+      "role": "Theologian and biographer",
+      "description": "University master and minister general of the Order; his Major Life (1260–63) became the official biography of Francis.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": ["source.bonaventura_leggenda_maggiore"]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Cardinal Ugolino (later Gregory IX)",
+      "role": "Protector of the Order",
+      "description": "Cardinal protector of the fraternity, later pope: he canonized Francis in 1228.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Brother Elias of Cortona",
+      "role": "Controversial successor",
+      "description": "A companion and later leader of the Order after Francis; a debated figure, sign of the tensions between charism and institution.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": ["source.bonaventura_leggenda_maggiore"]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Francis's birthplace: the piazza, the cathedral of San Rufino, the walls, and the medieval lanes.",
+      "historicalNote": "A real historical place.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "A little church outside Assisi where Francis prayed before the crucifix; later the home of Clare and her sisters.",
+      "historicalNote": "A real historical place.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Portiuncula (Saint Mary of the Angels)",
+      "description": "A little church on the plain below Assisi: home of the first fraternity and place of Francis's death.",
+      "historicalNote": "A real historical place; today enclosed within the basilica of Saint Mary of the Angels.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "A hut beside the stream where the first companions lived their itinerant form of life.",
+      "historicalNote": "A real historical place; the present sanctuary preserves the memory of the settlement.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Hermitage of the Carceri",
+      "description": "A hermitage on Mount Subasio, among holm oaks and caves: a place of withdrawal and prayer.",
+      "historicalNote": "A real historical place.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "An Umbrian city linked to the tale of the wolf and to Francis's presence during his eremitical years.",
+      "historicalNote": "A real historical place; the episode of the wolf belongs to hagiographic tradition.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "A village in the Rieti region where Francis celebrated Christmas 1223 with a living manger.",
+      "historicalNote": "A real historical place.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "A mountain in the Tuscan Apennines given to Francis; the place of his withdrawal in 1224 and, according to medieval sources, the stigmata.",
+      "historicalNote": "A real historical place.",
+      "isHistoricalPlace": true,
+      "region": "Tuscany"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "A hermitage near Rieti where the Earlier Rule of 1221 was composed.",
+      "historicalNote": "A real historical place.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "A city in the Nile Delta, setting of the Fifth Crusade and of the meeting between Francis and the sultan (1219).",
+      "historicalNote": "A real historical place.",
+      "isHistoricalPlace": true,
+      "region": "Egypt"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Village of the Oaks",
+      "description": "An imaginary village in the Spoleto valley: the principal narrative setting of the Wayfarer.",
+      "historicalNote": "A fictional setting created for the game; not a historical place.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (imaginary)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbrian Countryside and Woods",
+      "description": "The roads, holm-oak woods, and fields between the villages: the itinerant setting of the Wayfarer's stories.",
+      "historicalNote": "A narrative setting inspired by the real Umbrian landscape.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (setting)"
+    }
+  ],
+  "glossary": [
+    {"id": "gloss.agiografia", "term": "Hagiography", "definition": "Literature of the lives of the saints: a medieval devotional genre aimed at edification, not chronicle. It must be read with tools different from those of documentary history."},
+    {"id": "gloss.penitenza", "term": "Penance", "definition": "In Francis's language: conversion of heart and life, not punishment. To \"do penance\" meant to change one's direction."},
+    {"id": "gloss.frate_minore", "term": "Friar Minor", "definition": "The name Francis chose for his companions: \"minors,\" that is, the least, without claims to rank."},
+    {"id": "gloss.ministro", "term": "Minister", "definition": "In the Franciscan fraternity: the guardian of a community or province. The word means \"servant.\""},
+    {"id": "gloss.regola", "term": "Rule", "definition": "The text that defines a religious community's form of life. Francis wrote two versions: the Earlier Rule (1221) and the Later Rule (1223)."},
+    {"id": "gloss.bolla", "term": "Papal Bull", "definition": "An official papal document, named for the lead seal (bulla) that authenticates it. \"Later Rule\" means a rule approved by a bull."},
+    {"id": "gloss.porziuncola", "term": "Portiuncula", "definition": "A \"little portion\" of land: the church of Saint Mary of the Angels near Assisi, home of the fraternity."},
+    {"id": "gloss.stimmate", "term": "Stigmata", "definition": "The marks of Christ's Passion that medieval sources attribute to Francis after his withdrawal to La Verna (1224)."},
+    {"id": "gloss.sine_proprio", "term": "Sine proprio", "definition": "An expression of the tradition: \"without anything of one's own,\" the Franciscan form of poverty."},
+    {"id": "gloss.lauda", "term": "Lauda", "definition": "A religious poetic composition in the vernacular, intended for singing. The Canticle of the Creatures is a lauda."},
+    {"id": "gloss.comune", "term": "Commune", "definition": "The city self-government of medieval Italy: Francis's Assisi was a growing commune in conflict with Perugia and feudal power."},
+    {"id": "gloss.capitolo", "term": "Chapter", "definition": "The periodic assembly of a religious fraternity; also a \"general chapter\" of the whole Order."},
+    {"id": "gloss.lebbrosario", "term": "Leprosarium", "definition": "A medieval hospital or lazaret for lepers, outside the city walls. The place of Francis's decisive encounter."},
+    {"id": "gloss.eleemosina", "term": "Almsgiving", "definition": "A gift asked for or received in order to live. For the first friars it was a sign of trust in Providence, not humiliation."}
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "The Merchant's Son (1181/82–1202)",
+      "text": "Francis is born at Assisi to Pietro di Bernardone, a wealthy cloth merchant, and Madonna Pica. He grows up in a city flourishing as a commune: a brilliant young man, generous, fond of feasts and French troubadours, dreaming of knightly glory. In 1202 he fights Perugia at Collestrada; defeat and a year of captivity bring his first life to a dramatic close.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "The Turning (1202–1206)",
+      "text": "The illness after captivity, the dream at Spoleto, and the pilgrimage to Rome where he exchanges clothes with a beggar: Francis seeks a new direction. Then comes the event he himself would name as the beginning: the encounter with lepers, where \"what had seemed bitter to me was changed into sweetness.\" At San Damiano, before the crucifix, he hears the summons to repair God's \"house.\" He sells his father's cloth and horse to restore the little church; the conflict erupts before the bishop, where he returns everything.",
+      "sourceDocumentIds": ["source.testamento", "source.celano_vita_prima", "source.celano_vita_seconda"],
+      "teachingIds": ["teaching.carita.lebbrosi", "teaching.rinuncia.sine_proprio", "teaching.fede.cristo_centro"]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "\"Repair My House\" (1206–1209)",
+      "text": "Alone, dressed as a penitent, Francis restores San Damiano, San Pietro, and the Portiuncula stone by stone, serving in the leprosaria. At first the city mocks him, then begins to look upon him. Through listening to the Gospel he understands the call: to proclaim peace, to live without anything of his own, in itinerancy. The undertaking proves greater than the restoration of three churches: to repair the Church herself, from below.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.poverta.liberta", "teaching.pace.saluto"]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "The Fraternity (1209–1219)",
+      "text": "Bernard of Quintavalle, Giles, and the others: the first companions share the form of life, and in 1210 (or 1209) Innocent III gives it oral approval. The Portiuncula becomes home. In 1212 Clare of Assisi flees by night to follow the same call. The fraternity grows beyond every expectation, with annual chapters and missions throughout Europe: the difficulties of great numbers begin.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori", "teaching.accoglienza.ogni_uomo"]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Toward the East (1219–1220)",
+      "text": "In the midst of the Fifth Crusade Francis reaches the crusader camp at Damietta, crosses the lines, and meets the sultan al-Malik al-Kamil. Medieval sources describe their mutual respect; modern scholarship debates the details, but the gesture remains: in wartime, to go out to meet another. On his return he finds the fraternity changed and troubled: its size demands structures he fears.",
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.accoglienza.ogni_uomo", "teaching.pace.saluto"]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "The Labour of Growing (1220–1223)",
+      "text": "Francis leaves the daily governance of the Order and devotes himself to the written rule: that of 1221, long and free, will not be approved; that of 1223, briefer and juridical, receives the bull of Honorius III. The tension between charism and institution passes through these years: Francis lives it in fidelity and suffering. At Greccio, at Christmas 1223, he makes Bethlehem's poverty visible with a real manger.",
+      "sourceDocumentIds": ["source.regola_non_bollata", "source.regola_bollata", "source.celano_vita_prima"],
+      "teachingIds": ["teaching.comunita.regola", "teaching.poverta.liberta"]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "The Canticle and the Evening (1224–1226)",
+      "text": "At La Verna, in September 1224, the sources narrate the stigmata. Ill and almost blind, at San Damiano he composes the Canticle of the Creatures: praise rises in the darkest season. He adds the stanza of forgiveness to reconcile bishop and podestà, and finally that of \"Sister Bodily Death.\" After dictating the Testament, he dies at the Portiuncula on the evening of 3 October 1226, naked upon the naked earth. Two years later Gregory IX proclaims him a saint.",
+      "sourceDocumentIds": ["source.cantico", "source.testamento", "source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi", "teaching.gioia.perfetta_letizia"]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ import java.io.File
  */
 class ShippedContentTest {
 
-    private fun loadRealCatalog(): ContentCatalog {
+    private fun loadRealCatalog(language: String = ContentLoader.DEFAULT_LANGUAGE): ContentCatalog {
         val assetsDir = File("../../app/src/main/assets")
         assertTrue(
             "Directory assets non trovata da ${File(".").absolutePath}",
@@ -23,7 +23,7 @@ class ShippedContentTest {
             val f = File(assetsDir, path)
             if (f.isFile) f.readText() else null
         }
-        return loader.load()
+        return loader.load(language)
     }
 
     @Test
@@ -67,5 +67,16 @@ class ShippedContentTest {
                 doc?.reviewStatus == ReviewStatus.VERIFIED,
             )
         }
+    }
+
+    @Test
+    fun `il pacchetto inglese distribuito non ha errori di validazione`() {
+        val catalog = loadRealCatalog("en")
+        assertTrue("il pacchetto inglese deve essere dichiarato en", catalog.manifest.language == "en")
+        val errors = ContentValidator().errors(catalog)
+        assertTrue(
+            "Errori di contenuto inglese:\n" + errors.joinToString("\n"),
+            errors.isEmpty(),
+        )
     }
 }

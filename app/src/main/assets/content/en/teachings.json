@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "The Encounter That Changes a Life",
+      "summary": "Francis's conversion begins when he overcomes his disgust and meets the lepers: charity as a concrete encounter with the other.",
+      "explanation": "In the Testament Francis says that seeing lepers seemed to him \"too bitter\", and that this very encounter was the beginning of his penance. Franciscan charity is not a general feeling: it is the bodily gesture of drawing near to one who is excluded, and discovering that bitterness is changed into sweetness. The one who gives does not place himself above the one who receives: they meet.",
+      "historicalContext": "In the thirteenth century lepers were excluded from civic life, housed in leprosaria beyond the walls and regarded as a symbol of sin. Francis's choice to live among them was socially scandalous.",
+      "sourcePassageIds": ["pass.testamento.lebbrosi", "pass.celano1.lebbrosi"],
+      "relatedEventIds": ["event.lebbrosi"],
+      "relatedTeachingIds": ["teaching.accoglienza.ogni_uomo", "teaching.misericordia.compassione"],
+      "experiences": {
+        "viandante": ["story.lebbrosi.001"],
+        "garden": ["garden.rose"],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Nothing of My Own, Everything Received",
+      "summary": "Before the bishop Francis returns his clothes to his father: renouncing possession as a choice of freedom, not contempt for created things.",
+      "explanation": "Francis's renunciation before Bishop Guido is the public act by which he cuts his bond with his family's wealth. It is not flight from things, but liberation from the idea of owning them: one who possesses nothing has nothing to defend, and can receive everything as gift. The technical Latin of the tradition calls it \"sine proprio\": without property.",
+      "historicalContext": "The son of a wealthy cloth merchant, Francis was destined for the social ascent of the communal bourgeoisie. His renunciation in 1206 struck the imagination of Assisi precisely because it overturned the values of a mercantile city.",
+      "sourcePassageIds": ["pass.celano1.rinuncia", "pass.regola_bollata.poverta"],
+      "relatedEventIds": ["event.rinuncia_vescovo"],
+      "relatedTeachingIds": ["teaching.poverta.liberta", "teaching.umilta.ultimo"],
+      "experiences": {
+        "viandante": ["story.rinuncia.001"],
+        "garden": [],
+        "cards": ["path.semplicita"],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Poverty as Freedom",
+      "summary": "For Francis, poverty is not romantic misery: it is refusing to appropriate anything, in order to remain free to love and to depend upon God alone.",
+      "explanation": "The Rule of 1223 asks the brothers to appropriate nothing, \"neither house nor place nor anything\", and to go about begging without shame, remembering that the Lord made Himself poor. Franciscan poverty has a theological foundation (the poor Christ) and a psychological one: the person who has nothing to defend is free. It is not an invitation to glorify destitution, which is a social wound, but to refuse to be defined by possession.",
+      "historicalContext": "The movement of voluntary poverty arose in reaction to the growing wealth of communes and clergy; the Church viewed poverty movements with suspicion, and Francis had to win approval with difficulty.",
+      "sourcePassageIds": ["pass.regola_bollata.poverta"],
+      "relatedEventIds": ["event.regola_1223"],
+      "relatedTeachingIds": ["teaching.rinuncia.sine_proprio", "teaching.gratitudine.lodi"],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": ["path.semplicita"],
+        "dialogue": ["dlg.poverta"]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Friars Minor",
+      "summary": "Francis's community is not an order of superiors and subjects: it is a fraternity of \"lesser ones\", in which each person is responsible for the other.",
+      "explanation": "Francis wanted his companions to be called Friars Minor: no one is great, and those entrusted with responsibility are called \"ministers\", that is, servants. The Rule of 1221 asks them to make their needs known to one another, not to judge a brother, and not to despise the weak. Fraternity is the very form of the Gospel lived together: one becomes a brother not through an ideal, but through daily practice.",
+      "historicalContext": "The fraternity arose around 1208–1210 among the first companions (Bernard, Giles, and others) and grew rapidly until it required structures: chapters, ministers, and a written rule.",
+      "sourcePassageIds": ["pass.regola_non_bollata.fratelli", "pass.lettera_ministro.mille_volte"],
+      "relatedEventIds": ["event.primi_compagni", "event.regola_1221"],
+      "relatedTeachingIds": ["teaching.servizio.ministro", "teaching.comunita.regola"],
+      "experiences": {
+        "viandante": [],
+        "garden": ["garden.api"],
+        "cards": ["path.fraternita"],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "The Greeting of Peace",
+      "summary": "\"May the Lord give you peace\": Francis makes peace an announcement to be carried, before making it the absence of war.",
+      "explanation": "In the Testament Francis recalls that the Lord revealed a greeting of peace to him. The earliest sources describe the brothers announcing peace from house to house. Franciscan peace is active: it is carried, built, and mediated—as in the story of the wolf of Gubbio, where peace is born from the courage to approach what causes fear.",
+      "historicalContext": "Communal Italy was crossed by factional feuds, civic wars, and conflicts between civil and religious powers. To announce peace was a political act as well as a spiritual one.",
+      "sourcePassageIds": ["pass.testamento.saluto_pace", "pass.fioretti.lupo"],
+      "relatedEventIds": ["event.lupo_gubbio"],
+      "relatedTeachingIds": ["teaching.perdono.mille_volte", "teaching.accoglienza.ogni_uomo"],
+      "experiences": {
+        "viandante": ["story.lupo.001"],
+        "garden": ["garden.ulivo"],
+        "cards": ["path.pace"],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Seventy Times Seven, and Beyond",
+      "summary": "To a minister of the fraternity Francis writes: even if a brother should sin a thousand times, love him nevertheless more than I do.",
+      "explanation": "The Letter to a Minister is the Franciscan text on forgiveness: the one who leads must neither be scandalised nor grow hard in the face of a brother's errors, but proclaim mercy. Forgiveness does not deny evil: it refuses to let evil have the final word in a relationship. In the Canticle, the stanza on forgiveness was added—according to tradition—to reconcile the bishop and the podestà of Assisi in their conflict.",
+      "historicalContext": "The rapidly growing fraternity lived through internal tensions; the cities were torn by vendettas and feuds, which the Franciscans sought to pacify.",
+      "sourcePassageIds": ["pass.lettera_ministro.mille_volte", "pass.cantico.perdono_morte"],
+      "relatedEventIds": [],
+      "relatedTeachingIds": ["teaching.pace.saluto", "teaching.misericordia.compassione"],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": ["scen.fraternita.001"],
+        "dialogue": ["dlg.perdono"]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "To Be Lesser, Not to Think Oneself Better",
+      "summary": "Franciscan humility is truth about oneself: neither exalting nor despising oneself, but serving as the least.",
+      "explanation": "The Admonitions warn against making one's own will the measure of everything and against spiritual self-satisfaction. For Francis, humility means seeing oneself in truth: small before God, indebted for everything, and able to serve without demanding recognition. It is not low self-esteem: it is freedom from the need to appear.",
+      "historicalContext": "In a society founded upon honour and rank, calling oneself \"lesser\" was a countercultural programme; within the growing fraternity, humility was an antidote to internal competition.",
+      "sourcePassageIds": ["pass.ammonizioni.propria_volonta"],
+      "relatedEventIds": [],
+      "relatedTeachingIds": ["teaching.servizio.ministro", "teaching.rinuncia.sine_proprio"],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": ["dlg.umilta"]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Brother Sun, Sister Water",
+      "summary": "The Canticle of the Creatures: the world is neither a storehouse of resources nor an idol, but a family of creatures praising the Creator.",
+      "explanation": "In the Canticle Francis praises God \"through\" the creatures: Brother Sun, Sister Moon, Sister Water, \"useful and humble and precious and chaste\", and our sister Mother Earth. Nature is not divinised: it is a sister because it is a child of the same Father. Care for creation begins here in gratitude and kinship, not usefulness. And the Canticle was born in illness: praise does not depend upon circumstances.",
+      "historicalContext": "Composed in 1225–1226, when Francis was ill and nearly blind, it is among the earliest poetic texts in the Italian vernacular. Bonaventure places it in the season of trial.",
+      "sourcePassageIds": ["pass.cantico.apertura", "pass.cantico.creature", "pass.bonaventura.cantico", "pass.celano1.uccelli"],
+      "relatedEventIds": ["event.cantico"],
+      "relatedTeachingIds": ["teaching.gratitudine.lodi", "teaching.gioia.perfetta_letizia"],
+      "experiences": {
+        "viandante": ["story.tempesta.001"],
+        "garden": ["garden.fontana", "cont.cielo"],
+        "cards": [],
+        "dialogue": ["dlg.creato"]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Perfect Joy",
+      "summary": "Franciscan joy does not depend upon results: it remains even in rejection and hardship, because it is born of love rather than success.",
+      "explanation": "In the Little Flowers Francis explains to Brother Leo that true joy is not miracles or conversions, but returning rejected and chilled and remaining patient and joyful. It is a hagiographic account, not a chronicle, yet it condenses an authentic trait of the Franciscan spirit: joy as an inward choice that no event can take away.",
+      "historicalContext": "The Little Flowers (late fourteenth century) preserve the living memory of the first Franciscan movement; they should be read as spiritual literature, not documentary history.",
+      "sourcePassageIds": ["pass.fioretti.perfetta_letizia"],
+      "relatedEventIds": [],
+      "relatedTeachingIds": ["teaching.umilta.ultimo", "teaching.pace.saluto"],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": ["scen.pace.002"],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "The Desert Within the World",
+      "summary": "Francis alternated mission and retreat: prayer as the place where one returns to what is essential before God.",
+      "explanation": "Franciscan life is not action alone: Francis sought hermitages and places of retreat (the Carceri, La Verna), taking a few companions and long silences with him. In the Letter to Brother Leo he sends him back to his conscience before God: prayer is not a technique but a relationship. The Praises of God Most High show his purest prayer: praise without requests.",
+      "historicalContext": "Franciscan hermitages arose in the wild places of the Umbrian-Tuscan Apennines; La Verna, given to Francis in 1213, became the pre-eminent place of retreat.",
+      "sourcePassageIds": ["pass.lettera_leone.coscienza", "pass.lodi_dio.lode", "pass.celano1.stimmate"],
+      "relatedEventIds": ["event.laverna_stimmate"],
+      "relatedTeachingIds": ["teaching.fede.cristo_centro", "teaching.gratitudine.lodi"],
+      "experiences": {
+        "viandante": [],
+        "garden": ["garden.cipresso", "cont.passo"],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Following in the Footsteps of Christ",
+      "summary": "Francis's spirituality is not a philosophy of nature: it is the following of the poor and crucified Christ, within the faith of the Church.",
+      "explanation": "Everything in Francis begins with Christ: the crucifix of San Damiano that speaks to him, the choice of poverty \"because the Lord made Himself poor\", the Passion contemplated at La Verna, and the simple faith in the churches of the Testament. To remove this root does not make Francis more universal: it makes him unrecognisable. The app presents him as he is, without imposing this faith and without erasing it.",
+      "historicalContext": "Francis lived his faith within the medieval Church, seeking its approval for his form of life and accepting its limits, while pressing its reform from below.",
+      "sourcePassageIds": ["pass.testamento.chiese", "pass.celano1.stimmate"],
+      "relatedEventIds": ["event.san_damiano_crocifisso"],
+      "relatedTeachingIds": ["teaching.preghiera.eremo", "teaching.comunita.regola"],
+      "experiences": {
+        "viandante": [],
+        "garden": ["garden.panca"],
+        "cards": [],
+        "dialogue": ["dlg.fede"]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "A Rule, Lest We Lose Our Way",
+      "summary": "Franciscan obedience is not self-erasure: it is a common covenant that protects fraternity from dispersion and arbitrariness.",
+      "explanation": "Francis sought the Church's approval and wrote rules that became ever more essential (1221, 1223). In the Admonitions and the Rules, obedience is reciprocal: one obeys the shared rule, and the one who leads serves. The Testament asks that the Rule not be glossed, but lived \"simply and without glosses\". Community and obedience are the frame that makes freedom endure.",
+      "historicalContext": "Between 1210 and 1223 the fraternity grew from a small group into a recognised Order; the tension between charism and institution runs through the whole Franciscan story.",
+      "sourcePassageIds": ["pass.regola_bollata.poverta", "pass.regola_non_bollata.fratelli", "pass.ammonizioni.propria_volonta"],
+      "relatedEventIds": ["event.approvazione_innocenzo", "event.regola_1223"],
+      "relatedTeachingIds": ["teaching.fraternita.minori", "teaching.umilta.ultimo"],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": ["scen.fraternita.001"],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Praise That Asks for Nothing",
+      "summary": "The Praises of God and the Canticle were born in illness: Franciscan gratitude does not reward good fortune, but recognises gift in all things.",
+      "explanation": "The Praises of God Most High, written at La Verna, are a prayer without a single request: recognition alone. The Canticle too, composed in suffering, is praise. Franciscan gratitude is a trained gaze: it sees everything—water, sun, day, even death—as received. The one who gives thanks does not possess: he dwells.",
+      "historicalContext": "In 1224–1226 Francis was gravely ill, nearly blind, and wounded by his distance from the leadership of the Order: the praise of those years is not naïveté but conquest.",
+      "sourcePassageIds": ["pass.lodi_dio.lode", "pass.cantico.perdono_morte"],
+      "relatedEventIds": ["event.cantico"],
+      "relatedTeachingIds": ["teaching.creato.cantico", "teaching.gioia.perfetta_letizia"],
+      "experiences": {
+        "viandante": [],
+        "garden": ["garden.girasoli", "cont.acqua"],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "The One Who Leads Serves",
+      "summary": "In the fraternity those entrusted with responsibility are called \"ministers\": service as the only legitimate form of authority.",
+      "explanation": "Francis overturns hierarchy: a minister is one who serves, a custodian one who keeps the brothers, not one who commands. The Letter to a Minister shows the tone: closeness to the one who errs, never contempt. Service is not a strategy for pleasing others: it is the Christian way of inhabiting every role, from friar to bishop, from parent to mayor.",
+      "historicalContext": "The titles of Franciscan responsibility (minister, custodian, guardian) were chosen precisely against the logic of medieval prestige.",
+      "sourcePassageIds": ["pass.lettera_ministro.mille_volte"],
+      "relatedEventIds": [],
+      "relatedTeachingIds": ["teaching.fraternita.minori", "teaching.umilta.ultimo"],
+      "experiences": {
+        "viandante": [],
+        "garden": ["garden.orto"],
+        "cards": ["scen.semplicita.002"],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "No One Is a Stranger",
+      "summary": "Lepers, brigands, a sultan, a wolf: the Franciscan tradition presses welcome beyond the boundaries of one's own group.",
+      "explanation": "Francis meets lepers, approaches Sultan al-Malik al-Kamil in the midst of a crusade, and in popular memory even speaks with the wolf. Franciscan welcome is not passive tolerance: it is going out to meet, taking a risk, calling \"brother\" the one one's world calls an enemy. It begins with the difficult neighbour and does not stop at the borders of faith or language.",
+      "historicalContext": "The meeting with the Sultan (1219, Damietta) took place during the Fifth Crusade: a gesture of peace documented by the sources, within the limits of medieval testimony.",
+      "sourcePassageIds": ["pass.testamento.lebbrosi", "pass.fioretti.lupo"],
+      "relatedEventIds": ["event.sultano"],
+      "relatedTeachingIds": ["teaching.carita.lebbrosi", "teaching.pace.saluto"],
+      "experiences": {
+        "viandante": ["story.mantello.001"],
+        "garden": ["garden.nido"],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "To Draw Near with the Whole Body",
+      "summary": "\"I showed them mercy\": Franciscan mercy is compassion made into a concrete gesture, not pity kept at a distance.",
+      "explanation": "In the Testament Francis uses a strong phrase: with the lepers, \"I showed mercy\". He does not say that he felt compassion: he enacted it. Mercy is the capacity to let another's suffering reach us until it moves our hands. It is the root from which charity, forgiveness, and peace grow.",
+      "historicalContext": "Medieval piety knew almsgiving as a meritorious practice; Francis transforms it into relationship: one does not merely give to the poor, one remains with the poor.",
+      "sourcePassageIds": ["pass.testamento.lebbrosi", "pass.celano1.lebbrosi"],
+      "relatedEventIds": ["event.lebbrosi"],
+      "relatedTeachingIds": ["teaching.carita.lebbrosi", "teaching.perdono.mille_volte"],
+      "experiences": {
+        "viandante": ["story.lebbrosi.001"],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

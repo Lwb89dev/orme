@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "The Stone Path",
+      "kind": "sentiero",
+      "description": "A path of pale stones crosses the garden: the place where every journey begins.",
+      "symbolism": "The journey as an image of life: a way is made by walking it, one stone at a time.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "The Olive Tree of Peace",
+      "kind": "albero",
+      "description": "An ancient olive tree, its crown silvered, planted when you discovered the greeting of peace.",
+      "symbolism": "The olive tree: a Mediterranean plant of peace and patience. It grows slowly and endures through generations.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "The Fountain of Sister Water",
+      "kind": "acqua",
+      "description": "A stone fountain with clear water, kindled by the morning sun.",
+      "symbolism": "\"Sister Water, who is useful and humble and precious and chaste\": in the Canticle, water is a sister to be thanked.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "The Roses of San Damiano",
+      "kind": "fiore",
+      "description": "A rose bush flowering beside the wall: it grows where someone has cared for others.",
+      "symbolism": "Beauty born of service: charity makes barren places flower.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "The Shared Vegetable Garden",
+      "kind": "orto",
+      "description": "Small beds of herbs and vegetables, tended in turn: humble work that nourishes everyone.",
+      "symbolism": "Daily service: whoever cultivates the garden does not possess it, but keeps it for those who will come.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "The Cypress of Silence",
+      "kind": "albero",
+      "description": "A tall, straight cypress marking the boundary between the garden and the wood.",
+      "symbolism": "Prayer as a vertical line: roots in the earth, its tip turned toward heaven.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "The Chaffinches' Nest",
+      "kind": "animali",
+      "description": "Among the safest branches, a pair of chaffinches has chosen the garden for its nest.",
+      "symbolism": "Welcome: the garden becomes home even for those who arrive from beyond it.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "The Stone Bench",
+      "kind": "struttura",
+      "description": "A stone bench beneath the wall at noon: a place to sit and remain.",
+      "symbolism": "Faith as a trusting pause: we do not always have to walk; sometimes we simply remain.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "The Sunflowers of Thanksgiving",
+      "kind": "fiore",
+      "description": "A row of sunflowers turning to follow the light through the day.",
+      "symbolism": "Gratitude: turning toward the light is a daily discipline of the gaze.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "The Bees' Hive",
+      "kind": "animali",
+      "description": "A wooden hive carries the scent of wax; bees come and go among the garden flowers.",
+      "symbolism": "Fraternity: no bee makes honey alone, and no bee possesses the comb.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "To Look upon the Sky",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        { "kind": "osserva", "text": "Lift your gaze from the garden toward the sky. Remain silent for a little while, doing nothing." },
+        { "kind": "leggi", "text": "Read slowly the opening of the Canticle of the Creatures.", "sourcePassageId": "pass.cantico.apertura" },
+        { "kind": "rifletti", "text": "Francis calls the sun \"brother\" and the moon \"sister\". What difference would it make to look upon the world as a family rather than as a resource?" },
+        { "kind": "annota", "text": "If you wish, write in your journal one thing for which today you can say: \"Praised be You, my Lord\"." }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "To Listen to the Water",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        { "kind": "ascolta", "text": "Draw near to the fountain. Listen to the sound of water for a few breaths, without haste." },
+        { "kind": "leggi", "text": "Read again the praise of God written at La Verna: a prayer that asks for nothing.", "sourcePassageId": "pass.lodi_dio.lode" },
+        { "kind": "rifletti", "text": "The Praises of God contain no requests: only recognition. When was the last time you gave thanks without asking for anything?" },
+        { "kind": "annota", "text": "If you wish, write in your journal three things received today, however small." }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "The Slow Step",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        { "kind": "osserva", "text": "Walk the stone path slowly, noticing each step: its weight, its contact, its rhythm." },
+        { "kind": "leggi", "text": "Read Francis's answer to Brother Leo, who was seeking the right choice.", "sourcePassageId": "pass.lettera_leone.coscienza" },
+        { "kind": "rifletti", "text": "To Brother Leo, Francis gives no instructions but freedom: \"follow your conscience before God\". What does this way of accompanying another teach you?" },
+        { "kind": "annota", "text": "If you wish, write in your journal about a decision you are carrying, and where you feel your conscience turning." }
+      ]
+    }
+  ]
+}

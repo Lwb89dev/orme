@@ -36,6 +36,7 @@ class ChapterViewModel(
 
     private val engine = container.storyEngine
     private val chapter: StoryChapter? = catalog.chaptersById[chapterId]
+    private val english = catalog.manifest.language == "en"
 
     private var profile: NarrativeProfile? = null
     private var session: ChapterSession? = null
@@ -46,7 +47,7 @@ class ChapterViewModel(
     init {
         viewModelScope.launch {
             if (chapter == null) {
-                _state.value = ChapterUiState(loading = false, error = "Capitolo non trovato")
+                _state.value = ChapterUiState(loading = false, error = if (english) "Chapter not found" else "Capitolo non trovato")
                 return@launch
             }
             profile = container.narrativeRepository.currentProfile()
@@ -97,13 +98,19 @@ class ChapterViewModel(
 
         val discoveries = mutableListOf<String>()
         report?.teachingsUpgraded?.keys?.forEach { id ->
-            catalog.teachingsById[id]?.let { discoveries += "Hai scoperto: ${it.title}" }
+            catalog.teachingsById[id]?.let {
+                discoveries += if (english) "You have discovered: ${it.title}" else "Hai scoperto: ${it.title}"
+            }
         }
         report?.newGardenElements?.forEach { id ->
-            catalog.gardenElementsById[id]?.let { discoveries += "Nel giardino compare: ${it.name}" }
+            catalog.gardenElementsById[id]?.let {
+                discoveries += if (english) "In the garden: ${it.name}" else "Nel giardino compare: ${it.name}"
+            }
         }
         report?.newCardPaths?.forEach { id ->
-            catalog.pathsById[id]?.let { discoveries += "Nuovo percorso di carte: ${it.title}" }
+            catalog.pathsById[id]?.let {
+                discoveries += if (english) "New card way: ${it.title}" else "Nuovo percorso di carte: ${it.title}"
+            }
         }
 
         val node = step.node
@@ -120,7 +127,7 @@ class ChapterViewModel(
 
     private fun speakerNameOf(node: StoryNode?): String? = when (node) {
         is it.orma.cammino.core.content.schema.DialogueLineNode -> when (node.speakerId) {
-            "player" -> "Tu"
+            "player" -> if (english) "You" else "Tu"
             "narrator" -> null
             else -> catalog.charactersById[node.speakerId]?.name ?: node.speakerId
         }

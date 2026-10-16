@@ -36,6 +36,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import it.orma.cammino.core.database.repository.JournalKind
 import it.orma.cammino.di.AppContainer
+import it.orma.cammino.ui.i18n.journalKindText
+import it.orma.cammino.ui.i18n.uiText
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
@@ -70,16 +72,16 @@ fun JournalEntryScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(if (entryId == null) "Nuova voce" else "Modifica voce") },
+                title = { Text(if (entryId == null) uiText("Nuova voce", "New entry") else uiText("Modifica voce", "Edit entry")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
                 actions = {
                     if (entryId != null) {
                         IconButton(onClick = { confirmDelete = true }) {
-                            Icon(Icons.Filled.Delete, contentDescription = "Elimina la voce")
+                            Icon(Icons.Filled.Delete, contentDescription = uiText("Elimina la voce", "Delete entry"))
                         }
                     }
                 },
@@ -99,7 +101,7 @@ fun JournalEntryScreen(
                     FilterChip(
                         selected = kind == k.name,
                         onClick = { kind = k.name },
-                        label = { Text(k.name.lowercase(), style = MaterialTheme.typography.labelSmall) },
+                        label = { Text(journalKindText(k), style = MaterialTheme.typography.labelSmall) },
                     )
                 }
             }
@@ -107,7 +109,7 @@ fun JournalEntryScreen(
             OutlinedTextField(
                 value = text,
                 onValueChange = { text = it; saved = false },
-                label = { Text("La tua riflessione") },
+                label = { Text(uiText("La tua riflessione", "Your reflection")) },
                 modifier = Modifier.fillMaxWidth(),
                 minLines = 10,
             )
@@ -129,7 +131,7 @@ fun JournalEntryScreen(
                 enabled = text.isNotBlank(),
                 modifier = Modifier.fillMaxWidth(),
             ) {
-                Text("Salva")
+                Text(uiText("Salva", "Save"))
             }
             Spacer(Modifier.height(24.dp))
         }
@@ -138,8 +140,8 @@ fun JournalEntryScreen(
     if (confirmDelete && entryId != null) {
         AlertDialog(
             onDismissRequest = { confirmDelete = false },
-            title = { Text("Eliminare questa voce?") },
-            text = { Text("L'eliminazione è definitiva: il diario non ha copie sul cloud.") },
+            title = { Text(uiText("Eliminare questa voce?", "Delete this entry?")) },
+            text = { Text(uiText("L'eliminazione è definitiva: il diario non ha copie sul cloud.", "Deletion is permanent: the journal has no cloud copies.")) },
             confirmButton = {
                 TextButton(onClick = {
                     confirmDelete = false
@@ -147,10 +149,10 @@ fun JournalEntryScreen(
                         container.journalRepository.delete(entryId)
                         navController.popBackStack()
                     }
-                }) { Text("Elimina") }
+                }) { Text(uiText("Elimina", "Delete")) }
             },
             dismissButton = {
-                TextButton(onClick = { confirmDelete = false }) { Text("Annulla") }
+                TextButton(onClick = { confirmDelete = false }) { Text(uiText("Annulla", "Cancel")) }
             },
         )
     }

@@ -72,13 +72,14 @@ class ConversationViewModel(
 ) : ViewModel() {
 
     private val conversation: GuidedConversation? = catalog.conversationsById[conversationId]
+    private val english = catalog.manifest.language == "en"
     private val _state = MutableStateFlow(ConversationUiState())
     val state: StateFlow<ConversationUiState> = _state
 
     init {
         val c = conversation
         if (c == null) {
-            _state.value = ConversationUiState(loading = false, error = "Conversazione non trovata")
+            _state.value = ConversationUiState(loading = false, error = if (english) "Conversation not found" else "Conversazione non trovata")
         } else {
             goTo(c.startNodeId, completed = false)
         }
@@ -88,7 +89,9 @@ class ConversationViewModel(
         val c = conversation ?: return
         val node = c.nodes.firstOrNull { it.id == nodeId }
         if (node == null) {
-            _state.value = _state.value.copy(error = "Passo mancante: $nodeId")
+            _state.value = _state.value.copy(
+                error = if (english) "Missing step: $nodeId" else "Passo mancante: $nodeId",
+            )
             return
         }
         _state.value = ConversationUiState(

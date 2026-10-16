@@ -1,0 +1,98 @@
+{
+  "characters": [
+    {"id":"char.bernardo","name":"Master Bernard","description":"Innkeeper of the Village of the Oaks for thirty years: practical, wary of strangers, unable to leave anyone out in the cold.","isHistorical":false},
+    {"id":"char.lucia","name":"Lucia","description":"Widow and herbalist of the Village of the Oaks, a keen observer and keeper of its memory.","isHistorical":false},
+    {"id":"char.frate_tommaso","name":"Brother Thomas","description":"A passing Friar Minor with worn sandals, a patched habit, and the rare gift of listening.","isHistorical":false},
+    {"id":"char.martino","name":"Martin","description":"A beggar met on the road; once a farrier in Spoleto, before illness took his forge and home.","isHistorical":false},
+    {"id":"char.giacomo","name":"James","description":"A mason of Assisi who works on the restoration of San Damiano.","isHistorical":false},
+    {"id":"char.matteo","name":"Matthew","description":"A mountain hunter who commands a gate of Gubbio in the days of fear.","isHistorical":false},
+    {"id":"char.guido","name":"Guido II, Bishop of Assisi","description":"Bishop of Assisi from 1204, who covered Francis with his mantle at the renunciation.","isHistorical":true},
+    {"id":"char.pietro","name":"Pietro di Bernardone","description":"A wealthy cloth merchant of Assisi, Francis's father.","isHistorical":true},
+    {"id":"char.francesco","name":"Francis of Bernardone","description":"The merchant's young son who leaves everything and begins again barefoot. His words here remain few and faithful to the sources.","isHistorical":true}
+  ],
+  "chapters": [
+    {
+      "id":"story.mantello.001","title":"The Wayfarer's Mantle","order":1,"placeId":"place.borgo_querce","summary":"In late-autumn rain the Wayfarer reaches the Village of the Oaks and meets a shivering beggar: the first choice of the road.","isBiographical":false,"requiredChapters":[],"startNodeId":"mant.n1","sourceDocumentIds":["source.narrazione_gioco"],"category":"narrazione_originale","reviewStatus":"verified",
+      "nodes":[
+        {"type":"narration","id":"mant.n1","text":"Late-autumn rain has followed you for three days. When you glimpse the first houses of the Village of the Oaks, evening is already closing the paths and water streams from your mantle.","next":"mant.enc_martino"},
+        {"type":"character_encounter","id":"mant.enc_martino","characterId":"char.martino","text":"Martin has the age of the roads. He was a farrier in Spoleto, before illness took his forge and his home. Now the road is all that remains to him.","next":"mant.n3"},
+        {"type":"dialogue","id":"mant.n3","speakerId":"char.martino","text":"I ask nothing, stranger. But the night will be long and frozen, and my back can no longer bear the damp.","next":"mant.c1"},
+        {"type":"choice","id":"mant.c1","prompt":"Martin trembles beneath the hedge. What will you do?","options":[{"id":"mant.c1.a","text":"You remove your mantle and lay it upon his shoulders.","next":"mant.a1","effects":[{"type":"set_flag","flag":"mantello_dato","value":true}]},{"id":"mant.c1.b","text":"You offer him your arm and escort him to the village.","next":"mant.a1"},{"id":"mant.c1.c","text":"You sit beside him beneath the hedge and listen.","next":"mant.a1"}]},
+        {"type":"narration","id":"mant.a1","text":"The mantle leaves your shoulders and cold enters your bones at once. Yet in that cold there is a new lightness, which you cannot explain.","next":"mant.conv"},
+        {"type":"narration","id":"mant.conv","text":"The inn smells of wood and bread. The low fire dries your clothes and loosens the weariness of the road.","next":"mant.enc_bernardo"},
+        {"type":"character_encounter","id":"mant.enc_bernardo","characterId":"char.bernardo","text":"Master Bernard has kept the inn for thirty years: practical, wary, unable to leave anyone out in the cold.","next":"mant.enc_lucia"},
+        {"type":"character_encounter","id":"mant.enc_lucia","characterId":"char.lucia","text":"Lucia, the widow and herbalist, watches from the corner. Nothing that happens on the road escapes her.","next":"mant.t1"},
+        {"type":"teaching","id":"mant.t1","teachingId":"teaching.accoglienza.ogni_uomo","text":"You have discovered: No one is a stranger. Welcome begins not with an idea, but with a hedge, a shivering man, and a pause.","next":"mant.r1"},
+        {"type":"reflection","id":"mant.r1","prompt":"What moved you beneath that hedge, and what held you back? Before whom have you learned to pass by?","teachingId":"teaching.accoglienza.ogni_uomo","next":"mant.end"},
+        {"type":"completion","id":"mant.end","text":"In the morning, on the inn counter, you find a handful of chestnuts and no word: in the village, things are remembered. Your road has begun.","exploredTeachingIds":["teaching.accoglienza.ogni_uomo"]}
+      ]
+    },
+    {
+      "id":"story.rinuncia.001","title":"The Merchant's Son","order":2,"placeId":"place.assisi","summary":"Assisi, early 1206: the Wayfarer arrives as Francis, before Bishop Guido, returns everything to his father.","isBiographical":true,"requiredChapters":["story.mantello.001"],"startNodeId":"rin.n1","sourceDocumentIds":["source.celano_vita_prima"],"category":"narrazione_originale","reviewStatus":"verified",
+      "nodes":[
+        {"type":"narration","id":"rin.n1","text":"Assisi receives you with a murmur unlike the sound of market days. In the lanes people speak softly of one name: the son of Ser Pietro di Bernardone, the cloth merchant.","next":"rin.c1"},
+        {"type":"choice","id":"rin.c1","prompt":"The voices in the piazza grow louder. On one side the crowd, on the other a solitary man with his stones.","options":[{"id":"rin.c1.a","text":"Go down to San Damiano and help the mason.","next":"rin.p1"},{"id":"rin.c1.b","text":"Run to the piazza before the crowd closes in.","next":"rin.p1"},{"id":"rin.c1.c","text":"Climb the steps of San Rufino and watch from above.","next":"rin.p1"}]},
+        {"type":"narration","id":"rin.p1","text":"In the middle stands a gaunt young man with burning eyes; opposite him an old man trembling with anger: Ser Pietro di Bernardone.","next":"rin.enc_francesco"},
+        {"type":"character_encounter","id":"rin.enc_francesco","characterId":"char.francesco","text":"Francis is about twenty-four. Today, before the bishop, he seems already to have left precious cloths and feasts behind.","next":"rin.p2"},
+        {"type":"dialogue","id":"rin.p2","speakerId":"char.pietro","text":"My cloth, my horse, my money: sold for his follies! Let him renounce everything of mine, down to the last thread.","next":"rin.p3"},
+        {"type":"narration","id":"rin.p3","text":"The young man removes his clothes and lays them at his father's feet. Bishop Guido covers his naked shoulders with his mantle.","next":"rin.p4"},
+        {"type":"dialogue","id":"rin.p4","speakerId":"char.francesco","text":"Until today I called Pietro di Bernardone my father. From now on I can freely say: Our Father, who art in heaven.","next":"rin.enc_guido"},
+        {"type":"character_encounter","id":"rin.enc_guido","characterId":"char.guido","text":"Bishop Guido crosses the emptied piazza. He is the one who covered Francis before everyone.","next":"rin.g1"},
+        {"type":"dialogue","id":"rin.g1","speakerId":"char.guido","text":"I have seen many men cling to things. Never one let them go like this. Pray for that boy—and for us, who look on and do not understand.","next":"rin.hist1"},
+        {"type":"historical_insight","id":"rin.hist1","title":"What Is Documented","text":"Francis's renunciation before Bishop Guido, at the beginning of 1206, is told by Thomas of Celano's First Life: the return of the clothes, the words about the Father in heaven, and the bishop's mantle. The Wayfarer and the piazza dialogues belong to fiction.","sourceDocumentIds":["source.celano_vita_prima"],"next":"rin.t1"},
+        {"type":"teaching","id":"rin.t1","teachingId":"teaching.rinuncia.sine_proprio","text":"You have discovered: Nothing of my own, everything received. Renunciation is freedom from the idea of possessing. Whoever possesses nothing has nothing to defend, and can receive everything as gift.","next":"rin.end"},
+        {"type":"completion","id":"rin.end","text":"You leave Assisi as the lights come on. You have seen a man remain naked and free in a piazza, and a whole city question itself.","exploredTeachingIds":["teaching.rinuncia.sine_proprio"]}
+      ]
+    },
+    {
+      "id":"story.lebbrosi.001","title":"The Man by the Roadside","order":3,"placeId":"place.campagne_umbre","summary":"A clapper announces a leper on the road. The Wayfarer must reckon with fear, disgust, and reverence—and with a face he knows.","isBiographical":false,"requiredChapters":["story.mantello.001"],"startNodeId":"leb.n1","sourceDocumentIds":["source.testamento","source.celano_vita_prima"],"category":"narrazione_originale","reviewStatus":"verified",
+      "nodes":[
+        {"type":"narration","id":"leb.n1","text":"At a crossroads you hear the dry, rhythmic sound of the wooden clapper with which lepers announce their passing.","next":"leb.n2"},
+        {"type":"narration","id":"leb.n2","text":"At the roadside, wrapped in rags, a man sits. Your body stiffens: your step slows, your breath is held, and you wish to cross away.","next":"leb.c1"},
+        {"type":"choice","id":"leb.c1","prompt":"A leper by the roadside. What will you do?","options":[{"id":"leb.c1.a","text":"Come within a step of him and speak.","next":"leb.a1"},{"id":"leb.c1.b","text":"Leave bread and figs upon a stone.","next":"leb.a1"},{"id":"leb.c1.c","text":"Pass by, then stop and turn back.","next":"leb.a1"}]},
+        {"type":"narration","id":"leb.a1","text":"Beneath the grey ash of sickness, you recognise the clear eyes of Martin, the beggar of your first day in the village.","next":"leb.a2"},
+        {"type":"dialogue","id":"leb.a2","speakerId":"char.martino","text":"The sickness took my fingers, then the village took the rest. People flee before they see me. You do not know what gift it is to be looked in the face.","next":"leb.conv"},
+        {"type":"narration","id":"leb.conv","text":"Martin tells you of a friar from Assisi, that merchant's son who left everything: now he enters the leprosaria, washes wounds, and calls each person by name.","next":"leb.hist1"},
+        {"type":"historical_insight","id":"leb.hist1","title":"Francis's Words","text":"In the Testament Francis tells how the Lord led him among the lepers and how he showed them mercy: what had seemed bitter was changed into sweetness (Testament 1–3). Martin and your meeting belong to the Wayfarer's fiction.","sourceDocumentIds":["source.testamento"],"next":"leb.t1"},
+        {"type":"teaching","id":"leb.t1","teachingId":"teaching.carita.lebbrosi","text":"You have discovered: The encounter that changes a life. Charity is the bodily act of drawing near to the excluded, and finding bitterness changed into sweetness.","next":"leb.t2"},
+        {"type":"teaching","id":"leb.t2","teachingId":"teaching.misericordia.compassione","text":"You have discovered: Drawing near with the whole body. Francis does not say that he felt mercy: he says that he showed it. Compassion moves our hands.","next":"leb.r1"},
+        {"type":"reflection","id":"leb.r1","prompt":"What moved your body today, before your thoughts: fear, disgust, tenderness? Recall a face you have learned to avoid.","teachingId":"teaching.carita.lebbrosi","next":"leb.end"},
+        {"type":"completion","id":"leb.end","text":"You take the road again in darkness, the clapper fading behind you. Something in the way you look upon people has changed for ever.","exploredTeachingIds":["teaching.carita.lebbrosi","teaching.misericordia.compassione"]}
+      ]
+    },
+    {
+      "id":"story.lupo.001","title":"The Beast of Gubbio","order":4,"placeId":"place.gubbio","summary":"Gubbio lives in terror of a fierce wolf. Between defence, trust, and mediation, the Wayfarer sees peace being born.","isBiographical":false,"requiredChapters":["story.rinuncia.001"],"startNodeId":"lupo.n1","sourceDocumentIds":["source.fioretti"],"category":"narrazione_originale","reviewStatus":"verified",
+      "nodes":[
+        {"type":"narration","id":"lupo.n1","text":"Gubbio appears suddenly, clinging to the mountain. The gates are barred in daylight and the fields lie empty: no one sends the flocks to pasture.","next":"lupo.enc_matteo"},
+        {"type":"character_encounter","id":"lupo.enc_matteo","characterId":"char.matteo","text":"Matthew commands the gate guard, a mountain hunter with a weathered face and a spear never far away.","next":"lupo.n3"},
+        {"type":"dialogue","id":"lupo.n3","speakerId":"char.matteo","text":"A wolf, stranger. As large as a calf and unafraid of men. We shall go out armed. Keep away from the woods.","next":"lupo.c1"},
+        {"type":"choice","id":"lupo.c1","prompt":"The city is caught between fear and disbelief. What will you do?","options":[{"id":"lupo.c1.a","text":"Help Matthew organise the defence.","next":"lupo.f1"},{"id":"lupo.c1.b","text":"Follow the friar outside the walls.","next":"lupo.f1"},{"id":"lupo.c1.c","text":"Persuade the hunters to follow without spears.","next":"lupo.f1"}]},
+        {"type":"narration","id":"lupo.f1","text":"You follow the friar beyond the last house. Fear tightens your throat, but his quiet steps draw yours onward.","next":"lupo.f2"},
+        {"type":"dialogue","id":"lupo.f2","speakerId":"char.francesco","text":"Do not be afraid, brother. We are going to meet a creature hungry and afraid, as we all are.","next":"lupo.conv"},
+        {"type":"narration","id":"lupo.conv","text":"The friar meets the wolf and offers peace in the name of a covenant. In the piazza he seals it: the city will feed the wolf, and the wolf will harm neither man nor beast.","next":"lupo.hist1"},
+        {"type":"historical_insight","id":"lupo.hist1","title":"Tale or History?","text":"The wolf of Gubbio is told by the Little Flowers, a late-fourteenth-century hagiographic collection, not a chronicle. We offer it as a tale of memory, not historical fact. The greeting of peace recalled in the Testament and the first friars' proclamation of peace do have documentary foundation.","sourceDocumentIds":["source.fioretti"],"next":"lupo.t1"},
+        {"type":"teaching","id":"lupo.t1","teachingId":"teaching.pace.saluto","text":"You have discovered: The greeting of peace. Peace is a proclamation to carry and a courage to possess. It is born by going towards what frightens us without weapons in our hands.","next":"lupo.r1"},
+        {"type":"reflection","id":"lupo.r1","prompt":"Gubbio had three roads: defend itself, trust, mediate. Which did you choose, and why? Who or what is the wolf from which people bar their doors?","teachingId":"teaching.pace.saluto","next":"lupo.end"},
+        {"type":"completion","id":"lupo.end","text":"You leave Gubbio while the wolf sleeps harmlessly in the sun. The city has learned a new word, and you have learned it with her: peace is made, not awaited.","exploredTeachingIds":["teaching.pace.saluto"]}
+      ]
+    },
+    {
+      "id":"story.tempesta.001","title":"The Night of the Storm","order":5,"placeId":"place.campagne_umbre","summary":"Caught by a storm, the Wayfarer shares a cave with Brother Thomas: a night of story and listening, and a morning of sun upon wet leaves.","isBiographical":false,"requiredChapters":["story.lupo.001"],"startNodeId":"temp.n1","sourceDocumentIds":["source.cantico"],"category":"narrazione_originale","reviewStatus":"verified",
+      "nodes":[
+        {"type":"narration","id":"temp.n1","text":"On the road back towards the Village of the Oaks, the sky closes swiftly. The wind carries rain and thunder rolls beyond the ridges.","next":"temp.enc_tommaso"},
+        {"type":"character_encounter","id":"temp.enc_tommaso","characterId":"char.frate_tommaso","text":"Brother Thomas is a passing Friar Minor: worn sandals, a patched habit, a staff and nothing else. He is gifted with the rare grace of listening.","next":"temp.n3"},
+        {"type":"dialogue","id":"temp.n3","speakerId":"char.frate_tommaso","text":"Come in, brother, and dry yourself. Tonight we shall share the cave with the rain. I have bread and fire: for two wayfarers it is a palace.","next":"temp.c1"},
+        {"type":"choice","id":"temp.c1","prompt":"The night will be long. How will you fill it?","options":[{"id":"temp.c1.a","text":"Ask Brother Thomas about his life before the habit.","next":"temp.s1"},{"id":"temp.c1.b","text":"Tell your own story of the road.","next":"temp.s1"},{"id":"temp.c1.c","text":"Remain in silence, listening to the rain.","next":"temp.s1"}]},
+        {"type":"dialogue","id":"temp.s1","speakerId":"char.frate_tommaso","text":"I was a shepherd. A flood took my flock and my hut. Then I discovered that, possessing nothing, I feared nothing any more: there I understood the friars of Assisi.","next":"temp.c2"},
+        {"type":"choice","id":"temp.c2","prompt":"The first light filters into the cave.","options":[{"id":"temp.c2.a","text":"Ask how one gives thanks when everything goes badly.","next":"temp.q1"},{"id":"temp.c2.b","text":"Ask nothing: look at the drops upon the leaves.","next":"temp.q1"}]},
+        {"type":"dialogue","id":"temp.q1","speakerId":"char.frate_tommaso","text":"Gratitude is not the prize of good days: it is an exercise, like walking. Whoever practises it each day has trained legs for the dark days.","next":"temp.hist1"},
+        {"type":"historical_insight","id":"temp.hist1","title":"The Canticle, the Cave, and Fiction","text":"The Canticle of the Creatures is an authentic work of Francis, composed in 1225–1226 in the season of illness. The Praises of God Most High are authentic as well. Brother Thomas and the night in the cave belong to the Wayfarer's fiction; his words paraphrase the Canticle without quoting it.","sourceDocumentIds":["source.cantico"],"next":"temp.t1"},
+        {"type":"teaching","id":"temp.t1","teachingId":"teaching.creato.cantico","text":"You have discovered: Brother Sun, Sister Water. The world is a family of creatures praising the Creator. Care for creation is born of kinship and gratitude, not usefulness.","next":"temp.t2"},
+        {"type":"teaching","id":"temp.t2","teachingId":"teaching.gratitudine.lodi","text":"You have discovered: Praise that asks for nothing. Gratitude is a trained gaze that recognises gift in every thing—even illness.","next":"temp.r1"},
+        {"type":"reflection","id":"temp.r1","prompt":"What, among the things you have, is received and not owed?","teachingId":"teaching.gratitudine.lodi","next":"temp.rw1"},
+        {"type":"reward_unlock","id":"temp.rw1","text":"You think again of Sister Water, which quenches and washes. In the garden of memory, a fountain now runs.","unlocks":[{"type":"unlock_garden","elementId":"garden.fontana"}],"next":"temp.end"},
+        {"type":"completion","id":"temp.end","text":"At the Village of the Oaks they welcome you as one returning from afar. Your clothes carry the smell of smoke and rain, and your ears the voice of water. The road continues.","exploredTeachingIds":["teaching.creato.cantico","teaching.gratitudine.lodi"]}
+      ]
+    }
+  ]
+}

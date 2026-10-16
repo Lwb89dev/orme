@@ -98,13 +98,17 @@ class CardSessionViewModel(
 ) : ViewModel() {
 
     private val path: CardPath? = catalog.pathsById[pathId]
+    private val english = catalog.manifest.language == "en"
     private val _state = MutableStateFlow(CardSessionUiState())
     val state: StateFlow<CardSessionUiState> = _state
 
     init {
         val p = path
         if (p == null || p.scenarioIds.isEmpty()) {
-            _state.value = CardSessionUiState(loading = false, error = "Percorso non trovato")
+            _state.value = CardSessionUiState(
+                loading = false,
+                error = if (english) "Way not found" else "Percorso non trovato",
+            )
         } else {
             loadScenario(0)
         }

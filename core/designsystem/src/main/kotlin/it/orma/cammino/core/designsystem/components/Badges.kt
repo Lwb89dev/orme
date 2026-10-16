@@ -26,7 +26,11 @@ fun SourceCategory.label(): String = when (this) {
  * (nessuna informazione esclusivamente cromatica).
  */
 @Composable
-fun SourceBadge(category: SourceCategory, modifier: Modifier = Modifier) {
+fun SourceBadge(
+    category: SourceCategory,
+    modifier: Modifier = Modifier,
+    label: String = category.label(),
+) {
     val background: Color
     val content: Color
     val scheme = MaterialTheme.colorScheme
@@ -39,7 +43,7 @@ fun SourceBadge(category: SourceCategory, modifier: Modifier = Modifier) {
     }
     Surface(color = background, shape = MaterialTheme.shapes.small, modifier = modifier) {
         Text(
-            text = category.label(),
+            text = label,
             style = MaterialTheme.typography.labelSmall,
             color = content,
             modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
@@ -55,13 +59,17 @@ fun TeachingStatus.label(): String = when (this) {
 
 /** Stato di esperienza di un insegnamento (non una valutazione morale). */
 @Composable
-fun TeachingStatusChip(status: TeachingStatus?, modifier: Modifier = Modifier) {
+fun TeachingStatusChip(
+    status: TeachingStatus?,
+    modifier: Modifier = Modifier,
+    label: String? = null,
+) {
     val scheme = MaterialTheme.colorScheme
     val (background, content, text) = when (status) {
-        null -> Triple(scheme.surfaceVariant, scheme.onSurfaceVariant, "Da scoprire")
-        TeachingStatus.SCOPERTO -> Triple(scheme.tertiary, scheme.onTertiary, status.label())
-        TeachingStatus.ESPLORATO -> Triple(scheme.secondary, scheme.onSecondary, status.label())
-        TeachingStatus.APPROFONDITO -> Triple(scheme.primary, scheme.onPrimary, status.label())
+        null -> Triple(scheme.surfaceVariant, scheme.onSurfaceVariant, label ?: "Da scoprire")
+        TeachingStatus.SCOPERTO -> Triple(scheme.tertiary, scheme.onTertiary, label ?: status.label())
+        TeachingStatus.ESPLORATO -> Triple(scheme.secondary, scheme.onSecondary, label ?: status.label())
+        TeachingStatus.APPROFONDITO -> Triple(scheme.primary, scheme.onPrimary, label ?: status.label())
     }
     Surface(color = background, shape = MaterialTheme.shapes.small, modifier = modifier) {
         Text(

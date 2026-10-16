@@ -28,11 +28,14 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import it.orma.cammino.core.designsystem.components.OrnamentalDivider
+import it.orma.cammino.ui.i18n.uiText
 import kotlinx.coroutines.launch
 
 private data class OnboardingPage(
     val title: String,
+    val titleEnglish: String,
     val text: String,
+    val textEnglish: String,
     val illustration: OnboardingIllustration,
 )
 
@@ -41,22 +44,30 @@ private enum class OnboardingIllustration { TAU, FOUR_WAYS, OPEN_BOOK, SHELL }
 private val pages = listOf(
     OnboardingPage(
         title = "Chi è Francesco",
+        titleEnglish = "Who Is Francis",
         text = "Francesco d'Assisi (1181/82-1226): figlio di un mercante che scelse la povertà, fondò una fraternità e lasciò scritti che ancora parlano. Questa app ti invita a conoscerlo davvero — con le sue fonti, non solo con la sua leggenda.",
+        textEnglish = "Francis of Assisi (1181/82–1226): a merchant's son who chose poverty, founded a fraternity, and left writings that still speak. This app invites you to know him through his sources, not only through his legend.",
         illustration = OnboardingIllustration.TAU,
     ),
     OnboardingPage(
         title = "Quattro vie",
+        titleEnglish = "Four Ways",
         text = "Il Viandante ti fa vivere storie con scelte reali. Il Giardino cresce con ciò che scopri. Le Vie della Saggezza ti mettono di fronte a decisioni. Il Dialogo risponde alle tue domande. Nessun ordine obbligato: inizia da dove vuoi.",
+        textEnglish = "The Wayfarer lets you live stories with real choices. The Garden grows with what you discover. The Ways of Wisdom place decisions before you. The Dialogue answers your questions. There is no required order: begin where you wish.",
         illustration = OnboardingIllustration.FOUR_WAYS,
     ),
     OnboardingPage(
         title = "Le fonti contano",
+        titleEnglish = "Sources Matter",
         text = "Ogni insegnamento è legato ai suoi documenti: gli scritti di Francesco, le biografie medievali, la tradizione dei Fioretti. L'app dichiara sempre da dove viene ogni contenuto, e cosa è racconto di oggi.",
+        textEnglish = "Each teaching is linked to its documents: Francis's writings, medieval biographies, and the tradition of the Little Flowers. The app always tells you where content comes from and what is today's narrative.",
         illustration = OnboardingIllustration.OPEN_BOOK,
     ),
     OnboardingPage(
         title = "Il tuo passo",
+        titleEnglish = "Your Step",
         text = "Niente account, niente classifiche, niente punteggi di virtù. Quello che scopri resta sul tuo dispositivo; il diario è tuo e soltanto tuo. Buon cammino, pellegrino.",
+        textEnglish = "No account, rankings, or virtue scores. What you discover remains on your device; the journal is yours alone. A good journey, pilgrim.",
         illustration = OnboardingIllustration.SHELL,
     ),
 )
@@ -72,7 +83,7 @@ fun OnboardingScreen(onFinish: () -> Unit) {
     ) {
         Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.CenterEnd) {
             if (pagerState.currentPage < pages.size - 1) {
-                TextButton(onClick = onFinish) { Text("Salta") }
+                TextButton(onClick = onFinish) { Text(uiText("Salta", "Skip")) }
             }
         }
 
@@ -89,7 +100,7 @@ fun OnboardingScreen(onFinish: () -> Unit) {
                 OnboardingIllustrationView(page.illustration)
                 Spacer(Modifier.height(28.dp))
                 Text(
-                    page.title,
+                    uiText(page.title, page.titleEnglish),
                     style = MaterialTheme.typography.headlineMedium,
                     color = MaterialTheme.colorScheme.primary,
                     textAlign = TextAlign.Center,
@@ -97,7 +108,7 @@ fun OnboardingScreen(onFinish: () -> Unit) {
                 )
                 Spacer(Modifier.height(14.dp))
                 Text(
-                    page.text,
+                    uiText(page.text, page.textEnglish),
                     style = MaterialTheme.typography.bodyLarge,
                     textAlign = TextAlign.Center,
                 )
@@ -127,7 +138,7 @@ fun OnboardingScreen(onFinish: () -> Unit) {
             },
             modifier = Modifier.fillMaxWidth().height(52.dp),
         ) {
-            Text(if (pagerState.currentPage < pages.size - 1) "Avanti" else "Inizia il cammino")
+            Text(uiText(if (pagerState.currentPage < pages.size - 1) "Avanti" else "Inizia il cammino", if (pagerState.currentPage < pages.size - 1) "Next" else "Begin the journey"))
         }
         Spacer(Modifier.height(8.dp))
         OrnamentalDivider()

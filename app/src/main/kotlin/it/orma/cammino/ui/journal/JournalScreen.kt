@@ -46,6 +46,8 @@ import it.orma.cammino.core.designsystem.components.OrnamentalDivider
 import it.orma.cammino.core.designsystem.components.PergamenaCard
 import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.Route
+import it.orma.cammino.ui.i18n.LocalAppLanguage
+import it.orma.cammino.ui.i18n.uiText
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -77,7 +79,7 @@ class JournalViewModel(private val container: AppContainer) : ViewModel() {
         }
     }
 
-    suspend fun exportMarkdown(): String = container.journalRepository.exportMarkdown()
+    suspend fun exportMarkdown(language: String): String = container.journalRepository.exportMarkdown(language)
 
     companion object {
         fun factory(container: AppContainer): ViewModelProvider.Factory =
@@ -96,36 +98,39 @@ fun JournalScreen(container: AppContainer, catalog: ContentCatalog, navControlle
     val state by vm.state.collectAsStateWithLifecycle()
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
+    val language = LocalAppLanguage.current
+    val exportChooserLabel = uiText("Esporta il diario", "Export journal")
+    val exportSubject = uiText("Diario — Orme", "Journal — Orme")
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Il diario") },
+                title = { Text(uiText("Il diario", "Journal")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
                 actions = {
                     IconButton(onClick = {
                         scope.launch {
-                            val markdown = vm.exportMarkdown()
+                            val markdown = vm.exportMarkdown(language)
                             val intent = Intent(Intent.ACTION_SEND).apply {
                                 type = "text/markdown"
-                                putExtra(Intent.EXTRA_SUBJECT, "Diario — Orme")
+                                putExtra(Intent.EXTRA_SUBJECT, exportSubject)
                                 putExtra(Intent.EXTRA_TEXT, markdown)
                             }
-                            context.startActivity(Intent.createChooser(intent, "Esporta il diario"))
+                                context.startActivity(Intent.createChooser(intent, exportChooserLabel))
                         }
                     }) {
-                        Icon(Icons.Filled.Share, contentDescription = "Esporta il diario in Markdown")
+                        Icon(Icons.Filled.Share, contentDescription = uiText("Esporta il diario in Markdown", "Export journal as Markdown"))
                     }
                 },
             )
         },
         floatingActionButton = {
             FloatingActionButton(onClick = { navController.navigate(Route.JournalEntry(null, null, null)) }) {
-                Icon(Icons.Filled.Add, contentDescription = "Nuova voce di diario")
+                Icon(Icons.Filled.Add, contentDescription = uiText("Nuova voce di diario", "New journal entry"))
             }
         },
     ) { padding ->
@@ -138,14 +143,14 @@ fun JournalScreen(container: AppContainer, catalog: ContentCatalog, navControlle
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             Text(
-                "Privato e locale: nessuna analisi automatica, nessuna trasmissione. L'esportazione è un file Markdown che scegli tu dove condividere.",
+                uiText("Privato e locale: nessuna analisi automatica, nessuna trasmissione. L'esportazione è un file Markdown che scegli tu dove condividere.", "Private and local: no automated analysis or transmission. Export is a Markdown file that you choose where to share."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
 
             if (state.favorites.isNotEmpty()) {
                 Text(
-                    "Preferiti",
+                    uiText("Preferiti", "Favourites"),
                     style = MaterialTheme.typography.titleLarge,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.semantics { heading() },
@@ -164,7 +169,7 @@ fun JournalScreen(container: AppContainer, catalog: ContentCatalog, navControlle
 
             if (state.entries.isEmpty() && !state.loading) {
                 Text(
-                    "Il diario è vuoto. Le riflessioni che scriverai lungo il cammino compariranno qui.",
+                    uiText("Il diario è vuoto. Le riflessioni che scriverai lungo il cammino compariranno qui.", "The journal is empty. Reflections you write along the way will appear here."),
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -177,7 +182,7 @@ fun JournalScreen(container: AppContainer, catalog: ContentCatalog, navControlle
                 ) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Text(
-                            SimpleDateFormat("d MMMM y", Locale.ITALIAN).format(Date(entry.createdAt)),
+                            SimpleDateFormat("d MMMM y", if (language == "en") Locale.ENGLISH else Locale.ITALIAN).format(Date(entry.createdAt)),
                             style = MaterialTheme.typography.labelSmall,
                             color = MaterialTheme.colorScheme.tertiary,
                         )

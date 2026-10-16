@@ -49,6 +49,10 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import it.orma.cammino.ui.i18n.sourceCategoryText
+import it.orma.cammino.ui.i18n.teachingStatusText
+import it.orma.cammino.ui.i18n.themeText
+import it.orma.cammino.ui.i18n.uiText
 
 class TeachingDetailViewModel(
     private val container: AppContainer,
@@ -90,7 +94,10 @@ fun TeachingDetailScreen(
     teachingId: String,
     navController: NavHostController,
 ) {
-    val vm: TeachingDetailViewModel = viewModel(factory = TeachingDetailViewModel.factory(container, teachingId), key = teachingId)
+    val vm: TeachingDetailViewModel = viewModel(
+        factory = TeachingDetailViewModel.factory(container, teachingId),
+        key = "$teachingId:${catalog.manifest.language}",
+    )
     val progression by vm.progression.collectAsStateWithLifecycle()
     val isFavorite by vm.isFavorite.collectAsStateWithLifecycle()
     val teaching = catalog.teachingsById[teachingId]
@@ -98,17 +105,17 @@ fun TeachingDetailScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(teaching?.title ?: "Insegnamento") },
+                title = { Text(teaching?.title ?: uiText("Insegnamento", "Teaching")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
                 actions = {
                     IconButton(onClick = { vm.toggleFavorite() }) {
                         Icon(
                             if (isFavorite) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
-                            contentDescription = if (isFavorite) "Togli dai preferiti" else "Aggiungi ai preferiti",
+                            contentDescription = if (isFavorite) uiText("Togli dai preferiti", "Remove from favourites") else uiText("Aggiungi ai preferiti", "Add to favourites"),
                         )
                     }
                 },
@@ -124,15 +131,18 @@ fun TeachingDetailScreen(
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
             if (teaching == null) {
-                Text("Insegnamento non trovato", color = MaterialTheme.colorScheme.error)
+                Text(uiText("Insegnamento non trovato", "Teaching not found"), color = MaterialTheme.colorScheme.error)
                 return@Column
             }
 
             Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
-                TeachingStatusChip(progression.teachings[teaching.id])
+                TeachingStatusChip(
+                    progression.teachings[teaching.id],
+                    label = teachingStatusText(progression.teachings[teaching.id]),
+                )
                 Spacer(Modifier.weight(1f))
                 Text(
-                    "Tema: " + teaching.theme.name.lowercase(),
+                    uiText("Tema: ", "Theme: ") + themeText(teaching.theme),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -143,7 +153,7 @@ fun TeachingDetailScreen(
             if (teaching.historicalContext.isNotBlank()) {
                 PergamenaSection {
                     Text(
-                        "Il contesto",
+                        uiText("Il contesto", "Context"),
                         style = MaterialTheme.typography.titleMedium,
                         color = MaterialTheme.colorScheme.primary,
                         modifier = Modifier.semantics { heading() },
@@ -157,7 +167,7 @@ fun TeachingDetailScreen(
             if (teaching.sourcePassageIds.isNotEmpty()) {
                 OrnamentalDivider()
                 Text(
-                    "Le fonti",
+                    uiText("Le fonti", "Sources"),
                     style = MaterialTheme.typography.titleLarge,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.semantics { heading() },
@@ -173,7 +183,7 @@ fun TeachingDetailScreen(
             if (teaching.relatedEventIds.isNotEmpty()) {
                 OrnamentalDivider()
                 Text(
-                    "Nella vita di Francesco",
+                    uiText("Nella vita di Francesco", "In Francis's life"),
                     style = MaterialTheme.typography.titleLarge,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.semantics { heading() },
@@ -188,7 +198,7 @@ fun TeachingDetailScreen(
             // Esperienze nelle quattro modalità
             OrnamentalDivider()
             Text(
-                "Vivilo nelle quattro vie",
+                uiText("Vivilo nelle quattro vie", "Live it through the four ways"),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
@@ -196,38 +206,38 @@ fun TeachingDetailScreen(
             teaching.experiences.viandante.forEach { id ->
                 catalog.chaptersById[id]?.let { chapter ->
                     OutlinedButton(onClick = { navController.navigate(Route.Chapter(id)) }, modifier = Modifier.fillMaxWidth()) {
-                        Text("Il Viandante: ${chapter.title}")
+                        Text(uiText("Il Viandante: ${chapter.title}", "The Wayfarer: ${chapter.title}"))
                     }
                 }
             }
             teaching.experiences.cards.forEach { id ->
                 catalog.pathsById[id]?.let { path ->
                     OutlinedButton(onClick = { navController.navigate(Route.CardPathSession(id)) }, modifier = Modifier.fillMaxWidth()) {
-                        Text("Le Vie: ${path.title}")
+                        Text(uiText("Le Vie: ${path.title}", "The Ways: ${path.title}"))
                     }
                 }
                 catalog.scenariosById[id]?.let {
                     OutlinedButton(onClick = { navController.navigate(Route.CardPaths) }, modifier = Modifier.fillMaxWidth()) {
-                        Text("Le Vie della Saggezza")
+                        Text(uiText("Le Vie della Saggezza", "The Ways of Wisdom"))
                     }
                 }
             }
             teaching.experiences.dialogue.forEach { id ->
                 catalog.conversationsById[id]?.let { conv ->
                     OutlinedButton(onClick = { navController.navigate(Route.Conversation(id)) }, modifier = Modifier.fillMaxWidth()) {
-                        Text("Il Dialogo: ${conv.title}")
+                        Text(uiText("Il Dialogo: ${conv.title}", "The Dialogue: ${conv.title}"))
                     }
                 }
             }
             teaching.experiences.garden.forEach { id ->
                 catalog.contemplationsById[id]?.let { cont ->
                     OutlinedButton(onClick = { navController.navigate(Route.Contemplation(id)) }, modifier = Modifier.fillMaxWidth()) {
-                        Text("Il Giardino: ${cont.title}")
+                        Text(uiText("Il Giardino: ${cont.title}", "The Garden: ${cont.title}"))
                     }
                 }
                 catalog.gardenElementsById[id]?.let { element ->
                     OutlinedButton(onClick = { navController.navigate(Route.Garden) }, modifier = Modifier.fillMaxWidth()) {
-                        Text("Il Giardino: ${element.name}")
+                        Text(uiText("Il Giardino: ${element.name}", "The Garden: ${element.name}"))
                     }
                 }
             }
@@ -240,7 +250,7 @@ fun TeachingDetailScreen(
             ) {
                 Icon(Icons.Outlined.EditNote, contentDescription = null)
                 Spacer(Modifier.padding(4.dp))
-                Text("Scrivi una riflessione nel diario")
+                Text(uiText("Scrivi una riflessione nel diario", "Write a reflection in the journal"))
             }
             Spacer(Modifier.height(24.dp))
         }
@@ -255,7 +265,7 @@ fun PassageCard(catalog: ContentCatalog, passage: it.orma.cammino.core.model.Sou
         modifier = Modifier.fillMaxWidth(),
     ) {
         if (doc != null) {
-            it.orma.cammino.core.designsystem.components.SourceBadge(doc.category)
+            it.orma.cammino.core.designsystem.components.SourceBadge(doc.category, label = sourceCategoryText(doc.category))
             Spacer(Modifier.height(6.dp))
         }
         Text(
@@ -274,7 +284,7 @@ fun PassageCard(catalog: ContentCatalog, passage: it.orma.cammino.core.model.Sou
             Spacer(Modifier.height(4.dp))
             Text(passage.translation, style = MaterialTheme.typography.bodyMedium)
             Text(
-                "Traduzione editoriale",
+                uiText("Traduzione editoriale", "Editorial translation"),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -282,7 +292,7 @@ fun PassageCard(catalog: ContentCatalog, passage: it.orma.cammino.core.model.Sou
             Spacer(Modifier.height(4.dp))
             Text(passage.paraphrase, style = MaterialTheme.typography.bodyMedium)
             Text(
-                "Parafrasi editoriale",
+                uiText("Parafrasi editoriale", "Editorial paraphrase"),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

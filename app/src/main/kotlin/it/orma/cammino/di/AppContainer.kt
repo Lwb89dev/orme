@@ -38,9 +38,7 @@ class AppContainer(context: Context) {
         private set
 
     fun attachCatalog(catalog: it.orma.cammino.core.content.ContentCatalog) {
-        if (progressionRepository == null) {
-            progressionRepository = ProgressionRepository(database, catalog)
-        }
+        progressionRepository = ProgressionRepository(database, catalog)
     }
 
     /** Punto unico di ingresso degli eventi di esperienza verso la progressione. */

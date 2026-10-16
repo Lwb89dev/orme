@@ -80,13 +80,17 @@ class ContentLoader(private val source: ContentSource) {
     }
 
     fun load(language: String = DEFAULT_LANGUAGE): ContentCatalog {
-        val manifest = decode<ContentManifest>(required("content/manifest.json"))
+        val requestedLanguage = language.trim().lowercase().ifBlank { DEFAULT_LANGUAGE }
+        val manifest = decode<ContentManifest>(
+            optional("content/$requestedLanguage/manifest.json")
+                ?: required("content/manifest.json")
+        )
         if (manifest.schemaVersion != SUPPORTED_SCHEMA_VERSION) {
             throw ContentLoadException(
                 "schemaVersion ${manifest.schemaVersion} non supportata (attesa $SUPPORTED_SCHEMA_VERSION)"
             )
         }
-        val lang = manifest.language.ifBlank { language }
+        val lang = manifest.language.ifBlank { requestedLanguage }
         val teachings = decode<TeachingsFile>(required("content/$lang/teachings.json")).items
         val sources = decode<SourcesFile>(required("content/$lang/sources.json"))
         val history = decode<HistoryFile>(optional("content/$lang/history.json") ?: EMPTY_OBJECT)

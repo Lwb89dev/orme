@@ -24,6 +24,8 @@ import it.orma.cammino.core.database.settings.ThemeMode
 import it.orma.cammino.core.designsystem.CamminoTheme
 import it.orma.cammino.ui.navigation.LocalReduceAnimations
 import it.orma.cammino.ui.navigation.CamminoNavHost
+import it.orma.cammino.ui.i18n.LocalAppLanguage
+import it.orma.cammino.ui.i18n.uiText
 import it.orma.cammino.ui.onboarding.OnboardingScreen
 import kotlinx.coroutines.launch
 
@@ -44,7 +46,8 @@ class MainActivity : ComponentActivity() {
             }
             CamminoTheme(darkTheme = darkTheme) {
                 CompositionLocalProvider(
-                    LocalReduceAnimations provides (settings?.reduceAnimations ?: false)
+                    LocalReduceAnimations provides (settings?.reduceAnimations ?: false),
+                    LocalAppLanguage provides (settings?.language ?: "en"),
                 ) {
                     Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
                         val currentContent = content
@@ -83,7 +86,7 @@ private fun LoadingScreen() {
 private fun ContentErrorScreen(fatalError: String?) {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Text(
-            text = "Non riesco a leggere i contenuti dell'app.\n${fatalError ?: ""}",
+            text = uiText("Non riesco a leggere i contenuti dell'app.\n${fatalError ?: ""}", "The app's content could not be read.\n${fatalError ?: ""}"),
             style = MaterialTheme.typography.bodyLarge,
             textAlign = TextAlign.Center,
         )

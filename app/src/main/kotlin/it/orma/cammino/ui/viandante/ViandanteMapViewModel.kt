@@ -74,7 +74,7 @@ class ViandanteMapViewModel(
                         completed = chapter.id in progression.completedChapters,
                         available = available,
                         lockedReason = if (available) null
-                        else "Prima completa: " + missing.joinToString { id -> catalog.chaptersById[id]?.title ?: id },
+                        else missing.joinToString { id -> catalog.chaptersById[id]?.title ?: id },
                     )
                 },
             )

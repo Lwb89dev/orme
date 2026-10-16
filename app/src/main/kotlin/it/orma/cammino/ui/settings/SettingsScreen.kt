@@ -43,6 +43,7 @@ import it.orma.cammino.core.designsystem.components.OrnamentalDivider
 import it.orma.cammino.core.designsystem.components.PergamenaSection
 import it.orma.cammino.core.model.ReviewStatus
 import it.orma.cammino.di.AppContainer
+import it.orma.cammino.ui.i18n.uiText
 import kotlinx.coroutines.launch
 
 class SettingsViewModel(container: AppContainer) : ViewModel() {
@@ -74,10 +75,10 @@ fun SettingsScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Impostazioni") },
+                title = { Text(uiText("Impostazioni", "Settings")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
             )
@@ -91,18 +92,34 @@ fun SettingsScreen(
                 .padding(horizontal = 20.dp, vertical = 12.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
+            Text(
+                uiText("Lingua", "Language"),
+                style = MaterialTheme.typography.titleLarge,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.semantics { heading() },
+            )
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                listOf("it" to "Italiano", "en" to "English").forEach { (language, label) ->
+                    FilterChip(
+                        selected = settings.language == language,
+                        onClick = { scope.launch { vm.repository.setLanguage(language) } },
+                        label = { Text(label) },
+                    )
+                }
+            }
+
             // Aspetto
             Text(
-                "Aspetto",
+                uiText("Aspetto", "Appearance"),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
             )
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 listOf(
-                    ThemeMode.SYSTEM to "Sistema",
-                    ThemeMode.LIGHT to "Chiaro",
-                    ThemeMode.DARK to "Scuro",
+                    ThemeMode.SYSTEM to uiText("Sistema", "System"),
+                    ThemeMode.LIGHT to uiText("Chiaro", "Light"),
+                    ThemeMode.DARK to uiText("Scuro", "Dark"),
                 ).forEach { (mode, label) ->
                     FilterChip(
                         selected = settings.themeMode == mode,
@@ -114,16 +131,16 @@ fun SettingsScreen(
 
             // Accessibilità
             Text(
-                "Accessibilità",
+                uiText("Accessibilità", "Accessibility"),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
             )
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(modifier = Modifier.weight(1f)) {
-                    Text("Riduci le animazioni", style = MaterialTheme.typography.titleMedium)
+                    Text(uiText("Riduci le animazioni", "Reduce animations"), style = MaterialTheme.typography.titleMedium)
                     Text(
-                        "Transizioni e movimenti del giardino ridotti al minimo.",
+                        uiText("Transizioni e movimenti del giardino ridotti al minimo.", "Garden transitions and movement are reduced to a minimum."),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
@@ -136,16 +153,16 @@ fun SettingsScreen(
 
             // Audio
             Text(
-                "Audio",
+                uiText("Audio", "Audio"),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
             )
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(modifier = Modifier.weight(1f)) {
-                    Text("Paesaggi sonori", style = MaterialTheme.typography.titleMedium)
+                    Text(uiText("Paesaggi sonori", "Soundscapes"), style = MaterialTheme.typography.titleMedium)
                     Text(
-                        "Suoni d'ambiente discreti nel giardino. Mai avviati a sorpresa. (In preparazione: nessun suono è ancora incluso in questa versione.)",
+                        uiText("Suoni d'ambiente discreti nel giardino. Mai avviati a sorpresa. (In preparazione: nessun suono è ancora incluso in questa versione.)", "Quiet ambient sounds in the garden. Never started by surprise. (In preparation: no sound is included in this version yet.)"),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
@@ -160,14 +177,14 @@ fun SettingsScreen(
 
             // Privacy
             Text(
-                "Privacy",
+                uiText("Privacy", "Privacy"),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
             )
             PergamenaSection {
                 Text(
-                    "Nessun account, nessuna connessione richiesta, nessuna pubblicità né tracciamento. Il diario e i tuoi progressi restano sul dispositivo. L'esportazione del diario è un file che scegli tu dove condividere. Attenzione: la copia di sicurezza automatica di Android può includere i dati dell'app secondo le impostazioni del tuo dispositivo.",
+                    uiText("Nessun account, nessuna connessione richiesta, nessuna pubblicità né tracciamento. Il diario e i tuoi progressi restano sul dispositivo. L'esportazione del diario è un file che scegli tu dove condividere. Attenzione: la copia di sicurezza automatica di Android può includere i dati dell'app secondo le impostazioni del tuo dispositivo.", "No account, connection, advertising, or tracking is required. Your journal and progress remain on this device. You choose where to share an exported journal file. Android automatic backup may include app data according to your device settings."),
                     style = MaterialTheme.typography.bodyMedium,
                 )
             }
@@ -176,7 +193,7 @@ fun SettingsScreen(
 
             // Stato editoriale dei contenuti
             Text(
-                "Qualità dei contenuti",
+                uiText("Qualità dei contenuti", "Content quality"),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
@@ -184,20 +201,20 @@ fun SettingsScreen(
             PergamenaSection {
                 val verified = catalog.sourcePassages.count { it.reviewStatus == ReviewStatus.VERIFIED }
                 val toVerify = catalog.sourcePassages.count { it.reviewStatus == ReviewStatus.NEEDS_VERIFICATION }
-                Text("Versione contenuti: ${catalog.manifest.contentVersion}", style = MaterialTheme.typography.bodyMedium)
+                Text(uiText("Versione contenuti: ${catalog.manifest.contentVersion}", "Content version: ${catalog.manifest.contentVersion}"), style = MaterialTheme.typography.bodyMedium)
                 Text(
-                    "Passi documentali: ${catalog.sourcePassages.size} · verificati: $verified · in verifica: $toVerify",
+                    uiText("Passi documentali: ${catalog.sourcePassages.size} · verificati: $verified · in verifica: $toVerify", "Source passages: ${catalog.sourcePassages.size} · verified: $verified · under review: $toVerify"),
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 val errors = contentIssues.count { it.severity == Severity.ERROR }
                 Text(
-                    if (errors == 0) "Integrità dei contenuti verificata: nessun riferimento mancante."
-                    else "Attenzione: $errors riferimenti da correggere nel pacchetto contenuti.",
+                    if (errors == 0) uiText("Integrità dei contenuti verificata: nessun riferimento mancante.", "Content integrity verified: no missing references.")
+                    else uiText("Attenzione: $errors riferimenti da correggere nel pacchetto contenuti.", "Attention: $errors references need correction in the content package."),
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 Spacer(Modifier.height(6.dp))
                 Text(
-                    "Le citazioni letterali riproducono originali medievali in pubblico dominio con traduzione editoriale originale; le parafrasi sono sempre etichettate. I testi moderni protetti non sono riprodotti.",
+                    uiText("Le citazioni letterali riproducono originali medievali in pubblico dominio con traduzione editoriale originale; le parafrasi sono sempre etichettate. I testi moderni protetti non sono riprodotti.", "Literal quotations reproduce medieval public-domain originals with an original editorial translation; paraphrases are always labelled. Protected modern texts are not reproduced."),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )

@@ -39,20 +39,24 @@ import it.orma.cammino.ui.navigation.Route
 import it.orma.cammino.R
 import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.components.chapterArtworkRes
+import it.orma.cammino.ui.i18n.uiText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ViandanteMapScreen(container: AppContainer, catalog: ContentCatalog, navController: NavHostController) {
-    val vm: ViandanteMapViewModel = viewModel(factory = ViandanteMapViewModel.factory(container, catalog))
+    val vm: ViandanteMapViewModel = viewModel(
+        factory = ViandanteMapViewModel.factory(container, catalog),
+        key = "viandante:${catalog.manifest.language}",
+    )
     val state by vm.state.collectAsStateWithLifecycle()
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Il Viandante") },
+                title = { Text(uiText("Il Viandante", "The Wayfarer")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
             )
@@ -67,16 +71,16 @@ fun ViandanteMapScreen(container: AppContainer, catalog: ContentCatalog, navCont
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             Text(
-                "Umbria, inizio XIII secolo. Sei un viandante: nessun eroe, solo passi e incontri. Le tue scelte restano.",
+                uiText("Umbria, inizio XIII secolo. Sei un viandante: nessun eroe, solo passi e incontri. Le tue scelte restano.", "Umbria, early thirteenth century. You are a wayfarer: no hero, only steps and encounters. Your choices remain."),
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
             IllustratedBanner(
                 artworkRes = R.drawable.art_mode_viandante,
-                contentDescription = "Un viandante percorre una strada umbra dopo la pioggia",
+                contentDescription = uiText("Un viandante percorre una strada umbra dopo la pioggia", "A wayfarer walks an Umbrian road after rain"),
             )
             Text(
-                "Capitoli completati: ${state.completedCount} / ${catalog.storyChapters.size}",
+                uiText("Capitoli completati: ${state.completedCount} / ${catalog.storyChapters.size}", "Chapters completed: ${state.completedCount} / ${catalog.storyChapters.size}"),
                 style = MaterialTheme.typography.labelLarge,
                 color = MaterialTheme.colorScheme.secondary,
             )
@@ -106,7 +110,7 @@ fun ViandanteMapScreen(container: AppContainer, catalog: ContentCatalog, navCont
             if (state.encounteredIds.isNotEmpty()) {
                 OrnamentalDivider()
                 Text(
-                    "Incontri lungo la via",
+                    uiText("Incontri lungo la via", "Encounters along the way"),
                     style = MaterialTheme.typography.titleLarge,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.semantics { heading() },
@@ -137,7 +141,7 @@ private fun ChapterCard(row: ChapterRow, onClick: () -> Unit) {
     ) {
         IllustratedBanner(
             artworkRes = chapterArtworkRes(row.chapter.id),
-            contentDescription = "Illustrazione del capitolo ${row.chapter.title}",
+            contentDescription = uiText("Illustrazione del capitolo ${row.chapter.title}", "Illustration for the chapter ${row.chapter.title}"),
         )
         Spacer(Modifier.height(12.dp))
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -155,14 +159,14 @@ private fun ChapterCard(row: ChapterRow, onClick: () -> Unit) {
                 )
                 if (row.chapter.isBiographical) {
                     Text(
-                        "Capitolo biografico",
+                        uiText("Capitolo biografico", "Biographical chapter"),
                         style = MaterialTheme.typography.labelSmall,
                         color = MaterialTheme.colorScheme.tertiary,
                     )
                 }
                 if (row.lockedReason != null) {
                     Text(
-                        row.lockedReason,
+                        uiText("Prima completa: ${row.lockedReason}", "Complete first: ${row.lockedReason}"),
                         style = MaterialTheme.typography.labelSmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
@@ -171,12 +175,12 @@ private fun ChapterCard(row: ChapterRow, onClick: () -> Unit) {
             when {
                 row.completed -> Icon(
                     Icons.Filled.CheckCircle,
-                    contentDescription = "Completato",
+                    contentDescription = uiText("Completato", "Completed"),
                     tint = MaterialTheme.colorScheme.primary,
                 )
                 !row.available -> Icon(
                     Icons.Filled.Lock,
-                    contentDescription = "Bloccato",
+                    contentDescription = uiText("Bloccato", "Locked"),
                     tint = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }

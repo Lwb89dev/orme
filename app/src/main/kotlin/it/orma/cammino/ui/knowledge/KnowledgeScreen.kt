@@ -46,6 +46,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import it.orma.cammino.ui.i18n.sourceCategoryText
+import it.orma.cammino.ui.i18n.teachingStatusText
+import it.orma.cammino.ui.i18n.uiText
 
 enum class KnowledgeSection(val label: String) {
     BIOGRAFIA("Biografia"),
@@ -55,6 +58,16 @@ enum class KnowledgeSection(val label: String) {
     LUOGHI("Luoghi"),
     PERSONE("Persone"),
     GLOSSARIO("Glossario"),
+}
+
+private fun KnowledgeSection.englishLabel(): String = when (this) {
+    KnowledgeSection.BIOGRAFIA -> "Biography"
+    KnowledgeSection.CRONOLOGIA -> "Chronology"
+    KnowledgeSection.INSEGNAMENTI -> "Teachings"
+    KnowledgeSection.FONTI -> "Sources"
+    KnowledgeSection.LUOGHI -> "Places"
+    KnowledgeSection.PERSONE -> "People"
+    KnowledgeSection.GLOSSARIO -> "Glossary"
 }
 
 class KnowledgeViewModel(container: AppContainer) : ViewModel() {
@@ -87,10 +100,10 @@ fun KnowledgeScreen(container: AppContainer, catalog: ContentCatalog, navControl
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("La vita e le fonti") },
+                title = { Text(uiText("La vita e le fonti", "Life and sources")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
             )
@@ -105,14 +118,14 @@ fun KnowledgeScreen(container: AppContainer, catalog: ContentCatalog, navControl
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             // Selettore di sezione
-            Text("Esplora", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
+            Text(uiText("Esplora", "Explore"), style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
             Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     KnowledgeSection.entries.take(4).forEach { s ->
                         FilterChip(
                             selected = section == s.name,
                             onClick = { section = s.name },
-                            label = { Text(s.label, style = MaterialTheme.typography.labelSmall) },
+                            label = { Text(uiText(s.label, s.englishLabel()), style = MaterialTheme.typography.labelSmall) },
                         )
                     }
                 }
@@ -121,7 +134,7 @@ fun KnowledgeScreen(container: AppContainer, catalog: ContentCatalog, navControl
                         FilterChip(
                             selected = section == s.name,
                             onClick = { section = s.name },
-                            label = { Text(s.label, style = MaterialTheme.typography.labelSmall) },
+                            label = { Text(uiText(s.label, s.englishLabel()), style = MaterialTheme.typography.labelSmall) },
                         )
                     }
                 }
@@ -157,7 +170,7 @@ private fun BiographySection(catalog: ContentCatalog) {
             if (chapter.sourceDocumentIds.isNotEmpty()) {
                 Spacer(Modifier.height(6.dp))
                 Text(
-                    "Fonti: " + chapter.sourceDocumentIds.mapNotNull { catalog.documentsById[it]?.title }.joinToString(", "),
+                    uiText("Fonti: ", "Sources: ") + chapter.sourceDocumentIds.mapNotNull { catalog.documentsById[it]?.title }.joinToString(", "),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -179,9 +192,9 @@ private fun TimelineSection(catalog: ContentCatalog) {
                 Spacer(Modifier.weight(1f))
                 Text(
                     when (event.certaintyLevel) {
-                        CertaintyLevel.DOCUMENTED -> "documentato"
-                        CertaintyLevel.TRADITION -> "tradizione"
-                        CertaintyLevel.LEGEND -> "leggenda"
+                        CertaintyLevel.DOCUMENTED -> uiText("documentato", "documented")
+                        CertaintyLevel.TRADITION -> uiText("tradizione", "tradition")
+                        CertaintyLevel.LEGEND -> uiText("leggenda", "legend")
                     },
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -199,7 +212,7 @@ private fun TimelineSection(catalog: ContentCatalog) {
             if (event.chronologicalUncertainty.isNotBlank()) {
                 Spacer(Modifier.height(4.dp))
                 Text(
-                    "Incertezza: ${event.chronologicalUncertainty}",
+                    uiText("Incertezza: ${event.chronologicalUncertainty}", "Uncertainty: ${event.chronologicalUncertainty}"),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -207,7 +220,7 @@ private fun TimelineSection(catalog: ContentCatalog) {
             if (event.teachingIds.isNotEmpty()) {
                 Spacer(Modifier.height(4.dp))
                 Text(
-                    "Insegnamenti: " + event.teachingIds.mapNotNull { catalog.teachingsById[it]?.title }.joinToString(", "),
+                    uiText("Insegnamenti: ", "Teachings: ") + event.teachingIds.mapNotNull { catalog.teachingsById[it]?.title }.joinToString(", "),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.secondary,
                 )
@@ -234,7 +247,10 @@ private fun TeachingsSection(catalog: ContentCatalog, progression: ProgressionSt
                     Spacer(Modifier.height(4.dp))
                     Text(teaching.summary, style = MaterialTheme.typography.bodyMedium)
                 }
-                TeachingStatusChip(progression.teachings[teaching.id])
+                TeachingStatusChip(
+                    progression.teachings[teaching.id],
+                    label = teachingStatusText(progression.teachings[teaching.id]),
+                )
             }
         }
     }
@@ -247,7 +263,7 @@ private fun SourcesSection(catalog: ContentCatalog, navController: NavHostContro
             onClick = { navController.navigate(Route.SourceDetail(doc.id)) },
             modifier = Modifier.fillMaxWidth(),
         ) {
-            it.orma.cammino.core.designsystem.components.SourceBadge(doc.category)
+            it.orma.cammino.core.designsystem.components.SourceBadge(doc.category, label = sourceCategoryText(doc.category))
             Spacer(Modifier.height(6.dp))
             Text(
                 doc.title,
@@ -278,7 +294,7 @@ private fun PlacesSection(catalog: ContentCatalog) {
                 modifier = Modifier.semantics { heading() },
             )
             Text(
-                if (place.isHistoricalPlace) "Luogo storico" else "Ambientazione narrativa",
+                if (place.isHistoricalPlace) uiText("Luogo storico", "Historical place") else uiText("Ambientazione narrativa", "Narrative setting"),
                 style = MaterialTheme.typography.labelSmall,
                 color = if (place.isHistoricalPlace) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.tertiary,
             )

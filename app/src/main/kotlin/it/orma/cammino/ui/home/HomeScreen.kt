@@ -52,6 +52,9 @@ import it.orma.cammino.di.AppContainer
 import it.orma.cammino.R
 import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.navigation.Route
+import it.orma.cammino.ui.i18n.LocalAppLanguage
+import it.orma.cammino.ui.i18n.teachingStatusText
+import it.orma.cammino.ui.i18n.uiText
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -102,17 +105,17 @@ class HomeViewModel(
             last == null -> null to null
             last.kind == ActivityKind.CHAPTER -> {
                 val title = catalog.chaptersById[last.id]?.title ?: last.id
-                ("Riprendi: $title") to Route.ViandanteMap
+                title to Route.ViandanteMap
             }
             last.kind == ActivityKind.CARD_PATH -> {
                 val title = catalog.pathsById[last.id]?.title ?: last.id
-                ("Riprendi: $title") to Route.CardPaths
+                title to Route.CardPaths
             }
             last.kind == ActivityKind.DIALOGUE -> {
                 val title = catalog.conversationsById[last.id]?.title ?: last.id
-                ("Riprendi: $title") to Route.DialogueList
+                title to Route.DialogueList
             }
-            last.kind == ActivityKind.CONTEMPLATION -> ("Riprendi: il Giardino") to Route.Garden
+            last.kind == ActivityKind.CONTEMPLATION -> ("__garden__") to Route.Garden
             else -> null to null
         }
 
@@ -139,8 +142,12 @@ class HomeViewModel(
 
 @Composable
 fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: NavHostController) {
-    val vm: HomeViewModel = viewModel(factory = HomeViewModel.factory(container, catalog))
+    val vm: HomeViewModel = viewModel(
+        factory = HomeViewModel.factory(container, catalog),
+        key = "home:${catalog.manifest.language}",
+    )
     val state by vm.state.collectAsStateWithLifecycle()
+    val language = LocalAppLanguage.current
 
     Column(
         modifier = Modifier
@@ -164,25 +171,25 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                     modifier = Modifier.semantics { heading() },
                 )
                 Text(
-                    text = SimpleDateFormat("EEEE d MMMM", Locale.ITALIAN).format(Date()),
+                    text = SimpleDateFormat("EEEE d MMMM", if (language == "en") Locale.ENGLISH else Locale.ITALIAN).format(Date()),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
             IconButton(onClick = { navController.navigate(Route.Journal) }) {
-                Icon(Icons.Outlined.EditNote, contentDescription = "Apri il diario")
+                Icon(Icons.Outlined.EditNote, contentDescription = uiText("Apri il diario", "Open journal"))
             }
             IconButton(onClick = { navController.navigate(Route.Settings) }) {
-                Icon(Icons.Filled.Settings, contentDescription = "Impostazioni")
+                Icon(Icons.Filled.Settings, contentDescription = uiText("Impostazioni", "Settings"))
             }
         }
 
         IllustratedBanner(
             artworkRes = R.drawable.art_home_umbria,
-            contentDescription = "Paesaggio umbro con un sentiero tra ulivi e colline",
+            contentDescription = uiText("Paesaggio umbro con un sentiero tra ulivi e colline", "Umbrian landscape with a path among olive trees and hills"),
         )
         Text(
-            text = "Quattro vie per incontrare la storia, le fonti e l'eredità umana di Francesco d'Assisi.",
+            text = uiText("Quattro vie per incontrare la storia, le fonti e l'eredità umana di Francesco d'Assisi.", "Four ways to encounter the history, sources, and human legacy of Francis of Assisi."),
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -193,9 +200,9 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                 onClick = { navController.navigate(state.lastActivityRoute!!) },
                 modifier = Modifier.fillMaxWidth(),
             ) {
-                Text("Il tuo cammino", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
+                Text(uiText("Il tuo cammino", "Your journey"), style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
                 Spacer(Modifier.height(4.dp))
-                Text(state.lastActivityLabel!!, style = MaterialTheme.typography.titleMedium)
+                Text(if (state.lastActivityLabel == "__garden__") uiText("Riprendi: il Giardino", "Resume: the Garden") else uiText("Riprendi: ${state.lastActivityLabel!!}", "Resume: ${state.lastActivityLabel!!}"), style = MaterialTheme.typography.titleMedium)
             }
         }
 
@@ -206,11 +213,14 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                 onClick = { navController.navigate(Route.TeachingDetail(teachingOfDay.id)) },
                 modifier = Modifier.fillMaxWidth(),
             ) {
-                Text("Un seme per oggi", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
+                Text(uiText("Un seme per oggi", "A seed for today"), style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
                 Spacer(Modifier.height(4.dp))
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
                     Text(teachingOfDay.title, style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
-                    TeachingStatusChip(state.progression.teachings[teachingOfDay.id])
+                    TeachingStatusChip(
+                        state.progression.teachings[teachingOfDay.id],
+                        label = teachingStatusText(state.progression.teachings[teachingOfDay.id]),
+                    )
                 }
                 Spacer(Modifier.height(4.dp))
                 Text(teachingOfDay.summary, style = MaterialTheme.typography.bodyMedium)
@@ -221,7 +231,7 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
 
         // Le quattro modalità
         Text(
-            "Le quattro vie",
+            uiText("Le quattro vie", "The four ways"),
             style = MaterialTheme.typography.titleLarge,
             color = MaterialTheme.colorScheme.primary,
             modifier = Modifier.semantics { heading() },
@@ -229,37 +239,37 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
         Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 ModalityCard(
-                    title = "Il Viandante",
-                    subtitle = if (state.chaptersTotal > 0) "${state.chaptersDone}/${state.chaptersTotal} capitoli" else "Storie",
+                    title = uiText("Il Viandante", "The Wayfarer"),
+                    subtitle = if (state.chaptersTotal > 0) "${state.chaptersDone}/${state.chaptersTotal} ${uiText("capitoli", "chapters")}" else uiText("Storie", "Stories"),
                     icon = Icons.Filled.Terrain,
                     artworkRes = R.drawable.art_mode_viandante,
-                    contentDescription = "Vai al Viandante: avventura narrativa",
+                    contentDescription = uiText("Vai al Viandante: avventura narrativa", "Open the Wayfarer: narrative adventure"),
                     modifier = Modifier.weight(1f),
                 ) { navController.navigate(Route.ViandanteMap) }
                 ModalityCard(
-                    title = "Il Giardino",
-                    subtitle = "Osserva e cura",
+                    title = uiText("Il Giardino", "The Garden"),
+                    subtitle = uiText("Osserva e cura", "Observe and tend"),
                     icon = Icons.Filled.Eco,
                     artworkRes = R.drawable.art_mode_garden,
-                    contentDescription = "Vai al Giardino: esperienza contemplativa",
+                    contentDescription = uiText("Vai al Giardino: esperienza contemplativa", "Open the Garden: contemplative experience"),
                     modifier = Modifier.weight(1f),
                 ) { navController.navigate(Route.Garden) }
             }
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 ModalityCard(
-                    title = "Le Vie della Saggezza",
-                    subtitle = "Decidi",
+                    title = uiText("Le Vie della Saggezza", "The Ways of Wisdom"),
+                    subtitle = uiText("Decidi", "Decide"),
                     icon = Icons.Filled.Style,
                     artworkRes = R.drawable.art_mode_wisdom,
-                    contentDescription = "Vai alle Vie della Saggezza: carte e dilemmi",
+                    contentDescription = uiText("Vai alle Vie della Saggezza: carte e dilemmi", "Open the Ways of Wisdom: cards and dilemmas"),
                     modifier = Modifier.weight(1f),
                 ) { navController.navigate(Route.CardPaths) }
                 ModalityCard(
-                    title = "Il Dialogo",
-                    subtitle = "Domanda",
+                    title = uiText("Il Dialogo", "The Dialogue"),
+                    subtitle = uiText("Domanda", "Ask"),
                     icon = Icons.Filled.Forum,
                     artworkRes = R.drawable.art_mode_dialogue,
-                    contentDescription = "Vai al Dialogo: conversazioni guidate",
+                    contentDescription = uiText("Vai al Dialogo: conversazioni guidate", "Open the Dialogue: guided conversations"),
                     modifier = Modifier.weight(1f),
                 ) { navController.navigate(Route.DialogueList) }
             }
@@ -276,9 +286,9 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                 Icon(Icons.AutoMirrored.Filled.MenuBook, contentDescription = null, tint = MaterialTheme.colorScheme.secondary)
                 Spacer(Modifier.width(12.dp))
                 Column {
-                    Text("La vita e le fonti", style = MaterialTheme.typography.titleMedium)
+                    Text(uiText("La vita e le fonti", "Life and sources"), style = MaterialTheme.typography.titleMedium)
                     Text(
-                        "Biografia, cronologia, insegnamenti e documenti",
+                        uiText("Biografia, cronologia, insegnamenti e documenti", "Biography, chronology, teachings, and documents"),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )

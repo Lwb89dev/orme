@@ -37,20 +37,24 @@ import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.Route
 import it.orma.cammino.R
 import it.orma.cammino.ui.components.IllustratedBanner
+import it.orma.cammino.ui.i18n.uiText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CardPathsScreen(container: AppContainer, catalog: ContentCatalog, navController: NavHostController) {
-    val vm: CardPathsViewModel = viewModel(factory = CardPathsViewModel.factory(container, catalog))
+    val vm: CardPathsViewModel = viewModel(
+        factory = CardPathsViewModel.factory(container, catalog),
+        key = "card-paths:${catalog.manifest.language}",
+    )
     val state by vm.state.collectAsStateWithLifecycle()
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Le Vie della Saggezza") },
+                title = { Text(uiText("Le Vie della Saggezza", "The Ways of Wisdom")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Indietro")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
                     }
                 },
             )
@@ -66,10 +70,10 @@ fun CardPathsScreen(container: AppContainer, catalog: ContentCatalog, navControl
         ) {
             IllustratedBanner(
                 artworkRes = R.drawable.art_mode_wisdom,
-                contentDescription = "Carte illustrate su un tavolo accanto a una finestra",
+                contentDescription = uiText("Carte illustrate su un tavolo accanto a una finestra", "Illustrated cards on a table beside a window"),
             )
             Text(
-                "Scegli una via, affronta le situazioni, confronta le prospettive con le fonti. Non ci sono risposte giuste da indovinare: c'è da capire.",
+                uiText("Scegli una via, affronta le situazioni, confronta le prospettive con le fonti. Non ci sono risposte giuste da indovinare: c'è da capire.", "Choose a way, face its situations, and compare perspectives with the sources. There are no right answers to guess: there is something to understand."),
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -96,23 +100,23 @@ fun CardPathsScreen(container: AppContainer, catalog: ContentCatalog, navControl
                             Spacer(Modifier.height(4.dp))
                             if (row.available) {
                                 Text(
-                                    if (row.completed) "Percorso esplorato — puoi ripercorrerlo"
-                                    else "Scenari: ${row.scenariosDone}/${row.scenariosTotal}",
+                                    if (row.completed) uiText("Percorso esplorato — puoi ripercorrerlo", "Way explored — you may walk it again")
+                                    else uiText("Scenari: ${row.scenariosDone}/${row.scenariosTotal}", "Scenarios: ${row.scenariosDone}/${row.scenariosTotal}"),
                                     style = MaterialTheme.typography.labelSmall,
                                     color = MaterialTheme.colorScheme.secondary,
                                 )
                             } else {
                                 Text(
-                                    "Si apre scoprendo: ${row.missingTeachings.joinToString()}",
+                                    uiText("Si apre scoprendo: ${row.missingTeachings.joinToString()}", "Opens when discovered: ${row.missingTeachings.joinToString()}"),
                                     style = MaterialTheme.typography.labelSmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                                 )
                             }
                         }
                         if (row.completed) {
-                            Icon(Icons.Filled.CheckCircle, contentDescription = "Percorso completato", tint = MaterialTheme.colorScheme.primary)
+                            Icon(Icons.Filled.CheckCircle, contentDescription = uiText("Percorso completato", "Way completed"), tint = MaterialTheme.colorScheme.primary)
                         } else if (!row.available) {
-                            Icon(Icons.Filled.Lock, contentDescription = "Percorso bloccato", tint = MaterialTheme.colorScheme.onSurfaceVariant)
+                            Icon(Icons.Filled.Lock, contentDescription = uiText("Percorso bloccato", "Way locked"), tint = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                     }
                 }
@@ -120,7 +124,7 @@ fun CardPathsScreen(container: AppContainer, catalog: ContentCatalog, navControl
 
             Spacer(Modifier.height(12.dp))
             Text(
-                "Le carte raccolte",
+                uiText("Le carte raccolte", "Collected cards"),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
@@ -128,7 +132,15 @@ fun CardPathsScreen(container: AppContainer, catalog: ContentCatalog, navControl
             catalog.cards.forEach { card ->
                 PergamenaCard(modifier = Modifier.fillMaxWidth()) {
                     Text(
-                        card.type.name.lowercase().replaceFirstChar { it.uppercase() },
+                        uiText(card.type.name.lowercase().replaceFirstChar { it.uppercase() }, when (card.type.name) {
+                            "INSEGNAMENTO" -> "Teaching"
+                            "EVENTO" -> "Event"
+                            "PERSONAGGIO" -> "Person"
+                            "CONTESTO" -> "Context"
+                            "RIFLESSIONE" -> "Reflection"
+                            "PERCORSO" -> "Way"
+                            else -> card.type.name
+                        }),
                         style = MaterialTheme.typography.labelSmall,
                         color = MaterialTheme.colorScheme.tertiary,
                     )

@@ -21,7 +21,7 @@ data class ContentLoadResult(
 /** Carica e valida i contenuti JSON dagli asset dell'app (offline). */
 class ContentRepository(private val context: Context) {
 
-    suspend fun load(): ContentLoadResult = withContext(Dispatchers.IO) {
+    suspend fun load(language: String = ContentLoader.DEFAULT_LANGUAGE): ContentLoadResult = withContext(Dispatchers.IO) {
         val source = it.orma.cammino.core.content.ContentSource { path ->
             try {
                 context.assets.open(path).bufferedReader().use { it.readText() }
@@ -30,11 +30,14 @@ class ContentRepository(private val context: Context) {
             }
         }
         try {
-            val catalog = ContentLoader(source).load()
+            val catalog = ContentLoader(source).load(language)
             val issues = ContentValidator().validate(catalog)
             ContentLoadResult(catalog = catalog, issues = issues)
         } catch (e: Exception) {
-            ContentLoadResult(catalog = null, fatalError = e.message ?: "Errore di caricamento")
+            ContentLoadResult(
+                catalog = null,
+                fatalError = e.message ?: if (language == "en") "Loading error" else "Errore di caricamento",
+            )
         }
     }
 }

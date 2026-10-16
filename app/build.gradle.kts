@@ -9,6 +9,21 @@ android {
     namespace = "it.orma.cammino"
     compileSdk = 37
 
+    signingConfigs {
+        create("release") {
+            val storePath = providers.environmentVariable("ORME_RELEASE_STORE_FILE").orNull
+            val storePass = providers.environmentVariable("ORME_RELEASE_STORE_PASSWORD").orNull
+            val keyAliasValue = providers.environmentVariable("ORME_RELEASE_KEY_ALIAS").orNull
+            val keyPass = providers.environmentVariable("ORME_RELEASE_KEY_PASSWORD").orNull
+            if (storePath != null && storePass != null && keyAliasValue != null && keyPass != null) {
+                storeFile = file(storePath)
+                storePassword = storePass
+                keyAlias = keyAliasValue
+                keyPassword = keyPass
+            }
+        }
+    }
+
     defaultConfig {
         applicationId = "it.orma.cammino"
         minSdk = 26
@@ -20,6 +35,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("release")
         }
     }
 
