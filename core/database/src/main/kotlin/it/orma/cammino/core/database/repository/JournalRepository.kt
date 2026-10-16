@@ -65,7 +65,7 @@ class JournalRepository(private val db: CamminoDatabase) {
 
     @Serializable
     private data class JournalExport(
-        val app: String = "Il Cammino di Francesco",
+        val app: String = "Orme",
         val format: String = "journal-json-1",
         val exportedAt: Long,
         val entries: List<ExportEntry>,
@@ -81,7 +81,7 @@ class JournalRepository(private val db: CamminoDatabase) {
 
     suspend fun exportMarkdown(): String {
         val all = db.journalDao().observeAll().first()
-        val sb = StringBuilder("# Diario — Il Cammino di Francesco\n\n")
+        val sb = StringBuilder("# Diario — Orme\n\n")
         all.sortedBy { it.createdAt }.forEach { e ->
             sb.append("## ").append(java.text.SimpleDateFormat("d MMMM y, HH:mm", java.util.Locale.ITALIAN).format(java.util.Date(e.createdAt))).append("\n\n")
             sb.append("*").append(e.kind.lowercase()).append("*")

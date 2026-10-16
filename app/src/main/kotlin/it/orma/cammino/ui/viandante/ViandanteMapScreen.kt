@@ -36,6 +36,9 @@ import it.orma.cammino.core.designsystem.components.OrnamentalDivider
 import it.orma.cammino.core.designsystem.components.PergamenaCard
 import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.Route
+import it.orma.cammino.R
+import it.orma.cammino.ui.components.IllustratedBanner
+import it.orma.cammino.ui.components.chapterArtworkRes
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -67,6 +70,10 @@ fun ViandanteMapScreen(container: AppContainer, catalog: ContentCatalog, navCont
                 "Umbria, inizio XIII secolo. Sei un viandante: nessun eroe, solo passi e incontri. Le tue scelte restano.",
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            IllustratedBanner(
+                artworkRes = R.drawable.art_mode_viandante,
+                contentDescription = "Un viandante percorre una strada umbra dopo la pioggia",
             )
             Text(
                 "Capitoli completati: ${state.completedCount} / ${catalog.storyChapters.size}",
@@ -128,6 +135,11 @@ private fun ChapterCard(row: ChapterRow, onClick: () -> Unit) {
         onClick = if (row.available) onClick else null,
         modifier = Modifier.fillMaxWidth(),
     ) {
+        IllustratedBanner(
+            artworkRes = chapterArtworkRes(row.chapter.id),
+            contentDescription = "Illustrazione del capitolo ${row.chapter.title}",
+        )
+        Spacer(Modifier.height(12.dp))
         Row(verticalAlignment = Alignment.CenterVertically) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(

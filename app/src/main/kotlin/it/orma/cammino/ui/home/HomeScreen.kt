@@ -9,6 +9,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -33,6 +35,7 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
+import androidx.annotation.DrawableRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -46,6 +49,8 @@ import it.orma.cammino.core.designsystem.components.TeachingStatusChip
 import it.orma.cammino.core.progression.ActivityKind
 import it.orma.cammino.core.progression.ProgressionState
 import it.orma.cammino.di.AppContainer
+import it.orma.cammino.R
+import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.navigation.Route
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -140,6 +145,8 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .statusBarsPadding()
+            .navigationBarsPadding()
             .verticalScroll(rememberScrollState())
             .padding(horizontal = 20.dp, vertical = 24.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
@@ -151,7 +158,7 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(
-                    text = "Il Cammino di Francesco",
+                    text = "Orme",
                     style = MaterialTheme.typography.headlineMedium,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.semantics { heading() },
@@ -169,6 +176,16 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                 Icon(Icons.Filled.Settings, contentDescription = "Impostazioni")
             }
         }
+
+        IllustratedBanner(
+            artworkRes = R.drawable.art_home_umbria,
+            contentDescription = "Paesaggio umbro con un sentiero tra ulivi e colline",
+        )
+        Text(
+            text = "Quattro vie per incontrare la storia, le fonti e l'eredità umana di Francesco d'Assisi.",
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
 
         // Riprendi il cammino
         if (state.lastActivityLabel != null && state.lastActivityRoute != null) {
@@ -215,6 +232,7 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                     title = "Il Viandante",
                     subtitle = if (state.chaptersTotal > 0) "${state.chaptersDone}/${state.chaptersTotal} capitoli" else "Storie",
                     icon = Icons.Filled.Terrain,
+                    artworkRes = R.drawable.art_mode_viandante,
                     contentDescription = "Vai al Viandante: avventura narrativa",
                     modifier = Modifier.weight(1f),
                 ) { navController.navigate(Route.ViandanteMap) }
@@ -222,6 +240,7 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                     title = "Il Giardino",
                     subtitle = "Osserva e cura",
                     icon = Icons.Filled.Eco,
+                    artworkRes = R.drawable.art_mode_garden,
                     contentDescription = "Vai al Giardino: esperienza contemplativa",
                     modifier = Modifier.weight(1f),
                 ) { navController.navigate(Route.Garden) }
@@ -231,6 +250,7 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                     title = "Le Vie della Saggezza",
                     subtitle = "Decidi",
                     icon = Icons.Filled.Style,
+                    artworkRes = R.drawable.art_mode_wisdom,
                     contentDescription = "Vai alle Vie della Saggezza: carte e dilemmi",
                     modifier = Modifier.weight(1f),
                 ) { navController.navigate(Route.CardPaths) }
@@ -238,6 +258,7 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                     title = "Il Dialogo",
                     subtitle = "Domanda",
                     icon = Icons.Filled.Forum,
+                    artworkRes = R.drawable.art_mode_dialogue,
                     contentDescription = "Vai al Dialogo: conversazioni guidate",
                     modifier = Modifier.weight(1f),
                 ) { navController.navigate(Route.DialogueList) }
@@ -274,6 +295,7 @@ private fun ModalityCard(
     title: String,
     subtitle: String,
     icon: ImageVector,
+    @DrawableRes artworkRes: Int,
     contentDescription: String,
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
@@ -282,6 +304,12 @@ private fun ModalityCard(
         onClick = onClick,
         modifier = modifier.semantics { this.contentDescription = contentDescription },
     ) {
+        IllustratedBanner(
+            artworkRes = artworkRes,
+            contentDescription = null,
+            aspectRatio = 4f / 3f,
+        )
+        Spacer(Modifier.height(10.dp))
         Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.height(28.dp))
         Spacer(Modifier.height(8.dp))
         Text(title, style = MaterialTheme.typography.titleMedium)

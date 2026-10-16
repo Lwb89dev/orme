@@ -2,15 +2,17 @@
 
 ## Principio
 
-L'app non incorpora asset esterni protetti. Tutta la grafica è vettoriale programmatica (Compose Canvas / VectorDrawable), i testi sono originali o pubblico dominio medievale, non c'è audio.
+L'app non incorpora asset di terzi recuperati dal web. La grafica comprende risorse originali fornite dall'utente, elementi programmatici e illustrazioni generate appositamente per il progetto. I testi sono originali o di pubblico dominio medievale; non c'è audio.
 
 ## Grafica
 
 | Asset | Tipo | Origine | Licenza |
 |---|---|---|---|
-| Icona launcher (croce Tau) | VectorDrawable + adaptive icon | Disegnata per l'app | Originale dell'app |
+| Icona launcher e splash Orme | PNG + adaptive icon | Fornita dall'utente in `assets/icons/icon.png` | Asset fornito dall'utente; diritti gestiti dal progetto |
+| Style key, quattro modalità e cinque scene del Viandante | PNG master + WebP ottimizzati | Generati per Orme con OpenAI ImageGen, sotto direzione editoriale del progetto | Asset generati per il progetto |
+| Character sheet di Francesco (1206) | PNG master | Generato per Orme con OpenAI ImageGen come reference di coerenza | Asset generato per il progetto |
 | Illustrazioni onboarding (4) | Compose Canvas | Disegnate per l'app | Originale dell'app |
-| Scena del giardino (cielo, colline, 10 elementi) | Compose Canvas | Disegnata per l'app | Originale dell'app |
+| Base e nove elementi interattivi del giardino | PNG master + WebP trasparenti ottimizzati | Generati per Orme con OpenAI ImageGen e composti dinamicamente in Compose | Asset generati per il progetto |
 | Icone di interfaccia | Material Icons (AndroidX) | Google | Apache License 2.0 |
 | Font | Serif/sans di sistema | Android | Licenza di sistema |
 
@@ -29,6 +31,8 @@ La "Preghiera semplice" non è riprodotta integralmente (testo moderno): ne docu
 ## Audio
 
 Nessun file audio incluso in questa release. L'impostazione "paesaggi sonori" è predisposta; asset futuri dovranno essere auto-prodotti o con licenza compatibile documentata qui.
+
+Dettagli tecnici, stato di integrazione e provenienza puntuale sono in `ASSET_MANIFEST.json`; i prompt normalizzati sono in `assets/art/GENERATION_PROMPTS.md`.
 
 ## Dipendenze software
 

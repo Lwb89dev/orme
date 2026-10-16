@@ -58,6 +58,8 @@ import it.orma.cammino.core.model.SourceCategory
 import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.LocalReduceAnimations
 import it.orma.cammino.ui.navigation.Route
+import it.orma.cammino.ui.components.IllustratedBanner
+import it.orma.cammino.ui.components.chapterArtworkRes
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -105,6 +107,10 @@ fun ChapterScreen(
                 .padding(horizontal = 20.dp, vertical = 16.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
+            IllustratedBanner(
+                artworkRes = chapterArtworkRes(chapterId),
+                contentDescription = "Illustrazione introduttiva del capitolo ${state.chapterTitle}",
+            )
             when {
                 state.loading -> Text("Caricamento…", style = MaterialTheme.typography.bodyLarge)
                 state.error != null -> Text(
@@ -146,14 +152,14 @@ private fun NodeContent(
     val duration = if (reduceAnimations) 0 else 260
 
     AnimatedContent(
-        targetState = node.id,
+        targetState = node,
         transitionSpec = { fadeIn(tween(duration)) togetherWith fadeOut(tween(duration)) },
         label = "node",
-    ) { _ ->
+    ) { animatedNode ->
         Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
-            NodeBody(node, state, catalog, onOpenTeaching)
+            NodeBody(animatedNode, state, catalog, onOpenTeaching)
 
-            when (node) {
+            when (animatedNode) {
                 is ChoiceNode -> {
                     state.options.forEach { option ->
                         OutlinedButton(
@@ -177,7 +183,7 @@ private fun NodeContent(
                         Text("Prosegui")
                     }
                     TextButton(
-                        onClick = { onWriteJournal(node.teachingId) },
+                        onClick = { onWriteJournal(animatedNode.teachingId) },
                         modifier = Modifier.fillMaxWidth(),
                     ) {
                         Text("Scrivi nel diario")

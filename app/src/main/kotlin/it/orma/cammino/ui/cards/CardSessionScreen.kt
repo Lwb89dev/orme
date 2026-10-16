@@ -35,6 +35,8 @@ import it.orma.cammino.core.designsystem.components.OrnamentalDivider
 import it.orma.cammino.core.designsystem.components.PergamenaCard
 import it.orma.cammino.core.designsystem.components.PergamenaSection
 import it.orma.cammino.di.AppContainer
+import it.orma.cammino.R
+import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.navigation.Route
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -68,6 +70,10 @@ fun CardSessionScreen(
                 .padding(horizontal = 20.dp, vertical = 16.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
+            IllustratedBanner(
+                artworkRes = R.drawable.art_mode_wisdom,
+                contentDescription = "Carte illustrate su un tavolo medievale",
+            )
             if (state.scenarioCount > 0) {
                 LinearProgressIndicator(
                     progress = { (state.scenarioIndex) / state.scenarioCount.toFloat() },

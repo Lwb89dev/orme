@@ -1,4 +1,4 @@
-# Game Design — Il Cammino di Francesco
+# Game Design — Orme
 
 Filosofia: l'utente non accumula virtù digitali; scopre una figura storica e i suoi insegnamenti. La progressione registra **scoperto → esplorato → approfondito** per ogni insegnamento, mai un giudizio morale.
 

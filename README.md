@@ -1,4 +1,4 @@
-# Il Cammino di Francesco
+# Orme
 
 A native Android app built with Kotlin and Jetpack Compose for exploring the life and teachings of Saint Francis of Assisi through four integrated interactive experiences. The current app content and interface are in Italian.
 

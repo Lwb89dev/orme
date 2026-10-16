@@ -35,7 +35,7 @@ class AppNavigationTest {
     fun avvio_mostra_onboarding_o_home() {
         composeTestRule.waitUntil(timeoutMillis = 30_000) {
             composeTestRule.onAllNodes(hasText("Chi è Francesco")).fetchSemanticsNodes().isNotEmpty() ||
-                composeTestRule.onAllNodes(hasText("Il Cammino di Francesco")).fetchSemanticsNodes().isNotEmpty()
+                composeTestRule.onAllNodes(hasText("Orme")).fetchSemanticsNodes().isNotEmpty()
         }
     }
 

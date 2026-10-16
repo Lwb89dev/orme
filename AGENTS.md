@@ -1,4 +1,4 @@
-# AGENTS.md — Il Cammino di Francesco
+# AGENTS.md — Orme
 
 App Android nativa (Kotlin + Jetpack Compose) per conoscere San Francesco d'Assisi attraverso quattro modalità interattive. Repo: `orma`.
 

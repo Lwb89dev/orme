@@ -35,6 +35,8 @@ import it.orma.cammino.core.content.ContentCatalog
 import it.orma.cammino.core.designsystem.components.PergamenaCard
 import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.Route
+import it.orma.cammino.R
+import it.orma.cammino.ui.components.IllustratedBanner
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -62,6 +64,10 @@ fun CardPathsScreen(container: AppContainer, catalog: ContentCatalog, navControl
                 .padding(horizontal = 20.dp, vertical = 12.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
+            IllustratedBanner(
+                artworkRes = R.drawable.art_mode_wisdom,
+                contentDescription = "Carte illustrate su un tavolo accanto a una finestra",
+            )
             Text(
                 "Scegli una via, affronta le situazioni, confronta le prospettive con le fonti. Non ci sono risposte giuste da indovinare: c'è da capire.",
                 style = MaterialTheme.typography.bodyLarge,

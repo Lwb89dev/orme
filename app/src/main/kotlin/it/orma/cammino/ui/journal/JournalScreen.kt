@@ -112,7 +112,7 @@ fun JournalScreen(container: AppContainer, catalog: ContentCatalog, navControlle
                             val markdown = vm.exportMarkdown()
                             val intent = Intent(Intent.ACTION_SEND).apply {
                                 type = "text/markdown"
-                                putExtra(Intent.EXTRA_SUBJECT, "Diario — Il Cammino di Francesco")
+                                putExtra(Intent.EXTRA_SUBJECT, "Diario — Orme")
                                 putExtra(Intent.EXTRA_TEXT, markdown)
                             }
                             context.startActivity(Intent.createChooser(intent, "Esporta il diario"))

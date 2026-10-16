@@ -9,3 +9,6 @@
 .cxx
 local.properties
 **/build/
+
+# Release signing material — never commit private keys.
+/keystore/

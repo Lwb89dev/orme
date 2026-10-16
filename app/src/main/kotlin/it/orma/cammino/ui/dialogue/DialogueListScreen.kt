@@ -33,6 +33,8 @@ import it.orma.cammino.core.content.ContentCatalog
 import it.orma.cammino.core.designsystem.components.PergamenaCard
 import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.Route
+import it.orma.cammino.R
+import it.orma.cammino.ui.components.IllustratedBanner
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -60,6 +62,10 @@ fun DialogueListScreen(container: AppContainer, catalog: ContentCatalog, navCont
                 .padding(horizontal = 20.dp, vertical = 12.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
+            IllustratedBanner(
+                artworkRes = R.drawable.art_mode_dialogue,
+                contentDescription = "Due panche in un chiostro aperto sulle colline umbre",
+            )
             Text(
                 "Una guida risponde alle grandi domande su Francesco. Non è il santo e non ne possiede l'autorità: ti accompagna tra le fonti. Funziona interamente offline.",
                 style = MaterialTheme.typography.bodyLarge,
