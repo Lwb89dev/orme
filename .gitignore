@@ -15,3 +15,6 @@ local.properties
 
 # Output di compilazione IDE finito per sbaglio accanto ai sorgenti.
 **/bin/
+
+# Istruzioni per agenti AI e di build locale (restano su disco, non nel repo).
+/AGENTS.md
