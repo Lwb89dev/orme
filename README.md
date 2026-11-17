@@ -45,7 +45,7 @@ The interface follows the language chosen in Settings. `originalText` is never t
 
 ## Project status
 
-Version **0.1.0**.
+Version **0.2.0**.
 
 - The five-chapter story, the writings reader, the teachings, the garden, the card paths, the guided dialogues, and the journal are in the app.
 - Dialogue level 1 is an offline graph. Level 2, a model in the conversation, exists only as the `ConversationBackend` interface: no provider, no network, no key.

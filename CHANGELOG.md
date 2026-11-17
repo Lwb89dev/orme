@@ -2,7 +2,7 @@
 
 All notable changes to Orme are documented here.
 
-## [0.1.0] — 2026-11-17
+## [0.2.0] — 2026-11-17
 
 ### Changed
 
