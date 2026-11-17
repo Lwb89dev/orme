@@ -45,6 +45,7 @@ import it.orma.cammino.core.model.Modality
 import it.orma.cammino.core.model.TeachingExplored
 import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -89,7 +90,7 @@ fun ContemplationScreen(
             }
 
             Text(
-                uiText("Passo ${stepIndex + 1} di ${contemplation.steps.size}", "Step ${stepIndex + 1} of ${contemplation.steps.size}"),
+                uiFormat("Passo {0} di {1}", "Step {0} of {1}", stepIndex + 1, contemplation.steps.size),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

@@ -143,7 +143,7 @@ fun JournalScreen(container: AppContainer, catalog: ContentCatalog, navControlle
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             Text(
-                uiText("Privato e locale: nessuna analisi automatica, nessuna trasmissione. L'esportazione è un file Markdown che scegli tu dove condividere.", "Private and local: no automated analysis or transmission. Export is a Markdown file that you choose where to share."),
+                uiText("Privato e locale. Una voce lascia il dispositivo solo se attivi «Condividi su Nostr» su quella voce o se esporti il Markdown.", "Private and local. An entry leaves the device only if you turn on “Share on Nostr” for it or export the Markdown."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

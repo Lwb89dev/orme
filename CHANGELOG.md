@@ -2,6 +2,33 @@
 
 All notable changes to Orme are documented here.
 
+## [0.3.0] — 2026-11-17
+
+### Added
+
+- Optional sharing of a journal entry on Nostr as a Markdown article (NIP-23). It is a switch on each entry, off by default; saving publishes and updates, switching it off or deleting the entry sends a deletion request.
+- Sign-in with Amber (NIP-55) or a remote signer through a `bunker://` link (NIP-46), in the onboarding and in Settings. The app never holds a private key.
+- Two new onboarding screens, on sharing and on signing in, in every language of the app. The existing onboarding texts are now translated everywhere instead of falling back to English.
+- `core:nostr` module with unit tests, including the official BIP-340 vector and a relay stand-in for publishing.
+- A Lightning donation link at the bottom of Settings (`lwb89@blink.sv`, the same address as Roadstr). It opens the wallet, or copies the address when no wallet is installed.
+- On a new installation the app starts in the device language when it is one of the shipped languages, and in English otherwise.
+
+### Fixed
+
+- Twenty-seven interface texts that contain a value, such as "Read the work: …", "Step 2 of 5", or "Content version: 2", showed in English in every language other than Italian. They now use templates with placeholders and are translated everywhere; a test checks that each translation keeps the placeholders.
+- Italian theme names now carry their accent ("povertà", "umiltà", "carità", "fraternità", "comunità").
+- The onboarding no longer draws "Skip" under the status bar, keeps the bunker link field above the keyboard, and shows the current page with a dot that is visible on the dark background.
+- The share switch on a journal entry is one control with its title, so a screen reader announces what it turns on.
+
+### Changed
+
+- The app now declares the `INTERNET` permission, used only for the sharing above. Journal text, onboarding, Settings, and README no longer say that the app has no network access.
+- Database version 2 adds the sharing columns; existing entries stay private. A migration test covers the upgrade.
+
+### Build
+
+- New dependencies: BouncyCastle `bcprov-jdk18on` 1.86 (MIT) and OkHttp 4.12.0 (Apache-2.0). The protocol code is adapted from the author's Roadstr app (MIT).
+
 ## [0.2.0] — 2026-11-17
 
 ### Changed

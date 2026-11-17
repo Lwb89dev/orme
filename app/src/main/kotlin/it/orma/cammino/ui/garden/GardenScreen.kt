@@ -71,6 +71,7 @@ import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.LocalReduceAnimations
 import it.orma.cammino.ui.navigation.Route
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 import it.orma.cammino.R
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -185,7 +186,7 @@ fun GardenScreen(container: AppContainer, catalog: ContentCatalog, navController
 
             val unlockedCount = state.unlockedIds.size
             val total = catalog.gardenElements.size
-            val sceneDescription = uiText("Scena del giardino: $unlockedCount elementi su $total sbocciati", "Garden scene: $unlockedCount of $total elements in bloom")
+            val sceneDescription = uiFormat("Scena del giardino: {0} elementi su {1} sbocciati", "Garden scene: {0} of {1} elements in bloom", unlockedCount, total)
             GardenScene(
                 catalog = catalog,
                 unlockedIds = state.unlockedIds,

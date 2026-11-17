@@ -52,6 +52,7 @@ import kotlinx.coroutines.launch
 import it.orma.cammino.ui.i18n.sourceCategoryText
 import it.orma.cammino.ui.i18n.teachingStatusText
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 
 enum class KnowledgeSection(val label: String) {
     SCRITTI("Scritti"),
@@ -216,7 +217,7 @@ private fun TimelineSection(catalog: ContentCatalog) {
             if (event.chronologicalUncertainty.isNotBlank()) {
                 Spacer(Modifier.height(4.dp))
                 Text(
-                    uiText("Incertezza: ${event.chronologicalUncertainty}", "Uncertainty: ${event.chronologicalUncertainty}"),
+                    uiFormat("Incertezza: {0}", "Uncertainty: {0}", event.chronologicalUncertainty),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -289,7 +290,7 @@ private fun WritingsSection(catalog: ContentCatalog, navController: NavHostContr
             Text(
                 listOfNotNull(
                     doc.compositionDate.ifBlank { null },
-                    if (readable > 0) uiText("$readable passi nel testo", "$readable passages in the text") else uiText("scheda, senza testo integrale", "note, without the full text"),
+                    if (readable > 0) uiFormat("{0} passi nel testo", "{0} passages in the text", readable) else uiText("scheda, senza testo integrale", "note, without the full text"),
                 ).joinToString(" · "),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,

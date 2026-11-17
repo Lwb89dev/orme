@@ -28,6 +28,7 @@ class JournalRepository(private val db: CamminoDatabase) {
         teachingId: String? = null,
         chapterId: String? = null,
         favorite: Boolean = false,
+        shareOnNostr: Boolean? = null,
         timestampMillis: Long = System.currentTimeMillis(),
     ): JournalEntryEntity {
         val existing = id?.let { db.journalDao().get(it) }
@@ -40,10 +41,23 @@ class JournalRepository(private val db: CamminoDatabase) {
             teachingId = teachingId,
             chapterId = chapterId,
             favorite = favorite,
+            shareOnNostr = shareOnNostr ?: existing?.shareOnNostr ?: false,
+            nostrPublishedAt = existing?.nostrPublishedAt,
+            nostrSyncedAt = existing?.nostrSyncedAt,
         )
         db.journalDao().upsert(entity)
         return entity
     }
+
+    suspend fun get(id: String): JournalEntryEntity? = db.journalDao().get(id)
+
+    /** Un relay ha accettato la versione [entry]: ricorda quando è uscita la prima volta e quale versione è. */
+    suspend fun markPublished(entry: JournalEntryEntity, nowMillis: Long = System.currentTimeMillis()) =
+        db.journalDao().markPublished(entry.id, entry.nostrPublishedAt ?: nowMillis, entry.updatedAt)
+
+    suspend fun setShare(id: String, share: Boolean) = db.journalDao().setShare(id, share)
+
+    suspend fun clearPublished(id: String) = db.journalDao().clearPublished(id)
 
     suspend fun delete(id: String) = db.journalDao().delete(id)
 
@@ -91,6 +105,19 @@ class JournalRepository(private val db: CamminoDatabase) {
             sb.append("\n\n").append(e.text).append("\n\n---\n\n")
         }
         return sb.toString()
+    }
+}
+
+/** Testo Markdown con cui una voce del diario esce verso Nostr (articolo NIP-23). */
+object JournalMarkdown {
+    /**
+     * Il testo della persona, invariato, seguito da una riga di contesto. [kindLabel] e [context] sono già
+     * nella lingua dell'interfaccia: questo oggetto non traduce e non aggiunge nulla di suo.
+     */
+    fun entry(text: String, kindLabel: String, context: String? = null): String {
+        val footer = listOfNotNull(kindLabel.takeIf { it.isNotBlank() }, context?.takeIf { it.isNotBlank() }, "Orme")
+            .joinToString(" · ")
+        return text.trimEnd() + "\n\n---\n\n*" + footer + "*\n"
     }
 }
 

@@ -49,6 +49,7 @@ import it.orma.cammino.ui.navigation.Route
 import it.orma.cammino.ui.i18n.LocalAppLanguage
 import it.orma.cammino.ui.i18n.teachingStatusText
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -286,7 +287,7 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
             val resumeLabel = if (state.lastActivityLabel == "__garden__") {
                 uiText("Riprendi dal Giardino", "Resume from the Garden")
             } else {
-                uiText("Riprendi: ${state.lastActivityLabel!!}", "Resume: ${state.lastActivityLabel!!}")
+                uiFormat("Riprendi: {0}", "Resume: {0}", state.lastActivityLabel!!)
             }
             TextButton(onClick = { navController.navigate(state.lastActivityRoute!!) }) {
                 Text(resumeLabel)

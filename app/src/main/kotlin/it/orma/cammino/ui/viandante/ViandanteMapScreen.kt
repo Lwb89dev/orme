@@ -40,6 +40,7 @@ import it.orma.cammino.R
 import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.components.chapterArtworkRes
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -80,7 +81,7 @@ fun ViandanteMapScreen(container: AppContainer, catalog: ContentCatalog, navCont
                 contentDescription = uiText("Un viandante percorre una strada umbra dopo la pioggia", "A wayfarer walks an Umbrian road after rain"),
             )
             Text(
-                uiText("Capitoli completati: ${state.completedCount} / ${catalog.storyChapters.size}", "Chapters completed: ${state.completedCount} / ${catalog.storyChapters.size}"),
+                uiFormat("Capitoli completati: {0} / {1}", "Chapters completed: {0} / {1}", state.completedCount, catalog.storyChapters.size),
                 style = MaterialTheme.typography.labelLarge,
                 color = MaterialTheme.colorScheme.secondary,
             )
@@ -141,7 +142,7 @@ private fun ChapterCard(row: ChapterRow, onClick: () -> Unit) {
     ) {
         IllustratedBanner(
             artworkRes = chapterArtworkRes(row.chapter.id),
-            contentDescription = uiText("Illustrazione del capitolo ${row.chapter.title}", "Illustration for the chapter ${row.chapter.title}"),
+            contentDescription = uiFormat("Illustrazione del capitolo {0}", "Illustration for the chapter {0}", row.chapter.title),
         )
         Spacer(Modifier.height(12.dp))
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -166,7 +167,7 @@ private fun ChapterCard(row: ChapterRow, onClick: () -> Unit) {
                 }
                 if (row.lockedReason != null) {
                     Text(
-                        uiText("Prima completa: ${row.lockedReason}", "Complete first: ${row.lockedReason}"),
+                        uiFormat("Prima completa: {0}", "Complete first: {0}", row.lockedReason),
                         style = MaterialTheme.typography.labelSmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )

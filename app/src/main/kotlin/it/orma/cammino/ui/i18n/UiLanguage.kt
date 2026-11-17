@@ -37,6 +37,20 @@ val APP_LANGUAGES: List<Pair<String, String>> = listOf(
     "sv" to "Svenska",
 )
 
+/**
+ * La prima lingua del dispositivo che l'app distribuisce, nell'ordine di preferenza di Android;
+ * l'inglese se nessuna corrisponde.
+ */
+fun deviceLanguage(): String {
+    val supported = APP_LANGUAGES.map { it.first }.toSet()
+    val locales = android.os.LocaleList.getDefault()
+    for (index in 0 until locales.size()) {
+        val language = locales[index].language.lowercase()
+        if (language in supported) return language
+    }
+    return "en"
+}
+
 /** Traduzioni dell'interfaccia per la lingua corrente, con chiave italiana. Vuota per it/en. */
 val LocalUiExtras = compositionLocalOf<Map<String, String>> { emptyMap() }
 
@@ -60,6 +74,18 @@ fun uiText(italian: String, english: String): String {
     if (language == "it") return italian
     if (language == "en") return english
     return LocalUiExtras.current[italian] ?: english
+}
+
+/**
+ * Come [uiText], per un testo con valori dentro. La chiave è il modello italiano con segnaposto `{0}`, `{1}`…,
+ * così la traduzione si trova sempre; i valori si inseriscono dopo. Un testo con un valore già interpolato
+ * nella chiave non verrebbe mai trovato nei file `content/ui` e ricadrebbe sull'inglese.
+ */
+@Composable
+fun uiFormat(italian: String, english: String, vararg args: Any?): String {
+    var text = uiText(italian, english)
+    args.forEachIndexed { index, value -> text = text.replace("{$index}", value?.toString().orEmpty()) }
+    return text
 }
 
 @Composable
@@ -101,8 +127,27 @@ fun journalKindText(kind: JournalKind): String = uiText(
     },
 )
 
+/**
+ * Il nome del tema. In italiano porta l'accento («povertà», non «poverta»); per le altre lingue la chiave
+ * delle traduzioni resta il nome tecnico senza accento, com'è nei file `content/ui`.
+ */
 @Composable
-fun themeText(theme: Theme): String = uiText(
+fun themeText(theme: Theme): String {
+    if (LocalAppLanguage.current == "it") {
+        return when (theme) {
+            Theme.FRATERNITA -> "fraternità"
+            Theme.UMILTA -> "umiltà"
+            Theme.POVERTA -> "povertà"
+            Theme.CARITA -> "carità"
+            Theme.COMUNITA -> "comunità"
+            else -> theme.name.lowercase()
+        }
+    }
+    return themeTranslation(theme)
+}
+
+@Composable
+private fun themeTranslation(theme: Theme): String = uiText(
     theme.name.lowercase(),
     when (theme) {
         Theme.FRATERNITA -> "fraternity"

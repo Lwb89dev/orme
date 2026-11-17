@@ -23,12 +23,19 @@ data class AppSettings(
 
 private val Context.settingsDataStore by preferencesDataStore(name = "cammino_settings")
 
-class SettingsRepository(private val context: Context) {
+/**
+ * [defaultLanguage] decide la lingua finché la persona non ne sceglie una: l'app la ricava dalla lingua del
+ * dispositivo, se è tra quelle distribuite.
+ */
+class SettingsRepository(
+    private val context: Context,
+    private val defaultLanguage: () -> String = { "en" },
+) {
 
     val settings: Flow<AppSettings> = context.settingsDataStore.data.map { prefs ->
         AppSettings(
             onboardingCompleted = prefs[KEY_ONBOARDING] ?: false,
-            language = prefs[KEY_LANGUAGE] ?: "en",
+            language = prefs[KEY_LANGUAGE] ?: defaultLanguage(),
             themeMode = prefs[KEY_THEME]?.let { runCatching { ThemeMode.valueOf(it) }.getOrNull() }
                 ?: ThemeMode.SYSTEM,
             reduceAnimations = prefs[KEY_REDUCE_ANIMATIONS] ?: false,

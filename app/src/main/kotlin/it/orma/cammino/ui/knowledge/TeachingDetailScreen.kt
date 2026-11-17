@@ -53,6 +53,7 @@ import it.orma.cammino.ui.i18n.sourceCategoryText
 import it.orma.cammino.ui.i18n.teachingStatusText
 import it.orma.cammino.ui.i18n.themeText
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 
 class TeachingDetailViewModel(
     private val container: AppContainer,
@@ -172,7 +173,7 @@ fun TeachingDetailScreen(
                         onClick = { navController.navigate(Route.SourceDetail(work.id)) },
                         modifier = Modifier.fillMaxWidth(),
                     ) {
-                        Text(uiText("Leggi l'opera: ${work.title}", "Read the work: ${work.title}"))
+                        Text(uiFormat("Leggi l'opera: {0}", "Read the work: {0}", work.title))
                     }
                 }
                 OrnamentalDivider()
@@ -216,14 +217,14 @@ fun TeachingDetailScreen(
             teaching.experiences.viandante.forEach { id ->
                 catalog.chaptersById[id]?.let { chapter ->
                     OutlinedButton(onClick = { navController.navigate(Route.Chapter(id)) }, modifier = Modifier.fillMaxWidth()) {
-                        Text(uiText("Il Viandante: ${chapter.title}", "The Wayfarer: ${chapter.title}"))
+                        Text(uiFormat("Il Viandante: {0}", "The Wayfarer: {0}", chapter.title))
                     }
                 }
             }
             teaching.experiences.cards.forEach { id ->
                 catalog.pathsById[id]?.let { path ->
                     OutlinedButton(onClick = { navController.navigate(Route.CardPathSession(id)) }, modifier = Modifier.fillMaxWidth()) {
-                        Text(uiText("Le Vie: ${path.title}", "The Ways: ${path.title}"))
+                        Text(uiFormat("Le Vie: {0}", "The Ways: {0}", path.title))
                     }
                 }
                 catalog.scenariosById[id]?.let {
@@ -235,19 +236,19 @@ fun TeachingDetailScreen(
             teaching.experiences.dialogue.forEach { id ->
                 catalog.conversationsById[id]?.let { conv ->
                     OutlinedButton(onClick = { navController.navigate(Route.Conversation(id)) }, modifier = Modifier.fillMaxWidth()) {
-                        Text(uiText("Il Dialogo: ${conv.title}", "The Dialogue: ${conv.title}"))
+                        Text(uiFormat("Il Dialogo: {0}", "The Dialogue: {0}", conv.title))
                     }
                 }
             }
             teaching.experiences.garden.forEach { id ->
                 catalog.contemplationsById[id]?.let { cont ->
                     OutlinedButton(onClick = { navController.navigate(Route.Contemplation(id)) }, modifier = Modifier.fillMaxWidth()) {
-                        Text(uiText("Il Giardino: ${cont.title}", "The Garden: ${cont.title}"))
+                        Text(uiFormat("Il Giardino: {0}", "The Garden: {0}", cont.title))
                     }
                 }
                 catalog.gardenElementsById[id]?.let { element ->
                     OutlinedButton(onClick = { navController.navigate(Route.Garden) }, modifier = Modifier.fillMaxWidth()) {
-                        Text(uiText("Il Giardino: ${element.name}", "The Garden: ${element.name}"))
+                        Text(uiFormat("Il Giardino: {0}", "The Garden: {0}", element.name))
                     }
                 }
             }

@@ -1,5 +1,15 @@
 package it.orma.cammino.ui.settings
 
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.material.icons.automirrored.filled.OpenInNew
+import androidx.compose.material.icons.filled.Bolt
+import androidx.compose.foundation.clickable
+import android.widget.Toast
+import android.net.Uri
+import android.content.Intent
+import android.content.Context
+import android.content.ClipboardManager
+import android.content.ClipData
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -43,10 +53,12 @@ import it.orma.cammino.core.database.settings.AppSettings
 import it.orma.cammino.core.database.settings.ThemeMode
 import it.orma.cammino.core.designsystem.components.OrnamentalDivider
 import it.orma.cammino.core.designsystem.components.PergamenaSection
+import it.orma.cammino.ui.nostr.NostrLoginPanel
 import it.orma.cammino.core.model.ReviewStatus
 import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.i18n.APP_LANGUAGES
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 import kotlinx.coroutines.launch
 
 class SettingsViewModel(container: AppContainer) : ViewModel() {
@@ -186,6 +198,27 @@ fun SettingsScreen(
 
             OrnamentalDivider()
 
+            // Account Nostr (facoltativo)
+            Text(
+                uiText("Account Nostr", "Nostr account"),
+                style = MaterialTheme.typography.titleLarge,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.semantics { heading() },
+            )
+            PergamenaSection {
+                Text(
+                    uiText(
+                        "Orme non vede né conserva la tua chiave privata: la firma resta in Amber o nel tuo bunker. L'accesso è facoltativo e, senza, l'app non usa la rete.",
+                        "Orme never sees or stores your private key: signing stays in Amber or in your bunker. Signing in is optional, and without it the app does not use the network.",
+                    ),
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+                Spacer(Modifier.height(12.dp))
+                NostrLoginPanel(account = container.nostrAccount, allowLogout = true)
+            }
+
+            OrnamentalDivider()
+
             // Privacy
             Text(
                 uiText("Privacy", "Privacy"),
@@ -195,7 +228,7 @@ fun SettingsScreen(
             )
             PergamenaSection {
                 Text(
-                    uiText("Nessun account, nessuna connessione richiesta, nessuna pubblicità né tracciamento. Il diario e i tuoi progressi restano sul dispositivo. L'esportazione del diario è un file che scegli tu dove condividere. Attenzione: la copia di sicurezza automatica di Android può includere i dati dell'app secondo le impostazioni del tuo dispositivo.", "No account, connection, advertising, or tracking is required. Your journal and progress remain on this device. You choose where to share an exported journal file. Android automatic backup may include app data according to your device settings."),
+                    uiText("Nessun account richiesto, nessuna pubblicità né tracciamento. Diario e progressi restano sul dispositivo. L'app usa la rete solo se accedi con Nostr e condividi una voce. L'esportazione del diario è un file che scegli tu dove condividere. Il backup automatico di Android può includere i dati dell'app, secondo le impostazioni del dispositivo.", "No account is required, and there is no advertising or tracking. Journal and progress stay on the device. The app uses the network only if you sign in with Nostr and share an entry. A journal export is a file you choose where to share. Android's automatic backup may include app data, depending on your device settings."),
                     style = MaterialTheme.typography.bodyMedium,
                 )
             }
@@ -212,15 +245,15 @@ fun SettingsScreen(
             PergamenaSection {
                 val verified = catalog.sourcePassages.count { it.reviewStatus == ReviewStatus.VERIFIED }
                 val toVerify = catalog.sourcePassages.count { it.reviewStatus == ReviewStatus.NEEDS_VERIFICATION }
-                Text(uiText("Versione contenuti: ${catalog.manifest.contentVersion}", "Content version: ${catalog.manifest.contentVersion}"), style = MaterialTheme.typography.bodyMedium)
+                Text(uiFormat("Versione contenuti: {0}", "Content version: {0}", catalog.manifest.contentVersion), style = MaterialTheme.typography.bodyMedium)
                 Text(
-                    uiText("Passi documentali: ${catalog.sourcePassages.size} · verificati: $verified · in verifica: $toVerify", "Source passages: ${catalog.sourcePassages.size} · verified: $verified · under review: $toVerify"),
+                    uiFormat("Passi documentali: {0} · verificati: {1} · in verifica: {2}", "Source passages: {0} · verified: {1} · under review: {2}", catalog.sourcePassages.size, verified, toVerify),
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 val errors = contentIssues.count { it.severity == Severity.ERROR }
                 Text(
                     if (errors == 0) uiText("Integrità dei contenuti verificata: nessun riferimento mancante.", "Content integrity verified: no missing references.")
-                    else uiText("Attenzione: $errors riferimenti da correggere nel pacchetto contenuti.", "Attention: $errors references need correction in the content package."),
+                    else uiFormat("Attenzione: {0} riferimenti da correggere nel pacchetto contenuti.", "Attention: {0} references need correction in the content package.", errors),
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 Spacer(Modifier.height(6.dp))
@@ -230,7 +263,61 @@ fun SettingsScreen(
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
+
+            OrnamentalDivider()
+
+            // Donazioni: stesso indirizzo Lightning di Roadstr
+            Text(
+                uiText("Sostieni Orme", "Support Orme"),
+                style = MaterialTheme.typography.titleLarge,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.semantics { heading() },
+            )
+            DonationCard()
             Spacer(Modifier.height(24.dp))
+        }
+    }
+}
+
+private const val LIGHTNING_ADDRESS = "lwb89@blink.sv"
+
+/** Apre il wallet Lightning sull'indirizzo; senza un wallet installato copia l'indirizzo negli appunti. */
+@Composable
+private fun DonationCard() {
+    val context = LocalContext.current
+    val copied = uiText("Nessun wallet Lightning trovato: indirizzo copiato.", "No Lightning wallet found: address copied.")
+    PergamenaSection {
+        Text(
+            uiText(
+                "Orme è gratuita, senza pubblicità e senza tracciamento. Se vuoi sostenerla, puoi donare in Lightning a questo indirizzo.",
+                "Orme is free, with no advertising or tracking. If you want to support it, you can donate over Lightning to this address.",
+            ),
+            style = MaterialTheme.typography.bodyMedium,
+        )
+        Spacer(Modifier.height(10.dp))
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable(onClickLabel = uiText("Dona in Lightning", "Donate over Lightning")) {
+                    val opened = runCatching {
+                        context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("lightning:$LIGHTNING_ADDRESS")))
+                    }.isSuccess
+                    if (!opened) {
+                        val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                        clipboard.setPrimaryClip(ClipData.newPlainText("Lightning", LIGHTNING_ADDRESS))
+                        Toast.makeText(context, copied, Toast.LENGTH_LONG).show()
+                    }
+                }
+                .padding(vertical = 8.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Icon(Icons.Filled.Bolt, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+            Column(modifier = Modifier.weight(1f)) {
+                Text(uiText("Dona in Lightning", "Donate over Lightning"), style = MaterialTheme.typography.titleMedium)
+                Text(LIGHTNING_ADDRESS, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            Icon(Icons.AutoMirrored.Filled.OpenInNew, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
         }
     }
 }

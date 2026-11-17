@@ -39,6 +39,7 @@ import it.orma.cammino.R
 import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.navigation.Route
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -84,7 +85,7 @@ fun CardSessionScreen(
                     modifier = Modifier.fillMaxWidth(),
                 )
                 Text(
-                    uiText("Scenario ${state.scenarioIndex + 1} di ${state.scenarioCount}", "Scenario ${state.scenarioIndex + 1} of ${state.scenarioCount}"),
+                    uiFormat("Scenario {0} di {1}", "Scenario {0} of {1}", state.scenarioIndex + 1, state.scenarioCount),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -141,7 +142,7 @@ fun CardSessionScreen(
                     )
                     if (chosen != null) {
                         PergamenaSection {
-                            Text(uiText("Hai scelto: ${chosen.text}", "You chose: ${chosen.text}"), style = MaterialTheme.typography.titleMedium)
+                            Text(uiFormat("Hai scelto: {0}", "You chose: {0}", chosen.text), style = MaterialTheme.typography.titleMedium)
                             Spacer(Modifier.height(6.dp))
                             Text(chosen.consequence, style = MaterialTheme.typography.bodyLarge)
                         }

@@ -8,6 +8,7 @@ import it.orma.cammino.core.database.entity.ProgressionStateEntity
 import it.orma.cammino.core.database.repository.FavoriteType
 import it.orma.cammino.core.database.repository.FavoritesRepository
 import it.orma.cammino.core.database.repository.JournalKind
+import it.orma.cammino.core.database.repository.JournalMarkdown
 import it.orma.cammino.core.database.repository.JournalRepository
 import it.orma.cammino.core.database.repository.ProgressionRepository
 import it.orma.cammino.core.model.TeachingDiscovered
@@ -112,5 +113,40 @@ class CamminoDatabaseTest {
         val md = repo.exportMarkdown()
         assertTrue(md.contains("# Diario"))
         assertTrue(md.contains("Oggi ho imparato la pace."))
+    }
+    @Test
+    fun `una voce e privata finche la persona non attiva la condivisione`() = runTest {
+        val repo = JournalRepository(db)
+        val entry = repo.save(kind = JournalKind.RIFLESSIONE, text = "Solo mia.")
+        assertFalse(entry.shareOnNostr)
+        assertEquals(null, entry.nostrPublishedAt)
+
+        val shared = repo.save(id = entry.id, kind = JournalKind.RIFLESSIONE, text = "Solo mia.", shareOnNostr = true)
+        assertTrue(shared.shareOnNostr)
+        // Un salvataggio successivo senza indicazione non cambia la scelta.
+        assertTrue(repo.save(id = entry.id, kind = JournalKind.RIFLESSIONE, text = "Modificata.").shareOnNostr)
+
+        val current = repo.get(entry.id)!!
+        repo.markPublished(current, nowMillis = 500L)
+        val published = repo.get(entry.id)!!
+        assertEquals(500L, published.nostrPublishedAt)
+        assertEquals(published.updatedAt, published.nostrSyncedAt)
+
+        // La seconda pubblicazione non sposta la data di prima uscita.
+        repo.markPublished(published, nowMillis = 900L)
+        assertEquals(500L, repo.get(entry.id)!!.nostrPublishedAt)
+
+        repo.setShare(entry.id, false)
+        repo.clearPublished(entry.id)
+        val off = repo.get(entry.id)!!
+        assertFalse(off.shareOnNostr)
+        assertEquals(null, off.nostrPublishedAt)
+    }
+
+    @Test
+    fun `il Markdown di una voce conserva il testo e aggiunge solo il contesto`() {
+        val md = JournalMarkdown.entry("Pace.\n", "riflessione", "Il saluto di pace")
+        assertEquals("Pace.\n\n---\n\n*riflessione · Il saluto di pace · Orme*\n", md)
+        assertEquals("Ciao\n\n---\n\n*Orme*\n", JournalMarkdown.entry("Ciao", "", null))
     }
 }

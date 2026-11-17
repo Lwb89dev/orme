@@ -61,6 +61,7 @@ import it.orma.cammino.ui.navigation.Route
 import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.components.chapterArtworkRes
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 import it.orma.cammino.ui.i18n.sourceCategoryText
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -114,12 +115,12 @@ fun ChapterScreen(
         ) {
             IllustratedBanner(
                 artworkRes = chapterArtworkRes(chapterId),
-                contentDescription = uiText("Illustrazione introduttiva del capitolo ${state.chapterTitle}", "Introductory illustration for ${state.chapterTitle}"),
+                contentDescription = uiFormat("Illustrazione introduttiva del capitolo {0}", "Introductory illustration for {0}", state.chapterTitle),
             )
             when {
                 state.loading -> Text(uiText("Caricamento…", "Loading…"), style = MaterialTheme.typography.bodyLarge)
                 state.error != null -> Text(
-                    uiText("Qualcosa non va: ${state.error}", "Something went wrong: ${state.error}"),
+                    uiFormat("Qualcosa non va: {0}", "Something went wrong: {0}", state.error),
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.error,
                 )
@@ -240,7 +241,7 @@ private fun NodeBody(
         is CharacterEncounterNode -> {
             PergamenaSection {
                 Text(
-                    uiText("Incontri: ${state.speakerName ?: ""}", "Encounter: ${state.speakerName ?: ""}"),
+                    uiFormat("Incontri: {0}", "Encounter: {0}", state.speakerName ?: ""),
                     style = MaterialTheme.typography.titleMedium,
                     color = MaterialTheme.colorScheme.tertiary,
                     modifier = Modifier.semantics { heading() },
@@ -267,7 +268,7 @@ private fun NodeBody(
                 node.sourceDocumentIds.forEach { docId ->
                     catalog.documentsById[docId]?.let { doc ->
                         Text(
-                            uiText("Fonte: ${doc.title}", "Source: ${doc.title}"),
+                            uiFormat("Fonte: {0}", "Source: {0}", doc.title),
                             style = MaterialTheme.typography.labelSmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
@@ -288,7 +289,7 @@ private fun NodeBody(
                 if (teaching != null) {
                     Spacer(Modifier.height(10.dp))
                     OutlinedButton(onClick = { onOpenTeaching(node.teachingId) }) {
-                        Text(uiText("Approfondisci: ${teaching.title}", "Explore: ${teaching.title}"))
+                        Text(uiFormat("Approfondisci: {0}", "Explore: {0}", teaching.title))
                     }
                 }
             }

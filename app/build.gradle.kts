@@ -28,8 +28,8 @@ android {
         applicationId = "it.orma.cammino"
         minSdk = 26
         targetSdk = 37
-        versionCode = 2
-        versionName = "0.2.0"
+        versionCode = 3
+        versionName = "0.3.0"
     }
 
     buildTypes {
@@ -66,6 +66,7 @@ dependencies {
     implementation(project(":core:content"))
     implementation(project(":core:narrative"))
     implementation(project(":core:progression"))
+    implementation(project(":core:nostr"))
     implementation(project(":core:database"))
     implementation(project(":core:designsystem"))
 

@@ -100,6 +100,7 @@ fun CamminoNavHost(
             val route = entry.toRoute<Route.JournalEntry>()
             JournalEntryScreen(
                 container = container,
+                catalog = catalog,
                 entryId = route.entryId,
                 teachingId = route.teachingId,
                 chapterId = route.chapterId,

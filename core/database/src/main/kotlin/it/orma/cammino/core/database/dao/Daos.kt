@@ -57,6 +57,15 @@ interface JournalDao {
 
     @Query("DELETE FROM journal_entries WHERE id = :id")
     suspend fun delete(id: String)
+
+    @Query("UPDATE journal_entries SET nostrPublishedAt = :publishedAt, nostrSyncedAt = :syncedAt WHERE id = :id")
+    suspend fun markPublished(id: String, publishedAt: Long, syncedAt: Long)
+
+    @Query("UPDATE journal_entries SET shareOnNostr = :share WHERE id = :id")
+    suspend fun setShare(id: String, share: Boolean)
+
+    @Query("UPDATE journal_entries SET nostrPublishedAt = NULL, nostrSyncedAt = NULL WHERE id = :id")
+    suspend fun clearPublished(id: String)
 }
 
 @Dao

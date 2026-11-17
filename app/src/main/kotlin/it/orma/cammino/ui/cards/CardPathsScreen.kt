@@ -38,6 +38,7 @@ import it.orma.cammino.ui.navigation.Route
 import it.orma.cammino.R
 import it.orma.cammino.ui.components.IllustratedBanner
 import it.orma.cammino.ui.i18n.uiText
+import it.orma.cammino.ui.i18n.uiFormat
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -101,13 +102,13 @@ fun CardPathsScreen(container: AppContainer, catalog: ContentCatalog, navControl
                             if (row.available) {
                                 Text(
                                     if (row.completed) uiText("Percorso esplorato — puoi ripercorrerlo", "Way explored — you may walk it again")
-                                    else uiText("Scenari: ${row.scenariosDone}/${row.scenariosTotal}", "Scenarios: ${row.scenariosDone}/${row.scenariosTotal}"),
+                                    else uiFormat("Scenari: {0}/{1}", "Scenarios: {0}/{1}", row.scenariosDone, row.scenariosTotal),
                                     style = MaterialTheme.typography.labelSmall,
                                     color = MaterialTheme.colorScheme.secondary,
                                 )
                             } else {
                                 Text(
-                                    uiText("Si apre scoprendo: ${row.missingTeachings.joinToString()}", "Opens when discovered: ${row.missingTeachings.joinToString()}"),
+                                    uiFormat("Si apre scoprendo: {0}", "Opens when discovered: {0}", row.missingTeachings.joinToString()),
                                     style = MaterialTheme.typography.labelSmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                                 )

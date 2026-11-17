@@ -1,5 +1,6 @@
 package it.orma.cammino.core.database.entity
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -38,6 +39,12 @@ data class JournalEntryEntity(
     val teachingId: String? = null,
     val chapterId: String? = null,
     val favorite: Boolean = false,
+    /** Scelta esplicita della persona: questa voce viene pubblicata su Nostr al salvataggio. */
+    @ColumnInfo(defaultValue = "0") val shareOnNostr: Boolean = false,
+    /** Prima volta che un relay ha accettato la voce (millisecondi); null se mai pubblicata. */
+    val nostrPublishedAt: Long? = null,
+    /** `updatedAt` della versione che un relay ha accettato per ultima. */
+    val nostrSyncedAt: Long? = null,
 )
 
 /** Elementi preferiti (insegnamenti, passaggi, capitoli...). */

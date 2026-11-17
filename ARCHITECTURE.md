@@ -25,10 +25,11 @@ core/content/         Schemi JSON, ContentLoader, ContentValidator (JVM puro)
 core/narrative/       StoryEngine del Viandante (JVM puro)
 core/progression/     Knowledge & Experience Engine (JVM puro)
 core/database/        Room, DataStore, repository (Android library)
+core/nostr/           Protocollo Nostr: BIP-340, NIP-44, NIP-46, NIP-23, trasporto verso i relay (JVM; BouncyCastle, OkHttp)
 core/designsystem/    Tema "manoscritto umbro", componenti (Android library + Compose)
 ```
 
-Regole di dipendenza: `model ← content ← narrative`, `model ← progression`, `database → {progression, narrative}`, `designsystem → model`, `app → tutti`. I moduli JVM non toccano Android: sono testabili con JUnit puro e velocissimi.
+Regole di dipendenza: `model ← content ← narrative`, `model ← progression`, `database → {progression, narrative}`, `nostr` indipendente dagli altri core, `designsystem → model`, `app → tutti`. I moduli JVM non toccano Android: sono testabili con JUnit puro e velocissimi.
 
 ## Decisioni chiave
 
@@ -53,9 +54,10 @@ Le quattro modalità emettono `ExperienceEvent` (`TeachingDiscovered/Explored/De
 
 ## Persistenza
 
-- Room `cammino.db` v1: `progression_state`, `narrative_profile`, `chapter_session`, `journal_entries`, `favorites`.
+- Room `cammino.db` v2: `progression_state`, `narrative_profile`, `chapter_session`, `journal_entries`, `favorites`. La v2 aggiunge a `journal_entries` `shareOnNostr` (default 0), `nostrPublishedAt`, `nostrSyncedAt`; `MigrationTest` ricrea un database v1 dallo schema esportato e lo apre con la migrazione.
 - DataStore `cammino_settings`: onboarding, tema, riduzione animazioni, audio, ultima versione contenuti vista.
-- Nessuna rete: l'app non dichiara permessi oltre ai default.
+- Rete solo per la condivisione facoltativa su Nostr (permesso `INTERNET`). Senza accesso Nostr e senza una voce con l'interruttore acceso l'app non apre connessioni. Nessuna chiave privata nell'app: accesso con Amber (NIP-55) o bunker (NIP-46); per il bunker si conserva solo la chiave di abbinamento dell'app, cifrata con il Keystore (`NostrIdentityStore`).
+- Il Markdown di una voce è il testo della persona più una riga di contesto (`JournalMarkdown`); `JournalSharing` pubblica nello scope dell'app, mai nel percorso di salvataggio.
 
 ## Migrazioni
 

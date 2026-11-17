@@ -37,15 +37,25 @@ The interface follows the language chosen in Settings. `originalText` is never t
 
 ## Privacy and sources
 
-- No account, no network permission, no analytics, no advertising.
-- The journal and the record of discoveries never leave the device.
+- No account, no analytics, no advertising.
+- The journal and the record of discoveries stay on the device. The one exception is a journal entry you choose to share on Nostr (see below).
+- The app asks for the network permission only for that optional sharing. Without a Nostr sign-in it opens no connection.
 - Every passage belongs to one of five kinds: a writing attributed to Francis, a medieval testimony, hagiographic tradition, an editorial note, or original narrative.
 - A literal quotation is the medieval text, which is in the public domain, plus an editorial translation made for this app. Where the text is not reproduced, the app says so and paraphrases.
 - Modern copyrighted translations are not copied. The Peace Prayer of 1912 is not attributed to Francis.
 
+## Sharing on Nostr (optional)
+
+A journal entry can be published as a Markdown article (NIP-23, kind 30023) that readers such as [Boris](https://github.com/nostr-reader/boris-android) show among your writings.
+
+- Sharing is a switch on each entry, off by default. Saving an entry that has it on publishes it, and saving it again updates it. Nothing else is published.
+- Sign in with Amber (NIP-55) or with a remote signer through a `bunker://` link (NIP-46). The app never asks for, sees, or stores your private key. For a bunker it keeps only its own pairing key, encrypted with the Android Keystore.
+- Switching sharing off, or deleting a published entry, sends a deletion request (NIP-09). Relays are not obliged to honour it, so treat a published entry as public.
+- Events go to `wss://relay.damus.io`, `wss://nos.lol`, and `wss://relay.primal.net`. Clear-text `ws://` relays are refused.
+
 ## Project status
 
-Version **0.2.0**.
+Version **0.3.0**.
 
 - The five-chapter story, the writings reader, the teachings, the garden, the card paths, the guided dialogues, and the journal are in the app.
 - Dialogue level 1 is an offline graph. Level 2, a model in the conversation, exists only as the `ConversationBackend` interface: no provider, no network, no key.
@@ -70,6 +80,7 @@ Version **0.2.0**.
 - `core/narrative/` — Wayfarer story engine
 - `core/progression/` — record of discoveries
 - `core/database/` — Room, DataStore, and repositories
+- `core/nostr/` — Nostr protocol on the JVM: BIP-340, NIP-44, NIP-46, NIP-23, relay transport
 - `core/designsystem/` — Umbrian manuscript theme
 
 ## Build

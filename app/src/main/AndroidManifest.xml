@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Solo per la condivisione facoltativa su Nostr: senza accesso e senza una voce da condividere
+         l'app non apre alcuna connessione. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Per trovare un'app signer Nostr (Amber, NIP-55). -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="nostrsigner" />
+        </intent>
+    </queries>
+
     <application
         android:name=".CamminoApplication"
         android:allowBackup="true"
