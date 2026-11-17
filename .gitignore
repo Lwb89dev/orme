@@ -18,3 +18,6 @@ local.properties
 
 # Istruzioni per agenti AI e di build locale (restano su disco, non nel repo).
 /AGENTS.md
+
+# Segreti di pubblicazione (Zapstore): mai nel repo.
+.env

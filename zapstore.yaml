@@ -1,0 +1,15 @@
+repository: https://github.com/Lwb89dev/orme
+release_source: https://github.com/Lwb89dev/orme
+match: 'app-release\.apk$'
+release_notes: ./CHANGELOG.md
+metadata_sources:
+  - github
+
+name: Orme
+summary: Get to know Francis of Assisi through four interactive modes, offline and private.
+icon: ./assets/icons/icon.png
+images:
+  - ./docs/screenshots/home.png
+  - ./docs/screenshots/story.png
+  - ./docs/screenshots/teaching.png
+  - ./docs/screenshots/writing.png

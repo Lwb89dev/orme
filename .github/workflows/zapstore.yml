@@ -1,0 +1,40 @@
+name: Publish to Zapstore
+
+# Quando una release GitHub viene pubblicata con l'APK firmata allegata,
+# la stessa release viene pubblicata su Zapstore.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: zapstore
+  cancel-in-progress: false
+
+env:
+  ZSP_VERSION: "2.0.1"
+  ZSP_SHA256: "1ef5373f8ecd9ba63d2c3fab98abb0d31b2244a2aac31b3749fb205c7d5f5b38"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install zsp
+        run: |
+          curl -fsSL -o zsp "https://github.com/zapstore/zsp/releases/download/v${ZSP_VERSION}/zsp-${ZSP_VERSION}-linux-amd64"
+          echo "${ZSP_SHA256}  zsp" | sha256sum -c -
+          chmod +x zsp
+          sudo mv zsp /usr/local/bin/zsp
+          zsp --version
+
+      - name: Publish
+        env:
+          # Segreto del repository: nsec del delegato o URL bunker://.
+          SIGN_WITH: ${{ secrets.SIGN_WITH }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: zsp publish --json
