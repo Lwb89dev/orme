@@ -113,3 +113,7 @@ export ORME_RELEASE_KEY_PASSWORD=…
 | `ASSET_LICENSES.md` | Images and other assets |
 | `TESTING.md` | What the tests cover, and what they do not |
 | `CHANGELOG.md` | What changed in this version |
+
+## License
+
+MIT, see `LICENSE`. Images and other assets are inventoried in `ASSET_LICENSES.md`.
