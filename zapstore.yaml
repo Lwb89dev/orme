@@ -1,15 +1,38 @@
+# Zapstore listing for Orme. Reference: `zsp skill`.
+# The source is the public GitHub release; the APK is the asset named app-release.apk.
 repository: https://github.com/Lwb89dev/orme
 release_source: https://github.com/Lwb89dev/orme
+release_filter: '^v[0-9]+\.[0-9]+\.[0-9]+$'
 match: 'app-release\.apk$'
 release_notes: ./CHANGELOG.md
-metadata_sources:
-  - github
+
+# Everything is stated here, so no metadata is gathered from other sources.
+metadata_sources: []
 
 name: Orme
-summary: Get to know Francis of Assisi through four interactive modes, offline and private.
+summary: Read the life and writings of Saint Francis of Assisi, offline and private.
+description: |
+  Orme is an app for reading the life and teachings of Saint Francis of Assisi. You enter through a story set in early thirteenth-century Umbria. The teachings hang from his writings, and the medieval text stays beside the translation.
+
+  The register is adult. The app describes what Francis wrote and how he lived. It does not score the reader, and it does not speak in his voice.
+
+  - **The story.** Five chapters as a wayfarer who is not Francis. Choices stay in a profile on the device.
+  - **The writings.** The Testament, the Earlier Rule, the Later Rule, the Letter to the Entire Order, and the Canticle of the Creatures, with the medieval original beside an editorial translation.
+  - **The teachings.** Each one names its sources and opens the work it comes from. Discovery is recorded as found, explored, or studied further. There is no score of goodness.
+  - **The garden, the choices, and the questions.** A garden that grows with what you have met, situations with no answer to guess, and offline conversations with a mentor who states the limit of the sources.
+  - **Life and sources.** Biography, chronology, places, people, and a glossary, each marked with its kind of evidence.
+  - **A journal.** Notes stored only on the device and exportable as Markdown.
+
+  Available in Italian, English, Russian, and the official languages of the European Union except Irish and Maltese.
+
+  No account, no network permission, no analytics, no advertising. No quotation of Francis is invented: where a clean public-domain text is missing, the app says so and paraphrases.
+website: https://github.com/Lwb89dev/orme
+tags: [history, religion, education, reading, offline]
+
 icon: ./assets/icons/icon.png
 images:
   - ./docs/screenshots/home.png
   - ./docs/screenshots/story.png
-  - ./docs/screenshots/teaching.png
   - ./docs/screenshots/writing.png
+  - ./docs/screenshots/teaching.png
+  - ./docs/screenshots/garden.png
