@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Kamienna ścieżka",
+      "kind": "sentiero",
+      "description": "Ścieżka z jasnych kamieni przecina ogród: punkt, od którego zaczyna się każda droga.",
+      "symbolism": "Droga jako obraz życia: idzie się nią, kamień po kamieniu.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Oliwka pokoju",
+      "kind": "albero",
+      "description": "Stara oliwka o srebrzystej koronie, zasadzona wtedy, gdy odkrywasz pozdrowienie pokoju.",
+      "symbolism": "Oliwka: śródziemnomorska roślina pokoju i cierpliwości. Rośnie powoli i trwa przez pokolenia.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Fontanna siostry wody",
+      "kind": "acqua",
+      "description": "Kamienna fontanna z czystą wodą, którą poranne słońce zapala blaskiem.",
+      "symbolism": "„Siostra woda, użyteczna i pokorna, cenna i czysta”: w Pieśni woda jest siostrą, której należy dziękować.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Róże San Damiano",
+      "kind": "fiore",
+      "description": "Kwitnący krzew różany przy murze: rośnie tam, gdzie ktoś zatroszczył się o innych.",
+      "symbolism": "Piękno rodzące się ze służby: miłość bliźniego sprawia, że jałowe miejsca zakwitają.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Wspólny warzywnik",
+      "kind": "orto",
+      "description": "Niewielkie grządki ziół i warzyw, pielęgnowane na zmianę: pokorna praca, która karmi wszystkich.",
+      "symbolism": "Codzienna służba: kto uprawia ogród, nie posiada go — strzeże go dla tych, którzy przyjdą.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Cyprys milczenia",
+      "kind": "albero",
+      "description": "Wysoki, prosty cyprys wyznacza granicę między ogrodem a lasem.",
+      "symbolism": "Modlitwa jako pion: korzenie w ziemi, wierzchołek ku niebu.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Gniazdo zięb",
+      "kind": "animali",
+      "description": "Wśród najbezpieczniejszych gałęzi para zięb wybrała ogród na swoje gniazdo.",
+      "symbolism": "Gościnność: ogród staje się domem także dla tych, którzy przychodzą z zewnątrz.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Kamienna ława",
+      "kind": "struttura",
+      "description": "Kamienna ława pod murem w południe: miejsce, gdzie można usiąść i pozostać.",
+      "symbolism": "Wiara jako ufne zatrzymanie: nie zawsze iść, czasem po prostu być.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Słoneczniki dziękczynienia",
+      "kind": "fiore",
+      "description": "Rząd słoneczników, które w ciągu dnia obracają się za światłem.",
+      "symbolism": "Wdzięczność: zwracać się ku światłu to codzienne ćwiczenie spojrzenia.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Pszczeli ul",
+      "kind": "animali",
+      "description": "Drewniany ul pachnie woskiem; pszczoły latają tam i z powrotem między kwiatami ogrodu.",
+      "symbolism": "Braterstwo: żadna pszczoła nie robi miodu sama i żadna nie posiada plastra.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Patrzeć w niebo",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        { "kind": "osserva", "text": "Unieś wzrok z ogrodu ku niebu. Zostań przez chwilę w ciszy, nie robiąc nic." },
+        { "kind": "leggi", "text": "Przeczytaj powoli początek Pieśni stworzeń.", "sourcePassageId": "pass.cantico.apertura" },
+        { "kind": "rifletti", "text": "Franciszek nazywa słońce „bratem”, a księżyc „siostrą”. Co by się zmieniło, gdyby patrzeć na świat jak na rodzinę, a nie jak na zasób?" },
+        { "kind": "annota", "text": "Jeśli chcesz, zapisz w dzienniku jedną rzecz, za którą dziś możesz powiedzieć: „Pochwalony bądź, Panie mój”." }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Słuchać wody",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        { "kind": "ascolta", "text": "Zbliż się do fontanny. Przez kilka oddechów słuchaj dźwięku wody, bez pośpiechu." },
+        { "kind": "leggi", "text": "Przeczytaj raz jeszcze pochwałę Boga napisaną na La Vernie: modlitwę, która o nic nie prosi.", "sourcePassageId": "pass.lodi_dio.lode" },
+        { "kind": "rifletti", "text": "Pochwały Boga nie zawierają próśb: tylko uznanie. Kiedy ostatnio zdarzyło ci się podziękować, o nic nie prosząc?" },
+        { "kind": "annota", "text": "Jeśli chcesz, zapisz w dzienniku trzy rzeczy otrzymane dziś, choćby drobne." }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Powolny krok",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        { "kind": "osserva", "text": "Przejdź powoli kamienną ścieżką, zauważając każdy krok: ciężar, kontakt, rytm." },
+        { "kind": "leggi", "text": "Przeczytaj odpowiedź Franciszka bratu Leonowi, który szukał właściwego wyboru.", "sourcePassageId": "pass.lettera_leone.coscienza" },
+        { "kind": "rifletti", "text": "Bratu Leonowi Franciszek nie daje poleceń, lecz wolność: „idź za własnym sumieniem przed Bogiem”. Czego uczy ten sposób towarzyszenia?" },
+        { "kind": "annota", "text": "Jeśli chcesz, zapisz w dzienniku decyzję, którą niesiesz, i to, ku czemu zwraca się twoje sumienie." }
+      ]
+    }
+  ]
+}

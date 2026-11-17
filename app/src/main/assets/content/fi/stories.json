@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Mestari Bernardo",
+      "description": "Tammikylän majatalon isäntä kolmekymmentä vuotta: käytännöllinen, muukalaisia kohtaan epäluuloinen, kyvytön jättämään ketään kylmään. Kylästä hän tuntee jokaisen velan ja jokaisen hyvyyden.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Tammikylän leski ja yrttitietäjä. Terävä tarkkailija ja kylän muisti: mikään, mitä tiellä tapahtuu, ei jää häneltä huomaamatta.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Veli Tuomas",
+      "description": "Vähäisempi veli, joka kulkee Umbrian teitä. Kuluneet sandaalit, paikattu kaapu: hänellä on hiljaisuuden tapa ja harvinainen kuuntelemisen lahja.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martino",
+      "description": "Kerjäläinen, joka kohdattiin Tammikylän tiellä. Hän oli kengittäjä Spoletossa, ennen kuin sairaus vei pajan, talon ja lopulta paikan ihmisten joukossa.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Giacomo",
+      "description": "Assisin muurari. Hän työskentelee pienen San Damianon kirkon kunnostuksessa ja on nähnyt läheltä, miten nuori Franciscus kantoi kiviä ja lauloi.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matteo",
+      "description": "Vuoristometsästäjä, joka johtaa erään Gubbion portin vartiota suden pelon päivinä. Arpien kasvot, keihäs ei koskaan kaukana, annettu sana joka pitää.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido II, Assisin piispa",
+      "description": "Assisin piispa vuodesta 1204. Lähteet dokumentoivat hänet: kaupungin edessä hän peitti Franciscuksen omalla viitallaan kohtauksessa, jossa tämä luopui isän omaisuudesta.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Pietro di Bernardone",
+      "description": "Assisin varakas kangaskauppias, Franciscuksen isä. Ristiriita pojan kanssa myydyistä tavaroista päättyi julkiseen kohtaukseen piispan edessä, jonka Tuomas Celanolainen kertoo.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Bernardonen Franciscus",
+      "description": "Kauppiaan nuori poika, joka näinä vuosina Assisissa jättää kaiken ja aloittaa paljain jaloin. Vaeltaja kohtaa hänet kaukaa tai muutaman hetken; hänen sanansa ovat täällä harvoja ja lähteille uskollisia.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Vaeltajan viitta",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Myöhäissyksyn sateessa vaeltaja saapuu Tammikylään ja kohtaa kylmettyneen kerjäläisen: matkan ensimmäinen valinta.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Myöhäissyksyn sade on kulkenut kanssasi kolme päivää. Kun näet Tammikylän ensimmäiset talot, ilta sulkee jo polkuja ja viittasi valuu vettä.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Oratuomen pensasaidan alla kyyristynyt hahmo kääriytyy kuluneeseen säkkiin. Hän ei ojenna kättään: katsoo vain sinua, sen kirkkain silmin, joka on lakannut pyytämästä.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martinolla on polkujen ikä. Hän oli kengittäjä Spoletossa, ennen kuin sairaus vei pajan ja talon. Nyt tie on kaikki, mitä hänelle on jäänyt.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "En pyydä mitään, muukalainen. Mutta yö on pitkä ja jäinen, eivätkä selkäni kestä enää kosteutta.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martino vapisee pensasaidan alla. Mitä teet?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Riisut viitan ja asetat sen hänen harteilleen.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Tarjoat hänelle käsivartesi ja saatat hänet kylään.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Istuudut hänen viereensä, pensasaidan alle, ja kuuntelet.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Viitta jättää hartiasi, ja kylmä tunkeutuu heti luihin. Mutta siinä kylmässä on uusi keveys, jota et osaa selittää.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Minulla ei ole mitään annettavaa takaisin, ystävä. Vain nimeni: Martino. Kylässä saadaan tietää, millainen muukalainen olet.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Kävelette hitaasti, toisiinne nojaten, tiheässä sateessa. Majatalon portilla valot palavat yhä.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Keräsitkö matkalta seuraa, muukalainen? Tulkaa molemmat sisään: minun tuleni ei tee kysymyksiä.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Olin kengittäjä Spoletossa: kengitin herrain hevosia. Sitten kädet alkoivat vapista, eikä kukaan tahdo seppää joka vapisee. Kiitän, että istuit: ihmiset kulkevat ohi ja jatkavat suoraan, ikään kuin huono onni olisi tarttuvaa.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Kun nousette, sade on lakannut. Näytät hänelle tien kylään ja katsot hänen loittonevan hitaasti, kunnes pimeä ottaa hänet.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Tammikylän majatalo tuoksuu puulta ja leivältä. Matala tuli kuivaa vaatteet ja sulattaa matkan väsymyksen.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Astut tiskille kylmissäsi ja ilman viittaa. Mestari Bernardo mittaa sinua kauan, sitten ojentaa kauhallisen lämmintä viiniä: «Annoitko viitan pois, tällaisena iltana? Olet joko hullu tai parempi kuin näytät. Saamme nähdä.»",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Mestari Bernardo on pitänyt majataloa kolmekymmentä vuotta: käytännöllinen, epäluuloinen, kyvytön jättämään ketään kylmään. Kylästä hän tuntee jokaisen velan ja jokaisen hyvyyden.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Täällä kukaan ei lahjoita mitään, muukalainen: leipä maksetaan, ja harmit myös. Mutta paikka tulen vieressä ei ole myytävänä. Se kuuluu sille, joka saapuu.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "Nurkassa tarkkasilmäinen nainen hienontaa yrttejä huhmareessa. Hän on Lucia, leski joka hoitaa kylää juurilla ja kärsivällisyydellä. Mikään, mitä tiellä tapahtuu, ei jää häneltä huomaamatta.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Näin sinun pysähtyvän oratuomen pensasaidan alle. Monet kulkevat ohi tuossa mutkassa: tie opettaa nopeasti olemaan katsomatta. Sinä pysähdyit. Muista se, kun joku sanoo sinulle, kuka olet.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Olet löytänyt: Kukaan ei ole vieras. Vastaanottaminen alkaa näin: ei ajatuksesta, vaan pensasaidasta, kylmettyneestä miehestä, pysähdyksestä. Meneminen sitä kohti, jonka ohittamaan maailma opettaa, on jokaisen matkan ensimmäinen askel.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Mikä sinua liikutti tuon pensasaidan alla, ja mikä pidätteli? Ajattele tämän päivän teitäsi: keitä kohtaat tavallisesti, ja kenen ohittamaan olet oppinut?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Yö kuluu hiljaa. Aamulla, majatalon tiskillä, löydät kourallisen kastanjoita eikä sanaakaan: kylässä asiat muistetaan. Matkasi on alkanut.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Kauppiaan poika",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, vuoden 1206 alku: vaeltaja saapuu päivinä, jolloin Franciscus piispa Guidon edessä palauttaa kaiken isälleen. Kaupunki katsoo ja kysyy itseltään.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi ottaa sinut vastaan hälinällä, joka ei ole markkinapäivien hälinää. Kujilla puhutaan hiljaa yhdestä nimestä: herra Pietro di Bernardonen, kangaskauppiaan, pojasta.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Kylän lähteellä nainen selittää: isä on raahannut nuorukaisen piispan eteen saadakseen myydyt tavarat takaisin, ja aukio täyttyy. Muurien alla, San Damianon raunioituneessa kirkossa, muurari kamppailee yksin sortuneen muurin kanssa.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Äänet aukiolla kasvavat. Toisella puolella väkijoukko, toisella mies yksin kiviensä kanssa.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Lasket San Damianoon auttamaan muuraria.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Juokset aukiolle, ennen kuin väkijoukko sulkeutuu.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Nouset San Rufinon portaille katsomaan ylhäältä.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Tunnin nostat kiviä muurarin vieressä, kun väkijoukko kohisee ylhäällä. Mies työskentelee hiljaa, sitten osoittaa pientä kirkkoa: sitä korjaa eräs Assisin poika, hän sanoo. Se, josta kaikki puhuvat.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Hän kantoi kiviä tänne kuin ne olisivat pyhäinjäännöksiä, ja lauloi. Sanotaan, että hän on tullut hulluksi. Minä olen nähnyt monta hullua: yksikään ei työskennellyt näin.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Kun nouset takaisin aukiolle, väkijoukko on jo hajoamassa. Keräät sirpaleita: nuorukainen on palauttanut kaiken isälleen, vaatteensakin, ja piispa on peittänyt hänet omalla viitallaan. Joku nauraa. Monet eivät.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Tunget väkijoukon läpi piispan palatsin alle. Keskellä laihtunut nuorukainen, jonka silmät palavat; häntä vastapäätä vanha mies, joka vapisee vihasta: herra Pietro di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Franciscus on noin kaksikymmentäneljä ja hänellä on ryhti, joka on kasvanut kallisarvoisten kankaiden ja juhlien keskellä. Tänään, seisten piispan edessä, hän näyttää jo jättäneen kaiken tämän taakseen.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Minun kankaani, minun hevoseni, minun rahani: myyty hänen hulluuksiinsa! Tahdon oikeutta, monsignore. Luopukoon kaikesta mikä on minun, viimeiseen lankaan asti.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Pitkä hiljaisuus. Sitten nuorukainen riisuu vaatteensa, yhden kerrallaan, ja laskee ne isän jalkoihin. Väkijoukko pidättää henkeään. Piispa Guido riisuu viittansa ja peittää hänen paljaat hartiansa.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Tähän päivään asti olen kutsunut isäksi Pietro di Bernardonea. Tästä lähtien voin vapaasti sanoa: Isä meidän, joka olet taivaissa.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Katedraalin portailta aukio on muurahaispesä. Et kuule sanoja, mutta näet kaiken: nuorukaisen joka riisuutuu, vanhuksen joka kokoaa vaatteet, piispan joka avaa viittansa.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Vieressäsi omenakauppias huokaa: olen nähnyt tällä aukiolla oikeudenkäyntejä ja tappeluita, hän sanoo, mutta en koskaan poikaa joka palauttaa kaiken näin. Ympärillä joku nauraa räikeästi, joku pyyhkii silmiään.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Ilta laskeutuu Assisiin. Majataloissa ei puhuta muusta: on niitä jotka pilkkaavat nuorukaista, niitä jotka sanovat häntä pyhäksi, niitä jotka pudistavat päätään ajatellen omia lapsiaan.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Piispa Guido ylittää tyhjentyneen aukion sen väsynein askelin, joka on hallinnut vaikean päivän. Hän peitti Franciscuksen omalla viitallaan, kaikkien edessä.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Olen nähnyt elämässäni monta miestä tarrautuvan tavaroihin. En koskaan ketään päästämässä niistä irti näin. Rukoilkaa tuon pojan puolesta: ja rukoilkaa meidän puolestamme, jotka katsomme emmekä ymmärrä.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Aukio tyhjenee. Mitä teet, ennen kuin jatkat tietä?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Seuraat kaukaa Franciscusta, joka on laskeutunut San Damianoon.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Jäät kuuntelemaan aukion ääniä.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Palaat muurarin luo viimeistelemään sen, minkä aloitit.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Seuraat Franciscusta raunioituneeseen kirkkoon asti. Näet hänen nostavan kiven, pyyhkivän sen ja asettavan sen muurille niin kuin se, joka laittaa talon järjestykseen. Et rohkene häiritä. Jatkat tietä, ja tuo kuva jää silmiisi.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Jäät kunnes soihdut sammuvat. Kuulet koko inhimillisen eläintarhan: kateuden, pilkan, pidätetyn ihailun, isien pelon. Kaupungilta kestää vuosia päättää, mitä se on nähnyt.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Tulitko viimeistelemään muurin? Hyvä. Kivet eivät valehtele: ne pysyvät sinne, mihin ne panet. Tuo poika ymmärtää sen: hän aloittaa perustuksista. Itsestään, ei vain kirkoista.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Mikä on dokumentoitu",
+          "text": "Franciscuksen luopuminen piispa Guidon edessä vuoden 1206 alussa kerrotaan Tuomas Celanolaisen ensimmäisessä elämäkerrassa, pyhimystä lähimmässä elämäkerrassa: vaatteiden palauttaminen, sanat Isästä joka on taivaissa, piispan viitta. Dokumentoitu on myös San Damianon kunnostus. Fiktioon kuuluvat sen sijaan vaeltaja jota näyttelet, muurari Giacomo ja aukiolla kootut vuorosanat.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Olet löytänyt: Ei mitään omaa, kaikki saatu. Luopuminen ei ole tavaroiden halveksimista: se on vapautumista ajatuksesta omistaa ne. Jolla ei ole mitään, ei ole mitään puolustettavaa, ja hän voi ottaa kaiken vastaan lahjana.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Jätät Assisin, kun valot syttyvät yksi kerrallaan. Olet nähnyt miehen jäävän alastomaksi ja vapaaksi aukiolle, ja kokonaisen kaupungin kysyvän itseltään. Sinäkin kuljet kevyemmin: tai ehkä vain tarkkaavaisemmin tavaroiden painolle.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Mies tien reunassa",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Kylien välisillä teillä puisen kolkuttimen ääni ilmoittaa spitaalisesta. Vaeltajan on tehtävä tili pelon, inhon ja kunnioituksen kanssa: ja kasvojen, jotka hän tuntee.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Tie kylän ja laakson välillä kulkee levänneiden peltojen ja rautatammilehtojen laitaa. Risteyksessä kuulet kuivan, rytmikkään äänen: puisen kolkuttimen, jolla spitaaliset ilmoittavat kulustaan.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Tien reunassa, ryysyihin kääriytyneenä, istuu mies. Ensimmäinen, minkä tunnet, on oma ruumiisi joka jäykistyy: askel joka hidastuu, henki joka pidättyy, halu siirtyä toiselle puolelle.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Sitten näet sen: miehen harteilla, paikattuna ja haalistuneena, on sinun viittasi. Se, jonka annoit pois saapumisesi iltana Tammikylään. Tunnistat viitan ennen kuin tunnistat hänet.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Älä tule lähemmäs, ystävä: tauti on ottanut minut, ja laki lähettää minut ulos maailmasta. Mutta viittasi piti minut elossa talven. Olen Martino: olen sinulle henkeni velkaa, enkä voi edes puristaa kättäsi.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Spitaalinen tien reunassa. Mitä teet?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Astut askeleen päähän hänestä ja puhut hänelle.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Jätät leivän ja viikunoita kivelle lähestymättä.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Kuljet ohi. Mutta kahdenkymmenen askeleen jälkeen pysähdyt ja palaat.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Läheltä, taudin harmaan tuhkan alta, tunnistat pensasaidan miehen kirkkaat silmät: hän on Martino, kerjäläinen ensimmäiseltä päivältäsi kylässä.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Tauti vei sormeni, sitten kylä vei loput. Soitan tätä puuta, ja ihmiset pakenevat ennen kuin edes näkevät minut. Sinä jäit. Et tiedä, mikä lahja on tulla katsotuksi kasvoihin.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Lasket leivän ja viikunat tasaiselle kivelle, puoliväliin sinun ja hänen väliin. Se on tapa, jota kaikki käyttävät: lähimmäisenrakkaus turvallisen välimatkan päästä. Hän kumartaa päätään, hitaasti.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Leipä riittää minulle, ja kiitän sinua. Mutta muista, muukalainen: minun kaltaiseni kuolevat kahdesti. Ensimmäisen kerran kun tauti tulee, toisen kun kukaan ei enää kutsu heitä nimeltä.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Kävelet kaksikymmentä askelta laaksoa kohti. Sitten häpeä pysäyttää sinut lujemmin kuin kolkutin: palaat takaisin, hitaasti, tien reunaan asti. Mies nostaa katseensa, hämmästyneenä.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Monet kulkevat ohi, harvat palaavat. Askel taaksepäin on kaikista vaikein: tiedän sen, opin sen itsekin. Istu, jos tahdot. Kerro, mistä tulet.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Jäätte puhumaan, kun aurinko laskee. Martino kertoo sinulle eräästä Assisin veljestä, tuosta kauppiaan pojasta joka jätti kaiken: nyt hän menee leprasairaaloihin, pesee haavat ja kutsuu kutakin nimeltä.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Leprasairaala on laaksossa, sillan takana, Martino sanoo. Jos etsit tuota veljeä, löydät hänet sieltä.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Tarjouduit saattamaan hänet leprasairaalaan asti.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Lupaat hänelle, ettei kylässä häntä unohdeta.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Saatat häntä laaksoa pitkin, hitaasti, koskematta häneen mutta häntä kiertämättä. Sillalla hyvästelette niin kuin ystävät hyvästelevät: ikävöiden, että on jätettävä.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Kylä ajoi minut pois, Martino sanoo. Mutta jos joku tuolla ylhäällä lausuu yhä nimeni, olen vähemmän kuollut. Lupaat sen hänelle. Et vielä tiedä, mitä tuon lupauksen pitäminen maksaa.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Franciscuksen sanat",
+          "text": "Testamentissa, henkilökohtaisimmassa kirjoituksessaan jonka hän saneli elämänsä lopussa, Franciscus kertoo, että Herra vei hänet spitaalisten joukkoon ja että hän osoitti heille laupeutta: se mikä tuntui hänestä katkeralta muuttui suloisuudeksi (Testamentti 1–3). Se on yksi harvoista episodeista, jotka hänen oma äänensä todistaa. Martino ja teidän kohtaamisenne kuuluvat Vaeltajan fiktioon.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Olet löytänyt: Kohtaaminen, joka muuttaa elämän. Lähimmäisenrakkaus ei ole tunne: se on ruumiillinen ele, jolla lähestytään syrjäytettyä, ja huomataan, että katkeruus muuttuu suloisuudeksi. Antaja ei asetu saajan yläpuolelle: he kohtaavat.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Olet löytänyt: Lähestyä koko ruumiilla. Testamentissa Franciscus ei sano tunteneensa laupeutta: hän sanoo tehneensä sitä. Laupeus on totta, kun se antaa toisen kärsimyksen tavoittaa itsensä niin, että kädet liikkuvat.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Mikä liikutti ruumistasi tänään, ennen ajatuksiasi: pelko, inho, hellyys? Muista kasvot, joiden ohittamaan olet oppinut. Mikä hänen nimensä on?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Jatkat tietä pimeässä, ja kolkuttimen ääni katoaa taaksesi. Jokin tavassasi katsoa ihmisiä on muuttunut ainiaaksi.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Gubbion peto",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio elää raivokkaan suden kauhussa. Niiden joukossa, jotka järjestävät puolustusta, jotka seuraavat aseetonta veljeä ja jotka etsivät sovittelua, vaeltaja näkee rauhan syntyvän.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio ilmestyy yhtäkkiä, vuoreen tarrautuneena. Mutta portit ovat suljettuina keskellä päivää, ja ympäröivät pellot ovat autioita: kukaan ei enää lähetä laumoja laitumelle.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matteo johtaa portin vartiota: vuoristometsästäjä, arpien kasvot ja keihäs ei koskaan kaukana. Hän järjestää ajot petoa vastaan.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Susi, muukalainen. Vasikkaa suurempi eikä pelkää ihmisiä. Se on vienyt lampaita, koiria, ja sitten pahempaa. Lähdemme kahdenkymmenen miehen voimin, aseissa. Jos jalkasi pitävät, pysy poissa metsästä.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "Portin lähellä olevassa kapakassa kiertää huhu, joka tuntuu pilkalta: kaupungissa on Assisin veli, niitä paljasjalkaisia jotka tervehtivät toivottamalla rauhaa. Hän sanoo menevänsä yksin, aseettomana, kohtaamaan pedon.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Kaupunki on puristuksessa pelon ja epäuskon välissä. Mitä teet?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Autat Matteoa järjestämään talojen ja laumojen puolustuksen.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Seuraat veljeä muurien ulkopuolelle, pysyen muutaman askeleen jäljessä.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Vakuutat metsästäjät saattamaan veljeä ilman keihäitä.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Koko yön telkeätte ovia, kannatte risukimppuja, järjestätte vahdinvuoroja. Jos peto hyökkää, kaupunkia ei yllätetä. Se on oikeaa työtä, ja ihmiset hengittävät.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "En pidä niistä, jotka puhuvat susille, mutta pidän niistä, jotka tekevät työtä. Sinä olet tehnyt työtä. Huomenna, keihäin tai ilman, Gubbio on valmis.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Aamulla, muureilta, näette veljen lähtevän yksin metsää kohti. Hyvin pitkä hiljaisuus. Sitten hän ilmestyy tielle: ja hänen vierellään, säyseänä kuin karitsa, kävelee susi.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Kävelet kolme askelta veljen jäljessä, viimeisen talon tuolle puolen. Metsä sulkeutuu polun ylle, ja pelko puristaa kurkkuasi: mutta hänen askeleensa ovat hiljaisia, ja ne vetävät sinunkin askeleitasi eteenpäin.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Älä pelkää, veli. Menemme kohtaamaan luotua, jolla on nälkä ja pelko, niin kuin meillä kaikilla. Pysy lähellä, jos tahdot.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Peto tulee metsästä muristen. Veli tekee ristinmerkin ja puhuu sille niin kuin veljelle: hän tarjoaa rauhaa, liiton nimessä. Ja susi, silmiesi edessä, asettuu makaamaan hänen jalkoihinsa.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Puhut kauan Matteon ja hänen miestensä kanssa: ei keihäitä, ei koiria. Seuraatte veljeä etäältä, valmiina kaikkeen mutta päättäneinä olla lyömättä ensin. Heidän vakuuttamisensa maksaa vaivaa: pelko tahtoo aina rautaa.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Teemme niin kuin sanot. Mutta jos peto hyppää, en vastaa mistään. Auttakoon taivas meitä: menemme ajoon ilman aseita.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Puoli kaupunkia seuraa hiljaa, polkua pitkin. Kun susi ilmestyy, sata kättä etsii aseita joita ei ole: mutta yksikään ei nouse. Veli puhuu, peto painautuu maahan, ja rauha alkaa näin: pelosta, jota kukaan ei pura toisen päälle.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "Aukiolla, koko Gubbion edessä, veli sinetöi liiton: kaupunki ruokkii sutta kaikkina sen päivinä, eikä susi enää taita karvaakaan ihmisiltä eikä eläimiltä. Peto nostaa käpälän, ja aukio ratkeaa.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Pelko sulaa juhlaksi. Mitä teet?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Tarjouduit viemään joka päivä leivän suden pesälle.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Jäät Matteon kanssa purkamaan ansoja metsästä.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Istuudut aukiolle ja keräät kaupungin äänet.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "Niinä päivinä jotka jäät Gubbioon, joka aamu leipäsi saapuu pesälle. Lapset seuraavat sinua etäältä: he tahtovat nähdä, onko totta ettei peto pure kättä joka sitä ruokkii.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Puratte raudoja ja silmukoita kokonaisen päivän. Vuosia niiden virittämistä, Matteo sanoo, ja paljasjalkainen veli tekee ne tarpeettomiksi yhdessä aamussa. Hän nauraa, mutta naurussa on kunnioitusta.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "Aukiolla kuulet kaupungin alkavan kertoa itseään uudelleen: vanhus joka vei sille keittoa salaa, leipuri joka on sille sormensa velkaa, lapset jotka jo kutsuvat sitä nimeltä. Pelko oli sammuttanut jopa tarinat.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Kertomus vai historia?",
+          "text": "Gubbion susi kerrotaan Kukkasissa, 1300-luvun lopun kokoelmassa (21. luku): hagiografista kirjallisuutta, ei kronikkaa, eikä yksikään aikakauden asiakirja vahvista sitä. Esitämme sen muistin kertomuksena, emme historiallisena tosiasiana. Dokumentaarinen perusta on sen sijaan rauhan tervehdyksellä, jonka Franciscus sanoo saaneensa ja joka muistetaan Testamentissa, sekä ensimmäisten veljien rauhan julistuksella. Sinun osasi tapahtumassa on fiktiota.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Olet löytänyt: Rauhan tervehdys. Rauha ei ole sodan poissaoloa: se on julistus, joka viedään, rohkeus joka on. Se syntyy menemällä sitä kohti mikä pelottaa, aseita kädessä pitämättä.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbiolla oli kolme tietä: puolustautua, luottaa, sovitella. Minkä sinä valitsit, ja miksi? Elämässäsi, kuka tai mikä on susi, jolta kaikki puolustautuvat telkeämällä ovet?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Jätät Gubbion, kun susi, nyt kylläinen ja vaaraton, nukkuu auringossa leipomon vieressä. Kaupunki on oppinut uuden sanan, ja sinä olet oppinut sen sen kanssa: rauha tehdään, sitä ei odoteta.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Ukkosmyrskyn yö",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Ukkosmyrskyn yllättämänä vaeltaja jakaa luolan veli Tuomaksen kanssa: yö kertomista ja kuuntelemista, ja aamu aurinkoa märillä lehdillä.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Paluumatkalla Tammikylää kohti taivas sulkeutuu nopeasti. Tuuli tuo sateen hajun, ja ensimmäiset jyrinät vyöryvät harjanteiden takaa.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Kun myrsky puhkeaa, ääni kutsuu sinua luolasta polun reunasta. Paljasjalkainen veli viittoo sinua sisään, kahden pisaran ja salaman välissä.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Veli Tuomas on ohikulkumatkalla oleva vähäisempi veli: kuluneet sandaalit, paikattu kaapu, sauva eikä muuta. Hänellä on hiljaisuuden tapa ja harvinainen kuuntelemisen lahja.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Tule sisään, veli, ja kuivaa itsesi. Luola ei ole kenenkään: tänä yönä jaamme sen sateen kanssa. Minulla on vähän leipää ja tuli: kahdelle vaeltajalle se on palatsi.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Tuli syttyy, leipä jakautuu itsestään. Ulkona myrsky pitää joen ääntä; sisällä, ensi kertaa moneen päivään, sinulla ei ole kiire.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Yö on pitkä. Miten täytät sen?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Kysyt veli Tuomakselta hänen elämästään ennen kaapua.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Kerrot itse: kylän, Martinon, Assisin aukion, Gubbion suden.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Jäätte hiljaisuuteen kuuntelemaan sadetta.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Olin paimen näillä vuorilla. Tulva vei laumani ja majani, yönä niin kuin tämä. Itkin kuin lapsi. Sitten huomasin, että kun en enää omistanut mitään, en enää pelännyt mitään: silloin ymmärsin Assisin veljet.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Veli Tuomas kuuntelee keskeyttämättä, silmät tulessa. Lopuksi hän nyökkää: jokainen tie opettaa, hän sanoo, jos kuljet sen silmät auki. Olet antanut tien muuttaa itseäsi, ja se näkyy.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Hiljaisuus ei ole tyhjää: sade rytmittää, tuli vastaa, toisen hengitys pitää tahdin. Ymmärrät, että on keskusteluja, jotka eivät tarvitse sanoja.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Aamunkoittoa kohti myrsky ohenee lempeäksi sateeksi. Veli Tuomas puhuu veljestään Franciscuksesta, joka vielä kivun vuoteelta laatii ylistyksiä: hän kutsuu aurinkoa veljeksi, vettä sisareksi, äidiksi maata joka kantaa meitä kohdussaan.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Hän sanoo, että jokainen luotu ylistää Luojaa tekemällä sitä mitä on: aurinko lämmittämällä, vesi juottamalla, maa ravitsemalla. Ja että rumakin päivä otetaan vastaan, sitä ei ole ansaittu. Jos toistan sen, se on koska tänä yönä, täällä, olen nähnyt sen omin silmin.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Ensimmäiset valot siivilöityvät luolaan.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Kysyt häneltä, miten kiitetään, kun kaikki menee huonosti.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Et kysy mitään: katsot pisaroita lehdillä, ja se riittää.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "En osaa sitä selittää, veli. Tiedän, ettei kiitollisuus ole hyvien päivien palkinto: se on harjoitus, niin kuin käveleminen. Joka tekee sen joka päivä, sillä on pimeinä päivinä harjoitetut jalat.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Jäätte katsomaan, kunnes aurinko puhkaisee pilvet. Märät lehdet syttyvät yksi kerrallaan, ja koko laakso näyttää juuri luodulta.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Tulette ulos luolasta pestyyn maailmaan. Vesi lorisee yhä oksilta, aurinko saa sen välkkymään, ja huomaat hymyileväsi ilman syytä. Veli Tuomas ottaa sauvansa: teidän tienne erkanevat tässä.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Laulu, luola, fiktio",
+          "text": "Luotujen laulu on Franciscuksen aito teos, laadittu vuosina 1225–1226, sairauden aikana: kansankielinen lauda, jossa aurinko, kuu, tuuli, vesi, tuli ja maa ylistävät Jumalaa veljinä ja sisarina. Aitoja ovat myös Korkeimman Jumalan ylistykset, rukous ilman pyyntöjä. Veli Tuomas ja yö luolassa kuuluvat Vaeltajan fiktioon; hänen sanansa parafrasoivat Laulua siteeraamatta sitä.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Olet löytänyt: Veli aurinko, sisar vesi. Maailma ei ole resurssien varasto eikä epäjumala: se on luotujen perhe, joka ylistää Luojaa. Luomakunnan hoito syntyy sukulaisuudesta ja kiitollisuudesta, ei hyödystä.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Olet löytänyt: Ylistys, joka ei pyydä mitään. Kiitollisuus ei palkitse onnea: se on harjoitettu katse, joka tunnistaa lahjan kaikessa, vedessä, auringossa, päivässä, jopa sairaudessa.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Tänä yönä olet jakanut leivän, tulen ja hiljaisuuden tuntemattoman kanssa. Katso tämän päivän päivääsi niin kuin luola katsoi myrskyä: mikä siitä, mitä sinulla on, on saatu eikä ansaittu?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Kävellessäsi kylää kohti ajattelet uudelleen sisar vettä, joka juottaa ja pesee ja laulaa ojissa. Muistin puutarhassa, tästä päivästä, virtaa lähde.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "Tammikylässä sinut otetaan vastaan niin kuin se, joka palaa kaukaa. Vaatteissasi on yhä savun ja sateen haju, ja korvissasi veden ääni. Matka jatkuu.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

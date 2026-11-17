@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Mødet, der forandrer livet",
+      "summary": "Frans' omvendelse begynder, da han overvinder væmmelsen og møder de spedalske: næstekærlighed som et konkret møde med den anden.",
+      "explanation": "I Testamentet fortæller Frans, at det at se de spedalske forekom ham »for bittert«, og at netop mødet med dem var begyndelsen på hans bod. Den franciskanske næstekærlighed er ikke en almen følelse: den er den kropslige gestus hos den, der nærmer sig den udstødte, og opdager, at bitterheden vendes til sødme. Den, der giver, stiller sig ikke over den, der modtager: de mødes.",
+      "historicalContext": "I 1200-tallet var de spedalske udelukket fra bylivet, anbragt i spedalskhedshospitaler uden for murene og betragtet som et symbol på synd. Frans' valg om at leve blandt dem var socialt anstødeligt.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Intet eget, alt modtaget",
+      "summary": "Foran biskoppen giver Frans klæderne tilbage til faderen: afkald på ejendom som et valg af frihed, ikke som foragt for tingene.",
+      "explanation": "Frans' afkald foran biskop Guido er den offentlige gestus, hvormed han skærer båndet til familiens rigdom over. Det er ikke flugt fra tingene, men befrielse fra tanken om at eje dem: den, der intet ejer, skal intet forsvare og kan modtage alt som gave. Traditionens tekniske latin kalder det »sine proprio«: uden ejendom.",
+      "historicalContext": "Som søn af en rig klædehandler var Frans bestemt til den kommunale borgerskabs sociale opstigning. Hans afkald i 1206 greb Assisis fantasi netop, fordi det vendte handelsbyens værdier på hovedet.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Fattigdommen som frihed",
+      "summary": "For Frans er fattigdom ikke romantisk elendighed: det er ikke at tilegne sig noget, for at blive fri til at elske og kun afhænge af Gud.",
+      "explanation": "Reglen fra 1223 beder brødrene om ikke at tilegne sig noget, »hverken hus eller sted eller nogen ting«, og om at gå tiggergang uden skam, idet de husker, at Herren blev fattig. Den franciskanske fattigdom har et teologisk grundlag (den fattige Kristus) og et psykologisk: den, der intet har at forsvare, er fri. Det er ikke en opfordring til at ophøje nøden, som er et socialt sår, men til ikke at lade sig definere af ejendom.",
+      "historicalContext": "Bevægelsen af frivilligt fattige opstod som reaktion på kommunernes og gejstlighedens voksende rigdom; Kirken så med mistro på fattigdomsbevægelserne, og Frans måtte møjsommeligt vinde godkendelse.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Mindrebrødre",
+      "summary": "Frans' fællesskab er ikke en orden af overordnede og undersåtter: det er et broderskab af »mindre«, hvor enhver er ansvarlig for den anden.",
+      "explanation": "Frans ville, at hans skulle kaldes mindrebrødre: ingen er stor, de ansvarlige kaldes »ministre«, det vil sige tjenere. Reglen fra 1221 beder dem om at vise hinanden deres behov, ikke at dømme broderen og ikke at ringeagte den svage. Broderskabet er selve formen for evangeliet levet sammen: man er brødre ikke som ideal, men som daglig praksis.",
+      "historicalContext": "Broderskabet opstår omkring 1208-1210 med de første ledsagere (Bernardo, Egidio …) og vokser hurtigt, indtil det kræver strukturer: kapitler, ministre, en skreven regel.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Fredshilsenen",
+      "summary": "»Herren give dig fred«: Frans gør freden til et budskab, man bærer ud, før den er et fravær af krig.",
+      "explanation": "I Testamentet mindes Frans, at Herren åbenbarede ham en fredshilsen. De første kilder beskriver, hvordan brødrene forkyndte freden fra hus til hus. Den franciskanske fred er aktiv: den bæres ud, den bygges, den mægles — som i fortællingen om ulven fra Gubbio, hvor freden fødes af modet til at gå den frygtede i møde.",
+      "historicalContext": "De italienske kommuners Italien var gennemkrydset af fejder mellem fraktioner, bykrige og konflikter mellem verdslig og gejstlig magt. At forkynde fred var en politisk gestus såvel som en åndelig.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Halvfjerds gange syv, og mere endnu",
+      "summary": "Til en ansvarlig i broderskabet skriver Frans: hvis en broder syndede tusind gange, så elsk ham alligevel mere end mig.",
+      "explanation": "Brevet til en minister er den franciskanske tekst om tilgivelse: den, der leder, må hverken tage anstød eller blive hård over for brødrenes fejl, men forkynde barmhjertighed. Tilgivelsen benægter ikke det onde: den nægter, at det onde skal have det sidste ord om relationen. I Sangen blev strofen om tilgivelse — ifølge traditionen — tilføjet for at forsone biskoppen og podestàen i Assisi, som lå i strid.",
+      "historicalContext": "Det hurtigt voksende broderskab levede med indre spændinger; og byerne var sønderrevet af hævn og fejder, som franciskanerne søgte at bilægge.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "At være mindre, ikke at føle sig bedre",
+      "summary": "Den franciskanske ydmyghed er sandhed om sig selv: ikke at ophøje sig, ikke at foragte sig, at tjene som den sidste.",
+      "explanation": "Formaningerne advarer mod ens egen vilje gjort til mål for alt og mod åndelig selvtilfredshed. Ydmyghed er for Frans at se sig selv i sandheden: små over for Gud, skyldnere for alt, i stand til at tjene uden at kræve anerkendelse. Det er ikke lavt selvværd: det er frihed fra behovet for at fremstå.",
+      "historicalContext": "I et samfund grundlagt på ære og rang var det at kalde sig »mindre« et program mod strømmen; og inde i det voksende broderskab var ydmygheden modgiften mod indre kappestrid.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Broder sol, søster vand",
+      "summary": "Skabningernes sang: verden er hverken et lager af ressourcer eller et afgudsbillede, men en familie af skabninger, der lovpriser Skaberen.",
+      "explanation": "I Sangen lovpriser Frans Gud »for« skabningerne: broder sol, søster måne, søster vand, »nyttig og ydmyg og kostbar og kysk«, søster vor moder jord. Naturen guddommeliggøres ikke: den er søster, fordi den er barn af samme Fader. Omsorgen for skaberværket udspringer her af taknemmelighed og slægtskab, ikke af nytte. Og Sangen fødes i sygdommen: lovprisningen afhænger ikke af omstændighederne.",
+      "historicalContext": "Den er komponeret i 1225-1226, mens Frans var syg og næsten blind, og hører til de første poetiske tekster på italiensk folkesprog. Bonaventura placerer den i prøvelsernes tid.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Den fuldkomne glæde",
+      "summary": "Den franciskanske glæde afhænger ikke af resultater: den bliver også i afvisningen og i møjen, fordi den fødes af kærligheden og ikke af succes.",
+      "explanation": "I Fioretti forklarer Frans broder Leo, at den sande glæde ikke er miraklerne eller omvendelserne, men at vende tilbage afvist og forfrossen og forblive tålmodig og glad. Det er en hagiografisk fortælling, ikke en krønike, men den samler et ægte træk ved den franciskanske ånd: glæden som et indre valg, som ingen begivenhed kan tage fra én.",
+      "historicalContext": "Fioretti (slutningen af 1300-tallet) samler det levende minde om den første franciskanisme; de skal læses som åndelig litteratur, ikke som dokumentarisk historie.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Ørkenen, der bor i verden",
+      "summary": "Frans vekslede mellem sendelse og tilbagetrækning: bønnen som det sted, hvor man vender tilbage til det væsentlige over for Gud.",
+      "explanation": "Det franciskanske liv er ikke kun handling: Frans søgte eremitager og tilflugtssteder (Carceri, La Verna), med få ledsagere og lange tavsheder. I Brevet til broder Leo henviser han til samvittigheden over for Gud: bønnen er ikke teknik, men relation. Lovprisningerne af den højeste Gud viser hans reneste bøn: lovsang uden anmodninger.",
+      "historicalContext": "De franciskanske eremitager opstod i de vilde egne af det umbrisk-toskanske Appennin; La Verna, skænket til Frans i 1213, blev tilflugtsstedet frem for alle.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "At følge i Kristi fodspor",
+      "summary": "Frans' spiritualitet er ikke en naturfilosofi: den er efterfølgelse af den fattige og korsfæstede Kristus, inden for Kirkens tro.",
+      "explanation": "Alt hos Frans udgår fra Kristus: krucifikset i San Damiano, der taler til ham, valget af fattigdom »fordi Herren blev fattig«, lidelsen, der betragtes på La Verna, den enkle tro på kirkerne i Testamentet. At fjerne denne rod gør ikke Frans mere universel: det gør ham ukendelig. Appen fremstiller den, som den er, uden at påtvinge den og uden at slette den.",
+      "historicalContext": "Frans levede troen inden for den middelalderlige Kirke, søgte dens godkendelse af sin livsform og accepterede dens grænser, samtidig med at han drev reformen nedefra.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "En regel, så man ikke farer vild",
+      "summary": "Den franciskanske lydighed er ikke udslettelse: den er en fælles pagt, der beskytter broderskabet mod spredning og vilkårlighed.",
+      "explanation": "Frans bad om Kirkens godkendelse og skrev stadig mere knappe regler (1221, 1223). Lydigheden, i Formaningerne og i Reglerne, er gensidig: man adlyder den fælles regel, og den, der leder, tjener. Testamentet beder om, at man ikke glosserer reglen: at man lever den »enkelt og uden gloser«. Fællesskab og lydighed er den ramme, der gør friheden varig.",
+      "historicalContext": "Mellem 1210 og 1223 gik broderskabet fra en lille gruppe til en anerkendt orden; spændingen mellem karisme og institution går gennem hele den franciskanske historie.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Lovprisningen, der intet beder om",
+      "summary": "Lovprisningerne af Gud og Sangen fødes i sygdommen: den franciskanske taknemmelighed belønner ikke heldet, men genkender gaven i alt.",
+      "explanation": "Lovprisningerne af den højeste Gud, skrevet på La Verna, er en bøn uden en eneste anmodning: kun anerkendelse. Også Sangen, komponeret i lidelsen, er lovsang. Den franciskanske taknemmelighed er et øvet blik: den ser alt — vandet, solen, dagen, selv døden — som modtaget. Den, der takker, ejer ikke: den bor.",
+      "historicalContext": "I 1224-1226 var Frans alvorligt syg, næsten blind og mærket af at være trådt tilbage fra ledelsen af Ordenen: lovprisningen i de år er ikke naivitet, men en tilkæmpet holdning.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Den, der leder, tjener",
+      "summary": "I broderskabet kaldes de ansvarlige »ministre«: tjenesten som den eneste legitime form for autoritet.",
+      "explanation": "Frans vender hierarkiet om: ministeren er den, der tjener, vogteren er den, der vogter brødrene, ikke den, der befaler. Brevet til en minister viser tonen: nærhed til den, der fejler, aldrig foragt. Tjenesten er ikke en strategi for at behage: den er den kristne måde at bebo enhver rolle på, fra broderen til biskoppen, fra forælderen til borgmesteren.",
+      "historicalContext": "Titlerne i det franciskanske hierarki (minister, vogter, guardian) blev valgt netop imod den middelalderlige prestiges logik.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Ingen er fremmed",
+      "summary": "Spedalske, røvere, en sultan, en ulv: den franciskanske tradition driver velkomsten ud over ens egen gruppes grænser.",
+      "explanation": "Frans møder de spedalske, går sultanen al-Malik al-Kamil i møde midt under et korstog, og i den folkelige erindring taler han endog med ulven. Den franciskanske velkomst er ikke passiv tolerance: den er at gå i møde, at udsætte sig, at kalde den »broder«, som ens egen verden kalder fjende. Den begynder hos den besværlige næste og standser ikke ved troens eller sprogets grænser.",
+      "historicalContext": "Mødet med sultanen (1219, Damietta) fandt sted under det femte korstog: en fredsgestus, dokumenteret af kilderne, om end inden for det middelalderlige vidnesbyrds grænser.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "At blive næste med kroppen",
+      "summary": "»Jeg viste dem barmhjertighed«: den franciskanske barmhjertighed er medfølelse, der bliver konkret gestus, ikke medlidenhed på afstand.",
+      "explanation": "I Testamentet bruger Frans et stærkt ord: med de spedalske »gjorde jeg barmhjertighed«. Han siger ikke, at han følte medfølelse: han gjorde den. Barmhjertighed er evnen til at lade sig nå af den andens lidelse, indtil hænderne bevæger sig. Den er roden, hvorfra næstekærlighed, tilgivelse og fred vokser.",
+      "historicalContext": "Den middelalderlige fromhed kendte almissen som en fortjenstfuld praksis; Frans forvandler den til relation: man giver ikke til den fattige, man er hos den fattige.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Hændernes arbejde",
+      "summary": "Frans stiller ikke bøn og arbejde op mod hinanden: det ærlige arbejde holder lediggangen borte og må ikke slukke bønnen.",
+      "explanation": "I Testamentet siger Frans, at han har arbejdet med sine hænder, og at han vil, at brødrene arbejder, ikke af begær efter betalingen, men for eksemplets skyld og mod lediggangen. Hvis betalingen udebliver, vender man tilbage til almissen. Den stadfæstede regel tilføjer grænsen: arbejdet er nåde, og de timelige ting skal tjene bønnens ånd, ikke erstatte den. I den ikke-stadfæstede regel er arbejdet også en måde at opholde sig i andres hus som mindre, uden at påtage sig embeder, der giver magt.",
+      "historicalContext": "Mange af de første brødre kom fra håndværk. Spørgsmålet om arbejde og penge er allerede skarpt før 1223: reglen fra 1221 er mere udførlig og strengere om penge; den stadfæstede er kortere og betroer ministrene omsorgen for de syge gennem åndelige venner.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Legemet, ikke en idé",
+      "summary": "For Frans ser man i denne verden Guds Søn i det legeme og blod, som præsterne modtager og giver.",
+      "explanation": "Testamentet knytter ærbødigheden for præsterne til dette: Frans siger, at han legemligt ikke ser andet af Guds Søn end hans legeme og hans blod. Brevet til hele Ordenen driver den samme tro helt ind i brødets skikkelse og beder præsterne fejre uden at søge at behage mennesker. Det er ikke et sideemne. Det er det centrum, hvorfra Frans læser Kirken, de skrevne ord og sin egen lidenhed. Appen siger det, som det er: middelalderlig eukaristisk tro, ikke en generel metafor for gaven.",
+      "historicalContext": "Frans' eukaristiske fromhed står inden for reformen fra Laterankoncilet IV (1215), som påbyder årlig skrifte og præciserer sakramentets lære. Brevene til klerikerne og til vogterne, som ikke gengives her i deres helhed, insisterer på det samme punkt.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Evangeliets form",
+      "summary": "Frans opfinder ikke en spiritualitet ved siden af evangeliet: han siger, at den Højeste åbenbarede ham at leve efter den form, og han lod den skrive ned.",
+      "explanation": "Testamentet er utvetydigt: ingen viste ham, hvad han skulle gøre; den Højeste åbenbarede ham at leve efter det hellige evangeliums form; han lod den skrive med få ord, og paven bekræftede den. De to Regler åbner på det samme punkt. At iagttage evangeliet er i disse tekster ikke en følelse: det er lydighed, intet eget og kyskhed, inden for et godkendt broderskab. Fortællingen om afkaldet foran biskoppen hos Celano er en anden scene af det samme valg. Her kommer Frans' tekst før fortællingen om Frans.",
+      "historicalContext": "Den mundtlige godkendelse fra Innocens III dateres af traditionen til 1209 eller 1210; den ikke-stadfæstede regel er fra 1221; den stadfæstede bekræftes af Honorius III den 29. november 1223. Testamentet, i 1226, læser hele forløbet som én og samme åbenbaring.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Der Friedensgruß",
+      "text": "Im Testament bezeugt Franz, dass der Herr ihm einen Friedensgruß offenbarte, den er den anderen bringen sollte, und die mittelalterlichen Quellen erinnern die ersten Brüder, die den Frieden von Haus zu Haus verkündeten. Für Franz ist Frieden nicht die Abwesenheit von Konflikt: Er ist eine Gabe, die man übergibt, Tür um Tür, Mensch um Mensch. Die Erzählung vom Wolf von Gubbio treibt diese Logik bis zum Äußersten: Frieden schließt man sogar mit dem, was Angst macht, indem man ihm entgegengeht. Aus derselben Überlieferung stammt die volkstümliche Formel „Friede und Heil“.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Armut als Freiheit",
+      "text": "Die Regel von 1223 verlangt von den Brüdern, sich nichts anzueignen — weder Haus noch Ort noch irgendein Ding — und als Pilger und Fremde in der Welt zu leben. Franziskanische Armut verklärt die Not nicht, die eine soziale Wunde bleibt: Sie ist die Entscheidung, sich nicht vom Besitz bestimmen zu lassen. Wer nichts zu verteidigen hat, hat nichts zu fürchten und kann alles als Gabe empfangen. Das Fundament ist theologisch, bevor es wirtschaftlich ist: Der Herr selbst ist arm geworden.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Minderbrüder",
+      "text": "Franz wollte, dass die Seinen Minderbrüder heißen: Niemand ist groß, und die Verantwortlichen heißen „Minister“, das heißt Diener. Die Regel von 1221 verlangt, dass jeder dem anderen seine Not mitteilt, dass niemand den Bruder richtet, dass der Gesunde die Schwäche des Kranken nicht verachtet. Brüderlichkeit ist kein Ideal, das man verkündet: Sie ist eine tägliche Übung gegenseitiger Verantwortung. Man ist Bruder in den konkreten Gebärden, oder man ist es gar nicht.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Bruder Sonne, Schwester Wasser",
+      "text": "Im Sonnengesang lobt Franz Gott „per“ und „mit“ den Geschöpfen — für sie und mit ihnen: Bruder Sonne, Schwester Mond, Bruder Wind, Schwester Wasser, „nützlich und demütig und kostbar und keusch“, unsere Schwester, Mutter Erde. Die Natur wird weder vergöttlicht noch zu einem Lager von Ressourcen verkürzt: Sie ist eine Familie, weil alle Geschöpfe denselben Vater haben. Die Sorge für die Schöpfung entspringt der Verwandtschaft und der Dankbarkeit, nicht der Rechnung. Und der Sonnengesang entstand in der Krankheit: Das Lob hängt nicht von den Umständen ab.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Die vollkommene Freude",
+      "text": "In den Fioretti erklärt Franz dem Bruder Leo, dass die wahre Freude nicht die Wunder sind, nicht die Erfolge und nicht die Bekehrungen von Ungläubigen: Es ist, zurückgewiesen, durchfroren und misshandelt an die Tür zurückzukehren und geduldig und froh zu bleiben. Es ist eine hagiografische Erzählung, keine Chronik, aber sie verdichtet einen echten Zug des franziskanischen Geistes. Die vollkommene Freude hängt nicht von den Ereignissen ab: Sie ist eine innere Wahl, die keine Zurückweisung nehmen kann.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Siebzigmal sieben, und darüber hinaus",
+      "text": "Im Brief an einen Minister schreibt Franz, wenn ein Bruder tausendmal gesündigt hätte, müsse man ihn dennoch lieben und ihm Barmherzigkeit verkünden, sofern er bereut. Franziskanische Vergebung leugnet das Böse nicht: Sie verweigert dem Bösen das letzte Wort über die Beziehung. Im Sonnengesang wurde die Strophe über jene, die um Gottes Liebe willen vergeben — der Überlieferung nach — hinzugefügt, um den Bischof und den Podestà von Assisi zu versöhnen, die im Streit lagen. Vergebung ist zugleich Sorge für die Person und Heilmittel der Stadt.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Weihnachten in Greccio",
+      "text": "Zu Weihnachten 1223 wollte Franz in Greccio die Geburt Jesu mit einer wirklichen Krippe feiern, mit Heu, Ochse und Esel: damit die Augen des Leibes die Armut von Bethlehem sähen. Thomas von Celano stellt es als lebendiges Gedächtnis des Geheimnisses dar, nicht als Schauspiel. Aus jener Nacht entsteht die Tradition der Weihnachtskrippe. Die Gebärde ist typisch franziskanisch: Den Glauben berührt man, man sieht ihn, man bewohnt ihn.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Die Begegnung mit dem Sultan",
+      "text": "1219, während des Fünften Kreuzzugs, überschritt Franz bei Damiette die Linien des Kreuzfahrerheeres, um dem Sultan al-Malik al-Kamil zu begegnen. Die mittelalterlichen Quellen erinnern ein respektvolles Gespräch zwischen den beiden, bei unaufhebbarer Verschiedenheit des Glaubens. In Kriegszeit wählte Franz den Weg der unbewaffneten Begegnung statt den der Predigt gegen den anderen. Die Episode bleibt ein Prüfstein für jeden Dialog, der die Grenzen der eigenen Welt überschreitet.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Der Wolf von Gubbio",
+      "text": "Die Fioretti erzählen, in Gubbio habe ein Wolf die Stadt in Schrecken versetzt, und Franz sei der verängstigten Menge entgegengegangen, auf die Bestie zu, und habe mit ihr gesprochen wie mit einem Bruder. Daraus entstand ein Friedenspakt: Die Stadt würde den Wolf nähren, und der Wolf niemandem mehr schaden. Es ist eine Erzählung der hagiografischen Überlieferung des 14. Jahrhunderts, kostbar für die Vorstellungskraft mehr als für die Chronik. Ihre Lehre ist klar: Frieden baut man, indem man dem entgegengeht, was erschreckt, und indem man die ganze Gemeinschaft in den Pakt einbezieht.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Der Verzicht vor dem Bischof",
+      "text": "Anfang 1206 gab Franz vor Bischof Guido und seinem Vater Pietro di Bernardone die Kleider zurück und verzichtete auf die väterlichen Güter. Thomas von Celano erzählt, der Bischof habe ihn mit dem eigenen Mantel bedeckt: Die Kirche nahm auf, wen die Kaufmannsfamilie nicht mehr verstand. Es war keine Flucht vor den Dingen, sondern die öffentliche Befreiung von der Vorstellung, sie zu besitzen. Von jenem Tag an konnte Franz nur vom Vater abhängen, der im Himmel ist — und von der Freigebigkeit der anderen.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Klara von Assisi",
+      "text": "Junge Adelige aus Assisi, verließ Klara in der Nacht des Palmsonntags 1212 das väterliche Haus, um der evangelischen Lebensform des Franz zu folgen, der ihr in der Portiunkula die Haare schnitt. Sie gründete die Gemeinschaft der Armen Schwestern von San Damiano und verteidigte ihr Leben lang das „Privileg der Armut“ gegen den kirchlichen Druck. Sie war die erste Frau, die eine Ordensregel für Frauen schrieb, zwei Tage vor ihrem Tod 1253 bestätigt. Ihre Sanftmut war aus demselben Stoff wie ihre Beharrlichkeit.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernhard von Quintavalle",
+      "text": "Reicher und geachteter Bürger von Assisi, war Bernhard der erste Gefährte des Franz: Er wollte mit eigenen Augen sehen, wie jener junge Mann lebte, den alle verspotteten, und eine Nacht des Gebets genügte ihm. Er verkaufte seine Güter, verteilte sie an die Armen und wählte das wandernde Leben. Die Quellen erinnern ihn als erste Frucht der Bruderschaft und, am Ende des Lebens, als geliebten Zeugen des Geistes der Anfänge. Er war es, der die Kette begann: Ohne den ersten Bruder gibt es keine Bruderschaft.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Bruder Leo",
+      "text": "Gefährte und Beichtvater des Franz in den letzten Jahren, war Bruder Leo Zeuge der Zeit auf La Verna und Hüter des einzigen Autographs des Heiligen: eines Briefes und eines Segens, die er sein Leben lang bewahrte. Im Brief antwortet Franz auf seine Angst, richtig zu wählen, mit Worten der Freiheit: Folge deinem Gewissen vor Gott. In den Fioretti ist er der Gesprächspartner des Dialogs über die vollkommene Freude. Leo steht für den zerbrechlichen und aufrichtigen Jünger, der dem Sinn des Franz näher ist, als sein Ruf der Einfalt vermuten lässt.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Der Sultan al-Malik al-Kamil",
+      "text": "Sultan von Ägypten aus der Dynastie der Ayyubiden, Enkel Saladins, empfing al-Malik al-Kamil Franz 1219 in Damiette, mitten im Fünften Kreuzzug. Die mittelalterlichen Quellen, christliche und nicht nur diese, beschreiben ihn als einen Herrscher, der zuhören und mit der lateinischen Welt sprechen konnte, mit der er lange die Frage Jerusalems verhandelte. Die Begegnung mit Franz bekehrte keinen von beiden: Sie zeigte, dass man als Glaubende sprechen kann, ohne Waffen in der Hand. Er bleibt eine Schlüsselfigur, um zu verstehen, dass franziskanische Aufnahme die Grenzen des Glaubens überschreitet.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Die mittelalterliche Kommune",
+      "text": "Das Assisi des Franz ist eine aufsteigende Kommune: Konsuln und Podestà, Türme und Fehden, Kaufleute, die reich werden, und Zünfte, die die Arbeit ordnen. Es ist eine Welt, die auf Ehre, Rang und Kredit gründet, in der der Reichtum sichtbar ist und die Armut Schande. Die Familie Pietro di Bernardones gehört zu diesem aufsteigenden Bürgertum. Gerade gegen diese Werte — nicht gegen den Reichtum an sich, sondern gegen die Macht, die er über das Herz ausübt — nimmt die franziskanische Entscheidung Gestalt an.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Das Leprosorium",
+      "text": "Im 13. Jahrhundert lebten die Aussätzigen außerhalb der Mauern, in Lazaretten wie denen bei Assisi, ausgeschlossen vom städtischen Leben und gezeichnet von einem vermeintlichen Mal der Sünde. Franz bekennt im Testament, ihr Anblick habe ihm zu bitter geschienen; und dass er gerade unter ihnen, wohin der Herr ihn führte, Barmherzigkeit tat und Süße fand. Celano beschreibt den konkreten Dienst: die Wunden waschen, umarmen, versorgen. Das Leprosorium ist der Ort, an dem die franziskanische Nächstenliebe entsteht: kein Gefühl, sondern eine Begegnung von Leibern.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Das Almosen",
+      "text": "Die mittelalterliche Frömmigkeit kannte das Almosen als verdienstliche Übung: Man gab für die eigene Seele, oft auf Abstand. Die Regel von 1223 verlangt dagegen von den Brüdern, ohne Scham um Almosen zu gehen, eingedenk dessen, dass der Herr arm geworden ist: Bitten wird Teil des Lebens, nicht eine Erniedrigung, die man meidet. Und Geben verwandelt sich in Beziehung: Man lässt dem Armen nicht etwas da, man ist beim Armen. Wer gibt und wer empfängt, tauschen vor Gott die Rolle der Bittenden.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Die Einsiedelei",
+      "text": "Das franziskanische Leben ist nicht nur Straße und Predigt: Franz suchte einsame Rückzugsorte — die Carceri über Assisi, La Verna auf dem Apennin — mit wenigen Gefährten und langem Schweigen. Auf La Verna, im September 1224, setzen die Quellen die Stigmata und die Abfassung der Lobpreisungen Gottes an: Das reinste Gebet des Franz ist Lob ohne Bitten. Die Einsiedelei ist keine Flucht vor der Welt: Sie ist der Ort, an dem man zum Wesentlichen zurückkehrt, um dann wieder unter die Leute hinabzusteigen. Sendung und Rückzug halten einander wie die beiden Füße des Weges.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Was besitzt dich?",
+      "text": "Mach im Geist das Inventar der Dinge, an denen dir am meisten liegt. Dann frag dich, eines nach dem anderen: Besitze ich es, oder besitzt es mich? Wie viel von deiner Zeit, deiner Aufmerksamkeit, deiner Angst dient dazu, zu verteidigen, was du hast? Es gibt keine richtige Antwort: Es gibt nur die Wahrheit über dich.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Wer ist dein Wolf?",
+      "text": "In deinem Viertel, in deiner Arbeit, in deiner Familie: Wer ist die Person oder die Lage, vor der alle fliehen? Was geschähe, wenn jemand, statt Mauern zu errichten, entgegenginge und fragte: Woran hungert dich? Wer könnte in deiner Stadt die Gemeinschaft sein, die für den Pakt bürgt?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Wovon hängt deine Freude ab?",
+      "text": "Denk an das letzte Mal, als du wirklich froh warst: Hing es von einem erreichten Ergebnis ab, von einer Anerkennung, von einem Kauf? Denk nun an eine Freude, die kein äußeres Ereignis dir nehmen kann. Wenn dir nichts einfällt, ist das keine Schuld: Es ist eine Spur zur Suche. Was müsste sich in dir ändern, damit die Freude nicht von den Ereignissen gemietet ist?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Der Weg des Friedens",
+      "text": "Ein Weg in zwei Situationen: ein Grenzstreit in einem mittelalterlichen Dorf und ein erlittenes Unrecht in einem Büro von heute. Franziskanischer Frieden ist nicht die Abwesenheit von Konflikt: Er ist ein Gruß, den man trägt, eine Vermittlung, die man anbietet, eine Freude, die man nicht als Geisel der Ereignisse zurücklässt. Er öffnet sich, wenn die Lehre vom Friedensgruß entdeckt wird.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Der Weg der Brüderlichkeit",
+      "text": "Ein Weg im gemeinsamen Leben: Was tun, wenn ein Bruder schwer fehlt und die Gemeinschaft sich zwischen Strenge und Aufnahme teilt? Franziskanische Brüderlichkeit misst sich gerade dort, nicht an den guten Absichten. Er öffnet sich, wenn die Lehre von den Minderbrüdern entdeckt wird, und er durchquert die Vergebung ohne Grenze und die Regel, die schützt.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Der Weg des Friedens",
+      "theme": "pace",
+      "description": "Vom Gruß, der von Haus zu Haus getragen wird, bis zur Freude, die nicht von den Ereignissen abhängt: zwei Situationen, um den Frieden als Übung zu lernen, im mittelalterlichen Dorf und im Büro von heute.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Der Weg der Einfachheit",
+      "theme": "poverta",
+      "description": "Was tun mit den Gütern, die uns durch die Hände gehen: eine heikle Verwahrung im 13. Jahrhundert und ein undurchsichtiges Vorhaben heute. Franziskanische Armut als Freiheit vom Besitz und als Verantwortung dessen, der dient.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Der Weg der Brüderlichkeit",
+      "theme": "fraternita",
+      "description": "Wenn ein Bruder schwer fehlt, zeigt die Bruderschaft, was sie wirklich ist: Gericht oder Haus. Eine Situation, um Vergebung, Regel und gegenseitige Verantwortung zu durchqueren.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Die Grenzmauer",
+      "situation": "Ein Dorf bei Assisi, Anfang des 13. Jahrhunderts. Berta, die die Färberwerkstatt führt, und Lupo, der Weber nebenan, streiten seit Wochen um eine Armlänge Boden zwischen ihren Häusern: Dort läuft die Dachrinne, und jeder schwört, die Mauer stehe auf seiner Seite. Die Familien haben aufgehört, sich zu grüßen; die Lehrlinge werfen sich auf der Straße Beleidigungen zu. Du kennst beide, und beide vertrauen dir. Heute Abend fragen sie dich: Auf wessen Seite stehst du?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Auf keiner Seite stehen: anbieten, ihnen nacheinander zuzuhören, dann gemeinsam, und ihnen helfen, eine einfache Vereinbarung über die Mauer und die Dachrinne zu finden.",
+          "consequence": "Die ersten Wochen sind mühsam: Jeder versucht, dich auf seine Seite zu ziehen. Dann entdecken sie, weil man ihnen zuhört, dass der eigentliche Knoten nicht die Armlänge Erde ist, sondern ein altes, nie vergebenes Unrecht. Die Vereinbarung über die Mauer kommt fast rasch, und am Fest des heiligen Georg leihen sich die beiden Werkstätten wieder etwas.",
+          "perspectives": [
+            {
+              "label": "Der franziskanische Weg",
+              "text": "Im Testament bezeugt Franz, dass der Herr ihm einen Friedensgruß offenbarte, den er den anderen bringen sollte, und die Quellen erinnern, wie die Brüder den Frieden von Haus zu Haus verkündeten. Selbst zu vermitteln, demütig, ist genau diese Gebärde: Den Frieden wünscht man nicht, man übergibt ihn.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Die Lehre von Gubbio",
+              "text": "In der Erzählung vom Wolf entsteht der Frieden, wenn jemand dem entgegengeht, was erschreckt, und die ganze Gemeinschaft für den Pakt bürgt: Die Stadt nährt den Wolf, der Wolf schadet nicht mehr. Hier bürgen die beiden Familien und die benachbarten Werkstätten für die Vereinbarung, damit sie über deine Gegenwart hinaus hält.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Wer sich dazwischenstellt, riskiert, zur Zielscheibe beider zu werden, wenn die Vereinbarung scheitert. Die Vermittlung funktioniert, weil du außerhalb des Streits stehst und nichts dabei gewinnst: Deine Glaubwürdigkeit ist dein einziges Kapital, und man gibt es sparsam aus.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Beiden raten, die Sache vor die Konsuln der Kommune oder vor die Zunft der Kaufleute zu bringen: Die Grenze wird gemessen, die Urkunden werden gelesen, das Recht entscheidet.",
+          "consequence": "Der Streit verlässt die Straße und tritt in die Formen ein. Der Sachverständige der Kommune misst, die Schriften der Väter werden gelesen, und nach einigen Monaten weist ein Urteil die Mauer Lupo zu und die Dachrinne Berta. Das alte Unrecht bleibt jedoch ungelöst: Die Familien grüßen sich kaum, und niemand ist wirklich im Frieden.",
+          "perspectives": [
+            {
+              "label": "Das Recht der Zeit",
+              "text": "Die Kommune gibt es gerade, um die Fehde durch das Verfahren zu ersetzen: Ein Urteil eines Dritten schließt den Streit ohne Blutvergießen und ohne Demütigungen. Es ist ein wirklicher ziviler Fortschritt, und im 13. Jahrhundert hat es Mühe gekostet, ihn zu erringen.",
+              "isEditorial": true
+            },
+            {
+              "label": "Der franziskanische Weg",
+              "text": "Die franziskanische Überlieferung verachtet die Obrigkeiten nicht, aber sie erinnert daran, dass die Gerechtigkeit die Mauer entscheidet, nicht das Herz: Der Friedensgruß, von Haus zu Haus getragen, zielt darauf, die Menschen wieder in Beziehung zu setzen, nicht nur die Unrechte zu verteilen. Ein gerechtes Urteil kann den Streit unter der Asche lebendig lassen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Sich an die Konsuln zu wenden, schützt dich: Nicht du entscheidest, und niemand wird dir Begünstigung vorwerfen können. Der Preis ist die Langsamkeit und die Kosten, und das Risiko, dass der Verlierer den Groll eher gegen die Kommune hegt als gegen den Nachbarn.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Nicht eingreifen: die Zeit den Streit klären lassen und dich darauf beschränken, ihn nicht mit Urteilen und Gerede zu nähren.",
+          "consequence": "Monatelang bleibt die Spannung unter der Oberfläche: Niemand spricht mehr von der Mauer, aber die Lehrlinge sticheln weiter, und die Instandhaltung der Dachrinne steht still. Als der Winter kommt, überschwemmt der Regen beide Keller: Angesichts des gemeinsamen Schadens reden die beiden Nachbarn aus Notwendigkeit wieder miteinander, und der Streit löst sich von selbst, mit etwas mehr Rost.",
+          "perspectives": [
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Nicht jeder Konflikt verlangt einen Friedensstifter: Manchmal verhärtet ein zu frühes Eingreifen die Positionen. Die Zeit und die gemeinsame Notwendigkeit — ein überfluteter Keller — können besser vermitteln als jede Rede.",
+              "isEditorial": true
+            },
+            {
+              "label": "Der franziskanische Weg",
+              "text": "Franziskanischer Frieden ist tätig: Man trägt ihn, man verkündet ihn, man baut ihn, indem man entgegengeht, wie in der Erzählung vom Wolf. Klären lassen ist keine Sünde, aber es ist nicht der Friedensgruß: Es ist der Verzicht, Werkzeug zu sein, der manchmal Demut ist und manchmal Bequemlichkeit.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Das Recht der Zeit",
+              "text": "Im mittelalterlichen Recht hat das Nichteingreifen einen Preis: Der nicht verjährte Streit kehrt zurück, und der gemeinsame Schaden der vernachlässigten Dachrinne lastet auf allen. Warten ist nicht neutral: Es ist eine Entscheidung, die die Rechnung nach vorn schiebt.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Franziskanischer Frieden beginnt mit einem Gruß und endet in einem Pakt, den die Gemeinschaft hütet. Aber er verlangt jemanden, der bereit ist, in der Mitte zu stehen, ohne etwas dabei zu gewinnen. Wer tut diese Arbeit heute in deinem Viertel? Und könntest du sie tun?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Das entzogene Verdienst",
+      "situation": "Heute, in einer Besprechung vor dem ganzen Team, hat ein Kollege eine Arbeit als seine eigene vorgestellt, die zum großen Teil deine ist. Niemand hat etwas gesagt; der Vorgesetzte hat ihm gedankt. Seit Stunden brennt dir die Brust. Morgen werdet ihr euch im Gang wieder in die Augen sehen.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Gleiches mit Gleichem vergelten: bei der nächsten öffentlichen Gelegenheit die Tatsachen vor allen wiederherstellen, genau und vor derselben Zuhörerschaft, die das Unrecht gesehen hat.",
+          "consequence": "Die Korrektur kommt pünktlich, und die Tatsachen kehren an ihren Platz zurück: Der Vorgesetzte versteht, einige Kollegen danken dir halblaut. Der öffentlich gedemütigte Kollege wird ein stiller und dauerhafter Gegner; das Klima im Team verhärtet sich, und jedes deiner Worte wird nun aufs Gramm gewogen.",
+          "perspectives": [
+            {
+              "label": "Das Recht der Zeit",
+              "text": "Die eigene Arbeit zu beanspruchen, ist legitim: Die Wahrheit über Verdienste ist kein Gerede, und das Unrecht durchgehen zu lassen, kann zum Präzedenzfall werden. Aber die Form zählt: Die öffentliche Wiedergutmachung schafft einen Sieger und einen Besiegten, und auf Dauer vergisst der Besiegte nicht.",
+              "isEditorial": true
+            },
+            {
+              "label": "Der franziskanische Weg",
+              "text": "Die Erzählung von der vollkommenen Freude lehrt, dass die Freude nicht von der Anerkennung abhängen darf: Wenn dein Frieden erst zurückkehrt, wenn das Unrecht öffentlich behoben ist, hast du ihn dem Urteil der anderen vermietet. Die Tatsachen wiederherzustellen, ist erlaubt; sie zu brauchen, um wohl zu sein, ist die eigentliche Wunde.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Im Arbeitsleben baut man den Ruf tropfenweise und verliert ihn eimerweise: Eine gut bemessene öffentliche Korrektur schützt, eine öffentliche Demütigung brandmarkt dich als nachtragenden Menschen. Wenn du diesen Weg wählst, miss die Worte am Inhalt, nie an der Person.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Es laufen lassen: nichts sagen, keinen Groll hegen, weitergehen. Die Arbeit spricht für sich, und du willst dem Unrecht nicht die Macht geben, dir die Tage zu verderben.",
+          "consequence": "Das Schweigen kostet dich einige Wochen des Unmuts, dann löst sich der Knoten: Das nächste Vorhaben ist klar deines, und wer zusieht, hat ein langes Gedächtnis. Der Kollege, dem niemand widerspricht, wiederholt das Verhalten jedoch an einem anderen Mitglied des Teams: Dein innerer Frieden ist gerettet, aber das Problem bleibt in der Gruppe.",
+          "perspectives": [
+            {
+              "label": "Der franziskanische Weg",
+              "text": "In den Fioretti ist die vollkommene Freude genau dies: das Unrecht erleiden, ohne ihm das Kommando über das eigene Herz zu lassen, und geduldig und froh bleiben. Das ist weder Naivität noch Schwäche: Es ist die Entdeckung, dass die auf der Liebe gegründete Freude nicht jede Auseinandersetzung gewinnen muss.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Das Recht der Zeit",
+              "text": "Der innere Frieden ist ein Gut, aber nicht das einzige: Ein unkorrektes Verhalten, dem man nicht entgegentritt, wird zur Gewohnheit, und das nächste Opfer hat vielleicht nicht deine Kraft. Gerechtigkeit bei der Arbeit schützt auch die anderen, nicht nur dein Verdienst.",
+              "isEditorial": true
+            },
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Nicht zu reagieren ist eine Strategie mit einer Bedingung: Sie muss gewählt sein, nicht erlitten. Wenn es laufen lassen heißt, monatelang zu brüten, hast du nicht die Freude geübt, sondern den Groll auf Raten. Das Herz ist ehrlich zu prüfen.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Ein aufrichtiges Gespräch suchen: den Kollegen um ein Gespräch unter vier Augen bitten, die Tatsachen ohne Anklage darlegen und hören, was er zu sagen hat.",
+          "consequence": "Das Gespräch ist unbequem, aber wahr: Der Kollege gibt halb zu, rechtfertigt sich, dann — überrascht, nicht öffentlich zerrissen worden zu sein — korrigiert er sich in der nächsten Besprechung von selbst und nennt deinen Beitrag. Ihr werdet keine Freunde, aber zwischen euch entsteht eine Form wachsamen Respekts; und die Sache kommt nie auf den Platz des Teams.",
+          "perspectives": [
+            {
+              "label": "Der franziskanische Weg",
+              "text": "Unter vier Augen zu gehen, ähnelt dem Friedensgruß, der von Haus zu Haus getragen wird: sich in erster Person aussetzen, ohne Publikum, und dem anderen die Tür offen lassen. Und es ähnelt der vollkommenen Freude, weil es deinen Frieden nicht vom Ausgang abhängig macht: Du sprichst um der Wahrheit willen, nicht um zu gewinnen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Das Recht der Zeit",
+              "text": "Das private Gespräch schützt die Tatsachen, ohne die Person zu demütigen: Es ist die Form der Wiedergutmachung, die die Arbeitsbeziehungen unversehrt lässt. Seine Grenze ist, dass es vom guten Glauben des anderen abhängt: Wenn der Kollege leugnet und dabei bleibt, braucht es danach den förmlichen Weg.",
+              "isEditorial": true
+            },
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Bevor du sprichst, frag dich, was du wirklich willst: die Tatsachen wiederherstellen oder das Unrecht bezahlen lassen? Das Gespräch funktioniert nur, wenn du bereit bist zuzuhören; wenn du eintrittst, um zu gewinnen, spürt es der andere und verschließt sich.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Die vollkommene Freude verbietet nicht, die Tatsachen wiederherzustellen: Sie verbietet, dem Unrecht die Schlüssel deines Herzens zu geben. Frag dich in deiner Woche: Wie oft ist dein Frieden vom Verhalten der anderen gemietet?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Die Verwahrung des Kaufmanns",
+      "situation": "Assisi, 1210. Guido, ein Tuchhändler, der zu den Messen der Champagne aufbricht und vor zwei Jahren nicht zurückkehrt, schlägt dir vor, einen Teil seiner Güter zu verwahren: Ballen Stoff und einen Beutel Geld. Du darfst sie inzwischen gebrauchen — der Stoff würde deiner kleinen Werkstatt den Sprung ermöglichen — und bei der Rückkehr erstattest du ihm den vereinbarten Wert, mit einem Teil des Gewinns. Es ist eine redliche Gelegenheit. Es ist auch ein Band, das zwei Jahre dauert.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Voll annehmen: Stoff und Geld gebrauchen, um die Werkstatt wachsen zu lassen, und darauf zählen, den Wert mit den vereinbarten Zinsen bei Guidos Rückkehr zurückzugeben.",
+          "consequence": "Die Werkstatt wächst wirklich: zwei Lehrlinge, ein neuer Webstuhl, dein Name beginnt zu kursieren. Aber jede Entscheidung geht nun durch die Rechnung, die du ablegen musst: Du schläfst vor den Messen nicht mehr, du fürchtest Diebstähle und magere Jahre. Als Guido zurückkehrt, früher als gedacht und mit eigenen Verlusten, die er decken muss, kostet es dich fast den ganzen Gewinn, den Pakt zu halten — und du merkst, dass du zwei Jahre damit verbracht hast, Geld zu hüten, mehr als zu leben.",
+          "perspectives": [
+            {
+              "label": "Der franziskanische Weg",
+              "text": "Die Regel von 1223 verlangt, sich nichts anzueignen, weder Haus noch Ort noch irgendein Ding: nicht weil die Dinge schlecht wären, sondern weil das, was du zurückgeben und verteidigen musst, beginnt, dich zu besitzen. Der verlorene Schlaf vor den Messen ist das genaue Zeichen des Herrenwechsels.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Die Logik des Kaufmanns",
+              "text": "In der Welt der Kommune ist das die Praxis: Der Kredit lässt die Wirtschaft laufen, und jede Hinterlegung abzulehnen heißt, für immer klein zu bleiben. Das Risiko wird gemessen und bepreist; den Pakt zu halten, ist das, was den Ruf baut.",
+              "isEditorial": true
+            },
+            {
+              "label": "Der Blick des Verzichts",
+              "text": "Celano erzählt, wie Franz dem Vater sogar die Kleider zurückgibt: nicht aus Verachtung der Dinge, sondern um von nichts abzuhängen, was nicht der Vater ist. Die Frage ist nicht, ob der Pakt redlich ist — er ist es —, sondern wie viel Freiheit deines Herzens du bereit bist, für zwei Jahre zu verpfänden.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Nur die Verwahrung annehmen, nicht den Gebrauch: Stoff und Geld versiegeln, sie sicher halten, ohne sie Frucht bringen zu lassen, und sie bei der Rückkehr unversehrt zurückgeben.",
+          "consequence": "Zwei Jahre lang bleibt deine Werkstatt die von immer, aber du gehst leicht: keine Rechnung abzulegen, keinen Gewinn zu verteidigen. Guido findet bei der Rückkehr alles unversehrt und schätzt dich als Mann des Wortes; er schlägt dir weitere Verwahrungen vor, die du eine nach der anderen prüfen wirst. Jemand im Dorf nennt dich töricht: Jener Stoff hätte für dich arbeiten können.",
+          "perspectives": [
+            {
+              "label": "Der franziskanische Weg",
+              "text": "Verwahren, ohne sich anzueignen, ist fast eine geistliche Übung: etwas in den Händen haben, ohne es im Herzen zu haben. Es erinnert an die Logik der Regel — Pilger und Fremde in der Welt, Diener der Dinge und nicht Herren —, angewandt auf ein fremdes Gut.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Die Logik des Kaufmanns",
+              "text": "Wirtschaftlich gesehen ist es eine vertane Gelegenheit: Stillliegendes Kapital erzeugt nichts, und der unentgeltliche Verwahrer schenkt einen Dienst, den man anderswo bezahlt. Guidos Achtung gilt etwas, aber sie bezahlt den neuen Webstuhl nicht.",
+              "isEditorial": true
+            },
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Die reine Verwahrung hat ihre Risiken — Diebstahl, Brand, Vorwürfe der Veruntreuung —, aber sie lässt dich frei von jedem Streit um den Gewinn. Schreib trotzdem eine Urkunde vor Zeugen: Das Vertrauen ehrt man besser mit ordnungsgemäßen Papieren.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Mit Respekt ablehnen: Guido für das Vertrauen danken, aber keine Bande des Besitzes wollen und keine Rechnungen, die man zwei Jahre lang ablegen muss.",
+          "consequence": "Guido bleibt überrascht, dann nickt er: Er wird die Stoffe einem anderen anvertrauen. Deine Werkstatt bleibt klein, und mancher Winter ist eng, aber dein Wort im Dorf bekommt einen besonderen Klang: den dessen, der sich nicht verkauft und sich nicht bindet. Jahre später, wenn du dich entscheidest, den Brüdern zu folgen, die durch Assisi ziehen, findet niemand deine Lösung seltsam: Sie hatte mit jenem Nein begonnen.",
+          "perspectives": [
+            {
+              "label": "Der Blick des Verzichts",
+              "text": "Der Verzicht des Franz vor dem Bischof zeigt, dass Nein zum Reichtum zu sagen eine Gebärde der Freiheit ist, nicht der Verachtung: Er gab die Kleider zurück, um ohne Heuchelei „Vater unser“ sagen zu können. Ein begründetes Nein heute bereitet die Nein — und die Ja — von morgen vor.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Der franziskanische Weg",
+              "text": "Achte darauf, die Freiheit nicht mit der selbstgemachten Regel zu verwechseln: Die Regel spricht davon, sich nichts anzueignen, nicht davon, jede Verantwortung für fremde Güter abzulehnen. Auch Ablehnen kann eine Weise werden, nur an sich zu denken.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Ablehnen ist legitim, hat aber einen sozialen Preis: Im Dorf hilft man sich auch so, indem man einander die Güter verwahrt. Wer immer ablehnt, bleibt auf Dauer außerhalb des Netzes des Vertrauens, auf dem alles ruht.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Franziskanische Armut verlangt nicht, die Dinge zu verachten: Sie verlangt zu bemerken, wann die Dinge beginnen, dich zu besitzen. Wenn du das nächste Mal etwas annimmst — einen Gegenstand, einen Auftrag, eine Schuld —, frag dich: Wer verwahrt wen?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Das undurchsichtige Vorhaben",
+      "situation": "Heute. Man vertraut dir die Leitung eines angesehenen Vorhabens an: Sichtbarkeit, ein Team, das du selbst wählst, ein ansehnliches Budget. Aber zwei Ausgabeposten gehen nicht auf, und der Geldgeber antwortet auf deine Fragen mit ausweichender Höflichkeit. Unterschreiben heißt, auch für diese Undurchsichtigkeit die Verantwortung zu übernehmen. Ablehnen heißt, auf eine Gelegenheit zu verzichten, die sich nicht wiederholen wird.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Ohne weitere Fragen annehmen: Das Vorhaben ist eine einmalige Gelegenheit, die undurchsichtigen Posten sind nicht deine Zuständigkeit, und jemand hätte ohnehin an deiner Stelle unterschrieben.",
+          "consequence": "Das Vorhaben gelingt gut, und deine Laufbahn macht einen Sprung. Aber als ein Jahr später eine Verwaltungsprüfung jene Ausgabeposten wieder öffnet, steht deine Unterschrift auf den Dokumenten: Die Verantwortung, die du nicht ansehen wolltest, erreicht dich trotzdem, und das errungene Ansehen verkehrt sich in eine verlegene Verteidigung.",
+          "perspectives": [
+            {
+              "label": "Die Verantwortung der Rolle",
+              "text": "In der franziskanischen Bruderschaft heißt, wer führt, „Minister“, Diener: Das Amt gibt es, um zu dienen, nicht um zu glänzen. Ein Dienst, der hinnimmt, nicht zu sehen, wofür er einsteht, hat seinen Namen schon verraten, noch vor jeder Prüfung.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Die Logik des Kaufmanns",
+              "text": "In der Arbeitswelt denkt man so: Jedes Vorhaben hat graue Zonen, und wer wirklich arbeiten will, lernt, mit ihnen zu leben. Jede Unvollkommenheit abzulehnen heißt, die Entscheidungen denen zu überlassen, die weniger Skrupel haben als du.",
+              "isEditorial": true
+            },
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Die Unterschrift ist eine Grenze: Was du unterschreibst, besitzt du, mit allen Folgen. Vor dem Unterschreiben genügt es nicht, bis zehn zu zählen: Man muss genau wissen, was man unterzeichnet. Die Gelegenheit, die sich nicht wiederholt, wiederholt sich oft doch; der Ruf nicht.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Ablehnen: Ohne Transparenz unterschreibt man nicht, und das Vorhaben gehe an den, der diese Bedingungen annimmt.",
+          "consequence": "Der Verzicht brennt, und monatelang siehst du zu, wie das Vorhaben zwischen Problemen weitergeht: Ohne deine Leitung gerät das Team ins Schlingern, und am Ende zieht der Geldgeber die Mittel gerade wegen der undurchsichtigen Posten zurück. Dein Nein, von einigen als Naivität gelesen, wird von anderen erinnert, wenn man eine vertrauenswürdige Person für einen heiklen Auftrag braucht.",
+          "perspectives": [
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Die Ablehnung schützt den Ruf, lässt das Problem aber unberührt: Das Vorhaben geht an den, der weniger Skrupel hat, und die Menschen, die daran arbeiten, tragen die Folgen. Ein Nein reinigt die Hände, nicht immer die Welt.",
+              "isEditorial": true
+            },
+            {
+              "label": "Die Verantwortung der Rolle",
+              "text": "Der Brief an einen Minister zeigt, dass franziskanische Leitung Nähe und Dienst ist, nie überlegene Distanz. Aber dienen heißt nicht, sich zu allem herzugeben: Ein Minister, der unterschreibt, was er nicht lenken kann, dient den Brüdern nicht, er setzt sie aus. Auch die Ablehnung kann eine Form der Sorge sein.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Der lange Blick",
+              "text": "Laufbahnen macht man aus ergriffenen Gelegenheiten, aber Vertrauen macht man aus abgelehnten Gelegenheiten. Das Nein, aus klaren Gründen und ohne Moralisieren gesagt, ist eine Anlage, die langsam reift und sich nicht entwertet.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Unter Bedingungen annehmen: erst unterschreiben, nachdem transparente Rechenschaft, eine unabhängige Prüfung und das Recht auf einen begründeten Rücktritt schriftlich festgehalten sind.",
+          "consequence": "Der Geldgeber zögert, droht, andere zu suchen, dann gibt er nach: Deine Bedingungen, geschrieben, werden zum Rückgrat des Vorhabens. Die Arbeit ist langsamer und mühsamer, als sie versprach, aber als die Prüfung kommt — und sie kommt —, liegen die Rechnungen offen, und die Gruppe hält stand. Deine Leitung wird zum Präzedenzfall: Andere werden nach dir dieselben Bedingungen verlangen.",
+          "perspectives": [
+            {
+              "label": "Die Verantwortung der Rolle",
+              "text": "Das ist der Weg des Ministers im vollen franziskanischen Sinn: dem Dienst nicht entfliehen, aber verweigern, dass der Dienst zur Komplizenschaft wird. Wer führt, dient — und dienen schließt ein, das Team und das Vorhaben vor den Schattenzonen zu schützen, auch um den Preis unbequemer Verhandlungen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Die Logik des Kaufmanns",
+              "text": "Schriftliche Bedingungen sind der beste Kompromiss, aber sie haben einen Preis: Du riskierst, den Auftrag zu verlieren, wenn der Geldgeber nicht nachgibt, und Jahre mit einem Partner zu arbeiten, der dich eher für einen Kontrolleur hält als für einen Verbündeten. Es lohnt sich nur, wenn du glaubwürdige Alternativen hast.",
+              "isEditorial": true
+            },
+            {
+              "label": "Der lange Blick",
+              "text": "Bedingungen zu stellen ist die langsamste und fruchtbarste Weise: Sie schützt nicht nur dich, sie verändert die Praxis. Institutionen werden besser, wenn jemand einen persönlichen Skrupel in eine gemeinsame Regel verwandelt.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Franz nannte die Verantwortlichen „Minister“, Diener: Der Name der Rolle ist schon ihr Programm. Was braucht es in deiner Arbeit, damit dein Dienst nicht zur Komplizenschaft wird — und was, damit deine Strenge nicht zur Fahnenflucht wird?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Der Bruder, der gefehlt hat",
+      "situation": "Portiunkula, die 1220er Jahre. Bruder Rufin hat schwer gegen die Regel verstoßen: Er hat Geld, das er als Almosen empfangen hatte, für sich behalten, und die Sache ist inzwischen auch draußen bekannt, unter den Leuten, die euch ansehen. In der Bruderschaft diskutiert man seit Tagen. Einige verlangen eine exemplarische Buße und seine Entfernung aus dem Dorf; andere erinnern daran, dass Rufin krank und am Ende ist; wieder andere fürchten, die Nachsicht lade alle zum Fehlen ein. Der Minister fragt jeden um seine Meinung. Auch dich.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Die Strenge stützen: öffentliche Buße und zeitweilige Entfernung Rufins, weil die Regel für alle gilt und das Ärgernis der Laien vor allen behoben werden muss.",
+          "consequence": "Die Bruderschaft billigt eine strenge Disziplin. Rufin geht in eine ferne Einsiedelei, gedemütigt vor denen, die ihn kannten; die Laien des Dorfes bewundern die Folgerichtigkeit der Brüder, und die Almosen gehen nicht zurück. Aber in der Bruderschaft verhärtet sich etwas: Die Brüder beginnen, ihre Zerbrechlichkeiten zu verbergen aus Angst vor dem Urteil, und Rufin, allein, wird Jahre brauchen, um zurückzukehren — wenn er zurückkehrt.",
+          "perspectives": [
+            {
+              "label": "Die Weisheit der Gemeinschaft",
+              "text": "Die gemeinsame Regel ist das, was eine Bruderschaft von einer Gesellschaft von Freunden unterscheidet: Wenn der, der schwer fehlt, keinen Folgen begegnet, leert sich der Pakt, und die Schwächsten zahlen den Preis. Die öffentliche Wiedergutmachung antwortet auch auf das öffentliche Ärgernis.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Der Brief an den Minister",
+              "text": "Franz schreibt dem Minister, wenn ein Bruder tausendmal gesündigt hätte, müsse man ihn dennoch lieben und ihm Barmherzigkeit verkünden: Die Härte, die den schwachen Bruder ärgert, riskiert, ihn zu verlieren. Strenge ist nicht verboten, aber sie darf nie zur Verachtung werden.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Der lange Blick",
+              "text": "Eine Gemeinschaft, in der alle das Urteil fürchten, wird eine Gemeinschaft der Geheimnisse: Die Regel bleibt auf dem Papier stehen und stürzt in den Herzen ein. Die Strenge, die keinen Weg der Rückkehr vorsieht, erzeugt Verbannte, keine Büßer.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Die volle Aufnahme stützen: Rufin ohne öffentliche Bußen wieder aufnehmen, seine Krankheit pflegen und auf das Ärgernis mit Sanftmut antworten, nicht mit Strafen.",
+          "consequence": "Rufin bleibt. Er weint vor den Brüdern, gibt zurück, was er kann, und findet langsam einen Platz im gemeinsamen Leben: Niemand wirft ihm die Sache mehr vor. Im Dorf murmelt jemand, die Brüder deckten einander, und zwei junge Leute der Bruderschaft nehmen die Sanftmut als Erlaubnis: Der Minister wird Monate brauchen, um wiederherzustellen, dass die Regel kein Ratschlag ist.",
+          "perspectives": [
+            {
+              "label": "Der Brief an den Minister",
+              "text": "Es ist der Weg, den der Brief an einen Minister zeichnet: mehr lieben, nicht weniger, den, der gefehlt hat; Barmherzigkeit verkünden, sofern er bereut; das eigene Herz nicht wegen der Sünde des anderen verhärten. Franz weiß, dass dieser Weg kostet, und schreibt ihn trotzdem vor.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Die Weisheit der Gemeinschaft",
+              "text": "Die Regel von 1221 verlangt, einander die Nöte mitzuteilen und den Schwachen nicht zu verachten: Der kranke Rufin ist genau der Bruder, den die Regel schützt. Aber dieselbe Regel gibt es, damit die Bruderschaft sich nicht zerstreut: Barmherzigkeit ohne Wahrheit wird zur Komplizenschaft.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Die Klugheit des Dorfes",
+              "text": "Die Laien geben die Almosen armen Brüdern, nicht verschlagenen Brüdern: Ein nicht gelenktes Ärgernis höhlt das Vertrauen aus, das die Gemeinschaft am Leben hält. Die Aufnahme ist dem Dorf zu erklären, nicht nur im Haus zu leben, sonst wird sie als Deckung gelesen.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Einen gemeinschaftlichen Weg stützen: Rufin bleibt in der Bruderschaft, gibt das Geschuldete vor den Brüdern zurück, vertraut sich einer brüderlichen Begleitung an, und die ganze Gemeinschaft trägt mit ihm die Wiedergutmachung gegenüber dem Dorf.",
+          "consequence": "Der Weg ist lang und unbequem: Rufin bekennt vor den Brüdern, gibt das Geld Haus für Haus zusammen mit einem älteren Bruder zurück, und ein Jahr lang verrichtet er die demütigsten Dienste, ohne dass jemand es ihm vorwirft. Das Dorf sieht eine wirkliche Wiedergutmachung, keine Strafe: Das Vertrauen kehrt langsam zurück. In der Bruderschaft wird die Episode zu einer ungeschriebenen Regel: Wer fällt, wird begleitet, wer gefehlt hat, stellt wieder her, niemand geht verloren.",
+          "perspectives": [
+            {
+              "label": "Der Brief an den Minister",
+              "text": "Die Barmherzigkeit des Briefes ist kein Nachlass: Sie ist Liebe, die die Reue begleitet, bis sie Frucht trägt. Rufin, der Haus für Haus zurückgibt, ist nicht gedemütigt: Er ist ein Bruder, der zurückkehrt, und die Gemeinschaft geht neben ihm, statt von oben auf ihn zu sehen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Die Weisheit der Gemeinschaft",
+              "text": "Die Regel von 1221 stellt sich genau dies vor: Brüder, die ihre Nöte mitteilen — auch die beschämenden — und die einander tragen. Die gemeinschaftliche Wiedergutmachung verbindet Wahrheit und Barmherzigkeit und verwandelt die Schuld eines Einzelnen in eine Schule für alle.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Das Recht der Zeit",
+              "text": "Es ist der anspruchsvollste Weg für alle: Er verlangt Zeit, Wahrung des Geheimnisses, wo sie nötig ist, öffentliche Wahrheit, wo das Ärgernis öffentlich war. Nicht jede Gemeinschaft hält diese Mühe aus: Ohne einen fähigen Minister wird der mittlere Weg nur Unentschlossenheit.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Die Brüderlichkeit misst sich nicht daran, wenn alle die Regel halten, sondern wenn jemand sie bricht. Der Brief an einen Minister setzt den Stern — mehr lieben, nicht weniger —, ohne die Wahrheit zu tilgen. Findet in deinen Gemeinschaften, wer gefehlt hat, einen Weg der Rückkehr?"
+    }
+  ]
+}

@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Mit jelent alázatosnak lenni?",
+      "theme": "umilta",
+      "description": "Egy őszinte vezető lebontja azt a félreértést, hogy az alázat önleértékelés: Ferenc „igazsága önmagáról”, a „kisebbek” neve, és a saját akarat az Intelmekben.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Üdvözöllek a Párbeszédben. Bemutatkozom: vezető vagyok a ferences forrásokon át, nem vagyok Ferenc, és nem az ő nevében beszélek. A mai kérdés egyszerűen hangzik: mit jelent alázatosnak lenni? Sokan, hallva az „alázat” szót, azonnal a lekicsinylésre gondolnak. Mielőtt elindulnánk, a te kiindulópontod érdekel.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Számomra az alázat az, hogy nem tulajdonítok magamnak fontosságot, a helyemen maradok.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Gyanítom, hogy valami más, de nem tudnám megmondani, mi.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Miért hívták Ferenc testvéreit „kisebbeknek”?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Ez a legelterjedtebb elképzelés, és a legmakacsabb félreértés is. Ha az alázat önleértékelés volna, az önmagunkkal való foglalkozás finom módjává válna: a saját képünkkel, a helyünkkel, még a közszemlére tett középszerűségünkkel is. A ferences források máshová mutatnak: nem arra, hogy kicsinek gondoljuk magunkat, hanem hogy az igazságban lássuk magunkat. A különbség vékonynak tűnik, de mindent megváltoztat.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Akkor mi az alázat valójában?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Van Ferencnek szövege, amely ezt mondja?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Ez a bizonytalanság jó kiindulópont, irónia nélkül mondom. Aki beismeri, hogy nem tudja, már tett egy lépést afelé, amit Ferenc alázaton ért: az igazságban látni magunkat, felfúvódás és önmarcangolás nélkül. Próbáljunk formát adni ennek a gondolatnak, a forrásokból indulva.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Rendben: mi a ferences alázat szíve?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Van a forrásoknak egy részlete, amelyet együtt olvashatunk?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Pontos kérdés, és a válasz egy kis program. A becsületre és rangra épülő társadalomban Ferenc azt akarta, hogy övéit kisebb testvéreknek nevezzék: senki „nagyobb”, senki, akit szolgálni kellene. Még a testvériség felelőseit is „minisztereknek” hívta, ami latinul szolgát jelent. Nem nyelvi szeszély volt: egy hely választása, az utolsóé, ahonnan senkit sem lehet kimozdítani.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "És a mindennapi életben milyen különbséget jelent?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Az írásaiban van erről valami?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Itt a középpont. Ferenc számára az alázat igazság önmagunkról: kicsik vagyunk Isten előtt, adósai mindannak, amik vagyunk és amink van, képesek szolgálni anélkül, hogy elismerést követelnénk. Vedd észre, hogy ez az igazság a tehetségeidet is magában foglalja: ajándékként felismerni őket nem gőg, hanem őszinteség. Az alázatos nem értékeli le magát: abbahagyja a szerepjátszást, egyik irányban is, a másikban is. És szabad a látszani vágyás kényszerétől, amely az egyik legfárasztóbb szolgaság.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "És a saját tehetségek? Tagadni kell őket, hogy alázatosak legyünk?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Hogyan fordítható le ma, például a munkában és az interneten?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Mit mond pontosan az Intelmek szövege?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Ennyi elég: befejezhetjük.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Van egy rövid és éles szöveg: az Intelmek, útmutatások, amelyeket Ferenc a testvériségnek mondott. Az egyik célpont a mindent mércévé tett „saját akarat”: aki magától igaznak és bölcsnek tartja magát, figyelmeztet Ferenc, eltávolodik az igazi alázattól, amely abban áll, hogy alávetjük a saját ítéletünket, és szolgálunk. Figyelem azonban: alávetni nem azt jelenti, hogy kioltjuk. A források nem azt kérik, hogy hagyjunk fel a gondolkodással, hanem hogy ne tegyük abszolúttá a saját nézőpontunkat.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Úgy tűnik, lemondás a saját fejünkről. Nem túlzás?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "És konkrétan, ma, milyen arcot ölt?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Próbáljuk lefordítani, tudva, hogy ez modern értelmezés, nem középkori szöveg. A munkában az alázat az, hogy jól végezzük a magunk részét anélkül, hogy látványosságot csinálnánk belőle, beismerjük a hibát alibi nélkül, és annak hagyjuk az érdemet, aki megérdemli. Az interneten, ahol sok mindent a láthatóságban mérnek, az, hogy közzétehetünk és dolgozhatunk anélkül, hogy mások ítélete a gazdánk legyen. Nem felhívás a rejtőzködésre: felhívás, hogy ne függjünk a tapsotól.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Szép, de az én közegemben az győz, aki előretolakszik.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Meggyőz. Befejezzük.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Jogos ellenvetés, és őszinte választ érdemel. A forrásokban az engedelmesség nem önmegsemmisítés: maga a testvériség olyan hely volt, ahol egymásnak tárták fel a szükségleteiket, vagyis beszéltek. A lényeg nem a saját ítélet eltörlése, hanem annak elutasítása, hogy minden legfőbb törvényszéke legyen. Itt azonban a források nem adnak esettant: nem tudom megmondani, hol húzódik a határ a te konkrét esetedben. Az a te munkád marad, és azoké, akik igazán ismernek.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Érthető. És a mindennapi életben?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Inkább itt megállok.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Jogod van felvetni, és nem karriertanácsadással felelek: nem az a szerepem. Csak azt mondom, hogy a ferences források nem ígérik, hogy az alázat „működik”: azt ígérik, hogy szabaddá tesz. Néha kerül, és az ellenkezőjét színlelni tisztességtelen volna. Az a választás, hogy nem az elismerésért élünk, éppen választás marad: a tiéd, a saját kontextusodra mérve.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Őszinte, köszönöm. Befejezzük.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Olvassuk újra a tanítás szívét.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Nem, és a figyelmesen olvasott források az ellenkezőjét mondják. Ferenc logikája az ajándéké: ha minden kapott, a képességeid is azok, és tagadni őket csak egy másik módja volna az önmagunkról szóló hazugságnak. Az alázat nem azt kéri, hogy mondd: „semmit sem érek”, hanem hogy mondd az igazat: „ezt kaptam, ezzel adós vagyok”. És aki fel tud ismerni egy ajándékot, az hálát is tud adni: a ferences úton a hála az öröm egyik kapuja.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "És ezt hogyan éljük meg a mai konkrétumban?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Itt befejezhetjük.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Itt megállunk. Ha szeretnéd, vigyél magaddal egy kérdést, nem egy feladatot: a napod melyik pontján játszol szerepet, ahelyett hogy annak az igazságában lennél, aki vagy, a jóban és a határban? Nem nekem kell válaszolnod, és senkinek sem. A Párbeszéd többi beszélgetése vár, amikor akarod: a megbocsátás, a szegénység, a teremtés, Ferenc hite.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Járd újra ezt a beszélgetést az elejétől.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Fedezd fel a Párbeszéd többi beszélgetését.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Köszönöm, hogy velem jártad végig ezeket a forrásokat. A Párbeszéd listájából másik beszélgetést nyithatsz, vagy ezt is újra megtalálhatod, amikor akarod: a szövegek megmaradnak, a kérdések is.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Kezdd újra ezt a beszélgetést.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Fejezd be egyelőre."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Hogyan lehet megbocsátani valakinek?",
+      "theme": "perdono",
+      "description": "A levél egy miniszterhez és a Naphimnusz strófája: a megbocsátás mint ismételt döntés, a különbség az igazságszolgáltatástól, és őszinte válasz annak, aki nem bírja.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Üdvözöllek a Párbeszédben. Én vezetlek: nem vagyok Ferenc, és nem az ő nevében beszélek, azon belül kísérlek, amit a források valóban mondanak. A mai kérdés a létező legnehezebbek egyike: hogyan lehet megbocsátani valakinek? Nem ígérek kényelmes választ. Segít, ha tudom, honnan indulsz.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Sérelmet szenvedtem, és nem tudom elengedni a haragot.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "A megbocsátás nem azt jelenti talán, hogy úgy teszünk, mintha mi sem történt volna?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Előbb tudni szeretném, mit mond Ferenc a megbocsátásról.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Köszönöm az őszinteséget. A ferences források nem ígérik, hogy a harag eltűnik, és nem kérik, hogy tégy úgy, mintha a sérelem meg sem történt volna. Amit javasolnak, más: a megbocsátás mint döntés, amely megújul, még akkor is, ha az érzés nem követi. Ha ma nem sikerül, ez nem zár ki: ez a norma, nem a kivétel.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Döntés, amely megújul: magyarázd meg.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "És ha egyszerűen nem bírom?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Mit ír Ferenc erről?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Nem, és érdemes azonnal világosan kimondani: megbocsátani nem tagadás. A ferences források nem keverik össze az irgalmat és az igazságtalanságot: a megtett rossz rossz marad, és a következményei valósak maradnak. A megbocsátás itt nem törli el, ami történt: elutasítja, hogy a sértésnek legyen az utolsó szava a kapcsolatról. Két különböző sík, és külön tartani őket az első lépés.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Akkor a megbocsátás és az igazság együtt lehet?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Mit mond pontosan Ferenc?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "A kulcsszöveg a levél egy miniszterhez: Ferenc a testvériség egy felelősének ír, akinek vétkező testvérekkel kell bánnia. A híres rész lényegében ezt mondja: ha egy testvér ezerszer vétkezett volna a szemed előtt, szeresd jobban, mint engem, és hirdesd neki az irgalmat. Ezerszer: nem egyszer s mindenkorra meghozott hősi döntés, hanem minden nap újra meghozott választás. Ez megváltoztatja a kérdést: nem az, hogy „érzem-e, hogy megbocsátok?”, hanem az, hogy „ma is a megbocsátást választom-e?”.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Az ezerszer túl sok. Reális kérés?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "És az igazság? Aki vét, nem tartozik felelősséggel?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "A teremtmények éneke beszél a megbocsátásról, ugye?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Igen, és maga a levél sejteti: Ferenc azt kéri, hogy hirdessünk irgalmat, ha a másik megbánja, vagyis a megbocsátás nem nyilvánítja ártatlannak, aki vétett, és nem menti fel a jóvátétel alól. Az ő korában is a békéltető testvérek nem törölték el a törvényszékeket és a felelősséget: azon dolgoztak, hogy a bosszú ne legyen az egyetlen lehetséges igazság. Megbocsátani és kérni, hogy a rosszat elismerjék, nem ellenségek. Együtt járhatnak, ha fáradságosan is.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "És gyakorlatban hol kezdjük?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Köze van hozzá a Naphimnusz strófájának?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "És ha a sérelem túl nagy, vagy túl friss?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "És a kor megosztott városaiban?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "A nézőpont helyesbítésével kezdjük. Ha a megbocsátás érzés volna, várnod kellene, hogy megérkezzen: és gyakran nem érkezik meg, vagy megérkezik, aztán elmegy. Ha döntés, meghozhatod akkor is, amikor a harag még ég, és holnap újra, és holnapután. A források nem írnak le egyenes utat: az „ezerszer” szó inkább az ellenkezőjét sugallja. Őszinteség: a ferences szövegekben nincsenek technikák. Van egy irány.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "És ha ma egyáltalán nem bírom?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "És önmagunkkal? Meg lehet bocsátani magunknak?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Meséld el a Naphimnusz strófáját a megbocsátásról.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Őszinte válasz: megtörténhet, és a források nem ítélnek el érte. Én sem: vezető vagyok a szövegeken át, nem gyóntató és nem terapeuta. Két dokumentálható dolgot mondok. Az első: a levél ezerszerről beszél, ami azt jelenti, hogy már a tizenharmadik században a megbocsátást nem pillanatnyi gesztusnak gondolták. A második: ha egy seb mély, megosztani valakivel, akiben bízol, vagy szakemberrel, amikor kell, nem vereség. A megbocsátás idejéről a ferences források hallgatnak: itt nem mondhatunk többet.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "És a megbocsátás önmagunk iránt?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Köszönöm az őszinteséget. Befejezzük.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Van a teremtmények énekének egy strófája, amely Istent dicséri azokért, akik az ő szeretetéért megbocsátanak, betegséget és gyötrelmet viselve. A kutatás általában 1226 nyarára datálja, és a hagyomány egy konkrét epizódhoz köti: Assisi püspöke és podestàja nyílt viszályban állt, és Ferenc, már betegen, hozzáfűzte volna azt a strófát, és előttük énekeltette a Naphimnuszt, hogy kibékítse őket. Pontosítom a szinteket: a strófa hiteles, az epizód elbeszélése a hagiográfiai hagyományon át érkezik. A tény megmarad: a megbocsátás Ferenc számára dicséretre méltó volt még a városa konfliktusain belül is.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Megbocsátani egy konfliktus kellős közepén: lehetséges?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "És aki nem tud megbocsátani?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Befejezhetjük.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Itt őszintének kell lennem a források határairól. A ferences szövegek a testvérek és a sértők iránti megbocsátásról beszélnek; az önmagunknak való megbocsátásról, ahogyan ma értjük, szinte semmi kifejezettet nem mondanak. Analógia alapján gondolkodhatunk: ha ezerszer hirdetünk irgalmat annak, aki vét, nehéz kizárni magunkat. De ez a mi okoskodásunk marad, nem idézet. Inkább megmondom, mint hogy Ferenc szájába adjak szavakat, amelyeket nem írt le.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Értékelem a pontosságot. És honnan indulunk újra?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Itt bezárjuk.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Van nyilvános dimenziója is. A kommunák Itáliáját vérbosszú és bosszú szelte át, és a források emlékeznek az első testvérekre, akik házról házra hirdették a békét, egy köszöntéssel, amelyet Ferenc a saját elmondása szerint kapott. A megbocsátás abban a világban nem csak magánügy volt: az a pont, ahol a megtorlás lánca megszakadhatott. Ma is vannak vérbosszúk, a családokban, a negyedekben, a közösségi médián, és a logika ugyanaz: valakinek abba kell hagynia a visszavágást.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "És a Naphimnusz strófája éppen egy konfliktusból született, ugye?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Elég ennyi. Befejezzük.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Itt megállunk. Ha akarod, vigyél magaddal egyetlen képet, nem egy feladatot: a megbocsátást mint utat, amelyet naponta egy méterrel rakunk újra, nem mint ugrást, amelyet egyszer s mindenkorra meg kell tenni. És ha a sebed ma nem engedi, ez a párbeszéd nem azt kérte, hogy sikerüljön: azt kérte, hogy értsd. A Párbeszéd többi beszélgetése vár, amikor akarod.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Járd újra ezt a beszélgetést az elejétől.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Fedezd fel a Párbeszéd többi beszélgetését.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Köszönöm, hogy nehéz kérdéssel néztél szembe, rövidítések nélkül. A Párbeszéd listáján megtalálod a többi beszélgetést: én itt maradok, a szövegek is.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Kezdd újra ezt a beszélgetést.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Fejezd be egyelőre."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Ferenc ellenezte a gazdagságot?",
+      "theme": "poverta",
+      "description": "Ferenc nem ítélte el a javakat: a birtoklástól szabadított meg. Az 1223-as Regula, a lemondás a püspök előtt, és mit jelent ez ma, romantizálás nélkül.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Üdvözöllek a Párbeszédben. Bemutatkozom: vezető vagyok, nem Ferenc; veled olvasom a forrásokat, és megmondom, amikor nem elegendők a válaszhoz. A mai kérdés tele van félreértéssel: Ferenc ellenezte a gazdagságot? A rövid válasz: „nem, nem abban az értelemben, ahogyan talán képzeled”. De megérdemli a hosszú utat. Honnan indulunk?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Mindig azt hittem, hogy magát a pénzt vetette meg.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Gyanítom, hogy a lényeg más, de nem tudom megmondani.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Nem csak romantikus szegénység, egy tizenkilencedik századi plakátról?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Ez a legelterjedtebb rekonstrukció, és a legkevésbé pontos is. Ferenc szövegeiben nem találsz elítélést a javakról, mintha piszkosak volnának: valami radikálisabbat és finomabbat találsz, vagyis az elsajátításuk elutasítását. A célpont nem a gazdagság, hanem a birtoklás: amit a dolgok tesznek azzal, aki azt hiszi, hogy birtokolja őket. Menjünk a szöveghez, amely a legjobban mondja.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Melyik szöveg?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "És a lemondás híres jelenete?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "A gyanúd megalapozott. A lényeg nem a javak mennyisége, hanem a kötelék fajtája: Ferenc olyan testvéreket akar, akik semmit sem sajátítanak el, mert akinek nincs birtoka, annak nem kell védekeznie, és akinek nem kell védekeznie, szabad szeretni. A szabadság logikája ez, nem az undoré. Megmutatom a Regula szövegében.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Olvassuk a Regulát.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Előbb meséld el a jelenetet a püspök előtt.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Az ellenvetés komoly, és tiszteletet érdemel: a romantikus szegénység létezik, és olyan karikatúra, amelyben kevés a ferences. Kössünk tehát egyezséget: semmi idealizálás. Nézzük, mit mondanak a források — egy jelenetet, amelyet az első életrajzíró beszél el, és egy normatív szöveget, amelyet maga Ferenc írt —, aztán te ítéled meg, megállnak-e.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Rendben: az első életrajzíró jelenete.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "A normatív szöveg.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Az 1223-as Regula, az Egyház által jóváhagyott végleges szöveg: a testvérek semmit sem sajátítanak el, „sem házat, sem helyet, sem bármi mást”; zarándokokként és idegenekként élnek, és szégyen nélkül járnak alamizsnáért. A kimondott ok teológiai: az Úr szegénnyé lett értünk. De van tiszta emberi logika is: amit nem birtokolsz, az nem birtokol téged. A szakmai hagyomány „sine proprio”-nak nevezi, semmi saját nélkül. Nem a dolgok megvetése, amelyeket kapunk, használunk és megköszönünk: felszabadulás a birtoklástól.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Meséld el a lemondást a püspök előtt.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "És ma? El kellene adnunk mindent?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "És az igazi szegények? Nem kockáztatjuk, hogy megszépítjük a nyomort?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Celanói Tamás, az első életrajzíró, így beszéli el: Guidó püspök és az apa, Bernardone Péter előtt Ferenc még a ruháit is visszaadja, és lemond az atyai javakról, mondván, hogy mostantól csak Istent hívhatja atyjának. A püspök a saját köpenyével takarja be. Pontosítom a szinteket: az epizód dokumentált sarokkő, de a díszletek Celano elbeszéléséhez tartoznak, amely hagiográfia, épületes irodalom, nem jegyzőkönyv. Az értelme mégis tiszta: nyilvánosan elvágni a köteléket a családi gazdagsággal.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Színházi gesztus vagy megfontolt választás?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "És mi ma mit kezdjünk vele?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Elkerülhetetlen kérdés, és az őszinte válasz: a források nem kérnek mindenkitől ugyanazt. Az a Regula a testvéreknek szólt; Ferenc nem írt regulát kereskedőknek, szülőknek, mesterembereknek. Tehát nem: nincs ferences szöveg, amely arra utasít, hogy adj el mindent. Ami van, egy kényelmetlen kérdés, amelyet lakni kell: mely dolgokat birtokolok, és melyek birtokolnak engem? A konkrét válasz a te életedhez arányos, nem az övéhez.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Hogyan különböztetjük meg a választott szegénységet az elszenvedett nélkülözéstől?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "És aki dolgozik, keres, családot tart el?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Adj valamit konkrétat, szélsőséges gesztusok nélkül.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Ez a beszélgetés legfontosabb különbségtétele. Az elszenvedett nélkülözés — nincs mit enni, nincs gyógyítás, nincs tető — társadalmi seb, amelyet gyógyítani kell, nem eszmény, amelyet szemlélni: Ferenc szolgálta a szegényeket, nem esztétizálta őket. A ferences szegénység más: szabad választás, hogy ne sajátítsunk el, a szabadságért és a szolidaritásért. Összekeverni őket az a hiba, amelyet mindig el kell kerülni: mások nyomorát dicsőíteni pontosan az a „romantikus szegénység” volna, amelyről beszéltünk.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Tehát a romantizálás kritikájának volt igazságalapja?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "És gyakorlatban, számomra, ma?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Itt bezárjuk.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Színházi biztosan volt: és a jogra meg a birtoklásra épülő társadalomban csak nyilvános gesztus oldhatott fel egy nyilvános köteléket. De nem rögtönzés volt: Celano hónapok válsága után helyezi el, a perugiai fogság, a betegség, a csalódások után. Ha mércét akarsz a gesztusok megítéléséhez, az övéihez és a tieidhez, íme: nem a pillanat intenzitása, hanem ami utána jön. Ferenc további húsz éven át következetesen élt. Az igazi gesztusokat a hosszú tartamról ismerjük fel.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "És ma, szélsőséges gesztusok nélkül?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Értem. Befejezzük.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkrétan tehát, de receptek nélkül: nem az a szerepem, hogy adjam őket. A ferences hagyomány három mozdulatban sugall egy irányt: nézd, amid van, és kérdezd meg, szabaddá tesz-e vagy óvatossá; használd a dolgokat kapottként, nem járóként; hagyd, hogy az egyszerűség teret szabadítson — időt, figyelmet, pénzt — másoknak. Modern értelmezés, őszintén megmondom: de hű értelmezése a „sine proprio” szellemének.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Térjünk vissza a Regula szövegéhez.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Befejezzük.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Egyetlen ferences forrás sem mondja, hogy a munka és a kereset távol vinne Ferenctől: a Regula egy meghatározott testvériség életformája, nem minden lét mércéje. Sőt, a logika szinte fordított: a probléma nem a birtoklás, hanem az, hogy szolgáljuk, amink van. Ha a munkád, a kereseted, a házad eszközzé válik — a tiéddé és másokévé —, nem úrrá, közelebb vagy a Regula szelleméhez, mint gondolnád.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "És a szegénység romantizálásának kockázata?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Befejezzük.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Itt megállunk. Nem feladatot hagylak: a kérdést hagyom, amelyet ez a beszélgetés megpróbált megnyitni. Mi az, amid van, ami birtokol téged? Válaszolj rá nyugodtan, vagy ne válaszolj egyáltalán. Amikor akarod, a Párbeszéd többi beszélgetése a listán van: az alázat, a megbocsátás, a teremtés, a hit.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Járd újra ezt a beszélgetést az elejétől.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Fedezd fel a Párbeszéd többi beszélgetését.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Köszönöm, hogy tagolt választ kerestél egy kérdésre, amely gyakran jelszavakat kap. A Párbeszédben találkozunk, amikor akarod: a források nem járnak le.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Kezdd újra ezt a beszélgetést.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Fejezd be egyelőre."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Miért beszélt Ferenc az állatokkal?",
+      "theme": "creato",
+      "description": "Rokonság, nem panteizmus: a Naphimnusz, Celano madarai, a Fioretti farkasa, és mit mond mindez — és mit nem — a mai ökológiának.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Üdvözöllek a Párbeszédben. A vezetőd vagyok: nem vagyok Ferenc, és amikor a források nem elegendők, megmondom. A mai kérdés évszázadok képeibe merül: Ferenc, aki a madarakhoz, a farkashoz, a halakhoz beszél. Mi van mögötte? Attól függ, mit keresel.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Az igazságot akarom: csak legenda, hogy az állatokkal beszélt?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Azon tűnődöm, Istent látta-e a természetben: panteista volt?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Meséld el a teremtmények énekét.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Történészi kérdés, és a válasz rétegzett, mint szinte minden, ami Ferencet illeti. A magot korán tanúsítják: Celanói Tamás, a közeli életrajzíró, józan hangon beszéli el a madaraknak szóló prédikációt. A látványosabb elbeszélések — Gubbio farkasa, a halak, a giliszták — egy évszázaddal később virágoznak ki a Fiorettiben. Tehát: régi emlékezet és irodalmi felerősítés. Mindkettőt megmutatom, különválasztva.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Celano józan változata.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "A Fioretti változata: a farkas.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Nem, és a szöveg, amely bizonyítja, a teremtmények éneke. Ferenc Istent dicséri „a” teremtményekért — nap testvér, hold nővér —, nem a teremtményeket dicséri, mintha isteniek volnának. A különbség döntő: a természet nem Isten, hanem család. A teremtmények testvérek, mert ugyanannak az Atyának a gyermekei. A helyes szó a „rokonság”, nem a panteizmus.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Olvassuk a Naphimnuszt.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "És a történetek az állatokkal?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "A teremtmények éneke, 1225–1226-ban keletkezett, amikor Ferenc beteg volt és szinte vak: az olasz népnyelvű költészet egyik legkorábbi szövege. Istent dicséri nap testvérért, „aki a nappal”, hold nővérért és a csillagokért, szél testvérért, a víz nővérért, aki „hasznos, alázatos, drága és tiszta”, tűz testvérért és „a föld anya nővérünkért”. Két dolgot érdemes észrevenni. Az első: nem himnusz a természethez, hanem dicséret Istennek a természeten keresztül. A második: a szenvedésben születik, nem egy idilli sétán.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "És a prédikáció a madaraknak?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "És Gubbio farkasa?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Mit mond mindez a mai ökológiának?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Celano változata meglepően józan: Ferenc madárrajokat lát, úgy fordul hozzájuk, mint hallgatásra képes teremtményekhez, és buzdítja őket, hogy dicsérjék Istent. Nincsenek kidolgozott párbeszédek, nincsenek látványos csodák: az elismerés gesztusa. A Fioretti egy évszázaddal később hozzáteszi a keresztvetést, a rajokat, amelyek hallgatásra rendeződnek, az ünnepélyes elbocsátást. Előbb Ferenc stílusa, aztán a jámborság stílusa. Mindkettő mond valamit, de mást.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "És Gubbio farkasa?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Ha irodalom, milyen értéke van?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "És a kortárs ökológia?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Gubbio farkasa a Fioretti mesterműve: a rettegő város, Ferenc, aki a fenevad elébe megy, úgy szól hozzá, mint egy testvérhez, és szövetséget közvetít — a város táplálja, ő többé senkinek sem árt. Világosnak kell lennem a műfajról: tizennegyedik századi hagiográfia, a jámborság emlékezete, nem ellenőrizhető krónika. De nézd, mit őriz meg: a békét, amely abból születik, hogy elébe megyünk annak, ami félelmet kelt, és egy állatot, akivel beszélgetőtársként bánnak, nem tárggyal. A forma legenda; az irány hitelesen ferences.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Tehát végső soron kitalált?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "És a mai ökológia mit nyer belőle?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Itt mindkét irányban őszinteség kell. Egyfelől: a Naphimnusz ma ritka nyelvtant kínál, a teremtett világ gondját hálából és rokonságból, nem haszonból vagy félelemből. Másfelől: Ferenc nem volt modern környezetvédő, és a forrásai nem ismerik az éghajlatot, a kihalásokat, a szennyezést. Aki részletes ökológiai programot keres nála, erőlteti a szövegeket. Aki tekintetet keres — a világot családként, nem raktárként —, olyasmit talál, ami még képes elmozdítani a viselkedést.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "Mégis az ökológia védőszentjévé nyilvánították, nem?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Mi marad konkrétan nekem?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Nem: a „nem krónika” nem azt jelenti, hogy „a semmiből kitalálták”. A madaraknak szóló prédikáció Celanónál van, néhány évvel Ferenc halála után; a Fioretti legendás színekkel öltözteti, de a szál egy emlékezetből indul. Így működik a hagiográfia nagy része: a forma annak a jámborságát beszéli el, aki továbbadta, a lényeg egy valós vonást őriz. A forrásokat olvasni éppen ez: együtt tartani a kettőt anélkül, hogy összekevernénk.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Világos. És a mai ökológiára?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Térjünk vissza akkor a Naphimnuszhoz.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Igen: 1979-ben II. János Pál az ökológusok védőszentjévé nyilvánította. Modern cím — értelmezés, nem középkori forrás —, és ekként kell kezelni. Jogos, ha a ferences tekintet gyökerét jelzi: a rokonságot minden teremtménnyel. Félrevezetővé válik, ha Ferencet előfutár környezetvédővé lapítja, eltörölve, hogy a Naphimnusz mindenekelőtt dicséret Istennek, amelyet egy beteg ember írt, aki hálát adott. A cím mond valamit, ami igaz, azzal a feltétellel, hogy nem erre szűkítjük.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "És nekem, konkrétan?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Befejezhetjük.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "A konkrétum itt a tekintet kérdése, mielőtt a tetteké volna. A Naphimnusz azt sugallja, hogy a világot rokonságként lakjuk: a vizet nővérként, amelyet nem pazarolunk, a földet anyaként, akinek gyermekei vagyunk, a teremtményeket a dicséret társaiként, nem készletként. A gyakorlati választások — mit veszel, mit dobsz el, hogyan utazol — utána jönnek, és a források nem diktálják őket. De a megváltozott tekintet lehetővé teszi őket, és kevésbé fáradságossá.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Olvassuk együtt újra a Naphimnuszt.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Befejezzük.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Itt megállunk. Egy képet hagyok, nem egy feladatot: egy szinte vak embert, aki dicséretet ír a napnak, amelyet már nem lát, és testvérnek hívja. Ha egy napon egy fát, egy kutyát, a csap vizét rokonként nézed, nem tárgyként, tudni fogod, honnan jön az a tekintet. A Párbeszéd többi beszélgetése a listán vár.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Járd újra ezt a beszélgetést az elejétől.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Fedezd fel a Párbeszéd többi beszélgetését.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Köszönöm, hogy velem különböztetted meg a krónikát, a legendát és a dicséretet: olyan gyakorlat, amely Ferencen túl is hasznos. A Párbeszédben találkozunk, amikor akarod.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Kezdd újra ezt a beszélgetést.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Fejezd be egyelőre."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Lehet Ferencet követni anélkül, hogy hívők lennénk?",
+      "theme": "fede",
+      "description": "Nem kitérő válasz egy komoly kérdésre: a keresztény hit Ferenc középpontja volt, és az alkalmazás nem rejti el. Mi marad annak, aki nem hisz.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Üdvözöllek a Párbeszédben. Vezető vagyok a forrásokon át: nem vagyok Ferenc, nem vagyok gyóntató, és senki hitét nem értékelem, a tiédet sem. A mai kérdés jogos és komoly: lehet Ferencet követni anélkül, hogy hívők lennénk? Nem kitérő választ ígérek. Előbb mondd meg, honnan beszélsz.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Hívő vagyok, és jobban meg akarom érteni a hitét.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Nem vagyok hívő: mit kaphatok tőle?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Nem tudom, mit hiszek. Ez a párbeszéd nekem szól?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Akkor menjünk egyenesen a középponthoz. Ferenc hite nem kulturális címke volt: minden más forrása — a szegénységé, a testvériségé, a békéé. A Végrendeletben elmondja, hogy az Úr egyszerű hitet adott neki a templomokban; és egész története, San Damianótól a La Vernáig, a források olvasatában a szegény és megfeszített Krisztus követése. Nézzük a szövegeket.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "A szövegeket, igen.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "És a viszonya a kor Egyházához?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Rövid válasz: igen, lehet, az őszinteség feltételével. Tanulmányozhatod, csodálhatod, hagyhatod, hogy a stílusa kérdezzen, anélkül hogy a hitéhez csatlakoznál; ez az alkalmazás neked is készült, és senki sem értékeli itt az álláspontodat. A feltétel, hogy ne csonkítsd meg: egy Krisztus nélküli Ferenc nem lesz egyetemesebb, hanem más szereplő. Ha elfogadod, hogy egészben találkozol vele, gyökerestül, sok a kapnivaló.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Mutasd meg akkor ezt a gyökeret.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Mi marad konkrétan annak, aki nem hisz?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Igen, neked szól: talán jobban, mint bárki másnak. A hitről szóló kérdések nem kérnek hovatartozási igazolványt: őszinteséget kérnek, és te éppen most megmutattad. Nem foglak egyik irányba sem tolni: megmutatom a szövegeket, megkülönböztetem a szinteket, és megállok, ahol a források megállnak. Abból indulunk, amit maga Ferenc beszél el.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Rendben: mit beszél el?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "És aki nem jut el a hitig, mit kap?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Két tanúságtétel. Az első az övé: a Végrendeletben, amelyet nem sokkal a halála előtt diktált, Ferenc emlékezik arra, hogy az Úr egyszerű hitet adott neki a templomokban, ahol Krisztushoz fordulva imádkozott. A második Celanóé: 1224-ben, a La Verna hegyén Ferenc megkapta volna a stigmákat, a szenvedés jeleit, amelyeket elrejteni igyekezett. Vedd észre a szinteket: a Végrendelet Ferenc szava; a stigmák a legközelebbi források tanúságtételeként érkeznek, és az alkalmazás így mutatja be őket, nem mérhető adatként. Együtt egyetlen dolgot mondanak: élete középpontja Krisztus személye volt.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "A stigmák: hogyan értsem őket?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Miért ragaszkodik ennyire az alkalmazás ehhez a ponthoz?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "És annak, aki nem hisz, mi marad?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Egy ilyen teljes hit nem hagyott teret a kétségeknek?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Ugyanazzal az őszinteséggel, ahogyan a források bemutatják. Celano néhány évvel Ferenc halála után beszéli el őket, és a hagyomány a megfeszített Krisztushoz való teljes hasonulás jeleként őrzi. A történelmi és teológiai értékelést a kutatók vitatják; itt a források nem engedik, hogy többet mondjunk, és aki többet mondana, egyik vagy másik irányban, túllépne a szövegeken. Amit mondhatunk: a testvérisége számára az a jel megerősítette, amit az élete már mondott.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "És a viszony az Egyházzal?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Értem. És annak, aki a hiten kívül marad?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Két okból, mindkettő kimondva. Az első történelmi: Ferencből kivonni a keresztény gyökeret nem teszi egyetemesebbé, felismerhetetlenné teszi — a szegénység „mert az Úr szegénnyé lett”, a béke kapott köszöntés, a testvériség közösen megélt evangélium. A második szerkesztői: ez az alkalmazás magyaráz, nem térít. Ferenc hitét megmagyarázni nem azt kéri, hogy a tiéddé tedd; az a visszautasítás, hogy édesített változatot adjunk a tényekből.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "És mit kaphat, aki nem csatlakozik?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "És Ferenc hogyan élte az intézményes Egyházat?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Elég ennyi. Befejezzük.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Sokat, ha egészben vesszük. A stílus — az ingyenesség, a kisebbség, a béke, amelyet elébe menve építenek, a rokonság tekintete a teremtett világon — annak is szól, aki nem osztja a gyökeret. De ezek a dolgok a szövegekben annak a fának a gyümölcsei: ismerni őket a gyökér nélkül lehetséges, a gyökerükig érteni a gyökér nélkül nem. Hagyhatod, hogy kérdezzenek, anélkül hogy csatlakoznál: komoly tartás, és az eszmetörténet tele van emberekkel, akik nem a saját hagyományukból tanultak. Senki sem jegyez itt lelki pontszámot.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Akkor olvassuk újra a szövegeket, amelyek azt a gyökeret beszélik el.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Befejezzük.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "A források nem beszélnek el tanbeli kételyeket a modern értelemben: itt nem mondhatjuk azt, amit a szövegek nem mondanak. De nagyon kemény megpróbáltatásokat beszélnek el: a betegséget, a szinte elveszített látást, a fájdalmat, hogy a testvériség a szándékain túl nő és változik. És éppen abból az időszakból, Bonaventura szerint, születik a teremtmények éneke. Ferenc hite nem az éjszaka hiánya volt: dicséret volt az éjszakán belül. Ami nagyon más, mint a naivitás.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "És a stigmák ebbe az időszakba tartoznak?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Befejezhetjük.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Sem lázadó, sem igazodó: valami érdekesebb. Ferenc a középkori Egyházon belül élt, kitartóan kereste annak jóváhagyását az életformájához, és elfogadta a határait, miközben alulról, a példával és nem a lázadással ösztönözte a reformra. Az Egyháznak való engedelmessége a hitének része volt, nem számítás. Ezt megérteni elkerül két tükörképi karikatúrát: a moderneknek kedves engedetlen szentet és a jámboroknak kedves engedelmes szentet.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Térjünk vissza a hitének szövegeihez.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Befejezzük.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Itt megállunk. Nem feladatot hagyok, és még kevésbé vizsgát: egy mércét hagyok. Amikor Ferenccel találkozol, ebben az alkalmazásban vagy máshol, mindig kérdezd meg, hogy a változat, amely előtted van, egészben mutatja-e, a keresztény gyökerével együtt. Aztán a te álláspontod a tiéd marad: senki sem ítéli meg itt. A Párbeszéd többi beszélgetése a listán vár.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Járd újra ezt a beszélgetést az elejétől.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Fedezd fel a Párbeszéd többi beszélgetését.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Köszönöm a kérdés komolyságát, és hogy elfogadtál egy választ rövidítések nélkül. A Párbeszédben találkozunk, amikor akarod: az igazi kérdéseknek nincs lejáratuk.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Kezdd újra ezt a beszélgetést.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Fejezd be egyelőre."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

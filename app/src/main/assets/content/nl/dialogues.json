@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Wat betekent het nederig te zijn?",
+      "theme": "umilta",
+      "description": "Een eerlijke gids ontmantelt het misverstand van nederigheid als zelfonderschatting: de «waarheid over zichzelf» van Franciscus, de naam van de «mindere» broeders en de eigen wil in de Vermaningen.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Welkom in de Dialoog. Ik stel me voor: ik ben een gids door de franciscaanse bronnen, ik ben Franciscus niet en ik spreek niet in zijn naam. De vraag van vandaag klinkt eenvoudig: wat betekent het nederig te zijn? Velen denken bij het woord «nederigheid» meteen aan zichzelf klein maken. Voor we beginnen, interesseert me jouw vertrekpunt.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Voor mij is nederigheid jezelf niet belangrijk maken, op je plaats blijven.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Ik vermoed dat het iets anders is, maar ik zou niet kunnen zeggen wat.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Waarom noemden de broeders van Franciscus zich «mindere»?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Het is de meest verbreide idee, en ook het hardnekkigste misverstand. Als nederigheid zichzelf kleineren zou zijn, werd zij een subtiele manier om nog steeds met zichzelf bezig te zijn: met het eigen beeld, de eigen plaats, zelfs met de tentoongestelde middelmatigheid. De franciscaanse bronnen wijzen elders: niet jezelf klein denken, maar jezelf in de waarheid zien. Het verschil lijkt fijn, maar het verandert alles.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Wat is nederigheid dan werkelijk?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Is er een tekst van Franciscus die het zegt?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Deze onzekerheid is een goed vertrekpunt, en ik zeg het zonder ironie. Wie toegeeft het niet te weten, heeft al een stap gezet naar wat Franciscus onder nederigheid verstaat: jezelf in de waarheid zien, zonder je op te blazen en zonder je te verscheuren. Laten we proberen deze idee vorm te geven, uitgaande van de bronnen.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Goed: wat is het hart van de franciscaanse nederigheid?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Is er een passage uit de bronnen om samen te lezen?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Een precieze vraag, en het antwoord is een klein programma. In een samenleving gegrond op eer en rang wilde Franciscus dat de zijnen minderbroeders zouden heten: niemand «meerdere», niemand om te dienen. Zelfs de verantwoordelijken van de broederschap noemde hij «ministers», wat in het Latijn dienaren betekent. Het was geen taalkundige gril: het was de keuze van een plaats, de laatste, waarvan niemand kan worden verdreven.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "En in het dagelijkse leven, welk verschil maakt het?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Staat er in zijn geschriften iets over?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Hier zijn we in het midden. Voor Franciscus is nederigheid waarheid over zichzelf: klein voor God, alles verschuldigd wat we zijn en hebben, in staat te dienen zonder erkenning te eisen. Merk op dat deze waarheid ook je talenten omvat: ze als ontvangen gaven erkennen is geen hoogmoed, het is eerlijkheid. De nederige onderschat zich niet: hij houdt op een rol te spelen, in de ene zin en in de andere. En hij is vrij van de behoefte om te schitteren, een van de vermoeiendste slavernijen.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "En de eigen talenten? Moet men ze ontkennen om nederig te zijn?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Hoe vertaalt zich dat vandaag, bijvoorbeeld in het werk en online?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Wat zegt de tekst van de Vermaningen precies?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Dit is me genoeg: we kunnen afronden.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Er is een korte en scherpe tekst: de Vermaningen, instructies die Franciscus tot de broederschap richtte. Een van de doelen is de «eigen wil» die tot maat van alles wordt gemaakt: wie zich uit zichzelf rechtvaardig en wijs acht, waarschuwt Franciscus, verwijdert zich van de ware nederigheid, die bestaat in het eigen oordeel te onderwerpen en te dienen. Let wel: onderwerpen betekent niet doven. De bronnen vragen niet op te houden met denken, maar het eigen standpunt niet te verabsoluteren.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Het lijkt een verzaking van het eigen hoofd. Is dat niet te veel?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "En concreet, vandaag, hoe ziet dat eruit?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Laten we proberen te vertalen, wetend dat dit een moderne interpretatie is, geen middeleeuwse tekst. In het werk is nederigheid het eigen deel goed doen zonder er een schouwspel van te maken, een fout toegeven zonder alibi's te bouwen, de verdienste laten aan wie haar toekomt. Online, waar veel in zichtbaarheid wordt gemeten, is het kunnen publiceren en werken zonder dat het oordeel van anderen je meester wordt. Het is geen uitnodiging je te verbergen: het is een uitnodiging niet van het applaus af te hangen.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Mooi, maar in mijn omgeving wint wie zich naar voren dringt.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Het overtuigt me. Laten we afronden.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Een legitiem bezwaar, en het verdient een eerlijk antwoord. In de bronnen is gehoorzaamheid geen zelfuitwissing: dezelfde broederschap was een plaats waar men elkaar de noden toonde, dat wil zeggen waar men sprak. Het punt is niet het eigen oordeel af te schaffen, maar te weigeren dat het het hoogste tribunaal van alles is. Hier leveren de bronnen ons evenwel geen casuïstiek: ik kan je niet zeggen waar de grens in jouw concrete geval loopt. Dat blijft een werk van jou, en van wie je werkelijk kent.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Dat klopt. En in het leven van alledag?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Ik blijf hier liever staan.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Je hebt gelijk dat je het opwerpt, en ik antwoord je niet met een loopbaanadvies: dat is mijn rol niet. Ik zeg alleen dat de franciscaanse bronnen niet beloven dat nederigheid «werkt»: zij beloven dat zij vrij maakt. Soms kost het, en het tegendeel veinzen zou oneerlijk zijn. De keuze niet voor de goedkeuring te leven blijft juist een keuze: de jouwe, afgemeten op jouw context.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Eerlijk, dank je. Laten we afronden.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Laten we het hart van de lering herlezen.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Nee, en de bronnen, aandachtig gelezen, zeggen het tegendeel. De logica van Franciscus is die van het geschenk: als alles ontvangen is, zijn ook jouw vermogens dat, en ze ontkennen zou alleen een andere manier zijn om over jezelf te liegen. Nederigheid vraagt niet te zeggen «ik ben niets waard», maar de waarheid te zeggen: «dit heb ik ontvangen, dit ben ik verschuldigd». En wie een geschenk kan erkennen, kan ook danken: op de franciscaanse weg is dankbaarheid een deur van de vreugde.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "En hoe leeft men dit, in het concrete van vandaag?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "We kunnen hier sluiten.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Hier houden we op. Als je wilt, neem dan een vraag mee, geen taak: op welk punt van je dag speel je een rol, in plaats van in de waarheid te staan van wat je bent, in het goede en in de grens? Je hoeft niet aan mij te antwoorden, noch aan iemand. De andere gesprekken van de Dialoog wachten op je, wanneer je wilt: de vergeving, de armoede, de schepping, het geloof van Franciscus.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Doorloop dit gesprek opnieuw vanaf het begin.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Ontdek de andere gesprekken van de Dialoog.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Dank je dat je met mij door deze bronnen bent gelopen. Vanuit de lijst van de Dialoog kun je een ander gesprek openen, of dit terugvinden wanneer je wilt: de teksten blijven, en de vragen ook.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Begin dit gesprek opnieuw.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Rond voorlopig af."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Hoe kan men iemand vergeven?",
+      "theme": "perdono",
+      "description": "De Brief aan een minister en de strofe van het Zonnelied: vergeving als herhaalde beslissing, het verschil met de rechtvaardigheid en een eerlijk antwoord aan wie het niet kan.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Welkom in de Dialoog. Ik leid je: ik ben Franciscus niet en ik spreek niet in zijn naam, ik begeleid je in wat de bronnen werkelijk zeggen. De vraag van vandaag is een van de moeilijkste die er zijn: hoe kan men iemand vergeven? Ik beloof je geen comfortabel antwoord. Het helpt me te weten waar je vandaan komt.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Ik heb onrecht geleden en ik slaag er niet in de woede los te laten.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Betekent vergeven niet doen alsof er niets is gebeurd?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Ik wil eerst weten wat Franciscus over vergeving zegt.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Dank voor de openhartigheid. De franciscaanse bronnen beloven niet dat de woede verdwijnt, en zij vragen je niet te veinzen dat het onrecht niet is gebeurd. Wat zij voorstellen is anders: vergeving als een beslissing die zich vernieuwt, ook wanneer het gevoel haar niet volgt. Als je het vandaag niet kunt, diskwalificeert dat je niet: het is de regel, niet de uitzondering.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Een beslissing die zich vernieuwt: leg het me uit.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "En als ik het echt niet kan?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Wat schrijft Franciscus erover?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Nee, en het is de moeite waard het meteen helder te zeggen: vergeven is niet ontkennen. De franciscaanse bronnen verwarren barmhartigheid en onrechtvaardigheid niet: het gedane kwaad blijft kwaad, en de gevolgen blijven reëel. Vergeving wist hier niet uit wat is gebeurd: zij weigert dat de belediging het laatste woord heeft over de relatie. Het zijn twee verschillende vlakken, en ze onderscheiden is de eerste stap.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Kunnen vergeving en rechtvaardigheid dan samen bestaan?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Wat zegt Franciscus precies?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "De sleuteltekst is de Brief aan een minister: Franciscus schrijft aan een verantwoordelijke van de broederschap die met broeders moet omgaan die falen. De beroemde passage zegt in wezen: als een broeder duizendmaal voor je ogen zou hebben gezondigd, heb hem meer lief dan mij, en verkondig hem barmhartigheid. Duizendmaal: geen heroïsche beslissing eens en voor altijd, maar een keuze die elke dag opnieuw wordt gemaakt. Dat verandert de vraag: niet «voel ik dat ik vergeef?», maar «kies ik ook vandaag te vergeven?».",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Duizendmaal is te veel. Is het een realistische vraag?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "En de rechtvaardigheid? Moet wie faalt er niet voor instaan?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Het Zonnelied spreekt over vergeving, nietwaar?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Ja, en dezelfde Brief laat het doorschemeren: Franciscus vraagt barmhartigheid te verkondigen mits de ander berouw heeft, dat wil zeggen dat vergeving wie gefaald heeft niet onschuldig verklaart en hem niet ontslaat van herstel. Ook in zijn tijd schaften de vredestichtende broeders tribunalen en verantwoordelijkheid niet af: zij werkten opdat wraak niet de enige mogelijke rechtvaardigheid zou zijn. Vergeven en vragen dat het kwaad wordt erkend zijn geen vijanden. Zij kunnen samen gaan, ook al is het moeizaam.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "En waar begint men, in de praktijk?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Heeft de strofe van het Zonnelied er iets mee te maken?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "En als het onrecht te groot is, of te recent?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "En in de verdeelde steden van zijn tijd?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Men begint bij een correctie van perspectief. Als vergeving een gevoel was, zou je moeten wachten tot het komt: en vaak komt het niet, of het komt en gaat weer. Als het een beslissing is, kun je haar nemen ook met de woede nog brandend, en haar morgen hervatten, en overmorgen. De bronnen beschrijven geen lineair pad: het woord «duizendmaal» suggereert juist het tegendeel. Eerlijkheid: in de franciscaanse teksten zijn er geen technieken. Er is een richting.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "En als ik het vandaag echt niet kan?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "En met zichzelf? Kan men zichzelf vergeven?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Vertel me de strofe van het Zonnelied over de vergeving.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Een eerlijk antwoord: het kan gebeuren, en de bronnen oordelen je daar niet om. Ik evenmin: ik ben een gids door de teksten, geen biechtvader en geen therapeut. Ik zeg je twee dingen die te documenteren zijn. Het eerste: de Brief spreekt van duizendmaal, wat betekent dat vergeving al in de dertiende eeuw niet als een ogenblikkelijk gebaar werd gedacht. Het tweede: als een wonde diep is, haar delen met iemand van vertrouwen, of met een professional wanneer dat nodig is, is geen nederlaag. Over de tijden van de vergeving zwijgen de franciscaanse bronnen: hier kunnen we niet meer zeggen.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "En de vergeving jegens zichzelf?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Dank voor de eerlijkheid. Laten we afronden.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Er is een strofe van het Zonnelied die God looft om wie vergeeft uit liefde tot Hem, ziekte en beproeving verdragend. De kritiek dateert haar gewoonlijk in de zomer van 1226, en de traditie verbindt haar met een concrete episode: de bisschop en de podestà van Assisi waren in open conflict, en Franciscus, inmiddels ziek, zou die strofe hebben toegevoegd en het Zonnelied voor hen hebben laten zingen, om hen te verzoenen. Ik preciseer de niveaus: de strofe is authentiek, het verhaal van de episode bereikt ons via de hagiografische traditie. Het feit blijft: vergeving was voor Franciscus lof waardig, ook binnen de conflicten van zijn stad.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Vergeven midden in een conflict: is dat mogelijk?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "En wie er niet in slaagt te vergeven?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "We kunnen afronden.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Hier moet ik eerlijk zijn over de grenzen van de bronnen. De franciscaanse teksten spreken over vergeving jegens de broeders en jegens wie beledigt; over vergeving van zichzelf, zoals wij die vandaag verstaan, zeggen zij bijna niets expliciets. We kunnen bij analogie redeneren: als men duizendmaal barmhartigheid verkondigt aan wie faalt, is het moeilijk zichzelf uit te sluiten. Maar het blijft een redenering van ons, geen citaat. Ik zeg het je liever, dan Franciscus woorden in de mond te leggen die hij niet heeft geschreven.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Ik waardeer de precisie. En waar begint men opnieuw?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Laten we hier sluiten.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Er is ook een publieke dimensie. Het Italië van de communes was doortrokken van vetes en wraak, en de bronnen herinneren eraan dat de eerste broeders de vrede van huis tot huis verkondigden, met een groet die Franciscus zei te hebben ontvangen. Vergeving was in die wereld niet alleen een privézaak: het was het punt waar de keten van de vergelding kon worden gebroken. Ook vandaag bestaan de vetes, in families, in buurten, op sociale media, en de logica is dezelfde: iemand moet ophouden de slag terug te geven.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "En de strofe van het Zonnelied ontstond juist uit een conflict, niet?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Dit is me genoeg. Laten we afronden.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Hier houden we op. Als je wilt, neem dan één beeld mee, geen taak: vergeving als een weg die men meter voor meter opnieuw maakt, niet als een sprong die men eens en voor altijd doet. En als jouw wonde het vandaag niet toelaat, vroeg dit gesprek je niet te slagen: het vroeg je te begrijpen. De andere gesprekken van de Dialoog wachten op je wanneer je wilt.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Doorloop dit gesprek opnieuw vanaf het begin.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Ontdek de andere gesprekken van de Dialoog.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Dank je dat je een moeilijke vraag hebt aangegaan zonder kortere wegen. In de lijst van de Dialoog vind je de andere gesprekken: ik blijf hier, en de teksten ook.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Begin dit gesprek opnieuw.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Rond voorlopig af."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Was Franciscus tegen de rijkdom?",
+      "theme": "poverta",
+      "description": "Franciscus veroordeelde de goederen niet: hij bevrijdde van het bezit. De Regel van 1223, de verzaking voor de bisschop en wat dat vandaag betekent, zonder romantiek.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Welkom in de Dialoog. Ik stel me voor: ik ben een gids, niet Franciscus; met jou lees ik de bronnen en ik zeg je wanneer ze niet volstaan om te antwoorden. De vraag van vandaag zit vol misverstanden: was Franciscus tegen de rijkdom? Het korte antwoord is «nee, niet in de zin die je misschien denkt». Maar de lange weg is de moeite waard. Waar beginnen we?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Ik heb altijd gedacht dat hij het geld op zich verachtte.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Ik vermoed dat het punt iets anders is, maar ik kan het niet zeggen.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Is het niet alleen romantische armoede, van een negentiende-eeuwse prent?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Het is de meest verbreide reconstructie, en ook de minst nauwkeurige. In de teksten van Franciscus vind je geen veroordeling van de goederen alsof ze vuil waren: je vindt iets radicalers en fijners, namelijk de weigering ze zich toe te eigenen. Het doelwit is niet de rijkdom, het is het bezit: wat de dingen doen met wie denkt ze te bezitten. Laten we naar de tekst gaan die het het best zegt.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Welke tekst?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "En de beroemde scène van de verzaking?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Je vermoeden is gegrond. Het punt is niet de hoeveelheid goederen, maar het soort band: Franciscus wil broeders die zich niets toe-eigenen, omdat wie niet bezit niet hoeft te verdedigen, en wie niet hoeft te verdedigen vrij is om lief te hebben. Het is een logica van vrijheid, niet van afkeer. Ik toon het je in de tekst van de Regel.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Laten we de Regel lezen.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Vertel me eerst de scène voor de bisschop.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Het bezwaar is ernstig en verdient respect: romantische armoede bestaat, en het is een karikatuur die weinig franciscaans heeft. Dus sluiten we een verbond: geen idealiseringen. We kijken wat de bronnen zeggen — een scène verteld door de eerste biograaf en een normatieve tekst geschreven door Franciscus zelf — en dan oordeel jij of ze standhouden.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Goed: de scène van de eerste biograaf.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "De normatieve tekst.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Regel van 1223, de definitieve tekst die door de Kerk is goedgekeurd: de broeders eigenen zich niets toe, «noch huis noch plaats noch enig ding»; zij leven als pelgrims en vreemdelingen en gaan om aalmoezen zonder zich te schamen. De verklaarde reden is theologisch: de Heer heeft zich arm gemaakt voor ons. Maar er is ook een heldere menselijke logica: wat je niet bezit, bezit jou niet. De technische traditie noemt het «sine proprio», zonder iets van zichzelf. Geen minachting voor de dingen, die men ontvangt, gebruikt en dankt: bevrijding van het bezit.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Vertel me de verzaking voor de bisschop.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "En vandaag? Moeten we alles verkopen?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "En de echte armen? Riskeert men de ellende niet mooier te maken?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Thomas van Celano, de eerste biograaf, vertelt het zo: voor bisschop Guido en zijn vader Pietro di Bernardone geeft Franciscus zelfs de kleren terug en doet hij afstand van de vaderlijke goederen, zeggend voortaan alleen God vader te kunnen noemen. De bisschop bedekt hem met zijn eigen mantel. Ik preciseer de niveaus: de episode is een gedocumenteerd scharnier, maar de scenische details behoren tot het verhaal van Celano, dat hagiografie is, stichtende literatuur, geen proces-verbaal. De zin is hoe dan ook helder: publiekelijk de band met de rijkdom van de familie doorsnijden.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Een theatraal gebaar of een overwogen keuze?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "En wij vandaag, wat doen we ermee?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Een onvermijdelijke vraag, en het eerlijke antwoord is: de bronnen vragen niet aan iedereen hetzelfde. Die Regel was voor de broeders; Franciscus schreef geen regels voor kooplieden, ouders, ambachtslieden. Dus nee: er bestaat geen franciscaanse tekst die je beveelt alles te verkopen. Wat er bestaat is een ongemakkelijke vraag om te bewonen: welke dingen bezit ik, en welke bezitten mij? Het concrete antwoord is evenredig aan jouw leven, niet aan het zijne.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Hoe onderscheiden we gekozen armoede en ondergane armoede?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "En wie werkt, verdient, een gezin onderhoudt?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Geef me iets concreets, zonder extreme gebaren.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Het is het belangrijkste onderscheid van dit gesprek. De ondergane armoede — niets te eten hebben, niets om je te laten verzorgen, geen dak — is een maatschappelijke wonde om te verzorgen, geen ideaal om te beschouwen: Franciscus diende de armen, hij esthetiseerde hen niet. Franciscaanse armoede is iets anders: een vrije keuze zich niets toe te eigenen, gedaan om de vrijheid en om de solidariteit. Ze verwarren is de fout die men altijd moet vermijden: andermans ellende verheerlijken zou precies de «romantische armoede» zijn waarover we spraken.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Dus had de kritiek op de romantiek een kern van waarheid?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "En in de praktijk, voor mij, vandaag?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Laten we hier sluiten.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Theatraal was het zeker: en in een samenleving gegrond op recht en bezit kon alleen een openbaar gebaar een openbare band ontbinden. Maar het was geen improvisatie: Celano plaatst het na maanden van crisis, de gevangenschap in Perugia, de ziekte, de teleurstellingen. Als je een criterium wilt om gebaren te beoordelen, de zijne en de jouwe, hier is het: niet de intensiteit van het moment, maar wat erna komt. Franciscus leefde nog twintig jaar samenhangend. Ware gebaren herkent men aan de lange duur.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "En vandaag, zonder extreme gebaren?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Ik heb het begrepen. Laten we afronden.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Concreet dan, maar zonder recepten: het is mijn rol niet ze je te geven. De franciscaanse traditie suggereert een richting in drie zetten: kijken naar wat je bezit en je afvragen of het je vrij of voorzichtig maakt; de dingen gebruiken als ontvangen, niet als verschuldigd; de eenvoud ruimte laten vrijmaken — tijd, aandacht, geld — voor anderen. Het is een moderne interpretatie, ik zeg het je eerlijk: maar het is een interpretatie die trouw is aan de geest van het «sine proprio».",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Keer terug naar de tekst van de Regel.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Laten we afronden.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Geen enkele franciscaanse bron zegt dat werken en verdienen je van Franciscus verwijdert: de Regel is de levensvorm van een specifieke broederschap, niet de maat van elk bestaan. Integendeel, de logica is bijna omgekeerd: het probleem is niet hebben, maar dienen wat men heeft. Als je werk, je verdienste, je huis instrumenten worden — van jou en van anderen — en geen meesters, ben je dichter bij de geest van de Regel dan je denkt.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "En het risico de armoede te romantiseren?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Laten we afronden.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Hier houden we op. Ik laat je geen taak: ik laat je de vraag die dit gesprek heeft proberen te openen. Wat, van wat je bezit, bezit jou? Beantwoord haar rustig, of antwoord helemaal niet. Wanneer je wilt, staan de andere gesprekken van de Dialoog op de lijst: de nederigheid, de vergeving, de schepping, het geloof.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Doorloop dit gesprek opnieuw vanaf het begin.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Ontdek de andere gesprekken van de Dialoog.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Dank je dat je een uitgewerkt antwoord hebt gezocht op een vraag die vaak slogans krijgt. We zien elkaar terug in de Dialoog, wanneer je wilt: de bronnen verlopen niet.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Begin dit gesprek opnieuw.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Rond voorlopig af."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Waarom sprak Franciscus met de dieren?",
+      "theme": "creato",
+      "description": "Verwantschap, geen pantheïsme: het Zonnelied, de vogels van Celano, de wolf van de Fioretti en wat dit alles zegt — en niet zegt — aan de ecologie van vandaag.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Welkom in de Dialoog. Ik ben je gids: ik ben Franciscus niet, en wanneer de bronnen niet volstaan zeg ik het je. De vraag van vandaag zinkt in eeuwen van beelden: Franciscus die tot de vogels spreekt, tot de wolf, tot de vissen. Wat zit erachter? Het hangt af van wat je zoekt.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Ik wil de waarheid: is het alleen een legende dat hij met de dieren sprak?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Ik vraag me af of hij God in de natuur zag: was hij pantheïst?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Vertel me het Zonnelied.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Een vraag van een historicus, en het antwoord is gelaagd, zoals bijna alles wat Franciscus betreft. De kern is vroeg bevestigd: Thomas van Celano, een nabije biograaf, vertelt de prediking tot de vogels in sobere tonen. De meer scenische verhalen — de wolf van Gubbio, de vissen, de wormen — bloeien een eeuw later in de Fioretti. Dus: een oude herinnering en een literaire versterking. Ik toon je beide, gescheiden.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "De sobere versie van Celano.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "De versie van de Fioretti: de wolf.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Nee, en de tekst die het bewijst is het Zonnelied. Franciscus looft God «om» de schepselen — broeder zon, zuster maan — hij looft de schepselen niet alsof ze goddelijk waren. Het verschil is beslissend: de natuur is niet God, zij is familie. De schepselen zijn zusters omdat zij dochters zijn van dezelfde Vader. Het juiste woord is «verwantschap», niet pantheïsme.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Laten we het Zonnelied lezen.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "En de verhalen met de dieren?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Het Zonnelied, geschreven in 1225-1226, toen Franciscus ziek en bijna blind was: het behoort tot de eerste poëtische teksten in de Italiaanse volkstaal. Het looft God om broeder zon, «die de dag is», om zuster maan en de sterren, om broeder wind, om zuster water «nuttig en nederig en kostbaar en kuis», om broeder vuur en om «zuster onze moeder aarde». Twee dingen om op te merken. Het eerste: het is geen hymne aan de natuur, het is een lof aan God door de natuur. Het tweede: het ontstaat in het lijden, niet op een idyllische wandeling.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "En de prediking tot de vogels?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "En de wolf van Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Wat zegt dit alles aan de ecologie van vandaag?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "De versie van Celano is verrassend sober: Franciscus ziet zwermen vogels, richt zich tot hen als tot schepselen die kunnen luisteren en spoort hen aan God te loven. Geen uitgewerkte dialogen, geen spectaculaire wonderen: een gebaar van erkenning. De Fioretti, een eeuw later, zullen het kruisteken toevoegen, de zwermen die zich schikken om te luisteren, het plechtige afscheid. Eerst de stijl van Franciscus, dan de stijl van de devotie. Beide zeggen ons iets, maar iets verschillends.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "En de wolf van Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Als het literatuur is, welke waarde heeft het dan?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "En de hedendaagse ecologie?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "De wolf van Gubbio is het meesterwerk van de Fioretti: de geterroriseerde stad, Franciscus die het beest tegemoetgaat, het toespreekt als een broeder en een verbond bemiddelt — de stad zal het voeden, het zal niemand meer kwaad doen. Ik moet helder zijn over het literaire genre: het is hagiografie van de veertiende eeuw, herinnering van de devotie, geen verifieerbare kroniek. Maar kijk wat zij bewaart: de vrede die ontstaat door tegemoet te gaan aan wat angst aanjaagt, en een dier behandeld als gesprekspartner en niet als voorwerp. De vorm is legende; de richting is authentiek franciscaans.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Dus is het in de grond verzonnen?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "En wat haalt de ecologie van vandaag eruit?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Hier is eerlijkheid in beide richtingen nodig. Aan de ene kant: het Zonnelied biedt vandaag een zeldzame grammatica, de zorg voor de schepping uit dankbaarheid en verwantschap, niet uit nut of angst. Aan de andere kant: Franciscus was geen moderne milieuactivist, en zijn bronnen kennen geen klimaat, uitstervingen, vervuiling. Wie bij hem een gedetailleerd ecologisch programma zoekt, forceert de teksten. Wie een blik zoekt — de wereld als familie, niet als magazijn — vindt iets dat nog in staat is gedrag te verschuiven.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "En toch is hij tot patroon van de ecologie uitgeroepen, niet?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Wat blijft er concreet voor mij?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Nee: «geen kroniek» betekent niet «uit het niets verzonnen». De prediking tot de vogels staat bij Celano, enkele jaren na de dood van Franciscus; de Fioretti bekleden haar met legendarische kleuren, maar de draad vertrekt vanuit een herinnering. Zo werkt veel hagiografie: de vorm vertelt de devotie van wie haar heeft doorgegeven, de substantie bewaart een reële trek. De bronnen lezen betekent precies dit: de twee dingen samenhouden zonder ze te verwarren.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Duidelijk. En voor de ecologie van vandaag?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Laten we dan terugkeren naar het Zonnelied.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Ja: in 1979 riep Johannes Paulus II hem uit tot patroon van de ecologen. Het is een moderne titel — interpretatie, geen middeleeuwse bron — en als zodanig moet men hem hanteren. Hij is legitiem als hij de wortel van de franciscaanse blik aanwijst: de verwantschap met alle schepselen. Hij wordt misleidend als hij Franciscus platdrukt tot ecoloog avant la lettre, en uitwist dat het Zonnelied vóór alles een lof aan God is, geschreven door een zieke man die dankte. De titel zegt iets waars, op voorwaarde hem daar niet toe te reduceren.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "En voor mij, concreet?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "We kunnen afronden.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Concreet betekent hier een kwestie van blik eerder dan van handelingen. Het Zonnelied suggereert de wereld te bewonen als verwantschap: het water als zuster om niet te verspillen, de aarde als moeder waarvan men kind is, de schepselen als gezellen van de lof en niet als voorraden. De praktische keuzes — wat je koopt, wat je weggooit, hoe je reist — komen daarna, en de bronnen dicteren ze niet. Maar een veranderde blik maakt ze mogelijk, en minder vermoeiend.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Laten we het Zonnelied samen herlezen.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Laten we afronden.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Hier houden we op. Ik laat je een beeld, geen taak: een bijna blinde man die een lof maakt voor de zon die hij niet meer ziet, en haar broeder noemt. Als je op een dag een boom, een hond, het water uit de kraan als een verwant zult bekijken in plaats van als een ding, zul je weten waar die blik vandaan komt. De andere gesprekken van de Dialoog wachten op je op de lijst.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Doorloop dit gesprek opnieuw vanaf het begin.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Ontdek de andere gesprekken van de Dialoog.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Dank je dat je met mij kroniek, legende en lof hebt onderscheiden: het is een oefening die ver voorbij Franciscus dient. We zien elkaar terug in de Dialoog, wanneer je wilt.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Begin dit gesprek opnieuw.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Rond voorlopig af."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Kan men Franciscus volgen zonder gelovig te zijn?",
+      "theme": "fede",
+      "description": "Een niet-ontwijkend antwoord op een ernstige vraag: het christelijke geloof was het middelpunt van Franciscus en de app verbergt het niet. Wat blijft voor wie niet gelooft.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Welkom in de Dialoog. Ik ben een gids door de bronnen: ik ben Franciscus niet, ik ben geen biechtvader, en ik beoordeel niemands geloof, ook het jouwe niet. De vraag van vandaag is legitiem en ernstig: kan men Franciscus volgen zonder gelovig te zijn? Ik beloof je een niet-ontwijkend antwoord. Zeg me eerst vanwaar jij spreekt.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Ik ben gelovig, en ik wil zijn geloof beter begrijpen.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Ik ben niet gelovig: wat kan ik van hem ontvangen?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Ik weet niet wat ik geloof. Is dit gesprek voor mij?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Dan gaan we recht naar het midden. Het geloof van Franciscus was geen cultureel etiket: het was de bron van al het overige — van de armoede, van de broederschap, van de vrede. In het Testament vertelt hij dat de Heer hem een eenvoudig geloof in de kerken gaf; en heel zijn verhaal, van San Damiano tot La Verna, wordt door de bronnen gelezen als navolging van de arme en gekruisigde Christus. Laten we de teksten zien.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "De teksten, ja.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "En zijn verhouding tot de Kerk van zijn tijd?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Kort antwoord: ja, dat kan, met een voorwaarde van eerlijkheid. Je kunt hem bestuderen, bewonderen, je door zijn stijl laten ondervragen zonder tot zijn geloof toe te treden; deze app is ook voor jou gemaakt, en niemand beoordeelt hier jouw positie. De voorwaarde is hem niet te amputeren: een Franciscus zonder Christus wordt niet universeler, hij wordt een ander personage. Als je aanvaardt hem heel te ontmoeten, wortel inbegrepen, is er veel te ontvangen.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Toon me dan deze wortel.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Wat blijft er concreet voor wie niet gelooft?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Ja, het is voor jou: misschien meer dan voor wie dan ook. Vragen over het geloof vragen geen bewijs van toebehoren: zij vragen eerlijkheid, en die heb je zojuist gehad. Ik zal je in geen enkele richting duwen: ik toon je de teksten, ik onderscheid de niveaus en ik houd op waar de bronnen ophouden. Laten we beginnen bij wat Franciscus zelf vertelt.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Goed: wat vertelt hij?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "En wie niet tot geloof komt, wat ontvangt die?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Twee getuigenissen. De eerste is van hem: in het Testament, gedicteerd kort voor zijn dood, herinnert Franciscus eraan dat de Heer hem een eenvoudig geloof in de kerken gaf, waar hij bad gericht tot Christus. De tweede is van Celano: in 1224, op de berg La Verna, zou Franciscus de stigmata hebben ontvangen, de tekenen van het lijden, die hij probeerde te verbergen. Merk de niveaus op: het Testament is het woord van Franciscus; de stigmata bereiken ons als getuigenis van de dichtstbijzijnde bronnen, en de app presenteert ze zo, niet als een meetbaar gegeven. Samen zeggen ze één ding: het middelpunt van zijn leven was de persoon van Christus.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "De stigmata: hoe moet ik ze verstaan?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Waarom dringt de app zo op dit punt aan?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "En voor wie niet gelooft, wat blijft er?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Liet zo'n totaal geloof geen ruimte voor twijfels?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Met dezelfde eerlijkheid waarmee de bronnen ze presenteren. Celano vertelt ze enkele jaren na de dood van Franciscus, en de traditie bewaart ze als teken van een totale gelijkvormigheid aan de gekruisigde Christus. De historische en theologische beoordeling wordt door geleerden besproken; hier laten de bronnen ons niet toe meer te zeggen, en wie je meer zou zeggen, in de ene of de andere zin, zou voorbij de teksten gaan. Wat we kunnen zeggen: voor zijn broederschap bevestigde dat teken wat zijn leven al zei.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "En de verhouding tot de Kerk?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Ik begrijp het. En voor wie buiten het geloof blijft?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Om twee redenen, beide uitgesproken. De eerste is historisch: Franciscus de christelijke wortel ontnemen maakt hem niet universeler, het maakt hem onherkenbaar — de armoede is «omdat de Heer zich arm heeft gemaakt», de vrede is een ontvangen groet, de broederschap is evangelie dat samen geleefd wordt. De tweede is redactioneel: deze app legt uit, zij bedrijft geen zending. Het geloof van Franciscus uitleggen is niet je vragen het tot het jouwe te maken; het is weigeren je een verzachte versie van de feiten te geven.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "En wat kan wie niet toetreedt ontvangen?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "En hoe leefde Franciscus de institutionele Kerk?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Dit is me genoeg. Laten we afronden.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Veel, mits het heel wordt genomen. De stijl — de onbaatzuchtigheid, de minderheid, de vrede die gebouwd wordt door tegemoet te gaan, de blik van verwantschap op de schepping — spreekt ook tot wie de wortel niet deelt. Maar die dingen zijn in de teksten vruchten van die boom: ze kennen zonder de wortel is mogelijk, ze ten einde begrijpen zonder de wortel niet. Je kunt je laten ondervragen zonder toe te treden: het is een ernstige houding, en de geschiedenis van de ideeën is vol mensen die hebben geleerd van tradities die niet de hunne waren. Niemand noteert hier jouw geestelijke score.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Laten we dan de teksten herlezen die die wortel vertellen.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Laten we afronden.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "De bronnen vertellen geen doctrinaire twijfels in de moderne zin: hier kunnen we niet zeggen wat de teksten niet zeggen. Maar zij vertellen zeer harde beproevingen: de ziekte, het bijna verloren gezicht, de pijn de broederschap te zien groeien en veranderen voorbij zijn bedoelingen. En juist uit dat seizoen, volgens Bonaventura, ontstaat het Zonnelied. Het geloof van Franciscus was geen afwezigheid van nacht: het was lof binnen de nacht. Wat iets heel anders is dan naïviteit.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "En horen de stigmata bij dit seizoen?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "We kunnen afronden.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Noch rebel noch aangepast: iets interessanters. Franciscus leefde binnen de middeleeuwse Kerk, zocht hardnekkig haar goedkeuring voor zijn levensvorm en aanvaardde haar grenzen, terwijl hij haar tot hervorming van onderaf dreef, met het voorbeeld en niet met de opstand. Zijn gehoorzaamheid aan de Kerk was deel van zijn geloof, geen berekening. Het begrijpen vermijdt twee spiegelbeeldige karikaturen: de ongehoorzame heilige die de modernen dierbaar is en de volgzame heilige die de devote mensen dierbaar is.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Laten we terugkeren naar de teksten van zijn geloof.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Laten we afronden.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Hier houden we op. Ik laat je geen taak en nog minder een examen: ik laat je een criterium. Wanneer je Franciscus zult ontmoeten, in deze app of elders, vraag je dan altijd af of de versie die je voor je hebt hem heel toont, christelijke wortel inbegrepen. Daarna blijft jouw positie de jouwe: niemand oordeelt haar hier. De andere gesprekken van de Dialoog wachten op je op de lijst.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Doorloop dit gesprek opnieuw vanaf het begin.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Ontdek de andere gesprekken van de Dialoog.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Dank voor de ernst van de vraag en dat je een antwoord zonder kortere wegen hebt aanvaard. We zien elkaar terug in de Dialoog wanneer je wilt: ware vragen hebben geen vervaldatum.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Begin dit gesprek opnieuw.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Rond voorlopig af."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

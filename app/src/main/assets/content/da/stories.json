@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Mester Bernardo",
+      "description": "Vært på kroen i Egenes landsby i tredive år: praktisk, mistænksom over for fremmede, ude af stand til at lade nogen blive i kulden. Om landsbyen kender han enhver gæld og enhver venlighed.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Enke og urtekender i Egenes landsby. Skarp iagttager og landsbyens hukommelse: intet af det, der sker på vejen, undgår hende.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Broder Tommaso",
+      "description": "Mindrebroder på gennemrejse ad Umbriens veje. Slidte sandaler, lappet kutte: han har vane for tavshed og den sjældne gave at lytte.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martino",
+      "description": "Tigger, mødt på vejen til Egenes landsby. Han var beslagsmed i Spoleto, før sygdommen tog smedjen, huset og til sidst pladsen blandt mennesker fra ham.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Giacomo",
+      "description": "Murer fra Assisi. Han arbejder på genopbygningen af den lille kirke San Damiano og har på nært hold set den unge Frans bære sten og synge.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matteo",
+      "description": "Bjergjæger, anfører for vagten ved en port i Gubbio i dagene med frygten for ulven. Furet ansigt, lansen aldrig langt borte, et givet ord, der holder.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido II, biskop af Assisi",
+      "description": "Biskop af Assisi fra 1204. Dokumenteret af kilderne: foran byen dækkede han Frans med sin egen kappe i scenen med afkaldet på faderens gods.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Pietro di Bernardone",
+      "description": "Rig klædehandler i Assisi, far til Frans. Konflikten med sønnen om det solgte gods mundede ud i den offentlige scene foran biskoppen, fortalt af Thomas af Celano.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Frans di Bernardone",
+      "description": "Købmandens unge søn, som i Assisi i disse år forlader alt og begynder forfra barfodet. Vandringsmanden krydser ham på afstand eller i få øjeblikke; hans ord er her få og tro mod kilderne.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Vandringsmandens kappe",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "I et senefterårsregn når vandringsmanden Egenes landsby og møder en forfrossen tigger: vandringens første valg.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Senefterårets regn har fulgt dig i tre dage. Da du får øje på de første huse i Egenes landsby, er aftenen allerede ved at lukke stierne, og din kappe drypper af vand.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Under en hæk af slåen krummer en skikkelse sig sammen i en luvslidt sæk. Han rækker ikke hånden frem: han ser kun på dig, med de klare øjne hos en, der er holdt op med at bede.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martino har stiernes alder. Han var beslagsmed i Spoleto, før sygdommen tog smedjen og huset fra ham. Nu er vejen alt, hvad han har tilbage.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Jeg beder ikke om noget, fremmede. Men natten bliver lang og iskold, og min ryg tåler ikke fugten mere.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martino ryster under hækken. Hvad gør du?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Du tager kappen af og lægger den over hans skuldre.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Du rækker ham armen og følger ham ind til landsbyen.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Du sætter dig ved siden af ham under hækken og lytter til ham.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Kappen forlader dine skuldre, og kulden går straks i knoglerne. Men i den kulde er der en ny lethed, som du ikke kan forklare.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Jeg har intet at give dig tilbage, ven. Kun mit navn: Martino. I landsbyen vil de vide, hvad slags fremmed du er.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "I går langsomt, støttet til hinanden, i den tætte regn. Ved kroens port er lysene endnu tændt.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Har du samlet selskab op på vejen, fremmede? Kom ind begge to: min ild stiller ingen spørgsmål.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Jeg var beslagsmed i Spoleto: jeg skoede herrernes heste. Så begyndte hænderne at ryste, og ingen vil have en smed, der ryster. Tak, fordi du satte dig: folk går forbi og videre, som om uheld smittede.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Da I rejser jer, er regnen hørt op. Du viser ham vejen til landsbyen og ser ham fjerne sig langsomt, indtil mørket tager ham.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Kroen i Egenes landsby dufter af brænde og brød. Den lave ild tørrer klæderne og løser vandringens træthed.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Du træder hen til disken, forfrossen og uden kappe. Mester Bernardo måler dig længe, så rækker han dig en øse varm vin: »Har du givet kappen bort, en aften som denne? Enten er du gal, eller også er du bedre, end du ser ud. Det får vi se.«",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Mester Bernardo har drevet kroen i tredive år: praktisk, mistroisk, ude af stand til at lade nogen blive i kulden. Om landsbyen kender han enhver gæld og enhver venlighed.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Her forærer ingen noget, fremmede: brødet betales, og ulykkerne også. Men pladsen ved ilden er ikke til salg. Den tilhører den, der kommer.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "I et hjørne findeler en kvinde med vågne øjne urter i en morter. Det er Lucia, enken, der plejer landsbyen med rødder og tålmodighed. Intet af det, der sker på vejen, undgår hende.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Jeg så dig standse under slåenhækken. Mange går forbi i det sving: vejen lærer hurtigt ikke at se. Du standsede. Husk det, når nogen vil sige dig, hvem du er.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Du har opdaget: Ingen er fremmed. Velkomsten begynder sådan: ikke med en idé, men med en hæk, en forfrossen mand, en pause. At gå den i møde, som verden lærer én at undgå, er det første skridt på enhver vandring.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Under den hæk, hvad satte dig i bevægelse, og hvad holdt dig tilbage? Tænk på dine veje i dag: hvem møder du til daglig, og foran hvem har du lært at gå forbi?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Natten går stille. Om morgenen finder du på kroens disk en håndfuld kastanjer og ikke et ord: i landsbyen husker man tingene. Din vandring er begyndt.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Købmandens søn",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, begyndelsen af 1206: vandringsmanden ankommer i de dage, hvor Frans foran biskop Guido giver alt tilbage til faderen. Byen ser til og spørger sig selv.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi tager imod dig med en summen, der ikke er markedsdagenes. I stræderne taler folk lavmælt om ét navn: sønnen af herre Pietro di Bernardone, klædehandleren.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Ved landsbyens kilde forklarer en kvinde dig det: faderen har slæbt den unge for biskoppen for at få det solgte gods tilbage, og pladsen fyldes. Under murene, ved den forfaldne lille kirke San Damiano, kæmper en murer alene med en styrtet mur.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Stemmerne på pladsen vokser. På den ene side mængden, på den anden en mand alene med sine sten.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Du går ned til San Damiano for at give mureren en hånd.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Du løber ud på pladsen, før mængden lukker sig.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Du går op ad trinene til San Rufino for at se fra oven.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "I en time løfter du sten ved siden af mureren, mens mængden larmer deroppe. Manden arbejder tavst, så peger han på den lille kirke: en ung mand fra Assisi reparerer den, siger han. Ham, alle taler om.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Han bar sten hertil, som om de var relikvier, og sang. De siger, han er blevet gal. Jeg har set mange gale: ingen arbejdede sådan.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Da du går op på pladsen igen, er mængden allerede ved at opløses. Du samler brudstykker: den unge har givet alt tilbage til faderen, selv klæderne, og biskoppen har dækket ham med sin egen kappe. Nogen ler. Mange gør ikke.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Du baner dig vej gennem mængden hen under biskoppens palads. I midten en mager ung mand med brændende øjne; over for ham en ældre mand, der ryster af vrede: herre Pietro di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Frans er omkring fireogtyve og har holdningen hos en, der er vokset op blandt kostbare stoffer og fester. I dag, stående foran biskoppen, synes han allerede at have lagt alt det bag sig.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Mine klæder, min hest, mine penge: solgt for hans galskaber! Jeg vil have retfærdighed, monsignore. Lad ham give afkald på alt mit, indtil den sidste tråd.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "En lang tavshed. Så trækker den unge klæderne af, ét for ét, og lægger dem ved faderens fødder. Mængden holder vejret. Biskop Guido tager kappen af og dækker hans nøgne skuldre.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Indtil i dag har jeg kaldt Pietro di Bernardone far. Fra nu af kan jeg frit sige: Vor Fader, du som er i himlene.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Fra domkirkens trin er pladsen en myretue. Du hører ikke ordene, men du ser det hele: den unge, der klæder sig af, den gamle, der samler klæderne op, biskoppen, der åbner sin kappe.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Ved siden af dig sukker en æblesælger: jeg har set retssager og slagsmål på denne plads, siger han, men aldrig en søn, der giver alt tilbage sådan. Rundt om ler nogen råt, nogen tørrer øjnene.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Aftenen sænker sig over Assisi. På kroerne taler man ikke om andet: nogen håner den unge, nogen kalder ham helgen, nogen ryster på hovedet og tænker på sine egne børn.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Biskop Guido krydser den affolkede plads med den trætte gang hos en, der har styret en vanskelig dag. Det er ham, der har dækket Frans med sin egen kappe, foran alle.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Jeg har set mange mænd klamre sig til tingene i mit liv. Aldrig nogen slippe dem sådan. Bed for den dreng: og bed for os, der ser til og ikke forstår.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Pladsen tømmes. Hvad gør du, før du tager vejen op igen?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Du følger på afstand Frans, som er gået ned mod San Damiano.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Du bliver og lytter til pladsens stemmer.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Du vender tilbage til mureren for at gøre det færdigt, du begyndte.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Du følger Frans til den forfaldne lille kirke. Du ser ham samle en sten op, børste den af og lægge den på muren som en, der rydder op i et hus. Du vover ikke at forstyrre ham. Du tager vejen igen med det billede i øjnene.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Du bliver, til faklerne slukkes. Du hører hele det menneskelige menageri: misundelsen, hånen, den tilbageholdte beundring, fædrenes frygt. Byen vil bruge år på at afgøre, hvad den har set.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Kommet tilbage for at gøre muren færdig? Godt. Sten lyver ikke: de bliver, hvor du lægger dem. Den dreng forstår det: han begynder forfra fra grunden. Med sig selv, ikke kun med kirkerne.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Hvad der er dokumenteret",
+          "text": "Frans' afkald foran biskop Guido i begyndelsen af 1206 fortælles i Thomas af Celanos første levned, den biografi, der står helgenen nærmest: tilbagegivelsen af klæderne, ordene om Faderen, som er i himlene, biskoppens kappe. Også genopbygningen af San Damiano er dokumenteret. Til fiktionen hører derimod den vandringsmand, du spiller, mureren Giacomo og de samtaler, der samles op på pladsen.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Du har opdaget: Intet eget, alt modtaget. Afkaldet er ikke foragt for tingene: det er befrielse fra tanken om at eje dem. Den, der intet ejer, skal intet forsvare og kan modtage alt som gave.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Du forlader Assisi, mens lysene tændes ét for ét. Du har set en mand stå nøgen og fri på en plads og en hel by spørge sig selv. Også du går lettere: eller måske blot mere opmærksom på tingenes vægt.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Manden ved vejkanten",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "På vejene mellem landsbyerne forkynder lyden af en klaptræ en spedalsk. Vandringsmanden må gøre regnskab med frygten, væmmelsen og respekten: og med et ansigt, han kender.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Vejen mellem landsbyen og dalen følger udhvilede marker og stenege-skove. Ved en skillevej hører du en tør, rytmisk lyd: det træklaptræ, hvormed de spedalske melder deres komme.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Ved vejkanten sidder en mand, svøbt i laser. Det første, du mærker, er din egen krop, der stivner: skridtet, der sagtner, åndedrættet, der holdes tilbage, lysten til at gå over på den anden side.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Så ser du det: på mandens skuldre, lappet og falmet, er din kappe. Den, du gav bort aftenen, du ankom til Egenes landsby. Du genkender kappen, før du genkender ham.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Kom ikke nærmere, ven: sygdommen har taget mig, og loven sender mig ud af verden. Men din kappe holdt mig i live vinteren igennem. Jeg er Martino: jeg skylder dig livet, og jeg kan ikke engang trykke din hånd.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "En spedalsk ved vejkanten. Hvad gør du?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Du går hen et skridt fra ham og taler til ham.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Du lægger brød og figner på en sten uden at gå nærmere.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Du går forbi. Men efter tyve skridt standser du og vender om.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "På nært hold, under sygdommens grå aske, genkender du de klare øjne hos manden fra hækken: det er Martino, tiggeren fra din første dag i landsbyen.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Sygdommen tog mine fingre, så tog landsbyen resten. Jeg slår på dette træ, og folk flygter, før de overhovedet ser mig. Du blev. Du ved ikke, hvilken gave det er at blive set i ansigtet.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Du lægger brødet og fignerne på en flad sten, halvvejs mellem dig og ham. Det er den måde, alle bruger: næstekærlighed på sikker afstand. Han bøjer hovedet, langsomt.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Brødet er nok, og jeg takker dig. Men husk det, fremmede: folk som mig dør to gange. Første gang, når sygdommen kommer, anden gang, når ingen kalder dem ved navn mere.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Du tager tyve skridt mod dalen. Så standser skammen dig stærkere end klaptræet: du vender langsomt tilbage til vejkanten. Manden løfter blikket, forbavset.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Mange går forbi, få vender om. Skridtet tilbage er det sværeste af alle: det ved jeg, jeg har også lært det. Sæt dig, hvis du vil. Fortæl mig, hvor du kommer fra.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "I bliver siddende og taler, mens solen går ned. Martino fortæller dig om en broder fra Assisi, den købmandssøn, der forlod alt: nu går han ind i lazaretterne, vasker sårene og kalder hver enkelt ved navn.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Lazarettet ligger i dalen, hinsides broen, siger Martino. Hvis du søger den broder, finder du ham dér.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Du tilbyder at følge ham helt til lazarettet.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Du lover ham, at ingen i landsbyen vil glemme ham.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Du følger ham gennem dalen, langsomt, uden at røre ham, men uden at vige udenom. Ved broen tager I afsked, som venner gør: med savnet over at måtte skilles.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Landsbyen jog mig bort, siger Martino. Men hvis nogen deroppe stadig udtaler mit navn, er jeg mindre død. Du lover ham det. Du ved endnu ikke, hvad det vil koste at holde det løfte.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Frans' ord",
+          "text": "I Testamentet, hans mest personlige skrift, dikteret ved livets ende, fortæller Frans, at Herren førte ham ind blandt de spedalske, og at han viste dem barmhjertighed: det, der forekom ham bittert, blev forvandlet til sødme (Testamentet 1-3). Det er en af de få episoder, der bevidnes af hans egen stemme. Martino og jeres møde hører til Vandringsmandens fiktion.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Du har opdaget: Mødet, der forandrer livet. Næstekærligheden er ikke en følelse: den er den kropslige gestus hos den, der nærmer sig den udstødte, og opdager, at bitterheden vendes til sødme. Den, der giver, stiller sig ikke over den, der modtager: de mødes.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Du har opdaget: At blive næste med kroppen. I Testamentet siger Frans ikke, at han følte barmhjertighed: han siger, at han gjorde den. Medfølelsen er sand, når den lader sig nå af den andens lidelse, indtil hænderne bevæger sig.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Hvad satte din krop i bevægelse i dag, før dine tanker: frygt, væmmelse, ømhed? Husk et ansigt, du har lært at undgå. Hvad hedder det?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Du tager vejen op igen i mørket, med klaptræets lyd, der tabes bag dig. Noget i din måde at se på mennesker er forandret for altid.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Udyret fra Gubbio",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio lever i rædsel for en grum ulv. Mellem dem, der organiserer forsvaret, dem, der følger den ubevæbnede broder, og dem, der søger en mægling, ser vandringsmanden en fred fødes.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio viser sig pludselig, klynget til bjerget. Men portene er låst midt på dagen, og markerne omkring er øde: ingen sender flokkene på græs mere.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matteo anfører portvagten: bjergjæger, furet ansigt og lansen aldrig langt borte. Det er ham, der organiserer jagterne på udyret.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "En ulv, fremmede. Stor som en kalv og uden frygt for mennesker. Den har taget får, hunde og siden værre. Vi rykker ud tyve mand, bevæbnede. Hvis du har sikre ben, så hold dig fra skoven.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "På kroen ved porten går et rygte, der ligner en spøg: der er en broder fra Assisi i byen, en af de barfodede, der hilser ved at ønske fred. Han siger, at han selv vil gå alene og ubevæbnet ud for at møde udyret.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Byen er klemt mellem frygten og vantroen. Hvad gør du?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Du hjælper Matteo med at organisere forsvaret af huse og flokke.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Du følger broderen uden for murene og bliver nogle skridt bagved.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Du overtaler jægerne til at følge broderen uden lanser.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Hele natten låser I porte, bærer risknipper og organiserer vagthold. Hvis udyret angriber, bliver byen ikke overrasket. Det er et virkeligt arbejde, og folk ånder.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Jeg holder ikke af dem, der taler til ulve, men jeg holder af dem, der arbejder. Du har arbejdet. I morgen, med lanser eller uden, er Gubbio rede.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Om morgenen ser I fra murene broderen gå alene ud mod skoven. En meget lang tavshed. Så dukker han op på vejen igen: og ved siden af ham, føjelig som et lam, går ulven.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Du går tre skridt bag broderen, forbi det sidste hus. Skoven lukker sig over stien, og frygten snører din hals: men hans skridt er rolige og trækker også dine frem.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Frygt ikke, broder. Vi går en skabning i møde, der er sulten og bange, som vi alle. Bliv nær, hvis du vil.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Udyret kommer ud af skoven med en knurren. Broderen gør korsets tegn og taler til det som til en broder: han tilbyder fred i en pagts navn. Og ulven lægger sig for dine øjne ved hans fødder.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Du taler længe med Matteo og hans folk: ingen lanser, ingen hunde. I vil følge broderen på afstand, rede til alt, men besluttede på ikke at slå først. Det koster møje at overbevise dem: frygten vil altid have jernet.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Vi gør, som du siger. Men hvis udyret springer, svarer jeg ikke for noget. Må himlen hjælpe os: vi går på jagt uden våben.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Halvdelen af byen følger tavst med ad stien. Da ulven viser sig, søger hundrede hænder våben, der ikke er der: men ingen løftes. Broderen taler, udyret dukker sig, og freden begynder sådan: af en frygt, som ingen læsser af på den anden.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "På pladsen, foran hele Gubbio, besegler broderen pagten: byen vil føde ulven alle dens dage, og ulven vil ikke mere krumme et hår på mennesker eller dyr. Udyret løfter poten, og pladsen bryder ud.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Frygten opløses i fest. Hvad gør du?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Du tilbyder hver dag at bringe et brød til ulvens hule.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Du bliver hos Matteo og piller fælderne fra hinanden i skoven.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Du sætter dig på pladsen og samler byens stemmer.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "De dage, du bliver i Gubbio, når et brød fra dig hulen hver morgen. Børnene følger dig på afstand: de vil se, om det er sandt, at udyret ikke bider den hånd, der mætter det.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "I piller sakse og snarer fra hinanden en hel dag. År om at sætte dem, siger Matteo, og en barfodet broder gør dem unyttige på en formiddag. Han ler, men der er respekt i hans latter.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "På pladsen hører du byen begynde at fortælle om sig selv igen: den gamle kone, der i smug bragte ham suppen, bageren, der skylder ham fingrene, børnene, der nu kalder ham ved navn. Frygten havde slukket selv historierne.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Fortælling eller historie?",
+          "text": "Ulven fra Gubbio fortælles i Fioretti, en samling fra slutningen af 1300-tallet (kap. 21): hagiografisk litteratur, ikke krønike, og intet samtidigt dokument bekræfter den. Vi fremstiller den som en erindringsfortælling, ikke som historisk kendsgerning. Derimod har fredshilsenen, som Frans siger, han modtog, og som huskes i Testamentet, og de første brødres forkyndelse af freden dokumentarisk grund. Din rolle i forløbet er fiktion.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Du har opdaget: Fredshilsenen. Fred er ikke fravær af krig: den er et budskab, man bærer ud, et mod, man har. Den fødes ved at gå det i møde, der gør bange, uden våben i hånden.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbio havde tre veje: at forsvare sig, at stole på, at mægle. Hvilken valgte du, og hvorfor? I dit liv, hvem eller hvad er den ulv, som alle forsvarer sig imod ved at låse portene?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Du forlader Gubbio, mens ulven, nu mæt og uskadelig, sover i solen ved bagerovnen. Byen har lært et nyt ord, og du har lært det med den: freden gøres, den ventes ikke.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Tordenvejrets nat",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Overrasket af et tordenvejr deler vandringsmanden en grotte med broder Tommaso: en nat med fortælling og lytten og en morgen med sol på de våde blade.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "På vejen tilbage mod Egenes landsby lukker himlen sig hurtigt. Vinden bærer lugt af regn, og de første tordenskrald ruller over kamme.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Mens tordenvejret bryder løs, kalder en stemme dig fra en grotte ved stiens kant. En barfodet broder vinker dig ind, mellem to dråber og et lyn.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Broder Tommaso er en mindrebroder på gennemrejse: slidte sandaler, lappet kutte, en stav og intet andet. Han har vane for tavshed og den sjældne gave at lytte.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Kom ind, broder, og tør dig. Grotten tilhører ingen: i nat deler vi den med regnen. Jeg har lidt brød og ilden: for to vandringsmænd er det et palads.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Ilden fænger, brødet deler sig af sig selv. Ude gør tordenvejret larm som en flod; inde har du for første gang i mange dage ingen hast.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Natten bliver lang. Hvordan fylder du den?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Du spørger broder Tommaso om hans liv, før kutten.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Du fortæller selv: landsbyen, Martino, pladsen i Assisi, ulven fra Gubbio.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "I bliver i tavshed og lytter til regnen.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Jeg var hyrde på disse bjerge. En flod tog min flok og hytten, en nat som denne. Jeg græd som et barn. Så opdagede jeg, at da jeg intet ejede mere, frygtede jeg intet mere: dér forstod jeg brødrene fra Assisi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Broder Tommaso lytter uden at afbryde, øjnene på ilden. Til sidst nikker han: enhver vej lærer, siger han, hvis man går den med åbne øjne. Du har ladet vejen forandre dig, og det kan ses.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Tavshenden er ikke tom: regnen sætter takten, ilden svarer, den andens åndedræt holder rytmen. Du forstår, at der findes samtaler, som ikke behøver ord.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Mod daggry tyndes tordenvejret ud til en blid regn. Broder Tommaso taler om sin broder Frans, som selv fra smertens leje digter lovsange: han kalder solen broder, vandet søster, jorden moder, der bærer os i sit skød.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Han siger, at enhver skabning lovpriser Skaberen ved at gøre det, den er: solen ved at varme, vandet ved at stille tørsten, jorden ved at nære. Og at også den grimme dag er modtaget, ikke noget, man har krav på. Hvis jeg gentager det, er det, fordi jeg i nat, her, har set det med mine egne øjne.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "De første lys siver ind i grotten.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Du spørger ham, hvordan man takker, når alt går galt.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Du spørger ikke om noget: du ser på dråberne på bladene, og det er nok.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Jeg kan ikke forklare det, broder. Jeg ved, at taknemmelighed ikke er de gode dages præmie: den er en øvelse, som at gå. Den, der gør det hver dag, har i de sorte dage benene trænet.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "I bliver siddende og ser, til solen bryder skyerne. De våde blade tændes ét for ét, og hele dalen synes nyskabt.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "I går ud af grotten i en vasket verden. Vandet risler endnu fra grenene, solen får det til at skinne, og du opdager, at du smiler uden grund. Broder Tommaso tager sin stav igen: jeres veje skilles her.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Sangen, grotten, fiktionen",
+          "text": "Skabningernes sang er et ægte værk af Frans, komponeret i 1225-1226, i sygdommens tid: en lauda på folkesprog, hvor sol, måne, vind, vand, ild og jord lovpriser Gud som brødre og søstre. Også Den højeste Guds lovprisninger er ægte, en bøn uden anmodninger. Broder Tommaso og natten i grotten hører til Vandringsmandens fiktion; hans ord parafraserer Sangen uden at citere den.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Du har opdaget: Broder sol, søster vand. Verden er hverken et lager af ressourcer eller et afgudsbillede: den er en familie af skabninger, der lovpriser Skaberen. Omsorgen for skaberværket fødes af slægtskab og taknemmelighed, ikke af nytte.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Du har opdaget: Lovprisningen, der intet beder om. Taknemmeligheden belønner ikke heldet: den er et øvet blik, der genkender gaven i alt, vandet, solen, dagen, selv i sygdommen.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "I nat har du delt brød, ild og tavshed med en fremmed. Se på din dag i dag, som grotten så på tordenvejret: hvad af det, du har, er modtaget og ikke noget, du har krav på?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "På vej mod landsbyen tænker du igen på søster vand, som slukker tørsten, vasker og synger i grøfterne. I hukommelsens have risler fra i dag en fontæne.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "I Egenes landsby tager de imod dig som en, der vender hjem langvejsfra. Du har endnu lugten af røg og regn i klæderne og vandets lyd i ørerne. Vandringen fortsætter.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

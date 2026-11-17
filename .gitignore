@@ -12,3 +12,6 @@ local.properties
 
 # Release signing material — never commit private keys.
 /keystore/
+
+# Output di compilazione IDE finito per sbaglio accanto ai sorgenti.
+**/bin/

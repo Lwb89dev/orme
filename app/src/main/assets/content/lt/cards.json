@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Taikos pasveikinimas",
+      "text": "Testamente Pranciškus liudija, kad Viešpats jam apreiškė taikos pasveikinimą, neštiną kitiems, o viduramžių šaltiniai mini pirmuosius brolius, skelbusius taiką iš namų į namus. Pranciškui taika nėra konflikto nebuvimas: tai dovana, kurią reikia įteikti, nuo durų prie durų, nuo žmogaus žmogui. Gubijo vilko pasakojimas nuveda šią logiką iki kraštutinumo: taika daroma net su tuo, kas baugina, einant priešais. Iš tos pačios tradicijos gimsta liaudiška formulė „taika ir gėris“.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Neturtas kaip laisvė",
+      "text": "1223 metų Regula prašo brolių nieko nesisavinti – nei namų, nei vietos, nei jokio daikto – ir gyventi pasaulyje kaip piligrimams ir ateiviams. Pranciškoniškas neturtas nešlovina skurdo, kuris lieka socialinė žaizda: tai pasirinkimas neapsibrėžti nuosavybe. Kas neturi ko ginti, tas neturi ko bijoti ir viską gali priimti kaip dovaną. Pagrindas pirmiau teologinis negu ekonominis: pats Viešpats tapo neturtėliu.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Mažesnieji broliai",
+      "text": "Pranciškus norėjo, kad saviškiai vadintųsi mažesniaisiais broliais: niekas nėra didis, o atsakingieji vadinami „ministrais“, tai yra tarnais. 1221 metų Regula prašo, kad kiekvienas išsakytų savo poreikį kitam, kad niekas neteistų brolio, kad sveikas neniektų sergančiojo silpnumo. Brolystė nėra idealas skelbti: tai kasdienė abipusės atsakomybės praktika. Broliais esama konkrečiuose gestuose, arba išvis nesama.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Brolis saulė, sesuo vanduo",
+      "text": "Kūrinijos giesmėje Pranciškus šlovina Dievą „už“ ir „su“ kūriniais: brolį saulę, seserį mėnulį, brolį vėją, seserį vandenį, „labai naudingą, nuolankią, brangią ir skaistią“, seserį mūsų motiną žemę. Gamta nėra nei sudievinama, nei suvedama į išteklių sandėlį: tai šeima, nes visi kūriniai turi tą patį Tėvą. Rūpestis kūrinija gimsta iš giminystės ir dėkingumo, ne iš skaičiavimo. O Giesmė buvo sukurta ligoje: gyrius nepriklauso nuo aplinkybių.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Tobuloji linksmybė",
+      "text": "Fioretti Pranciškus broliui Leonui aiškina, kad tikroji linksmybė nėra nei stebuklai, nei sėkmės, nei netikinčiųjų atsivertimai: tai grįžti prie durų atstumtiems, sušalusiems ir skriaudžiamiems ir likti kantriems bei linksmiems. Tai hagiografinis pasakojimas, ne kronika, bet jis sutelkia tikrą pranciškoniškos dvasios bruožą. Tobulas džiaugsmas nepriklauso nuo įvykių: tai vidinis pasirinkimas, kurio joks atstūmimas negali atimti.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Septyniasdešimt kartų septynis, ir dar daugiau",
+      "text": "Laiške ministrui Pranciškus rašo, kad jei brolis būtų nusidėjęs tūkstantį kartų, vis tiek reikia jį mylėti ir skelbti jam gailestingumą, kad tik atgailautų. Pranciškoniškas atleidimas neneigia blogio: jis atsisako leisti blogiui tarti paskutinį žodį apie santykį. Giesmėje strofa apie tuos, kurie atleidžia dėl Dievo meilės, pasak tradicijos, buvo pridėta sutaikyti susipykusius Asyžiaus vyskupą ir podestą. Atleidimas kartu yra rūpestis asmeniu ir miesto vaistas.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Greccio Kalėdos",
+      "text": "1223 metų Kalėdomis Pranciškus Greccio panoro švęsti Jėzaus gimimą su tikromis ėdžiomis, šienu, jaučiu ir asiliuku: kad kūno akys matytų Betliejaus neturtą. Celano Tomas tai pateikia kaip gyvą slėpinio atmintį, ne kaip reginį. Iš tos nakties gimsta prakartėlės tradicija. Gestas tipiškai pranciškoniškas: tikėjimas paliečiamas, matomas, juo gyvenama.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Susitikimas su sultonu",
+      "text": "1219 metais, per penktąjį kryžiaus žygį, Pranciškus Damietoje perėjo kryžiuočių kariuomenės linijas, kad susitiktų sultoną al-Maliką al-Kamilį. Viduramžių šaltiniai mini pagarbų jųdviejų dialogą, nors tikėjimo skirtumas neištrinamas. Karo metu Pranciškus pasirinko neginkluoto susitikimo kelią, o ne pamokslo prieš. Epizodas lieka matas kiekvienam dialogui, kuris kerta savo pasaulio ribas.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Gubijo vilkas",
+      "text": "Fioretti pasakoja, kad Gubijuje vilkas terorizavo miestą, o Pranciškus, priešais išsigandusią minią, nuėjo prie žvėries ir kalbėjo jam kaip broliui. Gimė taikos sandora: miestas maitintų vilką, o vilkas daugiau niekam nedarytų žalos. Tai XIV amžiaus hagiografinės tradicijos pasakojimas, brangesnis vaizduotei negu kronikai. Jo pamoka aiški: taika statoma einant priešais tai, kas gąsdina, ir įtraukiant visą bendruomenę į sandorą.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Atsižadėjimas vyskupo akivaizdoje",
+      "text": "1206 metų pradžioje, vyskupo Gvido ir savo tėvo Pietro di Bernardone akivaizdoje, Pranciškus grąžino drabužius ir atsižadėjo tėvo gėrybių. Celano Tomas pasakoja, kad vyskupas jį apgaubė savo apsiaustu: Bažnyčia priėmė tą, kurio prekybininkų šeima nebesuprato. Tai nebuvo pabėgimas nuo daiktų, o viešas išsilaisvinimas iš minties juos valdyti. Nuo tos dienos Pranciškus galėjo priklausyti tik nuo Tėvo, kuris yra danguje – ir nuo kitų dosnumo.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Asyžiaus Klara",
+      "text": "Jauna Asyžiaus kilmingoji Klara 1212 metų Verbų naktį paliko tėvo namus, kad sektų Pranciškaus evangeline gyvenimo forma; Porciunkulėje jis jai nukirpo plaukus. Ji įkūrė Šv. Damijono Vargdienių seserų bendruomenę ir visą gyvenimą gynė „neturto privilegiją“ prieš bažnytinius spaudimus. Buvo pirmoji moteris, parašiusi vienuolijos regulą moterims, patvirtintą dvi dienos prieš jos mirtį, 1253 metais. Jos švelnumas buvo iš tos pačios medžiagos kaip jos atkaklumas.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Kvintavalės Bernardas",
+      "text": "Turtingas ir gerbiamas Asyžiaus pilietis Bernardas buvo pirmasis Pranciškaus bendražygis: norėjo savo akimis pamatyti, kaip gyvena tas jaunuolis, iš kurio visi šaipėsi, ir jam pakako vienos maldos nakties. Pardavė savo gėrybes, išdalijo vargšams ir pasirinko keliaujantį gyvenimą. Šaltiniai jį mini kaip pirmąjį brolystės vaisių ir, gyvenimo pabaigoje, kaip mylimą pradžių dvasios liudytoją. Jis pradėjo grandinę: be pirmojo brolio nėra brolystės.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Brolis Leonas",
+      "text": "Paskutiniųjų metų Pranciškaus bendražygis ir nuodėmklausys brolis Leonas buvo La Vernos meto liudytojas ir vienintelio šventojo autografo saugotojas: laiško ir palaiminimo, kuriuos saugojo visą gyvenimą. Laiške Pranciškus į jo nerimą gerai pasirinkti atsako laisvės žodžiais: sek savo sąžinę Dievo akivaizdoje. Fioretti jis yra dialogo apie tobuląją linksmybę pašnekovas. Leonas yra trapus ir nuoširdus mokinys, artimesnis Pranciškaus sielai, nei leidžia manyti jo paprastumo šlovė.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sultonas al-Malikas al-Kamilis",
+      "text": "Ajubidų dinastijos Egipto sultonas, Saladino anūkas, al-Malikas al-Kamilis priėmė Pranciškų Damietoje 1219 metais, pačiame penktajame kryžiaus žygyje. Viduramžių šaltiniai, krikščioniški ir ne tik, aprašo jį kaip valdovą, gebantį klausytis ir kalbėtis su lotyniškuoju pasauliu, su kuriuo ilgai tarėsi dėl Jeruzalės. Susitikimas su Pranciškumi neatvertė nė vieno: parodė, kad galima kalbėti kaip tikintiesiems be ginklo rankoje. Jis lieka kertinė figūra suprasti, kad pranciškoniškas svetingumas kerta tikėjimo ribas.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Viduramžių komuna",
+      "text": "Pranciškaus Asyžius yra kylanti komuna: konsulai ir podestai, bokštai ir vaidai, turtingėjantys pirkliai ir amatai, organizuojantys darbą. Tai pasaulis, grįstas garbe, luomu ir kreditu, kur turtas matomas, o neturtas yra gėda. Pietro di Bernardone šeima priklauso šiai kylančiai miestiečių klasei. Būtent prieš šias vertybes – ne prieš turtą savaime, o prieš valdžią, kurią jis turi širdžiai – formuojasi pranciškoniškas pasirinkimas.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Leprozoriumas",
+      "text": "XIII amžiuje raupsuotieji gyveno už sienų, lazaretuose kaip tie prie Asyžiaus, išstumti iš miesto gyvenimo ir paženklinti tariamu nuodėmės ženklu. Pranciškus Testamente išpažįsta, kad juos matyti jam atrodė per daug karti; ir kad būtent tarp jų, Viešpačiui jį ten nuvedus, darė gailestingumą ir rado saldumą. Celanas aprašo konkrečią tarnystę: plauti žaizdas, apkabinti, aprūpinti. Leprozoriumas yra vieta, kur gimsta pranciškoniška artimo meilė: ne jausmas, o kūnų susitikimas.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Išmalda",
+      "text": "Viduramžių pamaldumas išmaldą pažinojo kaip nuopelningą praktiką: duodama už savo sielą, dažnai laikantis atstumo. 1223 metų Regula priešingai prašo brolių eiti išmaldos nesigėdijant, prisimenant, kad Viešpats tapo neturtėliu: prašyti tampa gyvenimo dalimi, ne pažeminimu, kurio reikia vengti. O davimas virsta santykiu: nepaliekama ko nors vargšui, būnama su vargšu. Kas duoda ir kas gauna, Dievo akivaizdoje apsikeičia elgetų vaidmenimis.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Eremas",
+      "text": "Pranciškoniškas gyvenimas nėra tik kelias ir pamokslas: Pranciškus ieškojo vienišų atsiskyrimų – Karcerių virš Asyžiaus, La Vernos Apeninuose – vesdamasis nedaug bendražygių ir ilgas tylas. La Vernoje, 1224 metų rugsėjį, šaltiniai talpina stigmas ir Dievo gyrių sukūrimą: gryniausia Pranciškaus malda yra gyrius be prašymų. Eremas nėra pabėgimas nuo pasaulio: tai vieta, kur grįžtama prie to, kas esminga, kad paskui vėl nusileistum tarp žmonių. Misija ir atsiskyrimas laikosi kaip dvi kelio pėdos.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Kas tave valdo?",
+      "text": "Mintyse sudaryk daiktų, kurie tau brangiausi, sąrašą. Paskui klausk savęs po vieną: aš jį valdau, ar jis valdo mane? Kiek tavo laiko, dėmesio, nerimo tarnauja ginti tai, ką turi? Nėra teisingo atsakymo: yra tik tiesa apie tave.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Kas tavo vilkas?",
+      "text": "Tavo kvartale, darbe, šeimoje: kas yra žmogus ar situacija, nuo kurių visi bėga? Kas būtų, jei, užuot stačius sienas, kas nors eitų priešais ir klaustų: ko tu alkanas? Kas tavo mieste galėtų būti bendruomenė, laiduojanti sandorą?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Nuo ko priklauso tavo džiaugsmas?",
+      "text": "Pagalvok apie paskutinį kartą, kai buvai tikrai patenkintas: ar tai priklausė nuo gauto rezultato, nuo pripažinimo, nuo pirkinio? Dabar pagalvok apie džiaugsmą, kurio joks išorės įvykis negalėtų atimti. Jei niekas neateina į galvą, tai ne kaltė: tai paieškos pėdsakas. Kas turėtų pasikeisti tavyje, kad linksmybė nebūtų nuomojama iš įvykių?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Taikos kelias",
+      "text": "Kelias dviem scenarijais: ribų barnis viduramžių miestelyje ir patirta skriauda šiandienos įstaigoje. Pranciškoniška taika nėra konflikto nebuvimas: tai pasveikinimas, kurį reikia nešti, tarpininkavimas, kurį reikia pasiūlyti, džiaugsmas, kurio negalima palikti įvykių įkaitu. Atsiveria atradus taikos pasveikinimo mokymą.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Brolystės kelias",
+      "text": "Kelias bendro gyvenimo viduje: ką daryti, kai brolis sunkiai suklysta ir bendruomenė skyla tarp griežtumo ir priėmimo? Pranciškoniška brolystė matuojama būtent ten, ne geromis intencijomis. Atsiveria atradus mažesniųjų brolių mokymą ir eina per atleidimą be ribų ir regulą, kuri saugo.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Taikos kelias",
+      "theme": "pace",
+      "description": "Nuo pasveikinimo, nešamo iš namų į namus, iki džiaugsmo, kuris nepriklauso nuo įvykių: du scenarijai mokytis taikos kaip praktikos viduramžių miestelyje ir šiandienos įstaigoje.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Paprastumo kelias",
+      "theme": "poverta",
+      "description": "Ką daryti su gėrybėmis, kurios pereina per mūsų rankas: delikati globa XIII amžiuje ir neskaidrus projektas šiandien. Pranciškoniškas neturtas kaip laisvė nuo nuosavybės ir kaip tarnaujančiojo atsakomybė.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Brolystės kelias",
+      "theme": "fraternita",
+      "description": "Kai brolis sunkiai suklysta, brolystė parodo, kas ji iš tiesų yra: teismas ar namai. Scenarijus pereiti atleidimą, regulą ir abipusę atsakomybę.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Ribos siena",
+      "situation": "Asyžiaus miestelis, XIII amžiaus pradžia. Berta, laikanti dažytojų dirbtuvę, ir Lupo, audėjas iš gretimų durų, jau savaites ginčijasi dėl uolekties žemės tarp savo namų: ten eina latakas, ir kiekvienas prisiekia, kad siena yra jo pusėje. Šeimos liovėsi sveikintis; mokiniai svaido įžeidimus gatvėje. Pažįsti abu, ir abu tavimi pasitiki. Šį vakarą klausia: kieno pusėje esi?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Nestoti nė vienoje pusėje: pasiūlyti išklausyti juos po vieną, paskui kartu, ir padėti rasti paprastą susitarimą dėl sienos ir latako.",
+          "consequence": "Pirmosios savaitės vargingos: kiekvienas stengiasi patraukti tave į savo pusę. Paskui, būdami išklausyti, atranda, kad tikrasis mazgas nėra uolektis žemės, o sena niekad neatleista skriauda. Susitarimas dėl sienos ateina beveik greitai, ir šv. Jurgio šventėje abi dirbtuvės vėl skolina viena kitai.",
+          "perspectives": [
+            {
+              "label": "Pranciškoniškas kelias",
+              "text": "Testamente Pranciškus liudija, kad Viešpats jam apreiškė taikos pasveikinimą, neštiną kitiems, o šaltiniai mini brolius, skelbusius taiką iš namų į namus. Tarpininkauti pačiam, nuolankiai, yra būtent šis gestas: taika ne pageidaujama, ji įteikiama.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Gubijo pamoka",
+              "text": "Vilko pasakojime taika gimsta, kai kas nors eina priešais tai, kas gąsdina, ir visa bendruomenė tampa sandoros laiduotoja: miestas maitina vilką, vilkas nebekenkia. Čia dvi šeimos ir gretimos dirbtuvės laiduoja susitarimą, kad jis truktų ilgiau už tavo buvimą.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Kas stoja į vidurį, rizikuoja tapti abiejų taikiniu, jei susitarimas žlugs. Tarpininkavimas veikia todėl, kad esi už ginčo ir nieko iš jo nelaimi: tavo patikimumas yra vienintelis tavo kapitalas, ir jį reikia leisti taupiai.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Patarti abiem nešti klausimą komunų konsulams arba pirklių cechui: riba išmatuojama, raštai perskaitomi, teisė nusprendžia.",
+          "consequence": "Barnis išeina iš gatvės ir įeina į formas. Komunos matininkas matuoja, tėvų raštai skaitomi, ir po kelių mėnesių nuosprendis priskiria sieną Lupo, o lataką Bertai. Senoji skriauda vis dėlto lieka neišspręsta: šeimos vos sveikinasi, ir niekas iš tiesų nėra taikoje.",
+          "perspectives": [
+            {
+              "label": "Laiko teisė",
+              "text": "Komuna yra būtent tam, kad pakeistų vaidą procedūra: trečiojo nuosprendis uždaro ginčą be kraujo praliejimo ir be pažeminimų. Tai tikra pilietinė pažanga, ir XIII amžiuje ją išsikovoti kainavo vargo.",
+              "isEditorial": true
+            },
+            {
+              "label": "Pranciškoniškas kelias",
+              "text": "Pranciškonų tradicija neniekina valdžių, bet primena, kad teisingumas nusprendžia sieną, ne širdį: taikos pasveikinimas, nešamas iš namų į namus, siekia vėl suvesti žmones į santykį, ne tik paskirstyti skriaudas. Teisingas nuosprendis gali palikti barnį gyvą po pelenais.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Kreiptis į konsulus tave saugo: ne tu sprendžia, ir niekas negalės apkaltinti tavęs šališkumu. Kaina yra lėtumas ir išlaidos, ir rizika, kad pralaimėjęs laikys pagiežą komūnai labiau negu kaimynui.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Nesikišti: leisti laikui nusistovėti barnį, apsiribojant tuo, kad nemaitintum jo nuosprendžiais ir apkalbomis.",
+          "consequence": "Mėnesius įtampa lieka po paviršiumi: niekas nebekalba apie sieną, bet mokiniai tebeduria vienas kitą, o latako priežiūros darbai stoja. Atėjus žiemai lietus užlieja abu rūsius: bendros žalos akivaizdoje du kaimynai vėl ima kalbėtis iš būtinybės, ir barnis išsisprendžia pats, su trupučiu daugiau rūdžių.",
+          "perspectives": [
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Ne kiekvienas konfliktas prašo taikytojo: kartais per ankstyvas įsikišimas sukietina pozicijas. Laikas ir bendra būtinybė – užlietas rūsys – gali tarpininkauti geriau už bet kokią kalbą.",
+              "isEditorial": true
+            },
+            {
+              "label": "Pranciškoniškas kelias",
+              "text": "Pranciškoniška taika yra veikli: ji nešama, skelbiama, statoma einant priešais, kaip vilko pasakojime. Leisti nusistovėti nėra nuodėmė, bet tai nėra taikos pasveikinimas: tai atsisakymas būti įrankiu, kuris kartais yra nuolankumas, o kartais patogumas.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Laiko teisė",
+              "text": "Viduramžių teisėje nesikišimas turi kainą: nepasenęs barnis grįžta, ir apleisto latako bendra žala gula ant visų. Laukti nėra neutralu: tai pasirinkimas, kuris perkelia sąskaitą į priekį.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Pranciškoniška taika prasideda nuo pasveikinimo ir baigiasi sandora, kurią saugo bendruomenė. Bet jai reikia ko nors, pasirengusio stovėti viduryje nieko iš to nelaimint. Tavo kvartale šiandien kas dirba šį darbą? Ir ar galėtum jį dirbti tu?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Atimtas nuopelnas",
+      "situation": "Šiandien susirinkime prieš visą komandą kolega kaip savą pristatė darbą, kuris didžiąja dalimi tavo. Niekas nieko nepasakė; vadovas jam padėkojo. Krūtinė dega jau valandas. Rytoj koridoriuje vėl susikryžiuosite žvilgsnius.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Atsakyti tuo pačiu: artimiausioje viešoje progoje atstatyti faktus visų akivaizdoje, tiksliai ir tai pačiai auditorijai, kuri matė skriaudą.",
+          "consequence": "Pataisa ateina laiku, ir faktai grįžta į vietą: vadovas supranta, kai kurie kolegos tau padėkoja pusbalsiu. Kolega, viešai pažemintas, tampa tyliu ir ilgu priešininku; komandos klimatas sukietėja, ir kiekvienas tavo žodis dabar sveriamas gramais.",
+          "perspectives": [
+            {
+              "label": "Laiko teisė",
+              "text": "Atsiimti savo darbą yra teisėta: tiesa apie nuopelnus nėra apkalba, o praleisti skriaudą gali tapti precedentu. Bet forma svarbi: viešas atitaisymas sukuria laimėtoją ir pralaimėjusį, ir ilgainiui pralaimėjęs nepamiršta.",
+              "isEditorial": true
+            },
+            {
+              "label": "Pranciškoniškas kelias",
+              "text": "Tobulosios linksmybės pasakojimas moko, kad džiaugsmas neturi priklausyti nuo pripažinimo: jei tavo taika grįžta tik tada, kai skriauda viešai atitaisoma, ją išnuomojai kitų teismui. Atstatyti faktus yra leistina; to reikėti, kad jaustumeisi gerai, yra tikroji žaizda.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Darbo gyvenime reputacija statoma lašais ir prarandama kibirais: gerai pamatuota vieša pataisa saugo, viešas pažeminimas paženklina tave kaip pagiežingą žmogų. Jei renkiesi šį kelią, matuok žodžius turiniu, niekada asmeniu.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Paleisti: nieko nesakyti, nekaupti pagiežos, eiti toliau. Darbas kalba pats, ir nenori duoti skriaudai galios gadinti tau dienas.",
+          "consequence": "Tyla kainuoja kelias savaites nekantrumo, paskui mazgas atsileidžia: kitas projektas aiškiai tavo, o kas stebi, turi ilgą atmintį. Kolega, nesustabdytas, vis dėlto pakartoja elgesį su kitu komandos nariu: tavo vidinė taika išgelbėta, bet problema lieka grupėje.",
+          "perspectives": [
+            {
+              "label": "Pranciškoniškas kelias",
+              "text": "Fioretti tobuloji linksmybė yra būtent tai: pakelti skriaudą neatiduodant jai savo širdies valdymo, liekant kantriems ir linksmiems. Tai ne naivumas ir ne silpnumas: tai atradimas, kad džiaugsmas, grįstas meile, neturi laimėti kiekvieno ginčo.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Laiko teisė",
+              "text": "Vidinė taika yra gėris, bet ne vienintelis: nesustabdytas neteisingas elgesys tampa įpročiu, o kita auka gali neturėti tavo jėgos. Teisingumas darbe saugo ir kitus, ne tik tavo nuopelną.",
+              "isEditorial": true
+            },
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Nereaguoti yra strategija su sąlyga: ji turi būti pasirinkta, ne patirta. Jei paleisti reiškia kaupti mėnesius, praktikavai ne linksmybę, o pagiežą dalimis. Širdį reikia tikrinti sąžiningai.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Ieškoti nuoširdaus susitikimo: paprašyti kolegos pokalbio akis į akį, išdėstyti faktus be kaltinimų ir išklausyti, ką jis turi pasakyti.",
+          "consequence": "Pokalbis nepatogus, bet tikras: kolega prisipažįsta pusiau, teisinas, paskui – nustebęs, kad nebuvo sudraskytas viešai – kitame susirinkime pats pasitaiso, paminėdamas tavo indėlį. Netampate bičiuliais, bet tarp jūsų gimsta budrios pagarbos forma; ir klausimas niekad nepasiekia komandos aikštės.",
+          "perspectives": [
+            {
+              "label": "Pranciškoniškas kelias",
+              "text": "Eiti akis į akį panašu į taikos pasveikinimą, nešamą iš namų į namus: atsiverti pačiam, be auditorijos, paliekant kitam atviras duris. Ir panašu į tobuląją linksmybę, nes nepalenkia tavo taikos rezultatui: kalbi dėl tiesos, ne dėl pergalės.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Laiko teisė",
+              "text": "Privatus susitikimas saugo faktus nežemindamas asmens: tai atitaisymo forma, paliekanti darbo santykius sveikus. Jo riba ta, kad jis priklauso nuo kito geros valios: jei kolega neigia ir tęsia, paskui reikia formalaus kelio.",
+              "isEditorial": true
+            },
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Prieš kalbėdamas klausk savęs, ko iš tiesų nori: atstatyti faktus ar priversti sumokėti už skriaudą? Pokalbis veikia tik jei įeini pasirengęs klausytis; jei įeini laimėti, kitas tai junta ir užsiveria.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Tobuloji linksmybė nedraudžia atstatyti faktų: ji draudžia duoti skriaudai tavo širdies raktus. Klausk savęs savo savaitėje: kiek kartų tavo taika yra nuomojama iš kitų elgesio?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Pirklio globa",
+      "situation": "Asyžius, 1210. Gvidas, audinių pirklys, išvykstantis į Šampanės muges ir negrįšiantis anksčiau kaip po dvejų metų, siūlo tau saugoti dalį savo gėrybių: audinių ryšulius ir pinigų kapšą. Tuo tarpu galėsi jais naudotis – audinys pakeltų tavo mažą dirbtuvę – o grįžęs grąžinsi sutartą vertę su dalimi pelno. Tai sąžininga proga. Tai ir ryšys, trunkantis dvejus metus.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Priimti visiškai: naudoti audinį ir pinigus dirbtuvei auginti, tikintis grąžinti vertę su sutartomis palūkanomis, kai Gvidas grįš.",
+          "consequence": "Dirbtuvė iš tiesų auga: du mokiniai, naujos staklės, tavo vardas ima sklisti. Bet kiekvienas sprendimas dabar eina per sąskaitą, kurią reikės atiduoti: nebemiegi prieš muges, bijai vagysčių ir liesų metų. Kai Gvidas grįžta anksčiau ir su savomis nuostoliais, kuriuos reikia padengti, ištesėti sandorą kainuoja beveik visą uždirbtą – ir supranti praleidęs dvejus metus saugodamas pinigus labiau negu gyvendamas.",
+          "perspectives": [
+            {
+              "label": "Pranciškoniškas kelias",
+              "text": "1223 metų Regula prašo nieko nesisavinti, nei namų, nei vietos, nei jokio daikto: ne todėl, kad daiktai būtų blogi, o todėl, kad tai, ką turi grąžinti ir ginti, ima valdyti tave. Prarastas miegas prieš muges yra tikslus šeimininko pasikeitimo ženklas.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Pirklio logika",
+              "text": "Komunos pasaulyje tai yra praktika: kreditas suka ekonomiką, o atmesti kiekvieną depozitą reiškia visam laikui likti mažiems. Rizika matuojama ir įkainojama; ištesėti sandorą yra tai, kas stato reputaciją.",
+              "isEditorial": true
+            },
+            {
+              "label": "Atsižadėjimo žvilgsnis",
+              "text": "Celanas pasakoja Pranciškų, grąžinantį tėvui net drabužius: ne iš paniekos daiktams, o kad nepriklausytų nuo nieko, kas nėra Tėvas. Klausimas ne tas, ar sandora sąžininga – ji tokia – o kiek savo širdies laisvės esi pasirengęs įkeisti dvejiems metams.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Priimti tik globą, ne naudojimą: užantspauduoti audinį ir pinigus, laikyti juos saugiai nedarant pelno ir grąžinti nepaliestus, kai jis grįš.",
+          "consequence": "Dvejus metus tavo dirbtuvė lieka tokia pat, bet tu eini lengvas: jokios sąskaitos atiduoti, jokio pelno ginti. Gvidas, grįžęs, randa viską nepaliestą ir vertina tave kaip žodžio žmogų; siūlo kitas globas, kurias vertinsi po vieną. Kas nors miestelyje vadina tave kvailiu: tas audinys galėjo dirbti tau.",
+          "perspectives": [
+            {
+              "label": "Pranciškoniškas kelias",
+              "text": "Saugoti nesisavinant yra beveik dvasinės pratybos: turėti rankose neturint širdyje. Prisimink Regulos logiką – piligrimai ir ateiviai pasaulyje, daiktų tarnai, ne šeimininkai – pritaikytą svetimai gėrybei.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Pirklio logika",
+              "text": "Ekonominiu požiūriu tai praleista proga: nejudantis kapitalas neduoda, o nemokamas saugotojas dovanoja paslaugą, už kurią kitur mokama. Gvido pagarba verta, bet neapmoka naujų staklių.",
+              "isEditorial": true
+            },
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Gryna globa turi savo rizikų – vagystes, gaisrus, išeikvojimo kaltinimus – bet palieka tave laisvą nuo kiekvieno ginčo dėl pelno. Vis tiek surašyk aktą liudytojų akivaizdoje: pasitikėjimas geriau pagerbiamas tvarkingais raštais.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Atsisakyti pagarbiai: padėkoti Gvidui už pasitikėjimą, bet nenorėti nuosavybės ryšių nei sąskaitų, kurias reikėtų atiduoti dvejus metus.",
+          "consequence": "Gvidas nustemba, paskui linkteli: audinius patikės kitam. Tavo dirbtuvė lieka maža, ir kai kurią žiemą ankšta, bet tavo žodis miestelyje įgyja ypatingą skambesį: to, kuris neparduoda savęs ir nesusiriša. Po metų, kai pasirinksi sekti brolius, einančius per Asyžių, niekam neatrodys keistas tavo atsiskyrimas: jis prasidėjo nuo to ne.",
+          "perspectives": [
+            {
+              "label": "Atsižadėjimo žvilgsnis",
+              "text": "Pranciškaus atsižadėjimas vyskupo akivaizdoje rodo, kad sakyti ne turtui yra laisvės gestas, ne panieka: jis grąžino drabužius, kad galėtų be veidmainystės sakyti „Tėve mūsų“. Motyvuotas ne šiandien ruošia rytojaus ne – ir taip.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Pranciškoniškas kelias",
+              "text": "Saugokis nesupainioti laisvės su sau pasidaryta regula: Regula kalba apie nesisavinimą, ne apie kiekvienos atsakomybės svetimoms gėrybėms atmetimą. Ir atsisakymas gali tapti būdu galvoti tik apie save.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Atsisakyti yra teisėta, bet turi socialinę kainą: miestelyje vieni kitiems padedama ir taip, saugant vieni kitų gėrybes. Kas visada atsisako, ilgainiui lieka už pasitikėjimo tinklo, ant kurio viskas laikosi.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Pranciškoniškas neturtas neprašo niekinti daiktų: prašo pastebėti, kada daiktai ima valdyti tave. Kitą kartą, kai priimi ką nors – daiktą, pareigą, skolą – klausk savęs: kas saugo ką?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Neskaidrus projektas",
+      "situation": "Šiandien. Tau patiki prestižinio projekto vadovavimą: matomumą, paties pasirinktą komandą, solidų biudžetą. Bet dvi išlaidų eilutės nesueina, o finansuotojas į tavo klausimus atsako išsisukinėjančiu mandagumu. Pasirašyti reiškia prisiimti atsakomybę ir už tą neskaidrumą. Atsisakyti reiškia atsisakyti progos, kuri nepasikartos.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Priimti be tolesnių klausimų: projektas yra vienintelė proga, neskaidrios eilutės ne tavo kompetencija, ir vis tiek kas nors būtų pasirašęs vietoj tavęs.",
+          "consequence": "Projektas pavyksta gerai, ir tavo karjera šokteli. Bet kai po metų administracinė patikra vėl atveria tas išlaidų eilutes, tavo parašas yra dokumentuose: atsakomybė, į kurią nenorėjai žiūrėti, vis tiek tave pasiveja, ir iškovotas prestižas virsta nepatogia gynyba.",
+          "perspectives": [
+            {
+              "label": "Vaidmens atsakomybė",
+              "text": "Pranciškonų brolystėje kas vadovauja, vadinamas „ministru“, tarnu: pareiga yra tarnauti, ne spindėti. Tarnystė, kuri sutinka nematyti to, už ką atsako, jau išdavė savo vardą, dar prieš bet kokią patikrą.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Pirklio logika",
+              "text": "Darbo pasaulyje mąstoma taip: kiekvienas projektas turi pilkų zonų, ir kas nori iš tiesų dirbti, išmoksta su jomis gyventi. Atmesti kiekvieną netobulumą reiškia atiduoti sprendimus tam, kuris turi mažiau skrupulų už tave.",
+              "isEditorial": true
+            },
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Parašas yra riba: ką pasirašai, tą valdai su visomis pasekmėmis. Prieš pasirašant suskaičiuoti iki dešimties nepakanka: reikia tiksliai žinoti, ką pasirašai. Proga, kuri nepasikartoja, dažnai pasikartoja; reputacija – ne.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Atsisakyti: be skaidrumo nepasirašoma, ir projektas teeina tam, kuris tas sąlygas priima.",
+          "consequence": "Atsižadėjimas degina, ir mėnesius žiūri, kaip projektas eina toliau tarp problemų: be tavo vadovavimo komanda svyruoja, ir galiausiai finansuotojas atsiima lėšas būtent dėl neskaidrių eilučių. Tavo ne, vienų perskaitytas kaip naivumas, kitų prisimenamas, kai reikia pasitikėjimo žmogaus delikačiai pareigai.",
+          "perspectives": [
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Atsisakymas saugo reputaciją, bet palieka problemą nepaliestą: projektas eina tam, kuris turi mažiau skrupulų, ir žmonės, kurie jame dirba, patiria pasekmes. Ne nuplauna rankas, ne visada pasaulį.",
+              "isEditorial": true
+            },
+            {
+              "label": "Vaidmens atsakomybė",
+              "text": "Laiškas ministrui rodo, kad pranciškoniškas vadovavimas yra artumas ir tarnystė, niekada viršesnis atsiskyrimas. Bet tarnauti nereiškia pasiduoti viskam: ministras, kuris pasirašo tai, ko negali valdyti, netarnauja broliams, juos išstato. Ir atsisakymas gali būti rūpesčio forma.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Ilgas žvilgsnis",
+              "text": "Karjeros daromos iš pagautų progų, bet pasitikėjimas daromas iš atmestų progų. Ne, pasakytas dėl aiškių priežasčių ir be moralizavimo, yra investicija, kuri bręsta lėtai ir nenukrenta.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Priimti su sąlygomis: pasirašyti tik surašius skaidrią atskaitomybę, nepriklausomą auditą ir teisę motyvuotai pasitraukti.",
+          "consequence": "Finansuotojas delsią, grasina ieškoti kitų, paskui nusileidžia: tavo sąlygos, surašytos, tampa projekto stuburu. Darbas lėtesnis ir vargingesnis, nei žadėjo, bet kai patikra ateina – o ji ateina – sąskaitos atviros ir komanda laikosi. Tavo vadovavimas tampa precedentu: kiti po tavęs prašys tų pačių sąlygų.",
+          "perspectives": [
+            {
+              "label": "Vaidmens atsakomybė",
+              "text": "Tai yra ministro kelias pilna pranciškoniška prasme: nebėgti nuo tarnystės, bet atsisakyti, kad tarnystė taptų bendrininkavimu. Kas vadovauja, tas tarnauja – ir tarnauti apima saugoti komandą ir projektą nuo šešėlio zonų, net nepatogių derybų kaina.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Pirklio logika",
+              "text": "Surašytos sąlygos yra geriausias kompromisas, bet turi kainą: rizikuoji prarasti pareigą, jei finansuotojas nenusileis, ir dirbti metus su partneriu, kuris laiko tave labiau kontrolieriumi negu sąjungininku. Verta tik jei turi tikėtinų alternatyvų.",
+              "isEditorial": true
+            },
+            {
+              "label": "Ilgas žvilgsnis",
+              "text": "Kelti sąlygas yra lėčiausias ir vaisingiausias būdas: jis neapsiriboja tavęs apsauga, keičia praktiką. Institucijos gerėja, kai kas nors paverčia asmeninį skrupulą bendra regula.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Pranciškus atsakinguosius vadino „ministrais“, tarnais: vaidmens vardas jau yra jo programa. Tavo darbe ko reikia, kad tavo tarnystė netaptų bendrininkavimu – ir ko, kad tavo griežtumas netaptų dezertyravimu?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Brolis, kuris suklydo",
+      "situation": "Porciunkulė, XIII amžiaus trečiasis dešimtmetis. Brolis Rufinas sunkiai nusižengė regulai: pasiliko sau pinigų, gautų išmaldoje, ir tai jau žinoma ir lauke, tarp žmonių, kurie į jus žiūri. Brolystėje diskutuojama jau dienas. Vieni prašo pavyzdinės atgailos ir laikino jo atskyrimo nuo miestelio; kiti primena, kad Rufinas serga ir yra sudaužytas; dar kiti bijo, kad atlaidumas pakvies visus nusižengti. Ministras prašo kiekvieno nuomonės. Ir tavosios.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Remti griežtumą: vieša atgaila ir laikinas Rufino atskyrimas nuo miestelio, nes regula galioja visiems, o pasauliečių papiktinimą reikia atitaisyti visų akivaizdoje.",
+          "consequence": "Brolystė pritaria griežtai drausmei. Rufinas išvyksta į tolimą eremą, pažemintas tų, kurie jį pažinojo, akivaizdoje; miestelio pasauliečiai žavisi brolių nuoseklumu, ir išmaldos nemažėja. Bet brolystėje kažkas sukietėja: broliai ima slėpti savo trapumus bijodami teismo, o Rufinas, vienas, užtruks metus grįžti – jei grįš.",
+          "perspectives": [
+            {
+              "label": "Bendruomenės išmintis",
+              "text": "Bendra regula yra tai, kas skiria brolystę nuo bičiulių būrio: jei kas sunkiai suklysta ir nesusiduria su pasekmėmis, sandora ištuštėja, o silpniausieji moka kainą. Viešas atitaisymas atsako ir į viešą papiktinimą.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Laiškas ministrui",
+              "text": "Pranciškus rašo ministrui, kad jei brolis būtų nusidėjęs tūkstantį kartų, vis tiek reikia jį mylėti ir skelbti jam gailestingumą: kietumas, kuris piktina silpną brolį, rizikuoja jį pražudyti. Griežtumas nėra draudžiamas, bet niekada neturi tapti panieka.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Ilgas žvilgsnis",
+              "text": "Bendruomenė, kurioje visi bijo teismo, tampa paslapčių bendruomene: regula stovi ant popieriaus ir griūva širdyse. Griežtumas, nenumatantis grįžimo kelio, gamina tremtinius, ne atgailautojus.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Remti visišką priėmimą: vėl priimti Rufiną be viešų atgailų, gydyti jo ligą ir į papiktinimą atsakyti švelnumu, ne bausmėmis.",
+          "consequence": "Rufinas lieka. Verkia brolių akivaizdoje, grąžina, kiek gali, ir lėtai vėl randa vietą bendrame gyvenime: niekas jam nebepriekaištauja. Miestelyje kas nors murma, kad broliai dengia vieni kitus, ir du jauni brolystės nariai švelnumą priima kaip leidimą: ministrui teks mėnesius vargti atstatant, kad regula nėra patarimas.",
+          "perspectives": [
+            {
+              "label": "Laiškas ministrui",
+              "text": "Tai kelias, nubrėžtas Laiško ministrui: mylėti labiau, ne mažiau, tą, kuris suklydo; skelbti gailestingumą, kad tik atgailautų; nekietinti savo širdies dėl kito nuodėmės. Pranciškus žino, kad šis kelias kainuoja, ir vis tiek jį nurodo.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Bendruomenės išmintis",
+              "text": "1221 metų Regula prašo vieniems kitiems išsakyti poreikius ir neniekti silpnojo: sergantis Rufinas yra būtent brolis, kurį regula saugo. Bet ta pati regula yra tam, kad brolystė neišsisklaidytų: gailestingumas be tiesos tampa bendrininkavimu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Miestelio atsargumas",
+              "text": "Pasauliečiai duoda išmaldą neturtingiems broliams, ne gudriems: nevaldomas papiktinimas ardo pasitikėjimą, kuris laiko bendruomenę gyvą. Priėmimą reikia paaiškinti miesteliui, ne tik išgyventi namuose, kitaip jis bus perskaitytas kaip priedanga.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Remti bendruomeninį kelią: Rufinas lieka brolystėje, grąžina, kas priklauso, brolių akivaizdoje, paveda save broliškam lydėjimui, ir visa bendruomenė kartu su juo neša atitaisymą miesteliui.",
+          "consequence": "Kelias ilgas ir nepatogus: Rufinas išpažįsta brolių akivaizdoje, grąžina pinigus iš namų į namus kartu su vyresniu broliu ir metus atlieka nuolankiausias tarnystes, niekam nepriekaištaujant. Miestelis mato tikrą atitaisymą, ne bausmę: pasitikėjimas grįžta lėtai. Brolystės viduje epizodas tampa nerašyta regula: kas krinta, tą lydi, kas suklydo, tas atitaiso, niekas nepasimeta.",
+          "perspectives": [
+            {
+              "label": "Laiškas ministrui",
+              "text": "Laiško gailestingumas nėra nuolaida: tai meilė, lydinti atgailą, kol ji neša vaisių. Rufinas, grąžinantis iš namų į namus, nėra pažemintas: tai brolis, kuris grįžta, o bendruomenė eina šalia, užuot žiūrėjusi iš aukštai.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Bendruomenės išmintis",
+              "text": "1221 metų Regula įsivaizduoja būtent tai: brolius, kurie išsako savo poreikius – net gėdingus – ir neša vieni kitus. Bendruomeninis atitaisymas sujungia tiesą ir gailestingumą ir vieno kaltę paverčia mokykla visiems.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Laiko teisė",
+              "text": "Tai reikliausias kelias visiems: reikia laiko, paslapties saugojimo ten, kur reikia, viešos tiesos ten, kur papiktinimas buvo viešas. Ne visos bendruomenės išlaiko šį vargą: be gebančio ministro vidurinis kelias tampa tik neryžtingumu.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Brolystė matuojama ne tada, kai visi laikosi regulos, o tada, kai kas nors ją laužo. Laiškas ministrui nustato žvaigždę – mylėti labiau, ne mažiau – neištrindamas tiesos. Tavo bendruomenėse ar suklydęs randa grįžimo kelią?"
+    }
+  ]
+}

@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Meistars Bernardo",
+      "description": "Ozolu ciema krodzinieks jau trīsdesmit gadus: praktisks, aizdomīgs pret svešiniekiem, nespējīgs atstāt kādu aukstumā. Par ciemu viņš zina katru parādu un katru laipnību.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lūcija",
+      "description": "Ozolu ciema atraitne un zāļu zinātāja. Ass vērotāja un ciema atmiņa: nekas, kas notiek uz ceļa, viņai nepaslīd garām.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Brālis Toms",
+      "description": "Mazākais brālis, kas iet pa Umbrijas ceļiem. Nodilušas sandales, lāpīts habits: viņam ir ieradums klusēt un retā dāvana klausīties.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Mārtiņš",
+      "description": "Ubags, sastapts uz ceļa uz Ozolu ciemu. Bija zirgu kalējs Spoleto, pirms slimība viņam atņēma smēdi, māju un beigās vietu starp cilvēkiem.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Jēkabs",
+      "description": "Asīzes mūrnieks. Strādā pie Svētā Damiāna baznīciņas atjaunošanas un ir tuvumā redzējis, kā jaunais Francisks nes akmeņus un dzied.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matejs",
+      "description": "Kalnu mednieks, Gubbio vārtu sardzes komandieris vilka baiļu dienās. Rētaina seja, šķēps nekad tālu, dots vārds, kam ir svars.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Gvido II, Asīzes bīskaps",
+      "description": "Asīzes bīskaps no 1204. gada. Avotos dokumentēts: pilsētas priekšā apsedza Francisku ar savu apmetni ainā, kur tas atteicās no tēva mantas.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Pjetro di Bernardone",
+      "description": "Bagāts Asīzes audumu tirgotājs, Franciska tēvs. Konflikts ar dēlu par pārdoto mantu izvērtās publiskā ainā bīskapa priekšā, ko stāsta Toms no Čelāno.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Bernardones Francisks",
+      "description": "Jaunais tirgotāja dēls, kurš Asīzē šajos gados atstāj visu un sāk no jauna basām kājām. Ceļinieks viņu sastop no tālienes vai uz dažiem mirkļiem; viņa vārdi šeit ir nedaudzi un uzticīgi avotiem.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Ceļinieka apmetnis",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Vēla rudens lietū ceļinieks nonāk Ozolu ciemā un satiek nosalušu ubagu: ceļa pirmā izvēle.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Vēla rudens lietus tevi ir pavadījis trīs dienas. Kad ieraugi pirmās Ozolu ciema mājas, vakars jau slēdz taciņas, un tavs apmetnis pil ūdeni.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Zem ērkšķu plūmju dzīvžoga sarāvusies figūra ievelkas nodilušā maisā. Roku netiecas: tikai skatās uz tevi ar gaišām acīm, kā cilvēks, kurš ir beidzis lūgt.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Mārtiņam ir taku vecums. Viņš bija zirgu kalējs Spoleto, pirms slimība viņam atņēma smēdi un māju. Tagad ceļš ir viss, kas viņam palicis.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Neko nelūdzu, svešiniek. Bet nakts būs gara un salta, un mana mugura vairs nepanes mitrumu.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Mārtiņš trīc zem dzīvžoga. Ko dari?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Novelc apmetni un uzliec to viņam uz pleciem.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Sniedz roku un pavadi viņu līdz ciemam.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Apsēdies viņam blakus, zem dzīvžoga, un klausies.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Apmetnis pamet tavus plecus, un aukstums tūlīt ieiet kaulos. Bet tajā aukstumā ir jauns vieglums, ko neproti izskaidrot.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Man nav nekā, ko tev atdot, draugs. Tikai mans vārds: Mārtiņš. Ciemā zinās, kāds svešinieks tu esi.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Ejiet lēni, viens otram atspiedušies, biezā lietū. Kroga vārtos ugunis vēl deg.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Ceļā esi pieņēmis kompāniju, svešiniek? Nāciet abi: mana uguns neuzdod jautājumus.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Biju zirgu kalējs Spoleto: apkaļu kungiem zirgus. Tad rokas sāka trīcēt, un neviens negrib kalēju, kas trīc. Paldies, ka apsēdies: cilvēki paiet garām un iet taisni, it kā neveiksme būtu lipīga.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Kad pieceļaties, lietus ir mitējies. Parādi viņam ceļu uz ciemu un skaties, kā viņš lēni attālinās, līdz tumsa viņu paņem.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Ozolu ciema krogs smaržo pēc malkas un maizes. Zemā uguns žāvē drēbes un kausē ceļa nogurumu.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Pienāc pie letes nosalis un bez apmetņa. Meistars Bernardo tevi ilgi mēra ar skatienu, tad sniedz kausu karsta vīna: „Apmetni atdevi prom tādā vakarā? Vai nu esi traks, vai labāks, nekā izskaties. Redzēsim.“",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Meistars Bernardo vada krogu jau trīsdesmit gadus: praktisks, neuzticīgs, nespējīgs atstāt kādu aukstumā. Par ciemu viņš zina katru parādu un katru laipnību.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Šeit neviens neko nedāvina, svešiniek: maize ir jāmaksā, un nepatikšanas arī. Bet vieta pie uguns nav pārdošanā. Tā ir tam, kurš atnāk.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "Stūrī sieviete ar vērīgām acīm smalcina garšaugus piestā. Tā ir Lūcija, atraitne, kas ārstē ciemu ar saknēm un pacietību. Nekas, kas notiek uz ceļa, viņai nepaslīd garām.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Redzēju, kā apstājies zem ērkšķu plūmju dzīvžoga. Daudzi paiet garām tai līkumā: ceļš ātri iemāca neskatīties. Tu apstājies. Atceries to, kad kāds tev teiks, kas tu esi.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Tu atklāji: Neviens nav svešs. Uzņemšana sākas tā: nevis no idejas, bet no dzīvžoga, no nosaluša cilvēka, no apstāšanās. Iet pretī tam, ko pasaule māca izvairīties, ir katra ceļa pirmais solis.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Zem tā dzīvžoga — kas tevi dzina un kas tevi turēja? Padomā par saviem šodienas ceļiem: ko tu parasti satiec un kura priekšā esi iemācījies paiet garām?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Nakts paiet klusi. No rīta uz kroga letes atrodi sauju kastaņu un nevienu vārdu: ciemā lietas atceras. Tavs ceļš ir sācies.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Tirgotāja dēls",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Asīze, 1206. gada sākums: ceļinieks nonāk dienās, kad Francisks bīskapa Gvido priekšā atdod visu tēvam. Pilsēta skatās un jautā.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Asīze tevi uzņem ar čukstiem, kas nav tirgus dienu čuksti. Ieliņās cilvēki klusi runā par vienu vārdu: sera Pjetro di Bernardones dēlu, audumu tirgotāju.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Pie ciema avota sieviete tev skaidro: tēvs ir aizvilcis jaunekli bīskapa priekšā, lai atgūtu pārdoto mantu, un laukums pildās. Zem mūriem, Svētā Damiāna sabrukušajā baznīciņā, mūrnieks viens cīnās ar sabrukušu sienu.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Balsis laukumā aug. No vienas puses pūlis, no otras — viens cilvēks ar saviem akmeņiem.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Nokāp pie Svētā Damiāna, lai palīdzētu mūrniekam.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Skrien uz laukumu, pirms pūlis noslēdzas.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Uzkāp Svētā Rufīna pakāpieniem, lai vērotu no augšas.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Stundu cel akmeņus blakus mūrniekam, kamēr pūlis tur augšā trokšņo. Vīrs strādā klusējot, tad norāda uz baznīciņu: to labo kāds Asīzes puisis, viņš saka. Tas, par kuru visi runā.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Viņš nesa akmeņus šurp kā relikvijas un dziedāja. Saka, ka esot sajucis prātā. Trakos esmu redzējis daudzus: neviens tā nestrādāja.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Kad atgriezies laukumā, pūlis jau izklīst. Savāc fragmentus: jauneklis ir atdevis tēvam visu, pat drēbes, un bīskaps viņu apsedzis ar savu apmetni. Kāds smejas. Daudzi ne.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Izlauzies cauri pūlim līdz pat bīskapa pilij. Vidū novājējis jauneklis ar degošām acīm; viņam pretī vecs vīrs, kas trīc no dusmām: sers Pjetro di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Franciskam ir ap divdesmit četriem gadiem un stāja tam, kurš audzis starp dārgām drānām un svētkiem. Šodien, stāvot bīskapa priekšā, viņš šķiet to visu jau atstājis aiz muguras.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Mani audumi, mans zirgs, mana nauda: pārdoti viņa ārprātam! Gribu taisnību, monsinjor. Lai viņš atsakās no katras manas lietas līdz pēdējai diegam.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Ilgs klusums. Tad jauneklis novelk drēbes, vienu pēc otras, un noliek tās tēvam pie kājām. Pūlis aiztur elpu. Bīskaps Gvido noņem apmetni un apsedz viņa kailos plecus.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Līdz šai dienai esmu saucis par tēvu Pjetro di Bernardoni. Turpmāk varēšu brīvi teikt: Mūsu Tēvs, kas esi debesīs.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "No katedrāles pakāpieniem laukums ir kā skudru pūznis. Vārdus nedzirdi, bet redzi visu: jaunekli, kas novelkas, veco, kas savāc drēbes, bīskapu, kas atver savu apmetni.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Blakus tev ābolu pārdevējs nopūšas: šajā laukumā esmu redzējis tiesas un kautiņus, viņš saka, bet nekad dēlu, kas tā atdod visu. Apkārt kāds smējīgi smejas, kāds slauka acis.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Vakars nolaižas pār Asīzi. Krogos nerunā ne par ko citu: ir, kas izsmej jaunekli, kas sauc viņu par svētu, kas krata galvu, domājot par saviem dēliem.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Bīskaps Gvido šķērso iztukšoto laukumu ar nogurušu soli tam, kurš ir vadījis grūtu dienu. Tas ir viņš, kurš visu priekšā apsedza Francisku ar savu apmetni.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Savā dzīvē esmu redzējis daudzus vīrus, kas turas pie lietām. Nevienu, kurš tās tā palaistu. Lūdziet par to puisi: un lūdziet par mums, kas skatāmies un nesaprotam.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Laukums tukšojas. Ko dari, pirms atkal dodies ceļā?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "No tālienes seko Franciskam, kurš nokāpis uz Svēto Damiānu.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Paliec klausīties laukuma balsīs.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Atgriezies pie mūrnieka, lai pabeigtu iesākto.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Seko Franciskam līdz sabrukušajai baznīciņai. Redzi, kā viņš paceļ akmeni, nopūš putekļus un liek to atpakaļ sienā kā tas, kurš saved kārtībā māju. Neuzdrošinies viņu traucēt. Dodies tālāk ar šo tēlu acīs.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Paliec, līdz lāpas nodziest. Dzirdi visu cilvēka zvērnīcu: skaudību, izsmieklu, aizturētu apbrīnu, tēvu bailes. Pilsētai vajadzēs gadus, lai izlemtu, ko tā ir redzējusi.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Atgriezies pabeigt sienu? Labi. Akmeņi nemelo: paliek tur, kur tos liec. Tas puisis to saprot: viņš sāk no jauna no pamatiem. No sevis, ne tikai no baznīcām.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Kas ir dokumentēts",
+          "text": "Franciska atteikšanos bīskapa Gvido priekšā 1206. gada sākumā stāsta Toma no Čelāno Pirmā dzīve, svētajam tuvākā biogrāfija: drēbju atdošana, vārdi par Tēvu, kas ir debesīs, bīskapa apmetnis. Dokumentēta ir arī Svētā Damiāna atjaunošana. Turpretī izdoma ir ceļinieks, kuru tu spēlē, mūrnieks Jēkabs un laukumā savāktie dialogi.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Tu atklāji: Nekā sava, viss saņemts. Atteikšanās nav nicinājums pret lietām: tā ir atbrīvošanās no domas tās piederēt. Kam nepieder nekas, tam nav jāaizstāv nekas, un viņš var saņemt visu kā dāvanu.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Pamet Asīzi, kamēr ugunis iedegas viena pēc otras. Esi redzējis, kā cilvēks paliek kails un brīvs laukumā un kā vesela pilsēta jautā. Arī tu ej vieglāk: vai varbūt tikai vērīgāk pret lietu svaru.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Cilvēks ceļa malā",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Uz ceļiem starp ciemiem klabekļa skaņa paziņo spitālīgo. Ceļiniekam jātiek galā ar bailēm, riebumu un cieņu: un ar seju, ko viņš pazīst.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Ceļš starp ciemu un ieleju iet garām atpūtinātiem laukiem un akmens ozolu mežiem. Pie sazarojuma dzirdi sausu, ritmisku skaņu: koka klabekli, ar kuru spitālīgie paziņo savu tuvošanos.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Ceļa malā, ietinies skrandās, sēž cilvēks. Pirmā lieta, ko jūti, ir tavs paša ķermenis, kas sastingst: solis, kas palēninās, aizturēta elpa, vēlme pāriet otrā pusē.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Tad tu redzi: uz vīra pleciem, lāpīts un izbalējis, ir tavs apmetnis. Tas, ko atdevi Ozolu ciemā ierašanās vakarā. Apmetni pazīsti ātrāk nekā viņu.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Nenāc tuvāk, draugs: slimība mani ir paņēmusi, un likums mani sūta ārā no pasaules. Bet tavs apmetnis mani turēja dzīvu ziemā. Esmu Mārtiņš: esmu tev parādā dzīvību un nevaru pat paspiest tev roku.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Spitālīgais ceļa malā. Ko dari?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Pienāc soli no viņa un runā ar viņu.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Atstāj maizi un vīģes uz akmens, netuvojoties.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Paej garām. Bet pēc divdesmit soļiem apstājies un atgriezies.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Tuvumā, zem slimības pelēkajiem pelniem, pazīsti dzīvžoga cilvēka gaišās acis: tas ir Mārtiņš, ubags no tavas pirmās dienas ciemā.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Slimība man atņēma pirkstus, tad ciems man atņēma pārējo. Skaninu šo koku, un cilvēki bēg, pirms mani pat ierauga. Tu paliki. Tu nezini, kāda dāvana ir tikt skatītam sejā.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Noliec maizi un vīģes uz plakana akmens, pusceļā starp tevi un viņu. Tā dara visi: tuvākmīlestība drošā attālumā. Viņš lēni noliecas galvu.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Maizes man pietiek, un paldies. Bet atceries, svešiniek: tādi kā es mirst divreiz. Pirmo reizi, kad atnāk slimība, otro — kad neviens vairs nesauc vārdā.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Ej divdesmit soļus uz ieleju. Tad kauns tevi aptur stiprāk par klabekli: lēni atgriezies līdz ceļa malai. Cilvēks paceļ skatienu, pārsteigts.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Daudzi paiet, nedaudzi atgriežas. Solis atpakaļ ir visgrūtākais no visiem: zinu, esmu to mācījies arī es. Apsēdies, ja gribi. Pastāsti, no kurienes nāc.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Paliekat runāt, kamēr saule riet. Mārtiņš tev stāsta par kādu Asīzes brāli, to tirgotāja dēlu, kurš visu atstāja: tagad viņš ieiet lazaretēs, mazgā brūces un katru sauc vārdā.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Lazarete ir ielejā, aiz tilta, saka Mārtiņš. Ja meklē to brāli, atradīsi viņu tur.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Piedāvā pavadīt viņu līdz lazaretei.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Apsoli, ka ciemā neviens viņu neaizmirsīs.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Pavadi viņu pa ieleju, lēni, neaizskarot, bet arī neizvairoties. Pie tilta atvadāties kā draugi: ar nožēlu, ka jāšķiras.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Ciems mani ir izdzinis, saka Mārtiņš. Bet, ja kāds tur augšā vēl izrunās manu vārdu, būšu mazāk miris. Tu viņam to apsoli. Vēl nezini, cik maksās to solījumu turēt.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Franciska vārdi",
+          "text": "Testamentā, savā personiskākajā rakstā, diktētā dzīves beigās, Francisks stāsta, ka Kungs viņu aizveda pie spitālīgajiem un ka viņš viņiem darīja žēlsirdību: tas, kas viņam šķita rūgts, pārvērtās maigumā (Testaments 1–3). Tā ir viena no nedaudzajām epizodēm, ko apliecina viņa paša balss. Mārtiņš un tava tikšanās pieder Ceļinieka izdomai.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Tu atklāji: Tikšanās, kas maina dzīvi. Tuvākmīlestība nav sajūta: tā ir fizisks žests tam, kurš tuvojas izstumtajam un atklāj, ka rūgtums pārvēršas maigumā. Kas dod, nestājas pāri tam, kurš saņem: viņi satiekas.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Tu atklāji: Kļūt par tuvāko ar ķermeni. Testamentā Francisks nesaka, ka juta žēlsirdību: viņš saka, ka to darīja. Līdzcietība ir īsta tad, kad ļaujas otra ciešanām tik tālu, ka sakustas rokas.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Kas šodien izkustināja tavu ķermeni pirms tavām domām: bailes, riebums, maigums? Atceries seju, kuru esi iemācījies izvairīties. Kā viņu sauc?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Dodies tālāk tumsā, ar klabekļa skaņu, kas zūd aiz muguras. Kaut kas tavā veidā, kā skaties uz cilvēkiem, ir mainījies uz visiem laikiem.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Gubbio zvērs",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio dzīvo nikna vilka šausmās. Starp tiem, kas organizē aizsardzību, tiem, kas seko neapbruņotam brālim, un tiem, kas meklē vidutājību, ceļinieks redz, kā dzimst miers.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio tev parādās pēkšņi, piekalts kalnam. Bet vārti ir aizslēgti gaišā dienā, un lauki apkārt ir tukši: neviens vairs nesūta ganāmpulkus ganībās.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matejs komandē vārtu sardzi: kalnu mednieks, rētaina seja un šķēps nekad tālu. Tas ir viņš, kurš organizē medības pret zvēru.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Vilks, svešiniek. Resns kā teļš un bez bailēm no cilvēkiem. Ir paņēmis aitas, suņus un tad vēl ļaunāk. Iesim ārā divdesmit, bruņoti. Ja kājas tev turas, turiens no meža pa gabalu.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "Krogā pie vārtiem klīst bauma, kas izklausās pēc ņirgām: pilsētā esot Asīzes brālis, no tiem basajiem, kas sveicina, novēlot mieru. Saka, ka ies viens, neapbruņots, satikt zvēru.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Pilsēta ir iespiesta starp bailēm un neticību. Ko dari?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Palīdzi Matejam organizēt māju un ganāmpulku aizsardzību.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Seko brālim ārpus mūriem, paliekot dažus soļus aiz muguras.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Pārliecini medniekus pavadīt brāli bez šķēpiem.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Visu nakti slēdzat vārtus, nesat žagarus, organizējat sardzes maiņas. Ja zvērs uzbruks, pilsēta nebūs pārsteigta. Tas ir īsts darbs, un cilvēki atvelk elpu.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Nemīlu tos, kas runā ar vilkiem, bet mīlu tos, kas strādā. Tu esi strādājis. Rīt, ar šķēpiem vai bez, Gubbio būs gatava.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "No rīta no mūriem redzat, kā brālis viens iziet uz mežu. Ļoti garš klusums. Tad viņš atkal parādās uz ceļa: un viņam blakus, rāms kā jērs, iet vilks.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Ej trīs soļus aiz brāļa, aiz pēdējās mājas. Mežs noslēdzas virs taciņas, un bailes tev savelk rīkli: bet viņa soļi ir mierīgi un velk uz priekšu arī tavējos.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Nebīsties, brāli. Iesim satikt radību, kam ir izsalkums un bailes, kā mums visiem. Paliec tuvu, ja gribi.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Zvērs iznāk no meža, rūkdamies. Brālis pārmet krusta zīmi un runā ar to kā ar brāli: piedāvā mieru derības vārdā. Un vilks tavu acu priekšā apguļas viņam pie kājām.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Ilgi runā ar Mateju un viņējiem: nekādu šķēpu, nekādu suņu. Sekosiet brālim no attāluma, gatavi visam, bet nolēmuši nesist pirmie. Grūti viņus pārliecināt: bailes vienmēr grib dzelzi.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Darīsim, kā saki. Bet, ja zvērs lec, neatbildu ne par ko. Lai debesis mums palīdz: ejam medībās bez ieročiem.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Puse pilsētas seko klusējot gar taciņu. Kad parādās vilks, simts roku meklē ieročus, kuru nav: bet neviena nepaceļas. Brālis runā, zvērs pieplok, un miers sākas tā: no bailēm, kuras neviens nenovelt uz otru.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "Laukumā, visas Gubbio priekšā, brālis apzīmogo derību: pilsēta baros vilku visas viņa dienas, un vilks vairs neaiztiks ne matu ne cilvēkiem, ne dzīvniekiem. Zvērs paceļ ķepu, un laukums uzsprāgst.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Bailes izkūst svētkos. Ko dari?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Piedāvā katru dienu nest maizi uz vilka midzeni.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Paliec ar Mateju, lai mežā noņemtu slazdus.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Apsēdies laukumā un savāc pilsētas balsis.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "Dienās, ko paliec Gubbio, katru rītu tava maize nonāk līdz midzenim. Bērni tev seko no attāluma: grib redzēt, vai tiešām zvērs nekož rokā, kas to baro.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Visu dienu noņemat slazdus un cilpas. Gadus tos likām, saka Matejs, un basais brālis vienā rītā tos padara liekus. Viņš smejas, bet smieklos ir cieņa.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "Laukumā dzirdi, kā pilsēta atkal stāsta sevi: vecā, kas slepus nesa viņam zupu, maiznieks, kurš viņam ir parādā savus pirkstus, bērni, kas jau sauc viņu vārdā. Bailes bija apdzēsušas pat stāstus.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Stāsts vai vēsture?",
+          "text": "Gubbio vilku stāsta Ziediņi, 14. gadsimta beigu krājums (21. nodaļa): hagiogrāfiska literatūra, nevis hronika, un neviens tā laika dokuments to neapstiprina. Piedāvājam to kā atmiņas stāstu, nevis kā vēsturisku faktu. Dokumentārs pamats turpretī ir miera sveicienam, ko Francisks saka saņēmis un ko atceras Testaments, un miera sludināšanai, ko darīja pirmie brāļi. Tava loma notikumā ir izdoma.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Tu atklāji: Miera sveiciens. Miers nav kara neesamība: tā ir vēsts, kas jānes, drosme, kas jātur. Tas dzimst, ejot pretī tam, kas biedē, bez ieroča rokā.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbio bija trīs ceļi: aizstāvēties, uzticēties, vidot. Kuru izvēlējies tu un kāpēc? Kas tavā dzīvē ir vilks, no kura visi aizsargājas, aizslēdzot vārtus?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Pamet Gubbio, kamēr vilks, jau paēdis un nekaitīgs, guļ saulē pie maizes krāsns. Pilsēta ir iemācījusies jaunu vārdu, un tu to esi iemācījies kopā ar viņu: mieru dara, nevis gaida.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Negaisa nakts",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Negaisa pārsteigts, ceļinieks dala alu ar brāli Tomu: stāsta un klausīšanās nakts un rīts ar sauli uz slapjām lapām.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Uz atpakaļceļa uz Ozolu ciemu debesis ātri aizveras. Vējš nes lietus smaržu, un pirmie pērkoni veļas pāri korei.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Kad negaiss uzbrūk, balss tevi sauc no alas taciņas malā. Bass brālis pamāj, lai ieej, starp diviem pilieniem un zibeni.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Brālis Toms ir garāmejošs mazākais brālis: nodilušas sandales, lāpīts habits, nūja un nekas cits. Viņam ir ieradums klusēt un retā dāvana klausīties.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Nāc iekšā, brāli, un nosusini drēbes. Ala nepieder nevienam: šonakt to dalām ar lietu. Man ir mazliet maizes un uguns: diviem ceļiniekiem tas ir pils.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Uguns iedegas, un maizi sadala it kā pati no seves. Ārā negaiss trokšņo kā upe; iekšā pirmo reizi pēc daudzām dienām tev nav steigas.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Nakts būs gara. Ar ko to piepildi?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Pajautā brālim Tomam par viņa dzīvi pirms habita.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Stāsti tu: ciemu, Mārtiņu, Asīzes laukumu, Gubbio vilku.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Paliekat klusumā, klausoties lietu.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Biju gans šajos kalnos. Plūdi vienā tādā naktī man atņēma ganāmpulku un būdu. Raudāju kā bērns. Tad atklāju, ka, vairs nekam nepiederot, vairs no nekā nebaidos: tur es sapratu Asīzes brāļus.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Brālis Toms klausās, nepārtraucot, acis ugunī. Beigās pamāj: katrs ceļš māca, viņš saka, ja ej ar atvērtām acīm. Tu esi ļāvis ceļam sevi mainīt, un tas redzams.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Klusums nav tukšs: lietus ritmē, uguns atbild, otra elpa tur takti. Saprot, ka ir sarunas, kurām nav vajadzīgi vārdi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Pret rītu negaiss sašķidrinās maigā lietū. Brālis Toms runā par savu brāli Francisku, kurš arī no sāpju gultas sacer slavas: sauc sauli par brāli, ūdeni par māsu, zemi par māti, kas mūs nes klēpī.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Viņš saka, ka katra radība slavē Radītāju, darot to, kas tā ir: saule sildot, ūdens veldzējot, zeme barojot. Un ka arī sliktā diena ir saņemta, nevis pienākusies. Ja atkārtoju, tad tāpēc, ka šonakt šeit esmu to redzējis savām acīm.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Pirmā gaisma iesūcas alā.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Pajautā, kā pateikties, kad viss iet slikti.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Neko nejautā: skaties uz pilieniem uz lapām, un pietiek.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Neprotu to izskaidrot, brāli. Zinu, ka pateicība nav labo dienu balva: tā ir vingrinājums, kā iešana. Kas to dara katru dienu, tam melnajās dienās kājas ir trenētas.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Paliekat skatīties, līdz saule pārplēš mākoņus. Slapjās lapas iedegas viena pēc otras, un visa ieleja šķiet tikko radīta.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Izejat no alas nomazgātā pasaulē. Ūdens vēl šļācas no zariem, saule liek tam mirdzēt, un tu atklāj, ka smaidī bez iemesla. Brālis Toms paņem savu nūju: jūsu ceļi šeit šķiras.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Dziesma, ala, izdoma",
+          "text": "Radību dziesma ir Franciska autentisks darbs, sacerēts 1225.–1226. gadā, slimības laikā: lauda tautas valodā, kurā saule, mēness, vējš, ūdens, uguns un zeme slavē Dievu kā brāļi un māsas. Autentiskas ir arī Visuaugstākā Dieva slavas, lūgšana bez lūgumiem. Brālis Toms un nakts alā pieder Ceļinieka izdomai; viņa vārdi parafrāzē dziesmu, to necitējot.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Tu atklāji: Brālis Saule, māsa Ūdens. Pasaule nav ne resursu noliktava, ne elks: tā ir radību saime, kas slavē Radītāju. Rūpes par radību dzimst no radniecības un pateicības, nevis no lietderības.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Tu atklāji: Slava, kas neko neprasa. Pateicība neatalgo veiksmi: tā ir vingrināts skatiens, kas atpazīst dāvanu katrā lietā — ūdenī, saulē, dienā, pat slimībā.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Šonakt esi dalījis maizi, uguni un klusumu ar svešinieku. Skaties uz savu šodienas dienu tā, kā ala skatījās uz negaisu: kas no tā, kas tev ir, ir saņemts, nevis pienācies?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Ejot uz ciemu, tu pārdomā māsu Ūdeni, kas veldzē, mazgā un dzied grāvjos. Atmiņas dārzā no šodienas tek strūklaka.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "Ozolu ciemā tevi uzņem kā to, kurš atgriežas no tālienes. Drēbēs tev vēl ir dūmu un lietus smarža, un ausīs — ūdens dziesma. Ceļš turpinās.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Rahu tervitus",
+      "text": "Testamendis tunnistab Franciscus, et Issand ilmutas talle rahutervituse, mida teistele kanda, ja keskaegsed allikad mäletavad esimesi vendi, kes kuulutasid rahu majast majja. Franciscusele ei ole rahu konflikti puudumine: see on kingitus, mis antakse edasi, ukselt uksele, inimeselt inimesele. Gubbio hundi jutustus viib selle loogika äärmuseni: rahu tehakse isegi sellega, mis hirmutab, minnes sellele vastu. Samast traditsioonist sünnib rahvalik vormel „rahu ja head“.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Vaesus kui vabadus",
+      "text": "1223. aasta reegel palub vendadel mitte midagi omastada — ei maja, ei paika ega ühtki asja — ja elada maailmas palverändurite ja võõrastena. Frantsisklik vaesus ei ülista puudust, mis jääb ühiskondlikuks haavaks: see on valik mitte lasta omandil end määratleda. Kellel ei ole midagi kaitsta, ei ole midagi karta, ja ta võib kõike vastu võtta kingitusena. Alus on enne teoloogiline kui majanduslik: Issand ise sai vaeseks.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Väiksemad vennad",
+      "text": "Franciscus tahtis, et tema omasid kutsutaks väiksemateks vendadeks: keegi ei ole suur, ja vastutajaid nimetatakse „ministriteks“, see tähendab teenriteks. 1221. aasta reegel palub, et igaüks avaldaks teisele oma vajaduse, et keegi ei mõistaks venda kohut, et terve ei põlgaks haige nõrkust. Vendlus ei ole ideaal, mida kuulutada: see on igapäevane vastastikuse vastutuse praktika. Vendadeks ollakse konkreetsetes žestides, või ei olda üldse.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Vend päike, õde vesi",
+      "text": "Loodute laulus kiidab Franciscus Jumalat „läbi“ loodute ja „koos“ nendega: vend päike, õde kuu, vend tuul, õde vesi, „kasulik ja alandlik ja kallis ja puhas“, õde meie ema maa. Loodust ei jumaldata ega taandata varude laoks: see on perekond, sest kõigil loodutel on sama Isa. Loodu hoidmine sünnib sugulusest ja tänulikkusest, mitte arvestusest. Ja Loodute laul koostati haiguses: kiitus ei sõltu oludest.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Täiuslik rõõm",
+      "text": "Väikestes lilledes seletab Franciscus vennale Leole, et tõeline rõõm ei ole imed, ei kordaminekud ega uskmatute pöördumised: see on tulla ukse taha tagasi tõrjutuna, külmununa ja halvasti kohelduna ning jääda kannatlikuks ja rõõmsaks. See on hagiograafiline jutustus, mitte kroonika, kuid see koondab frantsiskliku vaimu autentse joone. Täiuslik rõõm ei sõltu sündmustest: see on sisemine valik, mida ükski tagasilükkamine ei saa ära võtta.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Seitsekümmend korda seitse, ja veel",
+      "text": "Kirjas ministrile kirjutab Franciscus, et kui vend oleks tuhat korda patustanud, tuleb teda ometi armastada ja kuulutada talle halastust, kui ta kahetseb. Frantsisklik andestus ei eita kurja: see keeldub laskmast kurjal öelda suhtele viimast sõna. Loodute laulus lisati — traditsiooni järgi — stroof neist, kes andestavad Jumala armastuse pärast, et lepitada omavahel tülis olnud Assisi piiskop ja podesta. Andestus on ühtaegu inimese hool ja linna rohi.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Jõulud Greccio",
+      "text": "1223. aasta jõulul tahtis Franciscus Greccio tähistada Jeesuse sündi tõelise sõime, heina, härja ja eesliga: et ihu silmad näeksid Petlemma vaesust. Celano Thomas esitab seda saladuse elava mälestusena, mitte vaatemänguna. Sellest ööst sünnib jõulusõime traditsioon. Žest on tüüpiliselt frantsisklik: usku puudutatakse, nähakse, selles elatakse.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Kohtumine sultaniga",
+      "text": "1219. aastal, viienda ristisõja ajal, ületas Franciscus Damiettas ristisõjaväe read, et kohata sultan al-Malik al-Kamilit. Keskaegsed allikad mäletavad kahe vahel lugupidavat dialoogi, ehkki usu erinevus jäi ületamatuks. Sõja ajal valis Franciscus relvitu kohtumise tee, mitte tee, kus kuulutatakse teise vastu. Episood jääb võrdluskiviks igale dialoogile, mis ületab oma maailma piirid.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Gubbio hunt",
+      "text": "Väikesed lilled jutustavad, et Gubbios hirmutas hunt linna, ja Franciscus läks hirmunud rahvale vastu, metsalise poole, ning rääkis temaga nagu vennaga. Sellest sündis rahuleping: linn toidaks hunti, ja hunt ei teeks enam kellelegi kahju. See on 14. sajandi hagiograafilise traditsiooni jutustus, kujutlusvõimele kallim kui kroonikale. Selle õppetund on selge: rahu ehitatakse, minnes vastu sellele, mis hirmutab, ja kaasates lepingusse kogu kogukonna.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Lahtiütlemine piiskopi ees",
+      "text": "1206. aasta alguses, piiskop Guido ja oma isa Pietro di Bernardone ees, andis Franciscus riided tagasi ja loobus isalt päritud varast. Celano Thomas jutustab, et piiskop kattis ta oma mantliga: Kirik võttis vastu selle, kellest kaupmehe perekond enam aru ei saanud. See ei olnud põgenemine asjade eest, vaid avalik vabanemine mõttest neid omada. Sellest päevast võis Franciscus sõltuda ainult Isast, kes on taevas — ja teiste heldusest.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Assisi Clara",
+      "text": "Assisi noor aadlipreili Clara jättis 1212. aasta palmipuudepüha ööl isakodu, et järgida Franciscuse evangeelset eluvormi; too lõikas tal Porziuncolas juuksed. Ta rajas San Damiano vaeste õdede kogukonna ja kaitses kogu elu „vaesuse privileegi“ kirikliku surve vastu. Ta oli esimene naine, kes kirjutas naistele usureegli; see kinnitati kaks päeva enne tema surma, 1253. aastal. Tema leebus oli tehtud samast ainest kui tema visadus.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Quintavalle Bernardo",
+      "text": "Rikas ja lugupeetud Assisi kodanik Bernardo oli Franciscuse esimene kaaslane: ta tahtis oma silmaga näha, kuidas elas see noormees, keda kõik pilkasid, ja ühest palveööst piisas. Ta müüs oma vara, jagas selle vaestele ja valis rändava elu. Allikad mäletavad teda vendluse esimese viljana ja elu lõpul algse vaimu armastatud tunnistajana. Tema alustas ahelat: ilma esimese vennata ei ole vendlust.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Vend Leo",
+      "text": "Franciscuse kaaslane ja pihiisa viimastel aastatel, vend Leo oli tunnistaja La Verna ajale ja pühaku ainsa autograafi hoidja: kiri ja õnnistus, mida ta säilitas kogu elu. Kirjas vastab Franciscus tema ärevusele hästi valida vabaduse sõnadega: järgi oma südametunnistust Jumala ees. Väikestes lilledes on ta täiusliku rõõmu dialoogi vestluspartner. Leo esindab haprat ja siirast jüngrit, Franciscuse hingele lähemal, kui tema lihtsuse kuulsus oletada laseb.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sultan al-Malik al-Kamil",
+      "text": "Egiptuse sultan ajjubiidide dünastiast, Saladini lapselaps, al-Malik al-Kamil võttis Franciscuse Damiettas 1219. aastal, keset viiendat ristisõda, vastu. Keskaegsed allikad, kristlikud ja mitte ainult, kirjeldavad teda valitsejana, kes suutis kuulata ja dialoogi pidada ladina maailmaga, kellega ta pidas kaua läbirääkimisi Jeruusalemma küsimuses. Kohtumine Franciscusega ei pööranud kumbagi: see näitas, et uskujad võivad rääkida relvadeta. Ta jääb võtmekujuks, et mõista: frantsisklik vastuvõtt ületab usu piirid.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Keskaegne kommuun",
+      "text": "Franciscuse Assisi on tõusev kommuun: konsulid ja podestad, tornid ja verivaenud, kaupmehed, kes rikastuvad, ja tsunftid, mis korraldavad tööd. See on maailm, mis rajaneb au, seisuse ja krediidi peal, kus rikkus on nähtav ja vaesus on häbi. Pietro di Bernardone perekond kuulub sellesse tõusvasse linnakodanlusse. Just nende väärtuste vastu — mitte rikkuse enda, vaid võimu vastu, mida see südame üle teostab — võtab kuju frantsisklik valik.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Pidalitõbiste varjupaik",
+      "text": "13. sajandil elasid pidalitõbised müüridest väljas, laatsarettides nagu Assisi lähedal, linnale elust välja tõrjutuna ja arvatava patumärgiga tähistatuna. Franciscus tunnistab Testamendis, et nende nägemine tundus talle liiga kibe; ja et just nende seas, kuhu Issand ta viis, osutas ta halastust ja leidis magususe. Celano kirjeldab konkreetset teenimist: pesta haavu, embada, hoolt kanda. Pidalitõbiste varjupaik on paik, kus sünnib frantsisklik ligimesearmastus: mitte tunne, vaid kehade kohtumine.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Almus",
+      "text": "Keskaegne vagadus tundis almust teenelise praktikana: anti oma hinge eest, sageli distantsi hoides. 1223. aasta reegel palub vendadel seevastu minna almuse järele seda häbenemata, meenutades, et Issand sai vaeseks: palumine saab elu osaks, mitte alanduseks, mida vältida. Ja andmine muutub suhteks: vaesele ei jäeta midagi, vaesega ollakse koos. Kes annab ja kes võtab vastu, vahetavad Jumala ees kerjuste rolli.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Erakla",
+      "text": "Frantsisklik elu ei ole ainult tee ja jutlus: Franciscus otsis üksildasi tagasitõmbeid — Carceri erakla Assisi kohal, La Verna Apenniinidel — võttes kaasa vähe kaaslasi ja pikki vaikusi. La Vernale, 1224. aasta septembris, paigutavad allikad stigmad ja Jumala kiituslaulude koostamise: Franciscuse puhtaim palve on kiitus ilma palveteta. Erakla ei ole põgenemine maailmast: see on paik, kuhu pöördutakse olulise juurde, et siis inimeste sekka tagasi laskuda. Läkitus ja tagasitõmbumine hoiavad teineteist nagu tee kaks jalga.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Mis sind valdab?",
+      "text": "Tee mõttes inventuur asjadest, millest sa kõige rohkem hoolid. Siis küsi endalt, ükshaaval: kas valdan mina seda, või valdab see mind? Kui palju su ajast, tähelepanust ja ärevusest kulub selle kaitsmiseks, mis sul on? Õiget vastust ei ole: on ainult tõde sinu kohta.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Kes on sinu hunt?",
+      "text": "Sinu linnaosas, su tööl, su perekonnas: kes on inimene või olukord, kelle eest kõik põgenevad? Mis juhtuks, kui müüride püstitamise asemel läheks keegi vastu ja küsiks: mille järele sul nälg on? Kes sinu linnas võiks olla kogukond, mis lepingut tagab?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Millest sõltub sinu rõõm?",
+      "text": "Mõtle viimasele korrale, mil olid tõeliselt rõõmus: kas see sõltus saavutatud tulemusest, tunnustusest, ostust? Nüüd mõtle rõõmule, mida ükski väline sündmus ei saa ära võtta. Kui midagi meelde ei tule, ei ole see süü: see on otsinguviit. Mis peaks sinus muutuma, et rõõm ei oleks sündmustelt üürile võetud?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Rahu tee",
+      "text": "Tee kahes olukorras: piiritüli keskaegses külas ja täna kontoris osaks saanud ülekohus. Frantsisklik rahu ei ole konflikti puudumine: see on tervitus, mida kanda, vahendus, mida pakkuda, rõõm, mida mitte jätta sündmuste pantvangi. See avaneb, kui avastad rahutervituse õpetuse.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Vendluse tee",
+      "text": "Tee ühise elu sees: mida teha, kui vend eksib rängalt ja kogukond jaguneb karmuse ja vastuvõtu vahel? Frantsisklikku vendlust mõõdetakse just seal, mitte heades kavatsustes. See avaneb, kui avastad väiksemate vendade õpetuse, ja läbib piirideta andestuse ning reegli, mis kaitseb.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Rahu tee",
+      "theme": "pace",
+      "description": "Majast majja kantud tervitusest rõõmuni, mis ei sõltu sündmustest: kaks olukorda, et õppida rahu praktikana, keskaegses külas ja tänases kontoris.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Lihtsuse tee",
+      "theme": "poverta",
+      "description": "Mida teha varaga, mis käib meil käest läbi: delikaatne hoius 13. sajandil ja läbipaistmatu projekt täna. Frantsisklik vaesus kui vabadus omandist ja kui selle vastutus, kes teenib.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Vendluse tee",
+      "theme": "fraternita",
+      "description": "Kui vend eksib rängalt, paljastab vendlus, mis ta tegelikult on: kohus või kodu. Üks olukord, et läbida andestus, reegel ja vastastikune vastutus.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Piirimüür",
+      "situation": "Assisi küla, 13. sajandi algus. Berta, kes peab värvalite kauplust, ja Lupo, kõrvalukse kangur, vaidlevad nädalaid küünarjagu maa üle oma majade vahel: sealt läheb vihmaveerenn, ja kumbki vannub, et müür on tema poolel. Pered on tervitamise lõpetanud; õpipoisid loopivad tänaval solvanguid. Sa tunned mõlemat, ja mõlemad usaldavad sind. Täna õhtul küsivad nad: kelle poolel sa oled?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Ära ole kummagi poolel: paku, et kuulad neid ükshaaval, siis koos, ja aitad leida müüri ja vihmaveerenni kohta lihtsa kokkuleppe.",
+          "consequence": "Esimesed nädalad on rasked: kumbki püüab sind enda poole tõmmata. Siis, kuulatud saades, avastavad nad, et tõeline sõlm ei ole küünar maad, vaid vana andestamata ülekohus. Kokkulepe müüri osas tuleb peaaegu ruttu, ja püha Jüri pühal hakkavad kaks kauplust jälle teineteisele laenama.",
+          "perspectives": [
+            {
+              "label": "Frantsisklik tee",
+              "text": "Testamendis tunnistab Franciscus, et Issand ilmutas talle rahutervituse, mida teistele kanda, ja allikad mäletavad vendi rahu kuulutamas majast majja. Vahendada ise, alandlikult, on täpselt see žest: rahu ei soovita, seda antakse edasi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Gubbio õppetund",
+              "text": "Hundi jutustuses sünnib rahu siis, kui keegi läheb vastu sellele, mis hirmutab, ja kogu kogukond saab lepingu tagajaks: linn toidab hunti, hunt ei tee enam kahju. Siin on kaks perekonda ja naaberkauplused kokkuleppe tagajad, et see kestaks ka pärast sinu kohalolu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Kes astub vahele, riskib saada mõlema märklauaks, kui kokkulepe nurjub. Vahendus töötab sellepärast, et sa oled vaidluse väljaspool ega võida sellest midagi: sinu usaldusväärsus on su ainus kapital, ja seda tuleb kulutada kokkuhoidlikult.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Soovita mõlemale viia asi kommuuni konsulite või kaupmeeste tsunfti ette: piir mõõdetakse, paberid loetakse, õigus otsustab.",
+          "consequence": "Tüli lahkub tänavalt ja astub vormidesse. Kommuuni hindaja mõõdab, isade kirjad loetakse ette, ja mõne kuu pärast määrab otsus müüri Lupole ja vihmaveerenni Bertale. Vana ülekohus jääb aga lahendamata: pered tervitavad vaevu, ja keegi ei ole tõeliselt rahus.",
+          "perspectives": [
+            {
+              "label": "Tolle aja õigus",
+              "text": "Kommuun ongi selleks, et asendada verivaen menetlusega: kolmanda osapoole otsus sulgeb vaidluse ilma verevalamiseta ja alandusteta. See on tõeline tsiviilne edusamm, ja 13. sajandil maksti selle võitmise eest vaeva.",
+              "isEditorial": true
+            },
+            {
+              "label": "Frantsisklik tee",
+              "text": "Frantsisklik traditsioon ei põlga võime, kuid tuletab meelde, et õigus otsustab müüri, mitte südame: majast majja kantud rahutervitus sihib inimesi uuesti suhtesse, mitte ainult ülekohtu jagamist. Õiglane otsus võib jätta tüli tuha all elama.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Konsulite poole pöördumine kaitseb sind: otsustaja ei ole sina, ja keegi ei saa sind soosimiseks süüdistada. Hind on aeglus ja kulud, ning risk, et kaotaja hoiab vimma pigem kommuuni kui naabri vastu.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Ära sekku: lase ajal tülil settida, piirdudes sellega, et sa ei toida seda hinnangute ja kuulujuttudega.",
+          "consequence": "Kuude kaupa jääb pinge pinna alla: müürist ei räägi enam keegi, aga õpipoisid torkivad edasi ja vihmaveerenni hooldus seiskub. Kui tuleb talv, ujutab vihm mõlemad keldrid üle: ühise kahju ees hakkavad kaks naabrit vajadusest jälle rääkima, ja tüli laheneb ise, mõne rooste lisandiga.",
+          "perspectives": [
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Mitte iga konflikt ei küsi rahutegijat: mõnikord teeb enneaegne sekkumine seisukohad kangeks. Aeg ja ühine vajadus — üleujutatud kelder — võivad vahendada paremini kui ükskõik milline kõne.",
+              "isEditorial": true
+            },
+            {
+              "label": "Frantsisklik tee",
+              "text": "Frantsisklik rahu on aktiivne: seda kantakse, kuulutatakse, ehitatakse vastu minnes, nagu hundi jutustuses. Lasta settida ei ole patt, kuid see ei ole rahutervitus: see on loobumine olla vahend, mis on mõnikord alandlikkus ja mõnikord mugavus.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Tolle aja õigus",
+              "text": "Keskaegses õiguses on mittesekkumisel hind: aegumata tüli tuleb tagasi, ja hüljatud vihmaveerenni ühine kahju langeb kõigi peale. Ootamine ei ole neutraalne: see on valik, mis lükkab arve edasi.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Frantsisklik rahu algab tervitusest ja lõpeb lepingus, mida kogukond hoiab. Aga see nõuab kedagi, kes on valmis seisma vahel, ilma et ta sellest midagi võidaks. Sinu linnaosas, täna: kes teeb seda tööd? Ja kas sina võiksid seda teha?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Ära võetud teene",
+      "situation": "Täna, koosolekul kogu meeskonna ees, esitas kolleeg enda omana töö, mis on suures osas sinu oma. Keegi ei öelnud midagi; ülemus tänas teda. Rind on sul juba tunde põlenud. Homme kohtuvad teie pilgud koridoris uuesti.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Vastata samaga: järgmisel avalikul juhul seada faktid kõigi ees paika, täpselt ja sama publiku ees, kes ülekohut nägi.",
+          "consequence": "Parandus tuleb täpselt ja faktid lähevad oma kohale tagasi: ülemus saab aru, mõned kolleegid tänavad sind vaikselt. Avalikult alandatud kolleegist saab vaikne ja püsiv vastane; meeskonna õhkkond kangestub ja iga su sõna kaalutakse nüüd grammides.",
+          "perspectives": [
+            {
+              "label": "Tolle aja õigus",
+              "text": "Oma töö tagasi nõuda on õigustatud: tõde teenete kohta ei ole kuulujutt, ja ülekohust mööda lasta võib saada pretsedendiks. Aga vorm loeb: avalik heastamine loob võitja ja võidetu, ja pikas plaanis võidetu ei unusta.",
+              "isEditorial": true
+            },
+            {
+              "label": "Frantsisklik tee",
+              "text": "Täiusliku rõõmu jutustus õpetab, et rõõm ei tohi sõltuda tunnustusest: kui su rahu tuleb tagasi ainult siis, kui ülekohus avalikult heastatakse, oled selle andnud teiste otsustuse üürile. Fakte paika seada on lubatud; seda vajada, et end hästi tunda, on tõeline haav.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Tööelus ehitatakse mainet tilkhaaval ja kaotatakse ämbrite kaupa: hästi mõõdetud avalik parandus kaitseb, avalik alandus märgib sind vimma inimeseks. Kui valid selle tee, mõõda sõnu sisu, mitte kunagi inimese järgi.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Lasta minna: mitte midagi öelda, vimma mitte haududa, edasi minna. Töö räägib iseenda eest, ja sa ei taha anda ülekohule võimu su päevi rikkuda.",
+          "consequence": "Vaikus maksab sulle mõne nädala kannatamatust, siis sõlm laheneb: järgmine projekt on selgelt sinu oma, ja kes vaatab, sellel on pikk mälu. Vastu astumata kolleeg kordab aga käitumist teise meeskonnaliikmega: su sisemine rahu on päästetud, aga probleem jääb rühma.",
+          "perspectives": [
+            {
+              "label": "Frantsisklik tee",
+              "text": "Väikestes lilledes on täiuslik rõõm just see: kanda ülekohut, laskmata sel oma südant juhtida, jäädes kannatlikuks ja rõõmsaks. See ei ole naiivsus ega nõrkus: see on avastus, et armastusel rajanev rõõm ei pea iga vaidlust võitma.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Tolle aja õigus",
+              "text": "Sisemine rahu on hüve, kuid mitte ainus: vastu astumata väär käitumine saab harjumuseks, ja järgmisel ohvril ei pruugi olla sinu jõudu. Õiglus tööl kaitseb ka teisi, mitte ainult sinu teeneid.",
+              "isEditorial": true
+            },
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Mitte reageerida on strateegia ühe tingimusega: see peab olema valitud, mitte talutud. Kui lasta minna tähendab kuid haududa, ei ole sa harjutanud rõõmu, vaid vimma järelmaksuga. Südant tuleb ausalt kontrollida.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Otsida siirast kõnelust: paluda kolleegilt neljasilmavestlust, esitada faktid süüdistusteta ja kuulata, mis tal öelda on.",
+          "consequence": "Kõnelus on ebamugav, aga tõeline: kolleeg tunnistab pooleldi, õigustab end, siis — üllatunult, et teda avalikult lõhki ei kistud — parandab end järgmisel koosolekul ise, nimetades sinu panust. Sõpradeks te ei saa, kuid teie vahel sünnib valvas lugupidamine; ja küsimus ei jõua kunagi meeskonna ette.",
+          "perspectives": [
+            {
+              "label": "Frantsisklik tee",
+              "text": "Nelja silma alla minna sarnaneb majast majja kantud rahutervitusega: avada end ise, ilma publikuta, jättes teisele ukse lahti. Ja see sarnaneb täiusliku rõõmuga, sest ei alluta su rahu tulemusele: räägid tõe pärast, mitte võitmiseks.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Tolle aja õigus",
+              "text": "Eraldi kõnelus kaitseb fakte inimest alandamata: see on heastamise vorm, mis jätab töösuhted terveks. Selle piir on, et see sõltub teise heast usust: kui kolleeg eitab ja jääb kindlaks, on seejärel vaja ametlikku teed.",
+              "isEditorial": true
+            },
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Enne rääkimist küsi endalt, mida sa tegelikult tahad: faktid paika seada või ülekohus kätte maksta? Kõnelus töötab ainult siis, kui astud sisse valmis kuulama; kui astud sisse võitma, tunneb teine seda ja sulgub.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Täiuslik rõõm ei keela fakte paika seada: see keelab anda ülekohule su südame võtmed. Küsi endalt oma nädala kohta: mitu korda on su rahu teiste käitumiselt üürile võetud?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Kaupmehe hoius",
+      "situation": "Assisi, 1210. Guido, kangakaupmees, kes sõidab Champagne'i laatadele ega tule tagasi enne kahte aastat, pakub, et hoiad osa tema varast: kangapalle ja koti denaare. Võid neid vahepeal kasutada — kangas laseks su väikesel kauplusel hüppe teha — ja tagasi tulles annad talle kokkulepitud väärtuse tagasi, koos osaga kasumist. See on aus võimalus. See on ka side, mis kestab kaks aastat.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Võtta täielikult vastu: kasutada kangast ja raha, et kauplus kasvaks, lootes Guido tagasitulekul väärtus koos kokkulepitud intressiga tagasi anda.",
+          "consequence": "Kauplus kasvab tõesti: kaks õpipoissi, uued kangasteljed, su nimi hakkab liikuma. Aga iga otsus käib nüüd läbi arve, mis tuleb esitada: sa ei maga enam enne laatu, kardad vargusi ja lahjasid aastaid. Kui Guido tuleb tagasi, enne tähtaega ja oma kahjudega, mida katta, maksab lepingu pidamine sulle peaaegu kogu teenitu — ja sa märkad, et oled kaks aastat rohkem raha hoidnud kui elanud.",
+          "perspectives": [
+            {
+              "label": "Frantsisklik tee",
+              "text": "1223. aasta reegel palub mitte midagi omastada, ei maja ega paika ega ühtki asja: mitte sellepärast, et asjad oleksid halvad, vaid sellepärast, et see, mida pead tagasi andma ja kaitsma, hakkab sind valdama. Laatade eel kaotatud uni on täpne märk peremehe vahetusest.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Kaupmehe loogika",
+              "text": "Kommuuni maailmas on see tava: krediit paneb majanduse käima, ja igast hoiusest keeldumine tähendab igaveseks väikeseks jääda. Riski mõõdetakse ja hinnastatakse; lepingu pidamine on see, mis ehitab mainet.",
+              "isEditorial": true
+            },
+            {
+              "label": "Loobumise pilk",
+              "text": "Celano jutustab Franciscusest, kes annab isale tagasi isegi riided: mitte asjade põlgusest, vaid et mitte sõltuda millestki, mis ei ole Isa. Küsimus ei ole, kas leping on aus — see on — vaid kui palju oma südame vabadust oled valmis kaheks aastaks pantima.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Võtta vastu ainult hoius, mitte kasutus: pitseerida kangas ja raha, hoida neid kindlas kohas neid kasvatamata ja tagasi tulles puutumatult tagasi anda.",
+          "consequence": "Kaks aastat jääb su kauplus endiseks, aga sina kõnnid kergelt: ühtki arvet esitada, ühtki kasumit kaitsta. Tagasi tulnud Guido leiab kõik puutumatuna ja hindab sind sõnamehena; ta pakub teisi hoiuseid, mida kaalud ükshaaval. Keegi külas nimetab sind rumalaks: see kangas oleks võinud sinu heaks töötada.",
+          "perspectives": [
+            {
+              "label": "Frantsisklik tee",
+              "text": "Hoida omastamata on peaaegu vaimulik harjutus: omada käte vahel, omamata südames. See meenutab reegli loogikat — palverändurid ja võõrad maailmas, asjade teenrid, mitte isandad — rakendatuna teise varale.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Kaupmehe loogika",
+              "text": "Majanduslikust vaatenurgast on see raisatud võimalus: seisev kapital ei tooda, ja tasuta hoidja kingib teenuse, mille eest mujal makstakse. Guido lugupidamine maksab, aga ei maksa uusi kangastelgi.",
+              "isEditorial": true
+            },
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Puhtal hoiusel on omad riskid — vargused, tulekahjud, omastamissüüdistused —, kuid see jätab sind vabaks igast vaidlusest kasumi üle. Kirjuta ometi tunnistajate ees akt: usaldust peetakse paremini, kui paberid on korras.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Keelduda lugupidavalt: tänada Guidot usalduse eest, kuid mitte tahta kaheks aastaks omandisidemeid ega esitatavaid arveid.",
+          "consequence": "Guido jääb üllatunuks, siis noogutab: ta usaldab kangad teisele. Su kauplus jääb väikeseks ja mõni talv on kitsas, aga su sõna saab külas erilise kõla: selle oma, kes ei müü end ega seo end. Aastaid hiljem, kui valid järgida vendi, kes Assisist läbi lähevad, ei pea keegi su eemalseismist imelikuks: see algas sellest eitusest.",
+          "perspectives": [
+            {
+              "label": "Loobumise pilk",
+              "text": "Franciscuse lahtiütlemine piiskopi ees näitab, et ei öelda rikkusele on vabaduse žest, mitte põlgus: ta andis riided tagasi, et öelda silmakirjatsemata „Meie Isa“. Põhjustatud ei täna valmistab ette homse ei-d — ja jah-sõnad.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Frantsisklik tee",
+              "text": "Ettevaatust, et mitte segi ajada vabadust endale tehtud reegliga: reegel räägib mitteomastamisest, mitte keeldumisest igasugusest vastutusest teise vara ees. Ka keeldumine võib saada viisiks mõelda ainult endale.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Keelduda on õigustatud, aga sellel on sotsiaalne hind: külas aidatakse ka nii, hoides üksteise vara. Kes alati keeldub, jääb lõpuks välja usaldusvõrgust, mille peal kõik püsib.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Frantsisklik vaesus ei palu asju põlata: see palub märgata, millal asjad hakkavad sind valdama. Järgmine kord, kui võtad midagi vastu — eseme, ülesande, võla —, küsi endalt: kes hoiab keda?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Läbipaistmatu projekt",
+      "situation": "Täna. Sulle usaldatakse prestiižse projekti juhtimine: nähtavus, sinu valitud meeskond, arvestatav eelarve. Aga kaks kuluartiklit ei klapi, ja rahastaja vastab su küsimustele põiklevate viisakustega. Allkirjastada tähendab võtta vastutus ka selle läbipaistmatuse eest. Keelduda tähendab loobuda võimalusest, mis ei tule tagasi.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Võtta vastu ilma lisaküsimusteta: projekt on ainulaadne võimalus, läbipaistmatud artiklid ei ole sinu asi, ja niikuinii oleks keegi sinu asemel allkirjastanud.",
+          "consequence": "Projekt õnnestub hästi ja su karjäär teeb hüppe. Aga kui aasta hiljem avab halduskontroll need kuluartiklid uuesti, on su allkiri dokumentidel: vastutus, mida sa ei tahtnud vaadata, jõuab sulle ometi järele, ja võidetud prestiiž pöördub piinlikuks kaitseks.",
+          "perspectives": [
+            {
+              "label": "Rolli vastutus",
+              "text": "Frantsisklikus vendluses nimetatakse juhti „ministriks“, teenriks: amet on selleks, et teenida, mitte särada. Teenimine, mis nõustub mitte nägema seda, mille eest ta vastutab, on oma nime juba reetnud, enne igasugust kontrolli.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Kaupmehe loogika",
+              "text": "Töömaailmas arvatakse nii: igal projektil on hallid tsoonid, ja kes tahab tõesti töötada, õpib nendega elama. Igast ebatäiuslikkusest keelduda tähendab anda otsused neile, kellel on sinust vähem südametunnistust.",
+              "isEditorial": true
+            },
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Allkiri on piir: mida allkirjastad, seda valdada sa, koos kõigi tagajärgedega. Enne allkirjastamist ei piisa kümneni lugemisest: tuleb täpselt teada, mille alla kirjutad. Võimalus, mis ei tule tagasi, tuleb sageli tagasi; maine mitte.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Keelduda: ilma läbipaistvuseta ei kirjutata alla, ja projekt mingu sellele, kes need tingimused vastu võtab.",
+          "consequence": "Loobumine põletab, ja kuid vaatad, kuidas projekt läheb edasi probleemide keskel: ilma sinu juhtimiseta meeskond kaldub kõrvale, ja lõpuks võtab rahastaja raha tagasi just läbipaistmatute artiklite pärast. Sinu ei, mida mõni loeb naiivsuseks, mäletavad teised siis, kui õrna ülesande jaoks on vaja usaldusisikut.",
+          "perspectives": [
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Keeldumine kaitseb mainet, kuid jätab probleemi puutumata: projekt läheb sellele, kellel on vähem südametunnistust, ja inimesed, kes selle kallal töötavad, kannavad tagajärgi. Ei peseb käed, mitte alati maailma.",
+              "isEditorial": true
+            },
+            {
+              "label": "Rolli vastutus",
+              "text": "Kiri ministrile näitab, et frantsisklik juhtimine on lähedus ja teenimine, mitte kunagi üleolev eemalseis. Aga teenida ei tähenda kõigeks valmis olla: minister, kes allkirjastab selle, mida ta ei suuda juhtida, ei teeni vendi, vaid seab nad ohtu. Ka keeldumine võib olla hoolitsuse vorm.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Pikk pilk",
+              "text": "Karjäärid tehakse kinni haaratud võimalustest, aga usaldus tehakse tagasi lükatud võimalustest. Selgetel põhjustel ja ilma moralismita öeldud ei on investeering, mis küpseb aeglaselt ega kaota väärtust.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Võtta vastu tingimustega: kirjutada alla alles siis, kui on kirja pandud läbipaistev aruandlus, sõltumatu audit ja põhjendatud taganemisõigus.",
+          "consequence": "Rahastaja viivitab, ähvardab otsida teisi, siis annab järele: su tingimused, kirja pandud, saavad projekti selgrooks. Töö on aeglasem ja raskem, kui lubati, aga kui kontroll tuleb — ja see tuleb —, on arved avatud ja meeskond peab vastu. Sinu juhtimisest saab pretsedent: teised pärast sind küsivad samu tingimusi.",
+          "perspectives": [
+            {
+              "label": "Rolli vastutus",
+              "text": "See on ministri tee frantsisklikus täies mõttes: mitte põgeneda teenimise eest, vaid keelduda, et teenimine muutuks kaasosaluseks. Kes juhib, teenib — ja teenimine hõlmab meeskonna ja projekti kaitsmist varjutsoonide eest, isegi ebamugavate läbirääkimiste hinnaga.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Kaupmehe loogika",
+              "text": "Kirjalikud tingimused on parim kompromiss, aga neil on hind: riskid kaotada ülesande, kui rahastaja ei anna järele, ja töötada aastaid partneriga, kes peab sind rohkem kontrollijaks kui liitlaseks. See tasub end ainult siis, kui sul on usutavaid alternatiive.",
+              "isEditorial": true
+            },
+            {
+              "label": "Pikk pilk",
+              "text": "Tingimusi seada on kõige aeglasem ja viljakam viis: see ei piirdu sinu kaitsmisega, see muudab tava. Institutsioonid paranevad, kui keegi teeb isiklikust südametunnistusest ühise reegli.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Franciscus nimetas vastutajaid „ministriteks“, teenriteks: rolli nimi on juba selle programm. Sinu töös: mida on vaja, et su teenimine ei muutuks kaasosaluseks — ja mida, et su rangus ei muutuks põgenemiseks?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Vend, kes eksis",
+      "situation": "Porziuncola, 13. sajandi kahekümnendad. Vend Ruffino on reegli vastu rängalt eksinud: ta jättis endale almusena saadud raha, ja asi on nüüd teada ka väljas, rahva seas, kes teid vaatab. Vendluses on päevi vaieldud. Mõned nõuavad eeskujulikku patukahetsust ja tema ajutist eemaldamist külast; teised tuletavad meelde, et Ruffino on haige ja katki; kolmandad kardavad, et järeleandlikkus kutsub kõiki eksima. Minister küsib igaühe arvamust. Ka sinu oma.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Toetada karmust: Ruffino avalik patukahetsus ja ajutine eemaldamine, sest reegel kehtib kõigile ja ilmike pahandus tuleb kõigi ees heastada.",
+          "consequence": "Vendlus kiidab heaks range distsipliini. Ruffino läheb kaugesse eraklasse, alandatuna nende ees, kes teda tundsid; küla ilmikud imetlevad vendade järjekindlust ja almus ei vähene. Aga vendluses miski kangestub: vennad hakkavad oma haprust varjama, kartes kohut, ja Ruffino, üksi, kulutab aastaid, et tagasi tulla — kui ta tuleb.",
+          "perspectives": [
+            {
+              "label": "Kogukonna tarkus",
+              "text": "Ühine reegel on see, mis eristab vendlust sõprade seltskonnast: kui rängalt eksinu ei kohta tagajärgi, tühjeneb leping ja nõrgemad maksavad selle hinda. Avalik heastamine vastab ka avalikule pahandusele.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Kiri ministrile",
+              "text": "Franciscus kirjutab ministrile, et kui vend oleks tuhat korda patustanud, tuleb teda ometi armastada ja kuulutada talle halastust: karmus, mis pahandab nõrka venda, riskib teda kaotada. Karmus ei ole keelatud, kuid see ei tohi kunagi saada põlguseks.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Pikk pilk",
+              "text": "Kogukond, kus kõik kardavad kohut, saab saladuste kogukonnaks: reegel püsib paberil ja variseb südametes. Rangus, mis ei näe ette tagasiteed, toodab pagendatuid, mitte patukahetsejaid.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Toetada täielikku vastuvõttu: võtta Ruffino tagasi ilma avaliku patukahetsuseta, ravida tema haigust ja vastata pahandusele leebusega, mitte karistustega.",
+          "consequence": "Ruffino jääb. Ta nutab vendade ees, annab tagasi, mis suudab, ja leiab aeglaselt koha ühises elus: keegi ei heida talle asja enam ette. Külas pobiseb keegi, et vennad katavad üksteist, ja kaks noort vendlusest võtavad leebust loana: minister peab kuid vaeva nägema, et taastada, et reegel ei ole nõuanne.",
+          "perspectives": [
+            {
+              "label": "Kiri ministrile",
+              "text": "See on tee, mille Kiri ministrile ette tõmbab: armastada rohkem, mitte vähem, seda, kes on eksinud; kuulutada halastust, kui ta kahetseb; mitte teha oma südant kõvaks teise patu pärast. Franciscus teab, et see tee maksab, ja kirjutab selle ometi ette.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Kogukonna tarkus",
+              "text": "1221. aasta reegel palub avaldada üksteisele vajadusi ja mitte põlata nõrka: haige Ruffino on täpselt vend, keda reegel kaitseb. Aga sama reegel on olemas selleks, et vendlus ei hajuks: halastus ilma tõeta saab kaasosaluseks.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Küla ettevaatlikkus",
+              "text": "Ilmikud annavad almust vaestele vendadele, mitte kavalatele: valitsemata pahandus uuristab usaldust, mis hoiab kogukonda elus. Vastuvõttu tuleb külale seletada, mitte ainult kodus elada, muidu loetakse seda varjamiseks.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Toetada ühist teed: Ruffino jääb vendlusse, annab võlgnetu vendade ees tagasi, usaldab end vennalikule saatele, ja kogu kogukond kannab koos temaga heastamist küla ees.",
+          "consequence": "Tee on pikk ja ebamugav: Ruffino tunnistab vendade ees, annab raha majast majja tagasi koos vanema vennaga ja teeb aasta kõige alandlikumaid teenistusi, ilma et keegi seda talle ette heidaks. Küla näeb tõelist heastamist, mitte karistust: usaldus tuleb aeglaselt tagasi. Vendluse sees saab episoodist kirjutamata reegel: kes langeb, seda saadetakse, kes on eksinud, see heastab, keegi ei lähe kaduma.",
+          "perspectives": [
+            {
+              "label": "Kiri ministrile",
+              "text": "Kirja halastus ei ole hinnaalandus: see on armastus, mis saadab kahetsust, kuni see vilja kannab. Ruffino, kes annab majast majja tagasi, ei ole alandatud: ta on vend, kes tuleb tagasi, ja kogukond kõnnib tema kõrval, selle asemel et teda ülalt vaadata.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Kogukonna tarkus",
+              "text": "1221. aasta reegel kujutleb just seda: vendi, kes avaldavad oma vajadused — ka häbiväärsed — ja kes kannavad üksteist. Ühine heastamine ühendab tõe ja halastuse ning teeb ühe süü kõigi kooliks.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Tolle aja õigus",
+              "text": "See on kõigile kõige nõudlikum tee: see nõuab aega, saladuse hoidmist seal, kus vaja, ja avalikku tõde seal, kus pahandus oli avalik. Mitte iga kogukond ei kanna seda vaeva: ilma võimeka ministrita saab kesktee ainult otsustamatuseks.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Vendlust ei mõõdeta siis, kui kõik peavad reeglit, vaid siis, kui keegi seda rikub. Kiri ministrile kinnitab tähe — armastada rohkem, mitte vähem —, ilma tõde kustutamata. Sinu kogukondades: kas eksinul on tagasitee?"
+    }
+  ]
+}

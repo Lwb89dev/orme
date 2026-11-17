@@ -1,0 +1,590 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Hvad vil det sige at være ydmyg?",
+      "theme": "umilta",
+      "description": "En ærlig guide piller misforståelsen af ydmyghed som selvnedvurdering fra hinanden: Frans' «sandhed om sig selv», navnet «mindre» og ens egen vilje i Formaningerne.",
+      "teachingIds": ["teaching.umilta.ultimo"],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Velkommen til Dialogen. Jeg præsenterer mig: jeg er en guide gennem de franciskanske kilder, jeg er ikke Frans, og jeg taler ikke på hans vegne. Dagens spørgsmål lyder enkelt: hvad vil det sige at være ydmyg? Mange tænker, når de hører ordet «ydmyghed», straks på at gøre sig selv mindre. Før vi begynder, interesserer dit udgangspunkt mig.",
+          "options": [
+            { "id": "umilta.n1.o1", "text": "For mig er ydmyghed ikke at tillægge sig selv betydning, at blive på sin plads.", "next": "umilta.n2" },
+            { "id": "umilta.n1.o2", "text": "Jeg aner, at det er noget andet, men jeg kan ikke sige hvad.", "next": "umilta.n3" },
+            { "id": "umilta.n1.o3", "text": "Hvorfor kaldte Frans' brødre sig «mindre»?", "next": "umilta.n4" }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Det er den mest udbredte idé, og også den mest sejlivede misforståelse. Hvis ydmyghed var at nedvurdere sig selv, ville den blive en subtil måde stadig at beskæftige sig med sig selv på: med sit eget billede, sin egen plads, endog sin egen udstillede middelmådighed. De franciskanske kilder peger et andet sted hen: ikke på at tænke sig selv lille, men på at se sig selv i sandheden. Forskellen virker lille, men den ændrer alt.",
+          "options": [
+            { "id": "umilta.n2.o1", "text": "Hvad er ydmyghed da i virkeligheden?", "next": "umilta.n5" },
+            { "id": "umilta.n2.o2", "text": "Findes der en tekst af Frans, der siger det?", "next": "umilta.n6" }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Denne usikkerhed er et godt udgangspunkt, det siger jeg uden ironi. Den, der indrømmer ikke at vide, har allerede taget et skridt hen imod det, Frans mener med ydmyghed: at se sig selv i sandheden, uden at puste sig op og uden at nedbryde sig selv. Lad os prøve at give denne idé form, med udgangspunkt i kilderne.",
+          "options": [
+            { "id": "umilta.n3.o1", "text": "Godt: hvad er kernen i den franciskanske ydmyghed?", "next": "umilta.n5" },
+            { "id": "umilta.n3.o2", "text": "Er der et sted i kilderne, vi kan læse sammen?", "next": "umilta.n6" }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Et præcist spørgsmål, og svaret er et lille program. I et samfund grundlagt på ære og rang ville Frans, at hans skulle kaldes mindrebrødre: ingen «større», ingen, der skal tjenes. Selv broderskabets ansvarlige kaldte han «ministre», som på latin betyder tjenere. Det var ikke en sproglig grille: det var valget af en plads, den sidste, som ingen kan fortrænges fra.",
+          "options": [
+            { "id": "umilta.n4.o1", "text": "Og i hverdagen, hvilken forskel gør det?", "next": "umilta.n5" },
+            { "id": "umilta.n4.o2", "text": "Står der noget om dette i hans skrifter?", "next": "umilta.n6" }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Her er vi ved centrum. For Frans er ydmyghed sandhed om sig selv: små over for Gud, skyldnere for alt det, vi er og har, i stand til at tjene uden at kræve anerkendelse. Bemærk, at denne sandhed også omfatter dine talenter: at anerkende dem som modtagne gaver er ikke hovmod, det er ærlighed. Den ydmyge nedvurderer ikke sig selv: man holder op med at spille en rolle, i den ene retning og i den anden. Og man er fri for behovet for at fremstå, som er et af de mest trættende slaverier.",
+          "options": [
+            { "id": "umilta.n5.o1", "text": "Og ens egne talenter? Skal man fornægte dem for at være ydmyg?", "next": "umilta.n10" },
+            { "id": "umilta.n5.o2", "text": "Hvordan oversættes det i dag, for eksempel på arbejdet og online?", "next": "umilta.n7" },
+            { "id": "umilta.n5.o3", "text": "Hvad siger Formaningerne præcis?", "next": "umilta.n6" },
+            { "id": "umilta.n5.o4", "text": "Det er nok for mig: vi kan slutte.", "next": "umilta.chiusura" }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Der findes en kort og skarp tekst: Formaningerne, anvisninger som Frans rettede til broderskabet. Et af målene er «ens egen vilje» gjort til målestok for alt: den, der anser sig selv for retfærdig og vis af sig selv, advarer Frans, fjerner sig fra den sande ydmyghed, som består i at underordne sin egen dømmekraft og i at tjene. Men pas på: at underordne betyder ikke at slukke. Kilderne beder ikke om, at man holder op med at tænke, men om ikke at gøre sit eget synspunkt absolut.",
+          "options": [
+            { "id": "umilta.n6.o1", "text": "Det ligner et afkald på ens eget hoved. Er det ikke for meget?", "next": "umilta.n8" },
+            { "id": "umilta.n6.o2", "text": "Og konkret, i dag, hvordan ser det ud?", "next": "umilta.n7" }
+          ],
+          "sourcePassageIds": ["pass.ammonizioni.propria_volonta"]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Lad os prøve at oversætte, vel vidende at dette er en moderne fortolkning, ikke en middelalderlig tekst. På arbejdet er ydmyghed at gøre sin del godt uden at gøre et skuespil ud af det, at indrømme en fejl uden at bygge undskyldninger, at overlade fortjenesten til den, der fortjener den. Online, hvor meget måles i synlighed, er det at kunne offentliggøre og arbejde, uden at andres dom bliver din herre. Det er ikke en opfordring til at skjule dig: det er en opfordring til ikke at afhænge af bifaldet.",
+          "options": [
+            { "id": "umilta.n7.o1", "text": "Smukt, men i mit miljø vinder den, der træder frem.", "next": "umilta.n9" },
+            { "id": "umilta.n7.o2", "text": "Det overbeviser mig. Lad os slutte.", "next": "umilta.chiusura" }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "En legitim indvending, og den fortjener et ærligt svar. I kilderne er lydigheden ikke udslettelse: selve broderskabet var et sted, hvor man viste hinanden sine behov, det vil sige man talte. Pointen er ikke at afskaffe sin egen dømmekraft, men at nægte, at den er den øverste domstol over alt. Her overleverer kilderne os dog ikke en række enkelttilfælde: jeg kan ikke sige dig, hvor grænsen går i dit konkrete tilfælde. Det forbliver et arbejde for dig og for dem, der virkelig kender dig.",
+          "options": [
+            { "id": "umilta.n8.o1", "text": "Det giver mening. Og i hverdagen?", "next": "umilta.n7" },
+            { "id": "umilta.n8.o2", "text": "Jeg foretrækker at stoppe her.", "next": "umilta.chiusura" }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Du har ret i at rejse det, og jeg svarer dig ikke med et karriereråd: det er ikke min rolle. Jeg siger kun, at de franciskanske kilder ikke lover, at ydmygheden «virker»: de lover, at den gør fri. Undertiden koster den, og at foregive det modsatte ville være uærligt. Valget om ikke at leve for anerkendelsen forbliver netop et valg: dit, afmålt efter din sammenhæng.",
+          "options": [
+            { "id": "umilta.n9.o1", "text": "Ærligt, tak. Lad os slutte.", "next": "umilta.chiusura" },
+            { "id": "umilta.n9.o2", "text": "Lad os læse kernen i lærdommen igen.", "next": "umilta.n5" }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Nej, og kilderne, læst med omhu, siger det modsatte. Frans' logik er gavens: hvis alt er modtaget, er også dine evner det, og at fornægte dem ville blot være en anden måde at lyve om sig selv på. Ydmygheden beder ikke om, at man siger «jeg er intet værd», men at man siger sandheden: «dette har jeg modtaget, dette er jeg skyldner for». Og den, der kan genkende en gave, kan også takke: på den franciskanske vej er taknemmeligheden en dør til glæden.",
+          "options": [
+            { "id": "umilta.n10.o1", "text": "Og hvordan lever man dette i dagens konkrete virkelighed?", "next": "umilta.n7" },
+            { "id": "umilta.n10.o2", "text": "Vi kan slutte her.", "next": "umilta.chiusura" }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Vi standser her. Hvis du vil, så tag et spørgsmål med dig, ikke en opgave: på hvilket punkt i din dag spiller du en rolle, i stedet for at blive i sandheden om det, du er, i det gode og i begrænsningen? Du skal ikke svare mig, og heller ikke nogen anden. Dialogens andre samtaler venter på dig, når du vil: tilgivelsen, fattigdommen, skaberværket, Frans' tro.",
+          "options": [
+            { "id": "umilta.chiusura.o1", "text": "Gå denne samtale igennem fra begyndelsen.", "next": "umilta.n1" },
+            { "id": "umilta.chiusura.o2", "text": "Opdag Dialogens andre samtaler.", "next": "umilta.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Tak, fordi du har vandret med mig ind i disse kilder. Fra Dialogens liste kan du åbne en anden samtale, eller finde denne igen, når du vil: teksterne bliver, og spørgsmålene også.",
+          "options": [
+            { "id": "umilta.fine.o1", "text": "Begynd denne samtale forfra.", "next": "umilta.n1" },
+            { "id": "umilta.fine.o2", "text": "Afslut for nu." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Hvordan kan man tilgive nogen?",
+      "theme": "perdono",
+      "description": "Brevet til en minister og strofen i Sangen: tilgivelsen som en gentagen beslutning, forskellen fra retfærdigheden og et ærligt svar til den, der ikke kan.",
+      "teachingIds": ["teaching.perdono.mille_volte"],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Velkommen til Dialogen. Jeg guider dig: jeg er ikke Frans, og jeg taler ikke på hans vegne, jeg ledsager dig ind i det, kilderne virkelig siger. Dagens spørgsmål er et af de sværeste, der findes: hvordan kan man tilgive nogen? Jeg lover dig ikke et bekvemt svar. Det hjælper mig at vide, hvor du starter.",
+          "options": [
+            { "id": "perdono.n1.o1", "text": "Jeg har lidt en uret og kan ikke slippe vreden.", "next": "perdono.n2" },
+            { "id": "perdono.n1.o2", "text": "Betyder det at tilgive ikke blot at lade, som om intet er sket?", "next": "perdono.n3" },
+            { "id": "perdono.n1.o3", "text": "Jeg vil først vide, hvad Frans siger om tilgivelse.", "next": "perdono.n4" }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Tak for ærligheden. De franciskanske kilder lover ikke, at vreden forsvinder, og de beder dig ikke om at foregive, at uretten ikke er sket. Det, de foreslår, er noget andet: tilgivelsen som en beslutning, der fornyes, også når følelsen ikke følger med. Hvis du ikke kan i dag, udelukker det dig ikke: det er reglen, ikke undtagelsen.",
+          "options": [
+            { "id": "perdono.n2.o1", "text": "En beslutning, der fornyes: forklar mig det.", "next": "perdono.n6" },
+            { "id": "perdono.n2.o2", "text": "Og hvis jeg slet ikke kan?", "next": "perdono.n7" },
+            { "id": "perdono.n2.o3", "text": "Hvad skriver Frans om det?", "next": "perdono.n4" }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Nej, og det er værd at sige med det samme og med klarhed: at tilgive er ikke at benægte. De franciskanske kilder forveksler ikke barmhjertighed og uretfærdighed: det onde, der er gjort, forbliver ondt, og dets konsekvenser forbliver virkelige. Tilgivelsen her sletter ikke det, der er sket: den nægter, at fornærmelsen skal have det sidste ord om relationen. Det er to forskellige planer, og at holde dem adskilt er det første skridt.",
+          "options": [
+            { "id": "perdono.n3.o1", "text": "Kan tilgivelse og retfærdighed da stå sammen?", "next": "perdono.n5" },
+            { "id": "perdono.n3.o2", "text": "Hvad siger Frans helt præcist?", "next": "perdono.n4" }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Nøgleteksten er Brevet til en minister: Frans skriver til en ansvarlig i broderskabet, som må forholde sig til brødre, der fejler. Det berømte sted siger i det væsentlige: hvis en broder havde syndet tusind gange for dine øjne, så elsk ham mere end mig, og forkynd barmhjertighed for ham. Tusind gange: ikke en heroisk beslutning truffet én gang for alle, men et valg, der gøres om hver dag. Det ændrer spørgsmålet: ikke «føler jeg, at jeg tilgiver?», men «vælger jeg at tilgive også i dag?».",
+          "options": [
+            { "id": "perdono.n4.o1", "text": "Tusind gange er for meget. Er det et realistisk krav?", "next": "perdono.n6" },
+            { "id": "perdono.n4.o2", "text": "Og retfærdigheden? Skal den, der fejler, ikke stå til regnskab?", "next": "perdono.n5" },
+            { "id": "perdono.n4.o3", "text": "Skabningernes sang taler om tilgivelse, ikke sandt?", "next": "perdono.n8" }
+          ],
+          "sourcePassageIds": ["pass.lettera_ministro.mille_volte"],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Ja, og selve Brevet lader det skinne igennem: Frans beder om at forkynde barmhjertighed, forudsat at den anden omvender sig, det vil sige tilgivelsen erklærer ikke den uskyldig, der har fejlet, og fritager ham ikke for at gøre det godt igen. Også i hans tid afskaffede de fredsstiftende brødre ikke domstole og ansvar: de arbejdede for, at hævnen ikke skulle være den eneste mulige retfærdighed. At tilgive og at kræve, at det onde anerkendes, er ikke fjender. De kan gå sammen, om end møjsommeligt.",
+          "options": [
+            { "id": "perdono.n5.o1", "text": "Og hvor begynder man i praksis?", "next": "perdono.n6" },
+            { "id": "perdono.n5.o2", "text": "Har strofen i Sangen noget med det at gøre?", "next": "perdono.n8" },
+            { "id": "perdono.n5.o3", "text": "Og hvis uretten er for stor, eller for nylig?", "next": "perdono.n7" },
+            { "id": "perdono.n5.o4", "text": "Og i de delte byer i hans tid?", "next": "perdono.n10" }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Man begynder med en korrektion af perspektivet. Hvis tilgivelsen var en følelse, skulle du vente på, at den kom: og ofte kommer den ikke, eller den kommer og går så igen. Hvis den er en beslutning, kan du træffe den, også mens vreden stadig brænder, og tage den op igen i morgen og i overmorgen. Kilderne beskriver ikke et lineært forløb: ordet «tusind gange» antyder snarere det modsatte. Ærlighed: i de franciskanske tekster findes der ingen teknikker. Der findes en retning.",
+          "options": [
+            { "id": "perdono.n6.o1", "text": "Og hvis jeg i dag slet ikke kan?", "next": "perdono.n7" },
+            { "id": "perdono.n6.o2", "text": "Og med sig selv? Kan man tilgive sig selv?", "next": "perdono.n9" },
+            { "id": "perdono.n6.o3", "text": "Fortæl mig strofen i Sangen om tilgivelse.", "next": "perdono.n8" }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Et ærligt svar: det kan ske, og kilderne dømmer dig ikke for det. Det gør jeg heller ikke: jeg er en guide gennem teksterne, ikke en skriftefader og ikke en terapeut. Jeg siger dig to ting, der kan dokumenteres. Den første: Brevet taler om tusind gange, hvilket betyder, at tilgivelsen allerede i 1200-tallet ikke blev tænkt som en øjeblikkelig gestus. Den anden: hvis et sår er dybt, er det ikke et nederlag at dele det med nogen, man stoler på, eller med en fagperson, når der er brug for det. Om hvor lang tid tilgivelsen tager, tier de franciskanske kilder: her kan vi ikke sige mere.",
+          "options": [
+            { "id": "perdono.n7.o1", "text": "Og tilgivelsen over for sig selv?", "next": "perdono.n9" },
+            { "id": "perdono.n7.o2", "text": "Tak for ærligheden. Lad os slutte.", "next": "perdono.chiusura" }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Der er en strofe i Skabningernes sang, som lovpriser Gud for dem, der tilgiver for hans kærligheds skyld og bærer sygdom og trængsel. Forskningen daterer den almindeligvis til sommeren 1226, og traditionen knytter den til en konkret episode: biskoppen og podestàen i Assisi lå i åben strid, og Frans, allerede syg, skulle have tilføjet den strofe og ladet Sangen synge foran dem for at forsone dem. Jeg præciserer niveauerne: strofen er autentisk, fortællingen om episoden når os gennem den hagiografiske tradition. Tilbage står dette: tilgivelsen var for Frans værdig til lovprisning, også midt i hans bys konflikter.",
+          "options": [
+            { "id": "perdono.n8.o1", "text": "At tilgive midt i en konflikt: er det muligt?", "next": "perdono.n5" },
+            { "id": "perdono.n8.o2", "text": "Og den, der ikke kan tilgive?", "next": "perdono.n7" },
+            { "id": "perdono.n8.o3", "text": "Vi kan slutte.", "next": "perdono.chiusura" }
+          ],
+          "sourcePassageIds": ["pass.cantico.perdono_morte"]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Her må jeg være ærlig om kildernes grænser. De franciskanske tekster taler om tilgivelse over for brødrene og over for den, der fornærmer; om tilgivelse af sig selv, sådan som vi forstår den i dag, siger de næsten intet eksplicit. Vi kan ræsonnere ved analogi: hvis man forkynder barmhjertighed tusind gange for den, der fejler, er det vanskeligt at udelukke sig selv. Men det forbliver vores ræsonnement, ikke et citat. Jeg foretrækker at sige dig det, frem for at lægge Frans ord i munden, som han ikke har skrevet.",
+          "options": [
+            { "id": "perdono.n9.o1", "text": "Jeg sætter pris på præcisionen. Og hvor starter man igen?", "next": "perdono.n6" },
+            { "id": "perdono.n9.o2", "text": "Lad os slutte her.", "next": "perdono.chiusura" }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Der er også en offentlig dimension. Kommunernes Italien var gennemskåret af fejder og hævn, og kilderne husker de første brødre forkynde freden fra hus til hus, med en hilsen som Frans bevidnede at have modtaget. Tilgivelsen var i den verden ikke kun en privat sag: den var det punkt, hvor gengældelsens kæde kunne brydes. Også i dag findes fejderne, i familierne, i kvartererne, på de sociale medier, og logikken er den samme: nogen må holde op med at give slaget tilbage.",
+          "options": [
+            { "id": "perdono.n10.o1", "text": "Og strofen i Sangen blev netop født af en konflikt, ikke sandt?", "next": "perdono.n8" },
+            { "id": "perdono.n10.o2", "text": "Det er nok. Lad os slutte.", "next": "perdono.chiusura" }
+          ],
+          "sourcePassageIds": ["pass.testamento.saluto_pace"]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Vi standser her. Hvis du vil, så tag ét billede med dig, ikke en opgave: tilgivelsen som en vej, man lægger en meter om dagen, ikke som et spring, man tager én gang for alle. Og hvis dit sår i dag ikke tillader det, bad denne dialog dig ikke om at lykkes: den bad dig om at forstå. Dialogens andre samtaler venter på dig, når du vil.",
+          "options": [
+            { "id": "perdono.chiusura.o1", "text": "Gå denne samtale igennem fra begyndelsen.", "next": "perdono.n1" },
+            { "id": "perdono.chiusura.o2", "text": "Opdag Dialogens andre samtaler.", "next": "perdono.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Tak, fordi du har taget et vanskeligt spørgsmål op uden genveje. På Dialogens liste finder du de andre samtaler: jeg bliver her, og teksterne også.",
+          "options": [
+            { "id": "perdono.fine.o1", "text": "Begynd denne samtale forfra.", "next": "perdono.n1" },
+            { "id": "perdono.fine.o2", "text": "Afslut for nu." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Var Frans imod rigdommen?",
+      "theme": "poverta",
+      "description": "Frans fordømte ikke goderne: han befriede fra besiddelsen. Reglen fra 1223, afkaldet foran biskoppen, og hvad det betyder i dag, uden romantik.",
+      "teachingIds": ["teaching.poverta.liberta", "teaching.rinuncia.sine_proprio"],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Velkommen til Dialogen. Jeg præsenterer mig: jeg er en guide, ikke Frans; sammen med dig læser jeg kilderne og siger dig, når de ikke slår til som svar. Dagens spørgsmål er fuldt af misforståelser: var Frans imod rigdommen? Det korte svar er «nej, ikke i den betydning, du måske forestiller dig». Men det fortjener den lange vej. Hvor begynder vi?",
+          "options": [
+            { "id": "poverta.n1.o1", "text": "Jeg har altid ment, at han foragtede pengene i sig selv.", "next": "poverta.n2" },
+            { "id": "poverta.n1.o2", "text": "Jeg aner, at pointen er en anden, men jeg kan ikke sige den.", "next": "poverta.n3" },
+            { "id": "poverta.n1.o3", "text": "Er det ikke bare romantisk fattigdom, som på en plakat fra 1800-tallet?", "next": "poverta.n4" }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Det er den mest udbredte rekonstruktion, og også den mindst nøjagtige. I Frans' tekster finder du ikke en fordømmelse af goderne, som om de var urene: du finder noget mere radikalt og mere subtilt, nemlig afvisningen af at tilegne sig dem. Målet er ikke rigdommen, det er besiddelsen: det, tingene gør ved den, der tror at eje dem. Lad os gå til den tekst, der siger det bedst.",
+          "options": [
+            { "id": "poverta.n2.o1", "text": "Hvilken tekst?", "next": "poverta.n5" },
+            { "id": "poverta.n2.o2", "text": "Og den berømte scene med afkaldet?", "next": "poverta.n6" }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Din mistanke er velbegrundet. Pointen er ikke mængden af goder, men typen af bånd: Frans vil have brødre, der ikke tilegner sig noget, for den, der ikke besidder, skal ikke forsvare, og den, der ikke skal forsvare, er fri til at elske. Det er en frihedens logik, ikke af væmmelse. Jeg viser dig det i Reglens tekst.",
+          "options": [
+            { "id": "poverta.n3.o1", "text": "Lad os læse Reglen.", "next": "poverta.n5" },
+            { "id": "poverta.n3.o2", "text": "Fortæl mig først scenen foran biskoppen.", "next": "poverta.n6" }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Indvendingen er alvorlig og fortjener respekt: den romantiske fattigdom findes, og den er en karikatur, der har meget lidt franciskansk ved sig. Så lad os lave en pagt: ingen idealiseringer. Vi ser på, hvad kilderne siger — en scene fortalt af den første biograf og en normativ tekst skrevet af Frans selv — og så dømmer du, om de holder.",
+          "options": [
+            { "id": "poverta.n4.o1", "text": "Godt: den første biografs scene.", "next": "poverta.n6" },
+            { "id": "poverta.n4.o2", "text": "Den normative tekst.", "next": "poverta.n5" }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Reglen fra 1223, den endelige tekst godkendt af Kirken: brødrene tilegner sig intet, «hverken hus eller sted eller nogen ting»; de lever som pilgrimme og fremmede og går tiggergang uden at skamme sig. Den angivne grund er teologisk: Herren blev fattig for os. Men der er også en klar menneskelig logik: det, du ikke besidder, besidder ikke dig. Den tekniske tradition kalder det «sine proprio», uden noget eget. Ikke foragt for tingene, som modtages, bruges og takkes for: befrielse fra besiddelsen.",
+          "options": [
+            { "id": "poverta.n5.o1", "text": "Fortæl mig om afkaldet foran biskoppen.", "next": "poverta.n6" },
+            { "id": "poverta.n5.o2", "text": "Og i dag? Skulle vi sælge alt?", "next": "poverta.n7" },
+            { "id": "poverta.n5.o3", "text": "Og de virkelige fattige? Risikerer man ikke at forskønne elendigheden?", "next": "poverta.n8" }
+          ],
+          "sourcePassageIds": ["pass.regola_bollata.poverta"],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Thomas af Celano, den første biograf, fortæller den sådan: foran biskop Guido og faderen Pietro di Bernardone giver Frans endog klæderne tilbage og giver afkald på faderens gods, idet han siger, at han nu kun kan kalde Gud fader. Biskoppen dækker ham med sin egen kappe. Jeg præciserer niveauerne: episoden er et dokumenteret omdrejningspunkt, men de scenografiske detaljer tilhører Celanos fortælling, som er hagiografi, opbyggelig litteratur, ikke et referat. Meningen er dog klar: offentligt at skære båndet til familiens rigdom over.",
+          "options": [
+            { "id": "poverta.n6.o1", "text": "En teatralsk gestus eller et gennemtænkt valg?", "next": "poverta.n9" },
+            { "id": "poverta.n6.o2", "text": "Og vi i dag, hvad gør vi med det?", "next": "poverta.n7" }
+          ],
+          "sourcePassageIds": ["pass.celano1.rinuncia"],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Et uundgåeligt spørgsmål, og det ærlige svar er: kilderne beder ikke alle om det samme. Den Regle var for brødrene; Frans skrev ikke regler for købmænd, forældre, håndværkere. Altså nej: der findes ingen franciskansk tekst, der befaler dig at sælge alt. Det, der findes, er et ubekvemt spørgsmål at bo i: hvilke ting ejer jeg, og hvilke ejer mig? Det konkrete svar står i forhold til dit liv, ikke til hans.",
+          "options": [
+            { "id": "poverta.n7.o1", "text": "Hvordan skelner vi mellem valgt fattigdom og lidt nød?", "next": "poverta.n8" },
+            { "id": "poverta.n7.o2", "text": "Og den, der arbejder, tjener og forsørger en familie?", "next": "poverta.n11" },
+            { "id": "poverta.n7.o3", "text": "Giv mig noget konkret, uden ekstreme gestus.", "next": "poverta.n10" }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Det er den vigtigste skelnen i denne samtale. Den lidte nød — ikke at have mad, pleje eller et tag — er et socialt sår, der skal heles, ikke et ideal, man skal betragte: Frans tjente de fattige, han gjorde dem ikke til et skue. Den franciskanske fattigdom er noget andet: et frit valg om ikke at tilegne sig, truffet for frihedens og solidaritetens skyld. At forveksle dem er den fejl, man altid skal undgå: at glorificere andres elendighed ville netop være den «romantiske fattigdom», vi talte om.",
+          "options": [
+            { "id": "poverta.n8.o1", "text": "Så havde kritikken af romantikken en kerne af sandhed?", "next": "poverta.n9" },
+            { "id": "poverta.n8.o2", "text": "Og i praksis, for mig, i dag?", "next": "poverta.n10" },
+            { "id": "poverta.n8.o3", "text": "Lad os slutte her.", "next": "poverta.chiusura" }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Teatralsk var den ganske vist: og i et samfund grundlagt på ret og besiddelse kunne kun en offentlig gestus opløse et offentligt bånd. Men det var ikke en improvisation: Celano placerer det efter måneders krise, fangenskabet i Perugia, sygdommen, skuffelserne. Hvis du vil have et kriterium til at bedømme gestus, hans og dine, så er det her: ikke øjeblikkets intensitet, men det, der kommer bagefter. Frans levede sammenhængende i yderligere tyve år. De sande gestus kendes på den lange varighed.",
+          "options": [
+            { "id": "poverta.n9.o1", "text": "Og i dag, uden ekstreme gestus?", "next": "poverta.n10" },
+            { "id": "poverta.n9.o2", "text": "Jeg har forstået. Lad os slutte.", "next": "poverta.chiusura" }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkret, så, men uden opskrifter: det er ikke min rolle at give dig dem. Den franciskanske tradition antyder en retning i tre træk: at se på det, du ejer, og spørge dig selv, om det gør dig fri eller blot forsigtig; at bruge tingene som noget, man har modtaget, ikke som noget, man har krav på; at lade enkelheden frigøre plads — tid, opmærksomhed, penge — til de andre. Det er en moderne fortolkning, det siger jeg dig ærligt: men det er en fortolkning, der er tro mod ånden i «sine proprio».",
+          "options": [
+            { "id": "poverta.n10.o1", "text": "Tilbage til Reglens tekst.", "next": "poverta.n5" },
+            { "id": "poverta.n10.o2", "text": "Lad os slutte.", "next": "poverta.chiusura" }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Ingen franciskansk kilde siger, at det at arbejde og tjene fjerner én fra Frans: Reglen er livsformen for et bestemt broderskab, ikke målestokken for enhver tilværelse. Logikken er snarere næsten vendt om: problemet er ikke at have, men at stå i tjeneste hos det, man har. Hvis dit arbejde, din indtægt, dit hus bliver redskaber — dine og de andres — og ikke herrer, er du nærmere Reglens ånd, end du tror.",
+          "options": [
+            { "id": "poverta.n11.o1", "text": "Og risikoen for at romantisere fattigdommen?", "next": "poverta.n8" },
+            { "id": "poverta.n11.o2", "text": "Lad os slutte.", "next": "poverta.chiusura" }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Vi standser her. Jeg efterlader dig ikke en opgave: jeg efterlader dig det spørgsmål, denne samtale har forsøgt at åbne. Hvad, blandt det du ejer, ejer dig? Svar på det i ro, eller svar slet ikke. Når du vil, står Dialogens andre samtaler på listen: ydmygheden, tilgivelsen, skaberværket, troen.",
+          "options": [
+            { "id": "poverta.chiusura.o1", "text": "Gå denne samtale igennem fra begyndelsen.", "next": "poverta.n1" },
+            { "id": "poverta.chiusura.o2", "text": "Opdag Dialogens andre samtaler.", "next": "poverta.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Tak, fordi du har søgt et nuanceret svar på et spørgsmål, der ofte får slogans. Vi ses i Dialogen, når du vil: kilderne udløber ikke.",
+          "options": [
+            { "id": "poverta.fine.o1", "text": "Begynd denne samtale forfra.", "next": "poverta.n1" },
+            { "id": "poverta.fine.o2", "text": "Afslut for nu." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Hvorfor talte Frans med dyrene?",
+      "theme": "creato",
+      "description": "Slægtskab, ikke panteisme: Sangen, Celanos fugle, Fiorettis ulv, og hvad alt dette siger — og ikke siger — til nutidens økologi.",
+      "teachingIds": ["teaching.creato.cantico"],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Velkommen til Dialogen. Jeg er din guide: jeg er ikke Frans, og når kilderne ikke slår til, siger jeg det. Dagens spørgsmål synker ned i århundreders billeder: Frans, der taler til fuglene, til ulven, til fiskene. Hvad ligger der bag? Det afhænger af, hvad du søger.",
+          "options": [
+            { "id": "creato.n1.o1", "text": "Jeg vil have sandheden: er det kun en legende, at han talte med dyrene?", "next": "creato.n2" },
+            { "id": "creato.n1.o2", "text": "Jeg spørger mig selv, om han så Gud i naturen: var han panteist?", "next": "creato.n3" },
+            { "id": "creato.n1.o3", "text": "Fortæl mig om Skabningernes sang.", "next": "creato.n4" }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Et historikerspørgsmål, og svaret er lagdelt, som næsten alt, der angår Frans. Kernen er bevidnet tidligt: Thomas af Celano, en nær biograf, fortæller prædikenen til fuglene i nøgterne toner. De mere scenografiske fortællinger — ulven fra Gubbio, fiskene, regnormene — blomstrer et århundrede senere i Fioretti. Altså: en gammel erindring og en litterær forstærkning. Jeg viser dig dem begge, adskilt.",
+          "options": [
+            { "id": "creato.n2.o1", "text": "Celanos nøgterne version.", "next": "creato.n5" },
+            { "id": "creato.n2.o2", "text": "Fiorettis version: ulven.", "next": "creato.n6" }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Nej, og den tekst, der viser det, er Skabningernes sang. Frans lovpriser Gud «for» skabningerne — broder sol, søster måne — han lovpriser ikke skabningerne, som om de var guddommelige. Forskellen er afgørende: naturen er ikke Gud, den er familie. Skabningerne er søstre, fordi de er døtre af samme Fader. Det rette ord er «slægtskab», ikke panteisme.",
+          "options": [
+            { "id": "creato.n3.o1", "text": "Lad os læse Sangen.", "next": "creato.n4" },
+            { "id": "creato.n3.o2", "text": "Og historierne med dyrene?", "next": "creato.n2" }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Skabningernes sang, komponeret i 1225-1226, da Frans var syg og næsten blind: den er blandt de første poetiske tekster på italiensk folkesprog. Den lovpriser Gud for broder sol, «som er dagen», for søster måne og stjernerne, for broder vind, for søster vand, «nyttig og ydmyg og kostbar og kysk», for broder ild og for «søster vor moder jord». To ting at bemærke. Den første: det er ikke en hymne til naturen, det er en lovprisning af Gud gennem naturen. Den anden: den fødes i lidelsen, ikke på en idyllisk spadseretur.",
+          "options": [
+            { "id": "creato.n4.o1", "text": "Og prædikenen til fuglene?", "next": "creato.n5" },
+            { "id": "creato.n4.o2", "text": "Og ulven fra Gubbio?", "next": "creato.n6" },
+            { "id": "creato.n4.o3", "text": "Hvad siger alt dette til nutidens økologi?", "next": "creato.n7" }
+          ],
+          "sourcePassageIds": ["pass.cantico.apertura", "pass.cantico.creature"],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Celanos version er overraskende nøgtern: Frans ser flokke af fugle, henvender sig til dem som til skabninger, der kan lytte, og opfordrer dem til at lovprise Gud. Ingen artikulerede dialoger, ingen spektakulære mirakler: en anerkendelsens gestus. Fioretti tilføjer et århundrede senere korsets tegn, flokkene der stiller sig op for at lytte, den højtidelige afsked. Først Frans' stil, dernæst andagtens stil. Begge siger os noget, men noget forskelligt.",
+          "options": [
+            { "id": "creato.n5.o1", "text": "Og ulven fra Gubbio?", "next": "creato.n6" },
+            { "id": "creato.n5.o2", "text": "Hvis det er litteratur, hvilken værdi har det da?", "next": "creato.n8" },
+            { "id": "creato.n5.o3", "text": "Og den nutidige økologi?", "next": "creato.n7" }
+          ],
+          "sourcePassageIds": ["pass.celano1.uccelli"]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Ulven fra Gubbio er Fiorettis mesterværk: den terroriserede by, Frans der går udyret i møde, taler til det som til en broder og mægler en pagt — byen skal føde det, det skal ikke mere gøre nogen ondt. Jeg må være klar om genren: det er 1300-tallets hagiografi, andagtens erindring, ikke en verificerbar krønike. Men se, hvad den bevarer: freden, der fødes af at gå det i møde, som gør bange, og et dyr behandlet som samtalepartner og ikke som genstand. Formen er legende; retningen er ægte franciskansk.",
+          "options": [
+            { "id": "creato.n6.o1", "text": "Er det altså i grunden opfundet?", "next": "creato.n8" },
+            { "id": "creato.n6.o2", "text": "Og hvad får nutidens økologi ud af det?", "next": "creato.n7" }
+          ],
+          "sourcePassageIds": ["pass.fioretti.lupo"]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Her er der brug for ærlighed i begge retninger. På den ene side: Sangen tilbyder i dag en sjælden grammatik, omsorgen for skaberværket af taknemmelighed og slægtskab, ikke af nytte eller frygt. På den anden side: Frans var ikke en moderne miljøforkæmper, og hans kilder kender ikke klima, udryddelser, forurening. Den, der søger et detaljeret økologisk program hos ham, tvinger teksterne. Den, der søger et blik — verden som familie, ikke som lager — finder noget, der stadig kan flytte adfærd.",
+          "options": [
+            { "id": "creato.n7.o1", "text": "Og dog blev han udråbt til økologiens skytshelgen, ikke sandt?", "next": "creato.n9" },
+            { "id": "creato.n7.o2", "text": "Hvad bliver der konkret tilbage for mig?", "next": "creato.n10" }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Nej: «ikke krønike» betyder ikke «opfundet ud af intet». Prædikenen til fuglene står hos Celano, få år efter Frans' død; Fioretti klæder den i legendariske farver, men tråden udgår fra en erindring. Sådan fungerer megen hagiografi: formen fortæller om andagten hos dem, der har overleveret den, substansen bevarer et virkeligt træk. At læse kilderne betyder netop dette: at holde de to ting sammen uden at forveksle dem.",
+          "options": [
+            { "id": "creato.n8.o1", "text": "Klart. Og for nutidens økologi?", "next": "creato.n7" },
+            { "id": "creato.n8.o2", "text": "Lad os så vende tilbage til Sangen.", "next": "creato.n4" }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Ja: i 1979 udråbte Johannes Paul II ham til økologernes skytshelgen. Det er en moderne titel — fortolkning, ikke middelalderlig kilde — og som sådan skal den håndteres. Den er legitim, hvis den peger på roden i det franciskanske blik: slægtskabet med alle skabninger. Den bliver vildledende, hvis den flader Frans ud til økolog før sin tid og sletter, at Sangen først og fremmest er en lovprisning af Gud, komponeret af en syg mand, der takkede. Titlen siger noget sandt, på den betingelse at man ikke reducerer ham til den.",
+          "options": [
+            { "id": "creato.n9.o1", "text": "Og for mig, konkret?", "next": "creato.n10" },
+            { "id": "creato.n9.o2", "text": "Vi kan slutte.", "next": "creato.chiusura" }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkret betyder her et spørgsmål om blik, før det bliver et spørgsmål om handlinger. Sangen foreslår at bebo verden som slægtskab: vandet som en søster, man ikke skal spilde, jorden som en moder, man er barn af, skabningerne som lovprisningens ledsagere og ikke som forråd. De praktiske valg — hvad du køber, hvad du smider ud, hvordan du rejser — kommer bagefter, og kilderne dikterer dem ikke. Men et forandret blik gør dem mulige, og mindre anstrengende.",
+          "options": [
+            { "id": "creato.n10.o1", "text": "Lad os læse Sangen sammen igen.", "next": "creato.n4" },
+            { "id": "creato.n10.o2", "text": "Lad os slutte.", "next": "creato.chiusura" }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Vi standser her. Jeg efterlader dig et billede, ikke en opgave: en næsten blind mand, der komponerer en lovprisning af den sol, han ikke mere ser, og kalder den broder. Hvis du en dag kommer til at se på et træ, en hund, vandet fra hanen som en slægtning i stedet for som en ting, vil du vide, hvor det blik kommer fra. Dialogens andre samtaler venter på dig på listen.",
+          "options": [
+            { "id": "creato.chiusura.o1", "text": "Gå denne samtale igennem fra begyndelsen.", "next": "creato.n1" },
+            { "id": "creato.chiusura.o2", "text": "Opdag Dialogens andre samtaler.", "next": "creato.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Tak, fordi du har skelnet krønike, legende og lovprisning sammen med mig: det er en øvelse, der tjener langt ud over Frans. Vi ses i Dialogen, når du vil.",
+          "options": [
+            { "id": "creato.fine.o1", "text": "Begynd denne samtale forfra.", "next": "creato.n1" },
+            { "id": "creato.fine.o2", "text": "Afslut for nu." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Kan man følge Frans uden at være troende?",
+      "theme": "fede",
+      "description": "Et svar uden omsvøb på et alvorligt spørgsmål: den kristne tro var Frans' centrum, og appen skjuler den ikke. Hvad der bliver tilbage for den, der ikke tror.",
+      "teachingIds": ["teaching.fede.cristo_centro"],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Velkommen til Dialogen. Jeg er en guide gennem kilderne: jeg er ikke Frans, jeg er ikke en skriftefader, og jeg vurderer ingen tro, heller ikke din. Dagens spørgsmål er legitimt og alvorligt: kan man følge Frans uden at være troende? Jeg lover dig et svar uden omsvøb. Først, sig mig, hvor du taler fra.",
+          "options": [
+            { "id": "fede.n1.o1", "text": "Jeg er troende, og jeg vil forstå hans tro bedre.", "next": "fede.n2" },
+            { "id": "fede.n1.o2", "text": "Jeg er ikke troende: hvad kan jeg modtage fra ham?", "next": "fede.n3" },
+            { "id": "fede.n1.o3", "text": "Jeg ved ikke, hvad jeg tror. Er denne dialog noget for mig?", "next": "fede.n4" }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Så går vi lige til centrum. Frans' tro var ikke en kulturel etiket: den var udspringet for alt det øvrige — for fattigdommen, for broderskabet, for freden. I Testamentet fortæller han, at Herren gav ham en enkel tro på kirkerne; og hele hans historie, fra San Damiano til La Verna, læses af kilderne som efterfølgelse af den fattige og korsfæstede Kristus. Lad os se teksterne.",
+          "options": [
+            { "id": "fede.n2.o1", "text": "Teksterne, ja.", "next": "fede.n5" },
+            { "id": "fede.n2.o2", "text": "Og hans forhold til tidens Kirke?", "next": "fede.n10" }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Kort svar: ja, det kan man, med en ærlighedens betingelse. Du kan studere ham, beundre ham, lade dig udspørge af hans stil uden at tilslutte dig hans tro; denne app er også lavet til dig, og ingen her vurderer din position. Betingelsen er ikke at amputere ham: en Frans uden Kristus bliver ikke mere universel, han bliver en anden person. Hvis du accepterer at møde ham hel, rod inklusive, er der meget at modtage.",
+          "options": [
+            { "id": "fede.n3.o1", "text": "Vis mig så denne rod.", "next": "fede.n5" },
+            { "id": "fede.n3.o2", "text": "Hvad bliver der konkret tilbage for den, der ikke tror?", "next": "fede.n8" }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Ja, den er noget for dig: måske mere end for nogen anden. Spørgsmålene om tro kræver ikke et tilhørsbevis: de kræver ærlighed, og den har du netop haft. Jeg vil ikke skubbe dig i nogen retning: jeg viser dig teksterne, skelner niveauerne og standser, hvor kilderne standser. Lad os begynde med det, Frans selv fortæller.",
+          "options": [
+            { "id": "fede.n4.o1", "text": "Godt: hvad fortæller han?", "next": "fede.n5" },
+            { "id": "fede.n4.o2", "text": "Og den, der ikke når frem til at tro, hvad modtager han?", "next": "fede.n8" }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "To vidnesbyrd. Det første er hans eget: i Testamentet, dikteret kort før han døde, mindes Frans, at Herren gav ham en enkel tro på kirkerne, hvor han bad vendt mod Kristus. Det andet er Celanos: i 1224, på bjerget La Verna, skulle Frans have modtaget stigmata, lidelsens tegn, som han søgte at skjule. Bemærk niveauerne: Testamentet er Frans' ord; stigmata når os som vidnesbyrd fra de nærmeste kilder, og appen fremstiller dem sådan, ikke som en målbar kendsgerning. Tilsammen siger de én ting: centrum i hans liv var Kristi person.",
+          "options": [
+            { "id": "fede.n5.o1", "text": "Stigmata: hvordan bør jeg forstå dem?", "next": "fede.n6" },
+            { "id": "fede.n5.o2", "text": "Hvorfor insisterer appen så meget på dette punkt?", "next": "fede.n7" },
+            { "id": "fede.n5.o3", "text": "Og for den, der ikke tror, hvad bliver der tilbage?", "next": "fede.n8" },
+            { "id": "fede.n5.o4", "text": "Lod en så total tro ikke plads til tvivlen?", "next": "fede.n9" }
+          ],
+          "sourcePassageIds": ["pass.testamento.chiese", "pass.celano1.stimmate"],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Med den samme ærlighed, som kilderne fremstiller dem med. Celano fortæller om dem få år efter Frans' død, og traditionen bevarer dem som tegn på en total ligedannelse med den korsfæstede Kristus. Den historiske og teologiske vurdering diskuteres af forskerne; her tillader kilderne os ikke at sige mere, og den, der sagde dig mere, i den ene eller den anden retning, ville gå ud over teksterne. Det, vi kan sige: for hans broderskab bekræftede det tegn det, hans liv allerede sagde.",
+          "options": [
+            { "id": "fede.n6.o1", "text": "Og forholdet til Kirken?", "next": "fede.n10" },
+            { "id": "fede.n6.o2", "text": "Jeg forstår. Og for den, der bliver uden for troen?", "next": "fede.n8" }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Af to grunde, begge erklærede. Den første er historisk: at fjerne den kristne rod fra Frans gør ham ikke mere universel, det gør ham ukendelig — fattigdommen er «fordi Herren blev fattig», freden er en modtaget hilsen, broderskabet er evangelium levet sammen. Den anden er redaktionel: denne app forklarer, den driver ikke proselytisme. At forklare Frans' tro er ikke at bede dig om at gøre den til din; det er at nægte at give dig en forsødet udgave af kendsgerningerne.",
+          "options": [
+            { "id": "fede.n7.o1", "text": "Og hvad kan den modtage, der ikke tilslutter sig?", "next": "fede.n8" },
+            { "id": "fede.n7.o2", "text": "Og hvordan levede Frans den institutionelle Kirke?", "next": "fede.n10" },
+            { "id": "fede.n7.o3", "text": "Det er nok. Lad os slutte.", "next": "fede.chiusura" }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Meget, så længe det tages helt. Stilen — det vederlagsfrie, mindreheden, freden bygget ved at gå i møde, slægtskabets blik på skaberværket — taler også til den, der ikke deler roden. Men de ting er i teksterne frugter af det træ: at kende dem uden roden er muligt, at forstå dem til bunds uden roden er det ikke. Du kan lade dig udspørge uden at tilslutte dig: det er en alvorlig holdning, og idéhistorien er fuld af mennesker, der har lært af traditioner, som ikke var deres. Ingen her noterer din åndelige score.",
+          "options": [
+            { "id": "fede.n8.o1", "text": "Så lad os læse de tekster igen, der fortæller om den rod.", "next": "fede.n5" },
+            { "id": "fede.n8.o2", "text": "Lad os slutte.", "next": "fede.chiusura" }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Kilderne fortæller ikke om dogmatisk tvivl i moderne forstand: her kan vi ikke sige det, teksterne ikke siger. Men de fortæller om meget hårde prøvelser: sygdommen, synet næsten tabt, smerten ved at se broderskabet vokse og forandre sig ud over hans hensigter. Og netop af den tid, ifølge Bonaventura, fødes Skabningernes sang. Frans' tro var ikke fravær af nat: den var lovprisning inde i natten. Hvilket er noget ganske andet end naivitet.",
+          "options": [
+            { "id": "fede.n9.o1", "text": "Og hører stigmata til denne tid?", "next": "fede.n6" },
+            { "id": "fede.n9.o2", "text": "Vi kan slutte.", "next": "fede.chiusura" }
+          ],
+          "sourcePassageIds": ["pass.bonaventura.cantico"]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Hverken oprører eller indordnet: noget mere interessant. Frans levede inden for den middelalderlige Kirke, søgte vedholdende dens godkendelse af sin livsform og accepterede dens grænser, samtidig med at han drev den til at reformere sig nedefra, med eksemplet og ikke med oprøret. Hans lydighed mod Kirken var en del af hans tro, ikke en beregning. At forstå det undgår to spejlvendte karikaturer: den ulydige helgen, som de moderne holder af, og den føjelige helgen, som de fromme holder af.",
+          "options": [
+            { "id": "fede.n10.o1", "text": "Lad os vende tilbage til teksterne om hans tro.", "next": "fede.n5" },
+            { "id": "fede.n10.o2", "text": "Lad os slutte.", "next": "fede.chiusura" }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Vi standser her. Jeg efterlader dig ikke en opgave og slet ikke en eksamen: jeg efterlader dig et kriterium. Når du møder Frans, i denne app eller andetsteds, så spørg dig altid, om den version, du har foran dig, viser ham hel, den kristne rod inklusive. Derefter forbliver din position din: ingen her dømmer den. Dialogens andre samtaler venter på dig på listen.",
+          "options": [
+            { "id": "fede.chiusura.o1", "text": "Gå denne samtale igennem fra begyndelsen.", "next": "fede.n1" },
+            { "id": "fede.chiusura.o2", "text": "Opdag Dialogens andre samtaler.", "next": "fede.fine" }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Tak for spørgsmålets alvor og for at have accepteret et svar uden genveje. Vi ses i Dialogen, når du vil: de ægte spørgsmål har ingen udløbsdato.",
+          "options": [
+            { "id": "fede.fine.o1", "text": "Begynd denne samtale forfra.", "next": "fede.n1" },
+            { "id": "fede.fine.o2", "text": "Afslut for nu." }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

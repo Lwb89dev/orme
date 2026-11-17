@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Kohtumine, mis muudab elu",
+      "summary": "Franciscuse pöördumine algab siis, kui ta saab üle tülgastusest ja kohtub pidalitõbistega: ligimesearmastus kui konkreetne kohtumine teisega.",
+      "explanation": "Testamendis ütleb Franciscus, et pidalitõbiste nägemine tundus talle „liiga kibe“, ja et just see kohtumine oli tema patukahetsuse algus. Frantsisklik ligimesearmastus ei ole üldine tunne: see on kehaline liigutus astuda selle juurde, kes on kõrvale jäetud, ja avastada, et kibedus muutub magususeks. See, kes annab, ei asetu selle kohale, kes võtab vastu: nad kohtuvad.",
+      "historicalContext": "Kolmeteistkümnendal sajandil olid pidalitõbised linnaelust välja tõrjutud, majutatud linnamüüride taga pidalitõbiste varjupaikadesse ja neid peeti patu sümboliks. Franciscuse otsus nende seas elada oli ühiskondlikult skandaalne.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Mitte midagi oma, kõik vastu võetud",
+      "summary": "Piiskopi ees annab Franciscus riided isale tagasi: omandist loobumine kui vabaduse valik, mitte põlgus loodute vastu.",
+      "explanation": "Franciscuse lahtiütlemine piiskop Guido ees on avalik tegu, millega ta lõikab läbi sideme oma perekonna rikkusega. See ei ole põgenemine asjade eest, vaid vabanemine mõttest neid omada: kellel pole midagi, sel pole midagi kaitsta, ja ta võib võtta kõik vastu kingitusena. Traditsiooni tehniline ladina väljend on „sine proprio“: ilma omandita.",
+      "historicalContext": "Jõuka kangakaupmehe poeg oli Franciscus määratud linna kodanluse ühiskondlikuks tõusuks. Tema lahtiütlemine 1206. aastal rabas Assisi kujutlusvõimet just seepärast, et see pööras kaupmehelinna väärtused pea peale.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Vaesus kui vabadus",
+      "summary": "Franciscusele ei ole vaesus romantiline viletsus: see on keeldumine millestki omastada, et jääda vabaks armastama ja sõltuda ainult Jumalast.",
+      "explanation": "1223. aasta reegel palub vendadel mitte midagi omastada, „ei maja ega paika ega midagi muud“, ja käia almust kogumas ilma häbita, pidades meeles, et Issand tegi ennast vaeseks. Frantsisklikul vaesusel on teoloogiline alus (vaene Kristus) ja psühholoogiline: see, kellel pole midagi kaitsta, on vaba. See ei ole kutse ülistada puudust, mis on ühiskondlik haav, vaid keelduda lasta end omandil määratleda.",
+      "historicalContext": "Vabatahtliku vaesuse liikumine tekkis reaktsioonina kommuunide ja vaimulikkonna kasvavale rikkusele; Kirik vaatas vaesusliikumisi kahtlusega, ja Franciscusel tuli heakskiit vaevaliselt välja võidelda.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Väiksemad vennad",
+      "summary": "Franciscuse kogukond ei ole ülemate ja alamate ordu: see on „väiksemate“ vendlus, kus igaüks vastutab teise eest.",
+      "explanation": "Franciscus tahtis, et tema kaaslasi kutsutaks väiksemateks vendadeks: keegi ei ole suur, ja neid, kellele on usaldatud vastutus, nimetatakse „ministriteks“, see tähendab teenriteks. 1221. aasta reegel palub neil teha oma vajadused üksteisele teatavaks, mitte kohut mõista venna üle ega põlata nõrka. Vendlus on evangeeliumi vorm, mida elatakse koos: vennaks ei saada ideaali kaudu, vaid igapäevase praktikaga.",
+      "historicalContext": "Vendlus tekkis umbes 1208–1210 esimeste kaaslaste (Bernardo, Egidio ja teised) seas ja kasvas kiiresti, kuni vajas struktuure: kapitleid, ministreid ja kirjapandud reeglit.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Rahu tervitus",
+      "summary": "„Issand andku sulle rahu“: Franciscus teeb rahust kuulutuse, mida kantakse, enne kui see on sõja puudumine.",
+      "explanation": "Testamendis meenutab Franciscus, et Issand ilmutas talle rahu tervituse. Varaseimad allikad kirjeldavad vendi, kes kuulutavad rahu majast majja. Frantsisklik rahu on tegus: seda kantakse, ehitatakse ja vahendatakse — nagu Gubbio hundi loos, kus rahu sünnib julgusest minna vastu sellele, mis hirmu tekitab.",
+      "historicalContext": "Kommuunide Itaaliat läbisid rühmituste vaenud, linnasõjad ning ilmaliku ja vaimuliku võimu konfliktid. Rahu kuulutada oli ühtaegu poliitiline ja vaimne tegu.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Seitsekümmend korda seitse, ja veel",
+      "summary": "Vendluse ministrile kirjutab Franciscus: isegi kui vend peaks tuhat korda patustama, armasta teda ometi rohkem kui mina.",
+      "explanation": "Kiri ministrile on frantsisklik tekst andestusest: see, kes juhib, ei tohi venna eksimuste ees ei pahanduda ega kõvaks muutuda, vaid peab kuulutama halastust. Andestus ei eita kurja: see keeldub laskmast kurjal olla suhte viimane sõna. Loodute laulus lisati andestuse stroof — traditsiooni järgi — et lepitada Assisi piiskoppi ja podestàd nende tüli keskel.",
+      "historicalContext": "Kiiresti kasvav vendlus elas läbi sisemisi pingeid; linnu lõhestasid kättemaksud ja vaenud, mida frantsisklased püüdsid rahustada.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Olla väiksem, mitte pidada end paremaks",
+      "summary": "Frantsisklik alandlikkus on tõde iseenda kohta: ei enese ülendamine ega enese põlgamine, vaid teenimine kõige väiksemana.",
+      "explanation": "Manitsused hoiatavad selle eest, et teha oma tahtest kõige mõõt, ja vaimuliku enesega rahulolu eest. Franciscusele tähendab alandlikkus näha end tões: väike Jumala ees, kõige eest võlgu ja suuteline teenima, nõudmata tunnustust. See ei ole madal enesehinnang: see on vabadus vajadusest paista.",
+      "historicalContext": "Au ja seisuse peale rajatud ühiskonnas oli end „väiksemaks“ nimetada vastukultuuriline programm; kasvava vendluse sees oli alandlikkus vastumürk sisemisele konkurentsile.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Vend päike, õde vesi",
+      "summary": "Loodute laul: maailm ei ole ei varude ladu ega iidol, vaid loodute perekond, kes kiidab Loojat.",
+      "explanation": "Loodute laulus kiidab Franciscus Jumalat „per“ loodute kaudu: vend Päike, õde Kuu, õde Vesi, „väga kasulik ja alandlik ja kallis ja puhas“, ja meie õde ema Maa. Loodust ei jumaldata: ta on õde, sest ta on sama Isa laps. Hool loodu eest algab siin tänulikkusest ja sugulusest, mitte kasulikkusest. Ja laul sündis haiguses: kiitus ei sõltu oludest.",
+      "historicalContext": "See on kirjutatud 1225–1226, kui Franciscus oli haige ja peaaegu pime, ning see on üks varasemaid poeetilisi tekste itaalia rahvakeeles. Bonaventura paigutab selle katsumuste aega.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Täiuslik rõõm",
+      "summary": "Frantsisklik rõõm ei sõltu tulemustest: see jääb ka tagasilükkamises ja raskuses, sest see sünnib armastusest, mitte edust.",
+      "explanation": "Väikestes lilledes seletab Franciscus vennale Leole, et tõeline rõõm ei ole imed ega pöördumised, vaid tagasi tulla tõrjutuna ja külmetununa ning jääda kannatlikuks ja rõõmsaks. See on hagiograafiline jutustus, mitte kroonika, kuid see koondab frantsiskliku vaimu eheda joone: rõõm kui sisemine valik, mida ükski sündmus ei saa ära võtta.",
+      "historicalContext": "Väikesed lilled (14. sajandi lõpp) hoiavad esimese frantsiskliku liikumise elavat mälu; neid tuleb lugeda vaimuliku kirjandusena, mitte dokumentaalse ajaloona.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Kõrb maailma sees",
+      "summary": "Franciscus vaheldas läkitust ja eraklust: palve kui paik, kuhu pöördutakse tagasi olulise juurde Jumala ees.",
+      "explanation": "Frantsisklik elu ei ole ainult tegevus: Franciscus otsis eraklaid ja tagasitõmbumise paiku (Carceri, La Verna), võttes kaasa mõne kaaslase ja pikad vaikused. Kirjas vennale Leole saadab ta ta tagasi tema südametunnistuse juurde Jumala ees: palve ei ole tehnika, vaid suhe. Kõigekõrgema Jumala kiituslaulud näitavad tema puhtaimat palvet: kiitus ilma palveteta.",
+      "historicalContext": "Frantsisklikud eraklad tekkisid Umbria-Toscana Apenniinide metsikus; La Verna, mis anti Franciscusele 1213. aastal, sai tagasitõmbumise esimeseks paigaks.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Kristuse jälgedes",
+      "summary": "Franciscuse vaimsus ei ole loodusfilosoofia: see on vaese ja risti löödud Kristuse järgimine Kiriku usu sees.",
+      "explanation": "Franciscuses algab kõik Kristusest: San Damiano krutsifiks, mis temaga räägib, vaesuse valik „sest Issand tegi ennast vaeseks“, La Vernal mõtiskletud Kannatus ja lihtne usk Testamendi kirikutes. Selle juure eemaldamine ei tee Franciscust universaalsemaks: see teeb ta äratundmatuks. Rakendus esitab teda sellisena, nagu ta on, seda usku peale surumata ja seda kustutamata.",
+      "historicalContext": "Franciscus elas oma usku keskaegse Kiriku sees, otsides selle heakskiitu oma eluvormile ja võttes vastu selle piirid, surudes samal ajal altpoolt selle uuendusele.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Reegel, et me ei eksiks",
+      "summary": "Frantsisklik kuulekus ei ole enese kustutamine: see on ühine leping, mis kaitseb vendlust hajumise ja omavoli eest.",
+      "explanation": "Franciscus otsis Kiriku heakskiitu ja kirjutas reegleid, mis muutusid üha olemuslikumaks (1221, 1223). Manitsustes ja reeglites on kuulekus vastastikune: kuuletutakse ühisele reeglile, ja see, kes juhib, teenib. Testament palub, et reeglit ei glossitaks, vaid elataks „lihtsalt ja glossideta“. Kogukond ja kuulekus on raam, mis laseb vabadusel kesta.",
+      "historicalContext": "Aastatel 1210–1223 kasvas vendlus väikesest rühmast tunnustatud ordoks; pinge karisma ja institutsiooni vahel läbib kogu frantsisklikku lugu.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Kiitus, mis ei küsi midagi",
+      "summary": "Jumala kiituslaulud ja Loodute laul sündisid haiguses: frantsisklik tänulikkus ei tasu õnne, vaid tunneb kingituse ära kõiges.",
+      "explanation": "Kõigekõrgema Jumala kiituslaulud, kirjutatud La Vernal, on palve ilma ühegi palumiseta: ainult äratundmine. Ka Loodute laul, kirjutatud kannatuses, on kiitus. Frantsisklik tänulikkus on harjutatud pilk: see näeb kõike — vett, päikest, päeva, isegi surma — vastuvõetuna. See, kes tänab, ei oma: ta viibib.",
+      "historicalContext": "Aastatel 1224–1226 oli Franciscus raskelt haige, peaaegu pime ja haavatud oma kaugusest ordu juhtimisest: nende aastate kiitus ei ole naiivsus, vaid vallutus.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "See, kes juhib, teenib",
+      "summary": "Vendluses nimetatakse neid, kellele on usaldatud vastutus, „ministriteks“: teenimine kui ainus õiguspärane võimu vorm.",
+      "explanation": "Franciscus pöörab hierarhia ümber: minister on see, kes teenib, kustos see, kes hoiab vendi, mitte see, kes käsib. Kiri ministrile näitab tooni: lähedus sellele, kes eksib, mitte kunagi põlgus. Teenimine ei ole strateegia teistele meeldida: see on kristlik viis asustada iga rolli, vennast piiskopini, vanemast linnapeani.",
+      "historicalContext": "Frantsiskliku vastutuse ametinimetused (minister, kustos, guardian) valiti just keskaegse prestiiži loogika vastu.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Keegi ei ole võõras",
+      "summary": "Pidalitõbised, röövlid, sultan, hunt: frantsisklik traditsioon surub vastuvõttu üle oma rühma piiride.",
+      "explanation": "Franciscus kohtub pidalitõbistega, läheneb sultan al-Malik al-Kamilile ristisõja keskel ja rahvamälus räägib isegi hundiga. Frantsisklik vastuvõtt ei ole passiivne sallivus: see on vastu minemine, riski võtmine, „vennaks“ kutsumine seda, keda oma maailm nimetab vaenlaseks. See algab raskest ligimesest ega peatu usu ega keele piiridel.",
+      "historicalContext": "Kohtumine sultaniga (1219, Damietta) toimus viienda ristisõja ajal: rahužest, mida allikad dokumenteerivad, keskaegse tunnistuse piirides.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Läheneda kogu kehaga",
+      "summary": "„Ma osutasin neile halastust“: frantsisklik halastus on kaastunne, millest on saanud konkreetne tegu, mitte kaugelt hoitud hale.",
+      "explanation": "Testamendis kasutab Franciscus tugevat väljendit: pidalitõbistega „osutasin ma halastust“. Ta ei ütle, et ta tundis kaastunnet: ta tegi seda. Halastus on võime lasta teise kannatusel meieni jõuda, kuni see liigutab meie käsi. See on juur, millest kasvavad ligimesearmastus, andestus ja rahu.",
+      "historicalContext": "Keskaegne vagadus tundis almust teenelise praktikana; Franciscus muudab selle suhteks: vaesele ei anta ainult, vaese juurde jäädakse.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Käte töö",
+      "summary": "Franciscus ei sea palvet töö vastu: aus töö hoiab jõudeoleku eemal ega tohi palvet kustutada.",
+      "explanation": "Testamendis ütleb Franciscus, et ta töötas oma kätega, ja tahab, et vennad töötaksid, mitte palgaahnusest, vaid eeskuju pärast ja jõudeoleku vastu. Kui palka ei ole, pöördutakse almuse juurde. Kinnitatud reegel lisab piiri: töö on arm, ja ajalikud asjad peavad teenima palve vaimu, mitte seda asendama. Kinnitamata reeglis on töö ka viis viibida kellegi teise majas väiksemana, võtmata ameteid, mis annavad võimu.",
+      "historicalContext": "Paljud esimesed vennad tulid käsitöölistest. Töö ja raha küsimus on terav juba enne 1223. aastat: 1221. aasta reegel on raha suhtes täielikum ja rangem; pitseriga kinnitatud reegel on lühem ja usaldab haigete eest hoolitsemise ministritele vaimulike sõprade kaudu.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Ihu, mitte idee",
+      "summary": "Franciscusele nähakse Jumala Poega selles maailmas ihus ja veres, mida preestrid vastu võtavad ja annavad.",
+      "explanation": "Testament seob preestrite austuse sellega: Franciscus ütleb, et ihuliselt ei näe ta Jumala Pojast midagi muud kui tema ihu ja verd. Kiri kogu ordule viib sama usu leiva kuju juurde ja palub preestritel pühitseda, püüdmata inimestele meeldida. See ei ole kõrvalteema. See on kese, millest Franciscus loeb Kirikut, kirjutatud sõnu ja omaenda väiksust. Rakendus ütleb seda sellisena, nagu see on: keskaegne armulaua usk, mitte andmise üldine metafoor.",
+      "historicalContext": "Franciscuse armulauavagadus asetub Neljanda Lateraani kirikukogu (1215) reformi sisse, mis nõuab iga-aastast pihti ja sõnastab sakramendi õpetuse. Kirjad vaimulikele ja kustostele, mida siin täies mahus ei esitata, rõhutavad sama.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Evangeeliumi vorm",
+      "summary": "Franciscus ei leiuta evangeeliumi kõrvale vaimsust: ta ütleb, et Kõigekõrgem ilmutas talle, et ta peaks elama selle vormi järgi, ja ta lasi selle kirja panna.",
+      "explanation": "Testament on selge: keegi ei näidanud talle, mida teha; Kõigekõrgem ilmutas talle, et ta peaks elama püha evangeeliumi vormi järgi; ta lasi selle väheste sõnadega kirja panna ja paavst kinnitas selle. Mõlemad reeglid avanevad samal punktil. Evangeeliumi pidamine ei ole neis tekstides tunne: see on kuulekus, mitte midagi oma ja kasinus heakskiidetud vendluse sees. Lugu lahtiütlemisest piiskopi ees Celano juures on sama valiku teine stseen. Siin tuleb Franciscuse enda tekst enne lugu Franciscusest.",
+      "historicalContext": "Innocentius III suuline heakskiit dateeritakse traditsioonis 1209. või 1210. aastasse; kinnitamata reegel on 1221. aastast; kinnitatud reegel on kinnitatud Honorius III poolt 29. novembril 1223. Testament 1226. aastal loeb kogu järgnevuse ühe ilmutusena.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

@@ -45,8 +45,19 @@ I riferimenti agli episodi (rinuncia davanti al vescovo, servizio ai lebbrosi, N
 - Eventi `legend`: lupo di Gubbio.
 - Il Viandante è fiction dichiarata (`narrazione_originale`); i suoi pannelli storici separano esplicitamente i tre livelli.
 
+## Corpus letto nell'app (11/11/2026)
+
+Sono stati scaricati e incorporati, come testo da leggere dentro gli insegnamenti, questi scritti, nelle trascrizioni di pubblico dominio di Wikisource (latino) e, per il Cantico, del volgare del Codice 338 già usato per i vv. 1-9, confrontato con la trascrizione diplomatica di it.wikisource:
+
+- Testamento, per intero (1-41). Il saluto «Dominus det tibi pacem» è il versetto 23: il passaggio non è più `needs_verification`.
+- Regola bollata, con la bolla di Onorio III e la conferma.
+- Regola non bollata, prologo e capitoli I-XXIV.
+- Lettera a tutto l'Ordine.
+- Cantico delle creature, per intero, in volgare umbro.
+
+Il latino (e il volgare del Cantico) è uguale in ogni lingua. La traduzione è editoriale e originale di questa app: non è l'edizione Esser (ancora protetta) e non è una traduzione moderna d'editore. Le Ammonizioni, la Lettera a frate Leone, la Lettera a un ministro e le Lodi di Dio restano in parafrasi: non c'era una trascrizione integrale pulita e di pubblico dominio, e l'OCR dell'edizione di Quaracchi del 1904 non è abbastanza sicuro per una citazione.
+
 ## Lavoro ancora aperto
 
-- Fissare i riferimenti di paragrafo esatti per i tre passaggi `needs_verification` sull'edizione critica (Esser per gli Opuscula).
-- Valutare l'aggiunta del testo latino integrale del Testamento (pubblico dominio) in un'appendice.
+- Aggiungere, quando esisterà una trascrizione integrale affidabile e libera, le Ammonizioni, le lettere brevi, l'Ufficio della Passione e le altre preghiere del corpus.
 - Revisione umana di uno studioso prima di una pubblicazione pubblica: questa release è accurata ma non sostituisce una revisione scientifica.

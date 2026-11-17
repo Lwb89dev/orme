@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Vad betyder det att vara ödmjuk?",
+      "theme": "umilta",
+      "description": "En ärlig vägledare monterar ner missförståndet att ödmjukhet är att nedvärdera sig själv: Franciskus ”sanning om sig själv”, namnet ”mindre” och den egna viljan i Förmaningarna.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Välkommen till Dialogen. Jag presenterar mig: jag är en vägledare genom de franciskanska källorna, jag är inte Franciskus och jag talar inte i hans ställe. Dagens fråga låter enkel: vad betyder det att vara ödmjuk? Många tänker, när de hör ordet ”ödmjukhet”, genast på att förminska sig. Innan vi börjar intresserar mig din utgångspunkt.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "För mig är ödmjukhet att inte ta sig själv på för stort allvar och att stanna på sin plats.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Jag anar att det är något annat, men jag skulle inte kunna säga vad.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Varför kallades Franciskus bröder ”mindre”?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Det är den vanligaste föreställningen, och också det mest seglivade missförståndet. Om ödmjukhet vore att nedvärdera sig själv, skulle den bli ett subtilt sätt att fortfarande syssla med sig själv: med sin egen bild, sin egen plats, till och med med sin egen uppvisade medelmåttighet. De franciskanska källorna pekar åt ett annat håll: inte att tänka sig liten, utan att se sig själv i sanningen. Skillnaden verkar liten, men den förändrar allt.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Vad är då ödmjukhet på riktigt?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Finns det en text av Franciskus som säger det?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Den osäkerheten är en god utgångspunkt, och det säger jag utan ironi. Den som medger sitt icke-vetande har redan tagit ett steg mot det Franciskus menar med ödmjukhet: att se sig själv i sanningen, utan att blåsa upp sig och utan att riva ner sig. Låt oss försöka ge den här tanken en form, med utgångspunkt i källorna.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Gott: vad är kärnan i den franciskanska ödmjukheten?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Finns det ett ställe i källorna att läsa tillsammans?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "En precis fråga, och svaret är ett litet program. I ett samhälle byggt på ära och rang ville Franciskus att de sina skulle kallas mindrebröder: ingen ”större”, ingen som ska betjänas. Till och med brödraskapets ansvariga kallade han ”ministrar”, som på latin betyder tjänare. Det var ingen språklig nyck: det var valet av en plats, den sista, från vilken ingen kan stötas bort.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "Och i det dagliga livet, vilken skillnad gör det?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Finns det något om detta i hans skrifter?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Här är vi i centrum. För Franciskus är ödmjukhet sanning om sig själv: små inför Gud, i skuld för allt vi är och har, förmögna att tjäna utan att kräva erkännande. Lägg märke till att denna sanning också omfattar dina gåvor: att känna igen dem som mottagna gåvor är inte högmod, det är ärlighet. Den ödmjuke nedvärderar sig inte: han slutar att spela en roll, åt båda hållen. Och han är fri från behovet att synas, som är ett av de mest tröttande slaverierna.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "Och de egna gåvorna? Måste man förneka dem för att vara ödmjuk?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Hur översätts det i dag, till exempel i arbetet och på nätet?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Vad säger Förmaningarnas text exakt?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Det räcker så: vi kan avsluta.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Det finns en kort och skarp text: Förmaningarna, anvisningar som Franciskus riktade till brödraskapet. Ett av målen är ”den egna viljan” gjord till mått för allt: den som håller sig själv för rättfärdig och vis av egen kraft, varnar Franciskus, avlägsnar sig från den sanna ödmjukheten, som består i att underordna sitt omdöme och i att tjäna. Men se upp: att underordna betyder inte att släcka. Källorna ber inte att man ska sluta tänka, utan att man inte gör sin egen synpunkt absolut.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Det låter som att avstå från sitt eget huvud. Är det inte för mycket?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "Och konkret, i dag, hur ser det ut?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Låt oss försöka översätta, medvetna om att detta är en modern tolkning, inte en medeltida text. I arbetet är ödmjukhet att göra sin del väl utan att göra ett skådespel av den, att medge ett misstag utan att bygga alibin, att lämna äran åt den som förtjänar den. På nätet, där mycket mäts i synlighet, är det att kunna publicera och arbeta utan att andras omdöme blir din herre. Det är ingen inbjudan att gömma dig: det är en inbjudan att inte bero av applåden.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Vackert, men i min miljö vinner den som tar för sig.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Det övertygar mig. Låt oss avsluta.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "En befogad invändning, och den förtjänar ett ärligt svar. I källorna är lydnaden inte utplåning: samma brödraskap var en plats där man visade varandra sina behov, det vill säga där man talade. Poängen är inte att avskaffa det egna omdömet, utan att vägra låta det vara den högsta domstolen över allt. Här lämnar källorna oss dock ingen katalog av fall: jag kan inte säga var gränsen går i ditt konkreta fall. Det förblir ett arbete för dig, och för dem som verkligen känner dig.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Det är begripligt. Och i vardagen?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Jag stannar hellre här.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Du har rätt att ta upp det, och jag svarar inte med ett karriärråd: det är inte min roll. Jag säger bara att de franciskanska källorna inte lovar att ödmjukheten ”fungerar”: de lovar att den gör fri. Ibland kostar den, och att låtsas motsatsen vore oärligt. Valet att inte leva för andras godkännande förblir just ett val: ditt, avvägt mot ditt sammanhang.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Ärligt, tack. Låt oss avsluta.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Låt oss läsa om lärdomens kärna.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Nej, och källorna, lästa med uppmärksamhet, säger motsatsen. Franciskus logik är gåvans: om allt är mottaget, är också dina förmågor det, och att förneka dem vore bara ett annat sätt att ljuga om sig själv. Ödmjukheten ber inte att man ska säga ”jag är ingenting värd”, utan att man ska säga sanningen: ”detta har jag tagit emot, detta är jag skyldig”. Och den som kan känna igen en gåva kan också tacka: på den franciskanska vägen är tacksamheten en port till glädjen.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "Och hur lever man detta, konkret i dag?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Vi kan sluta här.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Vi stannar här. Om du vill, ta med dig en fråga, inte en uppgift: på vilken punkt i din dag spelar du en roll, i stället för att stanna i sanningen om det du är, i det goda och i gränsen? Du behöver inte svara mig, eller någon annan. Dialogens andra samtal väntar på dig, när du vill: förlåtelsen, fattigdomen, skapelsen, Franciskus tro.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Gå igenom det här samtalet från början.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Upptäck Dialogens andra samtal.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Tack för att du har vandrat med mig in i de här källorna. Från Dialogens lista kan du öppna ett annat samtal, eller återfinna det här när du vill: texterna består, och frågorna också.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Börja om det här samtalet.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Avsluta för den här gången."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Hur kan man förlåta någon?",
+      "theme": "perdono",
+      "description": "Brevet till en minister och strofen i Solsången: förlåtelsen som ett upprepat beslut, skillnaden mot rättvisan och ett ärligt svar till den som inte förmår.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Välkommen till Dialogen. Jag vägleder dig: jag är inte Franciskus och jag talar inte i hans ställe, jag följer dig in i det som källorna verkligen säger. Dagens fråga är en av de svåraste som finns: hur kan man förlåta någon? Jag lovar dig inget bekvämt svar. Det hjälper mig att veta varifrån du utgår.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Jag har lidit en oförrätt och kan inte släppa vreden.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Betyder inte att förlåta att låtsas som om ingenting har hänt?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Jag vill först veta vad Franciskus säger om förlåtelse.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Tack för uppriktigheten. De franciskanska källorna lovar inte att vreden försvinner, och de ber dig inte låtsas att oförrätten inte har skett. Det de föreslår är något annat: förlåtelsen som ett beslut som förnyas, också när känslan inte följer med. Om du inte förmår i dag, diskvalificerar det dig inte: det är regeln, inte undantaget.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Ett beslut som förnyas: förklara.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "Och om jag verkligen inte förmår?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Vad skriver Franciskus om det?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Nej, och det är värt att säga genast och tydligt: att förlåta är inte att förneka. De franciskanska källorna blandar inte ihop barmhärtighet och orättvisa: det onda som gjorts förblir ont, och dess följder förblir verkliga. Förlåtelsen, här, utplånar inte det som har hänt: den vägrar att låta kränkningen få sista ordet om relationen. Det är två olika plan, och att hålla dem isär är det första steget.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Kan då förlåtelse och rättvisa stå tillsammans?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Vad säger Franciskus exakt?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Nyckeltexten är Brevet till en minister: Franciskus skriver till en ansvarig i brödraskapet som måste handla med bröder som felar. Det berömda stället säger, i sak: om en broder hade syndat tusen gånger inför dina ögon, älska honom mer än mig och förkunna barmhärtighet för honom. Tusen gånger: inte ett heroiskt beslut fattat en gång för alla, utan ett val som görs om varje dag. Det förändrar frågan: inte ”känner jag att jag förlåter?”, utan ”väljer jag att förlåta också i dag?”.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Tusen gånger är för mycket. Är det en realistisk begäran?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "Och rättvisan? Ska inte den som felar stå till svars?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Solsången talar om förlåtelse, eller hur?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Ja, och samma brev låter det skymta: Franciskus ber att man ska förkunna barmhärtighet under förutsättning att den andre ångrar sig, det vill säga att förlåtelsen inte förklarar den som felat oskyldig och inte fritar honom från att gottgöra. Också i hans tid avskaffade de fredsstiftande bröderna inte domstolar och ansvar: de arbetade för att hämnden inte skulle vara den enda möjliga rättvisan. Att förlåta och att begära att det onda erkänns är inte fiender. De kan gå tillsammans, om än mödosamt.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "Och var börjar man, i praktiken?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Har Solsångens strof något med saken att göra?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "Och om oförrätten är för stor, eller för färsk?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "Och i de splittrade städerna i hans tid?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Man börjar med en korrigering av perspektivet. Om förlåtelsen vore en känsla, skulle du behöva vänta på att den kommer: och ofta kommer den inte, eller kommer och går sedan. Om den är ett beslut, kan du fatta det också med vreden ännu tänd, och ta upp det i morgon, och i övermorgon. Källorna beskriver ingen linjär väg: ordet ”tusen gånger” antyder snarare motsatsen. Ärlighet: i de franciskanska texterna finns inga tekniker. Det finns en riktning.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "Och om jag verkligen inte förmår i dag?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "Och med sig själv? Kan man förlåta sig själv?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Berätta om Solsångens strof om förlåtelse.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Ett ärligt svar: det kan hända, och källorna dömer dig inte för det. Inte heller jag gör det: jag är en vägledare genom texterna, inte en biktfader och inte en terapeut. Jag säger dig två saker som går att belägga. Den första: brevet talar om tusen gånger, vilket betyder att förlåtelsen redan på 1200-talet inte tänktes som en ögonblicklig gest. Den andra: om ett sår är djupt, är det inget nederlag att dela det med någon man litar på, eller med en yrkesperson när det behövs. Om förlåtelsens tider tiger de franciskanska källorna: här kan vi inte säga mer.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "Och förlåtelsen mot sig själv?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Tack för ärligheten. Låt oss avsluta.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Det finns en strof i Solsången som lovar Gud genom dem som förlåter för hans kärleks skull och bär sjukdom och prövning. Forskningen daterar den vanligen till sommaren 1226, och traditionen knyter den till en konkret episod: Assisis biskop och podestà låg i öppen konflikt, och Franciskus, redan sjuk, ska ha lagt till den strofen och låtit sjunga Solsången inför dem, för att försona dem. Jag preciserar nivåerna: strofen är äkta, berättelsen om episoden når oss genom den hagiografiska traditionen. Kvar står faktum: förlåtelsen var för Franciskus värd att lovas också mitt i konflikterna i hans stad.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Att förlåta mitt i en konflikt: är det möjligt?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "Och den som inte förmår förlåta?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Vi kan avsluta.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Här måste jag vara ärlig om källornas gränser. De franciskanska texterna talar om förlåtelse mot bröderna och mot den som kränker; om förlåtelse av sig själv, så som vi förstår den i dag, säger de nästan inget uttryckligt. Vi kan resonera genom analogi: om man förkunnar barmhärtighet tusen gånger för den som felar, är det svårt att utesluta sig själv. Men det förblir ett resonemang av oss, inte ett citat. Jag säger det hellre rakt ut än att lägga ord i Franciskus mun som han inte har skrivit.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Jag uppskattar precisionen. Och varifrån börjar man om?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Vi slutar här.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Det finns också en offentlig dimension. Kommunernas Italien genomkorsades av fejder och hämnd, och källorna minns att de första bröderna förkunnade fred från hus till hus, med en hälsning som Franciskus vittnade om att han hade tagit emot. Förlåtelsen, i den världen, var inte bara en privat sak: den var den punkt där vedergällningens kedja kunde brytas. Också i dag finns fejder, i familjer, i kvarter, på sociala medier, och logiken är densamma: någon måste sluta att ge tillbaka slaget.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "Och Solsångens strof föddes just ur en konflikt, eller hur?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Det räcker. Låt oss avsluta.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Vi stannar här. Om du vill, ta med dig en enda bild, inte en uppgift: förlåtelsen som en väg som görs om en meter om dagen, inte som ett språng att ta en gång för alla. Och om ditt sår i dag inte tillåter det, bad det här samtalet dig inte att lyckas: det bad dig att förstå. Dialogens andra samtal väntar på dig när du vill.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Gå igenom det här samtalet från början.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Upptäck Dialogens andra samtal.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Tack för att du har tagit dig an en svår fråga utan genvägar. I Dialogens lista finner du de andra samtalen: jag stannar här, och texterna också.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Börja om det här samtalet.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Avsluta för den här gången."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Var Franciskus emot rikedom?",
+      "theme": "poverta",
+      "description": "Franciskus fördömde inte tingen: han befriade från ägandet. Regeln från 1223, avsägelsen inför biskopen och vad det betyder i dag, utan romantik.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Välkommen till Dialogen. Jag presenterar mig: jag är en vägledare, inte Franciskus; tillsammans med dig läser jag källorna och säger till när de inte räcker för att svara. Dagens fråga är full av missförstånd: var Franciskus emot rikedom? Det korta svaret är ”nej, inte i den mening du kanske föreställer dig”. Men den förtjänar den långa vägen. Var börjar vi?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Jag har alltid tänkt att han föraktade pengarna i sig.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Jag anar att poängen är en annan, men jag kan inte säga den.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Är det inte bara romantisk fattigdom, som på en 1800-talsposter?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Det är den vanligaste rekonstruktionen, och också den minst exakta. I Franciskus texter finner du ingen fördömelse av tingen som om de vore smutsiga: du finner något mer radikalt och mer subtilt, nämligen vägran att tillägna sig dem. Målet är inte rikedomen, det är ägandet: det som tingen gör med den som tror sig äga dem. Låt oss gå till den text som säger det bäst.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Vilken text?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "Och den berömda scenen med avsägelsen?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Din aning är grundad. Poängen är inte tingens mängd, utan slaget av band: Franciskus vill ha bröder som inte tillägnar sig något, eftersom den som inte äger inte behöver försvara, och den som inte behöver försvara är fri att älska. Det är en frihetens logik, inte av avsky. Jag visar dig det i Regelns text.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Låt oss läsa Regeln.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Berätta först om scenen inför biskopen.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Invändningen är allvarlig och förtjänar respekt: den romantiska fattigdomen finns, och den är en karikatyr som har föga franciskanskt över sig. Låt oss därför sluta ett avtal: inga idealiseringar. Vi ser vad källorna säger — en scen berättad av den förste biografen och en normativ text skriven av Franciskus själv — och sedan bedömer du om de håller.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Gott: den förste biografens scen.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Den normativa texten.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Regeln från 1223, den definitiva texten som kyrkan godkände: bröderna tillägnar sig ingenting, ”varken hus eller plats eller något annat”; de lever som pilgrimer och främlingar och går och tigger utan att skämmas. Det angivna skälet är teologiskt: Herren gjorde sig fattig för oss. Men det finns också en klar mänsklig logik: det du inte äger äger inte dig. Den tekniska traditionen kallar det ”sine proprio”, utan något eget. Inte förakt för tingen, som tas emot, används och tackas för: befrielse från ägandet.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Berätta om avsägelsen inför biskopen.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "Och i dag? Borde vi sälja allt?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "Och de verkligt fattiga? Riskerar man inte att försköna misären?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Thomas av Celano, den förste biografen, berättar så: inför biskop Guido och fadern Pietro di Bernardone lämnar Franciskus tillbaka till och med kläderna och avsäger sig faderns ägodelar, och säger att han hädanefter bara kan kalla Gud fader. Biskopen täcker honom med sin egen mantel. Jag preciserar nivåerna: episoden är en belagd vändpunkt, men de scenografiska detaljerna hör till Celanos berättelse, som är hagiografi, uppbygglig litteratur, inte ett protokoll. Meningen är ändå klar: att offentligt skära av bandet till familjens rikedom.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "En teatralisk gest eller ett övervägt val?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "Och vi i dag, vad gör vi av det?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "En oundviklig fråga, och det ärliga svaret är: källorna begär inte samma sak av alla. Den regeln var för bröderna; Franciskus skrev inte regler för köpmän, föräldrar, hantverkare. Alltså nej: det finns ingen franciskansk text som befaller dig att sälja allt. Det som finns är en obekväm fråga att bo i: vilka ting äger jag, och vilka äger mig? Det konkreta svaret står i proportion till ditt liv, inte till hans.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Hur skiljer vi vald fattigdom från lidet armod?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "Och den som arbetar, tjänar och försörjer en familj?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Ge mig något konkret, utan extrema gester.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Det är den viktigaste distinktionen i det här samtalet. Det lidna armodet — att inte ha att äta, att inte kunna få vård, att inte ha ett tak — är ett socialt sår att hela, inte ett ideal att betrakta: Franciskus tjänade de fattiga, han gjorde ingen estetik av dem. Den franciskanska fattigdomen är något annat: ett fritt val att inte tillägna sig, gjort för frihetens och solidaritetens skull. Att blanda ihop dem är det fel man alltid ska undvika: att förhärliga andras misär vore just den ”romantiska fattigdom” vi talade om.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Hade alltså kritiken av romantiken ett korn av sanning?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "Och i praktiken, för mig, i dag?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Vi slutar här.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Teatralisk var den förvisso: och i ett samhälle grundat på rätt och ägande kunde bara en offentlig gest lösa ett offentligt band. Men det var ingen improvisation: Celano förlägger den efter månader av kris, fångenskapen i Perugia, sjukdomen, besvikelserna. Om du vill ha ett kriterium för att bedöma gester, hans och dina, är det detta: inte ögonblickets intensitet, utan det som kommer efter. Franciskus levde följdriktigt i ytterligare tjugo år. De sanna gesterna känns igen på den långa varaktigheten.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "Och i dag, utan extrema gester?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Jag har förstått. Låt oss avsluta.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkret, då, men utan recept: det är inte min roll att ge dig dem. Den franciskanska traditionen antyder en riktning i tre drag: se på det du äger och fråga dig om det gör dig fri eller försiktig; använda tingen som mottagna, inte som något man har rätt till; låta enkelheten frigöra utrymme — tid, uppmärksamhet, pengar — för andra. Det är en modern tolkning, det säger jag ärligt: men det är en tolkning trogen andan i ”sine proprio”.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Tillbaka till Regelns text.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Låt oss avsluta.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Ingen franciskansk källa säger att arbete och förtjänst gör en avlägsen från Franciskus: Regeln är livsformen för ett bestämt brödraskap, inte måttet för varje existens. Logiken är snarast omvänd: problemet är inte att ha, utan att tjäna det man har. Om ditt arbete, din inkomst, ditt hem blir redskap — dina och andras — och inte herrar, är du närmare Regelns anda än du tror.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "Och risken att romantisera fattigdomen?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Låt oss avsluta.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Vi stannar här. Jag lämnar dig ingen uppgift: jag lämnar dig den fråga som det här samtalet har försökt öppna. Vad, bland det du äger, äger dig? Svara i lugn och ro, eller svara inte alls. När du vill finns Dialogens andra samtal på listan: ödmjukheten, förlåtelsen, skapelsen, tron.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Gå igenom det här samtalet från början.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Upptäck Dialogens andra samtal.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Tack för att du har sökt ett genomarbetat svar på en fråga som ofta får slagord. Vi ses i Dialogen, när du vill: källorna går inte ut.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Börja om det här samtalet.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Avsluta för den här gången."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Varför talade Franciskus med djuren?",
+      "theme": "creato",
+      "description": "Släktskap, inte panteism: Solsången, Celanos fåglar, Fiorettis varg och vad allt detta säger — och inte säger — till dagens ekologi.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Välkommen till Dialogen. Jag är din vägledare: jag är inte Franciskus, och när källorna inte räcker säger jag det. Dagens fråga sjunker ner i sekel av bilder: Franciskus som talar till fåglarna, till vargen, till fiskarna. Vad finns bakom? Det beror på vad du söker.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Jag vill ha sanningen: är det bara legend att han talade med djuren?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Jag undrar om han såg Gud i naturen: var han panteist?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Berätta om Solsången.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "En historikers fråga, och svaret är skiktat, som nästan allt som rör Franciskus. Kärnan är tidigt belagd: Thomas av Celano, en närstående biograf, berättar om predikan för fåglarna i sakliga toner. De mer scenografiska berättelserna — vargen i Gubbio, fiskarna, daggmaskarna — blommar ett sekel senare i Fioretti. Alltså: ett gammalt minne och en litterär förstärkning. Jag visar dig båda, åtskilda.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Celanos sakliga version.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Fiorettis version: vargen.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Nej, och texten som visar det är Solsången. Franciskus lovar Gud ”genom” skapelserna — herr broder Sol, syster Måne — han lovar inte skapelserna som om de vore gudomliga. Skillnaden är avgörande: naturen är inte Gud, den är familj. Skapelserna är systrar, eftersom de är döttrar av samme Fader. Det rätta ordet är ”släktskap”, inte panteism.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Låt oss läsa Solsången.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "Och berättelserna med djuren?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Solsången, skriven 1225–1226, när Franciskus var sjuk och nästan blind: den hör till de första poetiska texterna på italienskt folkspråk. Den lovar Gud genom herr broder Sol, ”som är dagen”, genom syster Måne och stjärnorna, genom broder Vind, genom syster Vatten ”nyttig och ödmjuk och dyrbar och kysk”, genom broder Eld och genom ”vår syster moder Jord”. Två saker att lägga märke till. Den första: det är ingen hymn till naturen, det är ett lov till Gud genom naturen. Den andra: den föds i lidandet, inte under en idyllisk promenad.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "Och predikan för fåglarna?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "Och vargen i Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Vad säger allt detta till dagens ekologi?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Celanos version är förvånansvärt saklig: Franciskus ser flockar av fåglar, vänder sig till dem som till skapelser förmögna att lyssna och uppmanar dem att lova Gud. Inga artikulerade dialoger, inga spektakulära under: en gest av erkännande. Fioretti, ett sekel senare, lägger till korstecknet, flockarna som ställer upp sig för att lyssna, det högtidliga avskedet. Först Franciskus stil, sedan andaktens stil. Båda säger oss något, men något olika.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "Och vargen i Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Om det är litteratur, vilket värde har det?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "Och den samtida ekologin?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Vargen i Gubbio är Fiorettis mästerverk: den skräckslagna staden, Franciskus som går odjuret till mötes, talar till det som till en broder och förmedlar ett förbund — staden ska ge det föda, det ska inte längre skada någon. Jag måste vara tydlig om genren: det är 1300-talets hagiografi, andaktens minne, inte en verifierbar krönika. Men se vad den bevarar: freden som föds av att man går det till mötes som skrämmer, och ett djur behandlat som samtalspartner och inte som föremål. Formen är legend; riktningen är äkta franciskansk.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Alltså är det, innerst inne, påhittat?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "Och vad får dagens ekologi ut av det?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Här behövs ärlighet åt båda hållen. Å ena sidan: Solsången erbjuder i dag en sällsynt grammatik, omsorgen om skapelsen av tacksamhet och släktskap, inte av nytta eller fruktan. Å andra sidan: Franciskus var ingen modern miljöaktivist, och hans källor känner inte klimat, utrotningar, föroreningar. Den som söker ett detaljerat ekologiskt program hos honom tvingar texterna. Den som söker en blick — världen som familj, inte som lager — finner något som ännu förmår förskjuta beteenden.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "Och ändå har han utropats till ekologins skyddshelgon, eller hur?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Vad återstår av konkret för mig?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Nej: ”inte krönika” betyder inte ”påhittat ur intet”. Predikan för fåglarna finns hos Celano, några år efter Franciskus död; Fioretti klär den i legendariska färger, men tråden utgår från ett minne. Så fungerar mycket hagiografi: formen berättar om andakten hos dem som har fört den vidare, substansen bevarar ett verkligt drag. Att läsa källorna betyder just detta: att hålla de två sakerna tillsammans utan att blanda ihop dem.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Tydligt. Och för dagens ekologi?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Låt oss då återvända till Solsången.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Ja: 1979 utropade Johannes Paulus II honom till ekologernas skyddshelgon. Det är en modern titel — tolkning, inte medeltida källa — och som sådan ska den hanteras varsamt. Den är legitim om den pekar på roten i den franciskanska blicken: släktskapet med alla skapelser. Den blir vilseledande om den plattar ut Franciskus till miljöaktivist före sin tid och utplånar att Solsången först och främst är ett lov till Gud, skrivet av en sjuk man som tackade. Titeln säger något sant, på villkor att man inte reducerar honom till den.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "Och för mig, konkret?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Vi kan avsluta.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkret betyder här en fråga om blicken, innan det blir en fråga om handlingar. Solsången föreslår att man bor i världen som släktskap: vattnet som en syster man inte slösar, jorden som en mor vars barn man är, skapelserna som lovets följeslagare och inte som förråd. De praktiska valen — vad du köper, vad du kastar, hur du reser — kommer efter, och källorna dikterar dem inte. Men en förändrad blick gör dem möjliga, och mindre mödosamma.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Låt oss läsa Solsången tillsammans igen.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Låt oss avsluta.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Vi stannar här. Jag lämnar dig en bild, inte en uppgift: en nästan blind man som skriver ett lov till solen han inte längre ser, och kallar den broder. Om du en dag råkar se ett träd, en hund, vattnet i kranen som en släkting i stället för som en sak, vet du varifrån den blicken kommer. Dialogens andra samtal väntar på dig på listan.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Gå igenom det här samtalet från början.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Upptäck Dialogens andra samtal.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Tack för att du tillsammans med mig har skiljt krönika, legend och lov: det är en övning som tjänar långt bortom Franciskus. Vi ses i Dialogen, när du vill.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Börja om det här samtalet.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Avsluta för den här gången."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Kan man följa Franciskus utan att vara troende?",
+      "theme": "fede",
+      "description": "Ett svar utan undanflykter på en allvarlig fråga: den kristna tron var Franciskus centrum, och appen döljer den inte. Vad som återstår för den som inte tror.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Välkommen till Dialogen. Jag är en vägledare genom källorna: jag är inte Franciskus, jag är inte en biktfader, och jag bedömer ingens tro, inte heller din. Dagens fråga är legitim och allvarlig: kan man följa Franciskus utan att vara troende? Jag lovar ett svar utan undanflykter. Först, säg varifrån du talar.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Jag är troende, och jag vill förstå hans tro bättre.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Jag är inte troende: vad kan jag ta emot av honom?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Jag vet inte vad jag tror. Är det här samtalet för mig?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Då går vi rakt på centrum. Franciskus tro var ingen kulturell etikett: den var källan till allt det övriga — till fattigdomen, till brödraskapet, till freden. I Testamentet berättar han att Herren gav honom en enkel tro på kyrkorna; och hela hans väg, från San Damiano till La Verna, läses av källorna som efterföljelse av den fattige och korsfäste Kristus. Låt oss se texterna.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Texterna, ja.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "Och hans förhållande till den tidens kyrka?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Kort svar: ja, det kan man, med ett villkor av ärlighet. Du kan studera honom, beundra honom, låta dig frågasättas av hans stil utan att ansluta dig till hans tro; den här appen är gjord också för dig, och ingen här bedömer din ståndpunkt. Villkoret är att inte amputera honom: en Franciskus utan Kristus blir inte mer universell, han blir en annan gestalt. Om du går med på att möta honom hel, rot inräknad, finns det mycket att ta emot.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Visa mig den roten, då.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Vad återstår av konkret för den som inte tror?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Ja, det är för dig: kanske mer än för någon annan. Frågorna om tron kräver inget tillhörighetsintyg: de kräver ärlighet, och den har du just visat. Jag ska inte driva dig i någon riktning: jag visar texterna, skiljer nivåerna och stannar där källorna stannar. Vi börjar med det Franciskus själv berättar.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Gott: vad berättar han?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "Och den som inte kommer fram till tron, vad tar den emot?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Två vittnesbörd. Det första är hans eget: i Testamentet, dikterat kort före döden, minns Franciskus att Herren gav honom en enkel tro på kyrkorna, där han bad vänd mot Kristus. Det andra är Celanos: 1224, på berget La Verna, ska Franciskus ha tagit emot stigmata, passionens märken, som han försökte dölja. Lägg märke till nivåerna: Testamentet är Franciskus ord; stigmata når oss som vittnesbörd från de närmaste källorna, och appen presenterar dem så, inte som ett mätbart faktum. Tillsammans säger de en enda sak: centrum i hans liv var Kristi person.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Stigmata: hur bör jag förstå dem?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Varför insisterar appen så mycket på den här punkten?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "Och för den som inte tror, vad återstår?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Lämnade en så total tro inget utrymme för tvivel?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Med samma ärlighet som källorna presenterar dem. Celano berättar om dem några år efter Franciskus död, och traditionen bevarar dem som tecken på en total likformning med den korsfäste Kristus. Den historiska och teologiska bedömningen diskuteras av forskarna; här tillåter källorna oss inte att säga mer, och den som sade mer, åt det ena eller det andra hållet, skulle gå bortom texterna. Det vi kan säga: för hans brödraskap bekräftade det tecknet det som hans liv redan sade.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "Och förhållandet till kyrkan?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Jag förstår. Och för den som stannar utanför tron?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Av två skäl, båda uttalade. Det första är historiskt: att ta bort den kristna roten från Franciskus gör honom inte mer universell, det gör honom oigenkännlig — fattigdomen är ”eftersom Herren gjorde sig fattig”, freden är en mottagen hälsning, brödraskapet är evangelium levt tillsammans. Det andra är redaktionellt: den här appen förklarar, den bedriver inte proselytism. Att förklara Franciskus tro är inte att be dig göra den till din; det är att vägra ge dig en förskönad version av fakta.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "Och vad kan den ta emot som inte ansluter sig?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "Och hur levde Franciskus den institutionella kyrkan?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Det räcker. Låt oss avsluta.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Mycket, så länge det tas helt. Stilen — det oförtjänta givandet, det att vara den minste, freden som byggs genom att gå till mötes, släktskapens blick på skapelsen — talar också till den som inte delar roten. Men de sakerna är, i texterna, frukter av det trädet: att känna dem utan roten är möjligt, att förstå dem till botten utan roten är det inte. Du kan låta dig frågasättas utan att ansluta dig: det är en allvarlig hållning, och idéhistorien är full av människor som har lärt av traditioner som inte var deras. Ingen här sätter poäng på din andlighet.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Låt oss då läsa om de texter som berättar om den roten.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Låt oss avsluta.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Källorna berättar inte om läromässiga tvivel i modern mening: här kan vi inte säga det som texterna inte säger. Men de berättar om mycket hårda prövningar: sjukdomen, synen nästan förlorad, smärtan att se brödraskapet växa och förändras bortom hans avsikter. Och just ur den tiden, enligt Bonaventura, föds Solsången. Franciskus tro var inte frånvaro av natt: den var lov mitt i natten. Vilket är något helt annat än naivitet.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "Och hör stigmata till den här tiden?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Vi kan avsluta.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Varken rebell eller anpassad: något intressantare. Franciskus levde inom den medeltida kyrkan, sökte envist dess godkännande för sin livsform och accepterade dess gränser, samtidigt som han drev den att reformera sig underifrån, med exemplet och inte med upproret. Hans lydnad mot kyrkan var en del av hans tro, inte en kalkyl. Att förstå det undviker två spegelvända karikatyrer: det olydiga helgonet kärt för de moderna och det fogliga helgonet kärt för de fromma.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Låt oss återvända till texterna om hans tro.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Låt oss avsluta.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Vi stannar här. Jag lämnar dig ingen uppgift och än mindre ett prov: jag lämnar dig ett kriterium. När du möter Franciskus, i den här appen eller någon annanstans, fråga dig alltid om versionen framför dig visar honom hel, den kristna roten inräknad. Sedan förblir din ståndpunkt din: ingen, här, dömer den. Dialogens andra samtal väntar på dig på listan.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Gå igenom det här samtalet från början.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Upptäck Dialogens andra samtal.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Tack för frågans allvar och för att du har accepterat ett svar utan genvägar. Vi ses i Dialogen när du vill: de verkliga frågorna har inget utgångsdatum.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Börja om det här samtalet.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Avsluta för den här gången."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

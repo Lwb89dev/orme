@@ -1,0 +1,905 @@
+{
+  "documents": [
+    {
+      "id": "source.testamento",
+      "category": "scritto_autentico",
+      "title": "Závet",
+      "author": "František z Assisi",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "september 1226",
+      "dateFrom": 1226,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Nadiktovaný Františkom v posledných mesiacoch života, je to jeho najosobnejší text: znovu číta vlastnú konverziu a odovzdáva bratom duchovnú vôľu. Nie je to právna regula, ale svedectvo.",
+      "manuscriptNote": "Široká rukopisná tradícia; kritický text v edíciách Opuscula (napríklad edícia K. Essera).",
+      "licenseNote": "Stredoveký originál: verejná doména (transkripcia Wikisource, 11. 11. 2026). Slovenský preklad: pôvodný redakčný text tejto aplikácie.",
+      "referenceUrls": [
+        "https://la.wikisource.org/wiki/Testamentum_(Franciscus_Assisiensis)",
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.cantico",
+      "category": "scritto_autentico",
+      "title": "Pieseň stvorenia (Pieseň brata slnka)",
+      "author": "František z Assisi",
+      "originalLanguage": "umbrijský ľudový jazyk",
+      "compositionDate": "1225 – 1226 (na viac ráz)",
+      "dateFrom": 1225,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Lauda, ktorú František zložil v záverečnej fáze života, možno na dvakrát (strofa o odpustení a strofa o smrti by boli neskoršie prídavky). Pokladá sa za prvý básnický text talianskej literatúry.",
+      "manuscriptNote": "Starý svedok: kódex 338 Sacro Convento v Assisi (ff. 33r – 34r).",
+      "licenseNote": "Stredoveký originál: verejná doména (transkripcia Wikisource, 11. 11. 2026). Slovenský preklad: pôvodný redakčný text tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://it.wikiversity.org/wiki/%27%27Cantico_delle_Creature%27%27_di_Francesco_d%27Assisi_(superiori)"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.regola_bollata",
+      "category": "scritto_autentico",
+      "title": "Potvrdená regula (Regula bullata)",
+      "author": "František z Assisi",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "1223",
+      "dateFrom": 1223,
+      "dateTo": 1223,
+      "authenticity": "authentic",
+      "description": "Definitívna regula bratstva, schválená bulou Honória III. 29. novembra 1223. Krátky text, dodnes základ Rádu menších bratov.",
+      "manuscriptNote": "Široká rukopisná tradícia; kritický text v edíciách Opuscula.",
+      "licenseNote": "Stredoveký originál: verejná doména (transkripcia Wikisource, 11. 11. 2026). Slovenský preklad: pôvodný redakčný text tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://ofm.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.regola_non_bollata",
+      "category": "scritto_autentico",
+      "title": "Nepotvrdená regula (Regula non bullata)",
+      "author": "František z Assisi a prví spoločníci",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "1221",
+      "dateFrom": 1221,
+      "dateTo": 1221,
+      "authenticity": "authentic",
+      "description": "Prvá úplná regula bratstva, dlhšia a duchovnejšia než potvrdená, nikdy formálne neschválená Cirkvou. Uchováva slobodnejší hlas prvého františkánstva.",
+      "manuscriptNote": "Zachovala sa v niekoľkých rukopisoch; znovuobjavená modernou kritikou.",
+      "licenseNote": "Stredoveký originál: verejná doména (transkripcia Wikisource, 11. 11. 2026). Slovenský preklad: pôvodný redakčný text tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.ammonizioni",
+      "category": "scritto_autentico",
+      "title": "Napomenutia",
+      "author": "František z Assisi",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "neistý dátum, približne pred rokom 1221",
+      "authenticity": "authentic",
+      "description": "Dvadsaťosem krátkych duchovných poučení pre bratstvo: pokora, poslušnosť, trpezlivosť, čistota srdca. Patria medzi najhutnejšie texty františkánskeho učenia.",
+      "manuscriptNote": "Členitá rukopisná tradícia; číslovanie sleduje kritické edície.",
+      "licenseNote": "Stredoveký originál: verejná doména. Slovenské parafrázy: pôvodné redakčné texty tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "needs_verification"
+    },
+    {
+      "id": "source.lettera_ministro",
+      "category": "scritto_autentico",
+      "title": "List ministrovi",
+      "author": "František z Assisi",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "neistý dátum, okolo roku 1220",
+      "authenticity": "authentic",
+      "description": "List zodpovednému (ministrovi) bratstva: ako zaobchádzať s bratmi, ktorí zlyhajú, bez tvrdosti a bez pohoršenia.",
+      "manuscriptNote": "Odovzdaný v tradícii Opuscula.",
+      "licenseNote": "Stredoveký originál: verejná doména. Slovenské parafrázy: pôvodné redakčné texty tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lettera_leone",
+      "category": "scritto_autentico",
+      "title": "List bratovi Levovi",
+      "author": "František z Assisi",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "po roku 1224",
+      "dateFrom": 1224,
+      "authenticity": "authentic",
+      "description": "Krátky vlastnoručný list bratovi Levovi, jeho spovedníkovi a spoločníkovi, o počúvaní vlastného svedomia pred Bohom. Cenný dokument aj preto, že je autograf.",
+      "manuscriptNote": "Autograf uchovaný v katedrále v Spolete.",
+      "licenseNote": "Stredoveký originál: verejná doména. Slovenské parafrázy: pôvodné redakčné texty tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lettera_ordine",
+      "category": "scritto_autentico",
+      "title": "List celému Rádu",
+      "author": "František z Assisi",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "1225 – 1226",
+      "dateFrom": 1225,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "List bratom, z veľkej časti o Eucharistii, o úcte k napísaným slovám Boha a o zachovávaní Reguly. Je to jeden z najrozsiahlejších Františkových spisov.",
+      "manuscriptNote": "Odovzdaný v tradícii Opuscula. Text z latinskej transkripcie Wikisource.",
+      "licenseNote": "Stredoveký latinský originál: verejná doména. Preklad: pôvodný redakčný text tejto aplikácie.",
+      "referenceUrls": [
+        "https://la.wikisource.org/wiki/Epistola_toti_Ordini_missa"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lodi_dio",
+      "category": "scritto_autentico",
+      "title": "Chvály najvyššieho Boha",
+      "author": "František z Assisi",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "1224 (La Verna)",
+      "dateFrom": 1224,
+      "dateTo": 1224,
+      "authenticity": "authentic",
+      "description": "Modlitba chvály zložená na La Verne, odovzdaná na tom istom autografe ako List bratovi Levovi a požehnanie preňho.",
+      "manuscriptNote": "Pergamen brata Leva, autograf (Spoleto, katedrála).",
+      "licenseNote": "Stredoveký originál: verejná doména. Slovenské parafrázy: pôvodné redakčné texty tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.celano_vita_prima",
+      "category": "testimonianza_medievale",
+      "title": "Prvý životopis Tomáša z Celana",
+      "author": "Tomáš z Celana",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "1228 – 1229",
+      "dateFrom": 1228,
+      "dateTo": 1229,
+      "authenticity": "authentic",
+      "description": "Prvá oficiálna biografia Františka, ktorú si Gregor IX. objednal ku kanonizácii. Hlavný a svätcovi najbližší prameň, hoci s hagiografickým zámerom.",
+      "manuscriptNote": "Dostupné moderné kritické edície; číslovanie podľa odsekov.",
+      "licenseNote": "Stredoveký originál: verejná doména. Slovenské parafrázy: pôvodné redakčné texty tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://www.treccani.it/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.celano_vita_seconda",
+      "category": "testimonianza_medievale",
+      "title": "Druhý životopis Tomáša z Celana",
+      "author": "Tomáš z Celana",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "1246 – 1247",
+      "dateFrom": 1246,
+      "dateTo": 1247,
+      "authenticity": "authentic",
+      "description": "Druhá biografia, ktorá zbiera svedectvá ešte žijúcich spoločníkov: bohatšia na epizódy a na podrobnosti o Františkovej povahe.",
+      "manuscriptNote": "Dostupné moderné kritické edície.",
+      "licenseNote": "Stredoveký originál: verejná doména. Slovenské parafrázy: pôvodné redakčné texty tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.bonaventura_leggenda_maggiore",
+      "category": "testimonianza_medievale",
+      "title": "Väčšia legenda Bonaventúru",
+      "author": "Bonaventúra z Bagnoregia",
+      "originalLanguage": "stredoveká latinčina",
+      "compositionDate": "1260 – 1263",
+      "dateFrom": 1260,
+      "dateTo": 1263,
+      "authenticity": "authentic",
+      "description": "Teologická biografia Františka, ktorú napísal Bonaventúra a ktorá sa v roku 1266 stala oficiálnou legendou Rádu. Stavebnejšia a náukovejšia než Celanove životy.",
+      "manuscriptNote": "Dostupné moderné kritické edície.",
+      "licenseNote": "Stredoveký originál: verejná doména. Slovenské parafrázy: pôvodné redakčné texty tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.fioretti",
+      "category": "tradizione_agiografica",
+      "title": "Kvietočky svätého Františka",
+      "author": "Anonymný františkán (z latinskej tradície, Actus)",
+      "originalLanguage": "toskánsky ľudový jazyk",
+      "compositionDate": "koniec 14. storočia",
+      "dateFrom": 1370,
+      "dateTo": 1400,
+      "authenticity": "legendary",
+      "description": "Zbierka epizód o Františkovi a spoločníkoch v ľudovom jazyku, preložená a prepracovaná zo latinských textov 14. storočia (Actus beati Francisci). Literárne majstrovské dielo: jej rozprávania sú svedectvom zbožnosti, nie historicky overiteľnou kronikou.",
+      "manuscriptNote": "Talianska verzia Actus; početné rukopisy a tlače.",
+      "licenseNote": "Stredoveký originál: verejná doména. Slovenské parafrázy: pôvodné redakčné texty tejto aplikácie.",
+      "referenceUrls": [
+        "https://www.treccani.it/",
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.preghiera_semplice",
+      "category": "interpretazione_moderna",
+      "title": "Takzvaná „prostá modlitba“",
+      "author": "Moderný anonym (prvá známa publikácia: 1912, francúzsky časopis La Clochette)",
+      "originalLanguage": "moderná francúzština",
+      "compositionDate": "20. storočie",
+      "dateFrom": 1912,
+      "dateTo": 1912,
+      "authenticity": "not_by_francis",
+      "description": "Modlitba „Urob ma nástrojom svojho pokoja“ je veľmi milovaná a duchovne blízka františkánskej citlivosti, ale NIE JE od Františka: po prvý raz sa objavuje v roku 1912 a jemu bola pripísaná až neskôr. Uvádzame ju pre historickú poctivosť: aplikácia ju nikdy nepoužije ako citát svätca.",
+      "manuscriptNote": "Nijaké stredoveké svedectvo. Porovnaj štúdie P. Patrica Mahieua a prehľady na sanfrancesco.org.",
+      "licenseNote": "Moderný text: v tejto aplikácii nie je reprodukovaný v celku.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.narrazione_gioco",
+      "category": "narrazione_originale",
+      "title": "Pôvodné rozprávanie hry",
+      "author": "Redakcia aplikácie",
+      "description": "Dokumentárny zástupný záznam pre kapitoly Pútnika a scenáre kariet: pôvodná historická fikcia, inšpirovaná prameňmi, ale nikdy nepredkladaná ako historický fakt ani ako Františkovo slovo.",
+      "licenseNote": "Pôvodný text aplikácie.",
+      "reviewStatus": "verified"
+    }
+  ],
+  "passages": [
+    {
+      "id": "pass.testamento.lebbrosi",
+      "documentId": "source.testamento",
+      "reference": "Závet 1 – 3",
+      "originalText": "Dominus ita dedit mihi fratri Francisco incipere faciendi poenitentiam: quia, cum essem in peccatis, nimis mihi videbatur amarum videre leprosos. Et ipse Dominus conduxit me inter illos et feci misericordiam cum illis. Et recedente me ab ipsis, id quod videbatur mihi amarum, conversum fuit mihi in dulcedinem animi et corporis; et postea parum steti et exivi de saeculo.",
+      "translation": "Pán dal mne, bratovi Františkovi, začať konať pokánie takto: keď som bol v hriechoch, zdalo sa mi príliš horké vidieť malomocných. A sám Pán ma priviedol medzi nich a preukázal som im milosrdenstvo. A keď som od nich odchádzal, to, čo sa mi zdalo horké, obrátilo sa mi na sladkosť duše i tela; a potom som sa zdržal už len krátko a vyšiel som zo sveta.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.chiese",
+      "documentId": "source.testamento",
+      "reference": "Závet 4 – 13",
+      "originalText": "Et Dominus dedit mihi talem fidem in ecclesiis, ut ita simpliciter orarem et dicerem Adoramus te, Domine Jesu Christe et ad omnes ecclesias tuas, quae sunt in toto mundo, et benedicimus tibi, quia per sanctam crucem tuam redimisti mundum. Postea Dominus dedit mihi et dat tantam fidem in sacerdotibus, qui vivunt secundum formam sanctae ecclesiae Romanae propter ordinem ipsorum, quod si facerent mihi persecutionem, volo recurrere ad ipsos. Et si haberem tantam sapientiam, quantam Salomon habuit, et invenirem pauperculos sacerdotes huius saeculi, in parochiis, quibus morantur, nolo praedicare ultra voluntatem ipsorum. Et ipsos et omnes alios volo timere, amare et honorare sicut meos dominos. Et nolo in ipsis considerare peccatum, quia Filium Dei discerno in ipsis, et domini mei sunt. Et propter hoc facio, quia nihil video corporaliter in hoc saeculo de ipso altissimo Filio Dei, nisi sanctissimum corpus et sanctissimum sanguinem suum, quod ipsi recipiunt et ipsi soli aliis ministrant. Et haec sanctissima mysteria super omnia volo honorari, venerari et in locis pretiosis collocari. Sanctissima nomina et verba eius scripta, ubicumque invenero in locis illicitis, volo colligere et rogo, quod colligantur et in loco honesto collocentur. Et omnes theologos et qui ministrant sanctissima verba divina, debemus honorare et venerari, sicut qui ministrant nobis spiritum et vitam (cfr. Joa 6,64).",
+      "translation": "A Pán mi dal takú vieru v kostoly, že som sa modlil a hovoril jednoducho: Klaniame sa ti, Pane Ježišu Kriste, aj vo všetkých tvojich kostoloch, ktoré sú na celom svete, a dobrorečíme ti, lebo si svojím svätým krížom vykúpil svet. Potom mi Pán dal a stále dáva takú vieru v kňazov, ktorí žijú podľa formy svätej Rímskej cirkvi, pre ich stav, že aj keby ma prenasledovali, chcem sa utiekať k nim. A keby som mal toľko múdrosti, koľko mal Šalamún, a našiel by som úbohých kňazov tohto sveta vo farnostiach, kde bývajú, nechcem kázať proti ich vôli. Ich aj všetkých ostatných chcem mať v bázni, milovať a ctiť ako svojich pánov. A nechcem v nich hľadieť na hriech, lebo v nich rozoznávam Božieho Syna a sú moji páni. A robím to preto, že v tomto svete telesne nevidím z toho najvyššieho Božieho Syna nič iné než jeho najsvätejšie telo a najsvätejšiu krv, ktoré oni prijímajú a jedine oni ich podávajú iným. A tieto najsvätejšie tajomstvá chcem mať uctené nad všetko, v úcte a uložené na vzácnych miestach. Jeho najsvätejšie mená a napísané slová, kdekoľvek ich nájdem na nehodných miestach, chcem pozbierať a prosím, aby sa pozbierali a uložili na čestnom mieste. A všetkých teológov a tých, čo vysluhujú najsvätejšie božské slová, máme ctiť a mať v úcte ako tých, čo nám vysluhujú ducha a život.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.vangelo",
+      "documentId": "source.testamento",
+      "reference": "Závet 14 – 22",
+      "originalText": "Et postquam Dominus dedit mihi de fratribus, nemo ostendebat mihi, quid deberem facere, sed ipse Altissimus revelavit mihi, quod deberem vivere secundum formam sancti Evangelii. Et ego paucis verbis et simpliciter feci scribi et dominus papa confirmavit mihi. Et illi qui veniebant ad recipiendam vitam, omnia quae habere poterant (Tob 1,3), dabant pauperibus; et erant contenti tunica una, intus et foris repeciata, cum cingulo et braccis. Et nolebamus plus habere. Officium dicebamus clerici secundum alios clericos, laici dicebant Pater noster; et satis libenter manebamus in ecclesiis. Et eramus idiotae et subditi omnibus. Et ego manibus meis laborabam, et volo laborare; et omnes alii fratres firmiter volo, quod laborent de laboritio, quod pertinet ad honestatem. Qui nesciunt, discant, non propter cupiditatem recipiendi pretium laboris, sed propter exemplum et ad repellendam otiositatem. Et quando non daretur nobis pretium laboris, recurramus ad mensam Domini, petendo eleemosynam ostiatim.",
+      "translation": "A keď mi Pán dal bratov, nikto mi neukazoval, čo mám robiť, ale sám Najvyšší mi zjavil, že mám žiť podľa formy svätého evanjelia. A ja som to dal napísať nemnohými slovami a jednoducho a pán pápež mi to potvrdil. A tí, čo prichádzali prijať tento život, dávali chudobným všetko, čo mohli mať, a uspokojili sa s jednou tunikou, zvnútra i zvonka zaplátanou, s povrazom a nohavicami. A nechceli sme mať viac. Ofícium sme my klerici hovorili ako ostatní klerici, laici hovorili Otče náš; a dosť radi sme zostávali v kostoloch. A boli sme neučení a podriadení všetkým. A ja som pracoval vlastnými rukami a chcem pracovať; a pevne chcem, aby aj všetci ostatní bratia pracovali prácou, ktorá patrí k počestnosti. Kto nevie, nech sa naučí, nie z túžby dostať odmenu za prácu, ale pre príklad a aby zahnal záhaľku. A keď sa nám odmena za prácu nedostane, utiekajme sa k Pánovmu stolu a prosme o almužnu od dverí k dverám.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.saluto_pace",
+      "documentId": "source.testamento",
+      "reference": "Závet 23",
+      "originalText": "Salutationem mihi Dominus revelavit, ut diceremus Dominus det tibi pacem.",
+      "translation": "Pán mi zjavil pozdrav, aby sme hovorili: Pán ti daj pokoj.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.poverta_case",
+      "documentId": "source.testamento",
+      "reference": "Závet 24 – 26",
+      "originalText": "Caveant sibi fratres, ut ecclesias, habitacula paupercula et omnia, quae pro ipsis construuntur, penitus non recipiant, nisi essent, sicut decet sanctam paupertatem, quam in regula promisimus, semper ibi hospitantes sicut advenae et peregrini (cfr. 1 Petr 2,11). Praecipio firmiter per obedientiam fratribus universis, quod ubicumque sunt, non audeant petere aliquam litteram in curia Romana per se neque per interpositam personam, neque pro ecclesia neque pro alio loco neque sub specie praedicationis neque pro persecutione suorum corporum; sed ubicumque non fuerint recepti, fugiant in aliam terram ad faciendam poenitentiam cum benedictione Dei.",
+      "translation": "Nech sa bratia chránia prijímať kostoly, úbohé príbytky a všetko, čo sa pre nich stavia, iba ak by to bolo, ako sa patrí svätej chudobe, ktorú sme sľúbili v Regule, a vždy tam bývali ako cudzinci a pútnici. Pevne z poslušnosti prikazujem všetkým bratom, aby sa kdekoľvek sú neodvážili žiadať nijaký list na rímskej kúrii, ani sami, ani prostredníctvom inej osoby, ani pre kostol, ani pre iné miesto, ani pod zámienkou kázania, ani pre prenasledovanie vlastných tiel; ale kdekoľvek by neboli prijatí, nech ujdú do inej krajiny konať pokánie s Božím požehnaním.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.obbedienza",
+      "documentId": "source.testamento",
+      "reference": "Závet 27 – 34",
+      "originalText": "Et firmiter volo obedire ministro generali huius fraternitatis et alio guardiano, quem sibi placuerit mihi dare. Et ita volo esse captus in manibus suis, ut non possim ire vel facere ultra obedientiam et voluntatem suam, quia dominus meus est. Et quamvis sim simplex et infirmus, tamen semper volo habere clericum, qui mihi faciat officium, sicut in regula continetur. Et omnes alii fratres teneantur ita obedire guardianis suis et facere officium secundum regulam. Et qui inventi essent, quod non facerent officium secundum regulam, et vellent alio modo variare, aut non essent catholici, omnes fratres, ubicumque sunt, per obedientiam teneantur, quod ubicumque invenerint aliquem ipsorum, proximiori custodi illius loci, ubi ipsum invenerint, debeant repraesentare. Et custos firmiter teneatur per obedientiam ipsum fortiter custodire, sicuti hominem in vinculis die noctuque, ita quod non possit eripi de manibus suis, donec propria sua persona ipsum repraesentet in manibus sui ministri. Et minister firmiter teneatur per obedientiam mittendi ipsum per tales fratres, quod die noctuque custodiant ipsum sicuti hominem in vinculis, donec repraesentent ipsum coram domino Ostiensi, qui est dominus, protector et corrector totius fraternitatis. Et non dicant fratres Haec est alia regula; quia haec est recordatio, admonitio, exhortatio et meum testamentum, quod ego frater Franciscus parvulus facio vobis fratribus meis benedictis propter hoc, ut regulam, quam Domino promisimus, melius catholice observemus.",
+      "translation": "A pevne chcem poslúchať generálneho ministra tohto bratstva a gvardiána, ktorého sa mu zapáči mi dať. A chcem byť natoľko v jeho rukách, aby som nemohol ísť ani konať ponad poslušnosť a jeho vôľu, lebo je môj pán. A hoci som prostý a chorý, predsa chcem mať vždy klerika, ktorý mi bude konať ofícium, ako je to v Regule. A všetci ostatní bratia sú povinní takto poslúchať svojich gvardiánov a konať ofícium podľa Reguly. A keby sa našli takí, čo by nekonali ofícium podľa Reguly a chceli by ho nejako meniť, alebo by neboli katolíci, všetci bratia, kdekoľvek sú, sú z poslušnosti povinní, kdekoľvek niektorého z nich nájdu, predviesť ho najbližšiemu kustódovi toho miesta, kde ho našli. A kustód je z poslušnosti pevne povinný prísne ho strážiť ako človeka v putách vo dne v noci, tak aby sa nedal vytrhnúť z jeho rúk, kým ho on sám neodovzdá do rúk jeho ministra. A minister je z poslušnosti pevne povinný poslať ho po takých bratoch, ktorí ho budú vo dne v noci strážiť ako človeka v putách, kým ho nepredvedú pred pána z Ostie, ktorý je pánom, ochrancom a naprávačom celého bratstva. A nech bratia nehovoria: Toto je iná regula. Lebo toto je pripomienka, napomenutie, povzbudenie a môj závet, ktorý ja, maličký brat František, robím vám, svojim požehnaným bratom, aby sme regulu, ktorú sme sľúbili Pánovi, lepšie a katolícky zachovávali.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.senza_glossa",
+      "documentId": "source.testamento",
+      "reference": "Závet 35 – 41",
+      "originalText": "Et generalis minister et omnes alii ministri et custodes per obedientiam teneantur, in istis verbis non addere vel minuere. Et semper hoc scriptum habeant secum iuxta regulam. Et in omnibus capitulis, quae faciunt, quando legunt regulam, legant et ista verba. Et omnibus fratribus meis clericis et laicis praecipio firmiter per obedientiam, ut non mittant glossas in regula neque in istis verbis dicendo Ita volunt intelligi. Sed sicut dedit mihi Dominus simpliciter et pure dicere et scribere regulam et ista verba, ita simpliciter et sine glossa intelligatis et cum sancta operatione observetis usque in finem. Et quicumque haec observaverit, in caelo repleatur benedictione altissimi Patris et in terra repleatur benedictione dilecti Filii sui cum sanctissimo Spiritu Paraclito et omnibus virtutibus caelorum et omnibus sanctis. Et ego frater Franciscus parvulus, vester servus, quantumcumque possum, confirmo vobis intus et foris istam sanctissimam benedictionem. en The Testament of St. Francis of Assisi hr Oporuka svetoga Franje ru Завещание (Франциск Ассизский)",
+      "translation": "A generálny minister a všetci ostatní ministri a kustódi sú z poslušnosti povinní k týmto slovám nič nepridávať ani neuberať. A nech majú tento spis vždy pri sebe vedľa reguly. A na všetkých kapitulách, ktoré konajú, keď čítajú regulu, nech čítajú aj tieto slová. A všetkým svojim bratom, klerikom i laikom, pevne z poslušnosti prikazujem, aby nekládli glosy na regulu ani na tieto slová a nehovorili: Takto sa majú rozumieť. Ale ako mi Pán dal jednoducho a čisto povedať a napísať regulu aj tieto slová, tak ich jednoducho a bez glosy rozumejte a so svätým konaním zachovávajte až do konca. A ktokoľvek toto zachová, nech je na nebi naplnený požehnaním najvyššieho Otca a na zemi požehnaním jeho milovaného Syna s najsvätejším Duchom Paraklétom a so všetkými čnosťami nebies a so všetkými svätými. A ja, maličký brat František, váš služobník, nakoľko len môžem, potvrdzujem vám znútra i zvonka toto najsvätejšie požehnanie.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.apertura",
+      "documentId": "source.cantico",
+      "reference": "Pieseň stvorenia, v. 1 – 9",
+      "originalText": "Altissimu, onnipotente, bon Signore, tue so' le laude, la gloria e l'honore et onne benedictione. Ad te solo, Altissimo, se konfano, et nullu homo ène dignu te mentovare. Laudato sie, mi' Signore, cum tucte le tue creature, spetialmente messor lo frate sole, lo qual' è iorno, et allumini noi per lui.",
+      "translation": "Najvyšší, všemohúci, dobrý Pane, tvoje sú chvály, sláva a česť a každé dobrorečenie. Tebe samému, Najvyšší, sa hodia a nijaký človek nie je hoden vysloviť tvoje meno. Chválen buď, môj Pane, so všetkými tvojimi stvoreniami, osobitne s pánom bratom slnkom, ktorý je dňom, a skrze neho nás osvecuješ.",
+      "note": "Umbrijský ľudový jazyk kódexu 338 z Assisi, v znení už použitom pre verše 1 – 9. Pokračovanie bolo porovnané s diplomatickým prepisom na it.wikisource, Cantico di Frate Sole (11. 11. 2026); tam, kde sken láme slovo, boli obnovené zhodné tvary. Pôvodný redakčný preklad tejto aplikácie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.creature",
+      "documentId": "source.cantico",
+      "reference": "Pieseň stvorenia, stredné strofy",
+      "originalText": "Et ellu è bellu e radiante cum grande splendore: de te, Altissimo, porta significatione. Laudato si', mi' Signore, per sora luna e le stelle: in celu l'ài formate clarite et pretiose et belle. Laudato si', mi' Signore, per frate vento et per aere et nubilo et sereno et onne tempo, per lo quale a le tue creature dài sustentamento. Laudato si', mi' Signore, per sor'acqua, la quale è multo utile et humile et pretiosa et casta. Laudato si', mi' Signore, per frate focu, per lo quale ennallumini la nocte: et ello è bello et iocundo et robustoso et forte. Laudato si', mi' Signore, per sora nostra matre terra, la quale ne sustenta et governa, et produce diversi fructi con coloriti flori et herba.",
+      "translation": "A on je krásny a žiarivý, s veľkým jasom: teba, Najvyšší, nesie ako znamenie. Chválen buď, môj Pane, pre sestru mesiac a hviezdy: na nebi si ich utvoril jasné, vzácne a krásne. Chválen buď, môj Pane, pre brata vietor a pre vzduch a oblaky a jasno a každé počasie, skrze ktoré dávaš svojim stvoreniam obživu. Chválen buď, môj Pane, pre sestru vodu, ktorá je veľmi užitočná a pokorná a vzácna a čistá. Chválen buď, môj Pane, pre brata oheň, skrze ktorého osvecuješ noc: a on je krásny a radostný a mohutný a silný. Chválen buď, môj Pane, pre sestru našu matku zem, ktorá nás živí a spravuje a rodí rozličné plody s farebnými kvetmi a trávou.",
+      "note": "Umbrijský ľudový jazyk kódexu 338 z Assisi, v znení už použitom pre verše 1 – 9. Pokračovanie bolo porovnané s diplomatickým prepisom na it.wikisource, Cantico di Frate Sole (11. 11. 2026); tam, kde sken láme slovo, boli obnovené zhodné tvary. Pôvodný redakčný preklad tejto aplikácie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.perdono_morte",
+      "documentId": "source.cantico",
+      "reference": "Pieseň stvorenia, záverečné strofy",
+      "originalText": "Laudato si', mi' Signore, per quelli ke perdonano per lo tuo amore et sostengono infirmitate et tribulatione. Beati quelli ke 'l sosterranno in pace, ka da te, Altissimo, sirano incoronati. Laudato si', mi' Signore, per sora nostra morte corporale, da la quale nullu homo vivente pò skappare: guai a quelli ke morrano ne le peccata mortali; beati quelli ke trovarà ne le tue sanctissime voluntati, ka la morte secunda no 'l farrà male. Laudate et benedicete mi' Signore et rengratiate e serviateli cum grande humilitate.",
+      "translation": "Chválen buď, môj Pane, pre tých, čo odpúšťajú pre tvoju lásku a znášajú chorobu a súženie. Blahoslavení tí, čo ich znášajú v pokoji, lebo ty, Najvyšší, ich korunuješ. Chválen buď, môj Pane, pre sestru našu telesnú smrť, ktorej nijaký žijúci človek nemôže uniknúť: beda tým, čo zomrú v smrteľných hriechoch; blahoslavení tí, ktorých nájde v tvojej najsvätejšej vôli, lebo druhá smrť im neuškodí. Chváľte a dobrorečte môjmu Pánovi, ďakujte mu a slúžte mu s veľkou pokorou.",
+      "note": "Umbrijský ľudový jazyk kódexu 338 z Assisi, v znení už použitom pre verše 1 – 9. Pokračovanie bolo porovnané s diplomatickým prepisom na it.wikisource, Cantico di Frate Sole (11. 11. 2026); tam, kde sken láme slovo, boli obnovené zhodné tvary. Pôvodný redakčný preklad tejto aplikácie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.bolla",
+      "documentId": "source.regola_bollata",
+      "reference": "Bula Honória III., predhovor k Regule",
+      "originalText": "Honorius episcopus servus servorum dei dilectis filiis, fratri Francisco et aliis fratribus de ordine fratrum minorum, salutem et apostolicam benedictionem. Solet annuere sedes apostolica piis votis et honestis petentium desideriis favorem benivolum impertiri. Eapropter, dilecti in domino filii, vestris piis precibus inclinati, ordinis vestri regulam, a bone memorie Innocentio papa, predecessore nostro, approbatam, annotatam presentibus, auctoritate vobis apostolica confirmamus et presentis scripti patrocinio communimus, que talis est Regula minorum fratrum.",
+      "translation": "Honórius, biskup, služobník služobníkov Božích, milovaným synom, bratovi Františkovi a ostatným bratom z Rádu menších bratov: pozdrav a apoštolské požehnanie. Apoštolská stolica zvykne vyhovieť zbožným sľubom a čestným túžbam prosiacich a udeliť im priaznivú láskavosť. Preto, milovaní synovia v Pánovi, naklonení vašimi zbožnými prosbami, apoštolskou autoritou vám potvrdzujeme regulu vášho rádu, schválenú pápežom Inocentom dobrej pamäti, naším predchodcom, a tu zapísanú, a posilňujeme ju ochranou tohto spisu. Znie takto: Regula menších bratov.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c01",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola I",
+      "originalText": "[1] Regula et Vita Minorum Fratrum haec est, scilicet Domini nostri Jesu Christi sanctum Evangelium observare vivendo in obedientia, sine proprio et in castitate. [2] Frater Franciscus promittit obedientiam et reverentiam domino papae Honorio ac successoribus eius canonice intrantibus et Ecclesiae Romanae. [3] Et alii fratres teneantur fratri Francisco et eius successoribus obedire.",
+      "translation": "Regula a život menších bratov je toto: zachovávať sväté evanjelium nášho Pána Ježiša Krista životom v poslušnosti, bez ničoho vlastného a v čistote. Brat František sľubuje poslušnosť a úctu pánu pápežovi Honóriovi a jeho kanonicky nastupujúcim nástupcom a Rímskej cirkvi. A ostatní bratia sú povinní poslúchať brata Františka a jeho nástupcov.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c02",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola II",
+      "originalText": "[1] Si qui voluerint hanc vitam accipere et venerint ad fratres nostros, mittant eos ad suos ministros provinciales, quibus solummodo et non aliis recipiendi fratres licentia concedatur. [2] Ministri vero diligenter examinent eos de fide catholica et ecclesiasticis sacramentis. [3] Et si haec omnia credant et velint ea fideliter confiteri et usque in finem firmiter observare [4] et uxores non habent vel, si habent, et iam monasterium intraverint uxores vel licentiam eis dederint auctoritate diocesani episcopi, voto continentiae iam emisso, et illius sint aetatis uxores, quod non possit de eis oriri suspicio, [5] dicant illis verbum sancti Evangelii (cfr. Mt 19,21 par), quod vadant et vendant omnia sua et ea studeant pauperibus erogare. [6] Quod si facere non potuerint, sufficit eis bona voluntas. [7] Et caveant fratres et eorum ministri, ne solliciti sint de rebus suis temporalibus, ut libere faciant de rebus suis, quidquid Dominus inspiraverit eis. [8] Si tamen consilium requiratur, licentiam habeant ministri mittendi eos ad aliquos Deum timentes, quorum consilio bona sua pauperibus erogentur. [9] Postea concedant eis pannos probationis, videlicet duas tunicas sine caputio et cingulum et braccas et caparonem usque ad cingulum, [10] nisi eisdem ministris aliud secundum Deum aliquando videatur. [11] Finito vero anno probationis, recipiantur ad obedientiam promittentes vitam istam semper et regulam observare. [12] Et nullo modo licebit eis de ista religione exire iuxta mandatum domini papae, [13] quia secundum sanctum Evangelium nemo mittens manum ad aratrum et aspiciens retro aptus est regno Dei (Lc 9,62). [14] Et illi qui iam promiserunt obedientiam habeant unam tunicam cum caputio et aliam sine caputio qui voluerint habere. [15] Et qui necessitate coguntur possint portare calciamenta. [16] Et fratres omnes vestimentis vilibus induantur et possint ea repeciare de saccis et aliis peciis cum benedictione Dei. [17] Quos moneo et exhortor, ne despiciant neque iudicent homines, quos vident mollibus vestimentis et coloratis indutos, uti cibis et potibus delicatis, sed magis unusquisque iudicet et despiciat semetipsum.",
+      "translation": "Ak by niektorí chceli prijať tento život a prišli k našim bratom, nech ich pošlú k svojim provinciálnym ministrom, ktorým jediným, a nie iným, sa udeľuje dovolenie prijímať bratov. Ministri nech ich starostlivo skúmajú v katolíckej viere a v cirkevných sviatostiach. A ak tomu všetkému veria a chcú to verne vyznávať a až do konca pevne zachovávať, a nemajú manželky, alebo ak ich majú a manželky už vstúpili do kláštora, alebo im dali dovolenie z moci diecézneho biskupa, keď už zložili sľub zdržanlivosti, a sú v takom veku, že o nich nemôže vzniknúť podozrenie, nech im povedia slovo svätého evanjelia, aby šli, predali všetko, čo majú, a starali sa to rozdať chudobným. Ak by to nemohli urobiť, stačí im dobrá vôľa. A nech sa bratia a ich ministri chránia starať sa o ich časné veci, aby s nimi slobodne urobili, čokoľvek im Pán vnukne. Ak sa však žiada rada, nech majú ministri dovolenie poslať ich k niektorým bohabojným ľuďom, na ktorých radu sa ich majetok rozdá chudobným. Potom im nech dajú odev skúšky, totiž dve tuniky bez kapucne, povraz, nohavice a pláštik po povraz, iba ak by sa tým istým ministrom niekedy podľa Boha zdalo inak. Keď sa skončí rok skúšky, nech sú prijatí do poslušnosti so sľubom, že budú vždy zachovávať tento život a regulu. A nijako im nebude dovolené z tejto rehole odísť, podľa príkazu pána pápeža, lebo podľa svätého evanjelia nikto, kto položí ruku na pluh a obzerá sa späť, nie je súci pre Božie kráľovstvo. A tí, čo už sľúbili poslušnosť, nech majú jednu tuniku s kapucňou a druhú bez kapucne, ak ju chcú mať. A koho núti potreba, môžu nosiť obuv. A všetci bratia nech sa odievajú lacným odevom a môžu ho zaplátať vrecovinou a inými kusmi s Božím požehnaním. Napomínam ich a povzbudzujem, aby nepohŕdali ani nesúdili ľudí, ktorých vidia oblečených v mäkkých a farebných šatách a ako užívajú jemné jedlá a nápoje, ale nech každý radšej súdi a pohŕda sám sebou.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c03",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola III",
+      "originalText": "[1] Clerici faciant divinum officium secundum ordinem sanctae Romanae Ecclesiae excepto psalterio, [2] ex quo habere poterunt breviaria. [3] Laici vero dicant viginti quattuor Pater noster pro matutino, pro laude quinque, pro prima, tertia, sexta, nona, pro qualibet istarum septem, pro vesperis autem duodecim, pro completorio septem; [4] et orent pro defunctis. [5] Et ieiunent a festo Omnium Sanctorum usque ad Nativitatem Domini. [6] Sanctam vero quadragesimam, quae incipit ab Epiphania usque ad continuos quadraginta dies, quam Dominus suo sancto ieiunio consecravit (cfr. Mt 4,2), qui voluntarie eam ieiunant benedicti sint a Domino, et qui nolunt non sint astricti. [7] Sed aliam usque ad Resurrectionem Domini ieiunent. [8] Aliis autem temporibus non teneantur nisi sexta feria ieiunare. [9] Tempore vero manifestae necessitatis non teneantur fratres ieiunio corporali. [10] Consulo vero, moneo et exhortor fratres meos in Domino Jesu Christo, ut, quando vadunt per mundum, non litigent neque contendant verbis (cfr. 2 Tim 2,14), nec alios iudicent; [11] sed sint mites, pacifici et modesti, mansueti et humiles, honeste loquentes omnibus, sicut decet. [12] Et non debeant equitare, nisi manifesta necessitate vel infirmitate cogantur. [13] In quamcumque domum intraverint, primum dicant Pax huic domui (cfr. Lc 10,5). [14] Et secundum sanctum Evangelium de omnibus cibis, qui apponuntur eis, liceat manducare (cfr. Lc 10,8).",
+      "translation": "Klerici nech konajú božské ofícium podľa poriadku svätej Rímskej cirkvi, okrem žaltára, z ktorého môžu mať breviáre. Laici nech hovoria dvadsaťštyri Otčenášov za matutínum, päť za chvály, za primu, terciu, sextu a nónu po sedem za každú z nich, za vešpery dvanásť a za kompletórium sedem; a nech sa modlia za zosnulých. A nech sa postia od sviatku Všetkých svätých až do Narodenia Pána. Svätý pôst, ktorý sa začína od Zjavenia Pána a trvá súvislých štyridsať dní a ktorý Pán posvätil svojím svätým pôstom, tí, čo ho držia dobrovoľne, nech sú požehnaní od Pána, a tí, čo nechcú, nech nie sú viazaní. Ale druhý pôst nech držia až do Vzkriesenia Pána. V iných časoch nie sú povinní postiť sa okrem piatku. V čase zjavnej potreby nie sú bratia viazaní telesným pôstom. Radím, napomínam a povzbudzujem svojich bratov v Pánu Ježišovi Kristovi, aby keď idú svetom, nehádali sa ani sa nepreli slovami a nesúdili iných; ale nech sú mierni, pokojní a skromní, tichí a pokorní a nech so všetkými hovoria počestne, ako sa patrí. A nemajú jazdiť na koni, iba ak ich núti zjavná potreba alebo choroba. Do ktoréhokoľvek domu vojdú, nech najprv povedia: Pokoj tomuto domu. A podľa svätého evanjelia im je dovolené jesť zo všetkých pokrmov, ktoré sa im predložia.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c04",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola IV",
+      "originalText": "[1] Praecipio firmiter fratribus universis, ut nullo modo denarios vel pecuniam recipiant per se vel per interpositam personam. [2] Tamen pro necessitatibus infirmorum et aliis fratribus induendis per amicos spirituales ministri tantum et custodes sollicitam curam gerant secundum loca et tempora et frigidas regiones, sicut necessitati viderint expedire; [3] eo semper salvo, ut, sicut dictum est, denarios vel pecuniam non recipiant.",
+      "translation": "Pevne prikazujem všetkým bratom, aby nijakým spôsobom neprijímali mince ani peniaze, ani sami, ani prostredníctvom inej osoby. Predsa však pre potreby chorých a na odenie ostatných bratov nech len ministri a kustódi skrze duchovných priateľov starostlivo dbajú podľa miest, časov a chladných krajín, ako uvidia, že to potreba vyžaduje; vždy však tak, aby, ako bolo povedané, neprijímali mince ani peniaze.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c05",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola V",
+      "originalText": "[1] Fratres illi, quibus gratiam dedit Dominus laborandi, laborent fideliter et devote, [2] ita quod, excluso otio animae inimico, sanctae orationis et devotionis spiritum non exstinguant, cui debent cetera temporalia deservire. [3] De mercede vero laboris pro se et suis fratribus corporis necessaria recipiant praeter denarios vel pecuniam [4] et hoc humiliter, sicut decet servos Dei et paupertatis sanctissimae sectatores.",
+      "translation": "Tí bratia, ktorým Pán dal milosť pracovať, nech pracujú verne a nábožne, tak aby po vylúčení záhaľky, nepriateľky duše, neuhášali ducha svätej modlitby a nábožnosti, ktorému má všetko ostatné časné slúžiť. Ako odmenu za prácu nech pre seba a svojich bratov prijímajú, čo telo potrebuje, okrem mincí a peňazí, a to pokorne, ako sa patrí služobníkom Božím a nasledovníkom najsvätejšej chudoby.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.poverta",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola VI",
+      "originalText": "[1] Fratres nihil sibi approprient nec domum nec locum nec aliquam rem. [2] Et tanquam peregrini et advenae (cfr. 1 Petr 2,11) in hoc saeculo in paupertate et humilitate Domino famulantes vadant pro eleemosyna confidenter, [3] nec oportet eos verecundari, quia Dominus pro nobis se fecit pauperem in hoc mundo (cfr. 2 Cor 8,9). [4] Haec est illa celsitudo altissimae paupertatis, quae vos, carissimos fratres meos, heredes et reges regni caelorum instituit, pauperes rebus fecit, virtutibus sublimavit (cfr. Jac 2,5). [5] Haec sit portio vestra, quae perducit in terram viventium (cfr. Ps 141,6). [6] Cui, dilectissimi fratres, totaliter inhaerentes nihil aliud pro nomine Domini nostri Jesu Christi in perpetuum sub caelo habere velitis. [7] Et, ubicumque sunt et se invenerint fratres, ostendant se domesticos invicem inter se. [8] Et secure manifestet unus alteri necessitatem suam, quia, si mater nutrit et diligit filium suum (cfr. 1 Thess 2,7) carnalem, quanto diligentius debet quis diligere et nutrire fratrem suum spiritualem? [9] Et, si quis eorum in infirmitate ceciderit, alii fratres debent ei servire, sicut vellent sibi serviri (cfr. Mt 7,12).",
+      "translation": "Bratia si nech neprivlastňujú nič, ani dom, ani miesto, ani nijakú vec. A ako pútnici a cudzinci na tomto svete, slúžiac Pánovi v chudobe a pokore, nech chodia po almužnu s dôverou a nehanbia sa, lebo Pán sa pre nás stal chudobným na tomto svete. Toto je tá výšina najvyššej chudoby, ktorá vás, mojich najdrahších bratov, ustanovila za dedičov a kráľov nebeského kráľovstva, urobila vás chudobnými na veci a povýšila na čnostiach. Nech je toto váš podiel, ktorý vedie do zeme žijúcich. K nemu, najmilší bratia, celkom primknutí, nechcite mať pre meno nášho Pána Ježiša Krista naveky pod nebom nič iné. A kdekoľvek bratia sú a stretnú sa, nech sa navzájom ukazujú ako domáci. A nech jeden druhému s dôverou prejaví svoju potrebu, lebo ak matka živí a miluje svojho telesného syna, o čo starostlivejšie má niekto milovať a živiť svojho duchovného brata? A ak niekto z nich ochorie, ostatní bratia mu majú slúžiť, ako by chceli, aby sa slúžilo im.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c07",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola VII",
+      "originalText": "[1] Si qui fratrum, instigante inimico, mortaliter peccaverint, pro illis peccatis, de quibus ordinatum fuerit inter fratres, ut recurratur ad solos ministros provinciales, teneantur praedicti fratres ad eos recurrere quam citius poterint, sine mora. [2] Ipsi vero ministri, si presbyteri sunt, cum misericordia iniungant illis poenitentiam; si vero presbyteri non sunt, iniungi faciant per alios sacerdotes ordinis, sicut eis secundum Deum melius videbitur expedire. [3] Et cavere debent, ne irascantur et conturbentur propter peccatum alicuius, quia ira et conturbatio in se et in aliis impediunt caritatem.",
+      "translation": "Ak niektorí bratia, popudzovaní nepriateľom, smrteľne zhrešia, pre tie hriechy, pri ktorých je medzi bratmi ustanovené, že sa treba utiekať len k provinciálnym ministrom, sú títo bratia povinní utiekať sa k nim čo najskôr, bez odkladu. Sami ministri, ak sú kňazi, nech im s milosrdenstvom uložia pokánie; ak nie sú kňazi, nech ho dajú uložiť inými kňazmi rádu, ako sa im podľa Boha bude zdať lepšie. A majú sa chrániť, aby sa nehnevali a nepohoršovali pre niečí hriech, lebo hnev a rozrušenie v nich aj v iných prekážajú láske.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c08",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola VIII",
+      "originalText": "[1] Universi fratres unum de fratribus istius religionis teneantur semper habere generalem ministrum et servum totius fraternitatis et ei teneantur firmiter obedire. [2] Quo decedente, electio successoris fiat a ministris provincialibus et custodibus in capitulo Pentecostes, in quo provinciales ministri teneantur semper insimul convenire, ubicumque a generali ministro fuerit constitutum; [3] et hoc semel in tribus annis vel ad alium terminum maiorem vel minorem, sicut a praedicto ministro fuerit ordinatum. [4] Et si aliquo tempore appareret universitati ministrorum provincialium et custodum, praedictum ministrum non esse sufficientem ad servitium et communem utilitatem fratrum, teneantur praedicti fratres, quibus electio data est, in nomine Domini alium sibi eligere in custodem. [5] Post capitulum vero Pentecostes ministri et custodes possint singuli, si voluerint et eis expedire videbitur, eodem anno in suis custodiis semel fratres suos ad capitulum convocare.",
+      "translation": "Všetci bratia nech majú vždy jedného z bratov tejto rehole za generálneho ministra a služobníka celého bratstva a nech ho pevne poslúchajú. Keď zomrie, voľba nástupcu nech sa koná provinciálnymi ministrami a kustódmi na turíčnej kapitule, na ktorej sa provinciálni ministri musia vždy zísť tam, kde to ustanoví generálny minister; a to raz za tri roky alebo v inom, dlhšom či kratšom termíne, ako to uvedený minister nariadi. A ak by sa niekedy celku provinciálnych ministrov a kustódov zdalo, že uvedený minister nestačí na službu a spoločný úžitok bratov, sú bratia, ktorým je daná voľba, povinní v Pánovom mene zvoliť si iného za predstaveného. Po turíčnej kapitule môžu ministri a kustódi, ak chcú a zdá sa im to užitočné, v tom istom roku raz zvolať svojich bratov na kapitulu vo svojich kustódiách.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c09",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola IX",
+      "originalText": "[1] Fratres non praedicent in episcopatu alicuius episcopi, cum ab eo illis fuerit contradictum. [2] Et nullus fratrum populo penitus audeat praedicare, nisi a ministro generali huius fraternitatis fuerit examinatus et approbatus, et ab eo officium sibi praedicationis concessum. [3] Moneo quoque et exhortor eosdem fratres, ut in praedicatione, quam faciunt, sint examinata et casta eorum eloquia (cfr. Ps 11,7; 17,31), ad utilitatem et aedificationem populi, [4] annuntiando eis vitia et virtutes, poenam et gloriam cum brevitate sermonis; quia verbum abbreviatum fecit Dominus super terram (cfr. Rom 9,28).",
+      "translation": "Bratia nech nekážu v diecéze nijakého biskupa, keď im to on zakázal. A nijaký brat sa vôbec nech neodváži kázať ľudu, iba ak ho preskúmal a schválil generálny minister tohto bratstva a udelil mu úrad kázania. Napomínam a povzbudzujem tých istých bratov, aby pri kázaní, ktoré konajú, boli ich slová uvážené a čisté, na úžitok a vzdelanie ľudu, ohlasujúc im neresti a čnosti, trest a slávu, s krátkosťou reči, lebo Pán urobil na zemi skrátené slovo.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c10",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola X",
+      "originalText": "[1] Fratres, qui sunt ministri et servi aliorum fratrum, visitent et moneant fratres suos et humiliter et caritative corrigant eos, non praecipientes eis aliquid, quod sit contra animam suam et regulam nostram. [2] Fratres vero, qui sunt subditi, recordentur, quod propter Deum abnegaverunt proprias voluntates. [3] Unde firmiter praecipio eis, ut obediant suis ministris in omnibus quae promiserunt Domino observare et non sunt contraria animae et regulae nostrae. [4] Et ubicumque sunt fratres, qui scirent et cognoscerent, se non posse regulam spiritualiter observare, ad suos ministros debeant et possint recurrere. [5] Ministri vero caritative et benigne eos recipiant et tantam familiaritatem habeant circa ipsos, ut dicere possint eis et facere sicut domini servis suis; [6] nam ita debet esse, quod ministri sint servi omnium fratrum. [7] Moneo vero et exhortor in Domino Jesu Christo, ut caveant fratres ab omni superbia, vana gloria, invidia, avaritia (cfr. Lc 12,15), cura et sollicitudine huius saeculi (cfr. Mt 13,22), detractione et murmuratione, et non curent nescientes litteras litteras discere; [8] sed attendant, quod super omnia desiderare debent habere Spiritum Domini et sanctam eius operationem, [9] orare semper ad eum puro corde et habere humilitatem, patientiam in persecutione et infirmitate [10] et diligere eos qui nos persequuntur et reprehendunt et arguunt, quia dicit Dominus Diligite inimicos vestros et orate pro persequentibus et calumniantibus vos (cfr. Mt 5,44). [11] Beati qui persecutionem patiuntur propter iustitiam, quoniam ipsorum est regnum caelorum (Mt 5,10). [12] Qui autem perseveraverit usque in finem hic salvus erit (Mt 10,22).",
+      "translation": "Bratia, ktorí sú ministri a služobníci ostatných bratov, nech navštevujú a napomínajú svojich bratov a pokorne a s láskou ich napráňajú a neprikazujú im nič, čo by bolo proti ich duši a našej regule. Bratia, ktorí sú podriadení, nech pamätajú, že pre Boha sa zriekli vlastnej vôle. Preto im pevne prikazujem, aby poslúchali svojich ministrov vo všetkom, čo sľúbili Pánovi zachovávať a čo nie je proti duši a našej regule. A kdekoľvek sú bratia, ktorí by vedeli a poznali, že nemôžu regulu zachovávať duchovne, majú a môžu sa utiekať k svojim ministrom. Ministri nech ich prijmú s láskou a láskavosťou a nech majú s nimi takú dôvernosť, aby im mohli hovoriť a konať ako páni so svojimi služobníkmi; lebo tak to má byť, že ministri sú služobníkmi všetkých bratov. Napomínam a povzbudzujem v Pánu Ježišovi Kristovi, aby sa bratia chránili každej pýchy, márnej slávy, závisti, lakomstva, starosti a úzkosti tohto veku, ohovárania a reptania, a tí, čo nepoznajú písmená, nech sa nestarajú učiť sa ich; ale nech dbajú na to, že nadovšetko majú túžiť mať Pánovho Ducha a jeho sväté pôsobenie, modliť sa k nemu vždy čistým srdcom a mať pokoru, trpezlivosť v prenasledovaní a v chorobe a milovať tých, čo nás prenasledujú, karhajú a obviňujú, lebo Pán hovorí: Milujte svojich nepriateľov a modlite sa za tých, čo vás prenasledujú a ohovárajú. Blahoslavení, ktorí trpia prenasledovanie pre spravodlivosť, lebo ich je nebeské kráľovstvo. Kto však vytrvá až do konca, ten bude spasený.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c11",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola XI",
+      "originalText": "[1] Praecipio firmiter fratribus universis, ne habeant suspecta consortia vel consilia mulierum, [2] et ne ingrediantur monasteria monacharum praeter illos, quibus a sede apostolica concessa est licentia specialis; [3] nec fiant compatres virorum vel mulierum nec hac occasione inter fratres vel de fratribus scandalum oriatur.",
+      "translation": "Pevne prikazujem všetkým bratom, aby nemali podozrivé spoločenstvo ani rady so ženami a aby nevstupovali do kláštorov mníšok okrem tých, ktorým Apoštolská stolica udelila osobitné dovolenie; ani nech sa nestávajú krstnými otcami mužov alebo žien, aby pri tejto príležitosti nevzniklo pohoršenie medzi bratmi alebo o bratoch.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c12",
+      "documentId": "source.regola_bollata",
+      "reference": "Potvrdená regula, kapitola XII a potvrdenie",
+      "originalText": "[1] Quicumque fratrum divina inspiratione voluerint ire inter saracenos et alios infideles petant inde licentiam a suis ministris provincialibus. [2] Ministri vero nullis eundi licentiam tribuant, nisi eis quos viderint esse idoneos ad mittendum. [3] Ad haec per obedientiam iniungo ministris, ut petant a domino papa unum de sanctae Romanae Ecclesiae cardinalibus, qui sit gubernator, protector et corrector istius fraternitatis, [4] ut semper subditi et subiecti pedibus eiusdem sanctae Ecclesiae stabiles in fide (cfr. Col 1,23) catholica paupertatem et humilitatem et sanctum evangelium Domini nostri Jesu Christi, quod firmiter promisimus, observemus. Explicit regula et vita fratrum minorum. Sequitur confirmatio regulae Nulli ergo omnino hominum liceat hanc paginam nostre confirmationis infringere, vel ei ausu temerario contraire. si quis autem hoc attentare presumpserit, indignationem omnipotentis dei et beatorum Petri et Pauli, apostolorum eius, se noverit incursurum. Datum Laterani tertio kalendas decembris, pontificatus nostri anno octavo. Honorius III hr Pravilo svetoga Franje",
+      "translation": "Ktokoľvek z bratov by z božského vnuknutia chcel ísť medzi Saracénov a iných neveriacich, nech si na to vypýta dovolenie od svojho provinciálneho ministra. Ministri však nech nikomu nedávajú dovolenie ísť, iba tým, ktorých uvidia ako súch na poslanie. Okrem toho z poslušnosti ukladám ministrom, aby od pána pápeža žiadali jedného z kardinálov svätej Rímskej cirkvi, ktorý by bol správcom, ochrancom a naprávačom tohto bratstva, aby sme vždy poddaní a podriadení nohám tej istej svätej Cirkvi, pevní v katolíckej viere, zachovávali chudobu, pokoru a sväté evanjelium nášho Pána Ježiša Krista, ktoré sme pevne sľúbili. Končí sa regula a život menších bratov. Nasleduje potvrdenie reguly: Nech sa teda vôbec nikomu z ľudí nedovolí túto listinu nášho potvrdenia porušiť alebo sa jej opovážlivou odvahou protiviť. Ak by sa niekto odvážil o to pokúsiť, nech vie, že upadne do hnevu všemohúceho Boha a blahoslavených Petra a Pavla, jeho apoštolov. Dané v Lateráne, tretí deň pred decembrovými kalendami, v ôsmom roku nášho pontifikátu. Honórius III.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c00",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, prológ",
+      "originalText": "[1] In nomine Patris et Filii et Spiritus Sancti! [2] Haec est vita evangelii Jesu Christi, quam frater Franciscus petiit a domino papa concedi et confirmari sibi; et ille concessit et confirmavit sibi et suis fratribus habitis et futuris. [3] Frater Franciscus et quicumque erit caput istius religionis promittat obedientiam domino Innocentio papae et reverentiam et suis successoribus. [4] Et omnes alii fratres teneantur obedire fratri Francisco et eius successoribus.",
+      "translation": "V mene Otca i Syna i Ducha Svätého. Toto je život evanjelia Ježiša Krista, o ktorý brat František prosil pána pápeža, aby mu ho udelil a potvrdil; a on mu ho udelil a potvrdil jemu aj jeho bratom, prítomným i budúcim. Brat František a ktokoľvek bude hlavou tejto rehole nech sľúbi poslušnosť a úctu pánu pápežovi Inocentovi a jeho nástupcom. A všetci ostatní bratia sú povinní poslúchať brata Františka a jeho nástupcov.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c01",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola I",
+      "originalText": "[1] Regula et vita istorum fratrum haec est, scilicet vivere in obedientia, in castitate et sine proprio, et Domini nostri Jesu Christi doctrinam et vestigia sequi, qui dicit [2] «Si vis perfectus esse, vade (Mt 19,21) et vende omnia (cfr. Lc 18,22), quae habes, et da pauperibus et habebis thesaurum in caelo; et veni, sequere me» (Mt 19,21). [3] Et «Si quis vult post me venire, abneget semetipsum et tollat crucem suam et sequatur me» (Mt 16, 24). [4] Item «Si quis vult venire ad me et non odit patrem et matrem et uxorem et filios et fratres et sorores, adhuc autem et animam suam, non potest meus esse discipulus» (Lc 14,26). [5] Et «Omnis, qui reliquerit patrem aut matrem, fratres aut sorores, uxorem aut filios, domos aut agros propter me, centuplum accipiet et vitam aeternam possidebit» (cfr. Mt 19,29; Mc 10,29; Lc 18,29).",
+      "translation": "Regula a život týchto bratov je toto: žiť v poslušnosti, v čistote a bez ničoho vlastného a nasledovať učenie a stopy nášho Pána Ježiša Krista, ktorý hovorí: Ak chceš byť dokonalý, choď a predaj všetko, čo máš, a daj chudobným a budeš mať poklad v nebi; a poď, nasleduj ma. A: Ak chce niekto ísť za mnou, nech zaprie sám seba, vezme svoj kríž a nasleduje ma. A ďalej: Ak chce niekto prísť ku mne a nenávidí otca a matku a manželku a deti a bratov a sestry, ba aj vlastnú dušu, nemôže byť mojím učeníkom. A: Každý, kto opustí otca alebo matku, bratov alebo sestry, manželku alebo deti, domy alebo polia pre mňa, dostane stonásobne a bude vlastniť večný život.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c02",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola II",
+      "originalText": "[1] Si quis divina inspiratione volens accipere hanc vitam venerit ad nostros fratres, benigne recipiatur ab eis. [2] Quodsi fuerit firmus accipere vitam nostram, multum caveant sibi fratres, ne de suis temporalibus negotiis se intromittant, sed ad suum ministrum, quam citius possunt, eum repraesentent. [3] Minister vero benigne ipsum recipiat et confortet et vitae nostrae tenorem sibi diligenter exponat. [4] Quo facto, praedictus, si vult et potest spiritualiter sine impedimento, omnia sua vendat et ea omnia pauperibus studeat erogare. [5] Caveant sibi fratres et minister fratrum, quod de negotiis suis nullo modo intromittant se; [6] neque recipiant aliquam pecuniam neque per se neque per interpositam personam. [7] Si tamen indigent, alia necessaria corporis praeter pecuniam recipere possunt fratres causa necessitatis sicut alii pauperes. [8] Et cum reversus fuerit, minister concedat ei pannos probationis usque ad annum, scilicet duas tunicas sine caputio et cingulum et braccas et caparonem usque ad cingulum. [9] Finito vero anno et termino probationis recipiatur ad obedientiam. [10] Postea non licebit ei ad aliam religionem accedere neque «extra obedientiam evagari» iuxta mandatum domini papae et secundum evangelium; quia «nemo mittens manum ad aratrum et aspiciens retro aptus est regno Dei» (Lc 9,62). [11] Si autem aliquis venerit, qui sua dare non potest sine impedimento et habet spiritualem voluntatem, relinquat illa, et sufficit sibi. [12] Nullus recipiatur contra formam et institutionem sanctae Ecclesiae. [13] Alii vero fratres, qui promiserunt obedientiam, habeant unam tunicam cum caputio et aliam sine caputio, si necesse fuerit, et cingulum et braccas. [14] Et omnes fratres vilibus vestibus induantur, et possint eas repeciare de saccis et aliis peciis cum benedictione Dei; quia dicit Dominus in evangelio «Qui in veste pretiosa sunt et in deliciis» (Lc 7,25) et «qui mollibus vestiuntur, in domibus regum sunt» (Mt 11,8). [15] Et licet dicantur hypocritae, non tamen cessent bene facere nec quaerant caras vestes in hoc saeculo, ut possint habere vestimentum in regno caelorum.",
+      "translation": "Ak niekto, želajúc si z božského vnuknutia prijať tento život, príde k našim bratom, nech ho prijmú láskavo. Ak je pevný v prijatí nášho života, nech sa bratia starostlivo chránia miešať sa do jeho časných záležitostí a nech ho čo najskôr predstavia svojmu ministrovi. Minister nech ho prijme láskavo, povzbudí ho a starostlivo mu vyloží zmysel nášho života. Keď sa to stane, ak chce a duchovne môže bez prekážky, nech predá všetko, čo má, a postará sa to dať chudobným. Bratia a minister nech sa chránia akokoľvek sa miešať do jeho vecí a nech neprijímajú peniaze, ani sami, ani prostredníctvom iného. Ak sú v núdzi, bratia môžu z potreby prijať iné veci, ktoré telo potrebuje, okrem peňazí, ako iní chudobní. Keď sa vráti, nech mu minister dá odev skúšky až na jeden rok: dve tuniky bez kapucne, povraz, nohavice a pláštik po povraz. Keď sa skončí rok a čas skúšky, nech je prijatý do poslušnosti. Potom mu nebude dovolené prejsť do inej rehole ani sa túlať mimo poslušnosti, podľa príkazu pápeža a evanjelia: nikto, kto položí ruku na pluh a obzerá sa späť, nie je súci pre Božie kráľovstvo. Ak príde niekto, kto nemôže bez prekážky dať, čo je jeho, a má duchovnú vôľu, nech tie veci zanechá, a to mu stačí. Nech nikto nie je prijatý proti forme a ustanoveniu svätej Cirkvi. Ostatní bratia, ktorí sľúbili poslušnosť, nech majú jednu tuniku s kapucňou a druhú bez nej, ak treba, a povraz a nohavice. Všetci bratia nech sa odievajú chudobne a môžu si šaty zaplátať vrecovinou a inými kusmi s Božím požehnaním, lebo Pán v evanjeliu hovorí, že tí, čo sú v drahocennom rúchu a v prepychu, a tí, čo sa odievajú mäkkým, sú v domoch kráľov. A aj keby ich ľudia volali pokrytcami, nech neprestávajú konať dobro a nech v tomto veku nehľadajú drahé šaty, aby mali odev v nebeskom kráľovstve.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c03",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola III",
+      "originalText": "[1] Dicit Dominus Hoc genus daemoniorum non potest exire nisi in ieiunio et oratione (cfr. Mc 9,28); [2] et iterum «Cum ieiunatis nolite fieri sicut hypocritae tristes» (Mt 6,16). [3] Propter hoc omnes fratres sive clerici sive laici faciant divinum officium, laudes et orationes, secundum quod debent facere. [4] Clerici faciant officium et dicant pro vivis et pro mortuis secundum consuetudinem clericorum. [5] Et pro defectu et negligentia fratrum dicant omni die Miserere mei Deus (Ps 50) cum Pater noster; [6] et pro fratribus defunctis dicant De profundis (Ps 129) cum Pater noster. [7] Et libros tantum necessarios ad implendum eorum officium possint habere. [8] Et laicis etiam scientibus legere psalterium liceat eis habere illud. [9] Aliis vero nescientibus litteras librum habere non liceat. [10] Laici dicant Credo in Deum et viginti quattuor Pater noster cum Gloria Patri pro matutino; pro laudibus vero quinque; pro prima Credo in Deum et septem Pater noster cum Gloria Patri; pro tertia, sexta et nona et unaquaque hora septem; pro vesperis duodecim; pro completorio Credo in Deum et septem Pater noster cum Gloria Patri; pro mortuis septem Pater noster cum Requiem aeternam; et pro defectu et negligentia fratrum tria Pater noster omni die. [11] Et similiter omnes fratres ieiunent a festo Omnium Sanctorum usque ad Natale et ab Epiphania, quando Dominus noster Jesus Christus incepit ieiunare usque ad Pascha. [12] Aliis autem temporibus non teneantur secundum hanc vitam nisi sexta feria ieiunare. [13] Et liceat eis manducare de omnibus cibis, qui apponuntur eis, secundum evangelium (cfr. Lc 10,8).",
+      "translation": "Pán hovorí: Tento druh démona nemôže vyjsť inak než pôstom a modlitbou; a znova: Keď sa postíte, nebuďte smutní ako pokrytci. Preto nech všetci bratia, klerici aj laici, konajú božské ofícium, chvály a modlitby, ako sa patrí. Klerici nech konajú ofícium a modlia sa za živých i mŕtvych podľa zvyku klerikov. Za viny a nedbanlivosti bratov nech každý deň hovoria Miserere s Otčenášom; a za zosnulých bratov De profundis s Otčenášom. Môžu mať len knihy potrebné na konanie ofícia. Laickí bratia, ktorí vedia čítať žaltár, ho môžu mať. Ostatní, ktorí nepoznajú písmená, nesmú mať knihu. Laickí bratia nech hovoria Verím a dvadsaťštyri Otčenášov so Slávou za matutínum; päť za chvály; za primu Verím a sedem Otčenášov so Slávou; za terciu, sextu a nónu, a za každú z týchto hodiniek, sedem; dvanásť za vešpery; za kompletórium Verím a sedem Otčenášov so Slávou; za zosnulých sedem Otčenášov s Requiem; a za vinu a nedbanlivosť bratov tri Otčenáše každý deň. Rovnako nech sa všetci bratia postia od Všetkých svätých do Narodenia Pána a od Zjavenia Pána, keď sa náš Pán Ježiš Kristus začal postiť, až do Veľkej noci. V iných časoch sú podľa tohto života povinní postiť sa len v piatok. A môžu jesť z pokrmov, ktoré sa im predložia, podľa evanjelia.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c04",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola IV",
+      "originalText": "[1] In nomine Domini! [2] Omnes fratres, qui constituuntur ministri et servi aliorum fratrum, in provinciis et in locis, in quibus fuerint, collocent suos fratres, quos saepe visitent et spiritualiter moneant et confortent. [3] Et omnes alii fratres mei benedicti diligenter obediant eis in his, quae spectant ad salutem animae et non sunt contraria vitae nostrae. [4] Et faciant inter se sicut dicit Dominus «Quaecumque vultis, ut faciant vobis homines et vos facite illis» (Mt 7,12); [5] et «Quod non vis tibi fieri, non facias alteri». [6] Et recordentur ministri et servi, quod dicit Dominus Non veni ministrari, sed ministrare (Mt 20,28) et quia commissa est eis cura animarum fratrum, de quibus, si aliquid perderetur propter eorum culpam et malum exemplum, in die iudicii oportebit eos reddere rationem (cfr. Mt 12,36) coram Domino Jesu Christo.",
+      "translation": "V mene Pána. Všetci bratia, ktorí sú ustanovení za ministrov a služobníkov ostatných bratov, v provinciách a na miestach, kde sú, nech svojich bratov rozmiestňujú, často ich navštevujú a duchovne ich napomínajú a povzbudzujú. A všetci moji ostatní požehnaní bratia nech ich starostlivo poslúchajú v tom, čo sa týka spásy duše a nie je proti nášmu životu. Nech medzi sebou robia, ako hovorí Pán: Čokoľvek chcete, aby ľudia robili vám, robte aj vy im; a čo nechcete, aby sa robilo vám, nerobte inému. A ministri a služobníci nech pamätajú, že Pán hovorí: Neprišiel som, aby mi slúžili, ale aby som slúžil; a že im bola zverená starosť o duše bratov, za ktoré, keby sa niečo stratilo ich vinou a zlým príkladom, budú musieť v deň súdu vydať počet pred Pánom Ježišom Kristom.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c05",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola V",
+      "originalText": "[1] Ideoque animas vestras et fratrum vestrorum custodite; quia horrendum est incidere in manus Dei viventis (Hebr 10,31). [2] Si quis autem ministrorum alicui fratrum aliquid contra vitam nostram praeciperet vel contra animam suam, non teneatur ei obedire; quia illa obedientia non est, in qua delictum vel peccatum committitur. [3] Verumtamen omnes fratres, qui sunt sub ministris et servis, facta ministrorum et servorum considerent rationabiliter et diligenter. [4] Et si viderint aliquem illorum carnaliter et non spiritualiter ambulare pro rectitudine vitae nostrae, post tertiam admonitionem, si non se emendaverit, in capitulo Pentecostes renuntient ministro et servo totius fraternitatis nulla contradictione impediente. [5] Si vero inter fratres ubicumque fuerit aliquis frater volens carnaliter et non spiritualiter ambulare, fratres, cum quibus est, moneant eum, instruant et corripiant humiliter et diligenter. [6] Quodsi ille post tertiam admonitionem noluerit se emendare, quam citius possunt, mittant eum vel significent suo ministro et servo, qui minister et servus de eo faciat, sicut sibi secundum Deum melius videbitur expedire. [7] Et caveant omnes fratres tam ministri et servi quam alii, quod propter peccatum alterius vel malum non turbentur vel irascantur, quia diabolus propter delictum unius multos vult corrumpere; [8] sed spiritualiter, sicut melius possunt, adiuvent illum qui peccavit, quia non est sanis opus medicus, sed male habentibus (cfr. Mt 9,12 cum Mc 2,17). [9] Similiter omnes fratres non habeant in hoc potestatem vel dominationem maxime inter se. [10] Sicut enim dicit Dominus in evangelio «Principes gentium dominantur eorum, et qui maiores sunt potestatem exercent in eos» (Mt 20,25), non sic erit inter fratres (cfr. Mt 20,26a). [11] Et quicumque voluerit inter eos maior fieri, sit eorum minister (cfr. Mt 20,26b) et servus. [12] Et qui maior est inter eos fiat sicut minor (cfr. Lc 22,26). [13] Nec aliquis frater malum faciat vel malum dicat alteri; [14] immo magis per caritatem spiritus voluntarie serviant et obediant invicem (cfr. Gal 5,13). [15] Et haec est vera et sancta obedientia Domini nostri Jesu Christi. [16] Et omnes fratres, quoties declinaverint a mandatis Domini et extra obedientiam evagaverint, sicut dicit propheta (Ps 118,21), sciant se esse maledictos extra obedientiam, quousque steterint in tali peccato scienter. [17] Et quando perseveraverint in mandatis Domini, quae promiserunt per sanctum evangelium et vitam ipsorum, sciant se in vera obedientia stare, et benedicti sint a Domino.",
+      "translation": "Preto strážte svoje duše aj duše svojich bratov, lebo hrozné je padnúť do rúk živého Boha. Ak by však niektorý z ministrov prikázal niektorému bratovi niečo proti nášmu životu alebo proti jeho duši, nie je povinný ho poslúchnuť; lebo to nie je poslušnosť, v ktorej sa pácha previnenie alebo hriech. Predsa však všetci bratia, ktorí sú pod ministrami a služobníkmi, nech skutky ministrov a služobníkov uvážlivo a starostlivo skúmajú. A ak uvidia, že niektorý z nich chodí podľa tela, a nie podľa ducha, vzhľadom na priamosť nášho života, po treťom napomenutí, ak sa nepolepší, nech ho na turíčnej kapitule oznámia ministrovi a služobníkovi celého bratstva, a nech tomu nič neprekáža. Ak je však kdekoľvek medzi bratmi brat, ktorý chce chodiť podľa tela, a nie podľa ducha, bratia, s ktorými je, nech ho pokorne a starostlivo napomenú, poučia a napravia. Ak sa po treťom napomenutí nebude chcieť polepšiť, nech ho čo najskôr pošlú alebo oznámia jeho ministrovi a služobníkovi, a minister a služobník nech s ním urobí, ako sa mu podľa Boha bude zdať lepšie. A nech sa všetci bratia, ministri a služobníci aj ostatní, chránia rozrušiť sa alebo hnevať pre hriech alebo zlo druhého, lebo diabol chce pre previnenie jedného pokaziť mnohých; ale duchovne, ako najlepšie vedia, nech pomáhajú tomu, kto zhrešil, lebo lekára nepotrebujú zdraví, ale chorí. Rovnako nech všetci bratia nemajú v tomto moc ani panovanie, najmä medzi sebou. Lebo ako hovorí Pán v evanjeliu: Vládci národov nad nimi panujú a veľkí nad nimi vykonávajú moc, medzi bratmi to tak nebude. A ktokoľvek by sa medzi nimi chcel stať väčším, nech je ich ministrom a služobníkom. A kto je medzi nimi väčší, nech sa stane ako menší. A nijaký brat nech nerobí zlo ani nehovorí zlo druhému; skôr nech si z lásky Ducha ochotne navzájom slúžia a poslúchajú sa. A toto je pravá a svätá poslušnosť nášho Pána Ježiša Krista. A všetci bratia, kedykoľvek zídu z Pánových príkazov a vybočia mimo poslušnosti, ako hovorí prorok, nech vedia, že sú prekliati mimo poslušnosti, kým vedome zotrvávajú v takom hriechu. A keď vytrvajú v Pánových príkazoch, ktoré sľúbili skrze sväté evanjelium a svoj život, nech vedia, že stoja v pravej poslušnosti, a nech sú požehnaní od Pána.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.fratelli",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola VI",
+      "originalText": "[1] Fratres, in quibuscumque locis sunt, si non possunt vitam nostram observare, quam citius possunt, recurrant ad suum ministrum hoc sibi significantes. [2] Minister vero taliter eis studeat providere, sicut ipse vellet sibi fieri, si in consimili casu esset (cfr. Mt 7,12). [3] Et nullus vocetur prior, sed generaliter omnes vocentur fratres minores. [4] Et alter alterius lavet pedes (cfr. Joa 13,14).",
+      "translation": "Bratia, na ktorýchkoľvek miestach sú, ak nemôžu zachovávať náš život, nech sa čo najskôr utiekajú k svojmu ministrovi a oznámia mu to. Minister nech sa postará zaopatriť ich tak, ako by chcel, aby sa stalo jemu, keby bol v podobnom prípade. A nikto nech sa nevolá prior, ale všeobecne nech sa všetci volajú menší bratia. A jeden druhému nech umýva nohy.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c07",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola VII",
+      "originalText": "[1] Omnes fratres, in quibuscumque locis steterint apud alios ad serviendum vel laborandum, non sint camerarii neque cancellarii neque praesint in domibus, in quibus serviunt; nec recipiant aliquod officium, quod scandalum generet vel animae suae faciat detrimentum (cfr. Mc 8,36); [2] sed sint minores et subditi omnibus, qui in eadem domo sunt. [3] Et fratres, qui sciunt laborare, laborent et eandem artem exerceant, quam noverint, si non fuerit contra salutem animae et honeste poterit operari. [4] Nam propheta ait «Labores fructuum tuorum manducabis; beatus es et bene tibi erit» (Ps 127,2;-R); [5] et apostolus Qui non vult operari non manducet (cfr. 2 Thess 3,10); [6] et Unusquisque in ea arte et officio, in quo vocatus est, permaneat (cfr. 1 Cor 7,24). [7] Et pro labore possint recipere omnia necessaria praeter pecuniam. [8] Et cum necesse fuerit, vadant pro eleemosynis sicut alii pauperes. [9] Et liceat eis habere ferramenta et instrumenta suis artibus opportuna. [10] Omnes fratres studeant bonis operibus insudare, quia scriptum est Semper facito aliquid boni, ut te diabolus inveniat occupatum. [11] Et iterum Otiositas inimica est animae. [12] Ideo servi Dei semper orationi vel alicui bonae operationi insistere debent. [13] Caveant sibi fratres, ubicumque fuerint in eremis vel in aliis locis, quod nullum locum sibi approprient nec alicui defendant. [14] Et quicumque ad eos venerit amicus vel adversarius, fur vel latro benigne recipiatur. [15] Et ubicumque sunt fratres et in quocumque loco se invenerint, spiritualiter et diligenter debeant se revidere et honorare ad invicem sine murmuratione (1 Petr 4,9). [16] Et caveant sibi, quod non se ostendant tristes extrinsecus et nubilosos hypocritas; sed ostendant se gaudentes in Domino (cfr. Phil 4,4) et hilares et convenienter gratiosos.",
+      "translation": "Všetci bratia, na ktorýchkoľvek miestach sa zdržiavajú u iných, aby slúžili alebo pracovali, nech nie sú komorníkmi ani kancelármi ani nech nepredstavenstvujú v domoch, v ktorých slúžia; ani nech neprijímajú nijaký úrad, ktorý by plodil pohoršenie alebo škodil ich duši; ale nech sú menší a podriadení všetkým, ktorí sú v tom istom dome. A bratia, ktorí vedia pracovať, nech pracujú a vykonávajú to isté remeslo, ktoré poznajú, ak nie je proti spáse duše a dá sa konať počestne. Lebo prorok hovorí: Budeš jesť z plodov svojej práce; blahoslavený si a bude ti dobre; a apoštol: Kto nechce pracovať, nech neje; a: Každý nech zostane v tom remesle a úrade, do ktorého bol povolaný. A za prácu môžu prijať všetko potrebné okrem peňazí. A keď bude treba, nech idú po almužnu ako ostatní chudobní. A je im dovolené mať nástroje a náradie vhodné pre ich remeslá. Všetci bratia nech sa usilujú namáhať pri dobrých skutkoch, lebo je napísané: Vždy rob niečo dobré, aby ťa diabol našiel zamestnaného. A znova: Záhaľka je nepriateľkou duše. Preto sa služobníci Boží majú vždy venovať modlitbe alebo nejakému dobrému skutku. Nech sa bratia chránia, kdekoľvek sú, v pustovniach alebo na iných miestach, aby si nijaké miesto neprivlastnili ani ho pred nikým nebránili. A ktokoľvek k nim príde, priateľ alebo protivník, zlodej alebo lupič, nech je prijatý láskavo. A kdekoľvek bratia sú a na ktoromkoľvek mieste sa nájdu, majú sa duchovne a starostlivo navzájom všímať a ctiť bez reptania. A nech sa chránia ukazovať sa navonok smutní a zamračení pokrytci; ale nech sa ukazujú radostní v Pánovi, veselí a primerane prívetiví.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c08",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola VIII",
+      "originalText": "[1] Dominus praecipit in evangelio Videte, cavete ab omni malitia et avaritia (cfr. Lc 12,15); [2] et Attendite vobis a sollicitudine huius saeculi et a curis huius vitae (cfr. Lc 21,34). [3] Unde nullus fratrum, ubicumque sit et quocumque vadit, aliquo modo tollat nec recipiat nec recipi faciat pecuniam aut denarios neque occasione vestimentorum nec librorum nec pro pretio alicuius laboris, immo nulla occasione, nisi propter manifestam necessitatem infirmorum fratrum; quia non debemus maiorem utilitatem habere et reputare in pecunia et denariis quam in lapidibus. [4] Et illos vult diabolus excaecare, qui eam appetunt vel reputant lapidibus meliorem. [5] Caveamus ergo nos, qui omnia relinquimus (cfr. Mt 19,27), ne pro tam modico regnum caelorum perdamus. [6] Et si in aliquo loco inveniremus denarios, de his non curemus tamquam de pulvere, quem pedibus calcamus, quia vanitas vanitatum et omnia vanitas (Eccle 1,2). [7] Et si forte, quod absit, aliquem fratrem contigerit pecuniam vel denarios colligere vel habere, excepta solummodo praedicta infirmorum necessitate, omnes fratres teneamus eum pro falso fratre et apostata et fure et latrone et loculos habente (cfr. Joa 12,6), nisi vere poenituerit. [8] Et nullo modo fratres recipiant nec recipi faciant nec quaerant nec quaeri faciant pecuniam pro eleemosyna neque denarios pro aliquibus domibus vel locis; neque cum persona pro talibus locis pecunias vel denarios quaerente vadant. [9] Alia autem servitia, quae non sunt contraria vitae nostrae, possunt fratres locis facere cum benedictione Dei. [10] Fratres tamen in manifesta necessitate leprosorum possunt pro eis quaerere eleemosynam. [11] Caveant tamen multum a pecunia. [12] Similiter caveant omnes fratres, ut pro nullo turpi lucro terras circueant.",
+      "translation": "Pán prikazuje v evanjeliu: Hľaďte, chráňte sa každej zloby a lakomstva; a: Dávajte si pozor pred starosťou tohto veku a pred úzkosťami tohto života. Preto nijaký brat, kdekoľvek je a kamkoľvek ide, nech nijakým spôsobom neberie, neprijíma ani nedáva prijímať peniaze alebo mince, ani pri príležitosti šiat, ani kníh, ani ako cenu nejakej práce, ba pri nijakej príležitosti, okrem zjavnej potreby chorých bratov; lebo nemáme mať ani pokladať väčší úžitok v peniazoch a minciach než v kameňoch. A diabol chce oslepiť tých, čo po nich túžia alebo ich pokladajú za lepšie než kamene. Chráňme sa teda my, ktorí sme všetko opustili, aby sme pre takú maličkosť nestratili nebeské kráľovstvo. A ak by sme na niektorom mieste našli mince, nestarajme sa o ne ako o prach, ktorý šliapeme nohami, lebo márnosť márností a všetko je márnosť. A ak by sa, čo nech Boh nedá, niektorému bratovi prihodilo zbierať alebo mať peniaze či mince, okrem jedine uvedenej potreby chorých, všetci my bratia ho pokladajme za falošného brata, odpadlíka, zlodeja a lupiča a toho, čo má mešec, ak naozaj neurobí pokánie. A bratia nijakým spôsobom nech neprijímajú, nedávajú prijímať, nehľadajú ani nedávajú hľadať peniaze ako almužnu ani mince pre nijaké domy alebo miesta; ani nech nechodia s osobou, ktorá pre také miesta hľadá peniaze alebo mince. Iné služby, ktoré nie sú proti nášmu životu, môžu bratia miestam konať s Božím požehnaním. Bratia však v zjavnej núdzi malomocných môžu pre nich prosiť o almužnu. Nech sa však veľmi chránia peňazí. Rovnako nech sa všetci bratia chránia chodiť po krajinách pre nijaký hanebný zisk.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c09",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola IX",
+      "originalText": "[1] Omnes fratres studeant sequi humilitatem et paupertatem Domini nostri Jesu Christi et recordentur, quod nihil aliud oportet nos habere de toto mundo, nisi, sicut dicit apostolus, habentes alimenta et quibus tegamur, his contenti sumus (cfr. 1 Tim 6,8). [2] Et debent gaudere, quando conversantur inter viles et despectas personas, inter pauperes et debiles et infirmos et leprosos et iuxta viam mendicantes. [3] Et cum necesse fuerit, vadant pro eleemosynis. [4] Et non verecundentur et magis recordentur, quia Dominus noster Jesus Christus, Filius Dei vivi (Joa 11,27) omnipotentis, posuit faciem suam ut petram durissimam (Is 50,7), nec verecundatus fuit. [5] Et fuit pauper et hospes et vixit de eleemosynis ipse et beata Virgo et discipuli eius. [6] Et quando facerent eis homines verecundiam et nollent eis dare eleemosynam, referant inde gratias Deo; quia de verecundiis recipient magnum honorem ante tribunal Domini nostri Jesu Christi. [7] Et sciant, quod verecundia non patientibus, sed inferentibus imputatur. [8] Et eleemosyna est hereditas et iustitia, quae debetur pauperibus, quam nobis acquisivit Dominus noster Jesus Christus. [9] Et fratres, qui eam acquirendo laborant, magnam mercedem habebunt et faciunt lucrari et acquirere tribuentes; quia omnia, quae relinquent homines in mundo peribunt, sed de caritate et de eleemosynis, quas fecerunt, habebunt praemium a Domino. [10] Et secure manifestet unus alteri necessitatem suam, ut sibi necessaria inveniat et ministret. [11] Et quilibet diligat et nutriat fratrem suum, sicut mater diligit et nutrit filium suum (cfr. 1 Thess 2,7), in quibus ei Deus gratiam largietur. [12] Et qui non manducat, manducantem non iudicet (Rom 14,3b). [13] Et quandocumque necessitas supervenerit, liceat universis fratribus, ubicumque fuerint, uti omnibus cibis, quos possunt homines manducare, sicut Dominus dicit de David, qui comedit panes propositionis (cfr. Mt 12,4), quos non licebat manducare nisi sacerdotibus (Mc 2,26). [14] Et recordentur, quod dicit Dominus Attendite autem vobis, ne forte graventur corda vestra in crapula et ebrietate et curis huius vitae et superveniat in vobis repentina dies illa; [15] tanquam enim laqueus superveniet in omnes, qui sedent super faciem orbis terrae (cfr. Lc 21,34-35). [16] Similiter etiam tempore manifestae necessitatis faciant omnes fratres de eorum necessariis, sicut eis Dominus gratiam largietur, quia necessitas non habet legem.",
+      "translation": "Všetci bratia nech sa usilujú nasledovať pokoru a chudobu nášho Pána Ježiša Krista a nech pamätajú, že z celého sveta nemáme potrebovať nič iné, iba, ako hovorí apoštol, keď máme pokrm a čím sa prikryjeme, sme s tým spokojní. A majú sa radovať, keď sa stýkajú s ľuďmi lacnými a opovrhnutými, s chudobnými a slabými a chorými a malomocnými a so žobrákmi pri ceste. A keď bude treba, nech idú po almužnu. A nech sa nehanbia a radšej nech pamätajú, že náš Pán Ježiš Kristus, Syn živého všemohúceho Boha, nastavil svoju tvár ako najtvrdší kameň a nehanbil sa. A bol chudobný a hosť a žil z almužny on aj blahoslavená Panna aj jeho učeníci. A keď im ľudia spôsobia hanbu a nebudú im chcieť dať almužnu, nech za to vzdávajú vďaky Bohu, lebo za tie hanby dostanú veľkú česť pred súdnou stolicou nášho Pána Ježiša Krista. A nech vedia, že hanba sa nepripisuje tým, čo ju znášajú, ale tým, čo ju pôsobia. A almužna je dedičstvo a spravodlivosť, ktorá patrí chudobným a ktorú nám získal náš Pán Ježiš Kristus. A bratia, ktorí sa namáhajú, aby ju získali, budú mať veľkú odmenu a dávajú získať a nadobudnúť tým, čo dávajú; lebo všetko, čo ľudia zanechajú na svete, zahynie, ale za lásku a almužny, ktoré urobili, budú mať odmenu od Pána. A nech jeden druhému s dôverou prejaví svoju potrebu, aby našiel, čo treba, a poslúžil tým. A každý nech miluje a živí svojho brata, ako matka miluje a živí svojho syna, v tom, v čom mu Boh udelí milosť. A kto neje, nech nesúdi toho, kto je. A kedykoľvek nastane potreba, nech je všetkým bratom, kdekoľvek sú, dovolené užívať všetky pokrmy, ktoré môžu ľudia jesť, ako Pán hovorí o Dávidovi, ktorý jedol chleby predloženia, ktoré nesmelo jesť nik okrem kňazov. A nech pamätajú, čo hovorí Pán: Dávajte si však pozor, aby vaše srdcia neobťaželi v obžerstve a opilstve a v starostiach tohto života a aby na vás neprišiel náhle ten deň; lebo ako osídlo príde na všetkých, ktorí sedia na tvári zeme. Rovnako aj v čase zjavnej potreby nech všetci bratia urobia so svojimi potrebami tak, ako im Pán udelí milosť, lebo potreba nemá zákon.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c10",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola X",
+      "originalText": "[1] Si quis fratrum in infirmitate ceciderit, ubicumque fuerit, alii fratres non dimittant eum, nisi constituatur unus de fratribus vel plures, si necesse fuerit, qui serviant ei, sicut vellent sibi serviri (cfr. Mt 7,12); [2] sed in maxima necessitate possunt ipsum dimittere alicui personae, quae suae debeat satisfacere infirmitati. [3] Et rogo fratrem infirmum, ut referat de omnibus gratias Creatori; et quod qualem vult eum Dominus, talem se esse desideret sive sanum sive infirmum, quia omnes, quos Deus ad vitam praeordinavit aeternam (cfr. Act 13,48), flagellorum atque infirmitatum stimulis et compunctionis spiritu erudit, sicut Dominus dicit «Ego quos amo corrigo et castigo» (Apoc 3,19). [4] Et si quis turbabitur vel irascetur sive contra Deum sive contra fratres, vel si forte sollicite postulaverit medicinas nimis desiderans liberare carnem cito morituram, quae est animae inimica, a malo sibi evenit et carnalis est, et non videtur esse de fratribus, quia plus diligit corpus quam animam.",
+      "translation": "Ak niektorý brat ochorie, kdekoľvek je, ostatní bratia ho nech neopúšťajú, iba ak sa ustanoví jeden z bratov alebo viacerí, ak treba, ktorí mu budú slúžiť, ako by chceli, aby sa slúžilo im; ale v najväčšej núdzi ho môžu zveriť niektorej osobe, ktorá má vyhovieť jeho chorobe. A prosím chorého brata, aby za všetko vzdával vďaky Stvoriteľovi; a aby túžil byť taký, akého ho chce Pán, či zdravého, či chorého, lebo všetkých, ktorých Boh predurčil pre večný život, vychováva bodcami rán a chorôb a duchom skrúšenosti, ako Pán hovorí: Koho milujem, toho napráňam a trestám. A ak sa niekto rozruší alebo rozhnevá proti Bohu alebo proti bratom, alebo ak azda úzkostlivo žiada lieky, príliš túžiac rýchlo oslobodiť telo, ktoré má čoskoro zomrieť a ktoré je nepriateľom duše, prichádza mu to zo zla a je telesný a nezdá sa, že je z bratov, lebo miluje telo viac než dušu.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c11",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XI",
+      "originalText": "[1] Et omnes fratres caveant sibi, ut non calumnientur neque contendant verbis (cfr. 2 Tim 2,14); [2] immo studeant retinere silentium, quandocumque eis Deus gratiam largietur. [3] Neque litigent inter se neque cum aliis, sed procurent humiliter respondere dicentes Inutilis servus sum (cfr. Lc 17,10). [4] Et non irascantur, quia omnis, qui irascitur fratri suo, reus erit iudicio; qui dixerit fratri suo raca, reus erit concilio; qui dixerit fatue, reus erit gehennae ignis (Mt 5,22). [5] Et diligant se ad invicem, sicut dicit Dominus «Hoc est praeceptum meum ut diligatis invicem, sicut dilexi vos» (Joa 15,12). [6] Et ostendant ex operibus (cfr. Jac 2,18) dilectionem, quam habent ad invicem, sicut dicit apostolus «Non diligamus verbo neque lingua, sed opere et veritate» (1 Joa 3,18). [7] Et neminem blasphement (cfr. Tit 3,2). [8] Non murmurent, non detrahant aliis, quia scriptum est Susurrones et detractores Deo sunt odibiles (cfr. Rom 1,29). [9] Et sint modesti omnem ostendentes mansuetudinem ad omnes homines (cfr. Tit 3,2). [10] Non iudicent, non condemnent. [11] Et sicut dicit Dominus, non considerent minima peccata aliorum (cfr. Mt 7,3; Lc 6,41); [12] immo magis sua recogitent in amaritudine animae suae (Is 38,15). [13] Et contendant intrare per angustam portam (Lc 13,24), quia dicit Dominus «Angusta porta et arcta via est, quae ducit ad vitam; et pauci sunt, qui inveniunt eam» (Mt 7,14).",
+      "translation": "A všetci bratia nech sa chránia ohovárať a preť sa slovami; skôr nech sa usilujú zachovať mlčanie, kedykoľvek im Boh udelí milosť. Ani nech sa nehádajú medzi sebou ani s inými, ale nech sa starajú odpovedať pokorne a hovoriť: Som neužitočný služobník. A nech sa nehnevia, lebo každý, kto sa hnevá na svojho brata, bude vinný pred súdom; kto povie svojmu bratovi raka, bude vinný pred radou; kto povie blázon, bude vinný ohňom gehenny. A nech sa navzájom milujú, ako hovorí Pán: Toto je moje prikázanie, aby ste sa milovali navzájom, ako som ja miloval vás. A nech zo skutkov ukazujú lásku, ktorú majú navzájom, ako hovorí apoštol: Nemilujme slovom ani jazykom, ale skutkom a pravdou. A nech nikoho neznevažujú. Nech nerepcú, nech neohovárajú iných, lebo je napísané: Šepkári a ohovárači sú Bohu odporní. A nech sú skromní a nech všetkým ľuďom preukazujú všetku miernosť. Nech nesúdia, nech nezavrhujú. A ako hovorí Pán, nech nehľadia na najmenšie hriechy iných; skôr nech uvažujú o svojich v horkosti svojej duše. A nech sa usilujú vojsť tesnou bránou, lebo Pán hovorí: Tesná je brána a úzka cesta, ktorá vedie do života, a málo je tých, čo ju nachádzajú.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c12",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XII",
+      "originalText": "[1] Omnes fratres, ubicumque sunt vel vadunt, caveant sibi a malo visu et frequentia mulierum. [2] Et nullus cum eis consilietur aut per viam vadat solus aut ad mensam in una paropside comedat. [3] Sacerdotes honeste loquantur cum eis dando poenitentiam vel aliud spirituale consilium. [4] Et nulla penitus mulier ab aliquo fratre recipiatur ad obedientiam, sed dato sibi consilio spirituali, ubi voluerit, agat poenitentiam. [5] Et multum omnes nos custodiamus et omnia membra nostra munda teneamus, quia dicit Dominus «Qui viderit mulierem ad concupiscendam eam, iam moechatus est eam in corde suo» (Mt 5,28); [6] et apostolus An ignoratis, quia membra vestra templum sunt Spiritus Sancti? (cfr. 1 Cor 6,19); itaque qui templum Dei violaverit, disperdet illum Deus (1 Cor 3,17).",
+      "translation": "Všetci bratia, kdekoľvek sú alebo idú, nech sa chránia zlého pohľadu a častého styku so ženami. A nikto nech sa s nimi neradí ani nechodí po ceste sám ani neje pri stole z jednej misy. Kňazi nech s nimi hovoria počestne, keď dávajú pokánie alebo inú duchovnú radu. A nijaká žena nech vôbec nie je nijakým bratom prijatá do poslušnosti, ale keď jej dá duchovnú radu, nech koná pokánie, kde chce. A všetci sa veľmi strážme a všetky svoje údy majme čisté, lebo Pán hovorí: Kto sa pozrie na ženu tak, že po nej zatúži, už s ňou scudzoložil vo svojom srdci; a apoštol: Či neviete, že vaše údy sú chrámom Ducha Svätého? Preto kto poruší Boží chrám, toho Boh zničí.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c13",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XIII",
+      "originalText": "[1] Si quis fratrum diabolo instigante fornicaretur, habitu exuatur quem pro sua turpi iniquitate amisit, et ex toto deponat et a nostra religione penitus repellatur. [2] Et postea poenitentiam faciat de peccatis (cfr. 1 Cor 5,4-5).",
+      "translation": "Ak by niektorý brat, popudzovaný diablom, smilnil, nech je vyzlečený z habitu, ktorý pre svoju hanebnú neprávosť stratil, nech ho celkom odloží a nech je z našej rehole úplne vyhnaný. A potom nech koná pokánie za hriechy.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c14",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XIV",
+      "originalText": "[1] Quando fratres vadunt per mundum, nihil portent per viam neque (cfr. Lc 9,3) sacculum (cfr. Lc 10,4) neque peram neque panem neque pecuniam (cfr. Lc 9,3) neque virgam (cfr. Mt 10,10). [2] Et in quamcumque domum intraverint, dicant primum Pax huic domui (cfr. Lc 10,5). [3] Et in eadem domo manentes edant et bibant quae apud illos sunt (cfr. Lc 10,7). [4] Non resistant malo (cfr. Mt 5,39), sed qui eos percusserit in una maxilla, praebeant et alteram (cfr. Mt 5,39 et Lc 6,29). [5] Et qui aufert eis vestimentum, et tunicam non prohibeant (cfr. Lc 6,29). [6] Omni petenti se tribuant; et qui aufert quae sua sunt, ea non repetant (cfr. Lc 6,30).",
+      "translation": "Keď bratia idú svetom, nech na cestu nenesú nič, ani mešec, ani kapsu, ani chlieb, ani peniaze, ani palicu. A do ktoréhokoľvek domu vojdú, nech najprv povedia: Pokoj tomuto domu. A zostávajúc v tom istom dome nech jedia a pijú, čo je u nich. Nech neodporujú zlu, ale kto ich udrie na jedno líce, nech nastavia aj druhé. A kto im berie plášť, nech mu neodpierajú ani tuniku. Každému, kto prosí, nech dajú; a kto im berie, čo je ich, od toho nech to nežiadajú späť.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c15",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XV",
+      "originalText": "[1] Iniungo omnibus fratribus meis tam clericis quam laicis euntibus per mundum vel morantibus in locis, quod nullo modo apud se nec apud alium nec alio aliquo modo bestiam aliquam habeant. [2] Nec eis liceat equitare, nisi infirmitate vel magna necessitate cogantur.",
+      "translation": "Ukladám všetkým svojim bratom, klerikom aj laikom, ktorí idú svetom alebo sa zdržiavajú na miestach, aby nijakým spôsobom nemali pri sebe ani pri inom ani nijakým iným spôsobom nijaké zviera. Ani im nie je dovolené jazdiť na koni, iba ak ich núti choroba alebo veľká potreba.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c16",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XVI",
+      "originalText": "[1] Dicit Dominus «Ecce ego mitto vos sicut oves in medio luporum». [2] Estote ergo prudentes sicut serpentes et simplices sicut columbae (Mt 10,16). [3] Unde quicumque frater voluerit ire inter saracenos et alios infideles, vadat de licentia sui ministri et servi. [4] Et minister det eis licentiam et non contradicat, si viderit eos idoneos ad mittendum; nam tenebitur Domino reddere rationem (cfr. Lc 16,2), si in hoc vel in aliis processerit indiscrete. [5] Fratres vero, qui vadunt, duobus modis inter eos possunt spiritualiter conversari. [6] Unus modus est, quod non faciant lites neque contentiones, sed sint subditi omni humanae creaturae propter Deum (1 Petr 2,13) et confiteantur se esse christianos. [7] Alius modus est, quod, cum viderint placere Domino, annuntient verbum Dei, ut credant Deum omnipotentem Patrem et Filium et Spiritum Sanctum, creatorem omnium, redemptorem et salvatorem Filium, et ut baptizentur et efficiantur christiani, quia quis renatus non fuerit ex aqua et Spiritu Sancto, non potest intrare in regnum Dei (cfr. Joa 3,5). [8] Haec et alia, quae placuerint Domino, ipsis et aliis dicere possunt, quia dicit Dominus in evangelio Omnis, qui confitebitur me coram hominibus, confitebor et ego eum coram Patre meo, qui in caelis est (Mt 10,32). [9] Et Qui erubuerit me et sermones meos, et Filius hominis erubescet eum, cum venerit in maiestate sua et Patris et angelorum (cfr. Lc 9,26). [10] Et omnes fratres, ubicumque sunt, recordentur, quod dederunt se et reliquerunt corpora sua Domino Jesu Christo. [11] Et pro eius amore debent se exponere inimicis tam visibilibus quam invisibilibus; quia dicit Dominus Qui perdiderit animam suam propter me, salvam faciet eam (cfr. Lc 9,24) in vitam aeternam (Mt 25,46). [12] Beati qui persecutionem patiuntur propter iustitiam, quoniam ipsorum est regnum caelorum (Mt 5,10). [13] Si me persecuti sunt, et vos persequentur (Joa 15,20). [14] Et Si persequuntur vos in una civitate, fugite in aliam (cfr. Mt 10,23). [15] Beati estis (Mt 5, 11), cum vos oderint homines (Lc 6,22) et maledixerint vobis (Mt 5,11) et persequentur vos (cfr. l. c.) et separaverint vos et exprobraverint et eiecerint nomen vestrum tamquam malum (Lc 6,22) et cum dixerint omne malum adversum vos mentientes propter me (Mt 5,11). [16] Gaudete in illa die et exsultate (Lc 6,23), quoniam merces vestra, multa est in caelis (cfr. Mt 5,12). [17] Et ego dico vobis amicis meis, non terreamini ab his (cfr. Lc 12,4), [18] et nolite timere eos qui occidunt corpus (Mt 10,28) et post hoc non habent amplius quid faciant (Lc 12,4). [19] Videte, ne turbemini (Mt 24,6). [20] In patientia enim vestra possidebitis animas vestras (Lc 21,19); [21] et qui perseveraverit usque in finem, hic salvus erit (Mt 10,22; 24,13).",
+      "translation": "Pán hovorí: Hľa, posielam vás ako ovce medzi vlkov. Buďte teda opatrní ako hady a prostí ako holubice. Preto ktokoľvek brat chce ísť medzi Saracénov a iných neveriacich, nech ide s dovolením svojho ministra a služobníka. A minister nech im dá dovolenie a nech sa neprotiví, ak ich uvidí ako súch na poslanie; lebo bude povinný vydať Pánovi počet, ak by v tomto alebo v inom postupoval bez rozvahy. Bratia, ktorí idú, môžu medzi nimi duchovne žiť dvojakým spôsobom. Jeden spôsob je, že nerobia zvady ani spory, ale sú podriadení každému ľudskému stvoreniu pre Boha a vyznávajú, že sú kresťania. Druhý spôsob je, že keď uvidia, že sa to páči Pánovi, ohlásia Božie slovo, aby ľudia uverili vo všemohúceho Boha, Otca i Syna i Ducha Svätého, stvoriteľa všetkého, v Syna ako vykupiteľa a spasiteľa, a aby sa dali pokrstiť a stali sa kresťanmi, lebo kto sa nenarodí z vody a z Ducha Svätého, nemôže vojsť do Božieho kráľovstva. Toto a iné, čo sa zapáči Pánovi, môžu povedať im aj iným, lebo Pán hovorí v evanjeliu: Každý, kto mňa vyzná pred ľuďmi, aj ja ho vyznám pred svojím Otcom, ktorý je na nebesiach. A: Kto sa bude hanbiť za mňa a za moje slová, za toho sa bude hanbiť aj Syn človeka, keď príde vo svojej velebnosti a Otcovej a anjelov. A všetci bratia, kdekoľvek sú, nech pamätajú, že sa dali a zanechali svoje telá Pánu Ježišovi Kristovi. A pre jeho lásku sa majú vystaviť nepriateľom viditeľným aj neviditeľným, lebo Pán hovorí: Kto stratí svoju dušu pre mňa, zachráni ju pre večný život. Blahoslavení, ktorí trpia prenasledovanie pre spravodlivosť, lebo ich je nebeské kráľovstvo. Ak mňa prenasledovali, budú prenasledovať aj vás. A: Ak vás prenasledujú v jednom meste, utečte do iného. Blahoslavení ste, keď vás ľudia nenávidia a zlorečia vám a prenasledujú vás a oddeľujú vás a hanobia a vyvrhnú vaše meno ako zlé a keď povedia všetko zlé proti vám, luhajúc, pre mňa. Radujte sa v ten deň a jasajte, lebo vaša odmena je hojná v nebesiach. A ja vám hovorím, svojim priateľom: nenechajte sa tým desiť a nebojte sa tých, čo zabíjajú telo a potom už nemajú, čo by urobili. Hľaďte, aby ste sa nerozrušili. Vo svojej trpezlivosti budete vlastniť svoje duše; a kto vytrvá až do konca, ten bude spasený.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c17",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XVII",
+      "originalText": "[1] Nullus frater praedicet contra formam et institutionem sanctae Ecclesiae et nisi concessum sibi fuerit a ministro suo. [2] Et caveat sibi minister, ne alicui indiscrete concedat. [3] Omnes tamen fratres operibus praedicent. [4] Et nullus minister vel praedicator appropriet sibi ministerium fratrum vel officium praedicationis, sed quacumque hora ei iniunctum fuerit, sine omni contradictione dimittat suum officium. [5] Unde deprecor in caritate, quae Deus est (cfr. 1 Joa 4,16), omnes fratres meos praedicatores, oratores, laboratores, tam clericos quam laicos, ut studeant se humiliare in omnibus, [6] non gloriari nec in se gaudere nec interius se exaltare de bonis verbis et operibus, immo de nullo bono, quod Deus facit vel dicit et operatur in eis aliquando et per ipsos, secundum quod dicit Dominus «Veruntamen in hoc nolite gaudere, quia spiritus vobis subiciuntur» (Lc 10,20). [7] Et firmiter sciamus, quia non pertinent ad nos nisi vitia et peccata. [8] Et magis debemus gaudere, cum in tentationes varias incideremus (cfr. Jac 1,2) et cum sustineremus quascumque animae vel corporis angustias aut tribulationes in hoc mundo propter vitam aeternam. [9] Omnes ergo fratres caveamus ab omni superbia et vana gloria. [10] Et custodiamus nos a sapientia huius mundi et a prudentia carnis (Rom 8,6). [11] Spiritus enim carnis vult et studet multum ad verba habenda, sed parum ad operationem; [12] et quaerit non religionem et sanctitatem in interiori spiritu, sed vult et desiderat habere religionem et sanctitatem foris apparentem hominibus. [13] Et isti sunt, de quibus dicit Dominus Amen dico vobis, receperunt mercedem suam (Mt 6,2). [14] Spiritus autem Domini vult mortificatam et despectam, vilem et abiectam esse carnem. [15] Et studet ad humilitatem et patientiam et puram et simplicem et veram pacem spiritus. [16] Et semper super omnia desiderat divinum timorem et divinam sapientiam et divinum amorem Patris et Filii et Spiritus Sancti. [17] Et omnia bona Domino Deo altissimo et summo reddamus et omnia bona ipsius esse cognoscamus et de omnibus ei gratias referamus, a quo bona cuncta procedunt. [18] Et ipse altissimus et summus, solus verus Deus habeat et ei reddantur et ipse recipiat omnes honores et reverentias, omnes laudes et benedictiones, omnes gratias et gloriam, cuius est omne bonum, qui solus est bonus (cfr. Lc 18,19). [19] Et quando nos videmus vel audimus malum dicere vel facere vel blasphemare Deum, nos bene dicamus et bene faciamus et laudemus Deum (cfr. Rom 12,21), qui est benedictus in saecula (Rom 1,25).",
+      "translation": "Nijaký brat nech nekáže proti forme a ustanoveniu svätej Cirkvi a iba ak mu to jeho minister udelil. A minister nech sa chráni udeliť to niekomu bez rozvahy. Všetci bratia však nech kážu skutkami. A nijaký minister ani kazateľ nech si neprivlastňuje službu bratov ani úrad kázania, ale v ktorúkoľvek hodinu mu to bude uložené, nech bez akéhokoľvek odporu zanechá svoj úrad. Preto v láske, ktorou je Boh, prosím všetkých svojich bratov, kazateľov, modliacich sa, pracujúcich, klerikov aj laikov, aby sa usilovali vo všetkom ponižovať, nechváliť sa ani sa neradovať zo seba ani sa vnútri nevyvyšovať nad dobrými slovami a skutkami, ba nad nijakým dobrom, ktoré Boh niekedy robí alebo hovorí a pôsobí v nich a skrze nich, podľa toho, čo hovorí Pán: Neradujte sa z toho, že sa vám poddávajú duchovia. A pevne vedzme, že nám nepatrí nič okrem nerestí a hriechov. A viac sa máme radovať, keď upadneme do rozličných pokušení a keď znášame akékoľvek úzkosti alebo súženia duše či tela na tomto svete pre večný život. Všetci my bratia sa teda chráňme každej pýchy a márnej slávy. A strážme sa múdrosti tohto sveta a opatrnosti tela. Lebo duch tela veľmi chce a usiluje sa mať slová, ale málo konať; a nehľadá rehoľu a svätosť vo vnútornom duchu, ale chce a túži mať rehoľu a svätosť, ktorá sa navonok ukazuje ľuďom. A to sú tí, o ktorých Pán hovorí: Amen, hovorím vám, dostali svoju odmenu. Duch Pánov však chce, aby telo bolo umŕtvené a opovrhnuté, lacné a zavrhnuté. A usiluje sa o pokoru a trpezlivosť a o čistý, prostý a pravý pokoj ducha. A vždy nadovšetko túži po božskej bázni a božskej múdrosti a božskej láske Otca i Syna i Ducha Svätého. A všetko dobré vráťme Pánu Bohu najvyššiemu a zvrchovanému a poznajme, že všetko dobré je jeho, a za všetko mu vzdávajme vďaky, od ktorého pochádza každé dobro. A on, najvyšší a zvrchovaný, jediný pravý Boh, nech má a nech sa mu vracia a nech prijíma všetky pocty a úcty, všetky chvály a dobrorečenia, všetky vďaky a slávu, ktorého je každé dobro, ktorý jediný je dobrý. A keď vidíme alebo počujeme, že sa hovorí alebo robí zlo alebo sa rúha Bohu, hovorme dobro a robme dobro a chváľme Boha, ktorý je požehnaný na veky.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c18",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XVIII",
+      "originalText": "[1] Quolibet anno unusquisque minister cum fratribus suis possit convenire, ubicumque placuerit eis, in festo sancti Michaelis archangeli de his quae ad Deum pertinent, tractaturus. [2] Omnes enim ministri, qui sunt in ultramarinis et ultramontanis partibus, semel in tribus annis, et alii ministri semel in anno veniant ad capitulum Pentecostes apud ecclesiam sanctae Mariae de Portiuncula, nisi a ministro et servo totius fraternitatis aliter fuerit ordinatum.",
+      "translation": "Každý rok sa môže každý minister zísť so svojimi bratmi, kdekoľvek sa im zapáči, na sviatok svätého Michala archanjela, aby rokoval o tom, čo patrí Bohu. Všetci ministri, ktorí sú v zámorských a zámontánskych krajoch, nech raz za tri roky, a ostatní ministri raz za rok prídu na turíčnu kapitulu pri kostole svätej Márie na Porciunkule, iba ak minister a služobník celého bratstva nariadi inak.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c19",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XIX",
+      "originalText": "[1] Omnes fratres sint catholici, vivant et loquantur catholice. [2] Si quis vero erraverit a fide et vita catholica in dicto vel in facto et non se emendaverit, a nostra fraternitate penitus expellatur. [3] Et omnes clericos et omnes religiosos habeamus pro dominis in his quae spectant ad salutem animae et a nostra religione non deviaverint, et ordinem et officium eorum et administrationem in Domino veneremur.",
+      "translation": "Všetci bratia nech sú katolíci, nech žijú a hovoria katolícky. Ak by však niekto zblúdil od katolíckej viery a života slovom alebo skutkom a nepolepšil by sa, nech je z nášho bratstva úplne vyhnaný. A všetkých klerikov a všetkých rehoľníkov pokladajme za pánov v tom, čo sa týka spásy duše a neodchyľuje sa od našej rehole, a ich stav, úrad a správu uctievajme v Pánovi.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c20",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XX",
+      "originalText": "[1] Et fratres mei benedicti tam clerici quam laici confiteantur peccata sua sacerdotibus nostrae religionis. [2] Et si non potuerint, confiteantur aliis discretis et catholicis sacerdotibus scientes firmiter et attendentes, quia a quibuscumque sacerdotibus catholicis acceperint poenitentiam et absolutionem, absoluti erunt procul dubio ab illis peccatis, si poenitentiam sibi iniunctam procuraverint humiliter et fideliter observare. [3] Si vero tunc non potuerint habere sacerdotem, confiteantur fratri suo, sicut dicit apostolus Jacobus «Confitemini alterutrum peccata vestra» (Jac 5,16). [4] Non tamen propter hoc dimittant recurrere ad sacerdotem, quia potestas ligandi et solvendi solis sacerdotibus est concessa. [5] Et sic contriti et confessi sumant corpus et sanguinem Domini nostri Jesu Christi cum magna humilitate et veneratione recordantes, quod Dominus dicit Qui manducat carnem meam et bibit sanguinem meum habet vitam aeternam (cfr. Joa 6,55); [6] et «Hoc facite in meam commemorationem» (Lc 22,19).",
+      "translation": "A moji požehnaní bratia, klerici aj laici, nech sa zo svojich hriechov spovedajú kňazom našej rehole. A ak nemôžu, nech sa spovedajú iným rozvážnym a katolíckym kňazom, pevne vediac a dbajúc na to, že od ktorýchkoľvek katolíckych kňazov prijali pokánie a rozhrešenie, budú bez pochýb rozhrešení z tých hriechov, ak sa pokorne a verne postarajú zachovať pokánie, ktoré im bolo uložené. Ak by však vtedy nemohli mať kňaza, nech sa vyznajú svojmu bratovi, ako hovorí apoštol Jakub: Vyznávajte si navzájom hriechy. Nech však preto neprestávajú utiekať sa ku kňazovi, lebo moc zväzovať a rozväzovať je daná jedine kňazom. A tak, skrúšení a vyspovedaní, nech prijímajú telo a krv nášho Pána Ježiša Krista s veľkou pokorou a úctou, pamätajúc, že Pán hovorí: Kto je moje telo a pije moju krv, má večný život; a: Toto robte na moju pamiatku.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c21",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XXI",
+      "originalText": "[1] Et hanc vel talem exhortationem et laudem omnes fratres mei, quandocumque placuerit eis, annuntiare possunt inter quoscumque homines cum benedictione Dei [2] Timete et honorate, laudate et benedicite, gratias agite (1 Thess 5,18) et adorate Dominum Deum omnipotentem in trinitate et unitate, Patrem et Filium et Spiritum Sanctum, creatorem omnium. [3] Agite poenitentiam (cfr. Mt 3,2), facite dignos fructus poenitentiae (cfr. Lc 3,8), quia cito moriemur. [4] Date et dabitur vobis (Lc 6,38). [5] Dimittite et dimittetur vobis (cfr. Lc 6,37). [6] Et si non dimiseritis hominibus peccata eorum (Mt 6,14), Dominus non dimittet vobis peccata vestra (Mc 11,25); confitemini omnia peccata vestra (cfr. Jac 5,16). [7] Beati qui moriuntur in poenitentia, quia erunt in regno caelorum. [8] Vae illis qui non moriuntur in poenitentia, quia erunt filii diaboli (1 Joa 3,10), cuius opera faciunt (cfr. Joa 8,41) et ibunt in ignem aeternum (Mt 18,8; 25,41). [9] Cavete et abstinete ab omni malo et perseverate usque in finem in bono.",
+      "translation": "A toto alebo podobné povzbudenie a chválu môžu všetci moji bratia, kedykoľvek sa im zapáči, ohlasovať medzi akýmikoľvek ľuďmi s Božím požehnaním: Bojte sa a ctite, chváľte a dobrorečte, vzdávajte vďaky a klaňajte sa Pánu Bohu všemohúcemu v trojici a jednote, Otcovi i Synovi i Duchu Svätému, stvoriteľovi všetkého. Konajte pokánie, prinášajte ovocie hodné pokánia, lebo čoskoro zomrieme. Dávajte, a bude vám dané. Odpúšťajte, a bude vám odpustené. A ak neodpustíte ľuďom ich hriechy, Pán vám neodpustí vaše hriechy; vyznajte všetky svoje hriechy. Blahoslavení, ktorí zomierajú v pokání, lebo budú v nebeskom kráľovstve. Beda tým, ktorí nezomierajú v pokání, lebo budú synmi diabla, ktorého skutky robia, a pôjdu do večného ohňa. Chráňte sa a zdržiavajte sa každého zla a vytrvajte až do konca v dobre.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c22",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XXII",
+      "originalText": "[1] Attendamus, omnes fratres, quod dicit Dominus Diligite inimicos vestros et benefacite his qui oderunt vos (cfr. Mt 5,44 par.), [2] quia Dominus noster Jesus Christus, cuius sequi vestigia debemus (cfr. 1 Petr 2,21), traditorem suum vocavit amicum (cfr. Mt 26,50) et crucifixoribus suis sponte se obtulit. [3] Amici igitur nostri sunt omnes illi, qui nobis iniuste inferunt tribulationes et angustias, verecundias et iniurias, dolores et tormenta, martyrium et mortem; [4] quos multum diligere debemus, quia ex hoc quod nobis inferunt, habemus vitam aeternam. [5] Et odio habeamus corpus nostrum cum vitiis et peccatis suis; quia carnaliter vivendo vult diabolus a nobis auferre amorem Jesu Christi et vitam aeternam et se ipsum cum omnibus perdere in infernum; [6] quia nos per culpam nostram sumus foetidi, miseri et bono contrarii, ad mala autem prompti et voluntarii, quia sicut Dominus dicit in evangelio [7] De corde procedunt et exeunt cogitationes malae, adulteria, fornicationes, homicidia, furta, avaritia, nequitia, dolus, impudicitia, oculus malus, falsa testimonia, blasphemia, stultitia (cfr. Mc 7,21-22; Mt 15,19). [8] Haec omnia mala ab intus de corde hominis procedunt (cfr. Mc 7,23) et haec sunt quae coinquinant hominem (Mt 15,20). [9] Nunc autem, postquam dimisimus mundum, nihil aliud habemus facere, nisi sequi voluntatem Domini et placere sibi ipsi. [10] Multum caveamus, ne simus terra secus viam vel petrosa vel spinosa, secundum quod dicit Dominus in evangelio [11] Semen est verbum Dei (Lc 8,11). [12] Quod autem secus viam cecidit et conculcatum est (cfr. Lc 8,5), hi sunt, qui audiunt (Lc 8,12) verbum et non intelligunt (cfr. Mt 13,19); [13] et confestim (Mc 4,15) venit diabolus (Lc 8,12) et rapit (Mt 13,19), quod seminatum est in cordibus eorum (Mc 4,15) et tollit verbum de cordibus eorum, ne credentes salvi fiant (Lc 8,12). [14] Quod autem super petrosam cecidit (cfr. Mt 13,20), hi sunt, qui, cum audierint verbum, statim cum gaudio (Mc 4,16) suscipiunt (Lc 8,13) illud (Mc 4,16). [15] Facta autem tribulatione et persecutione propter verbum, continuo scandalizantur (Mt 13,21) et hi radicem in se non habent, sed temporales sunt (cfr. Mc 4,17), quia ad tempus credunt et in tempore tentationis recedunt (Lc 8,13). [16] Quod autem in spinis cecidit, hi sunt (Lc 8,14), qui verbum Dei audiunt (cfr. Mc 4,18), et sollicitudo (Mt 13,22) et aerumnae (Mc 4,19) istius saeculi et fallacia divitiarum (Mt 13,22) et circa reliqua concupiscentiae introeuntes suffocant verbum et sine fructu efficiuntur (cfr. Mc 4,19). [17] Quod autem in terram bonam (Lc 8,15) seminatum est (Mt 13,23), hi sunt, qui in corde bono et optimo audientes verbum (Lc 8,15) intelligunt et (cfr. Mt 13,23) retinent et fructum afferunt in patientia (Lc 8,15). [18] Et propterea nos fratres, sicut dicit Dominus, dimittamus mortuos sepelire mortuos suos (Mt 8,22). [19] Et multum caveamus a malitia et subtilitate satanae, qui vult, quod homo mentem suam et cor non habeat ad Deum. [20] Et circuiens desiderat cor hominis sub specie alicuius mercedis vel adiutorii tollere et suffocare verbum et praecepta Domini a memoria et volens cor hominis per saecularia negotia et curam excaecare et ibi habitare, sicut dicit Dominus [21] Cum immundus spiritus exierit ab homine, ambulat per loca arida (Mt 12,43) et inaquosa quaerens requiem; [22] et non inveniens dicit Revertar in domum meam, unde exivi (Lc 11,24). [23] Et veniens invenit eam vacantem, scopis mundatam et ornatam (Mt 12,44). [24] Et vadit et assumit alios septem spiritus nequiores se, et ingressi habitant ibi, et sunt novissima hominis illius peiora prioribus (cfr. Lc 11,26). [25] Unde, omnes fratres. custodiamus nos multum, ne sub specie alicuius mercedis vel operis vel adiutorii perdamus vel tollamus nostram mentem et cor a Domino. [26] Sed in sancta caritate, quae Deus est (cfr. 1 Joa 4,16), rogo omnes fratres tam ministros quam alios, ut omni impedimento remoto et omni cura et sollicitudine postposita, quocumque modo melius possunt, servire, amare, honorare et adorare Dominum Deum mundo corde et pura mente faciant, quod ipse super omnia quaerit. [27] Et semper faciamus ibi habitaculum et mansionem (cfr. Joa 14,23) ipsi, qui est Dominus Deus omnipotens, Pater et Filius et Spiritus Sanctus, qui dicit Vigilate itaque omni tempore orantes, ut digni habeamini fugere omnia mala, quae ventura sunt et stare ante Filium hominis (Lc 21,36). [28] Et cum stabitis ad orandum (Mc 11,25) dicite (Lc 11,2) Pater noster qui es in caelis (Mt 6,9). [29] Et adoremus eum puro corde, quoniam oportet semper orare et non deficere (Lc 18,1); [30] nam Pater tales quaerit adoratores. [31] Spiritus est Deus, et eos qui adorant eum, in spiritu et veritate oportet eum adorare (cfr. Joa 4,23-24). [32] Et ad ipsum recurramus tamquam ad pastorem et episcopum animarum nostrarum (1 Petr 2,25), qui dicit Ego sum pastor bonus, qui pasco oves meas et pro ovibus meis pono animam meam. [33] Omnes vos fratres estis; [34] et patrem nolite vobis vocare super terram, unus est enim Pater vester, qui in caelis est. [35] Nec vocemini magistri; unus est enim magister vester, qui in caelis est (cfr. Mt 23,8-10). [36] Si manseritis in me, et verba mea in vobis manserint, quodcumque volueritis, petetis et fiet vobis (Joa 15,7). [37] Ubicumque sunt duo vel tres congregati in nomine meo, ibi sum in medio eorum (Mt 18,20). [38] Ecce ego sum vobiscum usque ad consummationem saeculi (Mt 28,20). [39] Verba, quae locutus sum vobis, spiritus et vita sunt (Joa 6,64). [40] Ego sum via, veritas et vita (Joa 14,6). [41] Teneamus ergo verba, vitam et doctrinam et sanctum eius evangelium, qui dignatus est pro nobis rogare Patrem suum et nobis eius nomen manifestare dicens Pater clarifica nomen tuum (Joa 12,28a) et clarifica Filium tuum, ut Filius tuus clarificet te (Joa 17,1b). [42] Pater, manifestavi nomen tuum hominibus, quos dedisti mihi (Joa 17,6); quia verba, quae dedisti mihi, dedi eis; et ipsi acceperunt et cognoverunt, quia a te exivi et crediderunt, quia tu me misisti. [43] Ego pro eis rogo, non pro mundo, [44] sed pro his quos dedisti mihi, quia tui sunt et omnia mea tua sunt (Joa 17,8-10). [45] Pater sancte, serva eos in nomine tuo, quos dedisti mihi, ut ipsi sint unum sicut et nos (Joa 17,11b). [46] Haec loquor in mundo, ut habeant gaudium in semetipsis. [47] Ego dedi eis sermonem tuum; et mundus eos odio habuit, quia non sunt de mundo, sicut et ego non sum de mundo. [48] Non rogo, ut tollas eos de mundo, sed ut serves eos a malo (Joa 17,13b-15). [49] Mirifica eos in veritate. [50] Sermo tuus veritas est. [51] Sicut tu me misisti in mundum, et ego misi eos in mundum. [52] Et pro eis sanctifico meipsum, ut sint ipsi sanctificati in veritate. [53] Non pro eis rogo tantum, sed pro eis, qui credituri sunt propter verbum eorum in me (cfr. Joa 17,17-20), ut sint consummati in unum, et cognoscat mundus, quia tu me misisti et dilexisti eos, sicut me dilexisti (Joa 17,23). [54] Et notum faciam eis nomen tuum, ut dilectio, qua dilexisti me sit in ipsis et ego in ipsis (cfr. Joa 17,26). [55] Pater, quos dedisti mihi, volo, ut ubi ego sum, et illi sint mecum, ut videant claritatem tuam (cfr. Joa 17,24) in regno tuo (Mt 20,21). Amen.",
+      "translation": "Všimnime si, všetci bratia, čo hovorí Pán: Milujte svojich nepriateľov a dobre robte tým, ktorí vás nenávidia, lebo náš Pán Ježiš Kristus, ktorého stopy máme nasledovať, nazval svojho zradcu priateľom a dobrovoľne sa vydal tým, čo ho ukrižovali. Našimi priateľmi sú teda všetci, ktorí nám nespravodlivo spôsobujú súženia a úzkosti, hanby a krivdy, bolesti a muky, mučeníctvo a smrť; a máme ich veľmi milovať, lebo z toho, čo nám spôsobujú, máme večný život. A nenáviďme svoje telo s jeho nerestami a hriechmi, lebo životom podľa tela chce diabol od nás vziať lásku Ježiša Krista a večný život a seba samého so všetkými stratiť v pekle; lebo vlastnou vinou sme páchnuci, úbohí a protivní dobru, k zlu však pohotoví a ochotní, lebo ako Pán hovorí v evanjeliu, zo srdca vychádzajú zlé myšlienky, cudzoložstvá, smilstvá, vraždy, krádeže, lakomstvo, zloba, lesť, nehanebnosť, zlý pohľad, krivé svedectvá, rúhanie, pochabosť. Všetky tieto zlá vychádzajú zvnútra, zo srdca človeka, a to sú tie, čo poškvrňujú človeka. Teraz však, keď sme opustili svet, nemáme robiť nič iné, než nasledovať Pánovu vôľu a páčiť sa mu. Veľmi sa chráňme, aby sme neboli zemou pri ceste alebo skalnatou alebo tŕnitou, podľa toho, čo hovorí Pán v evanjeliu: Semeno je Božie slovo. To, čo padlo pri ceste a bolo pošliapané, sú tí, čo počujú slovo a nerozumejú mu; a hneď prichádza diabol a uchvacuje, čo bolo zasiate v ich srdciach, a berie slovo z ich sŕdc, aby neuverili a neboli spasení. To, čo padlo na skalnatú pôdu, sú tí, čo keď počujú slovo, hneď ho s radosťou prijímajú. Keď však príde súženie a prenasledovanie pre slovo, hneď sa pohoršia a nemajú v sebe koreň, ale sú chvíľkoví, lebo na čas uveria a v čase pokušenia odstúpia. To, čo padlo do tŕnia, sú tí, čo počujú Božie slovo, a starosť a trampoty tohto veku a klam bohatstva a ostatné žiadostivosti, ktoré vchádzajú, slovo udusia a ostávajú bez ovocia. To, čo bolo zasiate do dobrej zeme, sú tí, čo v dobrom a výbornom srdci počujúc slovo mu rozumejú, podržia ho a prinášajú ovocie v trpezlivosti. A preto my bratia, ako hovorí Pán, nechajme mŕtvych pochovávať svojich mŕtvych. A veľmi sa chráňme zloby a ľsti satana, ktorý chce, aby človek nemal myseľ a srdce obrátené k Bohu. A obchádza a túži pod zámienkou nejakej odmeny alebo pomoci vziať a udusiť srdce človeka a vytrhnúť slovo a Pánove príkazy z pamäti a chce oslepiť srdce človeka svetskými záležitosťami a starosťou a bývať tam, ako hovorí Pán: Keď nečistý duch vyjde z človeka, chodí po suchých a bezvodých miestach a hľadá odpočinok; a keď ho nenájde, hovorí: Vrátim sa do svojho domu, odkiaľ som vyšiel. A keď príde, nájde ho prázdny, vymetený a ozdobený. A ide a vezme sedem iných duchov horších, než je sám, a vojdú a bývajú tam, a posledné veci toho človeka sú horšie než prvé. Preto sa, všetci bratia, veľmi strážme, aby sme pod zámienkou nejakej odmeny alebo diela alebo pomoci nestratili ani nevzali svoju myseľ a srdce od Pána. Ale vo svätej láske, ktorou je Boh, prosím všetkých bratov, ministrov aj ostatných, aby po odstránení každej prekážky a po odložení každej starosti a úzkosti, ako len najlepšie vedia, slúžili, milovali, ctili a klaňali sa Pánu Bohu čistým srdcom a čistou mysľou a robili, čo on hľadá nadovšetko. A vždy tam urobme príbytok a prebývanie jemu, ktorý je Pán Boh všemohúci, Otec i Syn i Duch Svätý, ktorý hovorí: Bdejte teda v každom čase a modlite sa, aby ste boli hodní uniknúť všetkému zlu, ktoré príde, a stáť pred Synom človeka. A keď stojíte, aby ste sa modlili, hovorte: Otče náš, ktorý si na nebesiach. A klaňajme sa mu čistým srdcom, lebo treba sa vždy modliť a neochabovať; veď Otec hľadá takých ctiteľov. Boh je duch a tí, čo sa mu klaňajú, musia sa mu klaňať v duchu a v pravde. A utiekajme sa k nemu ako k pastierovi a biskupovi našich duší, ktorý hovorí: Ja som dobrý pastier, ktorý pasie svoje ovce a za svoje ovce kladie svoju dušu. Vy všetci ste bratia; a otcom si nenazývajte nikoho na zemi, lebo jeden je váš Otec, ktorý je na nebesiach. Ani sa nenazývajte učiteľmi; lebo jeden je váš učiteľ, ktorý je na nebesiach. Ak zostanete vo mne a moje slová zostanú vo vás, o čokoľvek budete prosiť, stane sa vám. Kde sú dvaja alebo traja zhromaždení v mojom mene, tam som ja medzi nimi. Hľa, ja som s vami po všetky dni až do skončenia sveta. Slová, ktoré som vám povedal, sú duch a život. Ja som cesta, pravda a život. Držme sa teda slov, života, učenia a svätého evanjelia toho, ktorý sa ráčil za nás modliť k svojmu Otcovi a zjaviť nám jeho meno, hovoriac: Otče, osláv svoje meno a osláv svojho Syna, aby tvoj Syn oslávil teba. Otče, zjavil som tvoje meno ľuďom, ktorých si mi dal, lebo slová, ktoré si mi dal, som dal im; a oni ich prijali a poznali, že som vyšiel od teba, a uverili, že si ma ty poslal. Ja prosím za nich, nie za svet, ale za tých, ktorých si mi dal, lebo sú tvoji a všetko moje je tvoje. Svätý Otče, zachovaj ich vo svojom mene, ktorých si mi dal, aby boli jedno, ako sme aj my. Toto hovorím na svete, aby mali radosť v sebe. Dal som im tvoje slovo; a svet ich nenávidel, lebo nie sú zo sveta, ako ani ja nie som zo sveta. Neprosím, aby si ich vzal zo sveta, ale aby si ich zachoval od zlého. Učiň ich obdivuhodnými v pravde. Tvoje slovo je pravda. Ako si ty mňa poslal na svet, aj ja som ich poslal na svet. A za nich sa sám posväcujem, aby boli aj oni posvätení v pravde. Neprosím len za nich, ale aj za tých, čo skrze ich slovo uveria vo mňa, aby boli privedení k jednote a svet poznal, že si ma ty poslal a že si ich miloval, ako si miloval mňa. A dám im poznať tvoje meno, aby láska, ktorou si ma miloval, bola v nich a ja v nich. Otče, tých, ktorých si mi dal, chcem, aby kde som ja, boli aj oni so mnou, aby videli tvoju slávu v tvojom kráľovstve. Amen.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c23",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XXIII",
+      "originalText": "[1] Omnipotens, sanctissime, altissime et summe Deus, Pater sancte (Joa 17,11) et iuste, Domine rex caeli et terrae (cfr. Mt 11,25), propter temetipsum gratias agimus tibi, quod per sanctam voluntatem tuam et per unicum Filium tuum cum Spiritu Sancto creasti omnia spiritualia et corporalia et nos ad imaginem tuam et similitudinem factos in paradiso posuisti (cfr. Gen 1,26; 2,15). [2] Et nos per culpam nostram cecidimus. [3] Et gratias agimus tibi, quia, sicut per Filium tuum nos creasti, sic per sanctam dilectionem tuam, qua dilexisti nos (cfr. Joa 17,26), ipsum verum Deum et verum hominem ex gloriosa semper Virgine beatissima sancta Maria nasci fecisti et per crucem et sanguinem et mortem ipsius nos captivos redimi voluisti. [4] Et gratias agimus tibi, quia ipse Filius tuus venturus est in gloria maiestatis suae mittere maledictos, qui poenitentiam non egerunt et te non cognoverunt, in ignem aeternum, et dicere omnibus, qui te cognoverunt et adoraverunt et tibi servierunt in poenitentia Venite, benedicti Patris mei, percipite regnum, quod vobis paratum est ab origine mundi (cfr. Mt 25,34). [5] Et quia nos omnes miseri et peccatores non sumus digni nominare te, suppliciter exoramus, ut Dominus noster Jesus Christus Filius tuus dilectus, in quo tibi bene complacuit (cfr. Mt 17,5), una cum Spiritu Sancto Paraclito gratias agat tibi, sicut tibi et ipsi placet, pro omnibus, qui tibi semper sufficit ad omnia, per quem nobis tanta fecisti. Alleluia. [6] Et gloriosam matrem beatissimam Mariam semper Virginem, beatum Michaelem, Gabrielem et Raphaelem et omnes choros beatorum seraphim, cherubim, thronorum, dominationum, principatuum, potestatum (cfr. Col 1,15), virtutum, angelorum, archangelorum, beatum Joannem Baptistam, Joannem Evangelistam, Petrum, Paulum et beatos patriarchas, prophetas, Innocentes, apostolos, evangelistas, discipulos, martyres, confessores, virgines, beatos Eliam et Enoch et omnes sanctos, qui fuerunt et erunt et sunt propter tuum amorem humiliter deprecamur, ut, sicut tibi placet, pro his tibi gratias referant summo vero Deo, aeterno et vivo, cum Filio tuo carissimo Domino nostro Jesu Christo et Spiritu Sancto Paraclito in saecula saeculorum (Apoc 19,3). Amen. Alleluia (Apoc 19,4). [7] Et Domino Deo universos intra sanctam ecclesiam catholicam et apostolicam servire volentes et omnes sequentes ordines sacerdotes, diaconos, subdiaconos, acolythos, exorcistas, lectores, ostiarios et omnes clericos, universos religiosos et religiosas, omnes conversos et parvulos, pauperes et egenos, reges et principes, laboratores et agricolas, servos et dominos, omnes virgines et continentes et maritatas, laicos, masculos et feminas, omnes infantes, adolescentes, iuvenes et senes, sanos et infirmos, omnes pusillos et magnos, et omnes populos, gentes, tribus et linguas (cfr. Apoc 7,9), omnes nationes et omnes homines ubicumque terrarum, qui sunt et erunt, humiliter rogamus et supplicamus nos omnes fratres minores, servi inutiles (Lc 17,10), ut omnes in vera fide et poenitentia perseveremus, quia aliter nullus salvari potest. [8] Omnes diligamus ex toto corde, ex tota anima, ex tota mente, ex tota virtute (cfr. Mc 12,30) et fortitudine, ex toto intellectu (cfr. Mc 12,33), ex omnibus viribus (cfr. Lc 10,27), toto nisu, toto affectu, totis visceribus, totis desideriis et voluntatibus Dominum Deum (Mc 12,30 par.), qui totum corpus, totam animam et totam vitam dedit et dat omnibus nobis, qui nos creavit, redemit et sua sola misericordia salvabit (cfr. Tob 13,5), qui nobis miserabilibus et miseris, putridis et foetidis, ingratis et malis omnia bona fecit et facit. [9] Nihil ergo aliquid aliud desideremus, nihil aliud velimus, nihil aliud placeat et delectet nos nisi Creator et Redemptor et Salvator noster, solus verus Deus, qui est plenum bonum, omne bonum, totum bonum, verum et summum bonum, qui solus est bonus (cfr. Lc 18,19), pius, mitis, suavis et dulcis, qui solus est sanctus, iustus, verus, sanctus et rectus, qui solus est benignus, innocens, mundus, a quo et per quem et in quo (cfr. Rom 11,36) est omnis venia, omnis gratia, omnis gloria omnium poenitentium et iustorum, omnium beatorum in caelis congaudentium. [10] Nihil ergo impediat, nihil separet, nihil interpolet. [11] Ubique nos omnes omni loco, omni hora et omni tempore, quotidie et continue credamus veraciter et humiliter et in corde teneamus et amemus, honoremus, adoremus, serviamus, laudemus et benedicamus, glorificemus et superexaltemus, magnificemus et gratias agamus altissimo et summo Deo aeterno, trinitati et unitati, Patri et Filio et Spiritui Sancto, creatori omnium et salvatori omnium in se credentium et sperantium et diligentium eum, qui sine initio et sine fine immutabilis, invisibilis, inenarrabilis, ineffabilis, incomprehensibilis, investigabilis (cfr. Rom 11,33), benedictus, laudabilis, gloriosus, superexaltatus (cfr. Dan 3,52), sublimis, excelsus, suavis, amabilis, delectabilis et totus super omnia desiderabilis in saecula. Amen.",
+      "translation": "Všemohúci, najsvätejší, najvyšší a zvrchovaný Bože, svätý a spravodlivý Otče, Pane, kráľu neba i zeme, pre teba samého ti vzdávame vďaky, že si svojou svätou vôľou a skrze svojho jediného Syna s Duchom Svätým stvoril všetko duchovné i telesné a nás, učinených na tvoj obraz a podobu, postavil do raja. A my sme vlastnou vinou padli. A vzdávame ti vďaky, lebo ako si nás skrze svojho Syna stvoril, tak si svojou svätou láskou, ktorou si nás miloval, dal narodiť jeho, pravého Boha a pravého človeka, zo slávnej vždy Panny, najblahoslavenejšej svätej Márie, a skrze jeho kríž a krv a smrť si chcel, aby sme my zajatci boli vykúpení. A vzdávame ti vďaky, lebo ten istý tvoj Syn príde v sláve svojej velebnosti poslať do večného ohňa prekliatych, ktorí nekonali pokánie a nepoznali ťa, a povedať všetkým, ktorí ťa poznali a klaňali sa ti a slúžili ti v pokání: Poďte, požehnaní môjho Otca, prijmite kráľovstvo, ktoré je vám pripravené od počiatku sveta. A pretože my všetci, úbohí a hriešnici, nie sme hodní vysloviť tvoje meno, pokorne prosíme, aby ti náš Pán Ježiš Kristus, tvoj milovaný Syn, v ktorom si mal zaľúbenie, spolu s Duchom Svätým Paraklétom vzdával vďaky, ako sa páči tebe aj jemu, za všetkých, on, ktorý ti vždy stačí na všetko a skrze ktorého si nám toľko urobil. Aleluja. A slávnu matku, najblahoslavenejšiu Máriu vždy Pannu, blahoslaveného Michala, Gabriela a Rafaela a všetky chóry blahoslavených, serafínov, cherubínov, trónov, panstiev, kniežatstiev, mocností, síl, anjelov, archanjelov, blahoslaveného Jána Krstiteľa, Jána Evanjelistu, Petra, Pavla a blahoslavených patriarchov, prorokov, Neviniatok, apoštolov, evanjelistov, učeníkov, mučeníkov, vyznávačov, panien, blahoslaveného Eliáša a Henocha a všetkých svätých, ktorí boli, budú a sú, pre tvoju lásku pokorne prosíme, aby ti, ako sa ti páči, za toto vzdávali vďaky, tebe, najvyššiemu pravému Bohu, večnému a živému, s tvojím najdrahším Synom, naším Pánom Ježišom Kristom, a s Duchom Svätým Paraklétom na veky vekov. Amen. Aleluja. A my všetci menší bratia, neužitoční služobníci, pokorne prosíme a žiadame Pána Boha za všetkých, ktorí chcú slúžiť vnútri svätej katolíckej a apoštolskej Cirkvi, a za všetky nasledujúce stupne: kňazov, diakonov, subdiakonov, akolytov, exorcistov, lektorov, ostiáriov a všetkých klerikov, všetkých rehoľníkov a rehoľníčky, všetkých konvertitov a maličkých, chudobných a núdznych, kráľov a kniežatá, robotníkov a roľníkov, sluhov a pánov, všetky panny a zdržanlivých a ženatých, laikov, mužov a ženy, všetky deti, dospievajúcich, mladých a starých, zdravých a chorých, všetkých malých i veľkých a všetky národy, kmene a jazyky, všetky národy a všetkých ľudí kdekoľvek na zemi, ktorí sú a budú: aby sme všetci vytrvali v pravej viere a v pokání, lebo inak nikto nemôže byť spasený. Všetci milujme celým srdcom, celou dušou, celou mysľou, celou čnosťou a silou, celým umom, všetkými silami, celým úsilím, celou náklonnosťou, celým vnútrom, všetkými túžbami a vôľami Pána Boha, ktorý nám všetkým dal a dáva celé telo, celú dušu a celý život, ktorý nás stvoril, vykúpil a svojou jedinou milosťou spasí, ktorý nám úbohým a biednym, hnilým a páchnucim, nevďačným a zlým urobil a robí všetko dobré. Nech teda netúžime po ničom inom, nechcime nič iné, nech sa nám nič iné nepáči a neteší okrem nášho Stvoriteľa, Vykupiteľa a Spasiteľa, jediného pravého Boha, ktorý je plné dobro, každé dobro, celé dobro, pravé a najvyššie dobro, ktorý jediný je dobrý, láskavý, mierny, prívetivý a sladký, ktorý jediný je svätý, spravodlivý, pravdivý a priamy, ktorý jediný je dobrotivý, nevinný, čistý, od ktorého a skrze ktorého a v ktorom je každé odpustenie, každá milosť, každá sláva všetkých kajúcnikov a spravodlivých, všetkých blahoslavených, ktorí sa spolu radujú v nebi. Nech teda nič neprekáža, nič neoddeľuje, nič sa nevmešuje. Všade, my všetci, na každom mieste, v každú hodinu a v každý čas, denne a neprestajne, verne a pokorne verme a v srdci držme a milujme, ctíme, klaňajme sa, slúžme, chváľme a dobrorečme, oslavujme a vyvyšujme, zvelebujme a vzdávajme vďaky najvyššiemu a zvrchovanému večnému Bohu, trojici a jednote, Otcovi i Synovi i Duchu Svätému, stvoriteľovi všetkého a spasiteľovi všetkých, ktorí v neho veria, dúfajú a milujú ho, ktorý je bez počiatku a bez konca, nemeniteľný, neviditeľný, nevysloviteľný, nevýslovný, nepochopiteľný, nevyskúmateľný, požehnaný, chvályhodný, slávny, vyvýšený, vznešený, vysoký, mierny, milý, rozkošný a celý nadovšetko žiaduci na veky. Amen.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c24",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Nepotvrdená regula, kapitola XXIV",
+      "originalText": "[1] In nomine Domini! Rogo omnes fratres, ut addiscant tenorem et sensum eorum quae in ista vita ad salvationem animae nostrae scripta sunt, et ista frequenter ad memoriam reducant. [2] Et exoro Deum, ut ipse, qui est omnipotens, trinus et unus, benedicat omnes docentes, discentes, habentes, recordantes et operantes ista, quoties repetunt et faciunt quae ibi ad salutem animae nostrae scripta sunt, [3] et deprecor omnes cum osculo pedum, ut multum diligant, custodiant et reponant. [4] Et ex parte Dei omnipotentis et domini papae et per obedientiam ego frater Franciscus firmiter praecipio et iniungo, ut ex his, quae in ista vita scripta sunt, nullus minuat vel in ipsa scriptum aliquod desuper addat (cfr. Deut 4,2; 12,32), nec aliam regulam fratres habeant. [5] Gloria Patri et Filio et Spiritui Sancto, sicut erat in principio et nunc et semper et in saecula saeculorum. Amen.",
+      "translation": "V mene Pána. Prosím všetkých bratov, aby sa naučili zmysel a obsah toho, čo je v tomto živote napísané na spásu našej duše, a často si to uvádzali na pamäť. A prosím Boha, aby on, ktorý je všemohúci, trojjediný, požehnal všetkých, ktorí toto učia, učia sa, majú, pamätajú a konajú, kedykoľvek opakujú a robia, čo je tam napísané na spásu našej duše, a všetkých prosím bozkom nôh, aby to veľmi milovali, strážili a uchovávali. A v mene všemohúceho Boha a pána pápeža a z poslušnosti ja, brat František, pevne prikazujem a ukladám, aby z toho, čo je v tomto živote napísané, nikto nič neubral ani k tomu nepridal nijaký iný spis a aby bratia nemali inú regulu. Sláva Otcu i Synovi i Duchu Svätému, ako bolo na počiatku, aj teraz, aj vždycky a na veky vekov. Amen.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.ammonizioni.propria_volonta",
+      "documentId": "source.ammonizioni",
+      "reference": "Napomenutia (o vlastnej vôli)",
+      "paraphrase": "Medzi Napomenutiami František varuje pred „vlastnou vôľou“ urobenou modlou: kto sa pokladá za spravodlivého a múdreho sám od seba, vzďaľuje sa od pravej pokory, ktorá je v tom, podriadiť vlastný úsudok a slúžiť.",
+      "note": "Redakčná parafráza; presný odkaz na Napomenutie treba overiť v kritickom vydaní.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "needs_verification"
+    },
+    {
+      "id": "pass.lettera_ministro.mille_volte",
+      "documentId": "source.lettera_ministro",
+      "reference": "List ministrovi",
+      "paraphrase": "Keby brat zhrešil tisíc ráz pred tvojimi očami — píše František ministrovi —, miluj ho viac než mňa, aby si ho pritiahol k Pánovi; maj s ním vždy milosrdenstvo a ohlasuj mu milosrdenstvo, len nech ľutuje.",
+      "note": "Redakčná parafráza slávneho miesta z Listu ministrovi o milosrdenstve voči tomu, kto zlyhá.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_leone.coscienza",
+      "documentId": "source.lettera_leone",
+      "reference": "List bratovi Levovi",
+      "paraphrase": "Bratovi Levovi, úzkostlivému, aby si zvolil správne, František odpovedá slobodou: nasleduj svoje svedomie pred Bohom; nech si v bratstve zvolíš žiť akokoľvek, máš moje požehnanie.",
+      "note": "Redakčná parafráza. Autograf je uchovaný v katedrále v Spolete.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lodi_dio.lode",
+      "documentId": "source.lodi_dio",
+      "reference": "Chvály najvyššieho Boha",
+      "paraphrase": "Čistá chvála, bez prosieb: Boh je všemohúci, svätý, spravodlivý, milosrdný; je naše dobro, každé dobro, dobro najvyššie. František ho chváli spolu so stvoreniami.",
+      "note": "Redakčná parafráza. Zložené na La Verne v roku 1224.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.rinuncia",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Prvý životopis (I, približne 14 – 15)",
+      "paraphrase": "Celano rozpráva, že František pred biskupom Guidom a otcom Pietrom di Bernardone vrátil šaty a zriekol sa otcovského majetku so slovami, že už môže slobodne povedať: „Otče náš, ktorý si na nebesiach“. Biskup ho prikryl vlastným plášťom.",
+      "note": "Redakčná parafráza. Kľúčová epizóda, bežne kladená na začiatok roku 1206; scénické podrobnosti patria do Celanovho hagiografického rozprávania.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.lebbrosi",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Prvý životopis (I, približne 17)",
+      "paraphrase": "Celano opisuje Františka, ktorý slúži malomocným konkrétnou oddanosťou: umýva im rany, objíma ich, stará sa o ich potreby a v tejto službe nachádza radosť, ktorú predtým hľadal inde.",
+      "note": "Redakčná parafráza. Zbieha sa s autobiografickým rozprávaním Závetu 1 – 3.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.uccelli",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Prvý životopis (I, približne 58)",
+      "paraphrase": "Celano rozpráva, že František, keď videl kŕdle vtákov, obrátil sa k nim ako k stvoreniam schopným počúvať a vyzval ich, aby chválili Boha; odvtedy chcel hovoriť s každým stvorením ako s bratmi a sestrami.",
+      "note": "Redakčná parafráza. Slávnu epizódu neskôr rozšíria Kvietočky; už Celano podáva striedmu verziu.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.greccio",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Prvý životopis (I, približne 84 – 86)",
+      "paraphrase": "Na Vianoce 1223 chcel František v Greccio sláviť narodenie Ježiša so skutočnými jasľami, senom, volom a oslíkom, aby oči tela videli chudobu Betlehema. Celano to predkladá ako živú pamiatku, nie ako predstavenie.",
+      "note": "Redakčná parafráza. Epizóda doložená Celanom, svedkom blízkym bratstvu.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.stimmate",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Prvý životopis (II, o La Verne, približne 91 – 95)",
+      "paraphrase": "Celano rozpráva, že v septembri 1224, na ústraní v modlitbe na hore La Verna, František prijal stigmy, znamenia Kristovho umučenia, ktoré sa z pokory snažil skrývať.",
+      "note": "Redakčná parafráza. Epizóda je doložená najbližšími stredovekými prameňmi; historické a teologické hodnotenie je sporné a aplikácia ju predkladá ako svedectvo, nie ako merateľný údaj.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.fioretti.lupo",
+      "documentId": "source.fioretti",
+      "reference": "Kvietočky, kapitola 21",
+      "paraphrase": "Kvietočky rozprávajú o vlkovi z Gubbia: František ide v ústrety vystrašenému davu, kráča k šelme, hovorí k nej ako k bratovi a sprostredkuje zmluvu pokoja medzi vlkom a mestom: mesto ho bude živiť a on už nikomu neublíži.",
+      "note": "Redakčná parafráza. Rozprávanie hagiografickej tradície 14. storočia: cenné na pochopenie františkánskej obraznosti, nie overiteľné ako kronika.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.fioretti.perfetta_letizia",
+      "documentId": "source.fioretti",
+      "reference": "Kvietočky, kapitola 8",
+      "paraphrase": "Cestou s bratom Levom František vysvetľuje, že dokonalá radosť nie sú zázraky ani úspechy, ale prijať s trpezlivosťou a láskou odmietnutie a utrpenie a zostať radostný a verný.",
+      "note": "Redakčná parafráza. Jedna z najslávnejších hagiografických epizód; vyjadruje pedagogiku radosti, ktorá nezávisí od udalostí.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.bonaventura.cantico",
+      "documentId": "source.bonaventura_leggenda_maggiore",
+      "reference": "Väčšia legenda (o Piesni)",
+      "paraphrase": "Bonaventúra kladie vznik Piesne do obdobia Františkovej choroby a skúšok: z utrpenia sa rodí najvyššia chvála, obrátená k Bohu prostredníctvom stvorení.",
+      "note": "Redakčná parafráza. Presné časové zaradenie Piesne zostáva medzi kritikmi sporné.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.apertura",
+      "documentId": "source.lettera_ordine",
+      "reference": "List celému Rádu 1 – 11",
+      "originalText": "In nomine summae Trinitatis et sanctae Unitatis Patris et Filii et Spiritus Sancti. Amen. Reverendis et multum diligendis fratribus universis, fratri A., generali ministro religionis minorum fratrum, domino suo et ceteris ministris generalibus, qui post eum erunt, et omnibus ministris et custodibus et sacerdotibus fraternitatis eiusdem in Christo humilibus et omnibus fratribus simplicibus et obedientibus, primis et novissimis, frater Franciscus, homo vilis et caducus, vester parvulus servulus, salutem in eo qui redemit et lavit nos in pretiosissimo sanguine suo (cfr. Apoc 1,5), cuius nomen audientibus adorate eum cum timore et reverentia proni in terra (cfr. Esdr 8,6), Dominus Jesus Christus, Altissimi Filius nomen illi (cfr. Lc 1,32), qui est benedictus in saecula (Rom 1,25). Audite, domini filii et fratres mei, et auribus percipite verba mea (Act 2,14). Inclinate aurem (Is 55,3) cordis vestri et obedite voci Filii Dei. Servate in toto corde vestro mandata eius et consilia eius perfecta mente implete. Confitemini ei quoniam bonus (Ps 135,1) et exaltate eum in operibus vestris (Tob 13,6); quoniam ideo misit vos (cfr. Tob 13,4) in universo mundo, ut verbo et opere detis testimonium voci eius et faciatis scire omnes, quoniam non est omnipotens praeter eum (Tob 13,4). In disciplina et obedientia sancta perseverate (Hebr 12,7) et quae promisistis ei bono et firmo proposito adimplete. Tamquam filiis offert se nobis Dominus Deus (Hebr 12,7).",
+      "translation": "V mene najvyššej Trojice a svätej Jednoty Otca i Syna i Ducha Svätého. Amen. Všetkým ctihodným a veľmi milovaným bratom, bratovi A., generálnemu ministrovi rehole menších bratov, svojmu pánovi, a ostatným generálnym ministrom, ktorí prídu po ňom, všetkým ministrom, kustódom a kňazom toho istého bratstva, pokorným v Kristovi, a všetkým prostým a poslušným bratom, prvým i posledným: brat František, lacný a chabý človek, váš maličký služobník, posiela pozdrav v tom, ktorý nás vykúpil a umyl svojou najdrahocennejšou krvou. Keď počujete jeho meno, klaňajte sa mu s bázňou a úctou, sklonení k zemi: Pánu Ježišovi Kristovi, ktorého meno je Syn Najvyššieho, požehnaný naveky. Počúvajte, moji páni synovia a bratia, a prijmite moje slová ušami. Nakloňte ucho svojho srdca a poslúchnite hlas Božieho Syna. Zachovávajte jeho príkazy v celom srdci a plňte jeho rady dokonalou mysľou. Vyznávajte, že je dobrý, a vyvyšujte ho vo svojich skutkoch, lebo preto vás poslal do celého sveta: aby ste slovom i skutkom vydávali svedectvo jeho hlasu a dali všetkým poznať, že okrem neho niet Všemohúceho. Vytrvajte v disciplíne a vo svätej poslušnosti a dobrým a pevným predsavzatím dokonajte, čo ste mu sľúbili. Pán Boh sa nám ponúka ako synom.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.eucaristia",
+      "documentId": "source.lettera_ordine",
+      "reference": "List celému Rádu 12 – 33",
+      "originalText": "Deprecor itaque omnes vos fratres cum osculo pedum et ea caritate, qua possum, ut omnem reverentiam et omnem honorem, quantumcumque poteritis, exhibeatis sanctissimo corpori et sanguini Domini nostri Jesu Christi, in quo quae in caelis et quae in terris sunt, pacificata sunt et reconciliata omnipotenti Deo (cfr. Col 1,20). Rogo etiam in Domino omnes fratres meos sacerdotes, qui sunt et erunt et esse cupiunt sacerdotes Altissimi, quod quandocumque missam celebrare voluerint, puri pure faciant cum reverentia verum sacrificium sanctissimi corporis et sanguinis Domini nostri Jesu Christi sancta intentione et munda non pro ulla terrena re neque timore vel amore alicuius hominis, quasi placentes hominibus (cfr. Eph 6,6; Col 3,22); sed omnis voluntas, quantum adiuvat gratia, ad Deum dirigatur soli ipsi summo Domino inde placere desiderans, quia ipse ibi solus operatur sicut sibi placet; quoniam sicut ipse dicit Hoc facite in meam commemorationem (Lc 22,19; 1 Cor 11,24); si quis aliter fecerit, Judas traditor efficitur et reus fit corporis et sanguinis Domini (cfr. 1 Cor 11,27). Recordamini, fratres mei sacerdotes, quod scriptum est de lege Moysi, quam transgrediens etiam in corporalibus sine ulla miseratione per sententiam Domini moriebatur (cfr. Hebr 10,28). Quanto maiora et deteriora meretur pati supplicia, qui Filium Dei conculcaverit et sanguinem testamenti pollutum duxerit, in quo sanctificatus est, et Spiritui gratiae contumeliam fecerit (Hebr 10,29)? Despicit enim homo, polluit et conculcat Agnum Dei, quando, sicut dicit apostolus, non diiudicans (1 Cor 11,29) et discernens sanctum panem Christi ab aliis cibariis vel operibus vel indignus manducat vel etiam, si esset dignus, vane et indigne manducat, cum Dominus per prophetam dicat Maledictus homo, qui opus Dei facit fraudulenter (cfr. Jer 48,10). Et sacerdotes, qui nolunt hoc ponere super cor, in veritate condemnat dicens Maledicam benedictionibus vestris (Mal 2,2). Audite, fratres mei Si beata Virgo sic honoratur, ut dignum est, quia ipsum portavit in sanctissimo utero; si Baptista beatus contremuit et non audet tangere sanctum Dei verticem; si sepulcrum, in quo per aliquod tempus iacuit, veneratur, quantum debet esse sanctus, iustus et dignus, qui non iam moriturum, sed in aeternum victurum et glorificatum, in quo desiderant angeli prospicere (1 Petr 1,12), contractat manibus, corde et ore sumit et aliis ad sumendum praebet! Videte dignitatem vestram, fratres (cfr. 1 Cor 1,26) sacerdotes, et estote sancti, quia ipse sanctus est (cfr. Lev 19,2). Et sicut super omnes propter hoc ministerium honoravit vos Dominus Deus, ita et vos super omnes ipsum diligite, reveremini et honorate. Magna miseria et miseranda infirmitas, quando ipsum sic praesentem habetis et vos aliquid aliud in toto mundo curatis. Totus homo paveat, totus mundus contremiscat, et caelum exsultet, quando super altare in manu sacerdotis est Christus, Filius Dei vivi (Joa 11,27)! O admiranda altitudo et stupenda dignatio! O humilitas sublimis! O sublimitas humilis, quod Dominus universitatis, Deus et Dei Filius, sic se humiliat, ut pro nostra salute sub modica panis formula se abscondat! Videte, fratres, humilitatem Dei et effundite coram illo corda vestra (Ps 61,9); humiliamini et vos, ut exaltemini ab eo (cfr. 1 Petr 5,6; Jac 4,10). Nihil ergo de vobis retineatis vobis, ut totos vos recipiat, qui se vobis exhibet totum. Moneo propterea et exhortor in Domino, ut in locis, in quibus fratres morantur, una tantum missa celebretur in die secundum formam sanctae ecclesiae. Si vero plures in loco fuerint sacerdotes, sit per amorem caritatis alter contentus auditu celebrationis alterius sacerdotis; quia praesentes et absentes replet, qui eo digni sunt, Dominus Jesus Christus. Qui, licet in pluribus locis esse videatur, tamen indivisibilis manet et aliqua detrimenta non novit, sed unus ubique, sicut ei placet, operatur cum Domino Deo Patre et Spiritu Sancto Paraclito in saecula saeculorum. Amen.",
+      "translation": "Prosím teda vás všetkých, bratia, bozkom nôh a so všetkou láskou, ktorú môžem, aby ste preukazovali všetku úctu a všetku česť, ktorú môžete, najsvätejšiemu telu a krvi nášho Pána Ježiša Krista: v ňom boli veci neba i zeme privedené k pokoju a zmierené s všemohúcim Bohom. Prosím tiež v Pánovi všetkých svojich bratov, ktorí sú kňazi, ktorí budú a ktorí chcú byť, aby kedykoľvek chcú sláviť omšu, konali čisto pravú obetu najsvätejšieho tela a krvi nášho Pána Ježiša Krista, s úctou a so svätým a čistým úmyslom, nie pre nijakú pozemskú vec ani zo strachu alebo lásky k nijakému človeku, ako tí, čo sa chcú páčiť ľuďom. Nech sa každá vôľa, nakoľko pomáha milosť, obracia k samému Bohu, túžiac páčiť sa jemu, najvyššiemu Pánovi, lebo tam pôsobí on sám, ako sa mu páči. Hovorí: Toto robte na moju pamiatku. Kto robí inak, stáva sa Judášom zradcom a previňuje sa na tele a krvi Pána. Pamätajte, moji bratia kňazi, čo je napísané o Mojžišovom zákone: kto ho porušil, aj v telesných veciach, zomrel bez akéhokoľvek milosrdenstva na Pánov rozsudok. O čo väčší a horší trest si zaslúži ten, kto pošliapal Božieho Syna, pokladal krv zmluvy, v ktorej bol posvätený, za nečistú a potupil Ducha milosti? Človek pohŕda, poškvrňuje a šliape Božieho Baránka, keď, ako hovorí apoštol, nerozlišuje svätý Kristov chlieb od iných pokrmov alebo iných konaní a je nehodne; alebo aj keby bol hodný, je márne a nehodne. Pán hovorí skrze proroka: Prekliaty, kto koná Božie dielo ľstivo. A kňazov, ktorí si toto nevezmú k srdcu, naozaj odsudzuje: Prekľajem vaše požehnania. Počúvajte, moji bratia. Ak je blahoslavená Panna uctievaná, ako sa patrí, lebo ho nosila vo svojom najsvätom lone; ak sa blahoslavený Krstiteľ zachvel a neodvažuje sa dotknúť svätej Božej hlavy; ak sa uctieva hrob, v ktorom istý čas ležal: aký svätý, spravodlivý a hodný musí byť ten, kto rukami berie, srdcom a ústami prijíma a iným podáva na prijatie nie toho, kto má zomrieť, ale toho, kto bude žiť naveky a oslávený, na ktorého túžia hľadieť anjeli. Hľaďte na svoju dôstojnosť, bratia kňazi, a buďte svätí, lebo on je svätý. Ako vás Pán Boh poctil nad všetkých pre túto službu, tak ho milujte, ctite a majte v úcte nad všetkých. Veľká bieda a úbohosť hodná ľútosti, keď ho takto máte prítomného a staráte sa o niečo iné na celom svete. Nech sa celý človek chveje, celý svet otriasa a nebo jasá, keď je na oltári, v kňazovej ruke, Kristus, Syn živého Boha. Ó obdivuhodná výška a úžasné zníženie. Ó vznešená pokora. Ó pokorná vznešenosť: Pán vesmíru, Boh a Boží Syn, sa natoľko ponižuje, že sa pre našu spásu skrýva pod malou podobou chleba. Hľaďte, bratia, na Božiu pokoru a vylejte pred ním svoje srdcia. Ponížte sa aj vy, aby vás on povýšil. Nenechávajte si pre seba nič zo seba, aby vás celých prijal ten, ktorý sa vám celý ukazuje. Preto napomínam a povzbudzujem v Pánovi: na miestach, kde bratia bývajú, nech sa denne slávi len jedna omša, podľa formy svätej Cirkvi. Ak je na mieste viac kňazov, nech sa jeden z lásky uspokojí s tým, že počúva slávenie druhého, lebo Pán Ježiš Kristus napĺňa prítomných aj neprítomných, ktorí sú ho hodní. Hoci sa zdá, že je na mnohých miestach, zostáva nedeliteľný a nepozná úbytok: jeden, všade, ako sa mu páči, pôsobí s Pánom Bohom Otcom a Duchom Svätým Paraklétom na veky vekov. Amen.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.parole",
+      "documentId": "source.lettera_ordine",
+      "reference": "List celému Rádu 34 – 37",
+      "originalText": "Et, quia qui est ex Deo verba Dei audit (cfr. Joa 8,47), debemus proinde nos, qui specialius divinis sumus officiis deputati, non solum audire et facere quae dicit Deus, verum etiam ad insinuandam in nobis altitudinem Creatoris nostri et in ipso subiectionem nostram vasa et officialia cetera custodire, quae continent verba sua sancta. Propterea moneo fratres meos omnes et in Christo conforto, quatinus, ubicumque invenerint divina verba scripta, sicut possunt, venerentur; et, quantum ad eos spectat, si non sunt reposita bene vel inhoneste iacent in loco aliquo dispersa, recolligant et reponant honorantes in sermonibus Dominum, quos locutus est (3 Reg 2,4). Multa enim sanctificantur per verba Dei (cfr. 1 Tim 4,5), et in virtute verborum Christi altaris conficitur sacramentum.",
+      "translation": "A keďže kto je z Boha, počúva Božie slová, my, ktorí sme osobitnejšie určení k božským ofíciám, máme nielen počúvať a robiť, čo Boh hovorí, ale aj, aby do nás vstúpila výška nášho Stvoriteľa a naše vlastné podriadenie sa mu, uchovávať nádoby a ostatné zariadenie, ktoré obsahujú jeho sväté slová. Preto napomínam všetkých svojich bratov a povzbudzujem ich v Kristovi: kdekoľvek nájdu napísané božské slová, nech ich uctievajú, ako vedia; a nakoľko im to patrí, ak slová nie sú dobre uložené alebo ležia nehodne roztrúsené na nejakom mieste, nech ich pozbierajú a uložia späť, ctiac Pána v slovách, ktoré vyslovil. Lebo mnohé veci sa posväcujú Božími slovami a mocou Kristových slov sa koná sviatosť oltára.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.chiusura",
+      "documentId": "source.lettera_ordine",
+      "reference": "List celému Rádu 38 – 49",
+      "originalText": "Confiteor praeterea Domino Deo Patri et Filio et Spiritui Sancto, beatae Mariae perpetuae Virgini et omnibus sanctis in caelo et in terra, fratri H. ministro religionis nostrae sicut venerabili domino meo et sacerdotibus ordinis nostri et omnibus aliis fratribus meis benedictis omnia peccata mea. In multis offendi mea gravi culpa, specialiter quod regulam, quam Domino, promisi, non servavi, nec officium, sicut regula praecipit, dixi sive negligentia sive infirmitatis meae occasione sive quia ignorans sum et idiota. Ideoque per omnia oro, sicut possum, fratrem H. generalem dominum meum ministrum, ut faciat regulam ab omnibus inviolabiliter observari; et quod clerici dicant officium cum devotione coram Deo non attendentes melodiam vocis, sed consonantiam mentis, ut vox concordet menti, mens vero concordet cum Deo, ut possint per puritatem cordis placare Deum et non cum lascivitate vocis aures populi demulcere. Ego enim promitto haec firmiter custodire, sicut dederit mihi gratiam Deus; et haec fratribus, qui mecum sunt, observanda tradam in officio et ceteris regularibus constitutis. Quicumque autem fratrum haec observare noluerint, non teneo eos catholicos nec fratres meos; nolo etiam ipsos videre nec loqui, donec poenitentiam egerint. Hoc etiam dico de omnibus aliis, qui vagando vadunt, postposita regulae disciplina; quoniam Dominus noster Jesus Christus dedit vitam suam, ne perderet sanctissimi Patris obedientiam (cfr. Phil 2,8). Ego frater Franciscus, homo inutilis et indigna creatura Domini Dei, dico per Dominum Jesum Christum fratri H. ministro totius religionis nostrae et omnibus generalibus ministris, qui post eum erunt, et ceteris custodibus et guardianis fratrum, qui sunt et erunt, ut hoc scriptum apud se habeant, operentur et studiose reponant. Et exoro ipsos, ut, quae scripta sunt in eo, sollicite custodire ac facere diligentius observari secundum beneplacitum omnipotentis Dei, nunc et semper, donec fuerit mundus iste. Benedicti vos a Domino (Ps 113,23), qui feceritis ista et in aeternum Dominus sit vobiscum. Amen.",
+      "translation": "Vyznávam tiež Pánu Bohu, Otcovi i Synovi i Duchu Svätému, blahoslavenej Márii vždy panne a všetkým svätým na nebi i na zemi, bratovi H., ministrovi našej rehole, ako svojmu ctihodnému pánovi, kňazom nášho Rádu a všetkým svojim ostatným požehnaným bratom všetky svoje hriechy. V mnohom som sa previnil svojou ťažkou vinou, najmä preto, že som nezachoval regulu, ktorú som sľúbil Pánovi, a nehovoril som ofícium, ako prikazuje regula, pre nedbanlivosť alebo pre svoju chorobu alebo preto, že som nevedomý a neučený. Preto celým sebou, ako len môžem, prosím brata H., svojho pána generálneho ministra, aby dal regulu všetkými neporušene zachovávať; a aby klerici hovorili ofícium s nábožnosťou pred Bohom, nedbajúc na melódiu hlasu, ale na súlad mysle, tak aby hlas súhlasil s mysľou a myseľ s Bohom, aby sa páčili Bohu čistotou srdca a neláskali uši ľudu rozviazaným hlasom. Sľubujem, že toto budem pevne zachovávať, ako mi Boh dá milosť, a odovzdám to na zachovávanie bratom, ktorí sú so mnou, v ofíciu aj v ostatných veciach, ktoré regula ustanovuje. Bratov, ktorí tieto veci odmietajú zachovávať, nepokladám za katolíkov ani za svojich bratov; ani ich nechcem vidieť ani s nimi hovoriť, kým neurobia pokánie. To isté hovorím o všetkých ostatných, ktorí sa túlajú, odložiac disciplínu reguly, lebo náš Pán Ježiš Kristus dal svoj život, aby nestratil poslušnosť najsvätejšieho Otca. Ja, brat František, neužitočný človek a nehodné stvorenie Pána Boha, hovorím skrze Pána Ježiša Krista bratovi H., ministrovi celej našej rehole, a všetkým generálnym ministrom, ktorí prídu po ňom, a ostatným kustódom a gvardiánom bratov, prítomným i budúcim, aby tento spis mali pri sebe, uskutočňovali ho a starostlivo ho uchovávali. A prosím ich, aby starostlivo strážili, čo je v ňom napísané, a dali to zachovávať usilovnejšie, podľa dobrej vôle všemohúceho Boha, teraz i vždy, kým tento svet trvá. Požehnaní ste od Pána, vy, ktorí toto robíte, a nech je Pán s vami naveky. Amen.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.orazione",
+      "documentId": "source.lettera_ordine",
+      "reference": "List celému Rádu 50 – 52",
+      "originalText": "Omnipotens, aeterne, iuste et misericors Deus, da nobis miseris propter temetipsum facere, quod scimus te velle, et semper velle, quod tibi placet, ut interius mundati, interius illuminati et igne sancti Spiritus accensi sequi possimus vestigia (cfr. 1 Petr 2,21) dilecti Filii tui, Domini nostri Jesu Christi, et ad te, Altissime, sola tua gratia pervenire, qui in Trinitate perfecta et Unitate simplici vivis et regnas et gloriaris Deus omnipotens per omnia saecula saeculorum. Amen.",
+      "translation": "Všemohúci, večný, spravodlivý a milosrdný Bože, daj nám úbohým, pre seba samého, robiť to, o čom vieme, že ty chceš, a vždy chcieť to, čo sa tebe páči, aby sme, očistení vnútri, osvietení vnútri a zapálení ohňom Ducha Svätého, mohli nasledovať stopy tvojho milovaného Syna, nášho Pána Ježiša Krista, a prišli k tebe, Najvyšší, jedine tvojou milosťou: ty, ktorý v dokonalej Trojici a jednoduchej Jednote žiješ a kraľuješ a si oslavovaný, Boh všemohúci, na veky vekov. Amen.",
+      "note": "Stredoveký text vo verejnej doméne, z latinskej transkripcie na Wikisource (konzultovanej 11. 11. 2026). Pôvodný redakčný preklad tejto aplikácie, nie kritické vydanie.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    }
+  ]
+}

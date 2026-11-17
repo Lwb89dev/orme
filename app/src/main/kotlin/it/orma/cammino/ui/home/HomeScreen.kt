@@ -1,7 +1,6 @@
 package it.orma.cammino.ui.home
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -11,31 +10,24 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.statusBarsPadding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.MenuBook
-import androidx.compose.material.icons.filled.Eco
-import androidx.compose.material.icons.filled.Forum
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material.icons.filled.Style
-import androidx.compose.material.icons.filled.Terrain
 import androidx.compose.material.icons.outlined.EditNote
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
-import androidx.annotation.DrawableRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -46,6 +38,8 @@ import it.orma.cammino.core.content.ContentCatalog
 import it.orma.cammino.core.designsystem.components.OrnamentalDivider
 import it.orma.cammino.core.designsystem.components.PergamenaCard
 import it.orma.cammino.core.designsystem.components.TeachingStatusChip
+import it.orma.cammino.core.model.Authenticity
+import it.orma.cammino.core.model.SourceCategory
 import it.orma.cammino.core.progression.ActivityKind
 import it.orma.cammino.core.progression.ProgressionState
 import it.orma.cammino.di.AppContainer
@@ -56,10 +50,7 @@ import it.orma.cammino.ui.i18n.LocalAppLanguage
 import it.orma.cammino.ui.i18n.teachingStatusText
 import it.orma.cammino.ui.i18n.uiText
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -69,6 +60,9 @@ data class HomeUiState(
     val loading: Boolean = true,
     val progression: ProgressionState = ProgressionState(),
     val teachingOfDayId: String? = null,
+    val nextChapterId: String? = null,
+    val nextChapterTitle: String? = null,
+    val writingId: String? = null,
     val lastActivityLabel: String? = null,
     val lastActivityRoute: Route? = null,
     val chaptersDone: Int = 0,
@@ -99,6 +93,17 @@ class HomeViewModel(
             val pool = undiscovered.ifEmpty { catalog.teachings }
             pool[dayIndex % pool.size]
         } else null
+        val orderedChapters = catalog.storyChapters.sortedBy { it.order }
+        val nextChapter = orderedChapters.firstOrNull { chapter ->
+            chapter.id !in progression.completedChapters &&
+                chapter.requiredChapters.all { it in progression.completedChapters }
+        } ?: orderedChapters.firstOrNull()
+        val writings = catalog.sourceDocuments.filter { document ->
+            document.category == SourceCategory.SCRITTO_AUTENTICO &&
+                document.authenticity == Authenticity.AUTHENTIC &&
+                catalog.passagesOf(document.id).any { it.originalText.isNotBlank() }
+        }
+        val writing = writings.getOrNull(dayIndex % writings.size.coerceAtLeast(1))
 
         val last = progression.lastActivity
         val (label, route) = when {
@@ -123,6 +128,9 @@ class HomeViewModel(
             loading = false,
             progression = progression,
             teachingOfDayId = teachingOfDay?.id,
+            nextChapterId = nextChapter?.id,
+            nextChapterTitle = nextChapter?.title,
+            writingId = writing?.id,
             lastActivityLabel = label,
             lastActivityRoute = route,
             chaptersDone = progression.completedChapters.size,
@@ -171,7 +179,7 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
                     modifier = Modifier.semantics { heading() },
                 )
                 Text(
-                    text = SimpleDateFormat("EEEE d MMMM", if (language == "en") Locale.ENGLISH else Locale.ITALIAN).format(Date()),
+                    text = SimpleDateFormat("EEEE d MMMM", Locale.forLanguageTag(language)).format(Date()),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -189,31 +197,78 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
             contentDescription = uiText("Paesaggio umbro con un sentiero tra ulivi e colline", "Umbrian landscape with a path among olive trees and hills"),
         )
         Text(
-            text = uiText("Quattro vie per incontrare la storia, le fonti e l'eredità umana di Francesco d'Assisi.", "Four ways to encounter the history, sources, and human legacy of Francis of Assisi."),
+            text = uiText(
+                "Un racconto per leggere gli insegnamenti di Francesco dai suoi scritti.",
+                "A story for reading Francis's teachings from his own writings.",
+            ),
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
 
-        // Riprendi il cammino
-        if (state.lastActivityLabel != null && state.lastActivityRoute != null) {
+        if (state.nextChapterId != null) {
+            val storyDescription = uiText("Vai al Viandante: avventura narrativa", "Open the Wayfarer: narrative adventure")
             PergamenaCard(
-                onClick = { navController.navigate(state.lastActivityRoute!!) },
-                modifier = Modifier.fillMaxWidth(),
+                onClick = { navController.navigate(Route.Chapter(state.nextChapterId!!)) },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .semantics { contentDescription = storyDescription },
             ) {
-                Text(uiText("Il tuo cammino", "Your journey"), style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
+                Text(
+                    uiText("Il racconto", "The story"),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.secondary,
+                )
                 Spacer(Modifier.height(4.dp))
-                Text(if (state.lastActivityLabel == "__garden__") uiText("Riprendi: il Giardino", "Resume: the Garden") else uiText("Riprendi: ${state.lastActivityLabel!!}", "Resume: ${state.lastActivityLabel!!}"), style = MaterialTheme.typography.titleMedium)
+                Text(
+                    uiText("Il Viandante", "The Wayfarer"),
+                    style = MaterialTheme.typography.titleLarge,
+                    color = MaterialTheme.colorScheme.primary,
+                )
+                Text(
+                    state.nextChapterTitle.orEmpty(),
+                    style = MaterialTheme.typography.titleMedium,
+                )
+                if (state.chaptersTotal > 0) {
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        "${state.chaptersDone}/${state.chaptersTotal} ${uiText("capitoli", "chapters")}",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
             }
         }
 
-        // Insegnamento del giorno
+        val writing = state.writingId?.let { catalog.documentsById[it] }
+        if (writing != null) {
+            PergamenaCard(
+                onClick = { navController.navigate(Route.SourceDetail(writing.id)) },
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text(
+                    uiText("Lo scritto", "The writing"),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.secondary,
+                )
+                Spacer(Modifier.height(4.dp))
+                Text(writing.title, style = MaterialTheme.typography.titleMedium)
+                if (writing.compositionDate.isNotBlank()) {
+                    Text(
+                        writing.compositionDate,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+            }
+        }
+
         val teachingOfDay = state.teachingOfDayId?.let { catalog.teachingsById[it] }
         if (teachingOfDay != null) {
             PergamenaCard(
                 onClick = { navController.navigate(Route.TeachingDetail(teachingOfDay.id)) },
                 modifier = Modifier.fillMaxWidth(),
             ) {
-                Text(uiText("Un seme per oggi", "A seed for today"), style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
+                Text(uiText("L'insegnamento", "The teaching"), style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
                 Spacer(Modifier.height(4.dp))
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
                     Text(teachingOfDay.title, style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
@@ -227,101 +282,75 @@ fun HomeScreen(container: AppContainer, catalog: ContentCatalog, navController: 
             }
         }
 
+        if (state.lastActivityLabel != null && state.lastActivityRoute != null) {
+            val resumeLabel = if (state.lastActivityLabel == "__garden__") {
+                uiText("Riprendi dal Giardino", "Resume from the Garden")
+            } else {
+                uiText("Riprendi: ${state.lastActivityLabel!!}", "Resume: ${state.lastActivityLabel!!}")
+            }
+            TextButton(onClick = { navController.navigate(state.lastActivityRoute!!) }) {
+                Text(resumeLabel)
+            }
+        }
+
         OrnamentalDivider()
 
-        // Le quattro modalità
         Text(
-            uiText("Le quattro vie", "The four ways"),
-            style = MaterialTheme.typography.titleLarge,
+            uiText("Per fermarti", "If you want to stay"),
+            style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.primary,
             modifier = Modifier.semantics { heading() },
         )
-        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                ModalityCard(
-                    title = uiText("Il Viandante", "The Wayfarer"),
-                    subtitle = if (state.chaptersTotal > 0) "${state.chaptersDone}/${state.chaptersTotal} ${uiText("capitoli", "chapters")}" else uiText("Storie", "Stories"),
-                    icon = Icons.Filled.Terrain,
-                    artworkRes = R.drawable.art_mode_viandante,
-                    contentDescription = uiText("Vai al Viandante: avventura narrativa", "Open the Wayfarer: narrative adventure"),
-                    modifier = Modifier.weight(1f),
-                ) { navController.navigate(Route.ViandanteMap) }
-                ModalityCard(
-                    title = uiText("Il Giardino", "The Garden"),
-                    subtitle = uiText("Osserva e cura", "Observe and tend"),
-                    icon = Icons.Filled.Eco,
-                    artworkRes = R.drawable.art_mode_garden,
-                    contentDescription = uiText("Vai al Giardino: esperienza contemplativa", "Open the Garden: contemplative experience"),
-                    modifier = Modifier.weight(1f),
-                ) { navController.navigate(Route.Garden) }
-            }
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                ModalityCard(
-                    title = uiText("Le Vie della Saggezza", "The Ways of Wisdom"),
-                    subtitle = uiText("Decidi", "Decide"),
-                    icon = Icons.Filled.Style,
-                    artworkRes = R.drawable.art_mode_wisdom,
-                    contentDescription = uiText("Vai alle Vie della Saggezza: carte e dilemmi", "Open the Ways of Wisdom: cards and dilemmas"),
-                    modifier = Modifier.weight(1f),
-                ) { navController.navigate(Route.CardPaths) }
-                ModalityCard(
-                    title = uiText("Il Dialogo", "The Dialogue"),
-                    subtitle = uiText("Domanda", "Ask"),
-                    icon = Icons.Filled.Forum,
-                    artworkRes = R.drawable.art_mode_dialogue,
-                    contentDescription = uiText("Vai al Dialogo: conversazioni guidate", "Open the Dialogue: guided conversations"),
-                    modifier = Modifier.weight(1f),
-                ) { navController.navigate(Route.DialogueList) }
-            }
-        }
-
-        OrnamentalDivider()
-
-        // La vita di Francesco
-        PergamenaCard(
-            onClick = { navController.navigate(Route.Knowledge) },
-            modifier = Modifier.fillMaxWidth(),
-        ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Icon(Icons.AutoMirrored.Filled.MenuBook, contentDescription = null, tint = MaterialTheme.colorScheme.secondary)
-                Spacer(Modifier.width(12.dp))
-                Column {
-                    Text(uiText("La vita e le fonti", "Life and sources"), style = MaterialTheme.typography.titleMedium)
-                    Text(
-                        uiText("Biografia, cronologia, insegnamenti e documenti", "Biography, chronology, teachings, and documents"),
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    )
-                }
-            }
-        }
+        QuietLink(
+            title = uiText("Gli scritti", "The writings"),
+            subtitle = uiText("Le opere, in originale e in traduzione", "The works, in the original and in translation"),
+        ) { navController.navigate(Route.Knowledge(section = "SCRITTI")) }
+        QuietLink(
+            title = uiText("Gli insegnamenti", "The teachings"),
+            subtitle = uiText("Quello che i testi dicono, con la fonte a fianco", "What the texts say, with the source beside it"),
+        ) { navController.navigate(Route.Knowledge(section = "INSEGNAMENTI")) }
+        QuietLink(
+            title = uiText("Il Giardino", "The Garden"),
+            subtitle = uiText("Un luogo per rileggere ciò che hai incontrato", "A place to reread what you have met"),
+            contentDescription = uiText("Vai al Giardino: esperienza contemplativa", "Open the Garden: contemplative experience"),
+        ) { navController.navigate(Route.Garden) }
+        QuietLink(
+            title = uiText("Le Vie della Saggezza", "The Ways of Wisdom"),
+            subtitle = uiText("Situazioni, senza una risposta da indovinare", "Situations, with no answer to guess"),
+            contentDescription = uiText("Vai alle Vie della Saggezza: carte e dilemmi", "Open the Ways of Wisdom: cards and dilemmas"),
+        ) { navController.navigate(Route.CardPaths) }
+        QuietLink(
+            title = uiText("Il Dialogo", "The Dialogue"),
+            subtitle = uiText("Domande, con il limite delle fonti dichiarato", "Questions, with the limit of the sources stated"),
+            contentDescription = uiText("Vai al Dialogo: conversazioni guidate", "Open the Dialogue: guided conversations"),
+        ) { navController.navigate(Route.DialogueList) }
+        QuietLink(
+            title = uiText("La vita e le fonti", "Life and sources"),
+            subtitle = uiText("Biografia, cronologia, luoghi, persone", "Biography, chronology, places, people"),
+        ) { navController.navigate(Route.Knowledge(section = "BIOGRAFIA")) }
 
         Spacer(Modifier.height(24.dp))
     }
 }
 
 @Composable
-private fun ModalityCard(
+private fun QuietLink(
     title: String,
     subtitle: String,
-    icon: ImageVector,
-    @DrawableRes artworkRes: Int,
-    contentDescription: String,
-    modifier: Modifier = Modifier,
+    contentDescription: String? = null,
     onClick: () -> Unit,
 ) {
+    val descriptionModifier = if (contentDescription != null) {
+        Modifier.semantics { this.contentDescription = contentDescription }
+    } else {
+        Modifier
+    }
     PergamenaCard(
         onClick = onClick,
-        modifier = modifier.semantics { this.contentDescription = contentDescription },
+        modifier = Modifier
+            .fillMaxWidth()
+            .then(descriptionModifier),
     ) {
-        IllustratedBanner(
-            artworkRes = artworkRes,
-            contentDescription = null,
-            aspectRatio = 4f / 3f,
-        )
-        Spacer(Modifier.height(10.dp))
-        Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.height(28.dp))
-        Spacer(Modifier.height(8.dp))
         Text(title, style = MaterialTheme.typography.titleMedium)
         Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }

@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Το πέτρινο μονοπάτι",
+      "kind": "sentiero",
+      "description": "Ένα μονοπάτι από ανοιχτόχρωμες πέτρες διασχίζει τον κήπο: το σημείο από όπου αρχίζει κάθε πορεία.",
+      "symbolism": "Η πορεία ως εικόνα της ζωής: ο δρόμος ανοίγει περπατώντας, μία πέτρα τη φορά.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Η ελιά της ειρήνης",
+      "kind": "albero",
+      "description": "Μια παλιά ελιά, με ασημένια κόμη, φυτεμένη όταν ανακάλυψες τον χαιρετισμό της ειρήνης.",
+      "symbolism": "Η ελιά: μεσογειακό φυτό της ειρήνης και της υπομονής. Μεγαλώνει αργά και κρατά γενιές.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Η βρύση της αδελφής νερού",
+      "kind": "acqua",
+      "description": "Μια πέτρινη βρύση με καθαρό νερό, που ο ήλιος ανάβει το πρωί.",
+      "symbolism": "«Αδελφή νερό, χρήσιμο και ταπεινό και πολύτιμο και αγνό»: στο Άσμα το νερό είναι αδελφή που αξίζει ευχαριστία.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Τα ρόδα του Σαν Νταμιάνο",
+      "kind": "fiore",
+      "description": "Μια ανθισμένη τριανταφυλλιά κοντά στον τοίχο: φυτρώνει εκεί όπου κάποιος φρόντισε τους άλλους.",
+      "symbolism": "Η ομορφιά που γεννιέται από την υπηρεσία: η αγάπη κάνει να ανθίζουν οι άνυδροι τόποι.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Ο κοινός κήπος",
+      "kind": "orto",
+      "description": "Μικρά παρτέρια με βότανα και λαχανικά, που τα φροντίζουν εκ περιτροπής: η ταπεινή εργασία που τρέφει όλους.",
+      "symbolism": "Η καθημερινή υπηρεσία: όποιος καλλιεργεί τον κήπο δεν τον κατέχει, τον φυλάει για όποιον θα έρθει.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Το κυπαρίσσι της σιωπής",
+      "kind": "albero",
+      "description": "Ένα ψηλό, ίσιο κυπαρίσσι, που σημαδεύει το σύνορο ανάμεσα στον κήπο και στο δάσος.",
+      "symbolism": "Η προσευχή ως κατακόρυφο: ρίζες στη γη, η κορυφή προς τον ουρανό.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Η φωλιά των σπίνων",
+      "kind": "animali",
+      "description": "Στα πιο ασφαλή κλαδιά, ένα ζευγάρι σπίνοι διάλεξε τον κήπο για να φτιάξει τη φωλιά του.",
+      "symbolism": "Η υποδοχή: ο κήπος γίνεται σπίτι και για όποιον έρχεται απέξω.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Το πέτρινο παγκάκι",
+      "kind": "struttura",
+      "description": "Ένα πέτρινο παγκάκι κάτω από τον τοίχο το μεσημέρι: το μέρος όπου κάθεται κανείς και μένει.",
+      "symbolism": "Η πίστη ως έμπιστη στάση: όχι πάντα περπάτημα, κάποτε απλώς να μένεις.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Τα ηλιοτρόπια της ευχαριστίας",
+      "kind": "fiore",
+      "description": "Μια σειρά ηλιοτρόπια που στρέφονται ακολουθώντας το φως μέσα στην ημέρα.",
+      "symbolism": "Η ευγνωμοσύνη: το να στρέφεσαι προς το φως είναι καθημερινή άσκηση του βλέμματος.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Η κυψέλη των μελισσών",
+      "kind": "animali",
+      "description": "Μια ξύλινη κυψέλη μυρίζει κερί· οι μέλισσες πηγαινοέρχονται στα λουλούδια του κήπου.",
+      "symbolism": "Η αδελφότητα: καμία μέλισσα δεν φτιάχνει μέλι μόνη της, και καμία δεν κατέχει την κηρήθρα.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Να κοιτάς τον ουρανό",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Σήκωσε το βλέμμα από τον κήπο προς τον ουρανό. Μείνε για λίγο στη σιωπή, χωρίς να κάνεις τίποτα."
+        },
+        {
+          "kind": "leggi",
+          "text": "Διάβασε αργά την αρχή του Άσματος των πλασμάτων.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Ο Φραγκίσκος ονομάζει τον ήλιο «αδελφό» και τη σελήνη «αδελφή». Τι θα άλλαζε αν έβλεπες τον κόσμο ως οικογένεια και όχι ως πόρο;"
+        },
+        {
+          "kind": "annota",
+          "text": "Αν θέλεις, σημείωσε στο ημερολόγιο κάτι για το οποίο μπορείς σήμερα να πεις: «Laudato sie, mi' Signore»."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Να ακούς το νερό",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Πλησίασε τη βρύση. Άκουσε τον ήχο του νερού για μερικές αναπνοές, χωρίς βιασύνη."
+        },
+        {
+          "kind": "leggi",
+          "text": "Ξαναδιάβασε τον αίνο του Θεού που γράφτηκε στη Λα Βέρνα: μια προσευχή που δεν ζητά τίποτα.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Οι Αίνοι του Θεού δεν περιέχουν αιτήματα: μόνο αναγνώριση. Πότε ήταν η τελευταία φορά που ευχαρίστησες χωρίς να ζητήσεις;"
+        },
+        {
+          "kind": "annota",
+          "text": "Αν θέλεις, γράψε στο ημερολόγιο τρία πράγματα που έλαβες σήμερα, έστω μικρά."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Το αργό βήμα",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Διάνυσε το πέτρινο μονοπάτι αργά, προσέχοντας κάθε βήμα: το βάρος, την επαφή, τον ρυθμό."
+        },
+        {
+          "kind": "leggi",
+          "text": "Διάβασε την απάντηση του Φραγκίσκου στον αδελφό Λέοντα, που αναζητούσε τη σωστή επιλογή.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Στον αδελφό Λέοντα ο Φραγκίσκος δεν δίνει οδηγίες αλλά ελευθερία: «ακολούθησε τη συνείδησή σου ενώπιον του Θεού». Τι σου διδάσκει αυτός ο τρόπος συνοδείας;"
+        },
+        {
+          "kind": "annota",
+          "text": "Αν θέλεις, σημείωσε στο ημερολόγιο μια απόφαση που κουβαλάς, και προς τα πού νιώθεις να προσανατολίζεται η συνείδησή σου."
+        }
+      ]
+    }
+  ]
+}

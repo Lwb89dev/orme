@@ -1,0 +1,572 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Syntymä Assisissa",
+      "description": "Giovanni di Pietro di Bernardone, jota kutsutaan Franciscukseksi, syntyy Assisissa varakkaalle kangaskauppiaalle ja madonna Picalle.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 tai 1182 (epävarma)",
+      "chronologicalUncertainty": "Lähteet eivät ole yhtä mieltä vuodesta: historiantutkimus esittää sekä vuotta 1181 että vuotta 1182.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.pietro_bernardone", "person.madonna_pica"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Sota ja vankeus",
+      "description": "Assisin ja Perugian välisessä sodassa Franciscus taistelee Collestradan taistelussa (marraskuu 1202), joutuu vangiksi ja viipyy Perugiassa noin vuoden. Paluun jälkeen sairaus alkaa muuttaa häntä.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Uni Spoletossa ja paluu",
+      "description": "Lähdettyään Apuliaan sotilaallisen kunnian perään Franciscus näkee Spoletossa unen, joka lähettää hänet takaisin Assisiin. Hän alkaa irrottautua entisestä elämästään: unia, rukousta ja pyhiinvaellus Roomaan.",
+      "yearFrom": 1205,
+      "dateLabel": "noin 1204–1205",
+      "chronologicalUncertainty": "Näiden kuukausien rekonstruktio tulee keskiaikaisista elämäkerroista; tarkat päivämäärät ovat sopimuksenvaraisia.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.celano_vita_seconda"],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Kohtaaminen spitaalisten kanssa",
+      "description": "Testamentissaan Franciscus kertoo, miten Herra vei hänet spitaalisten joukkoon ja miten hän \"osoitti heille laupeutta\": episodi, jonka hän itse nimeää kääntymyksensä aluksi.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "noin 1205–1206",
+      "chronologicalUncertainty": "Testamentti ei anna päivämäärää; tapahtuma edeltää julkista irtiottoa perheestä.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.testamento", "source.celano_vita_prima"],
+      "teachingIds": ["teaching.carita.lebbrosi", "teaching.misericordia.compassione"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "San Damianon krusifiksi",
+      "description": "Raunioituneessa San Damianon kirkossa Franciscus perinteen mukaan kuulee krusifiksin puhuttelevan häntä: \"Korjaa minun huoneeni.\" Aluksi hän ymmärtää sen kirjaimellisesti ja kunnostaa kirkkoja omin käsin.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "noin 1205–1206",
+      "chronologicalUncertainty": "Episodi on todistettu ennen kaikkea toisessa elämäkerrassa ja myöhemmässä perinteessä; sanatarkka vuoropuhelu kuuluu hartauskerrontaan.",
+      "placeId": "place.san_damiano",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_seconda"],
+      "teachingIds": ["teaching.fede.cristo_centro"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Luopuminen piispan edessä",
+      "description": "Isä vie Franciscuksen piispa Guidon eteen myytyjen tavaroiden vuoksi. Franciscus palauttaa kaiken, vaatteensakin, ja uskoo itsensä \"Isälle, joka on taivaassa\". Piispa peittää hänet omalla viitallaan.",
+      "yearFrom": 1206,
+      "dateLabel": "alkuvuosi 1206",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.vescovo_guido", "person.pietro_bernardone"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.rinuncia.sine_proprio"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Ensimmäiset kumppanit",
+      "description": "Bernardo da Quintavalle, Egidio ja muut liittyvät Franciscuksen seuraan ja jakavat hänen elämänmuotonsa: kiertelevä veljeskunta, työn, almun ja rauhan julistuksen keskellä.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": ["person.francesco", "person.bernardo_quintavalle", "person.frate_egidio"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Innocentius III:n hyväksyntä",
+      "description": "Franciscus ja kumppanit menevät Roomaan. Innocentius III antaa suullisen hyväksynnän heidän evankeliselle elämänmuodolleen. Hyväksynnästä ei ole säilynyt asiakirjaa: perinne ajoittaa sen vuoteen 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (tai 1209)",
+      "chronologicalUncertainty": "Hyväksyntä oli suullinen, eikä siitä ole säilynyt asiakirjaa. Tarkka vuosi (1209 tai 1210) on kiistanalainen.",
+      "placeId": null,
+      "personIds": ["person.francesco", "person.innocenzo_iii"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.comunita.regola"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Portiuncula, veljeskunnan koti",
+      "description": "Pieni Pyhän Marian enkelien kirkko, jota kutsutaan Portiunculaksi, tulee veljeskunnan vakiintuneeksi kodiksi: liikkeen hengelliseksi ja tunteelliseksi keskukseksi.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Klaran lähtö",
+      "description": "Klara Offreduccio jättää isänsä talon ja saapuu Franciscuksen luo Portiunculaan palmusunnuntain ja maanantain välisenä yönä vuonna 1212. Hänen elämänmuotonsa alkaa, ja siitä syntyvät klarissat.",
+      "yearFrom": 1212,
+      "dateLabel": "18.–19. maaliskuuta 1212",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.chiara", "person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.rinuncia.sine_proprio"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Kohtaaminen sulttaanin kanssa",
+      "description": "Viidennen ristiretken aikana Franciscus ylittää linjat ja kohtaa sulttaani al-Malik al-Kamilin Damiettassa: vuoropuhelun kohtaaminen sodan keskellä, jonka franciskaaniset lähteet dokumentoivat ja jonka ulkopuoliset kronikoitsijat muistavat.",
+      "yearFrom": 1219,
+      "dateLabel": "syyskuu 1219",
+      "placeId": "place.damietta",
+      "personIds": ["person.francesco", "person.sultano"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.accoglienza.ogni_uomo", "teaching.pace.saluto"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Vahvistamaton sääntö",
+      "description": "Fonte Colombossa, Rietin lähellä, laaditaan veljeskunnan ensimmäinen täydellinen sääntö (Regula non bullata): pitkä ja hengellinen, eikä sitä koskaan vahvisteta muodollisesti.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.regola_non_bollata"],
+      "teachingIds": ["teaching.fraternita.minori", "teaching.comunita.regola"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Vahvistettu sääntö",
+      "description": "Honorius III vahvistaa lopullisen säännön bullalla \"Solet annuere\" (29. marraskuuta 1223): lyhyempi ja juridinen, se jää vähäisempien veljien sääntökunnan perustaksi.",
+      "yearFrom": 1223,
+      "dateLabel": "29. marraskuuta 1223",
+      "placeId": null,
+      "personIds": ["person.francesco", "person.onorio_iii"],
+      "sourceDocumentIds": ["source.regola_bollata"],
+      "teachingIds": ["teaching.poverta.liberta", "teaching.comunita.regola"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Joulu Grecciossa",
+      "description": "Jouluna 1223 Franciscus teettää Greccioon oikean seimen, heinää, härän ja aasin, jotta Betlehemin köyhyys nähtäisiin \"ruumiin silmin\": seimiperinteen alku.",
+      "yearFrom": 1223,
+      "dateLabel": "joulu 1223",
+      "placeId": "place.greccio",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.poverta.liberta"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "Syyskuussa 1224, vetäytyneenä La Vernan vuorelle, Franciscus saa lähimpien keskiaikaisten lähteiden mukaan Kristuksen kärsimyksen haavat, jotka hän pyrkii pitämään salassa.",
+      "yearFrom": 1224,
+      "dateLabel": "syyskuu 1224",
+      "placeId": "place.laverna",
+      "personIds": ["person.francesco", "person.frate_leone"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.preghiera.eremo", "teaching.fede.cristo_centro"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Luotujen laulu",
+      "description": "Sairaana ja lähes sokeana Franciscus laatii vaiheittain umbrialaisella kansankielellä hymnin, joka tunnetaan Luotujen lauluna: Jumalan ylistystä veli auringon, sisar veden, äiti maan ja lopulta sisar ruumiillisen kuoleman kautta.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.cantico", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Gubbion susi",
+      "description": "Pienet kukat kertovat, että Franciscus sovitti rauhan Gubbion kaupungin ja raivokkaan suden välille: kaupunki ruokkisi sen, eikä susi enää vahingoittaisi ketään. Hagiografinen kertomus, ei kronikka.",
+      "yearFrom": 1220,
+      "dateLabel": "ajankohta epävarma",
+      "chronologicalUncertainty": "1300-luvun hagiografisen perinteen episodi (Pienet kukat, luku 21), ilman dokumentaarista vahvistusta: tarjoamme sen muistin kertomuksena, emme historiallisena tosiseikkana.",
+      "placeId": "place.gubbio",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.fioretti"],
+      "teachingIds": ["teaching.pace.saluto", "teaching.accoglienza.ogni_uomo"],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Kuolema Portiunculassa",
+      "description": "Franciscus kuolee 3. lokakuuta 1226 illalla Portiunculassa, saneltuaan Testamenttinsa ja pyydettyään, että hänet laskettaisiin alastomana alastomalle maalle.",
+      "yearFrom": 1226,
+      "dateLabel": "3. lokakuuta 1226",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.testamento"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Kanonisaatio",
+      "description": "Gregorius IX julistaa Franciscuksen pyhäksi Assisissa 16. heinäkuuta 1228, alle kaksi vuotta kuoleman jälkeen, ja antaa Celanolaiselle Tuomaalle tehtäväksi kirjoittaa ensimmäisen virallisen elämäkerran.",
+      "yearFrom": 1228,
+      "dateLabel": "16. heinäkuuta 1228",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.celano"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Franciscus Assisilainen",
+      "role": "Vähäisempien veljien veljeskunnan perustaja",
+      "description": "Giovanni di Pietro di Bernardone (1181/82–1226). Kauppias, sitten kiertelevä katuja, sitten veljeskunnan perustaja, joka muutti Kirkon historiaa. Kanonisoitu vuonna 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.testamento"]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Klara Assisilainen",
+      "role": "Klarissojen perustaja",
+      "description": "Assisin aatelisnainen (1193/94–1253). Hän seuraa Franciscusta vuonna 1212 ja perustaa \"köyhien naisten\" yhteisön San Damianoon. Ensimmäinen nainen, joka kirjoitti hyväksytyn sääntökuntasäännön.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernardo da Quintavalle",
+      "role": "Ensimmäinen kumppani",
+      "description": "Varakas assisilainen. Hän jakaa omaisuutensa ja tulee Franciscuksen ensimmäiseksi kumppaniksi (1208). Kuoli vuonna 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Veli Egidio",
+      "role": "Ensimmäisten kumppanien joukossa",
+      "description": "Sivistynyt maanviljelijä ja mystikko, Franciscuksen kolmas kumppani. Perinne lukee hänelle viisaat \"lauseet\".",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Veli Leo",
+      "role": "Rippi-isä ja uskollinen kumppani",
+      "description": "Viimeisten vuosien kumppani, Franciscuksen omakätisen kirjeen vastaanottaja ja todistaja La Vernassa.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.lettera_leone", "source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II, Assisin piispa",
+      "role": "Franciscuksen suojelija",
+      "description": "Assisin piispa vuodesta 1204. Hän peitti Franciscuksen viitallaan luopumisen hetkellä ja tuki hänen ensimmäisiä askeliaan.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Franciscuksen isä",
+      "description": "Assisin kangaskauppias. Konflikti pojan kanssa myydyistä tavaroista huipentui julkiseen kohtaukseen piispan edessä.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pica",
+      "role": "Franciscuksen äiti",
+      "description": "Perinne muistaa hänet läheisemmäksi pojalleen kääntymyksen kriisin aikana. Lähteet hänestä ovat niukkoja.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Paavi Innocentius III",
+      "role": "Paavi (1198–1216)",
+      "description": "Keskiajan vaikutusvaltaisimpia paaveja. Perinteen mukaan hän antoi vuonna 1210 suullisen hyväksynnän Franciscuksen elämänmuodolle.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Paavi Honorius III",
+      "role": "Paavi (1216–1227)",
+      "description": "Hän vahvisti vahvistetun säännön vuonna 1223 ja tuki nuorta veljeskuntaa.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": ["source.regola_bollata"]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Egyptin sulttaani",
+      "description": "Aijubidien sulttaani, joka kohtasi Franciscuksen Damiettassa vuonna 1219, viidennen ristiretken aikana.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.celano",
+      "name": "Celanolainen Tuomas",
+      "role": "Ensimmäinen elämäkerturi",
+      "description": "Vähäisempi veli. Hän kirjoitti ensimmäisen elämäkerran (1228–29) Gregorius IX:n toimeksiannosta ja toisen (1246–47) kooten kumppanien todistukset.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventura Bagnoregiolainen",
+      "role": "Teologi ja elämäkerturi",
+      "description": "Yliopiston opettaja ja sääntökunnan yleisministeri. Hänen suuremmasta legendastaan (1260–63) tuli Franciscuksen virallinen elämäkerta.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": ["source.bonaventura_leggenda_maggiore"]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardinaali Ugolino (myöhemmin Gregorius IX)",
+      "role": "Sääntökunnan suojelija",
+      "description": "Veljeskunnan suojelijakardinaali, myöhemmin paavi: hän kanonisoi Franciscuksen vuonna 1228.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Veli Elias Cortonalainen",
+      "role": "Kiistelty seuraaja",
+      "description": "Kumppani ja myöhemmin sääntökunnan johtaja Franciscuksen jälkeen. Kiistelty hahmo, merkki jännitteestä karisman ja instituution välillä.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": ["source.bonaventura_leggenda_maggiore"]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Franciscuksen syntymäkaupunki: tori, San Rufinon katedraali, muurit ja keskiaikaiset kujat.",
+      "historicalNote": "Todellinen historiallinen paikka.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "Pieni kirkko Assisin ulkopuolella, jossa Franciscus rukoili krusifiksin edessä. Myöhemmin Klaran ja hänen sisartensa koti.",
+      "historicalNote": "Todellinen historiallinen paikka.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Portiuncula (Pyhän Marian enkelit)",
+      "description": "Pieni kirkko tasangolla Assisin alapuolella: ensimmäisen veljeskunnan koti ja Franciscuksen kuolinpaikka.",
+      "historicalNote": "Todellinen historiallinen paikka. Nykyisin se on Pyhän Marian enkelien basilikan sisällä.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Maja puron varrella, jossa ensimmäiset kumppanit elivät kiertelevää elämänmuotoaan.",
+      "historicalNote": "Todellinen historiallinen paikka. Nykyinen pyhäkkö säilyttää asutuksen muiston.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Carcerin erakkomaja",
+      "description": "Erakkomaja Subasion vuorella, rautatammien ja luolien keskellä: vetäytymisen ja rukouksen paikka.",
+      "historicalNote": "Todellinen historiallinen paikka.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Umbrialainen kaupunki, joka liittyy suden kertomukseen ja Franciscuksen läsnäoloon erakkavuosina.",
+      "historicalNote": "Todellinen historiallinen paikka. Suden episodi kuuluu hagiografiseen perinteeseen.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Kylä Rietin seudulla, jossa Franciscus vietti joulun 1223 elävän seimen äärellä.",
+      "historicalNote": "Todellinen historiallinen paikka.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Vuori Toscanan Apenniineilla, annettu Franciscukselle. Hänen vetäytymisensä paikka vuonna 1224 ja keskiaikaisten lähteiden mukaan stigmatisaation paikka.",
+      "historicalNote": "Todellinen historiallinen paikka.",
+      "isHistoricalPlace": true,
+      "region": "Toscana"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Erakkomaja Rietin lähellä, jossa vuoden 1221 vahvistamaton sääntö laadittiin.",
+      "historicalNote": "Todellinen historiallinen paikka.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "Kaupunki Niilin suistossa, viidennen ristiretken näyttämö ja Franciscuksen ja sulttaanin kohtaamisen paikka (1219).",
+      "historicalNote": "Todellinen historiallinen paikka.",
+      "isHistoricalPlace": true,
+      "region": "Egypti"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Tammien kylä",
+      "description": "Kuvitteellinen kylä Spoleton laaksossa: Vaeltajan tärkein kerronnallinen miljöö.",
+      "historicalNote": "Peliä varten luotu fiktiivinen miljöö, ei historiallinen paikka.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (kuvitteellinen)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbrian maaseutu ja metsät",
+      "description": "Tiet, rautatammimetsät ja pellot kylien välillä: Vaeltajan kertomusten kiertelevä miljöö.",
+      "historicalNote": "Kerronnallinen miljöö, joka ammentaa todellisesta umbrialaisesta maisemasta.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (miljöö)"
+    }
+  ],
+  "glossary": [
+    {"id": "gloss.agiografia", "term": "Hagiografia", "definition": "Pyhimysten elämäkertojen kirjallisuus: keskiaikainen hartauslaji, jonka päämäärä on rakentaa, ei kronikoida. Sitä on luettava toisin välinein kuin dokumentaarista historiaa."},
+    {"id": "gloss.penitenza", "term": "Parannus", "definition": "Franciscuksen kielessä: sydämen ja elämän kääntymys, ei rangaistus. \"Tehdä parannusta\" merkitsi suunnan muuttamista."},
+    {"id": "gloss.frate_minore", "term": "Vähäisempi veli", "definition": "Nimi, jonka Franciscus valitsi kumppaneilleen: \"vähäiset\", siis pienimmät, ilman vaatimusta arvoasemaan."},
+    {"id": "gloss.ministro", "term": "Ministeri", "definition": "Franciskaanisessa veljeskunnassa: yhteisön tai provinssin vastuunkantaja. Sana merkitsee \"palvelijaa\"."},
+    {"id": "gloss.regola", "term": "Sääntö", "definition": "Teksti, joka määrittelee sääntökuntayhteisön elämänmuodon. Franciscus kirjoitti kaksi versiota: vahvistamattoman säännön (1221) ja vahvistetun säännön (1223)."},
+    {"id": "gloss.bolla", "term": "Paavillinen bulla", "definition": "Paavin virallinen asiakirja, nimetty sen aitoutta vahvistavan lyijysinetin (bulla) mukaan. \"Vahvistettu sääntö\" tarkoittaa bullalla hyväksyttyä sääntöä."},
+    {"id": "gloss.porziuncola", "term": "Portiuncula", "definition": "\"Pieni osuus\" maata: Pyhän Marian enkelien kirkko Assisin lähellä, veljeskunnan koti."},
+    {"id": "gloss.stimmate", "term": "Stigmat", "definition": "Kristuksen kärsimyksen merkit, jotka keskiaikaiset lähteet lukevat Franciscukselle La Vernan vetäytymisen jälkeen (1224)."},
+    {"id": "gloss.sine_proprio", "term": "Sine proprio", "definition": "Perinteen ilmaus: \"ilman mitään omaa\", franciskaaninen köyhyyden muoto."},
+    {"id": "gloss.lauda", "term": "Lauda", "definition": "Kansankielinen uskonnollinen runo, tarkoitettu laulettavaksi. Luotujen laulu on lauda."},
+    {"id": "gloss.comune", "term": "Kommuuni", "definition": "Keskiajan Italian kaupunkien itsehallinto. Franciscuksen Assisi oli kasvava kommuuni, ristiriidassa Perugian ja feodaalivallan kanssa."},
+    {"id": "gloss.capitolo", "term": "Kapituli", "definition": "Sääntökuntaveljeskunnan säännöllinen kokoontuminen. Myös koko sääntökunnan \"yleiskapituli\"."},
+    {"id": "gloss.lebbrosario", "term": "Leprasairaala", "definition": "Keskiaikainen sairaala tai lazaretto spitaalisille, kaupungin muurien ulkopuolella. Franciscuksen ratkaisevan kohtaamisen paikka."},
+    {"id": "gloss.eleemosina", "term": "Almu", "definition": "Lahja, jota pyydetään tai saadaan elämistä varten. Ensimmäisille veljille se oli luottamuksen merkki kaitselmukseen, ei nöyryytys."}
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Kauppiaan poika (1181/82–1202)",
+      "text": "Franciscus syntyy Assisissa Pietro di Bernardonelle, varakkaalle kangaskauppiaalle, ja madonna Picalle. Hän kasvaa kaupungissa, joka kukoistaa kommuunina: loistava nuorukainen, antelias, juhlien ja ranskalaisten trubaduurien ystävä, haaveilee ritarikunniasta. Vuonna 1202 hän taistelee Perugiaa vastaan Collestradassa. Tappio ja vuosi vankeutta päättävät hänen ensimmäisen elämänsä dramaattisesti.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Käänne (1202–1206)",
+      "text": "Sairaus vankeuden jälkeen, uni Spoletossa ja pyhiinvaellus Roomaan, jossa hän vaihtaa vaatteet kerjäläisen kanssa: Franciscus etsii uutta suuntaa. Sitten tulee tapahtuma, jonka hän itse nimeäisi aluksi: kohtaaminen spitaalisten kanssa, jossa \"se, mikä oli tuntunut minusta katkeralta, muuttui suloisuudeksi\". San Damianossa, krusifiksin edessä, hän kuulee kutsun korjata Jumalan \"huone\". Hän myy isänsä kankaan ja hevosen kunnostaakseen pienen kirkon. Konflikti puhkeaa piispan edessä, jossa hän palauttaa kaiken.",
+      "sourceDocumentIds": ["source.testamento", "source.celano_vita_prima", "source.celano_vita_seconda"],
+      "teachingIds": ["teaching.carita.lebbrosi", "teaching.rinuncia.sine_proprio", "teaching.fede.cristo_centro"]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "\"Korjaa minun huoneeni\" (1206–1209)",
+      "text": "Yksin, katujaan pukeutuneena, Franciscus kunnostaa San Damianon, San Pietron ja Portiunculan kivi kiveltä ja palvelee leprasairaaloissa. Aluksi kaupunki pilkkaa häntä, sitten alkaa katsoa häntä toisin. Evankeliumia kuunnellessaan hän ymmärtää kutsun: julistaa rauhaa, elää ilman mitään omaa, kulkea. Tehtävä osoittautuu suuremmaksi kuin kolmen kirkon kunnostus: korjata itse Kirkko alhaalta käsin.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.poverta.liberta", "teaching.pace.saluto"]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Veljeskunta (1209–1219)",
+      "text": "Bernardo da Quintavalle, Egidio ja muut: ensimmäiset kumppanit jakavat elämänmuodon, ja vuonna 1210 (tai 1209) Innocentius III antaa sille suullisen hyväksynnän. Portiunculasta tulee koti. Vuonna 1212 Klara Assisilainen pakenee yöllä seuratakseen samaa kutsua. Veljeskunta kasvaa yli kaikkien odotusten, vuosittaisine kapiteleineen ja lähetyksineen ympäri Eurooppaa: suuren joukon vaikeudet alkavat.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori", "teaching.accoglienza.ogni_uomo"]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Itään (1219–1220)",
+      "text": "Keskellä viidettä ristiretkeä Franciscus saapuu ristiretkeläisten leiriin Damiettassa, ylittää linjat ja kohtaa sulttaani al-Malik al-Kamilin. Keskiaikaiset lähteet kuvaavat heidän keskinäistä kunnioitustaan. Nykytutkimus kiistelee yksityiskohdista, mutta ele jää: sodan aikana lähteä toista vastaan. Palatessaan hän löytää veljeskunnan muuttuneena ja levottomana: sen koko vaatii rakenteita, joita hän pelkää.",
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.accoglienza.ogni_uomo", "teaching.pace.saluto"]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Kasvamisen työ (1220–1223)",
+      "text": "Franciscus jättää sääntökunnan jokapäiväisen hallinnon ja omistautuu kirjoitetulle säännölle: vuoden 1221 sääntöä, pitkää ja vapaata, ei vahvisteta; vuoden 1223 sääntö, lyhyempi ja juridinen, saa Honorius III:n bullan. Jännite karisman ja instituution välillä kulkee näiden vuosien läpi: Franciscus elää sen uskollisuudessa ja kärsimyksessä. Grecciossa, jouluna 1223, hän tekee Betlehemin köyhyyden näkyväksi oikealla seimellä.",
+      "sourceDocumentIds": ["source.regola_non_bollata", "source.regola_bollata", "source.celano_vita_prima"],
+      "teachingIds": ["teaching.comunita.regola", "teaching.poverta.liberta"]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Laulu ja ilta (1224–1226)",
+      "text": "La Vernassa syyskuussa 1224 lähteet kertovat stigmoista. Sairaana ja lähes sokeana hän laatii San Damianossa Luotujen laulun: ylistys nousee pimeimpänä aikana. Hän lisää anteeksiannon säkeistön sovittaakseen piispan ja podestàn, ja lopuksi säkeistön \"sisaresta, ruumiillisesta kuolemasta\". Saneltuaan Testamentin hän kuolee Portiunculassa 3. lokakuuta 1226 illalla, alastomana alastomalla maalla. Kaksi vuotta myöhemmin Gregorius IX julistaa hänet pyhäksi.",
+      "sourceDocumentIds": ["source.cantico", "source.testamento", "source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi", "teaching.gioia.perfetta_letizia"]
+    }
+  ]
+}

@@ -41,8 +41,9 @@ sealed interface Route {
     data class Conversation(val conversationId: String) : Route
 
     // --- Conoscenza ---
+    /** `section` è il nome di [it.orma.cammino.ui.knowledge.KnowledgeSection]. */
     @Serializable
-    data object Knowledge : Route
+    data class Knowledge(val section: String = "SCRITTI") : Route
 
     @Serializable
     data class TeachingDetail(val teachingId: String) : Route

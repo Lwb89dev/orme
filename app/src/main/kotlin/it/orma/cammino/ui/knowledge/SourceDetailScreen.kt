@@ -115,8 +115,9 @@ fun SourceDetailScreen(
 
             if (passages.isNotEmpty()) {
                 OrnamentalDivider()
+                val hasOriginal = passages.any { it.originalText.isNotBlank() }
                 Text(
-                    uiText("Passi citati in questa app", "Passages cited in this app"),
+                    if (hasOriginal) uiText("Il testo", "The text") else uiText("Passi citati in questa app", "Passages cited in this app"),
                     style = MaterialTheme.typography.titleLarge,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.semantics { heading() },
@@ -129,14 +130,6 @@ fun SourceDetailScreen(
                             color = MaterialTheme.colorScheme.secondary,
                         )
                         Spacer(Modifier.height(6.dp))
-                        if (passage.originalText.isNotBlank()) {
-                            Text(
-                                passage.originalText,
-                                style = MaterialTheme.typography.bodyMedium,
-                                fontStyle = FontStyle.Italic,
-                            )
-                            Spacer(Modifier.height(6.dp))
-                        }
                         if (passage.translation.isNotBlank()) {
                             Text(passage.translation, style = MaterialTheme.typography.bodyLarge)
                             Text(
@@ -144,12 +137,21 @@ fun SourceDetailScreen(
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                             )
+                            Spacer(Modifier.height(8.dp))
                         } else if (passage.paraphrase.isNotBlank()) {
                             Text(passage.paraphrase, style = MaterialTheme.typography.bodyLarge)
                             Text(
                                 uiText("Parafrasi editoriale", "Editorial paraphrase"),
                                 style = MaterialTheme.typography.labelSmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                            Spacer(Modifier.height(8.dp))
+                        }
+                        if (passage.originalText.isNotBlank()) {
+                            Text(
+                                passage.originalText,
+                                style = MaterialTheme.typography.bodyMedium,
+                                fontStyle = FontStyle.Italic,
                             )
                         }
                         if (passage.note.isNotBlank()) {

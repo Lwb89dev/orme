@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Pozdrowienie pokoju",
+      "text": "W Testamencie Franciszek zaświadcza, że Pan objawił mu pozdrowienie pokoju, które ma nieść innym, a źródła średniowieczne pamiętają pierwszych braci głoszących pokój od domu do domu. Dla Franciszka pokój nie jest brakiem konfliktu: to dar do przekazania, od drzwi do drzwi, od osoby do osoby. Opowieść o wilku z Gubbio doprowadza tę logikę do krańca: pokój zawiera się nawet z tym, co budzi lęk, wychodząc mu naprzeciw. Z tej samej tradycji rodzi się ludowa formuła „pokój i dobro”.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Ubóstwo jako wolność",
+      "text": "Reguła z 1223 roku prosi braci, by niczego sobie nie przywłaszczali — ani domu, ani miejsca, ani żadnej rzeczy — i by żyli w świecie jako pielgrzymi i obcy. Franciszkańskie ubóstwo nie sławi niedostatku, który pozostaje społeczną raną: to wybór, by nie dać się określić przez posiadanie. Kto nie ma czego bronić, nie ma czego się lękać i może przyjmować wszystko jako dar. Fundament jest teologiczny, zanim będzie ekonomiczny: sam Pan stał się ubogi.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Bracia mniejsi",
+      "text": "Franciszek chciał, by jego towarzysze nazywali się braćmi mniejszymi: nikt nie jest wielki, a odpowiedzialni nazywają się „ministrami”, czyli sługami. Reguła z 1221 roku prosi, by każdy okazywał drugiemu własną potrzebę, by nikt nie osądzał brata, by zdrowy nie gardził słabością chorego. Braterstwo nie jest ideałem do ogłoszenia: to codzienna praktyka wzajemnej odpowiedzialności. Jest się braćmi w konkretnych gestach albo nie jest się nimi wcale.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Brat słońce, siostra woda",
+      "text": "W Pieśni stworzeń Franciszek chwali Boga „przez” stworzenia i „z” nimi: brata słońce, siostrę księżyc, brata wiatr, siostrę wodę „użyteczną i pokorną, cenną i czystą”, siostrę naszą matkę ziemię. Przyroda nie jest ubóstwiona ani sprowadzona do magazynu zasobów: jest rodziną, bo wszystkie stworzenia mają tego samego Ojca. Troska o stworzenie rodzi się z pokrewieństwa i wdzięczności, nie z rachunku. A Pieśń została ułożona w chorobie: pochwała nie zależy od okoliczności.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Doskonała radość",
+      "text": "W Kwiatkach Franciszek wyjaśnia bratu Leonowi, że prawdziwa radość to nie cuda, nie sukcesy, nie nawrócenia niewiernych: to wrócić pod drzwi odprawionym, zziębniętym i źle traktowanym i pozostać cierpliwym i radosnym. To opowieść hagiograficzna, nie kronika, ale skupia autentyczny rys ducha franciszkańskiego. Doskonała radość nie zależy od wydarzeń: to wybór wewnętrzny, którego żadne odrzucenie nie może odebrać.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Siedemdziesiąt siedem razy, i więcej",
+      "text": "W Liście do ministra Franciszek pisze, że jeśli brat zgrzeszyłby tysiąc razy, trzeba go mimo to kochać i głosić mu miłosierdzie, byleby żałował. Franciszkańskie przebaczenie nie zaprzecza złu: odmawia złu ostatniego słowa o relacji. W Pieśni strofę o tych, którzy przebaczają z miłości do Boga, dodano — według tradycji — aby pojednać biskupa i podestę Asyżu, pozostających w konflikcie. Przebaczenie jest zarazem troską o osobę i lekarstwem miasta.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Boże Narodzenie w Greccio",
+      "text": "W Boże Narodzenie 1223 Franciszek chciał obchodzić w Greccio narodziny Jezusa z prawdziwym żłobem, sianem, wołem i osłem: aby oczy ciała zobaczyły ubóstwo Betlejem. Tomasz z Celano przedstawia to jako żywą pamięć misterium, nie jako widowisko. Z tamtej nocy rodzi się tradycja szopki. Gest jest typowo franciszkański: wiary się dotyka, widzi się ją, mieszka się w niej.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Spotkanie z sułtanem",
+      "text": "W 1219, podczas piątej krucjaty, Franciszek przekroczył linie wojsk krzyżowych w Damietcie, by spotkać sułtana al-Malika al-Kamila. Źródła średniowieczne pamiętają pełen szacunku dialog między nimi, przy nieredukowalnej różnicy wiary. W czasie wojny Franciszek wybrał drogę nieuzbrojonego spotkania zamiast drogi kazania przeciw. Epizod pozostaje kamieniem probierczym każdego dialogu, który przekracza granice własnego świata.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Wilk z Gubbio",
+      "text": "Kwiatki opowiadają, że w Gubbio wilk terroryzował miasto, a Franciszek, wbrew przestraszonemu tłumowi, poszedł ku bestii i mówił do niej jak do brata. Zrodziło się z tego przymierze pokoju: miasto miało karmić wilka, a wilk nie miał już nikomu szkodzić. To opowieść tradycji hagiograficznej XIV wieku, cenniejsza dla wyobraźni niż dla kroniki. Jej lekcja jest jasna: pokój buduje się, wychodząc naprzeciw temu, co przeraża, i włączając całą wspólnotę w przymierze.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Wyrzeczenie przed biskupem",
+      "text": "Na początku 1206, przed biskupem Guidonem i swoim ojcem Piotrem di Bernardone, Franciszek oddał szaty i zrzekł się dóbr ojcowskich. Tomasz z Celano opowiada, że biskup okrył go własnym płaszczem: Kościół przyjmował tego, kogo kupiecka rodzina już nie rozumiała. To nie była ucieczka od rzeczy, lecz publiczne uwolnienie od myśli, że się je posiada. Od tego dnia Franciszek mógł zależeć tylko od Ojca, który jest w niebiosach — i od hojności innych.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Klara z Asyżu",
+      "text": "Młoda szlachcianka z Asyżu, Klara opuściła dom ojca w noc Palmową 1212 roku, by pójść za ewangeliczną formą życia Franciszka, który obciął jej włosy w Porcjunkuli. Założyła wspólnotę Ubogich Sióstr z San Damiano i przez całe życie broniła „przywileju ubóstwa” wobec kościelnych nacisków. Była pierwszą kobietą, która napisała regułę zakonną dla kobiet, zatwierdzoną dwa dni przed jej śmiercią, w 1253. Jej łagodność była z tej samej substancji co jej wytrwałość.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernard z Quintavalle",
+      "text": "Bogaty i szanowany obywatel Asyżu, Bernard był pierwszym towarzyszem Franciszka: chciał na własne oczy zobaczyć, jak żyje ten młodzieniec, którego wszyscy wyśmiewali, i wystarczyła mu jedna noc modlitwy. Sprzedał dobra, rozdał je ubogim i wybrał życie w drodze. Źródła pamiętają go jako pierwszy owoc braterstwa, a u kresu życia jako umiłowanego świadka ducha początków. To on zaczął łańcuch: bez pierwszego brata nie ma braterstwa.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Brat Leon",
+      "text": "Towarzysz i spowiednik Franciszka w ostatnich latach, brat Leon był świadkiem pory La Verny i strażnikiem jedynego autografu świętego: listu i błogosławieństwa, które przechowywał przez całe życie. W liście Franciszek odpowiada na jego lęk, by wybrać dobrze, słowami wolności: idź za własnym sumieniem przed Bogiem. W Kwiatkach jest rozmówcą dialogu o doskonałej radości. Leon przedstawia ucznia kruchego i szczerego, bliższego duszy Franciszka, niż sugeruje jego sława prostoty.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sułtan al-Malik al-Kamil",
+      "text": "Sułtan Egiptu z dynastii Ajjubidów, wnuk Saladyna, al-Malik al-Kamil przyjął Franciszka w Damietcie w 1219, w pełni piątej krucjaty. Źródła średniowieczne, chrześcijańskie i nie tylko, opisują go jako władcę zdolnego do słuchania i do dialogu ze światem łacińskim, z którym długo prowadził rozmowy o Jerozolimie. Spotkanie z Franciszkiem nie nawróciło żadnego z nich: pokazało, że można rozmawiać jako wierzący bez broni w ręku. Pozostaje postacią kluczową, by zrozumieć, że franciszkańska gościnność przekracza granice wiary.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Średniowieczna komuna",
+      "text": "Asyż Franciszka jest komuną w rozwoju: konsulowie i podesci, wieże i waśnie, kupcy, którzy się bogacą, i cechy, które organizują pracę. To świat oparty na honorze, randze i kredycie, gdzie bogactwo jest widoczne, a ubóstwo wstydem. Rodzina Piotra di Bernardone należy do tego wyłaniającego się mieszczaństwa. Właśnie przeciw tym wartościom — nie przeciw bogactwu samemu w sobie, lecz przeciw władzy, jaką sprawuje nad sercem — kształtuje się wybór franciszkański.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Leprozorium",
+      "text": "W XIII wieku trędowaci żyli za murami, w lazaretach takich jak te koło Asyżu, wykluczeni z życia miasta i naznaczeni rzekomym piętnem grzechu. Franciszek wyznaje w Testamencie, że ich widok wydawał mu się zbyt gorzki; i że właśnie wśród nich, dokąd poprowadził go Pan, okazał miłosierdzie i znalazł słodycz. Celano opisuje konkretną służbę: obmywać rany, obejmować, zaopatrywać. Leprozorium jest miejscem, gdzie rodzi się franciszkańska miłość bliźniego: nie uczucie, lecz spotkanie ciał.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Jałmużna",
+      "text": "Średniowieczna pobożność znała jałmużnę jako praktykę zasługującą: dawano dla własnej duszy, często trzymając się z daleka. Reguła z 1223 prosi natomiast braci, by szli po jałmużnę bez wstydu, pamiętając, że Pan stał się ubogi: proszenie staje się częścią życia, nie upokorzeniem do unikania. A dawanie przemienia się w relację: nie zostawia się czegoś ubogiemu, jest się z ubogim. Kto daje i kto otrzymuje, zamieniają się rolą żebraków przed Bogiem.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Erem",
+      "text": "Życie franciszkańskie to nie tylko droga i kaznodziejstwo: Franciszek szukał samotnych odosobnień — Carceri nad Asyżem, La Verna w Apeninach — zabierając niewielu towarzyszy i długie milczenie. Na La Vernie, we wrześniu 1224, źródła umieszczają stygmaty i ułożenie Pochwał Boga: najczystsza modlitwa Franciszka jest chwałą bez próśb. Erem nie jest ucieczką od świata: to miejsce, gdzie wraca się do tego, co istotne, by potem zejść między ludzi. Misja i odosobnienie trzymają się jak dwie stopy drogi.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Co cię posiada?",
+      "text": "Zrób w myśli inwentarz rzeczy, na których najbardziej ci zależy. Potem pytaj, jedną po drugiej: to ja ją posiadam, czy ona posiada mnie? Ile twojego czasu, uwagi, niepokoju służy obronie tego, co masz? Nie ma właściwej odpowiedzi: jest tylko prawda o tobie.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Kto jest twoim wilkiem?",
+      "text": "W twojej dzielnicy, w pracy, w rodzinie: kto jest osobą albo sytuacją, przed którą wszyscy uciekają? Co by się stało, gdyby zamiast wznosić mury ktoś wyszedł naprzeciw i zapytał: czego jesteś głodny? Kto w twoim mieście mógłby być wspólnotą, która ręczy za przymierze?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Od czego zależy twoja radość?",
+      "text": "Pomyśl o ostatnim razie, gdy byłeś naprawdę rad: czy zależało to od osiągniętego wyniku, od uznania, od zakupu? Teraz pomyśl o radości, której żadne zewnętrzne wydarzenie nie może ci odebrać. Jeśli nic nie przychodzi do głowy, to nie wina: to trop do szukania. Co musiałoby się zmienić w tobie, aby radość nie była wynajęta od wydarzeń?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Droga pokoju",
+      "text": "Droga w dwóch scenariuszach: spór o granicę w średniowiecznej osadzie i krzywda doznana w dzisiejszym biurze. Franciszkański pokój nie jest brakiem konfliktu: to pozdrowienie, które się niesie, pośrednictwo, które się ofiarowuje, radość, której nie zostawia się jako zakładnika wydarzeń. Otwiera się po odkryciu nauczania o pozdrowieniu pokoju.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Droga braterstwa",
+      "text": "Droga wewnątrz życia wspólnego: co robić, gdy brat ciężko uchybia, a wspólnota dzieli się między surowością a przyjęciem? Franciszkańskie braterstwo mierzy się właśnie tam, nie w dobrych intencjach. Otwiera się po odkryciu nauczania o braciach mniejszych i przechodzi przez przebaczenie bez granic oraz regułę, która chroni.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Droga pokoju",
+      "theme": "pace",
+      "description": "Od pozdrowienia niesionego od domu do domu po radość, która nie zależy od wydarzeń: dwa scenariusze, by uczyć się pokoju jako praktyki, w średniowiecznej osadzie i w dzisiejszym biurze.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Droga prostoty",
+      "theme": "poverta",
+      "description": "Co robić z dobrami, które przechodzą nam przez ręce: delikatne strzeżenie w XIII wieku i nieprzejrzysty projekt dziś. Franciszkańskie ubóstwo jako wolność od posiadania i jako odpowiedzialność tego, kto służy.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Droga braterstwa",
+      "theme": "fraternita",
+      "description": "Gdy brat ciężko błądzi, braterstwo odsłania, czym naprawdę jest: trybunałem czy domem. Scenariusz, by przejść przez przebaczenie, regułę i wzajemną odpowiedzialność.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Mur graniczny",
+      "situation": "Osada Asyżu, początek XIII wieku. Berta, która prowadzi farbiarnię, i Lupo, tkacz z sąsiednich drzwi, od tygodni spierają się o łokieć ziemi między domami: tamtędy schodzi rynna i każdy przysięga, że mur jest po jego stronie. Rodziny przestały się pozdrawiać; czeladnicy obrzucają się obelgami na ulicy. Znasz oboje i oboje ci ufają. Dziś wieczór pytają: po czyjej jesteś stronie?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Nie stawać po żadnej stronie: ofiarować się, że wysłuchasz ich po kolei, potem razem, i pomóc znaleźć prostą ugodę co do muru i rynny.",
+          "consequence": "Pierwsze tygodnie są ciężkie: każde ciągnie cię na swoją stronę. Potem, dzięki temu, że zostali wysłuchani, odkrywają, że prawdziwy węzeł to nie łokieć ziemi, lecz dawna krzywda, której nigdy nie przebaczono. Ugoda co do muru przychodzi niemal szybko, a na święto św. Jerzego oba warsztaty znów pożyczają sobie narzędzia.",
+          "perspectives": [
+            {
+              "label": "Droga franciszkańska",
+              "text": "W Testamencie Franciszek zaświadcza, że Pan objawił mu pozdrowienie pokoju, które ma nieść innym, a źródła pamiętają braci głoszących pokój od domu do domu. Pośredniczyć osobiście, pokornie, to właśnie ten gest: pokoju się nie życzy, pokój się przekazuje.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Lekcja z Gubbio",
+              "text": "W opowieści o wilku pokój rodzi się, gdy ktoś wychodzi naprzeciw temu, co przeraża, a cała wspólnota staje się poręczycielem przymierza: miasto karmi wilka, wilk już nie szkodzi. Tu dwie rodziny i sąsiednie warsztaty ręczy za ugodę, aby trwała dłużej niż twoja obecność.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Roztropność osady",
+              "text": "Kto staje pośrodku, ryzykuje, że stanie się celem obu stron, jeśli ugoda się nie uda. Pośrednictwo działa, bo jesteś poza sporem i nic na nim nie zyskujesz: twoja wiarygodność jest jedynym kapitałem i trzeba ją wydawać oszczędnie.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Poradzić obojgu, by zanieśli sprawę przed konsulów komuny albo cech kupców: granicę się mierzy, pisma się czyta, prawo rozstrzyga.",
+          "consequence": "Spór schodzi z ulicy i wchodzi w formy. Rzeczoznawca komuny mierzy, pisma ojców są czytane i po kilku miesiącach wyrok przyznaje mur Lupowi, a rynnę Bercie. Dawna krzywda zostaje jednak nierozwiązana: rodziny ledwo się pozdrawiają i nikt naprawdę nie jest w pokoju.",
+          "perspectives": [
+            {
+              "label": "Prawo epoki",
+              "text": "Komuna istnieje właśnie po to, by zastąpić waśń procedurą: wyrok osoby trzeciej zamyka spór bez rozlewu krwi i bez upokorzeń. To rzeczywisty postęp cywilny, a w XIII wieku wywalczony z trudem.",
+              "isEditorial": true
+            },
+            {
+              "label": "Droga franciszkańska",
+              "text": "Tradycja franciszkańska nie gardzi władzami, ale pamięta, że sprawiedliwość rozstrzyga o murze, nie o sercu: pozdrowienie pokoju niesione od domu do domu ma na nowo związać osoby, nie tylko rozdzielić krzywdy. Sprawiedliwy wyrok może zostawić spór żywym pod popiołem.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Roztropność osady",
+              "text": "Zwrócenie się do konsulów cię chroni: to nie ty rozstrzygasz i nikt nie oskarży cię o stronniczość. Ceną jest powolność i koszty oraz ryzyko, że przegrany zachowa urazę raczej do komuny niż do sąsiada.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Nie interweniować: pozwolić, by czas osadził spór, ograniczając się do tego, by nie podsycać go sądami i plotkami.",
+          "consequence": "Przez miesiące napięcie zostaje pod powierzchnią: nikt już nie mówi o murze, ale czeladnicy wciąż się zaczepiają, a prace przy rynnie stają. Gdy przychodzi zima, deszcz zalewa obie piwnice: wobec wspólnej szkody sąsiedzi znów ze sobą rozmawiają z konieczności i spór rozwiązuje się sam, z odrobiną większej rdzy.",
+          "perspectives": [
+            {
+              "label": "Roztropność osady",
+              "text": "Nie każdy konflikt prosi o rozjemcę: czasem przedwczesna interwencja usztywnia stanowiska. Czas i wspólna konieczność — zalana piwnica — mogą pośredniczyć lepiej niż jakakolwiek mowa.",
+              "isEditorial": true
+            },
+            {
+              "label": "Droga franciszkańska",
+              "text": "Franciszkański pokój jest czynny: niesie się go, głosi, buduje, wychodząc naprzeciw, jak w opowieści o wilku. Pozwolić, by osiadł, nie jest grzechem, ale nie jest pozdrowieniem pokoju: to rezygnacja z bycia narzędziem, która czasem jest pokorą, a czasem wygodą.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Prawo epoki",
+              "text": "W prawie średniowiecznym brak interwencji ma koszt: spór, który nie uległ przedawnieniu, wraca, a wspólna szkoda zaniedbanej rynny obciąża wszystkich. Czekanie nie jest neutralne: to wybór, który przesuwa rachunek naprzód.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Franciszkański pokój zaczyna się od pozdrowienia i kończy przymierzem, którego strzeże wspólnota. Ale wymaga kogoś gotowego stać pośrodku, nic na tym nie zyskując. W twojej dzielnicy, dziś: kto wykonuje tę pracę? I czy mógłbyś to być ty?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Odebrana zasługa",
+      "situation": "Dziś, na zebraniu przed całym zespołem, kolega przedstawił jako własną pracę, która w dużej części jest twoja. Nikt nic nie powiedział; szef mu podziękował. Od godzin pali cię w piersi. Jutro znów skrzyżujecie spojrzenia na korytarzu.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Odpowiedzieć wprost: przy najbliższej publicznej okazji przywrócić fakty wobec wszystkich, precyzyjnie i przed tą samą publicznością, która widziała krzywdę.",
+          "consequence": "Sprostowanie przychodzi punktualnie i fakty wracają na miejsce: szef rozumie, kilku kolegów dziękuje ci półgłosem. Kolega, publicznie upokorzony, staje się cichym i trwałym przeciwnikiem; klimat zespołu sztywnieje i każde twoje słowo jest teraz ważone co do grama.",
+          "perspectives": [
+            {
+              "label": "Prawo epoki",
+              "text": "Upomnieć się o własną pracę jest rzeczą słuszną: prawda o zasługach nie jest plotką, a przepuszczenie krzywdy może stać się precedensem. Ale forma się liczy: publiczne zadośćuczynienie tworzy zwycięzcę i pokonanego, a na dłuższą metę pokonany nie zapomina.",
+              "isEditorial": true
+            },
+            {
+              "label": "Droga franciszkańska",
+              "text": "Opowieść o doskonałej radości uczy, że radość nie powinna zależeć od uznania: jeśli twój pokój wraca dopiero wtedy, gdy krzywda zostaje publicznie naprawiona, wynająłeś go osądowi innych. Przywrócić fakty jest rzeczą dopuszczalną; potrzebować tego, by być dobrze, to prawdziwa rana.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Roztropność osady",
+              "text": "W życiu zawodowym reputację buduje się kropla po kropli, a traci wiadrami: dobrze wymierzone publiczne sprostowanie chroni, publiczne upokorzenie naznacza cię jako człowieka pamiętliwego. Jeśli wybierasz tę drogę, waż słowa na treści, nigdy na osobie.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Puścić mimo: nic nie mówić, nie hodować urazy, iść dalej. Praca mówi sama za siebie, a ty nie chcesz dać krzywdzie władzy, by psuła ci dni.",
+          "consequence": "Milczenie kosztuje cię kilka tygodni zniecierpliwienia, potem węzeł się rozwiązuje: następny projekt jest wyraźnie twój, a kto patrzy, ma długą pamięć. Kolega, niepowstrzymany, powtarza jednak zachowanie wobec innego członka zespołu: twój pokój wewnętrzny jest ocalony, ale problem zostaje w grupie.",
+          "perspectives": [
+            {
+              "label": "Droga franciszkańska",
+              "text": "W Kwiatkach doskonała radość jest właśnie tym: znieść krzywdę, nie oddając jej dowództwa nad własnym sercem, pozostając cierpliwym i radosnym. To nie naiwność ani słabość: to odkrycie, że radość oparta na miłości nie potrzebuje wygrywać każdego sporu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Prawo epoki",
+              "text": "Pokój wewnętrzny jest dobrem, ale nie jedynym: niepowstrzymane złe zachowanie staje się nawykiem, a następna ofiara może nie mieć twojej siły. Sprawiedliwość w pracy chroni także innych, nie tylko twoją zasługę.",
+              "isEditorial": true
+            },
+            {
+              "label": "Roztropność osady",
+              "text": "Brak reakcji jest strategią pod jednym warunkiem: musi być wybrany, nie zniesiony. Jeśli puścić mimo znaczy hodować to miesiącami, nie praktykowałeś radości, lecz urazę na raty. Serce trzeba sprawdzać uczciwie.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Szukać szczerego spotkania: poprosić kolegę o rozmowę w cztery oczy, wyłożyć fakty bez oskarżeń i wysłuchać, co ma do powiedzenia.",
+          "consequence": "Rozmowa jest niewygodna, ale prawdziwa: kolega przyznaje się do połowy, usprawiedliwia się, potem — zdziwiony, że nie został publicznie rozszarpany — sam prostuje rzecz na następnym zebraniu, wymieniając twój wkład. Nie zostajecie przyjaciółmi, ale rodzi się między wami czujny szacunek; a sprawa nigdy nie wychodzi na plac zespołu.",
+          "perspectives": [
+            {
+              "label": "Droga franciszkańska",
+              "text": "Iść w cztery oczy przypomina pozdrowienie pokoju niesione od domu do domu: wystawić się osobiście, bez publiczności, zostawiając drugiemu otwarte drzwi. I przypomina doskonałą radość, bo nie podporządkowuje twojego pokoju wynikowi: mówisz dla prawdy, nie dla zwycięstwa.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Prawo epoki",
+              "text": "Prywatne spotkanie chroni fakty, nie upokarzając osoby: to forma naprawienia, która zostawia relacje pracy nietknięte. Jego granica polega na tym, że zależy od dobrej wiary drugiego: jeśli kolega zaprzecza i trwa przy swoim, potrzebna jest potem droga formalna.",
+              "isEditorial": true
+            },
+            {
+              "label": "Roztropność osady",
+              "text": "Zanim powiesz, zapytaj siebie, czego naprawdę chcesz: przywrócić fakty czy kazać zapłacić za krzywdę? Rozmowa działa tylko wtedy, gdy wchodzisz gotów słuchać; jeśli wchodzisz, by wygrać, drugi to czuje i się zamyka.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Doskonała radość nie zabrania przywracać faktów: zabrania oddawać krzywdzie kluczy do twojego serca. Zapytaj siebie w tym tygodniu: ile razy twój pokój jest wynajęty od zachowania innych?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Powierzenie kupca",
+      "situation": "Asyż, 1210. Guido, kupiec sukna, który wyjeżdża na jarmarki Szampanii i nie wróci wcześniej niż za dwa lata, proponuje ci strzec części jego dóbr: bel tkaniny i sakwy pieniędzy. Będziesz mógł z nich korzystać — tkanina dałaby skok twojemu małemu warsztatowi — a po powrocie oddasz umówioną wartość, z częścią zysku. To uczciwa okazja. To także więź, która trwa dwa lata.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Przyjąć w pełni: użyć tkaniny i pieniędzy, by rozwinąć warsztat, licząc, że oddasz wartość z umówionym zyskiem, gdy Guido wróci.",
+          "consequence": "Warsztat naprawdę rośnie: dwóch czeladników, nowe krosno, twoje imię zaczyna krążyć. Ale każda decyzja przechodzi teraz przez rachunek do oddania: nie śpisz już przed jarmarkami, lękasz się kradzieży i chudych lat. Gdy Guido wraca wcześniej, z własnymi stratami do pokrycia, dotrzymanie umowy kosztuje cię niemal cały zysk — i spostrzegasz, że dwa lata strzegłeś pieniędzy bardziej, niż żyłeś.",
+          "perspectives": [
+            {
+              "label": "Droga franciszkańska",
+              "text": "Reguła z 1223 prosi, by niczego sobie nie przywłaszczać, ani domu, ani miejsca, ani żadnej rzeczy: nie dlatego, że rzeczy są złe, lecz dlatego, że to, co musisz oddać i bronić, zaczyna posiadać ciebie. Sen stracony przed jarmarkami jest dokładnym znakiem zmiany pana.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Logika kupca",
+              "text": "W świecie komuny taka jest praktyka: kredyt wprawia gospodarkę w ruch, a odmawiać każdego depozytu znaczy pozostać małym na zawsze. Ryzyko się mierzy i wycenia; dotrzymanie umowy buduje reputację.",
+              "isEditorial": true
+            },
+            {
+              "label": "Spojrzenie wyrzeczenia",
+              "text": "Celano opowiada Franciszka, który oddaje ojcu nawet szaty: nie z pogardy dla rzeczy, lecz by nie zależeć od niczego, co nie jest Ojcem. Pytanie nie brzmi, czy umowa jest uczciwa — jest — lecz ile wolności serca jesteś gotów zastawić na dwa lata.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Przyjąć tylko strzeżenie, nie użytek: zapieczętować tkaninę i pieniądze, trzymać je bezpiecznie, nie pomnażając, i oddać nietknięte po powrocie.",
+          "consequence": "Przez dwa lata twój warsztat zostaje taki jak zawsze, ale idziesz lekko: żadnego rachunku do oddania, żadnego zysku do obrony. Guido po powrocie znajduje wszystko nietknięte i ceni cię jako człowieka słowa; proponuje inne powierzenia, które ocenisz jedno po drugim. Ktoś w osadzie nazywa cię głupcem: ta tkanina mogła pracować dla ciebie.",
+          "perspectives": [
+            {
+              "label": "Droga franciszkańska",
+              "text": "Strzec, nie przywłaszczając, jest niemal ćwiczeniem duchowym: mieć w rękach, nie mając w sercu. Przypomina logikę Reguły — pielgrzymi i obcy na świecie, słudzy rzeczy, nie panowie — zastosowaną do cudzego dobra.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Logika kupca",
+              "text": "Z ekonomicznego punktu widzenia to zmarnowana okazja: kapitał, który stoi, nie produkuje, a bezpłatny strażnik darowuje usługę, za którą gdzie indziej się płaci. Szacunek Guida coś znaczy, ale nie płaci za nowe krosno.",
+              "isEditorial": true
+            },
+            {
+              "label": "Roztropność osady",
+              "text": "Czyste strzeżenie ma swoje ryzyka — kradzieże, pożary, oskarżenia o sprzeniewierzenie — ale zostawia cię wolnym od każdego sporu o zysk. Spisz jednak akt wobec świadków: zaufanie lepiej się honoruje, gdy pisma są w porządku.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Odmówić z szacunkiem: podziękować Guidowi za zaufanie, ale nie chcieć więzi posiadania ani rachunków do oddania przez dwa lata.",
+          "consequence": "Guido jest zaskoczony, potem kiwa głową: powierzy tkaniny komuś innemu. Twój warsztat zostaje mały i niejeden zimowy czas jest ciasny, ale twoje słowo w osadzie nabiera szczególnego brzmienia: kogoś, kto się nie sprzedaje i nie wiąże. Lata później, gdy zechcesz pójść za braćmi przechodzącymi przez Asyż, nikt nie uzna twojego oderwania za dziwne: zaczęło się od tego „nie”.",
+          "perspectives": [
+            {
+              "label": "Spojrzenie wyrzeczenia",
+              "text": "Wyrzeczenie Franciszka przed biskupem pokazuje, że powiedzieć „nie” bogactwu jest gestem wolności, nie pogardy: oddał szaty, by móc bez obłudy powiedzieć „Ojcze nasz”. Uzasadnione „nie” dziś przygotowuje „nie” — i „tak” — jutra.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Droga franciszkańska",
+              "text": "Uważaj, by nie pomylić wolności z regułą ułożoną dla siebie: Reguła mówi o nieprzywłaszczaniu, nie o odmowie wszelkiej odpowiedzialności za cudze dobra. Także odmowa może stać się sposobem myślenia tylko o sobie.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Roztropność osady",
+              "text": "Odmowa jest uprawniona, ale ma koszt społeczny: w osadzie pomaga się także tak, strzegąc nawzajem dóbr. Kto zawsze odmawia, z czasem zostaje poza siecią zaufania, na której wszystko się trzyma.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Franciszkańskie ubóstwo nie prosi, by gardzić rzeczami: prosi, by zauważyć, kiedy rzeczy zaczynają posiadać ciebie. Następnym razem, gdy coś przyjmujesz — przedmiot, zadanie, dług — zapytaj: kto kogo strzeże?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Nieprzejrzysty projekt",
+      "situation": "Dziś. Powierzają ci kierowanie prestiżowym projektem: widoczność, zespół, który sam wybierasz, solidny budżet. Ale dwie pozycje wydatków się nie zgadzają, a finansujący odpowiada na twoje pytania uprzejmymi unikami. Podpisać znaczy wziąć odpowiedzialność także za tę nieprzejrzystość. Odmówić znaczy zrzec się okazji, która się nie powtórzy.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Przyjąć bez dalszych pytań: projekt jest okazją jedyną, nieprzejrzyste pozycje nie są twoją kompetencją, a i tak ktoś podpisałby zamiast ciebie.",
+          "consequence": "Projekt idzie dobrze i twoja kariera robi skok. Ale gdy rok później kontrola administracyjna otwiera te pozycje wydatków, twój podpis jest na dokumentach: odpowiedzialność, na którą nie chciałeś patrzeć, i tak cię dogania, a zdobyty prestiż obraca się w zakłopotaną obronę.",
+          "perspectives": [
+            {
+              "label": "Odpowiedzialność roli",
+              "text": "W braterstwie franciszkańskim ten, kto prowadzi, nazywa się „ministrem”, sługą: urząd istnieje, by służyć, nie by błyszczeć. Służba, która godzi się nie widzieć tego, za co odpowiada, zdradziła już swoje imię, jeszcze przed jakąkolwiek kontrolą.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Logika kupca",
+              "text": "W świecie pracy rozumuje się tak: każdy projekt ma szare strefy, a kto chce naprawdę pracować, uczy się z nimi żyć. Odrzucać każdą niedoskonałość znaczy oddać decyzje temu, kto ma mniej skrupułów niż ty.",
+              "isEditorial": true
+            },
+            {
+              "label": "Roztropność osady",
+              "text": "Podpis jest granicą: to, co podpisujesz, posiadasz, ze wszystkimi skutkami. Zanim podpiszesz, policzyć do dziesięciu nie wystarczy: trzeba wiedzieć dokładnie, co się poświadcza. Okazja, która się nie powtórzy, często się powtarza; reputacja nie.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Odmówić: bez przejrzystości się nie podpisuje, a projekt niech przejdzie do tego, kto te warunki przyjmuje.",
+          "consequence": "Wyrzeczenie pali, i przez miesiące patrzysz, jak projekt idzie dalej wśród problemów: bez twojego kierownictwa zespół się chwieje, a w końcu finansujący wycofuje środki właśnie na nieprzejrzystych pozycjach. Twoje „nie”, odczytane przez jednych jako naiwność, inni wspominają, gdy potrzeba osoby zaufanej do delikatnego zadania.",
+          "perspectives": [
+            {
+              "label": "Roztropność osady",
+              "text": "Odmowa chroni reputację, ale zostawia problem nietknięty: projekt idzie do tego, kto ma mniej skrupułów, a ludzie, którzy przy nim pracują, ponoszą skutki. „Nie” czyści ręce, nie zawsze świat.",
+              "isEditorial": true
+            },
+            {
+              "label": "Odpowiedzialność roli",
+              "text": "List do ministra pokazuje, że franciszkańskie prowadzenie jest bliskością i służbą, nigdy wyniosłym dystansem. Ale służyć nie znaczy poddawać się wszystkiemu: minister, który podpisuje to, czego nie może prowadzić, nie służy braciom, wystawia ich. Także odmowa może być formą troski.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Długie spojrzenie",
+              "text": "Kariery robi się z pochwyconych okazji, ale zaufanie z okazji odrzuconych. „Nie” powiedziane z jasnych powodów i bez moralizowania jest inwestycją, która dojrzewa powoli i nie traci wartości.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Przyjąć pod warunkami: podpisać dopiero po spisaniu przejrzystego rozliczenia, niezależnego audytu i prawa do uzasadnionego wycofania się.",
+          "consequence": "Finansujący zwleka, grozi, że poszuka innych, potem ustępuje: twoje warunki, spisane, stają się kręgosłupem projektu. Praca jest wolniejsza i cięższa, niż obiecywała, ale gdy przychodzi kontrola — a przychodzi — rachunki są otwarte i zespół się trzyma. Twoje kierownictwo staje się precedensem: inni, po tobie, zażądają tych samych warunków.",
+          "perspectives": [
+            {
+              "label": "Odpowiedzialność roli",
+              "text": "To droga ministra w pełnym sensie franciszkańskim: nie uciekać od służby, ale odmówić, by służba stała się współudziałem. Kto prowadzi, służy — a służyć obejmuje chronienie zespołu i projektu przed strefami cienia, nawet za cenę niewygodnych negocjacji.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Logika kupca",
+              "text": "Spisane warunki są najlepszym kompromisem, ale mają cenę: ryzykujesz utratę zadania, jeśli finansujący nie ustąpi, i lata pracy z partnerem, który uważa cię raczej za kontrolera niż za sprzymierzeńca. Warto tylko wtedy, gdy masz wiarygodne alternatywy.",
+              "isEditorial": true
+            },
+            {
+              "label": "Długie spojrzenie",
+              "text": "Stawiać warunki to sposób najwolniejszy i najbardziej płodny: nie ogranicza się do ochrony ciebie, zmienia praktykę. Instytucje poprawiają się, gdy ktoś przemienia osobisty skrupuł we wspólną regułę.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Franciszek nazywał odpowiedzialnych „ministrami”, sługami: imię roli jest już jej programem. W twojej pracy: co jest potrzebne, by twoja służba nie stała się współudziałem — i co, by twoja surowość nie stała się dezercją?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Brat, który uchybił",
+      "situation": "Porcjunkula, lata dwudzieste XIII wieku. Brat Ruffino ciężko uchybił regule: zatrzymał dla siebie pieniądze otrzymane w jałmużnie, a fakt jest już znany także na zewnątrz, wśród ludzi, którzy na was patrzą. W braterstwie dyskutuje się od dni. Jedni żądają przykładnej pokuty i oddalenia go z osady; inni przypominają, że Ruffino jest chory i w strzępach; jeszcze inni lękają się, że pobłażliwość zaprosi wszystkich do uchybienia. Minister pyta każdego o zdanie. Także ciebie.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Poprzeć surowość: publiczna pokuta i czasowe oddalenie Ruffina, bo reguła obowiązuje wszystkich, a zgorszenie świeckich trzeba naprawić wobec wszystkich.",
+          "consequence": "Braterstwo zatwierdza surową dyscyplinę. Ruffino odchodzi do dalekiego eremu, upokorzony wobec tych, którzy go znali; świeccy z osady podziwiają konsekwencję braci i jałmużny nie spadają. Ale w braterstwie coś sztywnieje: bracia zaczynają ukrywać własne kruchości z lęku przed sądem, a Ruffino, sam, będzie potrzebował lat, by wrócić — jeśli wróci.",
+          "perspectives": [
+            {
+              "label": "Mądrość wspólnoty",
+              "text": "Wspólna reguła jest tym, co odróżnia braterstwo od kompanii przyjaciół: jeśli ten, kto ciężko uchybia, nie spotyka skutków, przymierze się opróżnia, a najsłabsi płacą cenę. Publiczne naprawienie odpowiada także na publiczne zgorszenie.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "List do ministra",
+              "text": "Franciszek pisze do ministra, że jeśli brat zgrzeszyłby tysiąc razy, trzeba go mimo to kochać i głosić mu miłosierdzie: surowość, która gorszy słabego brata, ryzykuje, że go zgubi. Surowość nie jest zakazana, ale nigdy nie może stać się pogardą.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Długie spojrzenie",
+              "text": "Wspólnota, w której wszyscy lękają się sądu, staje się wspólnotą tajemnic: reguła stoi na papierze i wali się w sercach. Rygor, który nie przewiduje drogi powrotu, produkuje wygnańców, nie pokutników.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Poprzeć pełne przyjęcie: przyjąć Ruffina z powrotem bez publicznych pokut, zająć się jego chorobą i odpowiedzieć na zgorszenie łagodnością, nie karami.",
+          "consequence": "Ruffino zostaje. Płacze przed braćmi, oddaje, ile może, i powoli odnajduje miejsce we wspólnym życiu: nikt już nie wypomina mu faktu. W osadzie ktoś szemrze, że bracia kryją się nawzajem, a dwóch młodych z braterstwa bierze łagodność za przyzwolenie: minister będzie miesiącami mozolił się, by przywrócić, że reguła nie jest radą.",
+          "perspectives": [
+            {
+              "label": "List do ministra",
+              "text": "To droga wytyczona przez List do ministra: kochać bardziej, nie mniej, tego, kto uchybił; głosić miłosierdzie, byleby żałował; nie twardnieć sercem z powodu cudzego grzechu. Franciszek wie, że ta droga kosztuje, i mimo to ją zaleca.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Mądrość wspólnoty",
+              "text": "Reguła z 1221 prosi, by okazywać sobie nawzajem potrzeby i nie gardzić słabym: chory Ruffino jest dokładnie tym bratem, którego reguła chroni. Ale ta sama reguła istnieje, by braterstwo się nie rozproszyło: miłosierdzie bez prawdy staje się współudziałem.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Roztropność osady",
+              "text": "Świeccy dają jałmużnę braciom ubogim, nie braciom przebiegłym: nieopanowane zgorszenie podmywa zaufanie, które utrzymuje wspólnotę przy życiu. Przyjęcie trzeba wyjaśnić osadzie, nie tylko przeżyć w domu, inaczej zostanie odczytane jako krycie.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Poprzeć drogę wspólnotową: Ruffino zostaje w braterstwie, oddaje należne przed braćmi, powierza się braterskiemu towarzyszeniu, a cała wspólnota niesie z nim naprawienie wobec osady.",
+          "consequence": "Droga jest długa i niewygodna: Ruffino wyznaje przed braćmi, oddaje pieniądze od domu do domu razem ze starszym bratem i przez rok pełni najpokorniejsze posługi, a nikt mu tego nie wypomina. Osada widzi prawdziwe naprawienie, nie karę: zaufanie wraca powoli. Wewnątrz braterstwa epizod staje się niepisaną regułą: kto upada, jest prowadzony, kto uchybił, naprawia, nikt się nie gubi.",
+          "perspectives": [
+            {
+              "label": "List do ministra",
+              "text": "Miłosierdzie Listu nie jest zniżką: to miłość, która towarzyszy żalowi, aż wyda owoc. Ruffino, który oddaje od domu do domu, nie jest upokorzony: to brat, który wraca, a wspólnota idzie obok niego, zamiast patrzeć z góry.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Mądrość wspólnoty",
+              "text": "Reguła z 1221 wyobraża właśnie to: braci, którzy okazują własne potrzeby — także te wstydliwe — i niosą się nawzajem. Wspólnotowe naprawienie łączy prawdę i miłosierdzie i przemienia winę jednego w szkołę dla wszystkich.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Prawo epoki",
+              "text": "To droga najbardziej wymagająca dla wszystkich: potrzebuje czasu, strzeżenia tajemnicy tam, gdzie trzeba, i prawdy publicznej tam, gdzie zgorszenie było publiczne. Nie każda wspólnota udźwignie ten trud: bez zdolnego ministra droga środkowa staje się tylko niezdecydowaniem.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Braterstwo mierzy się nie wtedy, gdy wszyscy zachowują regułę, lecz gdy ktoś ją łamie. List do ministra wyznacza gwiazdę — kochać bardziej, nie mniej — nie wymazując prawdy. W twoich wspólnotach: czy ten, kto zbłądził, znajduje drogę powrotu?"
+    }
+  ]
+}

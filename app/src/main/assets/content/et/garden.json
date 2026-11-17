@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Kivitee",
+      "kind": "sentiero",
+      "description": "Heledatest kividest tee läbib aeda: paik, millest iga tee algab.",
+      "symbolism": "Tee kui elu kujund: teed tehakse kõndides, kivi kivi haaval.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Rahu oliivipuu",
+      "kind": "albero",
+      "description": "Vana oliivipuu hõbedase võraga, istutatud siis, kui avastasid rahu tervituse.",
+      "symbolism": "Oliivipuu: Vahemere taim, rahu ja kannatlikkuse märk. Kasvab aeglaselt ja kestab põlvkondi.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Õe vee purskkaev",
+      "kind": "acqua",
+      "description": "Kivipurskkaev selge veega, mille hommikul süütab päike.",
+      "symbolism": "„Õde vesi, kasulik ja alandlik ja kallis ja puhas“: Loodute laulus on vesi õde, keda tänada.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "San Damiano roosid",
+      "kind": "fiore",
+      "description": "Õitsev roosipõõsas müüri ääres: kasvab seal, kus keegi on teiste eest hoolt kandnud.",
+      "symbolism": "Ilu, mis sünnib teenimisest: ligimesearmastus paneb viljatud paigad õitsema.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Jagatud peenramaa",
+      "kind": "orto",
+      "description": "Väikesed ürdi- ja köögiviljapeenrad, mida hooldatakse kordamööda: alandlik töö, mis toidab kõiki.",
+      "symbolism": "Igapäevane teenimine: kes aeda harib, ei oma seda, vaid hoiab seda nende jaoks, kes tulevad.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Vaikuse küpress",
+      "kind": "albero",
+      "description": "Kõrge ja sirge küpress, mis märgib piiri aia ja metsa vahel.",
+      "symbolism": "Palve kui vertikaal: juured maas, tipp taeva poole.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Metsvintide pesa",
+      "kind": "animali",
+      "description": "Kindlamate okste vahel on metsvintide paar valinud aia pesa tegemiseks.",
+      "symbolism": "Vastuvõtt: aiast saab kodu ka sellele, kes tuleb väljast.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Kivipink",
+      "kind": "struttura",
+      "description": "Kivipink müüri all keskpäeval: koht, kuhu istuda ja jääda.",
+      "symbolism": "Usk kui usaldav peatus: me ei pea alati kõndima; mõnikord lihtsalt jääme.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Tänu päevalilled",
+      "kind": "fiore",
+      "description": "Rida päevalilli, mis pöörduvad päeva jooksul valguse järgi.",
+      "symbolism": "Tänulikkus: valguse poole pöördumine on pilgu igapäevane harjutus.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Mesilaste taru",
+      "kind": "animali",
+      "description": "Puust taru lõhnab vaha järele; mesilased käivad aia õite vahet.",
+      "symbolism": "Vendlus: ükski mesilane ei tee mett üksi, ja ükski ei oma kärge.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Vaadata taevast",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Tõsta pilk aiast taeva poole. Jää hetkeks vaikseks, tegemata midagi."
+        },
+        {
+          "kind": "leggi",
+          "text": "Loe aeglaselt Loodute laulu algust.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Franciscus kutsub päikest „vennaks“ ja kuud „õeks“. Mis vahe oleks, kui vaadata maailma kui perekonda, mitte kui ressurssi?"
+        },
+        {
+          "kind": "annota",
+          "text": "Kui tahad, märgi päevikusse üks asi, mille kohta võid täna öelda: „Laudato sie, mi' Signore“."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Kuulata vett",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Mine purskkaevu juurde. Kuula vee häält mõne hingetõmbe jagu, kiirustamata."
+        },
+        {
+          "kind": "leggi",
+          "text": "Loe uuesti La Vernal kirjutatud Jumala kiitust: palve, mis ei küsi midagi.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Jumala kiituslaulud ei sisalda palumisi: ainult äratundmist. Millal sa viimati tänasid, midagi küsimata?"
+        },
+        {
+          "kind": "annota",
+          "text": "Kui tahad, kirjuta päevikusse kolm asja, mis said täna, ka väikseid."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Aeglane samm",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Käi kiviteed aeglaselt, märgates iga sammu: selle raskust, kontakti, rütmi."
+        },
+        {
+          "kind": "leggi",
+          "text": "Loe Franciscuse vastust vennale Leole, kes otsis õiget valikut.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Vennale Leole ei anna Franciscus juhiseid, vaid vabaduse: „järgi oma südametunnistust Jumala ees“. Mida õpetab sulle see viis teist saata?"
+        },
+        {
+          "kind": "annota",
+          "text": "Kui tahad, kirjuta päevikusse otsusest, mida kannad, ja sellest, kuhu tunned oma südametunnistuse pöörduvat."
+        }
+      ]
+    }
+  ]
+}

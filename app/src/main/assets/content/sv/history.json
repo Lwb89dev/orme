@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Födelse i Assisi",
+      "description": "Giovanni di Pietro di Bernardone, kallad Franciskus, föds i Assisi som son till en förmögen tyghandlare och madonna Pica.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 eller 1182 (osäkert)",
+      "chronologicalUncertainty": "Källorna är inte eniga om året: historiker föreslår både 1181 och 1182.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Krig och fångenskap",
+      "description": "I kriget mellan Assisi och Perugia strider Franciskus i slaget vid Collestrada (november 1202), tas till fånga och stannar i Perugia ungefär ett år. Vid hemkomsten börjar en sjukdom förändra honom.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Drömmen i Spoleto och återkomsten",
+      "description": "På väg till Apulien i jakt på militär ära har Franciskus en dröm i Spoleto som sänder honom tillbaka till Assisi. Han börjar släppa taget om sitt tidigare liv: drömmar, bön och vallfärd till Rom.",
+      "yearFrom": 1205,
+      "dateLabel": "omkring 1204–1205",
+      "chronologicalUncertainty": "Rekonstruktionen av dessa månader kommer från medeltida biografier; de exakta datumen är konventionella.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Mötet med de spetälska",
+      "description": "I Testamentet berättar Franciskus hur Herren förde honom bland de spetälska och hur han ”visade dem barmhärtighet”: den händelse han själv nämner som början på sin omvändelse.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "omkring 1205–1206",
+      "chronologicalUncertainty": "Testamentet anger inget datum; händelsen föregår det offentliga brottet med familjen.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Krucifixet i San Damiano",
+      "description": "I den förfallna lilla kyrkan San Damiano hör Franciskus, enligt traditionen, krucifixet tilltala honom: ”Reparera mitt hus.” Först förstår han det bokstavligt och ställer i stånd kyrkor med sina egna händer.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "omkring 1205–1206",
+      "chronologicalUncertainty": "Episoden är främst belagd av den andra levnadsteckningen och den senare traditionen; den bokstavliga dialogen hör till den andaktsfulla berättelsen.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Avsägelsen inför biskopen",
+      "description": "Förd inför biskop Guido av sin far för varor han hade sålt lämnar Franciskus tillbaka allt, till och med kläderna, och anförtror sig åt ”Fadern som är i himlen”. Biskopen täcker honom med sin egen mantel.",
+      "yearFrom": 1206,
+      "dateLabel": "början av 1206",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "De första följeslagarna",
+      "description": "Bernhard av Quintavalle, Egidius och andra sluter sig till Franciskus och delar hans livsform: ett vandrande brödraskap, mitt i arbete, allmosa och förkunnelse av fred.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Innocentius III:s godkännande",
+      "description": "Franciskus och hans följeslagare går till Rom. Innocentius III ger ett muntligt godkännande av deras evangeliska livsform. Inget dokument från godkännandet finns kvar: traditionen daterar det till 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (eller 1209)",
+      "chronologicalUncertainty": "Godkännandet var muntligt och inget dokument finns kvar; det exakta året (1209 eller 1210) är omstritt.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Porziuncola, brödraskapets hem",
+      "description": "Den lilla kyrkan Santa Maria degli Angeli, kallad Porziuncola, blir brödraskapets fasta hem: rörelsens andliga och känslomässiga centrum.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Klaras flykt",
+      "description": "Klara Offreduccio lämnar sin fars hus och når Franciskus vid Porziuncola natten mellan palmsöndagen och måndagen 1212: hennes livsform börjar och ger upphov till klarissorna.",
+      "yearFrom": 1212,
+      "dateLabel": "18–19 mars 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Mötet med sultanen",
+      "description": "Under det femte korståget korsar Franciskus linjerna och möter sultanen al-Malik al-Kamil i Damietta: ett samtal mitt i krig, dokumenterat av franciskanska källor och ihågkommet av krönikörer utifrån.",
+      "yearFrom": 1219,
+      "dateLabel": "september 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Den tidigare regeln",
+      "description": "Vid Fonte Colombo, nära Rieti, sammanställs brödraskapets första fullständiga regel (Regula non bullata): lång och andlig, och den blir aldrig formellt godkänd.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Den senare regeln",
+      "description": "Honorius III godkänner den slutgiltiga regeln med bullan ”Solet annuere” (29 november 1223): kortare och juridisk, och den förblir grunden för Mindrebrödernas orden.",
+      "yearFrom": 1223,
+      "dateLabel": "29 november 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Julen i Greccio",
+      "description": "Julen 1223 låter Franciskus ställa i ordning en verklig krubba i Greccio, med hö, en oxe och en åsna, för att se Betlehems fattigdom ”med kroppens ögon”: ursprunget till traditionen med julkrubban.",
+      "yearFrom": 1223,
+      "dateLabel": "julen 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "I september 1224, tillbakadragen på berget La Verna, tar Franciskus emot — enligt de närmaste medeltida källorna — Kristi passions stigmata, som han försöker hålla dolda.",
+      "yearFrom": 1224,
+      "dateLabel": "september 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Solsången",
+      "description": "Sjuk och nästan blind skriver Franciskus i etapper hymnen på umbriskt folkspråk som kallas Solsången: lov till Gud genom broder Sol, syster Vatten, moder Jord och till sist syster den lekamliga döden.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Vargen i Gubbio",
+      "description": "Fioretti berättar att Franciskus förmedlade fred mellan staden Gubbio och en vildsint varg: staden skulle ge honom mat, och vargen skulle inte längre skada någon. En hagiografisk berättelse, inte en krönika.",
+      "yearFrom": 1220,
+      "dateLabel": "osäkert datum",
+      "chronologicalUncertainty": "En episod i 1300-talets hagiografiska tradition (Fioretti, kapitel 21), utan dokumentärt stöd: vi ger den som en minnesberättelse, inte som historiskt faktum.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Döden vid Porziuncola",
+      "description": "Franciskus dör på kvällen den 3 oktober 1226 vid Porziuncola, efter att ha dikterat sitt testamente och bett att få läggas naken på den nakna jorden.",
+      "yearFrom": 1226,
+      "dateLabel": "3 oktober 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Kanonisationen",
+      "description": "Gregorius IX förklarar Franciskus helgon i Assisi den 16 juli 1228, mindre än två år efter hans död, och uppdrar åt Thomas av Celano att skriva den första officiella biografin.",
+      "yearFrom": 1228,
+      "dateLabel": "16 juli 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Franciskus av Assisi",
+      "role": "Grundare av mindrebrödernas brödraskap",
+      "description": "Giovanni di Pietro di Bernardone (1181/82–1226). Köpmann, sedan vandrande botgörare, sedan grundare av ett brödraskap som förändrade kyrkans historia. Helgonförklarad 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Klara av Assisi",
+      "role": "Grundarinna av klarissorna",
+      "description": "En adelsdam från Assisi (1193/94–1253). Hon följer Franciskus 1212 och grundar gemenskapen av ”de fattiga damerna” vid San Damiano. Den första kvinnan som skrev en godkänd ordensregel.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernhard av Quintavalle",
+      "role": "Förste följeslagare",
+      "description": "En förmögen man från Assisi. Han skänker bort sina ägodelar och blir Franciskus förste följeslagare (1208). Han dog 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Broder Egidius",
+      "role": "Bland de första följeslagarna",
+      "description": "En bildad bonde och mystiker, Franciskus tredje följeslagare. Traditionen tillskriver honom de visa sentenserna.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Broder Leo",
+      "role": "Biktfader och trogen följeslagare",
+      "description": "Följeslagare under de sista åren, mottagare av Franciskus egenhändiga brev och vittne på La Verna.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II, biskop av Assisi",
+      "role": "Franciskus beskyddare",
+      "description": "Biskop av Assisi från 1204. Han täckte Franciskus med sin mantel vid avsägelsen och stödde hans första steg.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Franciskus far",
+      "description": "Tyghandlare i Assisi. Konflikten med sonen om de sålda varorna kulminerade i den offentliga scenen inför biskopen.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pica",
+      "role": "Franciskus mor",
+      "description": "Traditionen minns henne som den som stod närmare sonen under omvändelsens kris. Källorna om henne är sparsamma.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Påve Innocentius III",
+      "role": "Påve (1198–1216)",
+      "description": "En av medeltidens mest inflytelserika påvar. Enligt traditionen gav han 1210 ett muntligt godkännande av Franciskus livsform.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Påve Honorius III",
+      "role": "Påve (1216–1227)",
+      "description": "Han godkände den senare regeln 1223 och stödde det unga brödraskapet.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Sultan av Egypten",
+      "description": "Den ayyubidiske sultan som mötte Franciskus i Damietta 1219, under det femte korståget.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Thomas av Celano",
+      "role": "Förste biograf",
+      "description": "Mindrebroder. Han skrev den första levnadsteckningen (1228–29) på Gregorius IX:s uppdrag och den andra (1246–47), där han samlade följeslagarnas vittnesbörd.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventura av Bagnoregio",
+      "role": "Teolog och biograf",
+      "description": "Universitetslärare och generalminister för orden. Hans större levnadsteckning (1260–63) blev den officiella biografin över Franciskus.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardinal Ugolino (senare Gregorius IX)",
+      "role": "Ordens beskyddare",
+      "description": "Kardinalprotektor för brödraskapet, senare påve: han helgonförklarade Franciskus 1228.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Broder Elia av Cortona",
+      "role": "Omstridd efterträdare",
+      "description": "Följeslagare och senare ledare för orden efter Franciskus. En omdebatterad gestalt, tecken på spänningarna mellan karisma och institution.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Franciskus födelseort: torget, katedralen San Rufino, murarna och de medeltida gränderna.",
+      "historicalNote": "En verklig historisk plats.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "En liten kyrka utanför Assisi där Franciskus bad inför krucifixet; senare hem för Klara och hennes systrar.",
+      "historicalNote": "En verklig historisk plats.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porziuncola (Santa Maria degli Angeli)",
+      "description": "En liten kyrka på slätten nedanför Assisi: den första gemenskapens hem och platsen för Franciskus död.",
+      "historicalNote": "En verklig historisk plats; i dag innesluten i basilikan Santa Maria degli Angeli.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "En hydda vid bäcken där de första följeslagarna levde sin vandrande livsform.",
+      "historicalNote": "En verklig historisk plats; den nuvarande helgedomen bevarar minnet av bosättningen.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Eremitaget Carceri",
+      "description": "Ett eremitage på berget Subasio, bland stenekar och grottor: en plats för tillbakadragande och bön.",
+      "historicalNote": "En verklig historisk plats.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "En umbrisk stad knuten till berättelsen om vargen och till Franciskus närvaro under eremitåren.",
+      "historicalNote": "En verklig historisk plats; episoden med vargen hör till den hagiografiska traditionen.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "En by i trakten av Rieti där Franciskus firade julen 1223 med en levande krubba.",
+      "historicalNote": "En verklig historisk plats.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Ett berg i de toskanska Apenninerna som skänktes till Franciskus; platsen för hans tillbakadragande 1224 och, enligt medeltida källor, stigmata.",
+      "historicalNote": "En verklig historisk plats.",
+      "isHistoricalPlace": true,
+      "region": "Toscana"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Ett eremitage nära Rieti där den tidigare regeln från 1221 skrevs.",
+      "historicalNote": "En verklig historisk plats.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "En stad i Nildeltat, skådeplats för det femte korståget och för mötet mellan Franciskus och sultanen (1219).",
+      "historicalNote": "En verklig historisk plats.",
+      "isHistoricalPlace": true,
+      "region": "Egypten"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Ekarnas by",
+      "description": "En påhittad by i Spoletodalen: Vandringsmannens främsta berättelsemiljö.",
+      "historicalNote": "En fiktiv miljö skapad för spelet; inte en historisk plats.",
+      "isHistoricalPlace": false,
+      "region": "Umbrien (påhittat)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbriska fält och skogar",
+      "description": "Vägarna, stenekskogarna och fälten mellan byarna: den vandrande miljön för Vandringsmannens berättelser.",
+      "historicalNote": "En berättelsemiljö inspirerad av det verkliga umbriska landskapet.",
+      "isHistoricalPlace": false,
+      "region": "Umbrien (miljö)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiografi",
+      "definition": "Litteratur om helgonens liv: en medeltida andaktsgenre med uppbyggligt syfte, inte krönika. Den måste läsas med andra verktyg än dokumentärhistorien."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Bot",
+      "definition": "I Franciskus språk: hjärtats och livets omvändelse, inte straff. Att ”göra bot” betydde att byta riktning."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Mindrebroder",
+      "definition": "Namnet Franciskus valde för sina följeslagare: ”mindre”, det vill säga de minsta, utan anspråk på rang."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Minister",
+      "definition": "I det franciskanska brödraskapet: vårdaren av en gemenskap eller en provins. Ordet betyder ”tjänare”."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Regel",
+      "definition": "Texten som fastställer en ordensgemenskaps livsform. Franciskus skrev två versioner: den tidigare regeln (1221) och den senare (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bulla",
+      "definition": "Ett officiellt påvligt dokument, uppkallat efter blysigillet (bulla) som bekräftar det. ”Den senare regeln” betyder en regel godkänd med en bulla."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Porziuncola",
+      "definition": "En ”liten jordlott”: kyrkan Santa Maria degli Angeli nära Assisi, brödraskapets hem."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stigmata",
+      "definition": "Märkena efter Kristi passion som de medeltida källorna tillskriver Franciskus efter hans tillbakadragande på La Verna (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Ett uttryck i traditionen: ”utan något eget”, den franciskanska formen av fattigdom."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lauda",
+      "definition": "En religiös dikt på folkspråk, avsedd att sjungas. Solsången är en lauda."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Kommun",
+      "definition": "Städernas självstyre i det medeltida Italien: Franciskus Assisi var en växande kommun i konflikt med Perugia och feodalmakten."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Kapitel",
+      "definition": "En ordensgemenskaps återkommande sammankomst; också ett ”generalkapitel” för hela orden."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Spetälskesjukhus",
+      "definition": "Ett medeltida sjukhus för spetälska, utanför stadsmurarna. Platsen för Franciskus avgörande möte."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Allmosa",
+      "definition": "En gåva som man ber om eller tar emot för att leva. För de första bröderna var den ett tecken på förtröstan på Försynen, inte en förödmjukelse."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Köpmannens son (1181/82–1202)",
+      "text": "Franciskus föds i Assisi som son till Pietro di Bernardone, en förmögen tyghandlare, och madonna Pica. Han växer upp i en stad som blomstrar som kommun: en lysande ung man, generös, förtjust i fester och franska trubadurer, med drömmar om riddarära. År 1202 strider han mot Perugia vid Collestrada. Nederlaget och ett år i fångenskap sätter en dramatisk punkt för hans första liv.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Vändpunkten (1202–1206)",
+      "text": "Sjukdomen efter fångenskapen, drömmen i Spoleto och vallfärden till Rom där han byter kläder med en tiggare: Franciskus söker en ny riktning. Sedan kommer den händelse han själv skulle nämna som början: mötet med de spetälska, där ”det som hade tyckts mig bittert förvandlades till sötma”. Vid San Damiano, inför krucifixet, hör han kallelsen att ställa Guds ”hus” i stånd. Han säljer faderns tyg och häst för att restaurera den lilla kyrkan. Konflikten bryter ut inför biskopen, där han lämnar tillbaka allt.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "”Reparera mitt hus” (1206–1209)",
+      "text": "Ensam, klädd som botgörare, ställer Franciskus i stånd San Damiano, San Pietro och Porziuncola sten för sten, och tjänar i spetälskesjukhusen. Först hånar staden honom, sedan börjar den se på honom. Genom att lyssna till evangeliet förstår han kallelsen: att förkunna fred, att leva utan något eget, på vandring. Företaget visar sig större än att restaurera tre kyrkor: att ställa själva kyrkan i stånd, underifrån.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Brödraskapet (1209–1219)",
+      "text": "Bernhard av Quintavalle, Egidius och de andra: de första följeslagarna delar livsformen, och 1210 (eller 1209) ger Innocentius III den ett muntligt godkännande. Porziuncola blir hem. År 1212 flyr Klara av Assisi om natten för att följa samma kallelse. Brödraskapet växer över alla förväntningar, med årliga kapitel och missioner i hela Europa: svårigheterna med det stora antalet börjar.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Mot öster (1219–1220)",
+      "text": "Mitt under det femte korståget når Franciskus korsfararlägret i Damietta, korsar linjerna och möter sultanen al-Malik al-Kamil. De medeltida källorna beskriver deras ömsesidiga respekt. Den moderna forskningen diskuterar detaljerna, men gesten består: att i krigstid gå någon till mötes. Vid återkomsten finner han brödraskapet förändrat och oroligt: dess storlek kräver strukturer som han fruktar.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Mödan att växa (1220–1223)",
+      "text": "Franciskus lämnar ordens dagliga styre och ägnar sig åt den skrivna regeln: den från 1221, lång och fri, blir inte godkänd; den från 1223, kortare och juridisk, får Honorius III:s bulla. Spänningen mellan karisma och institution går genom dessa år: Franciskus lever den i trohet och lidande. I Greccio, julen 1223, gör han Betlehems fattigdom synlig med en verklig krubba.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Solsången och aftonen (1224–1226)",
+      "text": "På La Verna, i september 1224, berättar källorna om stigmata. Sjuk och nästan blind skriver han vid San Damiano Solsången: lovsången stiger i den mörkaste tiden. Han lägger till strofen om förlåtelse för att försona biskop och podestà, och till sist den om ”syster den lekamliga döden”. Efter att ha dikterat Testamentet dör han vid Porziuncola på kvällen den 3 oktober 1226, naken på den nakna jorden. Två år senare förklarar Gregorius IX honom helgon.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

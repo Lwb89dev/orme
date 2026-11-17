@@ -1,0 +1,905 @@
+{
+  "documents": [
+    {
+      "id": "source.testamento",
+      "category": "scritto_autentico",
+      "title": "Testamentet",
+      "author": "Franciskus av Assisi",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "september 1226",
+      "dateFrom": 1226,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Dikterat av Franciskus under de sista månaderna av hans liv är detta hans mest personliga text: han läser om sin omvändelse och anförtror bröderna sin andliga vilja. Det är inte en juridisk regel utan ett vittnesbörd.",
+      "manuscriptNote": "En bred handskriftstradition; den kritiska texten finns i utgåvor av Opuscula (till exempel K. Essers utgåva).",
+      "licenseNote": "Medeltida original: public domain (Wikisource-transkription, 11 november 2026). Svensk återgivning: redaktionell översättning, original för den här appen.",
+      "referenceUrls": [
+        "https://la.wikisource.org/wiki/Testamentum_(Franciscus_Assisiensis)",
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.cantico",
+      "category": "scritto_autentico",
+      "title": "Solsången (Skapelsernas lovsång)",
+      "author": "Franciskus av Assisi",
+      "originalLanguage": "umbriskt folkspråk",
+      "compositionDate": "1225–1226 (i etapper)",
+      "dateFrom": 1225,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "En hymn som Franciskus skrev under den sista tiden av sitt liv, kanske i två etapper (strofen om förlåtelse och strofen om döden kan ha lagts till senare). Den räknas som den första poetiska texten i den italienska litteraturen.",
+      "manuscriptNote": "Ett tidigt vittne: kodex 338 i Sacro Convento i Assisi (fol. 33r–34r).",
+      "licenseNote": "Medeltida original: public domain (Wikisource-transkription, 11 november 2026). Svensk återgivning: redaktionell översättning, original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://it.wikiversity.org/wiki/%27%27Cantico_delle_Creature%27%27_di_Francesco_d%27Assisi_(superiori)"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.regola_bollata",
+      "category": "scritto_autentico",
+      "title": "Den senare regeln (Regula bullata)",
+      "author": "Franciskus av Assisi",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "1223",
+      "dateFrom": 1223,
+      "dateTo": 1223,
+      "authenticity": "authentic",
+      "description": "Brödraskapets slutgiltiga regel, godkänd med Honorius III:s bulla den 29 november 1223. En kort text, fortfarande grunden för Mindrebrödernas orden.",
+      "manuscriptNote": "En bred handskriftstradition; den kritiska texten finns i utgåvor av Opuscula.",
+      "licenseNote": "Medeltida original: public domain (Wikisource-transkription, 11 november 2026). Svensk återgivning: redaktionell översättning, original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://ofm.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.regola_non_bollata",
+      "category": "scritto_autentico",
+      "title": "Den tidigare regeln (Regula non bullata)",
+      "author": "Franciskus av Assisi och hans första följeslagare",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "1221",
+      "dateFrom": 1221,
+      "dateTo": 1221,
+      "authenticity": "authentic",
+      "description": "Brödraskapets första fullständiga regel, längre och mer andlig än den senare regeln, aldrig formellt godkänd av kyrkan. Den bevarar den friare rösten i det tidiga franciskanska livet.",
+      "manuscriptNote": "Bevarad i bara några få handskrifter; återupptäckt av den moderna forskningen.",
+      "licenseNote": "Medeltida original: public domain (Wikisource-transkription, 11 november 2026). Svensk återgivning: redaktionell översättning, original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.ammonizioni",
+      "category": "scritto_autentico",
+      "title": "Förmaningarna",
+      "author": "Franciskus av Assisi",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "osäkert datum, före omkring 1221",
+      "authenticity": "authentic",
+      "description": "Tjugoåtta korta andliga anvisningar för brödraskapet: ödmjukhet, lydnad, tålamod, hjärtats renhet. De hör till de tätaste texterna i den franciskanska undervisningen.",
+      "manuscriptNote": "En komplex handskriftstradition; numreringen följer de kritiska utgåvorna.",
+      "licenseNote": "Medeltida original: public domain. Svenska parafraser: redaktionella original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "needs_verification"
+    },
+    {
+      "id": "source.lettera_ministro",
+      "category": "scritto_autentico",
+      "title": "Brevet till en minister",
+      "author": "Franciskus av Assisi",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "osäkert datum, omkring 1220",
+      "authenticity": "authentic",
+      "description": "Ett brev till en förman (minister) i brödraskapet: hur man tar emot bröder som faller, utan hårdhet och utan att ta anstöt.",
+      "manuscriptNote": "Överlämnad i Opuscula-traditionen.",
+      "licenseNote": "Medeltida original: public domain. Svenska parafraser: redaktionella original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lettera_leone",
+      "category": "scritto_autentico",
+      "title": "Brevet till broder Leo",
+      "author": "Franciskus av Assisi",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "efter 1224",
+      "dateFrom": 1224,
+      "authenticity": "authentic",
+      "description": "Ett kort egenhändigt brev till broder Leo, hans biktfader och följeslagare, om att lyssna till det egna samvetet inför Gud. Det är dyrbart också därför att det är ett autografdokument.",
+      "manuscriptNote": "Autograf bevarad i katedralen i Spoleto.",
+      "licenseNote": "Medeltida original: public domain. Svenska parafraser: redaktionella original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lettera_ordine",
+      "category": "scritto_autentico",
+      "title": "Brevet till hela orden",
+      "author": "Franciskus av Assisi",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "1225-1226",
+      "dateFrom": 1225,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Ett brev till bröderna, till stor del om eukaristin, vördnaden för Guds skrivna ord och iakttagandet av regeln. Det är en av Franciskus längre skrifter.",
+      "manuscriptNote": "Överlämnad i Opuscula-traditionen. Texten är hämtad från den latinska Wikisource-transkriptionen.",
+      "licenseNote": "Medeltida latinskt original: public domain. Översättning: redaktionell, original för den här appen.",
+      "referenceUrls": [
+        "https://la.wikisource.org/wiki/Epistola_toti_Ordini_missa"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lodi_dio",
+      "category": "scritto_autentico",
+      "title": "Den Högstes lov",
+      "author": "Franciskus av Assisi",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "1224 (La Verna)",
+      "dateFrom": 1224,
+      "dateTo": 1224,
+      "authenticity": "authentic",
+      "description": "En lovbön skriven på La Verna, överlämnad på samma autografblad som brevet till broder Leo och välsignelsen över honom.",
+      "manuscriptNote": "Broder Leos pergament, autograf (katedralen i Spoleto).",
+      "licenseNote": "Medeltida original: public domain. Svenska parafraser: redaktionella original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.celano_vita_prima",
+      "category": "testimonianza_medievale",
+      "title": "Thomas av Celanos första levnadsteckning",
+      "author": "Thomas av Celano",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "1228–1229",
+      "dateFrom": 1228,
+      "dateTo": 1229,
+      "authenticity": "authentic",
+      "description": "Den första officiella biografin över Franciskus, beställd av Gregorius IX inför kanonisationen. Den är den främsta källan närmast helgonet, även om den är skriven med hagiografiskt syfte.",
+      "manuscriptNote": "Moderna kritiska utgåvor finns; numreringen följer paragraferna.",
+      "licenseNote": "Medeltida original: public domain. Svenska parafraser: redaktionella original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://www.treccani.it/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.celano_vita_seconda",
+      "category": "testimonianza_medievale",
+      "title": "Thomas av Celanos andra levnadsteckning",
+      "author": "Thomas av Celano",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "1246–1247",
+      "dateFrom": 1246,
+      "dateTo": 1247,
+      "authenticity": "authentic",
+      "description": "Den andra biografin, som samlar vittnesbörd från följeslagare som ännu levde: rikare på episoder och på detaljer i Franciskus person.",
+      "manuscriptNote": "Moderna kritiska utgåvor finns.",
+      "licenseNote": "Medeltida original: public domain. Svenska parafraser: redaktionella original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.bonaventura_leggenda_maggiore",
+      "category": "testimonianza_medievale",
+      "title": "Bonaventuras större levnadsteckning",
+      "author": "Bonaventura av Bagnoregio",
+      "originalLanguage": "medeltidslatin",
+      "compositionDate": "1260–1263",
+      "dateFrom": 1260,
+      "dateTo": 1263,
+      "authenticity": "authentic",
+      "description": "En teologisk biografi över Franciskus, skriven av Bonaventura, som 1266 blev ordens officiella levnadsteckning. Den är mer uppbyggd och läromässig än Celanos levnadsteckningar.",
+      "manuscriptNote": "Moderna kritiska utgåvor finns.",
+      "licenseNote": "Medeltida original: public domain. Svenska parafraser: redaktionella original för den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.fioretti",
+      "category": "tradizione_agiografica",
+      "title": "Den helige Franciskus små blomster",
+      "author": "Anonym franciskan (ur en latinsk tradition, Actus)",
+      "originalLanguage": "toskanskt folkspråk",
+      "compositionDate": "sent 1300-tal",
+      "dateFrom": 1370,
+      "dateTo": 1400,
+      "authenticity": "legendary",
+      "description": "En samling på folkspråk med episoder om Franciskus och hans följeslagare, översatt och bearbetad från latinska texter från 1300-talet (Actus beati Francisci). Ett litterärt mästerverk: berättelserna vittnar om fromhet, inte om en historiskt verifierbar krönika.",
+      "manuscriptNote": "Italiensk version av Actus; talrika handskrifter och tryckta utgåvor.",
+      "licenseNote": "Medeltida original: public domain. Svenska parafraser: redaktionella original för den här appen.",
+      "referenceUrls": [
+        "https://www.treccani.it/",
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.preghiera_semplice",
+      "category": "interpretazione_moderna",
+      "title": "Den så kallade ”enkla bönen”",
+      "author": "Anonym modern författare (första kända publicering: 1912, den franska tidskriften La Clochette)",
+      "originalLanguage": "modern franska",
+      "compositionDate": "1900-talet",
+      "dateFrom": 1912,
+      "dateTo": 1912,
+      "authenticity": "not_by_francis",
+      "description": "Bönen ”Gör mig till ett redskap för din fred” är älskad och andligt nära den franciskanska känslan, men den är INTE av Franciskus: den dök upp första gången 1912 och tillskrevs honom först senare. Vi tar med den av historisk ärlighet: appen kommer aldrig att använda den som ett ord av helgonet.",
+      "manuscriptNote": "Ingen medeltida beläggning. Se studier av P. Patrice Mahieu och översikter på sanfrancesco.org.",
+      "licenseNote": "Modern text: återges inte i sin helhet i den här appen.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.narrazione_gioco",
+      "category": "narrazione_originale",
+      "title": "Spelets originalberättelse",
+      "author": "Appens redaktion",
+      "description": "En dokumentär platshållare för Vandringsmannens kapitel och kortens scenarier: original historisk fiktion, inspirerad av källorna men aldrig framställd som historiskt faktum eller som Franciskus egna ord.",
+      "licenseNote": "Originaltext för appen.",
+      "reviewStatus": "verified"
+    }
+  ],
+  "passages": [
+    {
+      "id": "pass.testamento.lebbrosi",
+      "documentId": "source.testamento",
+      "reference": "Testamentet 1–3",
+      "originalText": "Dominus ita dedit mihi fratri Francisco incipere faciendi poenitentiam: quia, cum essem in peccatis, nimis mihi videbatur amarum videre leprosos. Et ipse Dominus conduxit me inter illos et feci misericordiam cum illis. Et recedente me ab ipsis, id quod videbatur mihi amarum, conversum fuit mihi in dulcedinem animi et corporis; et postea parum steti et exivi de saeculo.",
+      "translation": "Herren själv gav mig, broder Franciskus, att börja göra bot på detta sätt: när jag var i synderna tycktes det mig alltför bittert att se de spetälska. Och Herren själv förde mig mitt ibland dem, och jag visade dem barmhärtighet. Och när jag gick bort från dem förvandlades det som hade tyckts mig bittert till sötma för själ och kropp; och därefter dröjde jag en kort tid och gick ut ur världen.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.chiese",
+      "documentId": "source.testamento",
+      "reference": "Testamentet 4–13",
+      "originalText": "Et Dominus dedit mihi talem fidem in ecclesiis, ut ita simpliciter orarem et dicerem Adoramus te, Domine Jesu Christe et ad omnes ecclesias tuas, quae sunt in toto mundo, et benedicimus tibi, quia per sanctam crucem tuam redimisti mundum. Postea Dominus dedit mihi et dat tantam fidem in sacerdotibus, qui vivunt secundum formam sanctae ecclesiae Romanae propter ordinem ipsorum, quod si facerent mihi persecutionem, volo recurrere ad ipsos. Et si haberem tantam sapientiam, quantam Salomon habuit, et invenirem pauperculos sacerdotes huius saeculi, in parochiis, quibus morantur, nolo praedicare ultra voluntatem ipsorum. Et ipsos et omnes alios volo timere, amare et honorare sicut meos dominos. Et nolo in ipsis considerare peccatum, quia Filium Dei discerno in ipsis, et domini mei sunt. Et propter hoc facio, quia nihil video corporaliter in hoc saeculo de ipso altissimo Filio Dei, nisi sanctissimum corpus et sanctissimum sanguinem suum, quod ipsi recipiunt et ipsi soli aliis ministrant. Et haec sanctissima mysteria super omnia volo honorari, venerari et in locis pretiosis collocari. Sanctissima nomina et verba eius scripta, ubicumque invenero in locis illicitis, volo colligere et rogo, quod colligantur et in loco honesto collocentur. Et omnes theologos et qui ministrant sanctissima verba divina, debemus honorare et venerari, sicut qui ministrant nobis spiritum et vitam (cfr. Joa 6,64).",
+      "translation": "Och Herren gav mig en sådan tro på kyrkorna att jag bad och sade enkelt: Vi tillber dig, Herre Jesus Kristus, i alla dina kyrkor över hela världen, och vi välsignar dig, eftersom du genom ditt heliga kors har återlöst världen. Därefter gav Herren mig, och ger mig ännu, en sådan tro på de präster som lever enligt den heliga romerska kyrkans form, för deras ämbetes skull, att jag även om de förföljde mig skulle vilja vända mig till dem. Och om jag hade lika stor vishet som Salomo, och jag fann fattiga små präster i denna värld i de församlingar där de bor, vill jag inte predika mot deras vilja. Dem, och alla andra, vill jag frukta, älska och ära som mina herrar. Och jag vill inte betrakta synden i dem, eftersom jag urskiljer Guds Son i dem, och de är mina herrar. Detta gör jag därför att jag av den högste Guds Son själv i denna värld inte ser något med mina kroppsliga ögon utom hans allra heligaste kropp och allra heligaste blod, som de tar emot och som endast de utdelar åt andra. Och dessa allra heligaste mysterier vill jag ha ärade framför allt, vördade och lagda på dyrbara platser. Hans allra heligaste namn och hans skrivna ord vill jag, var jag än finner dem på ovärdiga platser, att de samlas upp, och jag ber att de samlas och läggs på en värdig plats. Och alla teologer, och de som utdelar de allra heligaste gudomliga orden, måste vi ära och vörda, som dem som utdelar ande och liv åt oss.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.vangelo",
+      "documentId": "source.testamento",
+      "reference": "Testamentet 14–22",
+      "originalText": "Et postquam Dominus dedit mihi de fratribus, nemo ostendebat mihi, quid deberem facere, sed ipse Altissimus revelavit mihi, quod deberem vivere secundum formam sancti Evangelii. Et ego paucis verbis et simpliciter feci scribi et dominus papa confirmavit mihi. Et illi qui veniebant ad recipiendam vitam, omnia quae habere poterant (Tob 1,3), dabant pauperibus; et erant contenti tunica una, intus et foris repeciata, cum cingulo et braccis. Et nolebamus plus habere. Officium dicebamus clerici secundum alios clericos, laici dicebant Pater noster; et satis libenter manebamus in ecclesiis. Et eramus idiotae et subditi omnibus. Et ego manibus meis laborabam, et volo laborare; et omnes alii fratres firmiter volo, quod laborent de laboritio, quod pertinet ad honestatem. Qui nesciunt, discant, non propter cupiditatem recipiendi pretium laboris, sed propter exemplum et ad repellendam otiositatem. Et quando non daretur nobis pretium laboris, recurramus ad mensam Domini, petendo eleemosynam ostiatim.",
+      "translation": "Och sedan Herren gav mig bröder visade ingen mig vad jag borde göra, utan den Högste själv uppenbarade för mig att jag skulle leva enligt det heliga evangeliets form. Och jag lät skriva ner den med få ord och enkelt, och herr påven stadfäste den för mig. Och de som kom för att ta emot detta liv gav åt de fattiga allt de kunde ha och nöjde sig med en tunika, lappad inifrån och utifrån, med repet och byxorna. Och vi ville inte ha mer. Vi som var klerker bad tidegärden som andra klerker; lekmännen bad Fader vår; och vi stannade gärna i kyrkorna. Och vi var olärda och underkastade alla. Och jag arbetade med mina händer, och jag vill arbeta; och jag vill bestämt att alla de andra bröderna ska arbeta med sådant arbete som hör till ärligheten. De som inte kan ska lära sig, inte av begär efter arbetets lön, utan för exemplets skull och för att driva bort sysslolösheten. Och när arbetets lön inte ges oss, låt oss vända oss till Herrens bord och be om allmosa från dörr till dörr.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.saluto_pace",
+      "documentId": "source.testamento",
+      "reference": "Testamentet 23",
+      "originalText": "Salutationem mihi Dominus revelavit, ut diceremus Dominus det tibi pacem.",
+      "translation": "Herren uppenbarade en hälsning för mig, att vi skulle säga: Herren give dig fred.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.poverta_case",
+      "documentId": "source.testamento",
+      "reference": "Testamentet 24–26",
+      "originalText": "Caveant sibi fratres, ut ecclesias, habitacula paupercula et omnia, quae pro ipsis construuntur, penitus non recipiant, nisi essent, sicut decet sanctam paupertatem, quam in regula promisimus, semper ibi hospitantes sicut advenae et peregrini (cfr. 1 Petr 2,11). Praecipio firmiter per obedientiam fratribus universis, quod ubicumque sunt, non audeant petere aliquam litteram in curia Romana per se neque per interpositam personam, neque pro ecclesia neque pro alio loco neque sub specie praedicationis neque pro persecutione suorum corporum; sed ubicumque non fuerint recepti, fugiant in aliam terram ad faciendam poenitentiam cum benedictione Dei.",
+      "translation": "Bröderna ska akta sig för att ta emot kyrkor, fattiga små bostäder och allt som byggs åt dem, om det inte är så som anstår den heliga fattigdom vi lovade i regeln, och alltid stanna där som främlingar och pilgrimer. Jag befaller bestämt alla bröderna i lydnad att de, var de än är, inte vågar söka något brev från den romerska kurian, vare sig själva eller genom en annan person, varken för en kyrka eller för någon annan plats, inte heller under sken av predikan och inte heller på grund av förföljelse mot deras kroppar; utan där de inte har blivit mottagna ska de fly till ett annat land för att göra bot med Guds välsignelse.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.obbedienza",
+      "documentId": "source.testamento",
+      "reference": "Testamentet 27–34",
+      "originalText": "Et firmiter volo obedire ministro generali huius fraternitatis et alio guardiano, quem sibi placuerit mihi dare. Et ita volo esse captus in manibus suis, ut non possim ire vel facere ultra obedientiam et voluntatem suam, quia dominus meus est. Et quamvis sim simplex et infirmus, tamen semper volo habere clericum, qui mihi faciat officium, sicut in regula continetur. Et omnes alii fratres teneantur ita obedire guardianis suis et facere officium secundum regulam. Et qui inventi essent, quod non facerent officium secundum regulam, et vellent alio modo variare, aut non essent catholici, omnes fratres, ubicumque sunt, per obedientiam teneantur, quod ubicumque invenerint aliquem ipsorum, proximiori custodi illius loci, ubi ipsum invenerint, debeant repraesentare. Et custos firmiter teneatur per obedientiam ipsum fortiter custodire, sicuti hominem in vinculis die noctuque, ita quod non possit eripi de manibus suis, donec propria sua persona ipsum repraesentet in manibus sui ministri. Et minister firmiter teneatur per obedientiam mittendi ipsum per tales fratres, quod die noctuque custodiant ipsum sicuti hominem in vinculis, donec repraesentent ipsum coram domino Ostiensi, qui est dominus, protector et corrector totius fraternitatis. Et non dicant fratres Haec est alia regula; quia haec est recordatio, admonitio, exhortatio et meum testamentum, quod ego frater Franciscus parvulus facio vobis fratribus meis benedictis propter hoc, ut regulam, quam Domino promisimus, melius catholice observemus.",
+      "translation": "Och jag vill bestämt lyda denna gemenskaps generalminister och den guardian som det behagar honom att ge mig. Och jag vill vara så hållen i hans händer att jag inte kan gå eller handla bortom lydnaden och hans vilja, eftersom han är min herre. Och fastän jag är enkel och sjuk vill jag ändå alltid ha en klerk som ber tidegärden för mig, så som det står i regeln. Och alla de andra bröderna är på samma sätt skyldiga att lyda sina guardianer och att be tidegärden enligt regeln. Och om några skulle påträffas som inte bad tidegärden enligt regeln och ville ändra den på något annat sätt, eller som inte var katolska, är alla bröder, var de än är, i lydnad skyldiga att, var de än finner någon av dem, föra honom till den kustod som är närmast den plats där de fann honom. Och kustoden är i lydnad bestämt skyldig att vakta honom noga, som en man i bojor, dag och natt, så att han inte kan tas ur hans händer, tills han själv överlämnar honom i sin ministers händer. Och ministern är i lydnad bestämt skyldig att sända honom med sådana bröder som vaktar honom dag och natt som en man i bojor, tills de för honom inför herren av Ostia, som är herre, beskyddare och tillrättavisare för hela gemenskapen. Och bröderna ska inte säga: Detta är en annan regel. Ty detta är ett minne, en förmaning, en uppmaning och mitt testamente, som jag, broder Franciskus, den lille, gör för er, mina välsignade bröder, för att vi på ett mer katolskt sätt ska hålla den regel vi lovade Herren.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.senza_glossa",
+      "documentId": "source.testamento",
+      "reference": "Testamentet 35–41",
+      "originalText": "Et generalis minister et omnes alii ministri et custodes per obedientiam teneantur, in istis verbis non addere vel minuere. Et semper hoc scriptum habeant secum iuxta regulam. Et in omnibus capitulis, quae faciunt, quando legunt regulam, legant et ista verba. Et omnibus fratribus meis clericis et laicis praecipio firmiter per obedientiam, ut non mittant glossas in regula neque in istis verbis dicendo Ita volunt intelligi. Sed sicut dedit mihi Dominus simpliciter et pure dicere et scribere regulam et ista verba, ita simpliciter et sine glossa intelligatis et cum sancta operatione observetis usque in finem. Et quicumque haec observaverit, in caelo repleatur benedictione altissimi Patris et in terra repleatur benedictione dilecti Filii sui cum sanctissimo Spiritu Paraclito et omnibus virtutibus caelorum et omnibus sanctis. Et ego frater Franciscus parvulus, vester servus, quantumcumque possum, confirmo vobis intus et foris istam sanctissimam benedictionem. en The Testament of St. Francis of Assisi hr Oporuka svetoga Franje ru Завещание (Франциск Ассизский)",
+      "translation": "Och generalministern och alla de andra ministrarna och kustoderna är i lydnad skyldiga att inte lägga något till dessa ord eller ta något bort. Och de ska alltid ha denna skrift hos sig, vid sidan av regeln. Och vid alla kapitel de håller, när de läser regeln, ska de också läsa dessa ord. Och jag befaller bestämt alla mina bröder, klerker och lekmän, i lydnad att inte sätta glossa på regeln eller på dessa ord och säga: De ska förstås så. Utan så som Herren gav mig att säga och skriva regeln och dessa ord enkelt och rent, så förstå dem enkelt och utan glossa, och håll dem med heligt verk ända till slutet. Och den som har hållit detta, må han i himlen fyllas av den högste Faderns välsignelse och på jorden av hans älskade Sons välsignelse, med den allra heligaste Ande, Hjälparen, och med alla himlens dygder och alla helgon. Och jag, broder Franciskus, den lille, er tjänare, stadfäster för er, så mycket jag förmår, inifrån och utifrån, denna allra heligaste välsignelse.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.apertura",
+      "documentId": "source.cantico",
+      "reference": "Solsången, v. 1–9",
+      "originalText": "Altissimu, onnipotente, bon Signore, tue so' le laude, la gloria e l'honore et onne benedictione. Ad te solo, Altissimo, se konfano, et nullu homo ène dignu te mentovare. Laudato sie, mi' Signore, cum tucte le tue creature, spetialmente messor lo frate sole, lo qual' è iorno, et allumini noi per lui.",
+      "translation": "Högste, allsmäktige, gode Herre, dina är lovsångerna, härligheten, äran och all välsignelse. Dig allena, du Högste, tillhör de, och ingen människa är värdig att nämna ditt namn. Lovad vare du, min Herre, med alla dina skapelser, särskilt herr broder Sol, som är dagen och genom vilken du ger oss ljus.",
+      "note": "Umbriska från kodex 338 i Assisi, i den läsning som redan använts för v. 1–9. Resten har jämförts med den diplomatiska transkriptionen på italienska Wikisource, Cantico di Frate Sole (11 november 2026); överensstämmande former har återställts där skanningen bryter ett ord. Redaktionell översättning, original för den här appen.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.creature",
+      "documentId": "source.cantico",
+      "reference": "Solsången, mellanstroferna",
+      "originalText": "Et ellu è bellu e radiante cum grande splendore: de te, Altissimo, porta significatione. Laudato si', mi' Signore, per sora luna e le stelle: in celu l'ài formate clarite et pretiose et belle. Laudato si', mi' Signore, per frate vento et per aere et nubilo et sereno et onne tempo, per lo quale a le tue creature dài sustentamento. Laudato si', mi' Signore, per sor'acqua, la quale è multo utile et humile et pretiosa et casta. Laudato si', mi' Signore, per frate focu, per lo quale ennallumini la nocte: et ello è bello et iocundo et robustoso et forte. Laudato si', mi' Signore, per sora nostra matre terra, la quale ne sustenta et governa, et produce diversi fructi con coloriti flori et herba.",
+      "translation": "Och han är skön och strålande, med stor glans: av dig, du Högste, bär han betydelsen. Lovad vare du, min Herre, genom syster Måne och stjärnorna: i himlen har du format dem, klara och dyrbara och sköna. Lovad vare du, min Herre, genom broder Vind, och genom luft och moln och klart väder och allt slags väder, genom vilka du ger dina skapelser uppehälle. Lovad vare du, min Herre, genom syster Vatten, som är mycket nyttig och ödmjuk och dyrbar och kysk. Lovad vare du, min Herre, genom broder Eld, genom vilken du lyser upp natten: och han är skön och glad och kraftig och stark. Lovad vare du, min Herre, genom vår syster moder Jord, som uppehåller och styr oss och frambringar skiftande frukter med färgade blommor och gräs.",
+      "note": "Umbriska från kodex 338 i Assisi, i den läsning som redan använts för v. 1–9. Resten har jämförts med den diplomatiska transkriptionen på italienska Wikisource, Cantico di Frate Sole (11 november 2026); överensstämmande former har återställts där skanningen bryter ett ord. Redaktionell översättning, original för den här appen.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.perdono_morte",
+      "documentId": "source.cantico",
+      "reference": "Solsången, slutstroferna",
+      "originalText": "Laudato si', mi' Signore, per quelli ke perdonano per lo tuo amore et sostengono infirmitate et tribulatione. Beati quelli ke 'l sosterranno in pace, ka da te, Altissimo, sirano incoronati. Laudato si', mi' Signore, per sora nostra morte corporale, da la quale nullu homo vivente pò skappare: guai a quelli ke morrano ne le peccata mortali; beati quelli ke trovarà ne le tue sanctissime voluntati, ka la morte secunda no 'l farrà male. Laudate et benedicete mi' Signore et rengratiate e serviateli cum grande humilitate.",
+      "translation": "Lovad vare du, min Herre, genom dem som förlåter för din kärleks skull och bär sjukdom och prövning. Saliga är de som uthärdar dem i frid, ty av dig, du Högste, ska de krönas. Lovad vare du, min Herre, genom vår syster den lekamliga döden, som ingen levande människa kan undfly: ve dem som dör i dödssynd; saliga är de som hon finner i din allra heligaste vilja, ty den andra döden ska inte skada dem. Lova och välsigna min Herre, och tacka, och tjäna honom med stor ödmjukhet.",
+      "note": "Umbriska från kodex 338 i Assisi, i den läsning som redan använts för v. 1–9. Resten har jämförts med den diplomatiska transkriptionen på italienska Wikisource, Cantico di Frate Sole (11 november 2026); överensstämmande former har återställts där skanningen bryter ett ord. Redaktionell översättning, original för den här appen.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.bolla",
+      "documentId": "source.regola_bollata",
+      "reference": "Honorius III:s bulla, förord till regeln",
+      "originalText": "Honorius episcopus servus servorum dei dilectis filiis, fratri Francisco et aliis fratribus de ordine fratrum minorum, salutem et apostolicam benedictionem. Solet annuere sedes apostolica piis votis et honestis petentium desideriis favorem benivolum impertiri. Eapropter, dilecti in domino filii, vestris piis precibus inclinati, ordinis vestri regulam, a bone memorie Innocentio papa, predecessore nostro, approbatam, annotatam presentibus, auctoritate vobis apostolica confirmamus et presentis scripti patrocinio communimus, que talis est Regula minorum fratrum.",
+      "translation": "Honorius, biskop, tjänare åt Guds tjänare, till sina älskade söner broder Franciskus och de andra bröderna i Mindrebrödernas orden: hälsning och apostolisk välsignelse. Den apostoliska stolen brukar bifalla de fromma löftena och de ärliga önskningarna hos dem som ber och skänka en välvillig ynnest. Därför, älskade söner i Herren, böjda av era fromma böner, stadfäster vi för er med apostolisk auktoritet er ordens regel, godkänd av påven Innocentius av fromt minne, vår företrädare, och här avskriven, och vi stärker den med skyddet av denna skrivelse. Den lyder så: Mindrebrödernas regel.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c01",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel I",
+      "originalText": "[1] Regula et Vita Minorum Fratrum haec est, scilicet Domini nostri Jesu Christi sanctum Evangelium observare vivendo in obedientia, sine proprio et in castitate. [2] Frater Franciscus promittit obedientiam et reverentiam domino papae Honorio ac successoribus eius canonice intrantibus et Ecclesiae Romanae. [3] Et alii fratres teneantur fratri Francisco et eius successoribus obedire.",
+      "translation": "Mindrebrödernas regel och liv är detta: att hålla vår Herre Jesu Kristi heliga evangelium, i lydnad, utan något eget och i kyskhet. Broder Franciskus lovar lydnad och vördnad åt herr påven Honorius och hans kanoniskt valda efterträdare och åt den romerska kyrkan. Och de andra bröderna är skyldiga att lyda broder Franciskus och hans efterträdare.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c02",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel II",
+      "originalText": "[1] Si qui voluerint hanc vitam accipere et venerint ad fratres nostros, mittant eos ad suos ministros provinciales, quibus solummodo et non aliis recipiendi fratres licentia concedatur. [2] Ministri vero diligenter examinent eos de fide catholica et ecclesiasticis sacramentis. [3] Et si haec omnia credant et velint ea fideliter confiteri et usque in finem firmiter observare [4] et uxores non habent vel, si habent, et iam monasterium intraverint uxores vel licentiam eis dederint auctoritate diocesani episcopi, voto continentiae iam emisso, et illius sint aetatis uxores, quod non possit de eis oriri suspicio, [5] dicant illis verbum sancti Evangelii (cfr. Mt 19,21 par), quod vadant et vendant omnia sua et ea studeant pauperibus erogare. [6] Quod si facere non potuerint, sufficit eis bona voluntas. [7] Et caveant fratres et eorum ministri, ne solliciti sint de rebus suis temporalibus, ut libere faciant de rebus suis, quidquid Dominus inspiraverit eis. [8] Si tamen consilium requiratur, licentiam habeant ministri mittendi eos ad aliquos Deum timentes, quorum consilio bona sua pauperibus erogentur. [9] Postea concedant eis pannos probationis, videlicet duas tunicas sine caputio et cingulum et braccas et caparonem usque ad cingulum, [10] nisi eisdem ministris aliud secundum Deum aliquando videatur. [11] Finito vero anno probationis, recipiantur ad obedientiam promittentes vitam istam semper et regulam observare. [12] Et nullo modo licebit eis de ista religione exire iuxta mandatum domini papae, [13] quia secundum sanctum Evangelium nemo mittens manum ad aratrum et aspiciens retro aptus est regno Dei (Lc 9,62). [14] Et illi qui iam promiserunt obedientiam habeant unam tunicam cum caputio et aliam sine caputio qui voluerint habere. [15] Et qui necessitate coguntur possint portare calciamenta. [16] Et fratres omnes vestimentis vilibus induantur et possint ea repeciare de saccis et aliis peciis cum benedictione Dei. [17] Quos moneo et exhortor, ne despiciant neque iudicent homines, quos vident mollibus vestimentis et coloratis indutos, uti cibis et potibus delicatis, sed magis unusquisque iudicet et despiciat semetipsum.",
+      "translation": "Om några vill ta upp detta liv och kommer till våra bröder, ska de sändas till sina provinsministrar, som ensamma har tillstånd att ta emot bröder. Ministrarna ska pröva dem noga om den katolska tron och kyrkans sakrament. Om de tror allt detta och ämnar bekänna det troget och hålla det fast till slutet, och de inte har hustrur, eller om de har det och hustrurna redan har inträtt i ett kloster eller, med stiftsbiskopens myndighet och efter ett redan avlagt löfte om återhållsamhet, har gett sitt tillstånd, och de är i sådan ålder att ingen misstanke kan uppstå, ska bröderna säga dem det heliga evangeliets ord: att de går, säljer allt som är deras och ser till att ge det åt de fattiga. Om de inte kan, räcker den goda viljan. Bröderna och deras ministrar ska akta sig för att befatta sig med dessa timliga gods, så att de nykomna fritt kan förfoga över dem så som Herren ingiver. Om råd söks får ministrarna sända dem till människor som fruktar Gud, på vilkas inrådan godset ges åt de fattiga. Sedan ska de ge prövotidens kläder: två tunikor utan kapuschong, repet, byxorna och en kappa ned till repet, om inte ministrarna ibland enligt Gud bedömer annorlunda. När prövningsåret är slut ska de tas emot till lydnad och lova att alltid hålla detta liv och denna regel. Det ska inte vara dem tillåtet att lämna den, enligt påvens befallning, eftersom ingen som lägger handen på plogen och ser sig tillbaka är skickad för Guds rike. De som redan har lovat lydnad ska ha en tunika med kapuschong och, om de vill, en annan utan. De som nöden tvingar får bära skor. Alla bröder ska bära fattiga kläder, och de får lappa dem med säckväv och andra stycken, med Guds välsignelse. Jag förmanar och uppmanar dem att inte förakta eller döma människor klädda i mjuka och färgade kläder, som använder fin mat och dryck: var och en ska i stället döma och förakta sig själv.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c03",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel III",
+      "originalText": "[1] Clerici faciant divinum officium secundum ordinem sanctae Romanae Ecclesiae excepto psalterio, [2] ex quo habere poterunt breviaria. [3] Laici vero dicant viginti quattuor Pater noster pro matutino, pro laude quinque, pro prima, tertia, sexta, nona, pro qualibet istarum septem, pro vesperis autem duodecim, pro completorio septem; [4] et orent pro defunctis. [5] Et ieiunent a festo Omnium Sanctorum usque ad Nativitatem Domini. [6] Sanctam vero quadragesimam, quae incipit ab Epiphania usque ad continuos quadraginta dies, quam Dominus suo sancto ieiunio consecravit (cfr. Mt 4,2), qui voluntarie eam ieiunant benedicti sint a Domino, et qui nolunt non sint astricti. [7] Sed aliam usque ad Resurrectionem Domini ieiunent. [8] Aliis autem temporibus non teneantur nisi sexta feria ieiunare. [9] Tempore vero manifestae necessitatis non teneantur fratres ieiunio corporali. [10] Consulo vero, moneo et exhortor fratres meos in Domino Jesu Christo, ut, quando vadunt per mundum, non litigent neque contendant verbis (cfr. 2 Tim 2,14), nec alios iudicent; [11] sed sint mites, pacifici et modesti, mansueti et humiles, honeste loquentes omnibus, sicut decet. [12] Et non debeant equitare, nisi manifesta necessitate vel infirmitate cogantur. [13] In quamcumque domum intraverint, primum dicant Pax huic domui (cfr. Lc 10,5). [14] Et secundum sanctum Evangelium de omnibus cibis, qui apponuntur eis, liceat manducare (cfr. Lc 10,8).",
+      "translation": "Klerkerna ska be den gudomliga tidegärden enligt den heliga romerska kyrkans rit, utom psaltaren, för vilken de får ha breviarier. Lekbröderna ska be tjugofyra Fader vår för matutin, fem för laudes, sju vardera för prim, ters, sext och non, tolv för vesper och sju för kompletorium, och de ska be för de döda. De ska fasta från alla helgons dag till jul. Den fasta som börjar vid trettondagen och varar fyrtio dagar, den som Herren helgade genom sin egen fasta: de som fastar den av fri vilja välsignas av Herren, och de som inte vill är inte bundna. Den andra fastan, fram till uppståndelsen, ska de fasta. Vid andra tider är de bundna att fasta endast på fredagen. I uppenbar nöd är de inte bundna till kroppens fasta. Jag råder, förmanar och uppmanar mina bröder i Herren Jesus Kristus: när de går genom världen ska de inte träta, strida med ord eller döma andra; de ska vara saktmodiga, fridfulla, anspråkslösa, milda och ödmjuka och tala ärligt med var och en, så som det anstår. De ska inte rida om de inte tvingas av uppenbar nöd eller sjukdom. I vilket hus de än går in ska de först säga: Frid åt detta hus. Och enligt evangeliet får de äta all mat som sätts fram för dem.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c04",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel IV",
+      "originalText": "[1] Praecipio firmiter fratribus universis, ut nullo modo denarios vel pecuniam recipiant per se vel per interpositam personam. [2] Tamen pro necessitatibus infirmorum et aliis fratribus induendis per amicos spirituales ministri tantum et custodes sollicitam curam gerant secundum loca et tempora et frigidas regiones, sicut necessitati viderint expedire; [3] eo semper salvo, ut, sicut dictum est, denarios vel pecuniam non recipiant.",
+      "translation": "Jag befaller bestämt alla bröder att inte på något sätt ta emot mynt eller pengar, vare sig själva eller genom en annan person. För de sjukas behov och för att klä de andra bröderna ska endast ministrarna och kustoderna, genom andliga vänner, sorgfälligt sörja enligt platser, tider och kalla trakter, så som de ser att nöden kräver; dock alltid så att de, som redan har sagts, inte tar emot mynt eller pengar.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c05",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel V",
+      "originalText": "[1] Fratres illi, quibus gratiam dedit Dominus laborandi, laborent fideliter et devote, [2] ita quod, excluso otio animae inimico, sanctae orationis et devotionis spiritum non exstinguant, cui debent cetera temporalia deservire. [3] De mercede vero laboris pro se et suis fratribus corporis necessaria recipiant praeter denarios vel pecuniam [4] et hoc humiliter, sicut decet servos Dei et paupertatis sanctissimae sectatores.",
+      "translation": "De bröder åt vilka Herren har gett nåden att arbeta ska arbeta troget och andäktigt, så att de, när själens fiende sysslolösheten hålls ute, inte släcker den heliga bönens och andaktens ande, som alla andra timliga ting måste tjäna. Som lön för arbetet ska de för sig själva och sina bröder ta emot det kroppen behöver, utom mynt eller pengar, och de ska ta emot det ödmjukt, så som det anstår Guds tjänare och efterföljare av den allra heligaste fattigdomen.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.poverta",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel VI",
+      "originalText": "[1] Fratres nihil sibi approprient nec domum nec locum nec aliquam rem. [2] Et tanquam peregrini et advenae (cfr. 1 Petr 2,11) in hoc saeculo in paupertate et humilitate Domino famulantes vadant pro eleemosyna confidenter, [3] nec oportet eos verecundari, quia Dominus pro nobis se fecit pauperem in hoc mundo (cfr. 2 Cor 8,9). [4] Haec est illa celsitudo altissimae paupertatis, quae vos, carissimos fratres meos, heredes et reges regni caelorum instituit, pauperes rebus fecit, virtutibus sublimavit (cfr. Jac 2,5). [5] Haec sit portio vestra, quae perducit in terram viventium (cfr. Ps 141,6). [6] Cui, dilectissimi fratres, totaliter inhaerentes nihil aliud pro nomine Domini nostri Jesu Christi in perpetuum sub caelo habere velitis. [7] Et, ubicumque sunt et se invenerint fratres, ostendant se domesticos invicem inter se. [8] Et secure manifestet unus alteri necessitatem suam, quia, si mater nutrit et diligit filium suum (cfr. 1 Thess 2,7) carnalem, quanto diligentius debet quis diligere et nutrire fratrem suum spiritualem? [9] Et, si quis eorum in infirmitate ceciderit, alii fratres debent ei servire, sicut vellent sibi serviri (cfr. Mt 7,12).",
+      "translation": "Bröderna ska inte tillägna sig något, varken hus eller plats eller något annat. Som pilgrimer och främlingar i denna värld, i fattigdom och ödmjukhet i Herrens tjänst, ska de gå och tigga med förtröstan, och de ska inte skämmas, eftersom Herren gjorde sig fattig för oss i denna värld. Detta är höjden av den högsta fattigdomen, som har gjort er, mina käraste bröder, till arvingar och kungar av himmelriket, fattiga på ting och höga i dygd. Låt detta vara er lott, den som leder in i de levandes land. Håll er helt till den, högt älskade bröder, och önska att aldrig under himlen ha något annat, för vår Herre Jesu Kristi namn. Var bröderna än är och möts ska de visa sig som ett enda hushåll för varandra. Den ene ska med förtröstan göra sitt behov känt för den andre: om en mor ger näring åt och älskar sitt barn efter köttet, hur mycket mer måste man då älska och ge näring åt sin broder efter anden? Och om någon blir sjuk ska de andra bröderna tjäna honom så som de själva skulle vilja bli tjänade.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c07",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel VII",
+      "originalText": "[1] Si qui fratrum, instigante inimico, mortaliter peccaverint, pro illis peccatis, de quibus ordinatum fuerit inter fratres, ut recurratur ad solos ministros provinciales, teneantur praedicti fratres ad eos recurrere quam citius poterint, sine mora. [2] Ipsi vero ministri, si presbyteri sunt, cum misericordia iniungant illis poenitentiam; si vero presbyteri non sunt, iniungi faciant per alios sacerdotes ordinis, sicut eis secundum Deum melius videbitur expedire. [3] Et cavere debent, ne irascantur et conturbentur propter peccatum alicuius, quia ira et conturbatio in se et in aliis impediunt caritatem.",
+      "translation": "Om några bröder, drivna av fienden, syndar till döds, ska de för de synder för vilka det bland bröderna är fastställt att man endast ska vända sig till provinsministrarna vända sig till dem så snart de kan, utan dröjsmål. Ministrarna ska, om de är präster, ålägga boten med barmhärtighet; om de inte är det, ska de låta den åläggas av andra präster i orden, så som det synes bäst enligt Gud. De ska akta sig för vrede och oro över någons synd: vrede och oro stänger ute kärleken i en själv och i andra.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c08",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel VIII",
+      "originalText": "[1] Universi fratres unum de fratribus istius religionis teneantur semper habere generalem ministrum et servum totius fraternitatis et ei teneantur firmiter obedire. [2] Quo decedente, electio successoris fiat a ministris provincialibus et custodibus in capitulo Pentecostes, in quo provinciales ministri teneantur semper insimul convenire, ubicumque a generali ministro fuerit constitutum; [3] et hoc semel in tribus annis vel ad alium terminum maiorem vel minorem, sicut a praedicto ministro fuerit ordinatum. [4] Et si aliquo tempore appareret universitati ministrorum provincialium et custodum, praedictum ministrum non esse sufficientem ad servitium et communem utilitatem fratrum, teneantur praedicti fratres, quibus electio data est, in nomine Domini alium sibi eligere in custodem. [5] Post capitulum vero Pentecostes ministri et custodes possint singuli, si voluerint et eis expedire videbitur, eodem anno in suis custodiis semel fratres suos ad capitulum convocare.",
+      "translation": "Alla bröder ska alltid ha en broder av denna orden som generalminister och tjänare åt hela gemenskapen, och lyda honom bestämt. Vid hans död ska efterträdaren väljas av provinsministrarna och kustoderna vid pingstens kapitel, där provinsministrarna alltid måste samlas, på den plats generalministern bestämmer, en gång vart tredje år eller vid en annan tid, längre eller kortare, som han föreskriver. Om ministrarnas och kustodernas samlade kropp skulle finna att den ministern inte räcker till för brödernas tjänst och gemensamma bästa, är de som valet tillkommer skyldiga, i Herrens namn, att välja en annan. Efter pingstens kapitel får ministrar och kustoder, om de vill och det synes nyttigt, en gång samma år kalla sina egna bröder till ett kapitel i sin kustodi.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c09",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel IX",
+      "originalText": "[1] Fratres non praedicent in episcopatu alicuius episcopi, cum ab eo illis fuerit contradictum. [2] Et nullus fratrum populo penitus audeat praedicare, nisi a ministro generali huius fraternitatis fuerit examinatus et approbatus, et ab eo officium sibi praedicationis concessum. [3] Moneo quoque et exhortor eosdem fratres, ut in praedicatione, quam faciunt, sint examinata et casta eorum eloquia (cfr. Ps 11,7; 17,31), ad utilitatem et aedificationem populi, [4] annuntiando eis vitia et virtutes, poenam et gloriam cum brevitate sermonis; quia verbum abbreviatum fecit Dominus super terram (cfr. Rom 9,28).",
+      "translation": "Bröderna ska inte predika i en biskops stift när han har förbjudit det. Ingen broder ska våga predika för folket om han inte har prövats och godkänts av generalministern och om inte ministern har gett honom predikoämbetet. Jag förmanar och uppmanar bröderna: i predikan ska deras ord vara vägda och kyska, till folkets nytta och uppbyggelse, och förkunna laster och dygder, straff och härlighet, och det kort, eftersom Herren gjorde ett förkortat ord på jorden.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c10",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel X",
+      "originalText": "[1] Fratres, qui sunt ministri et servi aliorum fratrum, visitent et moneant fratres suos et humiliter et caritative corrigant eos, non praecipientes eis aliquid, quod sit contra animam suam et regulam nostram. [2] Fratres vero, qui sunt subditi, recordentur, quod propter Deum abnegaverunt proprias voluntates. [3] Unde firmiter praecipio eis, ut obediant suis ministris in omnibus quae promiserunt Domino observare et non sunt contraria animae et regulae nostrae. [4] Et ubicumque sunt fratres, qui scirent et cognoscerent, se non posse regulam spiritualiter observare, ad suos ministros debeant et possint recurrere. [5] Ministri vero caritative et benigne eos recipiant et tantam familiaritatem habeant circa ipsos, ut dicere possint eis et facere sicut domini servis suis; [6] nam ita debet esse, quod ministri sint servi omnium fratrum. [7] Moneo vero et exhortor in Domino Jesu Christo, ut caveant fratres ab omni superbia, vana gloria, invidia, avaritia (cfr. Lc 12,15), cura et sollicitudine huius saeculi (cfr. Mt 13,22), detractione et murmuratione, et non curent nescientes litteras litteras discere; [8] sed attendant, quod super omnia desiderare debent habere Spiritum Domini et sanctam eius operationem, [9] orare semper ad eum puro corde et habere humilitatem, patientiam in persecutione et infirmitate [10] et diligere eos qui nos persequuntur et reprehendunt et arguunt, quia dicit Dominus Diligite inimicos vestros et orate pro persequentibus et calumniantibus vos (cfr. Mt 5,44). [11] Beati qui persecutionem patiuntur propter iustitiam, quoniam ipsorum est regnum caelorum (Mt 5,10). [12] Qui autem perseveraverit usque in finem hic salvus erit (Mt 10,22).",
+      "translation": "Bröder som är ministrar och tjänare åt de andra ska besöka och förmana sina bröder och tillrättavisa dem med ödmjukhet och kärlek, och inte befalla något mot själen och vår regel. De underlydande bröderna ska minnas att de för Guds skull har avsagt sig sin egen vilja. Jag befaller dem bestämt att lyda sina ministrar i allt de lovade Herren att hålla och som inte strider mot själen och regeln. Bröder som vet att de inte kan hålla regeln andligt bör och får vända sig till ministrarna. Ministrarna ska ta emot dem med kärlek och vänlighet och vara så förtroliga med dem att de kan tala och handla som herrar med sina tjänare: ty så måste det vara, att ministrarna är tjänare åt alla bröder. Jag förmanar och uppmanar i Herren Jesus Kristus: bröderna ska akta sig för all högmod, fåfänga ära, avund och girighet, för denna tids omsorger och ängslan, för förtal och knot; och den som inte kan läsa ska inte vara ängslig att lära sig det. De ska hellre ge akt på detta: framför allt ska de längta efter Herrens Ande och hans heliga verk, alltid be med rent hjärta, ha ödmjukhet och tålamod i förföljelse och sjukdom, och älska dem som förföljer, tillrättavisar och anklagar oss, eftersom Herren säger: Älska era fiender och be för dem som förföljer och förtalar er. Saliga är de som förföljs för rättfärdighetens skull, ty deras är himmelriket. Den som håller ut intill slutet ska bli frälst.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c11",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel XI",
+      "originalText": "[1] Praecipio firmiter fratribus universis, ne habeant suspecta consortia vel consilia mulierum, [2] et ne ingrediantur monasteria monacharum praeter illos, quibus a sede apostolica concessa est licentia specialis; [3] nec fiant compatres virorum vel mulierum nec hac occasione inter fratres vel de fratribus scandalum oriatur.",
+      "translation": "Jag befaller bestämt alla bröder att inte ha misstänkt sällskap eller råd med kvinnor och att inte gå in i nunnornas kloster utom de som den apostoliska stolen har gett ett särskilt tillstånd. De ska inte bli faddrar åt män eller kvinnor, så att inte anstöt uppstår bland bröderna eller om dem.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c12",
+      "documentId": "source.regola_bollata",
+      "reference": "Den senare regeln, kapitel XII och stadfästelsen",
+      "originalText": "[1] Quicumque fratrum divina inspiratione voluerint ire inter saracenos et alios infideles petant inde licentiam a suis ministris provincialibus. [2] Ministri vero nullis eundi licentiam tribuant, nisi eis quos viderint esse idoneos ad mittendum. [3] Ad haec per obedientiam iniungo ministris, ut petant a domino papa unum de sanctae Romanae Ecclesiae cardinalibus, qui sit gubernator, protector et corrector istius fraternitatis, [4] ut semper subditi et subiecti pedibus eiusdem sanctae Ecclesiae stabiles in fide (cfr. Col 1,23) catholica paupertatem et humilitatem et sanctum evangelium Domini nostri Jesu Christi, quod firmiter promisimus, observemus. Explicit regula et vita fratrum minorum. Sequitur confirmatio regulae Nulli ergo omnino hominum liceat hanc paginam nostre confirmationis infringere, vel ei ausu temerario contraire. si quis autem hoc attentare presumpserit, indignationem omnipotentis dei et beatorum Petri et Pauli, apostolorum eius, se noverit incursurum. Datum Laterani tertio kalendas decembris, pontificatus nostri anno octavo. Honorius III hr Pravilo svetoga Franje",
+      "translation": "Varje broder som av gudomlig ingivelse vill gå bland saracenerna och andra icke-troende ska be sin provinsminister om lov. Ministrarna ska ge det endast åt dem de ser lämpliga att sända. I lydnad ålägger jag ministrarna att be påven om en kardinal av den heliga romerska kyrkan som styresman, beskyddare och tillrättavisare för denna gemenskap, så att vi, alltid underdåniga vid samma heliga kyrkas fötter och stadiga i den katolska tron, må hålla den fattigdom, den ödmjukhet och vår Herre Jesu Kristi heliga evangelium som vi bestämt lovade. Här slutar mindrebrödernas regel och liv. Stadfästelsen följer: ingen ska kränka detta stadfästelsebrev eller motsätta sig det med förmätet djärvhet. Den som dristar sig att försöka det, må han veta att han ådrar sig den allsmäktige Gudens och den salige Petrus och Paulus vrede. Givet i Lateranen, tre dagar före decemberkalenderna, i det åttonde året av vårt pontifikat. Honorius III.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c00",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, prolog",
+      "originalText": "[1] In nomine Patris et Filii et Spiritus Sancti! [2] Haec est vita evangelii Jesu Christi, quam frater Franciscus petiit a domino papa concedi et confirmari sibi; et ille concessit et confirmavit sibi et suis fratribus habitis et futuris. [3] Frater Franciscus et quicumque erit caput istius religionis promittat obedientiam domino Innocentio papae et reverentiam et suis successoribus. [4] Et omnes alii fratres teneantur obedire fratri Francisco et eius successoribus.",
+      "translation": "I Faderns och Sonens och den helige Andes namn. Detta är Jesu Kristi evangeliums liv, som broder Franciskus bad herr påven att ge honom och stadfästa; och han gav och stadfäste det åt honom och åt hans bröder, de närvarande och de kommande. Broder Franciskus, och den som blir huvud för denna orden, ska lova lydnad och vördnad åt herr påven Innocentius och hans efterträdare. Och alla de andra bröderna är skyldiga att lyda broder Franciskus och hans efterträdare.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c01",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel I",
+      "originalText": "[1] Regula et vita istorum fratrum haec est, scilicet vivere in obedientia, in castitate et sine proprio, et Domini nostri Jesu Christi doctrinam et vestigia sequi, qui dicit [2] «Si vis perfectus esse, vade (Mt 19,21) et vende omnia (cfr. Lc 18,22), quae habes, et da pauperibus et habebis thesaurum in caelo; et veni, sequere me» (Mt 19,21). [3] Et «Si quis vult post me venire, abneget semetipsum et tollat crucem suam et sequatur me» (Mt 16, 24). [4] Item «Si quis vult venire ad me et non odit patrem et matrem et uxorem et filios et fratres et sorores, adhuc autem et animam suam, non potest meus esse discipulus» (Lc 14,26). [5] Et «Omnis, qui reliquerit patrem aut matrem, fratres aut sorores, uxorem aut filios, domos aut agros propter me, centuplum accipiet et vitam aeternam possidebit» (cfr. Mt 19,29; Mc 10,29; Lc 18,29).",
+      "translation": "Dessa bröders regel och liv är detta: att leva i lydnad, i kyskhet och utan något eget, och att följa vår Herre Jesu Kristi lära och fotspår, han som säger: om du vill vara fullkomlig, gå, sälj allt du har och ge det åt de fattiga, så får du en skatt i himlen; och kom och följ mig. Och: om någon vill komma efter mig, ska han förneka sig själv, ta sitt kors och följa mig. Åter: om någon vill komma till mig och inte hatar far och mor och hustru och barn och bröder och systrar, ja till och med sitt eget liv, kan han inte vara min lärjunge. Och: den som har lämnat far eller mor, bröder eller systrar, hustru eller barn, hus eller åkrar för min skull ska få hundrafalt igen och äga evigt liv.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c02",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel II",
+      "originalText": "[1] Si quis divina inspiratione volens accipere hanc vitam venerit ad nostros fratres, benigne recipiatur ab eis. [2] Quodsi fuerit firmus accipere vitam nostram, multum caveant sibi fratres, ne de suis temporalibus negotiis se intromittant, sed ad suum ministrum, quam citius possunt, eum repraesentent. [3] Minister vero benigne ipsum recipiat et confortet et vitae nostrae tenorem sibi diligenter exponat. [4] Quo facto, praedictus, si vult et potest spiritualiter sine impedimento, omnia sua vendat et ea omnia pauperibus studeat erogare. [5] Caveant sibi fratres et minister fratrum, quod de negotiis suis nullo modo intromittant se; [6] neque recipiant aliquam pecuniam neque per se neque per interpositam personam. [7] Si tamen indigent, alia necessaria corporis praeter pecuniam recipere possunt fratres causa necessitatis sicut alii pauperes. [8] Et cum reversus fuerit, minister concedat ei pannos probationis usque ad annum, scilicet duas tunicas sine caputio et cingulum et braccas et caparonem usque ad cingulum. [9] Finito vero anno et termino probationis recipiatur ad obedientiam. [10] Postea non licebit ei ad aliam religionem accedere neque «extra obedientiam evagari» iuxta mandatum domini papae et secundum evangelium; quia «nemo mittens manum ad aratrum et aspiciens retro aptus est regno Dei» (Lc 9,62). [11] Si autem aliquis venerit, qui sua dare non potest sine impedimento et habet spiritualem voluntatem, relinquat illa, et sufficit sibi. [12] Nullus recipiatur contra formam et institutionem sanctae Ecclesiae. [13] Alii vero fratres, qui promiserunt obedientiam, habeant unam tunicam cum caputio et aliam sine caputio, si necesse fuerit, et cingulum et braccas. [14] Et omnes fratres vilibus vestibus induantur, et possint eas repeciare de saccis et aliis peciis cum benedictione Dei; quia dicit Dominus in evangelio «Qui in veste pretiosa sunt et in deliciis» (Lc 7,25) et «qui mollibus vestiuntur, in domibus regum sunt» (Mt 11,8). [15] Et licet dicantur hypocritae, non tamen cessent bene facere nec quaerant caras vestes in hoc saeculo, ut possint habere vestimentum in regno caelorum.",
+      "translation": "Om någon, som av gudomlig ingivelse vill ta detta liv, kommer till våra bröder, ska de ta emot honom vänligt. Om han är fast i att ta vårt liv, ska bröderna sorgfälligt undvika att blanda sig i hans timliga angelägenheter och så snart de kan föra honom till sin minister. Ministern ska ta emot honom vänligt, uppmuntra honom och sorgfälligt lägga fram innebörden av vårt liv. När det är gjort, om han vill och andligt kan, utan hinder, ska han sälja allt som är hans och se till att ge det åt de fattiga. Bröderna och ministern ska undvika att på något sätt blanda sig i hans angelägenheter och inte ta emot pengar, vare sig själva eller genom en annan person. Om de är i nöd får bröderna av nödvändighet ta emot de andra ting kroppen behöver, utom pengar, så som andra fattiga gör. När han har kommit tillbaka ska ministern ge honom prövotidens kläder för högst ett år: två tunikor utan kapuschong, repet, byxorna och en kappa ned till repet. När året och prövotiden är slut ska han tas emot till lydnad. Därefter ska det inte vara honom tillåtet att gå över till en annan orden eller att vandra utanför lydnaden, enligt påvens befallning och evangeliet: ingen som lägger handen på plogen och ser sig tillbaka är skickad för Guds rike. Om någon kommer som inte utan hinder kan ge bort det som är hans, och har en andlig vilja, ska han lämna de tingen, och det är nog för honom. Ingen ska tas emot mot den heliga kyrkans form och ordning. De andra bröderna, som har lovat lydnad, ska ha en tunika med kapuschong och en annan utan, om det behövs, samt repet och byxorna. Alla bröder ska klä sig i fattiga kläder, och de får lappa dem med säckväv och andra stycken, med Guds välsignelse, eftersom Herren säger i evangeliet att de som är i dyrbara kläder och i lyx, och de som klär sig mjukt, finns i kungarnas hus. Och även om människor kallar dem hycklare ska de inte sluta göra det goda, och de ska inte söka dyra kläder i denna tid, för att de ska få klädnad i himmelriket.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c03",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel III",
+      "originalText": "[1] Dicit Dominus Hoc genus daemoniorum non potest exire nisi in ieiunio et oratione (cfr. Mc 9,28); [2] et iterum «Cum ieiunatis nolite fieri sicut hypocritae tristes» (Mt 6,16). [3] Propter hoc omnes fratres sive clerici sive laici faciant divinum officium, laudes et orationes, secundum quod debent facere. [4] Clerici faciant officium et dicant pro vivis et pro mortuis secundum consuetudinem clericorum. [5] Et pro defectu et negligentia fratrum dicant omni die Miserere mei Deus (Ps 50) cum Pater noster; [6] et pro fratribus defunctis dicant De profundis (Ps 129) cum Pater noster. [7] Et libros tantum necessarios ad implendum eorum officium possint habere. [8] Et laicis etiam scientibus legere psalterium liceat eis habere illud. [9] Aliis vero nescientibus litteras librum habere non liceat. [10] Laici dicant Credo in Deum et viginti quattuor Pater noster cum Gloria Patri pro matutino; pro laudibus vero quinque; pro prima Credo in Deum et septem Pater noster cum Gloria Patri; pro tertia, sexta et nona et unaquaque hora septem; pro vesperis duodecim; pro completorio Credo in Deum et septem Pater noster cum Gloria Patri; pro mortuis septem Pater noster cum Requiem aeternam; et pro defectu et negligentia fratrum tria Pater noster omni die. [11] Et similiter omnes fratres ieiunent a festo Omnium Sanctorum usque ad Natale et ab Epiphania, quando Dominus noster Jesus Christus incepit ieiunare usque ad Pascha. [12] Aliis autem temporibus non teneantur secundum hanc vitam nisi sexta feria ieiunare. [13] Et liceat eis manducare de omnibus cibis, qui apponuntur eis, secundum evangelium (cfr. Lc 10,8).",
+      "translation": "Herren säger: detta slags demon kan inte fara ut annat än genom fasta och bön; och åter: när ni fastar, bli inte sorgsna som hycklarna. Därför ska alla bröder, klerker eller lekmän, göra den gudomliga tidegärden, lovsångerna och bönerna, så som de bör. Klerkerna ska göra tidegärden och be för levande och döda enligt klerkernas sed. För brödernas fel och försummelser ska de varje dag säga Miserere med Fader vår; och för de döda bröderna De profundis med Fader vår. De får endast ha de böcker som behövs för att fullgöra sin tjänst. Lekbröder som kan läsa psaltaren får ha den. De andra, som inte kan läsa, får inte ha en bok. Lekbröderna ska säga trosbekännelsen och tjugofyra Fader vår med Ära för matutin; fem för laudes; för prim trosbekännelsen och sju Fader vår med Ära; för ters, sext och non, och för var och en av dessa stunder, sju; tolv för vesper; för kompletorium trosbekännelsen och sju Fader vår med Ära; för de döda sju Fader vår med Requiem; och för brödernas fel och försummelse tre Fader vår varje dag. Likaså ska alla bröder fasta från alla helgons dag till jul, och från trettondagen, då vår Herre Jesus Kristus började fasta, till påsk. Vid andra tider är de enligt detta liv bundna att fasta endast på fredagen. Och de får äta av all mat som sätts fram för dem, enligt evangeliet.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c04",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel IV",
+      "originalText": "[1] In nomine Domini! [2] Omnes fratres, qui constituuntur ministri et servi aliorum fratrum, in provinciis et in locis, in quibus fuerint, collocent suos fratres, quos saepe visitent et spiritualiter moneant et confortent. [3] Et omnes alii fratres mei benedicti diligenter obediant eis in his, quae spectant ad salutem animae et non sunt contraria vitae nostrae. [4] Et faciant inter se sicut dicit Dominus «Quaecumque vultis, ut faciant vobis homines et vos facite illis» (Mt 7,12); [5] et «Quod non vis tibi fieri, non facias alteri». [6] Et recordentur ministri et servi, quod dicit Dominus Non veni ministrari, sed ministrare (Mt 20,28) et quia commissa est eis cura animarum fratrum, de quibus, si aliquid perderetur propter eorum culpam et malum exemplum, in die iudicii oportebit eos reddere rationem (cfr. Mt 12,36) coram Domino Jesu Christo.",
+      "translation": "I Herrens namn. Alla bröder som är satta till ministrar och tjänare åt de andra bröderna ska, i de provinser och på de platser där de är, placera sina bröder, besöka dem ofta och andligt varna och uppmuntra dem. Och alla mina andra välsignade bröder ska lyda dem sorgfälligt i det som rör själens frälsning och inte strider mot vårt liv. De ska göra sinsemellan så som Herren säger: allt vad ni vill att människorna ska göra er, det ska ni också göra dem; och: det ni inte vill ska göras er, gör inte det mot en annan. Och ministrarna och tjänarna ska minnas att Herren säger: Jag har inte kommit för att bli tjänad utan för att tjäna; och att omsorgen om brödernas själar har anförtrotts dem, för vilken de, om något ginge förlorat genom deras fel och dåliga exempel, måste avlägga räkenskap på domens dag inför Herren Jesus Kristus.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c05",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel V",
+      "originalText": "[1] Ideoque animas vestras et fratrum vestrorum custodite; quia horrendum est incidere in manus Dei viventis (Hebr 10,31). [2] Si quis autem ministrorum alicui fratrum aliquid contra vitam nostram praeciperet vel contra animam suam, non teneatur ei obedire; quia illa obedientia non est, in qua delictum vel peccatum committitur. [3] Verumtamen omnes fratres, qui sunt sub ministris et servis, facta ministrorum et servorum considerent rationabiliter et diligenter. [4] Et si viderint aliquem illorum carnaliter et non spiritualiter ambulare pro rectitudine vitae nostrae, post tertiam admonitionem, si non se emendaverit, in capitulo Pentecostes renuntient ministro et servo totius fraternitatis nulla contradictione impediente. [5] Si vero inter fratres ubicumque fuerit aliquis frater volens carnaliter et non spiritualiter ambulare, fratres, cum quibus est, moneant eum, instruant et corripiant humiliter et diligenter. [6] Quodsi ille post tertiam admonitionem noluerit se emendare, quam citius possunt, mittant eum vel significent suo ministro et servo, qui minister et servus de eo faciat, sicut sibi secundum Deum melius videbitur expedire. [7] Et caveant omnes fratres tam ministri et servi quam alii, quod propter peccatum alterius vel malum non turbentur vel irascantur, quia diabolus propter delictum unius multos vult corrumpere; [8] sed spiritualiter, sicut melius possunt, adiuvent illum qui peccavit, quia non est sanis opus medicus, sed male habentibus (cfr. Mt 9,12 cum Mc 2,17). [9] Similiter omnes fratres non habeant in hoc potestatem vel dominationem maxime inter se. [10] Sicut enim dicit Dominus in evangelio «Principes gentium dominantur eorum, et qui maiores sunt potestatem exercent in eos» (Mt 20,25), non sic erit inter fratres (cfr. Mt 20,26a). [11] Et quicumque voluerit inter eos maior fieri, sit eorum minister (cfr. Mt 20,26b) et servus. [12] Et qui maior est inter eos fiat sicut minor (cfr. Lc 22,26). [13] Nec aliquis frater malum faciat vel malum dicat alteri; [14] immo magis per caritatem spiritus voluntarie serviant et obediant invicem (cfr. Gal 5,13). [15] Et haec est vera et sancta obedientia Domini nostri Jesu Christi. [16] Et omnes fratres, quoties declinaverint a mandatis Domini et extra obedientiam evagaverint, sicut dicit propheta (Ps 118,21), sciant se esse maledictos extra obedientiam, quousque steterint in tali peccato scienter. [17] Et quando perseveraverint in mandatis Domini, quae promiserunt per sanctum evangelium et vitam ipsorum, sciant se in vera obedientia stare, et benedicti sint a Domino.",
+      "translation": "Vakta era egna själar och era bröders själar, ty det är fruktansvärt att falla i den levande Gudens händer. Om en av ministrarna befaller en broder något mot vårt liv eller mot hans själ, är han inte skyldig att lyda: det är inte lydnad i vilken ett brott eller en synd begås. Ändå ska alla bröder under ministrarna och tjänarna betrakta ministrarnas och tjänarnas handlingar med förnuft och omsorg. Och om de ser att någon av dem vandrar efter köttet och inte efter anden, vad beträffar vårt livs rakhet, ska de efter en tredje förmaning, om han inte har rättat sig, anmäla honom vid pingstens kapitel för hela gemenskapens minister och tjänare, och inget får hindra det. Om det någonstans bland bröderna finns en broder som vill vandra efter köttet och inte efter anden, ska de bröder han är tillsammans med förmana, undervisa och tillrättavisa honom ödmjukt och sorgfälligt. Om han efter en tredje förmaning inte vill rätta sig, ska de så snart de kan sända honom eller anmäla honom till hans minister och tjänare, och ministern och tjänaren ska handla med honom så som det synes bäst enligt Gud. Alla bröder, ministrar och tjänare och de övriga, ska akta sig för att oroas eller vredgas över en annans synd eller ont, eftersom djävulen vill fördärva många genom en enda människas förseelse; utan andligt, så gott de kan, ska de hjälpa den som har syndat, ty det är inte de friska som behöver läkaren utan de sjuka. Likaså ska alla bröder inte ha makt eller herravälde i detta, särskilt inte sinsemellan. Så som Herren säger i evangeliet: folkens härskare herrskar över dem och de stora utövar makt över dem; så ska det inte vara bland bröderna. Och den som vill bli den större bland dem ska vara deras minister och tjänare. Och den som är större bland dem ska bli som den mindre. Ingen broder ska göra ont eller tala ont mot en annan; i stället ska de genom Andens kärlek villigt tjäna och lyda varandra. Och detta är vår Herre Jesu Kristi sanna och heliga lydnad. Alla bröder, närhelst de har vikit av från Herrens bud och gått utanför lydnaden, ska veta att de är bannlysta utanför lydnaden, så länge de med vett och vilja förblir i den synden. Och när de har hållit ut i Herrens bud, som de lovade genom det heliga evangeliet och genom sitt liv, ska de veta att de står i sann lydnad, och de ska vara välsignade av Herren.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.fratelli",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel VI",
+      "originalText": "[1] Fratres, in quibuscumque locis sunt, si non possunt vitam nostram observare, quam citius possunt, recurrant ad suum ministrum hoc sibi significantes. [2] Minister vero taliter eis studeat providere, sicut ipse vellet sibi fieri, si in consimili casu esset (cfr. Mt 7,12). [3] Et nullus vocetur prior, sed generaliter omnes vocentur fratres minores. [4] Et alter alterius lavet pedes (cfr. Joa 13,14).",
+      "translation": "Bröderna, var de än är, ska om de inte kan hålla vårt liv så snart de kan vända sig till sin minister och låta honom veta det. Ministern ska sörja för dem så som han skulle vilja att det gjordes för honom själv, om han vore i samma läge. Och ingen ska kallas prior, utan alla ska i allmänhet kallas mindrebröder. Och den ene ska två den andres fötter.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c07",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel VII",
+      "originalText": "[1] Omnes fratres, in quibuscumque locis steterint apud alios ad serviendum vel laborandum, non sint camerarii neque cancellarii neque praesint in domibus, in quibus serviunt; nec recipiant aliquod officium, quod scandalum generet vel animae suae faciat detrimentum (cfr. Mc 8,36); [2] sed sint minores et subditi omnibus, qui in eadem domo sunt. [3] Et fratres, qui sciunt laborare, laborent et eandem artem exerceant, quam noverint, si non fuerit contra salutem animae et honeste poterit operari. [4] Nam propheta ait «Labores fructuum tuorum manducabis; beatus es et bene tibi erit» (Ps 127,2;-R); [5] et apostolus Qui non vult operari non manducet (cfr. 2 Thess 3,10); [6] et Unusquisque in ea arte et officio, in quo vocatus est, permaneat (cfr. 1 Cor 7,24). [7] Et pro labore possint recipere omnia necessaria praeter pecuniam. [8] Et cum necesse fuerit, vadant pro eleemosynis sicut alii pauperes. [9] Et liceat eis habere ferramenta et instrumenta suis artibus opportuna. [10] Omnes fratres studeant bonis operibus insudare, quia scriptum est Semper facito aliquid boni, ut te diabolus inveniat occupatum. [11] Et iterum Otiositas inimica est animae. [12] Ideo servi Dei semper orationi vel alicui bonae operationi insistere debent. [13] Caveant sibi fratres, ubicumque fuerint in eremis vel in aliis locis, quod nullum locum sibi approprient nec alicui defendant. [14] Et quicumque ad eos venerit amicus vel adversarius, fur vel latro benigne recipiatur. [15] Et ubicumque sunt fratres et in quocumque loco se invenerint, spiritualiter et diligenter debeant se revidere et honorare ad invicem sine murmuratione (1 Petr 4,9). [16] Et caveant sibi, quod non se ostendant tristes extrinsecus et nubilosos hypocritas; sed ostendant se gaudentes in Domino (cfr. Phil 4,4) et hilares et convenienter gratiosos.",
+      "translation": "Alla bröder, var de än bor hos andra för att tjäna eller arbeta, ska inte vara kammarherrar eller kanslerer och inte heller ha uppsikt över de hus där de tjänar; inte heller ska de ta något ämbete som föder anstöt eller skadar deras själ; utan de ska vara mindre och underkastade alla i samma hus. Bröder som kan arbeta ska arbeta och utöva det hantverk de kan, om det inte strider mot själens frälsning och kan göras ärligt. Ty profeten säger: du ska äta av dina händers frukt; du är välsignad, och det ska gå dig väl; och aposteln: den som inte vill arbeta, han ska inte heller äta; och: var och en ska förbli i det hantverk och det ämbete i vilket han blev kallad. För sitt arbete får de ta emot allt som behövs, utom pengar. Och när det är nödvändigt ska de gå och tigga som de andra fattiga. De får ha de verktyg och redskap som passar deras hantverk. Alla bröder ska bemöda sig om att svettas i goda verk, ty det står skrivet: gör alltid något gott, så att djävulen finner dig sysselsatt. Och åter: sysslolösheten är själens fiende. Därför måste Guds tjänare alltid tränga vidare i bön eller i något gott verk. Bröderna, var de än är, i eremitage eller på andra platser, ska akta sig för att tillägna sig någon plats eller försvara den mot någon. Och den som kommer till dem, vän eller motståndare, tjuv eller rövare, ska tas emot vänligt. Och var bröderna än är, och på vilken plats de än befinner sig, bör de andligt och sorgfälligt se till varandra och ära varandra, utan knot. Och de ska akta sig för att utåt visa sig sorgsna och mulna hycklare; de ska visa sig glada i Herren, upprymda och vänliga så som det anstår.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c08",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel VIII",
+      "originalText": "[1] Dominus praecipit in evangelio Videte, cavete ab omni malitia et avaritia (cfr. Lc 12,15); [2] et Attendite vobis a sollicitudine huius saeculi et a curis huius vitae (cfr. Lc 21,34). [3] Unde nullus fratrum, ubicumque sit et quocumque vadit, aliquo modo tollat nec recipiat nec recipi faciat pecuniam aut denarios neque occasione vestimentorum nec librorum nec pro pretio alicuius laboris, immo nulla occasione, nisi propter manifestam necessitatem infirmorum fratrum; quia non debemus maiorem utilitatem habere et reputare in pecunia et denariis quam in lapidibus. [4] Et illos vult diabolus excaecare, qui eam appetunt vel reputant lapidibus meliorem. [5] Caveamus ergo nos, qui omnia relinquimus (cfr. Mt 19,27), ne pro tam modico regnum caelorum perdamus. [6] Et si in aliquo loco inveniremus denarios, de his non curemus tamquam de pulvere, quem pedibus calcamus, quia vanitas vanitatum et omnia vanitas (Eccle 1,2). [7] Et si forte, quod absit, aliquem fratrem contigerit pecuniam vel denarios colligere vel habere, excepta solummodo praedicta infirmorum necessitate, omnes fratres teneamus eum pro falso fratre et apostata et fure et latrone et loculos habente (cfr. Joa 12,6), nisi vere poenituerit. [8] Et nullo modo fratres recipiant nec recipi faciant nec quaerant nec quaeri faciant pecuniam pro eleemosyna neque denarios pro aliquibus domibus vel locis; neque cum persona pro talibus locis pecunias vel denarios quaerente vadant. [9] Alia autem servitia, quae non sunt contraria vitae nostrae, possunt fratres locis facere cum benedictione Dei. [10] Fratres tamen in manifesta necessitate leprosorum possunt pro eis quaerere eleemosynam. [11] Caveant tamen multum a pecunia. [12] Similiter caveant omnes fratres, ut pro nullo turpi lucro terras circueant.",
+      "translation": "Herren befaller i evangeliet: vaka, akta er för all ondska och girighet; och: ta er till vara mot denna tids ängslan och detta livs omsorger. Därför ska ingen broder, var han än är och vart han än går, på något sätt ta, ta emot eller låta ta emot pengar eller mynt, varken med anledning av kläder eller av böcker eller som pris för något arbete, ja vid inget tillfälle, utom för de sjuka brödernas uppenbara nöd: vi bör inte hålla eller räkna pengar och mynt för nyttigare än stenar. Och djävulen vill förblinda dem som begär dem eller räknar dem för bättre än stenar. Låt oss därför, vi som har lämnat allt, akta oss för att förlora himmelriket för så litet. Och om vi på någon plats fann mynt, låt oss inte bry oss om dem, som om det damm vi trampar, ty fåfängligheters fåfänglighet, och allt är fåfänglighet. Och om, må det inte ske, en broder skulle råka samla eller hålla pengar eller mynt, utom enbart de sjukas nämnda nöd, ska vi alla bröder hålla honom för en falsk broder, en avfälling, en tjuv och en rövare, och en som bär penningpungen, om han inte verkligen har gjort bot. Och på intet sätt ska bröderna ta emot, låta ta emot, söka eller låta söka pengar som allmosa, inte heller mynt för något hus eller någon plats; inte heller ska de gå med en person som söker pengar eller mynt för sådana platser. Andra tjänster, som inte strider mot vårt liv, får bröderna göra för platser, med Guds välsignelse. Bröderna får dock, i de spetälskas uppenbara nöd, söka allmosa åt dem. Men de ska vara mycket varsamma med pengar. Likaså ska alla bröder akta sig för att färdas genom länderna för någon skamlig vinning.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c09",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel IX",
+      "originalText": "[1] Omnes fratres studeant sequi humilitatem et paupertatem Domini nostri Jesu Christi et recordentur, quod nihil aliud oportet nos habere de toto mundo, nisi, sicut dicit apostolus, habentes alimenta et quibus tegamur, his contenti sumus (cfr. 1 Tim 6,8). [2] Et debent gaudere, quando conversantur inter viles et despectas personas, inter pauperes et debiles et infirmos et leprosos et iuxta viam mendicantes. [3] Et cum necesse fuerit, vadant pro eleemosynis. [4] Et non verecundentur et magis recordentur, quia Dominus noster Jesus Christus, Filius Dei vivi (Joa 11,27) omnipotentis, posuit faciem suam ut petram durissimam (Is 50,7), nec verecundatus fuit. [5] Et fuit pauper et hospes et vixit de eleemosynis ipse et beata Virgo et discipuli eius. [6] Et quando facerent eis homines verecundiam et nollent eis dare eleemosynam, referant inde gratias Deo; quia de verecundiis recipient magnum honorem ante tribunal Domini nostri Jesu Christi. [7] Et sciant, quod verecundia non patientibus, sed inferentibus imputatur. [8] Et eleemosyna est hereditas et iustitia, quae debetur pauperibus, quam nobis acquisivit Dominus noster Jesus Christus. [9] Et fratres, qui eam acquirendo laborant, magnam mercedem habebunt et faciunt lucrari et acquirere tribuentes; quia omnia, quae relinquent homines in mundo peribunt, sed de caritate et de eleemosynis, quas fecerunt, habebunt praemium a Domino. [10] Et secure manifestet unus alteri necessitatem suam, ut sibi necessaria inveniat et ministret. [11] Et quilibet diligat et nutriat fratrem suum, sicut mater diligit et nutrit filium suum (cfr. 1 Thess 2,7), in quibus ei Deus gratiam largietur. [12] Et qui non manducat, manducantem non iudicet (Rom 14,3b). [13] Et quandocumque necessitas supervenerit, liceat universis fratribus, ubicumque fuerint, uti omnibus cibis, quos possunt homines manducare, sicut Dominus dicit de David, qui comedit panes propositionis (cfr. Mt 12,4), quos non licebat manducare nisi sacerdotibus (Mc 2,26). [14] Et recordentur, quod dicit Dominus Attendite autem vobis, ne forte graventur corda vestra in crapula et ebrietate et curis huius vitae et superveniat in vobis repentina dies illa; [15] tanquam enim laqueus superveniet in omnes, qui sedent super faciem orbis terrae (cfr. Lc 21,34-35). [16] Similiter etiam tempore manifestae necessitatis faciant omnes fratres de eorum necessariis, sicut eis Dominus gratiam largietur, quia necessitas non habet legem.",
+      "translation": "Alla bröder ska bemöda sig om att följa vår Herre Jesu Kristi ödmjukhet och fattigdom och minnas att vi av hela världen inte behöver ha något annat utom, som aposteln säger, mat och något att skyla oss med: därmed är vi nöjda. Och de bör glädja sig när de lever bland ringa och föraktade personer, bland fattiga och svaga och sjuka och spetälska och tiggare vid vägen. Och när det är nödvändigt ska de gå och tigga. Och de ska inte skämmas, utan hellre minnas att vår Herre Jesus Kristus, den levande allsmäktige Gudens Son, gjorde sitt ansikte hårt som den hårdaste sten och inte skämdes. Och han var fattig och gäst, och levde av allmosor, han och den välsignade jungfrun och hans lärjungar. Och när människor skämmer ut dem och inte vill ge allmosa, ska de tacka Gud för det, ty för de skamligheterna ska de få stor ära inför vår Herre Jesu Kristi domstol. Och de ska veta att skammen inte räknas dem som lider den, utan dem som tillfogar den. Och allmosan är det arv och den rättvisa som tillkommer de fattiga, den som vår Herre Jesus Kristus förvärvade åt oss. Och de bröder som arbetar för att få dem ska ha en stor lön, och de gör att givarna vinner och förvärvar, ty allt som människor lämnar i världen ska förgås, men för den kärlek och de allmosor de har gjort ska de ha lön av Herren. Och den ene ska med förtröstan göra sitt behov känt för den andre, så att han finner det som behövs och tjänar med det. Och var och en ska älska och ge näring åt sin broder så som en mor älskar och ger näring åt sitt barn, i det som Gud ger honom nåd till. Och den som inte äter ska inte döma den som äter. Och närhelst nöden kommer ska det vara tillåtet för alla bröder, var de än är, att använda all mat som människor kan äta, så som Herren säger om David, som åt skådebröden, vilka det inte var tillåtet att äta utom för prästerna. Och de ska minnas vad Herren säger: ta er till vara, så att era hjärtan inte tyngs av överflöd och dryckenskap och detta livs omsorger, och den dagen kommer över er plötsligt; ty den ska komma som en snara över alla som sitter på jordens yta. Likaså, i en tid av uppenbar nöd, ska alla bröder göra om sina behov så som Herren ger dem nåd, ty nöden har ingen lag.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c10",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel X",
+      "originalText": "[1] Si quis fratrum in infirmitate ceciderit, ubicumque fuerit, alii fratres non dimittant eum, nisi constituatur unus de fratribus vel plures, si necesse fuerit, qui serviant ei, sicut vellent sibi serviri (cfr. Mt 7,12); [2] sed in maxima necessitate possunt ipsum dimittere alicui personae, quae suae debeat satisfacere infirmitati. [3] Et rogo fratrem infirmum, ut referat de omnibus gratias Creatori; et quod qualem vult eum Dominus, talem se esse desideret sive sanum sive infirmum, quia omnes, quos Deus ad vitam praeordinavit aeternam (cfr. Act 13,48), flagellorum atque infirmitatum stimulis et compunctionis spiritu erudit, sicut Dominus dicit «Ego quos amo corrigo et castigo» (Apoc 3,19). [4] Et si quis turbabitur vel irascetur sive contra Deum sive contra fratres, vel si forte sollicite postulaverit medicinas nimis desiderans liberare carnem cito morituram, quae est animae inimica, a malo sibi evenit et carnalis est, et non videtur esse de fratribus, quia plus diligit corpus quam animam.",
+      "translation": "Om en broder blir sjuk, var han än är, ska de andra bröderna inte lämna honom, om inte en av bröderna utses, eller fler om det behövs, att tjäna honom så som han själv skulle vilja bli tjänad; men i den största nöden får de lämna honom åt en person som bör möta hans sjukdom. Och jag ber den sjuke brodern att tacka Skaparen för allt och att vilja vara så som Herren vill ha honom, frisk eller sjuk, ty alla som Gud har förutbestämt till evigt liv övar han med slagets gissel och med sjukdomar och med ångerns ande, så som Herren säger: dem jag älskar, dem tuktar och agar jag. Och om någon oroas eller vredgas mot Gud eller mot bröderna, eller om han kanske ängsligt kräver läkemedel, alltför ivrig att snabbt befria det kött som snart ska dö och som är själens fiende, kommer det honom från det onda och han är köttslig, och han synes inte vara en av bröderna, eftersom han älskar kroppen mer än själen.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c11",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XI",
+      "originalText": "[1] Et omnes fratres caveant sibi, ut non calumnientur neque contendant verbis (cfr. 2 Tim 2,14); [2] immo studeant retinere silentium, quandocumque eis Deus gratiam largietur. [3] Neque litigent inter se neque cum aliis, sed procurent humiliter respondere dicentes Inutilis servus sum (cfr. Lc 17,10). [4] Et non irascantur, quia omnis, qui irascitur fratri suo, reus erit iudicio; qui dixerit fratri suo raca, reus erit concilio; qui dixerit fatue, reus erit gehennae ignis (Mt 5,22). [5] Et diligant se ad invicem, sicut dicit Dominus «Hoc est praeceptum meum ut diligatis invicem, sicut dilexi vos» (Joa 15,12). [6] Et ostendant ex operibus (cfr. Jac 2,18) dilectionem, quam habent ad invicem, sicut dicit apostolus «Non diligamus verbo neque lingua, sed opere et veritate» (1 Joa 3,18). [7] Et neminem blasphement (cfr. Tit 3,2). [8] Non murmurent, non detrahant aliis, quia scriptum est Susurrones et detractores Deo sunt odibiles (cfr. Rom 1,29). [9] Et sint modesti omnem ostendentes mansuetudinem ad omnes homines (cfr. Tit 3,2). [10] Non iudicent, non condemnent. [11] Et sicut dicit Dominus, non considerent minima peccata aliorum (cfr. Mt 7,3; Lc 6,41); [12] immo magis sua recogitent in amaritudine animae suae (Is 38,15). [13] Et contendant intrare per angustam portam (Lc 13,24), quia dicit Dominus «Angusta porta et arcta via est, quae ducit ad vitam; et pauci sunt, qui inveniunt eam» (Mt 7,14).",
+      "translation": "Och alla bröder ska akta sig för att förtala och för att strida med ord; hellre ska de bemöda sig om att hålla tystnad, närhelst Gud ger dem nåden. De ska inte träta sinsemellan eller med andra, utan se till att svara ödmjukt och säga: Jag är en oduglig tjänare. Och de ska inte vredgas, ty den som vredgas på sin broder blir skyldig till domen; den som säger till sin broder ’raqa’ blir skyldig inför rådet; den som säger ’dåre’ blir skyldig till Gehenna eld. Och de ska älska varandra, så som Herren säger: detta är mitt bud, att ni älskar varandra så som jag har älskat er. Och de ska med sina gärningar visa den kärlek de har till varandra, så som aposteln säger: låt oss inte älska med ord eller tunga, utan i gärning och sanning. Och de ska inte häda någon. De ska inte knota och inte tala illa om andra, ty det står skrivet: viskare och baktalare är avskyvärda för Gud. Och de ska vara anspråkslösa och visa all mildhet mot alla människor. De ska inte döma, inte fördöma. Och, så som Herren säger, ska de inte betrakta andras minsta synder; hellre ska de betrakta sina egna, i sin själs bitterhet. Och de ska sträva efter att gå in genom den trånga porten, ty Herren säger: trång är porten och smal den väg som leder till livet, och få är de som finner den.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c12",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XII",
+      "originalText": "[1] Omnes fratres, ubicumque sunt vel vadunt, caveant sibi a malo visu et frequentia mulierum. [2] Et nullus cum eis consilietur aut per viam vadat solus aut ad mensam in una paropside comedat. [3] Sacerdotes honeste loquantur cum eis dando poenitentiam vel aliud spirituale consilium. [4] Et nulla penitus mulier ab aliquo fratre recipiatur ad obedientiam, sed dato sibi consilio spirituali, ubi voluerit, agat poenitentiam. [5] Et multum omnes nos custodiamus et omnia membra nostra munda teneamus, quia dicit Dominus «Qui viderit mulierem ad concupiscendam eam, iam moechatus est eam in corde suo» (Mt 5,28); [6] et apostolus An ignoratis, quia membra vestra templum sunt Spiritus Sancti? (cfr. 1 Cor 6,19); itaque qui templum Dei violaverit, disperdet illum Deus (1 Cor 3,17).",
+      "translation": "Alla bröder, var de än är eller går, ska akta sig för en ond blick och för att umgås med kvinnor. Och ingen ska ta råd med dem, eller gå vägen ensam med dem, eller äta vid bordet ur samma fat. Präster ska tala med dem ärligt, när de ger bot eller annat andligt råd. Och ingen kvinna alls ska av någon broder tas emot till lydnad; utan, sedan andligt råd har getts henne, ska hon göra bot där hon vill. Och låt oss alla vakta oss sorgfälligt och hålla alla våra lemmar rena, ty Herren säger: den som har sett på en kvinna så att han begär henne har redan begått äktenskapsbrott med henne i sitt hjärta; och aposteln: vet ni inte att era lemmar är den helige Andes tempel? Därför, den som vanhelgar Guds tempel, honom ska Gud förgöra.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c13",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XIII",
+      "originalText": "[1] Si quis fratrum diabolo instigante fornicaretur, habitu exuatur quem pro sua turpi iniquitate amisit, et ex toto deponat et a nostra religione penitus repellatur. [2] Et postea poenitentiam faciat de peccatis (cfr. 1 Cor 5,4-5).",
+      "translation": "Om en broder, driven av djävulen, begår otukt, ska han berövas den dräkt han har förlorat genom sin skamliga orätt, han ska lägga den helt åt sidan, och han ska helt uteslutas ur vår orden. Och därefter ska han göra bot för sina synder.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c14",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XIV",
+      "originalText": "[1] Quando fratres vadunt per mundum, nihil portent per viam neque (cfr. Lc 9,3) sacculum (cfr. Lc 10,4) neque peram neque panem neque pecuniam (cfr. Lc 9,3) neque virgam (cfr. Mt 10,10). [2] Et in quamcumque domum intraverint, dicant primum Pax huic domui (cfr. Lc 10,5). [3] Et in eadem domo manentes edant et bibant quae apud illos sunt (cfr. Lc 10,7). [4] Non resistant malo (cfr. Mt 5,39), sed qui eos percusserit in una maxilla, praebeant et alteram (cfr. Mt 5,39 et Lc 6,29). [5] Et qui aufert eis vestimentum, et tunicam non prohibeant (cfr. Lc 6,29). [6] Omni petenti se tribuant; et qui aufert quae sua sunt, ea non repetant (cfr. Lc 6,30).",
+      "translation": "När bröderna går genom världen ska de inte bära något för färden, varken penningpung eller väska eller bröd eller pengar eller stav. Och i vilket hus de än går in ska de först säga: Frid åt detta hus. Och när de stannar i samma hus ska de äta och dricka det som finns där hos dem. De ska inte stå emot det onda, utan åt den som slår dem på den ena kinden ska de också erbjuda den andra. Och åt den som tar deras mantel ska de inte ens vägra tunikan. De ska ge åt var och en som ber; och av den som tar det som är deras ska de inte kräva det tillbaka.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c15",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XV",
+      "originalText": "[1] Iniungo omnibus fratribus meis tam clericis quam laicis euntibus per mundum vel morantibus in locis, quod nullo modo apud se nec apud alium nec alio aliquo modo bestiam aliquam habeant. [2] Nec eis liceat equitare, nisi infirmitate vel magna necessitate cogantur.",
+      "translation": "Jag ålägger alla mina bröder, klerker och lekmän, som går genom världen eller stannar på platser, att inte på något sätt hålla, hos sig själva eller hos en annan eller på något annat sätt, något djur. Och det är inte tillåtet för dem att rida, om inte sjukdom eller stor nöd tvingar dem.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c16",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XVI",
+      "originalText": "[1] Dicit Dominus «Ecce ego mitto vos sicut oves in medio luporum». [2] Estote ergo prudentes sicut serpentes et simplices sicut columbae (Mt 10,16). [3] Unde quicumque frater voluerit ire inter saracenos et alios infideles, vadat de licentia sui ministri et servi. [4] Et minister det eis licentiam et non contradicat, si viderit eos idoneos ad mittendum; nam tenebitur Domino reddere rationem (cfr. Lc 16,2), si in hoc vel in aliis processerit indiscrete. [5] Fratres vero, qui vadunt, duobus modis inter eos possunt spiritualiter conversari. [6] Unus modus est, quod non faciant lites neque contentiones, sed sint subditi omni humanae creaturae propter Deum (1 Petr 2,13) et confiteantur se esse christianos. [7] Alius modus est, quod, cum viderint placere Domino, annuntient verbum Dei, ut credant Deum omnipotentem Patrem et Filium et Spiritum Sanctum, creatorem omnium, redemptorem et salvatorem Filium, et ut baptizentur et efficiantur christiani, quia quis renatus non fuerit ex aqua et Spiritu Sancto, non potest intrare in regnum Dei (cfr. Joa 3,5). [8] Haec et alia, quae placuerint Domino, ipsis et aliis dicere possunt, quia dicit Dominus in evangelio Omnis, qui confitebitur me coram hominibus, confitebor et ego eum coram Patre meo, qui in caelis est (Mt 10,32). [9] Et Qui erubuerit me et sermones meos, et Filius hominis erubescet eum, cum venerit in maiestate sua et Patris et angelorum (cfr. Lc 9,26). [10] Et omnes fratres, ubicumque sunt, recordentur, quod dederunt se et reliquerunt corpora sua Domino Jesu Christo. [11] Et pro eius amore debent se exponere inimicis tam visibilibus quam invisibilibus; quia dicit Dominus Qui perdiderit animam suam propter me, salvam faciet eam (cfr. Lc 9,24) in vitam aeternam (Mt 25,46). [12] Beati qui persecutionem patiuntur propter iustitiam, quoniam ipsorum est regnum caelorum (Mt 5,10). [13] Si me persecuti sunt, et vos persequentur (Joa 15,20). [14] Et Si persequuntur vos in una civitate, fugite in aliam (cfr. Mt 10,23). [15] Beati estis (Mt 5, 11), cum vos oderint homines (Lc 6,22) et maledixerint vobis (Mt 5,11) et persequentur vos (cfr. l. c.) et separaverint vos et exprobraverint et eiecerint nomen vestrum tamquam malum (Lc 6,22) et cum dixerint omne malum adversum vos mentientes propter me (Mt 5,11). [16] Gaudete in illa die et exsultate (Lc 6,23), quoniam merces vestra, multa est in caelis (cfr. Mt 5,12). [17] Et ego dico vobis amicis meis, non terreamini ab his (cfr. Lc 12,4), [18] et nolite timere eos qui occidunt corpus (Mt 10,28) et post hoc non habent amplius quid faciant (Lc 12,4). [19] Videte, ne turbemini (Mt 24,6). [20] In patientia enim vestra possidebitis animas vestras (Lc 21,19); [21] et qui perseveraverit usque in finem, hic salvus erit (Mt 10,22; 24,13).",
+      "translation": "Herren säger: se, jag sänder er som får bland vargar. Var därför kloka som ormar och enkla som duvor. Så ska varje broder som vill gå bland saracenerna och andra icke-troende gå med lov av sin minister och tjänare. Och ministern ska ge dem lov och inte motsätta sig det, om han ser dem lämpliga att sändas; ty han blir skyldig att avlägga räkenskap inför Herren om han i detta eller i något annat har gått fram utan urskillning. De bröder som går kan leva andligt bland dem på två sätt. Det ena sättet är att de inte gör några trätor eller strider, utan underordnar sig varje mänsklig skapelse för Guds skull och bekänner att de är kristna. Det andra sättet är att de, när de ser att det behagar Herren, förkunnar Guds ord, så att människorna tror på den allsmäktige Guden, Fader och Son och helig Ande, alltings skapare, på Sonen som återlösare och frälsare, och så att de döps och blir kristna, eftersom den som inte blir född på nytt av vatten och den helige Ande inte kan komma in i Guds rike. Detta, och annat som behagar Herren, får de säga till dem och till andra, ty Herren säger i evangeliet: den som bekänner mig inför människorna, honom ska också jag bekänna inför min Fader som är i himlen. Och: den som skäms för mig och för mina ord, för honom ska också Människosonen skämmas, när han kommer i sin majestät och i Faderns och änglarnas. Och alla bröder, var de än är, ska minnas att de har gett och lämnat sina kroppar åt Herren Jesus Kristus. Och för hans kärleks skull måste de utsätta sig för fiender, synliga och osynliga, ty Herren säger: den som förlorar sitt liv för min skull ska rädda det till evigt liv. Saliga är de som förföljs för rättfärdighetens skull, ty deras är himmelriket. Om de har förföljt mig, ska de också förfölja er. Och: om de förföljer er i en stad, fly till en annan. Saliga är ni när människorna hatar er och förbannar er och förföljer er och skiljer er åt och smädar er och kastar ut ert namn som något ont och säger allt ont mot er, lögnaktigt, för min skull. Gläd er på den dagen och var glada, ty er lön är stor i himlen. Och jag säger er, mina vänner: låt er inte skrämmas av dessa, och frukta inte dem som dödar kroppen och sedan inte har mer de kan göra. Se till att ni inte oroas. I ert tålamod ska ni besitta era själar; och den som håller ut intill slutet ska bli frälst.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c17",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XVII",
+      "originalText": "[1] Nullus frater praedicet contra formam et institutionem sanctae Ecclesiae et nisi concessum sibi fuerit a ministro suo. [2] Et caveat sibi minister, ne alicui indiscrete concedat. [3] Omnes tamen fratres operibus praedicent. [4] Et nullus minister vel praedicator appropriet sibi ministerium fratrum vel officium praedicationis, sed quacumque hora ei iniunctum fuerit, sine omni contradictione dimittat suum officium. [5] Unde deprecor in caritate, quae Deus est (cfr. 1 Joa 4,16), omnes fratres meos praedicatores, oratores, laboratores, tam clericos quam laicos, ut studeant se humiliare in omnibus, [6] non gloriari nec in se gaudere nec interius se exaltare de bonis verbis et operibus, immo de nullo bono, quod Deus facit vel dicit et operatur in eis aliquando et per ipsos, secundum quod dicit Dominus «Veruntamen in hoc nolite gaudere, quia spiritus vobis subiciuntur» (Lc 10,20). [7] Et firmiter sciamus, quia non pertinent ad nos nisi vitia et peccata. [8] Et magis debemus gaudere, cum in tentationes varias incideremus (cfr. Jac 1,2) et cum sustineremus quascumque animae vel corporis angustias aut tribulationes in hoc mundo propter vitam aeternam. [9] Omnes ergo fratres caveamus ab omni superbia et vana gloria. [10] Et custodiamus nos a sapientia huius mundi et a prudentia carnis (Rom 8,6). [11] Spiritus enim carnis vult et studet multum ad verba habenda, sed parum ad operationem; [12] et quaerit non religionem et sanctitatem in interiori spiritu, sed vult et desiderat habere religionem et sanctitatem foris apparentem hominibus. [13] Et isti sunt, de quibus dicit Dominus Amen dico vobis, receperunt mercedem suam (Mt 6,2). [14] Spiritus autem Domini vult mortificatam et despectam, vilem et abiectam esse carnem. [15] Et studet ad humilitatem et patientiam et puram et simplicem et veram pacem spiritus. [16] Et semper super omnia desiderat divinum timorem et divinam sapientiam et divinum amorem Patris et Filii et Spiritus Sancti. [17] Et omnia bona Domino Deo altissimo et summo reddamus et omnia bona ipsius esse cognoscamus et de omnibus ei gratias referamus, a quo bona cuncta procedunt. [18] Et ipse altissimus et summus, solus verus Deus habeat et ei reddantur et ipse recipiat omnes honores et reverentias, omnes laudes et benedictiones, omnes gratias et gloriam, cuius est omne bonum, qui solus est bonus (cfr. Lc 18,19). [19] Et quando nos videmus vel audimus malum dicere vel facere vel blasphemare Deum, nos bene dicamus et bene faciamus et laudemus Deum (cfr. Rom 12,21), qui est benedictus in saecula (Rom 1,25).",
+      "translation": "Ingen broder ska predika mot den heliga kyrkans form och ordning, eller om inte hans minister har medgett det. Och ministern ska akta sig för att medge det åt någon utan urskillning. Alla bröder ska dock predika genom sina gärningar. Och ingen minister eller predikant ska tillägna sig brödernas tjänst eller predikoämbetet, utan i vilken stund det än åläggs honom ska han utan någon motsägelse lämna sitt ämbete. Därför ber jag, i den kärlek som är Gud, alla mina bröder som predikar, som ber, som arbetar, klerker och lekmän, att bemöda sig om att ödmjuka sig i allt, att inte berömma sig eller glädja sig i sig själva eller inifrån upphöja sig över goda ord och gärningar, ja över inget gott som Gud ibland gör eller säger och verkar i dem och genom dem, enligt det Herren säger: gläd er inte över att andarna är er underdåniga. Och låt oss veta bestämt att inget tillhör oss utom laster och synder. Och vi bör glädja oss mer när vi faller i olika frestelser och när vi bär någon ångest eller prövning för själ eller kropp i denna värld, med det eviga livet för ögonen. Låt oss alla bröder därför akta oss för allt högmod och all fåfäng ära. Och låt oss vakta oss för denna världens vishet och köttets klokhet. Köttets ande vill och arbetar hårt för att ha ord, men litet för att handla; och den söker inte orden och helighet i den inre anden, utan vill och önskar en orden och en helighet som syns på utsidan för människorna. Och det är de om vilka Herren säger: sannerligen säger jag er, de har fått ut sin lön. Herrens Ande däremot vill att köttet ska dödas och föraktas, hållas ringa och kastas bort. Och den verkar ödmjukhet och tålamod och en frid i anden som är ren, enkel och sann. Och framför allt längtar den alltid efter den gudomliga fruktan, den gudomliga visheten och den gudomliga kärleken till Fadern och Sonen och den helige Ande. Och låt oss ge tillbaka åt Herren Gud, den högste och överste, alla goda ting, och erkänna att alla goda ting är hans, och för dem alla tacka honom, från vilken varje gott utgår. Och han, den högste och överste, den ende sanne Guden, må ha, och må det ges tillbaka åt honom, och må han ta emot, all ära och vördnad, allt lov och all välsignelse, all tack och härlighet: varje gott är hans, han ensam är god. Och när vi ser eller hör ont sägas eller göras, eller Gud hädas, låt oss säga det goda och göra det goda och lova Gud, som är välsignad i evighet.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c18",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XVIII",
+      "originalText": "[1] Quolibet anno unusquisque minister cum fratribus suis possit convenire, ubicumque placuerit eis, in festo sancti Michaelis archangeli de his quae ad Deum pertinent, tractaturus. [2] Omnes enim ministri, qui sunt in ultramarinis et ultramontanis partibus, semel in tribus annis, et alii ministri semel in anno veniant ad capitulum Pentecostes apud ecclesiam sanctae Mariae de Portiuncula, nisi a ministro et servo totius fraternitatis aliter fuerit ordinatum.",
+      "translation": "Varje år får varje minister mötas med sina bröder, var det än behagar dem, på den helige ärkeängeln Mikaels fest, för att behandla det som hör Gud till. Alla ministrar som är i länderna bortom havet och bortom bergen ska komma en gång vart tredje år, och de andra ministrarna en gång om året, till pingstens kapitel vid kyrkan Santa Maria della Porziuncola, om inte hela gemenskapens minister och tjänare har föreskrivit annat.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c19",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XIX",
+      "originalText": "[1] Omnes fratres sint catholici, vivant et loquantur catholice. [2] Si quis vero erraverit a fide et vita catholica in dicto vel in facto et non se emendaverit, a nostra fraternitate penitus expellatur. [3] Et omnes clericos et omnes religiosos habeamus pro dominis in his quae spectant ad salutem animae et a nostra religione non deviaverint, et ordinem et officium eorum et administrationem in Domino veneremur.",
+      "translation": "Alla bröder ska vara katolska och leva och tala som katoliker. Om någon viker av från den katolska tron och det katolska livet, i ord eller i gärning, och inte rättar sig, ska han helt uteslutas ur vår gemenskap. Och låt oss hålla alla klerker och alla ordensfolk som herrar i det som rör själens frälsning och inte avviker från vår orden, och låt oss i Herren vörda deras ordning, deras ämbete och deras förvaltning.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c20",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XX",
+      "originalText": "[1] Et fratres mei benedicti tam clerici quam laici confiteantur peccata sua sacerdotibus nostrae religionis. [2] Et si non potuerint, confiteantur aliis discretis et catholicis sacerdotibus scientes firmiter et attendentes, quia a quibuscumque sacerdotibus catholicis acceperint poenitentiam et absolutionem, absoluti erunt procul dubio ab illis peccatis, si poenitentiam sibi iniunctam procuraverint humiliter et fideliter observare. [3] Si vero tunc non potuerint habere sacerdotem, confiteantur fratri suo, sicut dicit apostolus Jacobus «Confitemini alterutrum peccata vestra» (Jac 5,16). [4] Non tamen propter hoc dimittant recurrere ad sacerdotem, quia potestas ligandi et solvendi solis sacerdotibus est concessa. [5] Et sic contriti et confessi sumant corpus et sanguinem Domini nostri Jesu Christi cum magna humilitate et veneratione recordantes, quod Dominus dicit Qui manducat carnem meam et bibit sanguinem meum habet vitam aeternam (cfr. Joa 6,55); [6] et «Hoc facite in meam commemorationem» (Lc 22,19).",
+      "translation": "Och mina välsignade bröder, klerker och lekmän, ska bikta sina synder för vår ordens präster. Och om de inte kan, ska de bikta dem för andra förståndiga och katolska präster, i den fasta kunskapen och med uppmärksamhet på detta: att av vilken katolsk präst de än har tagit emot bot och avlösning, blir de utan tvivel lösta från de synderna, om de ser till att ödmjukt och troget hålla den bot som ålagts dem. Om de vid den tiden inte kan få en präst, ska de bikta sig för sin broder, så som aposteln Jakob säger: bekänn era synder för varandra. De ska inte för den skull underlåta att vända sig till en präst, ty makten att binda och lösa är given åt präster ensamma. Och så, förkrossade och biktade, ska de ta emot vår Herre Jesu Kristi kropp och blod med stor ödmjukhet och vördnad, i minnet av att Herren säger: den som äter mitt kött och dricker mitt blod har evigt liv; och: gör detta till min åminnelse.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c21",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XXI",
+      "originalText": "[1] Et hanc vel talem exhortationem et laudem omnes fratres mei, quandocumque placuerit eis, annuntiare possunt inter quoscumque homines cum benedictione Dei [2] Timete et honorate, laudate et benedicite, gratias agite (1 Thess 5,18) et adorate Dominum Deum omnipotentem in trinitate et unitate, Patrem et Filium et Spiritum Sanctum, creatorem omnium. [3] Agite poenitentiam (cfr. Mt 3,2), facite dignos fructus poenitentiae (cfr. Lc 3,8), quia cito moriemur. [4] Date et dabitur vobis (Lc 6,38). [5] Dimittite et dimittetur vobis (cfr. Lc 6,37). [6] Et si non dimiseritis hominibus peccata eorum (Mt 6,14), Dominus non dimittet vobis peccata vestra (Mc 11,25); confitemini omnia peccata vestra (cfr. Jac 5,16). [7] Beati qui moriuntur in poenitentia, quia erunt in regno caelorum. [8] Vae illis qui non moriuntur in poenitentia, quia erunt filii diaboli (1 Joa 3,10), cuius opera faciunt (cfr. Joa 8,41) et ibunt in ignem aeternum (Mt 18,8; 25,41). [9] Cavete et abstinete ab omni malo et perseverate usque in finem in bono.",
+      "translation": "Och denna uppmaning och detta lov, eller ett liknande, får alla mina bröder förkunna, närhelst det behagar dem, bland vilket folk som helst, med Guds välsignelse: frukta och ära, lova och välsigna, tacka och tillbe Herren Gud den allsmäktige i treenighet och enhet, Fader och Son och helig Ande, alltings skapare. Gör bot, bär frukt som är boten värdig, ty vi ska snart dö. Ge, och det ska ges er. Förlåt, och det ska förlåtas er. Och om ni inte förlåter människorna deras synder, ska Herren inte förlåta er era synder: bekänn alla era synder. Saliga är de som dör i bot, ty de ska vara i himmelriket. Ve dem som inte dör i bot, ty de ska vara djävulens barn, vilkas gärningar de gör, och de ska gå in i den eviga elden. Akta er, och avhåll er från allt ont, och håll ut intill slutet i det goda.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c22",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XXII",
+      "originalText": "[1] Attendamus, omnes fratres, quod dicit Dominus Diligite inimicos vestros et benefacite his qui oderunt vos (cfr. Mt 5,44 par.), [2] quia Dominus noster Jesus Christus, cuius sequi vestigia debemus (cfr. 1 Petr 2,21), traditorem suum vocavit amicum (cfr. Mt 26,50) et crucifixoribus suis sponte se obtulit. [3] Amici igitur nostri sunt omnes illi, qui nobis iniuste inferunt tribulationes et angustias, verecundias et iniurias, dolores et tormenta, martyrium et mortem; [4] quos multum diligere debemus, quia ex hoc quod nobis inferunt, habemus vitam aeternam. [5] Et odio habeamus corpus nostrum cum vitiis et peccatis suis; quia carnaliter vivendo vult diabolus a nobis auferre amorem Jesu Christi et vitam aeternam et se ipsum cum omnibus perdere in infernum; [6] quia nos per culpam nostram sumus foetidi, miseri et bono contrarii, ad mala autem prompti et voluntarii, quia sicut Dominus dicit in evangelio [7] De corde procedunt et exeunt cogitationes malae, adulteria, fornicationes, homicidia, furta, avaritia, nequitia, dolus, impudicitia, oculus malus, falsa testimonia, blasphemia, stultitia (cfr. Mc 7,21-22; Mt 15,19). [8] Haec omnia mala ab intus de corde hominis procedunt (cfr. Mc 7,23) et haec sunt quae coinquinant hominem (Mt 15,20). [9] Nunc autem, postquam dimisimus mundum, nihil aliud habemus facere, nisi sequi voluntatem Domini et placere sibi ipsi. [10] Multum caveamus, ne simus terra secus viam vel petrosa vel spinosa, secundum quod dicit Dominus in evangelio [11] Semen est verbum Dei (Lc 8,11). [12] Quod autem secus viam cecidit et conculcatum est (cfr. Lc 8,5), hi sunt, qui audiunt (Lc 8,12) verbum et non intelligunt (cfr. Mt 13,19); [13] et confestim (Mc 4,15) venit diabolus (Lc 8,12) et rapit (Mt 13,19), quod seminatum est in cordibus eorum (Mc 4,15) et tollit verbum de cordibus eorum, ne credentes salvi fiant (Lc 8,12). [14] Quod autem super petrosam cecidit (cfr. Mt 13,20), hi sunt, qui, cum audierint verbum, statim cum gaudio (Mc 4,16) suscipiunt (Lc 8,13) illud (Mc 4,16). [15] Facta autem tribulatione et persecutione propter verbum, continuo scandalizantur (Mt 13,21) et hi radicem in se non habent, sed temporales sunt (cfr. Mc 4,17), quia ad tempus credunt et in tempore tentationis recedunt (Lc 8,13). [16] Quod autem in spinis cecidit, hi sunt (Lc 8,14), qui verbum Dei audiunt (cfr. Mc 4,18), et sollicitudo (Mt 13,22) et aerumnae (Mc 4,19) istius saeculi et fallacia divitiarum (Mt 13,22) et circa reliqua concupiscentiae introeuntes suffocant verbum et sine fructu efficiuntur (cfr. Mc 4,19). [17] Quod autem in terram bonam (Lc 8,15) seminatum est (Mt 13,23), hi sunt, qui in corde bono et optimo audientes verbum (Lc 8,15) intelligunt et (cfr. Mt 13,23) retinent et fructum afferunt in patientia (Lc 8,15). [18] Et propterea nos fratres, sicut dicit Dominus, dimittamus mortuos sepelire mortuos suos (Mt 8,22). [19] Et multum caveamus a malitia et subtilitate satanae, qui vult, quod homo mentem suam et cor non habeat ad Deum. [20] Et circuiens desiderat cor hominis sub specie alicuius mercedis vel adiutorii tollere et suffocare verbum et praecepta Domini a memoria et volens cor hominis per saecularia negotia et curam excaecare et ibi habitare, sicut dicit Dominus [21] Cum immundus spiritus exierit ab homine, ambulat per loca arida (Mt 12,43) et inaquosa quaerens requiem; [22] et non inveniens dicit Revertar in domum meam, unde exivi (Lc 11,24). [23] Et veniens invenit eam vacantem, scopis mundatam et ornatam (Mt 12,44). [24] Et vadit et assumit alios septem spiritus nequiores se, et ingressi habitant ibi, et sunt novissima hominis illius peiora prioribus (cfr. Lc 11,26). [25] Unde, omnes fratres. custodiamus nos multum, ne sub specie alicuius mercedis vel operis vel adiutorii perdamus vel tollamus nostram mentem et cor a Domino. [26] Sed in sancta caritate, quae Deus est (cfr. 1 Joa 4,16), rogo omnes fratres tam ministros quam alios, ut omni impedimento remoto et omni cura et sollicitudine postposita, quocumque modo melius possunt, servire, amare, honorare et adorare Dominum Deum mundo corde et pura mente faciant, quod ipse super omnia quaerit. [27] Et semper faciamus ibi habitaculum et mansionem (cfr. Joa 14,23) ipsi, qui est Dominus Deus omnipotens, Pater et Filius et Spiritus Sanctus, qui dicit Vigilate itaque omni tempore orantes, ut digni habeamini fugere omnia mala, quae ventura sunt et stare ante Filium hominis (Lc 21,36). [28] Et cum stabitis ad orandum (Mc 11,25) dicite (Lc 11,2) Pater noster qui es in caelis (Mt 6,9). [29] Et adoremus eum puro corde, quoniam oportet semper orare et non deficere (Lc 18,1); [30] nam Pater tales quaerit adoratores. [31] Spiritus est Deus, et eos qui adorant eum, in spiritu et veritate oportet eum adorare (cfr. Joa 4,23-24). [32] Et ad ipsum recurramus tamquam ad pastorem et episcopum animarum nostrarum (1 Petr 2,25), qui dicit Ego sum pastor bonus, qui pasco oves meas et pro ovibus meis pono animam meam. [33] Omnes vos fratres estis; [34] et patrem nolite vobis vocare super terram, unus est enim Pater vester, qui in caelis est. [35] Nec vocemini magistri; unus est enim magister vester, qui in caelis est (cfr. Mt 23,8-10). [36] Si manseritis in me, et verba mea in vobis manserint, quodcumque volueritis, petetis et fiet vobis (Joa 15,7). [37] Ubicumque sunt duo vel tres congregati in nomine meo, ibi sum in medio eorum (Mt 18,20). [38] Ecce ego sum vobiscum usque ad consummationem saeculi (Mt 28,20). [39] Verba, quae locutus sum vobis, spiritus et vita sunt (Joa 6,64). [40] Ego sum via, veritas et vita (Joa 14,6). [41] Teneamus ergo verba, vitam et doctrinam et sanctum eius evangelium, qui dignatus est pro nobis rogare Patrem suum et nobis eius nomen manifestare dicens Pater clarifica nomen tuum (Joa 12,28a) et clarifica Filium tuum, ut Filius tuus clarificet te (Joa 17,1b). [42] Pater, manifestavi nomen tuum hominibus, quos dedisti mihi (Joa 17,6); quia verba, quae dedisti mihi, dedi eis; et ipsi acceperunt et cognoverunt, quia a te exivi et crediderunt, quia tu me misisti. [43] Ego pro eis rogo, non pro mundo, [44] sed pro his quos dedisti mihi, quia tui sunt et omnia mea tua sunt (Joa 17,8-10). [45] Pater sancte, serva eos in nomine tuo, quos dedisti mihi, ut ipsi sint unum sicut et nos (Joa 17,11b). [46] Haec loquor in mundo, ut habeant gaudium in semetipsis. [47] Ego dedi eis sermonem tuum; et mundus eos odio habuit, quia non sunt de mundo, sicut et ego non sum de mundo. [48] Non rogo, ut tollas eos de mundo, sed ut serves eos a malo (Joa 17,13b-15). [49] Mirifica eos in veritate. [50] Sermo tuus veritas est. [51] Sicut tu me misisti in mundum, et ego misi eos in mundum. [52] Et pro eis sanctifico meipsum, ut sint ipsi sanctificati in veritate. [53] Non pro eis rogo tantum, sed pro eis, qui credituri sunt propter verbum eorum in me (cfr. Joa 17,17-20), ut sint consummati in unum, et cognoscat mundus, quia tu me misisti et dilexisti eos, sicut me dilexisti (Joa 17,23). [54] Et notum faciam eis nomen tuum, ut dilectio, qua dilexisti me sit in ipsis et ego in ipsis (cfr. Joa 17,26). [55] Pater, quos dedisti mihi, volo, ut ubi ego sum, et illi sint mecum, ut videant claritatem tuam (cfr. Joa 17,24) in regno tuo (Mt 20,21). Amen.",
+      "translation": "Låt oss alla, bröder, ge akt på vad Herren säger: älska era fiender och gör gott mot dem som hatar er, ty vår Herre Jesus Kristus, vars fotspår vi måste följa, kallade sin förrädare vän och gav sig fritt åt dem som korsfäste honom. Våra vänner är alltså alla som orättvist tillfogar oss prövningar och nöd, skam och oförrätter, smärtor och plågor, martyrskap och död; och vi måste älska dem högt, ty av det de tillfogar oss har vi evigt liv. Och låt oss hata vår kropp med dess laster och synder, ty genom att leva efter köttet vill djävulen ta ifrån oss Jesu Kristi kärlek och det eviga livet och förlora sig själv med alla i helvetet. Genom vårt eget fel är vi orena, usla och motsträviga mot det goda, men beredda och villiga till det onda, ty, som Herren säger i evangeliet, från hjärtat kommer och går ut onda tankar, äktenskapsbrott, otukt, mord, stölder, girighet, ondska, svek, orenhet, det onda ögat, falska vittnesbörd, hädelse, dårskap. Allt detta onda kommer inifrån, från en människas hjärta, och det är detta som orenar en människa. Nu, sedan vi har lämnat världen, har vi inget annat att göra än att följa Herrens vilja och behaga honom. Låt oss sorgfälligt akta oss för att vara jorden vid vägen, eller den steniga jorden, eller den törniga jorden, enligt det Herren säger i evangeliet: säden är Guds ord. Det som föll vid vägen och blev nedtrampat är de som hör ordet och inte förstår det; och genast kommer djävulen och rycker det som såddes i deras hjärta och tar ordet från deras hjärta, så att de inte tror och blir frälsta. Det som föll på den steniga marken är de som, när de hör ordet, genast tar emot det med glädje. När prövning och förföljelse kommer för ordets skull tar de genast anstöt, och de har ingen rot i sig själva utan är för stunden, ty de tror en tid och i frestelsens tid faller de bort. Det som föll bland törnen är de som hör Guds ord, och denna tids ängslan och mödor och rikedomens svek och de andra begären kommer in och kväver ordet, och de blir utan frukt. Det som såddes i den goda jorden är de som, när de hör ordet i ett gott och utmärkt hjärta, förstår det, håller det och bär frukt med tålamod. Och därför, vi bröder, så som Herren säger: låt de döda begrava sina döda. Och låt oss vara mycket varsamma mot Satans ondska och slughet, som vill att en människa inte ska ha sinne och hjärta vända till Gud. Och när han går omkring vill han ta och kväva en människas hjärta under sken av någon lön eller hjälp, och ta Herrens ord och bud ur minnet, och han vill förblinda en människas hjärta med världsliga angelägenheter och omsorger och bo där, så som Herren säger: när den orena anden har farit ut ur en människa, vandrar den genom torra och vattenlösa platser och söker vila; och när den inte finner den säger den: jag vill vända tillbaka till mitt hus, som jag gick ut ifrån. Och när den kommer finner den det tomt, sopat och prytt. Och den går och tar med sig sju andra andar, värre än den själv, och de går in och bor där, och den människans sista tillstånd blir värre än det första. Därför, alla ni bröder, låt oss vakta oss sorgfälligt, så att vi inte under sken av någon lön eller något arbete eller någon hjälp förlorar eller tar vårt sinne och vårt hjärta bort från Herren. Utan i den heliga kärleken, som är Gud, ber jag alla bröder, ministrarna och de andra, att de med varje hinder undanröjt och varje omsorg och ängslan lagd åt sidan, på det sätt de bäst kan, tjänar, älskar, ärar och tillber Herren Gud med rent hjärta och rent sinne, och gör det han söker framför allt. Och låt oss alltid där bereda en boning och ett hem åt honom som är Herren Gud den allsmäktige, Fader och Son och helig Ande, han som säger: vaka därför i varje tid och be, så att ni blir värdiga att undfly alla de onda ting som kommer och att stå inför Människosonen. Och när ni står och ber, säg: Fader vår, som är i himlen. Och låt oss tillbe honom med rent hjärta, eftersom man måste be alltid och inte tröttna; ty Fadern söker sådana tillbedjare. Gud är ande, och de som tillber honom måste tillbe honom i ande och sanning. Och låt oss vända oss till honom som till våra själars herde och biskop, han som säger: jag är den gode herden, som föder mina får och ger mitt liv för mina får. Ni är alla bröder; och kalla ingen på jorden er fader: ty en enda är er Fader, han som är i himlen. Och låt er inte kallas lärare: ty en enda är er lärare, han som är i himlen. Om ni förblir i mig, och mina ord förblir i er, ska ni be om vad ni vill, och det ska ske för er. Där två eller tre är samlade i mitt namn, där är jag mitt ibland dem. Se, jag är med er intill tidens slut. De ord jag har talat till er är ande och liv. Jag är vägen, sanningen och livet. Låt oss därför hålla orden, livet, läran och det heliga evangeliet hos honom som värdigades be sin Fader för oss och göra sitt namn känt för oss, i det han sade: Fader, förhärliga ditt namn, och förhärliga din Son, så att din Son förhärligar dig. Fader, jag har gjort ditt namn känt för de människor du gav mig, ty de ord du gav mig har jag gett dem; och de har tagit emot dem och förstått att jag har utgått från dig, och trott att du har sänt mig. Jag ber för dem, inte för världen, utan för dem du gav mig, ty de är dina och allt som är mitt är ditt. Helige Fader, bevara dem i ditt namn, dem du gav mig, så att de är ett så som vi är ett. Detta säger jag i världen, för att de ska ha glädje i sig själva. Jag har gett dem ditt ord; och världen har hatat dem, eftersom de inte är av världen, så som inte heller jag är av världen. Jag ber inte att du ska ta dem ut ur världen, utan att du ska bevara dem från det onda. Gör dem underbara i sanningen. Ditt ord är sanning. Så som du sände mig till världen, har också jag sänt dem till världen. Och för dem helgar jag mig själv, för att de ska bli helgade i sanningen. Jag ber inte bara för dem, utan också för dem som ska tro på mig genom deras ord, så att de förs till full enhet och världen förstår att du har sänt mig och har älskat dem så som du har älskat mig. Och jag ska göra ditt namn känt för dem, så att den kärlek med vilken du har älskat mig är i dem, och jag i dem. Fader, dem du gav mig, dem vill jag att där jag är, också de ska vara med mig, så att de får se din härlighet i ditt rike. Amen.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c23",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XXIII",
+      "originalText": "[1] Omnipotens, sanctissime, altissime et summe Deus, Pater sancte (Joa 17,11) et iuste, Domine rex caeli et terrae (cfr. Mt 11,25), propter temetipsum gratias agimus tibi, quod per sanctam voluntatem tuam et per unicum Filium tuum cum Spiritu Sancto creasti omnia spiritualia et corporalia et nos ad imaginem tuam et similitudinem factos in paradiso posuisti (cfr. Gen 1,26; 2,15). [2] Et nos per culpam nostram cecidimus. [3] Et gratias agimus tibi, quia, sicut per Filium tuum nos creasti, sic per sanctam dilectionem tuam, qua dilexisti nos (cfr. Joa 17,26), ipsum verum Deum et verum hominem ex gloriosa semper Virgine beatissima sancta Maria nasci fecisti et per crucem et sanguinem et mortem ipsius nos captivos redimi voluisti. [4] Et gratias agimus tibi, quia ipse Filius tuus venturus est in gloria maiestatis suae mittere maledictos, qui poenitentiam non egerunt et te non cognoverunt, in ignem aeternum, et dicere omnibus, qui te cognoverunt et adoraverunt et tibi servierunt in poenitentia Venite, benedicti Patris mei, percipite regnum, quod vobis paratum est ab origine mundi (cfr. Mt 25,34). [5] Et quia nos omnes miseri et peccatores non sumus digni nominare te, suppliciter exoramus, ut Dominus noster Jesus Christus Filius tuus dilectus, in quo tibi bene complacuit (cfr. Mt 17,5), una cum Spiritu Sancto Paraclito gratias agat tibi, sicut tibi et ipsi placet, pro omnibus, qui tibi semper sufficit ad omnia, per quem nobis tanta fecisti. Alleluia. [6] Et gloriosam matrem beatissimam Mariam semper Virginem, beatum Michaelem, Gabrielem et Raphaelem et omnes choros beatorum seraphim, cherubim, thronorum, dominationum, principatuum, potestatum (cfr. Col 1,15), virtutum, angelorum, archangelorum, beatum Joannem Baptistam, Joannem Evangelistam, Petrum, Paulum et beatos patriarchas, prophetas, Innocentes, apostolos, evangelistas, discipulos, martyres, confessores, virgines, beatos Eliam et Enoch et omnes sanctos, qui fuerunt et erunt et sunt propter tuum amorem humiliter deprecamur, ut, sicut tibi placet, pro his tibi gratias referant summo vero Deo, aeterno et vivo, cum Filio tuo carissimo Domino nostro Jesu Christo et Spiritu Sancto Paraclito in saecula saeculorum (Apoc 19,3). Amen. Alleluia (Apoc 19,4). [7] Et Domino Deo universos intra sanctam ecclesiam catholicam et apostolicam servire volentes et omnes sequentes ordines sacerdotes, diaconos, subdiaconos, acolythos, exorcistas, lectores, ostiarios et omnes clericos, universos religiosos et religiosas, omnes conversos et parvulos, pauperes et egenos, reges et principes, laboratores et agricolas, servos et dominos, omnes virgines et continentes et maritatas, laicos, masculos et feminas, omnes infantes, adolescentes, iuvenes et senes, sanos et infirmos, omnes pusillos et magnos, et omnes populos, gentes, tribus et linguas (cfr. Apoc 7,9), omnes nationes et omnes homines ubicumque terrarum, qui sunt et erunt, humiliter rogamus et supplicamus nos omnes fratres minores, servi inutiles (Lc 17,10), ut omnes in vera fide et poenitentia perseveremus, quia aliter nullus salvari potest. [8] Omnes diligamus ex toto corde, ex tota anima, ex tota mente, ex tota virtute (cfr. Mc 12,30) et fortitudine, ex toto intellectu (cfr. Mc 12,33), ex omnibus viribus (cfr. Lc 10,27), toto nisu, toto affectu, totis visceribus, totis desideriis et voluntatibus Dominum Deum (Mc 12,30 par.), qui totum corpus, totam animam et totam vitam dedit et dat omnibus nobis, qui nos creavit, redemit et sua sola misericordia salvabit (cfr. Tob 13,5), qui nobis miserabilibus et miseris, putridis et foetidis, ingratis et malis omnia bona fecit et facit. [9] Nihil ergo aliquid aliud desideremus, nihil aliud velimus, nihil aliud placeat et delectet nos nisi Creator et Redemptor et Salvator noster, solus verus Deus, qui est plenum bonum, omne bonum, totum bonum, verum et summum bonum, qui solus est bonus (cfr. Lc 18,19), pius, mitis, suavis et dulcis, qui solus est sanctus, iustus, verus, sanctus et rectus, qui solus est benignus, innocens, mundus, a quo et per quem et in quo (cfr. Rom 11,36) est omnis venia, omnis gratia, omnis gloria omnium poenitentium et iustorum, omnium beatorum in caelis congaudentium. [10] Nihil ergo impediat, nihil separet, nihil interpolet. [11] Ubique nos omnes omni loco, omni hora et omni tempore, quotidie et continue credamus veraciter et humiliter et in corde teneamus et amemus, honoremus, adoremus, serviamus, laudemus et benedicamus, glorificemus et superexaltemus, magnificemus et gratias agamus altissimo et summo Deo aeterno, trinitati et unitati, Patri et Filio et Spiritui Sancto, creatori omnium et salvatori omnium in se credentium et sperantium et diligentium eum, qui sine initio et sine fine immutabilis, invisibilis, inenarrabilis, ineffabilis, incomprehensibilis, investigabilis (cfr. Rom 11,33), benedictus, laudabilis, gloriosus, superexaltatus (cfr. Dan 3,52), sublimis, excelsus, suavis, amabilis, delectabilis et totus super omnia desiderabilis in saecula. Amen.",
+      "translation": "Allsmäktige, allra heligaste, högste och överste Gud, helige och rättvise Fader, Herre, himlens och jordens konung, för din egen skull tackar vi dig, eftersom du genom din heliga vilja och genom din ende Son med den helige Ande skapade allt andligt och kroppsligt, och oss, gjorda till din avbild och likhet, satte du i paradiset. Och genom vårt eget fel föll vi. Och vi tackar dig eftersom du, så som du skapade oss genom din Son, också genom din heliga kärlek, med vilken du älskade oss, lät honom, sann Gud och sann människa, födas av den ärorika alltid jungfruliga, högt välsignade heliga Maria, och genom hans kors och blod och död ville att vi fångar skulle återlösas. Och vi tackar dig eftersom samme din Son ska komma i sin majestäts härlighet för att sända i den eviga elden de förbannade, som inte gjorde bot och inte kände dig, och för att säga till alla som har känt dig och tillbett dig och tjänat dig i bot: kom, ni min Faders välsignade, ta emot det rike som är berett åt er från världens begynnelse. Och eftersom vi alla, usla och syndare, inte är värdiga att nämna dig, ber vi ödmjukt att vår Herre Jesus Kristus, din älskade Son, i vilken du hade behag, tillsammans med den helige Ande, Hjälparen, må tacka dig, så som det behagar dig och honom, för alla, han som alltid räcker åt dig till allt, genom vilken du har gjort så mycket för oss. Halleluja. Och den ärorika modern, den högt välsignade Maria alltid jungfru, den välsignade Mikael, Gabriel och Rafael, och alla de välsignades körer, serafer, keruber, troner, herradömen, furstendömen, makter, dygder, änglar, ärkeänglar, den välsignade Johannes Döparen, Johannes evangelisten, Petrus, Paulus, och de välsignade patriarkerna, profeterna, de oskyldiga barnen, apostlarna, evangelisterna, lärjungarna, martyrerna, bekännarna, jungfrurna, den välsignade Elia och Henok, och alla helgon som har varit, ska vara och är, ber vi ödmjukt för din kärleks skull att de, så som det behagar dig, tackar dig för detta, du den högste sanne Guden, evig och levande, med din käraste Son, vår Herre Jesus Kristus, och den helige Ande, Hjälparen, i evigheters evighet. Amen. Halleluja. Och vi alla mindrebröder, odugliga tjänare, ber och bönfaller ödmjukt Herren Gud för alla som vill tjäna inom den heliga katolska och apostoliska kyrkan, och alla följande ordningar: präster, diakoner, subdiakoner, akolyter, exorcister, lektorer, dörrvaktare och alla klerker, alla ordensmän och ordenskvinnor, alla omvända och små, de fattiga och de behövande, kungar och furstar, arbetare och bönder, tjänare och herrar, alla jungfrur och de återhållsamma och de gifta, lekmän, män och kvinnor, alla spädbarn, ungdomar, de unga och de gamla, de friska och de sjuka, alla de små och de stora, och alla folk, nationer, stammar och tungomål, alla folkslag och alla människor var de än är på jorden, de som är och de som ska vara: att vi alla håller ut i den sanna tron och i boten, ty annars kan ingen bli frälst. Låt oss alla älska, av hela hjärtat, av hela själen, av hela sinnet, av all vår kraft och styrka, av hela förståndet, av alla våra förmågor, av all vår möda, av all vår tillgivenhet, av allt vårt inre, av alla våra begär och viljor, Herren Gud, som gav och ger oss alla hela kroppen, hela själen och hela livet, som skapade oss, återlöste oss och av sin barmhärtighet allena ska frälsa oss, han som åt oss eländiga och usla, ruttna och orena, otacksamma och onda har gjort och gör allt gott. Låt oss därför inte önska något annat, inte vilja något annat, låt inget annat behaga och glädja oss utom vår Skapare och Återlösare och Frälsare, den ende sanne Guden, som är det fulla goda, allt gott, det hela goda, det sanna och högsta goda, som ensam är god, vänlig, mild, saktmodig och ljuv, som ensam är helig, rättvis, sann och rätt, som ensam är välvillig, oskyldig, ren, från vilken och genom vilken och i vilken är all förlåtelse, all nåd, all härlighet för alla botgörare och rättfärdiga, för alla de välsignade som tillsammans gläder sig i himlen. Låt därför inget hindra, inget skilja, inget tränga sig emellan. Överallt, vi alla, på varje plats, varje timme och varje tid, dagligen och oavbrutet, låt oss sant och ödmjukt tro, och hålla i hjärtat, och älska, ära, tillbe, tjäna, lova och välsigna, förhärliga och upphöja, förstora och tacka den högste och överste evige Guden, treenighet och enhet, Fader och Son och helig Ande, alltings skapare och frälsare för alla som tror och hoppas på honom och älskar honom, han som utan begynnelse och utan slut, oföränderlig, osynlig, outsägbar, outsäglig, obegriplig, outrannsaklig, välsignad, lovvärd, ärorik, upphöjd, sublim, hög, mild, älskvärd, ljuvlig och helt och hållet åtråvärd över allting, i evighet. Amen.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c24",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Den tidigare regeln, kapitel XXIV",
+      "originalText": "[1] In nomine Domini! Rogo omnes fratres, ut addiscant tenorem et sensum eorum quae in ista vita ad salvationem animae nostrae scripta sunt, et ista frequenter ad memoriam reducant. [2] Et exoro Deum, ut ipse, qui est omnipotens, trinus et unus, benedicat omnes docentes, discentes, habentes, recordantes et operantes ista, quoties repetunt et faciunt quae ibi ad salutem animae nostrae scripta sunt, [3] et deprecor omnes cum osculo pedum, ut multum diligant, custodiant et reponant. [4] Et ex parte Dei omnipotentis et domini papae et per obedientiam ego frater Franciscus firmiter praecipio et iniungo, ut ex his, quae in ista vita scripta sunt, nullus minuat vel in ipsa scriptum aliquod desuper addat (cfr. Deut 4,2; 12,32), nec aliam regulam fratres habeant. [5] Gloria Patri et Filio et Spiritui Sancto, sicut erat in principio et nunc et semper et in saecula saeculorum. Amen.",
+      "translation": "I Herrens namn. Jag ber alla bröder att lära sig innebörden och meningen i det som är skrivet i detta liv till vår själs frälsning, och att ofta kalla det tillbaka i minnet. Och jag ber Gud att han, som är allsmäktig, tre och en, välsignar alla som lär, lär sig, håller, minns och verkar detta, närhelst de upprepar och gör det som är skrivet där till vår själs frälsning, och jag ber var och en, med en kyss på fötterna, att älska det högt, bevara det och förvara det. Och å den allsmäktige Gudens och herr påvens vägnar, och i lydnad, befaller och ålägger jag, broder Franciskus, bestämt att ingen från det som är skrivet i detta liv tar något bort och inte heller lägger någon annan skrift över det, och att bröderna inte har någon annan regel. Ära vare Fadern och Sonen och den helige Ande, så som det var i begynnelsen, och nu, och alltid, och i evigheters evighet. Amen.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.ammonizioni.propria_volonta",
+      "documentId": "source.ammonizioni",
+      "reference": "Förmaningarna (om den egna viljan)",
+      "paraphrase": "Bland Förmaningarna varnar Franciskus för att göra den egna viljan till en avgud: den som håller sig själv för rättfärdig och vis av egen kraft lämnar den sanna ödmjukheten, som består i att underordna sitt omdöme och tjäna.",
+      "note": "Redaktionell parafras; den exakta hänvisningen till Förmaningen bör kontrolleras mot den kritiska utgåvan.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "needs_verification"
+    },
+    {
+      "id": "pass.lettera_ministro.mille_volte",
+      "documentId": "source.lettera_ministro",
+      "reference": "Brevet till en minister",
+      "paraphrase": "Om en broder hade syndat tusen gånger inför dina ögon — skriver Franciskus till ministern — älska honom mer än mig, för att dra honom till Herren; ha alltid barmhärtighet med honom och förkunna barmhärtighet för honom, såvida han ångrar sig.",
+      "note": "Redaktionell parafras av det berömda stället i brevet till en minister om barmhärtighet mot den som faller.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_leone.coscienza",
+      "documentId": "source.lettera_leone",
+      "reference": "Brevet till broder Leo",
+      "paraphrase": "Till broder Leo, ängslig att välja rätt, svarar Franciskus med frihet: följ ditt samvete inför Gud; hur du än väljer att leva inom brödraskapet har du min välsignelse.",
+      "note": "Redaktionell parafras. Autografen förvaras i katedralen i Spoleto.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lodi_dio.lode",
+      "documentId": "source.lodi_dio",
+      "reference": "Den Högstes lov",
+      "paraphrase": "Rent lov, utan någon begäran: Gud är allsmäktig, helig, rättvis, barmhärtig; han är vårt goda, allt gott, det högsta goda. Franciskus lovar honom tillsammans med skapelserna.",
+      "note": "Redaktionell parafras. Skriven på La Verna 1224.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.rinuncia",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Första levnadsteckningen (I, kap. 14–15)",
+      "paraphrase": "Celano berättar hur Franciskus inför biskop Guido och sin far Pietro Bernardone lämnade tillbaka kläderna och avstod från faderns gods, och sade att han nu fritt kunde säga: ”Fader vår, som är i himlen.” Biskopen täckte honom med sin egen mantel.",
+      "note": "Redaktionell parafras. En avgörande episod, vanligen förlagd till början av 1206; de sceniska detaljerna hör till Celanos hagiografiska berättelse.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.lebbrosi",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Första levnadsteckningen (I, kap. 17)",
+      "paraphrase": "Celano beskriver hur Franciskus tjänade de spetälska med konkret hängivenhet: han tvättade deras sår, omfamnade dem, sörjde för deras behov och fann i denna tjänst den glädje han tidigare hade sökt på annat håll.",
+      "note": "Redaktionell parafras. Den sammanfaller med den självbiografiska berättelsen i Testamentet 1–3.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.uccelli",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Första levnadsteckningen (I, kap. 58)",
+      "paraphrase": "Celano berättar hur Franciskus, när han såg flockar av fåglar, vände sig till dem som till skapelser som kunde lyssna och manade dem att lova Gud; därefter ville han tala med varje skapelse som med bröder och systrar.",
+      "note": "Redaktionell parafras. Den berömda episoden skulle utvidgas i Fioretti; redan Celano ger en återhållsam version.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.greccio",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Första levnadsteckningen (I, kap. 84–86)",
+      "paraphrase": "Julen 1223 ville Franciskus fira Jesu födelse i Greccio med en verklig krubba, hö, en oxe och en åsna, så att kroppens ögon skulle se Betlehems fattigdom. Celano framställer det som ett levande minne, inte som ett skådespel.",
+      "note": "Redaktionell parafras. En episod dokumenterad av Celano, ett vittne nära brödraskapet.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.stimmate",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Första levnadsteckningen (II, om La Verna, kap. 91–95)",
+      "paraphrase": "Celano berättar att Franciskus i september 1224, tillbakadragen i bön på berget La Verna, tog emot stigmata, märkena efter Kristi passion, som han av ödmjukhet försökte dölja.",
+      "note": "Redaktionell parafras. Episoden är belagd av de närmaste medeltida källorna; den historiska och teologiska bedömningen är omdiskuterad, och appen framställer den som vittnesbörd, inte som ett mätbart faktum.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.fioretti.lupo",
+      "documentId": "source.fioretti",
+      "reference": "Fioretti, kapitel 21",
+      "paraphrase": "Fioretti berättar om vargen i Gubbio: Franciskus går den skrämda folkmassan till mötes, närmar sig djuret, talar till det som till en broder och förmedlar ett fredsförbund mellan vargen och staden: staden ska ge honom mat, och han ska inte längre skada någon.",
+      "note": "Redaktionell parafras. En berättelse ur 1300-talets hagiografiska tradition: dyrbar för att förstå den franciskanska föreställningsvärlden, inte verifierbar som krönika.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.fioretti.perfetta_letizia",
+      "documentId": "source.fioretti",
+      "reference": "Fioretti, kapitel 8",
+      "paraphrase": "På vägen med broder Leo förklarar Franciskus att den fullkomliga glädjen varken är under eller framgång, utan att ta emot avvisande och lidande med tålamod och kärlek och förbli glad och trogen.",
+      "note": "Redaktionell parafras. En av de mest berömda hagiografiska episoderna; den uttrycker en pedagogik för glädje som inte beror av händelserna.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.bonaventura.cantico",
+      "documentId": "source.bonaventura_leggenda_maggiore",
+      "reference": "Den större levnadsteckningen (om Solsången)",
+      "paraphrase": "Bonaventura förlägger Solsångens tillkomst till tiden för Franciskus sjukdom och prövningar: ur lidandet springer det högsta lovet, framburet till Gud genom skapelserna.",
+      "note": "Redaktionell parafras. Solsångens exakta kronologi är fortfarande omdiskuterad i forskningen.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.apertura",
+      "documentId": "source.lettera_ordine",
+      "reference": "Brevet till hela orden 1–11",
+      "originalText": "In nomine summae Trinitatis et sanctae Unitatis Patris et Filii et Spiritus Sancti. Amen. Reverendis et multum diligendis fratribus universis, fratri A., generali ministro religionis minorum fratrum, domino suo et ceteris ministris generalibus, qui post eum erunt, et omnibus ministris et custodibus et sacerdotibus fraternitatis eiusdem in Christo humilibus et omnibus fratribus simplicibus et obedientibus, primis et novissimis, frater Franciscus, homo vilis et caducus, vester parvulus servulus, salutem in eo qui redemit et lavit nos in pretiosissimo sanguine suo (cfr. Apoc 1,5), cuius nomen audientibus adorate eum cum timore et reverentia proni in terra (cfr. Esdr 8,6), Dominus Jesus Christus, Altissimi Filius nomen illi (cfr. Lc 1,32), qui est benedictus in saecula (Rom 1,25). Audite, domini filii et fratres mei, et auribus percipite verba mea (Act 2,14). Inclinate aurem (Is 55,3) cordis vestri et obedite voci Filii Dei. Servate in toto corde vestro mandata eius et consilia eius perfecta mente implete. Confitemini ei quoniam bonus (Ps 135,1) et exaltate eum in operibus vestris (Tob 13,6); quoniam ideo misit vos (cfr. Tob 13,4) in universo mundo, ut verbo et opere detis testimonium voci eius et faciatis scire omnes, quoniam non est omnipotens praeter eum (Tob 13,4). In disciplina et obedientia sancta perseverate (Hebr 12,7) et quae promisistis ei bono et firmo proposito adimplete. Tamquam filiis offert se nobis Dominus Deus (Hebr 12,7).",
+      "translation": "I den högsta Treenighetens och den heliga Enhetens namn, Faderns och Sonens och den helige Andes. Amen. Till alla vördnadsvärda och högt älskade bröder, till broder A., generalminister för mindrebrödernas orden, sin herre, och till de andra generalministrar som kommer efter honom, till alla ministrar, kustoder och präster i samma gemenskap, ödmjuka i Kristus, och till alla enkla och lydiga bröder, de första och de sista: broder Franciskus, en ringa och bristfällig man, er lille tjänare, sänder hälsning i honom som återlöste oss och tvättade oss i sitt allra dyrbaraste blod. När ni hör hans namn, tillbe honom med fruktan och vördnad, böjda mot jorden: Herren Jesus Kristus, vars namn är den Högstes Son, välsignad i evighet. Lyssna, mina herrar, söner och bröder, och ta in mina ord med era öron. Böj ert hjärtas öra och lyd Guds Sons röst. Håll hans bud i hela ert hjärta och fullgör hans råd med fullkomligt sinne. Bekänn att han är god och upphöj honom i era gärningar, ty därför sände han er till hela världen: att ni med ord och gärning vittnar om hans röst och låter alla veta att det inte finns någon Allsmäktig utom honom. Håll ut i tuktan och helig lydnad, och fullborda med ett gott och fast uppsåt det ni lovade honom. Herren Gud erbjuder sig åt oss som åt söner.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.eucaristia",
+      "documentId": "source.lettera_ordine",
+      "reference": "Brevet till hela orden 12–33",
+      "originalText": "Deprecor itaque omnes vos fratres cum osculo pedum et ea caritate, qua possum, ut omnem reverentiam et omnem honorem, quantumcumque poteritis, exhibeatis sanctissimo corpori et sanguini Domini nostri Jesu Christi, in quo quae in caelis et quae in terris sunt, pacificata sunt et reconciliata omnipotenti Deo (cfr. Col 1,20). Rogo etiam in Domino omnes fratres meos sacerdotes, qui sunt et erunt et esse cupiunt sacerdotes Altissimi, quod quandocumque missam celebrare voluerint, puri pure faciant cum reverentia verum sacrificium sanctissimi corporis et sanguinis Domini nostri Jesu Christi sancta intentione et munda non pro ulla terrena re neque timore vel amore alicuius hominis, quasi placentes hominibus (cfr. Eph 6,6; Col 3,22); sed omnis voluntas, quantum adiuvat gratia, ad Deum dirigatur soli ipsi summo Domino inde placere desiderans, quia ipse ibi solus operatur sicut sibi placet; quoniam sicut ipse dicit Hoc facite in meam commemorationem (Lc 22,19; 1 Cor 11,24); si quis aliter fecerit, Judas traditor efficitur et reus fit corporis et sanguinis Domini (cfr. 1 Cor 11,27). Recordamini, fratres mei sacerdotes, quod scriptum est de lege Moysi, quam transgrediens etiam in corporalibus sine ulla miseratione per sententiam Domini moriebatur (cfr. Hebr 10,28). Quanto maiora et deteriora meretur pati supplicia, qui Filium Dei conculcaverit et sanguinem testamenti pollutum duxerit, in quo sanctificatus est, et Spiritui gratiae contumeliam fecerit (Hebr 10,29)? Despicit enim homo, polluit et conculcat Agnum Dei, quando, sicut dicit apostolus, non diiudicans (1 Cor 11,29) et discernens sanctum panem Christi ab aliis cibariis vel operibus vel indignus manducat vel etiam, si esset dignus, vane et indigne manducat, cum Dominus per prophetam dicat Maledictus homo, qui opus Dei facit fraudulenter (cfr. Jer 48,10). Et sacerdotes, qui nolunt hoc ponere super cor, in veritate condemnat dicens Maledicam benedictionibus vestris (Mal 2,2). Audite, fratres mei Si beata Virgo sic honoratur, ut dignum est, quia ipsum portavit in sanctissimo utero; si Baptista beatus contremuit et non audet tangere sanctum Dei verticem; si sepulcrum, in quo per aliquod tempus iacuit, veneratur, quantum debet esse sanctus, iustus et dignus, qui non iam moriturum, sed in aeternum victurum et glorificatum, in quo desiderant angeli prospicere (1 Petr 1,12), contractat manibus, corde et ore sumit et aliis ad sumendum praebet! Videte dignitatem vestram, fratres (cfr. 1 Cor 1,26) sacerdotes, et estote sancti, quia ipse sanctus est (cfr. Lev 19,2). Et sicut super omnes propter hoc ministerium honoravit vos Dominus Deus, ita et vos super omnes ipsum diligite, reveremini et honorate. Magna miseria et miseranda infirmitas, quando ipsum sic praesentem habetis et vos aliquid aliud in toto mundo curatis. Totus homo paveat, totus mundus contremiscat, et caelum exsultet, quando super altare in manu sacerdotis est Christus, Filius Dei vivi (Joa 11,27)! O admiranda altitudo et stupenda dignatio! O humilitas sublimis! O sublimitas humilis, quod Dominus universitatis, Deus et Dei Filius, sic se humiliat, ut pro nostra salute sub modica panis formula se abscondat! Videte, fratres, humilitatem Dei et effundite coram illo corda vestra (Ps 61,9); humiliamini et vos, ut exaltemini ab eo (cfr. 1 Petr 5,6; Jac 4,10). Nihil ergo de vobis retineatis vobis, ut totos vos recipiat, qui se vobis exhibet totum. Moneo propterea et exhortor in Domino, ut in locis, in quibus fratres morantur, una tantum missa celebretur in die secundum formam sanctae ecclesiae. Si vero plures in loco fuerint sacerdotes, sit per amorem caritatis alter contentus auditu celebrationis alterius sacerdotis; quia praesentes et absentes replet, qui eo digni sunt, Dominus Jesus Christus. Qui, licet in pluribus locis esse videatur, tamen indivisibilis manet et aliqua detrimenta non novit, sed unus ubique, sicut ei placet, operatur cum Domino Deo Patre et Spiritu Sancto Paraclito in saecula saeculorum. Amen.",
+      "translation": "Jag ber er alla, bröder, med en kyss på fötterna och med all den kärlek jag förmår, att visa all den vördnad och all den ära ni kan åt vår Herre Jesu Kristi allra heligaste kropp och blod: i honom har det himmelska och det jordiska förts till frid och försonats med den allsmäktige Guden. Jag ber också i Herren alla mina bröder som är präster, som ska bli det och som vill bli det, att de närhelst de vill fira mässa rent gör det sanna offret av vår Herre Jesu Kristi allra heligaste kropp och blod, med vördnad, med helig och ren avsikt, inte för något jordiskt ting och inte av fruktan eller kärlek till någon människa, som människor som behagar människor. Varje vilja ska, så långt nåden hjälper, vändas till Gud allena, i längtan att behaga honom, den högste Herren, ty där verkar han ensam, så som det behagar honom. Han säger: Gör detta till min åminnelse. Den som gör annorlunda blir Judas förrädaren och gör sig skyldig till Herrens kropp och blod. Minns, mina bröder präster, vad som står skrivet om Mose lag: den som bröt den, även i kroppsliga ting, dog utan någon barmhärtighet genom Herrens dom. Hur mycket större och värre straff förtjänar inte den som har trampat Guds Son, hållit förbundets blod i vilket han blev helgad för orent och smädat nådens Ande? En människa föraktar, besudlar och trampar Guds Lamm när hon, som aposteln säger, inte skiljer Kristi heliga bröd från annan mat eller andra göranden och äter ovärdigt; eller till och med, om hon vore värdig, äter fåfängt och ovärdigt. Herren säger genom profeten: Förbannad är den som gör Guds verk bedrägligt. Och de präster som inte lägger detta på sitt hjärta fördömer han i sanning: Jag ska förbanna era välsignelser. Lyssna, mina bröder. Om den välsignade jungfrun äras, så som det anstår, därför att hon bar honom i sitt allra heligaste sköte; om den välsignade Döparen darrade och inte vågar röra Guds heliga huvud; om graven i vilken han låg en tid vördas: hur helig, rättvis och värdig måste inte den vara som hanterar med sina händer, tar emot med hjärta och mun och bjuder andra att ta emot, inte en som ska dö, utan en som ska leva för evigt och förhärligad, på vilken änglar längtar att se. Se er värdighet, bröder präster, och var heliga, ty han är helig. Så som Herren Gud har ärat er över alla för denna tjänsts skull, så älska, vörda och ära honom över alla. En stor misär, och en svaghet att beklaga, när ni har honom närvarande på detta sätt och ni bryr er om något annat i hela världen. Hela människan må darra, hela världen skaka och himlen jubla, när på altaret, i prästens hand, är Kristus, den levande Gudens Son. O beundransvärda höjd och förvånande nedlåtelse. O sublima ödmjukhet. O ödmjuka sublimitet: universums Herre, Gud och Guds Son, ödmjukar sig så att han för vår frälsning döljer sig under brödets lilla gestalt. Se, bröder, Guds ödmjukhet, och utgjut era hjärtan inför honom. Ödmjuka också er, för att bli upphöjda av honom. Behåll inget av er själva för er själva, så att han som visar sig helt för er må ta emot er helt. Därför förmanar och uppmanar jag i Herren: på de platser där bröderna bor ska endast en mässa firas om dagen, enligt den heliga kyrkans form. Om det finns flera präster på platsen, låt för kärlekens skull en nöja sig med att höra den andres firande, ty Herren Jesus Kristus fyller de närvarande och de frånvarande som är värdiga honom. Fastän han synes vara på många platser förblir han odelbar och känner ingen förlust: en, överallt, så som det behagar honom, verkar han med Herren Gud Fadern och den helige Ande, Hjälparen, i evigheters evighet. Amen.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.parole",
+      "documentId": "source.lettera_ordine",
+      "reference": "Brevet till hela orden 34–37",
+      "originalText": "Et, quia qui est ex Deo verba Dei audit (cfr. Joa 8,47), debemus proinde nos, qui specialius divinis sumus officiis deputati, non solum audire et facere quae dicit Deus, verum etiam ad insinuandam in nobis altitudinem Creatoris nostri et in ipso subiectionem nostram vasa et officialia cetera custodire, quae continent verba sua sancta. Propterea moneo fratres meos omnes et in Christo conforto, quatinus, ubicumque invenerint divina verba scripta, sicut possunt, venerentur; et, quantum ad eos spectat, si non sunt reposita bene vel inhoneste iacent in loco aliquo dispersa, recolligant et reponant honorantes in sermonibus Dominum, quos locutus est (3 Reg 2,4). Multa enim sanctificantur per verba Dei (cfr. 1 Tim 4,5), et in virtute verborum Christi altaris conficitur sacramentum.",
+      "translation": "Och eftersom den som är av Gud hör Guds ord, måste vi som på ett särskildare sätt är satta till de gudomliga tjänsterna inte bara höra och göra vad Gud säger, utan också, för att vår Skapares höjd och vår egen underkastelse under honom ska gå in i oss, bevara de kärl och de andra föremål som innehåller hans heliga ord. Därför förmanar jag alla mina bröder och uppmuntrar dem i Kristus: var de än finner gudomliga ord skrivna, ska de vörda dem så gott de kan; och, så långt det ankommer på dem, om orden inte är väl förvarade eller ligger på ett opassande sätt kringspridda på någon plats, ska de samla dem och lägga tillbaka dem, och ära Herren i de ord han har talat. Ty mycket blir helgat genom Guds ord, och genom Kristi ords kraft bereds altarets sakrament.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.chiusura",
+      "documentId": "source.lettera_ordine",
+      "reference": "Brevet till hela orden 38–49",
+      "originalText": "Confiteor praeterea Domino Deo Patri et Filio et Spiritui Sancto, beatae Mariae perpetuae Virgini et omnibus sanctis in caelo et in terra, fratri H. ministro religionis nostrae sicut venerabili domino meo et sacerdotibus ordinis nostri et omnibus aliis fratribus meis benedictis omnia peccata mea. In multis offendi mea gravi culpa, specialiter quod regulam, quam Domino, promisi, non servavi, nec officium, sicut regula praecipit, dixi sive negligentia sive infirmitatis meae occasione sive quia ignorans sum et idiota. Ideoque per omnia oro, sicut possum, fratrem H. generalem dominum meum ministrum, ut faciat regulam ab omnibus inviolabiliter observari; et quod clerici dicant officium cum devotione coram Deo non attendentes melodiam vocis, sed consonantiam mentis, ut vox concordet menti, mens vero concordet cum Deo, ut possint per puritatem cordis placare Deum et non cum lascivitate vocis aures populi demulcere. Ego enim promitto haec firmiter custodire, sicut dederit mihi gratiam Deus; et haec fratribus, qui mecum sunt, observanda tradam in officio et ceteris regularibus constitutis. Quicumque autem fratrum haec observare noluerint, non teneo eos catholicos nec fratres meos; nolo etiam ipsos videre nec loqui, donec poenitentiam egerint. Hoc etiam dico de omnibus aliis, qui vagando vadunt, postposita regulae disciplina; quoniam Dominus noster Jesus Christus dedit vitam suam, ne perderet sanctissimi Patris obedientiam (cfr. Phil 2,8). Ego frater Franciscus, homo inutilis et indigna creatura Domini Dei, dico per Dominum Jesum Christum fratri H. ministro totius religionis nostrae et omnibus generalibus ministris, qui post eum erunt, et ceteris custodibus et guardianis fratrum, qui sunt et erunt, ut hoc scriptum apud se habeant, operentur et studiose reponant. Et exoro ipsos, ut, quae scripta sunt in eo, sollicite custodire ac facere diligentius observari secundum beneplacitum omnipotentis Dei, nunc et semper, donec fuerit mundus iste. Benedicti vos a Domino (Ps 113,23), qui feceritis ista et in aeternum Dominus sit vobiscum. Amen.",
+      "translation": "Jag bekänner också för Herren Gud, Fader och Son och helig Ande, för den välsignade Maria alltid jungfru och för alla helgon i himlen och på jorden, för broder H., vår ordens minister, som för min vördnadsvärde herre, för vår ordens präster och för alla mina andra välsignade bröder, alla mina synder. Jag har förbrutit mig i mycket, genom mitt svåra fel, särskilt därför att jag inte har hållit den regel jag lovade Herren och inte har bett tidegärden så som regeln befaller, genom försummelse eller på grund av min sjukdom eller därför att jag är okunnig och olärd. Därför ber jag av hela mig själv, så gott jag kan, broder H., min herre generalministern, att låta regeln hållas av alla okränkt; och att klerkerna ber tidegärden med andakt inför Gud, och ger akt inte på röstens melodi utan på sinnets samstämmighet, så att rösten stämmer med sinnet och sinnet stämmer med Gud, för att de ska behaga Gud genom hjärtats renhet och inte smeka folkets öron med en lös röst. Jag lovar att hålla detta bestämt, så som Gud ger mig nåden, och jag ska överlämna det att hållas av de bröder som är med mig, i tidegärden och i de andra ting regeln fastställer. Bröder som vägrar att hålla detta håller jag inte för katoliker eller för mina bröder; jag vill inte ens se dem eller tala med dem förrän de har gjort bot. Detsamma säger jag om alla de andra som går omkring och vandrar, sedan de har lagt åt sidan regelns tuktan, ty vår Herre Jesus Kristus gav sitt liv för att inte förlora den allra heligaste Faderns lydnad. Jag, broder Franciskus, en oduglig man och en ovärdig skapelse av Herren Gud, säger genom Herren Jesus Kristus till broder H., hela vår ordens minister, och till alla generalministrar som kommer efter honom, och till brödernas andra kustoder och guardianer, närvarande och kommande, att ha denna skrift hos sig, att verka den och att förvara den sorgfälligt. Och jag ber dem att sorgfälligt vakta det som är skrivet i den och låta det hållas med större flit, enligt den allsmäktige Gudens goda behag, nu och alltid, så länge denna värld varar. Välsignade är ni av Herren, ni som gör detta, och må Herren vara med er för evigt. Amen.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.orazione",
+      "documentId": "source.lettera_ordine",
+      "reference": "Brevet till hela orden 50–52",
+      "originalText": "Omnipotens, aeterne, iuste et misericors Deus, da nobis miseris propter temetipsum facere, quod scimus te velle, et semper velle, quod tibi placet, ut interius mundati, interius illuminati et igne sancti Spiritus accensi sequi possimus vestigia (cfr. 1 Petr 2,21) dilecti Filii tui, Domini nostri Jesu Christi, et ad te, Altissime, sola tua gratia pervenire, qui in Trinitate perfecta et Unitate simplici vivis et regnas et gloriaris Deus omnipotens per omnia saecula saeculorum. Amen.",
+      "translation": "Allsmäktige, evige, rättvise och barmhärtige Gud, ge oss usla, för din egen skull, att göra det vi vet att du vill, och att alltid vilja det som behagar dig, så att vi, renade inifrån, upplysta inifrån och tända av den helige Andes eld, må följa din älskade Sons fotspår, vår Herre Jesu Kristi, och komma till dig, du Högste, av din nåd allena: du som i fullkomlig Treenighet och enkel Enhet lever och regerar och förhärligas, Gud allsmäktig, i evigheters evighet. Amen.",
+      "note": "Medeltida text i public domain, från den latinska Wikisource-transkriptionen (konsulterad den 11 november 2026). Redaktionell översättning, original för den här appen, inte en kritisk utgåva.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    }
+  ]
+}

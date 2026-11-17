@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Salutul păcii",
+      "text": "În Testament, Francisc adeverește că Domnul i-a revelat un salut de pace de purtat altora, iar sursele medievale îi amintesc pe primii frați care vesteau pacea din casă în casă. Pentru Francisc, pacea nu este absența conflictului: este un dar de înmânat, din poartă în poartă, de la om la om. Povestirea lupului din Gubbio duce această logică la limită: se face pace chiar și cu ceea ce înspăimântă, mergându-i în întâmpinare. Din aceeași tradiție se naște formula populară „pace și bine”.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Sărăcia ca libertate",
+      "text": "Regula din 1223 le cere fraților să nu-și însușească nimic — nici casă, nici loc, nici vreun lucru — și să trăiască în lume ca pelerini și străini. Sărăcia franciscană nu glorifică sărăcia lucie, care rămâne o rană socială: este alegerea de a nu te lăsa definit de posesie. Cine nu are nimic de apărat nu are nimic de temut și poate primi orice lucru ca dar. Temeiul este teologic înainte de a fi economic: Domnul însuși s-a făcut sărac.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Frați minori",
+      "text": "Francisc a vrut ca ai săi să se numească frați minori: nimeni nu este mare, iar cei responsabili se numesc „miniștri”, adică slujitori. Regula din 1221 cere ca fiecare să-și arate nevoia celuilalt, ca nimeni să nu-l judece pe frate și ca cel sănătos să nu disprețuiască slăbiciunea celui bolnav. Fraternitatea nu este un ideal de proclamat: este o practică zilnică de răspundere reciprocă. Ești frate în gesturile concrete, sau nu ești deloc.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Frate soare, sora apă",
+      "text": "În Cânticul creaturilor, Francisc îl laudă pe Dumnezeu „pentru” și „cu” creaturile: frate soare, sora lună, frate vânt, sora apă „folositoare și smerită și prețioasă și curată”, sora noastră mamă pământ. Natura nu este divinizată și nici redusă la un depozit de resurse: este o familie, pentru că toate creaturile au același Părinte. Grija pentru creație se naște din înrudire și recunoștință, nu din calcul. Iar Cânticul a fost compus în boală: lauda nu depinde de împrejurări.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Bucuria desăvârșită",
+      "text": "În Fioretti, Francisc îi explică fratelui Leon că adevărata bucurie nu sunt minunile, nici izbânzile, nici convertirile necredincioșilor: este să te întorci la poartă alungat, înghețat și maltratat și să rămâi răbdător și bucuros. Este o relatare hagiografică, nu o cronică, dar concentrează o trăsătură autentică a spiritului franciscan. Bucuria desăvârșită nu depinde de întâmplări: este o alegere lăuntrică pe care niciun refuz nu o poate lua.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "De șaptezeci de ori câte șapte, și dincolo",
+      "text": "În Scrisoarea către un ministru, Francisc scrie că, dacă un frate ar fi păcătuit de o mie de ori, trebuie iubit oricum și trebuie să i se vestească milostivirea, cu condiția să se pocăiască. Iertarea franciscană nu neagă răul: refuză ca răul să aibă ultimul cuvânt asupra relației. În Cântic, strofa despre cei care iartă pentru dragostea lui Dumnezeu a fost adăugată — potrivit tradiției — ca să-i împace pe episcopul și pe podestà-ul din Assisi, aflați în conflict. Iertarea este deopotrivă grijă pentru persoană și leac al cetății.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Crăciunul de la Greccio",
+      "text": "În Crăciunul din 1223, Francisc a vrut să celebreze la Greccio nașterea lui Isus cu o iesle adevărată, fânul, boul și măgărușul: ca ochii trupului să vadă sărăcia din Betleem. Toma de Celano o prezintă ca amintire vie a misterului, nu ca spectacol. Din noaptea aceea se naște tradiția ieslei. Gestul este tipic franciscan: credința se atinge, se vede, se locuiește.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Întâlnirea cu sultanul",
+      "text": "În 1219, în timpul celei de-a cincea cruciade, Francisc a traversat liniile armatei cruciate la Damietta ca să-l întâlnească pe sultanul al-Malik al-Kamil. Sursele medievale amintesc un dialog respectuos între cei doi, chiar în diversitatea ireductibilă a credinței. În timp de război, Francisc a ales calea întâlnirii dezarmate, nu pe cea a predicii împotriva. Episodul rămâne o piatră de încercare pentru orice dialog care trece hotarele propriei lumi.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Lupul din Gubbio",
+      "text": "Fioretti povestesc că la Gubbio un lup îngrozea cetatea, iar Francisc, împotriva mulțimii înspăimântate, a mers spre fiară și i-a vorbit ca unui frate. S-a născut un legământ de pace: cetatea avea să-l hrănească pe lup, iar lupul nu avea să mai facă rău nimănui. Este o povestire a tradiției hagiografice din secolul al XIV-lea, prețioasă pentru imaginar mai mult decât pentru cronică. Lecția ei este limpede: pacea se construiește mergând în întâmpinarea a ceea ce înspăimântă și implicând întreaga comunitate în legământ.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Renunțarea dinaintea episcopului",
+      "text": "La începutul lui 1206, înaintea episcopului Guido și a tatălui său, Pietro di Bernardone, Francisc a înapoiat hainele și a renunțat la bunurile părintești. Toma de Celano povestește că episcopul l-a acoperit cu propria mantie: Biserica îl primea pe cel pe care familia negustorească nu-l mai înțelegea. Nu a fost o fugă de lucruri, ci eliberarea publică de ideea de a le stăpâni. Din ziua aceea, Francisc putea să depindă numai de Tatăl care este în ceruri — și de dărnicia celorlalți.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Clara de Assisi",
+      "text": "Tânără nobilă din Assisi, Clara a părăsit casa părintească în noaptea Floriilor din 1212 ca să urmeze forma de viață evanghelică a lui Francisc, care i-a tăiat părul la Porziuncola. A întemeiat comunitatea Surorilor Sărace de la San Damiano și a apărat toată viața „privilegiul sărăciei” împotriva presiunilor bisericești. A fost prima femeie care a scris o regulă religioasă pentru femei, aprobată cu două zile înainte de moartea ei, în 1253. Blândețea ei era făcută din aceeași substanță ca tenacitatea ei.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernard de Quintavalle",
+      "text": "Cetățean bogat și respectat din Assisi, Bernard a fost primul însoțitor al lui Francisc: a vrut să vadă cu ochii lui cum trăia tânărul de care toți râdeau, și i-a ajuns o noapte de rugăciune. Și-a vândut bunurile, le-a împărțit săracilor și a ales viața de drum. Sursele îl amintesc ca prim rod al fraternității și, la sfârșitul vieții, ca martor iubit al spiritului originilor. El a început lanțul: fără primul frate, nu există fraternitate.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Fratele Leon",
+      "text": "Însoțitor și duhovnic al lui Francisc în ultimii ani, fratele Leon a fost martor al anotimpului de la Verna și păstrător al unicului autograf al sfântului: o scrisoare și o binecuvântare pe care le-a păstrat toată viața. În scrisoare, Francisc răspunde neliniștii lui de a alege bine cu vorbe de libertate: urmează-ți conștiința înaintea lui Dumnezeu. În Fioretti este interlocutorul dialogului despre bucuria desăvârșită. Leon reprezintă discipolul fragil și sincer, mai aproape de sufletul lui Francisc decât o lasă să se creadă faima lui de simplitate.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sultanul al-Malik al-Kamil",
+      "text": "Sultan al Egiptului din dinastia ayyubidă, nepot al lui Saladin, al-Malik al-Kamil l-a primit pe Francisc la Damietta în 1219, în plină a cincea cruciadă. Sursele medievale, creștine și nu numai, îl descriu ca pe un suveran în stare de ascultare și de dialog cu lumea latină, cu care a tratat îndelung chestiunea Ierusalimului. Întâlnirea cu Francisc nu l-a convertit pe niciunul dintre ei: a arătat că se poate vorbi ca oameni de credință fără arme în mână. Rămâne o figură-cheie ca să înțelegi că primirea franciscană trece hotarele credinței.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Comuna medievală",
+      "text": "Assisi-ul lui Francisc este o comună în ascensiune: consuli și podestà, turnuri și vendete, negustori care se îmbogățesc și bresle care organizează munca. Este o lume întemeiată pe onoare, pe rang și pe credit, unde bogăția este vizibilă, iar sărăcia este rușine. Familia lui Pietro di Bernardone ține de această burghezie în formare. Tocmai împotriva acestor valori — nu împotriva bogăției în sine, ci împotriva puterii pe care ea o exercită asupra inimii — prinde formă alegerea franciscană.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Leprozeria",
+      "text": "În secolul al XIII-lea, leproșii trăiau în afara zidurilor, în lazarete ca cele de lângă Assisi, excluși din viața cetății și marcați de un presupus semn al păcatului. Francisc mărturisește în Testament că a-i vedea i se părea prea amar; și că tocmai printre ei, ducându-l Domnul, a făcut milostivire și a găsit dulceață. Celano descrie slujirea concretă: a spăla rănile, a îmbrățișa, a purta de grijă. Leprozeria este locul unde se naște caritatea franciscană: nu un sentiment, ci o întâlnire de trupuri.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Milostenia",
+      "text": "Evlavia medievală cunoștea milostenia ca practică meritorie: se dădea pentru propriul suflet, adesea ținându-te la distanță. Regula din 1223 le cere în schimb fraților să meargă după milostenie fără să se rușineze, amintindu-și că Domnul s-a făcut sărac: a cere devine parte din viață, nu o umilire de evitat. Iar a da se preface în relație: nu lași ceva săracului, stai cu săracul. Cine dăruiește și cine primește își schimbă rolul de cerșetori înaintea lui Dumnezeu.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Schitul",
+      "text": "Viața franciscană nu este numai drum și predică: Francisc căuta retrageri singuratice — Carceri, deasupra Assisiului, Verna, pe Apenini — luând cu sine puțini însoțitori și tăceri lungi. La Verna, în septembrie 1224, sursele așază stigmatele și compunerea Laudelelor lui Dumnezeu: rugăciunea cea mai curată a lui Francisc este laudă fără cereri. Schitul nu este fugă de lume: este locul unde te întorci la esențial ca să cobori apoi printre oameni. Misiunea și retragerea se țin ca cei doi pași ai drumului.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Ce te stăpânește?",
+      "text": "Fă în minte inventarul lucrurilor la care ții cel mai mult. Apoi întreabă-te, pe rând: le stăpânesc eu, sau mă stăpânesc ele pe mine? Cât din timpul tău, din atenția ta, din neliniștea ta slujește la a apăra ceea ce ai? Nu există un răspuns corect: există doar adevărul despre tine.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Cine este lupul tău?",
+      "text": "În cartierul tău, la muncă, în familia ta: cine este persoana sau situația de care toți fug? Ce s-ar întâmpla dacă, în loc să ridice ziduri, cineva ar merge în întâmpinare și ar întreba: de ce ți-e foame? Cine, în cetatea ta, ar putea fi comunitatea care garantează legământul?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "De ce depinde bucuria ta?",
+      "text": "Gândește-te la ultima dată când ai fost cu adevărat bucuros: depindea de un rezultat obținut, de o recunoaștere, de o cumpărătură? Acum gândește-te la o bucurie pe care niciun eveniment din afară să n-o poată lua. Dacă nu-ți vine nimic în minte, nu este o vină: este o pistă de căutare. Ce ar trebui să se schimbe, înăuntrul tău, ca bucuria să nu fie închiriată de la întâmplări?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Calea păcii",
+      "text": "Un parcurs în două scenarii: o ceartă de hotar într-un târg medieval și o nedreptate suferită într-un birou de astăzi. Pacea franciscană nu este absența conflictului: este un salut de purtat, o mijlocire de oferit, o bucurie pe care să n-o lași ostatecă a întâmplărilor. Se deschide descoperind învățătura salutului păcii.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Calea fraternității",
+      "text": "Un parcurs înăuntrul vieții comune: ce faci când un frate greșește grav și comunitatea se desparte între severitate și primire? Fraternitatea franciscană se măsoară tocmai acolo, nu în bunele intenții. Se deschide descoperind învățătura fraților minori și străbate iertarea fără limite și regula care apără.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Calea păcii",
+      "theme": "pace",
+      "description": "De la salutul purtat din casă în casă până la bucuria care nu depinde de întâmplări: două scenarii ca să înveți pacea ca practică, în târgul medieval și în biroul de azi.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Calea simplității",
+      "theme": "poverta",
+      "description": "Ce faci cu bunurile care îți trec prin mâini: o păstrare delicată în secolul al XIII-lea și un proiect opac astăzi. Sărăcia franciscană ca libertate față de posesie și ca răspundere a celui care slujește.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Calea fraternității",
+      "theme": "fraternita",
+      "description": "Când un frate greșește grav, fraternitatea arată ce este cu adevărat: tribunal sau casă. Un scenariu ca să străbați iertarea, regula și răspunderea reciprocă.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Zidul de hotar",
+      "situation": "Târgul Assisi, începutul secolului al XIII-lea. Berta, care ține dugheana vopsitorilor, și Lupo, țesătorul de la poarta de alături, se ceartă de săptămâni pentru un braț de pământ între casele lor: pe acolo trece jgheabul, și fiecare jură că zidul stă de partea lui. Familiile au încetat să se salute; ucenicii își aruncă insulte pe stradă. Îi cunoști pe amândoi, și amândoi au încredere în tine. În seara asta te întreabă: de partea cui stai?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Nu stai de partea nimănui: te oferi să-i asculți pe rând, apoi împreună, și să-i ajuți să găsească o înțelegere simplă asupra zidului și a jgheabului.",
+          "consequence": "Primele săptămâni sunt grele: fiecare încearcă să te tragă de partea lui. Apoi, fiind ascultați, descoperă că nodul adevărat nu este brațul de pământ, ci o nedreptate veche, niciodată iertată. Înțelegerea asupra zidului vine aproape în grabă, iar la sărbătoarea Sfântului Gheorghe cele două dughene reîncep să-și dea împrumuturi.",
+          "perspectives": [
+            {
+              "label": "Calea franciscană",
+              "text": "În Testament, Francisc adeverește că Domnul i-a revelat un salut de pace de purtat altora, iar sursele amintesc pe frați vestind pacea din casă în casă. A mijloci tu însuți, cu smerenie, este exact acest gest: pacea nu se dorește, se înmânează.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Lecția din Gubbio",
+              "text": "În povestirea lupului, pacea se naște când cineva merge în întâmpinarea a ceea ce înspăimântă, iar întreaga comunitate se face chezaș al legământului: cetatea hrănește lupul, lupul nu mai face rău. Aici cele două familii și dughenele vecine se fac chezașe ale înțelegerii, ca să țină dincolo de prezența ta.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Prudența târgului",
+              "text": "Cine se pune la mijloc riscă să devină ținta amândurora, dacă înțelegerea eșuează. Mijlocirea funcționează pentru că ești în afara certei și nu câștigi nimic din ea: credibilitatea ta este singurul tău capital, și trebuie cheltuit cu măsură.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Le sfătuiești pe amândouă părțile să ducă chestiunea înaintea consulilor comunei sau a breslei negustorilor: hotarul se măsoară, actele se citesc, dreptul hotărăște.",
+          "consequence": "Cearta iese din stradă și intră în forme. Expertul comunei măsoară, scrierile părinților sunt citite, și după câteva luni o sentință îi dă zidul lui Lupo și jgheabul Bertei. Nedreptatea veche rămâne însă nerezolvată: familiile abia se salută, și nimeni nu este cu adevărat în pace.",
+          "perspectives": [
+            {
+              "label": "Dreptul vremii",
+              "text": "Comuna există tocmai ca să înlocuiască vendeta cu procedura: o sentință din afară închide disputa fără vărsare de sânge și fără umilințe. Este un progres civil real, iar în secolul al XIII-lea a costat trudă să fie cucerit.",
+              "isEditorial": true
+            },
+            {
+              "label": "Calea franciscană",
+              "text": "Tradiția franciscană nu disprețuiește autoritățile, dar amintește că dreptatea hotărăște zidul, nu inima: salutul de pace purtat din casă în casă urmărește să pună din nou oamenii în relație, nu doar să împartă vinile. O sentință dreaptă poate lăsa cearta vie sub cenușă.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Prudența târgului",
+              "text": "A te adresa consulilor te apără: nu tu hotărăști, și nimeni nu te va putea învinui de favoritisme. Prețul este încetineala și cheltuielile, și riscul ca cel care pierde să păstreze ranchiună față de comună mai mult decât față de vecin.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Nu intervii: lași timpul să limpezească cearta, mărginindu-te să n-o alimentezi cu judecăți și bârfe.",
+          "consequence": "Luni de zile tensiunea rămâne sub suprafață: nimeni nu mai vorbește despre zid, dar ucenicii continuă să se înțepe, iar lucrările de întreținere ale jgheabului se opresc. Când vine iarna, ploaia inundă ambele pivnițe: în fața pagubei comune, cei doi vecini reîncep să vorbească din necesitate, și cearta se rezolvă de la sine, cu ceva mai multă rugină.",
+          "perspectives": [
+            {
+              "label": "Prudența târgului",
+              "text": "Nu orice conflict cere un împăciuitor: uneori intervenția prea devreme înțepenește pozițiile. Timpul și necesitatea comună — o pivniță inundată — pot mijloci mai bine decât orice discurs.",
+              "isEditorial": true
+            },
+            {
+              "label": "Calea franciscană",
+              "text": "Pacea franciscană este activă: se poartă, se vestește, se construiește mergând în întâmpinare, ca în povestirea lupului. A lăsa să se limpezească nu este un păcat, dar nu este salutul păcii: este renunțarea de a fi unealtă, care uneori este smerenie și uneori este comoditate.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Dreptul vremii",
+              "text": "În dreptul medieval, neintervenția are un cost: cearta neprescrisă se întoarce, iar paguba comună a jgheabului părăsit apasă asupra tuturor. A aștepta nu este neutru: este o alegere care mută nota de plată mai încolo.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Pacea franciscană începe de la un salut și se termină într-un legământ pe care comunitatea îl păzește. Dar cere pe cineva dispus să stea la mijloc fără să câștige nimic. În cartierul tău, astăzi, cine face această muncă? Și ai putea-o face tu?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Meritul luat",
+      "situation": "Astăzi, în ședință, în fața întregii echipe, un coleg a prezentat ca fiind al lui un lucru care este în mare parte al tău. Nimeni n-a spus nimic; șeful i-a mulțumit. Te arde pieptul de ore întregi. Mâine vă veți încrucișa din nou privirile pe coridor.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Răspunzi pe loc: la prima ocazie publică, restabilești faptele în fața tuturor, cu precizie și cu aceeași audiență care a asistat la nedreptate.",
+          "consequence": "Corectarea sosește la timp, iar faptele se întorc la locul lor: șeful înțelege, câțiva colegi îți mulțumesc în șoaptă. Colegul, umilit în public, devine un adversar tăcut și de durată; climatul echipei se înțepenește, și fiecare cuvânt al tău este acum cântărit la gram.",
+          "perspectives": [
+            {
+              "label": "Dreptul vremii",
+              "text": "A-ți revendica munca este legitim: adevărul despre merite nu este bârfă, iar a lăsa nedreptatea să treacă poate deveni un precedent. Dar forma contează: reparația publică creează un învingător și un învins, iar pe termen lung învinsul nu uită.",
+              "isEditorial": true
+            },
+            {
+              "label": "Calea franciscană",
+              "text": "Povestirea bucuriei desăvârșite învață că bucuria nu trebuie să depindă de recunoaștere: dacă pacea ta se întoarce doar când nedreptatea este reparată în public, ai dat-o în chirie judecății celorlalți. A restabili faptele este îngăduit; a avea nevoie de asta ca să-ți fie bine este rana adevărată.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Prudența târgului",
+              "text": "În viața de muncă, reputația se construiește cu picătura și se pierde cu găleata: o corectare publică bine cântărită apără, o umilire publică te marchează drept om ranchiunos. Dacă alegi această cale, măsoară cuvintele pe conținut, niciodată pe persoană.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Lași să treacă: nu spui nimic, nu cocoloșești ranchiuna, mergi mai departe. Munca vorbește de la sine, și tu nu vrei să-i dai nedreptății puterea de a-ți strica zilele.",
+          "consequence": "Tăcerea te costă câteva săptămâni de nemulțumire, apoi nodul se desface: proiectul următor este limpede al tău, iar cine observă are memoria lungă. Colegul, necontrazis, repetă însă purtarea cu un alt membru al echipei: pacea ta lăuntrică este salvată, dar problema rămâne în grup.",
+          "perspectives": [
+            {
+              "label": "Calea franciscană",
+              "text": "În Fioretti, bucuria desăvârșită este tocmai aceasta: a suferi nedreptatea fără să-i lași conducerea inimii tale, rămânând răbdător și bucuros. Nu este naivitate și nici slăbiciune: este descoperirea că bucuria întemeiată pe iubire nu are nevoie să câștige fiecare ceartă.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Dreptul vremii",
+              "text": "Pacea lăuntrică este un bun, dar nu este singurul: o purtare greșită, necontrazisă, devine obicei, iar următoarea victimă s-ar putea să nu aibă tăria ta. Dreptatea la muncă îi apără și pe ceilalți, nu doar meritul tău.",
+              "isEditorial": true
+            },
+            {
+              "label": "Prudența târgului",
+              "text": "A nu reacționa este o strategie cu o condiție: trebuie să fie aleasă, nu îndurată. Dacă a lăsa să treacă înseamnă a cocoloși luni de zile, n-ai practicat bucuria, ci resentimentul în rate. Inima trebuie cercetată cu onestitate.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Cauți o confruntare sinceră: îi ceri colegului o vorbă între patru ochi, expui faptele fără acuzații și asculți ce are de spus.",
+          "consequence": "Convorbirea este incomodă, dar adevărată: colegul recunoaște pe jumătate, se justifică, apoi — surprins că n-a fost sfâșiat în public — se corectează singur la ședința următoare, pomenind contribuția ta. Nu deveniți prieteni, dar între voi se naște o formă de respect veghetor; iar chestiunea nu ajunge niciodată în piața echipei.",
+          "perspectives": [
+            {
+              "label": "Calea franciscană",
+              "text": "A merge între patru ochi seamănă cu salutul păcii purtat din casă în casă: a te expune tu însuți, fără audiență, lăsându-i celuilalt ușa deschisă. Și seamănă cu bucuria desăvârșită, pentru că nu-ți subordonează pacea rezultatului: vorbești pentru adevăr, nu ca să învingi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Dreptul vremii",
+              "text": "Confruntarea în privat apără faptele fără să umilească persoana: este forma de reparație care lasă intacte relațiile de muncă. Limita ei este că depinde de buna-credință a celuilalt: dacă colegul neagă și stăruie, urmează apoi calea formală.",
+              "isEditorial": true
+            },
+            {
+              "label": "Prudența târgului",
+              "text": "Înainte să vorbești, întreabă-te ce vrei cu adevărat: să restabilești faptele, sau să faci nedreptatea să se plătească? Convorbirea funcționează doar dacă intri dispus să asculți; dacă intri ca să învingi, celălalt simte și se închide.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Bucuria desăvârșită nu interzice să restabilești faptele: interzice să-i dai nedreptății cheile inimii tale. Întreabă-te, în săptămâna ta: de câte ori pacea ta este în chirie de la purtarea celorlalți?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Păstrarea negustorului",
+      "situation": "Assisi, 1210. Guido, un negustor de postavuri care pleacă la târgurile din Champagne și nu se va întoarce înainte de doi ani, îți propune să păstrezi o parte din bunurile lui: baloturi de stofă și o pungă de bani. Vei putea să le folosești între timp — stofa ar face saltul dughenei tale mici — iar la întoarcere îi vei da înapoi valoarea statornicită, cu o parte din câștig. Este o ocazie cinstită. Este și o legătură care durează doi ani.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Accepți pe deplin: folosești stofa și banii ca să crești dugheana, socotind să înapoiezi valoarea cu dobânzile statornicite la întoarcerea lui Guido.",
+          "consequence": "Dugheana crește cu adevărat: doi ucenici, un război de țesut nou, numele tău care începe să circule. Dar fiecare hotărâre trece acum prin socoteala de dat: nu mai dormi înainte de târguri, te temi de furturi și de anii slabi. Când Guido se întoarce, mai devreme și cu pierderi proprii de acoperit, a onora legământul te costă aproape tot câștigul — și îți dai seama că ai petrecut doi ani păzind bani mai mult decât trăind.",
+          "perspectives": [
+            {
+              "label": "Calea franciscană",
+              "text": "Regula din 1223 cere să nu-ți însușești nimic, nici casă, nici loc, nici vreun lucru: nu pentru că lucrurile ar fi rele, ci pentru că ceea ce trebuie să înapoiezi și să aperi începe să te stăpânească pe tine. Somnul pierdut înainte de târguri este semnul exact al schimbării de stăpân.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Logica negustorului",
+              "text": "În lumea comunei aceasta este practica: creditul face economia să se învârtă, iar a refuza orice depozit înseamnă să rămâi mic pentru totdeauna. Riscul se măsoară și se prețuiește; a onora legământul este ceea ce construiește reputația.",
+              "isEditorial": true
+            },
+            {
+              "label": "Privirea renunțării",
+              "text": "Celano îl povestește pe Francisc înapoind până și hainele tatălui: nu din dispreț față de lucruri, ci ca să nu depindă de nimic care nu este Tatăl. Întrebarea nu este dacă legământul este cinstit — este — ci câtă libertate a inimii tale ești dispus să angajezi pentru doi ani.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Accepți doar păstrarea, nu folosirea: sigilezi stofa și banii, îi ții în siguranță fără să-i faci să rodească și îi înapoiezi intacți la întoarcere.",
+          "consequence": "Timp de doi ani dugheana ta rămâne cea dintotdeauna, dar tu mergi ușor: nicio socoteală de dat, niciun câștig de apărat. Guido, întors, găsește totul intact și te stimează ca om de cuvânt; îți propune alte păstrări, pe care le vei cântări una câte una. Cineva în târg te numește prost: stofa aceea ar fi putut lucra pentru tine.",
+          "perspectives": [
+            {
+              "label": "Calea franciscană",
+              "text": "A păstra fără a-ți însuși este aproape un exercițiu spiritual: a avea în mâini fără a avea în inimă. Amintește logica Regulii — pelerini și străini în lume, slujitori ai lucrurilor și nu stăpâni — aplicată unui bun al altuia.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Logica negustorului",
+              "text": "Din punct de vedere economic este o ocazie irosită: capitalul stătut nu produce, iar păstrătorul gratuit dăruiește un serviciu care în altă parte se plătește. Stima lui Guido valorează, dar nu plătește războiul de țesut nou.",
+              "isEditorial": true
+            },
+            {
+              "label": "Prudența târgului",
+              "text": "Păstrarea curată își are riscurile — furturi, incendii, acuzații de delapidare — dar te lasă liber de orice ceartă asupra câștigului. Scrie oricum un act în fața martorilor: încrederea se onorează mai bine cu actele în regulă.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Refuzi cu respect: îi mulțumești lui Guido pentru încredere, dar nu vrei legături de posesie și nici socoteli de dat timp de doi ani.",
+          "consequence": "Guido rămâne surprins, apoi încuviințează: va încredința stofele altcuiva. Dugheana ta rămâne mică și unele ierni sunt strâmte, dar cuvântul tău în târg capătă un sunet aparte: al celui care nu se vinde și nu se leagă. Ani mai târziu, când vei alege să-i urmezi pe frații care trec prin Assisi, nimănui nu i se va părea stranie detașarea ta: începuse de la acel nu.",
+          "perspectives": [
+            {
+              "label": "Privirea renunțării",
+              "text": "Renunțarea lui Francisc înaintea episcopului arată că a spune nu bogăției este un gest de libertate, nu de dispreț: a înapoiat hainele ca să poată spune fără ipocrizie „Tatăl nostru”. Un nu motivat astăzi pregătește nu-urile — și da-urile — de mâine.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Calea franciscană",
+              "text": "Atenție să nu confunzi libertatea cu regula făcută pentru sine: Regula vorbește despre a nu-ți însuși, nu despre a refuza orice răspundere față de bunurile altuia. Și refuzul poate deveni un fel de a te gândi doar la tine.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Prudența târgului",
+              "text": "A refuza este legitim, dar are un cost social: în târg oamenii se ajută și așa, păstrându-și unii altora bunurile. Cine refuză mereu, cu timpul, rămâne în afara plasei de încredere pe care se sprijină totul.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Sărăcia franciscană nu cere să disprețuiești lucrurile: cere să bagi de seamă când lucrurile încep să te stăpânească. Data viitoare când accepți ceva — un obiect, o însărcinare, o datorie — întreabă-te: cine pe cine păzește?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Proiectul opac",
+      "situation": "Astăzi. Ți se încredințează conducerea unui proiect de prestigiu: vizibilitate, o echipă aleasă de tine, un buget consistent. Dar două rubrici de cheltuieli nu se potrivesc, iar finanțatorul răspunde întrebărilor tale cu politețuri evazive. A semna înseamnă să-ți asumi răspunderea și pentru opacitatea aceea. A refuza înseamnă să renunți la o ocazie care nu se va mai ivi.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Accepți fără alte întrebări: proiectul este o ocazie unică, rubricile opace nu sunt de competența ta, și oricum cineva ar fi semnat în locul tău.",
+          "consequence": "Proiectul reușește bine, iar cariera ta face un salt. Dar când, un an mai târziu, un control administrativ redeschide rubricile acelea de cheltuieli, semnătura ta este pe documente: răspunderea pe care n-ai vrut să o privești te ajunge oricum, iar prestigiul cucerit se răstoarnă într-o apărare stânjenită.",
+          "perspectives": [
+            {
+              "label": "Răspunderea rolului",
+              "text": "În fraternitatea franciscană, cine călăuzește se numește „ministru”, slujitor: sarcina există ca să slujească, nu ca să strălucească. O slujire care acceptă să nu vadă lucrul de care răspunde și-a trădat deja numele, înainte de orice control.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Logica negustorului",
+              "text": "În lumea muncii se judecă așa: fiecare proiect are zone cenușii, iar cine vrea să lucreze cu adevărat învață să trăiască cu ele. A refuza orice imperfecțiune înseamnă să predai hotărârile celui care are mai puține scrupule decât tine.",
+              "isEditorial": true
+            },
+            {
+              "label": "Prudența târgului",
+              "text": "Semnătura este un hotar: ceea ce semnezi, stăpânești, cu toate consecințele. Înainte să semnezi, a număra până la zece nu ajunge: trebuie să știi exact ce subscrii. Ocazia care nu se mai ivește se ivește adesea din nou; reputația, nu.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Refuzi: fără transparență nu se semnează, iar proiectul să treacă la cine acceptă acele condiții.",
+          "consequence": "Renunțarea arde, și luni de zile privești proiectul mergând înainte printre probleme: fără conducerea ta echipa se clatină, iar la urmă finanțatorul retrage fondurile tocmai pe rubricile opace. Nu-ul tău, citit de unii ca naivitate, este amintit de alții când e nevoie de o persoană de încredere pentru o însărcinare delicată.",
+          "perspectives": [
+            {
+              "label": "Prudența târgului",
+              "text": "Refuzul apără reputația, dar lasă problema intactă: proiectul ajunge la cine are mai puține scrupule, iar oamenii care lucrează acolo suportă consecințele. Un nu curăță mâinile, nu întotdeauna lumea.",
+              "isEditorial": true
+            },
+            {
+              "label": "Răspunderea rolului",
+              "text": "Scrisoarea către un ministru arată că călăuzirea franciscană este apropiere și slujire, niciodată detașare de sus. Dar a sluji nu înseamnă a te preta la orice: un ministru care semnează ceea ce nu poate cârmui nu-i slujește pe frați, îi expune. Și refuzul poate fi o formă de grijă.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Privirea lungă",
+              "text": "Carierele se fac din ocazii prinse, dar încrederea se face din ocazii refuzate. Nu-ul spus din motive limpezi și fără moralisme este o investiție care se coace încet și nu se devalorizează.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Accepți cu condiții: semnezi doar după ce ai pus în scris o dare de seamă transparentă, un audit independent și dreptul de a te retrage motivat.",
+          "consequence": "Finanțatorul tărăgănează, amenință că va căuta pe alții, apoi cedează: condițiile tale, scrise, devin coloana vertebrală a proiectului. Munca este mai lentă și mai obositoare decât promitea, dar când vine controlul — și vine — socotelile sunt deschise, iar echipa ține. Conducerea ta devine un precedent: alții, după tine, vor cere aceleași condiții.",
+          "perspectives": [
+            {
+              "label": "Răspunderea rolului",
+              "text": "Aceasta este calea ministrului în sensul franciscan deplin: nu fugi de slujire, dar refuzi ca slujirea să devină complicitate. Cine călăuzește slujește — iar a sluji include a apăra echipa și proiectul de zonele de umbră, chiar cu prețul unor tratative incomode.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Logica negustorului",
+              "text": "Condițiile scrise sunt compromisul cel mai bun, dar au un preț: riști să pierzi însărcinarea dacă finanțatorul nu cedează, și să lucrezi ani de zile cu un partener care te socotește un controlor mai mult decât un aliat. Merită doar dacă ai alternative credibile.",
+              "isEditorial": true
+            },
+            {
+              "label": "Privirea lungă",
+              "text": "A pune condiții este calea cea mai lentă și cea mai rodnică: nu se mărginește să te apere pe tine, schimbă practica. Instituțiile se îmbunătățesc când cineva preface un scrupul personal într-o regulă împărtășită.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Francisc îi numea pe cei responsabili „miniștri”, slujitori: numele rolului este deja programul lui. În munca ta, ce trebuie ca slujirea ta să nu devină complicitate — și ce trebuie ca rigoarea ta să nu devină dezertare?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Fratele care a greșit",
+      "situation": "Porziuncola, anii douăzeci ai secolului al XIII-lea. Fratele Ruffino a greșit grav față de regulă: a păstrat pentru sine bani primiți ca milostenie, iar faptul este acum cunoscut și în afară, printre oamenii care vă privesc. În fraternitate se discută de zile întregi. Unii cer o pocăință exemplară și îndepărtarea lui din târg; alții amintesc că Ruffino este bolnav și frânt; alții se tem că îngăduința îi va pofti pe toți să greșească. Ministrul cere părerea fiecăruia. Și pe a ta.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Susții severitatea: pocăință publică și îndepărtarea vremelnică a lui Ruffino, pentru că regula valorează pentru toți, iar scandalul laicilor trebuie reparat în fața tuturor.",
+          "consequence": "Fraternitatea aprobă o disciplină riguroasă. Ruffino pleacă spre un schit îndepărtat, umilit în fața celor care îl cunoșteau; laicii din târg admiră coerența fraților, iar milosteniile nu scad. Dar în fraternitate ceva se înțepenește: frații încep să-și ascundă fragilitățile de frica judecății, iar Ruffino, singur, va avea nevoie de ani ca să se întoarcă — dacă se va întoarce.",
+          "perspectives": [
+            {
+              "label": "Înțelepciunea comunității",
+              "text": "Regula comună este ceea ce deosebește o fraternitate de o ceată de prieteni: dacă cel care greșește grav nu întâlnește consecințe, legământul se golește, iar cei mai slabi plătesc prețul. Reparația publică răspunde și scandalului public.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Scrisoarea către ministru",
+              "text": "Francisc îi scrie ministrului că, dacă un frate ar fi păcătuit de o mie de ori, trebuie iubit oricum și trebuie să i se vestească milostivirea: asprimea care scandalizează fratele slab riscă să-l piardă. Severitatea nu este interzisă, dar nu trebuie să devină niciodată dispreț.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Privirea lungă",
+              "text": "O comunitate în care toți se tem de judecată devine o comunitate de secrete: regula rămâne în picioare pe hârtie și se prăbușește în inimi. Rigoarea care nu prevede o cale de întoarcere produce exilați, nu penitenți.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Susții primirea deplină: îl reprimi pe Ruffino fără pocăințe publice, îi îngrijești boala și răspunzi scandalului cu blândețe, nu cu pedepse.",
+          "consequence": "Ruffino rămâne. Plânge înaintea fraților, înapoiază cât poate și, încet, își regăsește un loc în viața comună: nimeni nu-i mai aruncă faptul în față. În târg cineva murmură că frații se acoperă între ei, iar doi tineri ai fraternității iau blândețea drept îngăduință: ministrul va trudi luni de zile ca să restabilească faptul că regula nu este un sfat.",
+          "perspectives": [
+            {
+              "label": "Scrisoarea către ministru",
+              "text": "Este calea trasată de Scrisoarea către un ministru: a iubi mai mult, nu mai puțin, pe cel care a greșit; a vesti milostivirea, cu condiția să se pocăiască; a nu-ți împietri inima din pricina păcatului altuia. Francisc știe că această cale costă și o prescrie totuși.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Înțelepciunea comunității",
+              "text": "Regula din 1221 cere să-și arate unii altora nevoile și să nu-l disprețuiască pe cel slab: Ruffino cel bolnav este exact fratele pe care regula îl apără. Dar aceeași regulă există pentru ca fraternitatea să nu se risipească: milostivirea fără adevăr devine complicitate.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Prudența târgului",
+              "text": "Laicii dau milostenii unor frați săraci, nu unor frați șireți: scandalul necârmuit roade încrederea care ține comunitatea în viață. Primirea trebuie explicată târgului, nu doar trăită în casă, altfel va fi citită ca acoperire.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Susții o cale comunitară: Ruffino rămâne în fraternitate, înapoiază ce datorează înaintea fraților, se încredințează unei însoțiri fraterne, iar întreaga comunitate poartă împreună cu el reparația față de târg.",
+          "consequence": "Parcursul este lung și incomod: Ruffino se mărturisește înaintea fraților, înapoiază banii din casă în casă împreună cu un frate bătrân și, timp de un an, face slujirile cele mai smerite fără ca nimeni să i le arunce în față. Târgul vede o reparație adevărată, nu o pedeapsă: încrederea se întoarce încet. Înăuntrul fraternității, episodul devine o regulă nescrisă: cine cade este însoțit, cine a greșit repară, nimeni nu se pierde.",
+          "perspectives": [
+            {
+              "label": "Scrisoarea către ministru",
+              "text": "Milostivirea din Scrisoare nu este o reducere: este iubire care însoțește pocăința până când aduce rod. Ruffino care înapoiază din casă în casă nu este umilit: este un frate care se întoarce, cu comunitatea mergând alături de el, în loc să-l privească de sus.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Înțelepciunea comunității",
+              "text": "Regula din 1221 își închipuie tocmai aceasta: frați care își arată nevoile — chiar și pe cele rușinoase — și care se poartă unii pe alții. Reparația comunitară unește adevărul și milostivirea și preface vina unuia în școală pentru toți.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Dreptul vremii",
+              "text": "Este calea cea mai exigentă pentru toți: cere timp, păzirea tainei acolo unde trebuie, adevăr public acolo unde scandalul a fost public. Nu toate comunitățile rabdă această trudă: fără un ministru capabil, calea de mijloc devine doar nehotărâre.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Fraternitatea se măsoară nu când toți păzesc regula, ci când cineva o încalcă. Scrisoarea către un ministru fixează steaua — a iubi mai mult, nu mai puțin — fără să șteargă adevărul. În comunitățile tale, cine a greșit găsește o cale de întoarcere?"
+    }
+  ]
+}

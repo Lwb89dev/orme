@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Narodziny w Asyżu",
+      "description": "Jan, syn Piotra di Bernardone, zwany Franciszkiem, rodzi się w Asyżu jako syn bogatego kupca sukna i pani Pica.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 lub 1182 (niepewna)",
+      "chronologicalUncertainty": "Źródła nie zgadzają się co do roku: historiografia podaje zarówno 1181, jak i 1182.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Wojna i niewola",
+      "description": "W wojnie między Asyżem a Perugią Franciszek walczy w bitwie pod Collestradą (listopad 1202), dostaje się do niewoli i pozostaje około roku w Perugii. Po powrocie choroba zaczyna go zmieniać.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Sen w Spoleto i powrót",
+      "description": "Wyruszywszy do Apulii w poszukiwaniu wojskowej chwały, w Spoleto Franciszek ma sen, który każe mu wrócić do Asyżu. Zaczyna się oderwanie od dawnego życia: sny, modlitwa, pielgrzymka do Rzymu.",
+      "yearFrom": 1205,
+      "dateLabel": "około 1204–1205",
+      "chronologicalUncertainty": "Rekonstrukcja tych miesięcy pochodzi ze średniowiecznych biografii; dokładne daty są umowne.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Spotkanie z trędowatymi",
+      "description": "Franciszek opowiada w Testamencie, że Pan poprowadził go między trędowatych i że „okazał im miłosierdzie”: epizod, który on sam wskazuje jako początek swojego nawrócenia.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "około 1205–1206",
+      "chronologicalUncertainty": "Testament nie podaje daty; wydarzenie umieszcza się przed publicznym zerwaniem z rodziną.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Krucyfiks z San Damiano",
+      "description": "W zrujnowanym kościółku San Damiano, według tradycji, Franciszek słyszy, jak krucyfiks kieruje do niego wezwanie: „Napraw mój dom”. Zrazu rozumie je dosłownie i własnymi rękami odbudowuje kościoły.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "około 1205–1206",
+      "chronologicalUncertainty": "Epizod poświadczony przede wszystkim przez Żywot drugi i późniejszą tradycję; dosłowność dialogu należy do narracji dewocyjnej.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Wyrzeczenie przed biskupem",
+      "description": "Wezwany przez ojca przed biskupa Guidona z powodu sprzedanych dóbr, Franciszek oddaje wszystko, łącznie z szatami, i powierza się „Ojcu, który jest w niebiosach”. Biskup okrywa go własnym płaszczem.",
+      "yearFrom": 1206,
+      "dateLabel": "początek 1206",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Pierwsi towarzysze",
+      "description": "Bernard z Quintavalle, Idzi i inni przyłączają się do Franciszka, dzieląc jego formę życia: rodzi się wędrowne braterstwo, między pracą, jałmużną i głoszeniem pokoju.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Zatwierdzenie przez Innocentego III",
+      "description": "Franciszek i towarzysze idą do Rzymu; Innocenty III ustnie zatwierdza ich ewangeliczną formę życia. Nie zachował się żaden dokument zatwierdzenia: tradycja datuje je na 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (lub 1209)",
+      "chronologicalUncertainty": "Zatwierdzenie było ustne i żaden dokument się nie zachował; dokładny rok (1209 lub 1210) jest dyskutowany.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Porcjunkula, dom braterstwa",
+      "description": "Mały kościół Matki Bożej Anielskiej, zwany Porcjunkulą, staje się stałym mieszkaniem braterstwa: duchowym i uczuciowym centrum ruchu.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Ucieczka Klary",
+      "description": "Klara Offreduccio opuszcza dom ojca i dociera do Franciszka w Porcjunkuli, w nocy z Niedzieli Palmowej na poniedziałek 1212 roku: zaczyna się jej forma życia, z której powstaną klaryski.",
+      "yearFrom": 1212,
+      "dateLabel": "18–19 marca 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Spotkanie z sułtanem",
+      "description": "Podczas piątej krucjaty Franciszek przekracza linie i spotyka sułtana al-Malika al-Kamila w Damietcie: epizod dialogu w czasie wojny, poświadczony przez źródła franciszkańskie i wspominany przez zewnętrznych kronikarzy.",
+      "yearFrom": 1219,
+      "dateLabel": "wrzesień 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Reguła niezatwierdzona bullą",
+      "description": "W Fonte Colombo, koło Rieti, zostaje zredagowana pierwsza pełna reguła braterstwa (Regula non bullata), długa i duchowa, nigdy formalnie niezatwierdzona.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Reguła zatwierdzona bullą",
+      "description": "Honoriusz III zatwierdza bullą „Solet annuere” regułę ostateczną (29 listopada 1223): krótszą i bardziej prawną, do dziś podstawę Zakonu Braci Mniejszych.",
+      "yearFrom": 1223,
+      "dateLabel": "29 listopada 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Boże Narodzenie w Greccio",
+      "description": "W Boże Narodzenie 1223 Franciszek każe przygotować w Greccio prawdziwy żłób, z sianem, wołem i osłem, aby „oczami ciała” zobaczyć ubóstwo Betlejem: początek tradycji szopki.",
+      "yearFrom": 1223,
+      "dateLabel": "Boże Narodzenie 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "We wrześniu 1224, na odosobnieniu na górze La Verna, Franciszek otrzymuje — według najbliższych źródeł średniowiecznych — stygmaty męki Chrystusa, które będzie starał się ukrywać.",
+      "yearFrom": 1224,
+      "dateLabel": "wrzesień 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Pieśń stworzeń",
+      "description": "Chory i niemal niewidomy Franciszek układa etapami laudę w umbryjskim języku ludowym znaną jako Pieśń stworzeń: chwałę Boga przez brata słońce, siostrę wodę, matkę ziemię i wreszcie siostrę śmierć cielesną.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Wilk z Gubbio",
+      "description": "Kwiatki opowiadają, że Franciszek pośredniczył w pokoju między miastem Gubbio a dzikim wilkiem: miasto miało go karmić, wilk nie miał już czynić krzywdy. Opowieść hagiograficzna, nie kronika.",
+      "yearFrom": 1220,
+      "dateLabel": "data niepewna",
+      "chronologicalUncertainty": "Epizod tradycji hagiograficznej XIV wieku (Kwiatki, rozdz. 21), bez potwierdzenia dokumentalnego: podajemy go jako opowieść pamięci, nie jako fakt historyczny.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Śmierć w Porcjunkuli",
+      "description": "Franciszek umiera wieczorem 3 października 1226 w Porcjunkuli, po podyktowaniu Testamentu i po prośbie, by złożono go nago na nagiej ziemi.",
+      "yearFrom": 1226,
+      "dateLabel": "3 października 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Kanonizacja",
+      "description": "Grzegorz IX ogłasza Franciszka świętym w Asyżu 16 lipca 1228, niespełna dwa lata po śmierci, i zleca Tomaszowi z Celano pierwszą oficjalną biografię.",
+      "yearFrom": 1228,
+      "dateLabel": "16 lipca 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Franciszek z Asyżu",
+      "role": "Założyciel braterstwa Mniejszych",
+      "description": "Jan, syn Piotra di Bernardone (1181/82–1226). Kupiec, potem wędrowny pokutnik, potem założyciel braterstwa, które zmieniło historię Kościoła. Kanonizowany w 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Klara z Asyżu",
+      "role": "Założycielka klarysek",
+      "description": "Szlachcianka z Asyżu (1193/94–1253), idzie za Franciszkiem w 1212 i zakłada wspólnotę „Ubogich Pań” w San Damiano. Pierwsza kobieta, która napisała zatwierdzoną regułę zakonną.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernard z Quintavalle",
+      "role": "Pierwszy towarzysz",
+      "description": "Bogaty mieszkaniec Asyżu, rozdaje swoje dobra i staje się pierwszym towarzyszem Franciszka (1208). Zmarł w 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Brat Idzi",
+      "role": "Wśród pierwszych towarzyszy",
+      "description": "Uczony chłop i mistyk, trzeci towarzysz Franciszka; tradycja przypisuje mu mądrościowe „Zdania”.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Brat Leon",
+      "role": "Spowiednik i wierny towarzysz",
+      "description": "Towarzysz ostatnich lat, adresat własnoręcznego listu Franciszka i świadek La Verny.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II, biskup Asyżu",
+      "role": "Opiekun Franciszka",
+      "description": "Biskup Asyżu od 1204; okrył płaszczem Franciszka w scenie wyrzeczenia i wspierał jego pierwsze kroki.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Piotr di Bernardone",
+      "role": "Ojciec Franciszka",
+      "description": "Kupiec sukna z Asyżu; konflikt z synem o sprzedane dobra doprowadził do publicznej sceny przed biskupem.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Pani Pica",
+      "role": "Matka Franciszka",
+      "description": "Tradycja pamięta ją jako bliższą synowi w kryzysie nawrócenia; źródła o niej są skąpe.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Papież Innocenty III",
+      "role": "Papież (1198–1216)",
+      "description": "Jeden z najbardziej wpływowych papieży średniowiecza; według tradycji w 1210 roku ustnie zatwierdził formę życia Franciszka.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Papież Honoriusz III",
+      "role": "Papież (1216–1227)",
+      "description": "Zatwierdził Regułę bullą w 1223 i wspierał młode braterstwo.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Sułtan Egiptu",
+      "description": "Sułtan z dynastii Ajjubidów, który spotkał Franciszka w Damietcie w 1219, podczas piątej krucjaty.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Tomasz z Celano",
+      "role": "Pierwszy biograf",
+      "description": "Brat mniejszy, napisał Żywot pierwszy (1228–29) na zlecenie Grzegorza IX i Żywot drugi (1246–47), zbierając świadectwa towarzyszy.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonawentura z Bagnoregio",
+      "role": "Teolog i biograf",
+      "description": "Mistrz uniwersytecki i minister generalny Zakonu; jego Legenda większa (1260–63) stała się oficjalną biografią Franciszka.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardynał Hugolin (potem Grzegorz IX)",
+      "role": "Opiekun Zakonu",
+      "description": "Kardynał opiekun braterstwa, potem papież: kanonizował Franciszka w 1228.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Brat Eliasz z Cortony",
+      "role": "Kontrowersyjny następca",
+      "description": "Towarzysz, a potem przewodnik Zakonu po Franciszku; postać sporna, znak napięć między charyzmatem a instytucją.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Asyż",
+      "description": "Miasto rodzinne Franciszka: plac, katedra San Rufino, mury, średniowieczne uliczki.",
+      "historicalNote": "Rzeczywiste miejsce historyczne.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "Kościółek za Asyżem, gdzie Franciszek modlił się przed krucyfiksem; potem mieszkanie Klary i jej sióstr.",
+      "historicalNote": "Rzeczywiste miejsce historyczne.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porcjunkula (Matka Boża Anielska)",
+      "description": "Mały kościół na równinie pod Asyżem: mieszkanie pierwszego braterstwa i miejsce śmierci Franciszka.",
+      "historicalNote": "Rzeczywiste miejsce historyczne; dziś włączone w bazylikę Matki Bożej Anielskiej.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Szałas przy potoku, gdzie pierwsi towarzysze żyli wędrowną formą życia.",
+      "historicalNote": "Rzeczywiste miejsce historyczne; obecne sanktuarium strzeże pamięci tego osiedlenia.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Erem delle Carceri",
+      "description": "Erem na górze Subasio, wśród dębów ostrolistnych i grot: miejsce odosobnienia i modlitwy.",
+      "historicalNote": "Rzeczywiste miejsce historyczne.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Umbryjskie miasto związane z opowieścią o wilku i z obecnością Franciszka w okresie eremickim.",
+      "historicalNote": "Rzeczywiste miejsce historyczne; epizod wilka należy do tradycji hagiograficznej.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Osada w rejonie Rieti, gdzie Franciszek obchodził Boże Narodzenie 1223 z żywym żłobem.",
+      "historicalNote": "Rzeczywiste miejsce historyczne.",
+      "isHistoricalPlace": true,
+      "region": "Lacjum"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Góra w toskańskich Apeninach podarowana Franciszkowi; miejsce odosobnienia z 1224 i stygmatów według źródeł średniowiecznych.",
+      "historicalNote": "Rzeczywiste miejsce historyczne.",
+      "isHistoricalPlace": true,
+      "region": "Toskania"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Erem koło Rieti, gdzie zredagowano Regułę niezatwierdzoną bullą z 1221 roku.",
+      "historicalNote": "Rzeczywiste miejsce historyczne.",
+      "isHistoricalPlace": true,
+      "region": "Lacjum"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "Miasto w delcie Nilu, teatr piątej krucjaty i spotkania Franciszka z sułtanem (1219).",
+      "historicalNote": "Rzeczywiste miejsce historyczne.",
+      "isHistoricalPlace": true,
+      "region": "Egipt"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Osada Dębów",
+      "description": "Wyobrażona osada doliny spoletańskiej: główna sceneria narracyjna Wędrowca.",
+      "historicalNote": "Sceneria fikcyjna stworzona na potrzeby gry; nie miejsce historyczne.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (wyobrażona)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbryjskie pola i lasy",
+      "description": "Drogi, lasy dębu ostrolistnego i pola między osadami: wędrowna scena opowieści Wędrowca.",
+      "historicalNote": "Sceneria narracyjna inspirowana rzeczywistym krajobrazem Umbrii.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (sceneria)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiografia",
+      "definition": "Literatura żywotów świętych: średniowieczny gatunek dewocyjny, który zmierza do zbudowania, nie do kroniki. Należy ją czytać innymi narzędziami niż historię dokumentalną."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Pokuta",
+      "definition": "W języku Franciszka: nawrócenie serca i życia, nie kara. „Czynić pokutę” znaczyło zmienić kierunek."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Brat mniejszy",
+      "definition": "Imię wybrane przez Franciszka dla towarzyszy: „mniejsi”, czyli ostatni, bez pretensji do rangi."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Minister",
+      "definition": "W braterstwie franciszkańskim: odpowiedzialny za wspólnotę lub prowincję. Słowo znaczy „sługa”."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Reguła",
+      "definition": "Tekst, który określa formę życia wspólnoty zakonnej. Franciszek napisał dwie wersje: niezatwierdzoną bullą (1221) i zatwierdzoną bullą (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bulla",
+      "definition": "Oficjalny dokument papieża, od ołowianej pieczęci (bulla), która go uwierzytelnia. „Reguła zatwierdzona bullą” to reguła zatwierdzona takim dokumentem."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Porcjunkula",
+      "definition": "„Mała cząstka” ziemi: kościółek Matki Bożej Anielskiej koło Asyżu, dom braterstwa."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stygmaty",
+      "definition": "Znaki męki Chrystusa, które źródła średniowieczne przypisują Franciszkowi po odosobnieniu na La Vernie (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Łacińskie wyrażenie tradycji: „bez niczego własnego”, franciszkańska forma ubóstwa."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lauda",
+      "definition": "Religijny utwór poetycki w języku ludowym, przeznaczony do śpiewu. Pieśń stworzeń jest laudą."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Komuna",
+      "definition": "Organ samorządu miejskiego średniowiecznych Włoch: Asyż Franciszka był komuną w rozwoju i w konflikcie z Perugią oraz z władzą feudalną."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Kapituła",
+      "definition": "Okresowe zgromadzenie braterstwa zakonnego; także „kapituła generalna” dla zgromadzenia całego Zakonu."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Leprozorium",
+      "definition": "Średniowieczny szpital-lazaret dla trędowatych, za murami miasta. Miejsce decydującego spotkania Franciszka."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Jałmużna",
+      "definition": "Dar proszony lub otrzymany, by żyć. Dla pierwszych braci była znakiem ufności w Opatrzność, nie upokorzeniem."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Syn kupca (1181/82 – 1202)",
+      "text": "Franciszek rodzi się w Asyżu jako syn Piotra di Bernardone, bogatego kupca sukna, i pani Piki. Dorasta w mieście w pełni ekspansji komunalnej: błyskotliwy młodzieniec, hojny, miłośnik uczt i francuskich trubadurów, marzy o rycerskiej chwale. W 1202 walczy przeciw Perugii pod Collestradą; klęska i rok niewoli spektakularnie kończą jego pierwsze życie.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Zwrot (1202 – 1206)",
+      "text": "Choroba po niewoli, sen w Spoleto, pielgrzymka do Rzymu, gdzie zamienia szaty z żebrakiem: Franciszek szuka nowego kierunku. Potem epizod, który sam wskaże jako początek: spotkanie z trędowatymi, gdzie „to, co wydawało mi się gorzkie, przemieniło się w słodycz”. W San Damiano, przed krucyfiksem, słyszy wezwanie, by naprawić „dom” Boga. Sprzedaje sukna i konia ojca, by odnowić kościółek; konflikt wybucha przed biskupem, gdzie oddaje wszystko.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "„Napraw mój dom” (1206 – 1209)",
+      "text": "Sam, ubrany jak pokutnik, Franciszek odbudowuje kamień po kamieniu San Damiano, św. Piotra i Porcjunkulę, służąc w leprozoriach. Miasto najpierw go wyśmiewa, potem zaczyna na niego patrzeć. W słuchaniu Ewangelii rozumie powołanie: głosić pokój, żyć bez niczego własnego, w drodze. Zamysł okazuje się większy niż remont trzech kościołów: naprawić sam Kościół, od dołu.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Braterstwo (1209 – 1219)",
+      "text": "Bernard z Quintavalle, Idzi i inni: pierwsi towarzysze dzielą formę życia, a w 1210 (lub 1209) Innocenty III zatwierdza ją ustnie. Porcjunkula staje się domem. W 1212 Klara z Asyżu ucieka nocą, by pójść za tym samym powołaniem. Braterstwo rośnie ponad wszelkie przewidywania, z dorocznymi kapitułami i misjami w całej Europie: rodzą się problemy wielkiej liczby.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Ku Wschodowi (1219 – 1220)",
+      "text": "W pełni piątej krucjaty Franciszek dociera do obozu krzyżowców w Damietcie, przekracza linie i spotyka sułtana al-Malika al-Kamila. Źródła średniowieczne opisują wzajemny szacunek; współczesna historiografia dyskutuje szczegóły, ale gest zostaje: w czasie wojny wyjść naprzeciw. Po powrocie zastaje braterstwo zmienione i w trudnościach: rozmiary wymagają struktur, których on się lęka.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Trud wzrastania (1220 – 1223)",
+      "text": "Franciszek zostawia codzienne prowadzenie Zakonu i oddaje się spisanej regule: ta z 1221, długa i swobodna, nie zostanie zatwierdzona; ta z 1223, krótsza i bardziej prawna, otrzymuje bullę Honoriusza III. Napięcie między charyzmatem a instytucją przenika te lata: Franciszek przeżywa je w wierności i w cierpieniu. W Greccio, w Boże Narodzenie 1223, pokazuje ubóstwo Betlejem prawdziwym żłobem.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Pieśń i wieczór (1224 – 1226)",
+      "text": "Na La Vernie, we wrześniu 1224, źródła opowiadają o stygmatach. Chory i niemal niewidomy, w San Damiano układa Pieśń stworzeń: pochwała rodzi się w najciemniejszej porze. Dodaje strofę przebaczenia, by pojednać biskupa i podestę, i wreszcie strofę „siostry śmierci cielesnej”. Po podyktowaniu Testamentu umiera w Porcjunkuli wieczorem 3 października 1226, nagi na nagiej ziemi. Dwa lata później Grzegorz IX ogłasza go świętym.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

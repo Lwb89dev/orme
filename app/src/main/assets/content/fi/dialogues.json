@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Mitä merkitsee olla nöyrä?",
+      "theme": "umilta",
+      "description": "Rehellinen opas purkaa väärinkäsityksen nöyryydestä itsensä väheksymisenä: Franciscuksen «totuus itsestä», «vähäisten» nimi ja oma tahto Kehotuksissa.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Tervetuloa Dialogiin. Esittelen itseni: olen opas fransiskaanisten lähteiden läpi, en ole Franciscus enkä puhu hänen sijastaan. Tämän päivän kysymys kuulostaa yksinkertaiselta: mitä merkitsee olla nöyrä? Monet, kuullessaan sanan «nöyryys», ajattelevat heti itsensä vähättelyä. Ennen kuin lähdemme, minua kiinnostaa sinun lähtökohtasi.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Minulle nöyryys on olla antamatta itselleen merkitystä, pysyä omalla paikallaan.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Aavistan, että se on jotakin muuta, mutta en osaisi sanoa mitä.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Miksi Franciscuksen veljiä kutsuttiin «vähäisemmiksi»?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Se on yleisin ajatus, ja myös sitkein väärinkäsitys. Jos nöyryys olisi itsensä väheksymistä, siitä tulisi hieno tapa yhä askarrella itsensä kanssa: oman kuvan, oman paikan, jopa esille pannun keskinkertaisuuden. Fransiskaaniset lähteet osoittavat muualle: ei ajatella itseään pieneksi, vaan nähdä itsensä totuudessa. Ero tuntuu ohuelta, mutta se muuttaa kaiken.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Mitä nöyryys sitten todella on?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Onko Franciscuksella teksti, joka sen sanoo?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Tämä epävarmuus on hyvä lähtökohta, sanon sen ilman ironiaa. Joka myöntää, ettei tiedä, on jo ottanut askeleen sitä kohti, mitä Franciscus tarkoittaa nöyryydellä: nähdä itsensä totuudessa, paisumatta ja repimättä itseään. Yritetään antaa tälle ajatukselle muoto, lähteistä alkaen.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Hyvä on: mikä on fransiskaanisen nöyryyden ydin?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Onko lähteissä kohta, jonka voisimme lukea yhdessä?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Tarkka kysymys, ja vastaus on pieni ohjelma. Yhteiskunnassa, joka perustui kunniaan ja säätyyn, Franciscus tahtoi, että hänen kumppaneitaan kutsuttaisiin vähäisemmiksi veljiksi: ei ketään «suurempaa», ei ketään palveltavaksi. Jopa veljeskunnan vastuunkantajia hän kutsui «ministereiksi», mikä latinaksi merkitsee palvelijoita. Se ei ollut kielellinen oikku: se oli paikan valinta, viimeisen, josta ketään ei voida syrjäyttää.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "Ja arkielämässä, mitä eroa se tekee?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Onko hänen kirjoituksissaan jotakin tästä?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Tässä olemme ytimessä. Franciscukselle nöyryys on totuus itsestä: pieniä Jumalan edessä, kaiken sen velassa mitä olemme ja mitä meillä on, kykeneviä palvelemaan vaatimatta tunnustusta. Huomaa, että tämä totuus sisältää myös lahjasi: niiden tunnustaminen saaduiksi lahjoiksi ei ole ylpeyttä, se on rehellisyyttä. Nöyrä ei väheksy itseään: hän lakkaa näyttelemästä, kumpaankin suuntaan. Ja hän on vapaa tarpeesta näyttää, joka on eräs raskaimmista orjuuksista.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "Entä omat lahjat? Pitääkö ne kieltää ollakseen nöyrä?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Miten tämä kääntyy tänään, esimerkiksi työssä ja verkossa?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Mitä Kehotusten teksti tarkalleen sanoo?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Tämä riittää minulle: voimme päättää.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "On lyhyt ja terävä teksti: Kehotukset, ohjeet joita Franciscus osoitti veljeskunnalle. Yksi kohde on «oma tahto», joka on tehty kaiken mitaksi: joka pitää itseään omasta voimastaan vanhurskaana ja viisaana, Franciscus varoittaa, etääntyy todellisesta nöyryydestä, joka on oman arvostelun alistamista ja palvelemista. Mutta varo: alistaminen ei merkitse sammuttamista. Lähteet eivät pyydä lakkaamaan ajattelemasta, vaan olemaan tekemättä omasta näkökulmasta ehdotonta.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Se kuulostaa luopumiselta omasta päästä. Eikö se ole liikaa?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "Ja konkreettisesti, tänään, miltä se näyttää?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Yritetään kääntää, tietäen että tämä on nykytulkinta, ei keskiaikainen teksti. Työssä nöyryys on tehdä oma osansa hyvin tekemättä siitä näytelmää, myöntää virhe rakentamatta verukkeita, jättää ansio sille jolle se kuuluu. Verkossa, jossa paljon mitataan näkyvyydellä, se on voida julkaista ja työskennellä ilman että toisten arvostelusta tulee isäntäsi. Se ei ole kutsu piiloutua: se on kutsu olla riippumatta aplodeista.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Kaunista, mutta minun ympäristössäni voittaa se, joka astuu esiin.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Se vakuuttaa minut. Päätetään.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Vastaväite on oikeutettu, ja se ansaitsee rehellisen vastauksen. Lähteissä kuuliaisuus ei ole mitätöintiä: sama veljeskunta oli paikka, jossa ilmaistiin tarpeet toisilleen, siis puhuttiin. Kyse ei ole oman arvostelun poistamisesta, vaan kieltäytymisestä siitä, että se olisi kaiken ylin tuomioistuin. Tässä lähteet eivät kuitenkaan anna meille tapausluetteloa: en voi sanoa, missä raja kulkee sinun konkreettisessa tapauksessasi. Se jää sinun työksesi, ja niiden jotka todella tuntevat sinut.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Siinä on järkeä. Entä jokapäiväisessä elämässä?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Pysähdyn mieluummin tähän.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Sinulla on oikeus nostaa se esiin, enkä vastaa uraneuvolla: se ei ole minun roolini. Sanon vain, etteivät fransiskaaniset lähteet lupaa, että nöyryys «toimii»: ne lupaavat, että se tekee vapaaksi. Joskus se maksaa, ja toisin teeskenteleminen olisi epärehellistä. Valinta olla elämättä hyväksynnän tähden jää juuri valinnaksi: sinun, mitattuna omaan yhteyteesi.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Rehellistä, kiitos. Päätetään.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Luetaan uudelleen opetuksen ydin.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Ei, ja tarkkaan luetut lähteet sanovat päinvastaista. Franciscuksen logiikka on lahjan logiikka: jos kaikki on saatu, myös kykysi ovat, ja niiden kieltäminen olisi vain toinen tapa valehdella itsestään. Nöyryys ei pyydä sanomaan «en ole minkään arvoinen», vaan sanomaan totuuden: «tämän olen saanut, tästä olen velkaa». Ja joka osaa tunnistaa lahjan, osaa myös kiittää: fransiskaanisella tiellä kiitollisuus on ilon ovi.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "Ja miten tätä eletään, tämän päivän konkreettisuudessa?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Voimme päättää tähän.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Pysähdymme tähän. Jos tahdot, vie mukanasi kysymys, ei tehtävää: missä kohdassa päivääsi näyttelet osaa sen sijaan että olisit sen totuudessa, mitä olet, hyvässä ja rajassa? Sinun ei tarvitse vastata minulle eikä kenellekään. Dialogin muut keskustelut odottavat sinua, kun tahdot: anteeksianto, köyhyys, luomakunta, Franciscuksen usko.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Käy tämä keskustelu uudelleen alusta.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Tutustu Dialogin muihin keskusteluihin.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Kiitos, että kuljit kanssani näiden lähteiden sisällä. Dialogin luettelosta voit avata toisen keskustelun tai löytää tämän uudelleen, kun tahdot: tekstit pysyvät, ja kysymykset myös.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Aloita tämä keskustelu alusta.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Päätä tältä erää."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Miten voi antaa anteeksi jollekulle?",
+      "theme": "perdono",
+      "description": "Kirje eräälle ministerille ja Laulun säkeistö: anteeksianto toistettuna päätöksenä, ero oikeuteen ja rehellinen vastaus sille, joka ei kykene.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Tervetuloa Dialogiin. Minä opastan sinua: en ole Franciscus enkä puhu hänen sijastaan, saatan sinut sen sisälle, mitä lähteet todella sanovat. Tämän päivän kysymys on eräs vaikeimmista mitä on: miten voi antaa anteeksi jollekulle? En lupaa mukavaa vastausta. Minua auttaa tietää, mistä lähdet.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Olen kokenut vääryyttä enkä saa päästettyä vihaa irti.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Eikö anteeksi antaminen merkitse teeskentelemistä, ettei mitään tapahtunut?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Tahtoisin ensin tietää, mitä Franciscus sanoo anteeksiannosta.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Kiitos suoruudesta. Fransiskaaniset lähteet eivät lupaa, että viha katoaa, eivätkä pyydä sinua teeskentelemään, ettei vääryyttä tapahtunut. Mitä ne ehdottavat, on toista: anteeksianto päätöksenä, joka uudistuu, silloinkin kun tunne ei seuraa. Jos tänään et kykene, se ei tee sinua kelvottomaksi: se on sääntö, ei poikkeus.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Päätös joka uudistuu: selitä.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "Entä jos en todellakaan kykene?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Mitä Franciscus kirjoittaa tästä?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Ei, ja se kannattaa sanoa heti selvästi: anteeksi antaminen ei ole kieltämistä. Fransiskaaniset lähteet eivät sekoita laupeutta ja vääryyttä: tehty paha pysyy pahana, ja sen seuraukset pysyvät todellisina. Anteeksianto, tässä, ei pyyhi pois sitä mitä tapahtui: se kieltäytyy antamasta loukkaukselle viimeistä sanaa suhteesta. Ne ovat kaksi eri tasoa, ja niiden pitäminen erillään on ensimmäinen askel.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Voivatko anteeksianto ja oikeus siis olla yhdessä?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Mitä Franciscus tarkalleen sanoo?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Avainteksti on kirje eräälle ministerille: Franciscus kirjoittaa veljeskunnan vastuunkantajalle, jonka on kohdeltava veljiä jotka erehtyvät. Kuuluisa kohta sanoo, olennaisesti: jos veli olisi tehnyt syntiä tuhat kertaa silmiesi edessä, rakasta häntä enemmän kuin minua, ja julista hänelle laupeutta. Tuhat kertaa: ei sankarillinen päätös kerran ja ainiaaksi, vaan valinta joka tehdään uudelleen joka päivä. Tämä muuttaa kysymyksen: ei «tunnenko antavani anteeksi?», vaan «valitsenko antaa anteeksi myös tänään?».",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Tuhat kertaa on liikaa. Onko se realistinen pyyntö?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "Entä oikeus? Eikö erehtyneen pidä vastata teostaan?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Luotujen laulu puhuu anteeksiannosta, eikö niin?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Kyllä, ja sama kirje antaa sen aavistaa: Franciscus pyytää julistamaan laupeutta kunhan toinen tekee parannuksen, siis anteeksianto ei julista syytöntä sitä joka on erehtynyt eikä vapauta häntä hyvittämästä. Myös hänen aikanaan rauhantekijäveljet eivät lakanneet tuomioistuimia ja vastuuta: he työskentelivät, jottei kosto olisi ainoa mahdollinen oikeus. Antaa anteeksi ja pyytää, että paha tunnustetaan, eivät ole vihollisia. Ne voivat kulkea yhdessä, vaikka vaivalloisesti.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "Ja mistä käytännössä aloitetaan?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Liittyykö tähän Laulun säkeistö?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "Entä jos vääryys on liian suuri tai liian tuore?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "Entä hänen aikansa jakautuneissa kaupungeissa?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Aloitetaan näkökulman oikaisusta. Jos anteeksianto olisi tunne, sinun pitäisi odottaa sen tulevan: ja usein se ei tule, tai se tulee ja sitten lähtee. Jos se on päätös, voit tehdä sen silloinkin kun viha vielä palaa, ja ottaa sen uudelleen huomenna ja ylihuomenna. Lähteet eivät kuvaa suoraviivaista tietä: sana «tuhat kertaa» vihjaa päinvastoin. Rehellisyys: fransiskaanisissa teksteissä ei ole tekniikoita. On suunta.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "Entä jos tänään en todellakaan kykene?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "Entä itseään kohtaan? Voiko itselleen antaa anteeksi?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Kerro Laulun säkeistö anteeksiannosta.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Rehellinen vastaus: niin voi käydä, eivätkä lähteet tuomitse sinua siitä. Enkä minäkään: olen opas tekstien läpi, en rippi-isä enkä terapeutti. Sanon kaksi dokumentoitavaa asiaa. Ensimmäinen: kirje puhuu tuhannesta kerrasta, mikä merkitsee, että jo 1200-luvulla anteeksiantoa ei ajateltu hetkellisenä eleenä. Toinen: jos haava on syvä, sen jakaminen luotettavan ihmisen kanssa, tai ammattilaisen kanssa kun tarvitaan, ei ole tappio. Anteeksiannon ajoista fransiskaaniset lähteet vaikenevat: tässä emme voi sanoa enempää.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "Entä anteeksianto itseä kohtaan?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Kiitos rehellisyydestä. Päätetään.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Luotujen laulussa on säkeistö, joka ylistää Jumalaa niiden tähden, jotka antavat anteeksi hänen rakkautensa tähden, kestäen sairauden ja ahdingon. Tutkimus ajoittaa sen yleisesti kesään 1226, ja perinne liittää sen konkreettiseen episodiin: Assisin piispa ja podestà olivat avoimessa ristiriidassa, ja Franciscus, jo sairaana, olisi lisännyt tuon säkeistön ja laulattanut Laulun heidän edessään sovittaakseen heidät. Tarkennan tasot: säkeistö on aito, episodin kertomus tulee meille hagiografisen perinteen kautta. Jää se tosiasia: anteeksianto oli Franciscukselle ylistyksen arvoinen myös hänen kaupunkinsa ristiriitojen sisällä.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Antaa anteeksi keskellä ristiriitaa: onko se mahdollista?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "Entä se, joka ei kykene antamaan anteeksi?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Voimme päättää.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Tässä minun on oltava rehellinen lähteiden rajoista. Fransiskaaniset tekstit puhuvat anteeksiannosta veljiä ja loukkaajaa kohtaan; anteeksiannosta itselle, niin kuin sen tänään ymmärrämme, ne eivät sano juuri mitään suoraan. Voimme päätellä analogialla: jos laupeutta julistetaan tuhat kertaa sille joka erehtyy, on vaikea sulkea itseään ulos. Mutta se jää meidän päättelyksemme, ei sitaatiksi. Sanon sen mieluummin, kuin panen Franciscuksen suuhun sanoja joita hän ei ole kirjoittanut.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Arvostan täsmällisyyttä. Ja mistä lähdetään uudelleen?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Päätämme tähän.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "On myös julkinen ulottuvuus. Kommuunien Italiaa halkoivat sukuriidat ja kostot, ja lähteet muistavat ensimmäisten veljien julistaneen rauhaa talosta taloon, tervehdyksellä jonka Franciscus todisti saaneensa. Anteeksianto, tuossa maailmassa, ei ollut vain yksityinen asia: se oli kohta, jossa koston ketju voitiin katkaista. Myös tänään sukuriitoja on, perheissä, kaupunginosissa, sosiaalisessa mediassa, ja logiikka on sama: jonkun on lakattava palauttamasta iskua.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "Ja Laulun säkeistö syntyi juuri ristiriidasta, eikö niin?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Tämä riittää. Päätetään.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Pysähdymme tähän. Jos tahdot, vie mukanasi yksi kuva, ei tehtävää: anteeksianto tienä, joka tehdään uudelleen metri päivässä, ei hyppynä joka tehdään kerran ja ainiaaksi. Ja jos haavasi ei tänään sitä salli, tämä dialogi ei pyytänyt sinua onnistumaan: se pyysi sinua ymmärtämään. Dialogin muut keskustelut odottavat, kun tahdot.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Käy tämä keskustelu uudelleen alusta.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Tutustu Dialogin muihin keskusteluihin.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Kiitos, että kohtasit vaikean kysymyksen ilman oikoteitä. Dialogin luettelosta löydät muut keskustelut: minä jään tänne, ja tekstit myös.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Aloita tämä keskustelu alusta.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Päätä tältä erää."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Oliko Franciscus rikkautta vastaan?",
+      "theme": "poverta",
+      "description": "Franciscus ei tuominnut tavaroita: hän vapautti omistuksesta. Vuoden 1223 sääntö, luopuminen piispan edessä ja mitä se merkitsee tänään, ilman romantiikkaa.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Tervetuloa Dialogiin. Esittelen itseni: olen opas, en Franciscus; kanssasi luen lähteitä ja sanon, milloin ne eivät riitä vastaamaan. Tämän päivän kysymys on täynnä väärinkäsityksiä: oliko Franciscus rikkautta vastaan? Lyhyt vastaus on «ei, ei siinä merkityksessä jota ehkä kuvittelet». Mutta se ansaitsee pitkän tien. Mistä aloitamme?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Olen aina ajatellut, että hän halveksi rahaa sinänsä.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Aavistan, että kyse on muusta, mutta en osaa sanoa.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Eikö se ole vain romanttista köyhyyttä, 1800-luvun julisteesta?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Se on yleisin rekonstruktio, ja myös epätarkin. Franciscuksen teksteistä et löydä tavaroiden tuomiota ikään kuin ne olisivat likaisia: löydät jotakin radikaalimpaa ja hienovaraisempaa, nimittäin kieltäytymisen ottaa niitä omaksi. Kohde ei ole rikkaus, se on omistus: se, mitä tavarat tekevät sille joka luulee omistavansa ne. Mennään tekstiin, joka sanoo sen parhaiten.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Mikä teksti?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "Entä kuuluisa luopumisen kohtaus?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Aavistuksesi on perusteltu. Kyse ei ole tavaroiden määrästä, vaan siteen laadusta: Franciscus tahtoo veljiä, jotka eivät ota mitään omakseen, koska jolla ei ole omistusta, ei tarvitse puolustaa, ja jonka ei tarvitse puolustaa, on vapaa rakastamaan. Se on vapauden logiikka, ei inhon. Näytän sen Säännön tekstissä.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Luetaan Sääntö.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Kerro ensin kohtaus piispan edessä.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Vastaväite on vakava ja ansaitsee kunnioituksen: romanttinen köyhyys on olemassa, ja se on karikatyyri, jossa on vähän fransiskaanista. Tehdään siis sopimus: ei ihanteellistamista. Katsotaan, mitä lähteet sanovat — kohtaus jonka ensimmäinen elämäkerturi kertoo, ja normatiivinen teksti jonka Franciscus itse kirjoitti — ja sitten sinä arvioit, kestävätkö ne.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Hyvä on: ensimmäisen elämäkerturin kohtaus.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Normatiivinen teksti.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Vuoden 1223 sääntö, kirkon hyväksymä lopullinen teksti: veljet eivät ota mitään omakseen, «ei taloa, ei paikkaa eikä mitään»; he elävät pyhiinvaeltajina ja muukalaisina ja kulkevat almun perässä häpeämättä. Ilmoitettu syy on teologinen: Herra on tehnyt itsensä köyhäksi meidän tähtemme. Mutta on myös kirkas inhimillinen logiikka: se mitä et omista, ei omista sinua. Tekninen perinne kutsuu tätä «sine proprio», ilman mitään omaa. Ei tavaroiden halveksuntaa, ne otetaan vastaan, niitä käytetään ja niistä kiitetään: vapautumista omistuksesta.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Kerro luopuminen piispan edessä.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "Entä tänään? Pitäisikö meidän myydä kaikki?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "Entä todelliset köyhät? Eikö kurjuutta riskeerata kaunistella?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Tuomas Celanolainen, ensimmäinen elämäkerturi, kertoo sen näin: piispa Guidon ja isä Pietro di Bernardonen edessä Franciscus palauttaa jopa vaatteet ja luopuu isän omaisuudesta sanoen voivansa nyt kutsua isäksi vain Jumalaa. Piispa peittää hänet omalla viitallaan. Tarkennan tasot: episodi on dokumentoitu kulmakivi, mutta näyttämölliset yksityiskohdat kuuluvat Celanon kerrontaan, joka on hagiografiaa, rakentavaa kirjallisuutta, ei pöytäkirja. Merkitys on silti kirkas: katkaista julkisesti side perheen rikkauteen.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Teatraalinen ele vai harkittu valinta?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "Entä me tänään, mitä teemme sillä?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Väistämätön kysymys, ja rehellinen vastaus on: lähteet eivät pyydä kaikilta samaa. Tuo Sääntö oli veljille; Franciscus ei kirjoittanut sääntöjä kauppiaille, vanhemmille, käsityöläisille. Siis ei: ei ole fransiskaanista tekstiä, joka käskee sinua myymään kaiken. Mitä on, on epämukava kysymys jossa asua: mitä tavaroita minä omistan, ja mitkä omistavat minut? Konkreettinen vastaus on suhteessa sinun elämääsi, ei hänen.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Miten erotamme valitun köyhyyden ja kärsityn puutteen?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "Entä se joka työskentelee, ansaitsee, elättää perhettä?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Anna minulle jotakin konkreettista, ilman äärieleitä.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Se on tämän keskustelun tärkein erottelu. Kärsitty puute — ei ole syötävää, hoitoa, kattoa — on yhteiskunnallinen haava jota hoidetaan, ei ihanne jota katsellaan: Franciscus palveli köyhiä, hän ei estetisoinut heitä. Fransiskaaninen köyhyys on toista: vapaa valinta olla ottamatta omakseen, tehty vapauden ja solidaarisuuden tähden. Niiden sekoittaminen on virhe jota on aina vältettävä: toisen kurjuuden ylistäminen olisi juuri se «romanttinen köyhyys», josta puhuimme.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Siis romantiikan kritiikissä oli pohjalla totta?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "Ja käytännössä, minulle, tänään?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Päätämme tähän.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Teatraalinen se varmasti oli: ja yhteiskunnassa, joka perustui oikeuteen ja omistukseen, vain julkinen ele saattoi purkaa julkisen siteen. Mutta se ei ollut improvisaatio: Celano sijoittaa sen kuukausien kriisin, Perugian vankeuden, sairauden, pettymysten jälkeen. Jos tahdot mittapuun arvioida eleitä, hänen ja sinun, tässä se: ei hetken voimakkuus, vaan se mitä tulee jälkeen. Franciscus eli johdonmukaisesti vielä kaksikymmentä vuotta. Todelliset eleet tunnistaa pitkästä kestosta.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "Entä tänään, ilman äärieleitä?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Ymmärsin. Päätetään.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkreettista siis, mutta ilman reseptejä: ei ole minun roolini antaa niitä. Fransiskaaninen perinne vihjaa suunnan kolmella siirrolla: katso sitä mitä omistat ja kysy, tekeekö se sinut vapaaksi vai varovaiseksi; käytä tavaroita saatuina, ei ansaittuina; anna yksinkertaisuuden vapauttaa tilaa — aikaa, tarkkaavaisuutta, rahaa — muille. Se on nykytulkintaa, sanon sen rehellisesti: mutta se on tulkinta uskollinen «sine propron» hengelle.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Palaa Säännön tekstiin.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Päätetään.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Yksikään fransiskaaninen lähde ei sano, että työskenteleminen ja ansaitseminen tekisi kaukaiseksi Franciscuksesta: Sääntö on tietyn veljeskunnan elämänmuoto, ei jokaisen olemassaolon mitta. Logiikka on melkein käänteinen: ongelma ei ole omistaa, vaan palvella sitä mitä on. Jos työsi, ansiotulosi, talosi muuttuvat välineiksi — sinun ja toisten — eivätkä isänniksi, olet lähempänä Säännön henkeä kuin luulet.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "Entä riski romantisoida köyhyyttä?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Päätetään.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Pysähdymme tähän. En jätä sinulle tehtävää: jätän kysymyksen, jonka tämä keskustelu on yrittänyt avata. Mikä siitä, mitä omistat, omistaa sinut? Vastaa siihen rauhassa, tai älä vastaa lainkaan. Kun tahdot, Dialogin muut keskustelut ovat luettelossa: nöyryys, anteeksianto, luomakunta, usko.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Käy tämä keskustelu uudelleen alusta.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Tutustu Dialogin muihin keskusteluihin.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Kiitos, että etsit jäsenneltyä vastausta kysymykseen, joka usein saa iskulauseita. Nähdään Dialogissa, kun tahdot: lähteet eivät vanhene.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Aloita tämä keskustelu alusta.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Päätä tältä erää."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Miksi Franciscus puhui eläimille?",
+      "theme": "creato",
+      "description": "Sukulaisuus, ei panteismia: Laulu, Celanon linnut, Kukkasien susi ja mitä tämä kaikki sanoo — ja ei sano — tämän päivän ekologialle.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Tervetuloa Dialogiin. Olen oppaasi: en ole Franciscus, ja kun lähteet eivät riitä, sanon sen. Tämän päivän kysymys uppoaa vuosisatojen kuviin: Franciscus joka puhuu linnuille, sudelle, kaloille. Mitä sen takana on? Riippuu siitä, mitä etsit.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Tahdon totuuden: onko se vain legenda, että hän puhui eläimille?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Mietin, näkikö hän Jumalan luonnossa: oliko hän panteisti?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Kerro Luotujen laulu.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Historioitsijan kysymys, ja vastaus on kerroksinen, niin kuin melkein kaikki mikä koskee Franciscusta. Ydin on todistettu varhain: Tuomas Celanolainen, läheinen elämäkerturi, kertoo saarnan linnuille hillityin sävyin. Näyttämöllisemmät kertomukset — Gubbion susi, kalat, madot — kukkivat vuosisata myöhemmin Kukkasissa. Siis: vanha muisti ja kirjallinen laajennus. Näytän molemmat, erillään.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Celanon hillitty versio.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Kukkasien versio: susi.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Ei, ja teksti joka sen osoittaa on Luotujen laulu. Franciscus ylistää Jumalaa luotujen «tähden» — veli aurinko, sisar kuu — hän ei ylistä luotuja ikään kuin ne olisivat jumalallisia. Ero on ratkaiseva: luonto ei ole Jumala, se on perhe. Luodut ovat sisaria, koska ne ovat saman Isän lapsia. Oikea sana on «sukulaisuus», ei panteismi.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Luetaan Laulu.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "Entä tarinat eläimistä?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Luotujen laulu, laadittu vuosina 1225–1226, kun Franciscus oli sairas ja lähes sokea: se on italian kansankielen varhaisimpia runotekstejä. Se ylistää Jumalaa veli auringon tähden, «joka on päivä», sisar kuun ja tähtien, veli tuulen, sisar veden «hyödyllinen ja nöyrä ja kallisarvoinen ja puhdas», veli tulen ja «sisaremme äiti maan» tähden. Kaksi asiaa huomattavaksi. Ensimmäinen: se ei ole hymni luonnolle, se on ylistys Jumalalle luonnon kautta. Toinen: se syntyy kärsimyksessä, ei idyllisellä kävelyllä.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "Entä saarna linnuille?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "Entä Gubbion susi?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Mitä tämä kaikki sanoo tämän päivän ekologialle?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Celanon versio on yllättävän hillitty: Franciscus näkee lintuparvia, kääntyy niiden puoleen niin kuin luotuihin jotka osaavat kuunnella, ja kehottaa niitä ylistämään Jumalaa. Ei jäsenneltyjä vuoropuheluja, ei näyttäviä ihmeitä: tunnustamisen ele. Kukkaset, vuosisata myöhemmin, lisäävät ristinmerkin, parvet jotka asettuvat kuuntelemaan, juhlallisen jäähyväisen. Ensin Franciscuksen tyyli, sitten hartauden tyyli. Molemmat sanovat jotakin, mutta eri asiaa.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "Entä Gubbion susi?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Jos se on kirjallisuutta, mitä arvoa sillä on?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "Entä nykyaikainen ekologia?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Gubbion susi on Kukkasien mestariteos: kauhun vallassa oleva kaupunki, Franciscus joka menee petoa vastaan, puhuu sille niin kuin veljelle ja sovittelee liiton — kaupunki ruokkii sitä, se ei enää tee pahaa kenellekään. Minun on oltava selvä kirjallisuuden lajista: se on 1300-luvun hagiografiaa, hartauden muistia, ei todennettavaa kronikkaa. Mutta katso, mitä se säilyttää: rauha joka syntyy menemällä sitä kohti mikä pelottaa, ja eläin jota kohdellaan keskustelukumppanina eikä esineenä. Muoto on legenda; suunta on aidosti fransiskaaninen.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Siis pohjimmiltaan se on keksitty?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "Ja mitä tämän päivän ekologia siitä saa?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Tässä tarvitaan rehellisyyttä molempiin suuntiin. Toisaalta: Laulu tarjoaa tänään harvinaisen kieliopin, luomakunnan hoidon kiitollisuudesta ja sukulaisuudesta, ei hyödystä tai pelosta. Toisaalta: Franciscus ei ollut nykyaikainen ympäristönsuojelija, eivätkä hänen lähteensä tunne ilmastoa, sukupuuttoja, saastumista. Joka etsii hänestä yksityiskohtaista ekologista ohjelmaa, pakottaa tekstejä. Joka etsii katsetta — maailma perheenä, ei varastona — löytää jotakin, joka yhä kykenee siirtämään käytöstä.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "Ja kuitenkin hänet on julistettu ekologian suojelijaksi, eikö niin?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Mitä konkreettista minulle jää?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Ei: «ei kronikka» ei merkitse «tyhjästä keksitty». Saarna linnuille on Celanolla, muutama vuosi Franciscuksen kuoleman jälkeen; Kukkaset pukevat sen legendaarisiin väreihin, mutta lanka lähtee muistista. Näin toimii suuri osa hagiografiaa: muoto kertoo sen hartaudesta, joka sen välitti, sisältö säilyttää todellisen piirteen. Lähteiden lukeminen on juuri tätä: pitää nämä kaksi yhdessä sekoittamatta niitä.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Selvää. Entä tämän päivän ekologialle?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Palataan siis Lauluun.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Kyllä: vuonna 1979 Johannes Paavali II julisti hänet ekologien suojelijaksi. Se on nykyaikainen arvonimi — tulkinta, ei keskiaikainen lähde — ja sellaisena sitä on käsiteltävä. Se on oikeutettu, jos se osoittaa fransiskaanisen katseen juuren: sukulaisuuden kaikkien luotujen kanssa. Siitä tulee harhaanjohtava, jos se litistää Franciscuksen ajan edellä eläneeksi ekologiksi ja pyyhkii sen, että Laulu on ennen kaikkea ylistys Jumalalle, sairaan miehen laatima, joka kiitti. Arvonimi sanoo jotakin totta, sillä ehdolla ettei sitä supisteta siihen.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "Entä minulle, konkreettisesti?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Voimme päättää.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkreettinen, tässä, merkitsee katseen kysymystä ennen tekoja. Laulu vihjaa asumaan maailmassa sukulaisuutena: vesi sisarena jota ei tuhlata, maa äitinä jonka lapsia ollaan, luodut ylistyksen kumppaneina eivätkä varastoina. Käytännön valinnat — mitä ostat, mitä heität, miten matkustat — tulevat jälkeen, eivätkä lähteet niitä sanele. Mutta muuttunut katse tekee ne mahdollisiksi, ja vähemmän raskaiksi.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Luetaan Laulu yhdessä uudelleen.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Päätetään.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Pysähdymme tähän. Jätän sinulle kuvan, ei tehtävää: lähes sokea mies, joka laatii ylistyksen auringolle jota ei enää näe, ja kutsuu sitä veljeksi. Jos jonakin päivänä satut katsomaan puuta, koiraa, hanan vettä sukulaisena eikä esineenä, tiedät mistä tuo katse tulee. Dialogin muut keskustelut odottavat luettelossa.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Käy tämä keskustelu uudelleen alusta.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Tutustu Dialogin muihin keskusteluihin.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Kiitos, että erotit kanssani kronikan, legendan ja ylistyksen: se on harjoitus, joka palvelee paljon Franciscusta laajemmalle. Nähdään Dialogissa, kun tahdot.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Aloita tämä keskustelu alusta.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Päätä tältä erää."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Voiko Franciscusta seurata olematta uskova?",
+      "theme": "fede",
+      "description": "Ei kiertelevä vastaus vakavaan kysymykseen: kristillinen usko oli Franciscuksen keskus, eikä sovellus sitä piilota. Mitä jää sille, joka ei usko.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Tervetuloa Dialogiin. Olen opas lähteiden läpi: en ole Franciscus, en ole rippi-isä, enkä arvioi kenenkään uskoa, en sinunkaan. Tämän päivän kysymys on oikeutettu ja vakava: voiko Franciscusta seurata olematta uskova? Lupaan vastauksen, joka ei kierrä. Ensin, sano mistä sinä puhut.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Olen uskova, ja tahdon ymmärtää paremmin hänen uskoaan.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "En ole uskova: mitä voin häneltä saada?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "En tiedä, mitä uskon. Sopiiiko tämä dialogi minulle?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Mennään siis suoraan keskelle. Franciscuksen usko ei ollut kulttuurinen etiketti: se oli kaiken muun lähde — köyhyyden, veljeyden, rauhan. Testamentissa hän kertoo, että Herra antoi hänelle yksinkertaisen uskon kirkkoihin; ja koko hänen tiensä, San Damianosta La Vernaan, lähteet lukevat köyhän ja ristiinnaulitun Kristuksen seuraamisena. Katsotaan tekstejä.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Tekstit, kyllä.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "Entä hänen suhteensa aikansa kirkkoon?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Lyhyt vastaus: kyllä, voi, rehellisyyden ehdolla. Voit tutkia häntä, ihailla häntä, antaa hänen tyylinsä kysellä sinulta liittymättä hänen uskoonsa; tämä sovellus on tehty myös sinulle, eikä kukaan täällä arvioi kantaasi. Ehto on olla amputoimatta häntä: Franciscus ilman Kristusta ei tule universaalimmaksi, hänestä tulee toinen henkilö. Jos suostut kohtaamaan hänet kokonaisena, juuri mukaan lukien, on paljon saatavaa.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Näytä minulle tämä juuri sitten.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Mitä konkreettista jää sille, joka ei usko?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Kyllä, se sopii sinulle: ehkä enemmän kuin kenellekään muulle. Uskoa koskevat kysymykset eivät vaadi kuulumisen todistusta: ne vaativat rehellisyyttä, ja sinulla sitä juuri oli. En työnnä sinua mihinkään suuntaan: näytän tekstit, erotan tasot ja pysähdyn sinne, mihin lähteet pysähtyvät. Aloitetaan siitä, mitä Franciscus itse kertoo.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Hyvä on: mitä hän kertoo?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "Entä se, joka ei pääse uskoon asti, mitä hän saa?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Kaksi todistusta. Ensimmäinen on hänen: Testamentissa, jonka hän saneli vähän ennen kuolemaansa, Franciscus muistaa, että Herra antoi hänelle yksinkertaisen uskon kirkkoihin, joissa hän rukoili Kristukseen kääntyneenä. Toinen on Celanon: vuonna 1224, La Vernan vuorella, Franciscus olisi saanut stigmat, kärsimyksen merkit, jotka hän pyrki salaamaan. Huomaa tasot: Testamentti on Franciscuksen sana; stigmat tulevat meille lähimpien lähteiden todistuksena, ja sovellus esittää ne niin, ei mitattavana tietona. Yhdessä ne sanovat yhden asian: hänen elämänsä keskus oli Kristuksen persoona.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Stigmat: miten minun pitäisi ne ymmärtää?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Miksi sovellus korostaa tätä kohtaa niin paljon?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "Entä sille, joka ei usko, mitä jää?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Eikö näin täydellinen usko jättänyt tilaa epäilyille?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Samalla rehellisyydellä, jolla lähteet ne esittävät. Celano kertoo ne muutama vuosi Franciscuksen kuoleman jälkeen, ja perinne säilyttää ne merkkinä täydellisestä mukautumisesta ristiinnaulittuun Kristukseen. Historiallinen ja teologinen arvio on tutkijoiden kiistelemä; tässä lähteet eivät salli meidän sanoa enempää, ja joka sanoisi sinulle enemmän, kumpaan suuntaan tahansa, menisi tekstien yli. Mitä voimme sanoa: hänen veljeskunnalleen tuo merkki vahvisti sen, mitä hänen elämänsä jo sanoi.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "Entä suhde kirkkoon?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Ymmärrän. Entä sille, joka jää uskon ulkopuolelle?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Kahdesta syystä, molemmat ilmoitettuja. Ensimmäinen on historiallinen: kristillisen juuren poistaminen Franciscukselta ei tee hänestä universaalimpaa, se tekee hänet tunnistamattomaksi — köyhyys on «koska Herra teki itsensä köyhäksi», rauha on saatu tervehdys, veljeys on yhdessä elettyä evankeliumia. Toinen on toimituksellinen: tämä sovellus selittää, se ei tee käännytystyötä. Franciscuksen uskon selittäminen ei ole pyyntö, että tekisit sen omaksesi; se on kieltäytymistä antamasta sinulle siloteltua versiota tosiasioista.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "Ja mitä voi saada se, joka ei liity?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "Entä miten Franciscus eli institutionaalista kirkkoa?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Tämä riittää. Päätetään.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Paljon, kunhan otettuna kokonaisena. Tyyli — lahjaksi antaminen, vähäisyys, rauha joka rakennetaan menemällä vastaan, sukulaisuuden katse luomakuntaan — puhuu myös sille, joka ei jaa juurta. Mutta nuo asiat, teksteissä, ovat tuon puun hedelmiä: niiden tunteminen ilman juurta on mahdollista, niiden ymmärtäminen pohjaan asti ilman juurta ei. Voit antaa niiden kysellä liittymättä: se on vakava asento, ja aatteiden historia on täynnä ihmisiä, jotka ovat oppineet traditioista jotka eivät ole heidän. Kukaan täällä ei merkitse hengellistä pisteytystäsi.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Luetaan siis uudelleen tekstit, jotka kertovat tuosta juuresta.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Päätetään.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Lähteet eivät kerro opillisia epäilyjä nykyaikaisessa merkityksessä: tässä emme voi sanoa sitä, mitä tekstit eivät sano. Mutta ne kertovat hyvin kovista koettelemuksista: sairaudesta, lähes menetystä näöstä, kivusta nähdä veljeskunnan kasvavan ja muuttuvan yli hänen aikomustensa. Ja juuri tuosta ajasta, Bonaventuran mukaan, syntyy Luotujen laulu. Franciscuksen usko ei ollut yön poissaoloa: se oli ylistystä yön sisällä. Mikä on aivan eri asia kuin naiivius.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "Ja stigmat kuuluvat tähän aikaan?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Voimme päättää.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Ei kapinallinen eikä rivissä: jotakin kiinnostavampaa. Franciscus eli keskiaikaisen kirkon sisällä, etsi sitkeästi sen hyväksyntää elämänmuodolleen ja hyväksyi sen rajat, vaikka työnsi sitä uudistumaan alhaalta, esimerkillä eikä kapinalla. Hänen kuuliaisuutensa kirkolle oli osa hänen uskoaan, ei laskelma. Sen ymmärtäminen välttää kaksi peilikarikatyyrää: nykyaikaisille rakkaan tottelemattoman pyhimyksen ja hartaille rakkaan säyseän pyhimyksen.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Palataan hänen uskonsa teksteihin.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Päätetään.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Pysähdymme tähän. En jätä sinulle tehtävää enkä varsinkaan koetta: jätän mittapuun. Kun kohtaat Franciscuksen, tässä sovelluksessa tai muualla, kysy aina, näyttääkö edessäsi oleva versio hänet kokonaisena, kristillinen juuri mukaan lukien. Sitten kantasi jää sinun: kukaan, täällä, ei sitä tuomitse. Dialogin muut keskustelut odottavat luettelossa.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Käy tämä keskustelu uudelleen alusta.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Tutustu Dialogin muihin keskusteluihin.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Kiitos kysymyksen vakavuudesta ja siitä, että hyväksyit vastauksen ilman oikoteitä. Nähdään Dialogissa, kun tahdot: todellisilla kysymyksillä ei ole viimeistä käyttöpäivää.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Aloita tämä keskustelu alusta.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Päätä tältä erää."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

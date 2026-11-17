@@ -72,4 +72,4 @@ Grafo di nodi con `mentorText` e `options`; almeno un nodo `isTerminal`; ricorda
 
 ## Lingue
 
-Lingua principale: italiano (`content/it/`). Per aggiungere una lingua: duplica la directory (`content/en/`), traduci mantenendo identici gli id. I testi dell'interfaccia vivono in `res/values/`.
+Lingua principale: italiano (`content/it/`). Le altre lingue sono directory sorelle (`content/en/`, `content/fr/`, …) con gli stessi id. L'interfaccia legge `content/ui/{lingua}.json`, con chiave italiana; per italiano e inglese le stringhe stanno nel codice. Lingue distribuite: italiano, inglese, e le lingue ufficiali dell'Unione europea salvo gaelico irlandese e maltese, più il russo. Il campo `originalText` (latino o volgare umbro) non si traduce.

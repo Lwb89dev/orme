@@ -1,0 +1,1104 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Mistr Bernard",
+      "description": "Hostinský v osadě Borgo delle Querce už třicet let: praktický, k cizincům nedůvěřivý, neschopný nechat někoho na mraze. O osadě zná každý dluh i každou laskavost.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucie",
+      "description": "Vdova a bylinkářka z osady Borgo delle Querce. Bystrá pozorovatelka a paměť osady: nic z toho, co se děje na cestě, jí neunikne.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Bratr Tomáš",
+      "description": "Menší bratr na cestách umbrijskými silnicemi. Obnošené sandály, záplatovaný hábit: má návyk ticha a vzácný dar naslouchat.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martin",
+      "description": "Žebrák, s nímž se setkáš na cestě k osadě Borgo delle Querce. Byl podkovářem ve Spoletu, než mu nemoc vzala výheň, dům a nakonec i místo mezi lidmi.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Jakub",
+      "description": "Zedník z Assisi. Pracuje na opravě kostelíku San Damiano a zblízka viděl mladého Františka nosit kameny a zpívat.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matěj",
+      "description": "Horský lovec, velí stráži u jedné brány Gubbia ve dnech strachu z vlka. Poznamenaná tvář, oštěp nikdy daleko, dané slovo, které platí.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido II., biskup z Assisi",
+      "description": "Biskup z Assisi od roku 1204. Doložen prameny: před městem přikryl Františka vlastním pláštěm ve scéně zřeknutí se otcovského majetku.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Petr Bernardone",
+      "description": "Bohatý obchodník s suknem z Assisi, Františkův otec. Spor se synem o prodaný majetek vyústil ve veřejnou scénu před biskupem, jak ji vypráví Tomáš z Celana.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "František Bernardone",
+      "description": "Mladý syn obchodníka, který v těchto letech v Assisi všechno opouští a začíná znovu bos. Poutník ho míjí zdálky nebo na několik okamžiků; jeho slova jsou zde nemnohá a věrná pramenům.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Poutníkův plášť",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "V dešti pozdního podzimu poutník přichází do osady Borgo delle Querce a setkává se s prochladlým žebrákem: první volba cesty.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Déšť pozdního podzimu tě provází už tři dny. Když zahlédneš první domy osady Borgo delle Querce, večer už zavírá stezky a z tvého pláště crčí voda.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Pod trnkovým živým plotem se schoulená postava halí do obnošeného pytle. Nenatahuje ruku: jen se na tebe dívá jasnýma očima někoho, kdo přestal prosit.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martin má věk stezek. Byl podkovářem ve Spoletu, než mu nemoc vzala výheň i dům. Teď je cesta všechno, co mu zbývá.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "O nic neprosím, cizinče. Ale noc bude dlouhá a mrazivá a má záda už vlhko neunesou.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martin se třese pod živým plotem. Co uděláš?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Svlékneš plášť a položíš mu ho na ramena.",
+              "next": "mant.a1",
+              "effects": [
+                { "type": "set_flag", "flag": "mantello_dato", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 2 },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 2 }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Nabídneš mu rámě a doprovodíš ho až do osady.",
+              "next": "mant.b1",
+              "effects": [
+                { "type": "set_flag", "flag": "martino_accompagnato", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 1 },
+                { "type": "add_relation", "characterId": "char.bernardo", "delta": 1 }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Sedneš si vedle něj pod živý plot a nasloucháš mu.",
+              "next": "mant.d1",
+              "effects": [
+                { "type": "set_flag", "flag": "martino_ascoltato", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 1 },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 1 },
+                { "type": "add_relation", "characterId": "char.lucia", "delta": 1 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Plášť opouští tvá ramena a chlad ti hned vniká do kostí. V tom chladu je však nová lehkost, kterou neumíš vysvětlit.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Nemám ti co vrátit, příteli. Jen své jméno: Martin. V osadě budou vědět, jaký jsi cizinec.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Jdete pomalu, opřeni jeden o druhého, v hustém dešti. U brány hostince ještě svítí světla.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Sebral jsi společnost na cestě, cizinče? Vstupte oba: můj oheň se na nic neptá.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Byl jsem podkovář ve Spoletu: koval jsem koně pánů. Pak se mi ruce začaly třást a nikdo nechce kováře, který se třese. Děkuju, že sis sedl: lidé jdou kolem a hledí před sebe, jako by smůla byla nakažlivá.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Když vstáváte, déšť ustal. Ukážeš mu cestu do osady a díváš se, jak se pomalu vzdaluje, dokud si ho nevezme tma.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Hostinec v osadě Borgo delle Querce voní dřevem a chlebem. Nízký oheň suší šaty a rozpouští únavu cesty.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                { "type": "flag", "flag": "mantello_dato", "value": true }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Přicházíš k pultu prochladlý a bez pláště. Mistr Bernard si tě dlouho měří, pak ti podává naběračku horkého vína: „Plášť jsi rozdal, za takového večera? Buď jsi blázen, nebo jsi lepší, než vypadáš. Uvidíme.“",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            { "type": "add_relation", "characterId": "char.bernardo", "delta": 1 }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Mistr Bernard vede hostinec třicet let: praktický, nedůvěřivý, neschopný nechat někoho na mraze. O osadě zná každý dluh i každou laskavost.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Tady nikdo nic nerozdává, cizinče: chleba se platí a potíže taky. Ale místo u ohně není na prodej. To patří tomu, kdo přijde.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "V koutě žena s pozornýma očima drtí byliny v hmoždíři. Je to Lucie, vdova, která léčí osadu kořeny a trpělivostí. Nic z toho, co se děje na cestě, jí neunikne.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Viděla jsem tě zastavit se pod trnkovým plotem. Mnozí tu zatáčku minou: cesta rychle učí nedívat se. Ty ses zastavil. Pamatuj si to, až ti někdo řekne, kdo jsi.",
+          "next": "mant.t1",
+          "effects": [
+            { "type": "discover_teaching", "teachingId": "teaching.accoglienza.ogni_uomo" }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Objevil jsi: Nikdo není cizí. Přijetí začíná takto: ne myšlenkou, nýbrž živým plotem, prochladlým člověkem, zastavením. Vyjít vstříc tomu, koho svět učí míjet, je první krok každé cesty.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Co tě pod tím plotem pohnulo a co tě zadržovalo? Pomysli na své dnešní cesty: koho obvykle potkáváš a před kým ses naučil jít dál?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Noc mine tiše. Ráno najdeš na pultě hostince hrst kaštanů a ani slovo: v osadě se věci pamatují. Tvá cesta začala.",
+          "exploredTeachingIds": ["teaching.accoglienza.ogni_uomo"]
+        }
+      ],
+      "sourceDocumentIds": ["source.narrazione_gioco"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Syn obchodníka",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, počátek roku 1206: poutník přichází ve dnech, kdy František před biskupem Guidem vrací otci všechno. Město se dívá a táže se.",
+      "isBiographical": true,
+      "requiredChapters": ["story.mantello.001"],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi tě vítá šumem, který není šumem tržních dnů. V uličkách lidé tlumeně mluví o jediném jménu: o synu pana Petra Bernardoneho, obchodníka s suknem.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "U kašny osady ti žena vysvětluje: otec dovlekl mladíka před biskupa, aby dostal zpět prodaný majetek, a náměstí se plní. Pod hradbami, u rozpadlého kostelíku San Damiano, zápasí zedník sám se zřícenou zdí.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Hlasy na náměstí sílí. Na jedné straně dav, na druhé muž sám se svými kameny.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Sejdeš k San Damianu a pomůžeš zedníkovi.",
+              "next": "rin.h1",
+              "effects": [
+                { "type": "set_flag", "flag": "aiutato_san_damiano", "value": true },
+                { "type": "add_relation", "characterId": "char.giacomo", "delta": 2 }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Běžíš na náměstí, než se dav semkne.",
+              "next": "rin.p1",
+              "effects": [
+                { "type": "set_flag", "flag": "visto_rinuncia_da_vicino", "value": true }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Vystoupíš na schody San Rufina, abys hleděl shora.",
+              "next": "rin.v1",
+              "effects": [
+                { "type": "set_flag", "flag": "osservato_rinuncia", "value": true }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Hodinu zvedáš kameny vedle zedníka, zatímco nahoře hučí dav. Muž pracuje mlčky, pak ukáže na kostelík: opravuje ho chlapec z Assisi, říká. Ten, o němž všichni mluví.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Nosil sem kameny, jako by to byly relikvie, a zpíval. Říkají, že se zbláznil. Bláznů jsem viděl mnoho: žádný takhle nepracoval.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Když se vracíš na náměstí, dav se už rozchází. Sbíráš útržky: mladík vrátil otci všechno, i šaty, a biskup ho přikryl vlastním pláštěm. Někdo se směje. Mnozí ne.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Prodíráš se davem až pod biskupský palác. Uprostřed vyhublý mladík s planoucíma očima; proti němu starší muž, který se třese hněvem: pan Petr Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Františkovi je asi čtyřiadvacet a má držení těla někoho, kdo vyrostl mezi drahými látkami a slavnostmi. Dnes, jak stojí před biskupem, jako by to všechno už nechal za sebou.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Mé sukno, můj kůň, mé peníze: prodané pro jeho bláznovství! Chci spravedlnost, důstojný pane. Ať se zřekne všeho mého, do poslední nitě.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Dlouhé ticho. Pak si mladík jeden po druhém svléká šaty a klade je otci k nohám. Dav zadržuje dech. Biskup Guido si sundává plášť a přikrývá mu nahá ramena.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Až dosud jsem nazýval otcem Petra Bernardoneho. Od nynějška budu moci svobodně říkat: Otče náš, jenž jsi na nebesích.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Ze schodů katedrály je náměstí mraveniště. Slova neslyšíš, ale vidíš všechno: mladíka, který se svléká, starce, který sbírá šaty, biskupa, který otvírá svůj plášť.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Vedle tebe prodavač jablek vzdychne: viděl jsem na tomhle náměstí procesy i rvačky, říká, ale nikdy syna, který takhle vrací všechno. Kolem se někdo hlučně směje, někdo si utírá oči.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Na Assisi padá večer. V hostincích se nemluví o ničem jiném: někdo se mladíkovi vysmívá, někdo ho nazývá svatým, někdo vrtí hlavou a myslí na vlastní syny.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Biskup Guido prochází vylidněným náměstím unaveným krokem někoho, kdo zvládl těžký den. Je to on, kdo před všemi přikryl Františka vlastním pláštěm.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Viděl jsem za život mnoho lidí, jak se drží věcí. Nikdy nikoho, kdo by je takhle pouštěl. Modlete se za toho chlapce: a modlete se za nás, kteří se díváme a nerozumíme.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Náměstí se vyprazdňuje. Co uděláš, než se znovu vydáš na cestu?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Z dálky sleduješ Františka, který sešel k San Damianu.",
+              "next": "rin.s1",
+              "effects": [
+                { "type": "set_flag", "flag": "seguito_francesco", "value": true },
+                { "type": "discover_teaching", "teachingId": "teaching.rinuncia.sine_proprio" }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Zůstaneš a nasloucháš hlasům náměstí.",
+              "next": "rin.s2",
+              "effects": [
+                { "type": "set_flag", "flag": "voci_assisi", "value": true },
+                { "type": "discover_teaching", "teachingId": "teaching.rinuncia.sine_proprio" }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Vrátíš se k zedníkovi, abys dokončil, co jsi začal.",
+              "next": "rin.s3",
+              "conditions": [
+                { "type": "flag", "flag": "aiutato_san_damiano", "value": true }
+              ],
+              "effects": [
+                { "type": "add_relation", "characterId": "char.giacomo", "delta": 1 },
+                { "type": "discover_teaching", "teachingId": "teaching.rinuncia.sine_proprio" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Sleduješ Františka až k rozpadlému kostelíku. Vidíš, jak zvedá kámen, opráší ho a klade na zeď jako někdo, kdo dává do pořádku dům. Neodvažuješ se ho rušit. Vydáváš se na cestu s tím obrazem v očích.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Zůstáváš, dokud louče nezhasnou. Slyšíš celý lidský bestiář: závist, výsměch, zadržovaný obdiv, strach otců. Městu bude trvat léta, než se rozhodne, co vidělo.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Vrátil ses dodělat zeď? Dobře. Kameny nelžou: zůstávají, kam je položíš. Ten chlapec to chápe: začíná znovu od základů. Od sebe, ne jen od kostelů.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Co je doloženo",
+          "text": "Františkovo zřeknutí před biskupem Guidem na počátku roku 1206 vypráví První životopis Tomáše z Celana, životopis světci nejbližší: vrácení šatů, slova o Otci, který je v nebesích, biskupův plášť. Doložena je i oprava San Damiana. Do fikce naopak patří poutník, kterého hraješ, zedník Jakub a rozhovory sebrané na náměstí.",
+          "sourceDocumentIds": ["source.celano_vita_prima"],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Objevil jsi: Nic vlastního, vše přijaté. Zřeknutí není pohrdání věcmi: je to osvobození od představy, že je vlastníme. Kdo nic nevlastní, nemusí nic bránit a může vše přijímat jako dar.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Opouštíš Assisi, zatímco se světla rozsvěcejí jedno po druhém. Viděl jsi člověka zůstat nahého a svobodného na náměstí a celé město, jak se táže. I ty jdeš lehčeji: nebo snad jen pozorněji k tíze věcí.",
+          "exploredTeachingIds": ["teaching.rinuncia.sine_proprio"]
+        }
+      ],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Muž na okraji cesty",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Na cestách mezi osadami klapačka ohlašuje malomocného. Poutník se musí vyrovnat se strachem, odporem a úctou: a s tváří, kterou zná.",
+      "isBiographical": false,
+      "requiredChapters": ["story.mantello.001"],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Cesta mezi osadou a údolím lemuje odpočatá pole a lesy cesmínového dubu. Na rozcestí slyšíš suchý, rytmický zvuk: dřevěnou klapačku, jíž malomocní ohlašují svůj příchod.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Na okraji cesty, zahalený v hadrech, sedí muž. První, co cítíš, je tvé vlastní tělo, jak tuhne: krok, který zpomaluje, zadržený dech, chuť přejít na druhou stranu.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                { "type": "flag", "flag": "mantello_dato", "value": true }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Pak to vidíš: na ramenou muže, záplatovaný a vybledlý, je tvůj plášť. Ten, který jsi rozdal večer svého příchodu do osady Borgo delle Querce. Plášť poznáváš dřív než jeho.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Nepřibližuj se, příteli: nemoc mě vzala a zákon mě posílá ven ze světa. Ale tvůj plášť mě držel naživu přes zimu. Jsem Martin: dlužím ti život a nemohu ti ani stisknout ruku.",
+          "next": "leb.c1",
+          "effects": [
+            { "type": "add_relation", "characterId": "char.martino", "delta": 1 }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Malomocný na okraji cesty. Co uděláš?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Přiblížíš se na krok a promluvíš s ním.",
+              "next": "leb.a1",
+              "effects": [
+                { "type": "set_flag", "flag": "parlato_lebbroso", "value": true },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 1 }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Necháš mu na kameni chleba a fíky, aniž by ses přiblížil.",
+              "next": "leb.b1",
+              "effects": [
+                { "type": "set_flag", "flag": "cibo_lasciato", "value": true },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 1 }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Jdeš dál. Po dvaceti krocích se však zastavíš a vrátíš se.",
+              "next": "leb.d1",
+              "effects": [
+                { "type": "set_flag", "flag": "tornato_indietro", "value": true }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Zblízka, pod šedým popelem nemoci, poznáváš jasné oči muže od živého plotu: je to Martin, žebrák z tvého prvního dne v osadě.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Nemoc mi vzala prsty, pak mi osada vzala zbytek. Klepu tímhle dřevem a lidé utíkají, ještě než mě uvidí. Ty jsi zůstal. Nevíš, jaký je to dar, když se ti někdo podívá do tváře.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Položíš chleba a fíky na plochý kámen, v půli cesty mezi sebou a jím. Je to způsob, který užívají všichni: láska na bezpečnou vzdálenost. On pomalu skloní hlavu.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Chleba mi stačí a děkuju ti. Ale pamatuj si, cizinče: takoví jako já umírají dvakrát. Poprvé, když přijde nemoc, podruhé, když je už nikdo nevolá jménem.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Uděláš dvacet kroků k údolí. Pak tě zastaví stud víc než klapačka: vracíš se pomalu až na okraj cesty. Muž zvedne pohled, užaslý.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Mnozí jdou dál, málokdo se vrátí. Krok zpět je ze všech nejtěžší: vím to, naučil jsem se to i já. Sedni si, chceš-li. Pověz, odkud přicházíš.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Zůstáváte v hovoru, zatímco slunce klesá. Martin ti vypráví o bratru z Assisi, o tom synu obchodníka, který všechno opustil: teď vchází do lazaretů, omývá rány a každého volá jménem.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Lazaret je v údolí, za mostem, říká Martin. Hledáš-li toho bratra, najdeš ho tam.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Nabídneš, že ho doprovodíš až k lazaretu.",
+              "next": "leb.e1",
+              "effects": [
+                { "type": "set_flag", "flag": "accompagnato_lazzaretto", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 1 },
+                { "type": "add_relation", "characterId": "char.martino", "delta": 1 },
+                { "type": "discover_teaching", "teachingId": "teaching.carita.lebbrosi" },
+                { "type": "discover_teaching", "teachingId": "teaching.misericordia.compassione" }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Slíbíš mu, že v osadě na něj nikdo nezapomene.",
+              "next": "leb.e2",
+              "effects": [
+                { "type": "set_flag", "flag": "promessa_martino", "value": true },
+                { "type": "add_var", "variable": "fiducia_borgo", "delta": 1 },
+                { "type": "discover_teaching", "teachingId": "teaching.carita.lebbrosi" },
+                { "type": "discover_teaching", "teachingId": "teaching.misericordia.compassione" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Doprovázíš ho údolím, pomalu, aniž by ses ho dotkl, ale aniž by ses mu vyhýbal. U mostu se loučíte, jak se loučí přátelé: s lítostí, že se musíte rozejít.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Osada mě vyhnala, říká Martin. Ale vysloví-li tam nahoře ještě někdo mé jméno, budu méně mrtvý. Slíbíš mu to. Ještě nevíš, co bude stát ten slib dodržet.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Františkova slova",
+          "text": "V Závěti, svém nejosobnějším spise nadiktovaném na sklonku života, František vypráví, že ho Pán uvedl mezi malomocné a že jim prokázal milosrdenství: to, co mu připadalo hořké, se obrátilo v sladkost (Závěť 1–3). Je to jedna z mála událostí dosvědčených jeho vlastním hlasem. Martin a vaše setkání patří do fikce Poutníka.",
+          "sourceDocumentIds": ["source.testamento"],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Objevil jsi: Setkání, které změní život. Láska není cit: je to tělesné gesto toho, kdo se přiblíží k vyloučenému a zjistí, že hořkost se mění v sladkost. Kdo dává, nestaví se nad toho, kdo přijímá: setkávají se.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Objevil jsi: Přiblížit se celým tělem. V Závěti František neříká, že pocítil milosrdenství: říká, že je vykonal. Soucit je pravdivý, když se nechá zasáhnout utrpením druhého až k tomu, že se pohnou ruce.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Co dnes pohnulo tvým tělem dřív než myšlenkami: strach, odpor, něha? Vzpomeň si na tvář, které ses naučil vyhýbat. Jak se jmenuje?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Vydáváš se na cestu za tmy a zvuk klapačky se ztrácí za zády. Něco v tom, jak se díváš na lidi, se navždy změnilo.",
+          "exploredTeachingIds": ["teaching.carita.lebbrosi", "teaching.misericordia.compassione"]
+        }
+      ],
+      "sourceDocumentIds": ["source.testamento"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Šelma z Gubbia",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio žije v hrůze z divokého vlka. Mezi těmi, kdo organizují obranu, kdo následují neozbrojeného bratra a kdo hledají zprostředkování, poutník vidí, jak se rodí pokoj.",
+      "isBiographical": false,
+      "requiredChapters": ["story.rinuncia.001"],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio se před tebou objeví náhle, přilepené k hoře. Brány jsou však zavřené za bílého dne a okolní pole jsou pustá: nikdo už nevyhání stáda na pastvu.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matěj velí stráži u brány: horský lovec, poznamenaná tvář a oštěp nikdy daleko. Je to on, kdo organizuje hony na šelmu.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Vlk, cizinče. Velký jako tele a bez strachu z lidí. Bral ovce, psy a pak ještě hůř. Vyjdeme ve dvaceti, ozbrojeni. Máš-li jisté nohy, drž se dál od lesa.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "V krčmě u brány koluje zpráva, která zní jako posměch: ve městě je bratr z Assisi, jeden z těch bosých, kteří zdraví přáním pokoje. Říká, že půjde sám, neozbrojen, šelmě vstříc.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Město je sevřené mezi strachem a nevírou. Co uděláš?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Pomůžeš Matějovi zorganizovat obranu domů a stád.",
+              "next": "lupo.d1",
+              "effects": [
+                { "type": "set_flag", "flag": "lupo_difesa", "value": true },
+                { "type": "add_relation", "characterId": "char.matteo", "delta": 2 }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Následuješ bratra za hradby a zůstáváš několik kroků za ním.",
+              "next": "lupo.f1",
+              "effects": [
+                { "type": "set_flag", "flag": "lupo_seguito_frate", "value": true }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Přesvědčíš lovce, aby bratra doprovodili bez oštěpů.",
+              "next": "lupo.m1",
+              "effects": [
+                { "type": "set_flag", "flag": "lupo_mediazione", "value": true },
+                { "type": "add_relation", "characterId": "char.matteo", "delta": 1 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Celou noc zavíráte vrata, nosíte otýpky, rozvrhujete stráže. Zaútočí-li šelma, město nebude zaskočeno. Je to skutečná práce a lidé dýchají.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Nemám rád ty, kdo mluví s vlky, ale mám rád ty, kdo pracují. Ty jsi pracoval. Zítra, s oštěpy nebo bez nich, bude Gubbio připravené.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Ráno z hradeb vidíte, jak bratr vychází sám k lesu. Velmi dlouhé ticho. Pak se znovu objeví na cestě: a vedle něj, krotký jako beránek, jde vlk.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Jdeš tři kroky za bratrem, za posledním domem. Les se zavírá nad stezkou a strach ti svírá hrdlo: jeho kroky jsou však tiché a táhnou vpřed i ty tvé.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Neboj se, bratře. Jdeme vstříc tvoru, který má hlad a strach, jako my všichni. Zůstaň nablízku, chceš-li.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Šelma vychází z lesa s vrčením. Bratr se poznamená křížem a mluví k ní jako k bratru: nabízí jí pokoj jménem smlouvy. A vlk se ti před očima položí k jeho nohám.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Dlouho mluvíš s Matějem a jeho lidmi: žádné oštěpy, žádní psi. Budete bratra sledovat zpovzdálí, připraveni na všechno, ale rozhodnuti neudeřit první. Přesvědčit je stojí námahu: strach vždycky chce železo.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Uděláme, jak říkáš. Ale skočí-li šelma, za nic neručím. Ať nám nebe pomáhá: jdeme na hon bez zbraní.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Polovina města jde mlčky podél stezky. Když se vlk objeví, sto rukou hledá zbraně, které tu nejsou: ale žádná se nezvedne. Bratr mluví, šelma se přikrčí a pokoj začíná takto: strachem, který nikdo nesloží na druhého.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "Na náměstí, před celým Gubbiem, bratr zpečeťuje smlouvu: město bude vlka živit po všechny jeho dny a vlk už nezkřiví vlas lidem ani zvířatům. Šelma zvedne tlapu a náměstí vybuchne.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Strach se rozpouští ve slavnost. Co uděláš?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Nabídneš, že každý den doneseš chleba k vlčí noře.",
+              "next": "lupo.g1",
+              "effects": [
+                { "type": "set_flag", "flag": "pane_al_lupo", "value": true },
+                { "type": "discover_teaching", "teachingId": "teaching.pace.saluto" }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Zůstaneš s Matějem a v lese rozebíráte pasti.",
+              "next": "lupo.g2",
+              "effects": [
+                { "type": "set_flag", "flag": "trappole_smontate", "value": true },
+                { "type": "add_relation", "characterId": "char.matteo", "delta": 1 },
+                { "type": "discover_teaching", "teachingId": "teaching.pace.saluto" }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Sedneš si na náměstí a sbíráš hlasy města.",
+              "next": "lupo.g3",
+              "effects": [
+                { "type": "set_flag", "flag": "voci_gubbio", "value": true },
+                { "type": "discover_teaching", "teachingId": "teaching.pace.saluto" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "Po dny, co zůstáváš v Gubbiu, přichází každé ráno k noře tvůj chleba. Děti tě sledují zpovzdálí: chtějí vidět, je-li pravda, že šelma nekousne ruku, která ji živí.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Celý den rozebíráte železa a oka. Léta jsme je natahovali, říká Matěj, a bosý bratr je za jediné ráno učiní zbytečnými. Směje se, ale v jeho smíchu je úcta.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "Na náměstí slyšíš, jak si město znovu vypráví: stařenu, která mu tajně nosila polévku, pekaře, který mu dluží prsty, děti, které ho už volají jménem. Strach uhasil i příběhy.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Vyprávění, nebo dějiny?",
+          "text": "Vlka z Gubbia vyprávějí Kvítky, sbírka z konce čtrnáctého století (kap. 21): hagiografická literatura, ne kronika, a žádný dobový dokument to nepotvrzuje. Předkládáme to jako vyprávění paměti, ne jako historický fakt. Dokumentární základ naopak mají pozdrav pokoje, který František říká, že přijal, připomínaný v Závěti, a zvěstování pokoje prvními bratry. Tvá role v příběhu je fikce.",
+          "sourceDocumentIds": ["source.fioretti"],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Objevil jsi: Pozdrav pokoje. Pokoj není nepřítomnost války: je to zvěst, kterou je třeba nést, odvaha, kterou je třeba mít. Rodí se tím, že člověk vyjde vstříc tomu, co budí strach, beze zbraně v ruce.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbio mělo tři cesty: bránit se, důvěřovat, zprostředkovat. Kterou jsi zvolil a proč? Kdo nebo co je ve tvém životě vlk, před nímž se všichni brání zavíráním bran?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Opouštíš Gubbio, zatímco vlk, už nasycený a neškodný, spí na slunci u pece. Město se naučilo nové slovo a ty ses je naučil s ním: pokoj se dělá, nečeká se na něj.",
+          "exploredTeachingIds": ["teaching.pace.saluto"]
+        }
+      ],
+      "sourceDocumentIds": ["source.fioretti"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Noc bouře",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Zastižen bouří sdílí poutník jeskyni s bratrem Tomášem: noc vyprávění a naslouchání a ráno slunce na mokrém listí.",
+      "isBiographical": false,
+      "requiredChapters": ["story.lupo.001"],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Na cestě zpět k osadě Borgo delle Querce se nebe rychle zavírá. Vítr nese pach deště a první hromy se valí za hřebeny.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Zatímco bouře propuká, volá tě hlas z jeskyně na okraji stezky. Bosý bratr ti kyne, abys vešel, mezi dvěma kapkami a bleskem.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Bratr Tomáš je menší bratr na cestě: obnošené sandály, záplatovaný hábit, hůl a nic víc. Má návyk ticha a vzácný dar naslouchat.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Vstup, bratře, a osuš se. Jeskyně není ničí: dnes v noci ji sdílíme s deštěm. Mám trochu chleba a oheň: pro dva poutníky je to palác.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Oheň chytá, chleba se dělí sám. Venku bouře hučí jako řeka; uvnitř poprvé po mnoha dnech nemáš naspěch.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Noc bude dlouhá. Čím ji naplníš?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Zeptáš se bratra Tomáše na jeho život před háitem.",
+              "next": "temp.s1",
+              "effects": [
+                { "type": "set_flag", "flag": "storia_tommaso", "value": true },
+                { "type": "add_relation", "characterId": "char.frate_tommaso", "delta": 2 }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Vyprávíš ty: osada, Martin, náměstí v Assisi, vlk z Gubbia.",
+              "next": "temp.s2",
+              "effects": [
+                { "type": "set_flag", "flag": "raccontato_viaggio", "value": true },
+                { "type": "add_relation", "characterId": "char.frate_tommaso", "delta": 1 }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Zůstanete v tichu a nasloucháte dešti.",
+              "next": "temp.s3",
+              "effects": [
+                { "type": "set_flag", "flag": "silenzio_condiviso", "value": true },
+                { "type": "add_relation", "characterId": "char.frate_tommaso", "delta": 1 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Byl jsem pastýř, na těchto horách. Povodeň mi jedné noci, jako je tahle, vzala stádo i chatrč. Plakal jsem jako dítě. Pak jsem zjistil, že když už nic nevlastním, ničeho se nebojím: tehdy jsem pochopil bratry z Assisi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Bratr Tomáš naslouchá, aniž by přerušoval, oči na ohni. Nakonec přikývne: každá cesta učí, říká, jde-li se po ní s otevřenýma očima. Nechal jsi, aby tě cesta změnila, a je to vidět.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Ticho není prázdné: déšť odměřuje, oheň odpovídá, dech druhého drží rytmus. Chápeš, že jsou rozhovory, které nepotřebují slova.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "K svítání se bouře ztenčuje v jemný déšť. Bratr Tomáš mluví o svém bratru Františkovi, který i z lůžka bolesti skládá chvály: nazývá bratrem slunce, sestrou vodu, matkou zemi, která nás nosí v lůně.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Říká, že každý tvor chválí Stvořitele tím, že dělá, čím je: slunce tím, že hřeje, voda tím, že hasí žízeň, země tím, že živí. A že i zlý den je přijatý, ne dlužný. Opakuji to, protože jsem to dnes v noci, tady, viděl na vlastní oči.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "První světlo proniká do jeskyně.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Ptáš se ho, jak se děkuje, když se všechno kazí.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Neptáš se na nic: díváš se na kapky na listech, a to stačí.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Nevím, jak to vysvětlit, bratře. Vím, že vděčnost není odměna dobrých dnů: je to cvičení, jako chůze. Kdo ji dělá každý den, má v černých dnech vycvičené nohy.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Zůstáváte v pohledu, dokud slunce neprorazí mraky. Mokré listy se rozsvěcejí jeden po druhém a celé údolí vypadá, jako by bylo právě stvořeno.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Vycházíte z jeskyně do umytého světa. Voda ještě crčí z větví, slunce ji rozzáří a zjišťuješ, že se usmíváš bez důvodu. Bratr Tomáš bere svou hůl: vaše cesty se zde rozcházejí.",
+          "next": "temp.hist1",
+          "effects": [
+            { "type": "discover_teaching", "teachingId": "teaching.creato.cantico" },
+            { "type": "discover_teaching", "teachingId": "teaching.gratitudine.lodi" }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Chvalozpěv, jeskyně, fikce",
+          "text": "Chvalozpěv stvoření je autentické Františkovo dílo, složené v letech 1225–1226, v období nemoci: lauda v lidovém jazyce, v níž slunce, luna, vítr, voda, oheň a země chválí Boha jako bratři a sestry. Autentické jsou i Chvály nejvyššího Boha, modlitba bez proseb. Bratr Tomáš a noc v jeskyni patří do fikce Poutníka; jeho slova Chvalozpěv parafrázují, aniž by ho citovala.",
+          "sourceDocumentIds": ["source.cantico"],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Objevil jsi: Bratr Slunce, sestra Voda. Svět není skladiště zdrojů ani modla: je to rodina tvorů, kteří chválí Stvořitele. Péče o stvoření se rodí z příbuzenství a vděčnosti, ne z užitečnosti.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Objevil jsi: Chvála, která o nic neprosí. Vděčnost neodměňuje štěstí: je to cvičený pohled, který rozpoznává dar v každé věci, ve vodě, ve slunci, v dni, ba i v nemoci.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Tuto noc jsi sdílel chleba, oheň a ticho s neznámým. Dívej se na svůj dnešní den, jako se jeskyně dívala na bouři: co z toho, co máš, je přijaté, a ne dlužné?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Cestou k osadě vzpomínáš na sestru Vodu, která hasí žízeň, omývá a zpívá v příkopech. V zahradě paměti od dneška teče kašna.",
+          "unlocks": [
+            { "type": "unlock_garden", "elementId": "garden.fontana" }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "V osadě Borgo delle Querce tě vítají jako někoho, kdo se vrací zdaleka. V šatech máš ještě pach kouře a deště a v uších hlas vody. Cesta pokračuje.",
+          "exploredTeachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi"]
+        }
+      ],
+      "sourceDocumentIds": ["source.cantico"],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

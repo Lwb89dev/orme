@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Каменната пътека",
+      "kind": "sentiero",
+      "description": "Пътека от светли камъни пресича градината: мястото, откъдето започва всеки път.",
+      "symbolism": "Пътят като образ на живота: проправя се с ходене, камък по камък.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Маслината на мира",
+      "kind": "albero",
+      "description": "Древна маслина със сребриста корона, посадена тогава, когато откриеш поздрава на мира.",
+      "symbolism": "Маслината: средиземноморско дърво на мира и на търпението. Расте бавно и трае с поколения.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Чешмата на сестра Вода",
+      "kind": "acqua",
+      "description": "Каменна чешма с бистра вода, която слънцето запалва сутрин.",
+      "symbolism": "„Сестра Вода, полезна и смирена, и скъпоценна, и чиста“: в Песента водата е сестра, на която се благодари.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Розите на Сан Дамиано",
+      "kind": "fiore",
+      "description": "Цъфнал розов храст до стената: расте там, където някой се е погрижил за другите.",
+      "symbolism": "Красотата, родена от службата: милостта разцъфтява сухите места.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Споделената зеленчукова градина",
+      "kind": "orto",
+      "description": "Малки лехи с билки и зеленчуци, гледани на смени: смиреният труд, който храни всички.",
+      "symbolism": "Всекидневната служба: който обработва градината, не я притежава, а я пази за онези, които ще дойдат.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Кипарисът на мълчанието",
+      "kind": "albero",
+      "description": "Висок и прав кипарис, който бележи границата между градината и гората.",
+      "symbolism": "Молитвата като отвес: корени в земята, връх към небето.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Гнездото на чинките",
+      "kind": "animali",
+      "description": "Сред най-сигурните клони двойка чинки е избрала градината за гнездо.",
+      "symbolism": "Гостоприемството: градината става дом и за онзи, който идва отвън.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Каменната пейка",
+      "kind": "struttura",
+      "description": "Каменна пейка под стената по пладне: мястото, където се сяда и се остава.",
+      "symbolism": "Вярата като доверчива почивка: не винаги се върви; понякога просто се пребъдва.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Слънчогледите на благодарността",
+      "kind": "fiore",
+      "description": "Редица слънчогледи, които се обръщат след светлината през деня.",
+      "symbolism": "Благодарността: да обърнеш лице към светлината е всекидневно упражнение на погледа.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Пчелният кошер",
+      "kind": "animali",
+      "description": "Дървен кошер мирише на восък; пчелите идват и си отиват сред цветята в градината.",
+      "symbolism": "Братството: никоя пчела не прави мед сама и никоя не притежава питата.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Да гледаш небето",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Вдигни поглед от градината към небето. Постой малко в мълчание, без да правиш нищо."
+        },
+        {
+          "kind": "leggi",
+          "text": "Прочети бавно началото на Песента на творенията.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Франциск нарича слънцето „брат“, а луната „сестра“. Каква разлика би имало да гледаш света като семейство, а не като ресурс?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ако искаш, запиши в дневника едно нещо, за което днес можеш да кажеш: „Хвален да си, Господи мой“."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Да слушаш водата",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Приближи се до чешмата. Слушай звука на водата няколко вдишвания, без да бързаш."
+        },
+        {
+          "kind": "leggi",
+          "text": "Прочети отново хвалата на Бога, написана на Ла Верна: молитва, която не иска нищо.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Хвалите на Бога не съдържат молби: само признание. Кога за последен път благодари, без да поискаш нещо?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ако искаш, запиши в дневника три неща, получени днес, дори дребни."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Бавната стъпка",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Измини каменната пътека бавно и забележи всяка стъпка: тежестта, допира, ритъма."
+        },
+        {
+          "kind": "leggi",
+          "text": "Прочети отговора на Франциск до брат Лъв, който търсел верния избор.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "На брат Лъв Франциск не дава наставления, а свобода: „следвай съвестта си пред Бога“. Какво те учи този начин да придружаваш някого?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ако искаш, запиши в дневника едно решение, което носиш, и накъде усещаш, че се обръща съвестта ти."
+        }
+      ]
+    }
+  ]
+}

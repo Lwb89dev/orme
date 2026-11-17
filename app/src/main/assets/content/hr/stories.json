@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Meštar Bernardo",
+      "description": "Gostioničar u Borgo delle Querce već trideset godina: praktičan, sumnjičav prema došljacima, nesposoban ostaviti ikoga na hladnoći. O naselju zna svaki dug i svaku ljubaznost.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Udovica i travarka u Borgo delle Querce. Oštra promatračica i pamćenje naselja: ništa što se dogodi na cesti njoj ne promakne.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Brat Toma",
+      "description": "Manji brat u prolazu umbrijskim cestama. Iznošene sandale, zakrpan habit: navikao je na šutnju i ima rijedak dar slušanja.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martino",
+      "description": "Prosjak sretnut na cesti prema Borgo delle Querce. Bio je potkivač u Spoletu, prije nego što mu je bolest odnijela kovačnicu, kuću i napokon mjesto među ljudima.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Giacomo",
+      "description": "Zidar iz Assisija. Radi na obnovi crkvice San Damiana i izbliza je vidio mladog Franju kako nosi kamenje i pjeva.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matteo",
+      "description": "Planinski lovac, zapovijeda stražom jednih vrata Gubbia u danima straha od vuka. Iznabrazdano lice, koplje nikad daleko, dana riječ koja vrijedi.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido II., biskup Assisija",
+      "description": "Biskup Assisija od 1204. Posvjedočeno u izvorima: pred gradom je pokrio Franju svojim plaštem u prizoru odricanja od očevih dobara.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Petar Bernardone",
+      "description": "Bogati trgovac suknom iz Assisija, Franjin otac. Sukob sa sinom zbog prodanih dobara završio je javnim prizorom pred biskupom, koji pripovijeda Toma Čelanski.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Franjo Bernardone",
+      "description": "Mladi trgovčev sin koji u Assisiju, tih godina, ostavlja sve i počinje iznova bos. Putnik ga susreće izdaleka ili na koji trenutak; njegove riječi ovdje su malobrojne i vjerne izvorima.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Putnikov plašt",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Pod kišom kasne jeseni putnik stiže u Borgo delle Querce i susreće promrzlog prosjaka: prvi izbor puta.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Kiša kasne jeseni pratila te je tri dana. Kad spaziš prve kuće Borgo delle Querce, večer već zatvara staze, a s tvog plašta cijedi se voda.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Pod živicom trnine skvrčena prilika stišće se u izlizanu vreću. Ne pruža ruku: samo te gleda, bistrim očima onoga tko je prestao tražiti.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martino je star koliko i staze. Bio je potkivač u Spoletu, prije nego što mu je bolest odnijela kovačnicu i kuću. Sada mu je cesta sve što ostaje.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Ne tražim ništa, došljače. Ali noć će biti duga i ledena, a leđa mi više ne podnose vlagu.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martino drhti pod živicom. Što činiš?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Skidaš plašt i stavljaš mu ga na ramena.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Pružaš mu ruku i pratiš ga do naselja.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Sjedaš kraj njega, pod živicu, i slušaš ga.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Plašt napušta tvoja ramena i hladnoća ti odmah ulazi u kosti. Ali u toj hladnoći ima nova lakoća, koju ne znaš objasniti.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Nemam ti što vratiti, prijatelju. Samo svoje ime: Martino. U naselju će znati kakav si došljak.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Hodate polako, oslonjeni jedan o drugoga, pod gustom kišom. Na vratima gostionice svjetla još gore.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Pokupio si društvo na cesti, došljače? Uđite obojica: moja vatra ne postavlja pitanja.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Bio sam potkivač u Spoletu: potkivao sam konje gospodâ. Onda su mi ruke počele drhtati, a nitko ne želi kovača koji drhti. Hvala ti što si sjeo: ljudi prolaze i idu ravno, kao da je nesreća zarazna.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Kad ustanete, kiša je stala. Pokazuješ mu put do naselja i gledaš ga kako se polako udaljava, dok ga tama ne uzme.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Gostionica u Borgo delle Querce miriše na drva i kruh. Niska vatra suši odjeću i otapa umor puta.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Prilaziš pultu promrzao i bez plašta. Meštar Bernardo te dugo odmjerava, zatim ti pruža kutljaču toplog vina: „Plašt si dao, ovakve večeri? Ili si lud, ili si bolji nego što izgledaš. Vidjet ćemo.“",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Meštar Bernardo vodi gostionicu trideset godina: praktičan, nepovjerljiv, nesposoban ostaviti ikoga na hladnoći. O naselju zna svaki dug i svaku ljubaznost.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Ovdje nitko ništa ne daruje, došljače: kruh se plaća, i nevolje također. Ali mjesto kraj vatre nije na prodaju. Ono pripada onomu tko stigne.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "U kutu žena pažljivih očiju sitni bilje u mužaru. To je Lucia, udovica koja liječi naselje korijenjem i strpljivošću. Ništa što se dogodi na cesti njoj ne promakne.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Vidjela sam te kako staješ pod živicom trnine. Mnogi prolaze, na tom zavoju: cesta brzo uči da se ne gleda. Ti si stao. Zapamti to kad ti netko bude govorio tko si.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Otkrio si: Nitko nije tuđinac. Prihvaćanje počinje ovako: ne od zamisli, nego od živice, od promrzlog čovjeka, od zastanka. Ići ususret onomu koga svijet uči izbjegavati prvi je korak svakog puta.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Pod tom živicom, što te pokrenulo, a što zadržalo? Pomisli na svoje današnje ceste: koga obično susrećeš, a pred kim si naučio proći?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Noć prolazi tiho. Ujutro, na pultu gostionice, nalaziš pregršt kestena i nijednu riječ: u naselju se stvari pamte. Tvoj put je počeo.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Trgovčev sin",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, početak 1206.: putnik stiže u dane kad Franjo, pred biskupom Guidom, vraća sve ocu. Grad gleda i pita se.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi te dočekuje žamorom koji nije onaj sajmenih dana. U uličicama ljudi tiho govore o jednom imenu: sinu gospodina Petra Bernardonea, trgovca suknom.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Kod zdenca naselja žena ti objašnjava: otac je odvukao mladića pred biskupa da vrati prodana dobra, i trg se puni. Pod zidinama, kod urušene crkvice San Damiana, zidar se sam bori s urušenim zidom.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Glasovi na trgu rastu. S jedne strane mnoštvo, s druge čovjek sam sa svojim kamenjem.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Siđi u San Damiano pomoći zidaru.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Potrči na trg, prije nego se mnoštvo zatvori.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Popni se na stube San Rufina, da promatraš odozgo.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Sat vremena dižeš kamenje kraj zidara, dok mnoštvo gore buči. Čovjek radi u tišini, zatim pokazuje crkvicu: obnavlja je momak iz Assisija, kaže. Onaj o kojem svi govore.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Nosio je kamenje ovamo kao da su moći, i pjevao. Kažu da je poludio. Ja sam ludih vidio mnogo: nitko nije tako radio.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Kad se vratiš na trg, mnoštvo se već razilazi. Skupljaš krhotine: mladić je vratio sve ocu, čak i odjeću, a biskup ga je pokrio svojim plaštem. Netko se smije. Mnogi ne.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Probijaš se kroz mnoštvo sve do pod biskupovu palaču. Usred, omršavio mladić rasplamtjelih očiju; nasuprot njemu stariji čovjek koji drhti od bijesa: gospodin Petar Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Franjo ima oko dvadeset četiri godine i držanje onoga tko je odrastao među skupocjenim tkaninama i svečanostima. Danas, stojeći pred biskupom, kao da je sve to već ostavio iza sebe.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Moje sukno, moj konj, moj novac: prodano za njegove ludosti! Hoću pravdu, monsignore. Neka se odrekne svega mojega, do posljednje niti.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Duga šutnja. Zatim mladić skida odjeću, komad po komad, i polaže je ocu pred noge. Mnoštvo zadržava dah. Biskup Guido skida plašt i pokriva mu gola ramena.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Do danas sam ocem zvao Petra Bernardonea. Odsad ću slobodno moći reći: Oče naš, koji jesi na nebesima.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Sa stuba katedrale trg je mravinjak. Ne čuješ riječi, ali vidiš sve: mladića koji se svlači, starca koji skuplja odjeću, biskupa koji otvara svoj plašt.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Kraj tebe prodavač jabuka uzdiše: vidio sam suđenja i tučnjave na ovom trgu, kaže, ali nikad sina koji ovako vraća sve. Okolo se netko razuzdano smije, netko briše oči.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Večer pada na Assisi. U gostionicama se ne govori ni o čemu drugom: netko ismijava mladića, netko ga zove svetim, netko odmahuje glavom misleći na vlastitu djecu.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Biskup Guido prelazi opustjeli trg umornim korakom onoga tko je vodio težak dan. On je taj koji je pred svima pokrio Franju svojim plaštem.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Vidio sam u životu mnoge ljude kako se grčevito drže stvari. Nikad da ih itko ovako pusti. Molite za tog momka: i molite za nas, koji gledamo i ne razumijemo.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Trg se prazni. Što činiš prije nego nastaviš put?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Izdaleka slijediš Franju, koji je sišao prema San Damianu.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Ostaješ slušati glasove trga.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Vraćaš se zidaru, dovršiti što si započeo.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Slijediš Franju do urušene crkvice. Vidiš ga kako podiže kamen, otresa prašinu, polaže ga na zid kao netko tko uređuje kuću. Ne usuđuješ se smetati ga. Nastavljaš put s tom slikom u očima.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Ostaješ dok se baklje ne ugase. Čuješ cijeli ljudski zvjerinjak: zavist, porugu, suspregnuto divljenje, strah otaca. Gradu će trebati godine da odluči što je vidio.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Vratio si se dovršiti zid? Dobro. Kamenje ne laže: ostaje gdje ga staviš. Taj momak to razumije: kreće iznova od temelja. Sebe, ne samo crkava.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Što je dokumentirano",
+          "text": "Franjino odricanje pred biskupom Guidom, početkom 1206., pripovijeda Prvi životopis Tome Čelanskog, životopis najbliži svecu: vraćanje odjeće, riječi o Ocu koji je na nebesima, biskupov plašt. Dokumentirana je i obnova San Damiana. Izmišljotini pak pripadaju putnik kojeg igraš, zidar Giacomo i razgovori skupljeni na trgu.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Otkrio si: Ništa vlastito, sve primljeno. Odricanje nije prezir prema stvarima: to je oslobođenje od zamisli da ih se posjeduje. Tko ništa ne posjeduje, ništa ne mora braniti i sve može primiti kao dar.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Napuštaš Assisi dok se svjetla pale jedno po jedno. Vidio si čovjeka kako ostaje nag i slobodan na trgu, i cijeli grad kako se pita. I ti hodaš lakše: ili možda samo pažljivije prema težini stvari.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Čovjek na rubu ceste",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Na cestama među naseljima zvuk klepetaljke najavljuje gubavca. Putnik se mora obračunati sa strahom, gađenjem i poštovanjem: i s licem koje poznaje.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Cesta između naselja i doline ide uz počinula polja i šume crnike. Na raskrižju čuješ suh, ritmičan zvuk: drvenu klepetaljku kojom gubavci najavljuju svoj prolazak.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Na rubu ceste, umotan u krpe, sjedi čovjek. Prvo što osjetiš jest vlastito tijelo koje se ukoči: korak koji usporava, zadržan dah, želja da prijeđeš na drugu stranu.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Onda ga vidiš: na ramenima čovjeka, zakrpan i izblijedio, tvoj je plašt. Onaj koji si dao one večeri kad si stigao u Borgo delle Querce. Plašt prepoznaš prije nego njega.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Ne prilazi bliže, prijatelju: bolest me uzela, a zakon me šalje izvan svijeta. Ali tvoj plašt održao me je na životu preko zime. Ja sam Martino: dugujem ti život, a ne mogu ti ni ruku stisnuti.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Gubavac na rubu ceste. Što činiš?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Prilaziš na korak od njega i govoriš mu.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Ostavljaš mu kruh i smokve na kamenu, ne približavajući se.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Prolaziš. Ali nakon dvadeset koraka staješ i vraćaš se.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Izbliza, pod sivim pepelom bolesti, prepoznaješ bistre oči čovjeka iz živice: to je Martino, prosjak tvog prvog dana u naselju.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Bolest mi je uzela prste, zatim mi je naselje uzelo ostalo. Udaram ovo drvo i ljudi bježe prije nego me vide. Ti si pak ostao. Ne znaš kakav je dar biti pogledan u lice.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Polažeš kruh i smokve na ravan kamen, na pola puta između sebe i njega. To je način koji svi rabe: ljubav na sigurnoj udaljenosti. On polako pognu glavu.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Kruha mi je dosta, i hvala ti. Ali zapamti, došljače: takvi kao ja umiru dvaput. Prvi put kad stigne bolest, drugi kad ih nitko više ne zove imenom.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Napraviš dvadeset koraka prema dolini. Onda te stid zaustavi jače od klepetaljke: vraćaš se, polako, do ruba ceste. Čovjek podiže pogled, začuđen.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Mnogi prolaze, malo tko se vraća. Korak natrag najteži je od svih: znam, i ja sam to naučio. Sjedni, ako želiš. Reci mi odakle dolaziš.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Ostanete razgovarati dok sunce zalazi. Martino ti pripovijeda o bratu iz Assisija, onom trgovčevu sinu koji je sve ostavio: sada ulazi u lazzarete, pere rane i svakoga zove imenom.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Lazzaret je u dolini, iza mosta, kaže Martino. Ako tražiš tog brata, ondje ćeš ga naći.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Nudiš se da ga otpratiš do lazzareta.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Obećaješ mu da ga u naselju nitko neće zaboraviti.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Pratiš ga dolinom, polako, ne dodirujući ga, ali ni ne izmičući. Na mostu se pozdravljate kako se pozdravljaju prijatelji: sa žaljenjem što se morate rastati.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Naselje me je otjeralo, kaže Martino. Ali ako netko gore još izgovori moje ime, bit ću manje mrtav. Obećaješ mu to. Još ne znaš koliko će stajati održati to obećanje.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Franjine riječi",
+          "text": "U Oporuci, svojem najosobnijem spisu izdiktiranom na kraju života, Franjo pripovijeda da ga je Gospodin odveo među gubavce i da je s njima učinio milosrđe: ono što mu se činilo gorkim pretvorilo se u slatkoću (Oporuka 1–3). To je jedan od rijetkih događaja posvjedočenih njegovim vlastitim glasom. Martino i vaš susret pripadaju izmišljotini Putnika.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Otkrio si: Susret koji mijenja život. Ljubav nije osjećaj: to je tjelesna gesta onoga tko prilazi isključenomu i otkriva da se gorčina pretvara u slatkoću. Tko daruje, ne staje iznad onoga tko prima: susreću se.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Otkrio si: Postati bližnji tijelom. U Oporuci Franjo ne kaže da je osjetio milosrđe: kaže da ga je učinio. Suosjećanje je istinito kad se da dosegnuti patnjom drugoga sve do toga da pokrene ruke.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Što je danas pokrenulo tvoje tijelo, prije tvojih misli: strah, gađenje, nježnost? Sjeti se lica koje si naučio izbjegavati. Kako se zove?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Nastavljaš put po mraku, sa zvukom klepetaljke koji se gubi iza leđa. Nešto se, u načinu na koji gledaš ljude, zauvijek promijenilo.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Zvijer iz Gubbia",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio živi u strahu od okrutnog vuka. Između onih koji organiziraju obranu, onih koji slijede nenaoružanog brata i onih koji traže posredovanje, putnik vidi kako se rađa mir.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio ti se iznenada ukazuje, priljubljen uz goru. Ali vrata su zatvorena usred dana, a polja oko njega pusta: nitko više ne šalje stada na pašu.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matteo zapovijeda stražom vrata: planinski lovac, iznabrazdano lice i koplje nikad daleko. On organizira hajke na zvijer.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Vuk, došljače. Krupan kao tele i bez straha od ljudi. Uzeo je ovce, pse, a onda i gore. Izaći ćemo nas dvadesetorica, naoružani. Ako su ti noge čvrste, kloni se šume.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "U krčmi kraj vrata kruži glas koji zvuči kao poruga: u gradu je brat iz Assisija, od onih bosih koji pozdravljaju zaželjevši mir. Kaže da će sam, nenaoružan, ići ususret zvijeri.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Grad je stiješnjen između straha i nevjerice. Što činiš?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Pomozi Matteu organizirati obranu kuća i stada.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Slijedi brata izvan zidina, ostajući nekoliko koraka iza.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Uvjeri lovce da prate brata bez kopalja.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Cijelu noć zaprečujete vrata, nosite snopove, organizirate straže. Ako zvijer napadne, grad neće biti iznenađen. To je pravi posao, i ljudi dišu.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Ne volim one koji govore vukovima, ali volim one koji rade. Ti si radio. Sutra, s kopljima ili bez, Gubbio će biti spreman.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Ujutro, sa zidina, vidite brata kako sam izlazi prema šumi. Vrlo duga šutnja. Zatim se ponovno pojavi na cesti: a kraj njega, pitom kao jagnje, hoda vuk.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Hodaš tri koraka iza brata, iza posljednje kuće. Šuma se sklapa nad stazom i strah ti steže grlo: ali njegovi koraci su mirni i vuku naprijed i tvoje.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Ne boj se, brate. Idemo ususret stvoru koji je gladan i uplašen, kao i svi mi. Ostani blizu, ako želiš.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Zvijer izlazi iz šume režeći. Brat se prekriži i govori joj kao bratu: nudi joj mir, u ime saveza. I vuk, pred tvojim očima, lijega mu pred noge.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Dugo razgovaraš s Matteom i njegovima: bez kopalja, bez pasa. Slijedit ćete brata iz daljine, spremni na sve, ali odlučni da ne udarite prvi. Teško ih je uvjeriti: strah uvijek hoće željezo.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Učinit ćemo kako kažeš. Ali ako zvijer skoči, ne odgovaram ni za što. Neka nam nebo pomogne: idemo u hajku bez oružja.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Pola grada slijedi u tišini, uz stazu. Kad se vuk pojavi, stotinu ruku traži oružje kojeg nema: ali nijedna se ne podiže. Brat govori, zvijer se prikuje, i mir počinje ovako: od straha koji nitko ne istrese na drugoga.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "Na trgu, pred cijelim Gubbiom, brat pečati savez: grad će hraniti vuka sve njegove dane, a vuk više neće dirnuti ni dlaku ljudima ni životinjama. Zvijer podiže šapu, i trg eksplodira.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Strah se otapa u slavlje. Što činiš?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Nudiš se da svaki dan odneseš kruh do vučje jazbine.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Ostaješ s Matteom skidati klopke u šumi.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Sjedaš na trg i skupljaš glasove grada.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "Dok ostaješ u Gubbiu, svako jutro tvoj kruh stiže do jazbine. Djeca te slijede iz daljine: žele vidjeti je li istina da zvijer ne grize ruku koja je hrani.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Cijeli dan skidate zamke i omče. Godine da ih postavljamo, kaže Matteo, a bos brat učini ih beskorisnima u jedno jutro. Smije se, ali u tom smijehu ima poštovanja.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "Na trgu čuješ grad kako se ponovno pripovijeda: staricu koja mu je potajno nosila juhu, pekara koji mu duguje prste, djecu koja ga već zovu imenom. Strah je ugasio čak i priče.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Pripovijest ili povijest?",
+          "text": "Vuka iz Gubbia pripovijedaju Cvjetići, zbirka s kraja četrnaestog stoljeća (pogl. 21): hagiografska književnost, ne kronika, i nijedan dokument toga doba to ne potvrđuje. Nudimo ga kao pripovijest memorije, ne kao povijesnu činjenicu. Dokumentarnu osnovu imaju, naprotiv, pozdrav mira koji Franjo kaže da je primio, spomenut u Oporuci, i navještaj mira prve braće. Tvoja uloga u događaju je izmišljotina.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Otkrio si: Pozdrav mira. Mir nije odsutnost rata: to je navještaj koji se nosi, hrabrost koju treba imati. Rađa se odlaskom ususret onomu što plaši, bez oružja u ruci.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbio je imao tri puta: braniti se, pouzdati se, posredovati. Koji si odabrao, i zašto? U tvom životu, tko ili što je vuk od kojeg se svi brane zaprečući vrata?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Napuštaš Gubbio dok vuk, već sit i bezopasan, spava na suncu kraj peći. Grad je naučio novu riječ, i ti si je naučio s njim: mir se čini, ne čeka se.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Noć oluje",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Zatečen olujom, putnik dijeli špilju s bratom Tomom: noć pripovijedanja i slušanja, i jutro sunca na mokrom lišću.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Na povratku prema Borgo delle Querce nebo se brzo zatvara. Vjetar nosi miris kiše, a prve grmljavine kotrljaju se preko hrptova.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Dok oluja prasne, glas te zove iz špilje na rubu staze. Bos brat mahne ti da uđeš, između dviju kapi i munje.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Brat Toma je manji brat u prolazu: iznošene sandale, zakrpan habit, štap i ništa više. Navikao je na šutnju i ima rijedak dar slušanja.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Uđi, brate, i osuši se. Špilja nije ničija: noćas je dijelimo s kišom. Imam malo kruha i vatru: za dva putnika to je palača.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Vatra se primi, kruh se sam podijeli. Vani oluja šumi kao rijeka; unutra, prvi put nakon mnogo dana, ne žuriš.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Noć će biti duga. Čime je ispuniš?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Pitaš brata Tomu o njegovu životu, prije habita.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Ti pripovijedaš: naselje, Martina, trg u Assisiju, vuka iz Gubbia.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Ostanete u tišini, slušajući kišu.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Bio sam pastir, na ovim gorama. Bujica mi je odnijela stado i kolibu, u noći poput ove. Plakao sam kao dijete. Onda sam otkrio da, ne posjedujući više ništa, više se ničega ne bojim: ondje sam razumio braću iz Assisija.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Brat Toma sluša ne prekidajući, oči na vatri. Na kraju kimne: svaka cesta uči, kaže, ako je hodaš otvorenih očiju. Pustio si da te cesta promijeni, i to se vidi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Šutnja nije prazna: kiša mjeri takt, vatra odgovara, dah drugoga drži ritam. Razumiješ da ima razgovora kojima ne trebaju riječi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Pred zoru oluja se stanjiva u blagu kišu. Brat Toma govori o svom bratu Franji, koji i s postelje boli sastavlja hvale: suncem zove brata, vodom sestru, majkom zemlju koja nas nosi u krilu.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Kaže da svako stvorenje hvali Stvoritelja čineći ono što jest: sunce grijući, voda napajajući, zemlja hraneći. I da je i ružan dan primljen, a ne zaslužen. Ako to ponavljam, zato je što sam to noćas, ovdje, vidio svojim očima.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Prva svjetla prodiru u špilju.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Pitaš ga kako se zahvaljuje kad sve ide loše.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Ne pitaš ništa: gledaš kapi na lišću, i to je dosta.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Ne znam to objasniti, brate. Znam da zahvalnost nije nagrada dobrih dana: to je vježba, kao hodanje. Tko to čini svaki dan, u crnim danima ima uvježbane noge.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Ostanete gledati dok sunce ne probije oblake. Mokro lišće pali se jedno po jedno, i cijela dolina kao da je tek stvorena.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Izlazite iz špilje u opran svijet. Voda još šumi s grana, sunce je čini da blista, i otkrivaš da se smiješ bez razloga. Brat Toma uzima svoj štap: vaši se putovi ovdje rastaju.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Pjesma, špilja, izmišljotina",
+          "text": "Pjesma stvorova autentično je Franjino djelo, sastavljeno 1225.–1226., u doba bolesti: lauda na narodnom govoru u kojoj sunce, mjesec, vjetar, voda, vatra i zemlja hvale Boga kao braća i sestre. Autentične su i Hvale Boga Svevišnjega, molitva bez molbi. Brat Toma i noć u špilji pripadaju izmišljotini Putnika; njegove riječi parafraziraju Pjesmu, a ne citiraju je.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Otkrio si: Brat sunce, sestra voda. Svijet nije skladište zaliha niti kumir: to je obitelj stvorova koji hvale Stvoritelja. Briga za stvoreno rađa se iz srodstva i zahvalnosti, ne iz koristi.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Otkrio si: Hvala koja ništa ne traži. Zahvalnost ne nagrađuje sreću: to je uvježban pogled koji prepoznaje dar u svemu, u vodi, suncu, danu, čak i u bolesti.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Ove si noći dijelio kruh, vatru i šutnju s neznancem. Pogledaj svoj današnji dan kako je špilja gledala oluju: što je, od onoga što imaš, primljeno, a ne zasluženo?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Hodajući prema naselju prisjećaš se sestre vode, koja napaja i pere i pjeva u jarcima. U vrtu pamćenja, od danas, teče zdenac.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "U Borgo delle Querce dočekuju te kao onoga tko se vraća izdaleka. Još imaš miris dima i kiše u odjeći, a u ušima glas vode. Put se nastavlja.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

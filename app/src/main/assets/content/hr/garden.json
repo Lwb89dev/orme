@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Kamenita staza",
+      "kind": "sentiero",
+      "description": "Staza od svijetlog kamenja prolazi kroz vrt: mjesto s kojeg svaki put počinje.",
+      "symbolism": "Put kao slika života: staza se pravi hodanjem, kamen po kamen.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Maslina mira",
+      "kind": "albero",
+      "description": "Stara maslina, srebrnaste krošnje, zasađena kad si otkrio pozdrav mira.",
+      "symbolism": "Maslina: sredozemna biljka mira i strpljivosti. Raste polako i traje naraštajima.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Zdenac sestre vode",
+      "kind": "acqua",
+      "description": "Kameni zdenac bistre vode, koju jutarnje sunce zapali.",
+      "symbolism": "„Sestro vodo, korisna i ponizna i dragocjena i čista“: u Pjesmi je voda sestra kojoj se zahvaljuje.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Ruže San Damiana",
+      "kind": "fiore",
+      "description": "Ružin grm u cvatu kraj zida: raste ondje gdje se netko pobrinuo za druge.",
+      "symbolism": "Ljepota koja se rađa iz služenja: ljubav prema bližnjemu cvjeta i na suhim mjestima.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Zajednički vrt",
+      "kind": "orto",
+      "description": "Male gredice začinskog bilja i povrća, njegovane naizmjence: ponizan rad koji hrani sve.",
+      "symbolism": "Svakodnevno služenje: tko obrađuje vrt, ne posjeduje ga, nego ga čuva za one koji će doći.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Čempres šutnje",
+      "kind": "albero",
+      "description": "Visok i ravan čempres koji označuje granicu između vrta i šume.",
+      "symbolism": "Molitva kao okomica: korijen u zemlji, vrh prema nebu.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Gnijezdo zeba",
+      "kind": "animali",
+      "description": "Među najsigurnijim granama par zeba odabrao je vrt za gnijezdo.",
+      "symbolism": "Prihvaćanje: vrt postaje dom i onomu tko dolazi izvana.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Kamena klupa",
+      "kind": "struttura",
+      "description": "Kamena klupa pod zidom u podne: mjesto da sjedneš i ostaneš.",
+      "symbolism": "Vjera kao pouzdano zastajanje: ne treba uvijek hodati, katkad jednostavno ostati.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Suncokreti zahvalnosti",
+      "kind": "fiore",
+      "description": "Red suncokreta koji se tijekom dana okreću za svjetlom.",
+      "symbolism": "Zahvalnost: okretati se prema svjetlu svakodnevna je vježba pogleda.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Pčelinja košnica",
+      "kind": "animali",
+      "description": "Drvena košnica miriše na vosak; pčele odlaze i dolaze s cvjetova u vrtu.",
+      "symbolism": "Bratstvo: nijedna pčela ne pravi med sama, i nijedna ne posjeduje saće.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Gledati nebo",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Podigni pogled s vrta prema nebu. Ostani nekoliko trenutaka u tišini, ne čineći ništa."
+        },
+        {
+          "kind": "leggi",
+          "text": "Polako pročitaj početak Pjesme stvorova.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Franjo sunce zove „bratom“, a mjesec „sestrom“. Što bi se promijenilo kad bismo svijet gledali kao obitelj, a ne kao zalihu?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ako želiš, zapiši u dnevnik jednu stvar zbog koje danas možeš reći: „Hvaljen budi, moj Gospodine“."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Slušati vodu",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Priđi zdencu. Slušaj zvuk vode nekoliko udaha, bez žurbe."
+        },
+        {
+          "kind": "leggi",
+          "text": "Ponovno pročitaj hvalu Bogu napisanu na La Verni: molitvu koja ništa ne traži.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Hvale Boga ne sadrže molbe: samo priznanje. Kad si zadnji put zahvalio a da nisi ništa tražio?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ako želiš, zapiši u dnevnik tri stvari koje si danas primio, i one male."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Polagan korak",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Polako prođi kamenitom stazom, primjećujući svaki korak: težinu, dodir, ritam."
+        },
+        {
+          "kind": "leggi",
+          "text": "Pročitaj Franjin odgovor bratu Leonu, koji je tražio pravi izbor.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Bratu Leonu Franjo ne daje upute nego slobodu: „slijedi svoju savjest pred Bogom“. Čemu te uči takav način praćenja?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ako želiš, zapiši u dnevnik odluku koju nosiš i kamo osjećaš da ti se savjest okreće."
+        }
+      ]
+    }
+  ]
+}

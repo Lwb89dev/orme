@@ -79,4 +79,40 @@ class ShippedContentTest {
             errors.isEmpty(),
         )
     }
+
+    @Test
+    fun `ogni lingua distribuita conserva gli originali e non ha errori`() {
+        val italian = loadRealCatalog("it")
+        val content = File("../../app/src/main/assets/content")
+        val languages = content.listFiles()?.filter { it.isDirectory && it.name != "ui" }?.map { it.name } ?: emptyList()
+        for (language in languages) {
+            if (language == "it") continue
+            val catalog = loadRealCatalog(language)
+            assertTrue("$language: manifest", catalog.manifest.language == language)
+            val errors = ContentValidator().errors(catalog)
+            assertTrue(
+                "Errori di contenuto $language:\n" + errors.joinToString("\n"),
+                errors.isEmpty(),
+            )
+            assertTrue(
+                "$language: insegnamenti",
+                catalog.teachings.map { it.id } == italian.teachings.map { it.id },
+            )
+            assertTrue(
+                "$language: passaggi",
+                catalog.sourcePassages.map { it.id } == italian.sourcePassages.map { it.id },
+            )
+            catalog.sourcePassages.forEach { passage ->
+                assertTrue(
+                    "$language ${passage.id}: l'originale medievale non va tradotto",
+                    passage.originalText == italian.passagesById.getValue(passage.id).originalText,
+                )
+            }
+            if (language != "en") {
+                val italianNodes = italian.storyChapters.flatMap { chapter -> chapter.nodes.map { it.id } }.sorted()
+                val nodes = catalog.storyChapters.flatMap { chapter -> chapter.nodes.map { it.id } }.sorted()
+                assertTrue("$language: nodi del racconto", nodes == italianNodes)
+            }
+        }
+    }
 }

@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Γέννηση στην Ασίζη",
+      "description": "Ο Ιωάννης του Πιέτρο ντι Μπερναρντόνε, ο λεγόμενος Φραγκίσκος, γεννιέται στην Ασίζη από πλούσιο έμπορο υφασμάτων και από την κυρά Πίκα.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 ή 1182 (αβέβαιο)",
+      "chronologicalUncertainty": "Οι πηγές δεν συμφωνούν για το έτος: το 1181 και το 1182 προτείνονται και τα δύο από την ιστοριογραφία.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Πόλεμος και αιχμαλωσία",
+      "description": "Στον πόλεμο ανάμεσα στην Ασίζη και την Περούτζα ο Φραγκίσκος πολεμά στη μάχη της Κολλεστράδα (Νοέμβριος 1202), αιχμαλωτίζεται και μένει περίπου έναν χρόνο στην Περούτζα. Με την επιστροφή, μια αρρώστια αρχίζει να τον αλλάζει.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202-1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Το όνειρο του Σπολέτο και η επιστροφή",
+      "description": "Αφού ξεκίνησε για την Απουλία αναζητώντας στρατιωτική δόξα, στο Σπολέτο ο Φραγκίσκος βλέπει ένα όνειρο που τον κάνει να γυρίσει στην Ασίζη. Αρχίζει η απομάκρυνση από την προηγούμενη ζωή: όνειρα, προσευχή, προσκύνημα στη Ρώμη.",
+      "yearFrom": 1205,
+      "dateLabel": "περίπου 1204-1205",
+      "chronologicalUncertainty": "Η ανασύνθεση αυτών των μηνών αντλείται από τις μεσαιωνικές βιογραφίες· οι ακριβείς χρονολογίες είναι συμβατικές.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Η συνάντηση με τους λεπρούς",
+      "description": "Ο Φραγκίσκος διηγείται στη Διαθήκη ότι ο Κύριος τον οδήγησε ανάμεσα στους λεπρούς και ότι «έπραξε μαζί τους ευσπλαχνία»: το επεισόδιο που ο ίδιος δείχνει ως αρχή της μεταστροφής του.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "περίπου 1205-1206",
+      "chronologicalUncertainty": "Η Διαθήκη δεν δίνει χρονολογία· η τοποθέτηση προηγείται της δημόσιας ρήξης με την οικογένεια.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Ο εσταυρωμένος του Σαν Νταμιάνο",
+      "description": "Στο ερειπωμένο εκκλησάκι του Σαν Νταμιάνο, κατά την παράδοση, ο Φραγκίσκος ακούει τον εσταυρωμένο να του απευθύνει την πρόσκληση: «Επισκεύασε τον οίκο μου». Αρχικά το ερμηνεύει κατά γράμμα και επισκευάζει εκκλησίες με τα ίδια του τα χέρια.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "περίπου 1205-1206",
+      "chronologicalUncertainty": "Επεισόδιο μαρτυρημένο κυρίως από τη Δεύτερη ζωή και από τη μεταγενέστερη παράδοση· η κατά λέξη διατύπωση του διαλόγου ανήκει στην ευλαβική αφήγηση.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Η αποταγή μπροστά στον επίσκοπο",
+      "description": "Κλητευμένος από τον πατέρα του μπροστά στον επίσκοπο Γκουίντο για τα αγαθά που πούλησε, ο Φραγκίσκος τα επιστρέφει όλα, μαζί και τα ρούχα, και εμπιστεύεται τον εαυτό του στον «Πατέρα που είναι στους ουρανούς». Ο επίσκοπος τον σκεπάζει με τον δικό του μανδύα.",
+      "yearFrom": 1206,
+      "dateLabel": "αρχές του 1206",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Οι πρώτοι σύντροφοι",
+      "description": "Ο Βερνάρδος του Κουινταβάλλε, ο Αιγίδιος και άλλοι ενώνονται με τον Φραγκίσκο μοιραζόμενοι τη μορφή ζωής του: γεννιέται η οδοιπορική αδελφότητα, ανάμεσα σε εργασία, ελεημοσύνη και αναγγελία της ειρήνης.",
+      "yearFrom": 1208,
+      "dateLabel": "1208-1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Η έγκριση του Ιννοκέντιου Γ΄",
+      "description": "Ο Φραγκίσκος και οι σύντροφοι πηγαίνουν στη Ρώμη· ο Ιννοκέντιος Γ΄ εγκρίνει προφορικά την ευαγγελική μορφή ζωής τους. Δεν σώζεται κανένα έγγραφο της έγκρισης: η παράδοση τη χρονολογεί στο 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (ή 1209)",
+      "chronologicalUncertainty": "Η έγκριση ήταν προφορική και κανένα έγγραφο δεν σώθηκε· το ακριβές έτος (1209 ή 1210) συζητείται.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Η Πορτσιουνκόλα, σπίτι της αδελφότητας",
+      "description": "Η μικρή εκκλησία της Σάντα Μαρία ντέλι Άντζελι, η λεγόμενη Πορτσιουνκόλα, γίνεται η σταθερή κατοικία της αδελφότητας: πνευματικό και συναισθηματικό κέντρο του κινήματος.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211-1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Η φυγή της Κλάρας",
+      "description": "Η Κλάρα Οφφρεντούτσο αφήνει το πατρικό σπίτι και φτάνει στον Φραγκίσκο στην Πορτσιουνκόλα, τη νύχτα ανάμεσα στην Κυριακή των Βαΐων και τη Δευτέρα του 1212: αρχίζει η μορφή ζωής της που θα γεννήσει τις Κλαρισσές.",
+      "yearFrom": 1212,
+      "dateLabel": "18-19 Μαρτίου 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Η συνάντηση με τον σουλτάνο",
+      "description": "Κατά την πέμπτη σταυροφορία ο Φραγκίσκος διασχίζει τις γραμμές και συναντά τον σουλτάνο αλ-Μαλίκ αλ-Καμίλ στη Δαμιέτη: επεισόδιο διαλόγου σε καιρό πολέμου, τεκμηριωμένο από τις φραγκισκανικές πηγές και μνημονευμένο από εξωτερικούς χρονικογράφους.",
+      "yearFrom": 1219,
+      "dateLabel": "Σεπτέμβριος 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Ο Κανόνας χωρίς βούλα",
+      "description": "Στο Φόντε Κολόμπο, κοντά στο Ριέτι, συντάσσεται ο πρώτος ολοκληρωμένος κανόνας της αδελφότητας (Regula non bullata), μακρύς και πνευματικός, που δεν εγκρίθηκε ποτέ επίσημα.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Ο Κανόνας με βούλα",
+      "description": "Ο Ονώριος Γ΄ εγκρίνει με τη βούλα «Solet annuere» τον οριστικό κανόνα (29 Νοεμβρίου 1223): πιο σύντομος και νομικός, ακόμη και σήμερα θεμέλιο του Τάγματος των Ελασσόνων Αδελφών.",
+      "yearFrom": 1223,
+      "dateLabel": "29 Νοεμβρίου 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Τα Χριστούγεννα του Γκρέτσο",
+      "description": "Τα Χριστούγεννα του 1223 ο Φραγκίσκος ετοιμάζει στο Γκρέτσο μια αληθινή φάτνη, με άχυρο, βόδι και γαϊδουράκι, για να δει «με τα μάτια του σώματος» τη φτώχεια της Βηθλεέμ: η αρχή της παράδοσης της φάτνης.",
+      "yearFrom": 1223,
+      "dateLabel": "Χριστούγεννα 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "Η Λα Βέρνα",
+      "description": "Τον Σεπτέμβριο του 1224, σε απόσυρση στο όρος της Λα Βέρνα, ο Φραγκίσκος λαμβάνει — κατά τις πιο κοντινές μεσαιωνικές πηγές — τα στίγματα του πάθους του Χριστού, που θα προσπαθήσει να κρατήσει κρυφά.",
+      "yearFrom": 1224,
+      "dateLabel": "Σεπτέμβριος 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Το Άσμα των πλασμάτων",
+      "description": "Άρρωστος και σχεδόν τυφλός, ο Φραγκίσκος συνθέτει σε διαδοχικές στιγμές τον ύμνο στο ουμβρικό ιδίωμα που είναι γνωστός ως Άσμα των πλασμάτων: δοξολογία στον Θεό μέσω του αδελφού ήλιου, της αδελφής νερού, της μητέρας γης και τέλος της αδελφής σωματικού θανάτου.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225-1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Ο λύκος του Γκούμπιο",
+      "description": "Τα Φιορέτι διηγούνται ότι ο Φραγκίσκος μεσολάβησε την ειρήνη ανάμεσα στην πόλη του Γκούμπιο και σε έναν άγριο λύκο: η πόλη θα τον έτρεφε, ο λύκος δεν θα έβλαπτε πια κανέναν. Αγιογραφική αφήγηση, όχι χρονικό.",
+      "yearFrom": 1220,
+      "dateLabel": "αβέβαιη χρονολογία",
+      "chronologicalUncertainty": "Επεισόδιο της αγιογραφικής παράδοσης του δέκατου τέταρτου αιώνα (Φιορέτι, κεφ. 21), χωρίς τεκμηριωτικό έρεισμα: το προτείνουμε ως αφήγηση της μνήμης, όχι ως ιστορικό γεγονός.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Ο θάνατος στην Πορτσιουνκόλα",
+      "description": "Ο Φραγκίσκος πεθαίνει το βράδυ της 3ης Οκτωβρίου 1226 στην Πορτσιουνκόλα, αφού υπαγόρευσε τη Διαθήκη και ζήτησε να τον αποθέσουν γυμνό πάνω στην γυμνή γη.",
+      "yearFrom": 1226,
+      "dateLabel": "3 Οκτωβρίου 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Η αγιοκατάταξη",
+      "description": "Ο Γρηγόριος Θ΄ ανακηρύσσει άγιο τον Φραγκίσκο στην Ασίζη στις 16 Ιουλίου 1228, λιγότερο από δύο χρόνια μετά τον θάνατό του, και αναθέτει στον Θωμά του Τσελάνο την πρώτη επίσημη βιογραφία.",
+      "yearFrom": 1228,
+      "dateLabel": "16 Ιουλίου 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Φραγκίσκος της Ασίζης",
+      "role": "Ιδρυτής της αδελφότητας των Ελασσόνων",
+      "description": "Ιωάννης του Πιέτρο ντι Μπερναρντόνε (1181/82-1226). Έμπορος, έπειτα οδοιπόρος μετανοών, έπειτα ιδρυτής μιας αδελφότητας που άλλαξε την ιστορία της Εκκλησίας. Αγιοκατατάχθηκε το 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Κλάρα της Ασίζης",
+      "role": "Ιδρύτρια των Κλαρισσών",
+      "description": "Ευγενής της Ασίζης (1193/94-1253), ακολουθεί τον Φραγκίσκο το 1212 και ιδρύει την κοινότητα των «Φτωχών Κυριών» στο Σαν Νταμιάνο. Πρώτη γυναίκα που έγραψε εγκεκριμένο μοναστικό κανόνα.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Βερνάρδος του Κουινταβάλλε",
+      "role": "Πρώτος σύντροφος",
+      "description": "Πλούσιος της Ασίζης, μοιράζει τα αγαθά του και γίνεται ο πρώτος σύντροφος του Φραγκίσκου (1208). Πέθανε το 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Αδελφός Αιγίδιος",
+      "role": "Ανάμεσα στους πρώτους συντρόφους",
+      "description": "Μορφωμένος χωρικός και μυστικός, τρίτος σύντροφος του Φραγκίσκου· η παράδοση του αποδίδει τα σοφά «Αποφθέγματα».",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Αδελφός Λέων",
+      "role": "Εξομολόγος και πιστός σύντροφος",
+      "description": "Σύντροφος των τελευταίων χρόνων, αποδέκτης της ιδιόχειρης επιστολής του Φραγκίσκου και μάρτυρας της Λα Βέρνα.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Γκουίντο Β΄, επίσκοπος της Ασίζης",
+      "role": "Προστάτης του Φραγκίσκου",
+      "description": "Επίσκοπος της Ασίζης από το 1204· σκέπασε με τον μανδύα τον Φραγκίσκο στη σκηνή της αποταγής και στήριξε τα πρώτα του βήματα.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Πιέτρο ντι Μπερναρντόνε",
+      "role": "Πατέρας του Φραγκίσκου",
+      "description": "Έμπορος υφασμάτων της Ασίζης· η σύγκρουση με τον γιο για τα αγαθά που πουλήθηκαν κατέληξε στη δημόσια σκηνή μπροστά στον επίσκοπο.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Κυρά Πίκα",
+      "role": "Μητέρα του Φραγκίσκου",
+      "description": "Η παράδοση τη θυμάται πιο κοντά στον γιο μέσα στην κρίση της μεταστροφής· οι πηγές γι’ αυτήν είναι λιγοστές.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Πάπας Ιννοκέντιος Γ΄",
+      "role": "Ποντίφικας (1198-1216)",
+      "description": "Από τους πιο επιδραστικούς πάπες του Μεσαίωνα· ενέκρινε προφορικά τη μορφή ζωής του Φραγκίσκου, κατά την παράδοση το 1210.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Πάπας Ονώριος Γ΄",
+      "role": "Ποντίφικας (1216-1227)",
+      "description": "Ενέκρινε τον Κανόνα με βούλα το 1223 και στήριξε τη νεαρή αδελφότητα.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Αλ-Μαλίκ αλ-Καμίλ",
+      "role": "Σουλτάνος της Αιγύπτου",
+      "description": "Αγιουβίδης σουλτάνος που συνάντησε τον Φραγκίσκο στη Δαμιέτη το 1219, κατά την πέμπτη σταυροφορία.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Θωμάς του Τσελάνο",
+      "role": "Πρώτος βιογράφος",
+      "description": "Ελάσσων αδελφός, έγραψε την Πρώτη ζωή (1228-29) κατ’ ανάθεση του Γρηγορίου Θ΄ και τη Δεύτερη ζωή (1246-47) συγκεντρώνοντας τις μαρτυρίες των συντρόφων.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Βοναβεντούρα του Μπανιορέτζο",
+      "role": "Θεολόγος και βιογράφος",
+      "description": "Πανεπιστημιακός δάσκαλος και γενικός υπουργός του Τάγματος· ο Μείζων θρύλος του (1260-63) έγινε η επίσημη βιογραφία του Φραγκίσκου.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Καρδινάλιος Ουγκολίνο (έπειτα Γρηγόριος Θ΄)",
+      "role": "Προστάτης του Τάγματος",
+      "description": "Καρδινάλιος προστάτης της αδελφότητας, έπειτα πάπας: αγιοκατάταξε τον Φραγκίσκο το 1228.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Αδελφός Ηλίας της Κορτόνα",
+      "role": "Αμφιλεγόμενος διάδοχος",
+      "description": "Σύντροφος και έπειτα οδηγός του Τάγματος μετά τον Φραγκίσκο· μορφή που συζητείται, σημάδι των εντάσεων ανάμεσα σε χάρισμα και θεσμό.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Ασίζη",
+      "description": "Γενέτειρα του Φραγκίσκου: η πλατεία, ο καθεδρικός του Αγίου Ρουφίνου, τα τείχη, τα μεσαιωνικά σοκάκια.",
+      "historicalNote": "Πραγματικός ιστορικός τόπος.",
+      "isHistoricalPlace": true,
+      "region": "Ουμβρία"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "Σαν Νταμιάνο",
+      "description": "Εκκλησάκι έξω από την Ασίζη, όπου ο Φραγκίσκος προσευχήθηκε μπροστά στον εσταυρωμένο· έπειτα κατοικία της Κλάρας και των αδελφών της.",
+      "historicalNote": "Πραγματικός ιστορικός τόπος.",
+      "isHistoricalPlace": true,
+      "region": "Ουμβρία"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Πορτσιουνκόλα (Σάντα Μαρία ντέλι Άντζελι)",
+      "description": "Μικρή εκκλησία στην πεδιάδα κάτω από την Ασίζη: κατοικία της πρώτης αδελφότητας και τόπος του θανάτου του Φραγκίσκου.",
+      "historicalNote": "Πραγματικός ιστορικός τόπος· σήμερα περικλείεται στη βασιλική της Σάντα Μαρία ντέλι Άντζελι.",
+      "isHistoricalPlace": true,
+      "region": "Ουμβρία"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Ριβοτόρτο",
+      "description": "Καλύβα κοντά στο ρυάκι, όπου οι πρώτοι σύντροφοι έζησαν την οδοιπορική μορφή ζωής.",
+      "historicalNote": "Πραγματικός ιστορικός τόπος· το σημερινό ιερό φυλάει τη μνήμη της εγκατάστασης.",
+      "isHistoricalPlace": true,
+      "region": "Ουμβρία"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Ερημητήριο των Καρτσέρι",
+      "description": "Ερημητήριο στο όρος Σουμπάζιο, ανάμεσα σε πουρνάρια και σπηλιές: τόπος απόσυρσης και προσευχής.",
+      "historicalNote": "Πραγματικός ιστορικός τόπος.",
+      "isHistoricalPlace": true,
+      "region": "Ουμβρία"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Γκούμπιο",
+      "description": "Ουμβρική πόλη δεμένη με την αφήγηση του λύκου και με την παρουσία του Φραγκίσκου κατά την ερημητική περίοδο.",
+      "historicalNote": "Πραγματικός ιστορικός τόπος· το επεισόδιο του λύκου ανήκει στην αγιογραφική παράδοση.",
+      "isHistoricalPlace": true,
+      "region": "Ουμβρία"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Γκρέτσο",
+      "description": "Χωριό της περιοχής του Ριέτι, όπου ο Φραγκίσκος τέλεσε τα Χριστούγεννα του 1223 με ζωντανή φάτνη.",
+      "historicalNote": "Πραγματικός ιστορικός τόπος.",
+      "isHistoricalPlace": true,
+      "region": "Λάτιο"
+    },
+    {
+      "id": "place.laverna",
+      "name": "Λα Βέρνα",
+      "description": "Όρος των τοσκανικών Απεννίνων που δωρήθηκε στον Φραγκίσκο· τόπος της απόσυρσης του 1224 και των στιγμάτων, κατά τις μεσαιωνικές πηγές.",
+      "historicalNote": "Πραγματικός ιστορικός τόπος.",
+      "isHistoricalPlace": true,
+      "region": "Τοσκάνη"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Φόντε Κολόμπο",
+      "description": "Ερημητήριο κοντά στο Ριέτι, όπου συντάχθηκε ο Κανόνας χωρίς βούλα του 1221.",
+      "historicalNote": "Πραγματικός ιστορικός τόπος.",
+      "isHistoricalPlace": true,
+      "region": "Λάτιο"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Δαμιέτη",
+      "description": "Πόλη στο δέλτα του Νείλου, θέατρο της πέμπτης σταυροφορίας και της συνάντησης του Φραγκίσκου με τον σουλτάνο (1219).",
+      "historicalNote": "Πραγματικός ιστορικός τόπος.",
+      "isHistoricalPlace": true,
+      "region": "Αίγυπτος"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Μπούργκο ντέλλε Κουέρτσε",
+      "description": "Φανταστικό χωριό της κοιλάδας του Σπολέτο: το κύριο αφηγηματικό σκηνικό του Οδοιπόρου.",
+      "historicalNote": "Μυθοπλαστικό σκηνικό φτιαγμένο για το παιχνίδι· όχι ιστορικός τόπος.",
+      "isHistoricalPlace": false,
+      "region": "Ουμβρία (φανταστική)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Ουμβρικοί αγροί και δάση",
+      "description": "Οι δρόμοι, τα δάση από πουρνάρια και τα χωράφια ανάμεσα στα χωριά: το οδοιπορικό θέατρο των ιστοριών του Οδοιπόρου.",
+      "historicalNote": "Αφηγηματικό σκηνικό εμπνευσμένο από το πραγματικό ουμβρικό τοπίο.",
+      "isHistoricalPlace": false,
+      "region": "Ουμβρία (σκηνικό)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Αγιογραφία",
+      "definition": "Λογοτεχνία των βίων των αγίων: μεσαιωνικό ευλαβικό είδος που στοχεύει στην οικοδομή, όχι στο χρονικό. Διαβάζεται με άλλα εργαλεία από την τεκμηριωμένη ιστορία."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Μετάνοια",
+      "definition": "Στη γλώσσα του Φραγκίσκου: μεταστροφή της καρδιάς και της ζωής, όχι τιμωρία. Το «να κάνει κανείς μετάνοια» σήμαινε να αλλάξει κατεύθυνση."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Ελάσσων αδελφός",
+      "definition": "Όνομα που διάλεξε ο Φραγκίσκος για τους συντρόφους του: «ελάσσονες», δηλαδή τελευταίοι, χωρίς αξιώσεις βαθμού."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Υπουργός",
+      "definition": "Στη φραγκισκανική αδελφότητα: ο υπεύθυνος μιας κοινότητας ή επαρχίας. Η λέξη σημαίνει «υπηρέτης», όχι σύγχρονο πολιτικό αξίωμα."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Κανόνας",
+      "definition": "Το κείμενο που ορίζει τη μορφή ζωής μιας μοναστικής κοινότητας. Ο Φραγκίσκος έγραψε δύο εκδοχές: χωρίς βούλα (1221) και με βούλα (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Βούλα",
+      "definition": "Επίσημο έγγραφο του πάπα, από τη μολύβδινη σφραγίδα (bulla) που το πιστοποιεί. «Κανόνας με βούλα» = κανόνας εγκεκριμένος με βούλα."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Πορτσιουνκόλα",
+      "definition": "«Μικρή μερίδα» γης: το εκκλησάκι της Σάντα Μαρία ντέλι Άντζελι κοντά στην Ασίζη, σπίτι της αδελφότητας."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Στίγματα",
+      "definition": "Σημάδια του πάθους του Χριστού που οι μεσαιωνικές πηγές αποδίδουν στον Φραγκίσκο μετά την απόσυρση στη Λα Βέρνα (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Λατινική διατύπωση της παράδοσης: «χωρίς τίποτα δικό του», η φραγκισκανική μορφή της φτώχειας."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Λάουδα",
+      "definition": "Θρησκευτικό ποιητικό σύνθεμα στο ιδίωμα, προορισμένο για τραγούδι. Το Άσμα των πλασμάτων είναι μια λάουδα."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Κομμούνα",
+      "definition": "Ο φορέας αστικής αυτοδιοίκησης της μεσαιωνικής Ιταλίας: η Ασίζη του Φραγκίσκου ήταν κομμούνα σε άνοδο και σε σύγκρουση με την Περούτζα και με τη φεουδαρχική εξουσία."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Καπιτούλο",
+      "definition": "Περιοδική συνέλευση μιας μοναστικής αδελφότητας· και «γενικό καπιτούλο» για εκείνη όλου του Τάγματος."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Λεπροκομείο",
+      "definition": "Μεσαιωνικό νοσοκομείο-λαζαρέτο για τους λεπρούς, έξω από τα τείχη της πόλης. Τόπος της αποφασιστικής συνάντησης του Φραγκίσκου."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Ελεημοσύνη",
+      "definition": "Δώρο που ζητείται ή λαμβάνεται για να ζήσει κανείς. Για τους πρώτους αδελφούς ήταν σημάδι εμπιστοσύνης στην Πρόνοια, όχι ταπείνωση."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Ο γιος του εμπόρου (1181/82 - 1202)",
+      "text": "Ο Φραγκίσκος γεννιέται στην Ασίζη από τον Πιέτρο ντι Μπερναρντόνε, πλούσιο έμπορο υφασμάτων, και από την κυρά Πίκα. Μεγαλώνει στην πόλη σε πλήρη άνθηση της κομμούνας: λαμπρός νέος, γενναιόδωρος, λάτρης των γιορτών και των γάλλων τροβαδούρων, ονειρεύεται την ιπποτική δόξα. Το 1202 πολεμά εναντίον της Περούτζας στην Κολλεστράδα· η ήττα και ένας χρόνος αιχμαλωσίας σημαδεύουν το θεαματικό τέλος της πρώτης του ζωής.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Η στροφή (1202 - 1206)",
+      "text": "Η αρρώστια μετά την αιχμαλωσία, το όνειρο του Σπολέτο, το προσκύνημα στη Ρώμη όπου ανταλλάσσει τα ρούχα του με έναν ζητιάνο: ο Φραγκίσκος αναζητά νέα κατεύθυνση. Έπειτα το επεισόδιο που ο ίδιος θα δείξει ως την αρχή: η συνάντηση με τους λεπρούς, όπου «ό,τι μου φαινόταν πικρό μετατράπηκε σε γλυκύτητα». Στο Σαν Νταμιάνο, μπροστά στον εσταυρωμένο, ακούει την πρόσκληση να επισκευάσει τον «οίκο» του Θεού. Πουλά υφάσματα και το άλογο του πατέρα για να επισκευάσει το εκκλησάκι· η σύγκρουση ξεσπά μπροστά στον επίσκοπο, όπου τα επιστρέφει όλα.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "«Επισκεύασε τον οίκο μου» (1206 - 1209)",
+      "text": "Μόνος, ντυμένος μετανοών, ο Φραγκίσκος επισκευάζει πέτρα την πέτρα το Σαν Νταμιάνο, τον Άγιο Πέτρο και την Πορτσιουνκόλα, υπηρετώντας στα λεπροκομεία. Η πόλη πρώτα τον περιγελά, έπειτα αρχίζει να τον κοιτάζει. Ακούγοντας το Ευαγγέλιο καταλαβαίνει την κλήση: να αναγγέλλει την ειρήνη, να ζει χωρίς τίποτα δικό του, οδοιπορώντας. Το σχέδιο αποκαλύπτεται μεγαλύτερο από την επισκευή τριών εκκλησιών: να επισκευάσει την ίδια την Εκκλησία, από τα κάτω.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Η αδελφότητα (1209 - 1219)",
+      "text": "Ο Βερνάρδος του Κουινταβάλλε, ο Αιγίδιος και οι άλλοι: οι πρώτοι σύντροφοι μοιράζονται τη μορφή ζωής και το 1210 (ή το 1209) ο Ιννοκέντιος Γ΄ την εγκρίνει προφορικά. Η Πορτσιουνκόλα γίνεται σπίτι. Το 1212 η Κλάρα της Ασίζης φεύγει νύχτα για να ακολουθήσει την ίδια κλήση. Η αδελφότητα μεγαλώνει πέρα από κάθε πρόβλεψη, με ετήσια καπιτούλα και αποστολές σε όλη την Ευρώπη: γεννιούνται τα προβλήματα των μεγάλων αριθμών.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Προς την Ανατολή (1219 - 1220)",
+      "text": "Μέσα στην πέμπτη σταυροφορία ο Φραγκίσκος φτάνει στο σταυροφορικό στρατόπεδο στη Δαμιέτη, διασχίζει τις γραμμές και συναντά τον σουλτάνο αλ-Μαλίκ αλ-Καμίλ. Οι μεσαιωνικές πηγές περιγράφουν τον αμοιβαίο σεβασμό· η σύγχρονη ιστοριογραφία συζητά τις λεπτομέρειες, αλλά η χειρονομία μένει: σε καιρό πολέμου, να πηγαίνεις προς τον άλλον. Γυρίζοντας βρίσκει την αδελφότητα αλλαγμένη και σε δυσκολία: το μέγεθος απαιτεί δομές που εκείνος φοβάται.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Ο κόπος του να μεγαλώνεις (1220 - 1223)",
+      "text": "Ο Φραγκίσκος αφήνει την καθημερινή καθοδήγηση του Τάγματος και αφοσιώνεται στον γραπτό κανόνα: εκείνος του 1221, μακρύς και ελεύθερος, δεν θα εγκριθεί· εκείνος του 1223, πιο σύντομος και νομικός, λαμβάνει τη βούλα του Ονώριου Γ΄. Η ένταση ανάμεσα σε χάρισμα και θεσμό διατρέχει αυτά τα χρόνια: ο Φραγκίσκος τη ζει μέσα στην πίστη και στον πόνο. Στο Γκρέτσο, τα Χριστούγεννα του 1223, κάνει ορατή τη φτώχεια της Βηθλεέμ με μια αληθινή φάτνη.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Το Άσμα και το βράδυ (1224 - 1226)",
+      "text": "Στη Λα Βέρνα, τον Σεπτέμβριο του 1224, οι πηγές αφηγούνται τα στίγματα. Άρρωστος και σχεδόν τυφλός, στο Σαν Νταμιάνο συνθέτει το Άσμα των πλασμάτων: η δοξολογία γεννιέται στην πιο σκοτεινή εποχή. Προσθέτει τη στροφή της συγχώρησης για να συμφιλιώσει επίσκοπο και ποδεστά, και τέλος εκείνη της «αδελφής σωματικού θανάτου». Αφού υπαγόρευσε τη Διαθήκη, πεθαίνει στην Πορτσιουνκόλα το βράδυ της 3ης Οκτωβρίου 1226, γυμνός πάνω στην γυμνή γη. Δύο χρόνια αργότερα ο Γρηγόριος Θ΄ τον ανακηρύσσει άγιο.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

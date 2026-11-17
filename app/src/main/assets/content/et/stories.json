@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Meister Bernardo",
+      "description": "Tammeküla kõrtsmik juba kolmkümmend aastat: asjalik, võõraste suhtes umbusklik, suutmatu kedagi külma kätte jätma. Külast teab ta iga võlga ja iga headust.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Tammeküla lesk ja rohuteadja. Terav vaatleja ja küla mälu: teel ei juhtu midagi, mis temast mööda läheks.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Vend Tommaso",
+      "description": "Väiksem vend, kes käib mööda Umbria teid. Kulunud sandaalid, paigatud rüü: tal on vaikimise harjumus ja haruldane kuulamise and.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martino",
+      "description": "Kerjus, keda kohati Tammeküla teel. Ta oli Spoletos hobuserautaja, enne kui haigus võttis temalt sepikoja, kodu ja lõpuks ka koha inimeste seas.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Giacomo",
+      "description": "Assisi müürsepp. Ta töötab San Damiano kirikukese taastamisel ja on lähedalt näinud, kuidas noor Franciscus kive kandis ja laulis.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matteo",
+      "description": "Mäekütt, kes juhib hundihirmu päevil Gubbio ühe värava vahtkonda. Armiline nägu, oda kunagi kaugel, antud sõna, mis peab.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido II, Assisi piiskop",
+      "description": "Assisi piiskop alates 1204. aastast. Allikad kinnitavad: linna ees kattis ta Franciscuse oma mantliga stseenis, kus too loobus isalt päritud varast.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Pietro di Bernardone",
+      "description": "Assisi jõukas kangakaupmees, Franciscuse isa. Konflikt pojaga müüdud vara pärast päädis avaliku stseeniga piiskopi ees, mida jutustab Celano Thomas.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Franciscus di Bernardone",
+      "description": "Kaupmehe noor poeg, kes Assisis neil aastail jätab kõik maha ja alustab paljajalu otsast. Rändur kohtab teda kaugelt või vaid hetkeks; tema sõnad on siin vähesed ja allikatele truud.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Ränduri mantel",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Hilissügise vihma all jõuab rändur Tammekülla ja kohtub külmetav kerjusega: tee esimene valik.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Hilissügise vihm on sind saatnud kolm päeva. Kui näed Tammeküla esimesi maju, sulgeb õhtu juba rajad ja su mantel tilgub vett.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Türnpuuheki all tõmbub kokku kühmu vajunud kogu, kulunud kotiriides. Ta ei siruta kätt: vaatab sind ainult, selgete silmadega, nagu inimesel, kes on palumise lõpetanud.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martino on radade vanune. Ta oli Spoletos hobuserautaja, enne kui haigus võttis temalt sepikoja ja kodu. Nüüd on tee kõik, mis tal alles on.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Ma ei palu midagi, võõras. Aga öö tuleb pikk ja jäine, ja mu selg ei pea enam niiskust vastu.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martino väriseb heki all. Mida teed?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Võtad mantli seljast ja paned selle talle õlgadele.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Pakud talle käsivart ja saadad ta külla.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Istud tema kõrvale, heki alla, ja kuulad teda.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Mantel lahkub su õlgadelt ja külm tungib kohe kontidesse. Aga selles külmas on uus kergus, mida sa ei oska seletada.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Mul ei ole sulle midagi tagasi anda, sõber. Ainult oma nimi: Martino. Külas saadakse teada, missugune võõras sa oled.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Kõnnite aeglaselt, teineteise najal, tiheda vihma all. Kõrtsi väravas põlevad tuled veel.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Korjasid teelt seltsilise, võõras? Tulge mõlemad sisse: minu tuli ei küsi midagi.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Olin Spoletos hobuserautaja: rautasin isandate hobuseid. Siis hakkasid käed värisema, ja keegi ei taha seppa, kes väriseb. Aitäh, et istusid: inimesed lähevad mööda ja tõmbavad otse, nagu oleks õnnetus nakkav.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Kui te tõusete, on vihm lakanud. Näitad talle küla teed ja vaatad, kuidas ta aeglaselt kaugeneb, kuni pimedus ta endale võtab.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Tammeküla kõrts lõhnab puu ja leiva järele. Madal tuli kuivatab riided ja sulatab tee väsimuse.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Astud leti ette külmunult ja mantlita. Meister Bernardo silmitseb sind kaua, siis ulatab kulbitäie kuuma veini: „Andsid mantli ära, sellisel õhtul? Kas oled hull või parem, kui paistad. Eks näe.“",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Meister Bernardo peab kõrtsi juba kolmkümmend aastat: asjalik, umbusklik, suutmatu kedagi külma kätte jätma. Külast teab ta iga võlga ja iga headust.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Siin ei kingi keegi midagi, võõras: leiva eest makstakse ja pahanduste eest samuti. Aga koht tule ääres ei ole müügiks. See kuulub sellele, kes saabub.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "Nurgas peenestab teravate silmadega naine uhmris ürte. See on Lucia, lesk, kes ravib küla juurte ja kannatlikkusega. Teel ei juhtu midagi, mis temast mööda läheks.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Nägin sind türnpuuheki all peatumas. Paljud lähevad sellest kurvist mööda: tee õpetab kiiresti mitte vaatama. Sina peatusid. Pea seda meeles, kui keegi ütleb sulle, kes sa oled.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Oled avastanud: Keegi ei ole võõras. Vastuvõtt algab nii: mitte ideest, vaid hekist, külmetavast mehest, peatusest. Minna vastu sellele, keda maailm õpetab vältima, on iga tee esimene samm.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Mis sind selle heki all liigutas ja mis sind tagasi hoidis? Mõtle oma tänastele teedele: keda sa tavaliselt kohtad, ja kelle eest oled õppinud mööda minema?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Öö möödub vaikselt. Hommikul leiad kõrtsi letilt peotäie kastaneid ja mitte ühtki sõna: külas mäletatakse asju. Sinu tee on alanud.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Kaupmehe poeg",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, 1206. aasta algus: rändur jõuab kohale päevil, mil Franciscus piiskop Guido ees annab isale kõik tagasi. Linn vaatab ja küsib endalt.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi võtab sind vastu suminaga, mis ei ole turupäevade oma. Põiktänavatel räägib rahvas vaikselt ühestainsast nimest: härra Pietro di Bernardone, kangakaupmehe poeg.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Küla allika juures seletab naine sulle: isa on noormehe piiskopi ette vedanud, et müüdud vara tagasi saada, ja väljak täitub. Müüride all, San Damiano lagunenud kirikeses, võitleb müürsepp üksi varisenud müüriga.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Hääled väljakul kasvavad. Ühel pool rahvahulk, teisel pool mees üksi oma kividega.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Lähed San Damianosse müürseppale appi.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Tormad väljakule, enne kui rahvahulk sulgub.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Tõused San Rufino astmetele, et ülalt vaadata.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Tund aja tõstad kive müürsepa kõrval, samal ajal kui rahvas seal üleval kohiseb. Mees töötab vaikselt, siis osutab kirikukesele: seda parandab üks Assisi poiss, ütleb ta. Seesama, kellest kõik räägivad.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Ta kandis siia kive, nagu oleksid need reliikviad, ja laulis. Öeldakse, et ta on hulluks läinud. Hullusid olen näinud palju: ükski ei töötanud niimoodi.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Kui tõused tagasi väljakule, on rahvahulk juba hajumas. Kogud katkeid: noormees andis isale kõik tagasi, isegi riided, ja piiskop kattis ta oma mantliga. Mõni naerab. Paljud mitte.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Trügid läbi rahvahulga kuni piiskopi palee alla. Keskel on kõhn noormees põlevate silmadega; tema vastas väriseb raevust vana mees: härra Pietro di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Franciscus on umbes kakskümmend neli aastat vana ja tal on hoiak, nagu inimesel, kes on kasvanud hinnaliste kangaste ja pidude keskel. Täna, seistes piiskopi ees, näib ta olevat selle kõik juba seljataha jätnud.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Minu kangad, minu hobune, minu raha: müüdud tema hulluste pärast! Tahan õigust, isand piiskop. Et ta loobuks kõigest, mis on minu, kuni viimase niidini.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Pikk vaikus. Siis tõmbab noormees riided ükshaaval seljast ja paneb need isa jalge ette. Rahvas hoiab hinge kinni. Piiskop Guido võtab mantli ja katab ta paljad õlad.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Seni olen kutsunud isaks Pietro di Bernardonet. Nüüdsest võin vabalt öelda: Meie Isa, kes Sa oled taevas.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Toomkiriku astmetelt on väljak sipelgapesa. Sõnu sa ei kuule, aga näed kõike: noormeest, kes end paljaks võtab, vanameest, kes riided kokku korjab, piiskoppi, kes oma mantli avab.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Sinu kõrval ohkab õunamüüja: olen sellel väljakul näinud kohtuprotsesse ja kaklusi, ütleb ta, aga mitte kunagi poega, kes kõik niimoodi tagasi annab. Ümberringi naerab keegi rämedalt, keegi pühib silmi.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Õhtu laskub Assisi peale. Kõrtsides ei räägita millestki muust: on neid, kes noormeest pilkavad, neid, kes nimetavad teda pühakuks, ja neid, kes raputavad pead, mõeldes oma lastele.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Piiskop Guido läheb üle tühjaks jäänud väljaku väsinud sammuga, nagu inimesel, kes on juhtinud rasket päeva. Tema kattis Franciscuse kõigi ees oma mantliga.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Olen oma elus näinud paljusid mehi asjadest kinni hoidmas. Mitte kunagi kedagi, kes neist niimoodi lahti laseb. Palvetage selle poisi eest: ja palvetage meie eest, kes me vaatame ega mõista.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Väljak tühjeneb. Mida teed, enne kui tee uuesti ette võtad?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Jälgid kaugelt Franciscust, kes on laskunud San Damiano poole.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Jääd kuulama väljaku hääli.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Lähed tagasi müürsepa juurde, et lõpetada see, mida alustasid.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Jälgid Franciscust kuni lagunenud kirikukeseni. Näed, kuidas ta võtab kivi, pühkib sellelt tolmu ja asetab müürile, nagu inimene, kes seab kodu korda. Sa ei söanda teda segada. Võtad tee ette, see pilt silme ees.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Jääd, kuni tõrvikud kustuvad. Kuulad kogu inimlikku loomaaeda: kadedust, pilget, tagasi hoitud imetlust, isade hirmu. Linnal kulub aastaid, et otsustada, mida ta nägi.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Tulid müüri lõpetama? Tubli. Kivid ei valeta: nad jäävad sinna, kuhu sa nad paned. See poiss saab aru: ta alustab vundamendist. Iseendast, mitte ainult kirikutest.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Mis on dokumenteeritud",
+          "text": "Franciscuse lahtiütlemist piiskop Guido ees 1206. aasta alguses jutustab Celano Thomase esimene elulugu, pühakule kõige lähem biograafia: riiete tagasiandmine, sõnad Isast, kes on taevas, piiskopi mantel. Dokumenteeritud on ka San Damiano taastamine. Väljamõeldisse kuuluvad aga rändur, keda sa mängid, müürsepp Giacomo ja väljakul kuuldud dialoogid.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Oled avastanud: Mitte midagi oma, kõik vastu võetud. Loobumine ei ole asjade põlgus: see on vabanemine mõttest neid omada. Kellel ei ole midagi, ei pea midagi kaitsma, ja võib kõike vastu võtta kingitusena.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Lahkud Assisist, kui tuled süttivad ükshaaval. Oled näinud meest, kes jäi väljakul alasti ja vabaks, ja tervet linna, kes endalt küsib. Ka sina kõnnid kergemalt: või ehk ainult tähelepanelikumalt asjade raskuse suhtes.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Mees tee ääres",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Küladevahelistel teedel kuulutab puust klaperi heli pidalitõbist. Rändur peab silmitsi seisma hirmu, tülgastuse ja lugupidamisega: ja näoga, mida ta tunneb.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Tee küla ja oru vahel kulgeb puhanud põldude ja iilekstammede metsade ääres. Teelahkmel kuuled kuiva, rütmilist heli: puust klaper, millega pidalitõbised oma möödumist kuulutavad.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Tee ääres, kaltsudesse mähituna, istub mees. Esimene asi, mida tunned, on su enda keha, mis kangestub: samm, mis aeglustub, kinni hoitud hingamine, tahtmine minna teisele poole teed.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Siis näed seda: mehe õlgadel, paigatud ja pleekinud, on sinu mantel. See, mille andsid ära Tammekülla saabumise õhtul. Tunneksid mantli ära enne, kui tunned ära tema.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Ära tule lähemale, sõber: haigus on mind võtnud, ja seadus saadab mind maailmast välja. Aga sinu mantel hoidis mind talvel elus. Olen Martino: võlgnen sulle elu, ega saa isegi kätt suruda.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Pidalitõbine tee ääres. Mida teed?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Astud temast sammu kaugusele ja räägid temaga.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Jätad leiva ja viigimarjad kivile, lähenemata.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Lähed mööda. Aga kahekümne sammu pärast peatud ja tuled tagasi.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Lähedalt, haiguse halli tuha alt, tunned ära heki mehe selged silmad: see on Martino, kerjus sinu esimesest päevast külas.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Haigus võttis mu sõrmed, siis võttis küla ülejäänu. Löön seda puutükki ja inimesed põgenevad, enne kui mind näevad. Sina aga jäid. Sa ei tea, milline kingitus on, kui sulle näkku vaadatakse.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Paned leiva ja viigimarjad lamedale kivile, poolele teele sinu ja tema vahel. See on viis, mida kõik kasutavad: ligimesearmastus ohutus kauguses. Ta langetab pea, aeglaselt.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Leib on mulle küll, ja ma tänan sind. Aga pea meeles, võõras: minusugused surevad kaks korda. Esimest korda, kui haigus tuleb, teist korda, kui keegi ei hüüa neid enam nimepidi.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Teed kakskümmend sammu oru poole. Siis peatab häbi sind rohkem kui klaper: tuled tagasi, aeglaselt, kuni tee äärde. Mees tõstab pilgu, üllatunult.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Paljud lähevad mööda, vähesed tulevad tagasi. Samm tagasi on kõigist kõige raskem: ma tean, olen seda ise õppinud. Istu, kui tahad. Räägi, kust sa tuled.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Jääte rääkima, kuni päike laskub. Martino jutustab sulle Assisi vennast, sellest kaupmehe pojast, kes jättis kõik maha: nüüd astub ta laatsarettidesse, peseb haavu ja hüüab igaüht nimepidi.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Laatsaret on orus, silla taga, ütleb Martino. Kui otsid seda venda, leiad ta sealt.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Pakud, et saadad ta laatsaretini.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Lubad talle, et külas ei unusta teda keegi.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Saadad teda mööda orgu, aeglaselt, teda puudutamata, aga ka kõrvale põikamata. Sillal jätate hüvasti, nagu jätavad sõbrad: kahetsusega, et tuleb lahku minna.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Küla ajas mind välja, ütleb Martino. Aga kui keegi seal üleval ütleb veel mu nime, olen vähem surnud. Lubad talle seda. Sa ei tea veel, kui palju selle lubaduse pidamine maksma läheb.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Franciscuse sõnad",
+          "text": "Testamendis, oma kõige isiklikumas kirjutises, mille ta elu lõpul dikteeris, jutustab Franciscus, et Issand viis ta pidalitõbiste sekka ja et ta osutas neile halastust: see, mis tundus talle kibe, pöördus magususeks (Testament 1–3). See on üks väheseid episoode, mida kinnitab tema enda hääl. Martino ja sinu kohtumine kuuluvad Ränduri väljamõeldisse.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Oled avastanud: Kohtumine, mis muudab elu. Ligimesearmastus ei ole tunne: see on kehaline žest, millega astutakse väljaheidetu juurde, ja avastatakse, et kibedus pöördub magususeks. Kes annab, ei asetu vastuvõtja kohale: ta kohtub.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Oled avastanud: Läheneda kogu kehaga. Testamendis ei ütle Franciscus, et ta tundis halastust: ta ütleb, et ta seda tegi. Kaastunne on tõeline siis, kui laseb teise kannatusel endani jõuda, kuni käed hakkavad liikuma.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Mis liigutas täna su keha enne su mõtteid: hirm, tülgastus, hellus? Meenuta nägu, mida oled õppinud vältima. Kuidas ta nimi on?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Võtad tee pimeduses uuesti ette, klaperi heli kaob selja taha. Midagi sinu viisis inimesi vaadata on igaveseks muutunud.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Gubbio metsaline",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio elab metsiku hundi hirmu all. Nende seas, kes korraldavad kaitset, kes järgnevad relvitule vennale ja kes otsivad vahendust, näeb rändur rahu sündimas.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio ilmub sulle äkki, mäe külge klammerdununa. Aga väravad on keset päeva riivis ja ümberkaudsed põllud on tühjad: keegi ei saada enam karju karjamaale.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matteo juhib väravavahtkonda: mäekütt, armiline nägu ja oda kunagi kaugel. Tema korraldab ajujahte metsalise vastu.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Hunt, võõras. Vasika suurune ja ilma hirmuta inimeste ees. Ta on võtnud lambaid, koeri ja siis hullemat. Läheme välja kahekümnekesi, relvastatult. Kui jalad on sul kindlad, hoia metsast eemale.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "Värava juures kõrtsis liigub kuuldus, mis näib pilkena: linnas on Assisi vend, üks neist paljajalgsetest, kes tervitavad rahu soovides. Ta ütleb, et läheb üksi, relvitult, metsalist kohtama.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Linn on surutud hirmu ja uskumatuse vahele. Mida teed?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Aitad Matteol korraldada majade ja karjade kaitset.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Jälgid venda müüridest väljas, jäädes mõne sammu taha.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Veenad küttisid venda saatma, odadeta.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Kogu öö riivistate uksi, kannate vitsakubusid, korraldate vahikordi. Kui metsaline ründab, ei jää linn ootamatult tabatuks. See on tõeline töö, ja rahvas hingab.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Ma ei armasta neid, kes huntidega räägivad, aga armastan neid, kes töötavad. Sina töötasid. Homme, odadega või ilma, on Gubbio valmis.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Hommikul näete müüridelt, kuidas vend läheb üksi metsa poole. Väga pikk vaikus. Siis ilmub ta teele uuesti: ja tema kõrval, taltsalt nagu tall, kõnnib hunt.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Kõnnid kolm sammu venna taga, viimasest majast edasi. Mets sulgub raja kohal ja hirm pigistab kõri: aga tema sammud on rahulikud ja veavad ka sinu omad edasi.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Ära karda, vend. Läheme kohtama olendit, kellel on nälg ja hirm, nagu meil kõigil. Jää lähedale, kui tahad.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Metsaline tuleb metsast urisedes välja. Vend teeb risti märgi ja räägib temaga nagu vennaga: pakub rahu, lepingu nimel. Ja hunt, su silme all, heidab tema jalge ette.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Räägid kaua Matteo ja tema meestega: ei odasid, ei koeri. Te järgnete vennale eemalt, valmis kõigeks, aga otsustanud mitte esimesena lüüa. Neid veenda maksab vaeva: hirm tahab alati rauda.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Teeme, nagu ütled. Aga kui metsaline hüppab, ei vastuta ma millegi eest. Aidaku taevas meid: läheme ajujahile ilma relvadeta.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Pool linna järgneb vaikselt mööda rada. Kui hunt ilmub, otsivad sada kätt relvi, mida ei ole: aga ükski ei tõuse. Vend räägib, metsaline kükitab, ja rahu algab nii: hirmust, mida keegi teise peale ei laadi.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "Väljakul, kogu Gubbio ees, kinnitab vend lepingu: linn toidab hunti kõigil tema päevadel, ja hunt ei tee enam inimestele ega loomadele karvagi viga. Metsaline tõstab käpa, ja väljak puhkeb hõiskama.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Hirm sulab peoks. Mida teed?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Pakud, et viid iga päev leiva hundi urgu.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Jääd Matteoga metsas lõkse maha võtma.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Istud väljakule ja kogud linna hääli.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "Neil päevil, mis Gubbiosse jääd, jõuab igal hommikul sinu leib urgu. Lapsed järgnevad sulle eemalt: nad tahavad näha, kas on tõsi, et metsaline ei hammusta kätt, mis teda toidab.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Võtate rauad ja silmused maha terve päeva. Aastaid neid üles seadnud, ütleb Matteo, ja üks paljasjalgne vend teeb nad ühel hommikul kasutuks. Ta naerab, aga naerus on lugupidamine.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "Väljakul kuuled, kuidas linn hakkab endale jälle jutustama: vana naine, kes viis talle salaja suppi, pagar, kes võlgneb talle sõrmed, lapsed, kes hüüavad teda juba nimepidi. Hirm oli kustutanud isegi lood.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Jutustus või ajalugu?",
+          "text": "Gubbio hunti jutustavad Väikesed lilled, 14. sajandi lõpu kogumik (ptk 21): hagiograafiline kirjandus, mitte kroonika, ja ükski tolle aja dokument seda ei kinnita. Pakume seda mälestuse jutustusena, mitte ajaloolise faktina. Dokumenteeritud alus on aga rahutervitusel, mille Franciscus ütleb olevat saanud ja mida meenutatakse Testamendis, ning rahu kuulutamisel esimeste vendade poolt. Sinu osa loos on väljamõeldis.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Oled avastanud: Rahu tervitus. Rahu ei ole sõja puudumine: see on kuulutus, mida kanda, julgus, mis tuleb leida. See sünnib, kui minnakse vastu sellele, mis hirmutab, relvadeta käes.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbiol oli kolm teed: kaitsta end, usaldada, vahendada. Millise sina valisid, ja miks? Sinu elus: kes või mis on hunt, kelle eest kõik end kaitsevad, väravad kinni lüües?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Lahkud Gubbiost, kui hunt, nüüd söönud ja kahjutu, magab päikese käes ahju juures. Linn on õppinud uue sõna, ja sina õppisid selle koos temaga: rahu tehakse, seda ei oodata.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Äikesöö",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Äikesetormi üllatatuna jagab rändur koobast vend Tommasoga: jutustamise ja kuulamise öö ning hommik päikesega märgadel lehtedel.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Tagasiteel Tammeküla poole sulgub taevas kiiresti. Tuul toob vihma lõhna ja esimesed kõuemürinad veerevad üle harjade.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Kui torm puhkeb, kutsub sind hääl raja ääres olevast koopast. Paljasjalgne vend viipab sul sisse astuda, kahe piisa ja välgu vahel.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Vend Tommaso on mööduv väiksem vend: kulunud sandaalid, paigatud rüü, kepp ja ei midagi muud. Tal on vaikimise harjumus ja haruldane kuulamise and.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Astu sisse, vend, ja kuivata end. Koobas ei kuulu kellelegi: täna öösel jagame seda vihmaga. Mul on natuke leiba ja tuli: kahele rändurile on see palee.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Tuli võtab, leib jaguneb iseenesest. Väljas teeb torm jõekohinat; sees ei ole sul esimest korda paljude päevade järel kiiret.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Öö tuleb pikk. Millega sa selle täidad?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Küsid vend Tommasolt tema elu kohta enne rüüd.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Jutustad sina: küla, Martino, Assisi väljak, Gubbio hunt.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Jääte vaikusesse, vihma kuulama.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Olin karjane, neil mägedel. Üleujutus võttis ühel niisugusel ööl minult karja ja hüti. Nutsin nagu laps. Siis avastasin, et kuna mul ei olnud enam midagi, ei kartnud ma enam midagi: seal mõistsin ma Assisi vendi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Vend Tommaso kuulab vahele segamata, silmad tulel. Lõpuks noogutab: iga tee õpetab, ütleb ta, kui kõnnid seda avatud silmadega. Sina lasksid teel end muuta, ja see on näha.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Vaikus ei ole tühi: vihm lööb takti, tuli vastab, teise hingamine hoiab rütmi. Mõistad, et on vestlusi, mis ei vaja sõnu.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Koidu poole hõreneb torm pehmeks vihmaks. Vend Tommaso räägib oma vennast Franciscusest, kes isegi valu voodist koostab kiitusi: ta kutsub päikest vennaks, vett õeks, maad emaks, kes meid süles kannab.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Ta ütleb, et iga loodu kiidab Loojat, tehes seda, mis ta on: päike soojendades, vesi janust kustutades, maa toites. Ja et ka halb päev on vastu võetud, mitte võlgu. Kui ma seda kordan, siis sellepärast, et täna öösel, siin, nägin seda oma silmaga.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Esimesed valguskiired imbuvad koopasse.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Küsid temalt, kuidas tänada, kui kõik läheb halvasti.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Sa ei küsi midagi: vaatad piisku lehtedel, ja ongi kõik.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Ma ei oska seda seletada, vend. Tean, et tänulikkus ei ole heade päevade auhind: see on harjutus, nagu kõndimine. Kes seda iga päev teeb, sellel on mustadel päevadel jalad harjunud.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Jääte vaatama, kuni päike pilved läbi murrab. Märjad lehed süttivad ükshaaval, ja kogu org näib äsja looduna.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Astute koopast välja pestud maailma. Vesi niriseb veel võradest, päike paneb selle särama, ja sa avastad, et naeratad põhjuseta. Vend Tommaso võtab oma kepi: teie teed lähevad siin lahku.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Loodute laul, koobas, väljamõeldis",
+          "text": "Loodute laul on Franciscuse autentne teos, koostatud 1225–1226, haiguse ajal: rahvakeelne lauda, milles päike, kuu, tuul, vesi, tuli ja maa kiidavad Jumalat vendade ja õdedena. Autentsed on ka Kõigekõrgema Jumala kiituslaulud, palve, mis midagi ei küsi. Vend Tommaso ja öö koopas kuuluvad Ränduri väljamõeldisse; tema sõnad parafraseerivad Loodute laulu seda tsiteerimata.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Oled avastanud: Vend päike, õde vesi. Maailm ei ole varude ladu ega iidol: see on loodute perekond, kes kiidab Loojat. Loodu hoidmine sünnib sugulusest ja tänulikkusest, mitte kasust.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Oled avastanud: Kiitus, mis ei küsi midagi. Tänulikkus ei tasu õnne: see on harjunud pilk, mis tunneb kingituse ära kõiges — vees, päikeses, päevas, isegi haiguses.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Sel ööl jagasid leiba, tuld ja vaikust võõraga. Vaata oma tänast päeva nii, nagu koobas vaatas tormi: mis sellest, mis sul on, on vastu võetud, mitte võlgu?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Küla poole kõndides mõtled õele veele, kes kustutab janu, peseb ja laulab kraavides. Mälu aias voolab tänasest purskkaev.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "Tammekülas võetakse sind vastu nagu seda, kes tuleb kaugelt tagasi. Riietes on sul veel suitsu ja vihma lõhn, ja kõrvus vee hääl. Tee jätkub.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

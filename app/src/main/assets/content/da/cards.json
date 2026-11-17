@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Fredshilsenen",
+      "text": "I Testamentet bevidner Frans, at Herren åbenbarede ham en fredshilsen, han skulle bære ud til andre, og de middelalderlige kilder husker de første brødre, der forkyndte freden fra hus til hus. For Frans er fred ikke fravær af konflikt: den er en gave, man overgiver, dør til dør, menneske til menneske. Fortællingen om ulven fra Gubbio driver denne logik til det yderste: man slutter fred selv med det, der gør bange, ved at gå det i møde. Af den samme tradition fødes den folkelige formel »fred og alt godt«.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Fattigdommen som frihed",
+      "text": "Reglen fra 1223 beder brødrene om ikke at tilegne sig noget — hverken hus eller sted eller nogen ting — og om at leve som pilgrimme og fremmede i verden. Den franciskanske fattigdom ophøjer ikke nøden, som forbliver et socialt sår: den er valget om ikke at lade sig definere af ejendom. Den, der intet har at forsvare, har intet at frygte og kan modtage alt som gave. Grundlaget er teologisk, før det er økonomisk: Herren selv blev fattig.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Mindrebrødre",
+      "text": "Frans ville, at hans skulle kaldes mindrebrødre: ingen er stor, og de ansvarlige kaldes »ministre«, det vil sige tjenere. Reglen fra 1221 beder om, at enhver viser den anden sit behov, at ingen dømmer broderen, at den raske ikke ringeagter den syges svaghed. Broderskabet er ikke et ideal, man forkynder: det er en daglig praksis af gensidigt ansvar. Man er brødre i de konkrete gestus, eller man er det slet ikke.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Broder sol, søster vand",
+      "text": "I Skabningernes sang lovpriser Frans Gud »for« og »med« skabningerne: broder sol, søster måne, broder vind, søster vand, »nyttig og ydmyg og kostbar og kysk«, søster vor moder jord. Naturen hverken guddommeliggøres eller reduceres til et lager af ressourcer: den er en familie, fordi alle skabninger har den samme Fader. Omsorgen for skaberværket fødes af slægtskab og taknemmelighed, ikke af beregning. Og Sangen blev komponeret i sygdommen: lovprisningen afhænger ikke af omstændighederne.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Den fuldkomne glæde",
+      "text": "I Fioretti forklarer Frans broder Leo, at den sande glæde ikke er miraklerne, ikke succeserne og ikke omvendelser af vantro: den er at vende tilbage til døren afvist, forfrossen og mishandlet og forblive tålmodig og glad. Det er en hagiografisk fortælling, ikke en krønike, men den samler et ægte træk ved den franciskanske ånd. Den fuldkomne glæde afhænger ikke af begivenhederne: den er et indre valg, som ingen afvisning kan tage bort.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Halvfjerds gange syv, og mere endnu",
+      "text": "I Brevet til en minister skriver Frans, at hvis en broder havde syndet tusind gange, må man elske ham alligevel og forkynde barmhjertighed for ham, forudsat at han omvender sig. Den franciskanske tilgivelse benægter ikke det onde: den nægter, at det onde skal have det sidste ord om relationen. I Sangen blev strofen om dem, der tilgiver for Guds kærligheds skyld, ifølge traditionen tilføjet for at forsone biskoppen og podestàen i Assisi, som lå i strid. Tilgivelsen er på én gang omsorg for personen og medicin for byen.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Julen i Greccio",
+      "text": "Julen 1223 ville Frans i Greccio fejre Jesu fødsel med en virkelig krybbe, høet, oksen og æslet: for at legemets øjne skulle se Betlehems fattigdom. Thomas af Celano fremstiller det som et levende minde om mysteriet, ikke som et skuespil. Af den nat fødes traditionen med julekrybben. Gestussen er typisk franciskansk: troen røres, ses og bebos.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Mødet med sultanen",
+      "text": "I 1219, under det femte korstog, krydsede Frans korsfarerhærens linjer i Damietta for at møde sultanen al-Malik al-Kamil. De middelalderlige kilder husker en respektfuld dialog mellem de to, trods den uopløselige forskel i tro. I krigstid valgte Frans den ubevæbnede mødes vej i stedet for prædikenen imod. Episoden forbliver en prøvesten for enhver dialog, der krydser ens egen verdens grænser.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Ulven fra Gubbio",
+      "text": "Fioretti fortæller, at en ulv i Gubbio terroriserede byen, og at Frans, den skræmte mængde i møde, gik hen mod udyret og talte til det som til en broder. Deraf fødtes en fredspagt: byen skulle føde ulven, og ulven skulle ikke mere gøre nogen ondt. Det er en fortælling fra 1300-tallets hagiografiske tradition, værdifuld for forestillingsverdenen mere end for krøniken. Dens lære er klar: freden bygges ved at gå det i møde, der skræmmer, og ved at inddrage hele fællesskabet i pagten.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Afkaldet foran biskoppen",
+      "text": "I begyndelsen af 1206, foran biskop Guido og sin far Pietro di Bernardone, gav Frans klæderne tilbage og gav afkald på faderens gods. Thomas af Celano fortæller, at biskoppen dækkede ham med sin egen kappe: Kirken tog imod den, som den handelsmæssige familie ikke længere forstod. Det var ikke en flugt fra tingene, men den offentlige befrielse fra tanken om at eje dem. Fra den dag kunne Frans kun afhænge af Faderen, som er i himlene — og af andres gavmildhed.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Clara af Assisi",
+      "text": "Ung adelskvinde fra Assisi. Clara forlod faderens hus palmesøndagsnatten 1212 for at følge Frans' evangeliske livsform, og han klippede hendes hår ved Portiuncula. Hun grundlagde fællesskabet af de fattige søstre i San Damiano og forsvarede hele livet »fattigdommens privilegium« mod de kirkelige pres. Hun var den første kvinde, der skrev en religiøs regel for kvinder, godkendt to dage før hendes død i 1253. Hendes mildhed var gjort af samme stof som hendes sejhed.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernhard af Quintavalle",
+      "text": "Rig og respekteret borger i Assisi. Bernhard var Frans' første ledsager: han ville med egne øjne se, hvordan den unge levede, som alle hånede, og én bønnens nat var ham nok. Han solgte sit gods, uddelte det til de fattige og valgte det omvandrende liv. Kilderne husker ham som broderskabets første frugt og, ved livets ende, som et elsket vidne om oprindelsens ånd. Det var ham, der begyndte kæden: uden den første broder er der intet broderskab.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Broder Leo",
+      "text": "Ledsager og skriftefader for Frans i de sidste år. Broder Leo var vidne til tiden på La Verna og vogter af helgenens eneste autograf: et brev og en velsignelse, som han bevarede hele livet. I brevet svarer Frans på hans ængstelse for at vælge ret med frihedens ord: følg din samvittighed over for Gud. I Fioretti er han samtalepartneren i dialogen om den fuldkomne glæde. Leo repræsenterer den skrøbelige og oprigtige discipel, nærmere Frans' sind, end hans ry for enfoldighed antyder.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sultanen al-Malik al-Kamil",
+      "text": "Sultan af Egypten af det ayyubidiske dynasti, Saladin's barnebarn. Al-Malik al-Kamil modtog Frans i Damietta i 1219 midt under det femte korstog. De middelalderlige kilder, kristne og ikke kun dem, beskriver ham som en hersker, der kunne lytte og føre dialog med den latinske verden, med hvem han længe forhandlede om Jerusalem. Mødet med Frans omvendte ingen af dem: det viste, at man kan tale som troende uden våben i hånden. Han forbliver en nøglefigur for at forstå, at den franciskanske velkomst krydser troens grænser.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Den middelalderlige kommune",
+      "text": "Frans' Assisi er en kommune i opstigning: konsuler og podestàer, tårne og fejder, købmænd, der bliver rige, og lav, der organiserer arbejdet. Det er en verden grundlagt på ære, rang og kredit, hvor rigdommen er synlig, og fattigdommen er skam. Pietro di Bernardones familie hører til dette fremvoksende borgerskab. Netop imod disse værdier — ikke imod rigdommen i sig selv, men imod den magt, den udøver over hjertet — tager det franciskanske valg form.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Spedalskhedshospitalet",
+      "text": "I 1200-tallet levede de spedalske uden for murene, i lazaretter som dem ved Assisi, udelukket fra bylivet og mærket af et formodet syndens tegn. Frans bekender i Testamentet, at det at se dem forekom ham for bittert; og at netop blandt dem, ført derhen af Herren, gjorde han barmhjertighed og fandt sødme. Celano beskriver den konkrete tjeneste: vaske sårene, omfavne, sørge for. Spedalskhedshospitalet er det sted, hvor den franciskanske næstekærlighed fødes: ikke en følelse, men et møde mellem kroppe.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Almissen",
+      "text": "Den middelalderlige fromhed kendte almissen som en fortjenstfuld praksis: man gav for sin egen sjæls skyld, ofte på afstand. Reglen fra 1223 beder derimod brødrene om at gå tiggergang uden at skamme sig, idet de husker, at Herren blev fattig: at bede bliver en del af livet, ikke en ydmygelse, man skal undgå. Og det at give forvandles til relation: man efterlader ikke noget hos den fattige, man er hos den fattige. Den, der giver, og den, der modtager, bytter rolle som tiggere for Gud.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Eremitagen",
+      "text": "Det franciskanske liv er ikke kun vej og prædiken: Frans søgte ensomme tilflugtssteder — Carceri over Assisi, La Verna på Appenninerne — med få ledsagere og lange tavsheder. På La Verna, i september 1224, placerer kilderne stigmata og tilblivelsen af Lovprisningerne af Gud: Frans' reneste bøn er lovsang uden anmodninger. Eremitagen er ikke flugt fra verden: den er det sted, hvor man vender tilbage til det væsentlige for siden at stige ned blandt folk igen. Sendelse og tilbagetrækning holder hinanden som vandringens to fødder.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Hvad ejer dig?",
+      "text": "Gør i tankerne en opgørelse over de ting, du holder mest af. Spørg dig så, én for én: ejer jeg den, eller ejer den mig? Hvor meget af din tid, din opmærksomhed, din ængstelse går til at forsvare det, du har? Der er ikke et rigtigt svar: der er kun sandheden om dig.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Hvem er din ulv?",
+      "text": "I dit kvarter, i dit arbejde, i din familie: hvem er den person eller den situation, som alle flygter fra? Hvad ville der ske, hvis nogen, i stedet for at rejse mure, gik i møde og spurgte: hvad er du sulten efter? Hvem i din by kunne være det fællesskab, der står inde for pagten?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Hvad afhænger din glæde af?",
+      "text": "Tænk på sidste gang, du virkelig var glad: afhang det af et opnået resultat, af en anerkendelse, af et køb? Tænk nu på en glæde, som ingen ydre begivenhed kan tage fra dig. Hvis intet falder dig ind, er det ikke en skyld: det er et spor at følge. Hvad skulle forandre sig i dig, for at glæden ikke er lejet af begivenhederne?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Fredens vej",
+      "text": "Et forløb i to situationer: et skænderi om en grænse i en middelalderlig landsby og en uret, man lider i et kontor i dag. Den franciskanske fred er ikke fravær af konflikt: den er en hilsen, man bærer ud, en mægling, man tilbyder, en glæde, man ikke lader tage som gidsel af begivenhederne. Den åbnes, når lærdommen om fredshilsenen opdages.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Broderskabets vej",
+      "text": "Et forløb inde i det fælles liv: hvad gør man, når en broder svigter alvorligt, og fællesskabet deler sig mellem strenghed og velkomst? Det franciskanske broderskab måles netop dér, ikke i de gode hensigter. Det åbnes, når lærdommen om mindrebrødrene opdages, og det går gennem tilgivelsen uden grænse og den regel, der beskytter.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Fredens vej",
+      "theme": "pace",
+      "description": "Fra hilsenen, båret fra hus til hus, til glæden, der ikke afhænger af begivenhederne: to situationer til at lære freden som praksis, i den middelalderlige landsby og på kontoret i dag.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Enkelhedens vej",
+      "theme": "poverta",
+      "description": "Hvad man gør med de goder, der går gennem hænderne på os: en delikat forvaring i 1200-tallet og et uigennemsigtigt projekt i dag. Den franciskanske fattigdom som frihed fra ejendom og som ansvar hos den, der tjener.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Broderskabets vej",
+      "theme": "fraternita",
+      "description": "Når en broder fejler alvorligt, afslører broderskabet, hvad det virkelig er: domstol eller hus. En situation til at gå gennem tilgivelse, regel og gensidigt ansvar.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Grænsemuren",
+      "situation": "En landsby ved Assisi, begyndelsen af 1200-tallet. Berta, der driver farverværkstedet, og Lupo, væveren ved nabodøren, har i uger stridt om en armsbredde jord mellem deres huse: tagrenden løber der, og hver sværger, at muren står på hans side. Familierne er holdt op med at hilse; lærlingene kaster fornærmelser efter hinanden på gaden. Du kender dem begge, og begge stoler på dig. I aften spørger de dig: hvis side står du på?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Ikke at stå på nogen side: tilbyde at lytte til dem én ad gangen, så sammen, og hjælpe dem med at finde en enkel aftale om muren og tagrenden.",
+          "consequence": "De første uger er anstrengende: hver prøver at trække dig over på sin side. Så, fordi de bliver lyttet til, opdager de, at den virkelige knude ikke er armen jord, men en gammel uret, der aldrig blev tilgivet. Aftalen om muren kommer næsten hurtigt, og ved sankt Georgs fest begynder de to værksteder igen at låne hinanden ting.",
+          "perspectives": [
+            {
+              "label": "Den franciskanske vej",
+              "text": "I Testamentet bevidner Frans, at Herren åbenbarede ham en fredshilsen, han skulle bære ud til andre, og kilderne husker brødrene forkynde freden fra hus til hus. At mægle selv, ydmygt, er netop denne gestus: freden ønskes ikke, den overgives.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Læren fra Gubbio",
+              "text": "I fortællingen om ulven fødes freden, når nogen går det i møde, der skræmmer, og hele fællesskabet står inde for pagten: byen føder ulven, ulven skader ikke mere. Her er de to familier og naboværkstederne garanter for aftalen, så den varer ud over din tilstedeværelse.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Landsbyens klogskab",
+              "text": "Den, der stiller sig imellem, risikerer at blive skydeskive for begge, hvis aftalen slår fejl. Mæglingen virker, fordi du står uden for striden og intet vinder ved den: din troværdighed er din eneste kapital, og den skal bruges sparsomt.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Råde dem begge til at bringe sagen for kommunens konsuler eller købmandslavet: grænsen måles, dokumenterne læses, retten afgør.",
+          "consequence": "Striden forlader gaden og går ind i formernes rum. Kommunens sagkyndige måler, fædrenes skrifter læses, og efter nogle måneder tildeler en dom muren til Lupo og tagrenden til Berta. Den gamle uret forbliver dog uløst: familierne hilser knap, og ingen er virkelig i fred.",
+          "perspectives": [
+            {
+              "label": "Tidens ret",
+              "text": "Kommunen findes netop for at erstatte fejden med proceduren: en tredjes dom lukker striden uden blodsudgydelse og uden ydmygelser. Det er et virkeligt civilt fremskridt, og i 1200-tallet kostede det møje at vinde det.",
+              "isEditorial": true
+            },
+            {
+              "label": "Den franciskanske vej",
+              "text": "Den franciskanske tradition foragter ikke myndighederne, men husker, at retfærdigheden afgør muren, ikke hjertet: fredshilsenen, båret fra hus til hus, sigter mod at sætte mennesker i relation igen, ikke kun mod at fordele uretterne. En retfærdig dom kan lade striden leve under asken.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Landsbyens klogskab",
+              "text": "At henvende sig til konsulerne beskytter dig: det er ikke dig, der afgør, og ingen kan anklage dig for begunstigelse. Prisen er langsomheden og omkostningerne og risikoen for, at den, der taber, gemmer nag mod kommunen snarere end mod naboen.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Ikke at gribe ind: lade tiden bundfælde striden og nøjes med ikke at nære den med domme og sladder.",
+          "consequence": "I måneder bliver spændingen liggende under overfladen: ingen taler mere om muren, men lærlingene bliver ved med at stikke til hinanden, og vedligeholdelsen af tagrenden standser. Da vinteren kommer, oversvømmer regnen begge kældre: over for den fælles skade begynder de to naboer af nød at tale sammen igen, og striden løser sig selv, med lidt mere rust.",
+          "perspectives": [
+            {
+              "label": "Landsbyens klogskab",
+              "text": "Ikke enhver konflikt beder om en fredsmager: undertiden stivner et for tidligt indgreb positionerne. Tiden og den fælles nød — en oversvømmet kælder — kan mægle bedre end nogen tale.",
+              "isEditorial": true
+            },
+            {
+              "label": "Den franciskanske vej",
+              "text": "Den franciskanske fred er aktiv: den bæres ud, den forkyndes, den bygges ved at gå i møde, som i fortællingen om ulven. At lade noget bundfælde er ikke en synd, men det er ikke fredshilsenen: det er afkald på at være redskab, som undertiden er ydmyghed og undertiden bekvemmelighed.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Tidens ret",
+              "text": "I middelalderens ret har det at undlade indgreb en pris: den uforældede strid vender tilbage, og den fælles skade af den forladte tagrende hviler på alle. At vente er ikke neutralt: det er et valg, der skyder regningen frem.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Den franciskanske fred begynder med en hilsen og ender i en pagt, som fællesskabet vogter. Men den kræver nogen, der er villig til at stå i midten uden at vinde noget ved det. I dit kvarter, i dag, hvem gør dette arbejde? Og kunne du gøre det?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Den stjålne fortjeneste",
+      "situation": "I dag, til et møde foran hele teamet, har en kollega fremlagt som sit eget et arbejde, der i vidt omfang er dit. Ingen sagde noget; chefen takkede ham. Det brænder i brystet på dig i timevis. I morgen krydser jeres blikke igen på gangen.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "At svare igen: ved næste offentlige lejlighed at genoprette kendsgerningerne foran alle, med præcision og for det samme publikum, der overværede uretten.",
+          "consequence": "Rettelsen kommer punktligt, og kendsgerningerne kommer på plads: chefen forstår, nogle kolleger takker dig hviskende. Kollegaen, ydmyget offentligt, bliver en tavs og varig modstander; teamets klima stivner, og hvert af dine ord måles nu på grammet.",
+          "perspectives": [
+            {
+              "label": "Tidens ret",
+              "text": "At gøre krav på sit eget arbejde er legitimt: sandheden om fortjenester er ikke sladder, og at lade uretten passere kan blive et præcedens. Men formen tæller: den offentlige oprejsning skaber en vinder og en taber, og i det lange løb glemmer taberen ikke.",
+              "isEditorial": true
+            },
+            {
+              "label": "Den franciskanske vej",
+              "text": "Fortællingen om den fuldkomne glæde lærer, at glæden ikke må afhænge af anerkendelse: hvis din fred kun vender tilbage, når uretten er offentligt oprettet, har du lejet den ud til andres dom. At genoprette kendsgerningerne er tilladt; at have brug for det for at have det godt er det egentlige sår.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Landsbyens klogskab",
+              "text": "I arbejdslivet bygges ryet dråbe for dråbe og mistes i spandefulde: en velafmålt offentlig rettelse beskytter, en offentlig ydmygelse brændemærker dig som et hævngerrigt menneske. Hvis du vælger denne vej, så mål ordene på indholdet, aldrig på personen.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "At lade det passere: ikke sige noget, ikke ruge over nag, gå videre. Arbejdet taler for sig selv, og du vil ikke give uretten magt til at ødelægge dine dage.",
+          "consequence": "Tavshenden koster dig nogle ugers utålmodighed, så løsner knuden sig: det næste projekt er tydeligt dit, og den, der ser til, har en lang hukommelse. Kollegaen, som ikke mødes, gentager dog adfærden over for et andet medlem af teamet: din indre fred er reddet, men problemet bliver i gruppen.",
+          "perspectives": [
+            {
+              "label": "Den franciskanske vej",
+              "text": "I Fioretti er den fuldkomne glæde netop dette: at lide uretten uden at lade den få kommandoen over ens hjerte og forblive tålmodig og glad. Det er hverken naivitet eller svaghed: det er opdagelsen af, at den glæde, der er grundet i kærlighed, ikke behøver at vinde enhver strid.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Tidens ret",
+              "text": "Den indre fred er et gode, men ikke det eneste: en ukorrekt adfærd, der ikke mødes, bliver vane, og det næste offer har måske ikke din styrke. Retfærdigheden på arbejdet beskytter også de andre, ikke kun din fortjeneste.",
+              "isEditorial": true
+            },
+            {
+              "label": "Landsbyens klogskab",
+              "text": "Ikke at reagere er en strategi med én betingelse: den skal være valgt, ikke lidt. Hvis det at lade det passere betyder at ruge i måneder, har du ikke praktiseret glæden, men vreden på afbetaling. Hjertet skal kontrolleres med ærlighed.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "At søge en oprigtig samtale: bede kollegaen om en samtale under fire øjne, fremlægge kendsgerningerne uden anklager og lytte til, hvad han har at sige.",
+          "consequence": "Samtalen er ubekvem, men sand: kollegaen indrømmer halvt, undskylder sig, og så — overrasket over ikke at være blevet flået offentligt — retter han sig selv ved det følgende møde og nævner dit bidrag. I bliver ikke venner, men mellem jer fødes en form for vågen respekt; og sagen når aldrig teamets offentlige plads.",
+          "perspectives": [
+            {
+              "label": "Den franciskanske vej",
+              "text": "At gå under fire øjne ligner fredshilsenen, båret fra hus til hus: at udsætte sig selv, uden publikum, og lade døren stå åben for den anden. Og det ligner den fuldkomne glæde, fordi det ikke underordner din fred under udfaldet: du taler for sandhedens skyld, ikke for at vinde.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Tidens ret",
+              "text": "Den private samtale værner om kendsgerningerne uden at ydmyge personen: det er den form for oprejsning, der lader arbejdsrelationerne være intakte. Dens grænse er, at den afhænger af den andens gode tro: hvis kollegaen benægter og bliver ved, er den formelle vej derefter nødvendig.",
+              "isEditorial": true
+            },
+            {
+              "label": "Landsbyens klogskab",
+              "text": "Før du taler, så spørg dig selv, hvad du virkelig vil: genoprette kendsgerningerne eller lade uretten betale? Samtalen virker kun, hvis du går ind villig til at lytte; hvis du går ind for at vinde, mærker den anden det og lukker sig.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Den fuldkomne glæde forbyder ikke at genoprette kendsgerningerne: den forbyder at give uretten nøglerne til dit hjerte. Spørg dig selv i din uge: hvor mange gange er din fred lejet ud til andres adfærd?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Købmandens forvaring",
+      "situation": "Assisi, 1210. Guido, en klædehandler, der drager til messerne i Champagne og ikke vender tilbage før om to år, foreslår dig at vogte en del af hans gods: baller af stof og en pung med penge. Du må bruge dem imens — stoffet ville løfte din lille bod — og ved hjemkomsten giver du ham den aftalte værdi tilbage, med en del af fortjenesten. Det er en redelig chance. Det er også et bånd, der varer to år.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "At tage fuldt imod: bruge stof og penge til at lade boden vokse og regne med at tilbagebetale værdien med den aftalte rente, når Guido vender hjem.",
+          "consequence": "Boden vokser virkelig: to lærlinge, en ny væv, dit navn, der begynder at cirkulere. Men enhver beslutning går nu gennem det regnskab, der skal aflægges: du sover ikke mere før messerne, du frygter tyverier og magre år. Da Guido vender tilbage, før tiden og med egne tab at dække, koster det dig næsten hele fortjenesten at holde pagten — og du opdager, at du har brugt to år på at vogte penge snarere end på at leve.",
+          "perspectives": [
+            {
+              "label": "Den franciskanske vej",
+              "text": "Reglen fra 1223 beder om ikke at tilegne sig noget, hverken hus eller sted eller nogen ting: ikke fordi tingene er onde, men fordi det, du skal give tilbage og forsvare, begynder at eje dig. Den søvn, der mistes før messerne, er det nøjagtige tegn på herreskiftet.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Købmandens logik",
+              "text": "I kommunens verden er dette skik: kreditten får økonomien til at løbe, og at afvise enhver deponering betyder at forblive lille for evigt. Risikoen måles og prissættes; at holde pagten er det, der bygger ryet.",
+              "isEditorial": true
+            },
+            {
+              "label": "Afkaldets blik",
+              "text": "Celano fortæller om Frans, der giver selv klæderne tilbage til faderen: ikke af foragt for tingene, men for ikke at afhænge af noget, der ikke er Faderen. Spørgsmålet er ikke, om pagten er redelig — det er den — men hvor megen frihed i dit hjerte du er villig til at pantsætte i to år.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Kun at tage forvaringen imod, ikke brugen: forsegle stof og penge, holde dem sikre uden at lade dem bære frugt og give dem intakte tilbage ved hjemkomsten.",
+          "consequence": "I to år forbliver din bod den samme, men du går let: intet regnskab at aflægge, ingen fortjeneste at forsvare. Guido finder ved hjemkomsten alt intakt og agter dig som en mand af ord; han foreslår andre forvaringer, som du vil vurdere én for én. Nogen i landsbyen kalder dig en tåbe: det stof kunne have arbejdet for dig.",
+          "perspectives": [
+            {
+              "label": "Den franciskanske vej",
+              "text": "At vogte uden at tilegne sig er næsten en åndelig øvelse: at have i hænderne uden at have i hjertet. Husk Reglens logik — pilgrimme og fremmede i verden, tingenes tjenere og ikke herrer — anvendt på en andens gode.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Købmandens logik",
+              "text": "Fra et økonomisk synspunkt er det en spildt chance: den stillestående kapital frembringer intet, og den gratis vogter forærer en tjeneste, der andetsteds betales. Guidos agtelse gælder, men den betaler ikke den nye væv.",
+              "isEditorial": true
+            },
+            {
+              "label": "Landsbyens klogskab",
+              "text": "Den rene forvaring har sine risici — tyverier, brande, anklager om underslæb — men den lader dig fri for enhver strid om fortjenesten. Skriv alligevel et dokument for vidner: tilliden æres bedre med papirerne i orden.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "At afslå med respekt: takke Guido for tilliden, men ikke ville have ejendomsbånd eller regnskaber at aflægge i to år.",
+          "consequence": "Guido bliver overrasket, så nikker han: han vil betro stofferne til en anden. Din bod forbliver lille, og nogle vintre er trange, men dit ord i landsbyen får en særlig klang: den hos en, der hverken sælger sig eller binder sig. År senere, da du vælger at følge de brødre, der passerer gennem Assisi, finder ingen dit afkald mærkeligt: det var begyndt med det nej.",
+          "perspectives": [
+            {
+              "label": "Afkaldets blik",
+              "text": "Frans' afkald foran biskoppen viser, at det at sige nej til rigdom er en frihedens gestus, ikke foragt: han gav klæderne tilbage for at kunne sige »Vor Fader« uden hykleri. Et begrundet nej i dag forbereder morgendagens nej — og ja.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Den franciskanske vej",
+              "text": "Pas på ikke at forveksle friheden med en regel, man laver til sig selv: Reglen taler om ikke at tilegne sig, ikke om at afvise ethvert ansvar for andres goder. Også det at afvise kan blive en måde kun at tænke på sig selv.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Landsbyens klogskab",
+              "text": "At afslå er legitimt, men har en social pris: i landsbyen hjælper man også hinanden sådan, ved at vogte hinandens goder. Den, der altid afslår, står i længden uden for tillidens net, som alt hviler på.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Den franciskanske fattigdom beder ikke om at foragte tingene: den beder om at lægge mærke til, når tingene begynder at eje dig. Næste gang du tager imod noget — en genstand, et hverv, en gæld — så spørg: hvem vogter hvem?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Det uigennemsigtige projekt",
+      "situation": "I dag. Man betroer dig ledelsen af et prestigefyldt projekt: synlighed, et team, du selv vælger, et betydeligt budget. Men to udgiftsposter stemmer ikke, og finansieren svarer på dine spørgsmål med undvigende høfligheder. At underskrive betyder at påtage dig ansvaret også for den uigennemsigtighed. At afslå betyder at give afkald på en chance, der ikke kommer igen.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "At tage imod uden flere spørgsmål: projektet er en enestående chance, de uigennemsigtige poster er ikke dit område, og nogen ville alligevel have underskrevet i dit sted.",
+          "consequence": "Projektet lykkes godt, og din karriere tager et spring. Men da en administrativ kontrol et år senere genåbner de udgiftsposter, står din underskrift på dokumenterne: det ansvar, du ikke ville se, indhenter dig alligevel, og den vundne prestige vendes til et pinligt forsvar.",
+          "perspectives": [
+            {
+              "label": "Rollens ansvar",
+              "text": "I det franciskanske broderskab kaldes den, der leder, »minister«, tjener: embedet findes for at tjene, ikke for at stråle. En tjeneste, der accepterer ikke at se det, den svarer for, har allerede forrådt sit navn, før nogen kontrol.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Købmandens logik",
+              "text": "I arbejdets verden ræsonnerer man sådan: ethvert projekt har grå zoner, og den, der virkelig vil arbejde, lærer at leve med dem. At afvise enhver ufuldkommenhed betyder at overlade beslutningerne til den, der har færre skrupler end du.",
+              "isEditorial": true
+            },
+            {
+              "label": "Landsbyens klogskab",
+              "text": "Underskriften er en grænse: det, du underskriver, ejer du, med alle konsekvenser. Før du underskriver, er det ikke nok at tælle til ti: du må vide nøjagtigt, hvad du skriver under på. Chancen, der ikke kommer igen, kommer ofte igen; ryet gør det ikke.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "At afslå: uden gennemsigtighed underskriver man ikke, og projektet må gå til den, der accepterer de betingelser.",
+          "consequence": "Afkaldet brænder, og i måneder ser du projektet gå videre blandt problemerne: uden din ledelse slingrer teamet, og til sidst trækker finansieren midlerne tilbage netop på de uigennemsigtige poster. Dit nej, læst af nogle som naivitet, huskes af andre, når der er brug for et menneske, man kan stole på, til et delikat hverv.",
+          "perspectives": [
+            {
+              "label": "Landsbyens klogskab",
+              "text": "Afslaget beskytter ryet, men lader problemet urørt: projektet går til den, der har færre skrupler, og de mennesker, der arbejder på det, bærer konsekvenserne. Et nej renser hænderne, ikke altid verden.",
+              "isEditorial": true
+            },
+            {
+              "label": "Rollens ansvar",
+              "text": "Brevet til en minister viser, at den franciskanske ledelse er nærhed og tjeneste, aldrig en overlegen distance. Men at tjene betyder ikke at stille sig til rådighed for alt: en minister, der underskriver det, han ikke kan styre, tjener ikke brødrene, han udsætter dem. Også afslaget kan være en form for omsorg.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Det lange blik",
+              "text": "Karrierer gøres af grebne chancer, men tillid gøres af afviste chancer. Det nej, der siges af klare grunde og uden moraliseren, er en investering, der modner langsomt og ikke devalueres.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "At tage imod på betingelser: kun underskrive, efter at gennemsigtig regnskabsaflæggelse, uafhængig revision og ret til begrundet udtræden er sat på skrift.",
+          "consequence": "Finansieren tøver, truer med at søge andre, så giver han efter: dine betingelser, skrevet ned, bliver projektets rygrad. Arbejdet er langsommere og mere møjsommeligt, end det lovede, men da kontrollen kommer — og den kommer — er regnskaberne åbne, og holdet holder. Din ledelse bliver et præcedens: andre efter dig vil kræve de samme betingelser.",
+          "perspectives": [
+            {
+              "label": "Rollens ansvar",
+              "text": "Dette er ministerens vej i den fulde franciskanske betydning: ikke at flygte fra tjenesten, men at nægte, at tjenesten bliver medskyld. Den, der leder, tjener — og at tjene indbefatter at beskytte teamet og projektet mod skyggezonerne, også til pris af ubekvemme forhandlinger.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Købmandens logik",
+              "text": "De skrevne betingelser er det bedste kompromis, men de har en pris: du risikerer at miste hvervet, hvis finansieren ikke giver efter, og at arbejde i årevis med en partner, der betragter dig som en kontrollør snarere end en allieret. Det er kun det værd, hvis du har troværdige alternativer.",
+              "isEditorial": true
+            },
+            {
+              "label": "Det lange blik",
+              "text": "At stille betingelser er den langsomste og mest frugtbare måde: den nøjes ikke med at beskytte dig, den ændrer praksis. Institutioner bliver bedre, når nogen forvandler en personlig skrupel til en fælles regel.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Frans kaldte de ansvarlige »ministre«, tjenere: rollens navn er allerede dens program. I dit arbejde, hvad skal der til, for at din tjeneste ikke bliver medskyld — og hvad, for at din strenghed ikke bliver desertering?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Broderen, der har svigtet",
+      "situation": "Portiuncula, 1220'erne. Broder Ruffino har alvorligt brudt reglen: han har beholdt penge, modtaget som almisse, for sig selv, og sagen er nu også kendt udenfor, blandt de folk, der ser på jer. I broderskabet har man diskuteret i dage. Nogle kræver en eksemplarisk bod og hans fjernelse fra landsbyen; andre husker, at Ruffino er syg og i stykker; andre igen frygter, at eftergivenheden inviterer alle til at svigte. Ministeren beder om hver enkelts mening. Også din.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "At støtte strengheden: offentlig bod og midlertidig fjernelse af Ruffino, fordi reglen gælder for alle, og lægfolkenes anstød skal oprettes foran alle.",
+          "consequence": "Broderskabet godkender en streng disciplin. Ruffino drager til en fjern eremitage, ydmyget foran dem, der kendte ham; landsbyens lægfolk beundrer brødrenes konsekvens, og almisserne falder ikke. Men i broderskabet stivner noget: brødrene begynder at skjule deres skrøbeligheder af frygt for dommen, og Ruffino, alene, vil bruge år på at vende tilbage — hvis han vender tilbage.",
+          "perspectives": [
+            {
+              "label": "Fællesskabets visdom",
+              "text": "Den fælles regel er det, der adskiller et broderskab fra et selskab af venner: hvis den, der svigter alvorligt, ikke møder konsekvenser, tømmes pagten, og de svageste betaler prisen. Den offentlige oprejsning svarer også på det offentlige anstød.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Brevet til ministeren",
+              "text": "Frans skriver til ministeren, at hvis en broder havde syndet tusind gange, må man elske ham alligevel og forkynde barmhjertighed for ham: den hårdhed, der forarger den svage broder, risikerer at miste ham. Strengheden er ikke forbudt, men den må aldrig blive foragt.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Det lange blik",
+              "text": "Et fællesskab, hvor alle frygter dommen, bliver et fællesskab af hemmeligheder: reglen står på papiret og falder i hjerterne. Den strenghed, der ikke forudser en vej tilbage, frembringer landflygtige, ikke bodfærdige.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "At støtte den fulde velkomst: tage Ruffino tilbage uden offentlige boder, pleje hans sygdom og svare på anstødet med mildhed, ikke med straffe.",
+          "consequence": "Ruffino bliver. Han græder foran brødrene, giver tilbage, hvad han kan, og finder langsomt en plads i det fælles liv: ingen bebrejder ham sagen mere. I landsbyen mumler nogen, at brødrene dækker over hinanden, og to unge i broderskabet tager mildheden som tilladelse: ministeren må slide i måneder for at genoprette, at reglen ikke er et råd.",
+          "perspectives": [
+            {
+              "label": "Brevet til ministeren",
+              "text": "Det er den vej, Brevet til en minister aftegner: at elske mere, ikke mindre, den, der har svigtet; at forkynde barmhjertighed, forudsat at han omvender sig; ikke at gøre sit hjerte hårdt over den andens synd. Frans ved, at denne vej koster, og han foreskriver den alligevel.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Fællesskabets visdom",
+              "text": "Reglen fra 1221 beder om at vise hinanden behovene og ikke ringeagte den svage: den syge Ruffino er netop den broder, reglen beskytter. Men den samme regel findes, for at broderskabet ikke skal spredes: barmhjertighed uden sandhed bliver medskyld.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Landsbyens klogskab",
+              "text": "Lægfolk giver almisser til fattige brødre, ikke til snu brødre: et anstød, der ikke styres, tærer den tillid, der holder fællesskabet i live. Velkomsten skal forklares for landsbyen, ikke kun leves i huset, ellers læses den som dække.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "At støtte en fælles vej: Ruffino bliver i broderskabet, giver det skyldige tilbage foran brødrene, betroer sig til en broderlig ledsagelse, og hele fællesskabet bærer oprejsningen over for landsbyen sammen med ham.",
+          "consequence": "Vejen er lang og ubekvem: Ruffino bekender foran brødrene, giver pengene tilbage fra hus til hus sammen med en ældre broder, og i et år udfører han de mest ydmyge tjenester, uden at nogen bebrejder ham det. Landsbyen ser en virkelig oprejsning, ikke en straf: tilliden vender langsomt tilbage. Inde i broderskabet bliver episoden en uskreven regel: den, der falder, ledsages; den, der har svigtet, opretter; ingen går tabt.",
+          "perspectives": [
+            {
+              "label": "Brevet til ministeren",
+              "text": "Brevets barmhjertighed er ikke rabat: den er kærlighed, der ledsager omvendelsen, indtil den bærer frugt. Ruffino, der giver tilbage fra hus til hus, er ikke ydmyget: han er en broder, der vender tilbage, med fællesskabet, der går ved siden af ham i stedet for at se ned på ham.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Fællesskabets visdom",
+              "text": "Reglen fra 1221 forestiller sig netop dette: brødre, der viser deres behov — også de skamfulde — og som bærer hinanden. Den fælles oprejsning forener sandhed og barmhjertighed og forvandler én mands skyld til en skole for alle.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Tidens ret",
+              "text": "Det er den mest krævende vej for alle: den kræver tid, vogtning af hemmeligheden, hvor det er nødvendigt, og offentlig sandhed, hvor anstødet har været offentligt. Ikke alle fællesskaber holder til denne møje: uden en duelig minister bliver midtervejen blot ubeslutsomhed.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Broderskabet måles ikke, når alle iagttager reglen, men når nogen bryder den. Brevet til en minister sætter stjernen — at elske mere, ikke mindre — uden at slette sandheden. I dine fællesskaber, finder den, der har fejlet, en vej tilbage?"
+    }
+  ]
+}

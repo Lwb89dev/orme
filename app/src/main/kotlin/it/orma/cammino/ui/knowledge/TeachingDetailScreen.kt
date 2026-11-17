@@ -163,8 +163,18 @@ fun TeachingDetailScreen(
                 }
             }
 
-            // Fonti
             if (teaching.sourcePassageIds.isNotEmpty()) {
+                val workId = teaching.sourcePassageIds
+                    .firstNotNullOfOrNull { catalog.passagesById[it]?.documentId }
+                val work = workId?.let { catalog.documentsById[it] }
+                if (work != null) {
+                    OutlinedButton(
+                        onClick = { navController.navigate(Route.SourceDetail(work.id)) },
+                        modifier = Modifier.fillMaxWidth(),
+                    ) {
+                        Text(uiText("Leggi l'opera: ${work.title}", "Read the work: ${work.title}"))
+                    }
+                }
                 OrnamentalDivider()
                 Text(
                     uiText("Le fonti", "Sources"),
@@ -198,7 +208,7 @@ fun TeachingDetailScreen(
             // Esperienze nelle quattro modalità
             OrnamentalDivider()
             Text(
-                uiText("Vivilo nelle quattro vie", "Live it through the four ways"),
+                uiText("Nel racconto", "In the story"),
                 style = MaterialTheme.typography.titleLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
@@ -272,16 +282,8 @@ fun PassageCard(catalog: ContentCatalog, passage: it.orma.cammino.core.model.Sou
             passage.reference.ifBlank { doc?.title ?: passage.id },
             style = MaterialTheme.typography.titleMedium,
         )
-        if (passage.originalText.isNotBlank()) {
-            Spacer(Modifier.height(6.dp))
-            Text(
-                passage.originalText,
-                style = MaterialTheme.typography.bodyMedium,
-                fontStyle = androidx.compose.ui.text.font.FontStyle.Italic,
-            )
-        }
         if (passage.translation.isNotBlank()) {
-            Spacer(Modifier.height(4.dp))
+            Spacer(Modifier.height(6.dp))
             Text(passage.translation, style = MaterialTheme.typography.bodyMedium)
             Text(
                 uiText("Traduzione editoriale", "Editorial translation"),
@@ -295,6 +297,14 @@ fun PassageCard(catalog: ContentCatalog, passage: it.orma.cammino.core.model.Sou
                 uiText("Parafrasi editoriale", "Editorial paraphrase"),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        if (passage.originalText.isNotBlank()) {
+            Spacer(Modifier.height(6.dp))
+            Text(
+                passage.originalText,
+                style = MaterialTheme.typography.bodyMedium,
+                fontStyle = androidx.compose.ui.text.font.FontStyle.Italic,
             )
         }
         if (passage.note.isNotBlank()) {

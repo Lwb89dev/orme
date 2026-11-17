@@ -43,7 +43,7 @@ class AppNavigationTest {
     fun home_mostra_le_quattro_modalita() {
         completaOnboardingSePresente()
         composeTestRule.waitUntil(timeoutMillis = 30_000) {
-            composeTestRule.onAllNodes(hasText("Le quattro vie")).fetchSemanticsNodes().isNotEmpty()
+            composeTestRule.onAllNodes(hasText("Il Viandante")).fetchSemanticsNodes().isNotEmpty()
         }
         composeTestRule.onNodeWithText("Il Viandante").assertIsDisplayed()
         composeTestRule.onNodeWithText("Il Giardino").assertIsDisplayed()

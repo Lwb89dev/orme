@@ -1,0 +1,905 @@
+{
+  "documents": [
+    {
+      "id": "source.testamento",
+      "category": "scritto_autentico",
+      "title": "Завещание",
+      "author": "Франциск Ассизский",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "сентябрь 1226",
+      "dateFrom": 1226,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Продиктованное Франциском в последние месяцы жизни, это самый личный его текст: он перечитывает собственное обращение и передаёт братьям духовную волю. Это не юридический устав, а свидетельство.",
+      "manuscriptNote": "Широкая рукописная традиция; критический текст — в изданиях Opuscula (например, издание К. Эссера).",
+      "licenseNote": "Средневековый оригинал: общественное достояние (транскрипция Wikisource, 11.11.2026). Русский перевод: оригинальный редакционный перевод этого приложения.",
+      "referenceUrls": [
+        "https://la.wikisource.org/wiki/Testamentum_(Franciscus_Assisiensis)",
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.cantico",
+      "category": "scritto_autentico",
+      "title": "Песнь творений (Кантик брата солнца)",
+      "author": "Франциск Ассизский",
+      "originalLanguage": "умбрийское наречие",
+      "compositionDate": "1225–1226 (в несколько приёмов)",
+      "dateFrom": 1225,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Лауда, сложенная Франциском в последнюю пору жизни, возможно в два приёма (строфы о прощении и о смерти, как считают, добавлены позже). Считается первым поэтическим текстом итальянской литературы.",
+      "manuscriptNote": "Древний свидетель: Кодекс 338 Священного конвента в Ассизи (лл. 33r–34r).",
+      "licenseNote": "Средневековый оригинал: общественное достояние (транскрипция Wikisource, 11.11.2026). Русский перевод: оригинальный редакционный перевод этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://it.wikiversity.org/wiki/%27%27Cantico_delle_Creature%27%27_di_Francesco_d%27Assisi_(superiori)"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.regola_bollata",
+      "category": "scritto_autentico",
+      "title": "Устав, скреплённый буллой (Regula bullata)",
+      "author": "Франциск Ассизский",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "1223",
+      "dateFrom": 1223,
+      "dateTo": 1223,
+      "authenticity": "authentic",
+      "description": "Окончательный устав братства, одобренный буллой Гонория III 29 ноября 1223 года. Краткий текст, и сегодня лежащий в основании Ордена меньших братьев.",
+      "manuscriptNote": "Широкая рукописная традиция; критический текст — в изданиях Opuscula.",
+      "licenseNote": "Средневековый оригинал: общественное достояние (транскрипция Wikisource, 11.11.2026). Русский перевод: оригинальный редакционный перевод этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://ofm.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.regola_non_bollata",
+      "category": "scritto_autentico",
+      "title": "Устав без буллы (Regula non bullata)",
+      "author": "Франциск Ассизский и первые сподвижники",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "1221",
+      "dateFrom": 1221,
+      "dateTo": 1221,
+      "authenticity": "authentic",
+      "description": "Первый полный устав братства, длиннее и духовнее скреплённого буллой, так и не одобренный Церковью формально. В нём слышен более свободный голос раннего францисканства.",
+      "manuscriptNote": "Сохранился в немногих рукописях; заново открыт современной критикой.",
+      "licenseNote": "Средневековый оригинал: общественное достояние (транскрипция Wikisource, 11.11.2026). Русский перевод: оригинальный редакционный перевод этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.ammonizioni",
+      "category": "scritto_autentico",
+      "title": "Наставления",
+      "author": "Франциск Ассизский",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "дата неточна, примерно до 1221 года",
+      "authenticity": "authentic",
+      "description": "Двадцать восемь кратких духовных наставлений братству: смирение, послушание, терпение, чистота сердца. Среди самых плотных текстов францисканского учительства.",
+      "manuscriptNote": "Сложная рукописная традиция; нумерация следует критическим изданиям.",
+      "licenseNote": "Средневековый оригинал: общественное достояние. Русские парафразы: оригинальные редакционные тексты этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "needs_verification"
+    },
+    {
+      "id": "source.lettera_ministro",
+      "category": "scritto_autentico",
+      "title": "Послание министру",
+      "author": "Франциск Ассизский",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "дата неточна, около 1220 года",
+      "authenticity": "authentic",
+      "description": "Послание ответственному (министру) братства: как обходиться с братьями, которые ошибаются, без жёсткости и без соблазна.",
+      "manuscriptNote": "Передано в традиции Opuscula.",
+      "licenseNote": "Средневековый оригинал: общественное достояние. Русские парафразы: оригинальные редакционные тексты этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lettera_leone",
+      "category": "scritto_autentico",
+      "title": "Послание брату Льву",
+      "author": "Франциск Ассизский",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "после 1224 года",
+      "dateFrom": 1224,
+      "authenticity": "authentic",
+      "description": "Краткое собственноручное послание брату Льву, его духовнику и спутнику, о том, как слушать собственную совесть перед Богом. Документ драгоценен ещё и потому, что это автограф.",
+      "manuscriptNote": "Автограф хранится в соборе Сполето.",
+      "licenseNote": "Средневековый оригинал: общественное достояние. Русские парафразы: оригинальные редакционные тексты этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lettera_ordine",
+      "category": "scritto_autentico",
+      "title": "Послание всему Ордену",
+      "author": "Франциск Ассизский",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "1225–1226",
+      "dateFrom": 1225,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Послание братьям, в большей части об Евхаристии, о почтении к написанным словам Бога и о соблюдении Устава. Одно из самых пространных сочинений Франциска.",
+      "manuscriptNote": "Передано в традиции Opuscula. Текст по латинской транскрипции Wikisource.",
+      "licenseNote": "Средневековый латинский оригинал: общественное достояние. Перевод: оригинальный редакционный перевод этого приложения.",
+      "referenceUrls": [
+        "https://la.wikisource.org/wiki/Epistola_toti_Ordini_missa"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lodi_dio",
+      "category": "scritto_autentico",
+      "title": "Хвалы Всевышнему Богу",
+      "author": "Франциск Ассизский",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "1224 (Альверна)",
+      "dateFrom": 1224,
+      "dateTo": 1224,
+      "authenticity": "authentic",
+      "description": "Хвалебная молитва, сложенная на Альверне и переданная на том же автографе, что Послание брату Льву и благословение ему.",
+      "manuscriptNote": "Хартия брата Льва, автограф (Сполето, собор).",
+      "licenseNote": "Средневековый оригинал: общественное достояние. Русские парафразы: оригинальные редакционные тексты этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.celano_vita_prima",
+      "category": "testimonianza_medievale",
+      "title": "Первое житие Фомы Челанского",
+      "author": "Фома Челанский",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "1228–1229",
+      "dateFrom": 1228,
+      "dateTo": 1229,
+      "authenticity": "authentic",
+      "description": "Первое официальное жизнеописание Франциска, заказанное Григорием IX к канонизации. Главный и ближайший к святому источник, хотя и с агиографическими целями.",
+      "manuscriptNote": "Существуют современные критические издания; нумерация по параграфам.",
+      "licenseNote": "Средневековый оригинал: общественное достояние. Русские парафразы: оригинальные редакционные тексты этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://www.treccani.it/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.celano_vita_seconda",
+      "category": "testimonianza_medievale",
+      "title": "Второе житие Фомы Челанского",
+      "author": "Фома Челанский",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "1246–1247",
+      "dateFrom": 1246,
+      "dateTo": 1247,
+      "authenticity": "authentic",
+      "description": "Второе жизнеописание, собравшее свидетельства ещё живых сподвижников: богаче эпизодами и подробностями о нраве Франциска.",
+      "manuscriptNote": "Существуют современные критические издания.",
+      "licenseNote": "Средневековый оригинал: общественное достояние. Русские парафразы: оригинальные редакционные тексты этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.bonaventura_leggenda_maggiore",
+      "category": "testimonianza_medievale",
+      "title": "Большая легенда Бонавентуры",
+      "author": "Бонавентура из Баньореджо",
+      "originalLanguage": "средневековая латынь",
+      "compositionDate": "1260–1263",
+      "dateFrom": 1260,
+      "dateTo": 1263,
+      "authenticity": "authentic",
+      "description": "Богословское жизнеописание Франциска, написанное Бонавентурой и ставшее в 1266 году официальной легендой Ордена. Построено строже и учительно, чем жития Челанского.",
+      "manuscriptNote": "Существуют современные критические издания.",
+      "licenseNote": "Средневековый оригинал: общественное достояние. Русские парафразы: оригинальные редакционные тексты этого приложения.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.fioretti",
+      "category": "tradizione_agiografica",
+      "title": "Цветочки святого Франциска",
+      "author": "Анонимный францисканец (из латинской традиции, Actus)",
+      "originalLanguage": "тосканское наречие",
+      "compositionDate": "конец XIV века",
+      "dateFrom": 1370,
+      "dateTo": 1400,
+      "authenticity": "legendary",
+      "description": "Собрание на народном языке эпизодов о Франциске и сподвижниках, переведённое и переработанное из латинских текстов XIV века (Actus beati Francisci). Литературный шедевр: его рассказы свидетельствуют о благочестии, а не о проверяемой хронике.",
+      "manuscriptNote": "Итальянская версия Actus; многочисленные рукописи и печатные издания.",
+      "licenseNote": "Средневековый оригинал: общественное достояние. Русские парафразы: оригинальные редакционные тексты этого приложения.",
+      "referenceUrls": [
+        "https://www.treccani.it/",
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.preghiera_semplice",
+      "category": "interpretazione_moderna",
+      "title": "Так называемая «Простая молитва»",
+      "author": "Современный аноним (первая известная публикация: 1912, французский журнал La Clochette)",
+      "originalLanguage": "современный французский",
+      "compositionDate": "XX век",
+      "dateFrom": 1912,
+      "dateTo": 1912,
+      "authenticity": "not_by_francis",
+      "description": "Молитва «Сделай меня орудием Твоего мира» очень любима и духовно близка францисканской чуткости, но она НЕ принадлежит Франциску: впервые появляется в 1912 году и лишь позже была ему приписана. Мы включаем её ради исторической честности: приложение никогда не будет использовать её как цитату святого.",
+      "manuscriptNote": "Средневековых свидетельств нет. См. исследования о. Патриса Майё и обзоры на sanfrancesco.org.",
+      "licenseNote": "Современный текст: в этом приложении не воспроизводится целиком.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.narrazione_gioco",
+      "category": "narrazione_originale",
+      "title": "Оригинальное повествование игры",
+      "author": "Редакция приложения",
+      "description": "Документальная заглушка для глав Путника и сценариев карт: оригинальная историческая выдумка, вдохновлённая источниками, но никогда не выдаваемая ни за исторический факт, ни за слово Франциска.",
+      "licenseNote": "Оригинальный текст приложения.",
+      "reviewStatus": "verified"
+    }
+  ],
+  "passages": [
+    {
+      "id": "pass.testamento.lebbrosi",
+      "documentId": "source.testamento",
+      "reference": "Завещание, 1–3",
+      "originalText": "Dominus ita dedit mihi fratri Francisco incipere faciendi poenitentiam: quia, cum essem in peccatis, nimis mihi videbatur amarum videre leprosos. Et ipse Dominus conduxit me inter illos et feci misericordiam cum illis. Et recedente me ab ipsis, id quod videbatur mihi amarum, conversum fuit mihi in dulcedinem animi et corporis; et postea parum steti et exivi de saeculo.",
+      "translation": "Господь дал мне, брату Франциску, начать творить покаяние так: когда я был в грехах, мне казалось слишком горьким видеть прокажённых. И Сам Господь привёл меня к ним, и я оказал им милосердие. И когда я отходил от них, то, что казалось мне горьким, обратилось для меня в сладость души и тела; и после я недолго пробыл и вышел из мира.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.chiese",
+      "documentId": "source.testamento",
+      "reference": "Завещание, 4–13",
+      "originalText": "Et Dominus dedit mihi talem fidem in ecclesiis, ut ita simpliciter orarem et dicerem Adoramus te, Domine Jesu Christe et ad omnes ecclesias tuas, quae sunt in toto mundo, et benedicimus tibi, quia per sanctam crucem tuam redimisti mundum. Postea Dominus dedit mihi et dat tantam fidem in sacerdotibus, qui vivunt secundum formam sanctae ecclesiae Romanae propter ordinem ipsorum, quod si facerent mihi persecutionem, volo recurrere ad ipsos. Et si haberem tantam sapientiam, quantam Salomon habuit, et invenirem pauperculos sacerdotes huius saeculi, in parochiis, quibus morantur, nolo praedicare ultra voluntatem ipsorum. Et ipsos et omnes alios volo timere, amare et honorare sicut meos dominos. Et nolo in ipsis considerare peccatum, quia Filium Dei discerno in ipsis, et domini mei sunt. Et propter hoc facio, quia nihil video corporaliter in hoc saeculo de ipso altissimo Filio Dei, nisi sanctissimum corpus et sanctissimum sanguinem suum, quod ipsi recipiunt et ipsi soli aliis ministrant. Et haec sanctissima mysteria super omnia volo honorari, venerari et in locis pretiosis collocari. Sanctissima nomina et verba eius scripta, ubicumque invenero in locis illicitis, volo colligere et rogo, quod colligantur et in loco honesto collocentur. Et omnes theologos et qui ministrant sanctissima verba divina, debemus honorare et venerari, sicut qui ministrant nobis spiritum et vitam (cfr. Joa 6,64).",
+      "translation": "И Господь дал мне такую веру в церкви, что я молился и говорил просто: поклоняемся Тебе, Господи Иисусе Христе, и во всех церквах Твоих, какие есть во всём мире, и благословляем Тебя, ибо святым крестом Твоим Ты искупил мир. Затем Господь дал мне и даёт такую веру в священников, живущих по форме святой Римской Церкви, ради их сана, что, если бы они гнали меня, я хочу прибегать к ним. И если бы у меня было столько мудрости, сколько было у Соломона, и я нашёл бы убогих священников этого мира в приходах, где они живут, я не хочу проповедовать против их воли. Их и всех прочих я хочу бояться, любить и почитать как господ моих. И я не хочу рассматривать в них грех, потому что в них узнаю Сына Божия, и они — господа мои. И делаю это потому, что от того высочайшего Сына Божия в этом мире телесно не вижу ничего иного, кроме святейшего тела Его и святейшей крови Его, которые они принимают и одни они преподают другим. И эти святейшие тайны я хочу, чтобы почитались превыше всего, чтобы им поклонялись и полагали их в драгоценных местах. Святейшие имена Его и написанные слова Его, где бы я ни нашёл их в недостойных местах, я хочу собирать, и прошу, чтобы их собирали и полагали в подобающем месте. И всех богословов и тех, кто преподаёт святейшие божественные слова, мы должны почитать и чтить, как тех, кто преподаёт нам дух и жизнь.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.vangelo",
+      "documentId": "source.testamento",
+      "reference": "Завещание, 14–22",
+      "originalText": "Et postquam Dominus dedit mihi de fratribus, nemo ostendebat mihi, quid deberem facere, sed ipse Altissimus revelavit mihi, quod deberem vivere secundum formam sancti Evangelii. Et ego paucis verbis et simpliciter feci scribi et dominus papa confirmavit mihi. Et illi qui veniebant ad recipiendam vitam, omnia quae habere poterant (Tob 1,3), dabant pauperibus; et erant contenti tunica una, intus et foris repeciata, cum cingulo et braccis. Et nolebamus plus habere. Officium dicebamus clerici secundum alios clericos, laici dicebant Pater noster; et satis libenter manebamus in ecclesiis. Et eramus idiotae et subditi omnibus. Et ego manibus meis laborabam, et volo laborare; et omnes alii fratres firmiter volo, quod laborent de laboritio, quod pertinet ad honestatem. Qui nesciunt, discant, non propter cupiditatem recipiendi pretium laboris, sed propter exemplum et ad repellendam otiositatem. Et quando non daretur nobis pretium laboris, recurramus ad mensam Domini, petendo eleemosynam ostiatim.",
+      "translation": "И после того как Господь дал мне братьев, никто не показывал мне, что я должен делать, но Сам Всевышний открыл мне, что я должен жить по форме святого Евангелия. И я немногими словами и просто велел её записать, и господин папа утвердил её мне. И те, кто приходил принять эту жизнь, отдавали бедным всё, что могли иметь, и довольствовались одной туникой, заплатанной изнутри и снаружи, с поясом и штанами. И мы не хотели иметь больше. Оффиций мы, клирики, читали, как прочие клирики; миряне читали «Отче наш»; и очень охотно оставались в церквах. И были мы некнижны и покорны всем. И я работал своими руками и хочу работать; и твёрдо хочу, чтобы и все прочие братья занимались трудом честным. Кто не умеет, пусть научится — не из жадности получить плату за труд, а чтобы подать пример и отогнать праздность. А когда не дадут нам платы за труд, прибегнем к трапезе Господней, прося милостыню от двери к двери.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.saluto_pace",
+      "documentId": "source.testamento",
+      "reference": "Завещание, 23",
+      "originalText": "Salutationem mihi Dominus revelavit, ut diceremus Dominus det tibi pacem.",
+      "translation": "Господь открыл мне приветствие, чтобы мы говорили: Господь да даст тебе мир.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.poverta_case",
+      "documentId": "source.testamento",
+      "reference": "Завещание, 24–26",
+      "originalText": "Caveant sibi fratres, ut ecclesias, habitacula paupercula et omnia, quae pro ipsis construuntur, penitus non recipiant, nisi essent, sicut decet sanctam paupertatem, quam in regula promisimus, semper ibi hospitantes sicut advenae et peregrini (cfr. 1 Petr 2,11). Praecipio firmiter per obedientiam fratribus universis, quod ubicumque sunt, non audeant petere aliquam litteram in curia Romana per se neque per interpositam personam, neque pro ecclesia neque pro alio loco neque sub specie praedicationis neque pro persecutione suorum corporum; sed ubicumque non fuerint recepti, fugiant in aliam terram ad faciendam poenitentiam cum benedictione Dei.",
+      "translation": "Пусть братья остерегаются принимать каким бы то ни было образом церкви, убогие жилища и всё, что для них строят, если это не будет таким, как подобает святой бедности, которую мы обещали в Уставе, пребывая там всегда как чужестранцы и паломники. Твёрдо повелеваю, по послушанию, всем братьям: где бы они ни находились, пусть не дерзают просить никакого письма у римской курии — ни для себя, ни через другое лицо, ни для церкви, ни для иного места, ни под предлогом проповеди, ни из-за гонения на их тела; но где их не примут, пусть бегут в другую землю творить покаяние с благословением Божиим.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.obbedienza",
+      "documentId": "source.testamento",
+      "reference": "Завещание, 27–34",
+      "originalText": "Et firmiter volo obedire ministro generali huius fraternitatis et alio guardiano, quem sibi placuerit mihi dare. Et ita volo esse captus in manibus suis, ut non possim ire vel facere ultra obedientiam et voluntatem suam, quia dominus meus est. Et quamvis sim simplex et infirmus, tamen semper volo habere clericum, qui mihi faciat officium, sicut in regula continetur. Et omnes alii fratres teneantur ita obedire guardianis suis et facere officium secundum regulam. Et qui inventi essent, quod non facerent officium secundum regulam, et vellent alio modo variare, aut non essent catholici, omnes fratres, ubicumque sunt, per obedientiam teneantur, quod ubicumque invenerint aliquem ipsorum, proximiori custodi illius loci, ubi ipsum invenerint, debeant repraesentare. Et custos firmiter teneatur per obedientiam ipsum fortiter custodire, sicuti hominem in vinculis die noctuque, ita quod non possit eripi de manibus suis, donec propria sua persona ipsum repraesentet in manibus sui ministri. Et minister firmiter teneatur per obedientiam mittendi ipsum per tales fratres, quod die noctuque custodiant ipsum sicuti hominem in vinculis, donec repraesentent ipsum coram domino Ostiensi, qui est dominus, protector et corrector totius fraternitatis. Et non dicant fratres Haec est alia regula; quia haec est recordatio, admonitio, exhortatio et meum testamentum, quod ego frater Franciscus parvulus facio vobis fratribus meis benedictis propter hoc, ut regulam, quam Domino promisimus, melius catholice observemus.",
+      "translation": "И твёрдо хочу повиноваться генеральному министру этого братства и гвардиану, которого ему будет угодно мне дать. И хочу быть так удержан в его руках, чтобы не мочь идти или делать сверх послушания и его воли, потому что он — господин мой. И хотя я прост и немощен, всё же всегда хочу иметь клирика, который совершал бы для меня оффиций, как содержится в Уставе. И все прочие братья пусть будут обязаны так же повиноваться своим гвардианам и совершать оффиций по Уставу. И если найдутся такие, кто не совершал бы оффиций по Уставу и хотел бы изменить его иным образом, или не были бы католиками, все братья, где бы ни были, обязаны по послушанию, где бы ни нашли такого, представить его ближайшему кустоду того места, где его нашли. И кустод твёрдо обязан по послушанию стеречь его крепко, как человека в оковах, день и ночь, так чтобы его нельзя было вырвать из его рук, пока сам не представит его в руки своего министра. И министр твёрдо обязан по послушанию послать его с такими братьями, которые стерегли бы его день и ночь, как человека в оковах, пока не представят его перед господином Остии, который есть господин, защитник и исправитель всего братства. И пусть братья не говорят: это другой устав. Ибо это напоминание, наставление, увещание и моё завещание, которое я, брат Франциск, малый, делаю вам, братья мои благословенные, чтобы Устав, обещанный нами Господу, мы соблюдали лучше, по-католически.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.senza_glossa",
+      "documentId": "source.testamento",
+      "reference": "Завещание, 35–41",
+      "originalText": "Et generalis minister et omnes alii ministri et custodes per obedientiam teneantur, in istis verbis non addere vel minuere. Et semper hoc scriptum habeant secum iuxta regulam. Et in omnibus capitulis, quae faciunt, quando legunt regulam, legant et ista verba. Et omnibus fratribus meis clericis et laicis praecipio firmiter per obedientiam, ut non mittant glossas in regula neque in istis verbis dicendo Ita volunt intelligi. Sed sicut dedit mihi Dominus simpliciter et pure dicere et scribere regulam et ista verba, ita simpliciter et sine glossa intelligatis et cum sancta operatione observetis usque in finem. Et quicumque haec observaverit, in caelo repleatur benedictione altissimi Patris et in terra repleatur benedictione dilecti Filii sui cum sanctissimo Spiritu Paraclito et omnibus virtutibus caelorum et omnibus sanctis. Et ego frater Franciscus parvulus, vester servus, quantumcumque possum, confirmo vobis intus et foris istam sanctissimam benedictionem. en The Testament of St. Francis of Assisi hr Oporuka svetoga Franje ru Завещание (Франциск Ассизский)",
+      "translation": "И генеральный министр, и все прочие министры и кустоды обязаны по послушанию ничего не прибавлять к этим словам и ничего не отнимать. И пусть всегда имеют при себе это писание рядом с Уставом. И на всех капитулах, которые они совершают, когда читают Устав, пусть читают и эти слова. И всем моим братьям, клирикам и мирянам, твёрдо повелеваю по послушанию не класть глосс ни на Устав, ни на эти слова, говоря: так их следует понимать. Но как Господь дал мне сказать и написать просто и чисто Устав и эти слова, так и понимать их просто и без глоссы и соблюдать святым деланием до конца. И кто соблюдёт это, да будет исполнен на небе благословения высочайшего Отца, а на земле — благословения возлюбленного Сына Его, со Святейшим Духом Параклитом и со всеми добродетелями небес и всеми святыми. И я, брат Франциск, малый, ваш слуга, насколько могу, подтверждаю вам изнутри и извне это святейшее благословение.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.apertura",
+      "documentId": "source.cantico",
+      "reference": "Песнь творений, ст. 1–9",
+      "originalText": "Altissimu, onnipotente, bon Signore, tue so' le laude, la gloria e l'honore et onne benedictione. Ad te solo, Altissimo, se konfano, et nullu homo ène dignu te mentovare. Laudato sie, mi' Signore, cum tucte le tue creature, spetialmente messor lo frate sole, lo qual' è iorno, et allumini noi per lui.",
+      "translation": "Всевышний, всемогущий, благой Господь, Твои хвалы, слава и честь и всякое благословение. Тебе одному, Всевышний, они подобают, и ни один человек не достоин назвать Тебя. Хвала Тебе, Господь мой, со всеми Твоими творениями, особенно с господином братом солнцем, который есть день, и через него Ты просвещаешь нас.",
+      "note": "Умбрийское наречие по Кодексу 338 из Ассизи, в чтении, уже принятом для стихов 1–9. Продолжение сверено с дипломатической транскрипцией it.wikisource, Cantico di Frate Sole (11.11.2026); согласованные формы восстановлены там, где скан разрывает слово. Редакционный перевод, созданный для этого приложения.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.creature",
+      "documentId": "source.cantico",
+      "reference": "Песнь творений, средние строфы",
+      "originalText": "Et ellu è bellu e radiante cum grande splendore: de te, Altissimo, porta significatione. Laudato si', mi' Signore, per sora luna e le stelle: in celu l'ài formate clarite et pretiose et belle. Laudato si', mi' Signore, per frate vento et per aere et nubilo et sereno et onne tempo, per lo quale a le tue creature dài sustentamento. Laudato si', mi' Signore, per sor'acqua, la quale è multo utile et humile et pretiosa et casta. Laudato si', mi' Signore, per frate focu, per lo quale ennallumini la nocte: et ello è bello et iocundo et robustoso et forte. Laudato si', mi' Signore, per sora nostra matre terra, la quale ne sustenta et governa, et produce diversi fructi con coloriti flori et herba.",
+      "translation": "И он прекрасен и лучезарен, с великим сиянием: о Тебе, Всевышний, несёт он знаменование. Хвала Тебе, Господь мой, через сестру луну и звёзды: на небе Ты создал их ясными, драгоценными и прекрасными. Хвала Тебе, Господь мой, через брата ветра, и через воздух, и облако, и вёдро, и всякую погоду, которыми Ты даёшь пропитание Твоим творениям. Хвала Тебе, Господь мой, через сестру воду, которая весьма полезна, и смиренна, и драгоценна, и чиста. Хвала Тебе, Господь мой, через брата огонь, которым Ты освещаешь ночь: и он прекрасен, и радостен, и крепок, и силён. Хвала Тебе, Господь мой, через сестру нашу мать-землю, которая нас держит и правит и производит разные плоды с пёстрыми цветами и травой.",
+      "note": "Умбрийское наречие по Кодексу 338 из Ассизи, в чтении, уже принятом для стихов 1–9. Продолжение сверено с дипломатической транскрипцией it.wikisource, Cantico di Frate Sole (11.11.2026); согласованные формы восстановлены там, где скан разрывает слово. Редакционный перевод, созданный для этого приложения.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.perdono_morte",
+      "documentId": "source.cantico",
+      "reference": "Песнь творений, заключительные строфы",
+      "originalText": "Laudato si', mi' Signore, per quelli ke perdonano per lo tuo amore et sostengono infirmitate et tribulatione. Beati quelli ke 'l sosterranno in pace, ka da te, Altissimo, sirano incoronati. Laudato si', mi' Signore, per sora nostra morte corporale, da la quale nullu homo vivente pò skappare: guai a quelli ke morrano ne le peccata mortali; beati quelli ke trovarà ne le tue sanctissime voluntati, ka la morte secunda no 'l farrà male. Laudate et benedicete mi' Signore et rengratiate e serviateli cum grande humilitate.",
+      "translation": "Хвала Тебе, Господь мой, через тех, кто прощает ради любви Твоей и переносит немощь и скорбь. Блаженны те, кто перенесёт их в мире, ибо от Тебя, Всевышний, будут они увенчаны. Хвала Тебе, Господь мой, через сестру нашу смерть телесную, от которой ни один живущий человек не может убежать: горе тем, кто умрёт в смертных грехах; блаженны те, кого она застанет в святейшей воле Твоей, ибо вторая смерть не сделает им зла. Хвалите и благословляйте Господа моего, и благодарите, и служите Ему с великим смирением.",
+      "note": "Умбрийское наречие по Кодексу 338 из Ассизи, в чтении, уже принятом для стихов 1–9. Продолжение сверено с дипломатической транскрипцией it.wikisource, Cantico di Frate Sole (11.11.2026); согласованные формы восстановлены там, где скан разрывает слово. Редакционный перевод, созданный для этого приложения.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.bolla",
+      "documentId": "source.regola_bollata",
+      "reference": "Булла Гонория III, предисловие к Уставу",
+      "originalText": "Honorius episcopus servus servorum dei dilectis filiis, fratri Francisco et aliis fratribus de ordine fratrum minorum, salutem et apostolicam benedictionem. Solet annuere sedes apostolica piis votis et honestis petentium desideriis favorem benivolum impertiri. Eapropter, dilecti in domino filii, vestris piis precibus inclinati, ordinis vestri regulam, a bone memorie Innocentio papa, predecessore nostro, approbatam, annotatam presentibus, auctoritate vobis apostolica confirmamus et presentis scripti patrocinio communimus, que talis est Regula minorum fratrum.",
+      "translation": "Гонорий, епископ, слуга слуг Божиих, возлюбленным сынам брату Франциску и прочим братьям Ордена меньших братьев: привет и апостольское благословение. Апостольский престол имеет обыкновение соглашаться на благочестивые обеты и честные желания просящих и оказывать благосклонную милость. Поэтому, возлюбленные сыны в Господе, склонившись к вашим благочестивым мольбам, апостольской властью утверждаем вам устав вашего Ордена, одобренный папой Иннокентием доброй памяти, нашим предшественником, и здесь переписанный, и укрепляем его защитой настоящего писания. Он таков: Устав меньших братьев.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c01",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава I",
+      "originalText": "[1] Regula et Vita Minorum Fratrum haec est, scilicet Domini nostri Jesu Christi sanctum Evangelium observare vivendo in obedientia, sine proprio et in castitate. [2] Frater Franciscus promittit obedientiam et reverentiam domino papae Honorio ac successoribus eius canonice intrantibus et Ecclesiae Romanae. [3] Et alii fratres teneantur fratri Francisco et eius successoribus obedire.",
+      "translation": "Устав и жизнь меньших братьев такова: соблюдать святое Евангелие Господа нашего Иисуса Христа, живя в послушании, без чего-либо своего и в целомудрии. Брат Франциск обещает послушание и почтение господину папе Гонорию и его канонически избранным преемникам и Римской Церкви. А прочие братья обязаны повиноваться брату Франциску и его преемникам.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c02",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава II",
+      "originalText": "[1] Si qui voluerint hanc vitam accipere et venerint ad fratres nostros, mittant eos ad suos ministros provinciales, quibus solummodo et non aliis recipiendi fratres licentia concedatur. [2] Ministri vero diligenter examinent eos de fide catholica et ecclesiasticis sacramentis. [3] Et si haec omnia credant et velint ea fideliter confiteri et usque in finem firmiter observare [4] et uxores non habent vel, si habent, et iam monasterium intraverint uxores vel licentiam eis dederint auctoritate diocesani episcopi, voto continentiae iam emisso, et illius sint aetatis uxores, quod non possit de eis oriri suspicio, [5] dicant illis verbum sancti Evangelii (cfr. Mt 19,21 par), quod vadant et vendant omnia sua et ea studeant pauperibus erogare. [6] Quod si facere non potuerint, sufficit eis bona voluntas. [7] Et caveant fratres et eorum ministri, ne solliciti sint de rebus suis temporalibus, ut libere faciant de rebus suis, quidquid Dominus inspiraverit eis. [8] Si tamen consilium requiratur, licentiam habeant ministri mittendi eos ad aliquos Deum timentes, quorum consilio bona sua pauperibus erogentur. [9] Postea concedant eis pannos probationis, videlicet duas tunicas sine caputio et cingulum et braccas et caparonem usque ad cingulum, [10] nisi eisdem ministris aliud secundum Deum aliquando videatur. [11] Finito vero anno probationis, recipiantur ad obedientiam promittentes vitam istam semper et regulam observare. [12] Et nullo modo licebit eis de ista religione exire iuxta mandatum domini papae, [13] quia secundum sanctum Evangelium nemo mittens manum ad aratrum et aspiciens retro aptus est regno Dei (Lc 9,62). [14] Et illi qui iam promiserunt obedientiam habeant unam tunicam cum caputio et aliam sine caputio qui voluerint habere. [15] Et qui necessitate coguntur possint portare calciamenta. [16] Et fratres omnes vestimentis vilibus induantur et possint ea repeciare de saccis et aliis peciis cum benedictione Dei. [17] Quos moneo et exhortor, ne despiciant neque iudicent homines, quos vident mollibus vestimentis et coloratis indutos, uti cibis et potibus delicatis, sed magis unusquisque iudicet et despiciat semetipsum.",
+      "translation": "Если некоторые захотят принять эту жизнь и придут к нашим братьям, пусть их пошлют к своим провинциальным министрам, которым одним, и никому иному, дано позволение принимать братьев. Министры пусть тщательно испытают их в католической вере и в таинствах Церкви. И если они всему этому веруют и хотят верно это исповедовать и твёрдо соблюдать до конца, и не имеют жён, или, если имеют, те уже вступили в монастырь либо дали им позволение властью епархиального епископа, уже принеся обет воздержания, и такого возраста, что не может возникнуть подозрение, пусть скажут им слово святого Евангелия: чтобы шли, продали всё, что их, и позаботились отдать это бедным. Если не смогут этого сделать, довольно доброй воли. Братья и их министры пусть остерегаются заботиться об их временных благах, чтобы те распоряжались ими свободно, как внушит Господь. Если просят совета, министры могут послать их к людям, боящимся Бога, по совету которых блага будут отданы бедным. Затем пусть дадут одежды испытания: две туники без капюшона, пояс, штаны и накидку до пояса, если только министрам иногда не покажется иначе по Богу. По окончании года испытания пусть будут приняты к послушанию, обещая всегда соблюдать эту жизнь и Устав. Не будет им позволено выйти из него, по повелению папы, ибо никто, положивший руку на плуг и оглядывающийся назад, не пригоден для Царства Божия. Те, кто уже обещал послушание, пусть имеют одну тунику с капюшоном и, если хотят, другую без него. Кто вынужден необходимостью, может носить обувь. Все братья пусть одеваются в убогие одежды и могут латать их мешковиной и другими кусками, с благословением Божиим. Увещаю и умоляю их не презирать и не судить людей, одетых в мягкие и цветные одежды, употребляющих изысканные яства и питьё: пусть каждый лучше судит и презирает самого себя.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c03",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава III",
+      "originalText": "[1] Clerici faciant divinum officium secundum ordinem sanctae Romanae Ecclesiae excepto psalterio, [2] ex quo habere poterunt breviaria. [3] Laici vero dicant viginti quattuor Pater noster pro matutino, pro laude quinque, pro prima, tertia, sexta, nona, pro qualibet istarum septem, pro vesperis autem duodecim, pro completorio septem; [4] et orent pro defunctis. [5] Et ieiunent a festo Omnium Sanctorum usque ad Nativitatem Domini. [6] Sanctam vero quadragesimam, quae incipit ab Epiphania usque ad continuos quadraginta dies, quam Dominus suo sancto ieiunio consecravit (cfr. Mt 4,2), qui voluntarie eam ieiunant benedicti sint a Domino, et qui nolunt non sint astricti. [7] Sed aliam usque ad Resurrectionem Domini ieiunent. [8] Aliis autem temporibus non teneantur nisi sexta feria ieiunare. [9] Tempore vero manifestae necessitatis non teneantur fratres ieiunio corporali. [10] Consulo vero, moneo et exhortor fratres meos in Domino Jesu Christo, ut, quando vadunt per mundum, non litigent neque contendant verbis (cfr. 2 Tim 2,14), nec alios iudicent; [11] sed sint mites, pacifici et modesti, mansueti et humiles, honeste loquentes omnibus, sicut decet. [12] Et non debeant equitare, nisi manifesta necessitate vel infirmitate cogantur. [13] In quamcumque domum intraverint, primum dicant Pax huic domui (cfr. Lc 10,5). [14] Et secundum sanctum Evangelium de omnibus cibis, qui apponuntur eis, liceat manducare (cfr. Lc 10,8).",
+      "translation": "Клирики пусть совершают божественный оффиций по чину святой Римской Церкви, кроме псалтири, для которой могут иметь бревиарии. Миряне пусть читают двадцать четыре «Отче наш» на утрене, пять на хвалитнах, по семи на первом, третьем, шестом и девятом часе, двенадцать на вечерне и семь на повечерии, и молятся об усопших. Пусть постятся от праздника Всех святых до Рождества. Пост, начинающийся от Богоявления и длящийся сорок дней, — тот, который Господь освятил собственным постом, — кто постится его добровольно, да будет благословен Господом, а кто не хочет, тот не обязан. Другой пост, до Воскресения, пусть соблюдают. В прочее время не обязаны поститься, кроме пятницы. В явной необходимости не обязаны телесному посту. Советую, увещаю и умоляю братьев моих в Господе Иисусе Христе: когда идут по миру, пусть не ссорятся, не препираются словами и не судят других; пусть будут кротки, мирны, скромны, тихи и смиренны и говорят честно со всеми, как подобает. Пусть не ездят верхом, если не вынуждены явной необходимостью или немощью. В какой бы дом ни вошли, пусть сначала скажут: Мир дому сему. И по Евангелию могут есть всякую пищу, какую им поставят.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c04",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава IV",
+      "originalText": "[1] Praecipio firmiter fratribus universis, ut nullo modo denarios vel pecuniam recipiant per se vel per interpositam personam. [2] Tamen pro necessitatibus infirmorum et aliis fratribus induendis per amicos spirituales ministri tantum et custodes sollicitam curam gerant secundum loca et tempora et frigidas regiones, sicut necessitati viderint expedire; [3] eo semper salvo, ut, sicut dictum est, denarios vel pecuniam non recipiant.",
+      "translation": "Твёрдо повелеваю всем братьям никоим образом не принимать ни монет, ни денег — ни сами, ни через посредника. Для нужд больных и чтобы одеть прочих братьев только министры и кустоды через духовных друзей пусть несут тщательную заботу сообразно местам, временам и холодным краям, как увидят, что требует необходимость; при том всегда остаётся в силе, что, как сказано, они не принимают ни монет, ни денег.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c05",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава V",
+      "originalText": "[1] Fratres illi, quibus gratiam dedit Dominus laborandi, laborent fideliter et devote, [2] ita quod, excluso otio animae inimico, sanctae orationis et devotionis spiritum non exstinguant, cui debent cetera temporalia deservire. [3] De mercede vero laboris pro se et suis fratribus corporis necessaria recipiant praeter denarios vel pecuniam [4] et hoc humiliter, sicut decet servos Dei et paupertatis sanctissimae sectatores.",
+      "translation": "Братья, которым Господь дал благодать работать, пусть работают верно и благоговейно, так чтобы, затворив праздность, врага души, не угашали духа святой молитвы и благоговения, которому прочие временные вещи должны служить. В плату за труд пусть принимают для себя и для своих братьев необходимое телу, кроме монет или денег, и принимают смиренно, как подобает слугам Божиим и следующим святейшей бедности.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.poverta",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава VI",
+      "originalText": "[1] Fratres nihil sibi approprient nec domum nec locum nec aliquam rem. [2] Et tanquam peregrini et advenae (cfr. 1 Petr 2,11) in hoc saeculo in paupertate et humilitate Domino famulantes vadant pro eleemosyna confidenter, [3] nec oportet eos verecundari, quia Dominus pro nobis se fecit pauperem in hoc mundo (cfr. 2 Cor 8,9). [4] Haec est illa celsitudo altissimae paupertatis, quae vos, carissimos fratres meos, heredes et reges regni caelorum instituit, pauperes rebus fecit, virtutibus sublimavit (cfr. Jac 2,5). [5] Haec sit portio vestra, quae perducit in terram viventium (cfr. Ps 141,6). [6] Cui, dilectissimi fratres, totaliter inhaerentes nihil aliud pro nomine Domini nostri Jesu Christi in perpetuum sub caelo habere velitis. [7] Et, ubicumque sunt et se invenerint fratres, ostendant se domesticos invicem inter se. [8] Et secure manifestet unus alteri necessitatem suam, quia, si mater nutrit et diligit filium suum (cfr. 1 Thess 2,7) carnalem, quanto diligentius debet quis diligere et nutrire fratrem suum spiritualem? [9] Et, si quis eorum in infirmitate ceciderit, alii fratres debent ei servire, sicut vellent sibi serviri (cfr. Mt 7,12).",
+      "translation": "Братья пусть ничего не присваивают — ни дома, ни места, ни какой-либо вещи. Как паломники и чужестранцы в этом мире, служа Господу в бедности и смирении, пусть ходят за милостыней с доверием и не должны этого стыдиться, ибо Господь сделался нищим ради нас в этом мире. Это вершина высочайшей бедности, которая сделала вас, возлюбленнейшие братья мои, наследниками и царями Царства Небесного, бедными вещами и высокими добродетелями. Да будет это вашей долей, ведущей в землю живых. Вполне к ней прилепившись, возлюбленнейшие братья, не желайте иметь вовек ничего иного под небом ради имени Господа нашего Иисуса Христа. Где бы братья ни были и ни встречались, пусть показывают себя своими друг другу. Один пусть с уверенностью открывает другому свою нужду: если мать питает и любит сына по плоти, насколько более должно любить и питать брата по духу? И если кто впадёт в немощь, прочие братья пусть служат ему, как хотели бы, чтобы служили им.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c07",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава VII",
+      "originalText": "[1] Si qui fratrum, instigante inimico, mortaliter peccaverint, pro illis peccatis, de quibus ordinatum fuerit inter fratres, ut recurratur ad solos ministros provinciales, teneantur praedicti fratres ad eos recurrere quam citius poterint, sine mora. [2] Ipsi vero ministri, si presbyteri sunt, cum misericordia iniungant illis poenitentiam; si vero presbyteri non sunt, iniungi faciant per alios sacerdotes ordinis, sicut eis secundum Deum melius videbitur expedire. [3] Et cavere debent, ne irascantur et conturbentur propter peccatum alicuius, quia ira et conturbatio in se et in aliis impediunt caritatem.",
+      "translation": "Если некоторые братья, подстрекаемые врагом, согрешат смертно, за те грехи, по которым у братьев установлено обращаться только к провинциальным министрам, пусть обращаются как можно скорее, без промедления. Министры, если они пресвитеры, пусть налагают покаяние с милосердием; если нет — пусть велят наложить его другим священникам Ордена, как по Богу покажется лучше. Пусть остерегаются гневаться и смущаться из-за чьего-либо греха: гнев и смущение препятствуют любви в себе и в других.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c08",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава VIII",
+      "originalText": "[1] Universi fratres unum de fratribus istius religionis teneantur semper habere generalem ministrum et servum totius fraternitatis et ei teneantur firmiter obedire. [2] Quo decedente, electio successoris fiat a ministris provincialibus et custodibus in capitulo Pentecostes, in quo provinciales ministri teneantur semper insimul convenire, ubicumque a generali ministro fuerit constitutum; [3] et hoc semel in tribus annis vel ad alium terminum maiorem vel minorem, sicut a praedicto ministro fuerit ordinatum. [4] Et si aliquo tempore appareret universitati ministrorum provincialium et custodum, praedictum ministrum non esse sufficientem ad servitium et communem utilitatem fratrum, teneantur praedicti fratres, quibus electio data est, in nomine Domini alium sibi eligere in custodem. [5] Post capitulum vero Pentecostes ministri et custodes possint singuli, si voluerint et eis expedire videbitur, eodem anno in suis custodiis semel fratres suos ad capitulum convocare.",
+      "translation": "Все братья пусть всегда имеют одного брата этого братства генеральным министром и слугой всего братства и твёрдо ему повинуются. По его смерти преемник пусть будет избран провинциальными министрами и кустодами на капитуле Пятидесятницы, куда провинциальные министры должны всегда сходиться, в месте, назначенном генеральным министром, один раз в три года или в иной срок, больший или меньший, им назначенный. Если совокупности министров и кустодов покажется, что этот министр недостаточен для служения и общего блага братьев, те, кому принадлежит избрание, обязаны во имя Господа избрать другого. После капитула Пятидесятницы министры и кустоды могут, если хотят и если им кажется полезным, один раз в том же году созвать своих братьев на капитул в своей кустодии.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c09",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава IX",
+      "originalText": "[1] Fratres non praedicent in episcopatu alicuius episcopi, cum ab eo illis fuerit contradictum. [2] Et nullus fratrum populo penitus audeat praedicare, nisi a ministro generali huius fraternitatis fuerit examinatus et approbatus, et ab eo officium sibi praedicationis concessum. [3] Moneo quoque et exhortor eosdem fratres, ut in praedicatione, quam faciunt, sint examinata et casta eorum eloquia (cfr. Ps 11,7; 17,31), ad utilitatem et aedificationem populi, [4] annuntiando eis vitia et virtutes, poenam et gloriam cum brevitate sermonis; quia verbum abbreviatum fecit Dominus super terram (cfr. Rom 9,28).",
+      "translation": "Братья пусть не проповедуют в епархии епископа, когда он им это запретил. Ни один брат пусть не дерзает проповедовать народу, если не был испытан и одобрен генеральным министром и если тот не поручил ему служение проповеди. Увещаю и умоляю братьев: в проповеди слова их пусть будут взвешенны и чисты, к пользе и назиданию народа, возвещая пороки и добродетели, наказание и славу, кратко, ибо Господь на земле сотворил слово сокращённое.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c10",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава X",
+      "originalText": "[1] Fratres, qui sunt ministri et servi aliorum fratrum, visitent et moneant fratres suos et humiliter et caritative corrigant eos, non praecipientes eis aliquid, quod sit contra animam suam et regulam nostram. [2] Fratres vero, qui sunt subditi, recordentur, quod propter Deum abnegaverunt proprias voluntates. [3] Unde firmiter praecipio eis, ut obediant suis ministris in omnibus quae promiserunt Domino observare et non sunt contraria animae et regulae nostrae. [4] Et ubicumque sunt fratres, qui scirent et cognoscerent, se non posse regulam spiritualiter observare, ad suos ministros debeant et possint recurrere. [5] Ministri vero caritative et benigne eos recipiant et tantam familiaritatem habeant circa ipsos, ut dicere possint eis et facere sicut domini servis suis; [6] nam ita debet esse, quod ministri sint servi omnium fratrum. [7] Moneo vero et exhortor in Domino Jesu Christo, ut caveant fratres ab omni superbia, vana gloria, invidia, avaritia (cfr. Lc 12,15), cura et sollicitudine huius saeculi (cfr. Mt 13,22), detractione et murmuratione, et non curent nescientes litteras litteras discere; [8] sed attendant, quod super omnia desiderare debent habere Spiritum Domini et sanctam eius operationem, [9] orare semper ad eum puro corde et habere humilitatem, patientiam in persecutione et infirmitate [10] et diligere eos qui nos persequuntur et reprehendunt et arguunt, quia dicit Dominus Diligite inimicos vestros et orate pro persequentibus et calumniantibus vos (cfr. Mt 5,44). [11] Beati qui persecutionem patiuntur propter iustitiam, quoniam ipsorum est regnum caelorum (Mt 5,10). [12] Qui autem perseveraverit usque in finem hic salvus erit (Mt 10,22).",
+      "translation": "Братья, которые суть министры и слуги прочих, пусть посещают и увещают своих братьев и исправляют их со смирением и любовью, не повелевая ничего противного душе и нашему Уставу. Подчинённые братья пусть помнят, что ради Бога отреклись от собственных воль. Твёрдо повелеваю им повиноваться министрам во всём, что обещали Господу соблюдать и что не противно душе и Уставу. Братья, которые знают, что не могут соблюдать Устав духовно, должны и могут обращаться к министрам. Министры пусть принимают их с любовью и благостью и будут с ними в такой близости, чтобы те могли говорить и поступать, как господа со слугами: ибо так и должно быть, чтобы министры были слугами всех братьев. Увещаю и умоляю в Господе Иисусе Христе: пусть братья остерегаются всякой гордыни, тщеславия, зависти, любостяжания, заботы и попечения века сего, злословия и ропота; и кто не знает грамоты, пусть не заботится её выучить. Пусть скорее внимают тому, что превыше всего им должно желать Духа Господня и Его святого делания, всегда молиться чистым сердцем, иметь смирение и терпение в гонении и в немощи и любить тех, кто гонит нас, укоряет и обвиняет, ибо Господь говорит: любите врагов ваших и молитесь за гонящих и клевещущих на вас. Блаженны гонимые за правду, ибо их есть Царство Небесное. Кто претерпит до конца, тот спасётся.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c11",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава XI",
+      "originalText": "[1] Praecipio firmiter fratribus universis, ne habeant suspecta consortia vel consilia mulierum, [2] et ne ingrediantur monasteria monacharum praeter illos, quibus a sede apostolica concessa est licentia specialis; [3] nec fiant compatres virorum vel mulierum nec hac occasione inter fratres vel de fratribus scandalum oriatur.",
+      "translation": "Твёрдо повелеваю всем братьям не иметь подозрительных общений или советов с женщинами и не входить в монастыри монахинь, кроме тех, кому апостольский престол дал особое позволение. Пусть не становятся крёстными мужчин или женщин, чтобы от этого не родился соблазн среди братьев или о братьях.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c12",
+      "documentId": "source.regola_bollata",
+      "reference": "Устав, скреплённый буллой, глава XII и утверждение",
+      "originalText": "[1] Quicumque fratrum divina inspiratione voluerint ire inter saracenos et alios infideles petant inde licentiam a suis ministris provincialibus. [2] Ministri vero nullis eundi licentiam tribuant, nisi eis quos viderint esse idoneos ad mittendum. [3] Ad haec per obedientiam iniungo ministris, ut petant a domino papa unum de sanctae Romanae Ecclesiae cardinalibus, qui sit gubernator, protector et corrector istius fraternitatis, [4] ut semper subditi et subiecti pedibus eiusdem sanctae Ecclesiae stabiles in fide (cfr. Col 1,23) catholica paupertatem et humilitatem et sanctum evangelium Domini nostri Jesu Christi, quod firmiter promisimus, observemus. Explicit regula et vita fratrum minorum. Sequitur confirmatio regulae Nulli ergo omnino hominum liceat hanc paginam nostre confirmationis infringere, vel ei ausu temerario contraire. si quis autem hoc attentare presumpserit, indignationem omnipotentis dei et beatorum Petri et Pauli, apostolorum eius, se noverit incursurum. Datum Laterani tertio kalendas decembris, pontificatus nostri anno octavo. Honorius III hr Pravilo svetoga Franje",
+      "translation": "Всякий брат, кто по божественному вдохновению захочет идти к сарацинам и прочим неверным, пусть просит позволения у своего провинциального министра. Министры пусть не дают его никому, кроме тех, кого увидят годными к посланию. По послушанию вменяю министрам просить у папы кардинала святой Римской Церкви, который был бы управителем, защитником и исправителем этого братства, чтобы, всегда подданные и положенные у ног той же святой Церкви, твёрдые в католической вере, мы соблюдали бедность, смирение и святое Евангелие Господа нашего Иисуса Христа, которое твёрдо обещали. Здесь кончается устав и жизнь меньших братьев. Следует утверждение: никому да не будет позволено нарушать эту грамоту утверждения или противоречить ей дерзновенной смелостью. Кто дерзнёт попытаться, да знает, что навлечёт на себя негодование Бога всемогущего и блаженных Петра и Павла. Дано в Латеране, за три дня до декабрьских календ, в восьмой год нашего понтификата. Гонорий III.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c00",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, пролог",
+      "originalText": "[1] In nomine Patris et Filii et Spiritus Sancti! [2] Haec est vita evangelii Jesu Christi, quam frater Franciscus petiit a domino papa concedi et confirmari sibi; et ille concessit et confirmavit sibi et suis fratribus habitis et futuris. [3] Frater Franciscus et quicumque erit caput istius religionis promittat obedientiam domino Innocentio papae et reverentiam et suis successoribus. [4] Et omnes alii fratres teneantur obedire fratri Francisco et eius successoribus.",
+      "translation": "Во имя Отца и Сына и Святого Духа. Вот жизнь Евангелия Иисуса Христа, которую брат Франциск просил господина папу ему даровать и утвердить; и тот даровал и утвердил её ему и его братьям, настоящим и будущим. Брат Франциск и всякий, кто будет во главе этого братства, пусть обещает послушание и почтение господину папе Иннокентию и его преемникам. И все прочие братья обязаны повиноваться брату Франциску и его преемникам.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c01",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава I",
+      "originalText": "[1] Regula et vita istorum fratrum haec est, scilicet vivere in obedientia, in castitate et sine proprio, et Domini nostri Jesu Christi doctrinam et vestigia sequi, qui dicit [2] «Si vis perfectus esse, vade (Mt 19,21) et vende omnia (cfr. Lc 18,22), quae habes, et da pauperibus et habebis thesaurum in caelo; et veni, sequere me» (Mt 19,21). [3] Et «Si quis vult post me venire, abneget semetipsum et tollat crucem suam et sequatur me» (Mt 16, 24). [4] Item «Si quis vult venire ad me et non odit patrem et matrem et uxorem et filios et fratres et sorores, adhuc autem et animam suam, non potest meus esse discipulus» (Lc 14,26). [5] Et «Omnis, qui reliquerit patrem aut matrem, fratres aut sorores, uxorem aut filios, domos aut agros propter me, centuplum accipiet et vitam aeternam possidebit» (cfr. Mt 19,29; Mc 10,29; Lc 18,29).",
+      "translation": "Устав и жизнь этих братьев такова: жить в послушании, в целомудрии и без чего-либо своего и следовать учению и следам Господа нашего Иисуса Христа, Который говорит: если хочешь быть совершенным, иди, продай всё, что имеешь, и отдай бедным, и будешь иметь сокровище на небе; и приди, следуй за Мною. И: если кто хочет идти за Мною, да отречётся от себя, возьмёт крест свой и следует за Мною. Ещё: если кто хочет прийти ко Мне и не возненавидит отца и мать, и жену, и детей, и братьев, и сестёр, и даже собственную душу, не может быть Моим учеником. И: всякий, кто оставит отца или мать, братьев или сестёр, жену или детей, дома или поля ради Меня, получит во сто крат и наследует жизнь вечную.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c02",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава II",
+      "originalText": "[1] Si quis divina inspiratione volens accipere hanc vitam venerit ad nostros fratres, benigne recipiatur ab eis. [2] Quodsi fuerit firmus accipere vitam nostram, multum caveant sibi fratres, ne de suis temporalibus negotiis se intromittant, sed ad suum ministrum, quam citius possunt, eum repraesentent. [3] Minister vero benigne ipsum recipiat et confortet et vitae nostrae tenorem sibi diligenter exponat. [4] Quo facto, praedictus, si vult et potest spiritualiter sine impedimento, omnia sua vendat et ea omnia pauperibus studeat erogare. [5] Caveant sibi fratres et minister fratrum, quod de negotiis suis nullo modo intromittant se; [6] neque recipiant aliquam pecuniam neque per se neque per interpositam personam. [7] Si tamen indigent, alia necessaria corporis praeter pecuniam recipere possunt fratres causa necessitatis sicut alii pauperes. [8] Et cum reversus fuerit, minister concedat ei pannos probationis usque ad annum, scilicet duas tunicas sine caputio et cingulum et braccas et caparonem usque ad cingulum. [9] Finito vero anno et termino probationis recipiatur ad obedientiam. [10] Postea non licebit ei ad aliam religionem accedere neque «extra obedientiam evagari» iuxta mandatum domini papae et secundum evangelium; quia «nemo mittens manum ad aratrum et aspiciens retro aptus est regno Dei» (Lc 9,62). [11] Si autem aliquis venerit, qui sua dare non potest sine impedimento et habet spiritualem voluntatem, relinquat illa, et sufficit sibi. [12] Nullus recipiatur contra formam et institutionem sanctae Ecclesiae. [13] Alii vero fratres, qui promiserunt obedientiam, habeant unam tunicam cum caputio et aliam sine caputio, si necesse fuerit, et cingulum et braccas. [14] Et omnes fratres vilibus vestibus induantur, et possint eas repeciare de saccis et aliis peciis cum benedictione Dei; quia dicit Dominus in evangelio «Qui in veste pretiosa sunt et in deliciis» (Lc 7,25) et «qui mollibus vestiuntur, in domibus regum sunt» (Mt 11,8). [15] Et licet dicantur hypocritae, non tamen cessent bene facere nec quaerant caras vestes in hoc saeculo, ut possint habere vestimentum in regno caelorum.",
+      "translation": "Если кто, желая по божественному вдохновению принять эту жизнь, придёт к нашим братьям, пусть примут его с добротой. Если он твёрд в том, чтобы принять нашу жизнь, братья пусть весьма остерегаются вмешиваться в его временные дела и как можно скорее представят его своему министру. Министр пусть примет его с добротой, ободрит и тщательно изложит ему смысл нашей жизни. Сделав это, если тот хочет и духовно может, без препятствия, пусть продаст всё, что его, и позаботится отдать это бедным. Братья и министр пусть остерегаются каким бы то ни было образом вмешиваться в его дела и не принимают денег ни для себя, ни через подставное лицо. Если они в нужде, братья могут принимать по необходимости прочие вещи, нужные телу, кроме денег, как прочие бедные. Когда тот вернётся, министр пусть даст ему одежды испытания сроком до года: две туники без капюшона, пояс, штаны и накидку до пояса. По окончании года и срока испытания пусть будет принят к послушанию. Затем ему не будет позволено перейти в другое братство или бродить вне послушания, по повелению папы и по Евангелию: никто, положивший руку на плуг и оглядывающийся назад, не пригоден для Царства Божия. Если придёт кто-то, кто не может отдать своё без препятствия и имеет духовную волю, пусть оставит эти вещи — и этого ему довольно. Никто да не будет принят против формы и установления святой Церкви. Прочие братья, обещавшие послушание, пусть имеют одну тунику с капюшоном и другую без него, если нужно, и пояс, и штаны. Все братья пусть одеваются в убогие одежды и могут латать их мешковиной и другими кусками, с благословением Божиим, ибо Господь говорит в Евангелии, что носящие драгоценную одежду и пребывающие в наслаждениях и одевающиеся мягко находятся в домах царей. И даже если их назовут лицемерами, пусть не перестают делать добро и не ищут дорогих одежд в веке сем, чтобы иметь одежду в Царстве Небесном.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c03",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава III",
+      "originalText": "[1] Dicit Dominus Hoc genus daemoniorum non potest exire nisi in ieiunio et oratione (cfr. Mc 9,28); [2] et iterum «Cum ieiunatis nolite fieri sicut hypocritae tristes» (Mt 6,16). [3] Propter hoc omnes fratres sive clerici sive laici faciant divinum officium, laudes et orationes, secundum quod debent facere. [4] Clerici faciant officium et dicant pro vivis et pro mortuis secundum consuetudinem clericorum. [5] Et pro defectu et negligentia fratrum dicant omni die Miserere mei Deus (Ps 50) cum Pater noster; [6] et pro fratribus defunctis dicant De profundis (Ps 129) cum Pater noster. [7] Et libros tantum necessarios ad implendum eorum officium possint habere. [8] Et laicis etiam scientibus legere psalterium liceat eis habere illud. [9] Aliis vero nescientibus litteras librum habere non liceat. [10] Laici dicant Credo in Deum et viginti quattuor Pater noster cum Gloria Patri pro matutino; pro laudibus vero quinque; pro prima Credo in Deum et septem Pater noster cum Gloria Patri; pro tertia, sexta et nona et unaquaque hora septem; pro vesperis duodecim; pro completorio Credo in Deum et septem Pater noster cum Gloria Patri; pro mortuis septem Pater noster cum Requiem aeternam; et pro defectu et negligentia fratrum tria Pater noster omni die. [11] Et similiter omnes fratres ieiunent a festo Omnium Sanctorum usque ad Natale et ab Epiphania, quando Dominus noster Jesus Christus incepit ieiunare usque ad Pascha. [12] Aliis autem temporibus non teneantur secundum hanc vitam nisi sexta feria ieiunare. [13] Et liceat eis manducare de omnibus cibis, qui apponuntur eis, secundum evangelium (cfr. Lc 10,8).",
+      "translation": "Говорит Господь: этот род бесов не может выйти иначе как постом и молитвой; и ещё: когда поститесь, не будьте печальны, как лицемеры. Поэтому все братья, клирики или миряне, пусть совершают божественный оффиций, хвалы и молитвы, как им должно. Клирики пусть совершают оффиций и молятся о живых и об умерших по обычаю клириков. За упущения и нерадения братьев пусть каждый день читают Miserere с «Отче наш»; а об умерших братьях — De profundis с «Отче наш». Пусть имеют только книги, необходимые для совершения их оффиция. И мирянам, умеющим читать псалтирь, да будет позволено её иметь. Прочим, не знающим грамоты, да не будет позволено иметь книгу. Миряне пусть читают «Верую» и двадцать четыре «Отче наш» с «Слава» на утрене; пять на хвалитнах; на первом часе «Верую» и семь «Отче наш» с «Слава»; на третьем, шестом и девятом, на каждый из этих часов, семь; на вечерне двенадцать; на повечерии «Верую» и семь «Отче наш» с «Слава»; об умерших семь «Отче наш» с Requiem; и за упущение и нерадение братьев три «Отче наш» каждый день. Равным образом все братья пусть постятся от Всех святых до Рождества и от Богоявления, когда Господь наш Иисус Христос начал поститься, до Пасхи. В прочее время, по этой жизни, не обязаны поститься, кроме пятницы. И да будет им позволено есть всякую пищу, какую им поставят, по Евангелию.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c04",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава IV",
+      "originalText": "[1] In nomine Domini! [2] Omnes fratres, qui constituuntur ministri et servi aliorum fratrum, in provinciis et in locis, in quibus fuerint, collocent suos fratres, quos saepe visitent et spiritualiter moneant et confortent. [3] Et omnes alii fratres mei benedicti diligenter obediant eis in his, quae spectant ad salutem animae et non sunt contraria vitae nostrae. [4] Et faciant inter se sicut dicit Dominus «Quaecumque vultis, ut faciant vobis homines et vos facite illis» (Mt 7,12); [5] et «Quod non vis tibi fieri, non facias alteri». [6] Et recordentur ministri et servi, quod dicit Dominus Non veni ministrari, sed ministrare (Mt 20,28) et quia commissa est eis cura animarum fratrum, de quibus, si aliquid perderetur propter eorum culpam et malum exemplum, in die iudicii oportebit eos reddere rationem (cfr. Mt 12,36) coram Domino Jesu Christo.",
+      "translation": "Во имя Господа. Все братья, поставленные министрами и слугами прочих братьев, в провинциях и местах, где будут, пусть размещают своих братьев, часто их посещают и увещают и духовно ободряют. И все прочие благословенные братья мои пусть тщательно им повинуются в том, что касается спасения души и не противно нашей жизни. Пусть поступают между собой, как говорит Господь: всё, чего хотите, чтобы люди делали вам, делайте и вы им; и: чего не хочешь, чтобы сделали тебе, не делай другому. И министры и слуги пусть помнят, что Господь говорит: Я пришёл не для того, чтобы Мне служили, но чтобы служить; и что им вверена забота о душах братьев, за которые, если что потеряется по их вине и дурному примеру, в день суда они должны будут дать ответ перед Господом Иисусом Христом.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c05",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава V",
+      "originalText": "[1] Ideoque animas vestras et fratrum vestrorum custodite; quia horrendum est incidere in manus Dei viventis (Hebr 10,31). [2] Si quis autem ministrorum alicui fratrum aliquid contra vitam nostram praeciperet vel contra animam suam, non teneatur ei obedire; quia illa obedientia non est, in qua delictum vel peccatum committitur. [3] Verumtamen omnes fratres, qui sunt sub ministris et servis, facta ministrorum et servorum considerent rationabiliter et diligenter. [4] Et si viderint aliquem illorum carnaliter et non spiritualiter ambulare pro rectitudine vitae nostrae, post tertiam admonitionem, si non se emendaverit, in capitulo Pentecostes renuntient ministro et servo totius fraternitatis nulla contradictione impediente. [5] Si vero inter fratres ubicumque fuerit aliquis frater volens carnaliter et non spiritualiter ambulare, fratres, cum quibus est, moneant eum, instruant et corripiant humiliter et diligenter. [6] Quodsi ille post tertiam admonitionem noluerit se emendare, quam citius possunt, mittant eum vel significent suo ministro et servo, qui minister et servus de eo faciat, sicut sibi secundum Deum melius videbitur expedire. [7] Et caveant omnes fratres tam ministri et servi quam alii, quod propter peccatum alterius vel malum non turbentur vel irascantur, quia diabolus propter delictum unius multos vult corrumpere; [8] sed spiritualiter, sicut melius possunt, adiuvent illum qui peccavit, quia non est sanis opus medicus, sed male habentibus (cfr. Mt 9,12 cum Mc 2,17). [9] Similiter omnes fratres non habeant in hoc potestatem vel dominationem maxime inter se. [10] Sicut enim dicit Dominus in evangelio «Principes gentium dominantur eorum, et qui maiores sunt potestatem exercent in eos» (Mt 20,25), non sic erit inter fratres (cfr. Mt 20,26a). [11] Et quicumque voluerit inter eos maior fieri, sit eorum minister (cfr. Mt 20,26b) et servus. [12] Et qui maior est inter eos fiat sicut minor (cfr. Lc 22,26). [13] Nec aliquis frater malum faciat vel malum dicat alteri; [14] immo magis per caritatem spiritus voluntarie serviant et obediant invicem (cfr. Gal 5,13). [15] Et haec est vera et sancta obedientia Domini nostri Jesu Christi. [16] Et omnes fratres, quoties declinaverint a mandatis Domini et extra obedientiam evagaverint, sicut dicit propheta (Ps 118,21), sciant se esse maledictos extra obedientiam, quousque steterint in tali peccato scienter. [17] Et quando perseveraverint in mandatis Domini, quae promiserunt per sanctum evangelium et vitam ipsorum, sciant se in vera obedientia stare, et benedicti sint a Domino.",
+      "translation": "Храните же души ваши и души братьев ваших, ибо страшно впасть в руки Бога живого. Если кто из министров повелит брату что-либо против нашей жизни или против его души, тот не обязан ему повиноваться: не послушание то, в котором совершается преступление или грех. Однако все братья, состоящие под министрами и слугами, пусть разумно и тщательно рассматривают поступки министров и слуг. И если увидят, что кто-то из них ходит по плоти, а не по духу, относительно прямоты нашей жизни, после третьего увещания, если не исправится, пусть донесут о нём на капитуле Пятидесятницы министру и слуге всего братства, и никакое противоречие пусть этому не препятствует. Если же среди братьев, где бы то ни было, окажется брат, который хочет ходить по плоти, а не по духу, братья, с которыми он пребывает, пусть увещают его, наставляют и исправляют со смирением и тщанием. Если после третьего увещания не захочет исправиться, как можно скорее пусть пошлют его или известят о нём его министра и слугу, и министр и слуга пусть поступит с ним, как покажется лучше по Богу. Все братья, министры и слуги и прочие, пусть остерегаются смущаться или гневаться из-за греха или зла другого, ибо дьявол преступлением одного хочет развратить многих; но духовно, как лучше могут, пусть помогают согрешившему, потому что не здоровые нуждаются во враче, а те, кто болен. Равным образом все братья пусть не имеют в этом власти или господства, особенно между собой. Как говорит Господь в Евангелии, князья народов господствуют над ними, и великие осуществляют власть над ними: не так будет среди братьев. И кто захочет стать большим среди них, да будет их министром и слугой. И кто больше среди них, да сделается как меньший. Ни один брат пусть не делает зла и не говорит зла другому; напротив, любовью духа пусть охотно служат и повинуются друг другу. И это истинное и святое послушание Господа нашего Иисуса Христа. Все братья, всякий раз как отступят от заповедей Господних и выйдут из послушания, пусть знают, что прокляты вне послушания, пока сознательно пребывают в таком грехе. А когда пребудут в заповедях Господних, которые обещали по святому Евангелию и по своей жизни, пусть знают, что стоят в истинном послушании, и да будут благословенны Господом.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.fratelli",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава VI",
+      "originalText": "[1] Fratres, in quibuscumque locis sunt, si non possunt vitam nostram observare, quam citius possunt, recurrant ad suum ministrum hoc sibi significantes. [2] Minister vero taliter eis studeat providere, sicut ipse vellet sibi fieri, si in consimili casu esset (cfr. Mt 7,12). [3] Et nullus vocetur prior, sed generaliter omnes vocentur fratres minores. [4] Et alter alterius lavet pedes (cfr. Joa 13,14).",
+      "translation": "Братья, в каком бы месте ни были, если не могут соблюдать нашу жизнь, пусть как можно скорее прибегнут к своему министру, дав ему знать. Министр пусть позаботится обеспечить их так, как хотел бы, чтобы поступили с ним, окажись он в подобном случае. И никто да не называется приором, но все вообще да называются меньшими братьями. И один пусть омывает ноги другому.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c07",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава VII",
+      "originalText": "[1] Omnes fratres, in quibuscumque locis steterint apud alios ad serviendum vel laborandum, non sint camerarii neque cancellarii neque praesint in domibus, in quibus serviunt; nec recipiant aliquod officium, quod scandalum generet vel animae suae faciat detrimentum (cfr. Mc 8,36); [2] sed sint minores et subditi omnibus, qui in eadem domo sunt. [3] Et fratres, qui sciunt laborare, laborent et eandem artem exerceant, quam noverint, si non fuerit contra salutem animae et honeste poterit operari. [4] Nam propheta ait «Labores fructuum tuorum manducabis; beatus es et bene tibi erit» (Ps 127,2;-R); [5] et apostolus Qui non vult operari non manducet (cfr. 2 Thess 3,10); [6] et Unusquisque in ea arte et officio, in quo vocatus est, permaneat (cfr. 1 Cor 7,24). [7] Et pro labore possint recipere omnia necessaria praeter pecuniam. [8] Et cum necesse fuerit, vadant pro eleemosynis sicut alii pauperes. [9] Et liceat eis habere ferramenta et instrumenta suis artibus opportuna. [10] Omnes fratres studeant bonis operibus insudare, quia scriptum est Semper facito aliquid boni, ut te diabolus inveniat occupatum. [11] Et iterum Otiositas inimica est animae. [12] Ideo servi Dei semper orationi vel alicui bonae operationi insistere debent. [13] Caveant sibi fratres, ubicumque fuerint in eremis vel in aliis locis, quod nullum locum sibi approprient nec alicui defendant. [14] Et quicumque ad eos venerit amicus vel adversarius, fur vel latro benigne recipiatur. [15] Et ubicumque sunt fratres et in quocumque loco se invenerint, spiritualiter et diligenter debeant se revidere et honorare ad invicem sine murmuratione (1 Petr 4,9). [16] Et caveant sibi, quod non se ostendant tristes extrinsecus et nubilosos hypocritas; sed ostendant se gaudentes in Domino (cfr. Phil 4,4) et hilares et convenienter gratiosos.",
+      "translation": "Все братья, где бы ни пребывали у других, чтобы служить или работать, пусть не будут ни камергерами, ни канцлерами и не стоят во главе домов, в которых служат; и не принимают никакой должности, которая рождает соблазн или вредит их душе; но пусть будут меньшими и покорными всем, кто в том же доме. Братья, умеющие работать, пусть работают и занимаются ремеслом, которое знают, если оно не против спасения души и можно трудиться честно. Ибо говорит пророк: будешь есть от плодов трудов твоих; блажен ты, и благо тебе будет; и апостол: кто не хочет трудиться, тот пусть не ест; и: каждый пусть остаётся в ремесле и должности, к которым призван. За труд могут принимать всё необходимое, кроме денег. И когда будет нужно, пусть ходят за милостыней, как прочие бедные. Да будет им позволено иметь орудия и инструменты, пригодные их ремёслам. Все братья пусть стараются утруждаться в добрых делах, ибо написано: всегда делай что-нибудь доброе, чтобы дьявол нашёл тебя занятым. И ещё: праздность — враг души. Поэтому слуги Божии должны всегда пребывать в молитве или в каком-нибудь добром деле. Пусть братья, где бы ни были, в скитах или в иных местах, остерегаются присваивать какое-либо место и защищать его против кого-либо. И кто бы ни пришёл к ним, друг или противник, вор или грабитель, да будет принят с добротой. И где бы братья ни были и в каком бы месте ни оказались, должны духовно и тщательно оглядывать друг друга и почитать друг друга без ропота. И пусть остерегаются казаться снаружи печальными и пасмурными лицемерами; пусть показывают себя радостными в Господе, весёлыми и приветливыми, как подобает.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c08",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава VIII",
+      "originalText": "[1] Dominus praecipit in evangelio Videte, cavete ab omni malitia et avaritia (cfr. Lc 12,15); [2] et Attendite vobis a sollicitudine huius saeculi et a curis huius vitae (cfr. Lc 21,34). [3] Unde nullus fratrum, ubicumque sit et quocumque vadit, aliquo modo tollat nec recipiat nec recipi faciat pecuniam aut denarios neque occasione vestimentorum nec librorum nec pro pretio alicuius laboris, immo nulla occasione, nisi propter manifestam necessitatem infirmorum fratrum; quia non debemus maiorem utilitatem habere et reputare in pecunia et denariis quam in lapidibus. [4] Et illos vult diabolus excaecare, qui eam appetunt vel reputant lapidibus meliorem. [5] Caveamus ergo nos, qui omnia relinquimus (cfr. Mt 19,27), ne pro tam modico regnum caelorum perdamus. [6] Et si in aliquo loco inveniremus denarios, de his non curemus tamquam de pulvere, quem pedibus calcamus, quia vanitas vanitatum et omnia vanitas (Eccle 1,2). [7] Et si forte, quod absit, aliquem fratrem contigerit pecuniam vel denarios colligere vel habere, excepta solummodo praedicta infirmorum necessitate, omnes fratres teneamus eum pro falso fratre et apostata et fure et latrone et loculos habente (cfr. Joa 12,6), nisi vere poenituerit. [8] Et nullo modo fratres recipiant nec recipi faciant nec quaerant nec quaeri faciant pecuniam pro eleemosyna neque denarios pro aliquibus domibus vel locis; neque cum persona pro talibus locis pecunias vel denarios quaerente vadant. [9] Alia autem servitia, quae non sunt contraria vitae nostrae, possunt fratres locis facere cum benedictione Dei. [10] Fratres tamen in manifesta necessitate leprosorum possunt pro eis quaerere eleemosynam. [11] Caveant tamen multum a pecunia. [12] Similiter caveant omnes fratres, ut pro nullo turpi lucro terras circueant.",
+      "translation": "Господь повелевает в Евангелии: берегитесь всякого лукавства и любостяжания; и: берегите себя от попечения века сего и от забот этой жизни. Поэтому ни один брат, где бы ни был и куда бы ни шёл, никоим образом пусть не берёт, не принимает и не велит принимать деньги или монеты — ни по случаю одежд, ни книг, ни в плату за труд, и вообще ни по какому случаю, кроме явной необходимости больных братьев: нам не следует ни иметь, ни считать деньги и монеты полезнее камней. И дьявол хочет ослепить тех, кто их жаждет или считает их лучше камней. Бережёмся же мы, оставившие всё, чтобы не потерять за столь малое Царство Небесное. И если в каком-либо месте найдём монеты, не будем о них заботиться, как о пыли, которую попираем, ибо суета сует, и всё суета. И если, чего да не будет, случится, что брат соберёт или будет держать деньги или монеты, кроме только названной необходимости больных, все мы, братья, будем считать его ложным братом, отступником, вором и грабителем и тем, кто держит кошель, если не совершит истинного покаяния. И никоим образом братья пусть не принимают, не велят принимать, не ищут и не велят искать деньги в качестве милостыни, ни монеты для какого-либо дома или места; и пусть не ходят с человеком, который ищет деньги или монеты для таких мест. Прочие услуги, не противные нашей жизни, братья могут оказывать местам с благословением Божиим. Братья, однако, в явной необходимости прокажённых могут искать для них милостыню. Но пусть весьма остерегаются денег. Равным образом все братья пусть остерегаются обходить земли ради какой-либо постыдной корысти.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c09",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава IX",
+      "originalText": "[1] Omnes fratres studeant sequi humilitatem et paupertatem Domini nostri Jesu Christi et recordentur, quod nihil aliud oportet nos habere de toto mundo, nisi, sicut dicit apostolus, habentes alimenta et quibus tegamur, his contenti sumus (cfr. 1 Tim 6,8). [2] Et debent gaudere, quando conversantur inter viles et despectas personas, inter pauperes et debiles et infirmos et leprosos et iuxta viam mendicantes. [3] Et cum necesse fuerit, vadant pro eleemosynis. [4] Et non verecundentur et magis recordentur, quia Dominus noster Jesus Christus, Filius Dei vivi (Joa 11,27) omnipotentis, posuit faciem suam ut petram durissimam (Is 50,7), nec verecundatus fuit. [5] Et fuit pauper et hospes et vixit de eleemosynis ipse et beata Virgo et discipuli eius. [6] Et quando facerent eis homines verecundiam et nollent eis dare eleemosynam, referant inde gratias Deo; quia de verecundiis recipient magnum honorem ante tribunal Domini nostri Jesu Christi. [7] Et sciant, quod verecundia non patientibus, sed inferentibus imputatur. [8] Et eleemosyna est hereditas et iustitia, quae debetur pauperibus, quam nobis acquisivit Dominus noster Jesus Christus. [9] Et fratres, qui eam acquirendo laborant, magnam mercedem habebunt et faciunt lucrari et acquirere tribuentes; quia omnia, quae relinquent homines in mundo peribunt, sed de caritate et de eleemosynis, quas fecerunt, habebunt praemium a Domino. [10] Et secure manifestet unus alteri necessitatem suam, ut sibi necessaria inveniat et ministret. [11] Et quilibet diligat et nutriat fratrem suum, sicut mater diligit et nutrit filium suum (cfr. 1 Thess 2,7), in quibus ei Deus gratiam largietur. [12] Et qui non manducat, manducantem non iudicet (Rom 14,3b). [13] Et quandocumque necessitas supervenerit, liceat universis fratribus, ubicumque fuerint, uti omnibus cibis, quos possunt homines manducare, sicut Dominus dicit de David, qui comedit panes propositionis (cfr. Mt 12,4), quos non licebat manducare nisi sacerdotibus (Mc 2,26). [14] Et recordentur, quod dicit Dominus Attendite autem vobis, ne forte graventur corda vestra in crapula et ebrietate et curis huius vitae et superveniat in vobis repentina dies illa; [15] tanquam enim laqueus superveniet in omnes, qui sedent super faciem orbis terrae (cfr. Lc 21,34-35). [16] Similiter etiam tempore manifestae necessitatis faciant omnes fratres de eorum necessariis, sicut eis Dominus gratiam largietur, quia necessitas non habet legem.",
+      "translation": "Все братья пусть стараются следовать смирению и бедности Господа нашего Иисуса Христа и помнят, что из всего мира нам не нужно иметь ничего иного, кроме, как говорит апостол, чем питаться и чем прикрыться: этим мы довольны. И должны радоваться, когда оказываются среди людей низких и презираемых, среди бедных и слабых, и немощных, и прокажённых, и нищих у дороги. И когда будет нужно, пусть ходят за милостыней. И пусть не стыдятся этого, а лучше помнят, что Господь наш Иисус Христос, Сын Бога живого всемогущего, положил лицо Своё как камень твердейший и не устыдился. И был Он беден и странник и жил милостыней, Он, и блаженная Дева, и ученики Его. И когда люди будут их срамить и не захотят дать милостыню, пусть благодарят за это Бога, ибо за посрамления примут великую честь перед судом Господа нашего Иисуса Христа. И пусть знают, что позор вменяется не тому, кто его терпит, а тому, кто его наносит. И милостыня есть наследие и должная беднякам справедливость, которую Господь наш Иисус Христос приобрёл для нас. И братья, которые трудятся, чтобы её получить, будут иметь великую награду и дают приобрести и получить тем, кто даёт, ибо всё, что люди оставят в мире, погибнет, а за любовь и милостыни, которые сделали, получат воздаяние от Господа. И один пусть с уверенностью открывает другому свою нужду, чтобы тот нашёл необходимое и послужил им. И каждый пусть любит и питает своего брата, как мать любит и питает сына, в том, в чём Бог подаст ему благодать. И кто не ест, пусть не судит того, кто ест. И всякий раз, как наступит необходимость, да будет позволено всем братьям, где бы ни были, употреблять всякую пищу, какую люди могут есть, как Господь говорит о Давиде, который ел хлебы предложения, которые не позволено было есть никому, кроме священников. И пусть помнят, что говорит Господь: берегите себя, чтобы сердца ваши не отяжелели от объедения и пьянства и забот этой жизни и чтобы день тот не настиг вас внезапно; ибо он придёт, как западня, на всех сидящих на лице земли. Равным образом во время явной необходимости все братья пусть поступают относительно необходимого им так, как Господь подаст им благодать, ибо необходимость не имеет закона.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c10",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава X",
+      "originalText": "[1] Si quis fratrum in infirmitate ceciderit, ubicumque fuerit, alii fratres non dimittant eum, nisi constituatur unus de fratribus vel plures, si necesse fuerit, qui serviant ei, sicut vellent sibi serviri (cfr. Mt 7,12); [2] sed in maxima necessitate possunt ipsum dimittere alicui personae, quae suae debeat satisfacere infirmitati. [3] Et rogo fratrem infirmum, ut referat de omnibus gratias Creatori; et quod qualem vult eum Dominus, talem se esse desideret sive sanum sive infirmum, quia omnes, quos Deus ad vitam praeordinavit aeternam (cfr. Act 13,48), flagellorum atque infirmitatum stimulis et compunctionis spiritu erudit, sicut Dominus dicit «Ego quos amo corrigo et castigo» (Apoc 3,19). [4] Et si quis turbabitur vel irascetur sive contra Deum sive contra fratres, vel si forte sollicite postulaverit medicinas nimis desiderans liberare carnem cito morituram, quae est animae inimica, a malo sibi evenit et carnalis est, et non videtur esse de fratribus, quia plus diligit corpus quam animam.",
+      "translation": "Если брат впадёт в немощь, где бы ни был, прочие братья пусть не оставляют его, разве что будет поставлен один из братьев или больше, если нужно, чтобы служил ему, как сам хотел бы, чтобы ему служили; но в крайней необходимости могут оставить его человеку, который должен удовлетворить его немощи. И прошу больного брата благодарить Творца за всё и желать быть таким, каким хочет его Господь, здоровым или немощным, потому что всех, кого Бог предуставил к жизни вечной, Он воспитывает ударами бичей и немощей и духом сокрушения, как говорит Господь: кого люблю, того обличаю и наказываю. И если кто смутится или разгневается на Бога или на братьев, или, быть может, станет с заботой требовать лекарств, слишком желая поскорее освободить плоть, которая вот-вот умрёт и которая есть враг души, это приходит к нему от зла, и он плотской, и не кажется одним из братьев, потому что любит тело больше души.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c11",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XI",
+      "originalText": "[1] Et omnes fratres caveant sibi, ut non calumnientur neque contendant verbis (cfr. 2 Tim 2,14); [2] immo studeant retinere silentium, quandocumque eis Deus gratiam largietur. [3] Neque litigent inter se neque cum aliis, sed procurent humiliter respondere dicentes Inutilis servus sum (cfr. Lc 17,10). [4] Et non irascantur, quia omnis, qui irascitur fratri suo, reus erit iudicio; qui dixerit fratri suo raca, reus erit concilio; qui dixerit fatue, reus erit gehennae ignis (Mt 5,22). [5] Et diligant se ad invicem, sicut dicit Dominus «Hoc est praeceptum meum ut diligatis invicem, sicut dilexi vos» (Joa 15,12). [6] Et ostendant ex operibus (cfr. Jac 2,18) dilectionem, quam habent ad invicem, sicut dicit apostolus «Non diligamus verbo neque lingua, sed opere et veritate» (1 Joa 3,18). [7] Et neminem blasphement (cfr. Tit 3,2). [8] Non murmurent, non detrahant aliis, quia scriptum est Susurrones et detractores Deo sunt odibiles (cfr. Rom 1,29). [9] Et sint modesti omnem ostendentes mansuetudinem ad omnes homines (cfr. Tit 3,2). [10] Non iudicent, non condemnent. [11] Et sicut dicit Dominus, non considerent minima peccata aliorum (cfr. Mt 7,3; Lc 6,41); [12] immo magis sua recogitent in amaritudine animae suae (Is 38,15). [13] Et contendant intrare per angustam portam (Lc 13,24), quia dicit Dominus «Angusta porta et arcta via est, quae ducit ad vitam; et pauci sunt, qui inveniunt eam» (Mt 7,14).",
+      "translation": "И все братья пусть остерегаются клеветать и препираться словами; напротив, пусть стараются хранить молчание всякий раз, как Бог подаст им благодать. Пусть не ссорятся между собой и с другими, но стараются отвечать со смирением, говоря: я раб негодный. И пусть не гневаются, ибо всякий, кто гневается на брата своего, подлежит суду; кто скажет брату своему «рака», подлежит синедриону; кто скажет «безумный», подлежит огню геенны. И пусть любят друг друга, как говорит Господь: это заповедь Моя, чтобы вы любили друг друга, как Я возлюбил вас. И пусть показывают делами любовь, которую имеют друг к другу, как говорит апостол: будем любить не словом и не языком, но делом и истиной. И пусть никого не хулят. Пусть не ропщут и не злословят других, ибо написано: наушники и хулители ненавистны Богу. И пусть будут скромны, являя всякую кротость ко всем людям. Пусть не судят и не осуждают. И, как говорит Господь, пусть не рассматривают малейшие грехи других; пусть лучше рассматривают свои, в горечи души своей. И пусть стараются войти тесными вратами, ибо Господь говорит: тесны врата и узок путь, ведущий в жизнь, и немногие находят его.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c12",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XII",
+      "originalText": "[1] Omnes fratres, ubicumque sunt vel vadunt, caveant sibi a malo visu et frequentia mulierum. [2] Et nullus cum eis consilietur aut per viam vadat solus aut ad mensam in una paropside comedat. [3] Sacerdotes honeste loquantur cum eis dando poenitentiam vel aliud spirituale consilium. [4] Et nulla penitus mulier ab aliquo fratre recipiatur ad obedientiam, sed dato sibi consilio spirituali, ubi voluerit, agat poenitentiam. [5] Et multum omnes nos custodiamus et omnia membra nostra munda teneamus, quia dicit Dominus «Qui viderit mulierem ad concupiscendam eam, iam moechatus est eam in corde suo» (Mt 5,28); [6] et apostolus An ignoratis, quia membra vestra templum sunt Spiritus Sancti? (cfr. 1 Cor 6,19); itaque qui templum Dei violaverit, disperdet illum Deus (1 Cor 3,17).",
+      "translation": "Все братья, где бы ни были и куда бы ни шли, пусть остерегаются дурного взгляда и частого общения с женщинами. И никто пусть не советуется с ними, не идёт по дороге наедине с ними и не ест за столом из одного блюда. Священники пусть говорят с ними честно, давая покаяние или иной духовный совет. И ни одна женщина решительно да не будет принята братом к послушанию; но, дав ей духовный совет, пусть творит покаяние, где захочет. И будем все мы весьма себя беречь и хранить чистыми все члены наши, ибо Господь говорит: кто посмотрел на женщину с вожделением, уже прелюбодействовал с нею в сердце своём; и апостол: разве не знаете, что члены ваши — храм Святого Духа? Поэтому кто разрушит храм Божий, того разрушит Бог.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c13",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XIII",
+      "originalText": "[1] Si quis fratrum diabolo instigante fornicaretur, habitu exuatur quem pro sua turpi iniquitate amisit, et ex toto deponat et a nostra religione penitus repellatur. [2] Et postea poenitentiam faciat de peccatis (cfr. 1 Cor 5,4-5).",
+      "translation": "Если брат, подстрекаемый дьяволом, совершит блуд, пусть будет лишён одежды, которую потерял своим постыдным беззаконием, пусть совсем её снимет и будет совершенно отвергнут от нашего братства. И затем пусть творит покаяние в грехах.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c14",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XIV",
+      "originalText": "[1] Quando fratres vadunt per mundum, nihil portent per viam neque (cfr. Lc 9,3) sacculum (cfr. Lc 10,4) neque peram neque panem neque pecuniam (cfr. Lc 9,3) neque virgam (cfr. Mt 10,10). [2] Et in quamcumque domum intraverint, dicant primum Pax huic domui (cfr. Lc 10,5). [3] Et in eadem domo manentes edant et bibant quae apud illos sunt (cfr. Lc 10,7). [4] Non resistant malo (cfr. Mt 5,39), sed qui eos percusserit in una maxilla, praebeant et alteram (cfr. Mt 5,39 et Lc 6,29). [5] Et qui aufert eis vestimentum, et tunicam non prohibeant (cfr. Lc 6,29). [6] Omni petenti se tribuant; et qui aufert quae sua sunt, ea non repetant (cfr. Lc 6,30).",
+      "translation": "Когда братья идут по миру, пусть ничего не несут в дорогу: ни мешочка, ни сумы, ни хлеба, ни денег, ни посоха. И в какой бы дом ни вошли, пусть сначала скажут: Мир дому сему. И оставаясь в том же доме, пусть едят и пьют то, что есть у них. Пусть не противятся злу, но ударившему их в одну щёку пусть подставят и другую. И тому, кто отнимает у них верхнюю одежду, пусть не отказывают и в тунике. Пусть дают всякому, кто просит; а у того, кто уносит их вещи, пусть не требуют их назад.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c15",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XV",
+      "originalText": "[1] Iniungo omnibus fratribus meis tam clericis quam laicis euntibus per mundum vel morantibus in locis, quod nullo modo apud se nec apud alium nec alio aliquo modo bestiam aliquam habeant. [2] Nec eis liceat equitare, nisi infirmitate vel magna necessitate cogantur.",
+      "translation": "Вменяю всем моим братьям, клирикам и мирянам, идущим по миру или пребывающим в местах, никоим образом не держать при себе, ни у другого, ни каким-либо иным способом никакого животного. И да не будет им позволено ездить верхом, если их не вынудит к этому немощь или великая необходимость.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c16",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XVI",
+      "originalText": "[1] Dicit Dominus «Ecce ego mitto vos sicut oves in medio luporum». [2] Estote ergo prudentes sicut serpentes et simplices sicut columbae (Mt 10,16). [3] Unde quicumque frater voluerit ire inter saracenos et alios infideles, vadat de licentia sui ministri et servi. [4] Et minister det eis licentiam et non contradicat, si viderit eos idoneos ad mittendum; nam tenebitur Domino reddere rationem (cfr. Lc 16,2), si in hoc vel in aliis processerit indiscrete. [5] Fratres vero, qui vadunt, duobus modis inter eos possunt spiritualiter conversari. [6] Unus modus est, quod non faciant lites neque contentiones, sed sint subditi omni humanae creaturae propter Deum (1 Petr 2,13) et confiteantur se esse christianos. [7] Alius modus est, quod, cum viderint placere Domino, annuntient verbum Dei, ut credant Deum omnipotentem Patrem et Filium et Spiritum Sanctum, creatorem omnium, redemptorem et salvatorem Filium, et ut baptizentur et efficiantur christiani, quia quis renatus non fuerit ex aqua et Spiritu Sancto, non potest intrare in regnum Dei (cfr. Joa 3,5). [8] Haec et alia, quae placuerint Domino, ipsis et aliis dicere possunt, quia dicit Dominus in evangelio Omnis, qui confitebitur me coram hominibus, confitebor et ego eum coram Patre meo, qui in caelis est (Mt 10,32). [9] Et Qui erubuerit me et sermones meos, et Filius hominis erubescet eum, cum venerit in maiestate sua et Patris et angelorum (cfr. Lc 9,26). [10] Et omnes fratres, ubicumque sunt, recordentur, quod dederunt se et reliquerunt corpora sua Domino Jesu Christo. [11] Et pro eius amore debent se exponere inimicis tam visibilibus quam invisibilibus; quia dicit Dominus Qui perdiderit animam suam propter me, salvam faciet eam (cfr. Lc 9,24) in vitam aeternam (Mt 25,46). [12] Beati qui persecutionem patiuntur propter iustitiam, quoniam ipsorum est regnum caelorum (Mt 5,10). [13] Si me persecuti sunt, et vos persequentur (Joa 15,20). [14] Et Si persequuntur vos in una civitate, fugite in aliam (cfr. Mt 10,23). [15] Beati estis (Mt 5, 11), cum vos oderint homines (Lc 6,22) et maledixerint vobis (Mt 5,11) et persequentur vos (cfr. l. c.) et separaverint vos et exprobraverint et eiecerint nomen vestrum tamquam malum (Lc 6,22) et cum dixerint omne malum adversum vos mentientes propter me (Mt 5,11). [16] Gaudete in illa die et exsultate (Lc 6,23), quoniam merces vestra, multa est in caelis (cfr. Mt 5,12). [17] Et ego dico vobis amicis meis, non terreamini ab his (cfr. Lc 12,4), [18] et nolite timere eos qui occidunt corpus (Mt 10,28) et post hoc non habent amplius quid faciant (Lc 12,4). [19] Videte, ne turbemini (Mt 24,6). [20] In patientia enim vestra possidebitis animas vestras (Lc 21,19); [21] et qui perseveraverit usque in finem, hic salvus erit (Mt 10,22; 24,13).",
+      "translation": "Говорит Господь: вот, Я посылаю вас, как овец среди волков. Итак, будьте мудры, как змеи, и просты, как голуби. Поэтому всякий брат, кто захочет идти к сарацинам и прочим неверным, пусть идёт с позволения своего министра и слуги. И министр пусть даст им позволение и не противоречит, если увидит их годными к посланию; ибо будет обязан дать ответ Господу, если в этом или в ином поступит без рассуждения. Братья, которые идут, могут духовно пребывать среди них двумя способами. Один способ: не заводить ссор и споров, но быть покорными всякому человеческому созданию ради Бога и исповедовать, что они христиане. Другой способ: когда увидят, что это угодно Господу, возвещать слово Божие, чтобы веровали во всемогущего Бога, Отца и Сына и Святого Духа, Творца всего, в Сына — Искупителя и Спасителя, и чтобы крестились и стали христианами, ибо кто не родится от воды и Святого Духа, не может войти в Царство Божие. Это и иное, что будет угодно Господу, они могут говорить им и другим, ибо Господь говорит в Евангелии: всякого, кто исповедает Меня перед людьми, и Я исповедаю перед Отцом Моим, Который на небесах. И: кто постыдится Меня и слов Моих, того и Сын Человеческий постыдится, когда придёт в величии Своём и Отца и ангелов. И все братья, где бы ни были, пусть помнят, что отдали и оставили тела свои Господу Иисусу Христу. И ради любви Его должны подвергать себя врагам, видимым и невидимым, ибо Господь говорит: кто потеряет душу свою ради Меня, спасёт её для жизни вечной. Блаженны гонимые за правду, ибо их есть Царство Небесное. Если Меня гнали, будут гнать и вас. И: если будут гнать вас в одном городе, бегите в другой. Блаженны вы, когда люди возненавидят вас, и проклянут, и будут гнать, и отделят, и оскорбят, и изгонят имя ваше как злое, и скажут всякое зло против вас, лживо, ради Меня. Радуйтесь в тот день и веселитесь, ибо награда ваша велика на небесах. И Я говорю вам, друзья Мои: не дайте этим устрашить вас и не бойтесь тех, кто убивает тело и после этого ничего больше не может сделать. Смотрите, не смущайтесь. Терпением вашим вы обретёте души ваши; и кто претерпит до конца, тот спасётся.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c17",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XVII",
+      "originalText": "[1] Nullus frater praedicet contra formam et institutionem sanctae Ecclesiae et nisi concessum sibi fuerit a ministro suo. [2] Et caveat sibi minister, ne alicui indiscrete concedat. [3] Omnes tamen fratres operibus praedicent. [4] Et nullus minister vel praedicator appropriet sibi ministerium fratrum vel officium praedicationis, sed quacumque hora ei iniunctum fuerit, sine omni contradictione dimittat suum officium. [5] Unde deprecor in caritate, quae Deus est (cfr. 1 Joa 4,16), omnes fratres meos praedicatores, oratores, laboratores, tam clericos quam laicos, ut studeant se humiliare in omnibus, [6] non gloriari nec in se gaudere nec interius se exaltare de bonis verbis et operibus, immo de nullo bono, quod Deus facit vel dicit et operatur in eis aliquando et per ipsos, secundum quod dicit Dominus «Veruntamen in hoc nolite gaudere, quia spiritus vobis subiciuntur» (Lc 10,20). [7] Et firmiter sciamus, quia non pertinent ad nos nisi vitia et peccata. [8] Et magis debemus gaudere, cum in tentationes varias incideremus (cfr. Jac 1,2) et cum sustineremus quascumque animae vel corporis angustias aut tribulationes in hoc mundo propter vitam aeternam. [9] Omnes ergo fratres caveamus ab omni superbia et vana gloria. [10] Et custodiamus nos a sapientia huius mundi et a prudentia carnis (Rom 8,6). [11] Spiritus enim carnis vult et studet multum ad verba habenda, sed parum ad operationem; [12] et quaerit non religionem et sanctitatem in interiori spiritu, sed vult et desiderat habere religionem et sanctitatem foris apparentem hominibus. [13] Et isti sunt, de quibus dicit Dominus Amen dico vobis, receperunt mercedem suam (Mt 6,2). [14] Spiritus autem Domini vult mortificatam et despectam, vilem et abiectam esse carnem. [15] Et studet ad humilitatem et patientiam et puram et simplicem et veram pacem spiritus. [16] Et semper super omnia desiderat divinum timorem et divinam sapientiam et divinum amorem Patris et Filii et Spiritus Sancti. [17] Et omnia bona Domino Deo altissimo et summo reddamus et omnia bona ipsius esse cognoscamus et de omnibus ei gratias referamus, a quo bona cuncta procedunt. [18] Et ipse altissimus et summus, solus verus Deus habeat et ei reddantur et ipse recipiat omnes honores et reverentias, omnes laudes et benedictiones, omnes gratias et gloriam, cuius est omne bonum, qui solus est bonus (cfr. Lc 18,19). [19] Et quando nos videmus vel audimus malum dicere vel facere vel blasphemare Deum, nos bene dicamus et bene faciamus et laudemus Deum (cfr. Rom 12,21), qui est benedictus in saecula (Rom 1,25).",
+      "translation": "Ни один брат пусть не проповедует против формы и установления святой Церкви и если ему не позволено его министром. И министр пусть остерегается давать это позволение кому-либо без рассуждения. Все братья, однако, пусть проповедуют делами. И ни один министр или проповедник пусть не присваивает себе служения братьев или служения проповеди, но в тот час, когда ему будет велено, без всякого противоречия пусть оставит своё служение. Поэтому прошу, в любви, которая есть Бог, всех моих братьев — проповедующих, молящихся, трудящихся, клириков и мирян — стараться смиряться во всём, не хвалиться и не радоваться в себе и не превозноситься внутри добрыми словами и делами, и вообще никаким благом, которое Бог иногда делает, или говорит, или совершает в них и через них, по слову Господа: не радуйтесь тому, что духи вам повинуются. И твёрдо знаем, что нам не принадлежит ничего, кроме пороков и грехов. И нам должно больше радоваться, когда впадаем в различные искушения и когда переносим тесноту или скорбь души или тела в этом мире, имея в виду жизнь вечную. Все мы, братья, будем же остерегаться всякой гордыни и тщеславия. И будем беречься мудрости мира сего и благоразумия плоти. Дух плоти хочет и очень старается иметь слова, но мало — делать; и ищет не братства и святости во внутреннем духе, а хочет и желает братства и святости, которые видны снаружи людям. И это те, о ком Господь говорит: истинно говорю вам, они получили свою награду. Дух же Господень хочет, чтобы плоть была умерщвлена и презрена, убога и отвергнута. И он старается о смирении, и о терпении, и о мире духа чистом, простом и истинном. И превыше всего всегда желает божественного страха, божественной мудрости и божественной любви Отца и Сына и Святого Духа. И воздадим Господу Богу высочайшему и верховному все блага, и признаем, что все блага — Его, и за всё возблагодарим Его, от Которого исходит всякое благо. И Он, высочайший и верховный, единый истинный Бог, да имеет, и да будут Ему возданы, и да примет Он все почести и благоговения, все хвалы и благословения, все благодарения и славу: Его всякое благо, Он один благ. И когда видим или слышим, что говорят или делают зло или хулят Бога, мы будем говорить добро и делать добро и хвалить Бога, Который благословен во веки.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c18",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XVIII",
+      "originalText": "[1] Quolibet anno unusquisque minister cum fratribus suis possit convenire, ubicumque placuerit eis, in festo sancti Michaelis archangeli de his quae ad Deum pertinent, tractaturus. [2] Omnes enim ministri, qui sunt in ultramarinis et ultramontanis partibus, semel in tribus annis, et alii ministri semel in anno veniant ad capitulum Pentecostes apud ecclesiam sanctae Mariae de Portiuncula, nisi a ministro et servo totius fraternitatis aliter fuerit ordinatum.",
+      "translation": "Каждый год всякий министр может собраться со своими братьями там, где им будет угодно, в праздник святого Михаила архангела, чтобы рассуждать о том, что касается Бога. Все министры, находящиеся в заморских и загорных краях, пусть приходят один раз в три года, а прочие министры — один раз в год на капитул Пятидесятницы при церкви Святой Марии Порциунколы, если только министр и слуга всего братства не распорядится иначе.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c19",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XIX",
+      "originalText": "[1] Omnes fratres sint catholici, vivant et loquantur catholice. [2] Si quis vero erraverit a fide et vita catholica in dicto vel in facto et non se emendaverit, a nostra fraternitate penitus expellatur. [3] Et omnes clericos et omnes religiosos habeamus pro dominis in his quae spectant ad salutem animae et a nostra religione non deviaverint, et ordinem et officium eorum et administrationem in Domino veneremur.",
+      "translation": "Все братья пусть будут католиками, живут и говорят по-католически. Если кто отступит от католической веры и жизни словом или делом и не исправится, пусть будет совершенно изгнан из нашего братства. И всех клириков и всех монашествующих будем почитать господами в том, что касается спасения души и не уклоняется от нашего братства, и будем чтить в Господе их сан, их служение и их управление.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c20",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XX",
+      "originalText": "[1] Et fratres mei benedicti tam clerici quam laici confiteantur peccata sua sacerdotibus nostrae religionis. [2] Et si non potuerint, confiteantur aliis discretis et catholicis sacerdotibus scientes firmiter et attendentes, quia a quibuscumque sacerdotibus catholicis acceperint poenitentiam et absolutionem, absoluti erunt procul dubio ab illis peccatis, si poenitentiam sibi iniunctam procuraverint humiliter et fideliter observare. [3] Si vero tunc non potuerint habere sacerdotem, confiteantur fratri suo, sicut dicit apostolus Jacobus «Confitemini alterutrum peccata vestra» (Jac 5,16). [4] Non tamen propter hoc dimittant recurrere ad sacerdotem, quia potestas ligandi et solvendi solis sacerdotibus est concessa. [5] Et sic contriti et confessi sumant corpus et sanguinem Domini nostri Jesu Christi cum magna humilitate et veneratione recordantes, quod Dominus dicit Qui manducat carnem meam et bibit sanguinem meum habet vitam aeternam (cfr. Joa 6,55); [6] et «Hoc facite in meam commemorationem» (Lc 22,19).",
+      "translation": "И благословенные братья мои, клирики и миряне, пусть исповедуют грехи свои священникам нашего братства. А если не смогут, пусть исповедуют их иным рассудительным и католическим священникам, твёрдо зная и помня, что от какого бы католического священника ни приняли покаяние и разрешение, будут без сомнения разрешены от тех грехов, если постараются соблюдать со смирением и верностью наложенное на них покаяние. Если тогда не смогут иметь священника, пусть исповедуются своему брату, как говорит апостол Иаков: исповедуйте друг другу грехи ваши. Пусть из-за этого не оставляют прибегать к священнику, ибо власть вязать и решить дана одним священникам. И так, сокрушённые и исповедовавшиеся, пусть принимают тело и кровь Господа нашего Иисуса Христа с великим смирением и благоговением, помня, что Господь говорит: кто ест Мою плоть и пьёт Мою кровь, имеет жизнь вечную; и: сие творите в Моё воспоминание.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c21",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XXI",
+      "originalText": "[1] Et hanc vel talem exhortationem et laudem omnes fratres mei, quandocumque placuerit eis, annuntiare possunt inter quoscumque homines cum benedictione Dei [2] Timete et honorate, laudate et benedicite, gratias agite (1 Thess 5,18) et adorate Dominum Deum omnipotentem in trinitate et unitate, Patrem et Filium et Spiritum Sanctum, creatorem omnium. [3] Agite poenitentiam (cfr. Mt 3,2), facite dignos fructus poenitentiae (cfr. Lc 3,8), quia cito moriemur. [4] Date et dabitur vobis (Lc 6,38). [5] Dimittite et dimittetur vobis (cfr. Lc 6,37). [6] Et si non dimiseritis hominibus peccata eorum (Mt 6,14), Dominus non dimittet vobis peccata vestra (Mc 11,25); confitemini omnia peccata vestra (cfr. Jac 5,16). [7] Beati qui moriuntur in poenitentia, quia erunt in regno caelorum. [8] Vae illis qui non moriuntur in poenitentia, quia erunt filii diaboli (1 Joa 3,10), cuius opera faciunt (cfr. Joa 8,41) et ibunt in ignem aeternum (Mt 18,8; 25,41). [9] Cavete et abstinete ab omni malo et perseverate usque in finem in bono.",
+      "translation": "И это увещание и хвалу, или подобное им, все братья мои могут возвещать всякий раз, как им будет угодно, среди каких угодно людей, с благословением Божиим: бойтесь и почитайте, хвалите и благословляйте, благодарите и поклоняйтесь Господу Богу всемогущему в Троице и единстве, Отцу и Сыну и Святому Духу, Творцу всего. Творите покаяние, приносите плоды, достойные покаяния, ибо скоро умрём. Давайте, и дастся вам. Прощайте, и простится вам. И если не простите людям грехов их, Господь не простит вам грехов ваших: исповедуйте все грехи ваши. Блаженны те, кто умирает в покаянии, ибо будут в Царстве Небесном. Горе тем, кто не умирает в покаянии, ибо будут детьми дьявола, чьи дела творят, и пойдут в огонь вечный. Берегитесь и воздерживайтесь от всякого зла и пребывайте до конца в добре.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c22",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XXII",
+      "originalText": "[1] Attendamus, omnes fratres, quod dicit Dominus Diligite inimicos vestros et benefacite his qui oderunt vos (cfr. Mt 5,44 par.), [2] quia Dominus noster Jesus Christus, cuius sequi vestigia debemus (cfr. 1 Petr 2,21), traditorem suum vocavit amicum (cfr. Mt 26,50) et crucifixoribus suis sponte se obtulit. [3] Amici igitur nostri sunt omnes illi, qui nobis iniuste inferunt tribulationes et angustias, verecundias et iniurias, dolores et tormenta, martyrium et mortem; [4] quos multum diligere debemus, quia ex hoc quod nobis inferunt, habemus vitam aeternam. [5] Et odio habeamus corpus nostrum cum vitiis et peccatis suis; quia carnaliter vivendo vult diabolus a nobis auferre amorem Jesu Christi et vitam aeternam et se ipsum cum omnibus perdere in infernum; [6] quia nos per culpam nostram sumus foetidi, miseri et bono contrarii, ad mala autem prompti et voluntarii, quia sicut Dominus dicit in evangelio [7] De corde procedunt et exeunt cogitationes malae, adulteria, fornicationes, homicidia, furta, avaritia, nequitia, dolus, impudicitia, oculus malus, falsa testimonia, blasphemia, stultitia (cfr. Mc 7,21-22; Mt 15,19). [8] Haec omnia mala ab intus de corde hominis procedunt (cfr. Mc 7,23) et haec sunt quae coinquinant hominem (Mt 15,20). [9] Nunc autem, postquam dimisimus mundum, nihil aliud habemus facere, nisi sequi voluntatem Domini et placere sibi ipsi. [10] Multum caveamus, ne simus terra secus viam vel petrosa vel spinosa, secundum quod dicit Dominus in evangelio [11] Semen est verbum Dei (Lc 8,11). [12] Quod autem secus viam cecidit et conculcatum est (cfr. Lc 8,5), hi sunt, qui audiunt (Lc 8,12) verbum et non intelligunt (cfr. Mt 13,19); [13] et confestim (Mc 4,15) venit diabolus (Lc 8,12) et rapit (Mt 13,19), quod seminatum est in cordibus eorum (Mc 4,15) et tollit verbum de cordibus eorum, ne credentes salvi fiant (Lc 8,12). [14] Quod autem super petrosam cecidit (cfr. Mt 13,20), hi sunt, qui, cum audierint verbum, statim cum gaudio (Mc 4,16) suscipiunt (Lc 8,13) illud (Mc 4,16). [15] Facta autem tribulatione et persecutione propter verbum, continuo scandalizantur (Mt 13,21) et hi radicem in se non habent, sed temporales sunt (cfr. Mc 4,17), quia ad tempus credunt et in tempore tentationis recedunt (Lc 8,13). [16] Quod autem in spinis cecidit, hi sunt (Lc 8,14), qui verbum Dei audiunt (cfr. Mc 4,18), et sollicitudo (Mt 13,22) et aerumnae (Mc 4,19) istius saeculi et fallacia divitiarum (Mt 13,22) et circa reliqua concupiscentiae introeuntes suffocant verbum et sine fructu efficiuntur (cfr. Mc 4,19). [17] Quod autem in terram bonam (Lc 8,15) seminatum est (Mt 13,23), hi sunt, qui in corde bono et optimo audientes verbum (Lc 8,15) intelligunt et (cfr. Mt 13,23) retinent et fructum afferunt in patientia (Lc 8,15). [18] Et propterea nos fratres, sicut dicit Dominus, dimittamus mortuos sepelire mortuos suos (Mt 8,22). [19] Et multum caveamus a malitia et subtilitate satanae, qui vult, quod homo mentem suam et cor non habeat ad Deum. [20] Et circuiens desiderat cor hominis sub specie alicuius mercedis vel adiutorii tollere et suffocare verbum et praecepta Domini a memoria et volens cor hominis per saecularia negotia et curam excaecare et ibi habitare, sicut dicit Dominus [21] Cum immundus spiritus exierit ab homine, ambulat per loca arida (Mt 12,43) et inaquosa quaerens requiem; [22] et non inveniens dicit Revertar in domum meam, unde exivi (Lc 11,24). [23] Et veniens invenit eam vacantem, scopis mundatam et ornatam (Mt 12,44). [24] Et vadit et assumit alios septem spiritus nequiores se, et ingressi habitant ibi, et sunt novissima hominis illius peiora prioribus (cfr. Lc 11,26). [25] Unde, omnes fratres. custodiamus nos multum, ne sub specie alicuius mercedis vel operis vel adiutorii perdamus vel tollamus nostram mentem et cor a Domino. [26] Sed in sancta caritate, quae Deus est (cfr. 1 Joa 4,16), rogo omnes fratres tam ministros quam alios, ut omni impedimento remoto et omni cura et sollicitudine postposita, quocumque modo melius possunt, servire, amare, honorare et adorare Dominum Deum mundo corde et pura mente faciant, quod ipse super omnia quaerit. [27] Et semper faciamus ibi habitaculum et mansionem (cfr. Joa 14,23) ipsi, qui est Dominus Deus omnipotens, Pater et Filius et Spiritus Sanctus, qui dicit Vigilate itaque omni tempore orantes, ut digni habeamini fugere omnia mala, quae ventura sunt et stare ante Filium hominis (Lc 21,36). [28] Et cum stabitis ad orandum (Mc 11,25) dicite (Lc 11,2) Pater noster qui es in caelis (Mt 6,9). [29] Et adoremus eum puro corde, quoniam oportet semper orare et non deficere (Lc 18,1); [30] nam Pater tales quaerit adoratores. [31] Spiritus est Deus, et eos qui adorant eum, in spiritu et veritate oportet eum adorare (cfr. Joa 4,23-24). [32] Et ad ipsum recurramus tamquam ad pastorem et episcopum animarum nostrarum (1 Petr 2,25), qui dicit Ego sum pastor bonus, qui pasco oves meas et pro ovibus meis pono animam meam. [33] Omnes vos fratres estis; [34] et patrem nolite vobis vocare super terram, unus est enim Pater vester, qui in caelis est. [35] Nec vocemini magistri; unus est enim magister vester, qui in caelis est (cfr. Mt 23,8-10). [36] Si manseritis in me, et verba mea in vobis manserint, quodcumque volueritis, petetis et fiet vobis (Joa 15,7). [37] Ubicumque sunt duo vel tres congregati in nomine meo, ibi sum in medio eorum (Mt 18,20). [38] Ecce ego sum vobiscum usque ad consummationem saeculi (Mt 28,20). [39] Verba, quae locutus sum vobis, spiritus et vita sunt (Joa 6,64). [40] Ego sum via, veritas et vita (Joa 14,6). [41] Teneamus ergo verba, vitam et doctrinam et sanctum eius evangelium, qui dignatus est pro nobis rogare Patrem suum et nobis eius nomen manifestare dicens Pater clarifica nomen tuum (Joa 12,28a) et clarifica Filium tuum, ut Filius tuus clarificet te (Joa 17,1b). [42] Pater, manifestavi nomen tuum hominibus, quos dedisti mihi (Joa 17,6); quia verba, quae dedisti mihi, dedi eis; et ipsi acceperunt et cognoverunt, quia a te exivi et crediderunt, quia tu me misisti. [43] Ego pro eis rogo, non pro mundo, [44] sed pro his quos dedisti mihi, quia tui sunt et omnia mea tua sunt (Joa 17,8-10). [45] Pater sancte, serva eos in nomine tuo, quos dedisti mihi, ut ipsi sint unum sicut et nos (Joa 17,11b). [46] Haec loquor in mundo, ut habeant gaudium in semetipsis. [47] Ego dedi eis sermonem tuum; et mundus eos odio habuit, quia non sunt de mundo, sicut et ego non sum de mundo. [48] Non rogo, ut tollas eos de mundo, sed ut serves eos a malo (Joa 17,13b-15). [49] Mirifica eos in veritate. [50] Sermo tuus veritas est. [51] Sicut tu me misisti in mundum, et ego misi eos in mundum. [52] Et pro eis sanctifico meipsum, ut sint ipsi sanctificati in veritate. [53] Non pro eis rogo tantum, sed pro eis, qui credituri sunt propter verbum eorum in me (cfr. Joa 17,17-20), ut sint consummati in unum, et cognoscat mundus, quia tu me misisti et dilexisti eos, sicut me dilexisti (Joa 17,23). [54] Et notum faciam eis nomen tuum, ut dilectio, qua dilexisti me sit in ipsis et ego in ipsis (cfr. Joa 17,26). [55] Pater, quos dedisti mihi, volo, ut ubi ego sum, et illi sint mecum, ut videant claritatem tuam (cfr. Joa 17,24) in regno tuo (Mt 20,21). Amen.",
+      "translation": "Будем внимать, все братья, тому, что говорит Господь: любите врагов ваших и делайте добро ненавидящим вас, ибо Господь наш Иисус Христос, по следам Которого мы должны идти, назвал другом Своего предателя и добровольно предал Себя тем, кто Его распинал. Итак, друзья наши — все, кто несправедливо причиняет нам скорби и тесноту, посрамления и обиды, боли и муки, мученичество и смерть; и мы должны их весьма любить, ибо от того, что они нам причиняют, мы имеем жизнь вечную. И будем ненавидеть тело наше с его пороками и грехами, ибо, живя по плоти, дьявол хочет отнять у нас любовь Иисуса Христа и жизнь вечную и погубить себя со всеми в аду. По нашей вине мы смрадны, жалки и противны добру, готовы же и склонны ко злу, ибо, как говорит Господь в Евангелии, из сердца исходят и выходят злые помыслы, прелюбодеяния, блуд, убийства, кражи, любостяжание, лукавство, обман, нечистота, дурной глаз, лжесвидетельства, хула, безумие. Все эти злые вещи выходят изнутри, из сердца человека, и они оскверняют человека. Теперь же, оставив мир, нам нечего делать иного, как следовать воле Господа и быть Ему угодными. Будем весьма беречься, чтобы не быть землёй при дороге, или каменистой, или тернистой, по слову Господа в Евангелии: семя есть слово Божие. То, что упало при дороге и было попрано, — это те, кто слушает слово и не понимает его; и тотчас приходит дьявол и похищает посеянное в их сердце и отнимает слово от их сердца, чтобы, уверовав, они не спаслись. То, что упало на каменистое, — это те, кто, услышав слово, тотчас с радостью принимает его. Когда приходит скорбь и гонение из-за слова, тотчас соблазняются, и нет в них корня, но они мгновенны, ибо верят до времени и во время искушения отступают. То, что упало в терние, — это те, кто слушает слово Божие, а попечение и тяготы века сего, и обольщение богатством, и прочие вожделения, входя, заглушают слово, и они остаются бесплодны. То, что было посеяно в добрую землю, — это те, кто, слушая слово добрым и превосходным сердцем, понимает его, удерживает и приносит плод с терпением. И потому мы, братья, как говорит Господь, предоставим мёртвым погребать своих мёртвых. И будем весьма беречься злобы и тонкости сатаны, который хочет, чтобы ум и сердце человека не были обращены к Богу. И обходя вокруг, он желает отнять и заглушить сердце человека под видом какой-либо награды или помощи и изгладить из памяти слово и заповеди Господа и хочет ослепить сердце человека мирскими делами и заботой и поселиться там, как говорит Господь: когда нечистый дух выйдет из человека, ходит по безводным и сухим местам, ища покоя; и, не найдя, говорит: вернусь в дом мой, откуда вышел. И, придя, находит его пустым, выметенным и убранным. И идёт, и берёт с собою семь других духов, злейших себя, и, войдя, живут там, и последние обстоятельства того человека становятся хуже первых. Поэтому, все братья, будем весьма себя хранить, чтобы не потерять и не отвратить ум наш и сердце наше от Господа под видом какой-либо награды, или дела, или помощи. Но в святой любви, которая есть Бог, прошу всех братьев, министров и прочих, чтобы, устранив всякое препятствие и отложив всякую заботу и попечение, наилучшим образом, как могут, служили, любили, почитали и поклонялись Господу Богу чистым сердцем и чистым умом и делали то, чего Он ищет превыше всего. И будем всегда устроять там жилище и обитель Ему, Который есть Господь Бог всемогущий, Отец и Сын и Святой Дух, Который говорит: итак, бодрствуйте во всякое время, молясь, чтобы быть достойными избежать всех зол, которые придут, и стать перед Сыном Человеческим. И когда будете стоять на молитве, говорите: Отче наш, сущий на небесах. И будем поклоняться Ему чистым сердцем, ибо должно всегда молиться и не унывать; Отец ведь ищет таких поклонников. Бог есть дух, и поклоняющиеся Ему должны поклоняться в духе и истине. И будем прибегать к Нему как к пастырю и епископу душ наших, к Тому, Кто говорит: Я есмь пастырь добрый, пасу овец Моих и за овец Моих полагаю душу Мою. Все вы братья; и отцом себе не называйте никого на земле: один ведь Отец ваш, Тот, Кто на небесах. И не велите называть себя учителями: один ведь учитель ваш, Тот, Кто на небесах. Если пребудете во Мне и слова Мои пребудут в вас, чего ни пожелаете, попросите, и сделается вам. Где двое или трое собраны во имя Моё, там Я посреди них. Вот, Я с вами до скончания века. Слова, которые Я сказал вам, суть дух и жизнь. Я есмь путь, и истина, и жизнь. Будем же держаться слов, жизни, учения и святого Евангелия Того, Кто благоволил помолиться Отцу за нас и явить нам имя Своё, говоря: Отче, прославь имя Твоё и прославь Сына Твоего, чтобы Сын Твой прославил Тебя. Отче, Я явил имя Твоё людям, которых Ты дал Мне, потому что слова, которые Ты дал Мне, Я дал им; и они приняли их и познали, что Я исшёл от Тебя, и уверовали, что Ты послал Меня. Я молюсь о них, не о мире, но о тех, кого Ты дал Мне, потому что они Твои и всё Моё — Твоё. Отче святой, сохрани их во имя Твоё, тех, кого Ты дал Мне, чтобы были одно, как и Мы. Говорю это в мире, чтобы имели радость в себе. Я дал им слово Твоё; и мир возненавидел их, потому что они не от мира, как и Я не от мира. Не молю, чтобы Ты взял их из мира, но чтобы сохранил их от зла. Сделай их дивными в истине. Слово Твоё есть истина. Как Ты послал Меня в мир, так и Я послал их в мир. И за них Я освящаю Себя, чтобы были освящены в истине. Молюсь не только о них, но и о тех, кто уверует в Меня по слову их, чтобы были приведены к единству и чтобы мир познал, что Ты послал Меня и возлюбил их, как возлюбил Меня. И Я дам им познать имя Твоё, чтобы любовь, которою Ты возлюбил Меня, была в них, и Я в них. Отче, тех, кого Ты дал Мне, хочу, чтобы где Я, там и они были со Мною, чтобы видели славу Твою в Царстве Твоём. Аминь.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c23",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XXIII",
+      "originalText": "[1] Omnipotens, sanctissime, altissime et summe Deus, Pater sancte (Joa 17,11) et iuste, Domine rex caeli et terrae (cfr. Mt 11,25), propter temetipsum gratias agimus tibi, quod per sanctam voluntatem tuam et per unicum Filium tuum cum Spiritu Sancto creasti omnia spiritualia et corporalia et nos ad imaginem tuam et similitudinem factos in paradiso posuisti (cfr. Gen 1,26; 2,15). [2] Et nos per culpam nostram cecidimus. [3] Et gratias agimus tibi, quia, sicut per Filium tuum nos creasti, sic per sanctam dilectionem tuam, qua dilexisti nos (cfr. Joa 17,26), ipsum verum Deum et verum hominem ex gloriosa semper Virgine beatissima sancta Maria nasci fecisti et per crucem et sanguinem et mortem ipsius nos captivos redimi voluisti. [4] Et gratias agimus tibi, quia ipse Filius tuus venturus est in gloria maiestatis suae mittere maledictos, qui poenitentiam non egerunt et te non cognoverunt, in ignem aeternum, et dicere omnibus, qui te cognoverunt et adoraverunt et tibi servierunt in poenitentia Venite, benedicti Patris mei, percipite regnum, quod vobis paratum est ab origine mundi (cfr. Mt 25,34). [5] Et quia nos omnes miseri et peccatores non sumus digni nominare te, suppliciter exoramus, ut Dominus noster Jesus Christus Filius tuus dilectus, in quo tibi bene complacuit (cfr. Mt 17,5), una cum Spiritu Sancto Paraclito gratias agat tibi, sicut tibi et ipsi placet, pro omnibus, qui tibi semper sufficit ad omnia, per quem nobis tanta fecisti. Alleluia. [6] Et gloriosam matrem beatissimam Mariam semper Virginem, beatum Michaelem, Gabrielem et Raphaelem et omnes choros beatorum seraphim, cherubim, thronorum, dominationum, principatuum, potestatum (cfr. Col 1,15), virtutum, angelorum, archangelorum, beatum Joannem Baptistam, Joannem Evangelistam, Petrum, Paulum et beatos patriarchas, prophetas, Innocentes, apostolos, evangelistas, discipulos, martyres, confessores, virgines, beatos Eliam et Enoch et omnes sanctos, qui fuerunt et erunt et sunt propter tuum amorem humiliter deprecamur, ut, sicut tibi placet, pro his tibi gratias referant summo vero Deo, aeterno et vivo, cum Filio tuo carissimo Domino nostro Jesu Christo et Spiritu Sancto Paraclito in saecula saeculorum (Apoc 19,3). Amen. Alleluia (Apoc 19,4). [7] Et Domino Deo universos intra sanctam ecclesiam catholicam et apostolicam servire volentes et omnes sequentes ordines sacerdotes, diaconos, subdiaconos, acolythos, exorcistas, lectores, ostiarios et omnes clericos, universos religiosos et religiosas, omnes conversos et parvulos, pauperes et egenos, reges et principes, laboratores et agricolas, servos et dominos, omnes virgines et continentes et maritatas, laicos, masculos et feminas, omnes infantes, adolescentes, iuvenes et senes, sanos et infirmos, omnes pusillos et magnos, et omnes populos, gentes, tribus et linguas (cfr. Apoc 7,9), omnes nationes et omnes homines ubicumque terrarum, qui sunt et erunt, humiliter rogamus et supplicamus nos omnes fratres minores, servi inutiles (Lc 17,10), ut omnes in vera fide et poenitentia perseveremus, quia aliter nullus salvari potest. [8] Omnes diligamus ex toto corde, ex tota anima, ex tota mente, ex tota virtute (cfr. Mc 12,30) et fortitudine, ex toto intellectu (cfr. Mc 12,33), ex omnibus viribus (cfr. Lc 10,27), toto nisu, toto affectu, totis visceribus, totis desideriis et voluntatibus Dominum Deum (Mc 12,30 par.), qui totum corpus, totam animam et totam vitam dedit et dat omnibus nobis, qui nos creavit, redemit et sua sola misericordia salvabit (cfr. Tob 13,5), qui nobis miserabilibus et miseris, putridis et foetidis, ingratis et malis omnia bona fecit et facit. [9] Nihil ergo aliquid aliud desideremus, nihil aliud velimus, nihil aliud placeat et delectet nos nisi Creator et Redemptor et Salvator noster, solus verus Deus, qui est plenum bonum, omne bonum, totum bonum, verum et summum bonum, qui solus est bonus (cfr. Lc 18,19), pius, mitis, suavis et dulcis, qui solus est sanctus, iustus, verus, sanctus et rectus, qui solus est benignus, innocens, mundus, a quo et per quem et in quo (cfr. Rom 11,36) est omnis venia, omnis gratia, omnis gloria omnium poenitentium et iustorum, omnium beatorum in caelis congaudentium. [10] Nihil ergo impediat, nihil separet, nihil interpolet. [11] Ubique nos omnes omni loco, omni hora et omni tempore, quotidie et continue credamus veraciter et humiliter et in corde teneamus et amemus, honoremus, adoremus, serviamus, laudemus et benedicamus, glorificemus et superexaltemus, magnificemus et gratias agamus altissimo et summo Deo aeterno, trinitati et unitati, Patri et Filio et Spiritui Sancto, creatori omnium et salvatori omnium in se credentium et sperantium et diligentium eum, qui sine initio et sine fine immutabilis, invisibilis, inenarrabilis, ineffabilis, incomprehensibilis, investigabilis (cfr. Rom 11,33), benedictus, laudabilis, gloriosus, superexaltatus (cfr. Dan 3,52), sublimis, excelsus, suavis, amabilis, delectabilis et totus super omnia desiderabilis in saecula. Amen.",
+      "translation": "Всемогущий, святейший, высочайший и верховный Бог, Отец святой и праведный, Господь, царь неба и земли, ради Тебя Самого благодарим Тебя, потому что по святой воле Твоей и через единого Сына Твоего со Святым Духом Ты создал всё духовное и телесное, а нас, сотворённых по образу Твоему и подобию, поместил в раю. И мы по своей вине пали. И благодарим Тебя, потому что, как Ты создал нас через Сына Твоего, так по святой любви Твоей, которою Ты возлюбил нас, Ты родил Его, истинного Бога и истинного человека, от славной приснодевы, блаженнейшей святой Марии, и крестом, и кровью, и смертью Его восхотел, чтобы мы, пленники, были искуплены. И благодарим Тебя, потому что тот же Сын Твой придёт во славе величия Своего, чтобы послать в огонь вечный проклятых, которые не творили покаяния и не познали Тебя, и сказать всем, кто познал Тебя, и поклонялся Тебе, и служил Тебе в покаянии: придите, благословенные Отца Моего, примите Царство, уготованное вам от начала мира. И поскольку все мы, жалкие и грешные, недостойны называть Тебя, умоляем, чтобы Господь наш Иисус Христос, возлюбленный Сын Твой, в Котором Ты благоволил, вместе со Святым Духом Параклитом благодарил Тебя, как угодно Тебе и Ему, за всех, — Он, Которого Тебе всегда довольно для всего и через Которого Ты сделал нам столь многое. Аллилуия. И славную матерь, блаженнейшую Марию приснодеву, блаженного Михаила, Гавриила и Рафаила и все хоры блаженных — серафимов, херувимов, престолы, господства, начала, власти, силы, ангелов, архангелов, блаженного Иоанна Крестителя, Иоанна евангелиста, Петра, Павла и блаженных патриархов, пророков, младенцев, апостолов, евангелистов, учеников, мучеников, исповедников, дев, блаженных Илию и Еноха и всех святых, которые были, будут и есть, — ради любви Твоей смиренно просим, чтобы, как Тебе угодно, благодарили Тебя за это, Тебя, верховного истинного Бога, вечного и живого, с возлюбленнейшим Сыном Твоим, Господом нашим Иисусом Христом, и Святым Духом Параклитом во веки веков. Аминь. Аллилуия. И все мы, меньшие братья, негодные слуги, смиренно просим и умоляем Господа Бога за всех, кто хочет служить внутри святой Католической и Апостольской Церкви, и за все следующие чины: священников, диаконов, иподиаконов, аколуфов, экзорцистов, чтецов, остиариев и всех клириков, всех монашествующих мужчин и женщин, всех обращённых и малых, бедных и нуждающихся, царей и князей, работников и земледельцев, слуг и господ, всех дев, воздержных и состоящих в браке, мирян, мужчин и женщин, всех младенцев, отроков, юношей и стариков, здоровых и немощных, всех малых и великих, и все народы, племена, колена и языки, все нации и всех людей, где бы ни были на земле, которые есть и которые будут: чтобы все мы пребывали в истинной вере и в покаянии, ибо иначе никто не может спастись. Будем все любить всем сердцем, всей душой, всем умом, всей добродетелью и крепостью, всем разумением, всеми силами, всем усилием, всем чувством, всем нутром, всеми желаниями и волями Господа Бога, Который дал и даёт всем нам всё тело, всю душу и всю жизнь, Который создал нас, искупил и по одному Своему милосердию спасёт, Который нам, жалким и убогим, гнилым и смрадным, неблагодарным и злым, сделал и делает всякое благо. Итак, ничего иного не желаем, ничего иного не хотим, ничто иное да не будет нам приятно и сладостно, кроме нашего Творца, и Искупителя, и Спасителя, единого истинного Бога, Который есть полное благо, всякое благо, всё благо, благо истинное и верховное, Который один благ, благочестив, кроток, тих и сладок, Который один свят, праведен, истинен и прям, Который один благостен, невинен, чист, от Которого, и через Которого, и в Котором всякое прощение, всякая благодать, всякая слава всех кающихся и праведных, всех блаженных, вместе радующихся на небесах. Итак, ничто да не препятствует, ничто да не отделяет, ничто да не встаёт посреди. Везде, все мы, во всяком месте, всякий час и всякое время, каждый день и непрестанно будем истинно и смиренно веровать, и держать в сердце, и любить, почитать, поклоняться, служить, хвалить и благословлять, прославлять и превозносить, величать и благодарить высочайшего и верховного Бога вечного, Троицу и единство, Отца и Сына и Святого Духа, Творца всего и Спасителя всех, кто верует и надеется на Него и любит Его, — Его, безначального и бесконечного, неизменного, невидимого, неизрекаемого, несказанного, непостижимого, неисследимого, благословенного, достохвального, славного, превознесённого, возвышенного, высокого, тихого, любезного, отрадного и всежеланного превыше всего во веки. Аминь.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c24",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Устав без буллы, глава XXIV",
+      "originalText": "[1] In nomine Domini! Rogo omnes fratres, ut addiscant tenorem et sensum eorum quae in ista vita ad salvationem animae nostrae scripta sunt, et ista frequenter ad memoriam reducant. [2] Et exoro Deum, ut ipse, qui est omnipotens, trinus et unus, benedicat omnes docentes, discentes, habentes, recordantes et operantes ista, quoties repetunt et faciunt quae ibi ad salutem animae nostrae scripta sunt, [3] et deprecor omnes cum osculo pedum, ut multum diligant, custodiant et reponant. [4] Et ex parte Dei omnipotentis et domini papae et per obedientiam ego frater Franciscus firmiter praecipio et iniungo, ut ex his, quae in ista vita scripta sunt, nullus minuat vel in ipsa scriptum aliquod desuper addat (cfr. Deut 4,2; 12,32), nec aliam regulam fratres habeant. [5] Gloria Patri et Filio et Spiritui Sancto, sicut erat in principio et nunc et semper et in saecula saeculorum. Amen.",
+      "translation": "Во имя Господа. Прошу всех братьев выучить смысл и содержание того, что в этой жизни написано ради спасения души нашей, и часто возвращать это памяти. И молю Бога, чтобы Он, всемогущий, троичный и единый, благословил всех, кто учит, учится, хранит, помнит и исполняет это всякий раз, как повторяют и делают написанное там ради спасения души нашей, и прошу всех, с целованием ног, весьма это любить, хранить и беречь. И от лица Бога всемогущего и господина папы, и по послушанию, я, брат Франциск, твёрдо повелеваю и вменяю, чтобы из написанного в этой жизни никто ничего не отнимал и не прибавлял поверх никакого иного писания, и чтобы братья не имели другого устава. Слава Отцу и Сыну и Святому Духу, как было в начале, и ныне, и всегда, и во веки веков. Аминь.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.ammonizioni.propria_volonta",
+      "documentId": "source.ammonizioni",
+      "reference": "Наставления (о собственной воле)",
+      "paraphrase": "В Наставлениях Франциск предостерегает от «собственной воли», сделанной идолом: кто считает себя праведным и мудрым сам по себе, удаляется от истинного смирения, которое состоит в том, чтобы подчинить собственное суждение и служить.",
+      "note": "Редакционный парафраз; точную отсылку к Наставлению следует сверить по критическому изданию.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "needs_verification"
+    },
+    {
+      "id": "pass.lettera_ministro.mille_volte",
+      "documentId": "source.lettera_ministro",
+      "reference": "Послание министру",
+      "paraphrase": "Если бы брат согрешил тысячу раз у тебя на глазах, — пишет Франциск министру, — люби его больше, чем меня, чтобы привлечь его к Господу; всегда имей к нему милосердие и возвещай ему милосердие, лишь бы он покаялся.",
+      "note": "Редакционный парафраз знаменитого места Послания министру о милосердии к тому, кто ошибается.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_leone.coscienza",
+      "documentId": "source.lettera_leone",
+      "reference": "Послание брату Льву",
+      "paraphrase": "Брату Льву, тревожащемуся, как выбрать правильно, Франциск отвечает свободой: следуй своей совести перед Богом; каким бы образом ты ни избрал жить в братстве, ты имеешь моё благословение.",
+      "note": "Редакционный парафраз. Автограф хранится в соборе Сполето.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lodi_dio.lode",
+      "documentId": "source.lodi_dio",
+      "reference": "Хвалы Всевышнему Богу",
+      "paraphrase": "Чистая хвала, без просьб: Бог всемогущ, свят, праведен, милосерд; Он — наше благо, всякое благо, благо верховное. Франциск хвалит Его вместе с творениями.",
+      "note": "Редакционный парафраз. Сложены на Альверне в 1224 году.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.rinuncia",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Первое житие (I, примерно 14–15)",
+      "paraphrase": "Челанский рассказывает, что Франциск перед епископом Гвидо и отцом Пьетро ди Бернардоне вернул одежду и отрёкся от отцовского имущества, сказав, что теперь может свободно говорить: «Отче наш, сущий на небесах». Епископ покрыл его собственным плащом.",
+      "note": "Редакционный парафраз. Опорный эпизод, обычно относимый к началу 1206 года; сценические подробности принадлежат агиографическому повествованию Челанского.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.lebbrosi",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Первое житие (I, примерно 17)",
+      "paraphrase": "Челанский описывает, как Франциск служит прокажённым конкретной преданностью: омывает их язвы, обнимает их, заботится об их нуждах и в этом служении находит радость, которую прежде искал в другом месте.",
+      "note": "Редакционный парафраз. Сходится с автобиографическим рассказом Завещания, 1–3.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.uccelli",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Первое житие (I, примерно 58)",
+      "paraphrase": "Челанский рассказывает, что Франциск, увидев стаи птиц, обратился к ним как к творениям, способным слушать, и призвал их хвалить Бога; с тех пор он хотел говорить со всяким творением как с братьями и сёстрами.",
+      "note": "Редакционный парафраз. Знаменитый эпизод будет расширен «Цветочками»; уже Челанский даёт сдержанную версию.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.greccio",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Первое житие (I, примерно 84–86)",
+      "paraphrase": "На Рождество 1223 года Франциск захотел отпраздновать в Греччо рождение Иисуса с настоящими яслями, сеном, волом и ослом, чтобы глаза тела увидели бедность Вифлеема. Челанский представляет это как живую память, а не как зрелище.",
+      "note": "Редакционный парафраз. Эпизод засвидетельствован Челанским, близким к братству свидетелем.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.stimmate",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Первое житие (II, об Альверне, примерно 91–95)",
+      "paraphrase": "Челанский повествует, что в сентябре 1224 года, удалившись на гору Альверна для молитвы, Франциск принял стигматы, знаки страстей Христовых, которые из смирения старался скрывать.",
+      "note": "Редакционный парафраз. Эпизод засвидетельствован ближайшими средневековыми источниками; его историческая и богословская оценка обсуждается, и приложение представляет его как свидетельство, а не как измеримый факт.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.fioretti.lupo",
+      "documentId": "source.fioretti",
+      "reference": "«Цветочки», глава 21",
+      "paraphrase": "«Цветочки» рассказывают о волке из Губбио: Франциск, выйдя навстречу испуганной толпе, идёт к зверю, говорит с ним как с братом и посредничает в договоре мира между волком и городом: город будет его кормить, а он больше никому не причинит зла.",
+      "note": "Редакционный парафраз. Рассказ агиографической традиции XIV века: драгоценен для понимания францисканского воображения, но не проверяем как хроника.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.fioretti.perfetta_letizia",
+      "documentId": "source.fioretti",
+      "reference": "«Цветочки», глава 8",
+      "paraphrase": "Идя с братом Львом, Франциск объясняет, что совершенная радость — не чудеса и не успехи, а принимать отказ и страдание с терпением и любовью, оставаясь радостными и верными.",
+      "note": "Редакционный парафраз. Один из самых знаменитых агиографических эпизодов; он выражает педагогику радости, не зависящей от событий.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.bonaventura.cantico",
+      "documentId": "source.bonaventura_leggenda_maggiore",
+      "reference": "Большая легенда (о Песни)",
+      "paraphrase": "Бонавентура помещает сложение Песни в пору болезни и испытаний Франциска: из страдания рождается высочайшая хвала, обращённая к Богу через творения.",
+      "note": "Редакционный парафраз. Точная хронология Песни остаётся предметом спора в критике.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.apertura",
+      "documentId": "source.lettera_ordine",
+      "reference": "Послание всему Ордену, 1–11",
+      "originalText": "In nomine summae Trinitatis et sanctae Unitatis Patris et Filii et Spiritus Sancti. Amen. Reverendis et multum diligendis fratribus universis, fratri A., generali ministro religionis minorum fratrum, domino suo et ceteris ministris generalibus, qui post eum erunt, et omnibus ministris et custodibus et sacerdotibus fraternitatis eiusdem in Christo humilibus et omnibus fratribus simplicibus et obedientibus, primis et novissimis, frater Franciscus, homo vilis et caducus, vester parvulus servulus, salutem in eo qui redemit et lavit nos in pretiosissimo sanguine suo (cfr. Apoc 1,5), cuius nomen audientibus adorate eum cum timore et reverentia proni in terra (cfr. Esdr 8,6), Dominus Jesus Christus, Altissimi Filius nomen illi (cfr. Lc 1,32), qui est benedictus in saecula (Rom 1,25). Audite, domini filii et fratres mei, et auribus percipite verba mea (Act 2,14). Inclinate aurem (Is 55,3) cordis vestri et obedite voci Filii Dei. Servate in toto corde vestro mandata eius et consilia eius perfecta mente implete. Confitemini ei quoniam bonus (Ps 135,1) et exaltate eum in operibus vestris (Tob 13,6); quoniam ideo misit vos (cfr. Tob 13,4) in universo mundo, ut verbo et opere detis testimonium voci eius et faciatis scire omnes, quoniam non est omnipotens praeter eum (Tob 13,4). In disciplina et obedientia sancta perseverate (Hebr 12,7) et quae promisistis ei bono et firmo proposito adimplete. Tamquam filiis offert se nobis Dominus Deus (Hebr 12,7).",
+      "translation": "Во имя высочайшей Троицы и святого единства Отца и Сына и Святого Духа. Аминь. Всем досточтимым и весьма любимым братьям, брату А., генеральному министру братства меньших братьев, господину своему, и прочим генеральным министрам, которые будут после него, всем министрам, кустодам и священникам того же братства, смиренным во Христе, и всем братьям простым и послушным, первым и последним: брат Франциск, человек убогий и тленный, ваш малый служитель, — привет в Том, Кто искупил нас и омыл драгоценнейшей кровью Своей. Услышав имя Его, поклонитесь Ему со страхом и благоговением, простёршись на земле: Господь Иисус Христос, имя Его — Сын Всевышнего, благословен во веки. Слушайте, господа сыны и братья мои, и примите ушами слова мои. Приклоните ухо сердца и повинуйтесь голосу Сына Божия. Храните во всём сердце заповеди Его и исполняйте советы Его совершенным умом. Исповедуйте, что Он благ, и превозносите Его в делах ваших, ибо для этого Он послал вас во весь мир: чтобы словом и делом свидетельствовали о голосе Его и дали всем знать, что нет всемогущего кроме Него. Пребывайте в дисциплине и в святом послушании и добрым твёрдым намерением доводите до конца то, что Ему обещали. Господь Бог предлагает Себя нам, как сынам.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.eucaristia",
+      "documentId": "source.lettera_ordine",
+      "reference": "Послание всему Ордену, 12–33",
+      "originalText": "Deprecor itaque omnes vos fratres cum osculo pedum et ea caritate, qua possum, ut omnem reverentiam et omnem honorem, quantumcumque poteritis, exhibeatis sanctissimo corpori et sanguini Domini nostri Jesu Christi, in quo quae in caelis et quae in terris sunt, pacificata sunt et reconciliata omnipotenti Deo (cfr. Col 1,20). Rogo etiam in Domino omnes fratres meos sacerdotes, qui sunt et erunt et esse cupiunt sacerdotes Altissimi, quod quandocumque missam celebrare voluerint, puri pure faciant cum reverentia verum sacrificium sanctissimi corporis et sanguinis Domini nostri Jesu Christi sancta intentione et munda non pro ulla terrena re neque timore vel amore alicuius hominis, quasi placentes hominibus (cfr. Eph 6,6; Col 3,22); sed omnis voluntas, quantum adiuvat gratia, ad Deum dirigatur soli ipsi summo Domino inde placere desiderans, quia ipse ibi solus operatur sicut sibi placet; quoniam sicut ipse dicit Hoc facite in meam commemorationem (Lc 22,19; 1 Cor 11,24); si quis aliter fecerit, Judas traditor efficitur et reus fit corporis et sanguinis Domini (cfr. 1 Cor 11,27). Recordamini, fratres mei sacerdotes, quod scriptum est de lege Moysi, quam transgrediens etiam in corporalibus sine ulla miseratione per sententiam Domini moriebatur (cfr. Hebr 10,28). Quanto maiora et deteriora meretur pati supplicia, qui Filium Dei conculcaverit et sanguinem testamenti pollutum duxerit, in quo sanctificatus est, et Spiritui gratiae contumeliam fecerit (Hebr 10,29)? Despicit enim homo, polluit et conculcat Agnum Dei, quando, sicut dicit apostolus, non diiudicans (1 Cor 11,29) et discernens sanctum panem Christi ab aliis cibariis vel operibus vel indignus manducat vel etiam, si esset dignus, vane et indigne manducat, cum Dominus per prophetam dicat Maledictus homo, qui opus Dei facit fraudulenter (cfr. Jer 48,10). Et sacerdotes, qui nolunt hoc ponere super cor, in veritate condemnat dicens Maledicam benedictionibus vestris (Mal 2,2). Audite, fratres mei Si beata Virgo sic honoratur, ut dignum est, quia ipsum portavit in sanctissimo utero; si Baptista beatus contremuit et non audet tangere sanctum Dei verticem; si sepulcrum, in quo per aliquod tempus iacuit, veneratur, quantum debet esse sanctus, iustus et dignus, qui non iam moriturum, sed in aeternum victurum et glorificatum, in quo desiderant angeli prospicere (1 Petr 1,12), contractat manibus, corde et ore sumit et aliis ad sumendum praebet! Videte dignitatem vestram, fratres (cfr. 1 Cor 1,26) sacerdotes, et estote sancti, quia ipse sanctus est (cfr. Lev 19,2). Et sicut super omnes propter hoc ministerium honoravit vos Dominus Deus, ita et vos super omnes ipsum diligite, reveremini et honorate. Magna miseria et miseranda infirmitas, quando ipsum sic praesentem habetis et vos aliquid aliud in toto mundo curatis. Totus homo paveat, totus mundus contremiscat, et caelum exsultet, quando super altare in manu sacerdotis est Christus, Filius Dei vivi (Joa 11,27)! O admiranda altitudo et stupenda dignatio! O humilitas sublimis! O sublimitas humilis, quod Dominus universitatis, Deus et Dei Filius, sic se humiliat, ut pro nostra salute sub modica panis formula se abscondat! Videte, fratres, humilitatem Dei et effundite coram illo corda vestra (Ps 61,9); humiliamini et vos, ut exaltemini ab eo (cfr. 1 Petr 5,6; Jac 4,10). Nihil ergo de vobis retineatis vobis, ut totos vos recipiat, qui se vobis exhibet totum. Moneo propterea et exhortor in Domino, ut in locis, in quibus fratres morantur, una tantum missa celebretur in die secundum formam sanctae ecclesiae. Si vero plures in loco fuerint sacerdotes, sit per amorem caritatis alter contentus auditu celebrationis alterius sacerdotis; quia praesentes et absentes replet, qui eo digni sunt, Dominus Jesus Christus. Qui, licet in pluribus locis esse videatur, tamen indivisibilis manet et aliqua detrimenta non novit, sed unus ubique, sicut ei placet, operatur cum Domino Deo Patre et Spiritu Sancto Paraclito in saecula saeculorum. Amen.",
+      "translation": "Итак, прошу всех вас, братья, с целованием ног и со всей любовью, на какую способен, воздавать святейшему телу и крови Господа нашего Иисуса Христа всякое благоговение и всякую честь, какую сможете: в Нём небесное и земное приведены к миру и примирены с Богом всемогущим. Прошу также в Господе всех моих братьев-священников, которые есть, которые будут и которые желают ими быть, чтобы всякий раз, как захотят совершать мессу, чисто совершали истинную жертву святейшего тела и крови Господа нашего Иисуса Христа, с благоговением, святым и чистым намерением, не ради чего-либо земного и не из страха или любви к человеку, как те, кто угождает людям. Всякая воля, насколько помогает благодать, да будет обращена к одному Богу, с желанием угодить Ему, верховному Господу, потому что там действует Он один, как Ему угодно. Он говорит: сие творите в Моё воспоминание. Кто поступает иначе, становится Иудой предателем и делается виновным в теле и крови Господа. Помните, братья мои священники, что написано о законе Моисея: кто его преступал, даже в телесных вещах, умирал без всякого милосердия по приговору Господа. Насколько большие и худшие казни заслуживает тот, кто попрал Сына Божия, счёл нечистой кровь завета, в которой освящён, и оскорбил Духа благодати? Человек презирает, пачкает и попирает Агнца Божия, когда, как говорит апостол, не отличает святого хлеба Христова от прочей пищи или прочих дел и ест недостойно; или даже, будучи достоин, ест тщетно и недостойно. Господь говорит через пророка: проклят человек, который совершает дело Божие с обманом. А священников, которые не хотят положить это на сердце, Он осуждает поистине: прокляну благословения ваши. Слушайте, братья мои. Если блаженную Деву почитают, как достойно, потому что носила Его в святейшем чреве; если блаженный Креститель трепетал и не дерзает коснуться святой главы Бога; если чтут гроб, в котором Он лежал некоторое время: насколько должен быть свят, праведен и достоин тот, кто руками касается, сердцем и устами принимает и подаёт другим принимать уже не Того, Кто вот-вот умрёт, а Того, Кто будет жить вечно и прославлен, на Кого желают взирать ангелы. Смотрите на достоинство ваше, братья священники, и будьте святы, потому что Он свят. Как Господь Бог почтил вас превыше всех ради этого служения, так и вы любите Его, благоговейте перед Ним и почитайте Его превыше всех. Великое бедствие и слабость, достойная жалости, когда Он так присутствует у вас, а вы заботитесь о чём-то ином во всём мире. Да трепещет весь человек, да содрогнётся весь мир и да возрадуется небо, когда на алтаре, в руке священника, — Христос, Сын Бога живого. О дивная высота и изумительное снисхождение. О возвышенное смирение. О смиренная возвышенность: Господь вселенной, Бог и Сын Божий, так смиряет Себя, что скрывается ради нашего спасения под малым видом хлеба. Смотрите, братья, на смирение Бога и изливайте перед Ним сердца ваши. Смиряйтесь и вы, чтобы быть Им возвышенными. Не удерживайте же ничего из себя для себя, чтобы принял вас всецело Тот, Кто являет Себя вам всецело. Потому увещаю и умоляю в Господе: в местах, где живут братья, пусть совершается одна месса в день, по форме святой Церкви. Если в месте несколько священников, ради любви пусть один довольствуется тем, что слушает совершение другого, потому что Господь Иисус Христос наполняет присутствующих и отсутствующих, которые того достойны. Хотя кажется, что Он во многих местах, Он остаётся неделимым и не знает ущерба: единый, повсюду, как Ему угодно, действует с Господом Богом Отцом и Святым Духом Параклитом во веки веков. Аминь.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.parole",
+      "documentId": "source.lettera_ordine",
+      "reference": "Послание всему Ордену, 34–37",
+      "originalText": "Et, quia qui est ex Deo verba Dei audit (cfr. Joa 8,47), debemus proinde nos, qui specialius divinis sumus officiis deputati, non solum audire et facere quae dicit Deus, verum etiam ad insinuandam in nobis altitudinem Creatoris nostri et in ipso subiectionem nostram vasa et officialia cetera custodire, quae continent verba sua sancta. Propterea moneo fratres meos omnes et in Christo conforto, quatinus, ubicumque invenerint divina verba scripta, sicut possunt, venerentur; et, quantum ad eos spectat, si non sunt reposita bene vel inhoneste iacent in loco aliquo dispersa, recolligant et reponant honorantes in sermonibus Dominum, quos locutus est (3 Reg 2,4). Multa enim sanctificantur per verba Dei (cfr. 1 Tim 4,5), et in virtute verborum Christi altaris conficitur sacramentum.",
+      "translation": "И поскольку кто от Бога, тот слушает слова Божии, мы, поставленные более особым образом к божественным службам, должны не только слушать и делать то, что говорит Бог, но и, чтобы вошла в нас высота нашего Творца и наша покорность Ему, хранить сосуды и прочую утварь, содержащую святые слова Его. Потому увещаю всех братьев моих и ободряю их во Христе: где бы ни нашли написанные божественные слова, пусть чтут их, как могут; и, насколько от них зависит, если слова не убраны хорошо или лежат непристойно рассеянными в каком-либо месте, пусть соберут их и уберут, почитая Господа в словах, которые Он произнёс. Ибо многое освящается словами Божиими, и силой слов Христовых совершается таинство алтаря.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.chiusura",
+      "documentId": "source.lettera_ordine",
+      "reference": "Послание всему Ордену, 38–49",
+      "originalText": "Confiteor praeterea Domino Deo Patri et Filio et Spiritui Sancto, beatae Mariae perpetuae Virgini et omnibus sanctis in caelo et in terra, fratri H. ministro religionis nostrae sicut venerabili domino meo et sacerdotibus ordinis nostri et omnibus aliis fratribus meis benedictis omnia peccata mea. In multis offendi mea gravi culpa, specialiter quod regulam, quam Domino, promisi, non servavi, nec officium, sicut regula praecipit, dixi sive negligentia sive infirmitatis meae occasione sive quia ignorans sum et idiota. Ideoque per omnia oro, sicut possum, fratrem H. generalem dominum meum ministrum, ut faciat regulam ab omnibus inviolabiliter observari; et quod clerici dicant officium cum devotione coram Deo non attendentes melodiam vocis, sed consonantiam mentis, ut vox concordet menti, mens vero concordet cum Deo, ut possint per puritatem cordis placare Deum et non cum lascivitate vocis aures populi demulcere. Ego enim promitto haec firmiter custodire, sicut dederit mihi gratiam Deus; et haec fratribus, qui mecum sunt, observanda tradam in officio et ceteris regularibus constitutis. Quicumque autem fratrum haec observare noluerint, non teneo eos catholicos nec fratres meos; nolo etiam ipsos videre nec loqui, donec poenitentiam egerint. Hoc etiam dico de omnibus aliis, qui vagando vadunt, postposita regulae disciplina; quoniam Dominus noster Jesus Christus dedit vitam suam, ne perderet sanctissimi Patris obedientiam (cfr. Phil 2,8). Ego frater Franciscus, homo inutilis et indigna creatura Domini Dei, dico per Dominum Jesum Christum fratri H. ministro totius religionis nostrae et omnibus generalibus ministris, qui post eum erunt, et ceteris custodibus et guardianis fratrum, qui sunt et erunt, ut hoc scriptum apud se habeant, operentur et studiose reponant. Et exoro ipsos, ut, quae scripta sunt in eo, sollicite custodire ac facere diligentius observari secundum beneplacitum omnipotentis Dei, nunc et semper, donec fuerit mundus iste. Benedicti vos a Domino (Ps 113,23), qui feceritis ista et in aeternum Dominus sit vobiscum. Amen.",
+      "translation": "Исповедую также Господу Богу, Отцу и Сыну и Святому Духу, блаженной Марии приснодеве и всем святым на небе и на земле, брату H., министру нашего братства, как досточтимому господину моему, священникам нашего Ордена и всем прочим благословенным братьям моим все грехи мои. Во многом я согрешил по тяжкой вине моей, особенно потому, что не соблюдал Устав, который обещал Господу, и не читал оффиций, как повелевает Устав, по нерадению, или из-за немощи моей, или потому что я невежда и некнижен. Поэтому прошу всем собой, как могу, брата H., господина моего генерального министра, сделать так, чтобы все нерушимо соблюдали Устав; и чтобы клирики читали оффиций с благоговением перед Богом, внимая не мелодии голоса, а согласию ума, так чтобы голос согласовался с умом, а ум — с Богом, чтобы умилостивлять Бога чистотой сердца, а не ласкать слух народа распущенностью голоса. Обещаю твёрдо это хранить, как Бог даст мне благодать, и передам соблюдать братьям, которые со мной, в оффиции и в прочем, установленном Уставом. Братьев, которые не захотят этого соблюдать, я не считаю ни католиками, ни моими братьями; не хочу даже видеть их и говорить с ними, пока не совершат покаяния. То же говорю обо всех прочих, кто бродит, отложив дисциплину Устава, потому что Господь наш Иисус Христос отдал жизнь Свою, чтобы не потерять послушания святейшему Отцу. Я, брат Франциск, человек негодный и творение, недостойное Господа Бога, говорю через Господа Иисуса Христа брату H., министру всего нашего братства, и всем генеральным министрам, которые будут после него, и прочим кустодам и гвардианам братьев, настоящим и будущим, чтобы держали при себе это писание, исполняли его и тщательно хранили. И прошу их с заботой беречь написанное в нём и заставлять соблюдать его усерднее, по благоволению Бога всемогущего, ныне и всегда, пока будет длиться этот мир. Благословенны вы Господом, вы, кто будет делать это, и Господь да будет с вами вовек. Аминь.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.orazione",
+      "documentId": "source.lettera_ordine",
+      "reference": "Послание всему Ордену, 50–52",
+      "originalText": "Omnipotens, aeterne, iuste et misericors Deus, da nobis miseris propter temetipsum facere, quod scimus te velle, et semper velle, quod tibi placet, ut interius mundati, interius illuminati et igne sancti Spiritus accensi sequi possimus vestigia (cfr. 1 Petr 2,21) dilecti Filii tui, Domini nostri Jesu Christi, et ad te, Altissime, sola tua gratia pervenire, qui in Trinitate perfecta et Unitate simplici vivis et regnas et gloriaris Deus omnipotens per omnia saecula saeculorum. Amen.",
+      "translation": "Боже всемогущий, вечный, праведный и милосердный, дай нам, жалким, ради Тебя Самого делать то, что, как мы знаем, Ты хочешь, и всегда хотеть того, что Тебе угодно, чтобы, очищенные внутри, просвещённые внутри и зажжённые огнём Святого Духа, мы могли следовать по следам возлюбленного Сына Твоего, Господа нашего Иисуса Христа, и прийти к Тебе, Всевышний, по одной Твоей благодати: Ты, Который в совершенной Троице и простом единстве живёшь, и царствуешь, и прославляешься, Бог всемогущий, во все веки веков. Аминь.",
+      "note": "Средневековый текст в общественном достоянии, по латинской транскрипции Wikisource (просмотрена 11.11.2026). Редакционный перевод, созданный для этого приложения; это не критическое издание.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Orme
 
-A native Android app built with Kotlin and Jetpack Compose for exploring the life and teachings of Saint Francis of Assisi through four integrated interactive experiences. The current app content and interface are in Italian.
+A native Android app built with Kotlin and Jetpack Compose for exploring the life and teachings of Saint Francis of Assisi. The story is the way in. The writings are readable in the medieval original, with an editorial translation beside them. Content and interface ship in Italian, English, the official languages of the European Union except Irish and Maltese, and Russian.
 
 ## Features
 

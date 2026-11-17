@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Bernardo mester",
+      "description": "Harminc éve Tölgyfalu fogadósa: gyakorlatias, idegenekkel gyanakvó, és képtelen hidegben hagyni valakit. A falu minden adósságát és minden szívességét ismeri.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Tölgyfalu özvegye és füvesasszonya. Éles szemű megfigyelő és a falu emlékezete: semmi sem kerüli el a figyelmét, ami az úton történik.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Tamás testvér",
+      "description": "Kisebb testvér, aki Umbria útjain jár át. Kopott saru, foltozott habitus: megszokta a csendet, és ritka ajándéka, hogy hallgatni tud.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martino",
+      "description": "Koldus, akivel Tölgyfalu útján találkozol. Patkolókovács volt Spoletóban, amíg a betegség el nem vitte a műhelyét, a házát, végül a helyét az emberek között.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Giacomo",
+      "description": "Assisi kőművese. San Damiano kis templomának helyreállításán dolgozik, és közelről látta, amint az ifjú Ferenc köveket hord és énekel.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matteo",
+      "description": "Hegyi vadász, Gubbio egyik kapujának őrségét vezeti a farkastól való félelem napjaiban. Barázdált arc, lándzsa soha nincs messze, a szava kötelez.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "II. Guidó, Assisi püspöke",
+      "description": "Assisi püspöke 1204-től. A források dokumentálják: a város előtt a saját köpenyével takarta be Ferencet, amikor az lemondott atyai javairól.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Bernardone Péter",
+      "description": "Assisi gazdag posztókereskedője, Ferenc apja. A fiával az eladott javak miatt támadt viszály a püspök előtti nyilvános jelenetbe torkollott, amelyet Celanói Tamás beszél el.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Bernardone Ferenc",
+      "description": "A kereskedő ifjú fia, aki ezekben az években Assisiben mindent elhagy, és mezítláb kezdi újra. A vándor távolról vagy néhány pillanatra találkozik vele; a szavai itt kevesek, és hűek a forrásokhoz.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "A vándor köpenye",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Késő őszi esőben a vándor megérkezik Tölgyfaluba, és egy átfázott koldussal találkozik: az út első választása.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "A késő őszi eső három napja kísér. Amikor megpillantod Tölgyfalu első házait, az este már lezárja az ösvényeket, és a köpenyedről csurog a víz.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Egy kökénybokor sövénye alatt összekuporodott alak húzódik egy kopott zsákba. Nem nyújtja a kezét: csak néz, annak a tiszta szemével, aki már nem kér.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martino az ösvények korát hordozza. Patkolókovács volt Spoletóban, amíg a betegség el nem vitte a műhelyét és a házát. Most az út minden, ami megmaradt neki.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Nem kérek semmit, idegen. De az éjszaka hosszú és fagyos lesz, és a hátam már nem bírja a nedvességet.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martino reszket a sövény alatt. Mit teszel?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Leveszed a köpenyed, és a vállára teríted.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "A karodat nyújtod, és elkíséred a faluig.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Leülsz mellé, a sövény alá, és meghallgatod.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "A köpeny elhagyja a vállad, és a hideg azonnal a csontodba hatol. De ebben a hidegben új könnyűség van, amelyet nem tudsz megmagyarázni.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Nincs mit visszaadnom, barátom. Csak a nevem: Martino. A faluban tudni fogják, miféle idegen vagy.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Lassan mentek, egymásra támaszkodva, a sűrű esőben. A fogadó kapujánál még égnek a fények.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Társaságot szedtél össze az úton, idegen? Gyertek be mindketten: az én tüzem nem kérdez.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Patkolókovács voltam Spoletóban: az urak lovait patkoltam. Aztán a kezem remegni kezdett, és senki sem akar reszkető kovácsot. Köszönöm, hogy leültél: az emberek elmennek melletted, mintha a balszerencse ragályos volna.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Amikor felálltok, az eső elállt. Megmutatod neki a falu útját, és nézed, amint lassan távolodik, míg a sötét el nem nyeli.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Tölgyfalu fogadója fa- és kenyérillatú. Az alacsony tűz szárítja a ruhát, és oldja az út fáradtságát.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Átfázva és köpeny nélkül lépsz a pulthoz. Bernardo mester hosszan végigmér, aztán egy merőkanál forralt bort nyújt: „Egy ilyen estén odaadtad a köpenyed? Vagy bolond vagy, vagy jobb, mint amilyennek látszol. Majd meglátjuk.”",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Bernardo mester harminc éve tartja a fogadót: gyakorlatias, bizalmatlan, és képtelen hidegben hagyni valakit. A falu minden adósságát és minden szívességét ismeri.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Itt senki sem ajándékoz semmit, idegen: a kenyeret megfizetik, a bajt is. De a hely a tűz mellett nem eladó. Az azé, aki megérkezik.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "Egy sarokban éles szemű asszony aprít füveket egy mozsárban. Lucia az, az özvegy, aki gyökerekkel és türelemmel gyógyítja a falut. Semmi sem kerüli el a figyelmét, ami az úton történik.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Láttalak megállni a kökény sövénye alatt. Sokan mennek el azon a kanyaron: az út hamar megtanít nem nézni. Te megálltál. Emlékezz erre, amikor valaki megmondja, ki vagy.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Felfedezted: Senki sem idegen. A befogadás így kezdődik: nem egy eszméből, hanem egy sövényből, egy átfázott emberből, egy megállásból. Elébe menni annak, akit a világ kerülni tanít, minden út első lépése.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "A sövény alatt mi mozdított meg, és mi tartott vissza? Gondolj a mai utaidra: kivel találkozol megszokottan, és ki előtt tanultad meg, hogy továbbmenj?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Az éjszaka csendesen múlik. Reggel a fogadó pultján egy marék gesztenyét találsz, és egy szót sem: a faluban a dolgokra emlékeznek. Az utad elkezdődött.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "A kereskedő fia",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, 1206 eleje: a vándor azokban a napokban érkezik, amikor Ferenc Guidó püspök előtt mindent visszaad az apjának. A város néz, és kérdez.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi olyan morajjal fogad, amely nem a vásárnapoké. A sikátorokban az emberek halkan egyetlen névről beszélnek: Bernardone Péter úr fiáról, a posztókereskedőéről.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "A falu kútjánál egy asszony elmagyarázza: az apa a püspök elé vonszolta a fiút, hogy visszakapja az eladott javakat, és a tér megtelik. A falak alatt, San Damiano romos kis templománál egy kőműves egyedül küzd egy leomlott fallal.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "A hangok a téren erősödnek. Egyfelől a tömeg, másfelől egy ember egyedül a köveivel.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Lemész San Damianóba, hogy segíts a kőművesnek.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "A térre sietsz, mielőtt a tömeg összezárul.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Felállsz San Rufino lépcsőire, hogy felülről nézd.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Egy órán át köveket emelsz a kőműves mellett, miközben odafent morajlik a tömeg. Az ember csendben dolgozik, aztán a kis templomra mutat: egy assisi fiú javítja, mondja. Az, akiről mindenki beszél.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Úgy hordta ide a köveket, mintha ereklyék volnának, és énekelt. Azt mondják, megőrült. Én sok bolondot láttam: egyik sem dolgozott így.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Amikor visszamész a térre, a tömeg már oszlik. Töredékeket szedsz össze: a fiú mindent visszaadott az apjának, még a ruháit is, és a püspök a saját köpenyével takarta be. Valaki nevet. Sokan nem.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Átfurakodsz a tömegen a püspöki palota alá. Középen egy sovány, égő szemű ifjú; vele szemben egy öregember, aki a dühtől remeg: Bernardone Péter úr.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Ferenc körülbelül huszonnégy éves, és annak a tartása van, aki drága kelmék és ünnepek között nőtt fel. Ma, a püspök előtt állva, mintha mindezt már maga mögött hagyta volna.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Az én posztóim, az én lovam, az én pénzem: eladva az ő őrültségeire! Igazságot akarok, monsignor. Mondjon le mindenről, ami az enyém, az utolsó fonálig.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Hosszú csend. Aztán az ifjú egyenként leveti a ruháit, és az apa lábához teszi. A tömeg visszafojtja a lélegzetét. Guidó püspök leveszi a köpenyét, és befedi a meztelen vállát.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "A mai napig Bernardone Pétert hívtam apámnak. Mostantól szabadon mondhatom: Miatyánk, aki a mennyekben vagy.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "A székesegyház lépcsőiről a tér hangyaboly. A szavakat nem hallod, de mindent látsz: az ifjút, aki levetkőzik, az öreget, aki összeszedi a ruhákat, a püspököt, aki kitárja a köpenyét.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Melletted egy almáárus sóhajt: pereket és verekedéseket láttam ezen a téren, mondja, de soha fiút, aki így ad vissza mindent. Körülöttetek valaki harsányan nevet, valaki a szemét törli.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Az este leszáll Assisire. A fogadókban másról sem beszélnek: van, aki kigúnyolja az ifjút, van, aki szentnek mondja, van, aki a fejét csóválja, a saját fiaira gondolva.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Guidó püspök a kiürült téren átmegy, annak fáradt lépteivel, aki nehéz napot kormányzott. Ő az, aki mindenki előtt a saját köpenyével takarta be Ferencet.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Sok embert láttam életemben a dolgokba kapaszkodni. Soha senkit, aki így elengedné őket. Imádkozzatok azért a fiúért: és imádkozzatok értünk, akik nézünk, és nem értjük.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "A tér kiürül. Mit teszel, mielőtt újra útra kelsz?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Távolról követed Ferencet, aki San Damiano felé indult.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Maradsz, és hallgatod a tér hangjait.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Visszamész a kőműveshez, hogy befejezd, amit elkezdtél.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Követed Ferencet a romos kis templomig. Látod, amint felvesz egy követ, leporolja, és a falra teszi, mint aki rendet rak egy házban. Nem mered zavarni. Újra útra kelsz, azzal a képpel a szemedben.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Maradsz, amíg a fáklyák kialszanak. Az emberi bestiárium egészét hallod: az irigységet, a gúnyt, a visszafogott csodálatot, az apák félelmét. A városnak évekbe telik eldönteni, mit látott.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Visszajöttél befejezni a falat? Derék dolog. A kövek nem hazudnak: ott maradnak, ahová teszed őket. Az a fiú érti: az alapoktól kezdi újra. Önmagát, nem csak a templomokat.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Mi dokumentált",
+          "text": "Ferenc lemondását Guidó püspök előtt, 1206 elején, Celanói Tamás Első életrajza beszéli el, a szenthez legközelebbi biográfia: a ruhák visszaadása, a szavak a mennyei Atyáról, a püspök köpenye. Dokumentált San Damiano restaurálása is. A fikcióhoz tartozik viszont a vándor, akit alakítasz, Giacomo, a kőműves, és a téren összegyűjtött párbeszédek.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Felfedezted: Semmi saját, minden kapott. A lemondás nem a dolgok megvetése: felszabadulás a birtoklás gondolatától. Akinek semmije sincs, annak semmit sem kell védelmeznie, és mindent ajándékként fogadhat.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Elhagyod Assisit, miközben a fények egyenként kigyulladnak. Láttál egy embert meztelenül és szabadon állni egy téren, és egy egész várost, amely kérdez. Te is könnyebben jársz: vagy talán csak figyelmesebben a dolgok súlyára.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Az ember az út szélén",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "A falvak közötti utakon egy kereplő hangja jelez egy leprást. A vándornak számot kell vetnie a félelemmel, az undorral és a tisztelettel: és egy arccal, amelyet ismer.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Az út a falu és a völgy között pihenő földek és magyaltölgyesek mentén halad. Egy elágazásnál száraz, ritmikus hangot hallasz: a fakereplőt, amellyel a leprások érkezésüket jelzik.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Az út szélén, rongyokba burkolva, egy ember ül. Az első, amit érzel, a saját tested, amely megmerevedik: a lépés, amely lassul, a visszafojtott lélegzet, a vágy, hogy átmenj a másik oldalra.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Aztán meglátod: az ember vállán, foltozva és kifakulva, a te köpenyed van. Az, amelyet odaadtál az érkezésed estéjén Tölgyfaluban. A köpenyt előbb ismered fel, mint őt.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Ne gyere közelebb, barátom: a kór elfogott, és a törvény a világon kívülre küld. De a köpenyed életben tartott a télen. Martino vagyok: az életemmel tartozom, és a kezedet sem szoríthatom meg.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Egy leprás az út szélén. Mit teszel?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Egy lépésnyire közeledsz hozzá, és szólsz hozzá.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Kenyeret és fügét hagysz egy kövön, anélkül hogy közelebb mennél.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Továbbmész. De húsz lépés után megállsz, és visszafordulsz.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Közelről, a betegség szürke hamuja alatt felismered a sövény alatti ember tiszta szemét: Martino az, a koldus az első napodról a faluban.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "A betegség elvette az ujjaimat, aztán a falu a többit. Megkongatom ezt a fát, és az emberek elmenekülnek, mielőtt meglátnának. Te viszont maradtál. Nem tudod, milyen ajándék, ha az arcodba néznek.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "A kenyeret és a fügét egy lapos kőre teszed, félúton közte és közted. Így tesz mindenki: szeretet biztonságos távolságból. Ő lassan lehajtja a fejét.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "A kenyér elég, és köszönöm. De emlékezz, idegen: a hozzám hasonlók kétszer halnak meg. Először, amikor a kór megérkezik, másodszor, amikor senki sem szólítja őket a nevükön.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Húsz lépést teszel a völgy felé. Aztán a szégyen jobban megállít, mint a kereplő: lassan visszafordulsz, egészen az út széléig. Az ember felnéz, csodálkozva.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Sokan mennek tovább, kevesen térnek vissza. A hátralépés a legnehezebb mind közül: tudom, én is megtanultam. Ülj le, ha akarod. Mondd el, honnan jössz.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Beszélgettek, miközben a nap leereszkedik. Martino egy assisi testvérről mesél, arról a kereskedőfiúról, aki mindent elhagyott: most bemegy a lazarétumokba, mossa a sebeket, és mindenkit a nevén szólít.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "A lazarétum a völgyben van, a hídon túl, mondja Martino. Ha azt a testvért keresed, ott találod.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Felajánlod, hogy elkíséred a lazarétumig.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Megígéred, hogy a faluban senki sem felejti el.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Elkíséred a völgy mentén, lassan, anélkül hogy megérintenéd, de anélkül hogy kitérnél előle. A hídnál úgy búcsúztok, ahogy a barátok: azzal a sajnálattal, hogy el kell válni.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "A falu elűzött, mondja Martino. De ha valaki odafent még kimondja a nevem, kevésbé leszek holt. Megígéred neki. Még nem tudod, mennyibe kerül majd megtartani azt az ígéretet.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Ferenc szavai",
+          "text": "A Végrendeletben, legszemélyesebb írásában, amelyet élete végén diktált, Ferenc elmondja, hogy az Úr a leprások közé vezette, és irgalmasságot cselekedett velük: ami keserűnek tűnt, édességgé változott (Végrendelet 1–3). Ez a kevés epizód egyike, amelyet a saját hangja tanúsít. Martino és a ti találkozásotok a Vándor fikciójához tartozik.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Felfedezted: A találkozás, amely megváltoztatja az életet. A szeretet nem érzés: annak a testi gesztusa, aki közeledik a kirekesztetthez, és felfedezi, hogy a keserűség édességgé változik. Aki ad, nem a befogadó fölé helyezi magát: találkozik vele.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Felfedezted: A testünkkel felebaráttá lenni. A Végrendeletben Ferenc nem azt mondja, hogy irgalmat érzett: azt mondja, hogy cselekedte. Az együttérzés akkor igaz, ha hagyja, hogy a másik szenvedése elérje, egészen addig, hogy megmozdul a keze.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Mi mozdította meg ma a testedet, a gondolataid előtt: félelem, undor, gyengédség? Emlékezz egy arcra, amelyet kerülni tanultál. Hogy hívják?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Újra útra kelsz a sötétben, a kereplő hangjával, amely a hátad mögött elvész. Valami, abban, ahogyan az emberekre nézel, örökre megváltozott.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Gubbio fenevada",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio egy vad farkas rettegésében él. Aki a védelmet szervezi, aki a fegyvertelen testvért követi, és aki közvetítést keres: közöttük a vándor látja megszületni a békét.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio hirtelen tűnik fel, a hegyhez tapadva. De a kapuk fényes nappal zárva vannak, és a körüli földek üresek: senki sem küldi már a nyájat legelni.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matteo a kapu őrségét vezeti: hegyi vadász, barázdált arccal, lándzsája soha nincs messze. Ő szervezi a hajtóvadászatokat a fenevad ellen.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Egy farkas, idegen. Akkora, mint egy borjú, és nem fél az emberektől. Elvitt juhokat, kutyákat, aztán rosszabbat. Húszan megyünk ki, fegyveresen. Ha biztos a lábad, maradj távol az erdőtől.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "A kapu melletti kocsmában egy hír jár, amely gúnynak tűnik: a városban van egy assisi testvér, azok közül a mezítlábasok közül, akik békét kívánva köszöntenek. Azt mondja, egyedül megy, fegyvertelenül, találkozni a fenevaddal.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "A város a félelem és a hitetlenség közé szorult. Mit teszel?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Segítesz Matteónak megszervezni a házak és a nyájak védelmét.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Követed a testvért a falakon kívül, néhány lépéssel lemaradva.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Rábeszéled a vadászokat, hogy lándzsa nélkül kísérjék a testvért.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Egész éjjel kapukat reteszeltek, rőzsét hordtok, őrséget szerveztek. Ha a fenevad támad, a város nem éri váratlanul. Valódi munka ez, és az emberek lélegzethez jutnak.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Nem szeretem, aki a farkasokhoz beszél, de szeretem, aki dolgozik. Te dolgoztál. Holnap, lándzsával vagy nélküle, Gubbio készen áll.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Reggel a falakról látjátok, amint a testvér egyedül kilép az erdő felé. Nagyon hosszú csend. Aztán újra megjelenik az úton: és mellette, szelíden, mint egy bárány, a farkas jár.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Három lépéssel a testvér mögött mész, az utolsó házon túl. Az erdő összezárul az ösvény fölött, és a félelem a torkodra szorul: de az ő léptei csendesek, és a tieidet is viszik előre.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Ne félj, testvér. Egy teremtmény elébe megyünk, amely éhes és fél, mint mindannyian. Maradj közel, ha úgy tetszik.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "A fenevad morogva lép ki az erdőből. A testvér keresztet vet, és úgy szól hozzá, mint egy testvérhez: békét kínál neki, egy szövetség nevében. És a farkas, a szemed előtt, a lábához fekszik.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Hosszan beszélsz Matteóval és az embereivel: sem lándzsa, sem kutya. Távolról követitek a testvért, mindenre készen, de elhatározva, hogy nem ti üttök először. Fáradságos meggyőzni őket: a félelem mindig a vasat akarja.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Úgy teszünk, ahogy mondod. De ha a fenevad ugrik, semmiért sem felelek. Segítsen az ég: fegyvertelen hajtóvadászatra megyünk.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "A város fele csendben követ, az ösvényen. Amikor a farkas megjelenik, száz kéz keres fegyvert, amely nincs: de egy sem emelkedik fel. A testvér beszél, a fenevad lekuporodik, és a béke így kezdődik: egy félelemből, amelyet senki sem hárít a másikra.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "A téren, egész Gubbio előtt, a testvér megpecsételi a szövetséget: a város a farkast minden napján táplálja, a farkas pedig többé egy szőrszálat sem görbít sem embernek, sem állatnak. A fenevad felemeli a mancsát, és a tér felrobban.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "A félelem ünneppé oldódik. Mit teszel?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Felajánlod, hogy minden nap viszel egy kenyeret a farkas odújához.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Matteóval maradsz, hogy leszereljétek a csapdákat az erdőben.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Leülsz a téren, és összegyűjtöd a város hangjait.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "Azokon a napokon, amíg Gubbióban maradsz, minden reggel a te kenyered érkezik az odúhoz. A gyerekek távolról követnek: látni akarják, igaz-e, hogy a fenevad nem harapja meg a kezet, amely eteti.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Egy egész napon át szerelitek le a tőröket és a hurkokat. Évekig feszítettük őket, mondja Matteo, és egy mezítlábas testvér egy reggelen hasznavehetetlenné teszi. Nevet, de a nevetésében tisztelet van.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "A téren hallod, amint a város újra elmeséli magát: az öregasszonyt, aki titokban vitte neki a levest, a pékest, akinek az ujaival tartozik, a gyerekeket, akik már a nevén szólítják. A félelem még a történeteket is eloltotta.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Elbeszélés vagy történelem?",
+          "text": "Gubbio farkasát a Fioretti beszéli el, egy tizennegyedik század végi gyűjtemény (21. fejezet): hagiográfiai irodalom, nem krónika, és a kor egyetlen irata sem erősíti meg. Az emlékezet elbeszéléseként kínáljuk, nem történelmi tényként. Okirati alapja van viszont a béke köszöntésének, amelyet Ferenc saját elmondása szerint kapott, és amelyre a Végrendelet emlékezik, valamint annak, hogy az első testvérek a békét hirdették. A te szereped az eseményben fikció.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Felfedezted: A béke köszöntése. A béke nem a háború hiánya: hirdetnivaló üzenet, bátorság, amelyet viselni kell. Abból születik, hogy elébe megyünk annak, ami félelmet kelt, fegyver nélkül a kézben.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbiónak három útja volt: védekezni, bízni, közvetíteni. Te melyiket választottad, és miért? A te életedben ki vagy mi az a farkas, amelytől mindenki bereteszelt kapuval védekezik?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Elhagyod Gubbiót, miközben a farkas, már jóllakottan és ártalmatlanul, a kemence mellett alszik a napon. A város új szót tanult, és te is megtanultad vele: a békét megcsinálják, nem megvárják.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "A zivatar éjszakája",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "A zivatar meglepi a vándort, aki egy barlangot oszt meg Tamás testvérrel: az elbeszélés és a hallgatás éjszakája, és egy reggel, napfénnyel a nedves leveleken.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "A Tölgyfalu felé vezető visszaúton az ég gyorsan bezárul. A szél esőszagot hoz, és az első mennydörgések a gerinceken túl gördülnek.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Miközben a zivatar kitör, egy hang szólít egy barlangból az ösvény szélén. Egy mezítlábas testvér int, hogy menj be, két csepp és egy villám között.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Tamás testvér átutazó kisebb testvér: kopott saru, foltozott habitus, egy bot, és semmi más. Megszokta a csendet, és ritka ajándéka, hogy hallgatni tud.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Gyere be, testvér, és szárítkozz meg. A barlang senkié: ma éjjel az esővel osztjuk meg. Van egy kis kenyerem és a tűz: két vándornak palota.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "A tűz meggyullad, a kenyér magától megoszlik. Kint a zivatar folyóként zúg; bent, sok nap után először, nem sietsz.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Az éjszaka hosszú lesz. Mivel töltöd?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Megkérdezed Tamás testvért az életéről, a habitus előttről.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Te mesélsz: a falu, Martino, Assisi tere, Gubbio farkasa.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Csendben maradtok, és hallgatjátok az esőt.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Pásztor voltam, ezeken a hegyeken. Egy áradás elvitte a nyájamat és a kunyhómat, egy ilyen éjszakán. Úgy sírtam, mint egy gyerek. Aztán felfedeztem, hogy mivel már semmim sincs, már semmitől sem félek: akkor értettem meg Assisi testvéreit.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Tamás testvér anélkül hallgat, hogy közbeszólna, a szeme a tűzön. A végén bólint: minden út tanít, mondja, ha nyitott szemmel járod. Hagytad, hogy az út megváltoztasson, és ez látszik.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "A csend nem üres: az eső ütemet ad, a tűz válaszol, a másik lélegzete tartja a ritmust. Megérted, hogy vannak beszélgetések, amelyeknek nincs szükségük szavakra.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Hajnal felé a zivatar szelíd esővé vékonyodik. Tamás testvér a testvéréről, Ferencről beszél, aki a fájdalom ágyából is dicséreteket ír: testvérnek hívja a napot, nővérnek a vizet, anyának a földet, amely a méhében hordoz minket.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Azt mondja, minden teremtmény azzal dicséri a Teremtőt, hogy azt teszi, ami: a nap melegítve, a víz oltva a szomjat, a föld táplálva. És hogy a rossz nap is kapott, nem járó. Ha ismétlem, azért teszem, mert ma éjjel, itt, a saját szememmel láttam.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Az első fények beszűrődnek a barlangba.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Megkérdezed, hogyan lehet hálát adni, amikor minden rosszul megy.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Nem kérdezel semmit: a cseppeket nézed a leveleken, és ennyi.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Nem tudom megmagyarázni, testvér. Azt tudom, hogy a hála nem a jó napok jutalma: gyakorlat, mint a járás. Aki minden nap megteszi, a fekete napokon edzett lába van.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Nézitek, amíg a nap át nem töri a felhőket. A nedves levelek egyenként kigyulladnak, és az egész völgy mintha éppen most teremtetett volna.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Kiléptek a barlangból egy megmosott világba. A víz még zúg a lombokról, a nap megcsillantja, és azon kapod magad, hogy ok nélkül mosolyogsz. Tamás testvér felveszi a botját: az utatok itt válik el.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "A Naphimnusz, a barlang, a fikció",
+          "text": "A teremtmények éneke Ferenc hiteles műve, 1225–1226-ban keletkezett, a betegség időszakában: népnyelvű lauda, amelyben a nap, a hold, a szél, a víz, a tűz és a föld testvérként és nővérként dicséri Istent. Hitelesek a Magasságbeli Isten dicséretei is, egy kérés nélküli ima. Tamás testvér és az éjszaka a barlangban a Vándor fikciójához tartozik; a szavai a Naphimnuszt parafrazálják, anélkül hogy idéznék.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Felfedezted: Nap testvér, víz nővér. A világ nem nyersanyagraktár és nem bálvány: a Teremtőt dicsérő teremtmények családja. A teremtett világ gondja a rokonságból és a hálából születik, nem a haszonból.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Felfedezted: A dicséret, amely semmit sem kér. A hála nem a szerencsét jutalmazza: begyakorolt tekintet, amely mindenben felismeri az ajándékot, a vízben, a napban, a nappalban, még a betegségben is.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Ma éjjel kenyeret, tüzet és csendet osztottál meg egy idegennel. Nézd a mai napodat úgy, ahogy a barlang nézte a zivatart: mi az, amid van, ami kapott, és nem jár?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "A falu felé menet a víz nővérére gondolsz, aki oltja a szomjat, mos, és énekel az árkokban. Az emlékezet kertjében mától forrás csordogál.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "Tölgyfaluban úgy fogadnak, mint aki messziről tér vissza. A ruhádon még a füst és az eső szaga van, a füledben a víz hangja. Az út folytatódik.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

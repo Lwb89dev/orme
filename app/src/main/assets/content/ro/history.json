@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Nașterea la Assisi",
+      "description": "Giovanni di Pietro di Bernardone, numit Francisc, se naște la Assisi dintr-un bogat negustor de postavuri și din madonna Pica.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 sau 1182 (incert)",
+      "chronologicalUncertainty": "Sursele nu se pun de acord asupra anului: atât 1181, cât și 1182 sunt propuse de istoriografie.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Război și captivitate",
+      "description": "În războiul dintre Assisi și Perugia, Francisc luptă în bătălia de la Collestrada (noiembrie 1202), este luat prizonier și rămâne cam un an la Perugia. La întoarcere, o boală începe să-l schimbe.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202-1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Visul de la Spoleto și întoarcerea",
+      "description": "Plecat spre Puglia în căutarea gloriei militare, la Spoleto Francisc are un vis care îl face să se întoarcă la Assisi. Începe despărțirea de viața de dinainte: vise, rugăciune, pelerinaj la Roma.",
+      "yearFrom": 1205,
+      "dateLabel": "1204-1205 aproximativ",
+      "chronologicalUncertainty": "Reconstituirea acestor luni este scoasă din biografiile medievale; datele exacte sunt convenționale.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Întâlnirea cu leproșii",
+      "description": "Francisc povestește în Testament că Domnul l-a dus printre leproși și că „a făcut cu ei milostivire”: episodul pe care el însuși îl indică drept începutul convertirii sale.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "1205-1206 aproximativ",
+      "chronologicalUncertainty": "Testamentul nu dă o dată; așezarea în timp precede ruptura publică cu familia.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Crucifixul de la San Damiano",
+      "description": "În bisericuța ruinată de la San Damiano, potrivit tradiției, Francisc aude crucifixul adresându-i chemarea: „Repară casa mea”. La început o înțelege literal și restaurează biserici cu mâinile sale.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "1205-1206 aproximativ",
+      "chronologicalUncertainty": "Episod atestat mai ales de Vita secunda și de tradiția ulterioară; literalitatea dialogului ține de narațiunea devoțională.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Renunțarea dinaintea episcopului",
+      "description": "Chemat de tată înaintea episcopului Guido pentru bunurile vândute, Francisc le înapoiază pe toate, inclusiv hainele, și se încredințează „Tatălui care este în ceruri”. Episcopul îl acoperă cu propria mantie.",
+      "yearFrom": 1206,
+      "dateLabel": "începutul lui 1206",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Primii însoțitori",
+      "description": "Bernard de Quintavalle, Egidiu și alții i se alătură lui Francisc, împărtășindu-i forma de viață: se naște fraternitatea itinerantă, între muncă, milostenie și vestirea păcii.",
+      "yearFrom": 1208,
+      "dateLabel": "1208-1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Aprobarea lui Inocențiu al III-lea",
+      "description": "Francisc și însoțitorii merg la Roma; Inocențiu al III-lea le aprobă oral forma de viață evanghelică. Nu supraviețuiește niciun document al aprobării: tradiția o datează în 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (sau 1209)",
+      "chronologicalUncertainty": "Aprobarea a fost orală și niciun document nu a supraviețuit; anul exact (1209 sau 1210) este discutat.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Porziuncola, casa fraternității",
+      "description": "Micuța biserică Santa Maria degli Angeli, numită Porziuncola, devine locuința stabilă a fraternității: centru spiritual și afectiv al mișcării.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211-1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Fuga Clarei",
+      "description": "Clara Offreduccio părăsește casa părintească și îl ajunge pe Francisc la Porziuncola, în noaptea dintre Duminica Floriilor și lunea anului 1212: începe forma ei de viață, din care se vor naște Clarisele.",
+      "yearFrom": 1212,
+      "dateLabel": "18-19 martie 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Întâlnirea cu sultanul",
+      "description": "În timpul celei de-a cincea cruciade, Francisc trece liniile și îl întâlnește pe sultanul al-Malik al-Kamil la Damietta: un episod de dialog în timp de război, documentat de sursele franciscane și amintit de cronicari din afară.",
+      "yearFrom": 1219,
+      "dateLabel": "septembrie 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Regula nebullată",
+      "description": "La Fonte Colombo, lângă Rieti, este redactată prima regulă împlinită a fraternității (Regula non bullata), lungă și spirituală, niciodată aprobată formal.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Regula bullată",
+      "description": "Honoriu al III-lea aprobă prin bula „Solet annuere” regula definitivă (29 noiembrie 1223): mai scurtă și mai juridică, și astăzi temeiul Ordinului Fraților Minori.",
+      "yearFrom": 1223,
+      "dateLabel": "29 noiembrie 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Crăciunul de la Greccio",
+      "description": "La Crăciunul din 1223, Francisc pune să se pregătească la Greccio o iesle adevărată, cu fân, bou și măgăruș, ca să vadă „cu ochii trupului” sărăcia din Betleem: originea tradiției ieslei.",
+      "yearFrom": 1223,
+      "dateLabel": "Crăciunul 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "În septembrie 1224, retras pe muntele La Verna, Francisc primește — potrivit celor mai apropiate surse medievale — stigmatele pătimirii lui Hristos, pe care va încerca să le țină ascunse.",
+      "yearFrom": 1224,
+      "dateLabel": "septembrie 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Cântarea creaturilor",
+      "description": "Bolnav și aproape orb, Francisc compune în mai multe rânduri lauda în grai umbrian cunoscută drept Cântarea creaturilor: laudă adusă lui Dumnezeu prin fratele soare, sora apă, mama pământ și, la urmă, sora moarte trupească.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225-1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Lupul din Gubbio",
+      "description": "Fioretti povestesc că Francisc a mijlocit pacea între cetatea Gubbio și un lup fioros: cetatea avea să-l hrănească, lupul nu avea să mai facă rău. Relatare hagiografică, nu cronică.",
+      "yearFrom": 1220,
+      "dateLabel": "dată incertă",
+      "chronologicalUncertainty": "Episod al tradiției hagiografice din secolul al XIV-lea (Fioretti, cap. 21), fără confirmare documentară: îl propunem ca povestire a memoriei, nu ca fapt istoric.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Moartea la Porziuncola",
+      "description": "Francisc moare în seara de 3 octombrie 1226 la Porziuncola, după ce a dictat Testamentul și a cerut să fie așezat gol pe pământul gol.",
+      "yearFrom": 1226,
+      "dateLabel": "3 octombrie 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Canonizarea",
+      "description": "Grigore al IX-lea îl proclamă sfânt pe Francisc la Assisi, la 16 iulie 1228, la mai puțin de doi ani de la moarte, și îi încredințează lui Toma de Celano prima biografie oficială.",
+      "yearFrom": 1228,
+      "dateLabel": "16 iulie 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Francisc de Assisi",
+      "role": "Întemeietorul fraternității Minori",
+      "description": "Giovanni di Pietro di Bernardone (1181/82-1226). Negustor, apoi penitent itinerant, apoi întemeietor al unei fraternități care a schimbat istoria Bisericii. Canonizat în 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Clara de Assisi",
+      "role": "Întemeietoarea Clariselor",
+      "description": "Nobilă din Assisi (1193/94-1253), îl urmează pe Francisc în 1212 și întemeiază la San Damiano comunitatea „Doamnelor sărace”. Prima femeie care a scris o regulă religioasă aprobată.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernard de Quintavalle",
+      "role": "Primul însoțitor",
+      "description": "Bogat din Assisi, își împarte bunurile și devine primul însoțitor al lui Francisc (1208). A murit în 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Fratele Egidiu",
+      "role": "Printre primii însoțitori",
+      "description": "Țăran cult și mistic, al treilea însoțitor al lui Francisc; tradiția îi atribuie „Zicerile” sapiențiale.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Fratele Leon",
+      "role": "Duhovnic și însoțitor credincios",
+      "description": "Însoțitor al ultimilor ani, destinatarul scrisorii autografe a lui Francisc și martor la La Verna.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido al II-lea, episcop de Assisi",
+      "role": "Protectorul lui Francisc",
+      "description": "Episcop de Assisi din 1204; l-a acoperit cu mantia pe Francisc în scena renunțării și i-a susținut primii pași.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Tatăl lui Francisc",
+      "description": "Negustor de postavuri din Assisi; conflictul cu fiul pentru bunurile vândute a izbucnit în scena publică dinaintea episcopului.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pica",
+      "role": "Mama lui Francisc",
+      "description": "Tradiția o pomenește mai apropiată de fiu în criza convertirii; sursele despre ea sunt sărace.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Papa Inocențiu al III-lea",
+      "role": "Pontif (1198-1216)",
+      "description": "Printre cei mai influenți papi ai Evului Mediu; a aprobat oral forma de viață a lui Francisc, potrivit tradiției în 1210.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Papa Honoriu al III-lea",
+      "role": "Pontif (1216-1227)",
+      "description": "A aprobat Regula bullată în 1223 și a susținut tânăra fraternitate.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Sultan al Egiptului",
+      "description": "Sultan ayyubid care l-a întâlnit pe Francisc la Damietta în 1219, în timpul celei de-a cincea cruciade.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Toma de Celano",
+      "role": "Primul biograf",
+      "description": "Frate minor, a scris Vita prima (1228-29) la cererea lui Grigore al IX-lea și Vita secunda (1246-47), adunând mărturiile însoțitorilor.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventura de Bagnoregio",
+      "role": "Teolog și biograf",
+      "description": "Magistru universitar și ministru general al Ordinului; Legenda sa majoră (1260-63) a devenit biografia oficială a lui Francisc.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Cardinalul Ugolino (apoi Grigore al IX-lea)",
+      "role": "Protectorul Ordinului",
+      "description": "Cardinal protector al fraternității, apoi papă: l-a canonizat pe Francisc în 1228.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Fratele Elia de Cortona",
+      "role": "Succesor controversat",
+      "description": "Însoțitor și apoi călăuză a Ordinului după Francisc; figură discutată, semn al tensiunilor dintre carismă și instituție.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Cetatea natală a lui Francisc: piața, catedrala San Rufino, zidurile, ulițele medievale.",
+      "historicalNote": "Loc istoric real.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "Bisericuță în afara cetății Assisi, unde Francisc s-a rugat înaintea crucifixului; apoi locuința Clarei și a surorilor ei.",
+      "historicalNote": "Loc istoric real.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porziuncola (Sfânta Maria a Îngerilor)",
+      "description": "Mică biserică în câmpia de sub Assisi: locuința primei fraternități și locul morții lui Francisc.",
+      "historicalNote": "Loc istoric real; astăzi este cuprinsă în bazilica Santa Maria degli Angeli.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Colibă lângă pârâu, unde primii însoțitori au trăit forma itinerantă de viață.",
+      "historicalNote": "Loc istoric real; sanctuarul actual păstrează memoria așezării.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Schitul Carceri",
+      "description": "Schit pe muntele Subasio, printre ilice și grote: loc de retragere și rugăciune.",
+      "historicalNote": "Loc istoric real.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Cetate umbriană legată de povestirea lupului și de prezența lui Francisc în perioada eremitică.",
+      "historicalNote": "Loc istoric real; episodul lupului ține de tradiția hagiografică.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Târg din ținutul Rieti, unde Francisc a sărbătorit Crăciunul din 1223 cu ieslea vie.",
+      "historicalNote": "Loc istoric real.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Munte al Apeninilor toscani, dăruit lui Francisc; locul retragerii din 1224 și al stigmatelor, potrivit surselor medievale.",
+      "historicalNote": "Loc istoric real.",
+      "isHistoricalPlace": true,
+      "region": "Toscana"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Schit lângă Rieti, unde a fost redactată Regula nebullată din 1221.",
+      "historicalNote": "Loc istoric real.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "Cetate din delta Nilului, teatru al celei de-a cincea cruciade și al întâlnirii dintre Francisc și sultan (1219).",
+      "historicalNote": "Loc istoric real.",
+      "isHistoricalPlace": true,
+      "region": "Egipt"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Satul Stejarilor",
+      "description": "Târg imaginar din valea Spoleto: cadrul narativ principal al Drumețului.",
+      "historicalNote": "Cadru fictiv creat pentru joc; nu un loc istoric.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (imaginar)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Câmpiile și pădurile Umbriei",
+      "description": "Drumurile, pădurile de ilice și ogoarele dintre târguri: scenă itinerantă a povestirilor Drumețului.",
+      "historicalNote": "Cadru narativ inspirat din peisajul umbrian real.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (cadru)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiografie",
+      "definition": "Literatură a vieților sfinților: gen devoțional medieval care urmărește zidirea, nu cronica. Se citește cu alte instrumente decât istoria documentară."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Pocăință",
+      "definition": "În limbajul lui Francisc: convertirea inimii și a vieții, nu pedeapsă. „A face pocăință” însemna a schimba direcția."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Frate minor",
+      "definition": "Nume ales de Francisc pentru însoțitorii săi: „minori”, adică cei din urmă, fără pretenții de rang."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Ministru",
+      "definition": "În fraternitatea franciscană: responsabilul unei comunități sau al unei provincii. Cuvântul înseamnă „slujitor”."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Regulă",
+      "definition": "Textul care definește forma de viață a unei comunități religioase. Francisc a scris două versiuni: nebullată (1221) și bullată (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bulă",
+      "definition": "Document oficial al papei, de la sigiliul (bulla) de plumb care îl autentifică. „Regulă bullată” = regulă aprobată prin bulă."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Porziuncola",
+      "definition": "„Porțiune mică” de pământ: bisericuța Santa Maria degli Angeli de lângă Assisi, casa fraternității."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stigmate",
+      "definition": "Semnele pătimirii lui Hristos, pe care sursele medievale i le atribuie lui Francisc după retragerea la La Verna (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Expresie latină a tradiției: „fără nimic al său”, forma franciscană a sărăciei."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Laudă",
+      "definition": "Compoziție poetică religioasă în grai vernacular, destinată cântului. Cântarea creaturilor este o laudă."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Comună",
+      "definition": "Forma de autoguvernare orășenească a Italiei medievale: Assisi-ul lui Francisc era o comună în creștere și în conflict cu Perugia și cu puterea feudală."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Capitlu",
+      "definition": "Adunare periodică a unei fraternități religioase; și „capitlu general” pentru cea a întregului Ordin."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Leprozerie",
+      "definition": "Spital-lazaret medieval pentru leproși, în afara zidurilor cetății. Locul întâlnirii hotărâtoare a lui Francisc."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Milostenie",
+      "definition": "Dar cerut sau primit ca să trăiești. Pentru primii frați era semn de încredere în Providență, nu umilință."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Fiul negustorului (1181/82 - 1202)",
+      "text": "Francisc se naște la Assisi din Pietro di Bernardone, bogat negustor de postavuri, și din madonna Pica. Crește în cetatea aflată în plină expansiune comunală: tânăr strălucit, generos, iubitor de petreceri și de truverii francezi, visează gloria cavalerească. În 1202 luptă împotriva Perugiei la Collestrada; înfrângerea și un an de captivitate marchează sfârșitul spectaculos al primei sale vieți.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Cotitura (1202 - 1206)",
+      "text": "Boala de după captivitate, visul de la Spoleto, pelerinajul la Roma, unde își schimbă hainele cu un cerșetor: Francisc caută o direcție nouă. Apoi episodul pe care el însuși îl va indica drept începutul: întâlnirea cu leproșii, unde „ceea ce mi se părea amar s-a prefăcut în dulceață”. La San Damiano, înaintea crucifixului, aude chemarea de a repara „casa” lui Dumnezeu. Vinde postavurile și calul tatălui ca să restaureze bisericuța; conflictul izbucnește înaintea episcopului, unde le înapoiază pe toate.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "„Repară casa mea” (1206 - 1209)",
+      "text": "Singur, îmbrăcat ca penitent, Francisc restaurează piatră cu piatră San Damiano, San Pietro și Porziuncola, slujind în leprozerii. Cetatea mai întâi îl batjocorește, apoi începe să-l privească. Ascultând Evanghelia, înțelege chemarea: a vesti pacea, a trăi fără nimic al său, în itineranță. Proiectul se arată mai mare decât restaurarea a trei biserici: a repara însăși Biserica, de jos.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Fraternitatea (1209 - 1219)",
+      "text": "Bernard de Quintavalle, Egidiu și ceilalți: primii însoțitori împărtășesc forma de viață, iar în 1210 (sau 1209) Inocențiu al III-lea o aprobă oral. Porziuncola devine casă. În 1212, Clara de Assisi fuge noaptea ca să urmeze aceeași chemare. Fraternitatea crește peste orice așteptare, cu capitluri anuale și misiuni în toată Europa: apar problemele numerelor mari.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Spre Răsărit (1219 - 1220)",
+      "text": "În plină a cincea cruciadă, Francisc ajunge în tabăra cruciaților la Damietta, trece liniile și îl întâlnește pe sultanul al-Malik al-Kamil. Sursele medievale descriu respectul reciproc; istoriografia modernă discută detaliile, dar gestul rămâne: în timp de război, a merge în întâmpinare. La întoarcere găsește fraternitatea schimbată și în dificultate: dimensiunile cer structuri de care lui îi este teamă.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Truda de a crește (1220 - 1223)",
+      "text": "Francisc lasă călăuzirea zilnică a Ordinului și se dedică regulii scrise: cea din 1221, lungă și liberă, nu va fi aprobată; cea din 1223, mai scurtă și mai juridică, primește bula lui Honoriu al III-lea. Tensiunea dintre carismă și instituție străbate acești ani: Francisc o trăiește în fidelitate și în suferință. La Greccio, de Crăciunul 1223, face să se vadă sărăcia din Betleem cu o iesle adevărată.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Cântarea și seara (1224 - 1226)",
+      "text": "La La Verna, în septembrie 1224, sursele povestesc stigmatele. Bolnav și aproape orb, la San Damiano compune Cântarea creaturilor: lauda se naște în anotimpul cel mai întunecat. Adaugă strofa iertării ca să-i împace pe episcop și pe podestà și, la urmă, pe cea a „sorei moarte trupești”. După ce dictează Testamentul, moare la Porziuncola în seara de 3 octombrie 1226, gol pe pământul gol. Doi ani mai târziu, Grigore al IX-lea îl proclamă sfânt.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

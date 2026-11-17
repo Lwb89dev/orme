@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Cărarea de piatră",
+      "kind": "sentiero",
+      "description": "O cărare de pietre deschise la culoare străbate grădina: locul din care începe orice drum.",
+      "symbolism": "Drumul ca imagine a vieții: se face cale mergând, piatră cu piatră.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Măslinul păcii",
+      "kind": "albero",
+      "description": "Un măslin bătrân, cu coroană argintie, sădit când ai descoperit salutul păcii.",
+      "symbolism": "Măslinul: plantă mediteraneană a păcii și a răbdării. Crește încet și dăinuie generații.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Fântâna surorii apă",
+      "kind": "acqua",
+      "description": "O fântână de piatră, cu apă limpede, pe care soarele o aprinde dimineața.",
+      "symbolism": "„Sora apă, folositoare și smerită și prețioasă și curată”: în Cântare, apa este o soră căreia i se aduc mulțumiri.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Trandafirii de la San Damiano",
+      "kind": "fiore",
+      "description": "Un tufiș de trandafiri înflorit lângă zid: crește acolo unde cineva a avut grijă de ceilalți.",
+      "symbolism": "Frumusețea care se naște din slujire: caritatea face să înflorească locurile aride.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Grădina de zarzavat împărtășită",
+      "kind": "orto",
+      "description": "Straturi mici de ierburi și legume, îngrijite pe rând: munca smerită care îi hrănește pe toți.",
+      "symbolism": "Slujirea de fiecare zi: cine cultivă grădina nu o stăpânește, o păzește pentru cel care va veni.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Chiparosul tăcerii",
+      "kind": "albero",
+      "description": "Un chiparos înalt și drept, care marchează hotarul dintre grădină și pădure.",
+      "symbolism": "Rugăciunea ca verticală: rădăcini în pământ, vârful spre cer.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Cuibul cintezelor",
+      "kind": "animali",
+      "description": "Printre ramurile cele mai ferite, o pereche de cinteze a ales grădina ca să-și facă cuibul.",
+      "symbolism": "Primirea: grădina devine casă și pentru cine vine din afară.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Banca de piatră",
+      "kind": "struttura",
+      "description": "O bancă de piatră sub zid, la amiază: locul unde te așezi și rămâi.",
+      "symbolism": "Credința ca popas încrezător: nu mereu să mergi, uneori pur și simplu să stai.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Floarea-soarelui a mulțumirii",
+      "kind": "fiore",
+      "description": "Un rând de floarea-soarelui care se întorc urmând lumina de-a lungul zilei.",
+      "symbolism": "Recunoștința: a te întoarce spre lumină este un exercițiu zilnic al privirii.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Stupul albinelor",
+      "kind": "animali",
+      "description": "Un stup de lemn miroase a ceară; albinele vin și pleacă de la florile grădinii.",
+      "symbolism": "Fraternitatea: nicio albină nu face miere singură, și niciuna nu stăpânește fagurele.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "A privi cerul",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Ridică privirea din grădină spre cer. Rămâi câteva clipe în tăcere, fără să faci nimic."
+        },
+        {
+          "kind": "leggi",
+          "text": "Citește încet deschiderea Cântării creaturilor.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Francisc îl numește pe soare „frate” și luna „soră”. Ce diferență ar face să privești lumea ca pe o familie, nu ca pe o resursă?"
+        },
+        {
+          "kind": "annota",
+          "text": "Dacă vrei, notează în jurnal un lucru pentru care astăzi poți spune: „Lăudat să fii, Domnul meu”."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "A asculta apa",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Apropie-te de fântână. Ascultă sunetul apei câteva respirații, fără grabă."
+        },
+        {
+          "kind": "leggi",
+          "text": "Recitește lauda lui Dumnezeu scrisă la La Verna: o rugăciune care nu cere nimic.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Laudele lui Dumnezeu nu conțin cereri: doar recunoaștere. Când ai mulțumit ultima dată fără să ceri nimic?"
+        },
+        {
+          "kind": "annota",
+          "text": "Dacă vrei, scrie în jurnal trei lucruri primite astăzi, fie și mici."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Pasul lent",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Parcurge cărarea de piatră încet, luând aminte la fiecare pas: greutatea, contactul, ritmul."
+        },
+        {
+          "kind": "leggi",
+          "text": "Citește răspunsul lui Francisc către fratele Leon, care căuta alegerea cea bună.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Fratelui Leon, Francisc nu-i dă instrucțiuni, ci libertate: „urmează-ți conștiința înaintea lui Dumnezeu”. Ce te învață acest fel de a însoți pe cineva?"
+        },
+        {
+          "kind": "annota",
+          "text": "Dacă vrei, notează în jurnal o hotărâre pe care o porți și încotro simți că ți se îndreaptă conștiința."
+        }
+      ]
+    }
+  ]
+}

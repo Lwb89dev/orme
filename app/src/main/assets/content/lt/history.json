@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Gimimas Asyžiuje",
+      "description": "Giovanni di Pietro di Bernardone, vadinamas Pranciškumi, gimsta Asyžiuje turtingam audinių pirkliui ir poniai Pikai.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 arba 1182 (neaišku)",
+      "chronologicalUncertainty": "Šaltiniai nesutaria dėl metų: istoriografija siūlo ir 1181, ir 1182.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Karas ir nelaisvė",
+      "description": "Kare tarp Asyžiaus ir Perudžos Pranciškus kaunasi Collestrados mūšyje (1202 m. lapkritis), paimamas į nelaisvę ir apie metus lieka Perudžoje. Grįžus liga ima jį keisti.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202-1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Spoleto sapnas ir sugrįžimas",
+      "description": "Išvykęs į Apuliją ieškoti karinės šlovės, Spolete Pranciškus sapnuoja sapną, kuris jį grąžina į Asyžių. Prasideda atsiskyrimas nuo ankstesnio gyvenimo: sapnai, malda, piligrimystė į Romą.",
+      "yearFrom": 1205,
+      "dateLabel": "apie 1204–1205",
+      "chronologicalUncertainty": "Šių mėnesių atkūrimas paimtas iš viduramžių biografijų; tikslios datos yra sutartinės.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Susitikimas su raupsuotaisiais",
+      "description": "Testamente Pranciškus pasakoja, kad Viešpats jį nuvedė tarp raupsuotųjų ir kad jis „darė jiems gailestingumą“: epizodą, kurį jis pats nurodo kaip savo atsivertimo pradžią.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "apie 1205–1206",
+      "chronologicalUncertainty": "Testamentas datos neduoda; įvykis dedamas prieš viešą lūžį su šeima.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Šv. Damijono kryžius",
+      "description": "Sugriuvusioje Šv. Damijono bažnytėlėje, pasak tradicijos, Pranciškus girdi kryžių, kreipiantį kvietimą: „Atstatyk mano namus“. Iš pradžių jis supranta tai pažodžiui ir savo rankomis restauruoja bažnyčias.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "apie 1205–1206",
+      "chronologicalUncertainty": "Epizodą daugiausia liudija Antrasis gyvenimas ir vėlesnė tradicija; pažodinis dialogas priklauso pamaldumo pasakojimui.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Atsižadėjimas vyskupo akivaizdoje",
+      "description": "Tėvo pašauktas pas vyskupą Gvidą dėl parduotų gėrybių, Pranciškus grąžina viską, įskaitant drabužius, ir paveda save „Tėvui, kuris yra danguje“. Vyskupas jį apgaubia savo apsiaustu.",
+      "yearFrom": 1206,
+      "dateLabel": "1206 m. pradžia",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Pirmieji bendražygiai",
+      "description": "Kvintavalės Bernardas, Egidijus ir kiti prisijungia prie Pranciškaus dalydamiesi jo gyvenimo forma: gimsta keliaujanti brolystė tarp darbo, išmaldos ir taikos skelbimo.",
+      "yearFrom": 1208,
+      "dateLabel": "1208-1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Inocento III pritarimas",
+      "description": "Pranciškus ir bendražygiai vyksta į Romą; Inocentas III žodžiu pritaria jų evangelinei gyvenimo formai. Joks pritarimo dokumentas neišliko: tradicija jį datuoja 1210 metais.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (arba 1209)",
+      "chronologicalUncertainty": "Pritarimas buvo žodinis ir joks dokumentas neišliko; tikslūs metai (1209 ar 1210) ginčijami.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Porciunkulė, brolystės namai",
+      "description": "Maža Švč. Angelų Marijos bažnyčia, vadinama Porciunkule, tampa pastovia brolystės buveine: dvasiniu ir širdies judėjimo centru.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211-1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Klaros pabėgimas",
+      "description": "Klara Ofreducijo palieka tėvo namus ir pasiekia Pranciškų Porciunkulėje naktį tarp Verbų sekmadienio ir 1212 metų pirmadienio: prasideda jos gyvenimo forma, iš kurios kils klarisės.",
+      "yearFrom": 1212,
+      "dateLabel": "1212 m. kovo 18–19",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Susitikimas su sultonu",
+      "description": "Per penktąjį kryžiaus žygį Pranciškus pereina fronto linijas ir Damietoje susitinka sultoną al-Maliką al-Kamilį: dialogo epizodas karo metu, paliudytas pranciškonų šaltinių ir minimas išorės kronikininkų.",
+      "yearFrom": 1219,
+      "dateLabel": "1219 m. rugsėjis",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Nepatvirtintoji Regula",
+      "description": "Fonte Kolombe, prie Riečio, surašoma pirmoji išsami brolystės regula (Regula non bullata), ilga ir dvasinga, niekada formaliai nepatvirtinta.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Patvirtintoji Regula",
+      "description": "Honorijus III bule „Solet annuere“ patvirtina galutinę regulą (1223 m. lapkričio 29 d.): trumpesnę ir juridiškesnę, iki šiol sudarančią Mažesniųjų brolių ordino pagrindą.",
+      "yearFrom": 1223,
+      "dateLabel": "1223 m. lapkričio 29",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Greccio Kalėdos",
+      "description": "1223 metų Kalėdoms Pranciškus Greccio liepia paruošti tikras ėdžias su šienu, jaučiu ir asiliuku, kad „kūno akimis“ pamatytų Betliejaus neturtą: prakartėlės tradicijos pradžia.",
+      "yearFrom": 1223,
+      "dateLabel": "1223 m. Kalėdos",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "1224 metų rugsėjį, atsiskyręs La Vernos kalne, Pranciškus – pasak artimiausių viduramžių šaltinių – gauna Kristaus kančios stigmas, kurias stengsis slėpti.",
+      "yearFrom": 1224,
+      "dateLabel": "1224 m. rugsėjis",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Kūrinijos giesmė",
+      "description": "Sergantis ir beveik aklas Pranciškus keliais tarpsniais sukuria umbriškosios liaudies kalbos giesmę, žinomą kaip Kūrinijos giesmė: gyrių Dievui per brolį saulę, seserį vandenį, motiną žemę ir galiausiai seserį kūno mirtį.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225-1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Gubijo vilkas",
+      "description": "Fioretti pasakoja, kad Pranciškus tarpininkavo taikai tarp Gubijo miesto ir nuožmaus vilko: miestas jį maitintų, vilkas daugiau nedarytų žalos. Hagiografinis pasakojimas, ne kronika.",
+      "yearFrom": 1220,
+      "dateLabel": "data neaiški",
+      "chronologicalUncertainty": "XIV amžiaus hagiografinės tradicijos epizodas (Fioretti, 21 sk.), be dokumentinio atitikmens: jį pateikiame kaip atminties pasakojimą, ne kaip istorinį faktą.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Mirtis Porciunkulėje",
+      "description": "Pranciškus miršta 1226 m. spalio 3 d. vakarą Porciunkulėje, padiktavęs Testamentą ir paprašęs būti paguldytas nuogas ant nuogos žemės.",
+      "yearFrom": 1226,
+      "dateLabel": "1226 m. spalio 3",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Kanonizacija",
+      "description": "Grigalius IX paskelbia Pranciškų šventuoju Asyžiuje 1228 m. liepos 16 d., mažiau nei dveji metai po mirties, ir paveda Celano Tomui parašyti pirmąją oficialią biografiją.",
+      "yearFrom": 1228,
+      "dateLabel": "1228 m. liepos 16",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Asyžiaus Pranciškus",
+      "role": "Mažesniųjų brolystės steigėjas",
+      "description": "Giovanni di Pietro di Bernardone (1181/82–1226). Pirklys, paskui keliaujantis atgailautojas, paskui brolystės, pakeitusios Bažnyčios istoriją, steigėjas. Kanonizuotas 1228 metais.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Asyžiaus Klara",
+      "role": "Klarisių steigėja",
+      "description": "Asyžiaus kilmingoji (1193/94–1253), 1212 metais seka Pranciškų ir Šv. Damijone įkuria „Vargdienių ponių“ bendruomenę. Pirmoji moteris, parašiusi patvirtintą vienuolijos regulą.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Kvintavalės Bernardas",
+      "role": "Pirmasis bendražygis",
+      "description": "Asyžiaus turtuolis, išdalija savo gėrybes ir tampa pirmuoju Pranciškaus bendražygiu (1208). Mirė 1241 metais.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Brolis Egidijus",
+      "role": "Tarp pirmųjų bendražygių",
+      "description": "Išprusęs valstietis ir mistikas, trečiasis Pranciškaus bendražygis; tradicija jam priskiria išminties „Posakius“.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Brolis Leonas",
+      "role": "Nuodėmklausys ir ištikimas bendražygis",
+      "description": "Paskutiniųjų metų bendražygis, Pranciškaus autografo laiško adresatas ir La Vernos liudytojas.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Gvidas II, Asyžiaus vyskupas",
+      "role": "Pranciškaus globėjas",
+      "description": "Asyžiaus vyskupas nuo 1204 metų; atsižadėjimo scenoje apsiaustu apgaubė Pranciškų ir rėmė pirmuosius jo žingsnius.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Pranciškaus tėvas",
+      "description": "Asyžiaus audinių pirklys; konfliktas su sūnumi dėl parduotų gėrybių išsiliejo į viešą sceną vyskupo akivaizdoje.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pica",
+      "role": "Pranciškaus motina",
+      "description": "Tradicija ją mini artimesnę sūnui atsivertimo krizėje; šaltinių apie ją maža.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Popiežius Inocentas III",
+      "role": "Popiežius (1198–1216)",
+      "description": "Vienas įtakingiausių viduramžių popiežių; žodžiu pritarė Pranciškaus gyvenimo formai, pasak tradicijos, 1210 metais.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Popiežius Honorijus III",
+      "role": "Popiežius (1216–1227)",
+      "description": "1223 metais patvirtino patvirtintąją Regulą ir rėmė jauną brolystę.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Egipto sultonas",
+      "description": "Ajubidų sultonas, 1219 metais Damietoje, per penktąjį kryžiaus žygį, susitikęs Pranciškų.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Celano Tomas",
+      "role": "Pirmasis biografas",
+      "description": "Mažesnysis brolis, Grigaliaus IX pavedimu parašė Pirmąjį gyvenimą (1228–29) ir Antrąjį gyvenimą (1246–47), surinkęs bendražygių liudijimus.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Banjoredžo Bonaventūra",
+      "role": "Teologas ir biografas",
+      "description": "Universiteto magistras ir Ordino generalinis ministras; jo Didžioji legenda (1260–63) tapo oficialia Pranciškaus biografija.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardinolas Hugolinas (vėliau Grigalius IX)",
+      "role": "Ordino globėjas",
+      "description": "Brolystės globėjas kardinolas, vėliau popiežius: 1228 metais kanonizavo Pranciškų.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Brolis Elijas iš Kortonos",
+      "role": "Prieštaringas įpėdinis",
+      "description": "Bendražygis, o paskui Ordino vadovas po Pranciškaus; ginčijama figūra, charizmos ir institucijos įtampų ženklas.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Asyžius",
+      "description": "Pranciškaus gimtasis miestas: aikštė, Šv. Rufino katedra, sienos, viduramžių skersgatviai.",
+      "historicalNote": "Tikra istorinė vieta.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "Šv. Damijonas",
+      "description": "Bažnytėlė už Asyžiaus, kur Pranciškus meldėsi prieš kryžių; vėliau Klaros ir jos seserų buveinė.",
+      "historicalNote": "Tikra istorinė vieta.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porciunkulė (Švč. Angelų Marija)",
+      "description": "Maža bažnyčia lygumoje po Asyžiumi: pirmosios brolystės buveinė ir Pranciškaus mirties vieta.",
+      "historicalNote": "Tikra istorinė vieta; šiandien įtraukta į Švč. Angelų Marijos baziliką.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotortas",
+      "description": "Trobelė prie upelio, kur pirmieji bendražygiai gyveno keliaujančią gyvenimo formą.",
+      "historicalNote": "Tikra istorinė vieta; dabartinė šventovė saugo įsikūrimo atminimą.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Karcerių eremas",
+      "description": "Eremas Subazijaus kalne, tarp akmeninių ąžuolų ir olų: atsiskyrimo ir maldos vieta.",
+      "historicalNote": "Tikra istorinė vieta.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubijas",
+      "description": "Umbrijos miestas, susijęs su vilko pasakojimu ir Pranciškaus buvimu atsiskyrėliškuoju laikotarpiu.",
+      "historicalNote": "Tikra istorinė vieta; vilko epizodas priklauso hagiografinei tradicijai.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Riečio krašto miestelis, kur Pranciškus 1223 metų Kalėdas šventė su gyva prakartėle.",
+      "historicalNote": "Tikra istorinė vieta.",
+      "isHistoricalPlace": true,
+      "region": "Lacijus"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Toskanos Apeninų kalnas, padovanotas Pranciškui; 1224 metų atsiskyrimo ir, pasak viduramžių šaltinių, stigmų vieta.",
+      "historicalNote": "Tikra istorinė vieta.",
+      "isHistoricalPlace": true,
+      "region": "Toskana"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Eremas prie Riečio, kur 1221 metais buvo surašyta nepatvirtintoji Regula.",
+      "historicalNote": "Tikra istorinė vieta.",
+      "isHistoricalPlace": true,
+      "region": "Lacijus"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damieta",
+      "description": "Nilo deltos miestas, penktojo kryžiaus žygio ir Pranciškaus susitikimo su sultonu (1219) vieta.",
+      "historicalNote": "Tikra istorinė vieta.",
+      "isHistoricalPlace": true,
+      "region": "Egiptas"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Ąžuolų miestelis",
+      "description": "Išgalvotas Spoleto slėnio miestelis: pagrindinė Keleivio pasakojimo aplinka.",
+      "historicalNote": "Žaidimui sukurta pramanyta aplinka; ne istorinė vieta.",
+      "isHistoricalPlace": false,
+      "region": "Umbrija (išgalvota)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbrijos laukai ir miškai",
+      "description": "Keliai, akmeninių ąžuolų miškai ir laukai tarp miestelių: keliaujanti Keleivio istorijų scena.",
+      "historicalNote": "Pasakojimo aplinka, įkvėpta tikro Umbrijos kraštovaizdžio.",
+      "isHistoricalPlace": false,
+      "region": "Umbrija (aplinka)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiografija",
+      "definition": "Šventųjų gyvenimų literatūra: viduramžių pamaldumo žanras, siekiantis ugdyti, ne kronikuoti. Ją reikia skaityti kitais įrankiais nei dokumentuotą istoriją."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Atgaila",
+      "definition": "Pranciškaus kalboje: širdies ir gyvenimo atsivertimas, ne bausmė. „Daryti atgailą“ reiškė pakeisti kryptį."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Mažesnysis brolis",
+      "definition": "Vardas, kurį Pranciškus pasirinko savo bendražygiams: „mažesnieji“, tai yra paskutinieji, be pretenzijų į luomą."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Ministras",
+      "definition": "Pranciškonų brolystėje: bendruomenės ar provincijos atsakingasis. Žodis reiškia „tarnas“."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Regula",
+      "definition": "Tekstas, apibrėžiantis religinės bendruomenės gyvenimo formą. Pranciškus parašė dvi versijas: nepatvirtintąją (1221) ir patvirtintąją (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bulė",
+      "definition": "Oficialus popiežiaus dokumentas, nuo švininio antspaudo (bulla), kuris jį patvirtina. „Patvirtintoji Regula“ = bule patvirtinta regula."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Porciunkulė",
+      "definition": "„Maža žemės dalis“: Švč. Angelų Marijos bažnytėlė prie Asyžiaus, brolystės namai."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stigmos",
+      "definition": "Kristaus kančios ženklai, kuriuos viduramžių šaltiniai priskiria Pranciškui po atsiskyrimo La Vernoje (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Lotyniška tradicijos išraiška: „be nieko sava“, pranciškoniška neturto forma."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lauda",
+      "definition": "Religinis poetinis kūrinys liaudies kalba, skirtas giedoti. Kūrinijos giesmė yra lauda."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Komuna",
+      "definition": "Viduramžių Italijos miesto savivaldos darinys: Pranciškaus Asyžius buvo auganti komuna, konflikte su Perudža ir feodaline valdžia."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Kapitula",
+      "definition": "Periodinis religinės brolystės susirinkimas; taip pat „generalinė kapitula“ – viso Ordino."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Leprozoriumas",
+      "definition": "Viduramžių ligoninė-lazaretas raupsuotiesiems, už miesto sienų. Lemiamos Pranciškaus susitikimo vieta."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Išmalda",
+      "definition": "Dovana, prašoma ar gaunama pragyvenimui. Pirmiesiems broliams tai buvo pasitikėjimo Apvaizda ženklas, ne pažeminimas."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Pirklio sūnus (1181/82–1202)",
+      "text": "Pranciškus gimsta Asyžiuje Pietro di Bernardone, turtingam audinių pirkliui, ir poniai Pikai. Auga mieste, išgyvenančiame komunų plėtrą: šviesus, dosnus jaunuolis, mėgstantis šventes ir prancūzų truverus, svajoja apie riterių šlovę. 1202 metais kaunasi prieš Perudžą prie Collestrados; pralaimėjimas ir metai nelaisvės įspūdingai užbaigia pirmąjį jo gyvenimą.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Lūžis (1202–1206)",
+      "text": "Liga po nelaisvės, Spoleto sapnas, piligrimystė į Romą, kur jis apsikeičia drabužiais su elgeta: Pranciškus ieško naujos krypties. Paskui epizodas, kurį jis pats nurodys kaip pradžią: susitikimas su raupsuotaisiais, kur „tai, kas man atrodė karti, virto saldumu“. Šv. Damijone, prieš kryžių, jis girdi kvietimą atstatyti Dievo „namus“. Parduoda tėvo audinius ir arklį, kad restauruotų bažnytėlę; konfliktas sprogsta vyskupo akivaizdoje, kur jis grąžina viską.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "„Atstatyk mano namus“ (1206–1209)",
+      "text": "Vienas, apsivilkęs atgailautojo drabužiu, Pranciškus akmuo po akmens restauruoja Šv. Damijoną, Šv. Petrą ir Porciunkulę, tarnaudamas leprozoriumuose. Miestas iš pradžių iš jo šaiposi, paskui ima į jį žiūrėti. Klausydamas Evangelijos jis supranta pašaukimą: skelbti taiką, gyventi be nieko sava, kelyje. Sumanymas pasirodo didesnis už trijų bažnyčių remontą: atstatyti pačią Bažnyčią iš apačios.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Brolystė (1209–1219)",
+      "text": "Kvintavalės Bernardas, Egidijus ir kiti: pirmieji bendražygiai dalijasi gyvenimo forma, ir 1210 (arba 1209) Inocentas III jai žodžiu pritaria. Porciunkulė tampa namais. 1212 metais Asyžiaus Klara naktį pabėga, kad sektų tuo pačiu pašaukimu. Brolystė išauga labiau, nei kas tikėjosi, su kasmetinėmis kapitulumis ir misijomis po visą Europą: kyla didelių skaičių problemos.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Į Rytus (1219–1220)",
+      "text": "Įkarštyje penktojo kryžiaus žygio Pranciškus pasiekia kryžiuočių stovyklą Damietoje, pereina linijas ir susitinka sultoną al-Maliką al-Kamilį. Viduramžių šaltiniai aprašo abipusę pagarbą; šiuolaikinė istoriografija ginčija smulkmenas, bet gestas lieka: karo metu eiti priešais. Grįžęs randa brolystę pasikeitusią ir sunkume: mastas reikalauja sandaros, kurios jis bijo.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Augimo vargas (1220–1223)",
+      "text": "Pranciškus palieka kasdienį Ordino vadovavimą ir atsiduoda rašytinei regulai: 1221 metų, ilgoji ir laisvoji, nebus patvirtinta; 1223 metų, trumpesnioji ir juridiškoji, gauna Honorijaus III bulę. Įtampa tarp charizmos ir institucijos eina per šiuos metus: Pranciškus ją gyvena ištikimybe ir kančia. Greccio, 1223 metų Kalėdomis, jis parodo Betliejaus neturtą tikromis ėdžiomis.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Giesmė ir vakaras (1224–1226)",
+      "text": "La Vernoje, 1224 metų rugsėjį, šaltiniai pasakoja stigmas. Sergantis ir beveik aklas, Šv. Damijone jis sukuria Kūrinijos giesmę: gyrius gimsta tamsiausią metą. Prideda atleidimo strofą, kad sutaikytų vyskupą ir podestą, ir galiausiai „sesers kūno mirties“ strofą. Padiktavęs Testamentą, miršta Porciunkulėje 1226 m. spalio 3 d. vakarą, nuogas ant nuogos žemės. Po dvejų metų Grigalius IX jį paskelbia šventuoju.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

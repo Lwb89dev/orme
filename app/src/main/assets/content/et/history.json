@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Sünd Assisis",
+      "description": "Giovanni di Pietro di Bernardone, hüüdnimega Franciscus, sünnib Assisis jõuka kangakaupmehe ja madonna Pica perre.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 või 1182 (ebakindel)",
+      "chronologicalUncertainty": "Allikad ei ole aasta osas ühel meelel: ajaloolased pakuvad nii 1181 kui 1182.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Sõda ja vangipõlv",
+      "description": "Assisi ja Perugia sõjas võitleb Franciscus Collestrada lahingus (november 1202), langeb vangi ja jääb Perugiasse umbes aastaks. Tagasi tulles hakkab haigus teda muutma.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Unenägu Spoletos ja tagasipöördumine",
+      "description": "Sõjalist au otsides Apuulia poole teele asunud Franciscus näeb Spoletos und, mis saadab ta Assisisse tagasi. Ta hakkab endist elu lahti laskma: unenäod, palve ja palverännak Rooma.",
+      "yearFrom": 1205,
+      "dateLabel": "umbes 1204–1205",
+      "chronologicalUncertainty": "Nende kuude rekonstruktsioon pärineb keskaegsetest elulugudest; täpsed daatumid on kokkuleppelised.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Kohtumine pidalitõbistega",
+      "description": "Testamendis jutustab Franciscus, kuidas Issand viis ta pidalitõbiste sekka ja kuidas ta „osutas neile halastust“: see on episood, mida ta ise nimetab oma pöördumise alguseks.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "umbes 1205–1206",
+      "chronologicalUncertainty": "Testament ei anna daatumit; sündmus eelneb avalikule katkestusele perekonnaga.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "San Damiano krutsifiks",
+      "description": "San Damiano varemeis väikeses kirikus kuuleb Franciscus traditsiooni järgi, kuidas krutsifiks pöördub tema poole: „Paranda minu koda.“ Algul mõistab ta seda sõna-sõnalt ja taastab kirikuid oma kätega.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "umbes 1205–1206",
+      "chronologicalUncertainty": "Episoodi tunnistab peamiselt Teine elulugu ja hilisem traditsioon; sõnasõnaline dialoog kuulub pühendumuslikku jutustusse.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Lahtiütlemine piiskopi ees",
+      "description": "Isa toob ta piiskop Guido ette müüdud kaupade pärast. Franciscus annab kõik tagasi, isegi riided, ja usaldab end „Isa“ hoolde, „kes on taevas“. Piiskop katab ta oma mantliga.",
+      "yearFrom": 1206,
+      "dateLabel": "1206. aasta algus",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Esimesed kaaslased",
+      "description": "Quintavalle Bernardo, Egidio ja teised ühinevad Franciscusega, jagades tema eluvormi: rändav vendlus töö, almuse ja rahu kuulutamise keskel.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Innocentius III heakskiit",
+      "description": "Franciscus ja tema kaaslased lähevad Rooma; Innocentius III annab nende evangeelsele eluvormile suulise heakskiidu. Heakskiidu dokumenti ei ole säilinud: traditsioon dateerib selle 1210. aastasse.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (või 1209)",
+      "chronologicalUncertainty": "Heakskiit oli suuline ja dokumenti ei ole säilinud; täpne aasta (1209 või 1210) on vaieldav.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Porziuncola, vendluse kodu",
+      "description": "Ingelte Püha Maarja väike kirik, mida kutsutakse Porziuncolaks, saab vendluse püsivaks koduks: liikumise vaimulikuks ja südamlikuks keskuseks.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Clara põgenemine",
+      "description": "Clara Offreduccio lahkub isa majast ja jõuab 1212. aasta palmipuudepühapäeva ja esmaspäeva vahelisel ööl Porziuncolas Franciscuse juurde: algab tema eluvorm, millest kasvavad klarissid.",
+      "yearFrom": 1212,
+      "dateLabel": "18.–19. märts 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Kohtumine sultaniga",
+      "description": "Viienda ristisõja ajal ületab Franciscus rindejoone ja kohtub Damiettas sultan al-Malik al-Kamiliga: dialoogi kohtumine sõja ajal, mida dokumenteerivad frantsisklikud allikad ja mida mäletavad ka välised kroonikud.",
+      "yearFrom": 1219,
+      "dateLabel": "september 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Kinnitamata reegel",
+      "description": "Fonte Colombos, Rieti lähedal, koostatakse vendluse esimene täielik reegel (Regula non bullata): pikk ja vaimulik, seda ei kinnitata kunagi ametlikult.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Kinnitatud reegel",
+      "description": "Honorius III kinnitab lõpliku reegli bullaga „Solet annuere“ (29. november 1223): lühem ja juriidiline, see jääb Väiksemate Vendade Ordu aluseks.",
+      "yearFrom": 1223,
+      "dateLabel": "29. november 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Jõulud Greccio",
+      "description": "1223. aasta jõuludel laseb Franciscus Greccio valmistada tõelise sõime heina, härja ja eesliga, et näha Petlemma vaesust „ihu silmadega“: jõulusõime traditsiooni algus.",
+      "yearFrom": 1223,
+      "dateLabel": "jõulud 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "1224. aasta septembris, La Verna mäele tõmbununa, saab Franciscus — lähimate keskaegsete allikate järgi — Kristuse kannatuse stigmad, mida ta püüab varjata.",
+      "yearFrom": 1224,
+      "dateLabel": "september 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Loodute laul",
+      "description": "Haige ja peaaegu pime Franciscus koostab järk-järgult umbria rahvakeelse hümni, mida tuntakse Loodute lauluna: Jumala kiitus läbi vend Päikese, õe Vee, ema Maa ja lõpuks õe kehalise Surma.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Gubbio hunt",
+      "description": "Väikesed lilled jutustavad, et Franciscus vahendas rahu Gubbio linna ja metsiku hundi vahel: linn toidaks teda, ja hunt ei teeks enam kellelegi kahju. Hagiograafiline jutustus, mitte kroonika.",
+      "yearFrom": 1220,
+      "dateLabel": "ebakindel daatum",
+      "chronologicalUncertainty": "Neljateistkümnenda sajandi hagiograafilise traditsiooni episood (Väikesed lilled, 21. peatükk), ilma dokumentaalse kinnituseta: pakume seda mälujutustusena, mitte ajaloolise faktina.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Surm Porziuncolas",
+      "description": "Franciscus sureb 3. oktoobri 1226 õhtul Porziuncolas, olles dikteerinud oma Testamendi ja palunud panna end alasti paljale maale.",
+      "yearFrom": 1226,
+      "dateLabel": "3. oktoober 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Kanoniseerimine",
+      "description": "Gregorius IX kuulutab Franciscuse Assisis pühakuks 16. juulil 1228, vähem kui kaks aastat pärast tema surma, ja tellib Celano Thomaselt esimese ametliku eluloo.",
+      "yearFrom": 1228,
+      "dateLabel": "16. juuli 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Assisi Franciscus",
+      "role": "Väiksemate vendade vendluse rajaja",
+      "description": "Giovanni di Pietro di Bernardone (1181/82–1226). Kaupmees, seejärel rändav patukahetseja, seejärel vendluse rajaja, kes muutis Kiriku ajalugu. Kanoniseeritud 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Assisi Clara",
+      "role": "Klarisside rajaja",
+      "description": "Assisi aadlinaine (1193/94–1253) järgneb Franciscusele 1212. aastal ja rajab San Damianos „vaeste emandate“ kogukonna. Esimene naine, kes kirjutas heakskiidetud ordureegli.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Quintavalle Bernardo",
+      "role": "Esimene kaaslane",
+      "description": "Jõukas mees Assisist, jagab oma vara ja saab Franciscuse esimeseks kaaslaseks (1208). Suri 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Vend Egidio",
+      "role": "Esimeste kaaslaste seas",
+      "description": "Haritud talumees ja müstik, Franciscuse kolmas kaaslane; traditsioon omistab talle targad „Ütlused“.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Vend Leo",
+      "role": "Pihiisa ja truu kaaslane",
+      "description": "Viimaste aastate kaaslane, Franciscuse omakäelise kirja saaja ja tunnistaja La Vernal.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II, Assisi piiskop",
+      "role": "Franciscuse kaitsja",
+      "description": "Assisi piiskop alates 1204; lahtiütlemisel kattis ta Franciscuse oma mantliga ja toetas tema esimesi samme.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Franciscuse isa",
+      "description": "Kangakaupmees Assisist; tüli pojaga müüdud kaupade pärast kulmineerus avaliku stseeniga piiskopi ees.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pica",
+      "role": "Franciscuse ema",
+      "description": "Traditsioon mäletab teda pojale lähedasemana pöördumise kriisi ajal; allikad tema kohta on napid.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Paavst Innocentius III",
+      "role": "Paavst (1198–1216)",
+      "description": "Üks keskaegse ajastu mõjukamaid paavste; traditsiooni järgi andis ta 1210. aastal Franciscuse eluvormile suulise heakskiidu.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Paavst Honorius III",
+      "role": "Paavst (1216–1227)",
+      "description": "Ta kinnitas 1223. aastal kinnitatud reegli ja toetas noort vendlust.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Egiptuse sultan",
+      "description": "Aijubiidide sultan, kes kohtus Franciscusega Damiettas 1219. aastal, viienda ristisõja ajal.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Celano Thomas",
+      "role": "Esimene biograaf",
+      "description": "Väiksem vend, kirjutas Gregorius IX tellimusel Esimese eluloo (1228–29) ja Teise eluloo (1246–47), kogudes kaaslaste tunnistusi.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bagnoregio Bonaventura",
+      "role": "Teoloog ja biograaf",
+      "description": "Ülikooli magister ja ordu kindralminister; tema Suurem legend (1260–63) sai Franciscuse ametlikuks elulooks.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardinal Ugolino (hiljem Gregorius IX)",
+      "role": "Ordu kaitsja",
+      "description": "Vendluse kardinal-protektor, hiljem paavst: kanoniseeris Franciscuse 1228. aastal.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Vend Elias Cortona'st",
+      "role": "Vastuoluline järglane",
+      "description": "Kaaslane ja hiljem ordu juht pärast Franciscust; vaieldav kuju, märk pingest karisma ja institutsiooni vahel.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Franciscuse sünnilinn: väljak, San Rufino katedraal, müürid ja keskaegsed tänavad.",
+      "historicalNote": "Tegelik ajalooline paik.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "Väike kirik Assisi eeslinnas, kus Franciscus palvetas krutsifiksi ees; hiljem Clara ja tema õdede kodu.",
+      "historicalNote": "Tegelik ajalooline paik.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porziuncola (Ingelte Püha Maarja)",
+      "description": "Väike kirik tasandikul Assisi all: esimese vendluse kodu ja Franciscuse surmapaik.",
+      "historicalNote": "Tegelik ajalooline paik; tänapäeval ümbritsetud Ingelte Püha Maarja basiilikaga.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Onn oja ääres, kus esimesed kaaslased elasid oma rändavat eluvormi.",
+      "historicalNote": "Tegelik ajalooline paik; praegune pühamu hoiab asula mälu.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Carceri erakla",
+      "description": "Erakla Subasio mäel, iilekstammede ja koobaste seas: tagasitõmbumise ja palve paik.",
+      "historicalNote": "Tegelik ajalooline paik.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Umbria linn, seotud hundi jutustusega ja Franciscuse kohaloluga erakuaastatel.",
+      "historicalNote": "Tegelik ajalooline paik; hundi episood kuulub hagiograafilisse traditsiooni.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Küla Rieti kandis, kus Franciscus pühitses 1223. aasta jõule elava sõimega.",
+      "historicalNote": "Tegelik ajalooline paik.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Mägi Toscana Apenniinides, mis anti Franciscusele; tema 1224. aasta tagasitõmbumise paik ja keskaegsete allikate järgi stigmade paik.",
+      "historicalNote": "Tegelik ajalooline paik.",
+      "isHistoricalPlace": true,
+      "region": "Toscana"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Erakla Rieti lähedal, kus koostati 1221. aasta kinnitamata reegel.",
+      "historicalNote": "Tegelik ajalooline paik.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "Linn Niiluse deltas, viienda ristisõja ja Franciscuse ning sultani kohtumise (1219) tegevuskoht.",
+      "historicalNote": "Tegelik ajalooline paik.",
+      "isHistoricalPlace": true,
+      "region": "Egiptus"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Tammeküla",
+      "description": "Kujuteldav küla Spoleto orus: Ränduri peamine jutustuse tegevuskoht.",
+      "historicalNote": "Mängu jaoks loodud väljamõeldud tegevuskoht; mitte ajalooline paik.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (kujuteldav)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbria maad ja metsad",
+      "description": "Teed, iilekstammede metsad ja põllud külade vahel: Ränduri lugude rändav tegevuskoht.",
+      "historicalNote": "Jutustuse tegevuskoht, inspireeritud tegelikust Umbria maastikust.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (tegevuskoht)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiograafia",
+      "definition": "Pühakute elulugude kirjandus: keskaegne pühendumuslik žanr, mille siht on õpetus, mitte kroonika. Seda tuleb lugeda teiste vahenditega kui dokumentaalset ajalugu."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Patukahetsus",
+      "definition": "Franciscuse keeles: südame ja elu pöördumine, mitte karistus. „Teha patukahetsust“ tähendas suunda muuta."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Väiksem vend",
+      "definition": "Nimi, mille Franciscus valis oma kaaslastele: „väiksemad“, see tähendab kõige väiksemad, ilma pretensioonita seisusele."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Minister",
+      "definition": "Frantsisklikus vendluses: kogukonna või provintsi vastutaja. Sõna tähendab „teenrit“."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Reegel",
+      "definition": "Tekst, mis määrab usukogukonna eluvormi. Franciscus kirjutas kaks versiooni: kinnitamata reegli (1221) ja kinnitatud reegli (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bulla",
+      "definition": "Ametlik paavstidokument, nimetatud pliipitseri (bulla) järgi, mis seda kinnitab. „Kinnitatud reegel“ tähendab bullaga heaks kiidetud reeglit."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Porziuncola",
+      "definition": "„Väike osa“ maad: Ingelte Püha Maarja kirik Assisi lähedal, vendluse kodu."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stigmad",
+      "definition": "Kristuse kannatuse märgid, mida keskaegsed allikad omistavad Franciscusele pärast tagasitõmbumist La Vernale (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Traditsiooni väljend: „ilma millestki omast“, frantsisklik vaesuse vorm."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lauda",
+      "definition": "Usuline poeetiline rahvakeelne lauluks mõeldud tekst. Loodute laul on lauda."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Kommuun",
+      "definition": "Keskaegse Itaalia linna omavalitsus: Franciscuse Assisi oli kasvav kommuun, konfliktis Perugia ja feodaalvõimuga."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Kapittel",
+      "definition": "Usuvendluse korrapärane koosolek; ka kogu ordu „üldkapittel“."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Pidalitõbiste varjupaik",
+      "definition": "Keskaegne haigla või laatsaret pidalitõbistele, linnamüüridest väljas. Franciscuse otsustava kohtumise paik."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Almus",
+      "definition": "Kingitus, mida küsitakse või võetakse vastu elamiseks. Esimestele vendadele oli see märk usaldusest Ettehoolduse vastu, mitte alandus."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Kaupmehe poeg (1181/82–1202)",
+      "text": "Franciscus sünnib Assisis Pietro di Bernardone, jõuka kangakaupmehe, ja madonna Pica perre. Ta kasvab üles linnas, mis õitseb kommuunina: särav noormees, helde, pidude ja prantsuse trubaduuride sõber, unistades rüütlihiilgusest. 1202. aastal võitleb ta Perugia vastu Collestradas; lüüasaamine ja aasta vangipõlve lõpetavad tema esimese elu dramaatiliselt.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Pööre (1202–1206)",
+      "text": "Haigus pärast vangipõlve, unenägu Spoletos ja palverännak Rooma, kus ta vahetab riided kerjusega: Franciscus otsib uut suunda. Siis tuleb sündmus, mida ta ise nimetab alguseks: kohtumine pidalitõbistega, kus „see, mis oli mulle tundunud kibe, muutus magususeks“. San Damianos, krutsifiksi ees, kuuleb ta kutset parandada Jumala „koda“. Ta müüb isa kanga ja hobuse, et väikest kirikut taastada; tüli puhkeb piiskopi ees, kus ta annab kõik tagasi.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "„Paranda minu koda“ (1206–1209)",
+      "text": "Üksi, patukahetseja rõivais, taastab Franciscus kivi kivi haaval San Damiano, San Pietro ja Porziuncola, teenides pidalitõbiste varjupaikades. Alguses linn naerab tema üle, siis hakkab teda vaatama. Evangeeliumi kuulates mõistab ta kutset: kuulutada rahu, elada ilma millestki omast, rännates. Ettevõtmine osutub suuremaks kui kolme kiriku taastamine: parandada Kirikut ennast, altpoolt.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Vendlus (1209–1219)",
+      "text": "Quintavalle Bernardo, Egidio ja teised: esimesed kaaslased jagavad eluvormi, ja 1210. aastal (või 1209) annab Innocentius III sellele suulise heakskiidu. Porziuncolast saab kodu. 1212. aastal põgeneb Assisi Clara öösel, et järgida sama kutset. Vendlus kasvab üle iga ootuse, iga-aastaste kapittlite ja missioonidega üle Euroopa: suure arvu raskused algavad.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Ida poole (1219–1220)",
+      "text": "Viienda ristisõja keskel jõuab Franciscus ristisõdijate laagrisse Damiettas, ületab rindejoone ja kohtub sultan al-Malik al-Kamiliga. Keskaegsed allikad kirjeldavad nende vastastikust austust; tänapäeva uurimus vaidleb üksikasjade üle, kuid žest jääb: sõja ajal minna teisele vastu. Tagasi tulles leiab ta vendluse muutunud ja rahutu: selle suurus nõuab struktuure, mida ta kardab.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Kasvamise vaev (1220–1223)",
+      "text": "Franciscus loobub ordu igapäevasest juhtimisest ja pühendub kirjapandud reeglile: 1221. aasta oma, pikk ja vaba, ei saa heakskiitu; 1223. aasta oma, lühem ja juriidiline, saab Honorius III bulla. Pinge karisma ja institutsiooni vahel läbib neid aastaid: Franciscus elab seda truuduses ja kannatuses. Greccio, 1223. aasta jõuludel, teeb ta Petlemma vaesuse nähtavaks tõelise sõimega.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Loodute laul ja õhtu (1224–1226)",
+      "text": "La Vernal, 1224. aasta septembris, jutustavad allikad stigmadest. Haige ja peaaegu pime, koostab ta San Damianos Loodute laulu: kiitus tõuseb kõige pimedamal ajal. Ta lisab andestuse stroofi, et lepitada piiskoppi ja podestàd, ja lõpuks stroofi „õest kehalisest Surmast“. Pärast Testamendi dikteerimist sureb ta Porziuncolas 3. oktoobri 1226 õhtul, alasti paljal maal. Kaks aastat hiljem kuulutab Gregorius IX ta pühakuks.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "De vredesgroet",
+      "text": "In het Testament getuigt Franciscus dat de Heer hem een vredesgroet openbaarde om aan anderen te brengen, en de middeleeuwse bronnen herinneren aan de eerste broeders die de vrede van huis tot huis verkondigden. Voor Franciscus is vrede niet de afwezigheid van conflict: het is een geschenk om te overhandigen, van deur tot deur, van mens tot mens. Het verhaal van de wolf van Gubbio voert deze logica tot het uiterste: men sluit vrede zelfs met wat angst aanjaagt, door het tegemoet te gaan. Uit dezelfde traditie ontstaat de volksformule \"vrede en alle goeds\".",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Armoede als vrijheid",
+      "text": "De Regel van 1223 vraagt de broeders zich niets toe te eigenen — noch huis, noch plaats, noch enig ding — en als pelgrims en vreemdelingen in de wereld te leven. Franciscaanse armoede verheerlijkt het gebrek niet, dat een maatschappelijke wonde blijft: het is de keuze je niet door bezit te laten bepalen. Wie niets te verdedigen heeft, heeft niets te vrezen, en kan alles als geschenk ontvangen. De grond is theologisch eerder dan economisch: de Heer zelf heeft zich arm gemaakt.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Minderbroeders",
+      "text": "Franciscus wilde dat de zijnen minderbroeders zouden heten: niemand is groot, en de verantwoordelijken heten \"ministers\", dat wil zeggen dienaren. De Regel van 1221 vraagt dat ieder zijn nood aan de ander toont, dat niemand de broeder oordeelt, dat wie gezond is de zwakte van wie ziek is niet veracht. Broederschap is geen ideaal om te verkondigen: het is een dagelijkse praktijk van wederzijdse verantwoordelijkheid. Men is broeder in concrete gebaren, of men is het helemaal niet.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Broeder zon, zuster water",
+      "text": "In het Zonnelied looft Franciscus God \"om\" en \"met\" de schepselen: broeder zon, zuster maan, broeder wind, zuster water \"nuttig en nederig en kostbaar en kuis\", zuster onze moeder aarde. De natuur wordt niet vergoddelijkt en niet tot een voorraadschuur teruggebracht: zij is een familie, omdat alle schepselen dezelfde Vader hebben. De zorg voor de schepping ontstaat uit verwantschap en dankbaarheid, niet uit berekening. En het Zonnelied werd in de ziekte geschreven: de lof hangt niet van de omstandigheden af.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "De volmaakte vreugde",
+      "text": "In de Fioretti legt Franciscus aan broeder Leo uit dat de ware vreugde niet de wonderen zijn, noch de successen, noch de bekeringen van ongelovigen: het is terugkeren naar de deur, afgewezen, verkleumd en mishandeld, en geduldig en blij blijven. Het is een hagiografisch verhaal, geen kroniek, maar het vat een authentieke trek van de franciscaanse geest samen. De volmaakte vreugde hangt niet van de gebeurtenissen af: het is een innerlijke keuze die geen afwijzing je kan afnemen.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Zeventig maal zeven, en verder",
+      "text": "In de Brief aan een minister schrijft Franciscus dat men, als een broeder duizendmaal zou hebben gezondigd, hem toch moet liefhebben en hem barmhartigheid verkondigen, mits hij berouw heeft. Franciscaanse vergeving ontkent het kwaad niet: zij weigert dat het kwaad het laatste woord heeft over de relatie. In het Zonnelied werd de strofe over wie vergeeft uit liefde tot God — volgens de overlevering — toegevoegd om de bisschop en de podestà van Assisi, die in conflict waren, te verzoenen. Vergeving is tegelijk zorg voor de persoon en medicijn voor de stad.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "De kerst van Greccio",
+      "text": "Met Kerstmis 1223 wilde Franciscus in Greccio de geboorte van Jezus vieren met een echte kribbe, het hooi, de os en de ezel: opdat de ogen van het lichaam de armoede van Bethlehem zouden zien. Thomas van Celano presenteert het als een levende herinnering aan het mysterie, niet als een schouwspel. Uit die nacht ontstaat de traditie van de kerststal. Het gebaar is typisch franciscaans: het geloof raakt men aan, men ziet het, men bewoont het.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "De ontmoeting met de sultan",
+      "text": "In 1219, tijdens de vijfde kruistocht, trok Franciscus door de linies van het kruisvaardersleger in Damietta om sultan al-Malik al-Kamil te ontmoeten. De middeleeuwse bronnen herinneren aan een respectvolle dialoog tussen hen beiden, ondanks het onherleidbare verschil in geloof. In oorlogstijd koos Franciscus de weg van de ongewapende ontmoeting in plaats van die van de prediking ertegen. De episode blijft een toetssteen voor elke dialoog die de grenzen van de eigen wereld overschrijdt.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "De wolf van Gubbio",
+      "text": "De Fioretti vertellen dat in Gubbio een wolf de stad terroriseerde, en dat Franciscus, de bange menigte tegemoet, naar het beest ging en het toesprak als een broeder. Daaruit ontstond een vredesverbond: de stad zou de wolf voeden, en de wolf zou niemand meer kwaad doen. Het is een verhaal uit de hagiografische traditie van de veertiende eeuw, kostbaar voor de verbeelding meer dan voor de kroniek. De les is helder: vrede bouwt men door tegemoet te gaan aan wat angst aanjaagt, en door de hele gemeenschap bij het verbond te betrekken.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "De verzaking voor de bisschop",
+      "text": "Begin 1206, voor bisschop Guido en zijn vader Pietro di Bernardone, gaf Franciscus zijn kleren terug en deed hij afstand van de vaderlijke goederen. Thomas van Celano vertelt dat de bisschop hem met zijn eigen mantel bedekte: de Kerk ontving wie de koopmansfamilie niet meer begreep. Het was geen vlucht voor de dingen, maar de openbare bevrijding van het idee ze te bezitten. Vanaf die dag kon Franciscus alleen afhangen van de Vader die in de hemel is — en van de vrijgevigheid van anderen.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Clara van Assisi",
+      "text": "Jonge adellijke vrouw uit Assisi, Clara verliet het huis van haar vader in de nacht van Palmzondag 1212 om de evangelische levensvorm van Franciscus te volgen, die haar het haar afknipte in de Portiuncula. Zij stichtte de gemeenschap van de Arme Zusters van San Damiano en verdedigde haar hele leven het \"voorrecht van de armoede\" tegen kerkelijke druk. Zij was de eerste vrouw die een religieuze regel voor vrouwen schreef, goedgekeurd twee dagen voor haar dood, in 1253. Haar zachtmoedigheid was van dezelfde stof als haar vasthoudendheid.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernardus van Quintavalle",
+      "text": "Rijke en gerespecteerde burger van Assisi, Bernardus was de eerste gezel van Franciscus: hij wilde met eigen ogen zien hoe die jongeman leefde die iedereen bespotte, en één nacht van gebed was hem genoeg. Hij verkocht zijn goederen, deelde ze uit aan de armen en koos het rondtrekkende leven. De bronnen herinneren hem als de eerste vrucht van de broederschap en, aan het einde van zijn leven, als een geliefde getuige van de geest van het begin. Hij begon de keten: zonder de eerste broeder is er geen broederschap.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Broeder Leo",
+      "text": "Gezel en biechtvader van Franciscus in de laatste jaren, broeder Leo was getuige van de tijd van La Verna en bewaarder van het enige autograaf van de heilige: een brief en een zegen die hij zijn hele leven bewaarde. In de brief antwoordt Franciscus op zijn angst om goed te kiezen met woorden van vrijheid: volg je geweten voor God. In de Fioretti is hij de gesprekspartner van de dialoog over de volmaakte vreugde. Leo vertegenwoordigt de broze en oprechte leerling, dichter bij de ziel van Franciscus dan zijn faam van eenvoud suggereert.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sultan al-Malik al-Kamil",
+      "text": "Sultan van Egypte uit de dynastie van de Ayyubiden, kleinzoon van Saladin, al-Malik al-Kamil ontving Franciscus in Damietta in 1219, midden in de vijfde kruistocht. De middeleeuwse bronnen, christelijke en niet alleen die, beschrijven hem als een vorst die kon luisteren en in dialoog treden met de Latijnse wereld, met wie hij lang over de kwestie van Jeruzalem onderhandelde. De ontmoeting met Franciscus bekeerde geen van beiden: zij toonde dat men als gelovigen kan spreken zonder wapens in de hand. Hij blijft een sleutelfiguur om te begrijpen dat franciscaanse gastvrijheid de grenzen van het geloof overschrijdt.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "De middeleeuwse commune",
+      "text": "Het Assisi van Franciscus is een commune in opkomst: consuls en podestà, torens en vetes, kooplieden die rijk worden en gilden die het werk organiseren. Het is een wereld gegrond op eer, rang en krediet, waar rijkdom zichtbaar is en armoede schande. De familie van Pietro di Bernardone behoort tot deze opkomende burgerij. Juist tegen deze waarden — niet tegen de rijkdom op zich, maar tegen de macht die zij over het hart uitoefent — neemt de franciscaanse keuze vorm aan.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "De leprozerie",
+      "text": "In de dertiende eeuw leefden melaatsen buiten de muren, in lazaretten zoals die bij Assisi, uitgesloten van het stadsleven en getekend door een vermeend merkteken van de zonde. Franciscus bekent in het Testament dat het zien van hen hem te bitter leek; en dat juist onder hen, waar de Heer hem heen leidde, hij barmhartigheid deed en zoetheid vond. Celano beschrijft de concrete dienst: de wonden wassen, omhelzen, voorzien. De leprozerie is de plaats waar de franciscaanse naastenliefde ontstaat: geen gevoel, maar een ontmoeting van lichamen.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "De aalmoes",
+      "text": "De middeleeuwse vroomheid kende de aalmoes als verdienstelijke praktijk: men gaf voor de eigen ziel, vaak op afstand. De Regel van 1223 vraagt de broeders daarentegen om aalmoezen te gaan zonder zich te schamen, indachtig dat de Heer zich arm heeft gemaakt: vragen wordt deel van het leven, geen vernedering om te vermijden. En geven verandert in een relatie: men laat niet iets bij de arme achter, men is bij de arme. Wie geeft en wie ontvangt, wisselen de rol van bedelaar voor God.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "De kluizenarij",
+      "text": "Het franciscaanse leven is niet alleen weg en prediking: Franciscus zocht eenzame afzonderingen — de Carceri boven Assisi, La Verna in de Apennijnen — met weinig gezellen en lange stiltes. Op La Verna, in september 1224, plaatsen de bronnen de stigmata en het schrijven van de Lofzangen van God: het zuiverste gebed van Franciscus is lof zonder verzoeken. De kluizenarij is geen vlucht uit de wereld: het is de plaats waar men tot het wezenlijke terugkeert om daarna weer onder de mensen af te dalen. Zending en afzondering houden elkaar als de twee voeten van de weg.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Wat bezit jou?",
+      "text": "Maak in gedachten de inventaris van de dingen waar je het meest aan hecht. Vraag je dan, een voor een: bezit ik het, of bezit het mij? Hoeveel van je tijd, je aandacht, je angst dient om te verdedigen wat je hebt? Er is geen juist antwoord: er is alleen de waarheid over jou.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Wie is jouw wolf?",
+      "text": "In je buurt, in je werk, in je familie: wie is de persoon of de situatie waarvoor iedereen vlucht? Wat zou er gebeuren als iemand, in plaats van muren op te trekken, tegemoet zou gaan en zou vragen: waar heb je honger naar? Wie, in jouw stad, zou de gemeenschap kunnen zijn die borg staat voor het verbond?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Waar hangt jouw vreugde van af?",
+      "text": "Denk aan de laatste keer dat je echt blij was: hing het af van een behaald resultaat, van erkenning, van een aankoop? Denk nu aan een vreugde die geen uiterlijke gebeurtenis je kan afnemen. Als je niets te binnen schiet, is dat geen schuld: het is een spoor om te zoeken. Wat zou er in jou moeten veranderen, opdat de vreugde niet van de gebeurtenissen gehuurd is?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "De weg van de vrede",
+      "text": "Een weg in twee scenario's: een grensruzie in een middeleeuws dorp en een geleden onrecht op een kantoor van vandaag. Franciscaanse vrede is niet de afwezigheid van conflict: het is een groet om te brengen, een bemiddeling om aan te bieden, een vreugde die men niet in gijzeling van de gebeurtenissen laat. Zij opent wanneer de lering van de vredesgroet is ontdekt.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "De weg van de broederschap",
+      "text": "Een weg binnen het gemeenschappelijke leven: wat te doen wanneer een broeder ernstig tekortschiet en de gemeenschap zich verdeelt tussen strengheid en gastvrijheid? De franciscaanse broederschap meet zich juist daar, niet in de goede bedoelingen. Zij opent wanneer de lering van de minderbroeders is ontdekt, en zij doorkruist de vergeving zonder grens en de regel die beschermt.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "De weg van de vrede",
+      "theme": "pace",
+      "description": "Van de groet die van huis tot huis wordt gebracht tot de vreugde die niet van de gebeurtenissen afhangt: twee scenario's om de vrede als praktijk te leren, in het middeleeuwse dorp en op het kantoor van vandaag.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "De weg van de eenvoud",
+      "theme": "poverta",
+      "description": "Wat te doen met de goederen die door onze handen gaan: een delicate bewaring in de dertiende eeuw en een ondoorzichtig project vandaag. Franciscaanse armoede als vrijheid van bezit en als verantwoordelijkheid van wie dient.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "De weg van de broederschap",
+      "theme": "fraternita",
+      "description": "Wanneer een broeder ernstig faalt, openbaart de broederschap wat zij werkelijk is: tribunaal of huis. Eén scenario om vergeving, regel en wederzijdse verantwoordelijkheid te doorkruisen.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "De grensmuur",
+      "situation": "Dorp van Assisi, begin van de dertiende eeuw. Berta, die de ververij houdt, en Lupo, de wever van de deur ernaast, twisten al weken over een strook grond tussen hun huizen: de goot loopt erdoor, en ieder zweert dat de muur aan zijn kant staat. De families zijn opgehouden elkaar te groeten; de leerlingen slingeren beledigingen over straat. Jij kent hen allebei, en allebei vertrouwen ze je. Vanavond vragen ze je: aan welke kant sta je?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Aan geen enkele kant staan: aanbieden hen een voor een te horen, daarna samen, en hen helpen een eenvoudige overeenkomst te vinden over de muur en de goot.",
+          "consequence": "De eerste weken zijn zwaar: ieder probeert je naar zijn kant te trekken. Dan ontdekken ze, doordat ze gehoord worden, dat de ware knoop niet de strook grond is maar een oud onrecht dat nooit vergeven is. De overeenkomst over de muur komt bijna snel, en op het feest van de heilige Georgius beginnen de twee werkplaatsen elkaar weer te lenen.",
+          "perspectives": [
+            {
+              "label": "De franciscaanse weg",
+              "text": "In het Testament getuigt Franciscus dat de Heer hem een vredesgroet openbaarde om aan anderen te brengen, en de bronnen herinneren eraan dat de broeders de vrede van huis tot huis verkondigden. In eigen persoon bemiddelen, nederig, is precies dit gebaar: vrede wenst men niet, men overhandigt haar.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "De les van Gubbio",
+              "text": "In het verhaal van de wolf ontstaat de vrede wanneer iemand tegemoetgaat aan wat angst aanjaagt en de hele gemeenschap borg staat voor het verbond: de stad voedt de wolf, de wolf schaadt niet meer. Hier staan de twee families en de naburige werkplaatsen borg voor de overeenkomst, opdat zij duurt voorbij jouw aanwezigheid.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "Wie zich ertussen plaatst, riskeert het doelwit van beiden te worden als de overeenkomst mislukt. De bemiddeling werkt omdat jij buiten het geschil staat en er niets aan verdient: jouw geloofwaardigheid is je enige kapitaal, en dat moet zuinig worden besteed.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Beiden adviseren de kwestie voor de consuls van de commune of het koopmansgilde te brengen: de grens wordt gemeten, de stukken worden gelezen, het recht beslist.",
+          "consequence": "De ruzie verlaat de straat en treedt de vormen binnen. De deskundige van de commune meet, de geschriften van de vaders worden gelezen, en na enkele maanden wijst een vonnis de muur aan Lupo toe en de goot aan Berta. Het oude onrecht blijft evenwel onopgelost: de families groeten elkaar nauwelijks, en niemand is werkelijk in vrede.",
+          "perspectives": [
+            {
+              "label": "Het recht van de tijd",
+              "text": "De commune bestaat juist om de vete door de procedure te vervangen: een vonnis van een derde sluit het geschil zonder bloedvergieten en zonder vernederingen. Het is een reële burgerlijke vooruitgang, en in de dertiende eeuw moeizaam veroverd.",
+              "isEditorial": true
+            },
+            {
+              "label": "De franciscaanse weg",
+              "text": "De franciscaanse traditie veracht de overheden niet, maar herinnert eraan dat het recht de muur beslist, niet het hart: de vredesgroet die van huis tot huis wordt gebracht, wil de mensen weer in relatie brengen, niet alleen de onrechten verdelen. Een rechtvaardig vonnis kan de ruzie levend onder de as laten.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "Je tot de consuls wenden beschermt je: jij beslist niet, en niemand zal je van vriendjespolitiek kunnen beschuldigen. De prijs is de traagheid en de kosten, en het risico dat wie verliest wrok koestert jegens de commune meer dan jegens de buur.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Niet ingrijpen: de tijd de ruzie laten bezinken, en je beperken haar niet te voeden met oordelen en roddel.",
+          "consequence": "Maandenlang blijft de spanning onderhuids: niemand spreekt nog over de muur, maar de leerlingen blijven elkaar prikken en het onderhoud van de goot ligt stil. Wanneer de winter komt, overstroomt de regen beide kelders: voor de gemeenschappelijke schade beginnen de twee buren uit noodzaak weer te praten, en de ruzie lost zich vanzelf op, met wat meer roest.",
+          "perspectives": [
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "Niet elk conflict vraagt een vredestichter: soms verhardt een voortijdig ingrijpen de standpunten. De tijd en de gemeenschappelijke noodzaak — een ondergelopen kelder — kunnen beter bemiddelen dan welk betoog ook.",
+              "isEditorial": true
+            },
+            {
+              "label": "De franciscaanse weg",
+              "text": "Franciscaanse vrede is actief: men brengt haar, men verkondigt haar, men bouwt haar door tegemoet te gaan, zoals in het verhaal van de wolf. Laten bezinken is geen zonde, maar het is niet de vredesgroet: het is de verzaking om instrument te zijn, die soms nederigheid is en soms gemak.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Het recht van de tijd",
+              "text": "In het middeleeuwse recht heeft het niet-ingrijpen een prijs: de niet-verjaarde ruzie keert terug, en de gemeenschappelijke schade van de verlaten goot drukt op allen. Wachten is niet neutraal: het is een keuze die de rekening naar voren schuift.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Franciscaanse vrede begint bij een groet en eindigt in een verbond dat de gemeenschap bewaart. Maar zij vraagt iemand die bereid is in het midden te staan zonder er iets aan te verdienen. In jouw buurt, vandaag: wie doet dit werk? En zou jij het kunnen doen?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "De ontnomen verdienste",
+      "situation": "Vandaag, in een vergadering voor het hele team, heeft een collega als het zijne een werk voorgesteld dat grotendeels van jou is. Niemand heeft iets gezegd; de baas heeft hem bedankt. Je borst brandt al uren. Morgen kruisen jullie elkaar weer in de gang.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Van repliek dienen: bij de eerstvolgende openbare gelegenheid de feiten voor iedereen herstellen, nauwkeurig en voor hetzelfde publiek dat het onrecht heeft bijgewoond.",
+          "consequence": "De correctie komt stipt en de feiten keren naar hun plaats terug: de baas begrijpt het, enkele collega's danken je zachtjes. De collega, publiekelijk vernederd, wordt een stille en duurzame tegenstander; het klimaat van het team verstijft en elk woord van jou wordt nu op de gram afgewogen.",
+          "perspectives": [
+            {
+              "label": "Het recht van de tijd",
+              "text": "Je eigen werk opeisen is legitiem: de waarheid over verdiensten is geen roddel, en het onrecht laten passeren kan een precedent worden. Maar de vorm telt: de openbare herstelling schept een winnaar en een verliezer, en op de lange termijn vergeet de verliezer niet.",
+              "isEditorial": true
+            },
+            {
+              "label": "De franciscaanse weg",
+              "text": "Het verhaal van de volmaakte vreugde leert dat de vreugde niet van de erkenning mag afhangen: als jouw vrede alleen terugkeert wanneer het onrecht publiekelijk is hersteld, heb je haar verhuurd aan het oordeel van anderen. De feiten herstellen is geoorloofd; ze nodig hebben om je goed te voelen is de ware wonde.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "In het arbeidsleven bouwt men een reputatie druppel voor druppel en verliest men haar met emmers: een goed afgemeten openbare correctie beschermt, een openbare vernedering brandmerkt je als wrokkig mens. Als je deze weg kiest, meet de woorden dan aan de inhoud, nooit aan de persoon.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Het laten gaan: niets zeggen, geen wrok koesteren, verdergaan. Het werk spreekt voor zich, en jij wilt het onrecht niet de macht geven je dagen te bederven.",
+          "consequence": "De stilte kost je enkele weken van ongeduld, dan lost de knoop op: het volgende project is duidelijk van jou, en wie toekijkt heeft een lang geheugen. De collega, niet tegengesproken, herhaalt het gedrag evenwel bij een ander lid van het team: jouw innerlijke vrede is gered, maar het probleem blijft in de groep.",
+          "perspectives": [
+            {
+              "label": "De franciscaanse weg",
+              "text": "In de Fioretti is de volmaakte vreugde precies dit: het onrecht ondergaan zonder het het bevel over het eigen hart te laten, geduldig en blij blijven. Het is geen naïviteit en geen zwakte: het is de ontdekking dat de vreugde die op de liefde gegrond is, niet elke strijd hoeft te winnen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Het recht van de tijd",
+              "text": "De innerlijke vrede is een goed, maar niet het enige: een incorrect gedrag dat niet wordt tegengesproken, wordt gewoonte, en het volgende slachtoffer heeft misschien niet jouw kracht. Rechtvaardigheid op het werk beschermt ook de anderen, niet alleen jouw verdienste.",
+              "isEditorial": true
+            },
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "Niet reageren is een strategie met één voorwaarde: zij moet gekozen zijn, niet ondergaan. Als laten gaan betekent maandenlang koesteren, heb je niet de vreugde beoefend maar de wrok in termijnen. Het hart moet eerlijk worden nagekeken.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Een oprecht gesprek zoeken: de collega een onderhoud onder vier ogen vragen, de feiten zonder beschuldigingen uiteenzetten, en horen wat hij te zeggen heeft.",
+          "consequence": "Het gesprek is ongemakkelijk maar waar: de collega geeft half toe, verontschuldigt zich, en corrigeert zich daarna — verrast dat hij niet in het openbaar is verscheurd — zelf in de volgende vergadering, met een vermelding van jouw bijdrage. Jullie worden geen vrienden, maar tussen jullie ontstaat een vorm van waakzaam respect; en de kwestie komt nooit op het plein van het team.",
+          "perspectives": [
+            {
+              "label": "De franciscaanse weg",
+              "text": "Onder vier ogen gaan lijkt op de vredesgroet die van huis tot huis wordt gebracht: je in eigen persoon blootstellen, zonder publiek, en de ander de deur openlaten. En het lijkt op de volmaakte vreugde omdat het jouw vrede niet aan de uitkomst ondergeschikt maakt: je spreekt om de waarheid, niet om te winnen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Het recht van de tijd",
+              "text": "Het private gesprek beschermt de feiten zonder de persoon te vernederen: het is de vorm van herstelling die de arbeidsrelaties intact laat. Zijn grens is dat het van de goede trouw van de ander afhangt: als de collega ontkent en volhardt, is daarna de formele weg nodig.",
+              "isEditorial": true
+            },
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "Vraag je voordat je spreekt af wat je werkelijk wilt: de feiten herstellen, of het onrecht laten betalen? Het gesprek werkt alleen als je bereid bent te luisteren; als je binnenkomt om te winnen, voelt de ander het en sluit hij zich.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "De volmaakte vreugde verbiedt niet de feiten te herstellen: zij verbiedt het onrecht de sleutels van je hart te geven. Vraag je af, in jouw week: hoe vaak is jouw vrede gehuurd van het gedrag van anderen?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "De bewaring van de koopman",
+      "situation": "Assisi, 1210. Guido, een lakenkoopman die naar de jaarmarkten van Champagne vertrekt en niet voor twee jaar terugkeert, stelt je voor een deel van zijn goederen te bewaren: balen stof en een beurs met geld. Je mag ze intussen gebruiken — de stof zou je kleine werkplaats een sprong laten maken — en bij zijn terugkeer geef je hem de afgesproken waarde terug, met een deel van de winst. Het is een eerlijke kans. Het is ook een band die twee jaar duurt.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Volledig aanvaarden: stof en geld gebruiken om de werkplaats te laten groeien, erop rekenend de waarde met de afgesproken rente terug te geven bij Guido's terugkeer.",
+          "consequence": "De werkplaats groeit werkelijk: twee leerlingen, een nieuw weefgetouw, jouw naam die begint te circuleren. Maar elke beslissing loopt nu via de rekening die je moet afleggen: je slaapt niet meer voor de jaarmarkten, je vreest diefstallen en magere jaren. Wanneer Guido terugkeert, eerder dan verwacht en met eigen verliezen te dekken, kost het nakomen van het verbond je bijna alles wat je hebt verdiend — en je merkt dat je twee jaar geld hebt bewaard meer dan geleefd.",
+          "perspectives": [
+            {
+              "label": "De franciscaanse weg",
+              "text": "De Regel van 1223 vraagt zich niets toe te eigenen, noch huis noch plaats noch enig ding: niet omdat de dingen slecht zijn, maar omdat wat je moet teruggeven en verdedigen jou begint te bezitten. De slaap die je verliest voor de jaarmarkten is het precieze teken van de wisseling van meester.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "De logica van de koopman",
+              "text": "In de wereld van de commune is dit de praktijk: het krediet laat de economie draaien, en elk depot weigeren betekent voor altijd klein blijven. Het risico wordt gemeten en geprijsd; het verbond nakomen is wat de reputatie bouwt.",
+              "isEditorial": true
+            },
+            {
+              "label": "De blik van de verzaking",
+              "text": "Celano vertelt van Franciscus die zelfs de kleren aan zijn vader teruggeeft: niet uit minachting voor de dingen, maar om van niets afhankelijk te zijn dan van de Vader. De vraag is niet of het verbond eerlijk is — dat is het — maar hoeveel vrijheid van je hart je bereid bent twee jaar te verpanden.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Alleen de bewaring aanvaarden, niet het gebruik: stof en geld verzegelen, ze veilig houden zonder ze te laten renderen, en ze intact teruggeven bij de terugkeer.",
+          "consequence": "Twee jaar blijft je werkplaats wat zij was, maar jij loopt licht: geen rekening af te leggen, geen winst te verdedigen. Guido, teruggekeerd, vindt alles intact en schat je als een man van zijn woord; hij stelt je andere bewaringen voor, die je een voor een zult afwegen. Iemand in het dorp noemt je dwaas: die stof had voor jou kunnen werken.",
+          "perspectives": [
+            {
+              "label": "De franciscaanse weg",
+              "text": "Bewaren zonder zich toe te eigenen is bijna een geestelijke oefening: het in de handen hebben zonder het in het hart te hebben. Het herinnert aan de logica van de Regel — pelgrims en vreemdelingen in de wereld, dienaren van de dingen en geen meesters — toegepast op een goed van een ander.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "De logica van de koopman",
+              "text": "Economisch gezien is het een verspilde kans: stilstaand kapitaal produceert niet, en de onbetaalde bewaarder schenkt een dienst die elders wordt betaald. Guido's achting telt, maar zij betaalt het nieuwe weefgetouw niet.",
+              "isEditorial": true
+            },
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "De zuivere bewaring heeft haar risico's — diefstal, brand, beschuldigingen van verduistering — maar zij laat je vrij van elk geschil over de winst. Schrijf toch een akte voor getuigen: vertrouwen eert men beter met de papieren in orde.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Met respect weigeren: Guido danken voor het vertrouwen, maar geen banden van bezit willen en geen rekeningen af te leggen voor twee jaar.",
+          "consequence": "Guido blijft verrast, en knikt dan: hij zal de stoffen aan een ander toevertrouwen. Je werkplaats blijft klein en sommige winters zijn krap, maar je woord in het dorp krijgt een bijzondere klank: die van wie zich niet verkoopt en zich niet bindt. Jaren later, wanneer je zult kiezen de broeders te volgen die door Assisi trekken, zal niemand je afstand vreemd vinden: die was bij dat nee begonnen.",
+          "perspectives": [
+            {
+              "label": "De blik van de verzaking",
+              "text": "De verzaking van Franciscus voor de bisschop toont dat nee zeggen tegen rijkdom een gebaar van vrijheid is, niet van minachting: hij gaf de kleren terug om zonder huichelarij \"Onze Vader\" te kunnen zeggen. Een gemotiveerd nee vandaag bereidt de nee's — en de ja's — van morgen voor.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "De franciscaanse weg",
+              "text": "Pas op dat je de vrijheid niet verwart met een regel die men voor zichzelf maakt: de Regel spreekt over zich niets toe-eigenen, niet over elke verantwoordelijkheid voor andermans goederen weigeren. Ook weigeren kan een manier worden om alleen aan zichzelf te denken.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "Weigeren is legitiem maar heeft een sociale prijs: in het dorp helpt men elkaar ook zo, door elkaars goederen te bewaren. Wie altijd weigert, blijft op den duur buiten het net van vertrouwen waarop alles rust.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Franciscaanse armoede vraagt niet de dingen te verachten: zij vraagt op te merken wanneer de dingen jou beginnen te bezitten. De volgende keer dat je iets aanneemt — een voorwerp, een taak, een schuld — vraag je dan: wie bewaart wie?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Het ondoorzichtige project",
+      "situation": "Vandaag. Men vertrouwt je de leiding toe van een prestigieus project: zichtbaarheid, een team dat jij kiest, een aanzienlijk budget. Maar twee uitgavenposten kloppen niet, en de financier antwoordt op je vragen met ontwijkende hoffelijkheid. Tekenen betekent dat je ook de verantwoordelijkheid voor die ondoorzichtigheid op je neemt. Weigeren betekent afstand doen van een kans die zich niet zal herhalen.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Aanvaarden zonder verdere vragen: het project is een unieke kans, de ondoorzichtige posten zijn niet jouw bevoegdheid, en iemand anders zou toch in jouw plaats hebben getekend.",
+          "consequence": "Het project slaagt goed en je carrière maakt een sprong. Maar wanneer een jaar later een administratieve controle die uitgavenposten heropent, staat jouw handtekening op de documenten: de verantwoordelijkheid die je niet hebt willen zien, bereikt je toch, en het veroverde prestige slaat om in een pijnlijke verdediging.",
+          "perspectives": [
+            {
+              "label": "De verantwoordelijkheid van de rol",
+              "text": "In de franciscaanse broederschap heet wie leidt \"minister\", dienaar: het ambt bestaat om te dienen, niet om te schitteren. Een dienst die aanvaardt niet te zien waarvoor hij instaat, heeft zijn naam al verraden, nog vóór welke controle ook.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "De logica van de koopman",
+              "text": "In de wereld van het werk redeneert men zo: elk project heeft grijze zones, en wie werkelijk wil werken leert ermee te leven. Elke onvolkomenheid weigeren betekent de beslissingen overlaten aan wie minder scrupules heeft dan jij.",
+              "isEditorial": true
+            },
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "De handtekening is een grens: wat je tekent, bezit je, met alle gevolgen. Tot tien tellen voor je tekent is niet genoeg: je moet precies weten wat je onderschrijft. De kans die zich niet herhaalt, herhaalt zich vaak wel; de reputatie niet.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Weigeren: zonder transparantie tekent men niet, en het project mag naar wie die voorwaarden aanvaardt.",
+          "consequence": "De verzaking brandt, en maandenlang kijk je hoe het project verdergaat tussen de problemen: zonder jouw leiding zwalkt het team, en ten slotte trekt de financier de fondsen juist in op de ondoorzichtige posten. Jouw nee, door sommigen als naïviteit gelezen, wordt door anderen herinnerd wanneer een betrouwbaar persoon nodig is voor een delicate taak.",
+          "perspectives": [
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "De weigering beschermt de reputatie maar laat het probleem intact: het project gaat naar wie minder scrupules heeft, en de mensen die eraan werken ondergaan de gevolgen. Een nee wast de handen, niet altijd de wereld.",
+              "isEditorial": true
+            },
+            {
+              "label": "De verantwoordelijkheid van de rol",
+              "text": "De Brief aan een minister toont dat franciscaanse leiding nabijheid en dienst is, nooit superieure afstand. Maar dienen betekent niet zich tot alles lenen: een minister die tekent wat hij niet kan besturen, dient de broeders niet, hij stelt hen bloot. Ook de weigering kan een vorm van zorg zijn.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "De lange blik",
+              "text": "Carrières worden gemaakt van gegrepen kansen, maar vertrouwen wordt gemaakt van geweigerde kansen. Het nee dat om heldere redenen en zonder moralisme wordt gezegd, is een investering die langzaam rijpt en niet in waarde daalt.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Voorwaardelijk aanvaarden: alleen tekenen nadat transparante verantwoording, een onafhankelijke audit en het recht op gemotiveerde terugtrekking op schrift zijn gesteld.",
+          "consequence": "De financier talmt, dreigt anderen te zoeken, en geeft dan toe: jouw voorwaarden, geschreven, worden de ruggengraat van het project. Het werk is trager en zwaarder dan het beloofde, maar wanneer de controle komt — en zij komt — liggen de rekeningen open en houdt het team stand. Jouw leiding wordt een precedent: anderen, na jou, zullen dezelfde voorwaarden vragen.",
+          "perspectives": [
+            {
+              "label": "De verantwoordelijkheid van de rol",
+              "text": "Dit is de weg van de minister in de volle franciscaanse zin: de dienst niet ontvluchten, maar weigeren dat de dienst medeplichtigheid wordt. Wie leidt, dient — en dienen omvat het team en het project beschermen tegen de schaduwzones, ook ten koste van ongemakkelijke onderhandelingen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "De logica van de koopman",
+              "text": "Geschreven voorwaarden zijn het beste compromis, maar zij hebben een prijs: je riskeert de opdracht te verliezen als de financier niet toegeeft, en jaren te werken met een partner die je als controleur beschouwt eerder dan als bondgenoot. Het is alleen de moeite waard als je geloofwaardige alternatieven hebt.",
+              "isEditorial": true
+            },
+            {
+              "label": "De lange blik",
+              "text": "Voorwaarden stellen is de traagste en vruchtbaarste weg: zij beschermt niet alleen jou, zij verandert de praktijk. Instituties verbeteren wanneer iemand een persoonlijk scrupule tot een gedeelde regel maakt.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Franciscus noemde de verantwoordelijken \"ministers\", dienaren: de naam van de rol is al haar programma. In jouw werk: wat is nodig opdat jouw dienst geen medeplichtigheid wordt — en wat opdat jouw gestrengheid geen desertie wordt?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "De broeder die tekortschoot",
+      "situation": "Portiuncula, de jaren twintig van de dertiende eeuw. Broeder Ruffino is ernstig tekortgeschoten aan de regel: hij heeft geld dat hij als aalmoes ontving voor zichzelf gehouden, en het feit is inmiddels ook buiten bekend, onder de mensen die naar jullie kijken. In de broederschap wordt al dagen gediscussieerd. Sommigen vragen een voorbeeldige boete en zijn verwijdering uit het dorp; anderen herinneren eraan dat Ruffino ziek is en gebroken; weer anderen vrezen dat de toegeeflijkheid iedereen uitnodigt tekort te schieten. De minister vraagt ieders mening. Ook de jouwe.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "De strengheid steunen: openbare boete en tijdelijke verwijdering van Ruffino, omdat de regel voor iedereen geldt en het schandaal van de leken voor iedereen hersteld moet worden.",
+          "consequence": "De broederschap keurt een strenge tucht goed. Ruffino vertrekt naar een verre kluizenarij, vernederd voor wie hem kende; de leken van het dorp bewonderen de samenhang van de broeders en de aalmoezen dalen niet. Maar in de broederschap verstijft iets: de broeders beginnen hun eigen broosheid te verbergen uit angst voor het oordeel, en Ruffino, alleen, zal er jaren over doen om terug te keren — als hij terugkeert.",
+          "perspectives": [
+            {
+              "label": "De wijsheid van de gemeenschap",
+              "text": "De gemeenschappelijke regel is wat een broederschap onderscheidt van een gezelschap van vrienden: als wie ernstig tekortschiet geen gevolgen ontmoet, loopt het verbond leeg en betalen de zwaksten de prijs. De openbare herstelling antwoordt ook op het openbare schandaal.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "De brief aan de minister",
+              "text": "Franciscus schrijft aan de minister dat men, als een broeder duizendmaal zou hebben gezondigd, hem toch moet liefhebben en hem barmhartigheid verkondigen: de hardheid die de zwakke broeder schandaliseert, riskeert hem te verliezen. Strengheid is niet verboden, maar zij mag nooit minachting worden.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "De lange blik",
+              "text": "Een gemeenschap waarin allen het oordeel vrezen, wordt een gemeenschap van geheimen: de regel blijft op papier overeind en stort in de harten in. De gestrengheid die geen weg terug voorziet, produceert ballingen, geen boetelingen.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "De volle gastvrijheid steunen: Ruffino zonder openbare boeten weer opnemen, zijn ziekte verzorgen, en het schandaal beantwoorden met zachtmoedigheid, niet met straffen.",
+          "consequence": "Ruffino blijft. Hij huilt voor de broeders, geeft terug wat hij kan, en vindt langzaam een plaats in het gemeenschappelijke leven: niemand werpt hem het feit nog voor. In het dorp mompelt iemand dat de broeders elkaar dekken, en twee jongeren van de broederschap nemen de zachtmoedigheid als vergunning: de minister zal maanden moeten zwoegen om te herstellen dat de regel geen raad is.",
+          "perspectives": [
+            {
+              "label": "De brief aan de minister",
+              "text": "Het is de weg die de Brief aan een minister trekt: meer liefhebben, niet minder, wie tekortschoot; barmhartigheid verkondigen mits hij berouw heeft; het eigen hart niet verharden om de zonde van een ander. Franciscus weet dat deze weg kost, en schrijft haar toch voor.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "De wijsheid van de gemeenschap",
+              "text": "De Regel van 1221 vraagt elkaar de noden te tonen en de zwakke niet te verachten: de zieke Ruffino is precies de broeder die de regel beschermt. Maar dezelfde regel bestaat opdat de broederschap zich niet verstrooit: barmhartigheid zonder waarheid wordt medeplichtigheid.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "De voorzichtigheid van het dorp",
+              "text": "De leken geven aalmoezen aan arme broeders, niet aan sluwe broeders: een schandaal dat niet wordt bestuurd, vreet het vertrouwen aan dat de gemeenschap in leven houdt. De gastvrijheid moet aan het dorp worden uitgelegd, niet alleen in huis geleefd, anders wordt zij als dekmantel gelezen.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Een gemeenschappelijke weg steunen: Ruffino blijft in de broederschap, geeft het verschuldigde terug voor de broeders, vertrouwt zich toe aan een broederlijke begeleiding, en de hele gemeenschap draagt met hem de herstelling jegens het dorp.",
+          "consequence": "De weg is lang en ongemakkelijk: Ruffino biecht voor de broeders, geeft het geld huis voor huis terug samen met een oudere broeder, en verricht een jaar de nederigste diensten zonder dat iemand het hem verwijt. Het dorp ziet een ware herstelling, geen straf: het vertrouwen keert langzaam terug. Binnen de broederschap wordt de episode een ongeschreven regel: wie valt, wordt begeleid, wie tekortschoot, herstelt, niemand gaat verloren.",
+          "perspectives": [
+            {
+              "label": "De brief aan de minister",
+              "text": "De barmhartigheid van de Brief is geen korting: het is liefde die het berouw begeleidt tot het vrucht draagt. Ruffino die huis voor huis teruggeeft, is niet vernederd: hij is een broeder die terugkeert, met de gemeenschap die naast hem loopt in plaats van van bovenaf te kijken.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "De wijsheid van de gemeenschap",
+              "text": "De Regel van 1221 stelt precies dit voor: broeders die hun noden tonen — ook de beschamende — en die elkaar dragen. De gemeenschappelijke herstelling verenigt waarheid en barmhartigheid, en verandert de schuld van één in een school voor allen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Het recht van de tijd",
+              "text": "Het is de meest veeleisende weg voor allen: zij vraagt tijd, bewaring van het geheim waar dat nodig is, openbare waarheid waar het schandaal openbaar is geweest. Niet elke gemeenschap houdt deze moeite vol: zonder een bekwame minister wordt de middenweg alleen besluiteloosheid.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "De broederschap meet zich niet wanneer iedereen de regel onderhoudt, maar wanneer iemand haar schendt. De Brief aan een minister stelt de ster vast — meer liefhebben, niet minder — zonder de waarheid uit te wissen. In jouw gemeenschappen: vindt wie gefaald heeft een weg terug?"
+    }
+  ]
+}

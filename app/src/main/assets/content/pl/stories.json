@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Mistrz Bernard",
+      "description": "Od trzydziestu lat karczmarz w Osadzie Dębów: praktyczny, nieufny wobec obcych, niezdolny zostawić kogoś na zimnie. Zna każdy dług osady i każdą życzliwość.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Wdowa i zielarka z Osady Dębów. Bystre spojrzenie i pamięć osady: nic, co dzieje się na drodze, jej nie umyka.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Brat Tomasz",
+      "description": "Brat mniejszy przechodzący drogami Umbrii. Zdeptane sandały, połatany habit: ma nawyk milczenia i rzadki dar słuchania.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martino",
+      "description": "Żebrak spotkany na drodze do Osady Dębów. Był kowalem w Spoleto, zanim choroba zabrała mu kuźnię, dom, a w końcu miejsce wśród ludzi.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Giacomo",
+      "description": "Murarz z Asyżu. Pracuje przy odbudowie kościółka San Damiano i z bliska widział, jak młody Franciszek nosi kamienie i śpiewa.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matteo",
+      "description": "Górski myśliwy, w dniach lęku przed wilkiem dowodzi strażą jednej z bram Gubbio. Twarz poorana, włócznia nigdy daleko, dane słowo, które się liczy.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido II, biskup Asyżu",
+      "description": "Biskup Asyżu od 1204. Poświadczony przez źródła: przed miastem okrył Franciszka własnym płaszczem w scenie wyrzeczenia się dóbr ojcowskich.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Piotr di Bernardone",
+      "description": "Bogaty kupiec sukna z Asyżu, ojciec Franciszka. Konflikt z synem o sprzedane dobra doprowadził do publicznej sceny przed biskupem, opowiedzianej przez Tomasza z Celano.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Franciszek Bernardone",
+      "description": "Młody syn kupca, który w tych latach w Asyżu zostawia wszystko i zaczyna od nowa, boso. Wędrowiec mija go z daleka albo na kilka chwil; jego słowa są tu nieliczne i wierne źródłom.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Płaszcz wędrowca",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "W deszczu późnej jesieni wędrowiec dociera do Osady Dębów i spotyka zziębniętego żebraka: pierwszy wybór drogi.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Deszcz późnej jesieni towarzyszył ci przez trzy dni. Gdy dostrzegasz pierwsze domy Osady Dębów, wieczór już zamyka ścieżki, a z płaszcza kapie woda.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Pod żywopłotem z tarniny skulona postać otula się wytartym workiem. Nie wyciąga ręki: tylko na ciebie patrzy, jasnymi oczami kogoś, kto przestał prosić.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martino ma wiek ścieżek. Był kowalem w Spoleto, zanim choroba zabrała mu kuźnię i dom. Teraz droga jest wszystkim, co mu zostało.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "O nic nie proszę, przybyszu. Ale noc będzie długa i mroźna, a moje plecy nie znoszą już wilgoci.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martino drży pod żywopłotem. Co robisz?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Zdejmujesz płaszcz i kładziesz mu go na ramiona.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Podajesz mu ramię i odprowadzasz aż do osady.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Siadasz obok niego, pod żywopłotem, i słuchasz.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Płaszcz schodzi z twoich ramion i zimno od razu wchodzi w kości. Ale w tym zimnie jest nowa lekkość, której nie umiesz wyjaśnić.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Nie mam ci czym się odpłacić, przyjacielu. Tylko imię: Martino. W osadzie będą wiedzieć, jakim jesteś przybyszem.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Idziecie powoli, oparci o siebie, w gęstym deszczu. Przy bramie karczmy światła jeszcze się palą.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Zebrałeś towarzystwo po drodze, przybyszu? Wejdźcie obaj: mój ogień nie zadaje pytań.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Byłem kowalem w Spoleto: podkuwałem konie panów. Potem ręce zaczęły drżeć i nikt nie chce kowala, który drży. Dziękuję, że usiadłeś: ludzie przechodzą i idą prosto, jakby nieszczęście było zaraźliwe.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Gdy wstajecie, deszcz ustał. Wskazujesz mu drogę do osady i patrzysz, jak oddala się powoli, aż zabiera go ciemność.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Karczma Osady Dębów pachnie drewnem i chlebem. Niski ogień suszy odzież i rozpuszcza zmęczenie drogi.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Stajesz przy ladzie zziębnięty i bez płaszcza. Mistrz Bernard długo cię mierzy wzrokiem, potem podaje chochlę grzanego wina: „Oddałeś płaszcz, w taki wieczór? Alboś szalony, albo lepszy, niż wyglądasz. Zobaczymy.”",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Mistrz Bernard prowadzi karczmę od trzydziestu lat: praktyczny, nieufny, niezdolny zostawić kogoś na zimnie. Zna każdy dług osady i każdą życzliwość.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Tu nikt nic nie rozdaje, przybyszu: za chleb się płaci, i za kłopoty też. Ale miejsce przy ogniu nie jest na sprzedaż. Należy do tego, kto przychodzi.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "W kącie kobieta o uważnych oczach rozciera zioła w moździerzu. To Lucia, wdowa, która leczy osadę korzeniami i cierpliwością. Nic, co dzieje się na drodze, jej nie umyka.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Widziałam, jak zatrzymałeś się pod tarninowym żywopłotem. Wielu mija ten zakręt: droga szybko uczy nie patrzeć. Ty się zatrzymałeś. Pamiętaj o tym, gdy ktoś powie ci, kim jesteś.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Odkryłeś: Nikt nie jest obcy. Gościnność zaczyna się tak: nie od idei, lecz od żywopłotu, od zziębniętego człowieka, od postoju. Wyjść naprzeciw temu, kogo świat uczy omijać, to pierwszy krok każdej drogi.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Pod tamtym żywopłotem: co cię poruszyło, a co zatrzymywało? Pomyśl o swoich dzisiejszych drogach: kogo spotykasz zwykle, a przed kim nauczyłeś się przechodzić obok?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Noc mija spokojnie. Rano na ladzie karczmy znajdujesz garść kasztanów i ani słowa: w osadzie rzeczy się pamięta. Twoja droga się zaczęła.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Syn kupca",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Asyż, początek 1206: wędrowiec przybywa w dniach, gdy Franciszek przed biskupem Guidonem oddaje ojcu wszystko. Miasto patrzy i pyta samo siebie.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Asyż wita cię szmerem, który nie jest szmerem dni targowych. W uliczkach ludzie mówią półgłosem o jednym imieniu: syn pana Piotra di Bernardone, kupca sukna.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Przy zdrojach osady kobieta tłumaczy: ojciec zaciągnął młodzieńca przed biskupa, by odzyskać sprzedane dobra, i plac się zapełnia. Pod murami, przy zrujnowanym kościółku San Damiano, murarz sam walczy z zawalonym murem.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Głosy na placu rosną. Z jednej strony tłum, z drugiej samotny człowiek ze swoimi kamieniami.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Schodzisz do San Damiano, żeby pomóc murarzowi.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Biegniesz na plac, zanim tłum się zewrze.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Wchodzisz na stopnie San Rufino, żeby patrzeć z góry.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Przez godzinę podnosisz kamienie obok murarza, podczas gdy tłum huczy tam, na górze. Mężczyzna pracuje w milczeniu, potem wskazuje kościółek: naprawia go chłopak z Asyżu, mówi. Ten, o którym wszyscy mówią.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Nosł tu kamienie, jakby były relikwiami, i śpiewał. Mówią, że oszalał. Widziałem wielu szaleńców: żaden tak nie pracował.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Gdy wracasz na plac, tłum już się rozchodzi. Zbierasz urywki: młodzieniec oddał ojcu wszystko, nawet szaty, a biskup okrył go własnym płaszczem. Ktoś się śmieje. Wielu nie.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Przeciskasz się przez tłum aż pod pałac biskupa. W środku wychudzony młodzieniec o płonących oczach; naprzeciw niego starszy mężczyzna drżący z gniewu: pan Piotr di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Franciszek ma około dwudziestu czterech lat i postawę kogoś, kto wyrósł wśród cennych tkanin i uczt. Dziś, stojąc przed biskupem, wygląda, jakby to wszystko już zostawił za sobą.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Moje sukna, mój koń, moje pieniądze: sprzedane na jego szaleństwa! Chcę sprawiedliwości, ekscelencjo. Niech zrzeknie się każdej mojej rzeczy, aż do ostatniej nitki.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Długa cisza. Potem młodzieniec zdejmuje szaty, jedną po drugiej, i kładzie je u stóp ojca. Tłum wstrzymuje oddech. Biskup Guido zdejmuje płaszcz i okrywa jego nagie ramiona.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Do dziś nazywałem ojcem Piotra di Bernardone. Odtąd będę mógł powiedzieć swobodnie: Ojcze nasz, który jesteś w niebie.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Ze stopni katedry plac jest mrowiskiem. Nie słyszysz słów, ale widzisz wszystko: młodzieńca, który się rozbiera, starca, który zbiera szaty, biskupa, który otwiera swój płaszcz.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Obok ciebie sprzedawca jabłek wzdycha: widziałem na tym placu procesy i bójki, mówi, ale nigdy syna, który tak oddaje wszystko. Wokół ktoś śmieje się grubiańsko, ktoś ociera oczy.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Wieczór zapada nad Asyżem. W karczmach nie mówi się o niczym innym: jedni wyśmiewają młodzieńca, inni nazywają go świętym, jeszcze inni kręcą głową, myśląc o własnych synach.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Biskup Guido przecina opustoszały plac zmęczonym krokiem kogoś, kto przeprowadził trudny dzień. To on okrył Franciszka własnym płaszczem, na oczach wszystkich.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Widziałem w życiu wielu ludzi uczepionych rzeczy. Nigdy nikogo, kto tak je puszcza. Módlcie się za tego chłopca: i módlcie się za nas, którzy patrzymy i nie rozumiemy.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Plac pustoszeje. Co robisz, zanim wrócisz na drogę?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Z daleka idziesz za Franciszkiem, który zszedł ku San Damiano.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Zostajesz, by słuchać głosów placu.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Wracasz do murarza, żeby dokończyć to, co zacząłeś.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Idziesz za Franciszkiem aż do zrujnowanego kościółka. Widzisz, jak podnosi kamień, ociera go z kurzu, kładzie na murze jak ktoś, kto porządkuje dom. Nie śmiesz mu przeszkadzać. Wracasz na drogę z tym obrazem w oczach.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Zostajesz, aż pochodnie gasną. Słyszysz całe ludzkie bestiarium: zazdrość, drwinę, powstrzymywany podziw, lęk ojców. Miastu zajmie lata, zanim zdecyduje, co zobaczyło.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Wróciłeś dokończyć mur? Dobrze. Kamienie nie kłamią: zostają tam, gdzie je położysz. Ten chłopak to rozumie: zaczyna od fundamentów. Siebie, nie tylko kościołów.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Co jest udokumentowane",
+          "text": "Wyrzeczenie Franciszka przed biskupem Guidonem, na początku 1206 roku, opowiada Żywot pierwszy Tomasza z Celano, biografia najbliższa świętemu: oddanie szat, słowa o Ojcu, który jest w niebiosach, płaszcz biskupa. Udokumentowana jest także odbudowa San Damiano. Do fikcji należą natomiast wędrowiec, którego grasz, murarz Giacomo i dialogi zebrane na placu.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Odkryłeś: Nic własnego, wszystko otrzymane. Wyrzeczenie nie jest pogardą dla rzeczy: to uwolnienie od myśli, że się je posiada. Kto nic nie posiada, nie musi niczego bronić i może przyjmować wszystko jako dar.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Opuszczasz Asyż, gdy światła zapalają się jedno po drugim. Widziałeś człowieka, który został nagi i wolny na placu, i całe miasto, które pyta samo siebie. Ty też idziesz lżej: a może tylko uważniej wobec ciężaru rzeczy.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Człowiek na skraju drogi",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Na drogach między osadami stukot kołatki zwiastuje trędowatego. Wędrowiec musi zmierzyć się z lękiem, wstrętem i szacunkiem: i z twarzą, którą zna.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Droga między osadą a doliną biegnie wzdłuż odpoczywających pól i lasów dębu ostrolistnego. Na rozstaju słyszysz suchy, rytmiczny dźwięk: drewnianą kołatkę, którą trędowaci zwiastują swoje przejście.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Na skraju drogi, owinięty w łachmany, siedzi człowiek. Pierwsze, co czujesz, to własne ciało, które sztywnieje: krok, który zwalnia, wstrzymany oddech, chęć przejścia na drugą stronę.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Potem go widzisz: na ramionach człowieka, połatany i wyblakły, jest twój płaszcz. Ten, który oddałeś wieczorem przybycia do Osady Dębów. Płaszcz rozpoznajesz wcześniej niż jego.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Nie podchodź bliżej, przyjacielu: choroba mnie wzięła, a prawo wypędza mnie ze świata. Ale twój płaszcz utrzymał mnie przy życiu przez zimę. Jestem Martino: zawdzięczam ci życie i nie mogę nawet uścisnąć ci ręki.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Trędowaty na skraju drogi. Co robisz?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Zbliżasz się na krok i z nim rozmawiasz.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Zostawiasz mu chleb i figi na kamieniu, nie zbliżając się.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Mijasz go. Ale po dwudziestu krokach zatrzymujesz się i wracasz.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Z bliska, pod szarym popiołem choroby, rozpoznajesz jasne oczy człowieka spod żywopłotu: to Martino, żebrak z twojego pierwszego dnia w osadzie.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Choroba zabrała mi palce, potem osada zabrała resztę. Stukam tym drewnem, a ludzie uciekają, zanim mnie zobaczą. Ty zostałeś. Nie wiesz, jakim darem jest, gdy ktoś patrzy ci w twarz.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Kładziesz chleb i figi na płaskim kamieniu, w połowie drogi między tobą a nim. Tak robią wszyscy: miłość bliźniego z bezpiecznej odległości. On powoli schyla głowę.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Chleb mi wystarczy i dziękuję. Ale pamiętaj, przybyszu: tacy jak ja umierają dwa razy. Pierwszy raz, gdy przychodzi choroba, drugi, gdy nikt już nie woła ich po imieniu.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Robisz dwadzieścia kroków ku dolinie. Potem wstyd zatrzymuje cię mocniej niż kołatka: wracasz powoli, aż na skraj drogi. Człowiek podnosi wzrok, zdziwiony.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Wielu mija, niewielu wraca. Krok wstecz jest najtrudniejszy ze wszystkich: wiem, sam się tego nauczyłem. Usiądź, jeśli chcesz. Opowiedz, skąd idziesz.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Zostajecie w rozmowie, gdy słońce schodzi. Martino opowiada ci o bracie z Asyżu, tym synu kupca, który zostawił wszystko: teraz wchodzi do lazaretów, obmywa rany i każdego woła po imieniu.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Lazaret jest w dolinie, za mostem, mówi Martino. Jeśli szukasz tego brata, znajdziesz go tam.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Ofiarowujesz się odprowadzić go aż do lazaretu.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Obiecujesz mu, że w osadzie nikt o nim nie zapomni.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Odprowadzasz go doliną, powoli, nie dotykając, ale i nie omijając. Przy moście żegnacie się jak przyjaciele: z żalem, że trzeba się rozstać.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Osada mnie wygnała, mówi Martino. Ale jeśli ktoś tam, na górze, jeszcze wymówi moje imię, będę mniej martwy. Obiecujesz mu to. Jeszcze nie wiesz, ile będzie kosztować dotrzymanie tej obietnicy.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Słowa Franciszka",
+          "text": "W Testamencie, swoim najbardziej osobistym piśmie podyktowanym u kresu życia, Franciszek opowiada, że Pan poprowadził go między trędowatych i że okazał im miłosierdzie: to, co wydawało mu się gorzkie, przemieniło się w słodycz (Testament 1–3). To jeden z niewielu epizodów poświadczonych jego własnym głosem. Martino i wasze spotkanie należą do fikcji Wędrowca.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Odkryłeś: Spotkanie, które zmienia życie. Miłość bliźniego nie jest uczuciem: to fizyczny gest kogoś, kto zbliża się do wykluczonego i odkrywa, że gorycz zamienia się w słodycz. Kto daje, nie staje ponad tym, kto otrzymuje: spotykają się.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Odkryłeś: Stać się bliźnim ciałem. W Testamencie Franciszek nie mówi, że poczuł miłosierdzie: mówi, że je uczynił. Współczucie jest prawdziwe, gdy pozwala się dosięgnąć cierpieniu drugiego aż po poruszenie rąk.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Co dziś poruszyło twoje ciało wcześniej niż myśli: lęk, wstręt, czułość? Przypomnij sobie twarz, której nauczyłeś się unikać. Jak się nazywa?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Wracasz na drogę w ciemności, a stukot kołatki ginie za plecami. Coś w twoim sposobie patrzenia na ludzi zmieniło się na zawsze.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Bestia z Gubbio",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio żyje w lęku przed dzikim wilkiem. Między tymi, którzy organizują obronę, tymi, którzy idą za nieuzbrojonym bratem, i tymi, którzy szukają pośrednictwa, wędrowiec widzi, jak rodzi się pokój.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio pojawia się nagle, uczepione góry. Ale bramy są zaryglowane w biały dzień, a okoliczne pola puste: nikt już nie wyprowadza stad na pastwisko.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matteo dowodzi strażą bramy: górski myśliwy, poorana twarz i włócznia nigdy daleko. To on organizuje obławy na bestię.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Wilk, przybyszu. Wielki jak cielę i bez lęku przed ludźmi. Brał owce, psy, a potem gorzej. Wyjdziemy we dwudziestu, z bronią. Jeśli nogi masz pewne, trzymaj się z dala od lasu.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "W tawernie przy bramie krąży wieść, która brzmi jak drwina: jest w mieście brat z Asyżu, z tych bosych, którzy pozdrawiają, życząc pokoju. Mówi, że pójdzie sam, bez broni, spotkać bestię.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Miasto jest ściśnięte między lękiem a niedowierzaniem. Co robisz?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Pomagasz Matteowi zorganizować obronę domów i stad.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Idziesz za bratem za mury, zostając kilka kroków z tyłu.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Przekonujesz myśliwych, by towarzyszyli bratu bez włóczni.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Przez całą noc ryglujecie drzwi, nosicie faszynę, układacie warty. Jeśli bestia zaatakuje, miasto nie da się zaskoczyć. To prawdziwa praca i ludzie oddychają.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Nie lubię tych, którzy gadają do wilków, ale lubię tych, którzy pracują. Ty pracowałeś. Jutro, z włóczniami czy bez, Gubbio będzie gotowe.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Rano, z murów, widzicie, jak brat wychodzi sam ku lasowi. Bardzo długie milczenie. Potem pojawia się znów na drodze: a obok niego, łagodny jak baranek, idzie wilk.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Idziesz trzy kroki za bratem, za ostatnim domem. Las zamyka się nad ścieżką i lęk ściska gardło: ale jego kroki są spokojne i ciągną naprzód także twoje.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Nie lękaj się, bracie. Idziemy spotkać stworzenie, które jest głodne i przestraszone, jak my wszyscy. Zostań blisko, jeśli chcesz.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Bestia wychodzi z lasu, warcząc. Brat żegna się znakiem krzyża i mówi do niej jak do brata: ofiarowuje pokój, w imię przymierza. A wilk, na twoich oczach, kładzie mu się u stóp.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Długo rozmawiasz z Matteem i jego ludźmi: żadnych włóczni, żadnych psów. Pójdziecie za bratem z dystansu, gotowi na wszystko, ale zdecydowani nie uderzyć pierwsi. Trudno ich przekonać: lęk zawsze chce żelaza.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Zrobimy, jak mówisz. Ale jeśli bestia skoczy, za nic nie ręczę. Niech niebo nam pomoże: idziemy na obławę bez broni.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Pół miasta idzie w milczeniu ścieżką. Gdy wilk się pojawia, sto rąk szuka broni, której nie ma: ale żadna się nie podnosi. Brat mówi, bestia przysiada, i pokój zaczyna się tak: od lęku, którego nikt nie zrzuca na drugiego.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "Na placu, przed całym Gubbio, brat pieczętuje przymierze: miasto będzie karmić wilka przez wszystkie jego dni, a wilk nie skrzywdzi już ani ludzi, ani zwierząt. Bestia podnosi łapę i plac wybucha.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Lęk rozpływa się w święto. Co robisz?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Ofiarowujesz się nosić co dzień bochenek do nory wilka.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Zostajesz z Matteem, by rozebrać sidła w lesie.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Siadasz na placu i zbierasz głosy miasta.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "Przez dni, które zostajesz w Gubbio, co rano twój chleb dociera do nory. Dzieci idą za tobą z daleka: chcą zobaczyć, czy to prawda, że bestia nie gryzie ręki, która ją karmi.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Przez cały dzień rozbieracie sidła i pęta. Lata je nastawiałem, mówi Matteo, a bosy brat czyni je zbędnymi w jedno przedpołudnie. Śmieje się, ale w tym śmiechu jest szacunek.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "Na placu słyszysz, jak miasto znów siebie opowiada: staruszka, która potajemnie nosiła mu zupę, piekarz, który zawdzięcza mu palce, dzieci, które już wołają go po imieniu. Lęk zgasił nawet opowieści.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Opowieść czy historia?",
+          "text": "Wilka z Gubbio opowiadają Kwiatki, zbiór z końca XIV wieku (rozdz. 21): literatura hagiograficzna, nie kronika, i żaden dokument z epoki tego nie potwierdza. Podajemy to jako opowieść pamięci, nie jako fakt historyczny. Udokumentowane są natomiast pozdrowienie pokoju, które Franciszek mówi, że otrzymał, wspomniane w Testamencie, oraz głoszenie pokoju przez pierwszych braci. Twoja rola w wydarzeniu jest fikcją.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Odkryłeś: Pozdrowienie pokoju. Pokój nie jest brakiem wojny: to orędzie, które się niesie, odwaga, którą się ma. Rodzi się, gdy wychodzi się naprzeciw temu, co budzi lęk, bez broni w ręku.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbio miało trzy drogi: bronić się, zaufać, pośredniczyć. Którą wybrałeś i dlaczego? W twoim życiu: kto albo co jest wilkiem, przed którym wszyscy bronią się, ryglując drzwi?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Opuszczasz Gubbio, gdy wilk, już najedzony i nieszkodliwy, śpi w słońcu przy piecu. Miasto nauczyło się nowego słowa, a ty nauczyłeś się go razem z nim: pokój się czyni, nie czeka się na niego.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Noc burzy",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Zaskoczony burzą wędrowiec dzieli grotę z bratem Tomaszem: noc opowieści i słuchania oraz poranek słońca na mokrych liściach.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "W drodze powrotnej do Osady Dębów niebo szybko się zamyka. Wiatr niesie zapach deszczu, a pierwsze grzmoty toczą się za grzbietami.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Gdy burza wybucha, głos woła cię z groty na skraju ścieżki. Bosy brat daje znak, by wejść, między dwiema kroplami i błyskawicą.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Brat Tomasz jest przechodzącym mniejszym: zdeptane sandały, połatany habit, kij i nic więcej. Ma nawyk milczenia i rzadki dar słuchania.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Wejdź, bracie, i osusz się. Grota nie należy do nikogo: dziś w nocy dzielimy ją z deszczem. Mam trochę chleba i ogień: dla dwóch wędrowców to pałac.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Ogień się przyjmuje, chleb dzieli się sam. Na zewnątrz burza huczy jak rzeka; wewnątrz, pierwszy raz od wielu dni, nie masz pośpiechu.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Noc będzie długa. Czym ją wypełniasz?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Pytasz brata Tomasza o jego życie przed habitem.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Opowiadasz ty: osada, Martino, plac w Asyżu, wilk z Gubbio.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Zostajecie w milczeniu, słuchając deszczu.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Byłem pasterzem, na tych górach. Powódź zabrała mi stado i szałas, w taką noc jak ta. Płakałem jak dziecko. Potem odkryłem, że nie posiadając już niczego, niczego się nie lękam: wtedy zrozumiałem braci z Asyżu.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Brat Tomasz słucha, nie przerywając, z oczami w ogniu. Na końcu kiwa głową: każda droga uczy, mówi, jeśli idziesz nią z otwartymi oczami. Pozwoliłeś, by droga cię zmieniła, i to widać.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Milczenie nie jest puste: deszcz odmierza, ogień odpowiada, oddech drugiego trzyma rytm. Rozumiesz, że są rozmowy, które nie potrzebują słów.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Ku świtowi burza cienieję w łagodny deszcz. Brat Tomasz mówi o swoim bracie Franciszku, który nawet z łoża bólu układa pochwały: nazywa bratem słońce, siostrą wodę, matką ziemię, która nosi nas w łonie.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Mówi, że każde stworzenie chwali Stwórcę, czyniąc to, czym jest: słońce grzejąc, woda gasząc pragnienie, ziemia karmiąc. I że nawet zły dzień jest otrzymany, nie należny. Powtarzam to, bo tej nocy, tutaj, zobaczyłem to na własne oczy.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Pierwsze światła przesączają się do groty.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Pytasz go, jak dziękować, gdy wszystko idzie źle.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "O nic nie pytasz: patrzysz na krople na liściach i tyle.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Nie umiem tego wyjaśnić, bracie. Wiem, że wdzięczność nie jest nagrodą dobrych dni: to ćwiczenie, jak chodzenie. Kto czyni je co dzień, w czarne dni ma wyćwiczone nogi.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Zostajecie, patrząc, aż słońce przebije chmury. Mokre liście zapalają się jeden po drugim i cała dolina wygląda, jakby dopiero została stworzona.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Wychodzicie z groty w obmyty świat. Woda jeszcze szumi z gałęzi, słońce każe jej błyszczeć, a ty odkrywasz, że uśmiechasz się bez powodu. Brat Tomasz bierze kij: wasze drogi rozchodzą się tutaj.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Pieśń, grota, fikcja",
+          "text": "Pieśń stworzeń jest autentycznym dziełem Franciszka, ułożonym w latach 1225–1226, w porze choroby: laudą w języku ludowym, w której słońce, księżyc, wiatr, woda, ogień i ziemia chwalą Boga jako bracia i siostry. Autentyczne są także Pochwały Boga Najwyższego, modlitwa bez próśb. Brat Tomasz i noc w grocie należą do fikcji Wędrowca; jego słowa parafrazują Pieśń, nie cytując jej.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Odkryłeś: Brat słońce, siostra woda. Świat nie jest magazynem zasobów ani bożkiem: to rodzina stworzeń, które chwalą Stwórcę. Troska o stworzenie rodzi się z pokrewieństwa i wdzięczności, nie z użyteczności.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Odkryłeś: Pochwała, która o nic nie prosi. Wdzięczność nie nagradza szczęścia: to wyćwiczone spojrzenie, które rozpoznaje dar w każdej rzeczy, w wodzie, w słońcu, w dniu, nawet w chorobie.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Tej nocy dzieliłeś chleb, ogień i milczenie z nieznajomym. Popatrz na swój dzisiejszy dzień tak, jak grota patrzyła na burzę: co z tego, co masz, jest otrzymane, a nie należne?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Idąc ku osadzie, wracasz myślą do siostry wody, która gasi pragnienie, obmywa i śpiewa w rowach. W ogrodzie pamięci od dziś płynie fontanna.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "W Osadzie Dębów witają cię jak kogoś, kto wraca z daleka. Wciąż masz w odzieży zapach dymu i deszczu, a w uszach głos wody. Droga trwa dalej.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

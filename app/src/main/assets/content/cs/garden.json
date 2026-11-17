@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Kamenná stezka",
+      "kind": "sentiero",
+      "description": "Stezka ze světlých kamenů protíná zahradu: místo, odkud každá cesta začíná.",
+      "symbolism": "Cesta jako obraz života: vzniká chozením, kámen po kameni.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Olivovník pokoje",
+      "kind": "albero",
+      "description": "Starý olivovník se stříbřitou korunou, zasazený ve chvíli, kdy jsi objevil pozdrav pokoje.",
+      "symbolism": "Olivovník: středomořská rostlina pokoje a trpělivosti. Roste pomalu a přetrvává generace.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Kašna sestry Vody",
+      "kind": "acqua",
+      "description": "Kamenná kašna s čirou vodou, kterou ráno rozněcuje slunce.",
+      "symbolism": "„Sestro vodo, užitečná, pokorná, vzácná a čistá“: ve Chvalozpěvu je voda sestra, které se děkuje.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Růže ze San Damiana",
+      "kind": "fiore",
+      "description": "Růžový keř kvetoucí u zdi: roste tam, kde se někdo postaral o druhé.",
+      "symbolism": "Krása, která se rodí ze služby: láska dává vyprahlým místům vykvést.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Sdílená zahrádka",
+      "kind": "orto",
+      "description": "Malé záhony bylin a zeleniny, o něž se pečuje střídavě: pokorná práce, která živí všechny.",
+      "symbolism": "Každodenní služba: kdo zahrádku obdělává, nevlastní ji, nýbrž ji opatruje pro ty, kdo přijdou.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Cypřiš ticha",
+      "kind": "albero",
+      "description": "Vysoký a přímý cypřiš, který vyznačuje hranici mezi zahradou a lesem.",
+      "symbolism": "Modlitba jako svislice: kořeny v zemi, vrchol obrácený k nebi.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Hnízdo pěnkav",
+      "kind": "animali",
+      "description": "Mezi nejbezpečnějšími větvemi si pár pěnkav zvolil zahradu k hnízdění.",
+      "symbolism": "Přijetí: zahrada se stává domovem i pro toho, kdo přichází zvenčí.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Kamenná lavice",
+      "kind": "struttura",
+      "description": "Kamenná lavice pod zdí v poledne: místo, kde se sedí a zůstává.",
+      "symbolism": "Víra jako důvěřivé zastavení: ne vždy jít, někdy prostě zůstat.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Slunečnice díkůvzdání",
+      "kind": "fiore",
+      "description": "Řada slunečnic, které se během dne otáčejí za světlem.",
+      "symbolism": "Vděčnost: obracet se ke světlu je každodenní cvičení pohledu.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Včelí úl",
+      "kind": "animali",
+      "description": "Dřevěný úl voní voskem; včely přilétají a odlétají mezi květy zahrady.",
+      "symbolism": "Bratrství: žádná včela nedělá med sama a žádná nevlastní plástev.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Hledět na nebe",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        { "kind": "osserva", "text": "Zvedni pohled ze zahrady k nebi. Zůstaň chvíli v tichu a nic nedělej." },
+        { "kind": "leggi", "text": "Čti pomalu začátek Chvalozpěvu stvoření.", "sourcePassageId": "pass.cantico.apertura" },
+        { "kind": "rifletti", "text": "František nazývá slunce „bratrem“ a lunu „sestrou“. Jaký rozdíl by udělalo dívat se na svět jako na rodinu, a ne jako na zdroj?" },
+        { "kind": "annota", "text": "Chceš-li, zapiš do deníku jednu věc, pro kterou dnes můžeš říci: „Chválen buď, můj Pane.“" }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Naslouchat vodě",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        { "kind": "ascolta", "text": "Přistup ke kašně. Několik dechů naslouchej zvuku vody, beze spěchu." },
+        { "kind": "leggi", "text": "Přečti znovu chválu Boha napsanou na La Verně: modlitbu, která o nic neprosí.", "sourcePassageId": "pass.lodi_dio.lode" },
+        { "kind": "rifletti", "text": "Chvály Boha neobsahují prosby: jen uznání. Kdy jsi naposledy děkoval, aniž bys o něco žádal?" },
+        { "kind": "annota", "text": "Chceš-li, zapiš do deníku tři věci, které jsi dnes přijal, třeba i malé." }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Pomalý krok",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        { "kind": "osserva", "text": "Projdi kamennou stezku pomalu a všímej si každého kroku: tíhy, doteku, rytmu." },
+        { "kind": "leggi", "text": "Čti Františkovu odpověď bratru Lvovi, který hledal správnou volbu.", "sourcePassageId": "pass.lettera_leone.coscienza" },
+        { "kind": "rifletti", "text": "Bratru Lvovi František nedává pokyny, nýbrž svobodu: „řiď se svým svědomím před Bohem“. Čemu tě učí tento způsob doprovázení?" },
+        { "kind": "annota", "text": "Chceš-li, zapiš do deníku rozhodnutí, které neseš, a kam cítíš, že se tvé svědomí obrací." }
+      ]
+    }
+  ]
+}

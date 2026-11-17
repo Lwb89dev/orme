@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Maestrul Bernardo",
+      "description": "Hangiu al Satului Stejarilor de treizeci de ani: practic, bănuitor cu străinii, incapabil să lase pe cineva în frig. Despre sat cunoaște fiecare datorie și fiecare bunătate.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Văduvă și cunoscătoare de ierburi din Satul Stejarilor. Privire ascuțită și memorie a satului: nimic din ce se întâmplă pe drum nu-i scapă.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Fratele Toma",
+      "description": "Frate minor de trecere pe drumurile Umbriei. Sandale roase, rasă cârpită: are obișnuința tăcerii și darul rar de a asculta.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martino",
+      "description": "Cerșetor întâlnit pe drumul spre Satul Stejarilor. A fost potcovar la Spoleto, înainte ca boala să-i ia fierăria, casa și, la urmă, locul între oameni.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Giacomo",
+      "description": "Zidar din Assisi. Lucrează la restaurarea bisericuței San Damiano și l-a văzut de aproape pe tânărul Francisc cărând pietre și cântând.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matteo",
+      "description": "Vânător de munte, comandă paza unei porți din Gubbio în zilele fricii de lup. Față brăzdată, lancea niciodată departe, cuvântul dat care ține.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido al II-lea, episcop de Assisi",
+      "description": "Episcop de Assisi din 1204. Documentat de surse: în fața cetății l-a acoperit pe Francisc cu propria mantie, în scena renunțării la bunurile părintești.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Pietro di Bernardone",
+      "description": "Bogat negustor de postavuri din Assisi, tatăl lui Francisc. Conflictul cu fiul pentru bunurile vândute a izbucnit în scena publică dinaintea episcopului, povestită de Toma de Celano.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Francisc di Bernardone",
+      "description": "Tânărul fiu al negustorului care, la Assisi, în acești ani, lasă totul și o ia de la capăt desculț. Drumețul îl întâlnește de departe sau pentru câteva clipe; cuvintele lui, aici, sunt puține și fidele surselor.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Mantia drumețului",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Sub o ploaie de toamnă târzie, drumețul ajunge în Satul Stejarilor și întâlnește un cerșetor înghețat de frig: prima alegere a drumului.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Ploaia de toamnă târzie te-a însoțit trei zile. Când zărești primele case ale Satului Stejarilor, seara închide deja cărările, iar mantia ți-e leoarcă.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Sub un gard viu de porumbar, o siluetă ghemuită se strânge într-un sac zdrențuit. Nu întinde mâna: doar te privește, cu ochii limpezi ai celui care a încetat să mai ceară.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martino are vârsta cărărilor. A fost potcovar la Spoleto, înainte ca boala să-i ia fierăria și casa. Acum drumul este tot ce i-a mai rămas.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Nu cer nimic, străine. Dar noaptea va fi lungă și înghețată, iar spinarea mea nu mai rabdă umezeala.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martino tremură sub gardul viu. Ce faci?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Îți dai jos mantia și i-o așezi pe umeri.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Îi oferi brațul și îl însoțești până în sat.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Te așezi lângă el, sub gardul viu, și îl asculți.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Mantia îți părăsește umerii și frigul îți intră îndată în oase. Dar în frigul acela este o ușurare nouă, pe care nu știi să o explici.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "N-am ce să-ți dau înapoi, prietene. Doar numele meu: Martino. În sat vor afla ce soi de străin ești.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Mergeți încet, sprijiniți unul de altul, sub ploaia deasă. La poarta hanului luminile sunt încă aprinse.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Ai adunat tovărășie de pe drum, străine? Intrați amândoi: focul meu nu pune întrebări.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Eram potcovar la Spoleto: potcoveam caii seniorilor. Apoi mâinile au început să tremure, și nimeni nu vrea un fierar care tremură. Îți mulțumesc că te-ai așezat: oamenii trec și merg înainte, ca și cum nenorocul ar fi molipsitor.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Când vă ridicați, ploaia a încetat. Îi arăți drumul spre sat și îl privești cum se îndepărtează încet, până când întunericul îl ia.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Hanul din Satul Stejarilor miroase a lemne și a pâine. Focul mic usucă hainele și topește osteneala drumului.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Te înfățișezi la tejghea înghețat și fără mantie. Maestrul Bernardo te măsoară îndelung, apoi îți întinde un polonic de vin cald: „Mantia ai dat-o, într-o seară ca asta? Ori ești nebun, ori ești mai bun decât pari. Vom vedea.”",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Maestrul Bernardo ține hanul de treizeci de ani: practic, neîncrezător, incapabil să lase pe cineva în frig. Despre sat cunoaște fiecare datorie și fiecare bunătate.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Aici nimeni nu dăruiește nimic, străine: pâinea se plătește, și necazurile la fel. Dar locul de lângă foc nu e de vânzare. Acela este al celui care sosește.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "Într-un colț, o femeie cu ochi atenți fărâmițează ierburi într-o piuă. Este Lucia, văduva care îngrijește satul cu rădăcini și răbdare. Nimic din ce se întâmplă pe drum nu-i scapă.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Te-am văzut oprindu-te sub gardul viu de porumbar. Mulți trec mai departe, în cotul acela: drumul te învață repede să nu privești. Tu te-ai oprit. Ține minte, când cineva îți va spune cine ești.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Ai descoperit: Nimeni nu este străin. Primirea începe așa: nu de la o idee, ci de la un gard viu, de la un om înghețat, de la un popas. A merge în întâmpinarea celui pe care lumea te învață să-l ocolești este primul pas al oricărui drum.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Sub gardul acela viu, ce te-a mișcat și ce te-a reținut? Gândește-te la drumurile tale de azi: pe cine întâlnești de obicei, și pe lângă cine ai învățat să treci mai departe?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Noaptea trece liniștită. Dimineața, pe tejgheaua hanului, găsești un pumn de castane și niciun cuvânt: în sat lucrurile se țin minte. Drumul tău a început.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Fiul negustorului",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, începutul lui 1206: drumețul sosește în zilele în care Francisc, înaintea episcopului Guido, îi înapoiază tatălui totul. Cetatea privește și se întreabă.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi te primește cu un zumzet care nu este cel al zilelor de târg. Pe ulițe oamenii vorbesc în șoaptă despre un singur nume: fiul lui ser Pietro di Bernardone, negustorul de postavuri.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "La fântâna târgului o femeie îți explică: tatăl l-a târât pe tânăr înaintea episcopului, ca să-și ia înapoi bunurile vândute, iar piața se umple. Sub ziduri, la bisericuța ruinată San Damiano, un zidar se luptă singur cu un zid prăbușit.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Glasurile din piață cresc. De o parte mulțimea, de cealaltă un om singur cu pietrele lui.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Coboară la San Damiano să-i dai o mână de ajutor zidarului.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Alergi în piață, înainte ca mulțimea să se închidă.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Urcă treptele de la San Rufino, ca să privești de sus.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Vreme de o oră ridici pietre lângă zidar, în timp ce mulțimea vuiește sus. Omul lucrează în tăcere, apoi arată bisericuța: o repară un flăcău din Assisi, spune. Cel despre care vorbesc toți.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Căra pietre aici ca și cum ar fi fost moaște, și cânta. Zic că și-a ieșit din minți. Eu de nebuni am văzut mulți: niciunul nu lucra așa.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Când urci din nou în piață, mulțimea se risipește deja. Aduni frânturi: tânărul i-a înapoiat tatălui totul, până și hainele, iar episcopul l-a acoperit cu propria mantie. Cineva râde. Mulți, nu.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Îți faci loc prin mulțime până sub palatul episcopului. La mijloc, un tânăr slăbit, cu ochii aprinși; în fața lui, un bărbat bătrân care tremură de mânie: ser Pietro di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Francisc are cam douăzeci și patru de ani și ținuta celui crescut între postavuri scumpe și petreceri. Astăzi, în picioare înaintea episcopului, pare că a lăsat deja toate acestea în urmă.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Postavurile mele, calul meu, banii mei: vânduți pentru nebuniile lui! Vreau dreptate, monseniore. Să renunțe la orice lucru al meu, până la ultimul fir.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "O tăcere lungă. Apoi tânărul își dă jos hainele, una câte una, și le așază la picioarele tatălui. Mulțimea își ține răsuflarea. Episcopul Guido își scoate mantia și îi acoperă umerii goi.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Până astăzi l-am numit tată pe Pietro di Bernardone. De acum înainte voi putea spune în libertate: Tatăl nostru, care ești în ceruri.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "De pe treptele catedralei, piața este un furnicar. Nu auzi cuvintele, dar vezi totul: tânărul care se dezbracă, bătrânul care adună hainele, episcopul care își deschide mantia.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Lângă tine un vânzător de mere oftează: am văzut procese și încăierări în piața asta, spune, dar niciodată un fiu care înapoiază totul așa. În jur, cineva râde grosolan, cineva își șterge ochii.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Seara coboară peste Assisi. În hanuri nu se vorbește despre altceva: este cine îl batjocorește pe tânăr, cine îl spune sfânt, cine clatină din cap gândindu-se la propriii fii.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Episcopul Guido traversează piața golită, cu pasul obosit al celui care a cârmuit o zi grea. El este cel care l-a acoperit pe Francisc cu propria mantie, în fața tuturor.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Am văzut mulți oameni agățându-se de lucruri, în viața mea. Niciodată pe cineva lăsându-le să plece așa. Rugați-vă pentru flăcăul acela: și rugați-vă pentru noi, care privim și nu înțelegem.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Piața se golește. Ce faci, înainte să reiei drumul?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Îl urmezi de departe pe Francisc, coborât spre San Damiano.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Rămâi să asculți glasurile pieței.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Te întorci la zidar, ca să termini ce ai început.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Îl urmezi pe Francisc până la bisericuța ruinată. Îl vezi ridicând o piatră, scuturând-o de praf, așezând-o pe zid ca unul care pune casa în ordine. Nu îndrăznești să-l deranjezi. Reiei drumul cu imaginea aceea în ochi.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Rămâi până se sting făcliile. Auzi tot bestiarul omenesc: invidia, batjocura, admirația reținută, frica taților. Cetății îi vor trebui ani ca să hotărască ce a văzut.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Te-ai întors să termini zidul? Bravo. Pietrele nu mint: rămân unde le pui. Flăcăul acela înțelege: o ia de la temelii. De la sine, nu numai de la biserici.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Ce este documentat",
+          "text": "Renunțarea lui Francisc înaintea episcopului Guido, la începutul lui 1206, este povestită de Vita prima a lui Toma de Celano, biografia cea mai apropiată de sfânt: înapoierea hainelor, cuvintele despre Tatăl care este în ceruri, mantia episcopului. Documentată este și restaurarea de la San Damiano. Țin în schimb de ficțiune drumețul pe care îl joci, zidarul Giacomo și dialogurile culese în piață.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Ai descoperit: Nimic al său, totul primit. Renunțarea nu este dispreț față de lucruri: este eliberarea de ideea de a le stăpâni. Cine nu posedă nimic nu trebuie să apere nimic și poate primi orice lucru ca dar.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Pleci din Assisi în timp ce luminile se aprind una câte una. Ai văzut un om rămânând gol și liber într-o piață, și o cetate întreagă întrebându-se. Și tu mergi mai ușor: sau poate doar mai atent la greutatea lucrurilor.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Omul de pe marginea drumului",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Pe drumurile dintre târguri, sunetul unei clachete vestește un lepros. Drumețul trebuie să dea socoteală fricii, dezgustului și respectului: și unei fețe pe care o cunoaște.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Drumul dintre sat și vale mărginește ogoare odihnite și păduri de ilice. La o răscruce auzi un sunet sec, ritmic: clacheta de lemn cu care leproșii își vestesc trecerea.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Pe marginea drumului, înfășurat în zdrențe, stă un om. Primul lucru pe care îl simți este propriul trup înțepenindu-se: pasul care încetinește, răsuflarea ținută, dorința de a trece pe partea cealaltă.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Apoi îl vezi: pe umerii omului, cârpită și decolorată, este mantia ta. Cea pe care ai dat-o în seara sosirii în Satul Stejarilor. Recunoști mantia înainte de a-l recunoaște pe el.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Nu te apropia mai mult, prietene: boala m-a luat, iar legea mă trimite afară din lume. Dar mantia ta m-a ținut viu peste iarnă. Sunt Martino: îți datorez viața și nici măcar nu pot să-ți strâng mâna.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Un lepros pe marginea drumului. Ce faci?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Te apropii la un pas de el și îi vorbești.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Îi lași pâine și smochine pe o piatră, fără să te apropii.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Treci mai departe. Dar după douăzeci de pași te oprești și te întorci.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "De aproape, sub cenușa cenușie a bolii, recunoști ochii limpezi ai omului de sub gardul viu: este Martino, cerșetorul din prima ta zi în sat.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Boala mi-a luat degetele, apoi satul mi-a luat restul. Bat în lemnul ăsta și oamenii fug înainte să mă vadă. Tu, în schimb, ai rămas. Nu știi ce dar este să fii privit în față.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Așezi pâinea și smochinele pe o piatră netedă, la jumătatea drumului dintre tine și el. Este felul pe care îl folosesc toți: caritatea de la distanță sigură. El pleacă fruntea, încet.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Pâinea îmi ajunge, și îți mulțumesc. Dar ține minte, străine: cei ca mine mor de două ori. Întâi când vine boala, a doua oară când nimeni nu-i mai cheamă pe nume.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Faci douăzeci de pași spre vale. Apoi rușinea te oprește mai tare decât clacheta: te întorci, încet, până la marginea drumului. Omul ridică privirea, uimit.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Mulți trec, puțini se întorc. Pasul înapoi este cel mai greu dintre toate: știu, l-am învățat și eu. Așază-te, dacă vrei. Spune-mi de unde vii.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Rămâneți de vorbă în timp ce soarele coboară. Martino îți povestește despre un frate din Assisi, fiul acela al negustorului care a lăsat totul: acum intră în lazarete, spală rănile și pe fiecare îl cheamă pe nume.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Lazaretul este în vale, dincolo de pod, spune Martino. Dacă îl cauți pe fratele acela, îl vei găsi acolo.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Te oferi să-l însoțești până la lazaret.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Îi făgăduiești că în sat nimeni nu-l va uita.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Îl însoțești de-a lungul văii, încet, fără să-l atingi, dar fără să te ferești de el. La pod vă luați rămas-bun cum își iau rămas-bun prietenii: cu părerea de rău că trebuie să vă despărțiți.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Satul m-a alungat, spune Martino. Dar dacă cineva acolo sus îmi va mai rosti numele, voi fi mai puțin mort. I-o făgăduiești. Nu știi încă cât va costa să ții făgăduiala aceea.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Cuvintele lui Francisc",
+          "text": "În Testament, scrierea lui cea mai personală, dictată la sfârșitul vieții, Francisc povestește că Domnul l-a dus printre leproși și că a făcut cu ei milostivire: ceea ce i se părea amar s-a prefăcut în dulceață (Testamentul 1-3). Este unul dintre puținele episoade atestate de propria lui voce. Martino și întâlnirea voastră țin de ficțiunea Drumețului.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Ai descoperit: Întâlnirea care schimbă viața. Caritatea nu este un sentiment: este gestul fizic al celui care se apropie de cel exclus și descoperă că amărăciunea se preface în dulceață. Cine dăruiește nu se așază deasupra celui care primește: se întâlnește.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Ai descoperit: A te face aproapele cu trupul. În Testament, Francisc nu spune că a simțit milostivire: spune că a făcut-o. Compasiunea este adevărată când se lasă atinsă de suferința celuilalt până la a mișca mâinile.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Ce ți-a mișcat trupul astăzi, înaintea gândurilor: frică, dezgust, duioșie? Adu-ți aminte o față pe care ai învățat să o ocolești. Cum o cheamă?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Reiei drumul pe întuneric, cu sunetul clachetei pierzându-se în urmă. Ceva, în felul tău de a privi oamenii, s-a schimbat pentru totdeauna.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Fiara din Gubbio",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio trăiește în teroarea unui lup fioros. Între cine organizează apărarea, cine îl urmează pe fratele dezarmat și cine caută o mijlocire, drumețul vede născându-se o pace.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio ți se arată dintr-odată, agățat de munte. Dar porțile sunt zăvorâte în plină zi, iar ogoarele din jur sunt pustii: nimeni nu mai trimite turmele la păscut.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matteo comandă paza porții: vânător de munte, față brăzdată și lancea niciodată departe. El organizează hăituirile împotriva fiarei.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Un lup, străine. Mare cât un vițel și fără frică de oameni. A luat oi, câini, apoi și mai rău. Vom ieși în douăzeci, înarmați. Dacă ai picioarele sigure, stai departe de pădure.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "În taverna de lângă poartă circulă o vorbă care pare o bătaie de joc: este în cetate un frate din Assisi, dintre cei desculți care salută urând pacea. Spune că va merge el singur, dezarmat, să întâlnească fiara.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Cetatea este prinsă între frică și neîncredere. Ce faci?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Îl ajuți pe Matteo să organizeze apărarea caselor și a turmelor.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Îl urmezi pe frate în afara zidurilor, rămânând câțiva pași în urmă.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Îi convingi pe vânători să-l însoțească pe frate fără lănci.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Toată noaptea zăvorâți porți, cărați fascine, organizați schimburile de pază. Dacă fiara atacă, cetatea nu va fi surprinsă. Este o muncă adevărată, și oamenii respiră.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Nu-i iubesc pe cei care vorbesc cu lupii, dar îi iubesc pe cei care muncesc. Tu ai muncit. Mâine, cu lăncile sau fără, Gubbio va fi gata.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Dimineața, de pe ziduri, îl vedeți pe frate ieșind singur spre pădure. O tăcere foarte lungă. Apoi reapare pe drum: și lângă el, blând ca un miel, merge lupul.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Mergi trei pași în urma fratelui, dincolo de ultima casă. Pădurea se închide deasupra cărării și frica îți strânge gâtul: dar pașii lui sunt liniștiți și îi trag înainte și pe ai tăi.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Nu te teme, frate. Mergem să întâlnim o creatură care are foame și frică, ca noi toți. Rămâi aproape, dacă vrei.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Fiara iese din pădure mârâind. Fratele își face semnul crucii și îi vorbește ca unui frate: îi oferă pace, în numele unui legământ. Iar lupul, sub ochii tăi, i se culcă la picioare.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Vorbești îndelung cu Matteo și ai lui: fără lănci, fără câini. Îl veți urma pe frate de la distanță, gata de orice, dar hotărâți să nu loviți primii. Costă trudă să-i convingi: frica vrea mereu fierul.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Vom face cum spui. Dar dacă fiara sare, nu răspund de nimic. Să ne ajute cerul: mergem la o hăituire fără arme.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Jumătate din cetate urmează în tăcere, de-a lungul cărării. Când apare lupul, o sută de mâini caută arme care nu sunt: dar niciuna nu se ridică. Fratele vorbește, fiara se ghemuiește, și pacea începe așa: dintr-o frică pe care nimeni n-o descarcă asupra celuilalt.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "În piață, înaintea întregului Gubbio, fratele pecetluiește legământul: cetatea îl va hrăni pe lup în toate zilele lui, iar lupul nu va mai atinge niciun fir de păr, nici oamenilor, nici animalelor. Fiara ridică laba, și piața izbucnește.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Frica se topește în sărbătoare. Ce faci?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Te oferi să duci în fiecare zi o pâine la vizuina lupului.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Rămâi cu Matteo să demontați capcanele din pădure.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Te așezi în piață și aduni glasurile cetății.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "În zilele cât rămâi la Gubbio, în fiecare dimineață o pâine de-a ta ajunge la vizuină. Copiii te urmează de la distanță: vor să vadă dacă e adevărat că fiara nu mușcă mâna care o hrănește.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Demontați capcane și lațuri o zi întreagă. Ani de zile le-am întins, spune Matteo, și un frate desculț le face de prisos într-o dimineață. Râde, dar în râsul lui este respect.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "În piață auzi cetatea povestindu-se din nou: bătrâna care îi ducea pe ascuns ciorba, brutarul care îi datorează degetele, copiii care acum îl strigă pe nume. Frica stinsese până și poveștile.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Povestire sau istorie?",
+          "text": "Lupul din Gubbio este povestit de Fioretti, o culegere de la sfârșitul secolului al XIV-lea (cap. 21): literatură hagiografică, nu cronică, și niciun document al vremii nu o confirmă. O propunem ca povestire a memoriei, nu ca fapt istoric. Au în schimb temei documentar salutul de pace pe care Francisc spune că l-a primit, amintit în Testament, și vestirea păcii de către primii frați. Rolul tău în întâmplare este ficțiune.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Ai descoperit: Salutul păcii. Pacea nu este absența războiului: este o vestire de purtat, un curaj de avut. Se naște mergând în întâmpinarea a ceea ce înspăimântă, fără arme în mână.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbio avea trei drumuri: a se apăra, a se încrede, a mijloci. Tu pe care l-ai ales, și de ce? În viața ta, cine sau ce este lupul de care toți se apără zăvorând porțile?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Pleci din Gubbio în timp ce lupul, acum sătul și inofensiv, doarme la soare lângă cuptor. Cetatea a învățat un cuvânt nou, și tu l-ai învățat odată cu ea: pacea se face, nu se așteaptă.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Noaptea furtunii",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Surprins de o furtună, drumețul împarte o grotă cu fratele Toma: o noapte de povestire și ascultare, și o dimineață de soare pe frunzele ude.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Pe drumul de întoarcere spre Satul Stejarilor, cerul se închide repede. Vântul aduce miros de ploaie, iar primele tunete se rostogolesc dincolo de creste.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "În timp ce furtuna izbucnește, o voce te cheamă dintr-o grotă de pe marginea cărării. Un frate desculț îți face semn să intri, între două picături și un fulger.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Fratele Toma este un minor de trecere: sandale roase, rasă cârpită, un toiag și nimic altceva. Are obișnuința tăcerii și darul rar de a asculta.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Intră, frate, și te usucă. Grota nu este a nimănui: în noaptea asta o împărțim cu ploaia. Am puțină pâine și focul: pentru doi drumeți este un palat.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Focul prinde, pâinea se împarte de la sine. Afară furtuna face zgomot de râu; înăuntru, pentru prima dată după multe zile, nu te grăbești.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Noaptea va fi lungă. Cu ce o umpli?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Îl întrebi pe fratele Toma despre viața lui, dinaintea rasei.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Povestești tu: satul, pe Martino, piața din Assisi, lupul din Gubbio.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Rămâneți în tăcere, ascultând ploaia.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Eram păstor, pe munții aceștia. O viitură mi-a luat turma și coliba, într-o noapte ca asta. Am plâns ca un copil. Apoi am descoperit că, nemaiposedând nimic, nu mă mai temeam de nimic: atunci i-am înțeles pe frații din Assisi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Fratele Toma ascultă fără să întrerupă, cu ochii pe foc. La urmă încuviințează: fiecare drum te învață, spune, dacă îl mergi cu ochii deschiși. Tu ai lăsat drumul să te schimbe, și se vede.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Tăcerea nu este goală: ploaia scandează, focul răspunde, răsuflarea celuilalt ține ritmul. Înțelegi că există conversații care nu au nevoie de cuvinte.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Spre zori furtuna se subțiază într-o ploaie blândă. Fratele Toma vorbește despre fratele său Francisc, care și din patul durerii compune laude: îl numește frate pe soare, soră pe apă, mamă pe pământul care ne poartă în sân.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Spune că fiecare creatură îl laudă pe Creator făcând ceea ce este: soarele încălzind, apa potolind setea, pământul hrănind. Și că și ziua urâtă este primită, nu datorată. Dacă o repet, este pentru că în noaptea asta, aici, am văzut-o cu ochii mei.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Primele lumini se strecoară în grotă.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Îl întrebi cum se face să mulțumești când totul merge rău.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Nu ceri nimic: privești picăturile de pe frunze, și atât.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Nu știu să explic, frate. Știu că recunoștința nu este premiul zilelor bune: este un exercițiu, ca mersul. Cine îl face în fiecare zi, în zilele negre are picioarele antrenate.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Rămâneți privind până când soarele sparge norii. Frunzele ude se aprind una câte una, și toată valea pare abia creată.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Ieșiți din grotă într-o lume spălată. Apa mai zornăie din crengi, soarele o face să sclipească, și descoperi că zâmbești fără motiv. Fratele Toma își ia toiagul: drumurile voastre se despart aici.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Cântarea, grota, ficțiunea",
+          "text": "Cântarea creaturilor este o operă autentică a lui Francisc, compusă în 1225-1226, în anotimpul bolii: o laudă în grai vernacular, în care soarele, luna, vântul, apa, focul și pământul îl laudă pe Dumnezeu ca frați și surori. Autentice sunt și Laudele lui Dumnezeu Preaînalt, o rugăciune fără cereri. Fratele Toma și noaptea din grotă țin de ficțiunea Drumețului; cuvintele lui parafrazează Cântarea fără să o citeze.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Ai descoperit: Frate soare, sora apă. Lumea nu este nici un depozit de resurse, nici un idol: este o familie de creaturi care îl laudă pe Creator. Grija pentru creație se naște din înrudire și recunoștință, nu din utilitate.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Ai descoperit: Lauda care nu cere nimic. Recunoștința nu răsplătește norocul: este o privire antrenată, care recunoaște darul în fiecare lucru, în apă, în soare, în zi, până și în boală.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "În noaptea asta ai împărțit pâine, foc și tăcere cu un necunoscut. Privește-ți ziua de azi cum privea grota furtuna: ce anume, din ceea ce ai, este primit și nu datorat?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Mergând spre sat, te gândești din nou la sora apă, care potolește setea, spală și cântă în șanțuri. În grădina memoriei, de azi, curge o fântână.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "În Satul Stejarilor te primesc ca pe cineva care se întoarce de departe. Mai ai în haine mirosul fumului și al ploii, iar în urechi glasul apei. Drumul continuă.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

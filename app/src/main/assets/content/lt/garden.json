@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Akmenų takas",
+      "kind": "sentiero",
+      "description": "Šviesių akmenų takas kerta sodą: taškas, nuo kurio prasideda kiekvienas kelias.",
+      "symbolism": "Kelias kaip gyvenimo paveikslas: jis tiesiamas einant, akmuo po akmens.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Taikos alyvmedis",
+      "kind": "albero",
+      "description": "Senas alyvmedis sidabrine laja, pasodintas tada, kai atradai taikos pasveikinimą.",
+      "symbolism": "Alyvmedis – Viduržemio taikos ir kantrybės medis. Auga lėtai ir išlieka kartoms.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Sesers vandens fontanas",
+      "kind": "acqua",
+      "description": "Akmeninis fontanas skaidriu vandeniu, kurį rytą uždega saulė.",
+      "symbolism": "„Sesuo vanduo, labai naudinga, nuolanki, brangi ir skaisti“: Giesmėje vanduo yra sesuo, kuriai dėkojama.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Šv. Damijono rožės",
+      "kind": "fiore",
+      "description": "Prie sienos žydintis rožynas: auga ten, kur kas nors pasirūpino kitais.",
+      "symbolism": "Grožis, gimstantis iš tarnystės: artimo meilė pražydina sausas vietas.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Bendras daržas",
+      "kind": "orto",
+      "description": "Mažos žolelių ir daržovių lysvės, prižiūrimos paeiliui: nuolankus darbas, kuris maitina visus.",
+      "symbolism": "Kasdienė tarnystė: kas dirba daržą, tas jo nevaldo – saugo jį tiems, kurie ateis.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Tylos kiparisas",
+      "kind": "albero",
+      "description": "Aukštas tiesus kiparisas, žymintis ribą tarp sodo ir miško.",
+      "symbolism": "Malda kaip vertikalė: šaknys žemėje, viršūnė – į dangų.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Kikilių lizdas",
+      "kind": "animali",
+      "description": "Tarp saugiausių šakų kikilių pora pasirinko sodą lizdui sukti.",
+      "symbolism": "Svetingumas: sodas tampa namais ir tam, kas ateina iš kitur.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Akmeninis suolas",
+      "kind": "struttura",
+      "description": "Akmeninis suolas prie sienos vidurdienį: vieta atsisėsti ir pasilikti.",
+      "symbolism": "Tikėjimas kaip pasitikintis sustojimas: ne visada eiti, kartais tiesiog būti.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Padėkos saulėgrąžos",
+      "kind": "fiore",
+      "description": "Saulėgrąžų eilė, dienos metu besisukanti paskui šviesą.",
+      "symbolism": "Dėkingumas: atsigręžti į šviesą yra kasdienė žvilgsnio pratybos.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Bičių avilys",
+      "kind": "animali",
+      "description": "Medinis avilys kvepia vašku; bitės skrenda prie sodo žiedų ir atgal.",
+      "symbolism": "Brolystė: jokia bitė nedaro medaus viena, ir jokia nevaldo korio.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Žiūrėti į dangų",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Pakelk žvilgsnį nuo sodo į dangų. Kelias akimirkas pabūk tyloje, nieko nedarydamas."
+        },
+        {
+          "kind": "leggi",
+          "text": "Lėtai skaityk Kūrinijos giesmės pradžią.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Pranciškus saulę vadina „broliu“, o mėnulį „seserimi“. Ką pakeistų žiūrėti į pasaulį kaip į šeimą, o ne kaip į išteklių?"
+        },
+        {
+          "kind": "annota",
+          "text": "Jei nori, dienoraštyje užrašyk vieną dalyką, dėl kurio šiandien gali tarti: „Šlovė tau, mano Viešpatie“."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Klausytis vandens",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Prieik prie fontano. Kelis įkvėpimus klausykis vandens garso, neskubėdamas."
+        },
+        {
+          "kind": "leggi",
+          "text": "Dar kartą skaityk Dievo gyrių, parašytą La Vernoje: maldą, kuri nieko neprašo.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Dievo gyriuose nėra prašymų – tik pripažinimas. Kada paskutinį kartą dėjai padėką nieko neprašydamas?"
+        },
+        {
+          "kind": "annota",
+          "text": "Jei nori, dienoraštyje parašyk tris šiandien gautus dalykus, kad ir mažus."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Lėtas žingsnis",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Lėtai eik akmenų taku, pastebėdamas kiekvieną žingsnį: svorį, prisilietimą, ritmą."
+        },
+        {
+          "kind": "leggi",
+          "text": "Skaityk Pranciškaus atsakymą broliui Leonui, kuris ieškojo teisingo pasirinkimo.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Broliui Leonui Pranciškus duoda ne nurodymų, o laisvę: „sek savo sąžinę Dievo akivaizdoje“. Ko tave moko toks lydėjimo būdas?"
+        },
+        {
+          "kind": "annota",
+          "text": "Jei nori, dienoraštyje užrašyk sprendimą, kurį neši, ir kur jauti krypstant savo sąžinę."
+        }
+      ]
+    }
+  ]
+}

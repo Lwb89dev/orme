@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Рождение в Ассизи",
+      "description": "Джованни ди Пьетро ди Бернардоне, прозванный Франциском, рождается в Ассизи у богатого торговца сукном и у мадонны Пики.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 или 1182 (неточно)",
+      "chronologicalUncertainty": "Источники не сходятся в годе: историография предлагает и 1181, и 1182.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Война и плен",
+      "description": "В войне между Ассизи и Перуджей Франциск сражается в битве при Коллестраде (ноябрь 1202), попадает в плен и около года остаётся в Перудже. По возвращении болезнь начинает его менять.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Сон в Сполето и возвращение",
+      "description": "Отправившись в Апулию за военной славой, в Сполето Франциск видит сон, который заставляет его вернуться в Ассизи. Начинается отход от прежней жизни: сны, молитва, паломничество в Рим.",
+      "yearFrom": 1205,
+      "dateLabel": "около 1204–1205",
+      "chronologicalUncertainty": "Реконструкция этих месяцев взята из средневековых жизнеописаний; точные даты условны.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Встреча с прокажёнными",
+      "description": "В Завещании Франциск рассказывает, что Господь привёл его к прокажённым и что он «оказал им милосердие»: эпизод, который он сам указывает как начало своего обращения.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "около 1205–1206",
+      "chronologicalUncertainty": "Завещание не даёт даты; событие предшествует публичному разрыву с семьёй.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Распятие Сан-Дамиано",
+      "description": "В полуразрушенной церкви Сан-Дамиано, по преданию, Франциск слышит, как распятие обращается к нему: «Почини дом Мой». Сначала он понимает это буквально и своими руками восстанавливает церкви.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "около 1205–1206",
+      "chronologicalUncertainty": "Эпизод засвидетельствован прежде всего Вторым житием и позднейшим преданием; буквальность диалога принадлежит благочестивому повествованию.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Отречение перед епископом",
+      "description": "Приведённый отцом к епископу Гвидо из-за проданных товаров, Франциск возвращает всё, включая одежду, и вверяет себя «Отцу, Который на небесах». Епископ покрывает его собственным плащом.",
+      "yearFrom": 1206,
+      "dateLabel": "начало 1206 года",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Первые сподвижники",
+      "description": "Бернард ди Квинтавалле, Эгидий и другие присоединяются к Франциску, разделяя его образ жизни: рождается странствующее братство среди труда, милостыни и возвещения мира.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Одобрение Иннокентия III",
+      "description": "Франциск и сподвижники идут в Рим; Иннокентий III устно одобряет их евангельский образ жизни. Никакого документа одобрения не сохранилось: предание датирует его 1210 годом.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (или 1209)",
+      "chronologicalUncertainty": "Одобрение было устным, и ни один документ не сохранился; точный год (1209 или 1210) спорен.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Порциункола, дом братства",
+      "description": "Малая церковь Санта-Мария-дельи-Анджели, называемая Порциунколой, становится постоянным жилищем братства: духовным и сердечным центром движения.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Бегство Клары",
+      "description": "Клара Оффредуччо покидает отчий дом и приходит к Франциску в Порциунколу в ночь с Вербного воскресенья на понедельник 1212 года: начинается её образ жизни, из которого возникнут клариссы.",
+      "yearFrom": 1212,
+      "dateLabel": "18–19 марта 1212 года",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Встреча с султаном",
+      "description": "Во время Пятого крестового похода Франциск пересекает линии и встречает султана аль-Малика аль-Камиля в Дамиетте: эпизод диалога во время войны, засвидетельствованный францисканскими источниками и упомянутый сторонними хронистами.",
+      "yearFrom": 1219,
+      "dateLabel": "сентябрь 1219 года",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Устав без буллы",
+      "description": "В Фонте-Коломбо близ Риети составляется первый полный устав братства (Regula non bullata), длинный и духовный, так и не одобренный формально.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Устав, скреплённый буллой",
+      "description": "Гонорий III одобряет буллой «Solet annuere» окончательный устав (29 ноября 1223 года): более краткий и юридический, и поныне лежащий в основании Ордена меньших братьев.",
+      "yearFrom": 1223,
+      "dateLabel": "29 ноября 1223 года",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Рождество в Греччо",
+      "description": "На Рождество 1223 года Франциск велит устроить в Греччо настоящие ясли с сеном, волом и ослом, чтобы увидеть «глазами тела» бедность Вифлеема: начало традиции вертепа.",
+      "yearFrom": 1223,
+      "dateLabel": "Рождество 1223 года",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "Альверна",
+      "description": "В сентябре 1224 года, в уединении на горе Альверна, Франциск принимает — по ближайшим средневековым источникам — стигматы страстей Христовых, которые постарается скрывать.",
+      "yearFrom": 1224,
+      "dateLabel": "сентябрь 1224 года",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Песнь творений",
+      "description": "Больной и почти слепой, Франциск в несколько приёмов слагает лауду на умбрийском наречии, известную как Песнь творений: хвалу Богу через брата солнце, сестру воду, мать-землю и наконец сестру смерть телесную.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Волк из Губбио",
+      "description": "«Цветочки» рассказывают, что Франциск посредничал в мире между городом Губбио и свирепым волком: город будет его кормить, волк больше никому не причинит зла. Агиографический рассказ, не хроника.",
+      "yearFrom": 1220,
+      "dateLabel": "дата неточна",
+      "chronologicalUncertainty": "Эпизод агиографической традиции XIV века («Цветочки», гл. 21), без документального подтверждения: мы предлагаем его как рассказ памяти, а не как исторический факт.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Смерть в Порциунколе",
+      "description": "Франциск умирает вечером 3 октября 1226 года в Порциунколе, продиктовав Завещание и попросив положить его нагим на нагую землю.",
+      "yearFrom": 1226,
+      "dateLabel": "3 октября 1226 года",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Канонизация",
+      "description": "Григорий IX провозглашает Франциска святым в Ассизи 16 июля 1228 года, менее чем через два года после смерти, и поручает Фоме Челанскому первое официальное жизнеописание.",
+      "yearFrom": 1228,
+      "dateLabel": "16 июля 1228 года",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Франциск Ассизский",
+      "role": "Основатель братства меньших",
+      "description": "Джованни ди Пьетро ди Бернардоне (1181/82–1226). Купец, затем странствующий кающийся, затем основатель братства, изменившего историю Церкви. Канонизирован в 1228 году.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Клара Ассизская",
+      "role": "Основательница кларисс",
+      "description": "Знатная женщина из Ассизи (1193/94–1253), следует за Франциском в 1212 году и основывает в Сан-Дамиано общину «бедных дам». Первая женщина, написавшая одобренный монашеский устав.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Бернард ди Квинтавалле",
+      "role": "Первый сподвижник",
+      "description": "Богатый человек из Ассизи, раздаёт своё имущество и становится первым сподвижником Франциска (1208). Умер в 1241 году.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Брат Эгидий",
+      "role": "Среди первых сподвижников",
+      "description": "Образованный крестьянин и мистик, третий сподвижник Франциска; предание приписывает ему мудрые «Изречения».",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Брат Лев",
+      "role": "Духовник и верный спутник",
+      "description": "Спутник последних лет, адресат собственноручного послания Франциска и свидетель Альверны.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Гвидо II, епископ Ассизи",
+      "role": "Покровитель Франциска",
+      "description": "Епископ Ассизи с 1204 года; покрыл Франциска плащом в сцене отречения и поддержал его первые шаги.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Пьетро ди Бернардоне",
+      "role": "Отец Франциска",
+      "description": "Торговец сукном из Ассизи; конфликт с сыном из-за проданных товаров вылился в публичную сцену перед епископом.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Мадонна Пика",
+      "role": "Мать Франциска",
+      "description": "Предание помнит её более близкой к сыну в кризисе обращения; источников о ней мало.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Папа Иннокентий III",
+      "role": "Понтифик (1198–1216)",
+      "description": "Один из самых влиятельных пап Средневековья; по преданию, в 1210 году устно одобрил образ жизни Франциска.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Папа Гонорий III",
+      "role": "Понтифик (1216–1227)",
+      "description": "Одобрил Устав, скреплённый буллой, в 1223 году и поддержал молодое братство.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Аль-Малик аль-Камиль",
+      "role": "Султан Египта",
+      "description": "Айюбидский султан, встретивший Франциска в Дамиетте в 1219 году, во время Пятого крестового похода.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Фома Челанский",
+      "role": "Первый биограф",
+      "description": "Меньший брат, написал Первое житие (1228–29) по поручению Григория IX и Второе житие (1246–47), собрав свидетельства сподвижников.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Бонавентура из Баньореджо",
+      "role": "Богослов и биограф",
+      "description": "Университетский магистр и генеральный министр Ордена; его Большая легенда (1260–63) стала официальным жизнеописанием Франциска.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Кардинал Уголино (затем Григорий IX)",
+      "role": "Покровитель Ордена",
+      "description": "Кардинал-покровитель братства, затем папа: канонизировал Франциска в 1228 году.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Брат Илия Кортонский",
+      "role": "Спорный преемник",
+      "description": "Сподвижник, а затем руководитель Ордена после Франциска; фигура спорная, знак напряжений между харизмой и учреждением.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Ассизи",
+      "description": "Родной город Франциска: площадь, собор Сан-Руфино, стены, средневековые переулки.",
+      "historicalNote": "Реальное историческое место.",
+      "isHistoricalPlace": true,
+      "region": "Умбрия"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "Сан-Дамиано",
+      "description": "Малая церковь за Ассизи, где Франциск молился перед распятием; затем жилище Клары и её сестёр.",
+      "historicalNote": "Реальное историческое место.",
+      "isHistoricalPlace": true,
+      "region": "Умбрия"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Порциункола (Санта-Мария-дельи-Анджели)",
+      "description": "Малая церковь на равнине под Ассизи: жилище первого братства и место смерти Франциска.",
+      "historicalNote": "Реальное историческое место; сегодня включена в базилику Санта-Мария-дельи-Анджели.",
+      "isHistoricalPlace": true,
+      "region": "Умбрия"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Ривоторто",
+      "description": "Хижина у ручья, где первые сподвижники жили странствующим образом жизни.",
+      "historicalNote": "Реальное историческое место; нынешнее святилище хранит память об этом поселении.",
+      "isHistoricalPlace": true,
+      "region": "Умбрия"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Скит Карчери",
+      "description": "Скит на горе Субазио, среди каменных дубов и пещер: место уединения и молитвы.",
+      "historicalNote": "Реальное историческое место.",
+      "isHistoricalPlace": true,
+      "region": "Умбрия"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Губбио",
+      "description": "Умбрийский город, связанный с рассказом о волке и с пребыванием Франциска в годы отшельничества.",
+      "historicalNote": "Реальное историческое место; эпизод с волком принадлежит агиографическому преданию.",
+      "isHistoricalPlace": true,
+      "region": "Умбрия"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Греччо",
+      "description": "Посёлок в области Риети, где Франциск отпраздновал Рождество 1223 года живыми яслями.",
+      "historicalNote": "Реальное историческое место.",
+      "isHistoricalPlace": true,
+      "region": "Лацио"
+    },
+    {
+      "id": "place.laverna",
+      "name": "Альверна",
+      "description": "Гора Тосканских Апеннин, подаренная Франциску; место уединения 1224 года и, по средневековым источникам, стигматов.",
+      "historicalNote": "Реальное историческое место.",
+      "isHistoricalPlace": true,
+      "region": "Тоскана"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Фонте-Коломбо",
+      "description": "Скит близ Риети, где был составлен Устав без буллы 1221 года.",
+      "historicalNote": "Реальное историческое место.",
+      "isHistoricalPlace": true,
+      "region": "Лацио"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Дамиетта",
+      "description": "Город в дельте Нила, место Пятого крестового похода и встречи Франциска с султаном (1219).",
+      "historicalNote": "Реальное историческое место.",
+      "isHistoricalPlace": true,
+      "region": "Египет"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Посёлок Дубов",
+      "description": "Вымышленный посёлок в долине Сполето: главное место действия Путника.",
+      "historicalNote": "Вымышленная обстановка, созданная для игры; не историческое место.",
+      "isHistoricalPlace": false,
+      "region": "Умбрия (вымышленная)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Умбрийские поля и леса",
+      "description": "Дороги, дубовые леса и поля между посёлками: странствующая сцена историй Путника.",
+      "historicalNote": "Повествовательная обстановка, вдохновлённая реальным умбрийским пейзажем.",
+      "isHistoricalPlace": false,
+      "region": "Умбрия (место действия)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Агиография",
+      "definition": "Литература житий святых: средневековый благочестивый жанр, направленный на назидание, а не на хронику. Её нужно читать иными средствами, чем документальную историю."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Покаяние",
+      "definition": "На языке Франциска: обращение сердца и жизни, а не наказание. «Творить покаяние» значило переменить направление."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Меньший брат",
+      "definition": "Имя, выбранное Франциском для сподвижников: «меньшие», то есть последние, без притязаний на ранг."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Министр",
+      "definition": "Во францисканском братстве: ответственный за общину или провинцию. Слово значит «слуга»."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Устав",
+      "definition": "Текст, определяющий образ жизни религиозной общины. Франциск написал две версии: без буллы (1221) и скреплённый буллой (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Булла",
+      "definition": "Официальный документ папы, по свинцовой печати (bulla), которая его удостоверяет. «Устав, скреплённый буллой» — устав, одобренный буллой."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Порциункола",
+      "definition": "«Малая доля» земли: церковь Санта-Мария-дельи-Анджели близ Ассизи, дом братства."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Стигматы",
+      "definition": "Знаки страстей Христовых, которые средневековые источники приписывают Франциску после уединения на Альверне (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Латинское выражение традиции: «без чего-либо своего», францисканская форма бедности."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Лауда",
+      "definition": "Религиозное поэтическое сочинение на народном языке, предназначенное для пения. Песнь творений — лауда."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Коммуна",
+      "definition": "Орган городского самоуправления средневековой Италии: Ассизи Франциска была растущей коммуной в конфликте с Перуджей и с феодальной властью."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Капитул",
+      "definition": "Периодическое собрание религиозного братства; также «генеральный капитул» — собрание всего Ордена."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Лепрозорий",
+      "definition": "Средневековая больница-лазарет для прокажённых за городскими стенами. Место решающей встречи Франциска."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Милостыня",
+      "definition": "Дар, который просят или получают, чтобы жить. Для первых братьев это был знак доверия Провидению, а не унижение."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Сын купца (1181/82–1202)",
+      "text": "Франциск рождается в Ассизи у Пьетро ди Бернардоне, богатого торговца сукном, и у мадонны Пики. Он растёт в городе, переживающем расцвет коммуны: блестящий юноша, щедрый, любящий праздники и французских труверов, мечтает о рыцарской славе. В 1202 году он сражается против Перуджи при Коллестраде; поражение и год плена эффектно завершают его первую жизнь.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Поворот (1202–1206)",
+      "text": "Болезнь после плена, сон в Сполето, паломничество в Рим, где он меняется одеждой с нищим: Франциск ищет новое направление. Затем эпизод, который он сам назовёт началом: встреча с прокажёнными, где «то, что казалось мне горьким, обратилось в сладость». В Сан-Дамиано перед распятием он слышит призыв починить «дом» Божий. Он продаёт сукно и коня отца, чтобы восстановить церковь; конфликт вспыхивает перед епископом, где он возвращает всё.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "«Почини дом Мой» (1206–1209)",
+      "text": "Один, одетый кающимся, Франциск камень за камнем восстанавливает Сан-Дамиано, Сан-Пьетро и Порциунколу, служа в лепрозориях. Город сначала насмехается над ним, потом начинает на него смотреть. Слушая Евангелие, он понимает призвание: возвещать мир, жить без чего-либо своего, в странствии. Замысел оказывается больше ремонта трёх церквей: чинить саму Церковь снизу.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Братство (1209–1219)",
+      "text": "Бернард ди Квинтавалле, Эгидий и другие: первые сподвижники разделяют образ жизни, и в 1210 (или 1209) году Иннокентий III одобряет его устно. Порциункола становится домом. В 1212 году Клара Ассизская ночью бежит, чтобы последовать тому же призванию. Братство растёт сверх всякого ожидания, с ежегодными капитулами и миссиями по всей Европе: начинаются трудности больших чисел.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "На Восток (1219–1220)",
+      "text": "В разгар Пятого крестового похода Франциск достигает крестоносного лагеря в Дамиетте, пересекает линии и встречает султана аль-Малика аль-Камиля. Средневековые источники описывают взаимное уважение; современная историография спорит о подробностях, но жест остаётся: во время войны пойти навстречу. По возвращении он находит братство изменившимся и в затруднении: размеры требуют устройств, которых он боится.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Труд роста (1220–1223)",
+      "text": "Франциск оставляет повседневное руководство Орденом и посвящает себя писаному уставу: устав 1221 года, длинный и свободный, не будет одобрен; устав 1223 года, более краткий и юридический, получает буллу Гонория III. Напряжение между харизмой и учреждением проходит через эти годы: Франциск проживает его в верности и в страдании. В Греччо на Рождество 1223 года он даёт увидеть бедность Вифлеема настоящими яслями.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Песнь и вечер (1224–1226)",
+      "text": "На Альверне в сентябре 1224 года источники повествуют о стигматах. Больной и почти слепой, в Сан-Дамиано он слагает Песнь творений: хвала рождается в самую тёмную пору. Он добавляет строфу о прощении, чтобы примирить епископа и подеста, и наконец строфу о «сестре смерти телесной». Продиктовав Завещание, он умирает в Порциунколе вечером 3 октября 1226 года, нагой на нагой земле. Два года спустя Григорий IX провозглашает его святым.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

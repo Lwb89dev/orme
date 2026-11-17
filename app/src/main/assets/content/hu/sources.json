@@ -1,0 +1,905 @@
+{
+  "documents": [
+    {
+      "id": "source.testamento",
+      "category": "scritto_autentico",
+      "title": "Végrendelet",
+      "author": "Assisi Szent Ferenc",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "1226 szeptembere",
+      "dateFrom": 1226,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Ferenc élete utolsó hónapjaiban diktálta; legszemélyesebb szövege: újraolvassa a megtérését, és a testvérekre bízza lelki akaratát. Nem jogi regula, hanem tanúságtétel.",
+      "manuscriptNote": "Széles kéziratos hagyomány; a kritikai szöveg az Opuscula kiadásaiban (például K. Esser kiadása).",
+      "licenseNote": "Középkori eredeti: közkincs (Wikisource-átirat, 2026. 11. 11.). Magyar szöveg: ennek az alkalmazásnak eredeti szerkesztői fordítása.",
+      "referenceUrls": [
+        "https://la.wikisource.org/wiki/Testamentum_(Franciscus_Assisiensis)",
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.cantico",
+      "category": "scritto_autentico",
+      "title": "A teremtmények éneke (Naphimnusz)",
+      "author": "Assisi Szent Ferenc",
+      "originalLanguage": "umbriai népnyelv",
+      "compositionDate": "1225–1226 (több részletben)",
+      "dateFrom": 1225,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Lauda, amelyet Ferenc élete utolsó szakaszában írt, talán két időben (a megbocsátás és a halál strófája későbbi toldás lehet). Az olasz irodalom első költői szövegei közé számít.",
+      "manuscriptNote": "Korai tanú: az assisi Sacro Convento 338-as kódexe (33r–34r fólió).",
+      "licenseNote": "Középkori eredeti: közkincs (Wikisource-átirat, 2026. 11. 11.). Magyar szöveg: ennek az alkalmazásnak eredeti szerkesztői fordítása.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://it.wikiversity.org/wiki/%27%27Cantico_delle_Creature%27%27_di_Francesco_d%27Assisi_(superiori)"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.regola_bollata",
+      "category": "scritto_autentico",
+      "title": "Megerősített Regula (Regula bullata)",
+      "author": "Assisi Szent Ferenc",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "1223",
+      "dateFrom": 1223,
+      "dateTo": 1223,
+      "authenticity": "authentic",
+      "description": "A testvériség végleges regulája, amelyet III. Honoriusz bullája hagyott jóvá 1223. november 29-én. Rövid szöveg, mindmáig a Kisebb Testvérek Rendjének alapja.",
+      "manuscriptNote": "Széles kéziratos hagyomány; a kritikai szöveg az Opuscula kiadásaiban.",
+      "licenseNote": "Középkori eredeti: közkincs (Wikisource-átirat, 2026. 11. 11.). Magyar szöveg: ennek az alkalmazásnak eredeti szerkesztői fordítása.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://ofm.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.regola_non_bollata",
+      "category": "scritto_autentico",
+      "title": "Meg nem erősített Regula (Regula non bullata)",
+      "author": "Assisi Szent Ferenc és az első társak",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "1221",
+      "dateFrom": 1221,
+      "dateTo": 1221,
+      "authenticity": "authentic",
+      "description": "A testvériség első teljes regulája, hosszabb és lelkibb, mint a megerősített, az Egyház formálisan soha nem hagyta jóvá. A korai ferencesség legszabadabb hangját őrzi.",
+      "manuscriptNote": "Kevés kéziratban maradt fenn; a modern kritika fedezte fel újra.",
+      "licenseNote": "Középkori eredeti: közkincs (Wikisource-átirat, 2026. 11. 11.). Magyar szöveg: ennek az alkalmazásnak eredeti szerkesztői fordítása.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.ammonizioni",
+      "category": "scritto_autentico",
+      "title": "Intelmek",
+      "author": "Assisi Szent Ferenc",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "bizonytalan dátum, körülbelül 1221 előtt",
+      "authenticity": "authentic",
+      "description": "Huszonnyolc rövid lelki útmutatás a testvériségnek: alázat, engedelmesség, türelem, szívtisztaság. A ferences tanítás legsűrűbb szövegei közé tartozik.",
+      "manuscriptNote": "Tagolt kéziratos hagyomány; a számozás a kritikai kiadásokat követi.",
+      "licenseNote": "Középkori eredeti: közkincs. Magyar parafrázisok: ennek az alkalmazásnak eredeti szerkesztői szövegei.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "needs_verification"
+    },
+    {
+      "id": "source.lettera_ministro",
+      "category": "scritto_autentico",
+      "title": "Levél egy miniszterhez",
+      "author": "Assisi Szent Ferenc",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "bizonytalan dátum, 1220 körül",
+      "authenticity": "authentic",
+      "description": "Levél a testvériség egy felelősének (miniszternek): hogyan bánjon a vétkező testvérekkel, keménység és megbotránkozás nélkül.",
+      "manuscriptNote": "Az Opuscula hagyományában maradt fenn.",
+      "licenseNote": "Középkori eredeti: közkincs. Magyar parafrázisok: ennek az alkalmazásnak eredeti szerkesztői szövegei.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lettera_leone",
+      "category": "scritto_autentico",
+      "title": "Levél Leó testvérhez",
+      "author": "Assisi Szent Ferenc",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "1224 után",
+      "dateFrom": 1224,
+      "authenticity": "authentic",
+      "description": "Rövid, saját kezű levél Leó testvérhez, gyóntatójához és társához, a lelkiismeret hallgatásáról Isten előtt. Azért is becses dokumentum, mert autográf.",
+      "manuscriptNote": "Az autográfot a spoletói székesegyház őrzi.",
+      "licenseNote": "Középkori eredeti: közkincs. Magyar parafrázisok: ennek az alkalmazásnak eredeti szerkesztői szövegei.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lettera_ordine",
+      "category": "scritto_autentico",
+      "title": "Levél az egész Rendhez",
+      "author": "Assisi Szent Ferenc",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "1225–1226",
+      "dateFrom": 1225,
+      "dateTo": 1226,
+      "authenticity": "authentic",
+      "description": "Levél a testvérekhez, nagy részben az Eucharisztiáról, Isten írott szavainak tiszteletéről és a Regula megtartásáról. Ferenc egyik legterjedelmesebb írása.",
+      "manuscriptNote": "Az Opuscula hagyományában maradt fenn. Szöveg a latin Wikisource átiratából.",
+      "licenseNote": "Középkori latin eredeti: közkincs. Fordítás: ennek az alkalmazásnak eredeti szerkesztői szövege.",
+      "referenceUrls": [
+        "https://la.wikisource.org/wiki/Epistola_toti_Ordini_missa"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.lodi_dio",
+      "category": "scritto_autentico",
+      "title": "A Magasságbeli Isten dicséretei",
+      "author": "Assisi Szent Ferenc",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "1224 (La Verna)",
+      "dateFrom": 1224,
+      "dateTo": 1224,
+      "authenticity": "authentic",
+      "description": "Dicsérő ima, amelyet a La Vernán írt, és ugyanazon az autográf lapon hagyományozódott, mint a Leó testvérhez írt levél és a neki szóló áldás.",
+      "manuscriptNote": "Leó testvér lapja, autográf (Spoleto, székesegyház).",
+      "licenseNote": "Középkori eredeti: közkincs. Magyar parafrázisok: ennek az alkalmazásnak eredeti szerkesztői szövegei.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.celano_vita_prima",
+      "category": "testimonianza_medievale",
+      "title": "Celanói Tamás Első életrajza",
+      "author": "Celanói Tamás",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "1228–1229",
+      "dateFrom": 1228,
+      "dateTo": 1229,
+      "authenticity": "authentic",
+      "description": "Ferenc első hivatalos életrajza, amelyet IX. Gergely rendelt meg a szentté avatáshoz. A fő és a szenthez legközelebbi forrás, ha hagiográfiai szándékkal is.",
+      "manuscriptNote": "Modern kritikai kiadások elérhetők; bekezdések szerinti számozás.",
+      "licenseNote": "Középkori eredeti: közkincs. Magyar parafrázisok: ennek az alkalmazásnak eredeti szerkesztői szövegei.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/",
+        "https://www.treccani.it/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.celano_vita_seconda",
+      "category": "testimonianza_medievale",
+      "title": "Celanói Tamás Második életrajza",
+      "author": "Celanói Tamás",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "1246–1247",
+      "dateFrom": 1246,
+      "dateTo": 1247,
+      "authenticity": "authentic",
+      "description": "Második életrajz, amely a még élő társak tanúságtételeit gyűjti: gazdagabb epizódokban és Ferenc jellemének részleteiben.",
+      "manuscriptNote": "Modern kritikai kiadások elérhetők.",
+      "licenseNote": "Középkori eredeti: közkincs. Magyar parafrázisok: ennek az alkalmazásnak eredeti szerkesztői szövegei.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.bonaventura_leggenda_maggiore",
+      "category": "testimonianza_medievale",
+      "title": "Bonaventura Nagy legendája",
+      "author": "Bagnoregiói Bonaventura",
+      "originalLanguage": "középkori latin",
+      "compositionDate": "1260–1263",
+      "dateFrom": 1260,
+      "dateTo": 1263,
+      "authenticity": "authentic",
+      "description": "Ferenc teológiai életrajza, amelyet Bonaventura írt, és 1266-ban a Rend hivatalos legendájává vált. Felépítettebb és tanítóbb, mint Celano életrajzai.",
+      "manuscriptNote": "Modern kritikai kiadások elérhetők.",
+      "licenseNote": "Középkori eredeti: közkincs. Magyar parafrázisok: ennek az alkalmazásnak eredeti szerkesztői szövegei.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.fioretti",
+      "category": "tradizione_agiografica",
+      "title": "Szent Ferenc Fiorettije",
+      "author": "Ferences névtelen (latin hagyományból, az Actusból)",
+      "originalLanguage": "toszkán népnyelv",
+      "compositionDate": "a XIV. század vége",
+      "dateFrom": 1370,
+      "dateTo": 1400,
+      "authenticity": "legendary",
+      "description": "Népnyelvű gyűjtemény Ferenc és a társak epizódjaiból, tizennegyedik századi latin szövegekből (Actus beati Francisci) fordítva és átdolgozva. Irodalmi mestermű: elbeszélései a jámborság tanúságtételei, nem történetileg ellenőrizhető krónika.",
+      "manuscriptNote": "Az Actus olasz változata; számos kézirat és nyomtatás.",
+      "licenseNote": "Középkori eredeti: közkincs. Magyar parafrázisok: ennek az alkalmazásnak eredeti szerkesztői szövegei.",
+      "referenceUrls": [
+        "https://www.treccani.it/",
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.preghiera_semplice",
+      "category": "interpretazione_moderna",
+      "title": "Az úgynevezett „egyszerű ima”",
+      "author": "Modern névtelen (első ismert közlés: 1912, a francia La Clochette folyóirat)",
+      "originalLanguage": "modern francia",
+      "compositionDate": "XX. század",
+      "dateFrom": 1912,
+      "dateTo": 1912,
+      "authenticity": "not_by_francis",
+      "description": "A „Tégy a te békéd eszközévé” ima nagyon szeretett, és lelkileg közel áll a ferences érzékenységhez, de NEM Ferencé: először 1912-ben jelenik meg, és csak később tulajdonították neki. A történelmi őszinteség kedvéért vesszük fel: az alkalmazás soha nem használja a szent idézeteként.",
+      "manuscriptNote": "Nincs középkori tanúsítás. Vö. P. Patrice Mahieu tanulmányai és a sanfrancesco.org áttekintései.",
+      "licenseNote": "Modern szöveg: ebben az alkalmazásban nem közöljük teljes egészében.",
+      "referenceUrls": [
+        "https://www.sanfrancesco.org/"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "source.narrazione_gioco",
+      "category": "narrazione_originale",
+      "title": "A játék eredeti elbeszélése",
+      "author": "Az alkalmazás szerkesztősége",
+      "description": "Dokumentális helyőrző a Vándor fejezeteihez és a kártyák helyzeteihez: eredeti történelmi fikció, a források ihlették, de soha nem történelmi tényként és nem Ferenc szavaként mutatjuk be.",
+      "licenseNote": "Az alkalmazás eredeti szövege.",
+      "reviewStatus": "verified"
+    }
+  ],
+  "passages": [
+    {
+      "id": "pass.testamento.lebbrosi",
+      "documentId": "source.testamento",
+      "reference": "Végrendelet 1–3",
+      "originalText": "Dominus ita dedit mihi fratri Francisco incipere faciendi poenitentiam: quia, cum essem in peccatis, nimis mihi videbatur amarum videre leprosos. Et ipse Dominus conduxit me inter illos et feci misericordiam cum illis. Et recedente me ab ipsis, id quod videbatur mihi amarum, conversum fuit mihi in dulcedinem animi et corporis; et postea parum steti et exivi de saeculo.",
+      "translation": "Az Úr adta meg nekem, Ferenc testvérnek, hogy így kezdjek bűnbánatot tartani: amikor a bűnökben voltam, túlságosan keserűnek tűnt a leprásokat látnom. És maga az Úr vezetett közéjük, és irgalmasságot cselekedtem velük. És amikor eltávolodtam tőlük, ami keserűnek tűnt, számomra a lélek és a test édességévé változott; és azután keveset időztem, és kiléptem a világból.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.chiese",
+      "documentId": "source.testamento",
+      "reference": "Végrendelet 4–13",
+      "originalText": "Et Dominus dedit mihi talem fidem in ecclesiis, ut ita simpliciter orarem et dicerem Adoramus te, Domine Jesu Christe et ad omnes ecclesias tuas, quae sunt in toto mundo, et benedicimus tibi, quia per sanctam crucem tuam redimisti mundum. Postea Dominus dedit mihi et dat tantam fidem in sacerdotibus, qui vivunt secundum formam sanctae ecclesiae Romanae propter ordinem ipsorum, quod si facerent mihi persecutionem, volo recurrere ad ipsos. Et si haberem tantam sapientiam, quantam Salomon habuit, et invenirem pauperculos sacerdotes huius saeculi, in parochiis, quibus morantur, nolo praedicare ultra voluntatem ipsorum. Et ipsos et omnes alios volo timere, amare et honorare sicut meos dominos. Et nolo in ipsis considerare peccatum, quia Filium Dei discerno in ipsis, et domini mei sunt. Et propter hoc facio, quia nihil video corporaliter in hoc saeculo de ipso altissimo Filio Dei, nisi sanctissimum corpus et sanctissimum sanguinem suum, quod ipsi recipiunt et ipsi soli aliis ministrant. Et haec sanctissima mysteria super omnia volo honorari, venerari et in locis pretiosis collocari. Sanctissima nomina et verba eius scripta, ubicumque invenero in locis illicitis, volo colligere et rogo, quod colligantur et in loco honesto collocentur. Et omnes theologos et qui ministrant sanctissima verba divina, debemus honorare et venerari, sicut qui ministrant nobis spiritum et vitam (cfr. Joa 6,64).",
+      "translation": "És az Úr olyan hitet adott nekem a templomokban, hogy egyszerűen imádkoztam és mondtam: Imádunk téged, Úr Jézus Krisztus, minden templomodban is, amelyek az egész világon vannak, és áldunk téged, mert szent kereszteddel megváltottad a világot. Azután az Úr olyan hitet adott, és ad nekem a papokban, akik a római szent Egyház formája szerint élnek, a rendjük miatt, hogy ha üldöznének is, hozzájuk akarok folyamodni. És ha annyi bölcsességem volna, amennyi Salamonnak volt, és e világ szegény kis papjaira találnék a plébániákon, ahol laknak, nem akarok az akaratuk ellen prédikálni. Őket, és mindenki mást, félni, szeretni és tisztelni akarom, mint uraimat. És nem akarom a bűnt figyelembe venni bennük, mert felismerem bennük Isten Fiát, és ők az uraim. Azért teszem ezt, mert a magasságos Isten Fiából semmit sem látok ebben a világban testi szememmel, csak legszentebb testét és legszentebb vérét, amelyet ők vesznek magukhoz, és egyedül ők szolgáltatnak ki másoknak. És ezeket a legszentebb misztériumokat mindenek fölött tisztelni és becsülni akarom, és drága helyekre helyezni. Legszentebb neveit és írott szavait, ahol méltatlan helyen találom, össze akarom szedni, és kérem, hogy szedjék össze, és illő helyre tegyék. És minden teológust, és azokat, akik a legszentebb isteni szavakat szolgáltatják, tisztelnünk és becsülnünk kell, mint akik lelket és életet szolgáltatnak nekünk.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.vangelo",
+      "documentId": "source.testamento",
+      "reference": "Végrendelet 14–22",
+      "originalText": "Et postquam Dominus dedit mihi de fratribus, nemo ostendebat mihi, quid deberem facere, sed ipse Altissimus revelavit mihi, quod deberem vivere secundum formam sancti Evangelii. Et ego paucis verbis et simpliciter feci scribi et dominus papa confirmavit mihi. Et illi qui veniebant ad recipiendam vitam, omnia quae habere poterant (Tob 1,3), dabant pauperibus; et erant contenti tunica una, intus et foris repeciata, cum cingulo et braccis. Et nolebamus plus habere. Officium dicebamus clerici secundum alios clericos, laici dicebant Pater noster; et satis libenter manebamus in ecclesiis. Et eramus idiotae et subditi omnibus. Et ego manibus meis laborabam, et volo laborare; et omnes alii fratres firmiter volo, quod laborent de laboritio, quod pertinet ad honestatem. Qui nesciunt, discant, non propter cupiditatem recipiendi pretium laboris, sed propter exemplum et ad repellendam otiositatem. Et quando non daretur nobis pretium laboris, recurramus ad mensam Domini, petendo eleemosynam ostiatim.",
+      "translation": "És miután az Úr testvéreket adott nekem, senki sem mutatta meg, mit kell tennem, hanem maga a Magasságbeli nyilatkoztatta ki nekem, hogy a szent evangélium formája szerint éljek. És kevés szóval, egyszerűen leíratta, és a pápa úr megerősítette nekem. És akik eljöttek, hogy ezt az életet felvegyék, a szegényeknek adtak mindent, amijük lehetett, és megelégedtek egy tunikával, belül-kívül foltozva, a kötéllel és a nadrággal. És nem akartunk többet. Mi, akik klerikusok voltunk, úgy mondtuk a zsolozsmát, ahogy a többi klerikus; a világi testvérek a Miatyánkot mondták; és elég szívesen maradtunk a templomokban. És írástudatlanok voltunk, és mindenki alattvalói. És a kezeimmel dolgoztam, és dolgozni akarok; és szilárdan akarom, hogy a többi testvér is becsületes munkát végezzen. Akik nem tudják, tanulják meg, nem a munka bérének mohóságából, hanem a példa kedvéért és a tétlenség elűzésére. És amikor a munka bérét nem adják meg nekünk, forduljunk az Úr asztalához, házról házra alamizsnát kérve.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.saluto_pace",
+      "documentId": "source.testamento",
+      "reference": "Végrendelet 23",
+      "originalText": "Salutationem mihi Dominus revelavit, ut diceremus Dominus det tibi pacem.",
+      "translation": "Az Úr egy köszöntést nyilatkoztatott ki nekem, hogy ezt mondjuk: Az Úr adjon neked békét.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.poverta_case",
+      "documentId": "source.testamento",
+      "reference": "Végrendelet 24–26",
+      "originalText": "Caveant sibi fratres, ut ecclesias, habitacula paupercula et omnia, quae pro ipsis construuntur, penitus non recipiant, nisi essent, sicut decet sanctam paupertatem, quam in regula promisimus, semper ibi hospitantes sicut advenae et peregrini (cfr. 1 Petr 2,11). Praecipio firmiter per obedientiam fratribus universis, quod ubicumque sunt, non audeant petere aliquam litteram in curia Romana per se neque per interpositam personam, neque pro ecclesia neque pro alio loco neque sub specie praedicationis neque pro persecutione suorum corporum; sed ubicumque non fuerint recepti, fugiant in aliam terram ad faciendam poenitentiam cum benedictione Dei.",
+      "translation": "Óvakodjanak a testvérek attól, hogy templomokat, szegény kis lakásokat és mindent, amit nekik építenek, elfogadjanak, hacsak ezek nem olyanok, ahogyan a szent szegénységhez illik, amelyet a Regulában megígértünk, mindig idegenként és zarándokként maradva ott. Engedelmességből szilárdan parancsolom minden testvérnek, hogy bárhol vannak, ne merjenek semmilyen levelet kérni a római kúriától, sem maguk, sem más személy által, sem templomért, sem bármely más helyért, sem a prédikáció látszata alatt, sem testük üldözése miatt; hanem ahol nem fogadták be őket, meneküljenek más földre, hogy Isten áldásával bűnbánatot tartsanak.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.obbedienza",
+      "documentId": "source.testamento",
+      "reference": "Végrendelet 27–34",
+      "originalText": "Et firmiter volo obedire ministro generali huius fraternitatis et alio guardiano, quem sibi placuerit mihi dare. Et ita volo esse captus in manibus suis, ut non possim ire vel facere ultra obedientiam et voluntatem suam, quia dominus meus est. Et quamvis sim simplex et infirmus, tamen semper volo habere clericum, qui mihi faciat officium, sicut in regula continetur. Et omnes alii fratres teneantur ita obedire guardianis suis et facere officium secundum regulam. Et qui inventi essent, quod non facerent officium secundum regulam, et vellent alio modo variare, aut non essent catholici, omnes fratres, ubicumque sunt, per obedientiam teneantur, quod ubicumque invenerint aliquem ipsorum, proximiori custodi illius loci, ubi ipsum invenerint, debeant repraesentare. Et custos firmiter teneatur per obedientiam ipsum fortiter custodire, sicuti hominem in vinculis die noctuque, ita quod non possit eripi de manibus suis, donec propria sua persona ipsum repraesentet in manibus sui ministri. Et minister firmiter teneatur per obedientiam mittendi ipsum per tales fratres, quod die noctuque custodiant ipsum sicuti hominem in vinculis, donec repraesentent ipsum coram domino Ostiensi, qui est dominus, protector et corrector totius fraternitatis. Et non dicant fratres Haec est alia regula; quia haec est recordatio, admonitio, exhortatio et meum testamentum, quod ego frater Franciscus parvulus facio vobis fratribus meis benedictis propter hoc, ut regulam, quam Domino promisimus, melius catholice observemus.",
+      "translation": "És szilárdan engedelmeskedni akarok ennek a testvériségnek az általános miniszterének, és annak a gvárdiánnak, akit neki tetszik adnia nekem. És úgy akarok a kezében lenni, hogy ne mehessek és ne cselekedhessek az engedelmességen és az akaratán túl, mert ő az uram. És bár egyszerű vagyok és beteg, mégis mindig akarok egy klerikust, aki a zsolozsmát mondja helyettem, ahogyan a Regulában van. És a többi testvér ugyanígy köteles engedelmeskedni a gvárdiánjainak, és a Regula szerint mondani a zsolozsmát. És ha találnának valakit, aki nem a Regula szerint mondja a zsolozsmát, és más módon akarná megváltoztatni, vagy nem volna katolikus, minden testvér, bárhol van, engedelmességből köteles, ahol egyiküket találja, a legközelebbi kusztosz elé vinni, ahhoz a helyhez, ahol találta. És a kusztosz engedelmességből szilárdan köteles szorosan őrizni, mint a láncra vert embert, éjjel és nappal, hogy ki ne vehessék a kezéből, amíg ő maga a minisztere kezébe nem adja. És a miniszter engedelmességből szilárdan köteles olyan testvérekkel küldeni, akik éjjel-nappal őrzik, mint a láncra vert embert, amíg az ostiai úr elé nem viszik, aki az egész testvériség ura, pártfogója és korrektorja. És a testvérek ne mondják: Ez egy másik regula. Mert ez emlékeztetés, intés, buzdítás, és az én végrendeletem, amelyet én, Ferenc testvér, a kicsiny, nektek, áldott testvéreimnek hagyok, hogy katolikusabb módon tartsuk meg a Regulát, amelyet az Úrnak ígértünk.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.testamento.senza_glossa",
+      "documentId": "source.testamento",
+      "reference": "Végrendelet 35–41",
+      "originalText": "Et generalis minister et omnes alii ministri et custodes per obedientiam teneantur, in istis verbis non addere vel minuere. Et semper hoc scriptum habeant secum iuxta regulam. Et in omnibus capitulis, quae faciunt, quando legunt regulam, legant et ista verba. Et omnibus fratribus meis clericis et laicis praecipio firmiter per obedientiam, ut non mittant glossas in regula neque in istis verbis dicendo Ita volunt intelligi. Sed sicut dedit mihi Dominus simpliciter et pure dicere et scribere regulam et ista verba, ita simpliciter et sine glossa intelligatis et cum sancta operatione observetis usque in finem. Et quicumque haec observaverit, in caelo repleatur benedictione altissimi Patris et in terra repleatur benedictione dilecti Filii sui cum sanctissimo Spiritu Paraclito et omnibus virtutibus caelorum et omnibus sanctis. Et ego frater Franciscus parvulus, vester servus, quantumcumque possum, confirmo vobis intus et foris istam sanctissimam benedictionem. en The Testament of St. Francis of Assisi hr Oporuka svetoga Franje ru Завещание (Франциск Ассизский)",
+      "translation": "És az általános miniszter és minden más miniszter és kusztosz engedelmességből köteles ezekhez a szavakhoz nem hozzátenni, és belőlük el nem venni semmit. És mindig legyen náluk ez az írás, a Regula mellett. És minden káptalanon, amelyet tartanak, amikor a Regulát olvassák, olvassák ezeket a szavakat is. És engedelmességből szilárdan parancsolom minden testvéremnek, klerikusnak és világinak, hogy ne tegyenek glosszát a Regulára vagy ezekre a szavakra, mondván: Így kell érteni őket. Hanem ahogyan az Úr adta nekem, hogy a Regulát és ezeket a szavakat egyszerűen és tisztán mondjam és írjam, úgy értsétek őket egyszerűen és glossza nélkül, és tartsátok meg szent munkával mindvégig. És aki ezeket megtartotta, teljen meg a mennyben a magasságos Atya áldásával, a földön pedig szeretett Fiának áldásával, a legszentebb Lélekkel, a Vigasztalóval, és az ég minden erényével és minden szenttel. És én, Ferenc testvér, a kicsiny, a ti szolgátok, amennyire tudom, megerősítem nektek, belül és kívül, ezt a legszentebb áldást.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.apertura",
+      "documentId": "source.cantico",
+      "reference": "A teremtmények éneke, 1–9. vers",
+      "originalText": "Altissimu, onnipotente, bon Signore, tue so' le laude, la gloria e l'honore et onne benedictione. Ad te solo, Altissimo, se konfano, et nullu homo ène dignu te mentovare. Laudato sie, mi' Signore, cum tucte le tue creature, spetialmente messor lo frate sole, lo qual' è iorno, et allumini noi per lui.",
+      "translation": "Magasságos, mindenható, jó Úr, tied a dicséret, a dicsőség, a tisztelet és minden áldás. Egyedül téged illetnek, Magasságos, és ember nem méltó, hogy kimondja a nevedet. Áldott légy, Uram, minden teremtményeddel, kiváltképpen a nap úr testvérrel, aki a nappal, és aki által világosságot adsz nekünk.",
+      "note": "Az assisi 338-as kódex umbriai népnyelve, abban a szövegformában, amelyet már az 1–9. vershez használtunk. A folytatást az it.wikisource diplomáciai átiratával vetettük össze, Cantico di Frate Sole (2026. 11. 11.); ahol a szkennelés széttörte a szót, a megegyező alakokat helyreállítottuk. Az alkalmazás eredeti szerkesztői fordítása.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.creature",
+      "documentId": "source.cantico",
+      "reference": "A teremtmények éneke, középső strófák",
+      "originalText": "Et ellu è bellu e radiante cum grande splendore: de te, Altissimo, porta significatione. Laudato si', mi' Signore, per sora luna e le stelle: in celu l'ài formate clarite et pretiose et belle. Laudato si', mi' Signore, per frate vento et per aere et nubilo et sereno et onne tempo, per lo quale a le tue creature dài sustentamento. Laudato si', mi' Signore, per sor'acqua, la quale è multo utile et humile et pretiosa et casta. Laudato si', mi' Signore, per frate focu, per lo quale ennallumini la nocte: et ello è bello et iocundo et robustoso et forte. Laudato si', mi' Signore, per sora nostra matre terra, la quale ne sustenta et governa, et produce diversi fructi con coloriti flori et herba.",
+      "translation": "És szép és ragyogó, nagy fénnyel: rólad, Magasságos, ő hordozza a jelentést. Áldott légy, Uram, a hold nővér által és a csillagok által: az égben formáltad őket, tisztán, drágán és szépen. Áldott légy, Uram, a szél testvér által, és a levegő, a felhő, a szép idő és minden idő által, amelyekkel táplálékot adsz teremtményeidnek. Áldott légy, Uram, a víz nővér által, aki nagyon hasznos, alázatos, drága és tiszta. Áldott légy, Uram, a tűz testvér által, aki által megvilágítod az éjszakát: és szép, vidám, erőteljes és erős. Áldott légy, Uram, a föld anya nővérünk által, aki tart és kormányoz minket, és különféle gyümölcsöket terem színes virágokkal és fűvel.",
+      "note": "Az assisi 338-as kódex umbriai népnyelve, abban a szövegformában, amelyet már az 1–9. vershez használtunk. A folytatást az it.wikisource diplomáciai átiratával vetettük össze, Cantico di Frate Sole (2026. 11. 11.); ahol a szkennelés széttörte a szót, a megegyező alakokat helyreállítottuk. Az alkalmazás eredeti szerkesztői fordítása.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.cantico.perdono_morte",
+      "documentId": "source.cantico",
+      "reference": "A teremtmények éneke, záró strófák",
+      "originalText": "Laudato si', mi' Signore, per quelli ke perdonano per lo tuo amore et sostengono infirmitate et tribulatione. Beati quelli ke 'l sosterranno in pace, ka da te, Altissimo, sirano incoronati. Laudato si', mi' Signore, per sora nostra morte corporale, da la quale nullu homo vivente pò skappare: guai a quelli ke morrano ne le peccata mortali; beati quelli ke trovarà ne le tue sanctissime voluntati, ka la morte secunda no 'l farrà male. Laudate et benedicete mi' Signore et rengratiate e serviateli cum grande humilitate.",
+      "translation": "Áldott légy, Uram, azok által, akik a te szeretetedért megbocsátanak, és betegséget és gyötrelmet viselnek. Boldogok, akik békében tűrik őket, mert általad, Magasságos, megkoronáztatnak. Áldott légy, Uram, a testi halál nővérünk által, akitől egyetlen élő sem menekülhet: jaj azoknak, akik halálos bűnben halnak meg; boldogok, akiket a te legszentebb akaratodban talál, mert a második halál nem árt nekik. Dicsérjétek és áldjátok az én Uramat, és adjatok hálát, és szolgáljátok őt nagy alázattal.",
+      "note": "Az assisi 338-as kódex umbriai népnyelve, abban a szövegformában, amelyet már az 1–9. vershez használtunk. A folytatást az it.wikisource diplomáciai átiratával vetettük össze, Cantico di Frate Sole (2026. 11. 11.); ahol a szkennelés széttörte a szót, a megegyező alakokat helyreállítottuk. Az alkalmazás eredeti szerkesztői fordítása.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.bolla",
+      "documentId": "source.regola_bollata",
+      "reference": "III. Honoriusz bullája, a Regula elé helyezve",
+      "originalText": "Honorius episcopus servus servorum dei dilectis filiis, fratri Francisco et aliis fratribus de ordine fratrum minorum, salutem et apostolicam benedictionem. Solet annuere sedes apostolica piis votis et honestis petentium desideriis favorem benivolum impertiri. Eapropter, dilecti in domino filii, vestris piis precibus inclinati, ordinis vestri regulam, a bone memorie Innocentio papa, predecessore nostro, approbatam, annotatam presentibus, auctoritate vobis apostolica confirmamus et presentis scripti patrocinio communimus, que talis est Regula minorum fratrum.",
+      "translation": "Honoriusz püspök, Isten szolgáinak szolgája, szeretett fiainak, Ferenc testvérnek és a Kisebb Testvérek Rendje többi testvérének: üdvözlet és apostoli áldás. Az apostoli szék szokása szerint megadja a kérők jámbor fogadalmait és becsületes vágyait, és kegyesen kedvez nekik. Ezért, szeretett fiaink az Úrban, jámbor kéréseitektől indíttatva apostoli tekintéllyel megerősítjük nektek a Rendetek reguláját, amelyet jó emlékezetű Ince pápa, elődünk hagyott jóvá, és amelyet ide másolunk, és e jelen írás oltalmával erősítjük meg. Ez a következő: a Kisebb Testvérek Regulája.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c01",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, I. fejezet",
+      "originalText": "[1] Regula et Vita Minorum Fratrum haec est, scilicet Domini nostri Jesu Christi sanctum Evangelium observare vivendo in obedientia, sine proprio et in castitate. [2] Frater Franciscus promittit obedientiam et reverentiam domino papae Honorio ac successoribus eius canonice intrantibus et Ecclesiae Romanae. [3] Et alii fratres teneantur fratri Francisco et eius successoribus obedire.",
+      "translation": "A Kisebb Testvérek regulája és élete ez: megtartani a mi Urunk Jézus Krisztus szent evangéliumát, engedelmességben, semmi saját nélkül és tisztaságban élve. Ferenc testvér engedelmességet és tiszteletet ígér Honoriusz pápa úrnak és kanonikusan választott utódainak, és a római Egyháznak. A többi testvér pedig köteles engedelmeskedni Ferenc testvérnek és utódainak.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c02",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, II. fejezet",
+      "originalText": "[1] Si qui voluerint hanc vitam accipere et venerint ad fratres nostros, mittant eos ad suos ministros provinciales, quibus solummodo et non aliis recipiendi fratres licentia concedatur. [2] Ministri vero diligenter examinent eos de fide catholica et ecclesiasticis sacramentis. [3] Et si haec omnia credant et velint ea fideliter confiteri et usque in finem firmiter observare [4] et uxores non habent vel, si habent, et iam monasterium intraverint uxores vel licentiam eis dederint auctoritate diocesani episcopi, voto continentiae iam emisso, et illius sint aetatis uxores, quod non possit de eis oriri suspicio, [5] dicant illis verbum sancti Evangelii (cfr. Mt 19,21 par), quod vadant et vendant omnia sua et ea studeant pauperibus erogare. [6] Quod si facere non potuerint, sufficit eis bona voluntas. [7] Et caveant fratres et eorum ministri, ne solliciti sint de rebus suis temporalibus, ut libere faciant de rebus suis, quidquid Dominus inspiraverit eis. [8] Si tamen consilium requiratur, licentiam habeant ministri mittendi eos ad aliquos Deum timentes, quorum consilio bona sua pauperibus erogentur. [9] Postea concedant eis pannos probationis, videlicet duas tunicas sine caputio et cingulum et braccas et caparonem usque ad cingulum, [10] nisi eisdem ministris aliud secundum Deum aliquando videatur. [11] Finito vero anno probationis, recipiantur ad obedientiam promittentes vitam istam semper et regulam observare. [12] Et nullo modo licebit eis de ista religione exire iuxta mandatum domini papae, [13] quia secundum sanctum Evangelium nemo mittens manum ad aratrum et aspiciens retro aptus est regno Dei (Lc 9,62). [14] Et illi qui iam promiserunt obedientiam habeant unam tunicam cum caputio et aliam sine caputio qui voluerint habere. [15] Et qui necessitate coguntur possint portare calciamenta. [16] Et fratres omnes vestimentis vilibus induantur et possint ea repeciare de saccis et aliis peciis cum benedictione Dei. [17] Quos moneo et exhortor, ne despiciant neque iudicent homines, quos vident mollibus vestimentis et coloratis indutos, uti cibis et potibus delicatis, sed magis unusquisque iudicet et despiciat semetipsum.",
+      "translation": "Ha valaki fel akarja venni ezt az életet, és a testvéreinkhez jön, küldjék a tartományi miniszterükhöz, akiknek egyedül van engedélyük testvéreket befogadni. A miniszterek vizsgálják meg őket gondosan a katolikus hitről és az Egyház szentségeiről. Ha mindezt hiszik, és hűségesen meg akarják vallani, és szilárdan meg akarják tartani mindvégig, és nincs feleségük, vagy ha van, és a feleségek már kolostorba léptek, vagy a megyéspüspök tekintélyével és a már tett önmegtartóztatás fogadalmával engedélyt adtak, és olyan korban vannak, hogy gyanú nem támadhat, a testvérek mondják el nekik a szent evangélium szavát: menjenek, adják el, amijük van, és gondoskodjanak arról, hogy a szegényeknek adják. Ha nem tudják, a jóakarat elég. A testvérek és minisztereik óvakodjanak attól, hogy azokkal az időleges javakkal törődjenek, hogy az újonnan jövők szabadon rendelkezhessenek velük, ahogyan az Úr sugallja. Ha tanácsot kérnek, a miniszterek istenfélő emberekhez küldhetik őket, akiknek tanácsára a javakat a szegényeknek adják. Azután adják a próba ruháit: két tunikát kapucni nélkül, a kötelet, a nadrágot és a kötélig érő köpenyt, hacsak a miniszterek Isten szerint másként nem ítélnek néha. Amikor a próba éve véget ér, fogadják be őket engedelmességre, ígéretet téve, hogy mindig megtartják ezt az életet és a Regulát. Nem lesz szabad elmenniük, a pápa parancsa szerint, mert aki az ekére teszi a kezét és hátranéz, nem alkalmas Isten országára. Akik már engedelmességet ígértek, egy kapucnis tunikát viseljenek, és ha akarják, egy másikat kapucni nélkül. Akiket a szükség kényszerít, viselhetnek cipőt. Minden testvér szegény ruhát viseljen, és megfoltozhatják zsákvászonnal és más darabokkal, Isten áldásával. Figyelmeztetem és buzdítom őket, hogy ne vessék meg és ne ítéljék azokat, akik puha és színes ruhába öltöznek, és finom ételt-italt használnak: inkább mindenki magát ítélje és vesse meg.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c03",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, III. fejezet",
+      "originalText": "[1] Clerici faciant divinum officium secundum ordinem sanctae Romanae Ecclesiae excepto psalterio, [2] ex quo habere poterunt breviaria. [3] Laici vero dicant viginti quattuor Pater noster pro matutino, pro laude quinque, pro prima, tertia, sexta, nona, pro qualibet istarum septem, pro vesperis autem duodecim, pro completorio septem; [4] et orent pro defunctis. [5] Et ieiunent a festo Omnium Sanctorum usque ad Nativitatem Domini. [6] Sanctam vero quadragesimam, quae incipit ab Epiphania usque ad continuos quadraginta dies, quam Dominus suo sancto ieiunio consecravit (cfr. Mt 4,2), qui voluntarie eam ieiunant benedicti sint a Domino, et qui nolunt non sint astricti. [7] Sed aliam usque ad Resurrectionem Domini ieiunent. [8] Aliis autem temporibus non teneantur nisi sexta feria ieiunare. [9] Tempore vero manifestae necessitatis non teneantur fratres ieiunio corporali. [10] Consulo vero, moneo et exhortor fratres meos in Domino Jesu Christo, ut, quando vadunt per mundum, non litigent neque contendant verbis (cfr. 2 Tim 2,14), nec alios iudicent; [11] sed sint mites, pacifici et modesti, mansueti et humiles, honeste loquentes omnibus, sicut decet. [12] Et non debeant equitare, nisi manifesta necessitate vel infirmitate cogantur. [13] In quamcumque domum intraverint, primum dicant Pax huic domui (cfr. Lc 10,5). [14] Et secundum sanctum Evangelium de omnibus cibis, qui apponuntur eis, liceat manducare (cfr. Lc 10,8).",
+      "translation": "A klerikusok a római szent Egyház szertartása szerint mondják a zsolozsmát, a zsoltároskönyv kivételével, amelyhez breviáriumuk lehet. A világi testvérek mondjanak huszonnégy Miatyánkot a matutínumra, ötöt a laudákra, hetet-hetet a prímra, a terciára, a szextára és a nónára, tizenkettőt a vecsernyére és hetet a kompletóriumra, és imádkozzanak a holtakért. Böjtöljenek Mindenszentektől karácsonyig. A nagyböjt, amely vízkereszttel kezdődik és negyven napig tart, amelyet az Úr a saját böjtjével szentelt meg: akik szabadon megtartják, áldottak az Úrtól, és akik nem akarják, nincsenek kötve. A másik nagyböjtöt, a feltámadásig, böjtöljék. Máskor csak pénteken kötelesek böjtölni. Nyilvánvaló szükségben nincsenek a test böjtjére kötve. Tanácsolom, intem és buzdítom testvéreimet az Úr Jézus Krisztusban: amikor a világban járnak, ne veszekedjenek, ne versengjenek szavakban, és ne ítéljenek másokat; legyenek szelídek, békések, szerények, gyengédek és alázatosak, és mindenkihez becsületesen szóljanak, ahogyan illik. Ne lovagoljanak, hacsak nyilvánvaló szükség vagy betegség nem kényszeríti. Bármely házba lépnek, először ezt mondják: Béke ennek a háznak. És az evangélium szerint ehetnek bármilyen ételt, amelyet eléjük tesznek.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c04",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, IV. fejezet",
+      "originalText": "[1] Praecipio firmiter fratribus universis, ut nullo modo denarios vel pecuniam recipiant per se vel per interpositam personam. [2] Tamen pro necessitatibus infirmorum et aliis fratribus induendis per amicos spirituales ministri tantum et custodes sollicitam curam gerant secundum loca et tempora et frigidas regiones, sicut necessitati viderint expedire; [3] eo semper salvo, ut, sicut dictum est, denarios vel pecuniam non recipiant.",
+      "translation": "Szilárdan parancsolom minden testvérnek, hogy semmiképpen se fogadjanak el pénzérmét vagy pénzt, sem maguk, sem más személy által. A betegek szükségleteire és a többi testvér ruházására csak a miniszterek és a kusztoszok, lelki barátok által, gondosan viseljék a gondot a helyek, az idők és a hideg vidékek szerint, ahogyan a szükség kívánja; mindig úgy maradva, hogy, amint mondtuk, ők maguk ne fogadjanak el pénzérmét vagy pénzt.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c05",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, V. fejezet",
+      "originalText": "[1] Fratres illi, quibus gratiam dedit Dominus laborandi, laborent fideliter et devote, [2] ita quod, excluso otio animae inimico, sanctae orationis et devotionis spiritum non exstinguant, cui debent cetera temporalia deservire. [3] De mercede vero laboris pro se et suis fratribus corporis necessaria recipiant praeter denarios vel pecuniam [4] et hoc humiliter, sicut decet servos Dei et paupertatis sanctissimae sectatores.",
+      "translation": "A testvérek, akiknek az Úr megadta a munka kegyelmét, dolgozzanak hűségesen és áhítattal, hogy a tétlenséget, a lélek ellenségét kizárva, ki ne oltsák a szent ima és áhítat lelkét, amelynek minden más időleges dolognak szolgálnia kell. A munka béréül kapják meg, maguknak és testvéreiknek, amire a testnek szüksége van, a pénzérme és a pénz kivételével, és alázattal fogadják, ahogyan Isten szolgáihoz és a legszentebb szegénység követőihez illik.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.poverta",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, VI. fejezet",
+      "originalText": "[1] Fratres nihil sibi approprient nec domum nec locum nec aliquam rem. [2] Et tanquam peregrini et advenae (cfr. 1 Petr 2,11) in hoc saeculo in paupertate et humilitate Domino famulantes vadant pro eleemosyna confidenter, [3] nec oportet eos verecundari, quia Dominus pro nobis se fecit pauperem in hoc mundo (cfr. 2 Cor 8,9). [4] Haec est illa celsitudo altissimae paupertatis, quae vos, carissimos fratres meos, heredes et reges regni caelorum instituit, pauperes rebus fecit, virtutibus sublimavit (cfr. Jac 2,5). [5] Haec sit portio vestra, quae perducit in terram viventium (cfr. Ps 141,6). [6] Cui, dilectissimi fratres, totaliter inhaerentes nihil aliud pro nomine Domini nostri Jesu Christi in perpetuum sub caelo habere velitis. [7] Et, ubicumque sunt et se invenerint fratres, ostendant se domesticos invicem inter se. [8] Et secure manifestet unus alteri necessitatem suam, quia, si mater nutrit et diligit filium suum (cfr. 1 Thess 2,7) carnalem, quanto diligentius debet quis diligere et nutrire fratrem suum spiritualem? [9] Et, si quis eorum in infirmitate ceciderit, alii fratres debent ei servire, sicut vellent sibi serviri (cfr. Mt 7,12).",
+      "translation": "A testvérek semmit se sajátítsanak el, sem házat, sem helyet, sem bármit. Mint zarándokok és idegenek ebben a világban, szegénységben és alázatban szolgálva az Urat, bizalommal járjanak alamizsnáért, és ne szégyelljék, mert az Úr szegénnyé tette magát értünk ebben a világban. Ez a legmagasabb szegénység csúcsa, amely titeket, legkedvesebb testvéreim, a mennyek országának örököseivé és királyaivá tett, szegényekké a dolgokban és magasakká az erényben. Ez legyen a részetek, amely az élők földjére vezet. Egészen ragaszkodva hozzá, szeretetre méltó testvérek, ne akarjatok örökre semmi mást az ég alatt, a mi Urunk Jézus Krisztus nevéért. Ahol a testvérek vannak és találkoznak, mutassák magukat egymásnak egy háznak. Az egyik bizalommal tárja fel a szükségét a másiknak: ha egy anya táplálja és szereti a gyermekét a test szerint, mennyivel inkább kell szeretnie és táplálnia a testvérét a lélek szerint? És ha egyik megbetegszik, a többi testvér úgy szolgálja, ahogyan maga szeretné, hogy szolgálják.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c07",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, VII. fejezet",
+      "originalText": "[1] Si qui fratrum, instigante inimico, mortaliter peccaverint, pro illis peccatis, de quibus ordinatum fuerit inter fratres, ut recurratur ad solos ministros provinciales, teneantur praedicti fratres ad eos recurrere quam citius poterint, sine mora. [2] Ipsi vero ministri, si presbyteri sunt, cum misericordia iniungant illis poenitentiam; si vero presbyteri non sunt, iniungi faciant per alios sacerdotes ordinis, sicut eis secundum Deum melius videbitur expedire. [3] Et cavere debent, ne irascantur et conturbentur propter peccatum alicuius, quia ira et conturbatio in se et in aliis impediunt caritatem.",
+      "translation": "Ha egyes testvérek, az ellenségtől késztetve, halálosan vétkeznek, azokért a bűnökért, amelyekről a testvérek között úgy van rendelve, hogy csak a tartományi miniszterekhez kell folyamodni, folyamodjanak hozzájuk, amint tudnak, késedelem nélkül. A miniszterek, ha papok, irgalommal szabják ki a bűnbánatot; ha nem, más, a Rendhez tartozó papokkal szabassák ki, ahogyan Isten szerint a legjobbnak látszik. Óvakodjanak a haragtól és a felindulástól bárki bűne miatt: a harag és a felindulás elzárja a szeretetet önmagunkban és másokban.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c08",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, VIII. fejezet",
+      "originalText": "[1] Universi fratres unum de fratribus istius religionis teneantur semper habere generalem ministrum et servum totius fraternitatis et ei teneantur firmiter obedire. [2] Quo decedente, electio successoris fiat a ministris provincialibus et custodibus in capitulo Pentecostes, in quo provinciales ministri teneantur semper insimul convenire, ubicumque a generali ministro fuerit constitutum; [3] et hoc semel in tribus annis vel ad alium terminum maiorem vel minorem, sicut a praedicto ministro fuerit ordinatum. [4] Et si aliquo tempore appareret universitati ministrorum provincialium et custodum, praedictum ministrum non esse sufficientem ad servitium et communem utilitatem fratrum, teneantur praedicti fratres, quibus electio data est, in nomine Domini alium sibi eligere in custodem. [5] Post capitulum vero Pentecostes ministri et custodes possint singuli, si voluerint et eis expedire videbitur, eodem anno in suis custodiis semel fratres suos ad capitulum convocare.",
+      "translation": "Minden testvérnek mindig legyen egy testvére ennek a rendnek általános miniszterként és az egész testvériség szolgájaként, és szilárdan engedelmeskedjenek neki. Halálakor az utódot a tartományi miniszterek és a kusztoszok válasszák a pünkösdi káptalanon, ahol a tartományi minisztereknek mindig össze kell gyűlniük, azon a helyen, amelyet az általános miniszter kijelöl, háromévente egyszer, vagy más, hosszabb vagy rövidebb határidőn, amelyet elrendel. Ha a miniszterek és kusztoszok teste úgy találná, hogy az a miniszter nem elegendő a testvérek szolgálatára és közös javára, azok, akikhez a választás tartozik, az Úr nevében kötelesek mást választani. A pünkösdi káptalan után a miniszterek és a kusztoszok, ha akarják és hasznosnak látják, ugyanabban az évben egyszer összehívhatják a saját testvéreiket káptalanra a kusztódiájukban.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c09",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, IX. fejezet",
+      "originalText": "[1] Fratres non praedicent in episcopatu alicuius episcopi, cum ab eo illis fuerit contradictum. [2] Et nullus fratrum populo penitus audeat praedicare, nisi a ministro generali huius fraternitatis fuerit examinatus et approbatus, et ab eo officium sibi praedicationis concessum. [3] Moneo quoque et exhortor eosdem fratres, ut in praedicatione, quam faciunt, sint examinata et casta eorum eloquia (cfr. Ps 11,7; 17,31), ad utilitatem et aedificationem populi, [4] annuntiando eis vitia et virtutes, poenam et gloriam cum brevitate sermonis; quia verbum abbreviatum fecit Dominus super terram (cfr. Rom 9,28).",
+      "translation": "A testvérek ne prédikáljanak egy püspök egyházmegyéjében, ha ő megtiltotta. Egyetlen testvér se merjen a népnek prédikálni, hacsak az általános miniszter meg nem vizsgálta és jóvá nem hagyta, és hacsak a miniszter meg nem adta neki a prédikáció hivatalát. Figyelmeztetem és buzdítom a testvéreket: a prédikációban a szavaik legyenek megfontoltak és tiszták, a nép javára és épülésére, hirdetve a vétkeket és az erényeket, a büntetést és a dicsőséget, röviden, mert az Úr megrövidített szót tett a földön.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c10",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, X. fejezet",
+      "originalText": "[1] Fratres, qui sunt ministri et servi aliorum fratrum, visitent et moneant fratres suos et humiliter et caritative corrigant eos, non praecipientes eis aliquid, quod sit contra animam suam et regulam nostram. [2] Fratres vero, qui sunt subditi, recordentur, quod propter Deum abnegaverunt proprias voluntates. [3] Unde firmiter praecipio eis, ut obediant suis ministris in omnibus quae promiserunt Domino observare et non sunt contraria animae et regulae nostrae. [4] Et ubicumque sunt fratres, qui scirent et cognoscerent, se non posse regulam spiritualiter observare, ad suos ministros debeant et possint recurrere. [5] Ministri vero caritative et benigne eos recipiant et tantam familiaritatem habeant circa ipsos, ut dicere possint eis et facere sicut domini servis suis; [6] nam ita debet esse, quod ministri sint servi omnium fratrum. [7] Moneo vero et exhortor in Domino Jesu Christo, ut caveant fratres ab omni superbia, vana gloria, invidia, avaritia (cfr. Lc 12,15), cura et sollicitudine huius saeculi (cfr. Mt 13,22), detractione et murmuratione, et non curent nescientes litteras litteras discere; [8] sed attendant, quod super omnia desiderare debent habere Spiritum Domini et sanctam eius operationem, [9] orare semper ad eum puro corde et habere humilitatem, patientiam in persecutione et infirmitate [10] et diligere eos qui nos persequuntur et reprehendunt et arguunt, quia dicit Dominus Diligite inimicos vestros et orate pro persequentibus et calumniantibus vos (cfr. Mt 5,44). [11] Beati qui persecutionem patiuntur propter iustitiam, quoniam ipsorum est regnum caelorum (Mt 5,10). [12] Qui autem perseveraverit usque in finem hic salvus erit (Mt 10,22).",
+      "translation": "A testvérek, akik miniszterek és a többiek szolgái, látogassák és intsék testvéreiket, és alázattal és szeretettel korrigálják őket, semmit sem parancsolva a lélek és a Regulánk ellen. Az alárendelt testvérek emlékezzenek arra, hogy Istenért lemondtak a saját akaratukról. Szilárdan parancsolom nekik, hogy engedelmeskedjenek minisztereiknek mindabban, amit az Úrnak megígértek megtartani, és ami nem ellenkezik a lélekkel és a Regulával. A testvérek, akik tudják, hogy a Regulát lelkileg nem tudják megtartani, kötelesek és tudnak a miniszterekhez fordulni. A miniszterek szeretettel és kedvességgel fogadják őket, és legyenek velük olyan bizalmasak, hogy úgy szólhassanak és cselekedhessenek, mint urak a szolgáikkal: mert így kell lennie, hogy a miniszterek minden testvér szolgái. Figyelmeztetem és buzdítom az Úr Jézus Krisztusban: a testvérek óvakodjanak minden gőgtől, hiú dicsőségtől, irigységtől és kapzsiságtól, e korszak gondjától és szorongásától, a rágalomtól és a mormogástól; és aki nem ismeri a betűket, ne szorongjon, hogy megtanulja őket. Inkább erre ügyeljenek: mindenekelőtt kívánják az Úr Lelkét és szent munkálkodását, imádkozzanak mindig tiszta szívvel, legyen alázatuk és türelmük az üldözésben és a betegségben, és szeressék azokat, akik üldöznek, feddenek és vádolnak minket, mert az Úr mondja: Szeressétek ellenségeiteket, és imádkozzatok azokért, akik üldöznek és rágalmaznak titeket. Boldogok, akiket az igazságért üldöznek, mert övék a mennyek országa. Aki mindvégig kitart, üdvözül.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c11",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, XI. fejezet",
+      "originalText": "[1] Praecipio firmiter fratribus universis, ne habeant suspecta consortia vel consilia mulierum, [2] et ne ingrediantur monasteria monacharum praeter illos, quibus a sede apostolica concessa est licentia specialis; [3] nec fiant compatres virorum vel mulierum nec hac occasione inter fratres vel de fratribus scandalum oriatur.",
+      "translation": "Szilárdan parancsolom minden testvérnek, hogy ne tartsanak gyanús társaságot vagy tanácsot nőkkel, és ne lépjenek apácakolostorokba, kivéve azokat, akiknek az apostoli szék külön engedélyt adott. Ne legyenek férfiak vagy nők keresztapjai, nehogy botrány támadjon a testvérek között vagy miattuk.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_bollata.c12",
+      "documentId": "source.regola_bollata",
+      "reference": "Megerősített Regula, XII. fejezet és megerősítés",
+      "originalText": "[1] Quicumque fratrum divina inspiratione voluerint ire inter saracenos et alios infideles petant inde licentiam a suis ministris provincialibus. [2] Ministri vero nullis eundi licentiam tribuant, nisi eis quos viderint esse idoneos ad mittendum. [3] Ad haec per obedientiam iniungo ministris, ut petant a domino papa unum de sanctae Romanae Ecclesiae cardinalibus, qui sit gubernator, protector et corrector istius fraternitatis, [4] ut semper subditi et subiecti pedibus eiusdem sanctae Ecclesiae stabiles in fide (cfr. Col 1,23) catholica paupertatem et humilitatem et sanctum evangelium Domini nostri Jesu Christi, quod firmiter promisimus, observemus. Explicit regula et vita fratrum minorum. Sequitur confirmatio regulae Nulli ergo omnino hominum liceat hanc paginam nostre confirmationis infringere, vel ei ausu temerario contraire. si quis autem hoc attentare presumpserit, indignationem omnipotentis dei et beatorum Petri et Pauli, apostolorum eius, se noverit incursurum. Datum Laterani tertio kalendas decembris, pontificatus nostri anno octavo. Honorius III hr Pravilo svetoga Franje",
+      "translation": "Bármely testvér, aki isteni sugallatból a szaracénok és más hitetlenek közé akar menni, kérjen engedélyt a tartományi miniszterétől. A miniszterek csak azoknak adják meg, akiket alkalmasnak látnak a küldésre. Engedelmességből meghagyom a minisztereknek, hogy kérjenek a pápától a római szent Egyház egy bíborosát, aki ennek a testvériségnek kormányzója, pártfogója és korrektorja legyen, hogy mindig ugyanannak a szent Egyháznak a lábainál alattvalók lévén, szilárdan a katolikus hitben, megtarthassuk a szegénységet, az alázatot és a mi Urunk Jézus Krisztus szent evangéliumát, amelyet szilárdan megígértünk. Itt végződik a Kisebb Testvérek regulája és élete. Következik a megerősítés: senki se sértse meg a megerősítésnek ezt a lapját, és ne álljon ellene vakmerő merészséggel. Aki megkísérli, tudja meg, hogy a mindenható Isten és a boldog Péter és Pál haragját vonja magára. Kelt a Lateránban, december kalendája előtt három nappal, pontifikátusunk nyolcadik évében. III. Honoriusz.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c00",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, prológus",
+      "originalText": "[1] In nomine Patris et Filii et Spiritus Sancti! [2] Haec est vita evangelii Jesu Christi, quam frater Franciscus petiit a domino papa concedi et confirmari sibi; et ille concessit et confirmavit sibi et suis fratribus habitis et futuris. [3] Frater Franciscus et quicumque erit caput istius religionis promittat obedientiam domino Innocentio papae et reverentiam et suis successoribus. [4] Et omnes alii fratres teneantur obedire fratri Francisco et eius successoribus.",
+      "translation": "Az Atya, a Fiú és a Szentlélek nevében. Ez Jézus Krisztus evangéliumának élete, amelyet Ferenc testvér kért a pápa úrtól, hogy adja meg és erősítse meg neki; és ő megadta és megerősítette neki és testvéreinek, a jelenlevőknek és a jövendőknek. Ferenc testvér, és aki ennek a rendnek a feje lesz, engedelmességet és tiszteletet ígérjen Ince pápa úrnak és utódainak. És minden más testvér köteles engedelmeskedni Ferenc testvérnek és utódainak.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c01",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, I. fejezet",
+      "originalText": "[1] Regula et vita istorum fratrum haec est, scilicet vivere in obedientia, in castitate et sine proprio, et Domini nostri Jesu Christi doctrinam et vestigia sequi, qui dicit [2] «Si vis perfectus esse, vade (Mt 19,21) et vende omnia (cfr. Lc 18,22), quae habes, et da pauperibus et habebis thesaurum in caelo; et veni, sequere me» (Mt 19,21). [3] Et «Si quis vult post me venire, abneget semetipsum et tollat crucem suam et sequatur me» (Mt 16, 24). [4] Item «Si quis vult venire ad me et non odit patrem et matrem et uxorem et filios et fratres et sorores, adhuc autem et animam suam, non potest meus esse discipulus» (Lc 14,26). [5] Et «Omnis, qui reliquerit patrem aut matrem, fratres aut sorores, uxorem aut filios, domos aut agros propter me, centuplum accipiet et vitam aeternam possidebit» (cfr. Mt 19,29; Mc 10,29; Lc 18,29).",
+      "translation": "Ezeknek a testvéreknek a regulája és élete ez: engedelmességben, tisztaságban és semmi saját nélkül élni, és követni a mi Urunk Jézus Krisztus tanítását és nyomdokait, aki mondja: ha tökéletes akarsz lenni, menj, add el, amid van, és add a szegényeknek, és kincsed lesz a mennyben; és jöjj, kövess engem. És: ha valaki utánam akar jönni, tagadja meg magát, vegye fel a keresztjét, és kövessen engem. Ismét: ha valaki hozzám akar jönni, és nem gyűlöli apját és anyját, feleségét és gyermekeit, testvéreit és nővéreit, sőt a saját lelkét is, nem lehet a tanítványom. És: aki elhagyta apját vagy anyját, testvéreit vagy nővéreit, feleségét vagy gyermekeit, házait vagy földjeit énérettem, százannyit kap, és birtokolja az örök életet.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c02",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, II. fejezet",
+      "originalText": "[1] Si quis divina inspiratione volens accipere hanc vitam venerit ad nostros fratres, benigne recipiatur ab eis. [2] Quodsi fuerit firmus accipere vitam nostram, multum caveant sibi fratres, ne de suis temporalibus negotiis se intromittant, sed ad suum ministrum, quam citius possunt, eum repraesentent. [3] Minister vero benigne ipsum recipiat et confortet et vitae nostrae tenorem sibi diligenter exponat. [4] Quo facto, praedictus, si vult et potest spiritualiter sine impedimento, omnia sua vendat et ea omnia pauperibus studeat erogare. [5] Caveant sibi fratres et minister fratrum, quod de negotiis suis nullo modo intromittant se; [6] neque recipiant aliquam pecuniam neque per se neque per interpositam personam. [7] Si tamen indigent, alia necessaria corporis praeter pecuniam recipere possunt fratres causa necessitatis sicut alii pauperes. [8] Et cum reversus fuerit, minister concedat ei pannos probationis usque ad annum, scilicet duas tunicas sine caputio et cingulum et braccas et caparonem usque ad cingulum. [9] Finito vero anno et termino probationis recipiatur ad obedientiam. [10] Postea non licebit ei ad aliam religionem accedere neque «extra obedientiam evagari» iuxta mandatum domini papae et secundum evangelium; quia «nemo mittens manum ad aratrum et aspiciens retro aptus est regno Dei» (Lc 9,62). [11] Si autem aliquis venerit, qui sua dare non potest sine impedimento et habet spiritualem voluntatem, relinquat illa, et sufficit sibi. [12] Nullus recipiatur contra formam et institutionem sanctae Ecclesiae. [13] Alii vero fratres, qui promiserunt obedientiam, habeant unam tunicam cum caputio et aliam sine caputio, si necesse fuerit, et cingulum et braccas. [14] Et omnes fratres vilibus vestibus induantur, et possint eas repeciare de saccis et aliis peciis cum benedictione Dei; quia dicit Dominus in evangelio «Qui in veste pretiosa sunt et in deliciis» (Lc 7,25) et «qui mollibus vestiuntur, in domibus regum sunt» (Mt 11,8). [15] Et licet dicantur hypocritae, non tamen cessent bene facere nec quaerant caras vestes in hoc saeculo, ut possint habere vestimentum in regno caelorum.",
+      "translation": "Ha valaki isteni sugallatból ezt az életet akarja felvenni, és a testvéreinkhez jön, fogadják kedvesen. Ha szilárdan akarja a mi életünket, a testvérek gondosan kerüljék, hogy az ő időleges ügyeibe avatkozzanak, és amint tudják, vigyék a miniszterük elé. A miniszter fogadja kedvesen, bátorítsa, és gondosan tárja elé életünk tartalmát. Ha ez megtörtént, és akarja, és lelkileg tudja akadály nélkül, adja el, amije van, és gondoskodjék arról, hogy a szegényeknek adja. A testvérek és a miniszter kerüljék, hogy bármiképpen az ügyeibe avatkozzanak, és ne fogadjanak el pénzt, sem maguk, sem más által. Ha szükségben vannak, a testvérek szükségből elfogadhatják a többi dolgot, amire a testnek szüksége van, a pénz kivételével, ahogyan más szegények teszik. Amikor visszatért, a miniszter adja neki a próba ruháit legfeljebb egy évre: két tunikát kapucni nélkül, a kötelet, a nadrágot és a kötélig érő köpenyt. Amikor az év és a próba ideje letelt, fogadják be engedelmességre. Azután nem lesz szabad más rendbe mennie, vagy az engedelmességen kívül kóborolnia, a pápa parancsa és az evangélium szerint: aki az ekére teszi a kezét és hátranéz, nem alkalmas Isten országára. Ha valaki jön, aki akadály nélkül nem adhatja oda, amije van, és lelki akarata van, hagyja ott azokat a dolgokat, és ez elég neki. Senkit se fogadjanak be a szent Egyház formája és intézménye ellen. A többi testvér, aki engedelmességet ígért, egy kapucnis tunikát viseljen, és ha kell, egy másikat anélkül, valamint a kötelet és a nadrágot. Minden testvér szegény ruhába öltözzék, és megfoltozhatják zsákvászonnal és más darabokkal, Isten áldásával, mert az Úr az evangéliumban azt mondja, hogy akik drága ruhában és fényűzésben vannak, és akik puhán öltözködnek, a királyok házaiban vannak. És ha az emberek képmutatóknak is nevezik őket, ne hagyják abba a jót, és ne keressenek drága ruhát ebben a korban, hogy ruhájuk legyen a mennyek országában.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c03",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, III. fejezet",
+      "originalText": "[1] Dicit Dominus Hoc genus daemoniorum non potest exire nisi in ieiunio et oratione (cfr. Mc 9,28); [2] et iterum «Cum ieiunatis nolite fieri sicut hypocritae tristes» (Mt 6,16). [3] Propter hoc omnes fratres sive clerici sive laici faciant divinum officium, laudes et orationes, secundum quod debent facere. [4] Clerici faciant officium et dicant pro vivis et pro mortuis secundum consuetudinem clericorum. [5] Et pro defectu et negligentia fratrum dicant omni die Miserere mei Deus (Ps 50) cum Pater noster; [6] et pro fratribus defunctis dicant De profundis (Ps 129) cum Pater noster. [7] Et libros tantum necessarios ad implendum eorum officium possint habere. [8] Et laicis etiam scientibus legere psalterium liceat eis habere illud. [9] Aliis vero nescientibus litteras librum habere non liceat. [10] Laici dicant Credo in Deum et viginti quattuor Pater noster cum Gloria Patri pro matutino; pro laudibus vero quinque; pro prima Credo in Deum et septem Pater noster cum Gloria Patri; pro tertia, sexta et nona et unaquaque hora septem; pro vesperis duodecim; pro completorio Credo in Deum et septem Pater noster cum Gloria Patri; pro mortuis septem Pater noster cum Requiem aeternam; et pro defectu et negligentia fratrum tria Pater noster omni die. [11] Et similiter omnes fratres ieiunent a festo Omnium Sanctorum usque ad Natale et ab Epiphania, quando Dominus noster Jesus Christus incepit ieiunare usque ad Pascha. [12] Aliis autem temporibus non teneantur secundum hanc vitam nisi sexta feria ieiunare. [13] Et liceat eis manducare de omnibus cibis, qui apponuntur eis, secundum evangelium (cfr. Lc 10,8).",
+      "translation": "Az Úr mondja: ez a fajta démon nem megy ki, csak böjt és ima által; és ismét: amikor böjtöltök, ne legyetek szomorúak, mint a képmutatók. Ezért minden testvér, klerikus vagy világi, végezze a zsolozsmát, a dicséreteket és az imákat, ahogyan kell. A klerikusok a klerikusok szokása szerint végezzék a zsolozsmát, és imádkozzanak az élőkért és a holtakért. A testvérek hibáiért és hanyagságaiért mindennap mondják a Misererét a Miatyánkkal; a halott testvérekért a De profundist a Miatyánkkal. Csak azokat a könyveket tarthatják, amelyek a zsolozsmájuk végzéséhez kellenek. A világi testvérek, akik tudnak zsoltároskönyvet olvasni, tarthatják. A többiek, akik nem ismerik a betűket, nem tarthatnak könyvet. A világi testvérek mondják a Hiszekegyet és huszonnégy Miatyánkot a Dicsőséggel a matutínumra; ötöt a laudákra; a prímra a Hiszekegyet és hét Miatyánkot a Dicsőséggel; a terciára, a szextára és a nónára, és ezek mindegyikére hetet; tizenkettőt a vecsernyére; a kompletóriumra a Hiszekegyet és hét Miatyánkot a Dicsőséggel; a holtakért hét Miatyánkot a Requiemmel; a testvérek hibájáért és hanyagságáért mindennap három Miatyánkot. Ugyanígy minden testvér böjtöljön Mindenszentektől karácsonyig, és vízkereszttől, amikor a mi Urunk Jézus Krisztus böjtölni kezdett, húsvétig. Máskor, ez élet szerint, csak pénteken kötelesek böjtölni. És ehetnek bármely ételt, amelyet eléjük tesznek, az evangélium szerint.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c04",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, IV. fejezet",
+      "originalText": "[1] In nomine Domini! [2] Omnes fratres, qui constituuntur ministri et servi aliorum fratrum, in provinciis et in locis, in quibus fuerint, collocent suos fratres, quos saepe visitent et spiritualiter moneant et confortent. [3] Et omnes alii fratres mei benedicti diligenter obediant eis in his, quae spectant ad salutem animae et non sunt contraria vitae nostrae. [4] Et faciant inter se sicut dicit Dominus «Quaecumque vultis, ut faciant vobis homines et vos facite illis» (Mt 7,12); [5] et «Quod non vis tibi fieri, non facias alteri». [6] Et recordentur ministri et servi, quod dicit Dominus Non veni ministrari, sed ministrare (Mt 20,28) et quia commissa est eis cura animarum fratrum, de quibus, si aliquid perderetur propter eorum culpam et malum exemplum, in die iudicii oportebit eos reddere rationem (cfr. Mt 12,36) coram Domino Jesu Christo.",
+      "translation": "Az Úr nevében. Minden testvér, akit miniszternek és a többi testvér szolgájának rendeltek, a tartományokban és a helyeken, ahol vannak, helyezze el testvéreit, gyakran látogassa őket, és intse és bátorítsa őket lelkileg. És minden más áldott testvérem gondosan engedelmeskedjen nekik abban, ami a lélek üdvösségét illeti, és nem ellenkezik a mi életünkkel. Úgy tegyenek egymás között, ahogyan az Úr mondja: amit akartok, hogy az emberek tegyenek veletek, azt tegyétek velük is; és: amit nem akartok, hogy veletek tegyenek, ne tegyétek mással. És a miniszterek és szolgák emlékezzenek arra, hogy az Úr mondja: nem azért jöttem, hogy szolgáljanak nekem, hanem hogy szolgáljak; és hogy a testvérek lelkének gondja rájuk van bízva, amelyről, ha valami az ő hibájuk és rossz példájuk miatt elveszne, számot kell adniuk az ítélet napján az Úr Jézus Krisztus előtt.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c05",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, V. fejezet",
+      "originalText": "[1] Ideoque animas vestras et fratrum vestrorum custodite; quia horrendum est incidere in manus Dei viventis (Hebr 10,31). [2] Si quis autem ministrorum alicui fratrum aliquid contra vitam nostram praeciperet vel contra animam suam, non teneatur ei obedire; quia illa obedientia non est, in qua delictum vel peccatum committitur. [3] Verumtamen omnes fratres, qui sunt sub ministris et servis, facta ministrorum et servorum considerent rationabiliter et diligenter. [4] Et si viderint aliquem illorum carnaliter et non spiritualiter ambulare pro rectitudine vitae nostrae, post tertiam admonitionem, si non se emendaverit, in capitulo Pentecostes renuntient ministro et servo totius fraternitatis nulla contradictione impediente. [5] Si vero inter fratres ubicumque fuerit aliquis frater volens carnaliter et non spiritualiter ambulare, fratres, cum quibus est, moneant eum, instruant et corripiant humiliter et diligenter. [6] Quodsi ille post tertiam admonitionem noluerit se emendare, quam citius possunt, mittant eum vel significent suo ministro et servo, qui minister et servus de eo faciat, sicut sibi secundum Deum melius videbitur expedire. [7] Et caveant omnes fratres tam ministri et servi quam alii, quod propter peccatum alterius vel malum non turbentur vel irascantur, quia diabolus propter delictum unius multos vult corrumpere; [8] sed spiritualiter, sicut melius possunt, adiuvent illum qui peccavit, quia non est sanis opus medicus, sed male habentibus (cfr. Mt 9,12 cum Mc 2,17). [9] Similiter omnes fratres non habeant in hoc potestatem vel dominationem maxime inter se. [10] Sicut enim dicit Dominus in evangelio «Principes gentium dominantur eorum, et qui maiores sunt potestatem exercent in eos» (Mt 20,25), non sic erit inter fratres (cfr. Mt 20,26a). [11] Et quicumque voluerit inter eos maior fieri, sit eorum minister (cfr. Mt 20,26b) et servus. [12] Et qui maior est inter eos fiat sicut minor (cfr. Lc 22,26). [13] Nec aliquis frater malum faciat vel malum dicat alteri; [14] immo magis per caritatem spiritus voluntarie serviant et obediant invicem (cfr. Gal 5,13). [15] Et haec est vera et sancta obedientia Domini nostri Jesu Christi. [16] Et omnes fratres, quoties declinaverint a mandatis Domini et extra obedientiam evagaverint, sicut dicit propheta (Ps 118,21), sciant se esse maledictos extra obedientiam, quousque steterint in tali peccato scienter. [17] Et quando perseveraverint in mandatis Domini, quae promiserunt per sanctum evangelium et vitam ipsorum, sciant se in vera obedientia stare, et benedicti sint a Domino.",
+      "translation": "Őrizzétek a saját lelketeket és testvéreitek lelkét, mert félelmetes dolog az élő Isten kezébe esni. Ha a miniszterek egyike a testvérnek valamit parancsol a mi életünk ellen vagy a lelke ellen, nem köteles engedelmeskedni: az nem engedelmesség, amelyben bűntettet vagy bűnt követnek el. Mégis minden testvér, aki a miniszterek és szolgák alatt van, ésszerűen és gondosan vegye figyelembe a miniszterek és szolgák cselekedeteit. És ha látják, hogy egyikük a test szerint jár, és nem a lélek szerint, a mi életünk egyenességét illetően, harmadik intés után, ha nem javult meg, jelentsék a pünkösdi káptalanon az egész testvériség miniszterének és szolgájának, és semmi se akadályozhassa ezt. Ha valahol a testvérek között van egy testvér, aki a test szerint akar járni, és nem a lélek szerint, a testvérek, akikkel van, alázattal és gondosan intsék, oktassák és korrigálják. Ha a harmadik intés után nem javul meg, amint tudják, küldjék vagy jelentsék a miniszterének és szolgájának, és a miniszter és szolga úgy bánjon vele, ahogyan Isten szerint a legjobbnak látszik. Minden testvér, a miniszterek és szolgák és a többiek, óvakodjanak attól, hogy felinduljanak vagy haragudjanak más bűne vagy rossza miatt, mert az ördög egynek a vétke által sokakat akar megrontani; hanem lelkileg, ahogy legjobban tudják, segítsék azt, aki vétkezett, mert nem az egészségeseknek kell az orvos, hanem a betegeknek. Ugyanígy egyetlen testvérnek se legyen hatalma vagy uralma ebben, kiváltképpen egymás között. Ahogyan az Úr az evangéliumban mondja, a nemzetek fejedelmei uralkodnak rajtuk, és a nagyok hatalmat gyakorolnak rajtuk: a testvérek között ne így legyen. És aki nagyobb akar lenni közöttük, legyen a miniszterük és szolgájuk. És aki nagyobb közöttük, legyen olyan, mint a kisebb. Egyetlen testvér se tegyen rosszat, és ne szóljon rosszat a másiknak; inkább a Lélek szeretete által szívesen szolgálják és engedelmeskedjenek egymásnak. És ez a mi Urunk Jézus Krisztus igaz és szent engedelmessége. Minden testvér, valahányszor eltért az Úr parancsaitól, és kiment az engedelmességből, tudja magát átkozottnak az engedelmességen kívül, amíg tudatosan abban a bűnben marad. És amikor kitartottak az Úr parancsaiban, amelyeket a szent evangéliummal és az életükkel ígértek, tudják, hogy az igaz engedelmességben állnak, és legyenek áldottak az Úrtól.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.fratelli",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, VI. fejezet",
+      "originalText": "[1] Fratres, in quibuscumque locis sunt, si non possunt vitam nostram observare, quam citius possunt, recurrant ad suum ministrum hoc sibi significantes. [2] Minister vero taliter eis studeat providere, sicut ipse vellet sibi fieri, si in consimili casu esset (cfr. Mt 7,12). [3] Et nullus vocetur prior, sed generaliter omnes vocentur fratres minores. [4] Et alter alterius lavet pedes (cfr. Joa 13,14).",
+      "translation": "A testvérek, bárhol vannak, ha nem tudják megtartani a mi életünket, amint tudnak, folyamodjanak a miniszterükhöz, tudtára adva. A miniszter gondoskodjék róluk, ahogyan maga szeretné, hogy vele tegyenek, ha hasonló helyzetben volna. És senkit se hívjanak priornak, hanem mindenkit általában kisebb testvéreknek hívjanak. És mossa meg egyik a másik lábát.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c07",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, VII. fejezet",
+      "originalText": "[1] Omnes fratres, in quibuscumque locis steterint apud alios ad serviendum vel laborandum, non sint camerarii neque cancellarii neque praesint in domibus, in quibus serviunt; nec recipiant aliquod officium, quod scandalum generet vel animae suae faciat detrimentum (cfr. Mc 8,36); [2] sed sint minores et subditi omnibus, qui in eadem domo sunt. [3] Et fratres, qui sciunt laborare, laborent et eandem artem exerceant, quam noverint, si non fuerit contra salutem animae et honeste poterit operari. [4] Nam propheta ait «Labores fructuum tuorum manducabis; beatus es et bene tibi erit» (Ps 127,2;-R); [5] et apostolus Qui non vult operari non manducet (cfr. 2 Thess 3,10); [6] et Unusquisque in ea arte et officio, in quo vocatus est, permaneat (cfr. 1 Cor 7,24). [7] Et pro labore possint recipere omnia necessaria praeter pecuniam. [8] Et cum necesse fuerit, vadant pro eleemosynis sicut alii pauperes. [9] Et liceat eis habere ferramenta et instrumenta suis artibus opportuna. [10] Omnes fratres studeant bonis operibus insudare, quia scriptum est Semper facito aliquid boni, ut te diabolus inveniat occupatum. [11] Et iterum Otiositas inimica est animae. [12] Ideo servi Dei semper orationi vel alicui bonae operationi insistere debent. [13] Caveant sibi fratres, ubicumque fuerint in eremis vel in aliis locis, quod nullum locum sibi approprient nec alicui defendant. [14] Et quicumque ad eos venerit amicus vel adversarius, fur vel latro benigne recipiatur. [15] Et ubicumque sunt fratres et in quocumque loco se invenerint, spiritualiter et diligenter debeant se revidere et honorare ad invicem sine murmuratione (1 Petr 4,9). [16] Et caveant sibi, quod non se ostendant tristes extrinsecus et nubilosos hypocritas; sed ostendant se gaudentes in Domino (cfr. Phil 4,4) et hilares et convenienter gratiosos.",
+      "translation": "Minden testvér, bárhol tartózkodik másokkal, hogy szolgáljon vagy dolgozzon, ne legyen kamarás vagy kancellár, és ne legyen a házak élén, ahol szolgál; és ne vállaljon olyan hivatalt, amely botrányt szül vagy árt a lelkének; hanem legyen kisebb, és mindenki alattvalója ugyanabban a házban. A testvérek, akik tudnak dolgozni, dolgozzanak, és gyakorolják a mesterséget, amelyet ismernek, ha nem ellenkezik a lélek üdvösségével, és becsületesen végezhető. Mert a próféta mondja: kezed munkájának gyümölcséből eszel; áldott vagy, és jó dolgod lesz; és az apostol: aki nem akar dolgozni, ne is egyék; és: maradjon mindenki abban a mesterségben és hivatalban, amelyre hívatott. A munkájukért mindent megkaphatnak, amire szükség van, a pénz kivételével. És amikor szükséges, járjanak alamizsnáért, mint a többi szegény. Lehetnek a mesterségükhöz illő szerszámaik és eszközeik. Minden testvér igyekezzék jó munkákban izzadni, mert írva van: mindig tégy valami jót, hogy az ördög elfoglalva találjon. És ismét: a tétlenség a lélek ellensége. Ezért Isten szolgáinak mindig az imában vagy valami jó munkában kell előrehaladniuk. A testvérek, bárhol vannak, remetelakokban vagy más helyeken, óvakodjanak attól, hogy bármely helyet elsajátítsanak, vagy bárki ellen védelmezzék. És aki hozzájuk jön, barát vagy ellenfél, tolvaj vagy rabló, kedvesen fogadják. És bárhol vannak a testvérek, és bármely helyen találják magukat, lelkileg és gondosan ügyeljenek egymásra, és tiszteljék egymást, mormogás nélkül. És óvakodjanak attól, hogy kifelé szomorú és felhős képmutatóknak mutatkozzanak; mutatkozzanak vidámnak az Úrban, derűsnek és kedvesnek, ahogyan illik.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c08",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, VIII. fejezet",
+      "originalText": "[1] Dominus praecipit in evangelio Videte, cavete ab omni malitia et avaritia (cfr. Lc 12,15); [2] et Attendite vobis a sollicitudine huius saeculi et a curis huius vitae (cfr. Lc 21,34). [3] Unde nullus fratrum, ubicumque sit et quocumque vadit, aliquo modo tollat nec recipiat nec recipi faciat pecuniam aut denarios neque occasione vestimentorum nec librorum nec pro pretio alicuius laboris, immo nulla occasione, nisi propter manifestam necessitatem infirmorum fratrum; quia non debemus maiorem utilitatem habere et reputare in pecunia et denariis quam in lapidibus. [4] Et illos vult diabolus excaecare, qui eam appetunt vel reputant lapidibus meliorem. [5] Caveamus ergo nos, qui omnia relinquimus (cfr. Mt 19,27), ne pro tam modico regnum caelorum perdamus. [6] Et si in aliquo loco inveniremus denarios, de his non curemus tamquam de pulvere, quem pedibus calcamus, quia vanitas vanitatum et omnia vanitas (Eccle 1,2). [7] Et si forte, quod absit, aliquem fratrem contigerit pecuniam vel denarios colligere vel habere, excepta solummodo praedicta infirmorum necessitate, omnes fratres teneamus eum pro falso fratre et apostata et fure et latrone et loculos habente (cfr. Joa 12,6), nisi vere poenituerit. [8] Et nullo modo fratres recipiant nec recipi faciant nec quaerant nec quaeri faciant pecuniam pro eleemosyna neque denarios pro aliquibus domibus vel locis; neque cum persona pro talibus locis pecunias vel denarios quaerente vadant. [9] Alia autem servitia, quae non sunt contraria vitae nostrae, possunt fratres locis facere cum benedictione Dei. [10] Fratres tamen in manifesta necessitate leprosorum possunt pro eis quaerere eleemosynam. [11] Caveant tamen multum a pecunia. [12] Similiter caveant omnes fratres, ut pro nullo turpi lucro terras circueant.",
+      "translation": "Az Úr parancsol az evangéliumban: vigyázzatok, óvakodjatok minden rosszindulattól és kapzsiságtól; és: vigyázzatok magatokra e korszak szorongása és az élet gondjai ellen. Ezért egyetlen testvér se, bárhol van és bárhová megy, semmiképpen se vegyen, fogadjon el, vagy fogadtasson el pénzt vagy pénzérmét, sem ruha alkalmából, sem könyvek alkalmából, sem bármely munka árának, sőt semmilyen alkalomból, kivéve a beteg testvérek nyilvánvaló szükségét: a pénzt és a pénzérmét nem szabad birtokolnunk, és nem szabad a köveknél hasznosabbnak számítanunk. És az ördög meg akarja vakítani azokat, akik sóvárognak utána, vagy jobbnak tartják a köveknél. Mi tehát, akik mindent elhagytunk, óvakodjunk attól, hogy ilyen kevésért elveszítsük a mennyek országát. És ha valahol pénzérmére találnánk, ne törődjünk vele, mint a porral, amelyet taposunk, mert hiábavalóságok hiábavalósága, és minden hiábavalóság. És ha, amit ne adjon Isten, egy testvérnek megesne, hogy pénzt vagy pénzérmét gyűjt vagy tart, kivéve egyedül a betegek mondott szükségét, mindannyian, testvérek, tartsuk hamis testvérnek, hitehagyottnak, tolvajnak és rablónak, és olyannak, aki az erszényt őrzi, hacsak valóban nem tartott bűnbánatot. És semmiképpen se fogadjanak el, fogadtassanak el, keressenek vagy kerestessenek a testvérek pénzt alamizsnaként, sem pénzérmét bármely házért vagy helyért; és ne menjenek olyan személlyel, aki pénzt vagy pénzérmét keres ilyen helyeknek. Más szolgálatokat, amelyek nem ellenkeznek a mi életünkkel, a testvérek végezhetnek a helyeknek, Isten áldásával. A testvérek azonban a leprások nyilvánvaló szükségében kereshetnek alamizsnát nekik. De nagyon óvakodjanak a pénztől. Ugyanígy minden testvér óvakodjék attól, hogy szégyenletes nyereségért járja a földeket.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c09",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, IX. fejezet",
+      "originalText": "[1] Omnes fratres studeant sequi humilitatem et paupertatem Domini nostri Jesu Christi et recordentur, quod nihil aliud oportet nos habere de toto mundo, nisi, sicut dicit apostolus, habentes alimenta et quibus tegamur, his contenti sumus (cfr. 1 Tim 6,8). [2] Et debent gaudere, quando conversantur inter viles et despectas personas, inter pauperes et debiles et infirmos et leprosos et iuxta viam mendicantes. [3] Et cum necesse fuerit, vadant pro eleemosynis. [4] Et non verecundentur et magis recordentur, quia Dominus noster Jesus Christus, Filius Dei vivi (Joa 11,27) omnipotentis, posuit faciem suam ut petram durissimam (Is 50,7), nec verecundatus fuit. [5] Et fuit pauper et hospes et vixit de eleemosynis ipse et beata Virgo et discipuli eius. [6] Et quando facerent eis homines verecundiam et nollent eis dare eleemosynam, referant inde gratias Deo; quia de verecundiis recipient magnum honorem ante tribunal Domini nostri Jesu Christi. [7] Et sciant, quod verecundia non patientibus, sed inferentibus imputatur. [8] Et eleemosyna est hereditas et iustitia, quae debetur pauperibus, quam nobis acquisivit Dominus noster Jesus Christus. [9] Et fratres, qui eam acquirendo laborant, magnam mercedem habebunt et faciunt lucrari et acquirere tribuentes; quia omnia, quae relinquent homines in mundo peribunt, sed de caritate et de eleemosynis, quas fecerunt, habebunt praemium a Domino. [10] Et secure manifestet unus alteri necessitatem suam, ut sibi necessaria inveniat et ministret. [11] Et quilibet diligat et nutriat fratrem suum, sicut mater diligit et nutrit filium suum (cfr. 1 Thess 2,7), in quibus ei Deus gratiam largietur. [12] Et qui non manducat, manducantem non iudicet (Rom 14,3b). [13] Et quandocumque necessitas supervenerit, liceat universis fratribus, ubicumque fuerint, uti omnibus cibis, quos possunt homines manducare, sicut Dominus dicit de David, qui comedit panes propositionis (cfr. Mt 12,4), quos non licebat manducare nisi sacerdotibus (Mc 2,26). [14] Et recordentur, quod dicit Dominus Attendite autem vobis, ne forte graventur corda vestra in crapula et ebrietate et curis huius vitae et superveniat in vobis repentina dies illa; [15] tanquam enim laqueus superveniet in omnes, qui sedent super faciem orbis terrae (cfr. Lc 21,34-35). [16] Similiter etiam tempore manifestae necessitatis faciant omnes fratres de eorum necessariis, sicut eis Dominus gratiam largietur, quia necessitas non habet legem.",
+      "translation": "Minden testvér igyekezzék követni a mi Urunk Jézus Krisztus alázatát és szegénységét, és emlékezzék arra, hogy az egész világból semmi másra nincs szükségünk, csak, ahogyan az apostol mondja, ételre és amivel betakarjuk magunkat: ezzel megelégszünk. És örülniük kell, amikor olcsó és megvetett személyek között élnek, a szegények, a gyengék, a betegek, a leprások és az út menti koldusok között. És amikor szükséges, járjanak alamizsnáért. És ne szégyelljék, hanem inkább emlékezzenek arra, hogy a mi Urunk Jézus Krisztus, az élő mindenható Isten Fia, arcát a legkeményebb kőként szegezte, és nem szégyellte. És szegény volt és vendég, és alamizsnából élt, ő és a boldogságos Szűz és a tanítványai. És amikor az emberek megszégyenítik őket, és nem adnak alamizsnát, adjanak hálát Istennek érte, mert azokért a szégyenekért nagy tisztességet kapnak a mi Urunk Jézus Krisztus ítélőszéke előtt. És tudják, hogy a szégyen nem azoknak számít, akik elszenvedik, hanem azoknak, akik okozzák. És az alamizsna a szegények öröksége és járó igazsága, amelyet a mi Urunk Jézus Krisztus szerzett nekünk. És a testvérek, akik fáradoznak, hogy megszerezzék, nagy jutalmat kapnak, és az adakozókat nyereségre és szerzésre késztetik, mert mindaz, amit az emberek a világban hagynak, elvész, de a szeretetért és az alamizsnáért, amelyet tettek, jutalmuk lesz az Úrtól. És az egyik bizalommal tárja fel a szükségét a másiknak, hogy megtalálja, amire szükség van, és kiszolgálja. És mindenki úgy szeresse és táplálja a testvérét, ahogyan az anya szereti és táplálja a gyermekét, bármiben, amiben Isten megadja neki a kegyelmet. És aki nem eszik, ne ítélje azt, aki eszik. És valahányszor a szükség rátör, legyen szabad minden testvérnek, bárhol van, bármely ételt használni, amelyet az emberek ehetnek, ahogyan az Úr Dávidról mondja, aki az áldozati kenyeret ette, amelyet nem volt szabad enni, csak a papoknak. És emlékezzenek arra, amit az Úr mond: vigyázzatok magatokra, nehogy a szívetek elnehezedjék a mértéktelenségtől, a részegségtől és az élet gondjaitól, és az a nap hirtelen rátok jöjjön; mert úgy jön, mint a tőr mindenre, aki a föld színén ül. Ugyanígy a nyilvánvaló szükség idején minden testvér úgy tegyen a szükségleteiről, ahogyan az Úr megadja a kegyelmet, mert a szükségnek nincs törvénye.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c10",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, X. fejezet",
+      "originalText": "[1] Si quis fratrum in infirmitate ceciderit, ubicumque fuerit, alii fratres non dimittant eum, nisi constituatur unus de fratribus vel plures, si necesse fuerit, qui serviant ei, sicut vellent sibi serviri (cfr. Mt 7,12); [2] sed in maxima necessitate possunt ipsum dimittere alicui personae, quae suae debeat satisfacere infirmitati. [3] Et rogo fratrem infirmum, ut referat de omnibus gratias Creatori; et quod qualem vult eum Dominus, talem se esse desideret sive sanum sive infirmum, quia omnes, quos Deus ad vitam praeordinavit aeternam (cfr. Act 13,48), flagellorum atque infirmitatum stimulis et compunctionis spiritu erudit, sicut Dominus dicit «Ego quos amo corrigo et castigo» (Apoc 3,19). [4] Et si quis turbabitur vel irascetur sive contra Deum sive contra fratres, vel si forte sollicite postulaverit medicinas nimis desiderans liberare carnem cito morituram, quae est animae inimica, a malo sibi evenit et carnalis est, et non videtur esse de fratribus, quia plus diligit corpus quam animam.",
+      "translation": "Ha egy testvér betegségbe esik, bárhol van, a többi testvér ne hagyja el, hacsak ki nem jelölnek a testvérek közül egyet, vagy többet, ha szükséges, aki úgy szolgálja, ahogyan ő maga szeretné, hogy őt szolgálják; de a legnagyobb szükségben olyan személyre bízhatják, akinek a betegségéről gondoskodnia kell. És kérem a beteg testvért, hogy adjon hálát mindennek a Teremtőjének, és kívánjon olyan lenni, amilyennek az Úr akarja, egészségesnek vagy betegnek, mert mindazokat, akiket Isten az örök életre előre rendelt, a fenyítékek és a betegségek ösztökeivel és a töredelem lelkével neveli, ahogyan az Úr mondja: én megfenyítem és megdorgálom azokat, akiket szeretek. És ha valaki felindul vagy megharagszik Isten ellen vagy a testvérek ellen, vagy ha talán aggódva orvosságokat kér, túlságosan kívánva hamar megszabadítani a hamarosan meghaló testet, amely a lélek ellensége, az a rosszból fakad, és testi, és nem látszik a testvérek közül valónak, mert jobban szereti a testet, mint a lelket.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c11",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XI. fejezet",
+      "originalText": "[1] Et omnes fratres caveant sibi, ut non calumnientur neque contendant verbis (cfr. 2 Tim 2,14); [2] immo studeant retinere silentium, quandocumque eis Deus gratiam largietur. [3] Neque litigent inter se neque cum aliis, sed procurent humiliter respondere dicentes Inutilis servus sum (cfr. Lc 17,10). [4] Et non irascantur, quia omnis, qui irascitur fratri suo, reus erit iudicio; qui dixerit fratri suo raca, reus erit concilio; qui dixerit fatue, reus erit gehennae ignis (Mt 5,22). [5] Et diligant se ad invicem, sicut dicit Dominus «Hoc est praeceptum meum ut diligatis invicem, sicut dilexi vos» (Joa 15,12). [6] Et ostendant ex operibus (cfr. Jac 2,18) dilectionem, quam habent ad invicem, sicut dicit apostolus «Non diligamus verbo neque lingua, sed opere et veritate» (1 Joa 3,18). [7] Et neminem blasphement (cfr. Tit 3,2). [8] Non murmurent, non detrahant aliis, quia scriptum est Susurrones et detractores Deo sunt odibiles (cfr. Rom 1,29). [9] Et sint modesti omnem ostendentes mansuetudinem ad omnes homines (cfr. Tit 3,2). [10] Non iudicent, non condemnent. [11] Et sicut dicit Dominus, non considerent minima peccata aliorum (cfr. Mt 7,3; Lc 6,41); [12] immo magis sua recogitent in amaritudine animae suae (Is 38,15). [13] Et contendant intrare per angustam portam (Lc 13,24), quia dicit Dominus «Angusta porta et arcta via est, quae ducit ad vitam; et pauci sunt, qui inveniunt eam» (Mt 7,14).",
+      "translation": "És minden testvér óvakodjék a rágalmazástól és a szavakban való versengéstől; inkább igyekezzék megtartani a csendet, valahányszor Isten megadja neki a kegyelmet. Ne veszekedjenek egymással, sem másokkal, hanem igyekezzenek alázattal válaszolni, mondván: haszontalan szolga vagyok. És ne haragudjanak, mert aki megharagszik a testvérére, méltó lesz az ítéletre; aki azt mondja a testvérének: „racha”, méltó lesz a nagytanácsra; aki azt mondja: „bolond”, méltó lesz a gyehenna tüzére. És szeressék egymást, ahogyan az Úr mondja: ez az én parancsom, hogy szeressétek egymást, ahogyan én szerettelek titeket. És cselekedetekkel mutassák meg a szeretetet, amelyet egymás iránt éreznek, ahogyan az apostol mondja: ne szóval és ne nyelvvel szeressünk, hanem cselekedettel és igazsággal. És senkit se káromoljanak. Ne mormogjanak, ne beszéljenek rosszat másokról, mert írva van: a suttogók és a rágalmazók gyűlöletesek Istennek. És legyenek szerények, minden szelídséget mutatva minden ember iránt. Ne ítéljenek, ne kárhoztassanak. És, ahogyan az Úr mondja, ne vegyék figyelembe mások legkisebb bűneit; inkább a sajátjaikat fontolják meg lelkük keserűségében. És igyekezzenek a szűk kapun belépni, mert az Úr mondja: szűk a kapu és keskeny az út, amely az életre vezet, és kevesen vannak, akik megtalálják.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c12",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XII. fejezet",
+      "originalText": "[1] Omnes fratres, ubicumque sunt vel vadunt, caveant sibi a malo visu et frequentia mulierum. [2] Et nullus cum eis consilietur aut per viam vadat solus aut ad mensam in una paropside comedat. [3] Sacerdotes honeste loquantur cum eis dando poenitentiam vel aliud spirituale consilium. [4] Et nulla penitus mulier ab aliquo fratre recipiatur ad obedientiam, sed dato sibi consilio spirituali, ubi voluerit, agat poenitentiam. [5] Et multum omnes nos custodiamus et omnia membra nostra munda teneamus, quia dicit Dominus «Qui viderit mulierem ad concupiscendam eam, iam moechatus est eam in corde suo» (Mt 5,28); [6] et apostolus An ignoratis, quia membra vestra templum sunt Spiritus Sancti? (cfr. 1 Cor 6,19); itaque qui templum Dei violaverit, disperdet illum Deus (1 Cor 3,17).",
+      "translation": "Minden testvér, bárhol van vagy megy, óvakodjék a rossz tekintettől és a nők gyakori társaságától. És senki se tanácskozzék velük, se ne menjen úton egyedül velük, se ne egyék az asztalnál ugyanabból a tányérból. A papok becsületesen beszéljenek velük, bűnbánatot szabva vagy más lelki tanácsot adva. És egyetlen nőt se fogadjon be semmiképpen egy testvér engedelmességre; hanem, miután lelki tanácsot kapott, ott tartson bűnbánatot, ahol akar. És nagyon őrizzük magunkat mindannyian, és tartsuk tisztán minden tagunkat, mert az Úr mondja: aki asszonyra nézett, hogy kívánja őt, már házasságtörést követett el vele a szívében; és az apostol: nem tudjátok, hogy a tagjaitok a Szentlélek temploma? Ezért aki Isten templomát megsérti, azt Isten elpusztítja.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c13",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XIII. fejezet",
+      "originalText": "[1] Si quis fratrum diabolo instigante fornicaretur, habitu exuatur quem pro sua turpi iniquitate amisit, et ex toto deponat et a nostra religione penitus repellatur. [2] Et postea poenitentiam faciat de peccatis (cfr. 1 Cor 5,4-5).",
+      "translation": "Ha egy testvér, az ördögtől késztetve, paráználkodnék, vessék le róla a ruhát, amelyet gyalázatos gonoszságáért elveszített, vesse le teljesen, és utasítsák el egészen a mi vallásunkból. Azután tartson bűnbánatot a bűneiért.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c14",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XIV. fejezet",
+      "originalText": "[1] Quando fratres vadunt per mundum, nihil portent per viam neque (cfr. Lc 9,3) sacculum (cfr. Lc 10,4) neque peram neque panem neque pecuniam (cfr. Lc 9,3) neque virgam (cfr. Mt 10,10). [2] Et in quamcumque domum intraverint, dicant primum Pax huic domui (cfr. Lc 10,5). [3] Et in eadem domo manentes edant et bibant quae apud illos sunt (cfr. Lc 10,7). [4] Non resistant malo (cfr. Mt 5,39), sed qui eos percusserit in una maxilla, praebeant et alteram (cfr. Mt 5,39 et Lc 6,29). [5] Et qui aufert eis vestimentum, et tunicam non prohibeant (cfr. Lc 6,29). [6] Omni petenti se tribuant; et qui aufert quae sua sunt, ea non repetant (cfr. Lc 6,30).",
+      "translation": "Amikor a testvérek a világban járnak, ne vigyenek semmit az útra, se erszényt, se tarisznyát, se kenyeret, se pénzt, se botot. És bármely házba belépnek, először ezt mondják: Béke ennek a háznak. És ugyanabban a házban maradva egyék és igyák, ami náluk van. Ne álljanak ellene a rossznak, hanem aki az egyik arcukra üt, annak nyújtsák a másikat is. És aki elveszi a ruhájukat, annak a tunikát se tagadják meg. Adjanak mindenkinek, aki kér; és aki elviszi a dolgaikat, attól ne kérjék vissza.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c15",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XV. fejezet",
+      "originalText": "[1] Iniungo omnibus fratribus meis tam clericis quam laicis euntibus per mundum vel morantibus in locis, quod nullo modo apud se nec apud alium nec alio aliquo modo bestiam aliquam habeant. [2] Nec eis liceat equitare, nisi infirmitate vel magna necessitate cogantur.",
+      "translation": "Megparancsolom minden testvéremnek, klerikusnak és világinak, akik a világban járnak vagy a helyeken laknak, hogy semmiképpen se tartsanak maguknál, se másnál, se bármely más módon semmilyen állatot. És ne legyen szabad lovagolniuk, hacsak betegség vagy nagy szükség nem kényszeríti őket.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c16",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XVI. fejezet",
+      "originalText": "[1] Dicit Dominus «Ecce ego mitto vos sicut oves in medio luporum». [2] Estote ergo prudentes sicut serpentes et simplices sicut columbae (Mt 10,16). [3] Unde quicumque frater voluerit ire inter saracenos et alios infideles, vadat de licentia sui ministri et servi. [4] Et minister det eis licentiam et non contradicat, si viderit eos idoneos ad mittendum; nam tenebitur Domino reddere rationem (cfr. Lc 16,2), si in hoc vel in aliis processerit indiscrete. [5] Fratres vero, qui vadunt, duobus modis inter eos possunt spiritualiter conversari. [6] Unus modus est, quod non faciant lites neque contentiones, sed sint subditi omni humanae creaturae propter Deum (1 Petr 2,13) et confiteantur se esse christianos. [7] Alius modus est, quod, cum viderint placere Domino, annuntient verbum Dei, ut credant Deum omnipotentem Patrem et Filium et Spiritum Sanctum, creatorem omnium, redemptorem et salvatorem Filium, et ut baptizentur et efficiantur christiani, quia quis renatus non fuerit ex aqua et Spiritu Sancto, non potest intrare in regnum Dei (cfr. Joa 3,5). [8] Haec et alia, quae placuerint Domino, ipsis et aliis dicere possunt, quia dicit Dominus in evangelio Omnis, qui confitebitur me coram hominibus, confitebor et ego eum coram Patre meo, qui in caelis est (Mt 10,32). [9] Et Qui erubuerit me et sermones meos, et Filius hominis erubescet eum, cum venerit in maiestate sua et Patris et angelorum (cfr. Lc 9,26). [10] Et omnes fratres, ubicumque sunt, recordentur, quod dederunt se et reliquerunt corpora sua Domino Jesu Christo. [11] Et pro eius amore debent se exponere inimicis tam visibilibus quam invisibilibus; quia dicit Dominus Qui perdiderit animam suam propter me, salvam faciet eam (cfr. Lc 9,24) in vitam aeternam (Mt 25,46). [12] Beati qui persecutionem patiuntur propter iustitiam, quoniam ipsorum est regnum caelorum (Mt 5,10). [13] Si me persecuti sunt, et vos persequentur (Joa 15,20). [14] Et Si persequuntur vos in una civitate, fugite in aliam (cfr. Mt 10,23). [15] Beati estis (Mt 5, 11), cum vos oderint homines (Lc 6,22) et maledixerint vobis (Mt 5,11) et persequentur vos (cfr. l. c.) et separaverint vos et exprobraverint et eiecerint nomen vestrum tamquam malum (Lc 6,22) et cum dixerint omne malum adversum vos mentientes propter me (Mt 5,11). [16] Gaudete in illa die et exsultate (Lc 6,23), quoniam merces vestra, multa est in caelis (cfr. Mt 5,12). [17] Et ego dico vobis amicis meis, non terreamini ab his (cfr. Lc 12,4), [18] et nolite timere eos qui occidunt corpus (Mt 10,28) et post hoc non habent amplius quid faciant (Lc 12,4). [19] Videte, ne turbemini (Mt 24,6). [20] In patientia enim vestra possidebitis animas vestras (Lc 21,19); [21] et qui perseveraverit usque in finem, hic salvus erit (Mt 10,22; 24,13).",
+      "translation": "Az Úr mondja: íme, úgy küldelek titeket, mint juhokat a farkasok közé. Legyetek tehát okosak, mint a kígyók, és egyszerűek, mint a galambok. Ezért bármely testvér, aki a szaracénok és a többi hitetlen közé akar menni, a minisztere és szolgája engedélyével menjen. És a miniszter adjon nekik engedélyt, és ne mondjon ellent, ha alkalmasnak látja őket a küldésre; számot kell ugyanis adnia az Úrnak, ha ebben vagy másban megfontolás nélkül járt el. A testvérek, akik mennek, két módon társaloghatnak közöttük lelkileg. Az egyik mód az, hogy ne viszálykodjanak és ne versengjenek, hanem legyenek alávetve minden emberi teremtménynek Istenért, és vallják meg, hogy keresztények. A másik mód az, hogy amikor látják, hogy az Úrnak tetszik, hirdessék Isten igéjét, hogy higgyenek a mindenható Istenben, Atyában, Fiúban és Szentlélekben, mindennek teremtőjében, a Fiúban, a megváltóban és üdvözítőben, és hogy megkeresztelkedjenek és keresztényekké legyenek, mert aki nem születik újjá víztől és Szentlélektől, nem mehet be Isten országába. Ezeket és más dolgokat, amelyek az Úrnak tetszenek, mondhatják nekik és másoknak, mert az Úr mondja az evangéliumban: aki megvall engem az emberek előtt, én is megvallom őt Atyám előtt, aki a mennyekben van. És: aki szégyell engem és az én szavaimat, azt az Emberfia is szégyellni fogja, amikor eljön az ő fenségében és az Atya és az angyalok fenségében. És minden testvér, bárhol van, emlékezzék arra, hogy testét odaadta és reá hagyta az Úr Jézus Krisztusnak. És az ő szeretetéért ki kell tenniük magukat az ellenségnek, láthatónak és láthatatlannak, mert az Úr mondja: aki elveszíti a lelkét énértem, megmenti azt az örök életre. Boldogok, akiket az igazság miatt üldöznek, mert övék a mennyek országa. Ha engem üldöztek, titeket is üldözni fognak. És: ha egy városban üldöznek titeket, meneküljetek egy másikba. Boldogok vagytok, amikor az emberek gyűlölnek titeket, és átkoznak, és üldöznek, és különválasztanak, és gyaláznak, és a neveteket mint gonoszat kivetik, és minden rosszat mondanak ellenetek, hazudva, énértem. Örüljetek azon a napon, és ujjongjatok, mert a jutalmatok bőséges a mennyekben. És mondom nektek, barátaim: ne rémítsenek meg titeket ezek, és ne féljetek azoktól, akik a testet megölik, és azután nincs többé mit tenniük. Vigyázzatok, hogy ne induljatok fel. A ti türelmetekben birtokoljátok lelketeket; és aki mindvégig kitart, az üdvözül.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c17",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XVII. fejezet",
+      "originalText": "[1] Nullus frater praedicet contra formam et institutionem sanctae Ecclesiae et nisi concessum sibi fuerit a ministro suo. [2] Et caveat sibi minister, ne alicui indiscrete concedat. [3] Omnes tamen fratres operibus praedicent. [4] Et nullus minister vel praedicator appropriet sibi ministerium fratrum vel officium praedicationis, sed quacumque hora ei iniunctum fuerit, sine omni contradictione dimittat suum officium. [5] Unde deprecor in caritate, quae Deus est (cfr. 1 Joa 4,16), omnes fratres meos praedicatores, oratores, laboratores, tam clericos quam laicos, ut studeant se humiliare in omnibus, [6] non gloriari nec in se gaudere nec interius se exaltare de bonis verbis et operibus, immo de nullo bono, quod Deus facit vel dicit et operatur in eis aliquando et per ipsos, secundum quod dicit Dominus «Veruntamen in hoc nolite gaudere, quia spiritus vobis subiciuntur» (Lc 10,20). [7] Et firmiter sciamus, quia non pertinent ad nos nisi vitia et peccata. [8] Et magis debemus gaudere, cum in tentationes varias incideremus (cfr. Jac 1,2) et cum sustineremus quascumque animae vel corporis angustias aut tribulationes in hoc mundo propter vitam aeternam. [9] Omnes ergo fratres caveamus ab omni superbia et vana gloria. [10] Et custodiamus nos a sapientia huius mundi et a prudentia carnis (Rom 8,6). [11] Spiritus enim carnis vult et studet multum ad verba habenda, sed parum ad operationem; [12] et quaerit non religionem et sanctitatem in interiori spiritu, sed vult et desiderat habere religionem et sanctitatem foris apparentem hominibus. [13] Et isti sunt, de quibus dicit Dominus Amen dico vobis, receperunt mercedem suam (Mt 6,2). [14] Spiritus autem Domini vult mortificatam et despectam, vilem et abiectam esse carnem. [15] Et studet ad humilitatem et patientiam et puram et simplicem et veram pacem spiritus. [16] Et semper super omnia desiderat divinum timorem et divinam sapientiam et divinum amorem Patris et Filii et Spiritus Sancti. [17] Et omnia bona Domino Deo altissimo et summo reddamus et omnia bona ipsius esse cognoscamus et de omnibus ei gratias referamus, a quo bona cuncta procedunt. [18] Et ipse altissimus et summus, solus verus Deus habeat et ei reddantur et ipse recipiat omnes honores et reverentias, omnes laudes et benedictiones, omnes gratias et gloriam, cuius est omne bonum, qui solus est bonus (cfr. Lc 18,19). [19] Et quando nos videmus vel audimus malum dicere vel facere vel blasphemare Deum, nos bene dicamus et bene faciamus et laudemus Deum (cfr. Rom 12,21), qui est benedictus in saecula (Rom 1,25).",
+      "translation": "Egyetlen testvér se prédikáljon a szent Egyház formája és intézménye ellen, sem anélkül, hogy a minisztere megengedte volna neki. És a miniszter óvakodjék attól, hogy megfontolás nélkül megadja valakinek. Minden testvér azonban cselekedetekkel prédikáljon. És egyetlen miniszter vagy prédikátor se sajátítsa ki a testvérek hivatalát vagy a prédikáció hivatalát, hanem abban az órában, amikor megparancsolják neki, minden ellentmondás nélkül hagyja el a hivatalát. Ezért kérem, a szeretetben, amely Isten, minden testvéremet, akik prédikálnak, imádkoznak, dolgoznak, klerikusokat és világiakat, hogy igyekezzenek mindenben megalázkodni, ne dicsekedjenek, se ne örüljenek önmagukban, se ne emelkedjenek fel belül a jó szavak és cselekedetek miatt, sőt semmilyen jó miatt, amelyet Isten tesz, vagy mond és művel bennük olykor és általuk, ahogyan az Úr mondja: ne ennek örüljetek, hogy a lelkek alá vannak vetve nektek. És szilárdan tudjuk, hogy semmi más nem a miénk, csak a vétkek és a bűnök. És inkább akkor kell örülnünk, amikor különféle kísértésekbe esünk, és amikor a lélek vagy a test szorongásait és gyötrelmeit viseljük ebben a világban, az örök életre tekintve. Minden testvér óvakodjék tehát minden gőgtől és hiú dicsőségtől. És őrizzük magunkat e világ bölcsességétől és a test okosságától. A test lelke nagyon akarja és igyekszik, hogy szavai legyenek, de kevéssé, hogy cselekedjen; és nem a vallást és a szentséget keresi a belső lélekben, hanem olyan vallást és szentséget akar és kíván, amely kívül az embereknek látszik. És ezek azok, akikről az Úr mondja: bizony mondom nektek, megkapták a jutalmukat. Az Úr lelke ellenben azt akarja, hogy a test megsanyargatott és megvetett, alantas és elvetett legyen. És az alázatra, a türelemre és a lélek tiszta, egyszerű és igaz békéjére törekszik. És mindenekfölött mindig az isteni félelmet, az isteni bölcsességet és az Atya, a Fiú és a Szentlélek isteni szeretetét kívánja. És adjunk a magasságos és fölséges Úr Istennek minden jót, és ismerjük el, hogy minden jó az övé, és mindenért adjunk neki hálát, neki, akiből minden jó származik. És ő, a magasságos és fölséges, az egyedül igaz Isten, bírja, és neki adassanak, és ő kapja meg minden tiszteletet és hódolatot, minden dicséretet és áldást, minden hálát és a dicsőséget: övé minden jó, egyedül ő a jó. És amikor látjuk vagy halljuk, hogy rosszat mondanak vagy tesznek, vagy Istent káromolják, mi mondjuk a jót, és tegyük a jót, és dicsérjük Istent, aki áldott mindörökké.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c18",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XVIII. fejezet",
+      "originalText": "[1] Quolibet anno unusquisque minister cum fratribus suis possit convenire, ubicumque placuerit eis, in festo sancti Michaelis archangeli de his quae ad Deum pertinent, tractaturus. [2] Omnes enim ministri, qui sunt in ultramarinis et ultramontanis partibus, semel in tribus annis, et alii ministri semel in anno veniant ad capitulum Pentecostes apud ecclesiam sanctae Mariae de Portiuncula, nisi a ministro et servo totius fraternitatis aliter fuerit ordinatum.",
+      "translation": "Minden évben minden miniszter összegyűlhet a testvéreivel, ahol nekik tetszik, Szent Mihály arkangyal ünnepén, hogy megtárgyalják, ami Istenre tartozik. Minden miniszter, aki a tengerentúli és a hegyentúli részeken van, háromévente egyszer jöjjön, a többi miniszter pedig évente egyszer a pünkösdi káptalanra, a Porciunkula Szűz Mária-templomához, hacsak az egész testvériség minisztere és szolgája másként nem rendelte.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c19",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XIX. fejezet",
+      "originalText": "[1] Omnes fratres sint catholici, vivant et loquantur catholice. [2] Si quis vero erraverit a fide et vita catholica in dicto vel in facto et non se emendaverit, a nostra fraternitate penitus expellatur. [3] Et omnes clericos et omnes religiosos habeamus pro dominis in his quae spectant ad salutem animae et a nostra religione non deviaverint, et ordinem et officium eorum et administrationem in Domino veneremur.",
+      "translation": "Minden testvér legyen katolikus, éljen és beszéljen katolikusként. Ha valaki eltávolodik a katolikus hittől és élettől, szóval vagy tettel, és nem javul meg, teljesen zárják ki a mi testvériségünkből. És minden klerikust és minden szerzetest tartsuk úrnak abban, ami a lélek üdvösségére tartozik, és nem tér el a mi vallásunktól, és az Úrban tiszteljük a rendjüket, a hivatalukat és a szolgálatukat.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c20",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XX. fejezet",
+      "originalText": "[1] Et fratres mei benedicti tam clerici quam laici confiteantur peccata sua sacerdotibus nostrae religionis. [2] Et si non potuerint, confiteantur aliis discretis et catholicis sacerdotibus scientes firmiter et attendentes, quia a quibuscumque sacerdotibus catholicis acceperint poenitentiam et absolutionem, absoluti erunt procul dubio ab illis peccatis, si poenitentiam sibi iniunctam procuraverint humiliter et fideliter observare. [3] Si vero tunc non potuerint habere sacerdotem, confiteantur fratri suo, sicut dicit apostolus Jacobus «Confitemini alterutrum peccata vestra» (Jac 5,16). [4] Non tamen propter hoc dimittant recurrere ad sacerdotem, quia potestas ligandi et solvendi solis sacerdotibus est concessa. [5] Et sic contriti et confessi sumant corpus et sanguinem Domini nostri Jesu Christi cum magna humilitate et veneratione recordantes, quod Dominus dicit Qui manducat carnem meam et bibit sanguinem meum habet vitam aeternam (cfr. Joa 6,55); [6] et «Hoc facite in meam commemorationem» (Lc 22,19).",
+      "translation": "És áldott testvéreim, klerikusok és világiak, gyónják meg bűneiket a mi vallásunk papjainak. És ha nem tehetik, gyónják meg más, megfontolt és katolikus papoknak, szilárdan tudva és ügyelve arra, hogy bármely katolikus paptól kapták a bűnbánatot és a feloldozást, kétség nélkül feloldozást nyernek azokból a bűnökből, ha igyekeznek alázattal és hűséggel megtartani a rájuk szabott bűnbánatot. Ha akkor nem kaphatnak papot, gyónjanak meg a testvérüknek, ahogyan Jakab apostol mondja: valljátok meg egymásnak a bűneiteket. Ezért ne mulasszák el a paphoz folyamodni, mert a kötés és oldás hatalma csak a papoknak adatott. És így, töredelmesen és meggyónva, nagy alázattal és tisztelettel vegyék magukhoz a mi Urunk Jézus Krisztus testét és vérét, emlékezve arra, hogy az Úr mondja: aki eszi az én testemet és issza az én véremet, örök élete van; és: ezt cselekedjétek az én emlékezetemre.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c21",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XXI. fejezet",
+      "originalText": "[1] Et hanc vel talem exhortationem et laudem omnes fratres mei, quandocumque placuerit eis, annuntiare possunt inter quoscumque homines cum benedictione Dei [2] Timete et honorate, laudate et benedicite, gratias agite (1 Thess 5,18) et adorate Dominum Deum omnipotentem in trinitate et unitate, Patrem et Filium et Spiritum Sanctum, creatorem omnium. [3] Agite poenitentiam (cfr. Mt 3,2), facite dignos fructus poenitentiae (cfr. Lc 3,8), quia cito moriemur. [4] Date et dabitur vobis (Lc 6,38). [5] Dimittite et dimittetur vobis (cfr. Lc 6,37). [6] Et si non dimiseritis hominibus peccata eorum (Mt 6,14), Dominus non dimittet vobis peccata vestra (Mc 11,25); confitemini omnia peccata vestra (cfr. Jac 5,16). [7] Beati qui moriuntur in poenitentia, quia erunt in regno caelorum. [8] Vae illis qui non moriuntur in poenitentia, quia erunt filii diaboli (1 Joa 3,10), cuius opera faciunt (cfr. Joa 8,41) et ibunt in ignem aeternum (Mt 18,8; 25,41). [9] Cavete et abstinete ab omni malo et perseverate usque in finem in bono.",
+      "translation": "És ezt a buzdítást és dicséretet, vagy egy hasonlót, minden testvérem hirdetheti, valahányszor nekik tetszik, bármely ember között, Isten áldásával: féljétek és tiszteljétek, dicsérjétek és áldjátok, adjatok hálát és imádjátok a mindenható Úr Istent hármasságban és egységben, Atyát, Fiút és Szentlelket, mindennek teremtőjét. Tartsatok bűnbánatot, teremjetek a bűnbánathoz méltó gyümölcsöket, mert hamar meghalunk. Adjatok, és adatik nektek. Bocsássatok meg, és nektek is megbocsáttatik. És ha nem bocsáttok meg az embereknek a bűneiket, az Úr sem bocsátja meg nektek a bűneiteket: valljátok meg minden bűnötöket. Boldogok, akik bűnbánatban halnak meg, mert a mennyek országában lesznek. Jaj azoknak, akik nem bűnbánatban halnak meg, mert az ördög fiai lesznek, akinek a cselekedeteit teszik, és az örök tűzre mennek. Őrizkedjetek, és tartózkodjatok minden rossztól, és mindvégig tartsatok ki a jóban.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c22",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XXII. fejezet",
+      "originalText": "[1] Attendamus, omnes fratres, quod dicit Dominus Diligite inimicos vestros et benefacite his qui oderunt vos (cfr. Mt 5,44 par.), [2] quia Dominus noster Jesus Christus, cuius sequi vestigia debemus (cfr. 1 Petr 2,21), traditorem suum vocavit amicum (cfr. Mt 26,50) et crucifixoribus suis sponte se obtulit. [3] Amici igitur nostri sunt omnes illi, qui nobis iniuste inferunt tribulationes et angustias, verecundias et iniurias, dolores et tormenta, martyrium et mortem; [4] quos multum diligere debemus, quia ex hoc quod nobis inferunt, habemus vitam aeternam. [5] Et odio habeamus corpus nostrum cum vitiis et peccatis suis; quia carnaliter vivendo vult diabolus a nobis auferre amorem Jesu Christi et vitam aeternam et se ipsum cum omnibus perdere in infernum; [6] quia nos per culpam nostram sumus foetidi, miseri et bono contrarii, ad mala autem prompti et voluntarii, quia sicut Dominus dicit in evangelio [7] De corde procedunt et exeunt cogitationes malae, adulteria, fornicationes, homicidia, furta, avaritia, nequitia, dolus, impudicitia, oculus malus, falsa testimonia, blasphemia, stultitia (cfr. Mc 7,21-22; Mt 15,19). [8] Haec omnia mala ab intus de corde hominis procedunt (cfr. Mc 7,23) et haec sunt quae coinquinant hominem (Mt 15,20). [9] Nunc autem, postquam dimisimus mundum, nihil aliud habemus facere, nisi sequi voluntatem Domini et placere sibi ipsi. [10] Multum caveamus, ne simus terra secus viam vel petrosa vel spinosa, secundum quod dicit Dominus in evangelio [11] Semen est verbum Dei (Lc 8,11). [12] Quod autem secus viam cecidit et conculcatum est (cfr. Lc 8,5), hi sunt, qui audiunt (Lc 8,12) verbum et non intelligunt (cfr. Mt 13,19); [13] et confestim (Mc 4,15) venit diabolus (Lc 8,12) et rapit (Mt 13,19), quod seminatum est in cordibus eorum (Mc 4,15) et tollit verbum de cordibus eorum, ne credentes salvi fiant (Lc 8,12). [14] Quod autem super petrosam cecidit (cfr. Mt 13,20), hi sunt, qui, cum audierint verbum, statim cum gaudio (Mc 4,16) suscipiunt (Lc 8,13) illud (Mc 4,16). [15] Facta autem tribulatione et persecutione propter verbum, continuo scandalizantur (Mt 13,21) et hi radicem in se non habent, sed temporales sunt (cfr. Mc 4,17), quia ad tempus credunt et in tempore tentationis recedunt (Lc 8,13). [16] Quod autem in spinis cecidit, hi sunt (Lc 8,14), qui verbum Dei audiunt (cfr. Mc 4,18), et sollicitudo (Mt 13,22) et aerumnae (Mc 4,19) istius saeculi et fallacia divitiarum (Mt 13,22) et circa reliqua concupiscentiae introeuntes suffocant verbum et sine fructu efficiuntur (cfr. Mc 4,19). [17] Quod autem in terram bonam (Lc 8,15) seminatum est (Mt 13,23), hi sunt, qui in corde bono et optimo audientes verbum (Lc 8,15) intelligunt et (cfr. Mt 13,23) retinent et fructum afferunt in patientia (Lc 8,15). [18] Et propterea nos fratres, sicut dicit Dominus, dimittamus mortuos sepelire mortuos suos (Mt 8,22). [19] Et multum caveamus a malitia et subtilitate satanae, qui vult, quod homo mentem suam et cor non habeat ad Deum. [20] Et circuiens desiderat cor hominis sub specie alicuius mercedis vel adiutorii tollere et suffocare verbum et praecepta Domini a memoria et volens cor hominis per saecularia negotia et curam excaecare et ibi habitare, sicut dicit Dominus [21] Cum immundus spiritus exierit ab homine, ambulat per loca arida (Mt 12,43) et inaquosa quaerens requiem; [22] et non inveniens dicit Revertar in domum meam, unde exivi (Lc 11,24). [23] Et veniens invenit eam vacantem, scopis mundatam et ornatam (Mt 12,44). [24] Et vadit et assumit alios septem spiritus nequiores se, et ingressi habitant ibi, et sunt novissima hominis illius peiora prioribus (cfr. Lc 11,26). [25] Unde, omnes fratres. custodiamus nos multum, ne sub specie alicuius mercedis vel operis vel adiutorii perdamus vel tollamus nostram mentem et cor a Domino. [26] Sed in sancta caritate, quae Deus est (cfr. 1 Joa 4,16), rogo omnes fratres tam ministros quam alios, ut omni impedimento remoto et omni cura et sollicitudine postposita, quocumque modo melius possunt, servire, amare, honorare et adorare Dominum Deum mundo corde et pura mente faciant, quod ipse super omnia quaerit. [27] Et semper faciamus ibi habitaculum et mansionem (cfr. Joa 14,23) ipsi, qui est Dominus Deus omnipotens, Pater et Filius et Spiritus Sanctus, qui dicit Vigilate itaque omni tempore orantes, ut digni habeamini fugere omnia mala, quae ventura sunt et stare ante Filium hominis (Lc 21,36). [28] Et cum stabitis ad orandum (Mc 11,25) dicite (Lc 11,2) Pater noster qui es in caelis (Mt 6,9). [29] Et adoremus eum puro corde, quoniam oportet semper orare et non deficere (Lc 18,1); [30] nam Pater tales quaerit adoratores. [31] Spiritus est Deus, et eos qui adorant eum, in spiritu et veritate oportet eum adorare (cfr. Joa 4,23-24). [32] Et ad ipsum recurramus tamquam ad pastorem et episcopum animarum nostrarum (1 Petr 2,25), qui dicit Ego sum pastor bonus, qui pasco oves meas et pro ovibus meis pono animam meam. [33] Omnes vos fratres estis; [34] et patrem nolite vobis vocare super terram, unus est enim Pater vester, qui in caelis est. [35] Nec vocemini magistri; unus est enim magister vester, qui in caelis est (cfr. Mt 23,8-10). [36] Si manseritis in me, et verba mea in vobis manserint, quodcumque volueritis, petetis et fiet vobis (Joa 15,7). [37] Ubicumque sunt duo vel tres congregati in nomine meo, ibi sum in medio eorum (Mt 18,20). [38] Ecce ego sum vobiscum usque ad consummationem saeculi (Mt 28,20). [39] Verba, quae locutus sum vobis, spiritus et vita sunt (Joa 6,64). [40] Ego sum via, veritas et vita (Joa 14,6). [41] Teneamus ergo verba, vitam et doctrinam et sanctum eius evangelium, qui dignatus est pro nobis rogare Patrem suum et nobis eius nomen manifestare dicens Pater clarifica nomen tuum (Joa 12,28a) et clarifica Filium tuum, ut Filius tuus clarificet te (Joa 17,1b). [42] Pater, manifestavi nomen tuum hominibus, quos dedisti mihi (Joa 17,6); quia verba, quae dedisti mihi, dedi eis; et ipsi acceperunt et cognoverunt, quia a te exivi et crediderunt, quia tu me misisti. [43] Ego pro eis rogo, non pro mundo, [44] sed pro his quos dedisti mihi, quia tui sunt et omnia mea tua sunt (Joa 17,8-10). [45] Pater sancte, serva eos in nomine tuo, quos dedisti mihi, ut ipsi sint unum sicut et nos (Joa 17,11b). [46] Haec loquor in mundo, ut habeant gaudium in semetipsis. [47] Ego dedi eis sermonem tuum; et mundus eos odio habuit, quia non sunt de mundo, sicut et ego non sum de mundo. [48] Non rogo, ut tollas eos de mundo, sed ut serves eos a malo (Joa 17,13b-15). [49] Mirifica eos in veritate. [50] Sermo tuus veritas est. [51] Sicut tu me misisti in mundum, et ego misi eos in mundum. [52] Et pro eis sanctifico meipsum, ut sint ipsi sanctificati in veritate. [53] Non pro eis rogo tantum, sed pro eis, qui credituri sunt propter verbum eorum in me (cfr. Joa 17,17-20), ut sint consummati in unum, et cognoscat mundus, quia tu me misisti et dilexisti eos, sicut me dilexisti (Joa 17,23). [54] Et notum faciam eis nomen tuum, ut dilectio, qua dilexisti me sit in ipsis et ego in ipsis (cfr. Joa 17,26). [55] Pater, quos dedisti mihi, volo, ut ubi ego sum, et illi sint mecum, ut videant claritatem tuam (cfr. Joa 17,24) in regno tuo (Mt 20,21). Amen.",
+      "translation": "Vigyázzunk, minden testvér, arra, amit az Úr mond: szeressétek ellenségeiteket, és tegyetek jót azokkal, akik gyűlölnek titeket, mert a mi Urunk Jézus Krisztus, akinek a nyomdokait követnünk kell, barátjának nevezte az árulóját, és önként ajánlotta fel magát azoknak, akik keresztre feszítették. Barátaink tehát mindazok, akik jogtalanul gyötrelmeket és szorongásokat, szégyeneket és sértéseket, fájdalmakat és kínokat, vértanúságot és halált mérnek ránk; és nagyon kell szeretnünk őket, mert abból, amit ránk mérnek, örök életünk van. És gyűlöljük a testünket a vétkeivel és bűneivel, mert a test szerint élve az ördög el akarja venni tőlünk Jézus Krisztus szeretetét és az örök életet, és magát is mindenkivel együtt a pokolba akarja veszíteni. A mi hibánkból bűzösek, nyomorultak és a jóval ellenkezők vagyunk, készek és készségesek viszont a rosszra, mert, ahogyan az Úr mondja az evangéliumban, a szívből származnak és jönnek ki a gonosz gondolatok, a házasságtörések, a paráznaságok, a gyilkosságok, a lopások, a kapzsiság, a rosszindulat, a csalás, a szemérmetlenség, a rossz szem, a hamis tanúságok, a káromlás, a balgaság. Mindezek a rosszak belülről jönnek ki, az ember szívéből, és ezek szennyezik be az embert. Most, miután elhagytuk a világot, nincs más dolgunk, mint követni az Úr akaratát, és neki tetszeni. Nagyon őrizkedjünk attól, hogy az út menti föld legyünk, vagy a köves, vagy a tövises, ahogyan az Úr mondja az evangéliumban: a mag Isten igéje. Ami az út mellé esett, és eltaposták, azok, akik hallgatják az igét, és nem értik meg; és mindjárt jön az ördög, és elragadja, amit a szívükbe vetettek, és kiveszi az igét a szívükből, hogy hívén ne üdvözüljenek. Ami a kövesre esett, azok, akik az igét hallva mindjárt örömmel fogadják. Amikor a gyötrelem és az üldözés eljön az ige miatt, mindjárt megbotránkoznak, és nincs gyökerük magukban, hanem egy pillanatig valók, mert egy ideig hisznek, és a kísértés idején visszavonulnak. Ami a tövisek közé esett, azok, akik hallgatják Isten igéjét, és e korszak gondja és fáradságai, a gazdagság csalása és a többi kívánság behatolva elfojtja az igét, és gyümölcs nélkül maradnak. Amit a jó földbe vetettek, azok, akik jó és kitűnő szívben hallgatva az igét megértik, megtartják, és türelemmel gyümölcsöt hoznak. És ezért mi, testvérek, ahogyan az Úr mondja, hagyjuk, hogy a holtak temessék el a halottaikat. És nagyon őrizkedjünk a sátán rosszindulatától és ravaszságától, aki azt akarja, hogy az ember elméje és szíve ne Isten felé forduljon. És körüljárva el akarja venni és elfojtani az ember szívét, valamely jutalom vagy segítség ürügyén, és ki akarja venni az emlékezetből az Úr igéjét és parancsait, és meg akarja vakítani az ember szívét a világi ügyekkel és a gonddal, és ott akar lakni, ahogyan az Úr mondja: amikor a tisztátalan lélek kiment az emberből, víz nélküli, száraz helyeken jár, nyugalmat keresve; és nem találva azt, azt mondja: visszatérek a házamba, ahonnan kijöttem. És megérkezve üresen, kisöpörve és felékesítve találja. És elmegy, és hoz másik hét, nála gonoszabb lelket, és bemenve ott laknak, és annak az embernek az utolsó állapota rosszabb lesz az elsőnél. Ezért, minden testvér, nagyon őrizzük magunkat, hogy el ne veszítsük vagy el ne fordítsuk elménket és szívünket az Úrtól valamely jutalom, cselekedet vagy segítség ürügyén. Hanem a szent szeretetben, amely Isten, kérem minden testvért, a minisztereket és a többieket, hogy minden akadályt eltávolítva, és minden gondot és szorongást félretéve, a lehető legjobb módon szolgálják, szeressék, tiszteljék és imádják az Úr Istent tiszta szívvel és tiszta elmével, és tegyék azt, amit ő mindenekfölött keres. És mindig ott készítsünk neki lakást és hajlékot, neki, aki a mindenható Úr Isten, Atya, Fiú és Szentlélek, aki mondja: virrasszatok tehát minden időben imádkozva, hogy méltók legyetek arra, hogy megmeneküljetek minden eljövendő rossztól, és az Emberfia előtt álljatok. És amikor imádkozni álltok, ezt mondjátok: Miatyánk, aki a mennyekben vagy. És tiszta szívvel imádjuk őt, mert mindig imádkozni kell, és el nem fáradni; az Atya ugyanis ilyen imádókat keres. Az Isten lélek, és akik imádják őt, lélekben és igazságban kell imádniuk. És folyamodjunk hozzá, mint lelkünk pásztorához és püspökéhez, őhozzá, aki mondja: én vagyok a jó pásztor, aki legeltetem a juhaimat, és a juhaimért odaadom a lelkemet. Mindnyájan testvérek vagytok; és ne hívjatok atyátoknak senkit a földön: egy a ti Atyátok, aki a mennyekben van. És ne hívassátok magatokat mestereknek: egy a ti mesteretek, aki a mennyekben van. Ha megmaradtok bennem, és az én szavaim megmaradnak bennetek, bármit akartok, kérni fogjátok, és meglesz nektek. Ahol ketten vagy hárman összegyűlnek az én nevemben, ott vagyok közöttük. Íme, én veletek vagyok a világ végezetéig. A szavak, amelyeket mondtam nektek, lélek és élet. Én vagyok az út, az igazság és az élet. Tartsuk meg tehát az ő szavait, életét, tanítását és szent evangéliumát, őt, aki méltóztatott az Atyához könyörögni értünk, és kinyilatkoztatni nekünk az ő nevét, mondván: Atyám, dicsőítsd meg a te nevedet, és dicsőítsd meg a te Fiadat, hogy a te Fiad dicsőítsen téged. Atyám, kinyilatkoztattam a te nevedet az embereknek, akiket nekem adtál, mert a szavakat, amelyeket nekem adtál, nekik adtam; és ők befogadták azokat, és megismerték, hogy tőled jöttem ki, és hittek, hogy te küldtél engem. Én őértük könyörgök, nem a világért, hanem azokért, akiket nekem adtál, mert a tieid, és minden, ami az enyém, a tied. Szent Atyám, őrizd meg őket a te nevedben, akiket nekem adtál, hogy egy legyenek, ahogyan mi. Ezt a világban mondom, hogy örömük legyen önmagukban. Én nekik adtam a te igédet; és a világ gyűlölte őket, mert nem a világból valók, ahogyan én sem vagyok a világból való. Nem azt kérem, hogy vedd ki őket a világból, hanem hogy őrizd meg őket a gonosztól. Tedd őket csodálatossá az igazságban. A te igéd igazság. Ahogyan te engem a világba küldtél, én is őket küldtem a világba. És értük szentelem magamat, hogy ők is megszentelődjenek az igazságban. Nemcsak őértük könyörgök, hanem azokért is, akik hinni fognak bennem az ő szavuk által, hogy az egységben beteljesedjenek, és a világ megismerje, hogy te küldtél engem, és szeretted őket, ahogyan engem szerettél. És megismertetem velük a te nevedet, hogy a szeretet, amellyel szerettél engem, bennük legyen, és én őbennük. Atyám, akiket nekem adtál, azt akarom, hogy ahol én vagyok, ők is velem legyenek, hogy lássák a te dicsőségedet a te országodban. Ámen.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c23",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XXIII. fejezet",
+      "originalText": "[1] Omnipotens, sanctissime, altissime et summe Deus, Pater sancte (Joa 17,11) et iuste, Domine rex caeli et terrae (cfr. Mt 11,25), propter temetipsum gratias agimus tibi, quod per sanctam voluntatem tuam et per unicum Filium tuum cum Spiritu Sancto creasti omnia spiritualia et corporalia et nos ad imaginem tuam et similitudinem factos in paradiso posuisti (cfr. Gen 1,26; 2,15). [2] Et nos per culpam nostram cecidimus. [3] Et gratias agimus tibi, quia, sicut per Filium tuum nos creasti, sic per sanctam dilectionem tuam, qua dilexisti nos (cfr. Joa 17,26), ipsum verum Deum et verum hominem ex gloriosa semper Virgine beatissima sancta Maria nasci fecisti et per crucem et sanguinem et mortem ipsius nos captivos redimi voluisti. [4] Et gratias agimus tibi, quia ipse Filius tuus venturus est in gloria maiestatis suae mittere maledictos, qui poenitentiam non egerunt et te non cognoverunt, in ignem aeternum, et dicere omnibus, qui te cognoverunt et adoraverunt et tibi servierunt in poenitentia Venite, benedicti Patris mei, percipite regnum, quod vobis paratum est ab origine mundi (cfr. Mt 25,34). [5] Et quia nos omnes miseri et peccatores non sumus digni nominare te, suppliciter exoramus, ut Dominus noster Jesus Christus Filius tuus dilectus, in quo tibi bene complacuit (cfr. Mt 17,5), una cum Spiritu Sancto Paraclito gratias agat tibi, sicut tibi et ipsi placet, pro omnibus, qui tibi semper sufficit ad omnia, per quem nobis tanta fecisti. Alleluia. [6] Et gloriosam matrem beatissimam Mariam semper Virginem, beatum Michaelem, Gabrielem et Raphaelem et omnes choros beatorum seraphim, cherubim, thronorum, dominationum, principatuum, potestatum (cfr. Col 1,15), virtutum, angelorum, archangelorum, beatum Joannem Baptistam, Joannem Evangelistam, Petrum, Paulum et beatos patriarchas, prophetas, Innocentes, apostolos, evangelistas, discipulos, martyres, confessores, virgines, beatos Eliam et Enoch et omnes sanctos, qui fuerunt et erunt et sunt propter tuum amorem humiliter deprecamur, ut, sicut tibi placet, pro his tibi gratias referant summo vero Deo, aeterno et vivo, cum Filio tuo carissimo Domino nostro Jesu Christo et Spiritu Sancto Paraclito in saecula saeculorum (Apoc 19,3). Amen. Alleluia (Apoc 19,4). [7] Et Domino Deo universos intra sanctam ecclesiam catholicam et apostolicam servire volentes et omnes sequentes ordines sacerdotes, diaconos, subdiaconos, acolythos, exorcistas, lectores, ostiarios et omnes clericos, universos religiosos et religiosas, omnes conversos et parvulos, pauperes et egenos, reges et principes, laboratores et agricolas, servos et dominos, omnes virgines et continentes et maritatas, laicos, masculos et feminas, omnes infantes, adolescentes, iuvenes et senes, sanos et infirmos, omnes pusillos et magnos, et omnes populos, gentes, tribus et linguas (cfr. Apoc 7,9), omnes nationes et omnes homines ubicumque terrarum, qui sunt et erunt, humiliter rogamus et supplicamus nos omnes fratres minores, servi inutiles (Lc 17,10), ut omnes in vera fide et poenitentia perseveremus, quia aliter nullus salvari potest. [8] Omnes diligamus ex toto corde, ex tota anima, ex tota mente, ex tota virtute (cfr. Mc 12,30) et fortitudine, ex toto intellectu (cfr. Mc 12,33), ex omnibus viribus (cfr. Lc 10,27), toto nisu, toto affectu, totis visceribus, totis desideriis et voluntatibus Dominum Deum (Mc 12,30 par.), qui totum corpus, totam animam et totam vitam dedit et dat omnibus nobis, qui nos creavit, redemit et sua sola misericordia salvabit (cfr. Tob 13,5), qui nobis miserabilibus et miseris, putridis et foetidis, ingratis et malis omnia bona fecit et facit. [9] Nihil ergo aliquid aliud desideremus, nihil aliud velimus, nihil aliud placeat et delectet nos nisi Creator et Redemptor et Salvator noster, solus verus Deus, qui est plenum bonum, omne bonum, totum bonum, verum et summum bonum, qui solus est bonus (cfr. Lc 18,19), pius, mitis, suavis et dulcis, qui solus est sanctus, iustus, verus, sanctus et rectus, qui solus est benignus, innocens, mundus, a quo et per quem et in quo (cfr. Rom 11,36) est omnis venia, omnis gratia, omnis gloria omnium poenitentium et iustorum, omnium beatorum in caelis congaudentium. [10] Nihil ergo impediat, nihil separet, nihil interpolet. [11] Ubique nos omnes omni loco, omni hora et omni tempore, quotidie et continue credamus veraciter et humiliter et in corde teneamus et amemus, honoremus, adoremus, serviamus, laudemus et benedicamus, glorificemus et superexaltemus, magnificemus et gratias agamus altissimo et summo Deo aeterno, trinitati et unitati, Patri et Filio et Spiritui Sancto, creatori omnium et salvatori omnium in se credentium et sperantium et diligentium eum, qui sine initio et sine fine immutabilis, invisibilis, inenarrabilis, ineffabilis, incomprehensibilis, investigabilis (cfr. Rom 11,33), benedictus, laudabilis, gloriosus, superexaltatus (cfr. Dan 3,52), sublimis, excelsus, suavis, amabilis, delectabilis et totus super omnia desiderabilis in saecula. Amen.",
+      "translation": "Mindenható, legszentebb, magasságos és fölséges Isten, szent és igaz Atya, az ég és a föld királya, Úr, önmagadért adunk neked hálát, mert szent akaratodból és egyetlen Fiad által a Szentlélekkel megteremtetted minden lelki és testi dolgot, és minket, a te képedre és hasonlatosságodra alkotva, a paradicsomba helyeztél. És mi a saját hibánkból elbuktunk. És hálát adunk neked, mert, ahogyan a te Fiad által teremtettél minket, úgy a szent szeretetedből, amellyel szerettél minket, őt, igaz Istent és igaz embert, a dicsőséges, mindenkor szűz, boldogságos szent Máriától születni adtad, és az ő keresztje, vére és halála által azt akartad, hogy mi, foglyok, megváltassunk. És hálát adunk neked, mert ugyanez a te Fiad eljön az ő fenségének dicsőségében, hogy az örök tűzre küldje az átkozottakat, akik nem tartottak bűnbánatot, és nem ismertek meg téged, és hogy ezt mondja mindazoknak, akik megismertek, imádtak téged, és bűnbánatban szolgáltak neked: jöjjetek, Atyám áldottai, vegyétek az országot, amely nektek készült a világ kezdetétől. És mivel mindannyian, nyomorultak és bűnösök, nem vagyunk méltók arra, hogy kimondjuk a nevedet, kérjük, hogy a mi Urunk Jézus Krisztus, a te szeretett Fiad, akiben kedved telt, a Szentlélekkel, a Vigasztalóval együtt adjon neked hálát, ahogyan neked és neki tetszik, mindenkiért, ő, aki mindig elég neked mindenre, aki által ennyi mindent tettél velünk. Alleluja. És a dicsőséges anyát, a boldogságos, mindenkor szűz Máriát, a boldog Mihályt, Gábrielt és Ráfaelt, és a boldogok minden karát, a szeráfokat, a kerubokat, a trónusokat, az uralmakat, a fejedelemségeket, a hatalmasságokat, az erősségeket, az angyalokat, az arkangyalokat, a boldog Keresztelő Jánost, János evangélistát, Pétert, Pált és a boldog pátriárkákat, prófétákat, Aprószenteket, apostolokat, evangélistákat, tanítványokat, vértanúkat, hitvallókat, szüzeket, a boldog Illést és Énokot, és minden szentet, aki volt, lesz és van, a te szeretetedért alázatosan kérjük, hogy, ahogyan neked tetszik, adjanak hálát ezekért neked, a fölséges, igaz Istennek, az örökkévalónak és élőnek, a te szeretett Fiaddal együtt, a mi Urunk Jézus Krisztussal, és a Szentlélekkel, a Vigasztalóval, mindörökkön-örökké. Ámen. Alleluja. És mi mind, kisebb testvérek, haszontalan szolgák, alázatosan kérjük és esedezünk az Úr Istenhez, és mindazokhoz, akik a szent, katolikus és apostoli Egyházban akarnak szolgálni, és minden következő rendhez: papok, diakónusok, szubdiakónusok, akolitusok, ördögűzők, lektorok, ajtónállók és minden klerikus, minden szerzetes és szerzetesnő, minden konverzus és kicsiny, a szegények és a rászorulók, a királyok és a fejedelmek, a munkások és a földművesek, a szolgák és az urak, minden szűz, önmegtartóztató és házas, a világiak, férfiak és nők, minden gyermek, serdülő, ifjú és öreg, az egészségesek és a betegek, minden kicsiny és nagy, és minden nép, nemzetség, törzs és nyelv, minden nemzet és minden ember, bárhol a földön, aki van és aki lesz, hogy mindannyian kitartsunk az igaz hitben és a bűnbánatban, mert máskülönben senki sem üdvözülhet. Szeressük mindannyian, teljes szívvel, teljes lélekkel, teljes elmével, teljes erővel és erősséggel, teljes értelemmel, minden erőnkkel, minden igyekezettel, teljes szeretettel, minden bensőnkkel, minden kívánságunkkal és akaratunkkal az Úr Istent, aki nekünk, mindannyiunknak, az egész testet, az egész lelket és az egész életet adta és adja, ő, aki teremtett és megváltott minket, és egyedül az ő irgalmából üdvözít, ő, aki nekünk, szánalmasaknak és nyomorultaknak, rothadóknak és bűzöseknek, hálátlanoknak és gonoszoknak minden jót tett és tesz. Semmi mást tehát ne kívánjunk, semmi mást ne akarjunk, semmi más ne tessék és ne gyönyörködtessen minket, csak a mi Teremtőnk, Megváltónk és Üdvözítőnk, az egyedül igaz Isten, aki a teljes jó, minden jó, az egész jó, az igaz és fölséges jó, aki egyedül jó, kegyes, szelíd, kedves és édes, aki egyedül szent, igazságos, igaz és egyenes, aki egyedül jóindulatú, ártatlan és tiszta, akiből, aki által és akiben van minden bocsánat, minden kegyelem, minden dicsőség minden bűnbánóé és igazé, minden boldogé, akik együtt örvendeznek a mennyekben. Semmi se akadályozzon tehát, semmi se válasszon el, semmi se ékelődjék közbe. Bárhol, mindannyian, minden helyen, minden órában és minden időben, minden napon és szüntelenül igazán és alázatosan higgyünk, és tartsuk a szívünkben, és szeressük, tiszteljük, imádjuk, szolgáljuk, dicsérjük és áldjuk, dicsőítsük és felmagasztaljuk, magasztaljuk és hálát adjunk a magasságos és fölséges, örök Istennek, hármasságnak és egységnek, Atyának, Fiúnak és Szentléleknek, mindennek teremtőjének és mindazok üdvözítőjének, akik hisznek és remélnek benne, és szeretik őt, őt, aki kezdet nélkül és vég nélkül, változhatatlan, láthatatlan, kimondhatatlan, kifejezhetetlen, felfoghatatlan, kikutathatatlan, áldott, dicsérendő, dicsőséges, felmagasztalt, fenséges, magasztos, kedves, szeretetre méltó, gyönyörűséges és mindenek fölött egészen kívánatos mindörökké. Ámen.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.regola_non_bollata.c24",
+      "documentId": "source.regola_non_bollata",
+      "reference": "Meg nem erősített Regula, XXIV. fejezet",
+      "originalText": "[1] In nomine Domini! Rogo omnes fratres, ut addiscant tenorem et sensum eorum quae in ista vita ad salvationem animae nostrae scripta sunt, et ista frequenter ad memoriam reducant. [2] Et exoro Deum, ut ipse, qui est omnipotens, trinus et unus, benedicat omnes docentes, discentes, habentes, recordantes et operantes ista, quoties repetunt et faciunt quae ibi ad salutem animae nostrae scripta sunt, [3] et deprecor omnes cum osculo pedum, ut multum diligant, custodiant et reponant. [4] Et ex parte Dei omnipotentis et domini papae et per obedientiam ego frater Franciscus firmiter praecipio et iniungo, ut ex his, quae in ista vita scripta sunt, nullus minuat vel in ipsa scriptum aliquod desuper addat (cfr. Deut 4,2; 12,32), nec aliam regulam fratres habeant. [5] Gloria Patri et Filio et Spiritui Sancto, sicut erat in principio et nunc et semper et in saecula saeculorum. Amen.",
+      "translation": "Az Úr nevében. Kérem minden testvért, hogy tanulja meg annak szövegét és értelmét, ami ebben az életben a lelkünk üdvösségére íratott, és gyakran idézze emlékezetébe. És kérem Istent, hogy ő, aki mindenható, három és egy, áldja meg mindazokat, akik tanítják, tanulják, tartják, emlékezetükbe idézik és cselekszenek ezeket, valahányszor ismétlik és teszik azt, ami ott a lelkünk üdvösségére íratott, és a lábuk csókjával kérem mindannyiukat, hogy nagyon szeressék, őrizzék és tegyék el azokat. És a mindenható Isten és a pápa úr részéről, és engedelmességből én, Ferenc testvér, szilárdan parancsolom és meghagyom, hogy abból, ami ebben az életben íratott, senki el ne vegyen semmit, és ne tegyen hozzá semmilyen más írást, és a testvéreknek ne legyen más regulájuk. Dicsőség az Atyának, a Fiúnak és a Szentléleknek, miként kezdetben volt, most és mindig, és mindörökkön-örökké. Ámen.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.ammonizioni.propria_volonta",
+      "documentId": "source.ammonizioni",
+      "reference": "Intelmek (a saját akaratról)",
+      "paraphrase": "Az Intelmekben Ferenc óv attól, hogy a „saját akaratot” bálvánnyá tegyük: aki magától igaznak és bölcsnek tartja magát, eltávolodik az igazi alázattól, amely abban áll, hogy alávetjük a saját ítéletünket, és szolgálunk.",
+      "note": "Szerkesztői parafrázis; a pontos hivatkozást az Intelmekre a kritikai kiadáson kell ellenőrizni.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "needs_verification"
+    },
+    {
+      "id": "pass.lettera_ministro.mille_volte",
+      "documentId": "source.lettera_ministro",
+      "reference": "Levél egy miniszterhez",
+      "paraphrase": "Ha egy testvér ezerszer vétkezett volna a szemed előtt — írja Ferenc a miniszternek —, szeresd jobban, mint engem, hogy az Úrhoz vond; mindig legyen irgalmad iránta, és hirdesd neki az irgalmat, ha megbánja.",
+      "note": "Szerkesztői parafrázis a miniszterhez írt levél híres részéről, az irgalomról a vétkező iránt.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_leone.coscienza",
+      "documentId": "source.lettera_leone",
+      "reference": "Levél Leó testvérhez",
+      "paraphrase": "Leó testvérnek, aki szorongott, hogy helyesen válasszon, Ferenc szabadsággal felel: kövesd a lelkiismeretedet Isten előtt; bármilyen módon választod is az életet a testvériségben, megvan az áldásom.",
+      "note": "Szerkesztői parafrázis. Az autográfot a spoletói székesegyház őrzi.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lodi_dio.lode",
+      "documentId": "source.lodi_dio",
+      "reference": "A Magasságbeli Isten dicséretei",
+      "paraphrase": "Tiszta dicséret, kérés nélkül: Isten mindenható, szent, igaz, irgalmas; ő a mi javunk, minden jó, a legfőbb jó. Ferenc a teremtményekkel együtt dicséri.",
+      "note": "Szerkesztői parafrázis. A La Vernán keletkeztek, 1224-ben.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.rinuncia",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Első életrajz (I, körülbelül 14–15)",
+      "paraphrase": "Celano elbeszéli, hogy Ferenc Guidó püspök és apja, Bernardone Péter előtt visszaadta a ruháit, és lemondott az atyai javakról, mondván, hogy mostantól szabadon mondhatja: „Miatyánk, aki a mennyekben vagy”. A püspök a saját köpenyével takarta be.",
+      "note": "Szerkesztői parafrázis. Sarokepizód, amelyet általában 1206 elejére helyeznek; a díszletek Celano hagiográfiai elbeszéléséhez tartoznak.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.lebbrosi",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Első életrajz (I, körülbelül 17)",
+      "paraphrase": "Celano leírja, hogy Ferenc konkrét odaadással szolgálja a leprásokat: mossa a sebeiket, megöleli őket, gondoskodik a szükségleteikről, és ebben a szolgálatban találja meg az örömöt, amelyet korábban máshol keresett.",
+      "note": "Szerkesztői parafrázis. Egybevág a Végrendelet 1–3 önéletrajzi elbeszélésével.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.uccelli",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Első életrajz (I, körülbelül 58)",
+      "paraphrase": "Celano elbeszéli, hogy Ferenc, madárrajokat látva, úgy fordult hozzájuk, mint hallgatásra képes teremtményekhez, és buzdította őket, hogy dicsérjék Istent; attól fogva minden teremtménnyel úgy akart beszélni, mint testvérekkel és nővérekkel.",
+      "note": "Szerkesztői parafrázis. A híres epizódot a Fioretti fogja felerősíteni; már Celano józan változatot ad.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.greccio",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Első életrajz (I, körülbelül 84–86)",
+      "paraphrase": "1223 karácsonyán Ferenc Greccióban Jézus születését igazi jászollal, szénával, ökörrel és szamárral akarta ünnepelni, hogy a test szeme lássa Betlehem szegénységét. Celano élő emlékezetként mutatja be, nem látványosságként.",
+      "note": "Szerkesztői parafrázis. Celano dokumentálja az epizódot, aki közel állt a testvériséghez.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.celano1.stimmate",
+      "documentId": "source.celano_vita_prima",
+      "reference": "Első életrajz (II, a La Vernáról, körülbelül 91–95)",
+      "paraphrase": "Celano elbeszéli, hogy 1224 szeptemberében, imában visszavonulva a La Verna hegyén, Ferenc megkapta a stigmákat, Krisztus szenvedésének jeleit, amelyeket alázatból elrejteni igyekezett.",
+      "note": "Szerkesztői parafrázis. Az epizódot a legközelebbi középkori források tanúsítják; a történelmi és teológiai értékelés vitatott, és az alkalmazás tanúságtételként mutatja be, nem mérhető adatként.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.fioretti.lupo",
+      "documentId": "source.fioretti",
+      "reference": "Fioretti, 21. fejezet",
+      "paraphrase": "A Fioretti elbeszéli Gubbio farkasát: Ferenc, a megrettent tömeg elébe menve, a fenevadhoz lép, úgy szól hozzá, mint egy testvérhez, és békeszövetséget közvetít a farkas és a város között: a város táplálja, ő pedig többé senkinek sem árt.",
+      "note": "Szerkesztői parafrázis. A tizennegyedik századi hagiográfiai hagyomány elbeszélése: értékes a ferences képzelet megértéséhez, krónikaként nem ellenőrizhető.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.fioretti.perfetta_letizia",
+      "documentId": "source.fioretti",
+      "reference": "Fioretti, 8. fejezet",
+      "paraphrase": "Leó testvérrel járva Ferenc elmagyarázza, hogy a tökéletes öröm nem a csodák és nem a sikerek, hanem a visszautasítás és a szenvedés türelemmel és szeretettel való befogadása, vidáman és hűségesen maradva.",
+      "note": "Szerkesztői parafrázis. A leghíresebb hagiográfiai epizódok egyike; az öröm olyan pedagógiáját fejezi ki, amely nem az eseményektől függ.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.bonaventura.cantico",
+      "documentId": "source.bonaventura_leggenda_maggiore",
+      "reference": "Nagy legenda (a Naphimnuszról)",
+      "paraphrase": "Bonaventura a Naphimnusz keletkezését Ferenc betegségének és megpróbáltatásainak időszakába helyezi: a szenvedésből születik a legmagasabb dicséret, amelyet Istennek a teremtmények által ajánlanak fel.",
+      "note": "Szerkesztői parafrázis. A Naphimnusz pontos időbeli elhelyezését a kritika máig vitatja.",
+      "license": "editorial_paraphrase",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.apertura",
+      "documentId": "source.lettera_ordine",
+      "reference": "Levél az egész Rendhez 1–11",
+      "originalText": "In nomine summae Trinitatis et sanctae Unitatis Patris et Filii et Spiritus Sancti. Amen. Reverendis et multum diligendis fratribus universis, fratri A., generali ministro religionis minorum fratrum, domino suo et ceteris ministris generalibus, qui post eum erunt, et omnibus ministris et custodibus et sacerdotibus fraternitatis eiusdem in Christo humilibus et omnibus fratribus simplicibus et obedientibus, primis et novissimis, frater Franciscus, homo vilis et caducus, vester parvulus servulus, salutem in eo qui redemit et lavit nos in pretiosissimo sanguine suo (cfr. Apoc 1,5), cuius nomen audientibus adorate eum cum timore et reverentia proni in terra (cfr. Esdr 8,6), Dominus Jesus Christus, Altissimi Filius nomen illi (cfr. Lc 1,32), qui est benedictus in saecula (Rom 1,25). Audite, domini filii et fratres mei, et auribus percipite verba mea (Act 2,14). Inclinate aurem (Is 55,3) cordis vestri et obedite voci Filii Dei. Servate in toto corde vestro mandata eius et consilia eius perfecta mente implete. Confitemini ei quoniam bonus (Ps 135,1) et exaltate eum in operibus vestris (Tob 13,6); quoniam ideo misit vos (cfr. Tob 13,4) in universo mundo, ut verbo et opere detis testimonium voci eius et faciatis scire omnes, quoniam non est omnipotens praeter eum (Tob 13,4). In disciplina et obedientia sancta perseverate (Hebr 12,7) et quae promisistis ei bono et firmo proposito adimplete. Tamquam filiis offert se nobis Dominus Deus (Hebr 12,7).",
+      "translation": "A magasságos Szentháromság és az Atya, a Fiú és a Szentlélek szent Egysége nevében. Ámen. Minden tiszteletreméltó és nagyon szeretett testvérnek, A. testvérnek, a kisebb testvérek vallása általános miniszterének, az ő urának, és a többi általános miniszternek, akik utána következnek, ugyanennek a testvériségnek minden miniszterének, kusztoszának és papjának, akik alázatosak Krisztusban, és minden egyszerű és engedelmes testvérnek, elsőknek és utolsóknak: Ferenc testvér, alacsony és mulandó ember, a ti kicsiny szolgátok, üdvözletet abban, aki megváltott és megmosott minket az ő legdrágább vérében. Az ő nevét hallva imádjátok őt félelemmel és tisztelettel, a földre borulva: az Úr Jézus Krisztus, az ő neve a Magasságos Fia, áldott mindörökké. Halljátok, uraim, fiaim és testvéreim, és fogadjátok füleitekkel az én szavaimat. Hajtsátok oda szívetek fülét, és engedelmeskedjetek Isten Fiának szavára. Őrizzétek teljes szívetekkel az ő parancsait, és teljesítsétek tanácsait tökéletes elmével. Valljátok meg, hogy ő jó, és magasztaljátok őt cselekedeteitekben, mert ezért küldött titeket az egész világba: hogy szóval és cselekedettel tanúságot tegyetek az ő szaváról, és tudassátok mindenkivel, hogy nincs mindenható rajta kívül. Tartsatok ki a fegyelemben és a szent engedelmességben, és jó és szilárd szándékkal vigyétek végbe, amit neki ígértetek. Az Úr Isten úgy kínálja fel magát nekünk, mint a fiaknak.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.eucaristia",
+      "documentId": "source.lettera_ordine",
+      "reference": "Levél az egész Rendhez 12–33",
+      "originalText": "Deprecor itaque omnes vos fratres cum osculo pedum et ea caritate, qua possum, ut omnem reverentiam et omnem honorem, quantumcumque poteritis, exhibeatis sanctissimo corpori et sanguini Domini nostri Jesu Christi, in quo quae in caelis et quae in terris sunt, pacificata sunt et reconciliata omnipotenti Deo (cfr. Col 1,20). Rogo etiam in Domino omnes fratres meos sacerdotes, qui sunt et erunt et esse cupiunt sacerdotes Altissimi, quod quandocumque missam celebrare voluerint, puri pure faciant cum reverentia verum sacrificium sanctissimi corporis et sanguinis Domini nostri Jesu Christi sancta intentione et munda non pro ulla terrena re neque timore vel amore alicuius hominis, quasi placentes hominibus (cfr. Eph 6,6; Col 3,22); sed omnis voluntas, quantum adiuvat gratia, ad Deum dirigatur soli ipsi summo Domino inde placere desiderans, quia ipse ibi solus operatur sicut sibi placet; quoniam sicut ipse dicit Hoc facite in meam commemorationem (Lc 22,19; 1 Cor 11,24); si quis aliter fecerit, Judas traditor efficitur et reus fit corporis et sanguinis Domini (cfr. 1 Cor 11,27). Recordamini, fratres mei sacerdotes, quod scriptum est de lege Moysi, quam transgrediens etiam in corporalibus sine ulla miseratione per sententiam Domini moriebatur (cfr. Hebr 10,28). Quanto maiora et deteriora meretur pati supplicia, qui Filium Dei conculcaverit et sanguinem testamenti pollutum duxerit, in quo sanctificatus est, et Spiritui gratiae contumeliam fecerit (Hebr 10,29)? Despicit enim homo, polluit et conculcat Agnum Dei, quando, sicut dicit apostolus, non diiudicans (1 Cor 11,29) et discernens sanctum panem Christi ab aliis cibariis vel operibus vel indignus manducat vel etiam, si esset dignus, vane et indigne manducat, cum Dominus per prophetam dicat Maledictus homo, qui opus Dei facit fraudulenter (cfr. Jer 48,10). Et sacerdotes, qui nolunt hoc ponere super cor, in veritate condemnat dicens Maledicam benedictionibus vestris (Mal 2,2). Audite, fratres mei Si beata Virgo sic honoratur, ut dignum est, quia ipsum portavit in sanctissimo utero; si Baptista beatus contremuit et non audet tangere sanctum Dei verticem; si sepulcrum, in quo per aliquod tempus iacuit, veneratur, quantum debet esse sanctus, iustus et dignus, qui non iam moriturum, sed in aeternum victurum et glorificatum, in quo desiderant angeli prospicere (1 Petr 1,12), contractat manibus, corde et ore sumit et aliis ad sumendum praebet! Videte dignitatem vestram, fratres (cfr. 1 Cor 1,26) sacerdotes, et estote sancti, quia ipse sanctus est (cfr. Lev 19,2). Et sicut super omnes propter hoc ministerium honoravit vos Dominus Deus, ita et vos super omnes ipsum diligite, reveremini et honorate. Magna miseria et miseranda infirmitas, quando ipsum sic praesentem habetis et vos aliquid aliud in toto mundo curatis. Totus homo paveat, totus mundus contremiscat, et caelum exsultet, quando super altare in manu sacerdotis est Christus, Filius Dei vivi (Joa 11,27)! O admiranda altitudo et stupenda dignatio! O humilitas sublimis! O sublimitas humilis, quod Dominus universitatis, Deus et Dei Filius, sic se humiliat, ut pro nostra salute sub modica panis formula se abscondat! Videte, fratres, humilitatem Dei et effundite coram illo corda vestra (Ps 61,9); humiliamini et vos, ut exaltemini ab eo (cfr. 1 Petr 5,6; Jac 4,10). Nihil ergo de vobis retineatis vobis, ut totos vos recipiat, qui se vobis exhibet totum. Moneo propterea et exhortor in Domino, ut in locis, in quibus fratres morantur, una tantum missa celebretur in die secundum formam sanctae ecclesiae. Si vero plures in loco fuerint sacerdotes, sit per amorem caritatis alter contentus auditu celebrationis alterius sacerdotis; quia praesentes et absentes replet, qui eo digni sunt, Dominus Jesus Christus. Qui, licet in pluribus locis esse videatur, tamen indivisibilis manet et aliqua detrimenta non novit, sed unus ubique, sicut ei placet, operatur cum Domino Deo Patre et Spiritu Sancto Paraclito in saecula saeculorum. Amen.",
+      "translation": "Kérem tehát mindannyiótokat, testvérek, a lábak csókjával és amennyi szeretettel csak tudok, hogy a mi Urunk Jézus Krisztus legszentebb testének és vérének adjátok meg minden tiszteletet és minden hódolatot, amelyet csak tudtok: benne békéltettek ki és engeszteltettek ki a menny és a föld dolgai a mindenható Istennel. Kérem az Úrban minden pap testvéremet is, azokat, akik vannak, akik lesznek, és akik azok akarnak lenni, hogy valahányszor misét akarnak mondani, tisztán mutassák be a mi Urunk Jézus Krisztus legszentebb testének és vérének igaz áldozatát, tisztelettel, szent és tiszta szándékkal, nem valami földi dologért, sem egy ember félelméből vagy szeretetéből, mint aki az embereknek akar tetszeni. Minden akarat, amennyire a kegyelem segíti, egyedül Istenre irányuljon, kívánva, hogy neki tessék, a fölséges Úrnak, mert ott egyedül ő munkálkodik, ahogyan neki tetszik. Ő mondja: Ezt cselekedjétek az én emlékezetemre. Aki másként cselekszik, Júdássá, árulóvá lesz, és vétkessé teszi magát az Úr teste és vére iránt. Emlékezzetek, pap testvéreim, arra, ami Mózes törvényéről írva van: aki áthágta, még testi dolgokban is, minden irgalom nélkül meghalt az Úr ítéletéből. Mennyivel nagyobb és rosszabb kínokat érdemel, aki lábbal tiporta Isten Fiát, tisztátalannak tartotta a szövetség vérét, amelyben megszenteltetett, és gyalázta a kegyelem Lelkét? Az ember megveti, beszennyezi és lábbal tapossa Isten Bárányát, amikor, ahogyan az apostol mondja, nem különbözteti meg Krisztus szent kenyerét a többi ételtől vagy a többi cselekedettől, és méltatlanul eszik; vagy ha méltó is volna, hiába és méltatlanul eszik. Az Úr a próféta által mondja: Átkozott az ember, aki csalással végzi Isten művét. És a papokat, akik nem akarják ezt a szívükre venni, igazán kárhoztatja: Megátkozom a ti áldásaitokat. Halljátok, testvéreim. Ha a boldogságos Szüzet úgy tisztelik, ahogyan méltó, mert a legszentebb méhében hordozta őt; ha a boldog Keresztelő megremegett, és nem meri érinteni Isten szent fejét; ha tisztelik a sírt, amelyben egy ideig feküdt: mennyire kell szentnek, igaznak és méltónak lennie annak, aki kézzel érinti, szívvel és szájjal magához veszi, és másoknak adja, hogy magukhoz vegyék, nem többé azt, aki meghalni készül, hanem azt, aki örökké él és megdicsőült, akire az angyalok vágyakozva néznek. Lássátok a méltóságotokat, pap testvérek, és legyetek szentek, mert ő szent. Ahogyan az Úr Isten mindenki fölé tisztelt titeket e szolgálat miatt, úgy ti is szeressétek, tiszteljétek és becsüljétek őt mindenki fölött. Nagy nyomorúság és siratni való gyöngeség, amikor így jelen van nálatok, és a világban bármi mással törődtök. Remegjen az egész ember, rendüljön meg az egész világ, és ujjongjon az ég, amikor az oltáron, a pap kezében ott van Krisztus, az élő Isten Fia. Ó, csodálatos magasság és elképesztő leereszkedés. Ó, fenséges alázat. Ó, alázatos fenség: a mindenség Ura, Isten és Isten Fia úgy alázza meg magát, hogy a mi üdvösségünkért elrejtőzik a kenyér kicsiny alakja alatt. Lássátok, testvérek, Isten alázatát, és előtte öntsétek ki a szíveteket. Alázzátok meg magatokat ti is, hogy ő felemeljen titeket. Ne tartsatok vissza tehát semmit magatokból magatoknak, hogy egészen befogadjon titeket az, aki egészen megmutatkozik nektek. Ezért intek és buzdítok az Úrban: a helyeken, ahol a testvérek laknak, naponta csak egy misét mutassanak be, a szent Egyház formája szerint. Ha a helyen több pap van, a szeretetből az egyik elégedjék meg azzal, hogy a másik ünneplését hallgatja, mert az Úr Jézus Krisztus betölti a jelenlevőket és a távollevőket, akik méltók rá. Bár úgy látszik, hogy sok helyen van, oszthatatlan marad, és nem ismer veszteséget: egy, mindenütt, ahogyan neki tetszik, együtt munkálkodik az Úr Istennel, az Atyával, és a Szentlélekkel, a Vigasztalóval, mindörökkön-örökké. Ámen.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.parole",
+      "documentId": "source.lettera_ordine",
+      "reference": "Levél az egész Rendhez 34–37",
+      "originalText": "Et, quia qui est ex Deo verba Dei audit (cfr. Joa 8,47), debemus proinde nos, qui specialius divinis sumus officiis deputati, non solum audire et facere quae dicit Deus, verum etiam ad insinuandam in nobis altitudinem Creatoris nostri et in ipso subiectionem nostram vasa et officialia cetera custodire, quae continent verba sua sancta. Propterea moneo fratres meos omnes et in Christo conforto, quatinus, ubicumque invenerint divina verba scripta, sicut possunt, venerentur; et, quantum ad eos spectat, si non sunt reposita bene vel inhoneste iacent in loco aliquo dispersa, recolligant et reponant honorantes in sermonibus Dominum, quos locutus est (3 Reg 2,4). Multa enim sanctificantur per verba Dei (cfr. 1 Tim 4,5), et in virtute verborum Christi altaris conficitur sacramentum.",
+      "translation": "És mivel aki Istentől való, hallgatja Isten szavait, nekünk, akiket különösképpen az isteni hivatalokra rendeltek, nemcsak hallgatnunk és tennünk kell, amit Isten mond, hanem, hogy belénk hatoljon Teremtőnk magassága és a mi alávetettségünk neki, őriznünk kell az edényeket és a többi felszerelést, amelyek az ő szent szavait tartalmazzák. Ezért intek minden testvéremet, és bátorítom őket Krisztusban: ahol csak írott isteni szavakat találnak, tiszteljék azokat, ahogyan tudják; és amennyire rajtuk áll, ha nincsenek jól eltéve, vagy illetlenül, szétszórva hevernek valahol, gyűjtsék össze és tegyék el azokat, tisztelve az Urat a szavakban, amelyeket kimondott. Sok dolog ugyanis Isten szavai által szentelődik meg, és Krisztus szavainak erejében teljesedik be az oltár szentsége.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.chiusura",
+      "documentId": "source.lettera_ordine",
+      "reference": "Levél az egész Rendhez 38–49",
+      "originalText": "Confiteor praeterea Domino Deo Patri et Filio et Spiritui Sancto, beatae Mariae perpetuae Virgini et omnibus sanctis in caelo et in terra, fratri H. ministro religionis nostrae sicut venerabili domino meo et sacerdotibus ordinis nostri et omnibus aliis fratribus meis benedictis omnia peccata mea. In multis offendi mea gravi culpa, specialiter quod regulam, quam Domino, promisi, non servavi, nec officium, sicut regula praecipit, dixi sive negligentia sive infirmitatis meae occasione sive quia ignorans sum et idiota. Ideoque per omnia oro, sicut possum, fratrem H. generalem dominum meum ministrum, ut faciat regulam ab omnibus inviolabiliter observari; et quod clerici dicant officium cum devotione coram Deo non attendentes melodiam vocis, sed consonantiam mentis, ut vox concordet menti, mens vero concordet cum Deo, ut possint per puritatem cordis placare Deum et non cum lascivitate vocis aures populi demulcere. Ego enim promitto haec firmiter custodire, sicut dederit mihi gratiam Deus; et haec fratribus, qui mecum sunt, observanda tradam in officio et ceteris regularibus constitutis. Quicumque autem fratrum haec observare noluerint, non teneo eos catholicos nec fratres meos; nolo etiam ipsos videre nec loqui, donec poenitentiam egerint. Hoc etiam dico de omnibus aliis, qui vagando vadunt, postposita regulae disciplina; quoniam Dominus noster Jesus Christus dedit vitam suam, ne perderet sanctissimi Patris obedientiam (cfr. Phil 2,8). Ego frater Franciscus, homo inutilis et indigna creatura Domini Dei, dico per Dominum Jesum Christum fratri H. ministro totius religionis nostrae et omnibus generalibus ministris, qui post eum erunt, et ceteris custodibus et guardianis fratrum, qui sunt et erunt, ut hoc scriptum apud se habeant, operentur et studiose reponant. Et exoro ipsos, ut, quae scripta sunt in eo, sollicite custodire ac facere diligentius observari secundum beneplacitum omnipotentis Dei, nunc et semper, donec fuerit mundus iste. Benedicti vos a Domino (Ps 113,23), qui feceritis ista et in aeternum Dominus sit vobiscum. Amen.",
+      "translation": "Megvallom ezenkívül az Úr Istennek, Atyának, Fiúnak és Szentléleknek, a boldogságos, mindenkor szűz Máriának és minden szentnek a mennyben és a földön, H. testvérnek, a mi vallásunk miniszterének, mint tisztelendő uramnak, a mi Rendünk papjainak és minden más áldott testvéremnek minden bűnömet. Sok dologban vétettem, súlyos hibámból, különösen azért, mert nem tartottam meg a Regulát, amelyet az Úrnak ígértem, és nem mondtam a zsolozsmát, ahogyan a Regula parancsolja, hanyagságból, vagy a betegségem miatt, vagy mert tudatlan vagyok és írástudatlan. Ezért teljes magammal kérem, ahogyan tudom, H. testvért, uramat, az általános minisztert, hogy mindenkivel sérthetetlenül tartassa meg a Regulát; és hogy a klerikusok áhítattal mondják a zsolozsmát Isten előtt, nem a hang dallamára ügyelve, hanem az elme összhangjára, úgy, hogy a hang egyezzék az elmével, és az elme egyezzék Istennel, hogy a szív tisztaságával engesztelhessék Istent, és ne a nép fülét hízelegjék a hang bujaságával. Megígérem, hogy ezt szilárdan őrzöm, ahogyan Isten megadja nekem a kegyelmet, és átadom megtartásra a testvéreknek, akik velem vannak, a zsolozsmában és a Regula által megszabott többi dologban. A testvéreket, akik nem akarják ezeket megtartani, nem tartom katolikusoknak, sem az én testvéreimnek; látni sem akarom őket, sem szólni hozzájuk, amíg bűnbánatot nem tartottak. Ugyanezt mondom mindenki másról, aki kóborol, félretéve a Regula fegyelmét, mert a mi Urunk Jézus Krisztus odaadta az életét, hogy el ne veszítse a legszentebb Atya iránti engedelmességet. Én, Ferenc testvér, haszontalan ember és az Úr Isten méltatlan teremtménye, az Úr Jézus Krisztus által mondom H. testvérnek, az egész vallásunk miniszterének, és minden általános miniszternek, aki utána következik, és a testvérek többi kusztoszának és gvárdiánjának, jelenvalóknak és jövendőknek, hogy tartsák maguknál ezt az írást, cselekedjék meg, és gondosan tegyék el. És kérem őket, hogy szorgalommal őrizzék, ami benne van írva, és még nagyobb igyekezettel tartassák meg, a mindenható Isten tetszése szerint, most és mindig, amíg ez a világ fennáll. Áldottak legyetek az Úrtól, ti, akik ezeket cselekszitek, és az Úr legyen veletek mindörökké. Ámen.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "pass.lettera_ordine.orazione",
+      "documentId": "source.lettera_ordine",
+      "reference": "Levél az egész Rendhez 50–52",
+      "originalText": "Omnipotens, aeterne, iuste et misericors Deus, da nobis miseris propter temetipsum facere, quod scimus te velle, et semper velle, quod tibi placet, ut interius mundati, interius illuminati et igne sancti Spiritus accensi sequi possimus vestigia (cfr. 1 Petr 2,21) dilecti Filii tui, Domini nostri Jesu Christi, et ad te, Altissime, sola tua gratia pervenire, qui in Trinitate perfecta et Unitate simplici vivis et regnas et gloriaris Deus omnipotens per omnia saecula saeculorum. Amen.",
+      "translation": "Mindenható, örök, igazságos és irgalmas Isten, add meg nekünk, nyomorultaknak, önmagadért, hogy tegyük azt, amiről tudjuk, hogy akarod, és mindig azt akarjuk, ami neked tetszik, hogy belül megtisztulva, belül megvilágosodva és a Szentlélek tüzétől lángra gyúlva követhessük szeretett Fiad, a mi Urunk Jézus Krisztus nyomdokait, és eljuthassunk hozzád, Magasságos, egyedül a te kegyelmedből: te, aki a tökéletes Háromságban és az egyszerű Egységben élsz, uralkodsz és dicsőülsz, mindenható Isten, mindörökkön-örökké. Ámen.",
+      "note": "Középkori, közkincsbe tartozó szöveg a latin Wikisource átiratából (megtekintve: 2026. 11. 11.). Az alkalmazás eredeti szerkesztői fordítása, nem kritikai kiadás.",
+      "license": "public_domain_original_editorial_translation",
+      "reviewStatus": "verified"
+    }
+  ]
+}

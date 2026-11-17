@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Întâlnirea care schimbă viața",
+      "summary": "Convertirea lui Francisc începe când își învinge dezgustul și îi întâlnește pe leproși: caritatea ca întâlnire concretă cu celălalt.",
+      "explanation": "În Testament, Francisc povestește că a-i vedea pe leproși i se părea „prea amar” și că tocmai întâlnirea cu ei a fost începutul pocăinței sale. Caritatea franciscană nu este un sentiment generic: este gestul fizic al celui care se apropie de cel exclus și descoperă că amărăciunea se preface în dulceață. Cine dăruiește nu se așază deasupra celui care primește: se întâlnește.",
+      "historicalContext": "În secolul al XIII-lea, leproșii erau excluși din viața cetății, găzduiți în leprozerii din afara zidurilor și socotiți un simbol al păcatului. Alegerea lui Francisc de a trăi printre ei era, din punct de vedere social, un scandal.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Nimic al său, totul primit",
+      "summary": "În fața episcopului, Francisc îi înapoiază tatălui hainele: renunțarea la posesie ca alegere a libertății, nu ca dispreț față de lucruri.",
+      "explanation": "Renunțarea lui Francisc în fața episcopului Guido este gestul public prin care taie legătura cu bogăția familiei. Nu este o fugă de lucruri, ci o eliberare de ideea de a le stăpâni: cine nu posedă nimic nu trebuie să apere nimic și poate primi orice lucru ca dar. Latina tehnică a tradiției o numește „sine proprio”: fără proprietate.",
+      "historicalContext": "Fiu al unui bogat negustor de postavuri, Francisc era destinat ascensiunii sociale a burgheziei comunale. Renunțarea sa, în 1206, a lovit imaginația cetății Assisi tocmai pentru că era răsturnată față de valorile orașului negustoresc.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Sărăcia ca libertate",
+      "summary": "Pentru Francisc, sărăcia nu este o mizerie romantică: înseamnă a nu-ți însuși nimic, ca să rămâi liber să iubești și să depinzi numai de Dumnezeu.",
+      "explanation": "Regula din 1223 le cere fraților să nu-și însușească nimic, „nici casă, nici loc, nici vreun lucru”, și să meargă după milostenie fără rușine, amintindu-și că Domnul s-a făcut sărac. Sărăcia franciscană are un temei teologic (Hristos cel sărac) și unul psihologic: cine nu are nimic de apărat este liber. Nu este o invitație de a glorifica sărăcia lucie, care este o rană socială, ci de a nu te lăsa definit de posesie.",
+      "historicalContext": "Mișcarea săracilor de bunăvoie se năștea ca reacție la bogăția crescândă a comunelor și a clerului; Biserica privea cu suspiciune mișcările de sărăcie, iar Francisc a trebuit să câștige cu trudă aprobarea.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Frați minori",
+      "summary": "Comunitatea lui Francisc nu este un ordin de superiori și supuși: este o fraternitate de „minori”, în care fiecare răspunde de celălalt.",
+      "explanation": "Francisc a vrut ca ai săi să se numească frați minori: nimeni nu este mare, iar cei responsabili se numesc „miniștri”, adică slujitori. Regula din 1221 cere să-și arate unii altora nevoile, să nu-l judece pe frate, să nu-l disprețuiască pe cel slab. Fraternitatea este însăși forma Evangheliei trăite împreună: ești frate nu printr-un ideal, ci prin practica de fiecare zi.",
+      "historicalContext": "Fraternitatea se naște în jurul anilor 1208-1210 din primii însoțitori (Bernard, Egidiu...) și crește repede, până când cere structuri: capitluri, miniștri, o regulă scrisă.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Salutul păcii",
+      "summary": "„Domnul să-ți dea pace”: Francisc face din pace o vestire de purtat, înainte de a fi o absență a războiului.",
+      "explanation": "În Testament, Francisc amintește că Domnul i-a revelat un salut de pace. Primele surse îi descriu pe frați vestind pacea din casă în casă. Pacea franciscană este activă: se poartă, se construiește, se mijlocește — ca în relatarea despre lupul din Gubbio, unde pacea se naște din curajul de a merge în întâmpinarea a ceea ce înspăimântă.",
+      "historicalContext": "Italia comunelor era străbătută de vendete între facțiuni, războaie între cetăți și conflicte între puterile civile și cele religioase. A vesti pacea era un gest politic, nu doar spiritual.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "De șaptezeci de ori câte șapte, și dincolo",
+      "summary": "Unui responsabil al fraternității Francisc îi scrie: dacă un frate ar păcătui de o mie de ori, iubește-l oricum mai mult decât pe mine.",
+      "explanation": "Scrisoarea către un ministru este textul franciscan al iertării: cine călăuzește nu trebuie să se scandalizeze și nici să se împietrească în fața greșelilor fraților, ci să vestească milostivirea. Iertarea nu neagă răul: refuză ca răul să aibă ultimul cuvânt asupra relației. În Cântare, strofa despre iertare a fost adăugată — potrivit tradiției — ca să-i împace pe episcopul și pe podestà-ul din Assisi, aflați în conflict.",
+      "historicalContext": "Fraternitatea în creștere rapidă trăia tensiuni interne; iar cetățile erau sfâșiate de răzbunări și vendete, pe care franciscanii încercau să le împace.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "A fi minori, nu a te simți mai bun",
+      "summary": "Smerenia franciscană este adevăr despre sine: a nu te înălța, a nu te disprețui, a sluji ca cel din urmă.",
+      "explanation": "Admonestările pun în gardă împotriva propriei voințe făcute măsură a tuturor lucrurilor și împotriva automulțumirii spirituale. Smerenia, pentru Francisc, înseamnă a te vedea în adevăr: mic înaintea lui Dumnezeu, dator cu totul, în stare să slujești fără să pretinzi recunoaștere. Nu este o stimă de sine scăzută: este libertatea de nevoia de a părea.",
+      "historicalContext": "Într-o societate întemeiată pe onoare și pe rang, a te numi „minori” era un program împotriva curentului; iar înăuntrul fraternității în creștere, smerenia era antidotul competiției interne.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Frate soare, sora apă",
+      "summary": "Cântarea creaturilor: lumea nu este nici un depozit de resurse, nici un idol, ci o familie de creaturi care îl laudă pe Creator.",
+      "explanation": "În Cântare, Francisc îl laudă pe Dumnezeu „pentru” creaturi: frate soare, sora lună, sora apă „folositoare și smerită și prețioasă și curată”, sora noastră mamă pământ. Natura nu este divinizată: este soră, pentru că este fiică a aceluiași Părinte. Grija pentru creație se naște aici din recunoștință și înrudire, nu din utilitate. Iar Cântarea se naște în boală: lauda nu depinde de împrejurări.",
+      "historicalContext": "Compusă în 1225-1226, în timp ce Francisc era bolnav și aproape orb, este printre primele texte poetice în limba vernaculară italiană. Bonaventura o așază în anotimpul încercărilor.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Bucuria desăvârșită",
+      "summary": "Bucuria franciscană nu depinde de rezultate: rămâne și în refuz, și în osteneală, pentru că se naște din iubire, nu din succes.",
+      "explanation": "În Fioretti, Francisc îi explică fratelui Leon că adevărata bucurie nu sunt minunile și nici convertirile, ci să te întorci alungat și înghețat de frig și să rămâi răbdător și bucuros. Este o relatare hagiografică, nu o cronică, dar concentrează o trăsătură autentică a spiritului franciscan: bucuria ca alegere lăuntrică pe care niciun eveniment nu o poate lua.",
+      "historicalContext": "Fioretti (sfârșitul secolului al XIV-lea) adună memoria vie a primului franciscanism; trebuie citite ca literatură spirituală, nu ca istorie documentară.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Pustiul care locuiește în lume",
+      "summary": "Francisc alterna misiunea și retragerea: rugăciunea ca loc în care te întorci la esențial, înaintea lui Dumnezeu.",
+      "explanation": "Viața franciscană nu este doar acțiune: Francisc căuta schituri și retrageri (Carceri, La Verna), luând cu sine puțini însoțitori și tăceri lungi. În Scrisoarea către fratele Leon trimite la conștiința dinaintea lui Dumnezeu: rugăciunea nu este o tehnică, ci o relație. Laudele lui Dumnezeu Preaînalt arată rugăciunea lui cea mai curată: laudă fără cereri.",
+      "historicalContext": "Schiturile franciscane se nășteau în locurile sălbatice ale Apeninilor umbro-toscani; La Verna, dăruită lui Francisc în 1213, a devenit retragerea prin excelență.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "A urma urmele lui Hristos",
+      "summary": "Spiritualitatea lui Francisc nu este o filozofie a naturii: este urmarea lui Hristos cel sărac și răstignit, înăuntrul credinței Bisericii.",
+      "explanation": "Totul la Francisc pornește de la Hristos: crucifixul de la San Damiano care îi vorbește, alegerea sărăciei „pentru că Domnul s-a făcut sărac”, pătimirea contemplată la La Verna, credința simplă în bisericile din Testament. A scoate această rădăcină nu îl face pe Francisc mai universal: îl face de nerecunoscut. Aplicația o prezintă așa cum este, fără să o impună și fără să o șteargă.",
+      "historicalContext": "Francisc a trăit credința în cadrul Bisericii medievale, căutându-i aprobarea pentru forma sa de viață și acceptându-i limitele, deși împingea reforma de jos.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "O regulă ca să nu te rătăcești",
+      "summary": "Ascultarea franciscană nu este anulare: este un legământ comun care apără fraternitatea de risipire și de arbitrar.",
+      "explanation": "Francisc a cerut aprobarea Bisericii și a scris reguli tot mai esențiale (1221, 1223). Ascultarea, în Admonestări și în Reguli, este reciprocă: se ascultă de regula împărtășită, iar cine călăuzește slujește. Testamentul cere să nu se gloseze regula: să fie trăită „simplu și fără glose”. Comunitatea și ascultarea sunt cadrul care face libertatea durabilă.",
+      "historicalContext": "Între 1210 și 1223, fraternitatea a trecut de la un grup mic la un Ordin recunoscut; tensiunea dintre carismă și instituție străbate toată istoria franciscană.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Lauda care nu cere nimic",
+      "summary": "Laudele lui Dumnezeu și Cântarea se nasc în boală: recunoștința franciscană nu răsplătește norocul, ci recunoaște darul în fiecare lucru.",
+      "explanation": "Laudele lui Dumnezeu Preaînalt, scrise la La Verna, sunt o rugăciune fără nicio cerere: doar recunoaștere. Și Cântarea, compusă în suferință, este laudă. Recunoștința franciscană este o privire antrenată: vede fiecare lucru — apa, soarele, ziua, până și moartea — ca primit. Cine mulțumește nu posedă: locuiește.",
+      "historicalContext": "În 1224-1226 Francisc era grav bolnav, aproape orb și marcat de despărțirea de conducerea Ordinului: lauda din acei ani nu este naivitate, ci o cucerire.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Cine călăuzește slujește",
+      "summary": "În fraternitate, cei responsabili se numesc „miniștri”: slujirea ca singură formă legitimă de autoritate.",
+      "explanation": "Francisc răstoarnă ierarhia: ministrul este cel care slujește, custodele este cel care îi păzește pe frați, nu cel care poruncește. Scrisoarea către un ministru arată tonul: apropiere de cine greșește, niciodată dispreț. Slujirea nu este o strategie ca să placi: este felul creștin de a locui orice rol, de la frate la episcop, de la părinte la primar.",
+      "historicalContext": "Titlurile ierarhiei franciscane (ministru, custode, gardian) au fost alese tocmai împotriva logicii prestigiului medieval.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Nimeni nu este străin",
+      "summary": "Leproși, tâlhari, un sultan, un lup: tradiția franciscană împinge primirea dincolo de hotarele propriului grup.",
+      "explanation": "Francisc îi întâlnește pe leproși, merge în întâmpinarea sultanului al-Malik al-Kamil în plină cruciadă și, în memoria populară, vorbește chiar și cu lupul. Primirea franciscană nu este o toleranță pasivă: este a merge în întâmpinare, a te expune, a-l numi „frate” pe cel pe care lumea ta îl numește dușman. Începe de la aproapele incomod și nu se oprește la hotarele credinței sau ale limbii.",
+      "historicalContext": "Întâlnirea cu sultanul (1219, Damietta) a avut loc în timpul celei de-a cincea cruciade: un gest de pace documentat de surse, în limitele mărturiei medievale.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "A te face aproapele cu trupul",
+      "summary": "„Am făcut cu ei milostivire”: milostivirea franciscană este compasiune care se face gest concret, nu milă de la distanță.",
+      "explanation": "În Testament, Francisc folosește un cuvânt tare: cu leproșii „am făcut milostivire”. Nu spune că a simțit compasiune: a făcut-o. Milostivirea este putința de a te lăsa atins de suferința celuilalt până la a-ți mișca mâinile. Este rădăcina din care cresc caritatea, iertarea și pacea.",
+      "historicalContext": "Evlavia medievală cunoștea milostenia ca practică meritorie; Francisc o preface în relație: nu dai săracului, stai cu săracul.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Lucrul mâinilor",
+      "summary": "Francisc nu opune rugăciunea și munca: munca cinstită ține departe trândăvia și nu trebuie să stingă rugăciunea.",
+      "explanation": "În Testament, Francisc spune că a lucrat cu mâinile sale și că vrea ca frații să lucreze, nu din lăcomia prețului, ci pentru exemplu și împotriva trândăviei. Dacă prețul lipsește, se revine la milostenie. Regula bullată adaugă limita: munca este har, iar lucrurile vremelnice trebuie să slujească duhului rugăciunii, nu să-l înlocuiască. În Regula nebullată, munca este și un fel de a sta în casa altuia ca minori, fără a lua slujbe care dau putere.",
+      "historicalContext": "Mulți dintre primii frați veneau din meserii. Chestiunea muncii și a banilor este deja acută înainte de 1223: Regula din 1221 este mai întinsă și mai severă în privința banilor; cea bullată este mai scurtă și încredințează miniștrilor grija bolnavilor prin prieteni spirituali.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Trupul, nu o idee",
+      "summary": "Pentru Francisc, Fiul lui Dumnezeu, în lumea aceasta, se vede în trupul și în sângele pe care preoții le primesc și le dau.",
+      "explanation": "Testamentul leagă respectul față de preoți de aceasta: Francisc spune că nu vede în chip trupesc nimic altceva din Fiul lui Dumnezeu decât trupul și sângele său. Scrisoarea către tot Ordinul împinge aceeași credință până la forma pâinii și le cere preoților să celebreze fără să caute să placă oamenilor. Nu este o temă laterală. Este centrul din care Francisc citește Biserica, cuvintele scrise și propria micime. Aplicația o spune pentru ceea ce este: credință euharistică medievală, nu o metaforă generică a darului.",
+      "historicalContext": "Evlavia euharistică a lui Francisc stă înăuntrul reformei de la Lateran IV (1215), care impune spovedania anuală și precizează doctrina sacramentului. Scrisorile către clerici și către custozi, nereproduse aici integral, stăruie asupra aceluiași punct.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Forma Evangheliei",
+      "summary": "Francisc nu inventează o spiritualitate alături de Evanghelie: spune că Cel Preaînalt i-a revelat să trăiască după acea formă și a pus să fie scrisă.",
+      "explanation": "Testamentul este explicit: nimeni nu-i arăta ce să facă; Cel Preaînalt i-a revelat să trăiască după forma sfintei Evanghelii; el a pus să fie scrisă în puține cuvinte, iar papa a confirmat-o. Cele două Reguli se deschid asupra aceluiași punct. A păzi Evanghelia, în aceste texte, nu este un sentiment: este ascultare, nimic al său și castitate, înăuntrul unei fraternități aprobate. Relatarea renunțării dinaintea episcopului, la Celano, este o altă scenă a aceleiași alegeri. Aici textul lui Francisc vine înaintea relatării despre Francisc.",
+      "historicalContext": "Aprobarea orală a lui Inocențiu al III-lea este datată de tradiție în 1209 sau 1210; Regula nebullată este din 1221; cea bullată este confirmată de Honoriu al III-lea la 29 noiembrie 1223. Testamentul, în 1226, recitește toată succesiunea ca pe o singură revelație.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

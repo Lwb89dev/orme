@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "A saudação da paz",
+      "text": "No Testamento, Francisco atesta que o Senhor lhe revelou uma saudação de paz para levar aos outros, e as fontes medievais recordam os primeiros frades a anunciar a paz de casa em casa. Para Francisco, a paz não é a ausência de conflito: é um dom a entregar, porta a porta, pessoa a pessoa. O relato do lobo de Gúbio leva esta lógica ao extremo: faz-se paz até com aquilo que mete medo, indo ao seu encontro. Da mesma tradição nasce a fórmula popular «paz e bem».",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "A pobreza como liberdade",
+      "text": "A Regra de 1223 pede aos frades que não se apropriem de nada — nem casa, nem lugar, nem coisa alguma — e que vivam como peregrinos e forasteiros no mundo. A pobreza franciscana não glorifica a indigência, que continua a ser uma ferida social: é a escolha de não se deixar definir pela posse. Quem não tem nada a defender não tem nada a temer, e pode receber cada coisa como dom. O fundamento é teológico antes de ser económico: o próprio Senhor se fez pobre.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Irmãos menores",
+      "text": "Francisco quis que os seus se chamassem frades menores: ninguém é grande, e os responsáveis chamam-se «ministros», isto é, servos. A Regra de 1221 pede que cada um manifeste ao outro a própria necessidade, que ninguém julgue o irmão, que quem está são não despreze a fraqueza de quem está doente. A fraternidade não é um ideal a proclamar: é uma prática quotidiana de responsabilidade recíproca. É-se irmão nos gestos concretos, ou não se é de todo.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Irmão sol, irmã água",
+      "text": "No Cântico das Criaturas, Francisco louva Deus «por» e «com» as criaturas: irmão sol, irmã lua, irmão vento, irmã água «útil e humilde e preciosa e casta», irmã nossa mãe terra. A natureza não é divinizada nem reduzida a armazém de recursos: é uma família, porque todas as criaturas têm o mesmo Pai. O cuidado da criação nasce do parentesco e da gratidão, não do cálculo. E o Cântico foi composto na doença: o louvor não depende das circunstâncias.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "A perfeita alegria",
+      "text": "Nas Florinhas, Francisco explica a frei Leão que a verdadeira alegria não são os milagres, nem os êxitos, nem as conversões de infiéis: é voltar à porta rejeitados, enregelados e maltratados, e permanecer pacientes e alegres. É um relato hagiográfico, não uma crónica, mas condensa um traço autêntico do espírito franciscano. A alegria perfeita não depende dos acontecimentos: é uma escolha interior que nenhuma recusa pode tirar.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Setenta vezes sete, e para além disso",
+      "text": "Na Carta a um ministro, Francisco escreve que, se um irmão tivesse pecado mil vezes, é preciso amá-lo ainda assim e anunciar-lhe misericórdia, desde que se arrependa. O perdão franciscano não nega o mal: recusa que o mal tenha a última palavra sobre a relação. No Cântico, a estrofe sobre quantos perdoam por amor de Deus foi acrescentada — segundo a tradição — para reconciliar o bispo e o podestà de Assis, em conflito. O perdão é ao mesmo tempo cuidado da pessoa e medicina da cidade.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "O Natal de Greccio",
+      "text": "No Natal de 1223, Francisco quis celebrar em Greccio o nascimento de Jesus com um presépio verdadeiro, o feno, o boi e o jumento: para que os olhos do corpo vissem a pobreza de Belém. Tomás de Celano apresenta-o como memória viva do mistério, não como espetáculo. Daquela noite nasce a tradição do presépio. O gesto é tipicamente franciscano: a fé toca-se, vê-se, habita-se.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "O encontro com o sultão",
+      "text": "Em 1219, durante a quinta cruzada, Francisco atravessou as linhas do exército cruzado em Damieta para encontrar o sultão al-Malik al-Kamil. As fontes medievais recordam um diálogo respeitoso entre os dois, ainda que na irredutível diversidade de fé. Em tempo de guerra, Francisco escolheu o caminho do encontro desarmado em vez do da pregação contra. O episódio permanece uma pedra de toque para todo o diálogo que atravessa as fronteiras do próprio mundo.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "O lobo de Gúbio",
+      "text": "As Florinhas contam que em Gúbio um lobo aterrorizava a cidade, e Francisco, ao encontro da multidão assustada, foi até à fera e falou-lhe como a um irmão. Nasceu daí um pacto de paz: a cidade alimentaria o lobo, e o lobo não faria mais mal a ninguém. É um relato da tradição hagiográfica do século XIV, precioso para o imaginário mais do que para a crónica. A sua lição é clara: a paz constrói-se indo ao encontro daquilo que assusta, e envolvendo toda a comunidade no pacto.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "A renúncia diante do bispo",
+      "text": "No início de 1206, diante do bispo Guido e do seu pai Pedro de Bernardone, Francisco devolveu as roupas e renunciou aos bens paternos. Tomás de Celano conta que o bispo o cobriu com o próprio manto: a Igreja acolhia quem a família mercantil já não compreendia. Não foi uma fuga das coisas, mas a libertação pública da ideia de as possuir. A partir desse dia, Francisco podia depender só do Pai que está nos céus — e da generosidade dos outros.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Clara de Assis",
+      "text": "Jovem nobre de Assis, Clara deixou a casa paterna na noite de Ramos de 1212 para seguir a forma de vida evangélica de Francisco, que lhe cortou os cabelos na Porciúncula. Fundou a comunidade das Irmãs Pobres de São Damião e defendeu toda a vida o «privilégio da pobreza» contra as pressões eclesiásticas. Foi a primeira mulher a escrever uma regra religiosa para mulheres, aprovada dois dias antes da sua morte, em 1253. A sua mansidão era feita da mesma substância da sua tenacidade.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernardo de Quintavalle",
+      "text": "Rico e respeitado cidadão de Assis, Bernardo foi o primeiro companheiro de Francisco: quis ver com os próprios olhos como vivia aquele jovem de quem todos escarneciam, e uma noite de oração bastou-lhe. Vendeu os seus bens, distribuiu-os aos pobres e escolheu a vida itinerante. As fontes recordam-no como o primeiro fruto da fraternidade e, no fim da vida, como uma testemunha amada do espírito das origens. Foi ele que iniciou a cadeia: sem o primeiro irmão, não há fraternidade.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Frei Leão",
+      "text": "Companheiro e confessor de Francisco nos últimos anos, frei Leão foi testemunha do tempo de Alverne e guardião do único autógrafo do santo: uma carta e uma bênção que conservou toda a vida. Na carta, Francisco responde à sua ansiedade de escolher bem com palavras de liberdade: segue a tua consciência diante de Deus. Nas Florinhas é o interlocutor do diálogo sobre a perfeita alegria. Leão representa o discípulo frágil e sincero, mais próximo do ânimo de Francisco do que sugere a sua fama de simplicidade.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "O sultão al-Malik al-Kamil",
+      "text": "Sultão do Egito da dinastia aiúbida, neto de Saladino, al-Malik al-Kamil recebeu Francisco em Damieta em 1219, em plena quinta cruzada. As fontes medievais, cristãs e não só, descrevem-no como um soberano capaz de escuta e de diálogo com o mundo latino, com o qual tratou longamente a questão de Jerusalém. O encontro com Francisco não converteu nenhum dos dois: mostrou que se pode falar como crentes sem armas na mão. Continua a ser uma figura-chave para compreender que o acolhimento franciscano atravessa as fronteiras da fé.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "A comuna medieval",
+      "text": "A Assis de Francisco é uma comuna em ascensão: cônsules e podestà, torres e vendetas, mercadores que enriquecem e corporações que organizam o trabalho. É um mundo fundado na honra, no estatuto e no crédito, onde a riqueza é visível e a pobreza é vergonha. A família de Pedro de Bernardone pertence a esta burguesia emergente. Precisamente contra estes valores — não contra a riqueza em si, mas contra o poder que ela exerce sobre o coração — toma forma a escolha franciscana.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "A leprosaria",
+      "text": "No século XIII, os leprosos viviam fora das muralhas, em lazaretos como os de junto de Assis, excluídos da vida da cidade e marcados por um suposto sinal do pecado. Francisco confessa no Testamento que vê-los lhe parecia demasiado amargo; e que precisamente entre eles, conduzido pelo Senhor, fez misericórdia e encontrou doçura. Celano descreve o serviço concreto: lavar as chagas, abraçar, prover. A leprosaria é o lugar onde nasce a caridade franciscana: não um sentimento, mas um encontro de corpos.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "A esmola",
+      "text": "A piedade medieval conhecia a esmola como prática meritória: dava-se pela própria alma, muitas vezes mantendo a distância. A Regra de 1223 pede, pelo contrário, aos frades que andem à esmola sem se envergonharem, lembrando que o Senhor se fez pobre: pedir torna-se parte da vida, não uma humilhação a evitar. E dar transforma-se em relação: não se deixa alguma coisa ao pobre, está-se com o pobre. Quem dá e quem recebe trocam o papel de mendigos diante de Deus.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "O eremitério",
+      "text": "A vida franciscana não é só estrada e pregação: Francisco procurava retiros solitários — as Carceri acima de Assis, Alverne nos Apeninos — levando poucos companheiros e longos silêncios. Em Alverne, em setembro de 1224, as fontes situam os estigmas e a composição dos Louvores de Deus: a oração mais pura de Francisco é louvor sem pedidos. O eremitério não é fuga do mundo: é o lugar onde se volta ao essencial para depois descer de novo para o meio das pessoas. Missão e retiro sustentam-se como os dois pés do caminho.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "O que te possui?",
+      "text": "Faz mentalmente o inventário das coisas a que mais tens apego. Depois pergunta-te, uma a uma: possuo-a eu, ou possui-me ela? Quanto do teu tempo, da tua atenção, da tua ansiedade serve para defender o que tens? Não há uma resposta certa: há apenas a verdade acerca de ti.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Quem é o teu lobo?",
+      "text": "No teu bairro, no teu trabalho, na tua família: quem é a pessoa ou a situação de que todos fogem? Que aconteceria se, em vez de erguer muros, alguém fosse ao encontro e perguntasse: de que tens fome? Quem, na tua cidade, poderia ser a comunidade que garante o pacto?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "De que depende a tua alegria?",
+      "text": "Pensa na última vez em que estiveste verdadeiramente contente: dependia de um resultado obtido, de um reconhecimento, de uma compra? Agora pensa numa alegria que nenhum acontecimento exterior te possa tirar. Se não te ocorre nada, não é uma culpa: é uma pista de procura. O que teria de mudar, dentro de ti, para que a alegria não esteja arrendada aos acontecimentos?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "A via da paz",
+      "text": "Um percurso em dois cenários: uma disputa de fronteira num burgo medieval e uma ofensa sofrida num escritório de hoje. A paz franciscana não é ausência de conflito: é uma saudação a levar, uma mediação a oferecer, uma alegria a não deixar refém dos acontecimentos. Abre-se ao descobrires o ensinamento da saudação da paz.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "A via da fraternidade",
+      "text": "Um percurso dentro da vida comum: que fazer quando um irmão falta gravemente e a comunidade se divide entre severidade e acolhimento? A fraternidade franciscana mede-se precisamente aí, não nas boas intenções. Abre-se ao descobrires o ensinamento dos frades menores, e atravessa o perdão sem limites e a regra que protege.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "A via da paz",
+      "theme": "pace",
+      "description": "Da saudação levada de casa em casa à alegria que não depende dos acontecimentos: dois cenários para aprender a paz como prática, no burgo medieval e no escritório de hoje.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "A via da simplicidade",
+      "theme": "poverta",
+      "description": "Que fazer dos bens que nos passam pelas mãos: uma guarda delicada no século XIII e um projeto opaco hoje. A pobreza franciscana como liberdade da posse e como responsabilidade de quem serve.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "A via da fraternidade",
+      "theme": "fraternita",
+      "description": "Quando um irmão erra gravemente, a fraternidade revela o que é de verdade: tribunal ou casa. Um cenário para atravessar perdão, regra e responsabilidade recíproca.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "O muro de fronteira",
+      "situation": "Burgo de Assis, inícios do século XIII. Berta, que tem a loja dos tintureiros, e Lupo, o tecelão da porta ao lado, disputam há semanas um braço de terreno entre as suas casas: por ali passa a caleira, e cada um jura que o muro está do seu lado. As famílias deixaram de se saudar; os aprendizes lançam insultos na rua. Conheces ambos, e ambos confiam em ti. Esta noite perguntam-te: de que lado estás?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Não estar de lado nenhum: oferecer-te para os escutar um de cada vez, depois juntos, e ajudá-los a encontrar um acordo simples sobre o muro e a caleira.",
+          "consequence": "As primeiras semanas são custosas: cada um tenta puxar-te para o seu lado. Depois, à força de serem escutados, descobrem que o verdadeiro nó não é o braço de terra, mas uma ofensa antiga nunca perdoada. O acordo sobre o muro chega quase depressa, e na festa de São Jorge as duas lojas voltam a emprestar-se coisas.",
+          "perspectives": [
+            {
+              "label": "A via franciscana",
+              "text": "No Testamento, Francisco atesta que o Senhor lhe revelou uma saudação de paz para levar aos outros, e as fontes recordam os frades a anunciar a paz de casa em casa. Mediar em primeira pessoa, humildemente, é exatamente este gesto: a paz não se deseja, entrega-se.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "A lição de Gúbio",
+              "text": "No relato do lobo, a paz nasce quando alguém vai ao encontro daquilo que assusta e a comunidade inteira se torna garante do pacto: a cidade alimenta o lobo, o lobo não faz mais mal. Aqui as duas famílias e as lojas vizinhas garantem o acordo, para que dure para além da tua presença.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "A prudência do burgo",
+              "text": "Quem se mete no meio arrisca tornar-se o alvo de ambos se o acordo falhar. A mediação funciona porque estás fora da disputa e não ganhas nada com ela: a tua credibilidade é o teu único capital, e deve gastar-se com parcimónia.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Aconselhar ambos a levar a questão diante dos cônsules da comuna ou da corporação dos mercadores: a fronteira mede-se, os documentos lêem-se, o direito decide.",
+          "consequence": "A disputa sai da rua e entra nas formas. O perito da comuna mede, as escrituras dos pais são lidas, e passados alguns meses uma sentença atribui o muro a Lupo e a caleira a Berta. A ofensa antiga, porém, fica por resolver: as famílias mal se saúdam, e ninguém está verdadeiramente em paz.",
+          "perspectives": [
+            {
+              "label": "O direito do tempo",
+              "text": "A comuna existe precisamente para substituir a vendeta pelo procedimento: uma sentença de terceiro fecha a disputa sem derramamento de sangue e sem humilhações. É um progresso civil real, e no século XIII custou esforço conquistá-lo.",
+              "isEditorial": true
+            },
+            {
+              "label": "A via franciscana",
+              "text": "A tradição franciscana não despreza as autoridades, mas lembra que a justiça decide o muro, não o coração: a saudação de paz levada de casa em casa visa repor as pessoas em relação, não apenas distribuir as culpas. Uma sentença justa pode deixar a disputa viva sob as cinzas.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "A prudência do burgo",
+              "text": "Recorrer aos cônsules protege-te: não és tu que decides, e ninguém poderá acusar-te de favoritismos. O preço é a lentidão e as despesas, e o risco de quem perde guardar rancor à comuna mais do que ao vizinho.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Não intervir: deixar que o tempo decante a disputa, limitando-te a não a alimentar com juízos e mexericos.",
+          "consequence": "Durante meses a tensão fica latente: já ninguém fala do muro, mas os aprendizes continuam a provocar-se e as obras de manutenção da caleira param. Quando chega o inverno, a chuva alaga ambas as caves: diante do dano comum, os dois vizinhos voltam a falar-se por necessidade, e a disputa resolve-se por si, com mais alguma ferrugem.",
+          "perspectives": [
+            {
+              "label": "A prudência do burgo",
+              "text": "Nem todo o conflito pede um pacificador: por vezes a intervenção prematura endurece as posições. O tempo e a necessidade comum — uma cave alagada — podem mediar melhor do que qualquer discurso.",
+              "isEditorial": true
+            },
+            {
+              "label": "A via franciscana",
+              "text": "A paz franciscana é ativa: leva-se, anuncia-se, constrói-se indo ao encontro, como no relato do lobo. Deixar decantar não é um pecado, mas não é a saudação de paz: é a renúncia a ser instrumento, que por vezes é humildade e por vezes é comodidade.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "O direito do tempo",
+              "text": "No direito medieval, a não intervenção tem um custo: a disputa não prescrita regressa, e o dano comum da caleira abandonada pesa sobre todos. Esperar não é neutro: é uma escolha que empurra a conta para a frente.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "A paz franciscana começa numa saudação e acaba num pacto que a comunidade guarda. Mas exige alguém disposto a estar no meio sem ganhar nada com isso. No teu bairro, hoje, quem faz este trabalho? E poderias fazê-lo tu?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "O mérito subtraído",
+      "situation": "Hoje, numa reunião diante de toda a equipa, um colega apresentou como seu um trabalho que é em grande parte teu. Ninguém disse nada; o chefe agradeceu-lhe. Arde-te o peito há horas. Amanhã voltareis a cruzar o olhar no corredor.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Responder à letra: na próxima ocasião pública, restabelecer os factos diante de todos, com precisão e com a mesma plateia que assistiu à ofensa.",
+          "consequence": "A correção chega pontual e os factos voltam ao seu lugar: o chefe compreende, alguns colegas agradecem-te em voz baixa. O colega, humilhado publicamente, torna-se um adversário silencioso e duradouro; o clima da equipa endurece e cada palavra tua passa a ser medida ao grama.",
+          "perspectives": [
+            {
+              "label": "O direito do tempo",
+              "text": "Reivindicar o próprio trabalho é legítimo: a verdade sobre os méritos não é mexerico, e deixar passar a ofensa pode tornar-se um precedente. Mas a forma conta: a reparação pública cria um vencedor e um vencido, e a longo prazo o vencido não esquece.",
+              "isEditorial": true
+            },
+            {
+              "label": "A via franciscana",
+              "text": "O relato da perfeita alegria ensina que a alegria não deve depender do reconhecimento: se a tua paz só regressa quando a ofensa é reparada publicamente, arrendaste-a ao juízo dos outros. Restabelecer os factos é lícito; precisar disso para estar bem é a verdadeira ferida.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "A prudência do burgo",
+              "text": "Na vida de trabalho a reputação constrói-se gota a gota e perde-se a baldes: uma correção pública bem calibrada protege, uma humilhação pública marca-te como pessoa rancorosa. Se escolheres este caminho, mede as palavras pelo conteúdo, nunca pela pessoa.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Deixar correr: não dizer nada, não acalentar rancor, seguir em frente. O trabalho fala por si, e não queres dar à ofensa o poder de te estragar os dias.",
+          "consequence": "O silêncio custa-te algumas semanas de impaciência, depois o nó desfaz-se: o projeto seguinte é claramente teu, e quem observa tem memória longa. O colega, não contrastado, repete porém o comportamento com outro membro da equipa: a tua paz interior está salva, mas o problema permanece no grupo.",
+          "perspectives": [
+            {
+              "label": "A via franciscana",
+              "text": "Nas Florinhas, a perfeita alegria é precisamente isto: sofrer a ofensa sem lhe deixar o comando do próprio coração, permanecendo paciente e alegre. Não é ingenuidade nem fraqueza: é a descoberta de que a alegria fundada no amor não precisa de vencer cada contenda.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "O direito do tempo",
+              "text": "A paz interior é um bem, mas não é o único: um comportamento incorreto não contrastado torna-se hábito, e a próxima vítima pode não ter a tua força. A justiça no trabalho protege também os outros, não só o teu mérito.",
+              "isEditorial": true
+            },
+            {
+              "label": "A prudência do burgo",
+              "text": "Não reagir é uma estratégia com uma condição: tem de ser escolhida, não sofrida. Se deixar correr significa acalentar durante meses, não praticaste a alegria mas o ressentimento a prestações. O coração deve vigiar-se com honestidade.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Procurar um confronto sincero: pedir ao colega uma conversa a sós, expor os factos sem acusações, e escutar o que ele tem a dizer.",
+          "consequence": "A conversa é incómoda mas verdadeira: o colega admite a meias, justifica-se, depois — surpreendido por não ter sido despedaçado em público — corrige-se sozinho na reunião seguinte, citando o teu contributo. Não vos tornais amigos, mas entre vós nasce uma forma de respeito vigilante; e a questão nunca chega à praça da equipa.",
+          "perspectives": [
+            {
+              "label": "A via franciscana",
+              "text": "Ir a sós assemelha-se à saudação de paz levada de casa em casa: expor-se em primeira pessoa, sem plateia, deixando ao outro a porta aberta. E assemelha-se à perfeita alegria porque não subordina a tua paz ao desfecho: falas por verdade, não para vencer.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "O direito do tempo",
+              "text": "O confronto privado tutela os factos sem humilhar a pessoa: é a forma de reparação que deixa intactas as relações de trabalho. O seu limite é depender da boa-fé do outro: se o colega negar e persistir, será depois preciso o caminho formal.",
+              "isEditorial": true
+            },
+            {
+              "label": "A prudência do burgo",
+              "text": "Antes de falar, pergunta-te o que queres de verdade: restabelecer os factos, ou fazer pagar a ofensa? A conversa só funciona se entrares disposto a escutar; se entrares para vencer, o outro sente-o e fecha-se.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "A perfeita alegria não proíbe restabelecer os factos: proíbe dar à ofensa as chaves do teu coração. Pergunta-te, na tua semana: quantas vezes a tua paz está arrendada ao comportamento dos outros?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "A guarda do mercador",
+      "situation": "Assis, 1210. Guido, um mercador de panos que parte para as feiras de Champagne e não voltará antes de dois anos, propõe-te guardar uma parte dos seus bens: fardos de tecido e uma bolsa de dinheiros. Poderás usá-los entretanto — o tecido faria dar o salto à tua pequena loja — e, ao regresso, devolver-lhe-ás o valor combinado, com uma parte do ganho. É uma ocasião honesta. É também um laço que dura dois anos.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Aceitar plenamente: usar tecido e dinheiro para fazer crescer a loja, contando devolver o valor com os juros combinados quando Guido regressar.",
+          "consequence": "A loja cresce de verdade: dois aprendizes, um tear novo, o teu nome que começa a circular. Mas cada decisão passa agora pela conta a prestar: já não dormes antes das feiras, temes os furtos e os anos magros. Quando Guido volta, mais cedo e com perdas próprias a cobrir, honrar o pacto custa-te quase tudo o que ganhaste — e dás por ti a ter passado dois anos a guardar dinheiro mais do que a viver.",
+          "perspectives": [
+            {
+              "label": "A via franciscana",
+              "text": "A Regra de 1223 pede que não se apropriem de nada, nem casa, nem lugar, nem coisa alguma: não porque as coisas sejam más, mas porque aquilo que tens de devolver e defender começa a possuir-te. O sono perdido antes das feiras é o sinal exato da mudança de senhor.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "A lógica do mercador",
+              "text": "No mundo da comuna esta é a praxe: o crédito faz girar a economia, e recusar todo o depósito significa ficar pequeno para sempre. O risco mede-se e precifica-se; honrar o pacto é o que constrói a reputação.",
+              "isEditorial": true
+            },
+            {
+              "label": "O olhar da renúncia",
+              "text": "Celano conta Francisco a devolver até as roupas ao pai: não por desprezo das coisas, mas para não depender de nada que não seja o Pai. A pergunta não é se o pacto é honesto — é-o — mas quanta liberdade do teu coração estás disposto a empenhar durante dois anos.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Aceitar só a guarda, não o uso: selar tecido e dinheiro, mantê-los em segurança sem os fazer render, e devolvê-los intactos no regresso.",
+          "consequence": "Durante dois anos a tua loja continua a de sempre, mas caminhas leve: nenhuma conta a prestar, nenhum ganho a defender. Guido, de regresso, encontra tudo intacto e estima-te como homem de palavra; propõe-te outras guardas, que avaliarás uma a uma. Alguém no burgo chama-te tolo: aquele tecido podia ter trabalhado para ti.",
+          "perspectives": [
+            {
+              "label": "A via franciscana",
+              "text": "Guardar sem se apropriar é quase um exercício espiritual: ter nas mãos sem ter no coração. Recorda a lógica da Regra — peregrinos e forasteiros no mundo, servidores das coisas e não senhores — aplicada a um bem alheio.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "A lógica do mercador",
+              "text": "Do ponto de vista económico é uma ocasião desperdiçada: o capital parado não produz, e o guarda gratuito oferece um serviço que noutro lugar se paga. A estima de Guido vale, mas não paga o tear novo.",
+              "isEditorial": true
+            },
+            {
+              "label": "A prudência do burgo",
+              "text": "A guarda pura tem os seus riscos — furtos, incêndios, acusações de malversação — mas deixa-te livre de qualquer contenda sobre o ganho. Escreve mesmo assim um ato diante de testemunhas: a confiança honra-se melhor com os papéis em ordem.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Recusar com respeito: agradecer a Guido a confiança, mas não querer laços de posse nem contas a prestar durante dois anos.",
+          "consequence": "Guido fica surpreendido, depois assente: confiará os tecidos a outro. A tua loja continua pequena e algum inverno é apertado, mas a tua palavra no burgo ganha um som particular: o de quem não se vende nem se ata. Anos depois, quando escolheres seguir os frades que passam por Assis, ninguém achará estranho o teu desapego: tinha começado naquele não.",
+          "perspectives": [
+            {
+              "label": "O olhar da renúncia",
+              "text": "A renúncia de Francisco diante do bispo mostra que dizer não à riqueza é um gesto de liberdade, não de desprezo: devolveu as roupas para poder dizer sem hipocrisia «Pai nosso». Um não motivado hoje prepara os nãos — e os sins — de amanhã.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "A via franciscana",
+              "text": "Atenção a não confundir a liberdade com a regra feita à medida de si: a Regra fala de não se apropriar, não de recusar toda a responsabilidade para com os bens alheios. Também recusar pode tornar-se um modo de pensar só em si.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "A prudência do burgo",
+              "text": "Recusar é legítimo, mas tem um custo social: no burgo ajuda-se também assim, guardando os bens uns dos outros. Quem recusa sempre, a longo prazo, fica fora da rede de confiança sobre a qual tudo se sustenta.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "A pobreza franciscana não pede que se desprezem as coisas: pede que se note quando as coisas começam a possuir-te. Da próxima vez que aceitares alguma coisa — um objeto, um encargo, uma dívida — pergunta-te: quem guarda quem?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "O projeto opaco",
+      "situation": "Hoje. Confiam-te a direção de um projeto de prestígio: visibilidade, uma equipa escolhida por ti, um orçamento considerável. Mas duas rubricas de despesa não batem certo, e o financiador responde às tuas perguntas com cortesias evasivas. Assinar significa assumires a responsabilidade também dessa opacidade. Recusar significa renunciar a uma ocasião que não voltará.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Aceitar sem mais perguntas: o projeto é uma ocasião única, as rubricas opacas não são da tua competência, e de qualquer modo alguém teria assinado no teu lugar.",
+          "consequence": "O projeto corre bem e a tua carreira dá um salto. Mas, quando um ano depois uma verificação administrativa reabre aquelas rubricas, a tua assinatura está nos documentos: a responsabilidade que não quiseste olhar alcança-te na mesma, e o prestígio conquistado vira-se numa defesa embaraçada.",
+          "perspectives": [
+            {
+              "label": "A responsabilidade do cargo",
+              "text": "Na fraternidade franciscana, quem guia chama-se «ministro», servo: o cargo existe para servir, não para brilhar. Um serviço que aceita não ver aquilo de que responde já traiu o seu nome, antes ainda de qualquer verificação.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A lógica do mercador",
+              "text": "No mundo do trabalho raciocina-se assim: todo o projeto tem zonas cinzentas, e quem quer trabalhar de verdade aprende a conviver com elas. Recusar toda a imperfeição significa entregar as decisões a quem tem menos escrúpulos do que tu.",
+              "isEditorial": true
+            },
+            {
+              "label": "A prudência do burgo",
+              "text": "A assinatura é uma fronteira: o que assinas, possuis, com todas as consequências. Antes de assinar, contar até dez não basta: é preciso saber exatamente o que se está a subscrever. A ocasião que não volta muitas vezes volta; a reputação, não.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Recusar: sem transparência não se assina, e o projeto passe a quem aceitar essas condições.",
+          "consequence": "A renúncia queima, e durante meses vês o projeto seguir em frente entre problemas: sem a tua direção a equipa desvia-se, e no fim o financiador retira os fundos precisamente por causa das rubricas opacas. O teu não, lido por alguns como ingenuidade, é recordado por outros quando é precisa uma pessoa de confiança para um encargo delicado.",
+          "perspectives": [
+            {
+              "label": "A prudência do burgo",
+              "text": "A recusa protege a reputação mas deixa o problema intacto: o projeto vai para quem tem menos escrúpulos, e as pessoas que nele trabalham sofrem as consequências. Um não limpa as mãos, nem sempre o mundo.",
+              "isEditorial": true
+            },
+            {
+              "label": "A responsabilidade do cargo",
+              "text": "A Carta a um ministro mostra que a guia franciscana é proximidade e serviço, nunca um afastamento superior. Mas servir não significa prestar-se a tudo: um ministro que assina o que não pode governar não serve os irmãos, expõe-os. Também a recusa pode ser uma forma de cuidado.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "O olhar longo",
+              "text": "As carreiras fazem-se de ocasiões aproveitadas, mas a confiança faz-se de ocasiões recusadas. O não dito por razões claras e sem moralismos é um investimento que amadurece devagar e não se desvaloriza.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Aceitar com condições: assinar só depois de pôr por escrito prestação de contas transparente, auditoria independente e faculdade de rescisão motivada.",
+          "consequence": "O financiador tergiversa, ameaça procurar outros, depois cede: as tuas condições, escritas, tornam-se a espinha dorsal do projeto. O trabalho é mais lento e mais custoso do que prometia, mas quando a verificação chega — e chega — as contas estão abertas e a equipa aguenta. A tua direção torna-se um precedente: outros, depois de ti, pedirão as mesmas condições.",
+          "perspectives": [
+            {
+              "label": "A responsabilidade do cargo",
+              "text": "Esta é a via do ministro no sentido franciscano pleno: não fugir ao serviço, mas recusar que o serviço se torne cumplicidade. Quem guia serve — e servir inclui proteger a equipa e o projeto das zonas de sombra, mesmo à custa de negociações incómodas.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A lógica do mercador",
+              "text": "As condições escritas são o melhor compromisso, mas têm um preço: arriscas perder o encargo se o financiador não ceder, e trabalhar anos com um parceiro que te considera um controlador mais do que um aliado. Só vale a pena se tiveres alternativas credíveis.",
+              "isEditorial": true
+            },
+            {
+              "label": "O olhar longo",
+              "text": "Pôr condições é o modo mais lento e mais fecundo: não se limita a proteger-te, muda a praxe. As instituições melhoram quando alguém transforma um escrúpulo pessoal numa regra partilhada.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Francisco chamava aos responsáveis «ministros», servos: o nome do cargo já é o seu programa. No teu trabalho, o que é preciso para que o teu serviço não se torne cumplicidade — e o que é preciso para que o teu rigor não se torne deserção?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "O frade que faltou",
+      "situation": "Porciúncula, anos vinte do século XIII. Frei Rufino faltou gravemente à regra: ficou para si com dinheiro recebido em esmola, e o facto já é conhecido também fora, entre as pessoas que vos olham. Na fraternidade discute-se há dias. Alguns pedem uma penitência exemplar e o seu afastamento do burgo; outros recordam que Rufino está doente e em pedaços; outros ainda temem que a indulgência convide todos a faltar. O ministro pede o parecer de cada um. Também o teu.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Sustentar a severidade: penitência pública e afastamento temporário de Rufino, porque a regra vale para todos e o escândalo dos leigos deve reparar-se diante de todos.",
+          "consequence": "A fraternidade aprova uma disciplina rigorosa. Rufino parte para um eremitério distante, humilhado diante de quem o conhecia; os leigos do burgo admiram a coerência dos frades e as esmolas não diminuem. Mas na fraternidade alguma coisa endurece: os frades começam a esconder as próprias fragilidades por medo do juízo, e Rufino, sozinho, levará anos a voltar — se voltar.",
+          "perspectives": [
+            {
+              "label": "A sabedoria da comunidade",
+              "text": "A regra comum é o que distingue uma fraternidade de uma companhia de amigos: se quem falta gravemente não encontra consequências, o pacto esvazia-se e os mais fracos pagam o preço. A reparação pública responde também ao escândalo público.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "A carta ao ministro",
+              "text": "Francisco escreve ao ministro que, se um irmão tivesse pecado mil vezes, é preciso amá-lo ainda assim e anunciar-lhe misericórdia: a dureza que escandaliza o irmão fraco arrisca perdê-lo. A severidade não é proibida, mas nunca deve tornar-se desprezo.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "O olhar longo",
+              "text": "Uma comunidade em que todos temem o juízo torna-se uma comunidade de segredos: a regra permanece de pé no papel e cai nos corações. O rigor que não prevê um caminho de regresso produz exilados, não penitentes.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Sustentar o acolhimento pleno: voltar a acolher Rufino sem penitências públicas, tratar-lhe a doença, e responder ao escândalo com a mansidão, não com os castigos.",
+          "consequence": "Rufino fica. Chora diante dos frades, devolve o que pode, e lentamente reencontra um lugar na vida comum: ninguém lhe lança mais o facto em cara. No burgo alguém murmura que os frades se encobrem entre si, e dois jovens da fraternidade tomam a mansidão como licença: o ministro terá de se esforçar durante meses para restabelecer que a regra não é um conselho.",
+          "perspectives": [
+            {
+              "label": "A carta ao ministro",
+              "text": "É a via traçada pela Carta a um ministro: amar mais, não menos, quem faltou; anunciar misericórdia desde que se arrependa; não endurecer o próprio coração pelo pecado alheio. Francisco sabe que esta via custa e prescreve-a mesmo assim.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A sabedoria da comunidade",
+              "text": "A Regra de 1221 pede que se manifestem uns aos outros as necessidades e que não se despreze o fraco: Rufino doente é exatamente o irmão que a regra protege. Mas a mesma regra existe para que a fraternidade não se disperse: misericórdia sem verdade torna-se cumplicidade.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "A prudência do burgo",
+              "text": "Os leigos dão as esmolas a frades pobres, não a frades astutos: o escândalo não governado corrói a confiança que mantém viva a comunidade. O acolhimento deve explicar-se ao burgo, não só viver-se em casa, ou será lido como encobrimento.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Sustentar uma via comunitária: Rufino fica na fraternidade, devolve o devido diante dos frades, confia-se a um acompanhamento fraterno, e a comunidade inteira leva com ele a reparação para com o burgo.",
+          "consequence": "O percurso é longo e incómodo: Rufino confessa diante dos frades, devolve o dinheiro casa a casa juntamente com um frade idoso, e durante um ano faz os serviços mais humildes sem que ninguém lho lance em cara. O burgo vê uma reparação verdadeira, não um castigo: a confiança regressa devagar. Dentro da fraternidade, o episódio torna-se uma regra não escrita: quem cai é acompanhado, quem faltou repara, ninguém se perde.",
+          "perspectives": [
+            {
+              "label": "A carta ao ministro",
+              "text": "A misericórdia da Carta não é desconto: é amor que acompanha o arrependimento até dar fruto. Rufino que devolve casa a casa não é humilhado: é um irmão que regressa, com a comunidade a caminhar ao lado dele em vez de o olhar de cima.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A sabedoria da comunidade",
+              "text": "A Regra de 1221 imagina precisamente isto: irmãos que manifestam as próprias necessidades — mesmo as vergonhosas — e que se sustentam uns aos outros. A reparação comunitária une verdade e misericórdia, e transforma a culpa de um em escola para todos.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "O direito do tempo",
+              "text": "É a via mais exigente para todos: requer tempo, guarda do segredo onde é preciso, verdade pública onde o escândalo foi público. Nem todas as comunidades aguentam este esforço: sem um ministro capaz, a via do meio torna-se apenas indecisão.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "A fraternidade mede-se não quando todos observam a regra, mas quando alguém a infringe. A Carta a um ministro fixa a estrela — amar mais, não menos — sem apagar a verdade. Nas tuas comunidades, quem errou encontra um caminho de regresso?"
+    }
+  ]
+}

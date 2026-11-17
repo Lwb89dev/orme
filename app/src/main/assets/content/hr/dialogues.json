@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Što znači biti ponizan?",
+      "theme": "umilta",
+      "description": "Iskren vodič rastavlja nesporazum o poniznosti kao omalovažavanju sebe: Franjina „istina o sebi“, ime „manjih“ i vlastita volja u Opomenama.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Dobrodošao u Razgovor. Predstavljam se: ja sam vodič kroz franjevačke izvore, nisam Franjo i ne govori u njegovo ime. Današnje pitanje zvuči jednostavno: što znači biti ponizan? Mnogi, čuvši riječ „poniznost“, odmah pomisle na umanjivanje sebe. Prije nego krenemo, zanima me tvoje polazište.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Za mene je poniznost ne pridavati si važnost, ostati na svom mjestu.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Sumnjam da je nešto drugo, ali ne bih znao reći što.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Zašto su se Franjina braća zvala „manjima“?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "To je najraširenija zamisao, i najotporniji nesporazum. Kad bi poniznost bila omalovažavati se, postala bi suptilan način da se i dalje bavi sobom: vlastitom slikom, vlastitim mjestom, čak i izloženom osrednjošću. Franjevački izvori ciljaju drugamo: ne misliti se malima, nego vidjeti se u istini. Razlika se čini tankom, ali mijenja sve.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Što je onda poniznost doista?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Ima li Franjin tekst koji to kaže?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Ta nesigurnost dobro je polazište, kažem ti to bez ironije. Tko prizna da ne zna, već je napravio korak prema onomu što Franjo misli pod poniznošću: vidjeti se u istini, ne nadimajući se i ne derući se. Pokušajmo dati oblik toj zamisli, polazeći od izvora.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Dobro: što je srce franjevačke poniznosti?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Ima li odlomak izvora koji bismo čitali zajedno?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Precizno pitanje, a odgovor je mali program. U društvu utemeljenom na časti i položaju Franjo je htio da se njegovi zovu manja braća: nitko „veći“, nitko kome se služi. Čak je odgovorne u bratstvu nazvao „ministrima“, što na latinskom znači sluge. Nije to bila jezična manira: bio je izbor mjesta, posljednjega, s kojeg se nitko ne može izgurati.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "A u svakodnevnom životu, kakvu razliku čini?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Ima li u njegovim spisima nešto o tome?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Evo nas u središtu. Za Franju je poniznost istina o sebi: mali pred Bogom, dužnici svega što jesmo i što imamo, sposobni služiti ne tražeći priznanje. Primijeti da ta istina uključuje i tvoje darove: prepoznati ih kao primljene darove nije oholost, to je iskrenost. Ponizan se ne omalovažava: prestaje glumiti, u jednom i u drugom smislu. I slobodan je od potrebe da se izgleda, a to je jedno od najnapornijih ropstava.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "A vlastiti darovi? Treba li ih nijekati da bi se bilo poniznim?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Kako se to danas prevodi, na primjer u radu i na mreži?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Što točno kaže tekst Opomena?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Dosta mi je ovako: možemo završiti.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Ima kratak i oštar tekst: Opomene, upute koje je Franjo upućivao bratstvu. Jedna od meta jest „vlastita volja“ uzdignuta u mjerilo svega: tko se smatra pravednim i mudrim sam od sebe, upozorava Franjo, udaljuje se od prave poniznosti, koja je u tome da se vlastiti sud podloži i da se služi. Ali pažnja: podložiti ne znači ugasiti. Izvori ne traže da se prestane misliti, nego da se vlastito gledište ne učini apsolutnim.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Zvuči kao odricanje od vlastite glave. Nije li to previše?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "A konkretno, danas, kakav oblik ima?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Pokušajmo prevesti, svjesni da je ovo moderno tumačenje, ne srednjovjekovni tekst. U radu je poniznost dobro obaviti svoj dio ne praveći od toga predstavu, priznati pogrešku ne gradeći alibije, ostaviti zaslugu onomu tko je zaslužuje. Na mreži, gdje se mnogo mjeri vidljivošću, to je moći objavljivati i raditi a da sud drugih ne postane tvoj gospodar. Nije poziv da se sakriješ: poziv je da ne ovisiš o pljesku.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Lijepo, ali u mojoj sredini pobjeđuje tko se isturi.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Uvjerava me. Završimo.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Prigovor je zakonit i zaslužuje iskren odgovor. U izvorima poslušnost nije poništenje: samo je bratstvo bilo mjesto gdje su se jedni drugima očitovale potrebe, to jest gdje se razgovaralo. Poanta nije ukinuti vlastiti sud, nego odbiti da on bude vrhovni sud svega. Ali ovdje nam izvori ne daju kazuistiku: ne mogu ti reći gdje prolazi granica u tvom konkretnom slučaju. To ostaje tvoj posao, i posao onoga tko te doista poznaje.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Ima smisla. A u svakodnevnom životu?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Radije bih ovdje stao.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Imaš pravo što to podižeš, i ne odgovaram ti savjetom za karijeru: nije mi to uloga. Kažem samo da franjevački izvori ne obećavaju da poniznost „funkcionira“: obećavaju da oslobađa. Katkad stoji, a pretvarati se u suprotno bilo bi nepošteno. Izbor da se ne živi radi odobrenja ostaje upravo izbor: tvoj, odmjeren prema tvom kontekstu.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Iskreno, hvala. Završimo.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Ponovno pročitajmo srce nauka.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Ne, i izvori, pažljivo čitani, kažu suprotno. Franjina logika je logika dara: ako je sve primljeno, i tvoje su sposobnosti takve, a nijekati ih bio bi samo drugi način da se laže o sebi. Poniznost ne traži da se kaže „ne vrijedim ništa“, nego da se kaže istina: „ovo sam primio, za ovo sam dužnik“. A tko zna prepoznati dar, zna i zahvaliti: na franjevačkom putu zahvalnost je vrata radosti.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "A kako se to živi, u konkretnosti današnjice?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Možemo ovdje završiti.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Ovdje stajemo. Ako želiš, ponesi sa sobom pitanje, ne zadatak: na kojem mjestu svog dana glumiš ulogu, umjesto da budeš u istini onoga što jesi, u dobru i u granici? Ne moraš odgovoriti meni, ni ikomu. Ostali razgovori Razgovora čekaju te kad poželiš: oproštenje, siromaštvo, stvorenje, Franjina vjera.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Prođi ovaj razgovor ispočetka.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Otkrij ostale razgovore Razgovora.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Hvala što si hodao sa mnom unutar ovih izvora. S popisa Razgovora možeš otvoriti drugi razgovor, ili ponovno naći ovaj kad poželiš: tekstovi ostaju, i pitanja također.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Počni ovaj razgovor ispočetka.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Završi za sada."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Kako se može oprostiti nekome?",
+      "theme": "perdono",
+      "description": "Pismo ministru i strofa Pjesme: oproštenje kao ponovljena odluka, razlika prema pravdi i iskren odgovor onomu tko ne može.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Dobrodošao u Razgovor. Ja te vodim: nisam Franjo i ne govorim u njegovo ime, pratim te unutar onoga što izvori doista kažu. Današnje je pitanje jedno od najtežih koja postoje: kako se može oprostiti nekome? Ne obećavam ti udoban odgovor. Pomaže mi znati odakle polaziš.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Pretrpio sam nepravdu i ne mogu pustiti bijes.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Oprostiti ne znači li pretvarati se da se ništa nije dogodilo?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Najprije bih htio znati što Franjo kaže o oproštenju.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Hvala na iskrenosti. Franjevački izvori ne obećavaju da će bijes nestati, i ne traže od tebe da se pretvaraš da se nepravda nije dogodila. Ono što predlažu drukčije je: oproštenje kao odluka koja se obnavlja, čak i kad je osjećaj ne slijedi. Ako danas ne možeš, to te ne diskvalificira: to je pravilo, ne iznimka.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Odluka koja se obnavlja: objasni mi.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "A ako baš ne mogu?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Što Franjo o tome piše?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Ne, i vrijedi to odmah jasno reći: oprostiti nije nijekati. Franjevački izvori ne miješaju milosrđe i nepravdu: učinjeno zlo ostaje zlo, i njegove posljedice ostaju stvarne. Oproštenje ovdje ne briše ono što se dogodilo: odbija da uvreda ima posljednju riječ o odnosu. To su dvije različite ravni, i držati ih razdvojenima prvi je korak.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Onda oproštenje i pravda mogu stajati zajedno?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Što točno kaže Franjo?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Ključni je tekst Pismo ministru: Franjo piše odgovornomu u bratstvu koji mora postupati s braćom koja griješe. Poznati odlomak u biti kaže: ako bi brat sagriješio tisuću puta pred tvojim očima, ljubi ga više nego mene i navijesti mu milosrđe. Tisuću puta: ne junačka odluka donesena jednom zauvijek, nego izbor ponovljen svaki dan. To mijenja pitanje: ne „osjećam li da opraštam?“, nego „biram li oprostiti i danas?“.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Tisuću puta je previše. Je li to realan zahtjev?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "A pravda? Tko griješi, ne mora li za to odgovarati?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Pjesma stvorova govori o oproštenju, zar ne?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Da, i samo Pismo to daje naslutiti: Franjo traži da se navijesti milosrđe samo ako se drugi pokaje, to jest oproštenje ne proglašava nedužnim onoga tko je pogriješio i ne oslobađa ga popravka. I u njegovo doba braća miritelji nisu ukinula sudove i odgovornost: radili su da osveta ne bude jedina moguća pravda. Oprostiti i tražiti da se zlo prizna nisu neprijatelji. Mogu hodati zajedno, premda naporno.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "A odakle se počinje, u praksi?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Ima li tu veze strofa Pjesme?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "A ako je nepravda prevelika, ili previše svježa?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "A u podijeljenim gradovima njegova doba?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Počinje se ispravkom perspektive. Kad bi oproštenje bilo osjećaj, morao bi čekati da stigne: a često ne stigne, ili stigne pa ode. Ako je odluka, možeš je donijeti i dok bijes još gori, i ponoviti je sutra, i prekosutra. Izvori ne opisuju linearan put: riječ „tisuću puta“ sugerira upravo suprotno. Iskreno: u franjevačkim tekstovima nema tehnika. Ima smjer.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "A ako danas baš ne mogu?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "A sa samim sobom? Može li se sebi oprostiti?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Ispričaj mi strofu Pjesme o oproštenju.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Iskren odgovor: može se dogoditi, i izvori te zbog toga ne sude. Ni ja to ne činim: ja sam vodič kroz tekstove, nisam ispovjednik i nisam terapeut. Kažem ti dvije stvari koje se mogu dokumentirati. Prva: Pismo govori o tisuću puta, što znači da se već u trinaestom stoljeću oproštenje nije mislilo kao trenutačna gesta. Druga: ako je rana duboka, podijeliti je s nekim od povjerenja, ili sa stručnjakom kad treba, nije poraz. O vremenima oproštenja franjevački izvori šute: ovdje ne možemo reći više.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "A oproštenje prema sebi?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Hvala na iskrenosti. Završimo.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Ima strofa Pjesme stvorova koja hvali Boga zbog onih koji opraštaju iz ljubavi prema njemu, podnoseći nemoć i nevolju. Znanost je obično datira u ljeto 1226., a predaja je vezuje uz konkretan događaj: biskup i podesta Assisija bili su u otvorenom sukobu, a Franjo, već bolestan, dodao bi tu strofu i dao otpjevati Pjesmu pred njima, da ih pomiri. Preciziram razine: strofa je autentična, pripovijest o događaju stiže nam kroz hagiografsku predaju. Ostaje činjenica: oproštenje je za Franju bilo dostojno hvale i unutar sukoba njegova grada.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Oprostiti usred sukoba: je li moguće?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "A tko ne uspijeva oprostiti?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Možemo završiti.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Ovdje moram biti iskren o granicama izvora. Franjevački tekstovi govore o oproštenju prema braći i prema onomu tko vrijeđa; o oproštenju sebi, kako ga danas razumijemo, ne kažu gotovo ništa izričito. Možemo razmišljati po analogiji: ako se milosrđe navješćuje tisuću puta onomu tko griješi, teško je isključiti sebe. Ali to ostaje naše razmišljanje, ne citat. Radije ti to kažem, nego da Franji stavljam u usta riječi koje nije napisao.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Cijenim preciznost. A odakle se kreće dalje?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Završimo ovdje.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Ima i javna dimenzija. Italiju komuna presijecale su zavade i osvete, a izvori pamte prvu braću kako navješćuju mir od kuće do kuće, pozdravom za koji je Franjo posvjedočio da ga je primio. Oproštenje, u tom svijetu, nije bilo samo privatna stvar: bilo je točka na kojoj se mogao prekinuti lanac odmazde. I danas zavade postoje, u obiteljima, u četvrtima, na društvenim mrežama, i logika je ista: netko mora prestati vraćati udarac.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "A strofa Pjesme rodila se upravo iz sukoba, zar ne?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Dosta mi je. Završimo.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Ovdje stajemo. Ako želiš, ponesi sa sobom jednu sliku, ne zadatak: oproštenje kao cesta koja se prepravlja metar na dan, ne kao skok koji se učini jednom zauvijek. A ako ti rana danas to ne dopušta, ovaj razgovor nije od tebe tražio da uspiješ: tražio je da razumiješ. Ostali razgovori Razgovora čekaju te kad poželiš.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Prođi ovaj razgovor ispočetka.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Otkrij ostale razgovore Razgovora.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Hvala što si se suočio s teškim pitanjem bez prečaca. Na popisu Razgovora nalaziš ostale razgovore: ja ostajem ovdje, i tekstovi također.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Počni ovaj razgovor ispočetka.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Završi za sada."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Je li Franjo bio protiv bogatstva?",
+      "theme": "poverta",
+      "description": "Franjo nije osuđivao dobra: oslobađao je od posjeda. Pravilo iz 1223., odricanje pred biskupom i što to danas znači, bez romantike.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Dobrodošao u Razgovor. Predstavljam se: ja sam vodič, nisam Franjo; s tobom čitam izvore i kažem ti kad nisu dovoljni za odgovor. Današnje je pitanje puno nesporazuma: je li Franjo bio protiv bogatstva? Kratak odgovor jest „ne, ne u smislu koji možda zamišljaš“. Ali zaslužuje dugi put. Odakle krećemo?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Uvijek sam mislio da prezire sam novac.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Sumnjam da je poanta nešto drugo, ali ne znam to reći.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Nije li to samo romantično siromaštvo, s plakata devetnaestog stoljeća?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "To je najraširenija rekonstrukcija, i najmanje točna. U Franjinim tekstovima ne nalaziš osudu dobara kao da su prljava: nalaziš nešto radikalnije i suptilnije, to jest odbijanje da ih se prisvoji. Meta nije bogatstvo, nego posjed: ono što stvari čine onomu tko vjeruje da ih posjeduje. Idemo na tekst koji to najbolje kaže.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Koji tekst?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "A poznati prizor odricanja?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Tvoja sumnja ima temelj. Poanta nije količina dobara, nego vrsta veze: Franjo želi braću koja si ništa ne prisvajaju, jer tko ne posjeduje, ne mora braniti, a tko ne mora braniti, slobodan je ljubiti. To je logika slobode, ne gađenja. Pokazat ću ti to u tekstu Pravila.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Čitajmo Pravilo.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Najprije mi ispričaj prizor pred biskupom.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Prigovor je ozbiljan i zaslužuje poštovanje: romantično siromaštvo postoji, i karikatura je koja ima malo franjevačkog. Zato sklopimo dogovor: bez idealizacija. Pogledajmo što kažu izvori — prizor koji pripovijeda prvi životopisac i normativni tekst koji je napisao sam Franjo — a zatim ti prosudi drže li se.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Dobro: prizor prvog životopisca.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Normativni tekst.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Pravilo iz 1223., konačni tekst koji je odobrila Crkva: braća si ništa ne prisvajaju, „ni kuće ni mjesta ni bilo koje stvari“; žive kao hodočasnici i došljaci i idu po milostinju ne stideći se. Navedeni razlog je teološki: Gospodin se za nas učinio siromašnim. Ali ima i jasna ljudska logika: ono što ne posjeduješ, ne posjeduje tebe. Stručna predaja to zove „sine proprio“, bez ičega vlastitoga. Nije prezir prema stvarima, koje se primaju, rabe i za koje se zahvaljuje: to je oslobođenje od posjeda.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Ispričaj mi odricanje pred biskupom.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "A danas? Bismo li trebali sve prodati?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "A pravi siromasi? Ne riskira li se uljepšavanje bijede?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Toma Čelanski, prvi životopisac, pripovijeda to ovako: pred biskupom Guidom i ocem Petrom Bernardoneom Franjo vraća čak i odjeću i odriče se očevih dobara, govoreći da ocem odsada može zvati samo Boga. Biskup ga pokriva svojim plaštem. Preciziram razine: događaj je dokumentirana osovina, ali scenske pojedinosti pripadaju Čelanskijevoj pripovijesti, koja je hagiografija, izgradna književnost, ne zapisnik. Smisao je ipak jasan: javno presjeći vezu s obiteljskim bogatstvom.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Kazališna gesta ili promišljen izbor?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "A mi danas, što s tim?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Neizbježno pitanje, a iskren odgovor jest: izvori ne traže od svih isto. To Pravilo bilo je za braću; Franjo nije pisao pravila za trgovce, roditelje, obrtnike. Dakle ne: ne postoji franjevački tekst koji ti naređuje da sve prodaš. Postoji nezgodno pitanje u kojem treba stanovati: koje stvari posjedujem, a koje posjeduju mene? Konkretan odgovor razmjeran je tvom životu, ne njegovu.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Kako razlikujemo odabrano siromaštvo i pretrpljenu oskudicu?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "A tko radi, zarađuje, uzdržava obitelj?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Daj mi nešto konkretno, bez krajnjih gesti.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "To je najvažnija razlika ovog razgovora. Pretrpljena oskudica — nemati što jesti, čime se liječiti, krov — društvena je rana koju treba liječiti, ne ideal koji se promatra: Franjo je služio siromasima, nije ih estetizirao. Franjevačko siromaštvo je nešto drugo: slobodan izbor da se ništa ne prisvaja, učinjen radi slobode i solidarnosti. Miješati ih pogreška je koju treba uvijek izbjegavati: veličati tuđu bijedu bilo bi upravo ono „romantično siromaštvo“ o kojem smo govorili.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Dakle kritika romantizma imala je zrno istine?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "A u praksi, za mene, danas?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Završimo ovdje.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Kazališno je zasigurno bilo: a u društvu utemeljenom na pravu i posjedu samo je javna gesta mogla razvezati javnu obvezu. Ali nije bila improvizacija: Čelanski je smješta nakon mjeseci krize, sužanjstva u Perugii, bolesti, razočaranja. Ako želiš mjerilo za prosudbu gesti, njegovih i tvojih, evo ga: ne intenzitet trenutka, nego ono što dolazi poslije. Franjo je dosljedno živio još dvadeset godina. Prave se geste prepoznaju po dugom trajanju.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "A danas, bez krajnjih gesti?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Razumio sam. Završimo.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkretno, dakle, ali bez recepata: nije mi uloga da ti ih dam. Franjevačka predaja sugerira smjer u tri poteza: gledati što posjeduješ pitajući se čini li te slobodnim ili opreznim; rabiti stvari kao primljene, ne kao zaslužene; pustiti da jednostavnost oslobodi prostor — vrijeme, pažnju, novac — za druge. To je moderno tumačenje, kažem ti to iskreno: ali tumačenje vjerno duhu „sine proprio“.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Vrati se na tekst Pravila.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Završimo.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Nijedan franjevački izvor ne kaže da raditi i zarađivati udaljuje od Franje: Pravilo je oblik života određenog bratstva, ne mjera svakog postojanja. Štoviše, logika je gotovo obrnuta: problem nije imati, nego služiti onomu što se ima. Ako tvoj rad, tvoja zarada, tvoja kuća postanu sredstva — tvoja i tuđa — a ne gospodari, bliži si duhu Pravila nego što misliš.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "A rizik da se siromaštvo romantizira?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Završimo.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Ovdje stajemo. Ne ostavljam ti zadatak: ostavljam ti pitanje koje je ovaj razgovor pokušao otvoriti. Što, od onoga što posjeduješ, posjeduje tebe? Odgovori mirno, ili ne odgovaraj uopće. Kad poželiš, ostali su razgovori Razgovora na popisu: poniznost, oproštenje, stvorenje, vjera.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Prođi ovaj razgovor ispočetka.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Otkrij ostale razgovore Razgovora.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Hvala što si tražio razveden odgovor na pitanje koje često dobiva slogane. Vidimo se u Razgovoru kad poželiš: izvori ne istječu.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Počni ovaj razgovor ispočetka.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Završi za sada."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Zašto je Franjo razgovarao sa životinjama?",
+      "theme": "creato",
+      "description": "Srodstvo, ne panteizam: Pjesma, Čelanskijeve ptice, vuk iz Cvjetića i što sve to kaže — i ne kaže — današnjoj ekologiji.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Dobrodošao u Razgovor. Ja sam tvoj vodič: nisam Franjo, i kad izvori nisu dovoljni, kažem ti to. Današnje pitanje tone u stoljeća slika: Franjo koji govori pticama, vuku, ribama. Što je iza toga? Ovisi o tome što tražiš.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Hoću istinu: je li samo legenda da je razgovarao sa životinjama?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Pitam se je li vidio Boga u prirodi: je li bio panteist?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Ispričaj mi Pjesmu stvorova.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Pitanje za povjesničara, a odgovor je slojevit, kao gotovo sve što se tiče Franje. Jezgra je rano posvjedočena: Toma Čelanski, bliski životopisac, pripovijeda propovijed pticama trijeznim tonom. Scenskije pripovijesti — vuk iz Gubbia, ribe, gliste — cvjetaju stoljeće poslije u Cvjetićima. Dakle: staro sjećanje i književno pojačanje. Pokazat ću ti oboje, odvojeno.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Čelanskijeva trijezna verzija.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Verzija Cvjetića: vuk.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Ne, a tekst koji to dokazuje jest Pjesma stvorova. Franjo hvali Boga „po“ stvorovima — brate sunce, sestro mjeseče — ne hvali stvorenja kao da su božanska. Razlika je odlučna: priroda nije Bog, ona je obitelj. Stvorenja su sestre jer su kćeri istoga Oca. Prava riječ je „srodstvo“, ne panteizam.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Čitajmo Pjesmu.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "A priče sa životinjama?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Pjesma stvorova, sastavljena 1225.–1226., kad je Franjo bio bolestan i gotovo slijep: među je prvim pjesničkim tekstovima na talijanskom narodnom govoru. Hvali Boga po bratu suncu, „koji je dan“, po sestri mjesecu i zvijezdama, po bratu vjetru, po sestri vodi „korisnoj i poniznoj i dragocjenoj i čistoj“, po bratu ognju i po „sestri našoj majci zemlji“. Dvije stvari treba primijetiti. Prva: nije himna prirodi, to je hvala Bogu kroz prirodu. Druga: rađa se u patnji, ne na idiličnoj šetnji.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "A propovijed pticama?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "A vuk iz Gubbia?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Što sve to kaže današnjoj ekologiji?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Čelanskijeva verzija iznenađujuće je trijezna: Franjo vidi jata ptica, obraća im se kao stvorenjima sposobnima slušati i potiče ih da hvale Boga. Nema razvedenih dijaloga, nema spektakularnih čuda: gesta priznanja. Cvjetići, stoljeće poslije, dodat će znak križa, jata koja se poredaju da slušaju, svečani oproštaj. Najprije Franjin stil, zatim stil pobožnosti. Oboje nam nešto kažu, ali različito.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "A vuk iz Gubbia?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Ako je književnost, kakvu vrijednost ima?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "A suvremena ekologija?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Vuk iz Gubbia remek-djelo je Cvjetića: prestrašen grad, Franjo koji ide ususret zvijeri, govori joj kao bratu i posreduje savez — grad će ga hraniti, on više neće nikomu činiti zla. Moram biti jasan o književnom žanru: to je hagiografija četrnaestog stoljeća, memorija pobožnosti, ne provjerljiva kronika. Ali pogledaj što čuva: mir koji se rađa odlaskom ususret onomu što plaši, i životinju tretiranu kao sugovornika, a ne kao predmet. Oblik je legenda; smjer je autentično franjevački.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Dakle, u biti, izmišljeno je?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "A što današnja ekologija iz toga izvlači?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Ovdje treba iskrenost u oba smjera. S jedne strane: Pjesma danas nudi rijetku gramatiku, brigu za stvoreno iz zahvalnosti i srodstva, ne iz koristi ili straha. S druge: Franjo nije bio moderni ekolog, a njegovi izvori ne poznaju klimu, izumiranja, onečišćenje. Tko u njemu traži detaljan ekološki program, siluje tekstove. Tko traži pogled — svijet kao obitelj, ne kao skladište — nalazi nešto još sposobno pomaknuti ponašanja.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "A ipak je proglašen zaštitnikom ekologije, zar ne?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Što konkretno ostaje za mene?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Ne: „nije kronika“ ne znači „izmišljeno ni iz čega“. Propovijed pticama jest u Čelanskoga, nekoliko godina nakon Franjine smrti; Cvjetići je odijevaju legendarnim bojama, ali nit polazi od sjećanja. Tako funkcionira velik dio hagiografije: oblik pripovijeda pobožnost onoga tko ju je predao, tvar čuva stvarnu crtu. Čitati izvore znači upravo to: držati oboje zajedno ne miješajući ih.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Jasno. A za današnju ekologiju?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Vratimo se onda Pjesmi.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Da: 1979. Ivan Pavao II. proglasio ga je zaštitnikom ekologa. To je moderni naslov — tumačenje, ne srednjovjekovni izvor — i kao takav se njime treba rukovati. Zakonit je ako označuje korijen franjevačkog pogleda: srodstvo sa svim stvorenjima. Postaje zavaravajuć ako Franje spljošti na ekologa prije slova, brišući da je Pjesma prije svega hvala Bogu, koju je sastavio bolestan čovjek koji je zahvaljivao. Naslov kaže nešto istinito, pod uvjetom da se na to ne svede.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "A za mene, konkretno?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Možemo završiti.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkretno ovdje znači pitanje pogleda prije nego djela. Pjesma sugerira stanovati u svijetu kao u srodstvu: voda kao sestra koju se ne rasipa, zemlja kao majka čije smo djeca, stvorenja kao drugovi u hvali, a ne kao zalihe. Praktični izbori — što kupuješ, što bacaš, kako putuješ — dolaze poslije, i izvori ih ne diktiraju. Ali promijenjen pogled čini ih mogućima, i manje napornima.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Ponovno zajedno pročitajmo Pjesmu.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Završimo.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Ovdje stajemo. Ostavljam ti sliku, ne zadatak: gotovo slijep čovjek koji sastavlja hvalu suncu koje više ne vidi i zove ga bratom. Ako ti se jednog dana dogodi da stablo, psa, vodu iz slavine gledaš kao rođaka, a ne kao stvar, znat ćeš odakle taj pogled dolazi. Ostali razgovori Razgovora čekaju te na popisu.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Prođi ovaj razgovor ispočetka.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Otkrij ostale razgovore Razgovora.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Hvala što si sa mnom razlikovao kroniku, legendu i hvalu: to je vježba koja služi i daleko izvan Franje. Vidimo se u Razgovoru kad poželiš.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Počni ovaj razgovor ispočetka.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Završi za sada."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Može li se slijediti Franju a ne biti vjernik?",
+      "theme": "fede",
+      "description": "Neizbjegavajući odgovor na ozbiljno pitanje: kršćanska vjera bila je Franjino središte i aplikacija je ne skriva. Što ostaje onomu tko ne vjeruje.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Dobrodošao u Razgovor. Ja sam vodič kroz izvore: nisam Franjo, nisam ispovjednik i ne procjenjujem ničiju vjeru, ni tvoju. Današnje je pitanje zakonito i ozbiljno: može li se slijediti Franju a ne biti vjernik? Obećavam ti odgovor koji ne izbjegava. Najprije mi reci odakle ti govoriš.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Ja sam vjernik i želim bolje razumjeti njegovu vjeru.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Nisam vjernik: što od njega mogu primiti?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Ne znam u što vjerujem. Je li ovaj razgovor za mene?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Onda idemo ravno u središte. Franjina vjera nije bila kulturna etiketa: bila je izvor svega ostaloga — siromaštva, bratstva, mira. U Oporuci pripovijeda da mu je Gospodin dao jednostavnu vjeru u crkve; a cijeli njegov put, od San Damiana do La Verne, izvori čitaju kao nasljedovanje siromašnog i raspetog Krista. Pogledajmo tekstove.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Tekstove, da.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "A njegov odnos s Crkvom toga doba?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Kratak odgovor: da, može se, uz uvjet iskrenosti. Možeš ga proučavati, diviti mu se, dati da te njegov stil ispituje ne pristajući uz njegovu vjeru; ova je aplikacija i za tebe, i nitko ovdje ne procjenjuje tvoj stav. Uvjet je da ga se ne amputira: Franjo bez Krista ne postaje univerzalniji, postaje drugi lik. Ako pristaneš susresti ga cijeloga, s korijenom, ima mnogo što primiti.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Pokaži mi onda taj korijen.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Što konkretno ostaje onomu tko ne vjeruje?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Da, jest za tebe: možda više nego za ikoga drugog. Pitanja o vjeri ne traže potvrdu pripadnosti: traže iskrenost, a ti si je upravo imao. Neću te gurati ni u kojem smjeru: pokazujem ti tekstove, razlikujem razine i stajem ondje gdje izvori staju. Krenimo od onoga što sam Franjo pripovijeda.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Dobro: što pripovijeda?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "A tko ne stigne do vjere, što prima?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Dva svjedočanstva. Prvo je njegovo: u Oporuci, izdiktiranoj malo prije smrti, Franjo se sjeća da mu je Gospodin dao jednostavnu vjeru u crkve, gdje je molio okrenut Kristu. Drugo je Čelanskijevo: 1224., na gori La Verni, Franjo bi primio stigme, znakove muke, koje je nastojao sakriti. Primijeti razine: Oporuka je Franjina riječ; stigme nam stižu kao svjedočanstvo najbližih izvora, i aplikacija ih tako prikazuje, ne kao mjerljiv podatak. Zajedno kažu jedno: središte njegova života bila je osoba Krista.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Stigme: kako bih ih trebao razumjeti?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Zašto aplikacija toliko ustraje na toj točki?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "A za onoga tko ne vjeruje, što ostaje?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Ovako potpuna vjera nije ostavljala prostora sumnjama?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "S istom iskrenošću s kojom ih izvori prikazuju. Čelanski ih pripovijeda nekoliko godina nakon Franjine smrti, a predaja ih čuva kao znak potpunog suobličenja raspetom Kristu. Povijesna i teološka procjena sporna je među znanstvenicima; ovdje nam izvori ne dopuštaju reći više, a tko bi ti rekao više, u jednom ili drugom smislu, išao bi dalje od tekstova. Što možemo reći: za njegovo bratstvo taj je znak potvrđivao ono što je njegov život već govorio.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "A odnos s Crkvom?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Razumijem. A za onoga tko ostaje izvan vjere?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Iz dva razloga, oba izrečena. Prvi je povijesni: oduzeti Franji kršćanski korijen ne čini ga univerzalnijim, čini ga neprepoznatljivim — siromaštvo je „jer se Gospodin učinio siromašnim“, mir je primljeni pozdrav, bratstvo je evanđelje proživljeno zajedno. Drugi je urednički: ova aplikacija objašnjava, ne vrši prozelitizam. Objasniti Franjinu vjeru nije tražiti da je učiniš svojom; to je odbiti da ti se da uljepšana verzija činjenica.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "A što može primiti onaj tko ne pristaje?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "A kako je Franjo živio institucionalnu Crkvu?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Dosta mi je. Završimo.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Mnogo, samo ako se uzme cijelo. Stil — besplatnost, manjost, mir građen odlaskom ususret, pogled srodstva na stvoreno — govori i onomu tko ne dijeli korijen. Ali te stvari, u tekstovima, plodovi su tog stabla: poznavati ih bez korijena moguće je, razumjeti ih do kraja bez korijena nije. Možeš se dati ispitivati ne pristajući: to je ozbiljan stav, a povijest ideja puna je ljudi koji su učili od tuđih predaja. Nitko ovdje ne bilježi tvoj duhovni rezultat.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Onda ponovno pročitajmo tekstove koji pripovijedaju taj korijen.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Završimo.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Izvori ne pripovijedaju doktrinarne sumnje u modernom smislu: ovdje ne možemo reći ono što tekstovi ne kažu. Ali pripovijedaju najteže kušnje: bolest, gotovo izgubljen vid, bol što vidi bratstvo kako raste i mijenja se mimo njegovih nakana. I upravo iz tog doba, prema Bonaventuri, rađa se Pjesma stvorova. Franjina vjera nije bila odsutnost noći: bila je hvala unutar noći. A to je nešto posve drugo od naivnosti.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "A stigme spadaju u to doba?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Možemo završiti.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Ni buntovnik ni poravnat: nešto zanimljivije. Franjo je živio unutar srednjovjekovne Crkve, ustrajno tražio njezino odobrenje za svoj oblik života i prihvaćao njezine granice, premda ju je poticao da se obnovi odozdo, primjerom a ne bunom. Njegova poslušnost Crkvi bila je dio njegove vjere, ne račun. Razumjeti to izbjegava dvije zrcalne karikature: neposlušnog sveca dragog modernima i pitomog sveca dragog pobožnima.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Vratimo se tekstovima njegove vjere.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Završimo.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Ovdje stajemo. Ne ostavljam ti zadatak, a još manje ispit: ostavljam ti mjerilo. Kad susretneš Franju, u ovoj aplikaciji ili drugdje, uvijek se pitaj pokazuje li ga verzija pred tobom cijeloga, s kršćanskim korijenom. Zatim tvoj stav ostaje tvoj: nitko ga ovdje ne sudi. Ostali razgovori Razgovora čekaju te na popisu.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Prođi ovaj razgovor ispočetka.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Otkrij ostale razgovore Razgovora.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Hvala na ozbiljnosti pitanja i što si prihvatio odgovor bez prečaca. Vidimo se u Razgovoru kad poželiš: prava pitanja nemaju rok.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Počni ovaj razgovor ispočetka.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Završi za sada."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

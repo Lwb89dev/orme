@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Was heißt es, demütig zu sein?",
+      "theme": "umilta",
+      "description": "Eine ehrliche Begleitung räumt das Missverständnis aus, Demut sei Selbstentwertung: die „Wahrheit über sich“ bei Franz, der Name der „Minderen“ und der eigene Wille in den Ermahnungen.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Willkommen im Dialog. Ich stelle mich vor: Ich bin eine Begleitung durch die franziskanischen Quellen, ich bin nicht Franz und spreche nicht an seiner Stelle. Die Frage von heute klingt einfach: Was heißt es, demütig zu sein? Viele denken bei dem Wort „Demut“ sofort daran, sich klein zu machen. Bevor wir anfangen, interessiert mich dein Ausgangspunkt.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Für mich ist Demut, sich nicht wichtig zu nehmen und an seinem Platz zu bleiben.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Ich vermute, es ist etwas anderes, aber ich wüsste nicht zu sagen, was.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Warum nannten sich die Brüder des Franz „die Minderen“?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Das ist die verbreitetste Vorstellung und auch das hartnäckigste Missverständnis. Wäre Demut Selbstentwertung, würde sie zu einer feinen Weise, sich noch immer mit sich zu beschäftigen: mit dem eigenen Bild, dem eigenen Platz, sogar mit der zur Schau gestellten Mittelmäßigkeit. Die franziskanischen Quellen zielen woandershin: nicht darauf, sich klein zu denken, sondern sich in der Wahrheit zu sehen. Der Unterschied scheint fein, aber er verändert alles.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Was ist die Demut dann wirklich?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Gibt es einen Text des Franz, der das sagt?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Diese Unsicherheit ist ein guter Ausgangspunkt, das sage ich ohne Ironie. Wer zugibt, nicht zu wissen, hat schon einen Schritt auf das hin getan, was Franz unter Demut versteht: sich in der Wahrheit zu sehen, ohne sich aufzublähen und ohne sich zu zerreißen. Versuchen wir, dieser Idee Gestalt zu geben, von den Quellen aus.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Gut: Was ist das Herz der franziskanischen Demut?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Gibt es eine Stelle der Quellen, die wir gemeinsam lesen?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Eine genaue Frage, und die Antwort ist ein kleines Programm. In einer Gesellschaft, die auf Ehre und Rang gründete, wollte Franz, dass die Seinen Minderbrüder heißen: niemand „größer“, niemand, dem man dienen müsste, um jemand zu sein. Sogar die Verantwortlichen der Bruderschaft nannte er „Minister“, was auf Latein Diener heißt. Das war keine sprachliche Marotte: Es war die Wahl eines Platzes, des letzten, von dem niemand verdrängt werden kann.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "Und im Alltag, welchen Unterschied macht das?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Steht in seinen Schriften etwas darüber?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Hier sind wir in der Mitte. Für Franz ist Demut Wahrheit über sich: klein vor Gott, alles schuldig, was wir sind und haben, fähig zu dienen, ohne Anerkennung zu verlangen. Beachte, dass diese Wahrheit auch deine Gaben einschließt: Sie als empfangene Gaben anzuerkennen, ist nicht Hochmut, es ist Ehrlichkeit. Der Demütige entwertet sich nicht: Er hört auf, eine Rolle zu spielen, in der einen wie in der anderen Richtung. Und er ist frei vom Bedürfnis zu scheinen, das eine der mühsamsten Knechtschaften ist.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "Und die eigenen Gaben? Muss man sie leugnen, um demütig zu sein?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Wie übersetzt sich das heute, zum Beispiel in der Arbeit und online?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Was sagt der Text der Ermahnungen genau?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Das genügt mir: Wir können schließen.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Es gibt einen kurzen und scharfen Text: die Ermahnungen, Anweisungen, die Franz an die Bruderschaft richtete. Eine der Zielscheiben ist der „eigene Wille“, zum Maß aller Dinge gemacht: Wer sich aus sich selbst für gerecht und weise hält, warnt Franz, entfernt sich von der wahren Demut, die darin besteht, das eigene Urteil zu unterstellen und zu dienen. Aber Achtung: Unterstellen heißt nicht auslöschen. Die Quellen verlangen nicht, aufzuhören zu denken, sondern den eigenen Standpunkt nicht zu verabsolutieren.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Das klingt nach einem Verzicht auf den eigenen Kopf. Ist das nicht zu viel?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "Und konkret, heute, wie sieht das aus?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Versuchen wir zu übersetzen, im Bewusstsein, dass dies eine moderne Deutung ist, kein mittelalterlicher Text. In der Arbeit ist Demut, den eigenen Teil gut zu tun, ohne ein Schauspiel daraus zu machen, einen Fehler zuzugeben, ohne Alibis zu bauen, das Verdienst dem zu lassen, der es verdient. Online, wo vieles an Sichtbarkeit gemessen wird, heißt es, veröffentlichen und arbeiten zu können, ohne dass das Urteil der anderen dein Herr wird. Es ist keine Einladung, dich zu verstecken: Es ist eine Einladung, nicht vom Applaus abzuhängen.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Schön, aber in meinem Umfeld gewinnt, wer sich vordrängt.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Das überzeugt mich. Schließen wir.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Ein berechtigter Einwand, und er verdient eine ehrliche Antwort. In den Quellen ist der Gehorsam keine Auslöschung: Dieselbe Bruderschaft war ein Ort, an dem man einander die Nöte mitteilte, das heißt, man sprach. Der Punkt ist nicht, das eigene Urteil abzuschaffen, sondern zu verweigern, dass es das oberste Gericht über alles sei. Hier liefern die Quellen uns aber keine Kasuistik: Ich kann dir nicht sagen, wo die Grenze in deinem konkreten Fall verläuft. Das bleibt eine Arbeit von dir und von denen, die dich wirklich kennen.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Das leuchtet ein. Und im Alltag?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Ich bleibe lieber hier stehen.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Du hast recht, es aufzuwerfen, und ich antworte dir nicht mit einem Karriererat: Das ist nicht meine Rolle. Ich sage nur, dass die franziskanischen Quellen nicht versprechen, die Demut „funktioniere“: Sie versprechen, dass sie frei macht. Manchmal kostet sie, und das Gegenteil vorzutäuschen, wäre unehrlich. Die Entscheidung, nicht für die Zustimmung zu leben, bleibt eben eine Entscheidung: deine, an deinem Kontext gemessen.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Ehrlich, danke. Schließen wir.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Lesen wir das Herz der Lehre noch einmal.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Nein, und die Quellen, aufmerksam gelesen, sagen das Gegenteil. Die Logik des Franz ist die der Gabe: Wenn alles empfangen ist, sind es auch deine Fähigkeiten, und sie zu leugnen wäre nur eine andere Weise, über sich zu lügen. Die Demut verlangt nicht zu sagen „ich tauge nichts“, sondern die Wahrheit zu sagen: „Dies habe ich empfangen, dafür bin ich Schuldner.“ Und wer eine Gabe erkennen kann, kann auch danken: Auf dem franziskanischen Weg ist die Dankbarkeit eine Tür der Freude.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "Und wie lebt man das im Konkreten von heute?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Wir können hier schließen.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Hier halten wir an. Wenn du magst, nimm eine Frage mit, keine Aufgabe: An welchem Punkt deines Tages spielst du eine Rolle, statt in der Wahrheit dessen zu bleiben, was du bist, im Guten und in der Grenze? Du musst mir nicht antworten und niemandem. Die anderen Gespräche des Dialogs warten auf dich, wenn du willst: die Vergebung, die Armut, die Schöpfung, der Glaube des Franz.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Geh dieses Gespräch von Anfang an noch einmal.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Entdecke die anderen Gespräche des Dialogs.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Danke, dass du mit mir in diesen Quellen gegangen bist. Aus der Liste des Dialogs kannst du ein anderes Gespräch öffnen oder dieses wiederfinden, wenn du willst: Die Texte bleiben, und die Fragen auch.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Beginne dieses Gespräch neu.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Für jetzt schließen."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Wie kann man jemandem vergeben?",
+      "theme": "perdono",
+      "description": "Der Brief an einen Minister und die Strophe des Sonnengesangs: Vergebung als wiederholte Entscheidung, der Unterschied zur Gerechtigkeit und eine ehrliche Antwort an den, der es nicht schafft.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Willkommen im Dialog. Ich führe dich: Ich bin nicht Franz und spreche nicht an seiner Stelle, ich begleite dich in das hinein, was die Quellen wirklich sagen. Die Frage von heute ist eine der schwierigsten, die es gibt: Wie kann man jemandem vergeben? Ich verspreche dir keine bequeme Antwort. Es hilft mir zu wissen, wo du beginnst.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Mir ist Unrecht geschehen, und ich kann den Zorn nicht loslassen.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Heißt vergeben nicht vielleicht, so zu tun, als wäre nichts?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Ich möchte zuerst wissen, was Franz über die Vergebung sagt.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Danke für die Offenheit. Die franziskanischen Quellen versprechen nicht, dass der Zorn verschwindet, und sie verlangen nicht, so zu tun, als wäre das Unrecht nicht geschehen. Was sie vorschlagen, ist etwas anderes: die Vergebung als eine Entscheidung, die sich erneuert, auch wenn das Gefühl ihr nicht folgt. Wenn du es heute nicht schaffst, disqualifiziert dich das nicht: Es ist die Regel, nicht die Ausnahme.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Eine Entscheidung, die sich erneuert: Erklär mir das.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "Und wenn ich es einfach nicht schaffe?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Was schreibt Franz dazu?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Nein, und es lohnt sich, das sofort klar zu sagen: Vergeben ist nicht leugnen. Die franziskanischen Quellen verwechseln Barmherzigkeit und Ungerechtigkeit nicht: Das getane Böse bleibt böse, und seine Folgen bleiben wirklich. Die Vergebung löscht hier nicht, was geschehen ist: Sie verweigert der Kränkung das letzte Wort über die Beziehung. Das sind zwei verschiedene Ebenen, und sie auseinanderzuhalten ist der erste Schritt.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Können Vergebung und Gerechtigkeit dann zusammenstehen?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Was sagt Franz genau?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Der Schlüsseltext ist der Brief an einen Minister: Franz schreibt einem Verantwortlichen der Bruderschaft, der mit Brüdern umgehen muss, die fehlen. Die berühmte Stelle sagt im Wesentlichen: Wenn ein Bruder tausendmal vor deinen Augen gesündigt hätte, liebe ihn mehr als mich und verkünde ihm Barmherzigkeit. Tausendmal: keine heldenhafte Entscheidung, einmal für immer getroffen, sondern eine Wahl, die jeden Tag neu getroffen wird. Das verändert die Frage: nicht „fühle ich, dass ich vergebe?“, sondern „wähle ich, auch heute zu vergeben?“.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Tausendmal ist zu viel. Ist das eine realistische Forderung?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "Und die Gerechtigkeit? Muss, wer fehlt, nicht dafür einstehen?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Der Sonnengesang spricht von Vergebung, nicht wahr?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Ja, und derselbe Brief lässt es durchblicken: Franz bittet, Barmherzigkeit zu verkünden, sofern der andere bereut, das heißt, die Vergebung erklärt den nicht für unschuldig, der gefehlt hat, und enthebt ihn nicht der Wiedergutmachung. Auch in seiner Zeit schafften die friedenstiftenden Brüder Gerichte und Verantwortung nicht ab: Sie arbeiteten daran, dass die Rache nicht die einzige mögliche Gerechtigkeit sei. Vergeben und verlangen, dass das Böse anerkannt wird, sind keine Feinde. Sie können zusammen gehen, wenn auch mühsam.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "Und wo beginnt man in der Praxis?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Hat die Strophe des Sonnengesangs damit zu tun?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "Und wenn das Unrecht zu groß ist oder zu frisch?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "Und in den gespaltenen Städten seiner Zeit?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Man beginnt mit einer Korrektur der Perspektive. Wäre die Vergebung ein Gefühl, müsstest du warten, bis sie kommt: und oft kommt sie nicht, oder sie kommt und geht wieder. Ist sie eine Entscheidung, kannst du sie auch mit noch brennendem Zorn treffen und sie morgen wieder aufnehmen und übermorgen. Die Quellen beschreiben keinen geraden Weg: Das Wort „tausendmal“ legt eher das Gegenteil nahe. Ehrlichkeit: In den franziskanischen Texten gibt es keine Techniken. Es gibt eine Richtung.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "Und wenn ich es heute einfach nicht schaffe?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "Und mit sich selbst? Kann man sich vergeben?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Erzähl mir die Strophe des Sonnengesangs über die Vergebung.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Eine ehrliche Antwort: Es kann geschehen, und die Quellen verurteilen dich dafür nicht. Ich auch nicht: Ich bin eine Begleitung durch die Texte, kein Beichtvater und kein Therapeut. Ich sage dir zwei belegbare Dinge. Das erste: Der Brief spricht von tausendmal, das heißt, schon im 13. Jahrhundert war die Vergebung nicht als augenblickliche Gebärde gedacht. Das zweite: Wenn eine Wunde tief ist, sie mit jemandem des Vertrauens zu teilen oder mit einem Fachmenschen, wenn es nötig ist, ist keine Niederlage. Über die Zeiten der Vergebung schweigen die franziskanischen Quellen: Hier können wir nicht mehr sagen.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "Und die Vergebung sich selbst gegenüber?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Danke für die Ehrlichkeit. Schließen wir.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Es gibt eine Strophe des Sonnengesangs, die Gott lobt für jene, die um seiner Liebe willen vergeben und Krankheit und Drangsal ertragen. Die Forschung datiert sie gewöhnlich auf den Sommer 1226, und die Überlieferung verbindet sie mit einer konkreten Episode: Der Bischof und der Podestà von Assisi lagen in offenem Streit, und Franz, inzwischen krank, soll jene Strophe hinzugefügt und den Sonnengesang vor ihnen singen lassen haben, um sie zu versöhnen. Ich unterscheide die Ebenen: Die Strophe ist authentisch, die Erzählung der Episode erreicht uns durch die hagiografische Überlieferung. Es bleibt die Tatsache: Die Vergebung war für Franz des Lobes wert, auch innerhalb der Konflikte seiner Stadt.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Vergeben mitten in einem Konflikt: Ist das möglich?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "Und wer es nicht schafft zu vergeben?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Wir können schließen.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Hier muss ich ehrlich sein über die Grenzen der Quellen. Die franziskanischen Texte sprechen von der Vergebung gegenüber den Brüdern und gegenüber dem, der kränkt; über die Vergebung seiner selbst, wie wir sie heute verstehen, sagen sie fast nichts Ausdrückliches. Wir können analog schließen: Wenn man dem, der fehlt, tausendmal Barmherzigkeit verkündet, ist es schwer, sich selbst auszuschließen. Aber das bleibt unser Schluss, keine Zitation. Lieber sage ich dir das, als Franz Worte in den Mund zu legen, die er nicht geschrieben hat.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Ich schätze die Genauigkeit. Und wo setzt man neu an?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Schließen wir hier.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Es gibt auch eine öffentliche Dimension. Das Italien der Kommunen war von Fehden und Rache durchzogen, und die Quellen erinnern, wie die ersten Brüder den Frieden von Haus zu Haus verkündeten, mit einem Gruß, den Franz empfangen zu haben bezeugte. Die Vergebung war in jener Welt nicht nur eine private Sache: Sie war der Punkt, an dem man die Kette der Vergeltung zerbrechen konnte. Auch heute gibt es Fehden, in den Familien, in den Vierteln, in den sozialen Netzwerken, und die Logik ist dieselbe: Jemand muss aufhören, den Schlag zurückzugeben.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "Und die Strophe des Sonnengesangs entstand gerade aus einem Konflikt, nicht wahr?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Das genügt mir. Schließen wir.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Hier halten wir an. Wenn du willst, nimm ein einziges Bild mit, keine Aufgabe: die Vergebung als einen Weg, den man Meter um Meter jeden Tag neu macht, nicht als einen Sprung, den man einmal für immer tut. Und wenn deine Wunde es heute nicht zulässt, hat dieses Gespräch nicht von dir verlangt, es zu schaffen: Es hat von dir verlangt zu verstehen. Die anderen Gespräche des Dialogs warten auf dich, wenn du willst.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Geh dieses Gespräch von Anfang an noch einmal.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Entdecke die anderen Gespräche des Dialogs.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Danke, dass du eine schwierige Frage ohne Abkürzungen angegangen bist. In der Liste des Dialogs findest du die anderen Gespräche: Ich bleibe hier, und die Texte auch.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Beginne dieses Gespräch neu.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Für jetzt schließen."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "War Franz gegen den Reichtum?",
+      "theme": "poverta",
+      "description": "Franz verurteilte die Güter nicht: Er befreite vom Besitz. Die Regel von 1223, der Verzicht vor dem Bischof und was das heute heißt, ohne Romantik.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Willkommen im Dialog. Ich stelle mich vor: Ich bin eine Begleitung, nicht Franz; mit dir lese ich die Quellen und sage dir, wann sie nicht genügen, um zu antworten. Die Frage von heute ist voller Missverständnisse: War Franz gegen den Reichtum? Die kurze Antwort ist „nein, nicht in dem Sinn, den du vielleicht meinst“. Aber sie verdient den langen Weg. Wo beginnen wir?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Ich habe immer gedacht, er verachte das Geld an sich.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Ich vermute, der Punkt ist ein anderer, aber ich kann ihn nicht sagen.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Ist das nicht nur romantische Armut, wie auf einem Poster des 19. Jahrhunderts?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Das ist die verbreitetste Rekonstruktion und auch die ungenaueste. In den Texten des Franz findest du keine Verurteilung der Güter, als wären sie schmutzig: Du findest etwas Radikaleres und Feineres, nämlich die Weigerung, sie sich anzueignen. Die Zielscheibe ist nicht der Reichtum, es ist der Besitz: das, was die Dinge mit dem tun, der glaubt, sie zu besitzen. Gehen wir zu dem Text, der es am besten sagt.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Welcher Text?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "Und die berühmte Szene des Verzichts?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Dein Verdacht ist begründet. Der Punkt ist nicht die Menge der Güter, sondern die Art des Bandes: Franz will Brüder, die sich nichts aneignen, weil wer nicht besitzt, nicht verteidigen muss, und wer nicht verteidigen muss, frei ist zu lieben. Es ist eine Logik der Freiheit, nicht des Ekels. Ich zeige es dir im Text der Regel.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Lesen wir die Regel.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Erzähl mir zuerst die Szene vor dem Bischof.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Der Einwand ist ernst und verdient Respekt: Die romantische Armut gibt es, und sie ist eine Karikatur, die wenig Franziskanisches hat. Schließen wir also einen Pakt: keine Idealisierungen. Sehen wir, was die Quellen sagen — eine Szene, die der erste Biograf erzählt, und ein normativer Text, den Franz selbst geschrieben hat — und dann urteilst du, ob sie standhalten.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Gut: die Szene des ersten Biografen.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Der normative Text.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Regel von 1223, der endgültige, von der Kirche bestätigte Text: Die Brüder eignen sich nichts an, „weder Haus noch Ort noch irgendein Ding“; sie leben als Pilger und Fremde und gehen ohne Scham um Almosen. Der erklärte Grund ist theologisch: Der Herr ist für uns arm geworden. Aber es gibt auch eine klare menschliche Logik: Was du nicht besitzt, besitzt dich nicht. Die fachliche Überlieferung nennt es „sine proprio“, ohne irgendetwas Eigenes. Keine Verachtung der Dinge, die man empfängt, gebraucht und für die man dankt: Befreiung vom Besitz.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Erzähl mir den Verzicht vor dem Bischof.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "Und heute? Sollten wir alles verkaufen?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "Und die wirklich Armen? Riskiert man nicht, das Elend zu verschönern?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Thomas von Celano, der erste Biograf, erzählt sie so: Vor Bischof Guido und dem Vater Pietro di Bernardone gibt Franz sogar die Kleider zurück und verzichtet auf die väterlichen Güter, indem er sagt, er könne nun nur noch Gott Vater nennen. Der Bischof bedeckt ihn mit dem eigenen Mantel. Ich unterscheide die Ebenen: Die Episode ist ein belegter Angelpunkt, aber die szenischen Einzelheiten gehören zur Erzählung Celanos, die Hagiografie ist, erbauliche Literatur, kein Protokoll. Der Sinn ist dennoch klar: das Band zum Reichtum der Familie öffentlich durchschneiden.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Eine theatralische Gebärde oder eine überlegte Wahl?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "Und wir heute, was machen wir damit?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Eine unvermeidliche Frage, und die ehrliche Antwort ist: Die Quellen verlangen nicht von allen dasselbe. Jene Regel war für die Brüder; Franz schrieb keine Regeln für Kaufleute, Eltern, Handwerker. Also nein: Es gibt keinen franziskanischen Text, der dir befiehlt, alles zu verkaufen. Was es gibt, ist eine unbequeme Frage, die man bewohnen kann: Welche Dinge besitze ich, und welche besitzen mich? Die konkrete Antwort ist deinem Leben angemessen, nicht dem seinen.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Wie unterscheiden wir gewählte Armut und erlittene Not?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "Und wer arbeitet, verdient, eine Familie erhält?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Gib mir etwas Konkretes, ohne extreme Gebärden.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Das ist die wichtigste Unterscheidung dieses Gesprächs. Die erlittene Not — nichts zu essen haben, sich nicht pflegen können, kein Dach — ist eine soziale Wunde, die man heilen muss, kein Ideal, das man betrachtet: Franz diente den Armen, er ästhetisierte sie nicht. Franziskanische Armut ist etwas anderes: eine freie Wahl, sich nichts anzueignen, um der Freiheit und der Solidarität willen. Sie zu verwechseln ist der Fehler, den man immer vermeiden muss: Das Elend der anderen zu verklären wäre genau die „romantische Armut“, von der wir sprachen.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Die Kritik an der Romantik hatte also einen wahren Kern?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "Und praktisch, für mich, heute?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Schließen wir hier.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Theatralisch war sie sicher: Und in einer Gesellschaft, die auf Recht und Besitz gründete, konnte nur eine öffentliche Gebärde ein öffentliches Band lösen. Aber es war keine Improvisation: Celano setzt sie nach Monaten der Krise an, der Gefangenschaft in Perugia, der Krankheit, den Enttäuschungen. Wenn du ein Kriterium willst, um Gebärden zu beurteilen, seine und deine, hier ist es: nicht die Intensität des Augenblicks, sondern das, was danach kommt. Franz lebte noch zwanzig Jahre in Folgerichtigkeit. Die wahren Gebärden erkennt man an der langen Dauer.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "Und heute, ohne extreme Gebärden?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Ich habe verstanden. Schließen wir.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkret also, aber ohne Rezepte: Es ist nicht meine Rolle, sie dir zu geben. Die franziskanische Überlieferung legt eine Richtung in drei Schritten nahe: ansehen, was du besitzt, und dich fragen, ob es dich frei oder vorsichtig macht; die Dinge als empfangen gebrauchen, nicht als geschuldet; die Einfachheit Raum freigeben lassen — Zeit, Aufmerksamkeit, Geld — für die anderen. Das ist moderne Deutung, das sage ich dir ehrlich: aber eine Deutung, die dem Geist des „sine proprio“ treu ist.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Zurück zum Text der Regel.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Schließen wir.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Keine franziskanische Quelle sagt, dass Arbeiten und Verdienen von Franz entferne: Die Regel ist die Lebensform einer bestimmten Bruderschaft, nicht das Maß jeder Existenz. Die Logik ist sogar fast umgekehrt: Das Problem ist nicht zu haben, sondern dem zu dienen, was man hat. Wenn deine Arbeit, dein Verdienst, dein Haus Werkzeuge werden — deine und die der anderen — und nicht Herren, bist du dem Geist der Regel näher, als du denkst.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "Und das Risiko, die Armut zu romantisieren?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Schließen wir.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Hier halten wir an. Ich lasse dir keine Aufgabe: Ich lasse dir die Frage, die dieses Gespräch zu öffnen versucht hat. Was von dem, was du besitzt, besitzt dich? Beantworte sie in Ruhe oder antworte gar nicht. Wenn du willst, stehen die anderen Gespräche des Dialogs in der Liste: die Demut, die Vergebung, die Schöpfung, der Glaube.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Geh dieses Gespräch von Anfang an noch einmal.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Entdecke die anderen Gespräche des Dialogs.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Danke, dass du eine ausgeführte Antwort auf eine Frage gesucht hast, die oft Parolen bekommt. Wir sehen uns im Dialog wieder, wenn du willst: Die Quellen verfallen nicht.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Beginne dieses Gespräch neu.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Für jetzt schließen."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Warum sprach Franz mit den Tieren?",
+      "theme": "creato",
+      "description": "Verwandtschaft, kein Pantheismus: der Sonnengesang, die Vögel bei Celano, der Wolf der Fioretti und was all das der Ökologie von heute sagt — und nicht sagt.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Willkommen im Dialog. Ich bin deine Begleitung: Ich bin nicht Franz, und wenn die Quellen nicht genügen, sage ich es dir. Die Frage von heute reicht in Jahrhunderte von Bildern hinab: Franz, der mit den Vögeln spricht, mit dem Wolf, mit den Fischen. Was steckt dahinter? Es hängt davon ab, was du suchst.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Ich will die Wahrheit: Ist es nur Legende, dass er mit den Tieren sprach?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Ich frage mich, ob er Gott in der Natur sah: War er Pantheist?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Erzähl mir den Sonnengesang.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Eine Frage für den Historiker, und die Antwort ist geschichtet, wie fast alles, was Franz betrifft. Der Kern ist früh bezeugt: Thomas von Celano, ein naher Biograf, erzählt die Predigt an die Vögel in nüchternen Tönen. Die szenenreicheren Erzählungen — der Wolf von Gubbio, die Fische, die Regenwürmer — blühen ein Jahrhundert später in den Fioretti. Also: ein altes Gedächtnis und eine literarische Verstärkung. Ich zeige dir beide, getrennt.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Die nüchterne Fassung Celanos.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Die Fassung der Fioretti: der Wolf.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Nein, und der Text, der es zeigt, ist der Sonnengesang. Franz lobt Gott „per“ die Geschöpfe — für sie: Bruder Sonne, Schwester Mond —, er lobt die Geschöpfe nicht, als wären sie göttlich. Der Unterschied ist entscheidend: Die Natur ist nicht Gott, sie ist Familie. Die Geschöpfe sind Geschwister, weil Kinder desselben Vaters. Das richtige Wort ist „Verwandtschaft“, nicht Pantheismus.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Lesen wir den Sonnengesang.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "Und die Geschichten mit den Tieren?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Der Sonnengesang, entstanden 1225–1226, als Franz krank und nahezu blind war: Er gehört zu den ersten poetischen Texten in italienischer Volkssprache. Er lobt Gott für Bruder Sonne, „der der Tag ist“, für Schwester Mond und die Sterne, für Bruder Wind, für Schwester Wasser, „nützlich und demütig und kostbar und keusch“, für Bruder Feuer und für „unsere Schwester, Mutter Erde“. Zwei Dinge sind zu beachten. Das erste: Es ist keine Hymne an die Natur, es ist ein Lob Gottes durch die Natur. Das zweite: Er entsteht im Leiden, nicht auf einem idyllischen Spaziergang.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "Und die Predigt an die Vögel?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "Und der Wolf von Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Was sagt all das der Ökologie von heute?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Die Fassung Celanos ist überraschend nüchtern: Franz sieht Schwärme von Vögeln, wendet sich an sie wie an Geschöpfe, die zuhören können, und mahnt sie, Gott zu loben. Keine ausgeführten Dialoge, keine spektakulären Wunder: eine Gebärde der Anerkennung. Die Fioretti werden ein Jahrhundert später das Kreuzzeichen hinzufügen, die Schwärme, die sich zum Zuhören ordnen, den feierlichen Abschied. Zuerst der Stil des Franz, dann der Stil der Andacht. Beide sagen uns etwas, aber Verschiedenes.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "Und der Wolf von Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Wenn es Literatur ist, welchen Wert hat sie?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "Und die zeitgenössische Ökologie?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Der Wolf von Gubbio ist das Meisterstück der Fioretti: die erschreckte Stadt, Franz, der der Bestie entgegengeht, mit ihr spricht wie mit einem Bruder und einen Pakt vermittelt — die Stadt wird ihn nähren, er wird niemandem mehr schaden. Ich muss über die literarische Gattung klar sein: Es ist Hagiografie des 14. Jahrhunderts, Gedächtnis der Andacht, keine überprüfbare Chronik. Aber sieh, was sie bewahrt: den Frieden, der entsteht, indem man dem entgegengeht, was Angst macht, und ein Tier, das als Gegenüber behandelt wird und nicht als Gegenstand. Die Form ist Legende; die Richtung ist authentisch franziskanisch.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Also ist es im Grunde erfunden?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "Und was gewinnt die Ökologie von heute daraus?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Hier braucht es Ehrlichkeit in beiden Richtungen. Auf der einen Seite: Der Sonnengesang bietet heute eine seltene Grammatik, die Sorge für die Schöpfung aus Dankbarkeit und Verwandtschaft, nicht aus Nutzen oder Angst. Auf der anderen: Franz war kein moderner Umweltaktivist, und seine Quellen kennen Klima, Artensterben, Verschmutzung nicht. Wer bei ihm ein ausführliches ökologisches Programm sucht, zwingt die Texte. Wer einen Blick sucht — die Welt als Familie, nicht als Lager —, findet etwas, das noch fähig ist, Verhalten zu verschieben.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "Und doch wurde er zum Patron der Ökologie erklärt, nicht wahr?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Was bleibt konkret für mich?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Nein: „keine Chronik“ heißt nicht „aus dem Nichts erfunden“. Die Predigt an die Vögel steht bei Celano, wenige Jahre nach dem Tod des Franz; die Fioretti kleiden sie in legendäre Farben, aber der Faden geht von einem Gedächtnis aus. So funktioniert viel Hagiografie: Die Form erzählt die Andacht derer, die sie überliefert haben, die Substanz bewahrt einen wirklichen Zug. Quellen lesen heißt genau das: die beiden Dinge zusammenzuhalten, ohne sie zu verwechseln.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Klar. Und für die Ökologie von heute?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Kehren wir also zum Sonnengesang zurück.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Ja: 1979 erklärte Johannes Paul II. ihn zum Patron der Ökologen. Es ist ein moderner Titel — Deutung, keine mittelalterliche Quelle — und als solcher ist er zu handhaben. Er ist legitim, wenn er die Wurzel des franziskanischen Blicks anzeigt: die Verwandtschaft mit allen Geschöpfen. Er wird irreführend, wenn er Franz zum Ökologen vor der Zeit glättet und tilgt, dass der Sonnengesang vor allem ein Lob Gottes ist, gedichtet von einem kranken Mann, der dankte. Der Titel sagt etwas Wahres, unter der Bedingung, ihn nicht darauf zu verkürzen.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "Und für mich, konkret?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Wir können schließen.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkret heißt hier eine Frage des Blicks, bevor es eine der Handlungen ist. Der Sonnengesang legt nahe, die Welt als Verwandtschaft zu bewohnen: das Wasser als Schwester, die man nicht verschwendet, die Erde als Mutter, deren Kind man ist, die Geschöpfe als Gefährten des Lobes und nicht als Vorräte. Die praktischen Entscheidungen — was du kaufst, was du wegwirfst, wie du reist — kommen danach, und die Quellen schreiben sie nicht vor. Aber ein veränderter Blick macht sie möglich und weniger mühsam.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Lesen wir den Sonnengesang gemeinsam noch einmal.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Schließen wir.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Hier halten wir an. Ich lasse dir ein Bild, keine Aufgabe: ein fast blinder Mann, der ein Lob für die Sonne dichtet, die er nicht mehr sieht, und sie Bruder nennt. Wenn es dir eines Tages geschieht, einen Baum, einen Hund, das Wasser aus dem Hahn als einen Verwandten anzusehen statt als ein Ding, wirst du wissen, woher dieser Blick kommt. Die anderen Gespräche des Dialogs warten in der Liste auf dich.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Geh dieses Gespräch von Anfang an noch einmal.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Entdecke die anderen Gespräche des Dialogs.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Danke, dass du mit mir Chronik, Legende und Lob unterschieden hast: Es ist eine Übung, die weit über Franz hinaus nützt. Wir sehen uns im Dialog wieder, wenn du willst.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Beginne dieses Gespräch neu.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Für jetzt schließen."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Kann man Franz folgen, ohne gläubig zu sein?",
+      "theme": "fede",
+      "description": "Eine nicht ausweichende Antwort auf eine ernste Frage: Der christliche Glaube war die Mitte des Franz, und die App verbirgt ihn nicht. Was für den bleibt, der nicht glaubt.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Willkommen im Dialog. Ich bin eine Begleitung durch die Quellen: Ich bin nicht Franz, ich bin kein Beichtvater, und ich bewerte den Glauben von niemandem, auch nicht den deinen. Die Frage von heute ist berechtigt und ernst: Kann man Franz folgen, ohne gläubig zu sein? Ich verspreche dir eine Antwort, die nicht ausweicht. Sag mir zuerst, von wo aus du sprichst.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Ich bin gläubig und möchte seinen Glauben besser verstehen.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Ich bin nicht gläubig: Was kann ich von ihm empfangen?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Ich weiß nicht, was ich glaube. Ist dieses Gespräch für mich?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Dann gehen wir gerade zur Mitte. Der Glaube des Franz war kein kulturelles Etikett: Er war die Quelle von allem anderen — der Armut, der Brüderlichkeit, des Friedens. Im Testament erzählt er, der Herr habe ihm einen schlichten Glauben an die Kirchen gegeben; und sein ganzer Weg, von San Damiano bis La Verna, wird von den Quellen als Nachfolge des armen und gekreuzigten Christus gelesen. Sehen wir die Texte.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Die Texte, ja.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "Und sein Verhältnis zur Kirche seiner Zeit?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Kurze Antwort: Ja, man kann, mit einer Bedingung der Ehrlichkeit. Du kannst ihn studieren, ihn bewundern, dich von seinem Stil befragen lassen, ohne seinem Glauben beizutreten; diese App ist auch für dich gemacht, und niemand hier bewertet deine Position. Die Bedingung ist, ihn nicht zu amputieren: Ein Franz ohne Christus wird nicht universaler, er wird eine andere Figur. Wenn du akzeptierst, ihm ganz zu begegnen, Wurzel eingeschlossen, gibt es viel zu empfangen.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Zeig mir also diese Wurzel.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Was bleibt konkret für den, der nicht glaubt?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Ja, es ist für dich: vielleicht mehr als für irgendjemanden sonst. Die Fragen über den Glauben verlangen kein Zugehörigkeitszeugnis: Sie verlangen Ehrlichkeit, und die hast du eben gehabt. Ich werde dich in keine Richtung drängen: Ich zeige dir die Texte, unterscheide die Ebenen und halte an, wo die Quellen anhalten. Beginnen wir mit dem, was Franz selbst erzählt.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Gut: Was erzählt er?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "Und wer nicht zum Glauben kommt, was empfängt der?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Zwei Zeugnisse. Das erste ist seins: Im Testament, kurz vor dem Tod diktiert, erinnert Franz, der Herr habe ihm einen schlichten Glauben an die Kirchen gegeben, wo er zu Christus gewandt betete. Das zweite ist von Celano: 1224, auf dem Berg La Verna, soll Franz die Stigmata empfangen haben, die Zeichen der Passion, die er zu verbergen suchte. Beachte die Ebenen: Das Testament ist Wort des Franz; die Stigmata erreichen uns als Zeugnis der nächsten Quellen, und die App stellt sie so dar, nicht als messbares Datum. Zusammen sagen sie eines: Die Mitte seines Lebens war die Person Christi.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Die Stigmata: Wie soll ich sie verstehen?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Warum besteht die App so sehr auf diesem Punkt?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "Und was bleibt für den, der nicht glaubt?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Ließ ein so vollständiger Glaube keinen Raum für Zweifel?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Mit derselben Ehrlichkeit, mit der die Quellen sie darstellen. Celano erzählt sie wenige Jahre nach dem Tod des Franz, und die Überlieferung bewahrt sie als Zeichen einer völligen Gleichgestaltung mit dem gekreuzigten Christus. Die historische und theologische Bewertung wird von den Gelehrten erörtert; hier erlauben uns die Quellen nicht, mehr zu sagen, und wer dir mehr sagte, in der einen oder der anderen Richtung, ginge über die Texte hinaus. Was wir sagen können: Für seine Bruderschaft bestätigte jenes Zeichen, was sein Leben schon sagte.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "Und das Verhältnis zur Kirche?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Ich verstehe. Und für den, der außerhalb des Glaubens bleibt?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Aus zwei Gründen, beide ausgesprochen. Der erste ist historisch: Franz die christliche Wurzel zu nehmen macht ihn nicht universaler, es macht ihn unkenntlich — die Armut ist „weil der Herr arm geworden ist“, der Frieden ist ein empfangener Gruß, die Brüderlichkeit ist gemeinsam gelebtes Evangelium. Der zweite ist redaktionell: Diese App erklärt, sie wirbt nicht. Den Glauben des Franz zu erklären heißt nicht, dich zu bitten, ihn zu deinem zu machen; es heißt, dir keine beschönigte Fassung der Tatsachen zu geben.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "Und was kann empfangen, wer nicht beitritt?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "Und wie lebte Franz die institutionelle Kirche?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Das genügt mir. Schließen wir.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Viel, sofern man es ganz nimmt. Der Stil — die Unentgeltlichkeit, die Minderheit, der Frieden, der gebaut wird, indem man entgegengeht, der Blick der Verwandtschaft auf die Schöpfung — spricht auch zu dem, der die Wurzel nicht teilt. Aber diese Dinge sind in den Texten Früchte jenes Baumes: Sie ohne die Wurzel zu kennen, ist möglich, sie ohne die Wurzel bis zum Grund zu verstehen, nicht. Du kannst dich befragen lassen, ohne beizutreten: Das ist eine ernsthafte Haltung, und die Geschichte der Ideen ist voll von Menschen, die von Traditionen gelernt haben, die nicht die ihren waren. Niemand hier notiert deine geistliche Punktzahl.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Dann lesen wir die Texte noch einmal, die jene Wurzel erzählen.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Schließen wir.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Die Quellen erzählen keine Lehrzweifel im modernen Sinn: Hier können wir nicht sagen, was die Texte nicht sagen. Aber sie erzählen härteste Prüfungen: die Krankheit, das fast verlorene Augenlicht, den Schmerz, die Bruderschaft wachsen und sich über seine Absichten hinaus verändern zu sehen. Und gerade aus jener Zeit entsteht nach Bonaventura der Sonnengesang. Der Glaube des Franz war nicht die Abwesenheit der Nacht: Er war Lob in der Nacht. Was etwas ganz anderes ist als Naivität.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "Und die Stigmata gehören in diese Zeit?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Wir können schließen.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Weder Rebell noch angepasst: etwas Interessanteres. Franz lebte innerhalb der mittelalterlichen Kirche, suchte beharrlich ihre Anerkennung für seine Lebensform und nahm ihre Grenzen an, auch wenn er sie von unten zur Erneuerung drängte, mit dem Beispiel und nicht mit dem Aufstand. Sein Gehorsam gegenüber der Kirche war Teil seines Glaubens, keine Rechnung. Das zu verstehen vermeidet zwei spiegelbildliche Karikaturen: den ungehorsamen Heiligen, der den Modernen lieb ist, und den fügsamen Heiligen, der den Frommen lieb ist.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Zurück zu den Texten seines Glaubens.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Schließen wir.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Hier halten wir an. Ich lasse dir keine Aufgabe und schon gar keine Prüfung: Ich lasse dir ein Kriterium. Wenn du Franz begegnest, in dieser App oder anderswo, frag dich immer, ob die Fassung, die du vor dir hast, ihn ganz zeigt, christliche Wurzel eingeschlossen. Dann bleibt deine Position deine: Niemand urteilt hier über sie. Die anderen Gespräche des Dialogs warten in der Liste auf dich.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Geh dieses Gespräch von Anfang an noch einmal.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Entdecke die anderen Gespräche des Dialogs.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Danke für den Ernst der Frage und dafür, dass du eine Antwort ohne Abkürzungen angenommen hast. Wir sehen uns im Dialog wieder, wenn du willst: Die wahren Fragen verfallen nicht.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Beginne dieses Gespräch neu.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Für jetzt schließen."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

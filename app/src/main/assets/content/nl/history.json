@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Geboorte in Assisi",
+      "description": "Giovanni di Pietro di Bernardone, Franciscus genoemd, wordt in Assisi geboren als zoon van een rijke lakenkoopman en van madonna Pica.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 of 1182 (onzeker)",
+      "chronologicalUncertainty": "De bronnen zijn het niet eens over het jaar: zowel 1181 als 1182 wordt door historici voorgesteld.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Oorlog en gevangenschap",
+      "description": "In de oorlog tussen Assisi en Perugia vecht Franciscus in de slag bij Collestrada (november 1202), wordt gevangengenomen en blijft ongeveer een jaar in Perugia. Na zijn terugkeer begint een ziekte hem te veranderen.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202-1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "De droom van Spoleto en de terugkeer",
+      "description": "Op weg naar Apulië, op zoek naar militaire roem, heeft Franciscus in Spoleto een droom die hem naar Assisi terugstuurt. De losmaking van zijn vroegere leven begint: dromen, gebed, een pelgrimstocht naar Rome.",
+      "yearFrom": 1205,
+      "dateLabel": "omstreeks 1204-1205",
+      "chronologicalUncertainty": "De reconstructie van deze maanden is ontleend aan de middeleeuwse biografieën; de exacte data zijn conventioneel.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "De ontmoeting met de melaatsen",
+      "description": "In het Testament vertelt Franciscus dat de Heer hem onder de melaatsen bracht en dat hij \"hun barmhartigheid bewees\": de episode die hij zelf aanwijst als het begin van zijn bekering.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "omstreeks 1205-1206",
+      "chronologicalUncertainty": "Het Testament geeft geen datum; de plaatsing gaat vooraf aan de openbare breuk met zijn familie.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Het kruisbeeld van San Damiano",
+      "description": "In het vervallen kerkje van San Damiano hoort Franciscus, volgens de overlevering, het kruisbeeld hem toespreken: \"Herstel mijn huis.\" Eerst begrijpt hij het letterlijk en restaureert hij kerken met eigen handen.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "omstreeks 1205-1206",
+      "chronologicalUncertainty": "De episode is vooral bevestigd door de Tweede levensbeschrijving en de latere traditie; de letterlijkheid van de dialoog hoort bij de devotionele vertelling.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "De verzaking voor de bisschop",
+      "description": "Door zijn vader voor bisschop Guido gedaagd wegens verkochte goederen, geeft Franciscus alles terug, ook zijn kleren, en vertrouwt zich toe aan de \"Vader die in de hemel is\". De bisschop bedekt hem met zijn eigen mantel.",
+      "yearFrom": 1206,
+      "dateLabel": "begin 1206",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "De eerste gezellen",
+      "description": "Bernardus van Quintavalle, Egidius en anderen sluiten zich bij Franciscus aan en delen zijn levensvorm: er ontstaat een rondtrekkende broederschap, tussen werk, aalmoes en de verkondiging van de vrede.",
+      "yearFrom": 1208,
+      "dateLabel": "1208-1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "De goedkeuring van Innocentius III",
+      "description": "Franciscus en zijn gezellen gaan naar Rome; Innocentius III keurt hun evangelische levensvorm mondeling goed. Er is geen document van die goedkeuring bewaard: de traditie dateert haar op 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (of 1209)",
+      "chronologicalUncertainty": "De goedkeuring was mondeling en er is geen document bewaard; het exacte jaar (1209 of 1210) is omstreden.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "De Portiuncula, huis van de broederschap",
+      "description": "Het kleine kerkje van Santa Maria degli Angeli, Portiuncula genoemd, wordt de vaste verblijfplaats van de broederschap: geestelijk en affectief middelpunt van de beweging.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211-1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "De vlucht van Clara",
+      "description": "Clara Offreduccio verlaat het huis van haar vader en bereikt Franciscus in de Portiuncula, in de nacht tussen Palmzondag en maandag 1212: haar levensvorm begint, waaruit de clarissen zullen ontstaan.",
+      "yearFrom": 1212,
+      "dateLabel": "18-19 maart 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "De ontmoeting met de sultan",
+      "description": "Tijdens de vijfde kruistocht trekt Franciscus door de linies en ontmoet sultan al-Malik al-Kamil in Damietta: een episode van dialoog in oorlogstijd, gedocumenteerd door franciscaanse bronnen en vermeld door buitenlandse kroniekschrijvers.",
+      "yearFrom": 1219,
+      "dateLabel": "september 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "De onbevestigde Regel",
+      "description": "In Fonte Colombo, bij Rieti, wordt de eerste volledige regel van de broederschap opgesteld (Regula non bullata), lang en geestelijk, nooit formeel goedgekeurd.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "De bevestigde Regel",
+      "description": "Honorius III keurt met de bul \"Solet annuere\" de definitieve regel goed (29 november 1223): korter en juridischer, nog altijd de grondslag van de Orde van de Minderbroeders.",
+      "yearFrom": 1223,
+      "dateLabel": "29 november 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "De kerst van Greccio",
+      "description": "Met Kerstmis 1223 laat Franciscus in Greccio een echte kribbe maken, met hooi, een os en een ezel, om \"met de ogen van het lichaam\" de armoede van Bethlehem te zien: de oorsprong van de kerststaltraditie.",
+      "yearFrom": 1223,
+      "dateLabel": "Kerstmis 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "In september 1224, tijdens een afzondering op de berg La Verna, ontvangt Franciscus — volgens de dichtstbijzijnde middeleeuwse bronnen — de stigmata van het lijden van Christus, die hij verborgen probeert te houden.",
+      "yearFrom": 1224,
+      "dateLabel": "september 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Het Zonnelied",
+      "description": "Ziek en bijna blind componeert Franciscus in etappes de lofzang in het Umbrische volgare die bekendstaat als het Zonnelied: lof aan God door broeder zon, zuster water, moeder aarde en ten slotte zuster lichamelijke dood.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225-1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "De wolf van Gubbio",
+      "description": "De Fioretti vertellen dat Franciscus de vrede bemiddelde tussen de stad Gubbio en een woeste wolf: de stad zou hem voeden, de wolf zou geen kwaad meer doen. Een hagiografisch verhaal, geen kroniek.",
+      "yearFrom": 1220,
+      "dateLabel": "onzekere datum",
+      "chronologicalUncertainty": "Episode uit de hagiografische traditie van de veertiende eeuw (Fioretti, hfdst. 21), zonder documentair bewijs: wij bieden haar aan als verhaal van de herinnering, niet als historisch feit.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "De dood in de Portiuncula",
+      "description": "Franciscus sterft op de avond van 3 oktober 1226 in de Portiuncula, nadat hij het Testament heeft gedicteerd en heeft gevraagd naakt op de naakte aarde te worden neergelegd.",
+      "yearFrom": 1226,
+      "dateLabel": "3 oktober 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "De heiligverklaring",
+      "description": "Gregorius IX verklaart Franciscus op 16 juli 1228 in Assisi heilig, minder dan twee jaar na zijn dood, en geeft Thomas van Celano opdracht tot de eerste officiële biografie.",
+      "yearFrom": 1228,
+      "dateLabel": "16 juli 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Franciscus van Assisi",
+      "role": "Stichter van de broederschap van de Minderbroeders",
+      "description": "Giovanni di Pietro di Bernardone (1181/82-1226). Koopman, daarna rondtrekkende boeteling, daarna stichter van een broederschap die de geschiedenis van de Kerk veranderde. Heilig verklaard in 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Clara van Assisi",
+      "role": "Stichteres van de clarissen",
+      "description": "Adellijke vrouw uit Assisi (1193/94-1253), volgt Franciscus in 1212 en sticht de gemeenschap van de \"arme dames\" in San Damiano. De eerste vrouw die een goedgekeurde religieuze regel schreef.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernardus van Quintavalle",
+      "role": "Eerste gezel",
+      "description": "Rijke man uit Assisi, deelt zijn goederen uit en wordt de eerste gezel van Franciscus (1208). Hij stierf in 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Broeder Egidius",
+      "role": "Onder de eerste gezellen",
+      "description": "Ontwikkelde boer en mysticus, derde gezel van Franciscus; de traditie schrijft hem de wijze \"Spreuken\" toe.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Broeder Leo",
+      "role": "Biechtvader en trouwe gezel",
+      "description": "Gezel van de laatste jaren, geadresseerde van de eigenhandige brief van Franciscus en getuige van La Verna.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II, bisschop van Assisi",
+      "role": "Beschermer van Franciscus",
+      "description": "Bisschop van Assisi vanaf 1204; hij bedekte Franciscus met zijn mantel in de scène van de verzaking en steunde zijn eerste stappen.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Vader van Franciscus",
+      "description": "Lakenkoopman uit Assisi; het conflict met zijn zoon over de verkochte goederen mondde uit in de openbare scène voor de bisschop.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pica",
+      "role": "Moeder van Franciscus",
+      "description": "De traditie herinnert haar als dichter bij haar zoon tijdens de crisis van de bekering; de bronnen over haar zijn schaars.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Paus Innocentius III",
+      "role": "Paus (1198-1216)",
+      "description": "Een van de invloedrijkste pausen van de Middeleeuwen; hij keurde volgens de traditie in 1210 de levensvorm van Franciscus mondeling goed.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Paus Honorius III",
+      "role": "Paus (1216-1227)",
+      "description": "Hij keurde de bevestigde Regel in 1223 goed en steunde de jonge broederschap.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Sultan van Egypte",
+      "description": "Ayyubidische sultan die Franciscus in 1219 in Damietta ontmoette, tijdens de vijfde kruistocht.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Thomas van Celano",
+      "role": "Eerste biograaf",
+      "description": "Minderbroeder, schreef de Vita prima (1228-29) in opdracht van Gregorius IX en de Vita secunda (1246-47), waarin hij de getuigenissen van de gezellen verzamelde.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventura van Bagnoregio",
+      "role": "Theoloog en biograaf",
+      "description": "Universitair meester en generaal-minister van de Orde; zijn Legenda maior (1260-63) werd de officiële biografie van Franciscus.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardinaal Ugolino (later Gregorius IX)",
+      "role": "Beschermer van de Orde",
+      "description": "Kardinaal-beschermer van de broederschap, later paus: hij verklaarde Franciscus in 1228 heilig.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Broeder Elia van Cortona",
+      "role": "Omstreden opvolger",
+      "description": "Gezel en daarna leider van de Orde na Franciscus; een omstreden figuur, teken van de spanningen tussen charisma en instituut.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Geboortestad van Franciscus: het plein, de kathedraal van San Rufino, de muren, de middeleeuwse stegen.",
+      "historicalNote": "Werkelijke historische plaats.",
+      "isHistoricalPlace": true,
+      "region": "Umbrië"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "Kerkje buiten Assisi waar Franciscus bad voor het kruisbeeld; later de woning van Clara en haar zusters.",
+      "historicalNote": "Werkelijke historische plaats.",
+      "isHistoricalPlace": true,
+      "region": "Umbrië"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Portiuncula (Santa Maria degli Angeli)",
+      "description": "Klein kerkje in de vlakte onder Assisi: woning van de eerste broederschap en plaats van de dood van Franciscus.",
+      "historicalNote": "Werkelijke historische plaats; vandaag opgenomen in de basiliek van Santa Maria degli Angeli.",
+      "isHistoricalPlace": true,
+      "region": "Umbrië"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Hut bij de beek waar de eerste gezellen de rondtrekkende levensvorm leefden.",
+      "historicalNote": "Werkelijke historische plaats; het huidige heiligdom bewaart de herinnering aan die vestiging.",
+      "isHistoricalPlace": true,
+      "region": "Umbrië"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Kluizenarij van de Carceri",
+      "description": "Kluizenarij op de berg Subasio, tussen steeneiken en grotten: een plaats van afzondering en gebed.",
+      "historicalNote": "Werkelijke historische plaats.",
+      "isHistoricalPlace": true,
+      "region": "Umbrië"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Umbrische stad, verbonden met het verhaal van de wolf en met de aanwezigheid van Franciscus in de tijd van zijn kluizenaarsleven.",
+      "historicalNote": "Werkelijke historische plaats; de episode van de wolf behoort tot de hagiografische traditie.",
+      "isHistoricalPlace": true,
+      "region": "Umbrië"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Dorp in de streek van Rieti, waar Franciscus Kerstmis 1223 vierde met een levende kribbe.",
+      "historicalNote": "Werkelijke historische plaats.",
+      "isHistoricalPlace": true,
+      "region": "Latium"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Berg in de Toscaanse Apennijnen, aan Franciscus geschonken; plaats van de afzondering van 1224 en, volgens de middeleeuwse bronnen, van de stigmata.",
+      "historicalNote": "Werkelijke historische plaats.",
+      "isHistoricalPlace": true,
+      "region": "Toscane"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Kluizenarij bij Rieti, waar de onbevestigde Regel van 1221 werd opgesteld.",
+      "historicalNote": "Werkelijke historische plaats.",
+      "isHistoricalPlace": true,
+      "region": "Latium"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "Stad in de Nijldelta, toneel van de vijfde kruistocht en van de ontmoeting tussen Franciscus en de sultan (1219).",
+      "historicalNote": "Werkelijke historische plaats.",
+      "isHistoricalPlace": true,
+      "region": "Egypte"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Eikendorp",
+      "description": "Verzonnen dorp in de vallei van Spoleto: de voornaamste verhalende setting van de reiziger.",
+      "historicalNote": "Verzonnen setting, gemaakt voor het spel; geen historische plaats.",
+      "isHistoricalPlace": false,
+      "region": "Umbrië (verzonnen)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbrische velden en bossen",
+      "description": "De wegen, de steeneikenbossen en de akkers tussen de dorpen: het rondtrekkende toneel van de verhalen van de reiziger.",
+      "historicalNote": "Verhalende setting, geïnspireerd op het werkelijke Umbrische landschap.",
+      "isHistoricalPlace": false,
+      "region": "Umbrië (setting)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiografie",
+      "definition": "Literatuur van de levens van heiligen: een middeleeuws devotioneel genre dat stichting beoogt, geen kroniek. Men leest haar met andere instrumenten dan de documentaire geschiedenis."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Boetedoening",
+      "definition": "In de taal van Franciscus: bekering van hart en leven, geen straf. \"Boete doen\" betekende van richting veranderen."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Minderbroeder",
+      "definition": "Naam die Franciscus voor zijn gezellen koos: \"mindere\", dat wil zeggen de laatsten, zonder aanspraak op rang."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Minister",
+      "definition": "In de franciscaanse broederschap: de verantwoordelijke van een gemeenschap of provincie. Het woord betekent \"dienaar\"."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Regel",
+      "definition": "De tekst die de levensvorm van een religieuze gemeenschap vastlegt. Franciscus schreef er twee versies van: de onbevestigde (1221) en de bevestigde (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bul",
+      "definition": "Officieel document van de paus, naar het loden zegel (bulla) dat het waarmerkt. \"Bevestigde regel\" = regel goedgekeurd met een bul."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Portiuncula",
+      "definition": "\"Klein stukje\" grond: het kerkje van Santa Maria degli Angeli bij Assisi, huis van de broederschap."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stigmata",
+      "definition": "Tekenen van het lijden van Christus die de middeleeuwse bronnen aan Franciscus toeschrijven na de afzondering op La Verna (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Latijnse uitdrukking uit de traditie: \"zonder iets van zichzelf\", de franciscaanse vorm van armoede."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lauda",
+      "definition": "Religieus dichtwerk in de volkstaal, bestemd om gezongen te worden. Het Zonnelied is een lauda."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Commune",
+      "definition": "Het orgaan van stedelijk zelfbestuur in het middeleeuwse Italië: het Assisi van Franciscus was een groeiende commune, in conflict met Perugia en met de feodale macht."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Kapittel",
+      "definition": "Periodieke vergadering van een religieuze broederschap; ook \"generaal kapittel\" voor die van de hele Orde."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Leprozerie",
+      "definition": "Middeleeuws hospitaal-lazaret voor melaatsen, buiten de stadsmuren. Plaats van de beslissende ontmoeting van Franciscus."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Aalmoes",
+      "definition": "Gave die men vraagt of ontvangt om te leven. Voor de eerste broeders was zij een teken van vertrouwen op de Voorzienigheid, geen vernedering."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "De zoon van de koopman (1181/82 - 1202)",
+      "text": "Franciscus wordt in Assisi geboren als zoon van Pietro di Bernardone, een rijke lakenkoopman, en van madonna Pica. Hij groeit op in de stad in volle opkomst van de commune: een schitterende, gulle jongeman, liefhebber van feesten en van Franse troubadours, die droomt van ridderlijke roem. In 1202 vecht hij tegen Perugia bij Collestrada; de nederlaag en een jaar gevangenschap betekenen het spectaculaire einde van zijn eerste leven.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "De wending (1202 - 1206)",
+      "text": "De ziekte na de gevangenschap, de droom van Spoleto, de pelgrimstocht naar Rome waar hij zijn kleren ruilt met een bedelaar: Franciscus zoekt een nieuwe richting. Dan de episode die hij zelf als het begin zal aanwijzen: de ontmoeting met de melaatsen, waar \"wat mij bitter leek, veranderde in zoetheid\". In San Damiano, voor het kruisbeeld, hoort hij de uitnodiging het \"huis\" van God te herstellen. Hij verkoopt lakens en het paard van zijn vader om het kerkje te restaureren; het conflict barst los voor de bisschop, waar hij alles teruggeeft.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "\"Herstel mijn huis\" (1206 - 1209)",
+      "text": "Alleen, gekleed als boeteling, restaureert Franciscus steen voor steen San Damiano, San Pietro en de Portiuncula, terwijl hij in de leprozerieën dient. De stad bespot hem eerst, en begint hem dan te bekijken. In het luisteren naar het Evangelie begrijpt hij de roeping: de vrede verkondigen, leven zonder iets van zichzelf, onderweg. Het plan blijkt groter dan de restauratie van drie kerken: de Kerk zelf herstellen, van onderaf.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "De broederschap (1209 - 1219)",
+      "text": "Bernardus van Quintavalle, Egidius en de anderen: de eerste gezellen delen de levensvorm, en in 1210 (of 1209) keurt Innocentius III haar mondeling goed. De Portiuncula wordt huis. In 1212 vlucht Clara van Assisi 's nachts om dezelfde roeping te volgen. De broederschap groeit boven elke verwachting, met jaarlijkse kapittels en missies door heel Europa: de problemen van de grote aantallen ontstaan.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Naar het Oosten (1219 - 1220)",
+      "text": "Midden in de vijfde kruistocht bereikt Franciscus het kruisvaarderskamp in Damietta, trekt door de linies en ontmoet sultan al-Malik al-Kamil. De middeleeuwse bronnen beschrijven hun wederzijds respect; de moderne geschiedschrijving bespreekt de details, maar het gebaar blijft: in oorlogstijd iemand tegemoetgaan. Bij zijn terugkeer vindt hij de broederschap veranderd en in moeilijkheden: de omvang vraagt om structuren die hij vreest.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "De moeite van het groeien (1220 - 1223)",
+      "text": "Franciscus laat de dagelijkse leiding van de Orde los en wijdt zich aan de geschreven regel: die van 1221, lang en vrij, zal niet worden goedgekeurd; die van 1223, korter en juridischer, ontvangt de bul van Honorius III. De spanning tussen charisma en instituut loopt door deze jaren: Franciscus leeft haar in trouw en in lijden. In Greccio, met Kerstmis 1223, laat hij de armoede van Bethlehem zien met een echte kribbe.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Het Zonnelied en de avond (1224 - 1226)",
+      "text": "Op La Verna, in september 1224, vertellen de bronnen van de stigmata. Ziek en bijna blind componeert hij in San Damiano het Zonnelied: de lof ontstaat in het donkerste seizoen. Hij voegt de strofe van de vergeving toe om bisschop en podestà te verzoenen, en ten slotte die van \"zuster lichamelijke dood\". Nadat hij het Testament heeft gedicteerd, sterft hij in de Portiuncula op de avond van 3 oktober 1226, naakt op de naakte aarde. Twee jaar later verklaart Gregorius IX hem heilig.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

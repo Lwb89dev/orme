@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Pozdrav miru",
+      "text": "V Oporoki Frančišek priča, da mu je Gospod razodel pozdrav miru, ki naj ga nese drugim, srednjeveški viri pa se spominjajo prvih bratov, ki so mir oznanjali od hiše do hiše. Za Frančiška mir ni odsotnost spora: je dar, ki ga je treba izročiti, od vrat do vrat, od osebe do osebe. Pripoved o volku iz Gubbia to logiko pelje do skrajnosti: mir se sklene celo s tem, kar straši, tako da greš naproti. Iz istega izročila se rodi ljudska formula »mir in dobro«.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Uboštvo kot svoboda",
+      "text": "Pravilo iz leta 1223 od bratov zahteva, naj si ničesar ne prilaščajo — ne hiše, ne kraja, ne katere koli stvari — in naj v svetu živijo kot romarji in tujci. Frančiškansko uboštvo ne poveličuje revščine, ki ostaja družbena rana: je izbira, da te lastnina ne opredeljuje. Kdor nima ničesar, kar bi branil, nima ničesar, česar bi se bal, in lahko vse sprejme kot dar. Temelj je teološki, preden je ekonomski: Gospod sam se je storil ubog.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Manjši bratje",
+      "text": "Frančišek je hotel, da se njegovi imenujejo manjši bratje: nihče ni velik, odgovorni pa se imenujejo »ministri«, se pravi služabniki. Pravilo iz leta 1221 prosi, naj vsak drugemu izpove svojo potrebo, naj nihče ne sodi brata, naj zdrav ne zaničuje šibkosti bolnega. Bratstvo ni ideal, ki bi ga razglašali: je vsakdanja praksa vzajemne odgovornosti. Bratje smo v konkretnih gestah ali pa sploh nismo.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Brat sonce, sestra voda",
+      "text": "V Spevu stvarstva Frančišek hvali Boga »po« stvareh in »z« njimi: brata sonca, sestro luno, brata veter, sestro vodo, »koristno in ponižno in dragoceno in čisto«, sestro naše matere zemlje. Narava ni pobožanstvena niti skrčena v skladišče virov: je družina, ker imajo vse stvari istega Očeta. Skrb za stvarstvo se rojeva iz sorodstva in hvaležnosti, ne iz računa. In Spev je bil sestavljen v bolezni: hvalnica ni odvisna od okoliščin.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Popolno veselje",
+      "text": "V Cvetkah Frančišek bratu Leonu razloži, da pravo veselje niso čudeži, ne uspehi, ne spreobrnjenja nevernih: je vrniti se k vratom zavrnjen, premražen in zlorabljen ter ostati potrpežljiv in vesel. To je hagiografska pripoved, ne kronika, a zgošča pristno potezo frančiškanskega duha. Popolno veselje ni odvisno od dogodkov: je notranja izbira, ki je nobena zavrnitev ne more vzeti.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Sedemdesetkrat sedem, in še čez",
+      "text": "V Pismu nekemu ministru Frančišek piše, da je treba brata, tudi če bi tisočkrat grešil, vseeno ljubiti in mu oznanjati usmiljenje, samo da se pokesa. Frančiškansko odpuščanje ne zanika zla: odreka zlu, da bi imelo zadnjo besedo o odnosu. V Spevu je bila kitica o tistih, ki odpuščajo iz ljubezni do Boga — po izročilu — dodana, da bi spravila škofa in podestata iz Assisija, ki sta bila v sporu. Odpuščanje je hkrati skrb za osebo in zdravilo mesta.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Božič v Grecciu",
+      "text": "Na božič 1223 je hotel Frančišek v Grecciu obhajati Jezusovo rojstvo s pravimi jaslimi, senom, volom in osličkom: da bi telesne oči videle uboštvo Betlehema. Tomaž Celanski to predstavi kot živi spomin skrivnosti, ne kot predstavo. Iz tiste noči se rodi izročilo jaslic. Gesta je tipično frančiškanska: vero se dotakne, vidi, v njej se biva.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Srečanje s sultanom",
+      "text": "Leta 1219, med peto križarsko vojno, je Frančišek v Damieti prečkal črte križarske vojske, da bi srečal sultana al-Malika al-Kamila. Srednjeveški viri se spominjajo spoštljivega pogovora med njima, čeprav v nezvedljivi različnosti vere. V času vojne je Frančišek izbral pot neoboroženega srečanja namesto poti pridiganja proti. Dogodek ostaja merilo za vsak pogovor, ki prečka meje lastnega sveta.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Volk iz Gubbia",
+      "text": "Cvetke pripovedujejo, da je v Gubbiu volk teroriziral mesto, Frančišek pa je šel naproti prestrašeni množici, proti zveri, in ji govoril kot bratu. Iz tega se je rodila zaveza miru: mesto bo volka hranilo, volk pa ne bo več nikomur škodoval. To je pripoved hagiografskega izročila iz 14. stoletja, dragocena bolj za domišljijo kot za kroniko. Njen nauk je jasen: mir se gradi tako, da greš naproti temu, kar straši, in v zavezo vključiš vso skupnost.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Odpoved pred škofom",
+      "text": "Na začetku leta 1206 je Frančišek pred škofom Guidom in svojim očetom Petrom Bernardonejem vrnil oblačila in se odpovedal očetovemu imetju. Tomaž Celanski pripoveduje, da ga je škof pokril s svojim plaščem: Cerkev je sprejela tistega, ki ga trgovska družina ni več razumela. To ni bil beg pred stvarmi, temveč javna osvoboditev od misli, da bi jih imel v lasti. Od tistega dne je Frančišek lahko odvisen samo od Očeta, ki je v nebesih — in od radodarnosti drugih.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Klara Asiška",
+      "text": "Mlada plemkinja iz Assisija, Klara, je v noči cvetne nedelje leta 1212 zapustila očetovo hišo, da bi sledila Frančiškovi evangeljski obliki življenja; v Porciunkuli ji je ostrigel lase. Ustanovila je skupnost ubogih sester iz San Damiana in vse življenje branila »pravico uboštva« proti cerkvenim pritiskom. Bila je prva ženska, ki je napisala redovno pravilo za ženske, potrjeno dva dni pred njeno smrtjo leta 1253. Njena milina je bila iz iste snovi kot njena trdoživost.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernard iz Quintavalle",
+      "text": "Bogat in spoštovan meščan Assisija, Bernard, je bil Frančiškov prvi tovariš: hotel je na lastne oči videti, kako živi tisti mladenič, ki so se mu vsi posmehovali, in zadoščala mu je ena noč molitve. Prodal je svoje imetje, ga razdelil ubogim in izbral potujoče življenje. Viri se ga spominjajo kot prvega sadu bratstva in ob koncu življenja kot ljubljenega pričevalca duha začetkov. On je začel verigo: brez prvega brata ni bratstva.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Brat Leon",
+      "text": "Tovariš in spovednik Frančiška v zadnjih letih, brat Leon, je bil priča času na Alverni in varuh edinega svetnikovega avtografa: pisma in blagoslova, ki ju je hranil vse življenje. V pismu Frančišek na njegovo tesnobo, da bi prav izbral, odgovori z besedami svobode: sledi svoji vesti pred Bogom. V Cvetkah je sogovornik dialoga o popolnem veselju. Leon predstavlja krhkega in iskrenega učenca, bližjega Frančiškovi duši, kot nakazuje njegov sloves preprostosti.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sultan al-Malik al-Kamil",
+      "text": "Egiptovski sultan ajubidske dinastije, Saladinov vnuk, al-Malik al-Kamil, je Frančiška sprejel v Damieti leta 1219, sredi pete križarske vojne. Srednjeveški viri, krščanski in ne samo ti, ga opisujejo kot vladarja, sposobnega poslušanja in pogovora z latinskim svetom, s katerim je dolgo pogajal o Jeruzalemu. Srečanje s Frančiškom ni spreobrnilo nobenega od njiju: pokazalo je, da se lahko kot vernika pogovarjata brez orožja v roki. Ostaja ključna oseba za razumevanje, da frančiškansko sprejemanje prestopa meje vere.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Srednjeveška komuna",
+      "text": "Frančiškov Assisi je komuna v vzponu: konzuli in podestati, stolpi in fajde, trgovci, ki se bogatijo, in cehi, ki organizirajo delo. To je svet, utemeljen na časti, stanu in kreditu, kjer je bogastvo vidno in je uboštvo sramota. Družina Petra Bernardoneja sodi v to nastajajoče meščanstvo. Prav proti tem vrednotam — ne proti bogastvu samemu, temveč proti oblasti, ki jo izvaja nad srcem — se oblikuje frančiškanska izbira.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Gobavsko naselje",
+      "text": "V 13. stoletju so gobavci živeli zunaj obzidja, v lazaretih, kakršni so bili pri Assisiju, izključeni iz mestnega življenja in zaznamovani z domnevnim znamenjem greha. Frančišek v Oporoki prizna, da se mu je zdelo gledati jih preveč grenko; in da je prav med njimi, kamor ga je pripeljal Gospod, storil usmiljenje in našel sladkost. Celano opisuje konkretno služenje: umivanje ran, objem, oskrbo. Gobavsko naselje je kraj, kjer se rodi frančiškanska ljubezen: ne občutek, temveč srečanje teles.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Miloščina",
+      "text": "Srednjeveška pobožnost je poznala miloščino kot zaslužno prakso: dajalo se je za lastno dušo, pogosto na razdalji. Pravilo iz leta 1223 pa od bratov zahteva, naj hodijo po miloščino, ne da bi se je sramovali, in naj se spominjajo, da se je Gospod storil ubog: prositi postane del življenja, ne ponižanje, ki se mu je treba izogniti. In dajanje se spremeni v odnos: ubogemu se ne pusti nekaj, z ubogim se biva. Kdor daje in kdor prejema, si pred Bogom izmenjata vlogo beračev.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Erem",
+      "text": "Frančiškansko življenje ni samo cesta in pridiganje: Frančišek je iskal samotne umike — Carceri nad Assisijem, Alverno v Apeninu — s seboj je jemal malo tovarišev in dolge tišine. Na Alverno septembra 1224 viri umeščajo stigme in nastanek Hvalnic Boga: Frančiškova najčistejša molitev je hvala brez prošenj. Erem ni beg pred svetom: je kraj, kjer se vračaš k bistvenemu, da potem spet stopiš med ljudi. Poslanstvo in umik se držita kot dve nogi hoje.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Kaj te poseduje?",
+      "text": "V mislih naredi inventuro stvari, ki so ti najdražje. Potem se vprašaj, eno za drugo: jo posedujem jaz ali ona mene? Koliko tvojega časa, pozornosti, tesnobe služi obrambi tega, kar imaš? Ni pravega odgovora: je samo resnica o tebi.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Kdo je tvoj volk?",
+      "text": "V tvoji soseski, pri tvojem delu, v tvoji družini: kdo je oseba ali situacija, pred katero vsi bežijo? Kaj bi se zgodilo, če bi kdo, namesto da zida zidove, šel naproti in vprašal: po čem si lačen? Kdo v tvojem mestu bi lahko bila skupnost, ki jamči za zavezo?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Od česa je odvisno tvoje veselje?",
+      "text": "Pomisli na zadnjič, ko si bil res vesel: je bilo odvisno od doseženega rezultata, od priznanja, od nakupa? Zdaj pomisli na veselje, ki ti ga noben zunanji dogodek ne more vzeti. Če se ti nič ne ponudi, to ni krivda: je sled za iskanje. Kaj bi se moralo v tebi spremeniti, da veselje ne bi bilo v najemu pri dogodkih?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Pot miru",
+      "text": "Pot v dveh prizorih: spor o meji v srednjeveškem kraju in krivica, pretrpena v današnji pisarni. Frančiškanski mir ni odsotnost spora: je pozdrav, ki ga je treba prinesti, posredovanje, ki ga je treba ponuditi, veselje, ki ga ne smeš pustiti za talca dogodkom. Odpre se, ko odkriješ nauk o pozdravu miru.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Pot bratstva",
+      "text": "Pot znotraj skupnega življenja: kaj storiti, ko brat hudo zgreši in se skupnost razdeli med strogost in sprejemanje? Frančiškansko bratstvo se meri prav tam, ne v dobrih namerah. Odpre se, ko odkriješ nauk o manjših bratih, in prečka odpuščanje brez mere ter pravilo, ki varuje.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Pot miru",
+      "theme": "pace",
+      "description": "Od pozdrava, nesenega od hiše do hiše, do veselja, ki ni odvisno od dogodkov: dva prizora, da se mir naučiš kot prakso, v srednjeveškem kraju in v današnji pisarni.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Pot preprostosti",
+      "theme": "poverta",
+      "description": "Kaj storiti z dobrinami, ki nam gredo skozi roke: občutljivo varstvo v 13. stoletju in nepregleden projekt danes. Frančiškansko uboštvo kot svoboda od lastnine in kot odgovornost tistega, ki služi.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Pot bratstva",
+      "theme": "fraternita",
+      "description": "Ko brat hudo zgreši, bratstvo razkrije, kaj v resnici je: sodišče ali hiša. Prizor, v katerem prečkaš odpuščanje, pravilo in vzajemno odgovornost.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Mejni zid",
+      "situation": "Kraj v Assisiju, začetek 13. stoletja. Berta, ki ima barvarsko delavnico, in Lupo, tkalec z sosednjih vrat, se že tedne prepirata za ped zemlje med hišama: tam teče žleb in vsak priseže, da je zid na njegovi strani. Družini sta nehali pozdravljati; vajenci si na cesti mečejo žalitve. Oba poznaš in oba ti zaupata. Ta večer te vprašata: na čigavi strani si?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Ne stati na nobeni strani: ponudiš, da ju poslušaš enega za drugim, potem skupaj, in jima pomagaš najti preprost dogovor o zidu in žlebu.",
+          "consequence": "Prvi tedni so naporno: vsak te skuša potegniti na svojo stran. Potem, ker sta poslušana, odkrijeta, da pravi vozel ni ped zemlje, temveč stara krivica, ki ni bila nikoli odpuščena. Dogovor o zidu pride skoraj hitro in na praznik sv. Jurija si delavnici spet posojata.",
+          "perspectives": [
+            {
+              "label": "Frančiškanska pot",
+              "text": "V Oporoki Frančišek priča, da mu je Gospod razodel pozdrav miru, ki naj ga nese drugim, viri pa se spominjajo, kako bratje oznanjajo mir od hiše do hiše. Posredovati osebno, ponižno, je prav ta gesta: miru se ne želi, izroči se ga.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Nauk iz Gubbia",
+              "text": "V pripovedi o volku se mir rodi, ko nekdo gre naproti temu, kar straši, in vsa skupnost postane jamstvo zaveze: mesto hrani volka, volk ne škoduje več. Tu obe družini in sosednji delavnici jamčita za dogovor, da traja tudi po tvoji navzočnosti.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Preudarnost kraja",
+              "text": "Kdor stopi vmes, tvega, da postane tarča obeh, če dogovor pade. Posredovanje deluje, ker si zunaj spora in pri njem nič ne dobiš: tvoja verodostojnost je tvoj edini kapital in jo je treba zapravljati varčno.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Obema svetuješ, naj zadevo neseta pred konzule komune ali pred trgovski ceh: meja se izmeri, listine se preberejo, pravo odloči.",
+          "consequence": "Prepir zapusti cesto in vstopi v obrazce. Izvedenec komune meri, očetove listine se preberejo in po nekaj mesecih sodba dodeli zid Lupu in žleb Berti. Stara krivica pa ostane nerešena: družini se komaj pozdravljata in nihče ni zares v miru.",
+          "perspectives": [
+            {
+              "label": "Pravo tistega časa",
+              "text": "Komuna obstaja prav zato, da fajdo nadomesti s postopkom: sodba tretjega zapre spor brez prelivanja krvi in brez ponižanj. To je resničen civilni napredek, ki si ga je bilo v 13. stoletju treba težko izboriti.",
+              "isEditorial": true
+            },
+            {
+              "label": "Frančiškanska pot",
+              "text": "Frančiškansko izročilo ne zaničuje oblasti, a spominja, da pravica odloči o zidu, ne o srcu: pozdrav miru, nesen od hiše do hiše, meri na to, da ljudi spet postavi v odnos, ne samo da razdeli krivice. Pravična sodba lahko pusti prepir živ pod pepelom.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Preudarnost kraja",
+              "text": "Obrniti se na konzule te varuje: ne odločaš ti in nihče te ne bo mogel obtožiti pristranskosti. Cena sta počasnost in stroški ter tveganje, da bo poraženec gojil zamero bolj do komune kot do soseda.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Ne vmešavati se: pustiti, da čas usede prepir, in se omejiti na to, da ga ne hraniš s sodbami in opravljanjem.",
+          "consequence": "Meseci napetost ostaja pod površjem: nihče več ne govori o zidu, a vajenci se še zbadajo in vzdrževanje žleba obstane. Ko pride zima, dež zalije obe kleti: pred skupno škodo se soseda iz nuje spet pogovorita in prepir se razreši sam, z nekoliko več rje.",
+          "perspectives": [
+            {
+              "label": "Preudarnost kraja",
+              "text": "Ni vsak spor potrebuje mirovnika: včasih prezgodnji poseg utrdi stališča. Čas in skupna nuja — zalita klet — lahko posredujeta bolje kot kateri koli govor.",
+              "isEditorial": true
+            },
+            {
+              "label": "Frančiškanska pot",
+              "text": "Frančiškanski mir je dejaven: prinaša se, oznanja se, gradi se tako, da greš naproti, kot v pripovedi o volku. Pustiti, da se usede, ni greh, a ni pozdrav miru: je odpoved, da bi bil orodje, kar je včasih ponižnost in včasih udobje.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Pravo tistega časa",
+              "text": "V srednjeveškem pravu ima nevmešavanje ceno: prepir, ki ne zastara, se vrne, skupna škoda zapuščenega žleba pa bremeni vse. Čakanje ni nevtralno: je izbira, ki račun prestavi naprej.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Frančiškanski mir se začne s pozdravom in konča v zavezi, ki jo skupnost varuje. A zahteva nekoga, pripravljenega stati vmes, ne da bi pri tem kaj pridobil. V tvoji soseski, danes: kdo opravlja to delo? In bi ga lahko ti?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Odvzeta zasluga",
+      "situation": "Danes je na sestanku pred vso ekipo kolega kot svoje predstavil delo, ki je v veliki meri tvoje. Nihče ni nič rekel; šef se mu je zahvalil. V prsih te peče že ure. Jutri se bosta na hodniku spet srečala s pogledom.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Odgovoriti v isti meri: ob naslednji javni priložnosti pred vsemi vzpostaviti dejstva, natančno in pred istim občinstvom, ki je bilo pri krivici.",
+          "consequence": "Popravek pride točno in dejstva se vrnejo na svoje mesto: šef razume, nekateri kolegi se ti potiho zahvalijo. Kolega, javno ponižan, postane tih in trajen nasprotnik; ozračje v ekipi se otrdi in vsaka tvoja beseda se zdaj tehta na gram.",
+          "perspectives": [
+            {
+              "label": "Pravo tistega časa",
+              "text": "Zahtevati svoje delo je legitimno: resnica o zaslugah ni opravljanje in če krivico pustiš mimo, lahko postane precedens. A oblika šteje: javna poprava ustvari zmagovalca in poraženca, poraženec pa na dolgi rok ne pozabi.",
+              "isEditorial": true
+            },
+            {
+              "label": "Frančiškanska pot",
+              "text": "Pripoved o popolnem veselju uči, da veselje ne sme biti odvisno od priznanja: če se tvoj mir vrne šele, ko je krivica javno popravljena, si ga dal v najem sodbi drugih. Vzpostaviti dejstva je dopustno; potrebovati to, da bi ti bilo dobro, je prava rana.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Preudarnost kraja",
+              "text": "V delovnem življenju se ugled gradi po kapljicah in izgublja po vedrih: dobro odmerjen javni popravek varuje, javno ponižanje te zaznamuje kot zamero. Če izbereš to pot, meri besede na vsebino, nikoli na osebo.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Pustiti mimo: nič ne reči, ne gojiti zamere, iti naprej. Delo govori samo zase in nočeš krivici dati moči, da ti pokvari dneve.",
+          "consequence": "Tišina te stane nekaj tednov nejevolje, potem se vozel razveže: naslednji projekt je očitno tvoj in kdor opazuje, ima dolg spomin. Kolega, ki mu nihče ne nasprotuje, pa vedenje ponovi z drugim članom ekipe: tvoj notranji mir je rešen, a problem ostane v skupini.",
+          "perspectives": [
+            {
+              "label": "Frančiškanska pot",
+              "text": "V Cvetkah je popolno veselje prav to: prenašati krivico, ne da bi ji prepustil poveljstvo nad srcem, in ostati potrpežljiv in vesel. To ni naivnost ne šibkost: je odkritje, da veselje, utemeljeno na ljubezni, ne potrebuje zmage v vsakem sporu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Pravo tistega časa",
+              "text": "Notranji mir je dobrina, a ni edina: neustrezno vedenje, ki mu nihče ne nasprotuje, postane navada in naslednja žrtev morda nima tvoje moči. Pravičnost pri delu varuje tudi druge, ne samo tvojo zaslugo.",
+              "isEditorial": true
+            },
+            {
+              "label": "Preudarnost kraja",
+              "text": "Ne odzvati se je strategija z enim pogojem: mora biti izbrana, ne pretrpena. Če pustiti mimo pomeni mesece gojiti, nisi živel veselja, temveč zamero na obroke. Srce je treba preveriti pošteno.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Iskati iskreno soočenje: kolega prositi za pogovor na štiri oči, povedati dejstva brez obtožb in poslušati, kaj ima povedati.",
+          "consequence": "Pogovor je neudoben, a resničen: kolega na pol prizna, se opravičuje, potem — presenečen, da ga niso javno raztrgali — se na naslednjem sestanku sam popravi in omeni tvoj prispevek. Ne postaneta prijatelja, a med vama se rodi oblika budnega spoštovanja; in zadeva nikoli ne pride na trg ekipe.",
+          "perspectives": [
+            {
+              "label": "Frančiškanska pot",
+              "text": "Iti na štiri oči je podobno pozdravu miru, nesenemu od hiše do hiše: izpostaviti se osebno, brez občinstva, in drugemu pustiti vrata odprta. In podobno je popolnemu veselju, ker tvojega miru ne podredi izidu: govoriš zaradi resnice, ne da bi zmagal.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Pravo tistega časa",
+              "text": "Zasebno soočenje varuje dejstva, ne da bi ponižalo osebo: je oblika poprave, ki pusti delovne odnose cele. Njegova meja je, da je odvisno od dobre vere drugega: če kolega zanika in vztraja, je potem potrebna formalna pot.",
+              "isEditorial": true
+            },
+            {
+              "label": "Preudarnost kraja",
+              "text": "Preden spregovoriš, se vprašaj, kaj v resnici hočeš: vzpostaviti dejstva ali izterjati krivico? Pogovor deluje samo, če vstopiš pripravljen poslušati; če vstopiš, da bi zmagal, to drugi začuti in se zapre.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Popolno veselje ne prepoveduje vzpostaviti dejstev: prepoveduje dati krivici ključe tvojega srca. Vprašaj se v svojem tednu: kolikokrat je tvoj mir v najemu pri vedenju drugih?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Trgovčevo varstvo",
+      "situation": "Assisi, 1210. Guido, trgovec s suknom, ki odhaja na sejme v Šampanjo in se ne bo vrnil šele čez dve leti, ti predlaga, da varuješ del njegovega imetja: bale blaga in mošnjo denarja. Medtem ju lahko uporabljaš — blago bi tvoji mali delavnici dalo skok — in ob vrnitvi mu vrneš dogovorjeno vrednost, z delom dobička. To je poštena priložnost. Je tudi vez, ki traja dve leti.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Sprejeti v celoti: blago in denar uporabiti, da delavnica zraste, in računati, da boš ob Guidovi vrnitvi vrednost vrnil z dogovorjenimi obrestmi.",
+          "consequence": "Delavnica res zraste: dva vajenca, novo statve, tvoje ime, ki začne krožiti. A vsaka odločitev zdaj gre skozi račun, ki ga je treba vrniti: pred sejmi ne spiš več, bojiš se tatvin in pustih let. Ko se Guido vrne, prej in z lastnimi izgubami, ki jih mora pokriti, te držanje zaveze stane skoraj ves zaslužek — in opaziš, da si dve leti bolj varoval denar kot živel.",
+          "perspectives": [
+            {
+              "label": "Frančiškanska pot",
+              "text": "Pravilo iz leta 1223 prosi, naj si ničesar ne prilaščaš, ne hiše ne kraja ne katere koli stvari: ne zato, ker bi bile stvari slabe, temveč ker te to, kar moraš vrniti in braniti, začne posedovati. Spanec, izgubljen pred sejmi, je natančno znamenje menjave gospodarja.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Trgovčeva logika",
+              "text": "V svetu komune je to praksa: kredit vrti gospodarstvo in zavrniti vsak depozit pomeni za vedno ostati majhen. Tveganje se meri in ceni; držati zavezo je tisto, kar gradi ugled.",
+              "isEditorial": true
+            },
+            {
+              "label": "Pogled odpovedi",
+              "text": "Celano pripoveduje o Frančišku, ki očetu vrne celo oblačila: ne iz prezira do stvari, temveč da ne bi bil odvisen od ničesar, kar ni Oče. Vprašanje ni, ali je zaveza poštena — je — temveč koliko svobode svojega srca si pripravljen za dve leti zastaviti.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Sprejeti samo varstvo, ne uporabe: zapečatiti blago in denar, ju držati na varnem, ne da bi ju dajal v promet, in ju ob vrnitvi vrniti nedotaknjena.",
+          "consequence": "Dve leti tvoja delavnica ostane, kakršna je bila, ti pa hodiš lahek: nobenega računa za vrniti, nobenega dobička za braniti. Guido se vrne, najde vse nedotaknjeno in te ceni kot človeka besede; predlaga ti druga varstva, ki jih boš presodil eno za drugim. Nekdo v kraju te imenuje bedaka: tisto blago bi lahko delalo zate.",
+          "perspectives": [
+            {
+              "label": "Frančiškanska pot",
+              "text": "Varovati, ne da bi si prilaščal, je skoraj duhovna vaja: imeti v rokah, ne da bi imel v srcu. Spominja na logiko Pravila — romarji in tujci v svetu, služabniki stvari in ne gospodarji — uporabljeno na tuje dobro.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Trgovčeva logika",
+              "text": "Z ekonomskega vidika je to zapravljena priložnost: mirujoči kapital ne proizvaja in brezplačni varuh podarja storitev, ki se drugje plača. Guidova cenjenost velja, a ne plača novih statev.",
+              "isEditorial": true
+            },
+            {
+              "label": "Preudarnost kraja",
+              "text": "Čisto varstvo ima svoja tveganja — tatvine, požari, obtožbe poneverbe — a te pusti svobodnega vsakega spora o dobičku. Vseeno zapiši listino pred pričami: zaupanje se bolje časti, če so papirji v redu.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Spoštljivo odkloniti: Guidu se zahvaliti za zaupanje, a nočeš vezi lastnine niti računov, ki bi jih dve leti vračal.",
+          "consequence": "Guido ostane presenečen, potem prikima: blago bo zaupal drugemu. Tvoja delavnica ostane majhna in kakšna zima je tesna, a tvoja beseda v kraju dobi poseben zvok: zvok nekoga, ki se ne proda in se ne veže. Leta pozneje, ko se boš odločil slediti bratom, ki gredo skozi Assisi, tvojega oddaljenja nihče ne bo našel čudnega: začelo se je s tistim ne.",
+          "perspectives": [
+            {
+              "label": "Pogled odpovedi",
+              "text": "Frančiškova odpoved pred škofom kaže, da reči ne bogastvu je gesta svobode, ne prezira: oblačila je vrnil, da je lahko brez hinavščine rekel »Oče naš«. Utemeljen ne danes pripravlja ne — in da — jutrišnjega dne.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Frančiškanska pot",
+              "text": "Pazi, da svobode ne zamenjaš s pravilom, narejenim zase: Pravilo govori o tem, da si ne prilaščaš, ne o tem, da zavrneš vsako odgovornost do tujih dobrin. Tudi zavrnitev lahko postane način, da misliš samo nase.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Preudarnost kraja",
+              "text": "Zavrniti je legitimno, a ima družbeno ceno: v kraju si ljudje pomagajo tudi tako, da drug drugemu varujejo dobrine. Kdor vedno zavrne, na dolgi rok ostane zunaj mreže zaupanja, na kateri vse stoji.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Frančiškansko uboštvo ne prosi, naj zaničuješ stvari: prosi, naj opaziš, kdaj te stvari začnejo posedovati. Naslednjič, ko kaj sprejmeš — predmet, nalogo, dolg — se vprašaj: kdo varuje koga?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Nepregleden projekt",
+      "situation": "Danes. Zaupajo ti vodenje prestižnega projekta: vidnost, ekipo, ki jo izbereš sam, zajeten proračun. A dve postavki stroškov se ne ujemata in financer na tvoja vprašanja odgovarja z izmikajočo vljudnostjo. Podpisati pomeni prevzeti odgovornost tudi za to nepreglednost. Zavrniti pomeni odpovedati se priložnosti, ki se ne bo ponovila.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Sprejeti brez nadaljnjih vprašanj: projekt je edinstvena priložnost, nepregledne postavke niso tvoja pristojnost in nekdo bi tako ali tako podpisal namesto tebe.",
+          "consequence": "Projekt uspe in tvoja kariera naredi skok. A ko leto pozneje upravni pregled znova odpre tiste postavke, je tvoj podpis na dokumentih: odgovornost, ki je nisi hotel pogledati, te vseeno dohiti in osvojeni prestiž se prevrne v nerodno obrambo.",
+          "perspectives": [
+            {
+              "label": "Odgovornost vloge",
+              "text": "V frančiškanskem bratstvu se tisti, ki vodi, imenuje »minister«, služabnik: služba obstaja, da služi, ne da blešči. Služba, ki pristane, da ne vidi tistega, za kar odgovarja, je svoje ime že izdala, še pred kakršnim koli pregledom.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Trgovčeva logika",
+              "text": "V svetu dela se razmišlja tako: vsak projekt ima siva območja in kdor hoče res delati, se nauči živeti z njimi. Zavrniti vsako nepopolnost pomeni odločitve izročiti tistemu, ki ima manj pomislekov od tebe.",
+              "isEditorial": true
+            },
+            {
+              "label": "Preudarnost kraja",
+              "text": "Podpis je meja: kar podpišeš, poseduješ, z vsemi posledicami. Pred podpisom ni dovolj šteti do deset: treba je natančno vedeti, kaj se podpisuje. Priložnost, ki se ne ponovi, se pogosto ponovi; ugled ne.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Zavrniti: brez preglednosti se ne podpisuje in projekt naj gre tistemu, ki te pogoje sprejme.",
+          "consequence": "Odpoved peče in mesece gledaš, kako gre projekt naprej med težavami: brez tvojega vodenja ekipa zanaša in na koncu financer umakne sredstva prav pri nepreglednih postavkah. Tvoj ne, ki ga nekateri berejo kot naivnost, si drugi zapomnijo, ko za občutljivo nalogo potrebujejo zaupanja vredno osebo.",
+          "perspectives": [
+            {
+              "label": "Preudarnost kraja",
+              "text": "Zavrnitev varuje ugled, a problem pusti nedotaknjen: projekt gre tistemu, ki ima manj pomislekov, in ljudje, ki pri njem delajo, trpijo posledice. Ne očisti roke, ne vedno sveta.",
+              "isEditorial": true
+            },
+            {
+              "label": "Odgovornost vloge",
+              "text": "Pismo nekemu ministru kaže, da je frančiškansko vodenje bližina in služenje, nikoli vzvišena oddaljenost. A služiti ne pomeni biti na voljo za vse: minister, ki podpiše tisto, česar ne more voditi, bratov ne služi, temveč jih izpostavi. Tudi zavrnitev je lahko oblika skrbi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Dolg pogled",
+              "text": "Kariere se delajo iz izkoriščenih priložnosti, zaupanje pa iz zavrnjenih. Ne, izrečen iz jasnih razlogov in brez moraliziranja, je naložba, ki zori počasi in se ne razvrednoti.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Sprejeti pod pogoji: podpisati šele, ko so zapisani pregledno poročanje, neodvisna revizija in pravica do utemeljenega odstopa.",
+          "consequence": "Financer odlaša, grozi, da bo iskal druge, potem popusti: tvoji pogoji, zapisani, postanejo hrbtenica projekta. Delo je počasnejše in napornejše, kot je obljubljalo, a ko pride pregled — in pride — so računi odprti in ekipa zdrži. Tvoje vodenje postane precedens: drugi bodo za tabo zahtevali iste pogoje.",
+          "perspectives": [
+            {
+              "label": "Odgovornost vloge",
+              "text": "To je pot ministra v polnem frančiškanskem pomenu: ne bežati pred služenjem, temveč odreči, da bi služenje postalo sokrivda. Kdor vodi, služi — in služiti vključuje varovati ekipo in projekt pred senčnimi območji, tudi za ceno neudobnih pogajanj.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Trgovčeva logika",
+              "text": "Zapisani pogoji so najboljši kompromis, a imajo ceno: tvegaš, da izgubiš nalogo, če financer ne popusti, in da leta delaš s partnerjem, ki te ima bolj za nadzornika kot za zaveznika. Splati se samo, če imaš verodostojne alternative.",
+              "isEditorial": true
+            },
+            {
+              "label": "Dolg pogled",
+              "text": "Postaviti pogoje je najpočasnejši in najrodovitnejši način: ne varuje samo tebe, spremeni prakso. Ustanove se izboljšajo, ko nekdo osebni pomislek spremeni v skupno pravilo.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Frančišek je odgovorne imenoval »ministre«, služabnike: ime vloge je že njen program. Pri tvojem delu: kaj je treba, da tvoje služenje ne postane sokrivda — in kaj, da tvoja strogost ne postane dezertacija?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Brat, ki je zgrešil",
+      "situation": "Porciunkula, dvajseta leta 13. stoletja. Brat Rufin je hudo prekršil pravilo: zase je obdržal denar, prejet v miloščini, in dejstvo je znano že zunaj, med ljudmi, ki vas gledajo. V bratstvu se razpravlja že dneve. Nekateri zahtevajo zgledno pokoro in njegovo odstranitev iz kraja; drugi spominjajo, da je Rufin bolan in na kosce; spet drugi se bojijo, da bo popustljivost vse povabila h grehu. Minister prosi za mnenje vsakega. Tudi za tvoje.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Podpreti strogost: javna pokora in začasna odstranitev Rufina, ker pravilo velja za vse in škandal med laiki je treba popraviti pred vsemi.",
+          "consequence": "Bratstvo odobri strogo disciplino. Rufin odide v oddaljeni erem, ponižan pred tistimi, ki so ga poznali; laiki v kraju občudujejo doslednost bratov in miloščina ne upade. A v bratstvu se nekaj otrdi: bratje začnejo skrivati svoje krhkosti iz strahu pred sodbo, Rufin pa bo sam potreboval leta, da se vrne — če se bo.",
+          "perspectives": [
+            {
+              "label": "Modrost skupnosti",
+              "text": "Skupno pravilo je tisto, kar bratstvo loči od družbe prijateljev: če tisti, ki hudo zgreši, ne sreča posledic, se zaveza izprazni in najšibkejši plačajo ceno. Javna poprava odgovarja tudi na javni škandal.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Pismo ministru",
+              "text": "Frančišek piše ministru, da je treba brata, tudi če bi tisočkrat grešil, vseeno ljubiti in mu oznanjati usmiljenje: trdota, ki zgraža šibkega brata, tvega, da ga izgubi. Strogost ni prepovedana, a nikoli ne sme postati prezir.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Dolg pogled",
+              "text": "Skupnost, v kateri se vsi bojijo sodbe, postane skupnost skrivnosti: pravilo ostane na papirju in se sesuje v srcih. Strogost, ki ne predvideva poti nazaj, proizvaja izgnance, ne spokornikov.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Podpreti polno sprejemanje: Rufina spet sprejeti brez javnih pokor, poskrbeti za njegovo bolezen in na škandal odgovoriti z milino, ne s kaznimi.",
+          "consequence": "Rufin ostane. Pred brati joče, vrne, kar more, in počasi spet najde mesto v skupnem življenju: nihče mu dejanja več ne očita. V kraju nekdo mrmra, da se bratje med seboj krijejo, in dva mlada v bratstvu milino vzameta za dovoljenje: minister bo mesece težko znova vzpostavljal, da pravilo ni nasvet.",
+          "perspectives": [
+            {
+              "label": "Pismo ministru",
+              "text": "To je pot, ki jo začrta Pismo nekemu ministru: ljubiti bolj, ne manj, tistega, ki je zgrešil; oznanjati usmiljenje, samo da se pokesa; ne otrdeti srca zaradi tujega greha. Frančišek ve, da ta pot stane, in jo vseeno predpisuje.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Modrost skupnosti",
+              "text": "Pravilo iz leta 1221 prosi, naj si bratje izpovedujejo potrebe in naj ne zaničujejo šibkega: bolni Rufin je prav brat, ki ga pravilo varuje. A isto pravilo obstaja, da se bratstvo ne razprši: usmiljenje brez resnice postane sokrivda.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Preudarnost kraja",
+              "text": "Laiki dajejo miloščino ubogim bratom, ne premetenim: neobvladan škandal razjeda zaupanje, ki drži skupnost pri življenju. Sprejemanje je treba kraju razložiti, ne samo živeti doma, sicer bo prebrano kot prikrivanje.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Podpreti skupnostno pot: Rufin ostane v bratstvu, pred brati vrne, kar dolguje, se zaupa bratskemu spremljanju in vsa skupnost z njim nosi popravo do kraja.",
+          "consequence": "Pot je dolga in neudobna: Rufin se spove pred brati, denar vrača od hiše do hiše skupaj s starejšim bratom in eno leto opravlja najponižnejše službe, ne da bi mu kdo očital. Kraj vidi resnično popravo, ne kazen: zaupanje se počasi vrača. Znotraj bratstva dogodek postane nezapisano pravilo: kdor pade, se ga spremlja, kdor je zgrešil, se popravi, nihče se ne izgubi.",
+          "perspectives": [
+            {
+              "label": "Pismo ministru",
+              "text": "Usmiljenje Pisma ni popust: je ljubezen, ki spremlja kesanje, dokler ne obrodi. Rufin, ki vrača od hiše do hiše, ni ponižan: je brat, ki se vrača, s skupnostjo, ki hodi poleg njega, namesto da bi ga gledala od zgoraj.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Modrost skupnosti",
+              "text": "Pravilo iz leta 1221 si predstavlja prav to: brate, ki izpovedujejo svoje potrebe — tudi sramotne — in se medsebojno nosijo. Skupnostna poprava združi resnico in usmiljenje ter krivdo enega spremeni v šolo za vse.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Pravo tistega časa",
+              "text": "To je za vse najzahtevnejša pot: terja čas, varovanje skrivnosti, kjer je treba, in javno resnico, kjer je bil škandal javen. Te naporne poti ne zdrži vsaka skupnost: brez sposobnega ministra srednja pot postane samo neodločnost.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Bratstvo se ne meri takrat, ko vsi izpolnjujejo pravilo, temveč takrat, ko ga kdo prekrši. Pismo nekemu ministru določi zvezdo — ljubiti bolj, ne manj — ne da bi izbrisalo resnico. V tvojih skupnostih: ali tisti, ki je zgrešil, najde pot nazaj?"
+    }
+  ]
+}

@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Meistras Bernardas",
+      "description": "Jau trisdešimt metų Ąžuolų miestelio užeigos šeimininkas: praktiškas, įtarus svetimšaliams, nepajėgus palikti ko nors šaltyje. Apie miestelį žino kiekvieną skolą ir kiekvieną gerumą.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Liucija",
+      "description": "Ąžuolų miestelio našlė ir žolininkė. Aštri stebėtoja ir miestelio atmintis: niekas, kas vyksta kelyje, jai nepraslysta.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Brolis Tomas",
+      "description": "Mažesnysis brolis, einantis Umbrijos keliais. Nunešioti sandalai, sulopytas abitas: turi tylos įprotį ir retą dovaną klausytis.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martynas",
+      "description": "Elgeta, sutiktas kelyje į Ąžuolų miestelį. Buvo kalvis Spolete, kol liga neatėmė kalvės, namų ir galiausiai vietos tarp žmonių.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Jokūbas",
+      "description": "Asyžiaus mūrininkas. Dirba restauruodamas Šv. Damijono bažnytėlę ir iš arti matė jaunąjį Pranciškų nešant akmenis ir giedant.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Motiejus",
+      "description": "Kalnų medžiotojas, vilko baimės dienomis vadovauja vienų Gubijo vartų sargybai. Randuotas veidas, ietis niekad netoli, duotas žodis, kuris galioja.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Gvidas II, Asyžiaus vyskupas",
+      "description": "Asyžiaus vyskupas nuo 1204 metų. Paliudytas šaltinių: miesto akivaizdoje apsiaustu apgaubė Pranciškų scenoje, kai šis atsižadėjo tėvo gėrybių.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Pietro di Bernardone",
+      "description": "Turtingas Asyžiaus audinių pirklys, Pranciškaus tėvas. Konfliktas su sūnumi dėl parduotų gėrybių išsiliejo į viešą sceną vyskupo akivaizdoje, kurią papasakojo Celano Tomas.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Bernardonės Pranciškus",
+      "description": "Jaunas pirklio sūnus, kuris šiais metais Asyžiuje palieka viską ir pradeda iš naujo basas. Keleivis jį paliečia iš tolo arba kelioms akimirkoms; jo žodžiai čia negausūs ir ištikimi šaltiniams.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Keleivio apsiaustas",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Vėlyvo rudens lietuje keleivis ateina į Ąžuolų miestelį ir sutinka sušalusį elgetą: pirmasis kelio pasirinkimas.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Vėlyvo rudens lietus lydėjo tave tris dienas. Kai pamatai pirmuosius Ąžuolų miestelio namus, vakaras jau uždaro takus, o tavo apsiaustas varva vandeniu.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Po dyglio krūmo gyvatvore susigūžusi figūra glaudžiasi sudriskusiame maiše. Netiesia rankos: tik žiūri į tave skaidriomis akimis to, kuris liovėsi prašęs.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martynas yra takų amžiaus. Buvo kalvis Spolete, kol liga neatėmė kalvės ir namų. Dabar kelias yra viskas, kas jam liko.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Nieko neprašau, svetimšali. Bet naktis bus ilga ir šalta, o mano nugara nebeišlaiko drėgmės.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martynas dreba po gyvatvore. Ką darai?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Nusiimi apsiaustą ir uždedi jam ant pečių.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Pasiūlai jam ranką ir palydi iki miestelio.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Atsisėdi šalia jo po gyvatvore ir klausaisi.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Apsiaustas palieka tavo pečius, ir šaltis tuoj įeina į kaulus. Bet tame šaltyje yra naujas lengvumas, kurio nemoki paaiškinti.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Neturiu kuo tau atsilyginti, bičiuli. Tik savo vardą: Martynas. Miestelyje sužinos, koks tu svetimšalis.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Einat lėtai, atsirėmę vienas į kitą, po tankiu lietumi. Užeigos vartuose šviesos dar dega.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Prisirenkei draugijos kelyje, svetimšali? Užeikite abu: mano ugnis neklausinėja.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Buvau kalvis Spolete: kaustydavau ponų arklius. Paskui rankos ėmė drebėti, ir niekas nenori kalvio, kuris dreba. Dėkoju, kad atsisėdai: žmonės praeina ir eina tiesiai, tarsi nelaimė būtų užkrečiama.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Kai pakylat, lietus liovėsi. Parodai jam kelią į miestelį ir žiūri, kaip jis lėtai tolsta, kol tamsa jį pasiima.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Ąžuolų miestelio užeiga kvepia malkomis ir duona. Žema ugnis džiovina drabužius ir tirpdo kelio nuovargį.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Prieini prie prekystalio sušalęs ir be apsiausto. Meistras Bernardas ilgai tave nužiūri, paskui paduoda samtį karšto vyno: „Apsiaustą atidavei tokią vakarą? Arba esi pakvaišęs, arba geresnis, nei atrodai. Pamatysim.“",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Meistras Bernardas laiko užeigą trisdešimt metų: praktiškas, nepatiklus, nepajėgus palikti ko nors šaltyje. Apie miestelį žino kiekvieną skolą ir kiekvieną gerumą.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Čia niekas nieko nedovanoja, svetimšali: už duoną mokama, ir už bėdas taip pat. Bet vieta prie ugnies neparduodama. Ji priklauso tam, kuris ateina.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "Kampe moteris įdėmiomis akimis smulkina žoles grūstuvėje. Tai Liucija, našlė, kuri gydo miestelį šaknimis ir kantrybe. Niekas, kas vyksta kelyje, jai nepraslysta.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Mačiau, kaip sustojai po dyglio gyvatvore. Daugelis toje vingyje praeina pro šalį: kelias greitai išmoko nežiūrėti. Tu sustojai. Prisimink tai, kai kas nors pasakys, kas esi.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Atradau: Niekas nėra svetimas. Svetingumas prasideda taip: ne nuo idėjos, o nuo gyvatvorės, nuo sušalusio žmogaus, nuo sustojimo. Eiti priešais tą, kurio pasaulis moko vengti, yra pirmasis kiekvieno kelio žingsnis.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Po ta gyvatvore, kas tave pajudino ir kas sulaikė? Pagalvok apie savo šiandienos kelius: ką sutinki įprastai ir pro ką išmokai praeiti?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Naktis praeina ramiai. Rytą ant užeigos prekystalio randi saują kaštonų ir nė žodžio: miestelyje dalykai įsimenami. Tavo kelias prasidėjo.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Pirklio sūnus",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Asyžius, 1206 metų pradžia: keleivis atvyksta dienomis, kai Pranciškus vyskupo Gvido akivaizdoje grąžina viską tėvui. Miestas žiūri ir klausia savęs.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Asyžius tave pasitinka šurmuliu, kuris nėra turgaus dienų šurmulys. Skersgatviuose žmonės pusbalsiu kalba apie vieną vardą: pono Pietro di Bernardone, audinių pirklio, sūnų.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Prie miestelio šaltinio moteris tau paaiškina: tėvas nutempė jaunuolį pas vyskupą, kad atgautų parduotas gėrybes, ir aikštė pildosi. Po sienomis, sugriuvusioje Šv. Damijono bažnytėlėje, mūrininkas vienas grumiasi su nuvirtusia siena.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Balsai aikštėje auga. Vienoje pusėje minia, kitoje – vienas žmogus su savo akmenimis.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Nusileidi į Šv. Damijoną padėti mūrininkui.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Bėgi į aikštę, kol minia neužsivėrė.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Užlipi ant Šv. Rufino laiptų, kad stebėtum iš aukštai.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Valandą kilnoji akmenis šalia mūrininko, kol minia ten ūžia. Vyras dirba tylėdamas, paskui parodo bažnytėlę: ją taiso vienas Asyžiaus vaikinas, sako. Tas, apie kurį visi kalba.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Nešė čia akmenis lyg relikvijas ir giedojo. Sako, kad išprotėjo. Aš pamišėlių mačiau daug: nė vienas taip nedirbo.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Kai vėl užlipi į aikštę, minia jau skirstosi. Surenki nuotrupas: jaunuolis grąžino tėvui viską, net drabužius, ir vyskupas jį apgaubė savo apsiaustu. Kas nors juokiasi. Daugelis – ne.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Skverbiės per minią iki pat vyskupo rūmų. Viduryje – sulysęs jaunuolis degančiomis akimis; priešais jį senas vyras, drebandis iš pykčio: ponas Pietro di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Pranciškui apie dvidešimt ketveri, ir laikysena to, kuris užaugo tarp brangių audinių ir švenčių. Šiandien, stovėdamas prieš vyskupą, atrodo jau palikęs visa tai už nugaros.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Mano audiniai, mano arklys, mano pinigai: parduoti dėl jo kvailysčių! Noriu teisybės, monsinjore. Tegul atsižada visko, kas mano, iki paskutinio siūlo.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Ilga tyla. Paskui jaunuolis nusivelka drabužius vieną po kito ir deda juos tėvui prie kojų. Minia sulaiko kvapą. Vyskupas Gvidas nusiima apsiaustą ir uždengia jo nuogus pečius.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Iki šios dienos tėvu vadinau Pietro di Bernardone. Nuo šiol galėsiu laisvai sakyti: Tėve mūsų, kuris esi danguje.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Nuo katedros laiptų aikštė yra skruzdėlynas. Negirdi žodžių, bet matai viską: jaunuolį, kuris nusirengia, senį, kuris surenka drabužius, vyskupą, kuris išskleidžia savo apsiaustą.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Šalia tavęs obuolių pardavėjas atsidūsta: mačiau šioje aikštėje teismų ir muštynių, sako, bet niekad sūnaus, kuris taip grąžintų viską. Aplink kas nors kvatoja šiurkščiai, kas nors šluostosi akis.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Vakaras leidžiasi ant Asyžiaus. Užeigose nekalbama apie nieką kita: yra kas šaiposi iš jaunuolio, kas vadina jį šventu, kas kraipo galvą galvodamas apie savo vaikus.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Vyskupas Gvidas eina per ištuštėjusią aikštę pavargusiu žingsniu to, kuris valdė sunkią dieną. Tai jis visų akivaizdoje apsiaustu apgaubė Pranciškų.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Mačiau gyvenime daug žmonių, įsikibusių į daiktus. Niekad nė vieno, kuris taip juos paleistų. Melskitės už tą vaikiną: ir melskitės už mus, kurie žiūrime ir nesuprantame.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Aikštė tuštėja. Ką darai, prieš vėl imdamas kelią?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Iš tolo seki Pranciškų, nusileidusį Šv. Damijono link.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Lieki klausytis aikštės balsų.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Grįžti pas mūrininką užbaigti to, ką pradėjai.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Seki Pranciškų iki sugriuvusios bažnytėlės. Matai, kaip jis pakelia akmenį, nuvalo, padeda ant sienos kaip tas, kuris tvarko namus. Nedrįsti jo trukdyti. Vėl imi kelią su tuo vaizdu akyse.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Lieki, kol deglai gęsta. Girdi visą žmogaus žvėryną: pavydą, pajuoką, sulaikytą susižavėjimą, tėvų baimę. Miestui prireiks metų nuspręsti, ką jis matė.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Grįžai baigti sienos? Šaunu. Akmenys nemeluoja: lieka ten, kur juos dedi. Tas vaikinas tai supranta: pradeda iš naujo nuo pamatų. Savęs, ne tik bažnyčių.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Kas dokumentuota",
+          "text": "Pranciškaus atsižadėjimą vyskupo Gvido akivaizdoje 1206 metų pradžioje pasakoja Pirmasis Celano Tomo gyvenimas, artimiausia šventajam biografija: drabužių grąžinimas, žodžiai apie Tėvą, kuris yra danguje, vyskupo apsiaustas. Dokumentuotas ir Šv. Damijono restauravimas. O fikcijai priklauso keleivis, kurį vaidini, mūrininkas Jokūbas ir aikštėje surinkti dialogai.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Atradau: Nieko sava, viskas gauta. Atsižadėjimas nėra daiktų niekinimas: tai išsilaisvinimas iš minties juos valdyti. Kas nieko nevaldo, tam nėra ko ginti, ir viską gali priimti kaip dovaną.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Palieki Asyžių, kai šviesos užsidega viena po kitos. Matei žmogų, likusį nuogą ir laisvą aikštėje, ir visą miestą, klausiantį savęs. Ir tu eini lengvesnis: o gal tik atidesnis daiktų svoriui.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Žmogus kelio pakraštyje",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Keliuose tarp miestelių medinio tarškynės garsas skelbia raupsuotąjį. Keleivis turi atsiskaityti su baime, pasibjaurėjimu ir pagarba: ir su veidu, kurį pažįsta.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Kelias tarp miestelio ir slėnio eina palei pailsėjusius laukus ir akmeninių ąžuolų miškus. Kryžkelėje girdi sausą, ritmingą garsą: medinę tarškynę, kuria raupsuotieji skelbia savo ėjimą.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Kelio pakraštyje, susisupęs į skudurus, sėdi žmogus. Pirmiausia pajunti, kaip tavo paties kūnas sustingsta: žingsnis lėtėja, kvapas sulaikomas, noras pereiti į kitą pusę.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Paskui pamatai: ant žmogaus pečių, sulopytas ir išblukęs, yra tavo apsiaustas. Tas, kurį atidavei atvykimo į Ąžuolų miestelį vakarą. Apsiaustą atpažįsti anksčiau už jį.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Neik arčiau, bičiuli: liga mane paėmė, ir įstatymas siunčia mane iš pasaulio. Bet tavo apsiaustas išlaikė mane gyvą per žiemą. Aš Martynas: esu tau skolingas gyvybę ir negaliu net paspausti rankos.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Raupsuotasis kelio pakraštyje. Ką darai?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Prieini per žingsnį nuo jo ir su juo kalbi.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Palieki duoną ir figas ant akmens, neprisiartindamas.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Praeini pro šalį. Bet po dvidešimties žingsnių sustoji ir grįžti.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Iš arti, po pilka ligos pelenų spalva, atpažįsti skaidrias gyvatvorės žmogaus akis: tai Martynas, elgeta iš pirmosios dienos miestelyje.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Liga paėmė man pirštus, paskui miestelis paėmė visa kita. Skambinu šiuo medžiu, ir žmonės bėga dar manęs nepamatę. O tu pasilikai. Nežinai, kokia dovana yra būti pažvelgtam į veidą.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Padedi duoną ir figas ant plokščio akmens, pusiaukelėje tarp savęs ir jo. Tai būdas, kurį visi vartoja: artimo meilė saugiu atstumu. Jis lėtai nulenkia galvą.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Duonos man pakanka, ir dėkoju. Bet prisimink, svetimšali: tokie kaip aš miršta du kartus. Pirmą, kai ateina liga, antrą, kai niekas jų nebevadina vardu.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Žengi dvidešimt žingsnių slėnio link. Paskui gėda sustabdo tave labiau už tarškynę: grįžti lėtai iki kelio pakraščio. Žmogus pakelia žvilgsnį, nustebęs.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Daugelis praeina, nedaug grįžta. Žingsnis atgal yra sunkiausias iš visų: žinau, ir aš tai išmokau. Sėskis, jei nori. Papasakok, iš kur eini.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Liekat kalbėtis, kol saulė leidžiasi. Martynas pasakoja apie vieną Asyžiaus brolį, tą pirklio sūnų, kuris paliko viską: dabar jis eina į lazaretus, plauna žaizdas ir kiekvieną vadina vardu.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Lazaretas yra slėnyje, už tilto, sako Martynas. Jei ieškai to brolio, rasi jį ten.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Pasiūlai palydėti jį iki lazareto.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Pažadi jam, kad miestelyje niekas jo nepamirš.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Palydi jį slėniu, lėtai, neliesdamas, bet ir nevengdamas. Prie tilto atsisveikinate kaip bičiuliai: su apgailestavimu, kad reikia skirtis.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Miestelis mane išvijo, sako Martynas. Bet jei kas ten dar ištars mano vardą, būsiu mažiau miręs. Pažadi jam tai. Dar nežinai, kiek kainuos tą pažadą išlaikyti.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Pranciškaus žodžiai",
+          "text": "Testamente, asmeniškiausiame rašte, padiktuotame gyvenimo pabaigoje, Pranciškus pasakoja, kad Viešpats jį nuvedė tarp raupsuotųjų ir kad su jais darė gailestingumą: tai, kas jam atrodė karti, virto saldumu (Testamentas 1–3). Tai vienas iš nedaugelio epizodų, paliudytų jo paties balsu. Martynas ir jūsų susitikimas priklauso Keleivio fikcijai.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Atradau: Susitikimas, kuris pakeičia gyvenimą. Artimo meilė nėra jausmas: tai kūniškas gestas to, kuris prisiartina prie atstumtojo ir atranda, kad kartumas virsta saldumu. Kas duoda, nestovi aukščiau už tą, kuris gauna: jie susitinka.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Atradau: Tapti artimu kūnu. Testamente Pranciškus nesako, kad jautė gailestingumą: sako, kad jį darė. Atjauta tikra tada, kai leidžiasi kito kančios pasiekiama taip, kad pajudėtų rankos.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Kas šiandien pajudino tavo kūną anksčiau už mintis: baimė, pasibjaurėjimas, švelnumas? Prisimink veidą, kurio išmokai vengti. Kaip jis vadinasi?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Vėl imi kelią tamsoje, tarškynės garsui nykstant už nugaros. Kažkas tavo būde žiūrėti į žmones pasikeitė visam laikui.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Gubijo žvėris",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubijas gyvena nuožmaus vilko siaube. Tarp tų, kurie organizuoja gynybą, tų, kurie seka neginkluotą brolį, ir tų, kurie ieško tarpininkavimo, keleivis mato gimstant taiką.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubijas tau pasirodo staiga, įsikibęs į kalną. Bet vartai užsklęsti vidury dienos, o aplinkiniai laukai tušti: niekas nebevaro bandų į ganyklą.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Motiejus vadovauja vartų sargybai: kalnų medžiotojas, randuotas veidas ir ietis niekad netoli. Tai jis organizuoja medžiokles prieš žvėrį.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Vilkas, svetimšali. Didelis kaip veršis ir nebijo žmonių. Paėmė avis, šunis, o paskui blogiau. Išeisime dvidešimt, ginkluoti. Jei kojos tvirtos, laikykis toliau nuo miško.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "Smuklėje prie vartų sklinda balsas, panašus į pajuoką: mieste yra Asyžiaus brolis, iš tų basųjų, kurie sveikina linkėdami taikos. Sako, kad eis vienas, neginkluotas, susitikti žvėries.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Miestas suspaustas tarp baimės ir netikėjimo. Ką darai?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Padedi Motiejui organizuoti namų ir bandų gynybą.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Seki brolį už sienų, likdamas kelis žingsnius už nugaros.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Įtikini medžiotojus lydėti brolį be iečių.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Visą naktį sklęsdinate vartus, nešate žabus, sudarote sargybos pamainas. Jei žvėris puls, miestas nebus užkluptas. Tai tikras darbas, ir žmonės atsikvepia.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Nemėgstu tų, kurie kalba vilkams, bet mėgstu tuos, kurie dirba. Tu dirbai. Rytoj, su ietimis ar be jų, Gubijas bus pasiruošęs.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Ryte nuo sienų matote brolį vieną išeinant miško link. Labai ilga tyla. Paskui jis vėl pasirodo kelyje: ir šalia jo, romus kaip avinėlis, eina vilkas.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Eini tris žingsnius už brolio, už paskutinio namo. Miškas užsiveria virš tako, ir baimė suspaudžia gerklę: bet jo žingsniai ramūs ir traukia pirmyn ir tavus.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Nebijok, broli. Einame susitikti kūrinio, kuris alkanas ir išsigandęs, kaip visi mes. Lik arti, jei nori.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Žvėris išeina iš miško urgzdamas. Brolis persižegnoja ir kalba jam kaip broliui: siūlo taiką sandoros vardu. Ir vilkas, tavo akyse, atsigula jam prie kojų.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Ilgai kalbi su Motiejumi ir jo vyrais: jokių iečių, jokių šunų. Seksite brolį iš tolo, pasiruošę viskam, bet nusprendę nesmūgiuoti pirmi. Sunku juos įtikinti: baimė visada nori geležies.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Padarysime, kaip sakai. Bet jei žvėris šoks, už nieką neatsakau. Tepadeda dangus: einame į medžioklę be ginklų.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Pusė miesto seka tylėdama taku. Kai vilkas pasirodo, šimtas rankų ieško ginklų, kurių nėra: bet nė viena nepakyla. Brolis kalba, žvėris priglunda, ir taika prasideda taip: nuo baimės, kurios niekas neužkrauna kitam.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "Aikštėje, prieš visą Gubiją, brolis patvirtina sandorą: miestas maitins vilką visas jo dienas, o vilkas nebelies nė plauko nei žmonėms, nei gyvuliams. Žvėris pakelia leteną, ir aikštė sprogsta.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Baimė ištirpsta į šventę. Ką darai?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Pasiūlai kasdien nešti duonos kepalą prie vilko urvo.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Lieki su Motiejumi išmontuoti spąstų miške.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Atsisėdi aikštėje ir surenki miesto balsus.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "Dienas, kurias lieki Gubijuje, kiekvieną rytą tavo duona pasiekia urvą. Vaikai seka tave iš tolo: nori pamatyti, ar tiesa, kad žvėris nekanda rankos, kuri jį maitina.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Visą dieną išardote spąstus ir kilpas. Metai juos spendžiant, sako Motiejus, o basas brolis padaro juos nenaudingus per vieną rytą. Juokiasi, bet juoke yra pagarbos.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "Aikštėje girdi miestą, vėl imantį pasakoti save: senę, kuri slapta nešdavo jam sriubos, kepėją, kuris jam skolingas pirštus, vaikus, kurie jau vadina jį vardu. Baimė buvo užgesinusi net istorijas.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Pasakojimas ar istorija?",
+          "text": "Gubijo vilką pasakoja Fioretti, XIV amžiaus pabaigos rinkinys (21 sk.): hagiografinė literatūra, ne kronika, ir joks to meto dokumentas to nepatvirtina. Pateikiame jį kaip atminties pasakojimą, ne kaip istorinį faktą. Dokumentinį pagrindą turi taikos pasveikinimas, kurį Pranciškus sako gavęs ir kuris minimas Testamente, ir pirmųjų brolių taikos skelbimas. Tavo vaidmuo šioje istorijoje yra fikcija.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Atradau: Taikos pasveikinimas. Taika nėra karo nebuvimas: tai skelbimas, kurį reikia nešti, drąsa, kurią reikia turėti. Ji gimsta einant priešais tai, kas baugina, be ginklo rankoje.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubijas turėjo tris kelius: gintis, pasitikėti, tarpininkauti. Kurį pasirinkai ir kodėl? Tavo gyvenime kas arba kas yra vilkas, nuo kurio visi ginasi užsklęsdami vartus?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Palieki Gubiją, kai vilkas, jau pasisotęs ir nepavojingas, miega saulėje prie krosnies. Miestas išmoko naują žodį, ir tu jį išmokai kartu: taika daroma, ne laukiama.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Audros naktis",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Audros užkluptas keleivis dalijasi ola su broliu Tomu: pasakojimo ir klausymosi naktis ir rytas su saule ant šlapių lapų.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Grįžtant Ąžuolų miestelio link dangus greitai užsiveria. Vėjas neša lietaus kvapą, ir pirmieji griaustiniai rieda už kalvagūbrių.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Kai audra pratrūksta, balsas tave šaukia iš olos tako pakraštyje. Basas brolis mosteli įeiti tarp dviejų lašų ir žaibo.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Brolis Tomas yra praeinantis mažesnysis: nunešioti sandalai, sulopytas abitas, lazda ir nieko daugiau. Turi tylos įprotį ir retą dovaną klausytis.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Užeik, broli, ir apsidžiovink. Ola niekieno: šiąnakt ją dalijamės su lietumi. Turiu truputį duonos ir ugnį: dviem keleiviams tai rūmai.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Ugnis įsidega, duona pasidalija savaime. Lauke audra ūžia kaip upė; viduje pirmą kartą po daugelio dienų neskubi.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Naktis bus ilga. Kuo ją pripildai?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Klausi brolio Tomo apie jo gyvenimą prieš abitą.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Pasakoji tu: miestelį, Martyną, Asyžiaus aikštę, Gubijo vilką.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Liekat tyloje klausytis lietaus.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Buvau piemuo šiuose kalnuose. Potvynis paėmė man bandą ir trobelę tokią naktį kaip ši. Verkiau kaip vaikas. Paskui atradau, kad, nebeturėdamas nieko, nebebijoju nieko: tada supratau Asyžiaus brolius.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Brolis Tomas klauso nepertraukdamas, akys ugnyje. Galiausiai linkteli: kiekvienas kelias moko, sako, jei eini atmerktomis akimis. Leidai keliui tave pakeisti, ir tai matyti.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Tyla nėra tuščia: lietus skaičiuoja taktą, ugnis atsako, kito kvėpavimas laiko ritmą. Supranti, kad yra pokalbių, kuriems nereikia žodžių.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Aušros link audra išretėja į švelnų lietų. Brolis Tomas kalba apie savo brolį Pranciškų, kuris ir iš skausmo patalo kuria gyrius: vadina broliu saulę, seserimi vandenį, motina žemę, kuri nešioja mus įsčiose.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Sako, kad kiekvienas kūrinys šlovina Kūrėją darydamas tai, kas jis yra: saulė šildydama, vanduo numalšindamas troškulį, žemė maitindama. Ir kad net bloga diena yra gauta, ne priklausanti. Kartoju tai todėl, kad šiąnakt čia mačiau tai savo akimis.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Pirmosios šviesos skverbiasi į olą.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Klausi jo, kaip dėkoti, kai viskas eina blogai.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Nieko neklausi: žiūri į lašus ant lapų, ir tiek.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Nemoku to paaiškinti, broli. Žinau, kad dėkingumas nėra gerų dienų premija: tai pratybos, kaip ėjimas. Kas tai daro kasdien, juodomis dienomis turi ištreniruotas kojas.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Liekat žiūrėti, kol saulė pramuša debesis. Šlapi lapai užsidega vienas po kito, ir visas slėnis atrodo ką tik sutvertas.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Išeinate iš olos į nuplautą pasaulį. Vanduo dar teka nuo šakų, saulė jį žibina, ir atrandi, kad šypsaisi be priežasties. Brolis Tomas vėl ima lazdą: jūsų keliai čia išsiskiria.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Giesmė, ola, fikcija",
+          "text": "Kūrinijos giesmė yra autentiškas Pranciškaus kūrinys, sukurtas 1225–1226 metais, ligos metu: lauda liaudies kalba, kurioje saulė, mėnulis, vėjas, vanduo, ugnis ir žemė šlovina Dievą kaip broliai ir seserys. Autentiški ir Aukščiausiojo Dievo gyriai, malda be prašymų. Brolis Tomas ir naktis oloje priklauso Keleivio fikcijai; jo žodžiai parafrazuoja Giesmę jos necituodami.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Atradau: Brolis saulė, sesuo vanduo. Pasaulis nėra išteklių sandėlis ir nėra stabas: tai kūrinių šeima, šlovinanti Kūrėją. Rūpestis kūrinija gimsta iš giminystės ir dėkingumo, ne iš naudos.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Atradau: Gyrius, kuris nieko neprašo. Dėkingumas neapdovanoja sėkmės: tai išlavintas žvilgsnis, atpažįstantis dovaną kiekviename dalyke, vandenyje, saulėje, dienoje, net ligoje.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Šią naktį dalijaisi duona, ugnimi ir tyla su nepažįstamuoju. Pažiūrėk į savo šiandienos dieną taip, kaip ola žiūrėjo į audrą: kas iš to, ką turi, yra gauta, o ne priklausanti?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Eidamas miestelio link permąstai seserį vandenį, kuri malšina troškulį, plauna ir gieda grioviuose. Atminties sode nuo šiandien teka fontanas.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "Ąžuolų miestelyje tave priima kaip tą, kuris grįžta iš toli. Drabužiuose dar turi dūmų ir lietaus kvapą, o ausyse – vandens balsą. Kelias tęsiasi.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

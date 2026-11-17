@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Stretnutie, ktoré mení život",
+      "summary": "Františkova konverzia sa začína, keď prekoná hnus a stretne malomocných: láska k blížnemu ako konkrétne stretnutie s druhým.",
+      "explanation": "V Závete František rozpráva, že vidieť malomocných mu pripadalo „príliš horké“ a že práve stretnutie s nimi bolo začiatkom jeho pokánia. Františkánska láska nie je všeobecný cit: je to telesné gesto toho, kto sa priblíži k vylúčenému a zistí, že horkosť sa mení na sladkosť. Kto dáva, nestavia sa nad toho, kto prijíma: stretáva sa s ním.",
+      "historicalContext": "V 13. storočí boli malomocní vylúčení z mestského života, ubytovaní v leprosáriách za hradbami a pokladaní za znak hriechu. Františkova voľba žiť medzi nimi bola spoločensky pohoršujúca.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Nič vlastné, všetko prijaté",
+      "summary": "Pred biskupom František vracia šaty otcovi: zrieknutie sa vlastníctva ako voľba slobody, nie ako pohŕdanie vecami.",
+      "explanation": "Františkovo zrieknutie pred biskupom Guidom je verejné gesto, ktorým pretína puto s rodinným bohatstvom. Nie je to útek od vecí, ale oslobodenie od predstavy, že ich vlastníme: kto nič nevlastní, nemusí nič brániť a môže prijať každú vec ako dar. Technická latinčina tradície to volá „sine proprio“: bez vlastníctva.",
+      "historicalContext": "Ako syn bohatého súkenníka bol František predurčený na spoločenský vzostup mestského meštianstva. Jeho zrieknutie v roku 1206 zasiahlo obrazotvornosť Assisi práve preto, že bolo obrátené proti hodnotám kupeckého mesta.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Chudoba ako sloboda",
+      "summary": "Pre Františka chudoba nie je romantická bieda: je to neprivlastňovať si nič, aby človek zostal slobodný milovať a závisieť len od Boha.",
+      "explanation": "Regula z roku 1223 žiada od bratov, aby si neprivlastňovali nič, „ani dom, ani miesto, ani nijakú vec“, a aby chodili po almužnu bez hanby, pamätajúc, že Pán sa stal chudobným. Františkánska chudoba má teologický základ (chudobný Kristus) aj psychologický: kto nemá čo brániť, je slobodný. Nie je to výzva oslavovať núdzu, ktorá je spoločenskou ranou, ale nenechať sa definovať vlastníctvom.",
+      "historicalContext": "Hnutie dobrovoľných chudobných vznikalo ako reakcia na rastúce bohatstvo komún a kléru; Cirkev hľadela na chudobné hnutia s podozrením a František si schválenie musel ťažko vydobyť.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Menší bratia",
+      "summary": "Františkovo spoločenstvo nie je rád predstavených a poddaných: je to bratstvo „menších“, v ktorom je každý zodpovedný za druhého.",
+      "explanation": "František chcel, aby sa jeho spoločníci volali menší bratia: nikto nie je veľký a zodpovední sa volajú „ministri“, teda služobníci. Regula z roku 1221 žiada, aby si navzájom dávali najavo potreby, nesúdili brata a nepohŕdali slabým. Bratstvo je sama forma evanjelia žitého spolu: bratmi sme nie z ideálu, ale z každodennej praxe.",
+      "historicalContext": "Bratstvo vzniká okolo rokov 1208 – 1210 z prvých spoločníkov (Bernard, Egid…) a rýchlo rastie, až si vyžiada štruktúry: kapituly, ministrov, písanú regulu.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Pozdrav pokoja",
+      "summary": "„Pán ti daj pokoj“: František robí z pokoja ohlas, ktorý sa nosí, skôr než neprítomnosť vojny.",
+      "explanation": "V Závete František pripomína, že Pán mu zjavil pozdrav pokoja. Najstaršie pramene opisujú, ako bratia ohlasujú pokoj z domu do domu. Františkánsky pokoj je činný: nosí sa, buduje sa, sprostredkúva — ako v príbehu o vlkovi z Gubbia, kde sa pokoj rodí z odvahy ísť v ústrety tomu, čo naháňa strach.",
+      "historicalContext": "Taliansko komún pretínali sváry strán, mestské vojny a konflikty medzi svetskou a cirkevnou mocou. Ohlasovať pokoj bolo gesto politické aj duchovné.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Sedemdesiatkrát sedem, a ešte ďalej",
+      "summary": "Zodpovednému v bratstve František píše: ak by brat zhrešil tisíc ráz, aj tak ho miluj viac než mňa.",
+      "explanation": "List ministrovi je františkánsky text o odpustení: kto vedie, nesmie sa pohoršovať ani zatvrdnúť tvárou v tvár chybám bratov, ale ohlasovať milosrdenstvo. Odpustenie nepopiera zlo: odmieta, aby malo zlo posledné slovo o vzťahu. V Piesni bola strofa o odpustení pridaná — podľa tradície — aby zmierila biskupa a podestu Assisi, ktorí boli v spore.",
+      "historicalContext": "Rýchlo rastúce bratstvo žilo vnútorné napätia; a mestá boli roztrhané pomstami a svármi, ktoré sa františkáni snažili upokojovať.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Byť menší, nie cítiť sa lepší",
+      "summary": "Františkánska pokora je pravda o sebe: nevyvyšovať sa, nepohŕdať sebou, slúžiť ako posledný.",
+      "explanation": "Napomenutia varujú pred vlastnou vôľou urobenou mierou všetkého a pred duchovným sebauspokojením. Pokora je pre Františka vidieť sa v pravde: malí pred Bohom, dlžníci všetkého, schopní slúžiť bez nároku na uznanie. Nie je to nízke sebavedomie: je to sloboda od potreby javiť sa.",
+      "historicalContext": "V spoločnosti založenej na cti a na rade bolo volať sa „menšími“ program proti prúdu; a vnútri rastúceho bratstva bola pokora protijedom na vnútorné súperenie.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Brat slnko, sestra voda",
+      "summary": "Pieseň stvorenia: svet nie je sklad surovín ani modla, ale rodina stvorení, ktoré chvália Stvoriteľa.",
+      "explanation": "V Piesni František chváli Boha „pre“ stvorenia: brat slnko, sestra mesiac, sestra voda „užitočná a pokorná a vzácna a čistá“, sestra naša matka zem. Príroda nie je zbožštená: je sestrou, lebo je dcérou toho istého Otca. Starostlivosť o stvorenstvo sa tu rodí z vďačnosti a príbuzenstva, nie z úžitku. A Pieseň sa rodí v chorobe: chvála nezávisí od okolností.",
+      "historicalContext": "Zložená v rokoch 1225 – 1226, keď bol František chorý a takmer slepý, patrí medzi prvé básnické texty v talianskom ľudovom jazyku. Bonaventúra ju kladie do obdobia skúšok.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Dokonalá radosť",
+      "summary": "Františkánska radosť nezávisí od výsledkov: zostáva aj v odmietnutí a v námahe, lebo sa rodí z lásky, nie z úspechu.",
+      "explanation": "V Kvietočkoch František vysvetľuje bratovi Levovi, že pravá radosť nie sú zázraky ani obrátenia, ale vrátiť sa odohnaný a premrznutý a zostať trpezlivý a radostný. Je to hagiografický príbeh, nie kronika, ale zhŕňa autentickú črtu františkánskeho ducha: radosť ako vnútornú voľbu, ktorú nijaká udalosť nemôže vziať.",
+      "historicalContext": "Kvietočky (koniec 14. storočia) zbierajú živú pamäť prvého františkánstva; treba ich čítať ako duchovnú literatúru, nie ako dokumentárnu históriu.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Púšť, ktorá býva vo svete",
+      "summary": "František striedal misiu a ústraní: modlitba ako miesto, kde sa človek vracia k podstatnému pred Bohom.",
+      "explanation": "Františkánsky život nie je len činnosť: František vyhľadával pustovne a ústrania (Carceri, La Verna), brával so sebou málo spoločníkov a dlhé mlčanie. V Liste bratovi Levovi odkazuje na svedomie pred Bohom: modlitba nie je technika, ale vzťah. Chvály najvyššieho Boha ukazujú jeho najčistejšiu modlitbu: chválu bez prosieb.",
+      "historicalContext": "Františkánske pustovne vznikali na divokých miestach umbrijsko-toskánskych Apenín; La Verna, darovaná Františkovi v roku 1213, sa stala ústraním nad iné.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Nasledovať stopy Krista",
+      "summary": "Františkova spiritualita nie je filozofia prírody: je to nasledovanie chudobného a ukrižovaného Krista vnútri viery Cirkvi.",
+      "explanation": "Všetko u Františka vychádza z Krista: krucifix zo San Damiano, ktorý k nemu hovorí, voľba chudoby „pretože sa Pán stal chudobným“, umučenie kontemplované na La Verne, prostá viera v kostoly zo Závetu. Odňať tento koreň nerobí Františka univerzálnejším: robí ho nerozpoznateľným. Aplikácia ho predstavuje takého, aký je, bez toho, aby ho vnucovala, a bez toho, aby ho vymazala.",
+      "historicalContext": "František žil vieru v rámci stredovekej Cirkvi, hľadal jej schválenie pre svoju formu života a prijímal jej medze, hoci ju zdola tlačil k obnove.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Regula, aby sme nestratili cestu",
+      "summary": "Františkánska poslušnosť nie je sebazrušenie: je to spoločná zmluva, ktorá chráni bratstvo pred rozptýlením a svojvôľou.",
+      "explanation": "František žiadal schválenie Cirkvi a písal čoraz podstatnejšie reguly (1221, 1223). Poslušnosť v Napomenutiach a v Regulách je vzájomná: poslúcha sa spoločná regula a kto vedie, slúži. Závet žiada, aby sa regula neglosovala: aby sa žila „jednoducho a bez glos“. Spoločenstvo a poslušnosť sú rámec, ktorý robí slobodu trvácnou.",
+      "historicalContext": "Medzi rokmi 1210 a 1223 prešlo bratstvo z malej skupiny na uznaný Rád; napätie medzi charizmou a inštitúciou prechádza celými františkánskymi dejinami.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Chvála, ktorá o nič neprosí",
+      "summary": "Chvály Boha a Pieseň sa rodia v chorobe: františkánska vďačnosť neodmeňuje šťastie, ale rozpoznáva dar v každej veci.",
+      "explanation": "Chvály najvyššieho Boha, napísané na La Verne, sú modlitba bez jedinej prosby: len uznanie. Aj Pieseň, zložená v utrpení, je chvála. Františkánska vďačnosť je vycvičený pohľad: vidí každú vec — vodu, slnko, deň, ba aj smrť — ako prijatú. Kto ďakuje, nevlastní: prebýva.",
+      "historicalContext": "V rokoch 1224 – 1226 bol František ťažko chorý, takmer slepý a poznačený odstupom od vedenia Rádu: chvála tých rokov nie je naivnosť, ale vydobytie.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Kto vedie, slúži",
+      "summary": "V bratstve sa zodpovední volajú „ministri“: služba ako jediná oprávnená podoba autority.",
+      "explanation": "František obracia hierarchiu: minister je ten, kto slúži, kustód je ten, kto opatruje bratov, nie ten, kto rozkazuje. List ministrovi ukazuje tón: blízkosť k tomu, kto zlyhá, nikdy pohŕdanie. Služba nie je stratégia, ako sa zapáčiť: je to kresťanský spôsob obývať každú úlohu, od brata po biskupa, od rodiča po starostu.",
+      "historicalContext": "Tituly františkánskej hierarchie (minister, kustód, gvardián) boli zvolené práve proti logike stredovekej prestíže.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Nikto nie je cudzí",
+      "summary": "Malomocní, zbojníci, sultán, vlk: františkánska tradícia posúva prijatie za hranice vlastnej skupiny.",
+      "explanation": "František stretá malomocných, ide v ústrety sultánovi al-Malikovi al-Kamilovi uprostred križiackej výpravy a v ľudovej pamäti sa rozpráva dokonca s vlkom. Františkánske prijatie nie je pasívna tolerancia: je to ísť v ústrety, vystaviť sa, volať „bratom“ toho, koho vlastný svet volá nepriateľom. Začína sa pri nepohodlnom blížnom a nezastavuje sa na hraniciach viery ani jazyka.",
+      "historicalContext": "Stretnutie so sultánom (1219, Damietta) sa odohralo počas piatej križiackej výpravy: gesto pokoja doložené prameňmi, hoci v medziach stredovekého svedectva.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Stať sa blížnym celým telom",
+      "summary": "„Preukázal som im milosrdenstvo“: františkánske milosrdenstvo je súcit, ktorý sa stáva konkrétnym gestom, nie ľútosť z diaľky.",
+      "explanation": "V Závete František používa silné slovo: s malomocnými „preukázal milosrdenstvo“. Nehovorí, že cítil súcit: urobil ho. Milosrdenstvo je schopnosť nechať sa zasiahnuť utrpením druhého až po to, že sa pohnú ruky. Je to koreň, z ktorého rastú láska, odpustenie a pokoj.",
+      "historicalContext": "Stredoveká zbožnosť poznala almužnu ako záslužnú prax; František ju premieňa na vzťah: nedáva sa chudobnému, je sa s chudobným.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Práca rúk",
+      "summary": "František nestavia modlitbu proti práci: poctivá práca drží ďaleko od záhaľky a nesmie uhasiť modlitbu.",
+      "explanation": "V Závete František hovorí, že pracoval vlastnými rukami a chce, aby bratia pracovali, nie z chtivosti po odmene, ale pre príklad a proti záhaľke. Ak odmena chýba, vracia sa k almužne. Potvrdená regula pridáva medzu: práca je milosť a časné veci majú slúžiť duchu modlitby, nie ho nahradiť. V Nepotvrdenej regule je práca aj spôsob, ako byť v cudzom dome ako menší, bez toho, aby človek bral úrady, ktoré dávajú moc.",
+      "historicalContext": "Mnohí z prvých bratov prichádzali z remesiel. Otázka práce a peňazí je ostrá už pred rokom 1223: Regula z roku 1221 je obšírnejšia a prísnejšia vo veci peňazí; potvrdená je kratšia a starostlivosť o chorých zveruje ministrom prostredníctvom duchovných priateľov.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Telo, nie predstava",
+      "summary": "Pre Františka sa Boží Syn v tomto svete vidí v tele a v krvi, ktoré kňazi prijímajú a rozdávajú.",
+      "explanation": "Závet viaže úctu ku kňazom práve na toto: František hovorí, že v tomto svete telesne nevidí z Božieho Syna nič iné než jeho telo a jeho krv. List celému Rádu posúva tú istú vieru až po spôsob chleba a žiada kňazov, aby slávili bez toho, aby sa chceli páčiť ľuďom. Nie je to okrajová téma. Je to stred, z ktorého František číta Cirkev, napísané slová a vlastnú malosť. Aplikácia to hovorí také, aké to je: stredoveká eucharistická viera, nie všeobecná metafora daru.",
+      "historicalContext": "Františkova eucharistická úcta stojí vnútri reformy IV. lateránskeho koncilu (1215), ktorý ukladá každoročnú spoveď a spresňuje náuku o sviatosti. Listy klerikom a kustódom, ktoré tu nie sú reprodukované celé, naliehajú na to isté.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Forma evanjelia",
+      "summary": "František nevymýšľa spiritualitu popri evanjeliu: hovorí, že Najvyšší mu zjavil, aby žil podľa tejto formy, a dal ju napísať.",
+      "explanation": "Závet je výslovný: nikto mu neukazoval, čo má robiť; Najvyšší mu zjavil, aby žil podľa formy svätého evanjelia; on ju dal napísať nemnohými slovami a pápež ju potvrdil. Obe Reguly sa otvárajú tým istým bodom. Zachovávať evanjelium v týchto textoch nie je cit: je to poslušnosť, nič vlastné a cudnosť vnútri schváleného bratstva. Rozprávanie o zrieknutí pred biskupom u Celana je ďalšia scéna tej istej voľby. Tu ide Františkov text pred rozprávaním o Františkovi.",
+      "historicalContext": "Ústne schválenie Inocenta III. datuje tradícia do roku 1209 alebo 1210; Nepotvrdená regula je z roku 1221; potvrdenú potvrdzuje Honórius III. 29. novembra 1223. Závet v roku 1226 číta celú postupnosť ako jedno zjavenie.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

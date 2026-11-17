@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Stien af sten",
+      "kind": "sentiero",
+      "description": "En sti af lyse sten går gennem haven: det sted, hvor enhver vandring begynder.",
+      "symbolism": "Vandringen som billede på livet: man baner sig vej ved at gå, én sten ad gangen.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Fredens oliventræ",
+      "kind": "albero",
+      "description": "Et gammelt oliventræ med sølvgrå krone, plantet da du opdagede fredshilsenen.",
+      "symbolism": "Oliventræet: en middelhavsplante for fred og tålmodighed. Det vokser langsomt og varer i generationer.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Søster vands fontæne",
+      "kind": "acqua",
+      "description": "En stenfontæne med klart vand, som solen tænder om morgenen.",
+      "symbolism": "»Søster vand, nyttig og ydmyg og kostbar og kysk«: i Sangen er vandet en søster, man takker.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "San Damianos roser",
+      "kind": "fiore",
+      "description": "En blomstrende rosenbusk ved muren: den vokser, hvor nogen har taget sig af de andre.",
+      "symbolism": "Skønheden, der fødes af tjeneste: næstekærligheden får de tørre steder til at blomstre.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Den fælles køkkenhave",
+      "kind": "orto",
+      "description": "Små bede med urter og grøntsager, passet på skift: det ydmyge arbejde, der mætter alle.",
+      "symbolism": "Den daglige tjeneste: den, der dyrker haven, ejer den ikke, men vogter den for dem, der kommer efter.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Stilhedens cypres",
+      "kind": "albero",
+      "description": "En høj, rank cypres, der markerer grænsen mellem haven og skoven.",
+      "symbolism": "Bønnen som det lodrette: rødder i jorden, spidsen mod himlen.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Bogfinkernes rede",
+      "kind": "animali",
+      "description": "Mellem de sikreste grene har et par bogfinker valgt haven til at bygge rede.",
+      "symbolism": "Velkomsten: haven bliver også hjem for den, der kommer udefra.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Stenbænken",
+      "kind": "struttura",
+      "description": "En stenbænk under muren ved middagstid: stedet, hvor man sætter sig og bliver.",
+      "symbolism": "Troen som en tillidsfuld pause: ikke altid at gå, nogle gange blot at være.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Taknemmelighedens solsikker",
+      "kind": "fiore",
+      "description": "En række solsikker, der drejer sig efter lyset i løbet af dagen.",
+      "symbolism": "Taknemmeligheden: at vende sig mod lyset er en daglig øvelse for blikket.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Biernes stade",
+      "kind": "animali",
+      "description": "Et træstade dufter af voks; bierne flyver til og fra havens blomster.",
+      "symbolism": "Broderskabet: ingen bi laver honning alene, og ingen ejer tavlen.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "At se på himlen",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        { "kind": "osserva", "text": "Løft blikket fra haven mod himlen. Bliv et øjeblik i stilhed, uden at gøre noget." },
+        { "kind": "leggi", "text": "Læs langsomt åbningen af Skabningernes sang.", "sourcePassageId": "pass.cantico.apertura" },
+        { "kind": "rifletti", "text": "Frans kalder solen »broder« og månen »søster«. Hvilken forskel ville det gøre at se verden som en familie i stedet for som en ressource?" },
+        { "kind": "annota", "text": "Hvis du vil, så notér i dagbogen én ting, du i dag kan sige »Laudato sie, mi' Signore« om." }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "At lytte til vandet",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        { "kind": "ascolta", "text": "Gå hen til fontænen. Lyt til vandets lyd i nogle åndedrag, uden hast." },
+        { "kind": "leggi", "text": "Læs igen den lovprisning af Gud, der blev skrevet på La Verna: en bøn, der ikke beder om noget.", "sourcePassageId": "pass.lodi_dio.lode" },
+        { "kind": "rifletti", "text": "Lovprisningerne af Gud indeholder ingen anmodninger: kun anerkendelse. Hvornår takkede du sidst uden at bede om noget?" },
+        { "kind": "annota", "text": "Hvis du vil, så skriv tre ting i dagbogen, som du har modtaget i dag, også de små." }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Det langsomme skridt",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        { "kind": "osserva", "text": "Gå langsomt ad stien af sten, og læg mærke til hvert skridt: vægten, kontakten, rytmen." },
+        { "kind": "leggi", "text": "Læs Frans' svar til broder Leo, som søgte det rette valg.", "sourcePassageId": "pass.lettera_leone.coscienza" },
+        { "kind": "rifletti", "text": "Til broder Leo giver Frans ikke anvisninger, men frihed: »følg din samvittighed over for Gud«. Hvad lærer denne måde at ledsage på dig?" },
+        { "kind": "annota", "text": "Hvis du vil, så notér i dagbogen en beslutning, du bærer på, og hvor du mærker, at din samvittighed vender sig." }
+      ]
+    }
+  ]
+}

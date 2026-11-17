@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Meester Bernardo",
+      "description": "Al dertig jaar herbergier van Eikendorp: praktisch, wantrouwig tegenover vreemden, niet in staat iemand in de kou te laten staan. Van het dorp kent hij elke schuld en elke vriendelijkheid.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Weduwe en kruidenvrouw van Eikendorp. Scherp waarnemer en geheugen van het dorp: niets van wat er op de weg gebeurt, ontgaat haar.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Broeder Tommaso",
+      "description": "Minderbroeder op doorreis over de wegen van Umbrië. Versleten sandalen, een verstelde pij: hij is gewend aan stilte en heeft de zeldzame gave om te luisteren.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martino",
+      "description": "Bedelaar, ontmoet op de weg naar Eikendorp. Hij was hoefsmid in Spoleto, voordat de ziekte hem de smidse, het huis en ten slotte zijn plaats onder de mensen afnam.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Giacomo",
+      "description": "Metselaar uit Assisi. Hij werkt aan de restauratie van het kerkje van San Damiano en heeft van dichtbij gezien hoe de jonge Franciscus stenen droeg en zong.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matteo",
+      "description": "Bergjager, bevelhebber van een poortwacht van Gubbio in de dagen van de angst voor de wolf. Getekend gezicht, de lans nooit ver weg, een gegeven woord dat geldt.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido II, bisschop van Assisi",
+      "description": "Bisschop van Assisi vanaf 1204. Gedocumenteerd door de bronnen: voor de stad bedekte hij Franciscus met zijn eigen mantel in de scène van de verzaking van de vaderlijke goederen.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Pietro di Bernardone",
+      "description": "Rijke lakenkoopman uit Assisi, vader van Franciscus. Het conflict met zijn zoon over de verkochte goederen mondde uit in de openbare scène voor de bisschop, verteld door Thomas van Celano.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Franciscus di Bernardone",
+      "description": "De jonge zoon van de koopman die in Assisi, in deze jaren, alles achterlaat en blootsvoets opnieuw begint. De reiziger kruist hem van verre of voor enkele ogenblikken; zijn woorden zijn hier schaars en trouw aan de bronnen.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "De mantel van de reiziger",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Onder een regen van het late najaar komt de reiziger in Eikendorp aan en ontmoet een verkleumde bedelaar: de eerste keuze van de weg.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "De regen van het late najaar heeft je drie dagen vergezeld. Wanneer je de eerste huizen van Eikendorp ziet, sluit de avond de paden al, en je mantel druipt van het water.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Onder een haag van sleedoorn zit een ineengedoken gestalte in een versleten zak. Hij steekt zijn hand niet uit: hij kijkt je alleen aan, met de heldere ogen van iemand die is opgehouden te vragen.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martino heeft de leeftijd van de paden. Hij is hoefsmid geweest in Spoleto, voordat de ziekte hem de smidse en het huis afnam. Nu is de weg alles wat hem rest.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Ik vraag niets, vreemdeling. Maar de nacht zal lang en ijzig zijn, en mijn rug verdraagt de vochtigheid niet meer.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martino beeft onder de haag. Wat doe je?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Je trekt je mantel uit en legt hem over zijn schouders.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Je biedt hem je arm en begeleidt hem tot aan het dorp.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Je gaat naast hem zitten, onder de haag, en luistert naar hem.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "De mantel verlaat je schouders en de kou trekt meteen in je botten. Maar in die kou zit een nieuwe lichtheid, die je niet kunt uitleggen.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Ik heb niets om je terug te geven, vriend. Alleen mijn naam: Martino. In het dorp zullen ze weten wat voor vreemdeling jij bent.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Jullie lopen langzaam, op elkaar gesteund, onder de dichte regen. Bij het hek van de herberg branden de lichten nog.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Heb je onderweg gezelschap opgeraapt, vreemdeling? Kom allebei binnen: mijn vuur stelt geen vragen.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Ik was hoefsmid in Spoleto: ik besloeg de paarden van de heren. Toen begonnen mijn handen te beven, en niemand wil een smid die beeft. Dank je dat je bent gaan zitten: de mensen lopen voorbij en trekken door, alsof ongeluk besmettelijk is.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Wanneer jullie opstaan, is de regen opgehouden. Je wijst hem de weg naar het dorp en kijkt hem langzaam weggaan, tot het donker hem opneemt.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "De herberg van Eikendorp ruikt naar hout en brood. Het lage vuur droogt de kleren en lost de vermoeidheid van de tocht op.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Je meldt je aan de toog, verkleumd en zonder mantel. Meester Bernardo neemt je lang op, en reikt je dan een lepel warme wijn: «Heb je je mantel weggegeven, op zo'n avond? Of je bent gek, of je bent beter dan je lijkt. We zullen zien.»",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Meester Bernardo houdt de herberg al dertig jaar: praktisch, wantrouwig, niet in staat iemand in de kou te laten staan. Van het dorp kent hij elke schuld en elke vriendelijkheid.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Hier geeft niemand iets cadeau, vreemdeling: het brood wordt betaald, en de ellende ook. Maar de plaats bij het vuur is niet te koop. Die is van wie aankomt.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "In een hoek verpulvert een vrouw met oplettende ogen kruiden in een vijzel. Het is Lucia, de weduwe die het dorp verzorgt met wortels en geduld. Niets van wat er op de weg gebeurt, ontgaat haar.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Ik heb je zien stilstaan onder de haag van de sleedoorn. Velen lopen daar voorbij, in die bocht: de weg leert je snel om niet te kijken. Jij bent blijven staan. Onthoud dat, wanneer iemand je zal zeggen wie je bent.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Je hebt ontdekt: Niemand is een vreemde. Gastvrijheid begint zo: niet bij een idee, maar bij een haag, bij een verkleumde man, bij een oponthoud. Tegemoetgaan aan wie de wereld je leert te vermijden, is de eerste stap van elke weg.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Onder die haag: wat heeft je bewogen, en wat hield je tegen? Denk aan je wegen van vandaag: wie kom je gewoonlijk tegen, en voor wie heb je geleerd om door te lopen?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "De nacht verstrijkt rustig. 's Ochtends vind je op de toog van de herberg een handvol kastanjes en geen enkel woord: in het dorp onthoudt men de dingen. Je weg is begonnen.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "De zoon van de koopman",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, begin 1206: de reiziger arriveert in de dagen waarin Franciscus, voor bisschop Guido, alles aan zijn vader teruggeeft. De stad kijkt, en vraagt zich af.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi ontvangt je met een geroezemoes dat niet dat van de marktdagen is. In de stegen spreken de mensen zacht over één naam: de zoon van ser Pietro di Bernardone, de lakenkoopman.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Bij de bron van het dorp legt een vrouw het je uit: de vader heeft de jongeman voor de bisschop gesleept, om de verkochte goederen terug te krijgen, en het plein loopt vol. Onder de muren, bij het vervallen kerkje van San Damiano, worstelt een metselaar alleen met een ingestorte muur.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "De stemmen op het plein zwellen aan. Aan de ene kant de menigte, aan de andere een man alleen met zijn stenen.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Je daalt af naar San Damiano om de metselaar te helpen.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Je rent naar het plein, voordat de menigte zich sluit.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Je klimt de treden van San Rufino op, om van bovenaf te kijken.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Een uur lang til je stenen naast de metselaar, terwijl de menigte daarboven rumoert. De man werkt zwijgend, en wijst dan naar het kerkje: een jongen uit Assisi herstelt het, zegt hij. Degene over wie iedereen spreekt.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Hij droeg stenen hierheen alsof het relieken waren, en hij zong. Ze zeggen dat hij gek is geworden. Ik heb veel gekken gezien: niemand werkte zo.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Wanneer je weer naar het plein klimt, lost de menigte al op. Je raapt flarden op: de jongeman heeft alles aan zijn vader teruggegeven, zelfs zijn kleren, en de bisschop heeft hem met zijn eigen mantel bedekt. Iemand lacht. Velen niet.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Je wringt je door de menigte tot onder het paleis van de bisschop. In het midden een magere jongeman met brandende ogen; tegenover hem een oude man die beeft van woede: ser Pietro di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Franciscus is ongeveer vierentwintig en heeft de houding van iemand die is opgegroeid tussen kostbare stoffen en feesten. Vandaag, staande voor de bisschop, lijkt hij dat alles al achter zich te hebben gelaten.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Mijn lakens, mijn paard, mijn geld: verkocht voor zijn dwaasheden! Ik wil recht, monseigneur. Dat hij afstand doet van elk ding van mij, tot de laatste draad.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Een lange stilte. Dan trekt de jongeman zijn kleren uit, een voor een, en legt ze aan de voeten van zijn vader. De menigte houdt de adem in. Bisschop Guido neemt zijn mantel af en bedekt de naakte schouders.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Tot vandaag heb ik Pietro di Bernardone vader genoemd. Voortaan zal ik vrij kunnen zeggen: Onze Vader, die in de hemel zijt.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Vanaf de treden van de kathedraal is het plein een mierenhoop. Je hoort de woorden niet, maar je ziet alles: de jongeman die zich ontkleedt, de oude man die de kleren opraapt, de bisschop die zijn mantel openslaat.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Naast je zucht een appelverkoper: ik heb processen en vechtpartijen op dit plein gezien, zegt hij, maar nooit een zoon die alles zo teruggeeft. Rondom lacht iemand luid, iemand veegt zijn ogen droog.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "De avond daalt over Assisi. In de herbergen spreekt men over niets anders: er is wie de jongeman bespot, wie hem heilig noemt, wie het hoofd schudt bij de gedachte aan de eigen kinderen.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Bisschop Guido steekt het leeggelopen plein over met de vermoeide stap van wie een moeilijke dag heeft bestuurd. Hij is het die Franciscus voor iedereen met zijn eigen mantel heeft bedekt.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Ik heb in mijn leven veel mannen aan de dingen zien hangen. Nooit iemand ze zo loslaten. Bid voor die jongen: en bid voor ons, die kijken en niet begrijpen.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Het plein loopt leeg. Wat doe je, voordat je de weg weer opgaat?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Je volgt Franciscus van verre, afgedaald naar San Damiano.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Je blijft om naar de stemmen van het plein te luisteren.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Je keert terug naar de metselaar, om af te maken wat je bent begonnen.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Je volgt Franciscus tot aan het vervallen kerkje. Je ziet hem een steen oprapen, afstoffen, op de muur leggen zoals iemand een huis op orde brengt. Je durft hem niet te storen. Je hervat de weg met dat beeld in je ogen.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Je blijft tot de fakkels doven. Je hoort het hele menselijke beestenboek: de afgunst, de spot, de ingehouden bewondering, de angst van de vaders. De stad zal er jaren over doen om te beslissen wat zij heeft gezien.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Teruggekomen om de muur af te maken? Goed zo. Stenen liegen niet: ze blijven waar je ze legt. Die jongen begrijpt dat: hij begint opnieuw bij de fundamenten. Van zichzelf, niet alleen van de kerken.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Wat is gedocumenteerd",
+          "text": "De verzaking van Franciscus voor bisschop Guido, begin 1206, wordt verteld door de Vita prima van Thomas van Celano, de biografie die het dichtst bij de heilige staat: de teruggave van de kleren, de woorden over de Vader die in de hemel is, de mantel van de bisschop. Ook de restauratie van San Damiano is gedocumenteerd. Tot de fictie behoren daarentegen de reiziger die jij speelt, de metselaar Giacomo en de dialogen die op het plein zijn opgevangen.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Je hebt ontdekt: Niets van jezelf, alles ontvangen. Verzaking is geen minachting voor de dingen: het is bevrijding van het idee ze te bezitten. Wie niets bezit, hoeft niets te verdedigen, en kan alles als geschenk ontvangen.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Je verlaat Assisi terwijl de lichten een voor een aangaan. Je hebt een man naakt en vrij op een plein zien blijven, en een hele stad zich zien afvragen. Ook jij loopt lichter: of misschien alleen aandachtiger voor het gewicht van de dingen.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "De man aan de rand van de weg",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Op de wegen tussen de dorpen kondigt het geluid van een klepper een melaatse aan. De reiziger moet afrekenen met angst, afkeer en eerbied: en met een gezicht dat hij kent.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "De weg tussen het dorp en de vallei loopt langs rustende akkers en steeneikenbossen. Bij een splitsing hoor je een droog, ritmisch geluid: de houten klepper waarmee de melaatsen hun voorbijgang aankondigen.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Aan de rand van de weg zit een man, in lompen gewikkeld. Het eerste wat je voelt, is je eigen lichaam dat verstijft: de stap die vertraagt, de ingehouden adem, het verlangen om naar de andere kant over te steken.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Dan zie je het: op de schouders van de man, versteld en verbleekt, ligt jouw mantel. Die je hebt weggegeven op de avond van je aankomst in Eikendorp. Je herkent de mantel eerder dan hem.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Kom niet dichterbij, vriend: de ziekte heeft me gegrepen, en de wet stuurt me de wereld uit. Maar jouw mantel heeft me de winter in leven gehouden. Ik ben Martino: ik ben je mijn leven schuldig, en ik kan je niet eens de hand drukken.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Een melaatse aan de rand van de weg. Wat doe je?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Je komt tot op een stap van hem en spreekt hem aan.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Je laat brood en vijgen op een steen achter, zonder dichterbij te komen.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Je loopt voorbij. Maar na twintig stappen blijf je staan en keer je terug.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Van dichtbij, onder de grijze as van de ziekte, herken je de heldere ogen van de man van de haag: het is Martino, de bedelaar van je eerste dag in het dorp.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "De ziekte heeft me de vingers afgenomen, daarna heeft het dorp me de rest afgenomen. Ik sla op dit hout en de mensen vluchten nog voordat ze me zien. Jij bent gebleven. Je weet niet wat een geschenk het is om in het gezicht te worden aangekeken.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Je legt het brood en de vijgen op een platte steen, halverwege tussen jou en hem. Het is de manier die iedereen gebruikt: naastenliefde op veilige afstand. Hij buigt het hoofd, langzaam.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Het brood is me genoeg, en ik dank je. Maar onthoud het, vreemdeling: mensen zoals ik sterven tweemaal. De eerste keer wanneer de ziekte komt, de tweede wanneer niemand hen nog bij hun naam noemt.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Je doet twintig stappen naar de vallei. Dan houdt de schaamte je sterker tegen dan de klepper: je keert terug, langzaam, tot aan de rand van de weg. De man heft zijn blik, verbaasd.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Velen lopen voorbij, weinigen keren terug. De stap terug is de moeilijkste van allemaal: ik weet het, ik heb het zelf geleerd. Ga zitten, als je wilt. Vertel me waar je vandaan komt.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Jullie blijven praten terwijl de zon daalt. Martino vertelt je over een broeder uit Assisi, die zoon van de koopman die alles achterliet: nu gaat hij de leprozerieën binnen, wast de wonden en noemt ieder bij zijn naam.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "De leprozerie ligt in de vallei, voorbij de brug, zegt Martino. Als je die broeder zoekt, zul je hem daar vinden.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Je biedt aan hem tot aan de leprozerie te begeleiden.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Je belooft hem dat men hem in het dorp niet zal vergeten.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Je begeleidt hem door de vallei, langzaam, zonder hem aan te raken maar zonder hem te ontwijken. Bij de brug nemen jullie afscheid zoals vrienden afscheid nemen: met het verdriet dat je moet laten gaan.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Het dorp heeft me verjaagd, zegt Martino. Maar als iemand daarboven mijn naam nog uitspreekt, ben ik minder dood. Je belooft het hem. Je weet nog niet wat het zal kosten om die belofte te houden.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "De woorden van Franciscus",
+          "text": "In het Testament, zijn meest persoonlijke geschrift, gedicteerd aan het einde van zijn leven, vertelt Franciscus dat de Heer hem onder de melaatsen bracht en dat hij hun barmhartigheid bewees: wat hem bitter leek, veranderde in zoetheid (Testament 1-3). Het is een van de weinige episodes die door zijn eigen stem zijn bevestigd. Martino en jullie ontmoeting behoren tot de fictie van de reiziger.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Je hebt ontdekt: De ontmoeting die een leven verandert. Naastenliefde is geen gevoel: het is het lichamelijke gebaar van wie naderbij komt bij wie buitengesloten is, en ontdekt dat bitterheid in zoetheid verandert. Wie geeft, plaatst zich niet boven wie ontvangt: zij ontmoeten elkaar.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Je hebt ontdekt: Naaste worden met je lichaam. In het Testament zegt Franciscus niet dat hij barmhartigheid voelde: hij zegt dat hij haar deed. Mededogen is waar wanneer het zich laat raken door het lijden van de ander, tot de handen in beweging komen.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Wat heeft je lichaam vandaag bewogen, vóór je gedachten: angst, afkeer, tederheid? Herinner je een gezicht dat je hebt leren ontwijken. Hoe heet het?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Je hervat de weg in het donker, met het geluid van de klepper dat achter je verdwijnt. Iets, in de manier waarop je naar mensen kijkt, is voorgoed veranderd.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Het beest van Gubbio",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio leeft in angst voor een woeste wolf. Tussen wie de verdediging organiseert, wie de ongewapende broeder volgt en wie een bemiddeling zoekt, ziet de reiziger een vrede ontstaan.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio verschijnt plotseling, vastgeklampt aan de berg. Maar de poorten zijn midden op de dag gesloten en de akkers eromheen zijn verlaten: niemand stuurt de kudden nog naar de weide.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matteo voert het bevel over de poortwacht: een bergjager, een getekend gezicht en de lans nooit ver weg. Hij is het die de drijfjachten op het beest organiseert.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Een wolf, vreemdeling. Zo groot als een kalf en zonder angst voor mensen. Hij heeft schapen genomen, honden, en daarna erger. We trekken met twintig man uit, gewapend. Als je benen je dragen, blijf dan uit het bos.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "In de taveerne bij de poort gaat een gerucht dat op een grap lijkt: er is een broeder uit Assisi in de stad, een van die blootsvoetse mannen die groeten met een wens van vrede. Hij zegt dat hij alleen zal gaan, ongewapend, om het beest te ontmoeten.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "De stad zit klem tussen angst en ongeloof. Wat doe je?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Je helpt Matteo de verdediging van huizen en kudden te organiseren.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Je volgt de broeder buiten de muren, een paar stappen achter hem.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Je overtuigt de jagers de broeder te begeleiden zonder lansen.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "De hele nacht grendel je poorten, draag je takkenbossen aan, organiseer je de wachtbeurten. Als het beest aanvalt, zal de stad niet verrast worden. Het is echt werk, en de mensen halen adem.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Ik houd niet van wie met wolven praat, maar ik houd van wie werkt. Jij hebt gewerkt. Morgen, met de lansen of zonder, zal Gubbio klaar zijn.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "In de ochtend zien jullie vanaf de muren de broeder alleen naar het bos gaan. Een zeer lange stilte. Dan verschijnt hij weer op de weg: en naast hem, gedwee als een lam, loopt de wolf.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Je loopt drie stappen achter de broeder, voorbij het laatste huis. Het bos sluit zich boven het pad en de angst snoert je keel: maar zijn stappen zijn rustig, en trekken ook de jouwe vooruit.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Vrees niet, broeder. We gaan een schepsel ontmoeten dat honger en angst heeft, zoals wij allen. Blijf dichtbij, als je wilt.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Het beest komt grommend uit het bos. De broeder slaat een kruis en spreekt het toe als een broeder: hij biedt het vrede, in naam van een verbond. En de wolf, voor je ogen, gaat aan zijn voeten liggen.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Je spreekt lang met Matteo en de zijnen: geen lansen, geen honden. Jullie zullen de broeder op afstand volgen, tot alles bereid maar vastbesloten niet als eersten te slaan. Het kost moeite hen te overtuigen: angst wil altijd het ijzer.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "We doen zoals jij zegt. Maar als het beest springt, sta ik nergens voor in. Dat de hemel ons helpe: we gaan op jacht zonder wapens.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "De halve stad volgt zwijgend, langs het pad. Wanneer de wolf verschijnt, zoeken honderd handen wapens die er niet zijn: maar geen enkele heft zich. De broeder spreekt, het beest duikt ineen, en de vrede begint zo: bij een angst die niemand op de ander afwentelt.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "Op het plein, voor heel Gubbio, bezegelt de broeder het verbond: de stad zal de wolf voeden al zijn dagen, en de wolf zal mens noch dier nog een haar krenken. Het beest heft de poot, en het plein barst los.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "De angst lost op in feest. Wat doe je?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Je biedt aan elke dag een brood naar het hol van de wolf te brengen.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Je blijft bij Matteo om de vallen in het bos te ontmantelen.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Je gaat op het plein zitten en vangt de stemmen van de stad op.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "De dagen die je in Gubbio blijft, komt elke ochtend een brood van jou bij het hol aan. De kinderen volgen je op afstand: ze willen zien of het waar is dat het beest niet bijt in de hand die het voedt.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Jullie ontmantelen klemmen en strikken een hele dag. Jaren om ze te zetten, zegt Matteo, en een blootsvoetse broeder maakt ze in één ochtend nutteloos. Hij lacht, maar in zijn lach zit respect.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "Op het plein hoor je de stad zichzelf weer vertellen: de oude vrouw die hem stiekem soep bracht, de bakker die hem zijn vingers schuldig is, de kinderen die hem inmiddels bij zijn naam noemen. De angst had zelfs de verhalen gedoofd.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Verhaal of geschiedenis?",
+          "text": "De wolf van Gubbio wordt verteld in de Fioretti, een verzameling uit het einde van de veertiende eeuw (hfdst. 21): hagiografische literatuur, geen kroniek, en geen document uit die tijd bevestigt hem. Wij bieden hem aan als verhaal van de herinnering, niet als historisch feit. Wel documentair gefundeerd zijn de vredesgroet die Franciscus zegt te hebben ontvangen, vermeld in het Testament, en de vredesverkondiging van de eerste broeders. Jouw rol in de gebeurtenis is fictie.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Je hebt ontdekt: De vredesgroet. Vrede is niet de afwezigheid van oorlog: het is een boodschap om te brengen, een moed om te hebben. Zij ontstaat door tegemoet te gaan aan wat angst aanjaagt, zonder wapens in de hand.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbio had drie wegen: zich verdedigen, vertrouwen, bemiddelen. Welke heb jij gekozen, en waarom? In jouw leven: wie of wat is de wolf waarvoor iedereen de poorten sluit?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Je verlaat Gubbio terwijl de wolf, inmiddels gevoed en ongevaarlijk, in de zon bij de oven slaapt. De stad heeft een nieuw woord geleerd, en jij hebt het met haar geleerd: vrede maak je, je wacht er niet op.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "De nacht van het onweer",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Overvallen door een onweer deelt de reiziger een grot met broeder Tommaso: een nacht van verhaal en luisteren, en een ochtend van zon op de natte bladeren.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Op de terugweg naar Eikendorp sluit de hemel zich snel. De wind brengt de geur van regen en de eerste donders rollen over de bergruggen.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Terwijl het onweer losbarst, roept een stem je vanuit een grot aan de rand van het pad. Een blootsvoetse broeder wenkt je naar binnen, tussen twee druppels en een bliksem.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Broeder Tommaso is een mindere op doorreis: versleten sandalen, een verstelde pij, een stok en verder niets. Hij is gewend aan stilte en heeft de zeldzame gave om te luisteren.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Kom binnen, broeder, en droog je. De grot is van niemand: vannacht delen we haar met de regen. Ik heb een beetje brood en het vuur: voor twee reizigers is dat een paleis.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Het vuur vat, het brood deelt zich vanzelf. Buiten maakt het onweer het geluid van een rivier; binnen heb je, voor het eerst na vele dagen, geen haast.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "De nacht zal lang zijn. Waarmee vul je hem?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Je vraagt broeder Tommaso naar zijn leven, vóór de pij.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Jij vertelt: het dorp, Martino, het plein van Assisi, de wolf van Gubbio.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Jullie blijven in stilte, en luisteren naar de regen.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Ik was herder, op deze bergen. Een vloed nam me de kudde en de hut af, in een nacht als deze. Ik huilde als een kind. Toen ontdekte ik dat ik, nu ik niets meer bezat, niets meer vreesde: daar begreep ik de broeders van Assisi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Broeder Tommaso luistert zonder te onderbreken, de ogen op het vuur. Aan het einde knikt hij: elke weg leert, zegt hij, als je haar met open ogen loopt. Jij hebt de weg je laten veranderen, en dat is te zien.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "De stilte is niet leeg: de regen scandeert, het vuur antwoordt, de adem van de ander houdt het ritme. Je begrijpt dat er gesprekken zijn die geen woorden nodig hebben.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Tegen de dageraad verdunt het onweer tot een zachte regen. Broeder Tommaso spreekt over zijn broeder Franciscus, die ook vanaf het bed van de pijn lofzangen maakt: hij noemt de zon broeder, het water zuster, de aarde moeder die ons in de schoot draagt.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Hij zegt dat elk schepsel de Schepper looft door te doen wat het is: de zon door te verwarmen, het water door de dorst te lessen, de aarde door te voeden. En dat ook de lelijke dag ontvangen is, niet verschuldigd. Als ik het herhaal, is het omdat ik het vannacht, hier, met mijn eigen ogen heb gezien.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Het eerste licht filtert de grot binnen.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Je vraagt hem hoe je kunt danken wanneer alles misgaat.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Je vraagt niets: je kijkt naar de druppels op de bladeren, en dat is genoeg.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Ik kan het niet uitleggen, broeder. Ik weet dat dankbaarheid niet de beloning van de goede dagen is: het is een oefening, zoals lopen. Wie het elke dag doet, heeft op de zwarte dagen geoefende benen.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Jullie blijven kijken tot de zon de wolken doorboort. De natte bladeren lichten een voor een op, en de hele vallei lijkt pas geschapen.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Jullie komen uit de grot in een gewassen wereld. Het water ruist nog uit de takken, de zon laat het schitteren, en je merkt dat je zonder reden glimlacht. Broeder Tommaso pakt zijn stok weer: jullie wegen scheiden hier.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Het Zonnelied, de grot, de fictie",
+          "text": "Het Zonnelied is een authentiek werk van Franciscus, geschreven in 1225-1226, in de tijd van de ziekte: een lauda in de volkstaal waarin zon, maan, wind, water, vuur en aarde God loven als broeders en zusters. Authentiek zijn ook de Lofzangen van de allerhoogste God, een gebed zonder verzoeken. Broeder Tommaso en de nacht in de grot behoren tot de fictie van de reiziger; zijn woorden parafraseren het Zonnelied zonder het te citeren.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Je hebt ontdekt: Broeder zon, zuster water. De wereld is geen voorraadschuur van grondstoffen en geen afgod: het is een familie van schepselen die de Schepper loven. De zorg voor de schepping ontstaat uit verwantschap en dankbaarheid, niet uit nut.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Je hebt ontdekt: De lof die niets vraagt. Dankbaarheid beloont het geluk niet: het is een geoefende blik die het geschenk in elk ding herkent, het water, de zon, de dag, zelfs in de ziekte.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Deze nacht heb je brood, vuur en stilte gedeeld met een onbekende. Kijk naar je dag van vandaag zoals de grot naar het onweer keek: wat van wat je hebt, is ontvangen en niet verschuldigd?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Terwijl je naar het dorp loopt, denk je terug aan zuster water, die de dorst lest en wast en zingt in de greppels. In de tuin van de herinnering stroomt vanaf vandaag een fontein.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "In Eikendorp ontvangen ze je als iemand die van ver terugkeert. Je hebt nog de geur van rook en regen in je kleren, en in je oren het geluid van het water. De weg gaat verder.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

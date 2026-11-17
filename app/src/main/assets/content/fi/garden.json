@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Kivipolku",
+      "kind": "sentiero",
+      "description": "Vaaleista kivistä tehty polku kulkee puutarhan halki: siitä jokainen matka alkaa.",
+      "symbolism": "Matka elämän kuvana: tie syntyy kulkemalla, kivi kerrallaan.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Rauhan oliivipuu",
+      "kind": "albero",
+      "description": "Vanha oliivipuu, hopeinen latvus. Se istutettiin, kun löysit rauhan tervehdyksen.",
+      "symbolism": "Oliivipuu: Välimeren kasvi, rauhan ja kärsivällisyyden merkki. Se kasvaa hitaasti ja kestää sukupolvesta toiseen.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Sisar veden lähde",
+      "kind": "acqua",
+      "description": "Kivinen lähde, jossa vesi on kirkasta. Aamuaurinko sytyttää sen.",
+      "symbolism": "\"Sisar vesi, hyödyllinen ja nöyrä, kallisarvoinen ja puhdas\": Luotujen laulussa vesi on sisar, josta kiitetään.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "San Damianon ruusut",
+      "kind": "fiore",
+      "description": "Kukkiva ruusupensas muurin vieressä: se kasvaa siellä, missä joku on pitänyt huolta toisista.",
+      "symbolism": "Kauneus, joka syntyy palvelusta: lähimmäisenrakkaus saa kuivat paikat kukkimaan.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Yhteinen kasvimaa",
+      "kind": "orto",
+      "description": "Pieniä yrtti- ja vihannespenkkejä, joita hoidetaan vuorotellen: nöyrää työtä, joka ravitsee kaikki.",
+      "symbolism": "Jokapäiväinen palvelu: kasvimaan hoitaja ei omista sitä, vaan varjelee sitä niille, jotka tulevat jälkeen.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Hiljaisuuden sypressi",
+      "kind": "albero",
+      "description": "Korkea ja suora sypressi merkitsee rajan puutarhan ja metsän välillä.",
+      "symbolism": "Rukous pystysuorana: juuret maassa, latva taivasta kohti.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Peippojen pesä",
+      "kind": "animali",
+      "description": "Turvallisimpien oksien välissä peippopari on valinnut puutarhan pesäpaikakseen.",
+      "symbolism": "Vastaanottavaisuus: puutarhasta tulee koti myös niille, jotka saapuvat sen ulkopuolelta.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Kivipenkki",
+      "kind": "struttura",
+      "description": "Kivipenkki muurin juurella keskipäivällä: paikka, jossa istutaan ja jäädään.",
+      "symbolism": "Usko luottavaisena pysähtymisenä: aina ei tarvitse kulkea, joskus riittää että on paikallaan.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Kiitoksen auringonkukat",
+      "kind": "fiore",
+      "description": "Rivi auringonkukkia, jotka kääntyvät valon mukaan päivän mittaan.",
+      "symbolism": "Kiitollisuus: kääntyminen valoa kohti on katseen jokapäiväinen harjoitus.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Mehiläispesä",
+      "kind": "animali",
+      "description": "Puinen pesä tuoksuu vahalta; mehiläiset kulkevat puutarhan kukkien välillä.",
+      "symbolism": "Veljeys: yksikään mehiläinen ei tee hunajaa yksin, eikä yksikään omista kennoa.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Katsoa taivasta",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        { "kind": "osserva", "text": "Nosta katseesi puutarhasta taivaalle. Pysy hetki hiljaa tekemättä mitään." },
+        { "kind": "leggi", "text": "Lue hitaasti Luotujen laulun alku.", "sourcePassageId": "pass.cantico.apertura" },
+        { "kind": "rifletti", "text": "Franciscus kutsuu aurinkoa \"veljeksi\" ja kuuta \"sisareksi\". Mitä muuttuisi, jos katsoisit maailmaa perheenä etkä resurssina?" },
+        { "kind": "annota", "text": "Jos haluat, kirjaa päiväkirjaan yksi asia, josta voit tänään sanoa: \"Ylistetty ole, Herrani\"." }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Kuunnella vettä",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        { "kind": "ascolta", "text": "Mene lähelle lähdettä. Kuuntele veden ääntä muutaman hengityksen ajan, kiireettä." },
+        { "kind": "leggi", "text": "Lue uudelleen La Vernassa kirjoitettu Jumalan ylistys: rukous, joka ei pyydä mitään.", "sourcePassageId": "pass.lodi_dio.lode" },
+        { "kind": "rifletti", "text": "Jumalan ylistyksissä ei ole pyyntöjä, vain tunnustamista. Milloin viimeksi kiitit pyytämättä mitään?" },
+        { "kind": "annota", "text": "Jos haluat, kirjoita päiväkirjaan kolme asiaa, jotka olet tänään saanut, olivat ne miten pieniä tahansa." }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Hidas askel",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        { "kind": "osserva", "text": "Kulje kivipolku hitaasti ja huomaa jokainen askel: paino, kosketus, rytmi." },
+        { "kind": "leggi", "text": "Lue Franciscuksen vastaus veli Leolle, joka etsi oikeaa valintaa.", "sourcePassageId": "pass.lettera_leone.coscienza" },
+        { "kind": "rifletti", "text": "Veli Leolle Franciscus ei anna ohjeita vaan vapauden: \"seuraa omaatuntoasi Jumalan edessä\". Mitä tämä tapa kulkea toisen rinnalla opettaa sinulle?" },
+        { "kind": "annota", "text": "Jos haluat, kirjaa päiväkirjaan päätös, jota kannat, ja suunta, johon tunnet omantuntosi kääntyvän." }
+      ]
+    }
+  ]
+}

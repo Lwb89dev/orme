@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Срещата, която променя живота",
+      "summary": "Обръщането на Франциск започва, когато преодолява отвращението и среща прокажените: милостта като конкретна среща с другия.",
+      "explanation": "В Завета Франциск разказва, че да види прокажените му се струвало „твърде горчиво“ и че именно срещата с тях е началото на покаянието му. Францисканската милост не е смътно чувство: тя е телесният жест на онзи, който се приближава до изключения и открива, че горчивината се превръща в сладост. Който дава, не застава над онзи, който получава: срещат се.",
+      "historicalContext": "През XIII век прокажените са изключени от градския живот, настанявани в лепрозории извън стените и смятани за символ на греха. Изборът на Франциск да живее сред тях е обществено скандален.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Нищо свое, всичко получено",
+      "summary": "Пред епископа Франциск връща дрехите на баща си: отказът от притежание като избор на свобода, а не като презрение към нещата.",
+      "explanation": "Отречението на Франциск пред епископ Гвидо е публичният жест, с който прекъсва връзката със семейното богатство. Не е бягство от нещата, а освобождение от идеята да ги притежаваш: който не притежава нищо, няма какво да защитава и може да приема всичко като дар. Техническият латински на традицията го нарича „sine proprio“: без собственост.",
+      "historicalContext": "Син на богат търговец на платове, Франциск е предопределен за социалното издигане на градската буржоазия. Отречението му през 1206 г. поразява въображението на Асизи именно защото е обърнато спрямо ценностите на търговския град.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Бедността като свобода",
+      "summary": "За Франциск бедността не е романтична мизерия: тя е да не си присвояваш нищо, за да останеш свободен да обичаш и да разчиташ единствено на Бога.",
+      "explanation": "Регулата от 1223 г. иска от братята да не си присвояват нищо, „нито къща, нито място, нито каквото и да е“, и да ходят за милостиня без срам, като помнят, че Господ се е направил беден. Францисканската бедност има богословска основа (бедният Христос) и психологическа: който няма какво да защитава, е свободен. Това не е покана да се възвеличава лишението, което е социална рана, а да не се оставяш да бъдеш определен от притежанието.",
+      "historicalContext": "Движението на доброволните бедни се ражда като реакция срещу растящото богатство на комуните и на клира; Църквата гледа с подозрение движенията за бедност и Франциск трябва мъчително да извоюва одобрение.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "По-малки братя",
+      "summary": "Общността на Франциск не е орден от началници и поданици: тя е братство на „по-малки“, в което всеки отговаря за другия.",
+      "explanation": "Франциск поискал неговите да се наричат по-малки братя: никой не е голям, а отговорните се наричат „министри“, тоест слуги. Регулата от 1221 г. иска нуждите да се изказват едни на други, братът да не се съди, слабият да не се презира. Братството е самата форма на Евангелието, живяно заедно: братя се става не по идеал, а по всекидневна практика.",
+      "historicalContext": "Братството се ражда около 1208–1210 г. от първите спътници (Бернардо, Егидий…) и расте бързо, докато не изисква структури: капитули, министри, написана регула.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Поздравът на мира",
+      "summary": "„Господ да ти даде мир“: Франциск прави от мира вест, която се носи, преди да бъде просто отсъствие на война.",
+      "explanation": "В Завета Франциск припомня, че Господ му открил поздрав на мира. Най-ранните източници описват как братята възвестяват мира от къща на къща. Францисканският мир е действен: носи се, изгражда се, посредничи — както в разказа за вълка от Губио, където мирът се ражда от смелостта да се излезе срещу онова, което плаши.",
+      "historicalContext": "Италия на комуните е прорязана от вражди между фракции, градски войни и сблъсъци между светска и църковна власт. Да се възвести мир, е политически жест не по-малко, отколкото духовен.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Седемдесет пъти по седем, и отвъд",
+      "summary": "На един отговорник в братството Франциск пише: ако брат съгреши хиляда пъти, все пак го обичай повече от мен.",
+      "explanation": "Писмото до един министър е францисканският текст за прошката: който води, не бива нито да се скандализира, нито да се втвърдява пред грешките на братята, а да възвестява милосърдие. Прошката не отрича злото: отказва злото да има последната дума за отношението. В Песента строфата за прошката е добавена — според преданието — за да помири скараните епископ и подест на Асизи.",
+      "historicalContext": "Бързо растящото братство живее с вътрешни напрежения; а градовете са разкъсани от отмъщения и вражди, които францисканците се стремят да умиротворят.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Да бъдеш по-малък, а не да се чувстваш по-добър",
+      "summary": "Францисканското смирение е истина за себе си: нито да се въздигаш, нито да се презираш, а да служиш като последния.",
+      "explanation": "Увещанията предупреждават срещу собствената воля, направена мярка за всичко, и срещу духовното самодоволство. Смирение за Франциск е да се видиш в истината: малък пред Бога, длъжник за всичко, способен да служиш, без да искаш признание. Не е ниско самочувствие: свобода е от нуждата да изглеждаш.",
+      "historicalContext": "В общество, основано върху честта и ранга, да се наречеш „по-малък“ е програма срещу течението; а вътре в растящото братство смирението е противоотрова срещу вътрешното съревнование.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Брат Слънце, сестра Вода",
+      "summary": "Песента на творенията: светът не е склад с ресурси, нито идол, а семейство от твари, които хвалят Създателя.",
+      "explanation": "В Песента Франциск хвали Бога чрез творенията: брат Слънце, сестра Луна, сестра Вода, „полезна и смирена, и скъпоценна, и чиста“, сестра ни майка Земя. Природата не е обожествена: тя е сестра, защото е дъщеря на същия Отец. Грижата за сътвореното се ражда тук от благодарност и родство, не от полезност. И Песента се ражда в болестта: хвалата не зависи от обстоятелствата.",
+      "historicalContext": "Съставена през 1225–1226 г., докато Франциск е болен и почти сляп, тя е сред първите поетични текстове на италиански народен език. Бонавентура я поставя в сезона на изпитанията.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Съвършената радост",
+      "summary": "Францисканската радост не зависи от резултатите: остава и в отказа, и в умората, защото се ражда от любовта, а не от успеха.",
+      "explanation": "В Цветенцата Франциск обяснява на брат Лъв, че истинската радост не са чудесата, нито обръщанията, а да се върнеш отблъснат и премръзнал и да останеш търпелив и радостен. Това е агиографски разказ, не хроника, но събира една истинска черта на францисканския дух: радостта като вътрешен избор, който никое събитие не може да отнеме.",
+      "historicalContext": "Цветенцата (края на XIV век) събират живата памет на ранното францисканство; четат се като духовна литература, не като документална история.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Пустинята, която обитава в света",
+      "summary": "Франциск редува мисия и уединение: молитвата като място, на което се връщаш към същественото пред Бога.",
+      "explanation": "Францисканският живот не е само действие: Франциск търси пустинни места и уединения (Карчери, Ла Верна) с малко спътници и дълги мълчания. В Писмото до брат Лъв препраща към съвестта пред Бога: молитвата не е техника, а отношение. Хвалите на Всевишния Бог показват най-чистата му молитва: хвала без молби.",
+      "historicalContext": "Францисканските уединения възникват в дивите места на умбрийско-тосканските Апенини; Ла Верна, подарена на Франциск през 1213 г., става уединението по превъзходство.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Да следваш следите на Христос",
+      "summary": "Духовността на Франциск не е философия на природата: тя е следване на бедния и разпнатия Христос вътре във вярата на Църквата.",
+      "explanation": "Всичко у Франциск тръгва от Христос: разпятието от Сан Дамиано, което му говори, изборът на бедността, „защото Господ се е направил беден“, страданието, съзерцавано на Ла Верна, простата вяра в църквите от Завета. Да се изтръгне този корен, не прави Франциск по-универсален: прави го неузнаваем. Приложението го представя такъв, какъвто е — без да го налага и без да го заличава.",
+      "historicalContext": "Франциск живее вярата в рамките на средновековната Църква: търси нейното одобрение за формата си на живот и приема границите ѝ, макар да тласка обновлението отдолу.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Регула, за да не се изгубиш",
+      "summary": "Францисканското послушание не е самозаличаване: то е общ договор, който пази братството от разпиляване и от произвол.",
+      "explanation": "Франциск поискал одобрението на Църквата и писал все по-съществени регули (1221, 1223). Послушанието в Увещанията и в Регулите е взаимно: подчиняваш се на споделената регула, а който води, служи. Заветът иска правилото да не се покрива с глоси: да се живее „просто и без глоси“. Общност и послушание са рамката, която прави свободата трайна.",
+      "historicalContext": "Между 1210 и 1223 г. братството преминава от малка група в признат Орден; напрежението между харизма и институция пронизва цялата францисканска история.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Хвалата, която не иска нищо",
+      "summary": "Хвалите на Бога и Песента се раждат в болестта: францисканската благодарност не награждава късмета, а разпознава дара във всяко нещо.",
+      "explanation": "Хвалите на Всевишния Бог, написани на Ла Верна, са молитва без нито една молба: само признание. И Песента, съставена в страданието, е хвала. Францисканската благодарност е обучен поглед: вижда всяко нещо — водата, слънцето, деня, дори смъртта — като получено. Който благодари, не притежава: обитава.",
+      "historicalContext": "През 1224–1226 г. Франциск е тежко болен, почти сляп и белязан от оттеглянето от ръководството на Ордена: хвалата от онези години не е наивност, а завоювано.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Който води, служи",
+      "summary": "В братството отговорните се наричат „министри“: службата като единствена законна форма на власт.",
+      "explanation": "Франциск обръща йерархията: министърът е онзи, който служи, кустодът е онзи, който пази братята, а не онзи, който заповядва. Писмото до един министър показва тона: близост до онзи, който греши, никога презрение. Службата не е стратегия, за да се харесаш: тя е християнският начин да обитаваш всяка роля — от брата до епископа, от родителя до кмета.",
+      "historicalContext": "Титлите на францисканската йерархия (министър, кустод, гардиан) са избрани именно срещу логиката на средновековния престиж.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Никой не е чужд",
+      "summary": "Прокажени, разбойници, султан, вълк: францисканската традиция тласка гостоприемството отвъд границите на собствената група.",
+      "explanation": "Франциск среща прокажените, отива при султан ал-Малик ал-Камил в разгара на кръстоносния поход и в народната памет говори дори с вълка. Францисканското гостоприемство не е пасивна търпимост: то е да излезеш насреща, да се изложиш, да наречеш „брат“ онзи, когото собственият ти свят нарича враг. Започва от неудобния ближен и не спира на границите на вярата или на езика.",
+      "historicalContext": "Срещата със султана (1219, Дамиета) става по време на Петия кръстоносен поход: жест на мир, документиран от източниците, макар и в границите на средновековното свидетелство.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Да станеш ближен с тялото",
+      "summary": "„Сторих им милост“: францисканското милосърдие е състрадание, което става конкретен жест, не жалост отдалеч.",
+      "explanation": "В Завета Франциск използва силна дума: с прокажените „сторих милост“. Не казва, че изпитал състрадание: сторил го е. Милосърдието е способността да се оставиш да бъдеш достигнат от страданието на другия чак дотам, че ръцете ти да се раздвижат. То е коренът, от който растат милостта, прошката и мирът.",
+      "historicalContext": "Средновековното благочестие познава милостинята като практика, която носи заслуга; Франциск я превръща в отношение: не се дава на бедния, стои се при бедния.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Трудът на ръцете",
+      "summary": "Франциск не противопоставя молитва и труд: честният труд държи надалеч безделието и не бива да угасва молитвата.",
+      "explanation": "В Завета Франциск казва, че е работил с ръцете си, и иска братята да работят — не от алчност за заплатата, а заради примера и срещу безделието. Ако заплатата липсва, връщат се към милостинята. Утвърдената регула добавя границата: трудът е благодат, а временните неща трябва да служат на духа на молитвата, не да го заместват. В неутвърдената регула трудът е и начин да се стои в чуждата къща като по-малки, без да се поемат служби, които дават власт.",
+      "historicalContext": "Много от първите братя идват от занаяти. Въпросът за труда и парите е остър още преди 1223 г.: Регулата от 1221 г. е по-пространна и по-строга към парите; утвърдената е по-кратка и възлага на министрите грижата за болните чрез духовни приятели.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Тялото, не идея",
+      "summary": "За Франциск Синът Божи в този свят се вижда в тялото и в кръвта, които свещениците приемат и дават.",
+      "explanation": "Заветът свързва почитта към свещениците с това: Франциск казва, че телесно не вижда нищо друго от Сина Божи освен тялото и кръвта Му. Писмото до целия Орден довежда същата вяра до самия вид на хляба и иска от свещениците да служат, без да търсят да се харесат на хората. Това не е странична тема. Това е центърът, от който Франциск чете Църквата, написаните думи и собствената си малкост. Приложението го казва такова, каквото е: средновековна евхаристийна вяра, не обща метафора на дара.",
+      "historicalContext": "Евхаристийното благочестие на Франциск стои вътре в реформата на Четвъртия Латерански събор (1215), който налага ежегодна изповед и уточнява учението за тайнството. Писмата до клириците и до кустодите, невъзпроизведени тук изцяло, настояват върху същото.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Формата на Евангелието",
+      "summary": "Франциск не измисля духовност редом с Евангелието: казва, че Всевишният му открил да живее според тази форма, и я дал да бъде написана.",
+      "explanation": "Заветът е изричен: никой не му показвал какво да прави; Всевишният му открил да живее според формата на светото Евангелие; той я дал да бъде написана с малко думи, а папата я потвърдил. Двете Регули започват от същото място. Да се спазва Евангелието в тези текстове не е чувство: то е послушание, нищо свое и целомъдрие вътре в одобрено братство. Разказът за отречението пред епископа у Челано е друга сцена на същия избор. Тук текстът на Франциск стои преди разказа за Франциск.",
+      "historicalContext": "Устното одобрение на Инокентий III преданието датира към 1209 или 1210 г.; неутвърдената регула е от 1221 г.; утвърдената е потвърдена от Хонорий III на 29 ноември 1223 г. Заветът от 1226 г. препрочита цялата поредица като едно-единствено откровение.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

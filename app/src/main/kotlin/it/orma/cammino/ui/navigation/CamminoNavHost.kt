@@ -76,8 +76,14 @@ fun CamminoNavHost(
             val route = entry.toRoute<Route.Conversation>()
             ConversationScreen(container = container, catalog = catalog, conversationId = route.conversationId, navController = navController)
         }
-        composable<Route.Knowledge> {
-            KnowledgeScreen(container = container, catalog = catalog, navController = navController)
+        composable<Route.Knowledge> { entry ->
+            val route = entry.toRoute<Route.Knowledge>()
+            KnowledgeScreen(
+                container = container,
+                catalog = catalog,
+                navController = navController,
+                initialSection = route.section,
+            )
         }
         composable<Route.TeachingDetail> { entry ->
             val route = entry.toRoute<Route.TeachingDetail>()

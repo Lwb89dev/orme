@@ -1,5 +1,6 @@
 package it.orma.cammino.ui.knowledge
 
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -35,7 +36,9 @@ import it.orma.cammino.core.content.ContentCatalog
 import it.orma.cammino.core.designsystem.components.OrnamentalDivider
 import it.orma.cammino.core.designsystem.components.PergamenaCard
 import it.orma.cammino.core.designsystem.components.TeachingStatusChip
+import it.orma.cammino.core.model.Authenticity
 import it.orma.cammino.core.model.CertaintyLevel
+import it.orma.cammino.core.model.SourceCategory
 import it.orma.cammino.core.progression.ProgressionState
 import it.orma.cammino.di.AppContainer
 import it.orma.cammino.ui.navigation.Route
@@ -51,20 +54,22 @@ import it.orma.cammino.ui.i18n.teachingStatusText
 import it.orma.cammino.ui.i18n.uiText
 
 enum class KnowledgeSection(val label: String) {
+    SCRITTI("Scritti"),
+    INSEGNAMENTI("Insegnamenti"),
     BIOGRAFIA("Biografia"),
     CRONOLOGIA("Cronologia"),
-    INSEGNAMENTI("Insegnamenti"),
-    FONTI("Fonti"),
+    FONTI("Altre fonti"),
     LUOGHI("Luoghi"),
     PERSONE("Persone"),
     GLOSSARIO("Glossario"),
 }
 
 private fun KnowledgeSection.englishLabel(): String = when (this) {
+    KnowledgeSection.SCRITTI -> "Writings"
+    KnowledgeSection.INSEGNAMENTI -> "Teachings"
     KnowledgeSection.BIOGRAFIA -> "Biography"
     KnowledgeSection.CRONOLOGIA -> "Chronology"
-    KnowledgeSection.INSEGNAMENTI -> "Teachings"
-    KnowledgeSection.FONTI -> "Sources"
+    KnowledgeSection.FONTI -> "Other sources"
     KnowledgeSection.LUOGHI -> "Places"
     KnowledgeSection.PERSONE -> "People"
     KnowledgeSection.GLOSSARIO -> "Glossary"
@@ -92,15 +97,22 @@ class KnowledgeViewModel(container: AppContainer) : ViewModel() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun KnowledgeScreen(container: AppContainer, catalog: ContentCatalog, navController: NavHostController) {
+fun KnowledgeScreen(
+    container: AppContainer,
+    catalog: ContentCatalog,
+    navController: NavHostController,
+    initialSection: String = KnowledgeSection.SCRITTI.name,
+) {
     val vm: KnowledgeViewModel = viewModel(factory = KnowledgeViewModel.factory(container))
     val progression by vm.progression.collectAsStateWithLifecycle()
-    var section by rememberSaveable { mutableStateOf(KnowledgeSection.BIOGRAFIA.name) }
+    val start = KnowledgeSection.entries.firstOrNull { it.name == initialSection }?.name
+        ?: KnowledgeSection.SCRITTI.name
+    var section by rememberSaveable(start) { mutableStateOf(start) }
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(uiText("La vita e le fonti", "Life and sources")) },
+                title = { Text(uiText("Leggere Francesco", "Reading Francis")) },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = uiText("Indietro", "Back"))
@@ -118,30 +130,22 @@ fun KnowledgeScreen(container: AppContainer, catalog: ContentCatalog, navControl
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             // Selettore di sezione
-            Text(uiText("Esplora", "Explore"), style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
-            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    KnowledgeSection.entries.take(4).forEach { s ->
-                        FilterChip(
-                            selected = section == s.name,
-                            onClick = { section = s.name },
-                            label = { Text(uiText(s.label, s.englishLabel()), style = MaterialTheme.typography.labelSmall) },
-                        )
-                    }
-                }
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    KnowledgeSection.entries.drop(4).forEach { s ->
-                        FilterChip(
-                            selected = section == s.name,
-                            onClick = { section = s.name },
-                            label = { Text(uiText(s.label, s.englishLabel()), style = MaterialTheme.typography.labelSmall) },
-                        )
-                    }
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                modifier = Modifier.horizontalScroll(rememberScrollState()),
+            ) {
+                KnowledgeSection.entries.forEach { s ->
+                    FilterChip(
+                        selected = section == s.name,
+                        onClick = { section = s.name },
+                        label = { Text(uiText(s.label, s.englishLabel())) },
+                    )
                 }
             }
             OrnamentalDivider()
 
             when (KnowledgeSection.valueOf(section)) {
+                KnowledgeSection.SCRITTI -> WritingsSection(catalog, navController)
                 KnowledgeSection.BIOGRAFIA -> BiographySection(catalog)
                 KnowledgeSection.CRONOLOGIA -> TimelineSection(catalog)
                 KnowledgeSection.INSEGNAMENTI -> TeachingsSection(catalog, progression, navController)
@@ -257,8 +261,48 @@ private fun TeachingsSection(catalog: ContentCatalog, progression: ProgressionSt
 }
 
 @Composable
+private fun WritingsSection(catalog: ContentCatalog, navController: NavHostController) {
+    val writings = catalog.sourceDocuments.filter {
+        it.category == SourceCategory.SCRITTO_AUTENTICO && it.authenticity != Authenticity.NOT_BY_FRANCIS
+    }.sortedBy { it.dateFrom ?: Int.MAX_VALUE }
+    Text(
+        uiText(
+            "I testi attribuiti a Francesco. L'originale medievale è in corsivo; la traduzione è editoriale, di questa app.",
+            "Texts attributed to Francis. The medieval original is in italics; the translation is this app's own.",
+        ),
+        style = MaterialTheme.typography.bodyMedium,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
+    writings.forEach { doc ->
+        val readable = catalog.passagesOf(doc.id).count { it.originalText.isNotBlank() }
+        PergamenaCard(
+            onClick = { navController.navigate(Route.SourceDetail(doc.id)) },
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            Text(
+                doc.title,
+                style = MaterialTheme.typography.titleMedium,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.semantics { heading() },
+            )
+            Spacer(Modifier.height(2.dp))
+            Text(
+                listOfNotNull(
+                    doc.compositionDate.ifBlank { null },
+                    if (readable > 0) uiText("$readable passi nel testo", "$readable passages in the text") else uiText("scheda, senza testo integrale", "note, without the full text"),
+                ).joinToString(" · "),
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Spacer(Modifier.height(4.dp))
+            Text(doc.description, style = MaterialTheme.typography.bodyMedium)
+        }
+    }
+}
+
+@Composable
 private fun SourcesSection(catalog: ContentCatalog, navController: NavHostController) {
-    catalog.sourceDocuments.forEach { doc ->
+    catalog.sourceDocuments.filter { it.category != SourceCategory.SCRITTO_AUTENTICO }.forEach { doc ->
         PergamenaCard(
             onClick = { navController.navigate(Route.SourceDetail(doc.id)) },
             modifier = Modifier.fillMaxWidth(),

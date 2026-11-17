@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Susitikimas, kuris pakeičia gyvenimą",
+      "summary": "Pranciškaus atsivertimas prasideda tada, kai jis įveikia pasibjaurėjimą ir susitinka raupsuotuosius: artimo meilė kaip konkretus susitikimas su kitu.",
+      "explanation": "Testamente Pranciškus pasakoja, kad matyti raupsuotuosius jam atrodė „per daug karti“, ir kad būtent susitikimas su jais buvo jo atgailos pradžia. Pranciškoniška artimo meilė nėra bendras jausmas: tai kūniškas gestas to, kuris prisiartina prie atstumtojo ir atranda, kad kartumas virsta saldumu. Kas duoda, nestovi aukščiau už tą, kuris gauna: jie susitinka.",
+      "historicalContext": "XIII amžiuje raupsuotieji buvo išstumti iš miesto gyvenimo, apgyvendinti leprozoriumuose už sienų ir laikyti nuodėmės ženklu. Pranciškaus pasirinkimas gyventi tarp jų buvo socialiai skandalingas.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Nieko sava, viskas gauta",
+      "summary": "Vyskupo akivaizdoje Pranciškus grąžina drabužius tėvui: atsižadėjimas nuosavybės kaip laisvės pasirinkimas, ne kaip daiktų niekinimas.",
+      "explanation": "Pranciškaus atsižadėjimas vyskupo Gvido akivaizdoje yra viešas gestas, kuriuo jis nutraukia ryšį su šeimos turtais. Tai ne pabėgimas nuo daiktų, o išsilaisvinimas iš minties juos valdyti: kas nieko nevaldo, tam nėra ko ginti, ir viską gali priimti kaip dovaną. Tradicijos lotyniškas terminas tai vadina „sine proprio“: be nuosavybės.",
+      "historicalContext": "Turtingo audinių pirklio sūnus Pranciškus buvo skirtas komunų miestiečių socialiniam kilimui. Jo atsižadėjimas 1206 metais sukrėtė Asyžiaus vaizduotę būtent todėl, kad apvertė prekybinio miesto vertybes.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Neturtas kaip laisvė",
+      "summary": "Pranciškui neturtas nėra romantiška skurdo poetika: tai nieko nesisavinti, kad liktum laisvas mylėti ir priklausytum tik nuo Dievo.",
+      "explanation": "1223 metų Regula prašo brolių nieko nesisavinti, „nei namų, nei vietos, nei jokio daikto“, ir eiti išmaldos nesigėdijant, prisimenant, kad Viešpats tapo neturtėliu. Pranciškoniškas neturtas turi teologinį pagrindą (neturtėlis Kristus) ir psichologinį: kas neturi ko ginti, tas laisvas. Tai ne kvietimas šlovinti skurdą, kuris yra socialinė žaizda, o neapsibrėžti nuosavybe.",
+      "historicalContext": "Savanoriško neturto judėjimas kilo kaip atsakas į augantį komunų ir dvasininkijos turtą; Bažnyčia į neturto judėjimus žiūrėjo įtariai, ir Pranciškus turėjo sunkiai išsikovoti pritarimą.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Mažesnieji broliai",
+      "summary": "Pranciškaus bendruomenė nėra vyresniųjų ir pavaldinių ordinas: tai „mažesniųjų“ brolystė, kurioje kiekvienas atsakingas už kitą.",
+      "explanation": "Pranciškus norėjo, kad saviškiai vadintųsi mažesniaisiais broliais: niekas nėra didis, atsakingieji vadinami „ministrais“, tai yra tarnais. 1221 metų Regula prašo vieniems kitiems išsakyti savo poreikius, neteisti brolio, neniekinti silpnojo. Brolystė yra pati kartu gyvenamos Evangelijos forma: broliais esama ne dėl idealo, o dėl kasdienės praktikos.",
+      "historicalContext": "Brolystė gimsta apie 1208–1210 metus iš pirmųjų bendražygių (Bernardo, Egidijaus…) ir greitai išauga tiek, kad prireikia sandaros: kapitulų, ministrų, rašytinės regulos.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Taikos pasveikinimas",
+      "summary": "„Viešpats teduoda tau taiką“: Pranciškus taiką padaro skelbimu, kurį reikia nešti, anksčiau nei karo nebuvimu.",
+      "explanation": "Testamente Pranciškus prisimena, kad Viešpats jam apreiškė taikos pasveikinimą. Ankstyvieji šaltiniai aprašo brolius, skelbiančius taiką iš namų į namus. Pranciškoniška taika yra veikli: ji nešama, statoma, tarpininkaujama – kaip Gubijo vilko pasakojime, kur taika gimsta iš drąsos eiti priešais tai, kas baugina.",
+      "historicalContext": "Komunų Italiją raižė grupuočių vaidai, miestų karai ir konfliktai tarp pasaulietinės bei bažnytinės valdžios. Skelbti taiką buvo politinis gestas, ne tik dvasinis.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Septyniasdešimt kartų septynis, ir dar daugiau",
+      "summary": "Brolystės atsakingajam Pranciškus rašo: jei brolis nusidėtų tūkstantį kartų, vis tiek mylėk jį labiau už mane.",
+      "explanation": "Laiškas ministrui yra pranciškoniškas atleidimo tekstas: kas vadovauja, neturi piktintis ir kietėti brolių klaidų akivaizdoje, bet skelbti gailestingumą. Atleidimas neneigia blogio: jis atsisako leisti blogiui tarti paskutinį žodį apie santykį. Giesmėje strofa apie atleidimą, pasak tradicijos, buvo pridėta tam, kad sutaikytų susipykusius Asyžiaus vyskupą ir podestą.",
+      "historicalContext": "Sparčiai auganti brolystė gyveno vidinėmis įtampomis; o miestus draskė kerštas ir vaidai, kuriuos pranciškonai mėgino taikyti.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Būti mažesniems, ne jaustis geresniems",
+      "summary": "Pranciškoniškas nuolankumas yra tiesa apie save: neišaukštinti savęs, neniekti savęs, tarnauti kaip paskutiniajam.",
+      "explanation": "Perspėjimai įspėja nuo savos valios, paverstos visų matu, ir nuo dvasinio savimi pasitenkinimo. Nuolankumas Pranciškui yra matyti save tiesoje: mažiems Dievo akivaizdoje, skolingiems už viską, gebantiems tarnauti nereikalaujant pripažinimo. Tai ne menka savigarba: tai laisvė nuo poreikio pasirodyti.",
+      "historicalContext": "Visuomenėje, grįstoje garbe ir luomu, vadintis „mažesniaisiais“ buvo programa prieš srovę; o augančios brolystės viduje nuolankumas buvo priešnuodis vidinei varžybai.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Brolis saulė, sesuo vanduo",
+      "summary": "Kūrinijos giesmė: pasaulis nėra išteklių sandėlis ir nėra stabas, o kūrinių šeima, šlovinanti Kūrėją.",
+      "explanation": "Giesmėje Pranciškus šlovina Dievą „per“ kūrinius: brolį saulę, seserį mėnulį, seserį vandenį, „labai naudingą, nuolankią, brangią ir skaistią“, seserį mūsų motiną žemę. Gamta nėra sudievinama: ji sesuo, nes to paties Tėvo dukra. Rūpestis kūrinija čia gimsta iš dėkingumo ir giminystės, ne iš naudos. O Giesmė gimsta ligoje: gyrius nepriklauso nuo aplinkybių.",
+      "historicalContext": "Sukurtas 1225–1226 metais, kai Pranciškus sirgo ir buvo beveik aklas, jis yra tarp pirmųjų poetinių tekstų italų liaudies kalba. Bonaventūra jį talpina išbandymų metą.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Tobuloji linksmybė",
+      "summary": "Pranciškoniškas džiaugsmas nepriklauso nuo rezultatų: jis lieka ir atstūmime, ir varge, nes gimsta iš meilės, ne iš sėkmės.",
+      "explanation": "Fioretti Pranciškus broliui Leonui aiškina, kad tikroji linksmybė nėra nei stebuklai, nei atsivertimai, o grįžti atstumtiems ir sušalusiems ir likti kantriems bei linksmiems. Tai hagiografinis pasakojimas, ne kronika, bet jis sutelkia tikrą pranciškoniškos dvasios bruožą: džiaugsmą kaip vidinį pasirinkimą, kurio joks įvykis negali atimti.",
+      "historicalContext": "Fioretti (XIV a. pabaiga) surenka gyvą pirmojo pranciškoniškumo atmintį; juos reikia skaityti kaip dvasinę literatūrą, ne kaip dokumentuotą istoriją.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Dykuma, gyvenanti pasaulyje",
+      "summary": "Pranciškus kaitaliojo misiją ir atsiskyrimą: malda kaip vieta, kurioje grįžtama prie to, kas esminga, Dievo akivaizdoje.",
+      "explanation": "Pranciškoniškas gyvenimas nėra vien veikimas: Pranciškus ieškojo eremų ir atsiskyrimo (Karcerių, La Vernos), vesdamasis nedaug bendražygių ir ilgas tylas. Laiške broliui Leonui jis nukreipia į sąžinę Dievo akivaizdoje: malda nėra technika, o santykis. Aukščiausiojo Dievo gyriai rodo gryniausią jo maldą: gyrių be prašymų.",
+      "historicalContext": "Pranciškonų eremai kūrėsi laukinėse Umbrijos ir Toskanos Apeninų vietose; La Verna, 1213 metais padovanota Pranciškui, tapo svarbiausiuoju atsiskyrimu.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Sekti Kristaus pėdomis",
+      "summary": "Pranciškaus dvasingumas nėra gamtos filosofija: tai neturtėlio ir nukryžiuoto Kristaus sekimas Bažnyčios tikėjimo viduje.",
+      "explanation": "Viskas Pranciškuje prasideda nuo Kristaus: Šv. Damijono kryžius, kuris jam prabyla, neturto pasirinkimas „nes Viešpats tapo neturtėliu“, La Vernoje kontempliuojama kančia, paprastas tikėjimas bažnyčiomis Testamente. Išrauti šią šaknį nereiškia padaryti Pranciškų universalesnį: tai reiškia padaryti jį neatpažįstamą. Programėlė ją pateikia tokią, kokia ji yra, nei primesdama, nei ištrindama.",
+      "historicalContext": "Pranciškus gyveno tikėjimą viduramžių Bažnyčios rėmuose, ieškodamas jos pritarimo savo gyvenimo formai ir priimdamas jos ribas, nors ir stūmė reformą iš apačios.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Regula, kad nepasiklystum",
+      "summary": "Pranciškoniškas klusnumas nėra savęs panaikinimas: tai bendras susitarimas, saugantis brolystę nuo išsisklaidymo ir savivalės.",
+      "explanation": "Pranciškus prašė Bažnyčios pritarimo ir rašė vis esmingesnes regulas (1221, 1223). Klusnumas Perspėjimuose ir Regulose yra abipusis: klausoma bendros regulos, o kas vadovauja – tas tarnauja. Testamentas prašo neglosuoti regulos: gyventi ją „paprastai ir be glosų“. Bendruomenė ir klusnumas yra rėmas, kuris laisvę padaro tvaria.",
+      "historicalContext": "Tarp 1210 ir 1223 metų brolystė iš mažos grupės tapo pripažintu Ordinu; įtampa tarp charizmos ir institucijos eina per visą pranciškonų istoriją.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Gyrius, kuris nieko neprašo",
+      "summary": "Dievo gyriai ir Giesmė gimsta ligoje: pranciškoniškas dėkingumas neapdovanoja sėkmės, o atpažįsta dovaną kiekviename dalyke.",
+      "explanation": "Aukščiausiojo Dievo gyriai, parašyti La Vernoje, yra malda be vieno vienintelio prašymo: tik pripažinimas. Ir Giesmė, sukurta kentėjime, yra gyrius. Pranciškoniškas dėkingumas yra išlavintas žvilgsnis: kiekvieną dalyką – vandenį, saulę, dieną, net mirtį – jis mato kaip gautą. Kas dėkoja, tas nevaldo: tas gyvena.",
+      "historicalContext": "1224–1226 metais Pranciškus sunkiai sirgo, buvo beveik aklas ir paženklintas atsiskyrimo nuo Ordino vadovavimo: tų metų gyrius nėra naivumas, o iškovojimas.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Kas vadovauja, tas tarnauja",
+      "summary": "Brolystėje atsakingieji vadinami „ministrais“: tarnystė kaip vienintelė teisėta valdžios forma.",
+      "explanation": "Pranciškus apverčia hierarchiją: ministras yra tas, kuris tarnauja, kustodas – tas, kuris saugo brolius, ne tas, kuris įsakinėja. Laiškas ministrui rodo toną: artumą tam, kuris klysta, niekada panieką. Tarnystė nėra strategija įtikti: tai krikščioniškas būdas gyventi kiekvieną vaidmenį, nuo brolio iki vyskupo, nuo tėvo iki miesto valdytojo.",
+      "historicalContext": "Pranciškonų hierarchijos titulai (ministras, kustodas, gvardijonas) buvo pasirinkti būtent prieš viduramžių prestižo logiką.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Niekas nėra svetimas",
+      "summary": "Raupsuotieji, plėšikai, sultonas, vilkas: pranciškonų tradicija stumia svetingumą už savos grupės ribų.",
+      "explanation": "Pranciškus susitinka raupsuotuosius, pačiame kryžiaus žygyje eina pasitikti sultono al-Maliko al-Kamilio ir liaudies atmintyje net kalbasi su vilku. Pranciškoniškas svetingumas nėra pasyvi tolerancija: tai eiti priešais, atsiverti, vadinti „broliu“ tą, kurį savas pasaulis vadina priešu. Jis prasideda nuo nepatogaus artimo ir nesustoja ties tikėjimo ar kalbos ribomis.",
+      "historicalContext": "Susitikimas su sultonu (1219, Damieta) įvyko per penktąjį kryžiaus žygį: taikos gestas, paliudytas šaltinių, nors ir viduramžių liudijimo ribose.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Tapti artimu kūnu",
+      "summary": "„Dariau jiems gailestingumą“: pranciškoniškas gailestingumas yra atjauta, tampanti konkrečiu gestu, ne gailestis iš tolo.",
+      "explanation": "Testamente Pranciškus vartoja stiprų žodį: su raupsuotaisiais „dariau gailestingumą“. Jis nesako, kad jautė atjautą: jis ją darė. Gailestingumas yra gebėjimas leisti kito kančiai pasiekti tave taip, kad pajudėtų rankos. Tai šaknis, iš kurios auga artimo meilė, atleidimas ir taika.",
+      "historicalContext": "Viduramžių pamaldumas išmaldą pažinojo kaip nuopelningą praktiką; Pranciškus paverčia ją santykiu: ne duodama vargšui, o būnama su vargšu.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Rankų darbas",
+      "summary": "Pranciškus nestato maldos prieš darbą: sąžiningas darbas laiko atokiai dykinėjimą ir neturi užgesinti maldos.",
+      "explanation": "Testamente Pranciškus sako dirbęs savo rankomis ir norintis, kad broliai dirbtų ne iš godumo užmokesčiui, o dėl pavyzdžio ir prieš dykinėjimą. Jei užmokesčio nėra, grįžtama prie išmaldos. Patvirtintoji Regula prideda ribą: darbas yra malonė, o laikini dalykai turi tarnauti maldos dvasiai, ne ją pakeisti. Nepatvirtintojoje Reguloje darbas yra ir būdas būti svetimuose namuose kaip mažesniesiems, neimant pareigų, kurios duoda valdžią.",
+      "historicalContext": "Daugelis pirmųjų brolių buvo atėję iš amatų. Darbo ir pinigų klausimas aštrus jau prieš 1223 metus: 1221 metų Regula platesnė ir griežtesnė dėl pinigų; patvirtintoji trumpesnė ir ligonių rūpestį paveda ministrams per dvasinius bičiulius.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Kūnas, ne idėja",
+      "summary": "Pranciškui Dievo Sūnus šiame pasaulyje matomas kūne ir kraujyje, kuriuos kunigai priima ir duoda.",
+      "explanation": "Testamentas pagarbą kunigams susieja su tuo: Pranciškus sako kūniškai nematąs nieko kito iš Dievo Sūnaus, tik jo kūną ir kraują. Laiškas visam Ordinui tą patį tikėjimą nuveda iki duonos pavidalo ir prašo kunigų švęsti neieškant patikti žmonėms. Tai ne šalutinė tema. Tai centras, iš kurio Pranciškus skaito Bažnyčią, užrašytus žodžius ir savo paties mažumą. Programėlė tai pasako taip, kaip yra: viduramžių eucharistinis tikėjimas, ne bendra dovanos metafora.",
+      "historicalContext": "Pranciškaus eucharistinis pamaldumas stovi IV Laterano susirinkimo (1215) reformos viduje: ji įveda kasmetinę išpažintį ir patikslina sakramento mokymą. Laiškai dvasininkams ir kustodams, čia neatkurti ištisai, kartoja tą patį.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Evangelijos forma",
+      "summary": "Pranciškus neišranda dvasingumo šalia Evangelijos: jis sako, kad Aukščiausiasis jam apreiškė gyventi pagal tą formą, ir liepė ją surašyti.",
+      "explanation": "Testamentas yra aiškus: niekas jam nerodė, ką daryti; Aukščiausiasis apreiškė gyventi pagal šventosios Evangelijos formą; jis liepė ją surašyti nedaugeliu žodžių, ir popiežius ją patvirtino. Abi Regulos prasideda tuo pačiu. Laikytis Evangelijos šiuose tekstuose nėra jausmas: tai klusnumas, nieko sava ir skaistumas patvirtintos brolystės viduje. Celano pasakojimas apie atsižadėjimą vyskupo akivaizdoje yra kita tos pačios pasirinkties scena. Čia Pranciškaus tekstas eina pirmiau už pasakojimą apie Pranciškų.",
+      "historicalContext": "Tradicija žodinį Inocento III pritarimą datuoja 1209 arba 1210 metais; nepatvirtintoji Regula yra 1221 metų; patvirtintąją Honorijus III patvirtina 1223 m. lapkričio 29 d. Testamentas 1226 metais visą seką perskaito kaip vieną apreiškimą.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

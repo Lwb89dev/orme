@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Akmens taciņa",
+      "kind": "sentiero",
+      "description": "Gaišu akmeņu taciņa šķērso dārzu: vieta, no kuras sākas katrs ceļš.",
+      "symbolism": "Ceļš kā dzīves tēls: ceļu veido ejot, akmeni pēc akmens.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Miera olīvkoks",
+      "kind": "albero",
+      "description": "Sens olīvkoks ar sudrabotu lapotni, iestādīts tad, kad atklāji miera sveicienu.",
+      "symbolism": "Olīvkoks: Vidusjūras augs mieram un pacietībai. Aug lēni un pārdzīvo paaudzes.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Māsas Ūdens strūklaka",
+      "kind": "acqua",
+      "description": "Akmens strūklaka ar dzidru ūdeni, ko rīta saule aizdedzina.",
+      "symbolism": "„Māsa Ūdens, noderīga, pazemīga, dārga un šķīsta“: Radību dziesmā ūdens ir māsa, kam pateikties.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Svētā Damiāna rozes",
+      "kind": "fiore",
+      "description": "Ziedošs rožu krūms pie mūra: tas aug tur, kur kāds ir rūpējies par citiem.",
+      "symbolism": "Skaistums, kas dzimst no kalpošanas: tuvākmīlestība liek uzziedēt sausām vietām.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Kopīgais sakņu dārzs",
+      "kind": "orto",
+      "description": "Nelielas garšaugu un dārzeņu dobes, ko kopj pēc kārtas: pazemīgais darbs, kas baro visus.",
+      "symbolism": "Ikdienas kalpošana: kas kopj dārzu, tam tas nepieder; viņš to sargā tiem, kas nāks.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Klusuma ciprese",
+      "kind": "albero",
+      "description": "Augsta, taisna ciprese, kas iezīmē robežu starp dārzu un mežu.",
+      "symbolism": "Lūgšana kā vertikāle: saknes zemē, galotne pret debesīm.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Žubīšu ligzda",
+      "kind": "animali",
+      "description": "Drošākajos zaros žubīšu pāris ir izvēlējies dārzu, lai vītu ligzdu.",
+      "symbolism": "Uzņemšana: dārzs kļūst par mājām arī tiem, kas nāk no ārpuses.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Akmens sols",
+      "kind": "struttura",
+      "description": "Akmens sols zem mūra pusdienlaikā: vieta, kur apsēsties un palikt.",
+      "symbolism": "Ticība kā uzticības apstāšanās: ne vienmēr iet, reizēm vienkārši būt.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Pateicības saulespuķes",
+      "kind": "fiore",
+      "description": "Saulespuķu rinda, kas dienas gaitā griežas līdzi gaismai.",
+      "symbolism": "Pateicība: pagriezties pret gaismu ir ikdienas skatiena vingrinājums.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Bišu strops",
+      "kind": "animali",
+      "description": "Koka strops smaržo pēc vaska; bites nāk un iet no dārza ziediem.",
+      "symbolism": "Brālība: neviena bite nedara medu viena, un nevienai nepieder medus kāre.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Skatīties debesīs",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        { "kind": "osserva", "text": "Pacel skatienu no dārza pret debesīm. Paliec dažus mirkļus klusumā, nedarot neko." },
+        { "kind": "leggi", "text": "Lasi lēni Radību dziesmas sākumu.", "sourcePassageId": "pass.cantico.apertura" },
+        { "kind": "rifletti", "text": "Francisks sauc sauli par „brāli“ un mēnesi par „māsu“. Kas mainītos, ja uz pasauli skatītos kā uz ģimeni, nevis kā uz resursu?" },
+        { "kind": "annota", "text": "Ja gribi, pieraksti dienasgrāmatā vienu lietu, par kuru šodien vari teikt: „Laudato sie, mi' Signore“." }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Klausīties ūdeni",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        { "kind": "ascolta", "text": "Pienāc tuvāk strūklakai. Klausies ūdens skaņu dažas elpas, bez steigas." },
+        { "kind": "leggi", "text": "Pārlasi Dieva slavinājumu, kas rakstīts La Verna: lūgšanu, kas neko neprasa.", "sourcePassageId": "pass.lodi_dio.lode" },
+        { "kind": "rifletti", "text": "Dieva slavas nesatur lūgumus: tikai atzīšanu. Kad pēdējo reizi pateicies, neko neprasot?" },
+        { "kind": "annota", "text": "Ja gribi, ieraksti dienasgrāmatā trīs lietas, ko šodien esi saņēmis, arī sīkas." }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Lēnais solis",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        { "kind": "osserva", "text": "Ej pa akmens taciņu lēni, ievērojot katru soli: svaru, pieskārienu, ritmu." },
+        { "kind": "leggi", "text": "Lasi Franciska atbildi brālim Leonam, kurš meklēja pareizo izvēli.", "sourcePassageId": "pass.lettera_leone.coscienza" },
+        { "kind": "rifletti", "text": "Brālim Leonam Francisks nedod norādījumus, bet brīvību: „seko savai sirdsapziņai Dieva priekšā“. Ko tev māca šāds pavadīšanas veids?" },
+        { "kind": "annota", "text": "Ja gribi, pieraksti dienasgrāmatā lēmumu, ko nes, un to, kur jūti, ka sirdsapziņa tevi vērš." }
+      ]
+    }
+  ]
+}

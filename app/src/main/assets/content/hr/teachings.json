@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Susret koji mijenja život",
+      "summary": "Franjino obraćenje počinje kad nadvlada gađenje i susretne gubavce: ljubav kao konkretan susret s drugim.",
+      "explanation": "U Oporuci Franjo pripovijeda da mu je gledanje gubavaca bilo „odviše gorko“ i da je upravo susret s njima bio početak njegove pokore. Franjevačka ljubav nije opći osjećaj: to je tjelesna gesta onoga tko prilazi isključenomu i otkriva da se gorčina pretvara u slatkoću. Tko daruje, ne staje iznad onoga tko prima: susreću se.",
+      "historicalContext": "U trinaestom stoljeću gubavci su bili isključeni iz gradskog života, smješteni u gubilišta izvan zidina i smatrani znakom grijeha. Franjin izbor da živi među njima bio je društveno skandalozan.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Ništa vlastito, sve primljeno",
+      "summary": "Pred biskupom Franjo vraća odjeću ocu: odricanje od posjeda kao izbor slobode, a ne kao prezir prema stvarima.",
+      "explanation": "Franjino odricanje pred biskupom Guidom javna je gesta kojom reže vezu s obiteljskim bogatstvom. Nije bijeg od stvari, nego oslobođenje od zamisli da ih se posjeduje: tko ništa ne posjeduje, ništa ne mora braniti i sve može primiti kao dar. Stručni latinski predaje zove to „sine proprio“: bez vlasništva.",
+      "historicalContext": "Sin bogatog trgovca suknom, Franjo je bio određen za društveni uspon gradskog građanstva. Njegovo odricanje, 1206., pogodilo je maštu Assisija upravo zato što je bilo obrnuto u odnosu na vrijednosti trgovačkoga grada.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Siromaštvo kao sloboda",
+      "summary": "Za Franju siromaštvo nije romantična bijeda: to je ne prisvajati ništa, da bi se ostalo slobodnim ljubiti i ovisiti samo o Bogu.",
+      "explanation": "Pravilo iz 1223. traži od braće da si ništa ne prisvajaju, „ni kuće ni mjesta ni bilo koje stvari“, i da idu po milostinju bez stida, sjećajući se da se Gospodin učinio siromašnim. Franjevačko siromaštvo ima teološki temelj (siromašni Krist) i psihološki: tko nema što braniti, slobodan je. To nije poziv da se veliča oskudica, koja je društvena rana, nego da nas posjed ne određuje.",
+      "historicalContext": "Pokret dragovoljnih siromaha nastajao je kao odgovor na rastuće bogatstvo komuna i klera; Crkva je s sumnjom gledala pokrete siromaštva, a Franjo je odobrenje morao teško izboriti.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Manja braća",
+      "summary": "Franjina zajednica nije red nadređenih i podložnika: to je bratstvo „manjih“, u kojem je svatko odgovoran za drugoga.",
+      "explanation": "Franjo je htio da se njegovi zovu manja braća: nitko nije velik, a odgovorni se zovu „ministri“, to jest sluge. Pravilo iz 1221. traži da jedni drugima očituju potrebe, da ne sude brata i da ne preziru slaboga. Bratstvo je sam oblik Evanđelja proživljena zajedno: braća se jest ne po idealu, nego po svakodnevnoj praksi.",
+      "historicalContext": "Bratstvo nastaje oko 1208.–1210. od prvih drugova (Bernard, Egidije…) i brzo raste dok ne zatreba ustroj: kapitule, ministre, pisano pravilo.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Pozdrav mira",
+      "summary": "„Gospodin ti dao mir“: Franjo od mira čini navještaj koji se nosi, prije nego odsutnost rata.",
+      "explanation": "U Oporuci Franjo se sjeća da mu je Gospodin objavio pozdrav mira. Najraniji izvori opisuju braću kako navješćuju mir od kuće do kuće. Franjevački mir je djelatan: nosi se, gradi se, posreduje se — kao u pripovijesti o vuku iz Gubbia, gdje se mir rađa iz hrabrosti da se ide ususret onomu što plaši.",
+      "historicalContext": "Italiju komuna presijecale su zavade stranaka, gradski ratovi i sukobi svjetovne i crkvene vlasti. Navješćivati mir bio je politički, a ne samo duhovni čin.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Sedamdeset puta sedam, i dalje",
+      "summary": "Odgovornomu u bratstvu Franjo piše: ako bi brat sagriješio tisuću puta, ipak ga ljubi više nego mene.",
+      "explanation": "Pismo ministru franjevački je tekst oproštenja: tko vodi, ne smije se sablazniti ni otvrdnuti pred pogreškama braće, nego navješćivati milosrđe. Oproštenje ne niječe zlo: odbija da zlo ima posljednju riječ o odnosu. U Pjesmi je strofa o oproštenju, prema predaji, dodana da pomiri biskupa i podestu Assisija koji su bili u sukobu.",
+      "historicalContext": "Bratstvo u brzom rastu živjelo je unutarnje napetosti; a gradove su razdirale osvete i zavade, koje su franjevci nastojali umiriti.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Biti manji, a ne osjećati se boljima",
+      "summary": "Franjevačka poniznost je istina o sebi: ne uzdizati se, ne prezirati se, služiti kao posljednji.",
+      "explanation": "Opomene opominju na vlastitu volju uzdignutu u mjerilo svega i na duhovno samodopadanje. Poniznost je za Franju vidjeti se u istini: mali pred Bogom, dužnici svega, sposobni služiti ne tražeći priznanje. Nije nisko samopoštovanje: to je sloboda od potrebe da se izgleda.",
+      "historicalContext": "U društvu utemeljenom na časti i položaju zvati se „manjima“ bio je program protiv struje; a unutar rastućeg bratstva poniznost je bila protuotrov unutarnjem natjecanju.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Brat sunce, sestra voda",
+      "summary": "Pjesma stvorova: svijet nije skladište zaliha niti kumir, nego obitelj stvorova koji hvale Stvoritelja.",
+      "explanation": "U Pjesmi Franjo hvali Boga „po“ stvorovima: brate sunce, sestro mjeseče, sestro vodo „korisna i ponizna i dragocjena i čista“, sestro naša majko zemljo. Priroda nije pobožanstvenjena: ona je sestra, jer je kći istoga Oca. Briga za stvoreno rađa se ovdje iz zahvalnosti i srodstva, ne iz koristi. I Pjesma se rađa u bolesti: hvala ne ovisi o okolnostima.",
+      "historicalContext": "Sastavljena 1225.–1226., dok je Franjo bio bolestan i gotovo slijep, među je prvim pjesničkim tekstovima na talijanskom narodnom govoru. Bonaventura je smješta u doba kušnja.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Savršena radost",
+      "summary": "Franjevačka radost ne ovisi o rezultatima: ostaje i u odbijanju i u naporu, jer se rađa iz ljubavi, a ne iz uspjeha.",
+      "explanation": "U Cvjetićima Franjo bratu Leonu objašnjava da prava radost nisu čudesa ni obraćenja, nego vratiti se odbačen i promrzao i ostati strpljiv i radostan. To je hagiografska pripovijest, ne kronika, ali sažima vjerodostojnu crtu franjevačkog duha: radost kao unutarnji izbor koji joj nijedan događaj ne može oduzeti.",
+      "historicalContext": "Cvjetići (kraj četrnaestog stoljeća) skupljaju živu memoriju prvog franjevaštva; treba ih čitati kao duhovnu književnost, ne kao dokumentarnu povijest.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Pustinja koja stanuje u svijetu",
+      "summary": "Franjo je izmjenjivao poslanje i povlačenje: molitva kao mjesto na koje se vraća bitnome pred Bogom.",
+      "explanation": "Franjevački život nije samo djelovanje: Franjo je tražio ereme i povlačenja (Carceri, La Verna), vodeći malo drugova i duge šutnje. U Pismu bratu Leonu upućuje na savjest pred Bogom: molitva nije tehnika nego odnos. Hvale Boga Svevišnjega pokazuju njegovu najčišću molitvu: hvalu bez molbi.",
+      "historicalContext": "Franjevački eremi nastajali su u divljim predjelima umbrijsko-toskanskih Apenina; La Verna, darovana Franji 1213., postala je povlačenje po izvrsnosti.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Slijediti Kristove stope",
+      "summary": "Franjina duhovnost nije filozofija prirode: to je nasljedovanje siromašnog i raspetog Krista, unutar vjere Crkve.",
+      "explanation": "Sve u Franji polazi od Krista: raspelo San Damiana koje mu govori, izbor siromaštva „jer se Gospodin učinio siromašnim“, muka promatrana na La Verni, jednostavna vjera u crkve iz Oporuke. Ukloniti taj korijen ne čini Franju univerzalnijim: čini ga neprepoznatljivim. Aplikacija ga pokazuje onakvim kakav jest, ne namećući ga i ne brišući ga.",
+      "historicalContext": "Franjo je vjeru živio u okviru srednjovjekovne Crkve, tražeći njezino odobrenje za svoj oblik života i prihvaćajući njezine granice, premda je odozdo poticao njezinu obnovu.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Pravilo da se ne izgubimo",
+      "summary": "Franjevačka poslušnost nije poništenje: to je zajednički savez koji bratstvo čuva od rasipanja i od samovolje.",
+      "explanation": "Franjo je tražio odobrenje Crkve i pisao sve bitnija pravila (1221., 1223.). Poslušnost je u Opomenama i u Pravilima uzajamna: sluša se zajedničko pravilo, a tko vodi, služi. Oporuka traži da se pravilo ne tumači: da se živi „jednostavno i bez tumačenja“. Zajednica i poslušnost okvir su koji slobodu čini trajnom.",
+      "historicalContext": "Između 1210. i 1223. bratstvo je od malene skupine prešlo u priznati Red; napetost između karizme i ustanove prolazi cijelom franjevačkom poviješću.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Hvala koja ništa ne traži",
+      "summary": "Hvale Boga i Pjesma rađaju se u bolesti: franjevačka zahvalnost ne nagrađuje sreću, nego prepoznaje dar u svemu.",
+      "explanation": "Hvale Boga Svevišnjega, napisane na La Verni, molitva su bez ijedne molbe: samo priznanje. I Pjesma, sastavljena u patnji, hvala je. Franjevačka zahvalnost uvježban je pogled: svaku stvar — vodu, sunce, dan, čak i smrt — vidi kao primljenu. Tko zahvaljuje, ne posjeduje: stanuje.",
+      "historicalContext": "Godine 1224.–1226. Franjo je bio teško bolestan, gotovo slijep, i obilježen odmakom od vodstva Reda: hvala tih godina nije naivnost nego izboreno dobro.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Tko vodi, služi",
+      "summary": "U bratstvu se odgovorni zovu „ministri“: služenje kao jedini zakoniti oblik autoriteta.",
+      "explanation": "Franjo prevrće hijerarhiju: ministar je onaj tko služi, skrbnik je onaj tko čuva braću, a ne onaj tko zapovijeda. Pismo ministru pokazuje ton: blizina onomu tko griješi, nikad prezir. Služenje nije strategija da se svidi: to je kršćanski način da se stanuje u svakoj ulozi, od brata do biskupa, od roditelja do gradonačelnika.",
+      "historicalContext": "Naslovi franjevačke hijerarhije (ministar, kustod, gvardijan) odabrani su upravo protiv logike srednjovjekovnog ugleda.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Nitko nije tuđinac",
+      "summary": "Gubavci, razbojnici, sultan, vuk: franjevačka predaja gura prihvaćanje preko granica vlastite skupine.",
+      "explanation": "Franjo susreće gubavce, ide ususret sultanu al-Maliku al-Kamilu usred križarskog rata i u pučkoj memoriji razgovara čak i s vukom. Franjevačko prihvaćanje nije pasivna snošljivost: to je ići ususret, izložiti se, zvati „bratom“ onoga koga vlastiti svijet zove neprijateljem. Počinje od nezgodnog bližnjega i ne staje na granicama vjere ili jezika.",
+      "historicalContext": "Susret sa sultanom (1219., Damietta) dogodio se tijekom petog križarskog rata: gesta mira koju izvori dokumentiraju, unutar granica srednjovjekovnog svjedočanstva.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Postati bližnji tijelom",
+      "summary": "„Učinih s njima milosrđe“: franjevačko milosrđe je suosjećanje koje postaje konkretna gesta, a ne sažaljenje iz daljine.",
+      "explanation": "U Oporuci Franjo rabi snažnu riječ: s gubavcima „učinih milosrđe“. Ne kaže da je osjetio suosjećanje: učinio ga je. Milosrđe je sposobnost da te patnja drugoga dosegne sve do toga da pokreneš ruke. To je korijen iz kojeg rastu ljubav, oproštenje i mir.",
+      "historicalContext": "Srednjovjekovna pobožnost poznavala je milostinju kao zaslužno djelo; Franjo je pretvara u odnos: ne daje se siromahu, ostaje se sa siromahom.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Rad ruku",
+      "summary": "Franjo ne suprotstavlja molitvu i rad: pošten rad drži podalje dokolicu i ne smije ugasiti molitvu.",
+      "explanation": "U Oporuci Franjo kaže da je radio svojim rukama i da želi da braća rade, ne iz pohlepe za plaćom nego zbog primjera i protiv dokolice. Ako plaće nema, vraća se milostinji. Potvrđeno pravilo dodaje granicu: rad je milost, i vremenite stvari moraju služiti duhu molitve, a ne zamijeniti je. U nepotvrđenom Pravilu rad je i način da se u tuđoj kući bude kao manji, bez preuzimanja službi koje daju vlast.",
+      "historicalContext": "Mnoga od prve braće dolazila su iz obrta. Pitanje rada i novca već je oštro prije 1223.: Pravilo iz 1221. opširnije je i strože o novcu; potvrđeno je kraće i ministrima povjerava skrb za bolesne po duhovnim prijateljima.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Tijelo, ne zamisao",
+      "summary": "Za Franju se Sin Božji, u ovom svijetu, vidi u tijelu i krvi koje svećenici primaju i daju.",
+      "explanation": "Oporuka vezuje poštovanje prema svećenicima uz ovo: Franjo kaže da tjelesno ne vidi ništa drugo od Sina Božjega osim njegova tijela i njegove krvi. Pismo cijelom Redu istu vjeru dovodi do oblika kruha i traži od svećenika da slave ne tražeći da se svide ljudima. Nije to sporedna tema. To je središte iz kojeg Franjo čita Crkvu, napisane riječi i vlastitu malenost. Aplikacija to kaže onako kako jest: srednjovjekovna euharistijska vjera, a ne opća metafora dara.",
+      "historicalContext": "Franjina euharistijska pobožnost stoji unutar reforme Četvrtog lateranskog sabora (1215.), koji nalaže godišnju ispovijed i precizira nauk o sakramentu. Pisma klericima i kustodima, ovdje ne prenesena u cijelosti, ustraju na istoj točki.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Oblik Evanđelja",
+      "summary": "Franjo ne izmišlja duhovnost pokraj Evanđelja: kaže da mu je Svevišnji objavio da živi po tom obliku i dao ga zapisati.",
+      "explanation": "Oporuka je izričita: nitko mu nije pokazivao što treba činiti; Svevišnji mu je objavio da živi po obliku svetog Evanđelja; on ga je dao zapisati u malo riječi i papa ga je potvrdio. Oba Pravila otvaraju se na istoj točki. Obdržavati Evanđelje, u tim tekstovima, nije osjećaj: to je poslušnost, ništa vlastito i čistoća, unutar odobrenog bratstva. Pripovijest o odricanju pred biskupom, u Čelanskoga, druga je scena istoga izbora. Ovdje Franjin tekst dolazi prije pripovijesti o Franji.",
+      "historicalContext": "Usmeno odobrenje Inocenta III. predaja datira u 1209. ili 1210.; nepotvrđeno Pravilo je iz 1221.; potvrđeno potvrđuje Honorije III. 29. studenoga 1223. Oporuka, 1226., cijeli niz čita kao jednu objavu.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

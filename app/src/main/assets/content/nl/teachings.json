@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "De ontmoeting die een leven verandert",
+      "summary": "De bekering van Franciscus begint wanneer hij zijn afkeer overwint en de melaatsen ontmoet: naastenliefde als concrete ontmoeting met de ander.",
+      "explanation": "In het Testament vertelt Franciscus dat het zien van melaatsen hem \"te bitter\" leek, en dat juist de ontmoeting met hen het begin van zijn boetedoening was. Franciscaanse naastenliefde is geen vaag gevoel: het is het lichamelijke gebaar van wie naderbij komt bij wie buitengesloten is, en ontdekt dat bitterheid in zoetheid verandert. Wie geeft, plaatst zich niet boven wie ontvangt: zij ontmoeten elkaar.",
+      "historicalContext": "In de dertiende eeuw waren melaatsen uitgesloten van het stadsleven, ondergebracht in leprozerieën buiten de muren en beschouwd als zinnebeeld van de zonde. De keuze van Franciscus om onder hen te leven was maatschappelijk schokkend.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Niets van jezelf, alles ontvangen",
+      "summary": "Voor de bisschop geeft Franciscus zijn kleren aan zijn vader terug: afstand doen van bezit als keuze voor vrijheid, niet als minachting voor de dingen.",
+      "explanation": "De verzaking van Franciscus voor bisschop Guido is het openbare gebaar waarmee hij de band met de rijkdom van zijn familie doorsnijdt. Het is geen vlucht voor de dingen, maar bevrijding van het idee ze te bezitten: wie niets bezit, hoeft niets te verdedigen en kan alles als geschenk ontvangen. Het technische Latijn van de traditie noemt het \"sine proprio\": zonder eigendom.",
+      "historicalContext": "Als zoon van een rijke lakenkoopman was Franciscus bestemd voor de sociale opkomst van de stedelijke burgerij. Zijn verzaking, in 1206, trof de verbeelding van Assisi juist omdat zij de waarden van de handelsstad op hun kop zette.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Armoede als vrijheid",
+      "summary": "Voor Franciscus is armoede geen romantische ellende: het is je niets toe-eigenen, om vrij te blijven om lief te hebben en alleen van God afhankelijk te zijn.",
+      "explanation": "De Regel van 1223 vraagt de broeders zich niets toe te eigenen, \"noch huis, noch plaats, noch enig ding\", en zonder schaamte om aalmoezen te gaan, indachtig dat de Heer zich arm heeft gemaakt. Franciscaanse armoede heeft een theologische grond (de arme Christus) en een psychologische: wie niets te verdedigen heeft, is vrij. Het is geen uitnodiging om gebrek te verheerlijken — dat is een maatschappelijke wonde — maar om je niet door bezit te laten bepalen.",
+      "historicalContext": "De beweging van vrijwillige armen ontstond als reactie op de groeiende rijkdom van de communes en de geestelijkheid; de Kerk bekeek armoedebewegingen met argwaan, en Franciscus moest de goedkeuring moeizaam verwerven.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Minderbroeders",
+      "summary": "De gemeenschap van Franciscus is geen orde van meerderen en onderdanen: het is een broederschap van \"mindere\" broeders, waarin ieder verantwoordelijk is voor de ander.",
+      "explanation": "Franciscus wilde dat de zijnen minderbroeders zouden heten: niemand is groot, de verantwoordelijken heten \"ministers\", dat wil zeggen dienaren. De Regel van 1221 vraagt elkaar de noden te tonen, de broeder niet te oordelen, de zwakke niet te verachten. Broederschap is de vorm zelf van het Evangelie dat samen geleefd wordt: men is broeder niet uit een ideaal, maar door dagelijkse praktijk.",
+      "historicalContext": "De broederschap ontstaat rond 1208-1210 uit de eerste gezellen (Bernardus, Egidius…) en groeit snel, tot er structuren nodig zijn: kapittels, ministers, een geschreven regel.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "De vredesgroet",
+      "summary": "\"De Heer geve u vrede\": Franciscus maakt van vrede een boodschap die je brengt, eerder dan de afwezigheid van oorlog.",
+      "explanation": "In het Testament herinnert Franciscus eraan dat de Heer hem een vredesgroet openbaarde. De vroegste bronnen beschrijven hoe de broeders de vrede van huis tot huis verkondigden. Franciscaanse vrede is actief: je brengt haar, je bouwt haar, je bemiddelt — zoals in het verhaal van de wolf van Gubbio, waar vrede ontstaat uit de moed om datgene tegemoet te gaan wat angst aanjaagt.",
+      "historicalContext": "Het Italië van de communes was doortrokken van vetes tussen facties, stedelijke oorlogen en conflicten tussen wereldlijke en kerkelijke machten. Vrede verkondigen was een politiek gebaar, en niet alleen een geestelijk.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Zeventig maal zeven, en verder",
+      "summary": "Aan een verantwoordelijke van de broederschap schrijft Franciscus: als een broeder duizendmaal zou zondigen, heb hem toch meer lief dan mij.",
+      "explanation": "De Brief aan een minister is de franciscaanse tekst over vergeving: wie leidt, mag zich niet ergeren en niet verharden tegenover de fouten van de broeders, maar moet barmhartigheid verkondigen. Vergeving ontkent het kwaad niet: zij weigert dat het kwaad het laatste woord heeft over de relatie. In het Zonnelied werd de strofe over vergeving — volgens de overlevering — toegevoegd om de bisschop en de podestà van Assisi, die in conflict waren, te verzoenen.",
+      "historicalContext": "De snel groeiende broederschap kende innerlijke spanningen; en de steden waren verscheurd door wraak en vetes, die de franciscanen probeerden te bedaren.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Minder zijn, niet beter willen zijn",
+      "summary": "Franciscaanse nederigheid is waarheid over jezelf: je niet verheffen, je niet verachten, dienen als de laatste.",
+      "explanation": "De Vermaningen waarschuwen tegen de eigen wil die tot maat van alles wordt gemaakt, en tegen geestelijke zelfvoldaanheid. Nederigheid is voor Franciscus jezelf in waarheid zien: klein voor God, alles verschuldigd, in staat te dienen zonder erkenning te eisen. Het is geen laag zelfbeeld: het is vrijheid van de behoefte om te schitteren.",
+      "historicalContext": "In een samenleving gegrond op eer en rang was je \"mindere\" noemen een programma tegen de stroom in; en binnen de groeiende broederschap was nederigheid het tegengif tegen innerlijke wedijver.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Broeder zon, zuster water",
+      "summary": "Het Zonnelied: de wereld is geen voorraadschuur van grondstoffen en geen afgod, maar een familie van schepselen die de Schepper loven.",
+      "explanation": "In het Zonnelied looft Franciscus God \"om\" de schepselen: broeder zon, zuster maan, zuster water \"nuttig en nederig en kostbaar en kuis\", zuster onze moeder aarde. De natuur wordt niet vergoddelijkt: zij is zuster, omdat zij dochter is van dezelfde Vader. Zorg voor de schepping ontstaat hier uit dankbaarheid en verwantschap, niet uit nut. En het Zonnelied ontstaat in de ziekte: de lof hangt niet van de omstandigheden af.",
+      "historicalContext": "Geschreven in 1225-1226, terwijl Franciscus ziek en bijna blind was, behoort het tot de eerste poëtische teksten in de Italiaanse volkstaal. Bonaventura plaatst het in de tijd van de beproevingen.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "De volmaakte vreugde",
+      "summary": "Franciscaanse vreugde hangt niet van resultaten af: zij blijft ook in afwijzing en moeite, omdat zij uit de liefde voortkomt en niet uit succes.",
+      "explanation": "In de Fioretti legt Franciscus aan broeder Leo uit dat de ware vreugde niet bestaat in wonderen of bekeringen, maar in teruggaan, afgewezen en verkleumd, en geduldig en blij blijven. Het is een hagiografisch verhaal, geen kroniek, maar het vat een authentieke trek van de franciscaanse geest samen: vreugde als innerlijke keuze die geen gebeurtenis je kan afnemen.",
+      "historicalContext": "De Fioretti (eind veertiende eeuw) bewaren de levende herinnering aan het eerste franciscanisme; ze moeten gelezen worden als geestelijke literatuur, niet als gedocumenteerde geschiedenis.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "De woestijn die in de wereld woont",
+      "summary": "Franciscus wisselde zending en terugtrekking af: het gebed als de plaats waar je voor God tot het wezenlijke terugkeert.",
+      "explanation": "Het franciscaanse leven is niet alleen handelen: Franciscus zocht kluizenarijen en plaatsen van afzondering (de Carceri, La Verna), met weinig gezellen en lange stiltes. In de Brief aan broeder Leo verwijst hij naar het geweten voor God: gebed is geen techniek maar een relatie. De Lofzangen van de allerhoogste God tonen zijn zuiverste gebed: lof zonder verzoeken.",
+      "historicalContext": "De franciscaanse kluizenarijen ontstonden in de wilde streken van de Umbrisch-Toscaanse Apennijnen; La Verna, in 1213 aan Franciscus geschonken, werd de afzondering bij uitstek.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "De sporen van Christus volgen",
+      "summary": "De spiritualiteit van Franciscus is geen natuurfilosofie: het is navolging van de arme en gekruisigde Christus, binnen het geloof van de Kerk.",
+      "explanation": "Alles bij Franciscus begint bij Christus: het kruisbeeld van San Damiano dat tot hem spreekt, de keuze voor armoede \"omdat de Heer zich arm heeft gemaakt\", het lijden dat op La Verna wordt beschouwd, het eenvoudige geloof in de kerken van het Testament. Die wortel wegnemen maakt Franciscus niet universeler: het maakt hem onherkenbaar. De app toont haar zoals zij is, zonder haar op te dringen en zonder haar uit te wissen.",
+      "historicalContext": "Franciscus leefde het geloof binnen het kader van de middeleeuwse Kerk, zocht haar goedkeuring voor zijn levensvorm en aanvaardde haar grenzen, terwijl hij haar hervorming van onderaf voortdreef.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Een regel om niet te verdwalen",
+      "summary": "Franciscaanse gehoorzaamheid is geen zelfuitwissing: het is een gemeenschappelijk verbond dat de broederschap beschermt tegen verstrooiing en willekeur.",
+      "explanation": "Franciscus vroeg de goedkeuring van de Kerk en schreef steeds essentieelere regels (1221, 1223). Gehoorzaamheid, in de Vermaningen en de Regels, is wederkerig: men gehoorzaamt de gedeelde regel, en wie leidt, dient. Het Testament vraagt de regel niet te beglossen: haar te leven \"eenvoudig en zonder glossen\". Gemeenschap en gehoorzaamheid zijn het kader dat de vrijheid duurzaam maakt.",
+      "historicalContext": "Tussen 1210 en 1223 groeide de broederschap van een kleine groep uit tot een erkende Orde; de spanning tussen charisma en instituut loopt door de hele franciscaanse geschiedenis.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "De lof die niets vraagt",
+      "summary": "De Lofzangen van God en het Zonnelied ontstaan in de ziekte: franciscaanse dankbaarheid beloont het geluk niet, maar herkent het geschenk in elk ding.",
+      "explanation": "De Lofzangen van de allerhoogste God, geschreven op La Verna, zijn een gebed zonder een enkel verzoek: alleen erkenning. Ook het Zonnelied, ontstaan in het lijden, is lof. Franciscaanse dankbaarheid is een geoefende blik: zij ziet elk ding — het water, de zon, de dag, zelfs de dood — als ontvangen. Wie dankt, bezit niet: hij woont.",
+      "historicalContext": "In 1224-1226 was Franciscus ernstig ziek, bijna blind, en getekend door het loslaten van de leiding van de Orde: de lof van die jaren is geen naïviteit maar een verworvenheid.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Wie leidt, dient",
+      "summary": "In de broederschap heten de verantwoordelijken \"ministers\": dienst als de enige legitieme vorm van gezag.",
+      "explanation": "Franciscus keert de hiërarchie om: de minister is wie dient, de custos is wie de broeders bewaart, niet wie beveelt. De Brief aan een minister toont de toon: nabijheid bij wie faalt, nooit minachting. Dienst is geen strategie om te behagen: het is de christelijke manier om elke rol te bewonen, van broeder tot bisschop, van ouder tot burgemeester.",
+      "historicalContext": "De titels van de franciscaanse hiërarchie (minister, custos, gardiaan) werden juist gekozen tegen de logica van het middeleeuwse prestige.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Niemand is een vreemde",
+      "summary": "Melaatsen, struikrovers, een sultan, een wolf: de franciscaanse traditie duwt de gastvrijheid voorbij de grenzen van de eigen groep.",
+      "explanation": "Franciscus ontmoet de melaatsen, gaat de sultan al-Malik al-Kamil tegemoet midden in een kruistocht, en spreekt in de volksherinnering zelfs met de wolf. Franciscaanse gastvrijheid is geen passieve verdraagzaamheid: het is tegemoetgaan, je blootstellen, \"broeder\" noemen wie de eigen wereld vijand noemt. Zij begint bij de lastige naaste en houdt niet op bij de grenzen van geloof of taal.",
+      "historicalContext": "De ontmoeting met de sultan (1219, Damietta) vond plaats tijdens de vijfde kruistocht: een vredesgebaar dat door de bronnen is gedocumenteerd, binnen de grenzen van de middeleeuwse getuigenis.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Naaste worden met je lichaam",
+      "summary": "\"Ik bewees hun barmhartigheid\": franciscaanse barmhartigheid is mededogen dat een concreet gebaar wordt, geen medelijden op afstand.",
+      "explanation": "In het Testament gebruikt Franciscus een sterk woord: met de melaatsen \"deed ik barmhartigheid\". Hij zegt niet dat hij medelijden voelde: hij deed het. Barmhartigheid is het vermogen je te laten raken door het lijden van de ander, tot je handen in beweging komen. Zij is de wortel waaruit naastenliefde, vergeving en vrede groeien.",
+      "historicalContext": "De middeleeuwse vroomheid kende de aalmoes als verdienstelijke praktijk; Franciscus maakt er een relatie van: je geeft niet aan de arme, je bent bij de arme.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Het werk van de handen",
+      "summary": "Franciscus stelt gebed en werk niet tegenover elkaar: eerlijk werk houdt ledigheid op afstand en mag het gebed niet doven.",
+      "explanation": "In het Testament zegt Franciscus dat hij met zijn handen heeft gewerkt en dat hij wil dat de broeders werken, niet uit hebzucht naar de prijs maar om het voorbeeld en tegen de ledigheid. Als de betaling uitblijft, keert men terug naar de aalmoes. De bevestigde Regel voegt de grens toe: werk is genade, en de tijdelijke dingen moeten de geest van het gebed dienen, niet vervangen. In de onbevestigde Regel is werk ook een manier om als minderen in andermans huis te verblijven, zonder ambten aan te nemen die macht geven.",
+      "historicalContext": "Veel van de eerste broeders kwamen uit een ambacht. De kwestie van werk en geld is al scherp vóór 1223: de Regel van 1221 is uitvoeriger en strenger over geld; de bevestigde is korter en vertrouwt de zorg voor de zieken via geestelijke vrienden aan de ministers toe.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Het lichaam, geen idee",
+      "summary": "Voor Franciscus ziet men de Zoon van God, in deze wereld, in het lichaam en het bloed die de priesters ontvangen en geven.",
+      "explanation": "Het Testament verbindt de eerbied voor de priesters hiermee: Franciscus zegt lichamelijk niets anders van de Zoon van God te zien dan zijn lichaam en zijn bloed. De Brief aan de hele Orde drijft hetzelfde geloof door tot in de gedaante van het brood, en vraagt de priesters te celebreren zonder de mensen te willen behagen. Het is geen zijthema. Het is het middelpunt van waaruit Franciscus de Kerk, de geschreven woorden en zijn eigen kleinheid leest. De app zegt het zoals het is: middeleeuws eucharistisch geloof, geen algemene metafoor van het geschenk.",
+      "historicalContext": "De eucharistische devotie van Franciscus staat binnen de hervorming van het Vierde Lateraans Concilie (1215), dat de jaarlijkse biecht oplegt en de leer van het sacrament preciseert. De brieven aan de clerici en de custoden, hier niet volledig weergegeven, hameren op hetzelfde punt.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "De vorm van het Evangelie",
+      "summary": "Franciscus verzint geen spiritualiteit naast het Evangelie: hij zegt dat de Allerhoogste hem openbaarde volgens die vorm te leven, en hij liet haar opschrijven.",
+      "explanation": "Het Testament is expliciet: niemand toonde hem wat hij moest doen; de Allerhoogste openbaarde hem te leven volgens de vorm van het heilig Evangelie; hij liet haar met weinig woorden opschrijven en de paus bevestigde haar. De twee Regels openen op hetzelfde punt. Het Evangelie onderhouden is in deze teksten geen gevoel: het is gehoorzaamheid, niets van jezelf, en kuisheid, binnen een goedgekeurde broederschap. Het verhaal van de verzaking voor de bisschop, bij Celano, is een andere scène van dezelfde keuze. Hier komt de tekst van Franciscus vóór het verhaal over Franciscus.",
+      "historicalContext": "De mondelinge goedkeuring van Innocentius III wordt door de traditie op 1209 of 1210 gedateerd; de onbevestigde Regel is van 1221; de bevestigde wordt door Honorius III bevestigd op 29 november 1223. Het Testament, in 1226, herleest de hele reeks als één enkele openbaring.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

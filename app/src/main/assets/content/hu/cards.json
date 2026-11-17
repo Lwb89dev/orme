@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "A béke köszöntése",
+      "text": "A Végrendeletben Ferenc tanúsítja, hogy az Úr béke-köszöntést nyilatkoztatott ki neki, amelyet másoknak kell vinnie, és a középkori források emlékeznek az első testvérekre, akik házról házra hirdették a békét. Ferenc számára a béke nem a konfliktus hiánya: ajándék, amelyet át kell adni, ajtóról ajtóra, személyről személyre. Gubbio farkasának elbeszélése ezt a logikát a végletekig viszi: békét kötni még azzal is, ami félelmet kelt, elébe menve. Ugyanebből a hagyományból születik a népi formula: „béke és jóság”.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "A szegénység mint szabadság",
+      "text": "Az 1223-as Regula azt kéri a testvérektől, hogy semmit se sajátítsanak el — sem házat, sem helyet, sem bármi mást —, és zarándokokként, idegenekként éljenek a világban. A ferences szegénység nem dicsőíti a nélkülözést, amely társadalmi seb marad: az a választás, hogy a birtoklás ne határozzon meg. Akinek nincs mit védelmeznie, annak nincs mitől félnie, és mindent ajándékként fogadhat. Az alap teológiai, mielőtt gazdasági volna: maga az Úr lett szegénnyé.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Kisebb testvérek",
+      "text": "Ferenc azt akarta, hogy övéit kisebb testvéreknek nevezzék: senki sem nagy, és a felelősöket „minisztereknek”, azaz szolgáknak hívják. Az 1221-es Regula azt kéri, hogy mindenki tárja fel a szükségét a másiknak, senki se ítélje a testvért, és az egészséges ne vesse meg a beteg gyengeségét. A testvériség nem kikiáltandó eszmény: a kölcsönös felelősség mindennapi gyakorlata. A gesztusokban vagyunk testvérek, vagy egyáltalán nem.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Nap testvér, víz nővér",
+      "text": "A teremtmények énekében Ferenc Istenért és a teremtményekkel dicsér: nap testvér, hold nővér, szél testvér, a víz nővér, aki „hasznos, alázatos, drága és tiszta”, és a föld anya nővérünk. A természet nincs istenítve, és nincs nyersanyagraktárrá sem zsugorítva: család, mert minden teremtménynek ugyanaz az Atyja. A teremtett világ gondja a rokonságból és a hálából születik, nem számításból. És a Naphimnusz a betegségben keletkezett: a dicséret nem a körülményektől függ.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "A tökéletes öröm",
+      "text": "A Fiorettiben Ferenc elmagyarázza Leó testvérnek, hogy az igazi öröm nem a csodák, nem a sikerek, nem a hitetlenek megtérése: az, hogy elutasítva, átfagyva és bántalmazva térünk vissza az ajtóhoz, és türelmesek, vidámak maradunk. Hagiográfiai elbeszélés, nem krónika, de a ferences szellem hiteles vonását sűríti. A tökéletes öröm nem az eseményektől függ: belső választás, amelyet semmilyen visszautasítás nem vehet el.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Hetvenszer hétszer, és azon túl",
+      "text": "A miniszterhez írt levélben Ferenc azt írja, hogy ha egy testvér ezerszer vétkezett is, akkor is szeretni kell, és irgalmat hirdetni neki, ha megbánja. A ferences megbocsátás nem tagadja a rosszat: elutasítja, hogy a rossznak legyen az utolsó szava a kapcsolatról. A Naphimnuszban a strófát azokról, akik Isten szeretetéért megbocsátanak, a hagyomány szerint azért fűzték hozzá, hogy kibékítse Assisi viszálykodó püspökét és podestàját. A megbocsátás egyszerre a személy gondja és a város orvossága.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "A greccioi karácsony",
+      "text": "1223 karácsonyán Ferenc Greccióban Jézus születését igazi jászollal, szénával, ökörrel és szamárral akarta ünnepelni: hogy a test szeme lássa Betlehem szegénységét. Celanói Tamás a misztérium élő emlékezeteként mutatja be, nem látványosságként. Abból az éjszakából születik a betlehem hagyománya. A gesztus jellegzetesen ferences: a hitet meg lehet érinteni, látni, lakni.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "A találkozás a szultánnal",
+      "text": "1219-ben, az ötödik keresztes hadjárat alatt Ferenc átlépte a keresztes sereg vonalait Damiettánál, hogy találkozzék al-Málik al-Kámil szultánnal. A középkori források tiszteletteljes párbeszédre emlékeznek kettejük között, a hit feloldhatatlan különbözőségében is. Háború idején Ferenc a fegyvertelen találkozás útját választotta a mások elleni prédikáció helyett. Az epizód mérce marad minden párbeszédnek, amely átlépi a saját világ határait.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Gubbio farkasa",
+      "text": "A Fioretti elbeszéli, hogy Gubbióban egy farkas rettegésben tartotta a várost, és Ferenc, a megrettent tömeggel szemben, a fenevad elébe ment, és úgy szólt hozzá, mint egy testvérhez. Békeszövetség született: a város táplálta volna a farkast, a farkas pedig többé senkinek sem ártott volna. A tizennegyedik századi hagiográfiai hagyomány elbeszélése, értékesebb a képzeletnek, mint a krónikának. A tanulsága világos: a békét úgy építik, hogy elébe mennek annak, ami ijeszt, és az egész közösséget bevonják a szövetségbe.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "A lemondás a püspök előtt",
+      "text": "1206 elején, Guidó püspök és apja, Bernardone Péter előtt Ferenc visszaadta a ruháit, és lemondott az atyai javakról. Celanói Tamás elbeszéli, hogy a püspök a saját köpenyével takarta be: az Egyház befogadta azt, akit a kereskedőcsalád már nem értett. Nem menekülés volt a dolgok elől, hanem nyilvános felszabadulás a birtoklás gondolatától. Attól a naptól Ferenc csak a mennyei Atyától függhetett — és mások nagylelkűségétől.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Assisi Szent Klára",
+      "text": "Assisi ifjú nemesasszonya, Klára 1212 virágvasárnapjának éjszakáján hagyta el atyai házát, hogy Ferenc evangéliumi életformáját kövesse, aki a Porciunkulánál levágta a haját. Megalapította San Damiano Szegény Nővéreinek közösségét, és egész életében védte a „szegénység kiváltságát” az egyházi nyomással szemben. Ő volt az első nő, aki nőknek írt szerzetesi regulát, amelyet két nappal a halála előtt, 1253-ban hagytak jóvá. A szelídsége ugyanabból az anyagból volt, mint a szívóssága.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Quintavallei Bernát",
+      "text": "Assisi gazdag és tisztelt polgára, Bernát Ferenc első társa volt: a saját szemével akarta látni, hogyan él az az ifjú, akit mindenki kigúnyolt, és egy imaéjszaka elég volt neki. Eladta a javait, szétosztotta a szegényeknek, és a vándoréletet választotta. A források a testvériség első gyümölcseként emlékeznek rá, és élete végén a kezdetek szellemének szeretett tanújaként. Ő indította el a láncot: az első testvér nélkül nincs testvériség.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Leó testvér",
+      "text": "Ferenc társa és gyóntatója az utolsó években, Leó testvér tanúja volt a La Verna időszakának, és őrizte a szent egyetlen autográfját: egy levelet és egy áldást, amelyet egész életében megőrzött. A levélben Ferenc a jó választás miatti szorongására a szabadság szavaival felel: kövesd a lelkiismeretedet Isten előtt. A Fiorettiben ő a tökéletes örömről szóló párbeszéd beszélgetőtársa. Leó a törékeny és őszinte tanítványt képviseli, közelebb Ferenc lelkéhez, mint amit az egyszerűség híre sejtet.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Al-Málik al-Kámil szultán",
+      "text": "Egyiptom ajjúbida szultánja, Szaladin unokája, al-Málik al-Kámil 1219-ben, az ötödik keresztes hadjárat kellős közepén fogadta Ferencet Damiettánál. A középkori források, keresztények és nem csak ők, olyan uralkodóként írják le, aki képes volt hallgatni és párbeszédet folytatni a latin világgal, amellyel hosszan tárgyalt Jeruzsálem kérdéséről. A találkozás Ferenccel egyiküket sem térítette meg: megmutatta, hogy hívőként is lehet beszélni fegyver nélkül a kézben. Kulcsfigura marad annak megértéséhez, hogy a ferences befogadás átlépi a hit határait.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "A középkori kommuna",
+      "text": "Ferenc Assisija emelkedő kommuna: consulok és podestàk, tornyok és vérbosszúk, gazdagodó kereskedők és a munkát szervező céhek. A becsületre, a rangra és a hitelre épülő világ, ahol a gazdagság látható, a szegénység pedig szégyen. Bernardone Péter családja ehhez a feltörekvő polgársághoz tartozik. Éppen ezekkel az értékekkel szemben — nem a gazdagság ellen önmagában, hanem a hatalom ellen, amelyet a szíven gyakorol — formálódik a ferences választás.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "A leprakórház",
+      "text": "A tizenharmadik században a leprások a falakon kívül éltek, lazarétumokban, mint az Assisi körüliek, kizárva a városi életből, és a bűn vélt bélyegével megjelölve. Ferenc a Végrendeletben megvallja, hogy látásuk túlságosan keserűnek tűnt; és éppen közöttük, ahová az Úr vezette, irgalmasságot cselekedett, és édességet talált. Celano a konkrét szolgálatot írja le: a sebek mosását, az ölelést, a gondoskodást. A leprakórház az a hely, ahol a ferences szeretet születik: nem érzés, hanem testek találkozása.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Az alamizsna",
+      "text": "A középkori jámborság az alamizsnát érdemszerző gyakorlatként ismerte: a saját lélekért adtak, gyakran távolságot tartva. Az 1223-as Regula viszont azt kéri a testvérektől, hogy szégyen nélkül járjanak alamizsnáért, emlékezve arra, hogy az Úr szegénnyé lett: a kérés az élet része lesz, nem kerülendő megaláztatás. És az adás viszonnyá alakul: nem hagynak valamit a szegénynek, a szegénnyel vannak. Aki ad és aki kap, Isten előtt koldus szerepet cserél.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "A remeteség",
+      "text": "A ferences élet nem csak út és prédikáció: Ferenc magányos visszavonulásokat keresett — a Carcerit Assisi fölött, a La Vernát az Appennineken —, kevés társat és hosszú csendet vitt magával. A La Vernán, 1224 szeptemberében a források a stigmákat és az Isten dicséreteinek keletkezését helyezik el: Ferenc legtisztább imája kérés nélküli dicséret. A remeteség nem menekülés a világ elől: az a hely, ahol visszatérünk a lényeghez, hogy aztán újra lemenjünk az emberek közé. A küldetés és a visszavonulás úgy tartja egymást, mint a járás két lába.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Mi birtokol téged?",
+      "text": "Készíts fejben leltárt azokról a dolgokról, amelyek a legfontosabbak neked. Aztán kérdezd meg egyenként: én birtokolom, vagy ő birtokol engem? Mennyi időd, figyelmed, szorongásod szolgálja annak védelmét, amid van? Nincs helyes válasz: csak az igazság rólad.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Ki a te farkasod?",
+      "text": "A negyededben, a munkádban, a családodban: ki az a személy vagy helyzet, amely elől mindenki menekül? Mi történne, ha a falak emelése helyett valaki elébe menne, és megkérdezné: mire éhezel? Ki lehetne a te városodban az a közösség, amely kezeskedik a szövetségért?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Mitől függ az örömöd?",
+      "text": "Gondolj arra, amikor utoljára igazán örültél: egy elért eredménytől függött, egy elismeréstől, egy vásárlástól? Most gondolj egy örömre, amelyet semmilyen külső esemény nem vehet el. Ha semmi sem jut eszedbe, az nem vétek: kutatási nyom. Minek kellene megváltoznia benned, hogy az öröm ne az eseményektől legyen bérbe véve?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "A béke útja",
+      "text": "Út két helyzetben: egy határt érintő vita egy középkori faluban, és egy elszenvedett sérelem egy mai irodában. A ferences béke nem a konfliktus hiánya: köszöntés, amelyet vinni kell, közvetítés, amelyet fel kell ajánlani, öröm, amelyet nem hagyunk az események túszának. Akkor nyílik meg, amikor felfedezed a béke köszöntésének tanítását.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "A testvériség útja",
+      "text": "Út a közös élet belsejében: mit tenni, amikor egy testvér súlyosan vét, és a közösség a szigor és a befogadás között megoszlik? A ferences testvériség éppen ott mérhető, nem a jó szándékokban. Akkor nyílik meg, amikor felfedezed a kisebb testvérek tanítását, és átmegy a határtalan megbocsátáson és a regulán, amely véd.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "A béke útja",
+      "theme": "pace",
+      "description": "A házról házra vitt köszöntéstől az örömig, amely nem az eseményektől függ: két helyzet, hogy a békét gyakorlatként tanuljuk, a középkori faluban és a mai irodában.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Az egyszerűség útja",
+      "theme": "poverta",
+      "description": "Mit tegyünk a javakkal, amelyek a kezünkön mennek át: kényes megőrzés a tizenharmadik században, és egy átláthatatlan projekt ma. A ferences szegénység mint szabadság a birtoklástól, és mint annak a felelőssége, aki szolgál.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "A testvériség útja",
+      "theme": "fraternita",
+      "description": "Amikor egy testvér súlyosan vét, a testvériség megmutatja, mi is valójában: törvényszék vagy ház. Egy helyzet, hogy átmenjünk a megbocsátáson, a regulán és a kölcsönös felelősségen.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "A határfal",
+      "situation": "Assisi faluja, a tizenharmadik század eleje. Berta, aki a festők boltját tartja, és Lupo, a szomszéd kapu takácsa, hetek óta vitat egy ölnyi földet a házaik között: ott megy az ereszcsatorna, és mindketten esküsznek, hogy a fal az ő oldalukon áll. A családok abbahagyták a köszönést; az inasok sértéseket dobálnak az utcán. Mindkettőjüket ismered, és mindketten bíznak benned. Ma este megkérdezik: melyik oldalon állsz?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Egyik oldalra sem állni: felajánlani, hogy egyenként, aztán együtt meghallgatod őket, és segítesz egyszerű megállapodást találni a falról és az ereszcsatornáról.",
+          "consequence": "Az első hetek fáradságosak: mindketten a maguk oldalára akarnak húzni. Aztán, mert meghallgatják őket, felfedezik, hogy az igazi csomó nem az ölnyi föld, hanem egy régi, soha meg nem bocsátott sérelem. A megállapodás a falról szinte gyorsan megszületik, és Szent György ünnepén a két bolt újra kölcsönöz egymásnak.",
+          "perspectives": [
+            {
+              "label": "A ferences út",
+              "text": "A Végrendeletben Ferenc tanúsítja, hogy az Úr béke-köszöntést nyilatkoztatott ki neki, amelyet másoknak kell vinnie, és a források emlékeznek a testvérekre, akik házról házra hirdették a békét. Személyesen, alázatosan közvetíteni pontosan ez a gesztus: a békét nem óhajtják, átadják.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Gubbio tanulsága",
+              "text": "A farkas elbeszélésében a béke akkor születik, amikor valaki elébe megy annak, ami ijeszt, és az egész közösség kezeskedik a szövetségért: a város táplálja a farkast, a farkas többé nem árt. Itt a két család és a szomszédos boltok kezeskednek a megállapodásért, hogy a te jelenléteden túl is tartson.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "A falu óvatossága",
+              "text": "Aki középre áll, kockáztatja, hogy mindkettő céltáblája lesz, ha a megállapodás meghiúsul. A közvetítés azért működik, mert a vitán kívül állsz, és semmit sem nyersz rajta: a hitelességed az egyetlen tőkéd, és takarékosan kell költeni.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Mindkettőjüknek azt tanácsolni, hogy vigyék az ügyet a kommuna consulai vagy a kereskedőcéh elé: a határt megmérik, az iratokat olvassák, a jog dönt.",
+          "consequence": "A viszály kikerül az utcáról, és belép a formákba. A kommuna szakértője mér, az apák írásait olvassák, és néhány hónap múlva egy ítélet a falat Lupónak, az ereszcsatornát Bertának ítéli. A régi sérelem azonban megoldatlan marad: a családok alig köszönnek, és senki sincs igazán békében.",
+          "perspectives": [
+            {
+              "label": "A kor joga",
+              "text": "A kommuna éppen azért van, hogy a vérbosszút eljárással helyettesítse: egy harmadik ítélet lezárja a vitát vérontás és megaláztatás nélkül. Valódi polgári előrelépés, amelyet a tizenharmadik században fáradságos volt kivívni.",
+              "isEditorial": true
+            },
+            {
+              "label": "A ferences út",
+              "text": "A ferences hagyomány nem veti meg a hatóságokat, de emlékeztet arra, hogy az igazság a falat dönti el, nem a szívet: a házról házra vitt béke-köszöntés az embereket akarja újra kapcsolatba hozni, nem csak a sérelmeket elosztani. Egy igazságos ítélet a hamu alatt élve hagyhatja a viszályt.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "A falu óvatossága",
+              "text": "A consulokhoz fordulni véd téged: nem te döntesz, és senki sem vádolhat részrehajlással. Az ár a lassúság és a költségek, és a kockázat, hogy aki veszít, inkább a kommunára haragszik, mint a szomszédra.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Nem beavatkozni: hagyni, hogy az idő ülepítse a viszályt, és csak arra szorítkozni, hogy ítéletekkel és pletykával ne tápláld.",
+          "consequence": "Hónapokig a feszültség a felszín alatt marad: a falról senki sem beszél többé, de az inasok tovább piszkálják egymást, és az ereszcsatorna karbantartása leáll. Amikor megjön a tél, az eső mindkét pincét elárasztja: a közös kár előtt a két szomszéd szükségből újra beszél, és a viszály magától megoldódik, egy kis rozsdával többel.",
+          "perspectives": [
+            {
+              "label": "A falu óvatossága",
+              "text": "Nem minden konfliktus kér békéltetőt: néha a korai beavatkozás merevíti az álláspontokat. Az idő és a közös szükség — egy elárasztott pince — jobban közvetíthet, mint bármilyen beszéd.",
+              "isEditorial": true
+            },
+            {
+              "label": "A ferences út",
+              "text": "A ferences béke tevékeny: vinni kell, hirdetni, elébe menve építeni, mint a farkas elbeszélésében. Hagyni, hogy ülepedjen, nem vétek, de nem a béke köszöntése: lemondás arról, hogy eszköz legyünk, ami néha alázat, néha kényelem.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "A kor joga",
+              "text": "A középkori jogban a be nem avatkozásnak ára van: az el nem évült viszály visszatér, és az elhagyott ereszcsatorna közös kára mindenkit terhel. A várakozás nem semleges: választás, amely előre tolja a számlát.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "A ferences béke egy köszöntéssel kezdődik, és egy szövetséggel végződik, amelyet a közösség őriz. De kell valaki, aki hajlandó középen állni anélkül, hogy nyerne rajta. A te negyededben, ma, ki végzi ezt a munkát? És te megtehetnéd?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Az elvett érdem",
+      "situation": "Ma, a megbeszélésen az egész csapat előtt egy kolléga a sajátjaként mutatott be egy munkát, amely nagyrészt a tiéd. Senki sem szólt semmit; a főnök megköszönte neki. Órák óta éget a mellkasod. Holnap újra találkozik a tekintetetek a folyosón.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Azonnal visszavágni: a következő nyilvános alkalommal, mindenki előtt helyreállítani a tényeket, pontosan, ugyanaz előtt a közönség előtt, amely a sérelmet látta.",
+          "consequence": "A helyreigazítás pontosan megérkezik, és a tények a helyükre kerülnek: a főnök érti, néhány kolléga halkan megköszöni. A nyilvánosan megalázott kolléga csendes és tartós ellenféllé válik; a csapat légköre megmerevedik, és minden szavadat most grammonként mérik.",
+          "perspectives": [
+            {
+              "label": "A kor joga",
+              "text": "A saját munka visszavétele jogos: az érdemekről szóló igazság nem pletyka, és a sérelem elengedése precedenssé válhat. De a forma számít: a nyilvános jóvátétel győztest és vesztest teremt, és hosszú távon a vesztes nem felejt.",
+              "isEditorial": true
+            },
+            {
+              "label": "A ferences út",
+              "text": "A tökéletes öröm elbeszélése azt tanítja, hogy az örömnek nem szabad az elismeréstől függnie: ha a békéd csak akkor tér vissza, amikor a sérelmet nyilvánosan jóváteszik, bérbe adtad mások ítéletének. A tények helyreállítása megengedett; hogy szükséged legyen rá a jóléthez, az az igazi seb.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "A falu óvatossága",
+              "text": "A munka életében a hírnevet cseppenként építik, és vödörrel veszítik el: a jól mért nyilvános helyreigazítás véd, a nyilvános megalázás haragtartó emberként bélyegez meg. Ha ezt az utat választod, a szavakat a tartalomra mérd, soha a személyre.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Elengedni: nem szólni semmit, nem dédelgetni a haragot, továbbmenni. A munka magáért beszél, és nem akarod, hogy a sérelemnek hatalma legyen elrontani a napjaidat.",
+          "consequence": "A csend néhány hét türelmetlenségbe kerül, aztán a csomó kioldódik: a következő projekt egyértelműen a tiéd, és aki figyel, annak hosszú a memóriája. A szembe nem szállt kolléga azonban megismétli a viselkedést a csapat egy másik tagjával: a belső békéd megmenekül, de a probléma a csoportban marad.",
+          "perspectives": [
+            {
+              "label": "A ferences út",
+              "text": "A Fiorettiben a tökéletes öröm éppen ez: elszenvedni a sérelmet anélkül, hogy a szív parancsát neki adnánk, türelmesen és vidáman maradva. Nem naivitás és nem gyengeség: annak a felfedezése, hogy a szeretetre alapozott örömnek nincs szüksége minden vitát megnyerni.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "A kor joga",
+              "text": "A belső béke jó, de nem az egyetlen: a szembe nem szállt helytelen viselkedés szokássá válik, és a következő áldozatnak talán nincs meg a te erőd. A munkahelyi igazság másokat is véd, nem csak a te érdemedet.",
+              "isEditorial": true
+            },
+            {
+              "label": "A falu óvatossága",
+              "text": "A nem reagálás olyan stratégia, amelynek feltétele van: választottnak kell lennie, nem elszenvedettnek. Ha az elengedés hónapokig tartó dédelgetést jelent, nem az örömöt gyakoroltad, hanem a részletekben fizetett neheztelést. A szívet őszintén kell ellenőrizni.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Őszinte szembenézést keresni: négyszemközti beszélgetést kérni a kollégától, a tényeket vád nélkül elmondani, és meghallgatni, mit mond.",
+          "consequence": "A beszélgetés kényelmetlen, de igaz: a kolléga félig beismeri, mentegetőzik, aztán — meglepve, hogy nem tépték szét nyilvánosan — a következő megbeszélésen magától helyesbít, megemlítve a te hozzájárulásodat. Nem lesztek barátok, de éber tisztelet születik köztetek; és az ügy soha nem kerül a csapat terére.",
+          "perspectives": [
+            {
+              "label": "A ferences út",
+              "text": "A négyszemközti beszélgetés hasonlít a házról házra vitt béke-köszöntéshez: személyesen kitenni magunkat, közönség nélkül, nyitva hagyva a másiknak az ajtót. És hasonlít a tökéletes örömhöz, mert nem rendeli alá a békédet a kimenetelnek: az igazságért beszélsz, nem a győzelemért.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "A kor joga",
+              "text": "A magánbeszélgetés védi a tényeket anélkül, hogy megalázná a személyt: az a jóvátételi forma, amely épen hagyja a munkakapcsolatokat. A határa, hogy a másik jóhiszeműségétől függ: ha a kolléga tagad és kitart, utána a formális út kell.",
+              "isEditorial": true
+            },
+            {
+              "label": "A falu óvatossága",
+              "text": "Mielőtt beszélnél, kérdezd meg, mit akarsz valójában: a tényeket helyreállítani, vagy megfizettetni a sérelmet? A beszélgetés csak akkor működik, ha hallgatásra készen lépsz be; ha győzni lépsz be, a másik érzi, és bezárul.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "A tökéletes öröm nem tiltja, hogy a tényeket helyreállítsd: azt tiltja, hogy a sérelemnek add oda a szíved kulcsait. Kérdezd meg, a hetedben: hányszor van bérbe adva a békéd mások viselkedésének?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "A kereskedő letétje",
+      "situation": "Assisi, 1210. Guido, egy posztókereskedő, aki a champagne-i vásárokra indul, és két évnél előbb nem tér vissza, felajánlja, hogy őrizd a javai egy részét: kelmebálákat és egy erszény pénzt. Addig használhatod őket — a kelme ugrást adna a kis boltodnak —, és a visszatérésekor visszaadod a megállapodott értéket, a nyereség egy részével. Becsületes alkalom. Két évig tartó kötelék is.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Teljesen elfogadni: a kelmét és a pénzt a bolt növelésére használni, számítva arra, hogy Guido visszatérésekor a megállapodott kamattal visszaadod az értéket.",
+          "consequence": "A bolt valóban növekszik: két inas, új szövőszék, a neved kezd forogni. De minden döntés most a visszaadandó számlán megy át: már nem alszol a vásárok előtt, féled a lopásokat és a sovány éveket. Amikor Guido visszatér, korábban, és a saját veszteségeit kell fedeznie, a szövetség megtartása szinte az egész nyereségedbe kerül — és észreveszed, hogy két évet töltöttél azzal, hogy a pénzt őrizted, nem azzal, hogy éltél.",
+          "perspectives": [
+            {
+              "label": "A ferences út",
+              "text": "Az 1223-as Regula azt kéri, hogy semmit se sajátítsunk el, sem házat, sem helyet, sem bármi mást: nem azért, mert a dolgok rosszak, hanem mert amit vissza kell adnod és védelmezned kell, kezd birtokolni téged. A vásárok előtt elveszített álom a gazdaváltás pontos jele.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "A kereskedő logikája",
+              "text": "A kommuna világában ez a gyakorlat: a hitel forgatja a gazdaságot, és minden letét visszautasítása azt jelenti, hogy örökre kicsik maradunk. A kockázatot mérik és árazzák; a szövetség megtartása építi a hírnevet.",
+              "isEditorial": true
+            },
+            {
+              "label": "A lemondás tekintete",
+              "text": "Celano elbeszéli, hogy Ferenc még a ruháit is visszaadja az apjának: nem a dolgok megvetéséből, hanem hogy semmitől se függjön, ami nem az Atya. A kérdés nem az, hogy a szövetség becsületes-e — az —, hanem mennyi szabadságát a szívednek vagy hajlandó lekötni két évre.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Csak a megőrzést elfogadni, a használatot nem: lepecsételni a kelmét és a pénzt, biztonságban tartani anélkül, hogy kamatoztatnád, és épen visszaadni a visszatéréskor.",
+          "consequence": "Két évig a boltod a régi marad, de könnyen jársz: nincs visszaadandó számla, nincs védelmezendő nyereség. Guido, visszatérve, mindent épen talál, és szavahihető emberként becsül; más letéteket ajánl, amelyeket egyenként mérlegelsz. Valaki a faluban bolondnak nevez: az a kelme dolgozhatott volna neked.",
+          "perspectives": [
+            {
+              "label": "A ferences út",
+              "text": "Őrizni anélkül, hogy elsajátítanánk, szinte lelki gyakorlat: a kézben tartani anélkül, hogy a szívben lenne. Emlékeztet a Regula logikájára — zarándokok és idegenek a világban, a dolgok szolgái, nem urai —, más javára alkalmazva.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "A kereskedő logikája",
+              "text": "Gazdasági szempontból elvesztegetett alkalom: az álló tőke nem termel, és az ingyenes őrző olyan szolgáltatást ajándékoz, amelyet máshol megfizetnek. Guido becsülete ér valamit, de nem fizeti az új szövőszéket.",
+              "isEditorial": true
+            },
+            {
+              "label": "A falu óvatossága",
+              "text": "A tiszta megőrzésnek megvannak a kockázatai — lopás, tűz, hűtlen kezelés vádja —, de szabadon hagy minden vitától a nyereségről. Írj akkor is okiratot tanúk előtt: a bizalmat rendben lévő iratokkal tiszteljük jobban.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Tisztelettel visszautasítani: megköszönni Guidónak a bizalmat, de nem akarni sem birtoklási köteléket, sem két évre visszaadandó számlát.",
+          "consequence": "Guido meglepődik, aztán bólint: másra bízza a kelméket. A boltod kicsi marad, és néhány tél szűkös, de a szavad a faluban különös hangot kap: annak a hangját, aki nem adja el magát, és nem köti le magát. Évekkel később, amikor úgy döntesz, hogy követed az Assisin átvonuló testvéreket, senki sem találja furcsának az elszakadásodat: azzal a nemmel kezdődött.",
+          "perspectives": [
+            {
+              "label": "A lemondás tekintete",
+              "text": "Ferenc lemondása a püspök előtt megmutatja, hogy nemet mondani a gazdagságra a szabadság gesztusa, nem a megvetésé: visszaadta a ruháit, hogy képmutatás nélkül mondhassa: „Miatyánk”. Egy ma indokolt nem a holnap nemjeit — és igenjeit — készíti elő.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "A ferences út",
+              "text": "Vigyázz, ne keverd össze a szabadságot a magadnak szabott regulával: a Regula arról beszél, hogy ne sajátítsunk el, nem arról, hogy utasítsunk el minden felelősséget mások javai iránt. A visszautasítás is lehet módja annak, hogy csak magunkra gondoljunk.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "A falu óvatossága",
+              "text": "A visszautasítás jogos, de társadalmi ára van: a faluban így is segítenek egymásnak, egymás javait őrizve. Aki mindig visszautasít, hosszú távon kívül marad a bizalom hálóján, amelyen minden nyugszik.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "A ferences szegénység nem azt kéri, hogy vesd meg a dolgokat: azt kéri, hogy vedd észre, amikor a dolgok kezdenek birtokolni téged. Legközelebb, amikor elfogadsz valamit — egy tárgyat, egy megbízást, egy adósságot —, kérdezd meg: ki őriz kit?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Az átláthatatlan projekt",
+      "situation": "Ma. Egy rangos projekt irányítását bízzák rád: láthatóság, általad választott csapat, jelentős költségvetés. De két kiadási tétel nem stimmel, és a finanszírozó a kérdéseidre kitérő udvariassággal felel. Az aláírás azt jelenti, hogy annak az átláthatatlanságnak a felelősségét is magadra veszed. A visszautasítás azt jelenti, hogy lemondasz egy alkalomról, amely nem tér vissza.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "További kérdések nélkül elfogadni: a projekt egyedülálló alkalom, az átláthatatlan tételek nem a te hatásköröd, és különben is valaki aláírt volna helyetted.",
+          "consequence": "A projekt jól sikerül, és a karriered ugrik egyet. De amikor egy év múlva egy közigazgatási ellenőrzés újra megnyitja azokat a kiadási tételeket, az aláírásod az iratokon van: a felelősség, amelyet nem akartál megnézni, úgyis utolér, és a megszerzett presztízs kínos védekezéssé fordul.",
+          "perspectives": [
+            {
+              "label": "A szerep felelőssége",
+              "text": "A ferences testvériségben aki vezet, „miniszternek”, szolgának hívatik: a tisztség a szolgálatra van, nem a ragyogásra. Az a szolgálat, amely elfogadja, hogy ne lássa, amiért felel, már elárulta a nevét, még bármilyen ellenőrzés előtt.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A kereskedő logikája",
+              "text": "A munka világában így gondolkodnak: minden projektnek vannak szürke zónái, és aki igazán dolgozni akar, megtanul együtt élni velük. Minden tökéletlenség visszautasítása azt jelenti, hogy a döntéseket annak adjuk át, akinek kevesebb skrupulusa van, mint neked.",
+              "isEditorial": true
+            },
+            {
+              "label": "A falu óvatossága",
+              "text": "Az aláírás határ: amit aláírsz, azt birtoklod, minden következményével. Aláírás előtt tízig számolni nem elég: tudni kell pontosan, mit írunk alá. Az alkalom, amely nem tér vissza, gyakran visszatér; a hírnév nem.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Visszautasítani: átláthatóság nélkül nem írunk alá, és a projekt menjen annak, aki elfogadja ezeket a feltételeket.",
+          "consequence": "A lemondás éget, és hónapokig nézed, amint a projekt a problémák között megy tovább: a te irányításod nélkül a csapat kibillen, és végül a finanszírozó éppen az átláthatatlan tételek miatt vonja vissza a pénzt. A nemedet, amelyet néhányan naivitásnak olvasnak, mások akkor idézik fel, amikor bizalmi személy kell egy kényes megbízáshoz.",
+          "perspectives": [
+            {
+              "label": "A falu óvatossága",
+              "text": "A visszautasítás védi a hírnevet, de a problémát érintetlenül hagyja: a projekt annak megy, akinek kevesebb skrupulusa van, és akik dolgoznak rajta, elszenvedik a következményeket. Egy nem megtisztítja a kezet, nem mindig a világot.",
+              "isEditorial": true
+            },
+            {
+              "label": "A szerep felelőssége",
+              "text": "A levél egy miniszterhez megmutatja, hogy a ferences vezetés közelség és szolgálat, soha felsőbbrendű távolságtartás. De szolgálni nem azt jelenti, hogy mindenre kölcsönadjuk magunkat: a miniszter, aki aláírja, amit nem tud kormányozni, nem szolgálja a testvéreket, kiteszi őket. A visszautasítás is lehet a gondoskodás formája.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A hosszú tekintet",
+              "text": "A karriereket megragadott alkalmakból csinálják, a bizalmat viszont visszautasított alkalmakból. A világos okokból, moralizálás nélkül kimondott nem lassan érő befektetés, amely nem értéktelenedik el.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Feltételekkel elfogadni: csak azután aláírni, hogy írásba foglalták az átlátható elszámolást, a független ellenőrzést és az indokolt elállás jogát.",
+          "consequence": "A finanszírozó húzza az időt, azzal fenyeget, hogy mást keres, aztán enged: a feltételeid, leírva, a projekt gerincévé válnak. A munka lassabb és fáradságosabb, mint ígérte, de amikor az ellenőrzés megérkezik — és megérkezik —, a számlák nyitottak, és a csapat tartja magát. Az irányításod precedenssé válik: mások, utánad, ugyanezeket a feltételeket kérik.",
+          "perspectives": [
+            {
+              "label": "A szerep felelőssége",
+              "text": "Ez a miniszter útja a teljes ferences értelemben: nem menekülni a szolgálat elől, de elutasítani, hogy a szolgálat cinkossággá váljon. Aki vezet, szolgál — és a szolgálat magában foglalja, hogy a csapatot és a projektet megvédjük az árnyékzónáktól, még kényelmetlen tárgyalások árán is.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A kereskedő logikája",
+              "text": "Az írott feltételek a legjobb kompromisszum, de áruk van: kockáztatod, hogy elveszíted a megbízást, ha a finanszírozó nem enged, és hogy évekig olyan partnerrel dolgozz, aki inkább ellenőrnek tekint, mint szövetségesnek. Csak akkor éri meg, ha hihető alternatíváid vannak.",
+              "isEditorial": true
+            },
+            {
+              "label": "A hosszú tekintet",
+              "text": "Feltételeket szabni a leglassabb és legtermékenyebb mód: nem csak téged véd, a gyakorlatot változtatja meg. Az intézmények akkor javulnak, amikor valaki személyes skrupulust közös szabállyá alakít.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Ferenc a felelősöket „minisztereknek”, szolgáknak nevezte: a szerep neve már a programja. A munkádban mi kell ahhoz, hogy a szolgálatod ne váljon cinkossággá — és mi ahhoz, hogy a szigorod ne váljon dezertálássá?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "A testvér, aki vétett",
+      "situation": "Porciunkula, a tizenharmadik század húszas évei. Ruffino testvér súlyosan vétett a regula ellen: magánál tartotta az alamizsnaként kapott pénzt, és a dolog már kívül is ismert, az emberek között, akik rátok néznek. A testvériség napok óta vitatkozik. Egyesek példás bűnbánatot és eltávolítását kérik a faluból; mások emlékeztetnek arra, hogy Ruffino beteg és összetört; megint mások attól tartanak, hogy az elnézés mindenkit vétekre hív. A miniszter mindenki véleményét kéri. A tiédet is.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "A szigort támogatni: nyilvános bűnbánatot és Ruffino ideiglenes eltávolítását, mert a regula mindenkire érvényes, és a világiak botrányát mindenki előtt kell jóvátenni.",
+          "consequence": "A testvériség szigorú fegyelmet fogad el. Ruffino távoli remetelakba indul, megalázva azok előtt, akik ismerték; a falu világijai csodálják a testvérek következetességét, és az alamizsna nem csökken. De a testvériségben valami megmerevedik: a testvérek kezdik elrejteni a törékenységüket az ítélettől való félelemben, és Ruffino, egyedül, évekbe telik, míg visszatér — ha visszatér.",
+          "perspectives": [
+            {
+              "label": "A közösség bölcsessége",
+              "text": "A közös regula az, ami a testvériséget a baráti társaságtól megkülönbözteti: ha aki súlyosan vét, nem találkozik következménnyel, a szövetség kiürül, és a gyengébbek fizetik az árát. A nyilvános jóvátétel a nyilvános botrányra is felel.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "A levél a miniszterhez",
+              "text": "Ferenc azt írja a miniszternek, hogy ha egy testvér ezerszer vétkezett is, akkor is szeretni kell, és irgalmat hirdetni neki: a keménység, amely megbotránkoztatja a gyenge testvért, kockáztatja, hogy elveszíti. A szigor nincs tiltva, de soha nem válhat megvetéssé.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A hosszú tekintet",
+              "text": "Az a közösség, amelyben mindenki az ítélettől fél, a titkok közösségévé válik: a regula a papíron állva marad, és a szívekben összeomlik. A szigor, amely nem látja előre a visszaút, száműzötteket termel, nem bűnbánókat.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "A teljes befogadást támogatni: Ruffinót nyilvános bűnbánat nélkül visszafogadni, a betegségét gondozni, és a botrányra szelídséggel felelni, nem büntetéssel.",
+          "consequence": "Ruffino marad. Sír a testvérek előtt, visszaad, amit tud, és lassan újra helyet talál a közös életben: senki sem veti többé a szemére a dolgot. A faluban valaki mormog, hogy a testvérek fedezik egymást, és a testvériség két fiatalja a szelídséget engedélynek veszi: a miniszternek hónapokig kell fáradoznia, hogy helyreállítsa, a regula nem tanács.",
+          "perspectives": [
+            {
+              "label": "A levél a miniszterhez",
+              "text": "Ez a miniszterhez írt levél útja: jobban szeretni, nem kevésbé, aki vétett; irgalmat hirdetni, ha megbánja; nem megkeményíteni a szívünket a más vétke miatt. Ferenc tudja, hogy ez az út kerül, és mégis előírja.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A közösség bölcsessége",
+              "text": "Az 1221-es Regula azt kéri, hogy egymásnak tárjuk fel a szükségleteinket, és ne vessük meg a gyengét: a beteg Ruffino pontosan az a testvér, akit a regula véd. De ugyanaz a regula azért van, hogy a testvériség ne szóródjon szét: az igazság nélküli irgalom cinkossággá válik.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "A falu óvatossága",
+              "text": "A világiak szegény testvéreknek adnak alamizsnát, nem ravasz testvéreknek: a nem kormányzott botrány kikezdi a bizalmat, amely életben tartja a közösséget. A befogadást a falunak is meg kell magyarázni, nem csak otthon megélni, különben fedezésnek olvassák.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Közösségi utat támogatni: Ruffino a testvériségben marad, a testvérek előtt visszaadja, amivel tartozik, testvéri kísérésre bízza magát, és az egész közösség viszi vele a jóvátételt a falu felé.",
+          "consequence": "Az út hosszú és kényelmetlen: Ruffino megvallja a testvérek előtt, egy idős testvérrel együtt házról házra visszaadja a pénzt, és egy éven át a legalázatosabb szolgálatokat végzi, anélkül hogy bárki a szemére vetné. A falu valódi jóvátételt lát, nem büntetést: a bizalom lassan visszatér. A testvériségen belül az epizód íratlan regulává válik: aki elesik, azt kísérik, aki vétett, jóváteszi, senki sem vész el.",
+          "perspectives": [
+            {
+              "label": "A levél a miniszterhez",
+              "text": "A levél irgalma nem engedmény: szeretet, amely kíséri a megbánást, amíg gyümölcsöt nem hoz. Ruffino, aki házról házra ad vissza, nincs megalázva: testvér, aki visszatér, a közösséggel, amely mellette jár, ahelyett hogy felülről nézné.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "A közösség bölcsessége",
+              "text": "Az 1221-es Regula éppen ezt képzeli el: testvérek, akik feltárják a szükségleteiket — a szégyenleteseket is —, és hordozzák egymást. A közösségi jóvátétel egyesíti az igazságot és az irgalmat, és az egyik vétkét mindenki iskolájává teszi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "A kor joga",
+              "text": "Ez a legigényesebb út mindenki számára: időt kíván, a titok őrzését, ahol kell, nyilvános igazságot, ahol a botrány nyilvános volt. Nem minden közösség bírja ezt a fáradságot: képes miniszter nélkül a középső út csak határozatlanság.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "A testvériség nem akkor mérhető, amikor mindenki megtartja a regulát, hanem amikor valaki megszegi. A levél egy miniszterhez a csillagot rögzíti — jobban szeretni, nem kevésbé —, anélkül hogy eltörölné az igazságot. A te közösségeidben aki hibázott, talál visszafelé vezető utat?"
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Rauhan tervehdys",
+      "text": "Testamentissa Franciscus todistaa, että Herra ilmoitti hänelle rauhantunnuksen, joka oli vietävä muille, ja keskiaikaiset lähteet muistavat ensimmäiset veljet, jotka julistivat rauhaa talosta taloon. Franciscukselle rauha ei ole ristiriidan poissaoloa: se on lahja, joka annetaan, ovelta ovelle, ihmiseltä ihmiselle. Gubbion suden kertomus vie tämän logiikan äärimmilleen: rauha tehdään jopa sen kanssa, mikä pelottaa, menemällä sitä vastaan. Samasta perinteestä syntyy kansanomainen sanonta \"rauhaa ja hyvää\".",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Köyhyys vapautena",
+      "text": "Vuoden 1223 sääntö pyytää veljiä olemaan ottamatta mitään omakseen — ei taloa, ei paikkaa eikä mitään — ja elämään pyhiinvaeltajina ja muukalaisina maailmassa. Fransiskaaninen köyhyys ei ylistä puutetta, joka jää yhteiskunnalliseksi haavaksi: se on valinta olla antamatta omistuksen määritellä itseään. Jolla ei ole mitään puolustettavaa, ei ole mitään pelättävää, ja hän voi ottaa kaiken vastaan lahjana. Perusta on teologinen ennen kuin taloudellinen: Herra itse teki itsensä köyhäksi.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Vähäisemmät veljet",
+      "text": "Franciscus tahtoi, että hänen kumppaneitaan kutsuttaisiin vähäisemmiksi veljiksi: kukaan ei ole suuri, ja vastuunkantajia kutsutaan \"ministereiksi\", siis palvelijoiksi. Vuoden 1221 sääntö pyytää, että kukin ilmaisee tarpeensa toiselle, ettei kukaan tuomitse veljeä, ja ettei terve halveksi sairaan heikkoutta. Veljeys ei ole julistettava ihanne: se on jokapäiväinen keskinäisen vastuun käytäntö. Veljiä ollaan konkreettisissa eleissä, tai ei olla lainkaan.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Veli aurinko, sisar vesi",
+      "text": "Luotujen laulussa Franciscus ylistää Jumalaa \"tähden\" ja \"kanssa\" luotujen: veli aurinko, sisar kuu, veli tuuli, sisar vesi \"hyödyllinen ja nöyrä ja kallisarvoinen ja puhdas\", sisaremme äiti maa. Luontoa ei jumaloida eikä supisteta resurssien varastoksi: se on perhe, koska kaikilla luoduilla on sama Isä. Luomakunnan hoito syntyy sukulaisuudesta ja kiitollisuudesta, ei laskelmasta. Ja Laulu laadittiin sairaudessa: ylistys ei riipu olosuhteista.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Täydellinen ilo",
+      "text": "Kukkasissa Franciscus selittää veli Leolle, ettei tosi ilo ole ihmeet, ei menestykset eikä uskottomien kääntymykset: se on palata ovelle torjuttuna, kylmissään ja pahoinpideltynä, ja pysyä kärsivällisenä ja iloisena. Se on hagiografinen kertomus, ei kronikka, mutta se tiivistää aidon piirteen fransiskaanisesta hengestä. Täydellinen ilo ei riipu tapahtumista: se on sisäinen valinta, jota mikään kieltäytyminen ei voi ottaa pois.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Seitsemänkymmentä kertaa seitsemän, ja ylikin",
+      "text": "Kirjeessä eräälle ministerille Franciscus kirjoittaa, että jos veli olisi tehnyt syntiä tuhat kertaa, häntä on silti rakastettava ja hänelle julistettava laupeutta, kunhan hän tekee parannuksen. Fransiskaaninen anteeksianto ei kiellä pahaa: se kieltäytyy antamasta pahalle viimeistä sanaa suhteesta. Laulussa säkeistö niistä, jotka antavat anteeksi Jumalan rakkauden tähden, lisättiin — perinteen mukaan — sovittamaan Assisin riitelevän piispan ja podestàn. Anteeksianto on yhtä aikaa henkilön hoitoa ja kaupungin lääkettä.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Joulu Grecciossa",
+      "text": "Jouluna 1223 Franciscus tahtoi viettää Grecciossa Jeesuksen syntymää oikealla seimellä, heinillä, härällä ja aasilla: jotta ruumiin silmät näkisivät Betlehemin köyhyyden. Tuomas Celanolainen esittää sen salaisuuden elävänä muistona, ei näytelmänä. Tuosta yöstä syntyy seimiperinne. Ele on tyypillisesti fransiskaaninen: uskoa kosketetaan, nähdään, siinä asutaan.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Kohtaaminen sulttaanin kanssa",
+      "text": "Vuonna 1219, viidennen ristiretken aikana, Franciscus ylitti ristiretkeläisarmeijan linjat Damiettassa kohdatakseen sulttaani al-Malik al-Kamilin. Keskiaikaiset lähteet muistavat kunnioittavan keskustelun heidän välillään, vaikka uskon ero oli sovittamaton. Sodan aikana Franciscus valitsi aseettoman kohtaamisen tien eikä saarnaamista vastaan. Episodi jää mittapuuksi jokaiselle keskustelulle, joka ylittää oman maailman rajat.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Gubbion susi",
+      "text": "Kukkaset kertovat, että Gubbiossa susi piti kaupunkia kauhun vallassa, ja Franciscus, pelokasta väkijoukkoa vastaan, meni pedon luo ja puhui sille niin kuin veljelle. Siitä syntyi rauhan liitto: kaupunki ruokkisi sutta, eikä susi enää tekisi pahaa kenellekään. Se on 1300-luvun hagiografisen perinteen kertomus, arvokas mielikuvitukselle enemmän kuin kronikalle. Sen opetus on selvä: rauha rakennetaan menemällä sitä kohti mikä pelottaa, ja ottamalla koko yhteisö liiton takaajaksi.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Luopuminen piispan edessä",
+      "text": "Vuoden 1206 alussa, piispa Guidon ja isänsä Pietro di Bernardonen edessä, Franciscus palautti vaatteet ja luopui isän omaisuudesta. Tuomas Celanolainen kertoo, että piispa peitti hänet omalla viitallaan: kirkko otti vastaan sen, jota kauppiasperhe ei enää ymmärtänyt. Se ei ollut pakoa tavaroista, vaan julkinen vapautuminen ajatuksesta omistaa ne. Siitä päivästä Franciscus saattoi riippua vain Isästä, joka on taivaissa — ja toisten anteliaisuudesta.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Klara Assisilainen",
+      "text": "Assisin nuori aatelisnainen Klara jätti isän talon palmusunnuntain yönä 1212 seuratakseen Franciscuksen evankelista elämänmuotoa; tämä leikkasi hänen hiuksensa Portiunculassa. Hän perusti San Damianon köyhien sisarten yhteisön ja puolusti koko elämänsä \"köyhyyden erioikeutta\" kirkollisia paineita vastaan. Hän oli ensimmäinen nainen, joka kirjoitti naisille uskonnollisen säännön, joka hyväksyttiin kaksi päivää ennen hänen kuolemaansa vuonna 1253. Hänen lempeytensä oli samaa ainetta kuin hänen sitkeytensä.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernardo di Quintavalle",
+      "text": "Varakas ja arvostettu Assisin kansalainen Bernardo oli Franciscuksen ensimmäinen kumppani: hän tahtoi nähdä omin silmin, miten eli tuo nuorukainen, jota kaikki pilkkasivat, ja yksi rukousyö riitti hänelle. Hän myi omaisuutensa, jakoi sen köyhille ja valitsi kiertelevän elämän. Lähteet muistavat hänet veljeskunnan ensimmäisenä hedelmänä ja, elämän lopussa, alkuperäisen hengen rakastettuna todistajana. Hän aloitti ketjun: ilman ensimmäistä veljeä ei ole veljeskuntaa.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Veli Leo",
+      "text": "Franciscuksen kumppani ja rippi-isä viimeisinä vuosina, veli Leo oli todistaja La Vernan ajalle ja pyhimyksen ainoan autografin vartija: kirjeen ja siunauksen, jonka hän säilytti koko elämänsä. Kirjeessä Franciscus vastaa hänen huoleensa valita oikein vapauden sanoin: seuraa omaatuntoasi Jumalan edessä. Kukkasissa hän on täydellisen ilon vuoropuhelun keskustelukumppani. Leo edustaa haurasta ja vilpitöntä opetuslasta, lähempänä Franciscuksen mieltä kuin hänen yksinkertaisuuden maineensa antaa ymmärtää.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sulttaani al-Malik al-Kamil",
+      "text": "Aijubidien dynastian Egyptin sulttaani, Saladinin pojanpoika, al-Malik al-Kamil otti Franciscuksen vastaan Damiettassa vuonna 1219, keskellä viidettä ristiretkeä. Keskiaikaiset lähteet, kristilliset ja muutkin, kuvaavat häntä hallitsijaksi, joka osasi kuunnella ja keskustella latinalaisen maailman kanssa, jonka kanssa hän neuvotteli kauan Jerusalemin kysymyksestä. Kohtaaminen Franciscuksen kanssa ei kääntänyt kumpaakaan: se näytti, että uskovina voidaan puhua aseita kädessä pitämättä. Hän jää avainhahmoksi sen ymmärtämiseen, että fransiskaaninen vastaanottaminen ylittää uskon rajat.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Keskiajan kommuuni",
+      "text": "Franciscuksen Assisi on nouseva kommuuni: konsuleja ja podestàja, torneja ja sukuriitoja, kauppiaita jotka rikastuvat ja ammattikuntia jotka järjestävät työn. Se on maailma, joka perustuu kunniaan, säätyyn ja luottoon, jossa rikkaus näkyy ja köyhyys on häpeä. Pietro di Bernardonen perhe kuuluu tähän nousevaan porvaristoon. Juuri näitä arvoja vastaan — ei rikkautta sinänsä, vaan valtaa jota se käyttää sydämeen — fransiskaaninen valinta saa muotonsa.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Leprasairaala",
+      "text": "1200-luvulla spitaaliset elivät muurien ulkopuolella, leprasairaaloissa niin kuin Assisin lähellä, suljettuina kaupunkielämästä ja merkittyinä oletetulla synnin leimalla. Franciscus tunnustaa Testamentissa, että heidän näkemisensä tuntui hänestä liian katkeralta; ja että juuri heidän keskellään, kun Herra vei hänet sinne, hän osoitti laupeutta ja löysi suloisuuden. Celano kuvaa konkreettista palvelua: haavojen pesemistä, syleilemistä, huolenpitoa. Leprasairaala on paikka, jossa fransiskaaninen rakkaus syntyy: ei tunne, vaan ruumiiden kohtaaminen.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Almu",
+      "text": "Keskiajan hurskaus tunsi almun ansiokkaana käytäntönä: annettiin oman sielun tähden, usein etäisyyttä pitäen. Vuoden 1223 sääntö pyytää sen sijaan veljiä kulkemaan almun perässä häpeämättä, muistaen että Herra on tehnyt itsensä köyhäksi: pyytämisestä tulee osa elämää, ei nöyryytys jota vältetään. Ja antamisesta tulee suhde: köyhälle ei jätetä jotakin, köyhän kanssa ollaan. Antaja ja saaja vaihtavat kerjäläisen roolia Jumalan edessä.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Erakkomaja",
+      "text": "Fransiskaaninen elämä ei ole vain tietä ja saarnaa: Franciscus etsi yksinäisiä vetäytymisiä — Carcere Assisin yllä, La Verna Apenniineilla — vieden mukanaan muutaman kumppanin ja pitkiä hiljaisuuksia. La Vernassa syyskuussa 1224 lähteet sijoittavat stigmat ja Jumalan ylistysten laatimisen: Franciscuksen puhtain rukous on ylistys ilman pyyntöjä. Erakkomaja ei ole pakoa maailmasta: se on paikka, johon palataan olennaiseen, jotta sitten laskeudutaan taas ihmisten keskelle. Lähetys ja vetäytyminen pitävät toisiaan niin kuin matkan kaksi jalkaa.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Mikä omistaa sinut?",
+      "text": "Tee mielessäsi luettelo asioista, joihin eniten pidät kiinni. Kysy sitten, yksi kerrallaan: omistanko minä sen, vai omistaako se minut? Kuinka paljon ajastasi, tarkkaavaisuudestasi, ahdistuksestasi palvelee sen puolustamista, mitä sinulla on? Oikeaa vastausta ei ole: on vain totuus sinusta.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Kuka on sinun susi?",
+      "text": "Naapurustossasi, työssäsi, perheessäsi: kuka on ihminen tai mikä on tilanne, jota kaikki pakenevat? Mitä tapahtuisi, jos muurien pystyttämisen sijaan joku menisi vastaan ja kysyisi: mistä sinulla on nälkä? Kuka kaupungissasi voisi olla yhteisö, joka takaa liiton?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Mistä ilosi riippuu?",
+      "text": "Ajattele viimeistä kertaa, jolloin olit todella iloinen: riippuiko se saavutetusta tuloksesta, tunnustuksesta, ostoksesta? Ajattele nyt iloa, jota mikään ulkoinen tapahtuma ei voi ottaa pois. Jos mieleen ei tule mitään, se ei ole syyllisyys: se on tutkimuksen jälki. Mitä sinussa pitäisi muuttua, jotta ilo ei olisi tapahtumilta vuokralla?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Rauhan tie",
+      "text": "Polku kahdessa tilanteessa: rajariita keskiaikaisessa kylässä ja koettu vääryys tämän päivän toimistossa. Fransiskaaninen rauha ei ole ristiriidan poissaoloa: se on tervehdys joka viedään, sovittelu jota tarjotaan, ilo jota ei jätetä tapahtumien panttivangiksi. Se avautuu, kun löydät rauhan tervehdyksen opetuksen.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Veljeyden tie",
+      "text": "Polku yhteisen elämän sisällä: mitä tehdä, kun veli rikkoo vakavasti ja yhteisö jakautuu ankaruuden ja vastaanottamisen välillä? Fransiskaaninen veljeys mitataan juuri siellä, ei hyvissä aikomuksissa. Se avautuu, kun löydät vähäisempien veljien opetuksen, ja se kulkee rajatonta anteeksiantoa ja suojaavaa sääntöä.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Rauhan tie",
+      "theme": "pace",
+      "description": "Talosta taloon viedystä tervehdyksestä iloon, joka ei riipu tapahtumista: kaksi tilannetta, joissa opitaan rauha käytäntönä, keskiaikaisessa kylässä ja tämän päivän toimistossa.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Yksinkertaisuuden tie",
+      "theme": "poverta",
+      "description": "Mitä tehdä tavaroille, jotka kulkevat käsistämme: arka säilytys 1200-luvulla ja läpinäkymätön hanke tänään. Fransiskaaninen köyhyys vapautena omistuksesta ja sen vastuuna, joka palvelee.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Veljeyden tie",
+      "theme": "fraternita",
+      "description": "Kun veli erehtyy vakavasti, veljeys paljastaa, mitä se todella on: tuomioistuin vai koti. Tilanne, jossa kuljetaan anteeksiannon, säännön ja keskinäisen vastuun läpi.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Rajamuuri",
+      "situation": "Assisin kylä, 1200-luvun alku. Berta, joka pitää värjärien puotia, ja Lupo, viereisen portin kankuri, ovat kiistelleet viikkoja käsivarren levyisestä maakaistaleesta talojensa välissä: siitä kulkee räystäs, ja kumpikin vannoo, että muuri on hänen puolellaan. Perheet ovat lakanneet tervehtimästä; oppipojat heittelevät solvauksia kadulla. Tunnet heidät molemmat, ja molemmat luottavat sinuun. Tänä iltana he kysyvät: kummalla puolella seisot?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Et seiso kummallakaan puolella: tarjouduit kuuntelemaan heitä yksi kerrallaan, sitten yhdessä, ja auttamaan heitä löytämään yksinkertaisen sopimuksen muurista ja räystäästä.",
+          "consequence": "Ensimmäiset viikot ovat raskaita: kumpikin yrittää vetää sinua puolelleen. Sitten, kun heitä on kuunneltu, he huomaavat, ettei todellinen solmu ole maakaistale vaan vanha, koskaan anteeksi antamaton vääryys. Sopimus muurista syntyy miltei nopeasti, ja pyhän Yrjön juhlana kaksi puotia alkavat taas lainata toisilleen.",
+          "perspectives": [
+            {
+              "label": "Fransiskaaninen tie",
+              "text": "Testamentissa Franciscus todistaa, että Herra ilmoitti hänelle rauhantunnuksen, joka oli vietävä muille, ja lähteet muistavat veljien julistaneen rauhaa talosta taloon. Sovitella itse, nöyrästi, on juuri tämä ele: rauhaa ei toivota, se annetaan.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Gubbion opetus",
+              "text": "Suden kertomuksessa rauha syntyy, kun joku menee sitä kohti mikä pelottaa ja koko yhteisöstä tulee liiton takaaja: kaupunki ruokkii sutta, susi ei enää tee vahinkoa. Tässä kaksi perhettä ja viereiset puodit takaavat sopimuksen, jotta se kestäisi sinun läsnäolosi jälkeenkin.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Joka asettuu väliin, riskeeraa joutuvansa molempien maalitauluksi, jos sopimus epäonnistuu. Sovittelu toimii, koska olet kiistan ulkopuolella etkä hyödy siitä mitään: uskottavuutesi on ainoa pääomasi, ja se on käytettävä säästeliäästi.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Neuvot molempia viemään asian kommuunin konsulien tai kauppiaiden ammattikunnan eteen: raja mitataan, asiakirjat luetaan, oikeus ratkaisee.",
+          "consequence": "Riita lähtee kadulta ja astuu muotoihin. Kommuunin asiantuntija mittaa, isien kirjoitukset luetaan, ja muutaman kuukauden kuluttua tuomio antaa muurin Lupolle ja räystään Bertalle. Vanha vääryys jää kuitenkin ratkaisematta: perheet tervehtivät hädin tuskin, eikä kukaan ole todella rauhassa.",
+          "perspectives": [
+            {
+              "label": "Ajan oikeus",
+              "text": "Kommuuni on olemassa juuri korvatakseen sukuriidan menettelyllä: kolmannen tuomio sulkee kiistan ilman verenvuodatusta ja ilman nöyryytyksiä. Se on todellinen siviilisaavutus, ja 1200-luvulla sen voittaminen maksoi vaivaa.",
+              "isEditorial": true
+            },
+            {
+              "label": "Fransiskaaninen tie",
+              "text": "Fransiskaaninen perinne ei halveksi esivaltaa, mutta muistaa, että oikeus ratkaisee muurin, ei sydämen: talosta taloon viety rauhan tervehdys tähtää ihmisten saattamiseen takaisin suhteeseen, ei vain vääryyksien jakamiseen. Oikea tuomio voi jättää riidan elämään tuhkan alle.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Kääntyminen konsulien puoleen suojaa sinua: et sinä ratkaise, eikä kukaan voi syyttää sinua suosimisesta. Hinta on hitaus ja kulut, ja riski että häviäjä kantaa kaunaa kommuunia kohtaan enemmän kuin naapuria.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Et puutu: annat ajan kirkastaa riidan ja tyydyt olemaan ruokkimatta sitä arvosteluilla ja juoruilla.",
+          "consequence": "Kuukausia jännitys pysyy pinnan alla: kukaan ei enää puhu muurista, mutta oppipojat jatkavat näykkimistä ja räystään korjaustyöt pysähtyvät. Kun talvi tulee, sade tulvii molemmat kellarit: yhteisen vahingon edessä kaksi naapuria alkavat taas puhua pakosta, ja riita ratkeaa itsestään, muutamalla ruosteella lisää.",
+          "perspectives": [
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Ei jokainen ristiriita pyydä rauhantekijää: joskus ennenaikainen puuttuminen jäykistää asemat. Aika ja yhteinen tarve — tulvinut kellari — voivat sovitella paremmin kuin mikään puhe.",
+              "isEditorial": true
+            },
+            {
+              "label": "Fransiskaaninen tie",
+              "text": "Fransiskaaninen rauha on aktiivista: se viedään, se julistetaan, se rakennetaan menemällä vastaan, niin kuin suden kertomuksessa. Antaa kirkastua ei ole synti, mutta se ei ole rauhan tervehdys: se on luopumista olemasta välikappale, mikä joskus on nöyryyttä ja joskus mukavuutta.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Ajan oikeus",
+              "text": "Keskiajan oikeudessa puuttumattomuudella on hinta: vanhentumaton riita palaa, ja hylätyn räystään yhteinen vahinko rasittaa kaikkia. Odottaminen ei ole neutraalia: se on valinta, joka siirtää laskun eteenpäin.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Fransiskaaninen rauha alkaa tervehdyksestä ja päättyy liittoon, jota yhteisö varjelee. Mutta se vaatii jonkun, joka suostuu seisomaan välissä hyötymättä mitään. Naapurustossasi, tänään, kuka tekee tämän työn? Ja voisitko sen tehdä sinä?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Viety ansio",
+      "situation": "Tänään, kokouksessa koko tiimin edessä, kollega esitti omana työn, joka on suurelta osin sinun. Kukaan ei sanonut mitään; esimies kiitti häntä. Rintaasi polttaa jo tunteja. Huomenna katseenne kohtaavat taas käytävällä.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Vastaat samalla mitalla: seuraavassa julkisessa tilaisuudessa palautat tosiasiat kaikkien eteen, täsmällisesti ja saman yleisön edessä, joka näki vääryyden.",
+          "consequence": "Oikaisu tulee täsmällisesti, ja tosiasiat palaavat paikoilleen: esimies ymmärtää, muutamat kollegat kiittävät sinua hiljaa. Julkisesti nöyryytetty kollega muuttuu hiljaiseksi ja kestäväksi vastustajaksi; tiimin ilmapiiri jäykistyy, ja jokaista sanaasi mitataan nyt grammalleen.",
+          "perspectives": [
+            {
+              "label": "Ajan oikeus",
+              "text": "Oman työn vaatiminen on oikeutettua: totuus ansioista ei ole juoru, ja vääryyden päästäminen ohi voi muuttua ennakkotapaukseksi. Mutta muoto merkitsee: julkinen hyvitys luo voittajan ja häviäjän, eikä häviäjä pitkällä aikavälillä unohda.",
+              "isEditorial": true
+            },
+            {
+              "label": "Fransiskaaninen tie",
+              "text": "Täydellisen ilon kertomus opettaa, ettei ilon pidä riippua tunnustuksesta: jos rauhasi palaa vain, kun vääryys hyvitetään julkisesti, olet antanut sen vuokralle toisten arvostelulle. Tosiasioiden palauttaminen on luvallista; sen tarvitseminen voidakseen hyvin on todellinen haava.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Työelämässä maine rakennetaan pisaroittain ja menetetään ämpäreittäin: hyvin mitoitettu julkinen oikaisu suojaa, julkinen nöyryytys leimaa sinut kaunaisena ihmisenä. Jos valitset tämän tien, mittaa sanat sisältöön, ei koskaan henkilöön.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Päästät ohi: et sano mitään, et hautoo kaunaa, menet eteenpäin. Työ puhuu itse, etkä tahdo antaa vääryydelle valtaa pilata päiviäsi.",
+          "consequence": "Hiljaisuus maksaa sinulle muutaman viikon kärttyisyyttä, sitten solmu aukeaa: seuraava hanke on selvästi sinun, ja sillä joka katsoo on pitkä muisti. Vastustamaton kollega toistaa kuitenkin käytöksen toisen tiimin jäsenen kanssa: sisäinen rauhasi on turvassa, mutta ongelma jää ryhmään.",
+          "perspectives": [
+            {
+              "label": "Fransiskaaninen tie",
+              "text": "Kukkasissa täydellinen ilo on juuri tämä: kärsiä vääryys antamatta sille komentoa omasta sydämestä, pysyen kärsivällisenä ja iloisena. Se ei ole naiiviutta eikä heikkoutta: se on oivallus, ettei rakkauteen perustuva ilo tarvitse voittaa jokaista kiistaa.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Ajan oikeus",
+              "text": "Sisäinen rauha on hyvä, mutta ei ainoa: oikaisematon väärä käytös muuttuu tavaksi, eikä seuraavalla uhrilla ehkä ole sinun voimaasi. Oikeus työssä suojaa myös muita, ei vain sinun ansiotasi.",
+              "isEditorial": true
+            },
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Reagoimatta jättäminen on strategia, jolla on ehto: sen on oltava valittu, ei kärsitty. Jos ohi päästäminen merkitsee kuukausien hautomista, et ole harjoittanut iloa vaan kaunaa erissä. Sydäntä on tarkkailtava rehellisesti.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Etsit vilpitöntä kohtaamista: pyydät kollegalta kahdenkeskistä keskustelua, esität tosiasiat ilman syytöksiä ja kuuntelet, mitä hänellä on sanottavana.",
+          "consequence": "Keskustelu on kiusallinen mutta tosi: kollega myöntää puoliksi, puolustelee, sitten — yllättyneenä ettei häntä revitty julkisesti — oikaisee itse seuraavassa kokouksessa ja mainitsee sinun osuutesi. Ette tule ystäviksi, mutta välillenne syntyy valppaan kunnioituksen muoto; eikä asia koskaan päädy tiimin aukiolle.",
+          "perspectives": [
+            {
+              "label": "Fransiskaaninen tie",
+              "text": "Meneminen kahden kesken muistuttaa talosta taloon vietyä rauhan tervehdystä: asettua alttiiksi itse, ilman yleisöä, jättäen toiselle ovi auki. Ja se muistuttaa täydellistä iloa, koska se ei alista rauhaasi lopputulokselle: puhut totuuden tähden, et voittaaksesi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Ajan oikeus",
+              "text": "Yksityinen kohtaaminen turvaa tosiasiat nöyryyttämättä henkilöä: se on hyvityksen muoto, joka jättää työsuhteet ehjiksi. Sen raja on, että se riippuu toisen hyvästä uskosta: jos kollega kieltää ja jatkaa, tarvitaan sen jälkeen muodollinen tie.",
+              "isEditorial": true
+            },
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Ennen kuin puhut, kysy itseltäsi, mitä todella tahdot: palauttaa tosiasiat vai panna vääryys maksamaan? Keskustelu toimii vain, jos astut sisään valmiina kuuntelemaan; jos astut voittaaksesi, toinen sen tuntee ja sulkeutuu.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Täydellinen ilo ei kiellä tosiasioiden palauttamista: se kieltää antamasta vääryydelle sydämesi avaimia. Kysy itseltäsi viikostasi: kuinka monta kertaa rauhasi on vuokralla toisten käytöksestä?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Kauppiaan säilytys",
+      "situation": "Assisi, 1210. Guido, kangaskauppias joka lähtee Champagnen markkinoille eikä palaa ennen kahta vuotta, ehdottaa että säilytät osan hänen tavaroistaan: kangaspakkoja ja rahakukkaron. Saat käyttää niitä sillä välin — kangas nostaisi pientä puotiasi — ja palatessaan hänelle palautat sovitun arvon, osan voitosta. Se on rehellinen tilaisuus. Se on myös side, joka kestää kaksi vuotta.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Hyväksyt kokonaan: käytät kangasta ja rahaa puodin kasvattamiseen ja luotat palauttavasi arvon sovituin korkoineen Guidon palatessa.",
+          "consequence": "Puoti kasvaa todella: kaksi oppipoikaa, uusi kangaspuu, nimesi joka alkaa kiertää. Mutta jokainen päätös kulkee nyt tilin kautta, joka on tehtävä: et enää nuku ennen markkinoita, pelkäät varkauksia ja laihoja vuosia. Kun Guido palaa, etuajassa ja omine tappioineen katettavina, sopimuksen pitäminen maksaa sinulle melkein kaiken ansaitun — ja huomaat viettäneesi kaksi vuotta varjellen rahaa enemmän kuin eläen.",
+          "perspectives": [
+            {
+              "label": "Fransiskaaninen tie",
+              "text": "Vuoden 1223 sääntö pyytää olemaan ottamatta mitään omakseen, ei taloa, ei paikkaa eikä mitään: ei koska tavarat olisivat pahoja, vaan koska se, mikä on palautettava ja puolustettava, alkaa omistaa sinut. Ennen markkinoita menetetty uni on tarkka merkki isännän vaihdoksesta.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Kauppiaan logiikka",
+              "text": "Kommuunin maailmassa tämä on käytäntö: luotto pyörittää taloutta, ja jokaisen talletuksen kieltäminen merkitsee jäämistä pieneksi ainiaaksi. Riski mitataan ja hinnoitellaan; sopimuksen pitäminen on se, mikä rakentaa maineen.",
+              "isEditorial": true
+            },
+            {
+              "label": "Luopumisen katse",
+              "text": "Celano kertoo Franciscuksesta, joka palauttaa isälleen jopa vaatteet: ei tavaroiden halveksunnasta, vaan ollakseen riippumatta mistään muusta kuin Isästä. Kysymys ei ole, onko sopimus rehellinen — se on — vaan kuinka paljon sydämesi vapautta olet valmis sitomaan kahdeksi vuodeksi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Hyväksyt vain säilytyksen, et käyttöä: sinetöit kankaan ja rahan, pidät ne turvassa tuottamatta niillä, ja palautat ne ehjinä paluussa.",
+          "consequence": "Kahden vuoden ajan puotisi pysyy entisellään, mutta kuljet kevyenä: ei tiliä tehtävänä, ei voittoa puolustettavana. Palannut Guido löytää kaiken ehjänä ja arvostaa sinua sanansa miehenä; hän ehdottaa muita säilytyksiä, jotka arvioit yksi kerrallaan. Joku kylässä kutsuu sinua houkaksi: tuo kangas olisi voinut työskennellä sinulle.",
+          "perspectives": [
+            {
+              "label": "Fransiskaaninen tie",
+              "text": "Säilyttäminen omistamatta on melkein hengellinen harjoitus: pitää käsissä omistamatta sydämessä. Se muistuttaa Säännön logiikkaa — pyhiinvaeltajia ja muukalaisia maailmassa, tavaroiden palvelijoita eikä isäntiä — sovellettuna toisen omaisuuteen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Kauppiaan logiikka",
+              "text": "Taloudelliselta kannalta se on hukattu tilaisuus: seisova pääoma ei tuota, ja maksuton säilyttäjä lahjoittaa palvelun, josta muualla maksetaan. Guidon arvostus merkitsee, mutta se ei maksa uutta kangaspuuta.",
+              "isEditorial": true
+            },
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Puhtaalla säilytyksellä on riskinsä — varkaudet, tulipalot, kavallussyytökset — mutta se jättää sinut vapaaksi jokaisesta kiistasta voitosta. Kirjoita silti asiakirja todistajien edessä: luottamusta kunnioitetaan paremmin, kun paperit ovat kunnossa.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Kieltäydyt kunnioituksella: kiität Guidoa luottamuksesta, mutta et tahdo omistuksen siteitä etkä tehtäviä tilejä kahdeksi vuodeksi.",
+          "consequence": "Guido jää hämmästyneeksi, sitten nyökkää: hän uskoo kankaat toiselle. Puotisi pysyy pienenä ja jokin talvi on tiukka, mutta sanasi kylässä saa erityisen soinnin: sen, joka ei myy itseään eikä sido itseään. Vuosia myöhemmin, kun valitset seurata Assisin kautta kulkevia veljiä, kukaan ei pidä irrottautumistasi outona: se oli alkanut tuosta ei-sanasta.",
+          "perspectives": [
+            {
+              "label": "Luopumisen katse",
+              "text": "Franciscuksen luopuminen piispan edessä näyttää, että ei rikkaudelle on vapauden ele, ei halveksunnan: hän palautti vaatteet voidakseen sanoa ilman tekopyhyyttä \"Isä meidän\". Perusteltu ei tänään valmistaa huomisen ei- ja kyllä-sanat.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Fransiskaaninen tie",
+              "text": "Varo sekoittamasta vapautta itse tehtyyn sääntöön: Sääntö puhuu omistamatta jättämisestä, ei jokaisen vastuun kieltämisestä toisten tavaroita kohtaan. Myös kieltäytyminen voi muuttua tavaksi ajatella vain itseään.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Kieltäytyminen on oikeutettua mutta sillä on sosiaalinen hinta: kylässä autetaan myös näin, säilyttämällä toistensa tavaroita. Joka aina kieltäytyy, jää pitkän päälle luottamuksen verkon ulkopuolelle, jonka varassa kaikki lepää.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Fransiskaaninen köyhyys ei pyydä halveksimaan tavaroita: se pyytää huomaamaan, milloin tavarat alkavat omistaa sinut. Seuraavan kerran kun otat vastaan jotakin — esineen, tehtävän, velan — kysy: kuka varjelee ketä?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Läpinäkymätön hanke",
+      "situation": "Tänään. Sinulle uskotaan arvostetun hankkeen johto: näkyvyyttä, itse valitsemasi tiimi, huomattava budjetti. Mutta kaksi menoerää ei täsmää, ja rahoittaja vastaa kysymyksiisi kiertelevin kohteliaisuuksin. Allekirjoittaminen merkitsee, että otat vastuun myös tuosta läpinäkymättömyydestä. Kieltäytyminen merkitsee tilaisuudesta luopumista, joka ei toistu.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Hyväksyt ilman lisäkysymyksiä: hanke on ainutkertainen tilaisuus, läpinäkymättömät erät eivät ole sinun alaasi, ja joka tapauksessa joku olisi allekirjoittanut sijastasi.",
+          "consequence": "Hanke onnistuu hyvin, ja urasi tekee hypyn. Mutta kun vuosi myöhemmin hallinnollinen tarkastus avaa nuo menoerät uudelleen, allekirjoituksesi on asiakirjoissa: vastuu, jota et tahtonut katsoa, tavoittaa sinut kuitenkin, ja voitettu arvostus kääntyy kiusalliseksi puolustukseksi.",
+          "perspectives": [
+            {
+              "label": "Roolin vastuu",
+              "text": "Fransiskaanisessa veljeskunnassa johtajaa kutsutaan \"ministeriksi\", palvelijaksi: virka on olemassa palvelemaan, ei loistamaan. Palvelu, joka suostuu olemaan näkemättä sitä mistä se vastaa, on jo pettänyt nimensä, ennen mitään tarkastusta.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Kauppiaan logiikka",
+              "text": "Työelämässä ajatellaan näin: jokaisessa hankkeessa on harmaita alueita, ja joka tahtoo todella tehdä työtä oppii elämään niiden kanssa. Jokaisen epätäydellisyyden kieltäminen merkitsee päätösten luovuttamista sille, jolla on vähemmän tunnontarkkuutta kuin sinulla.",
+              "isEditorial": true
+            },
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Allekirjoitus on raja: minkä allekirjoitat, sen omistat, kaikkine seurauksineen. Ennen allekirjoittamista kymmeneen laskeminen ei riitä: on tiedettävä tarkalleen, mitä ollaan allekirjoittamassa. Tilaisuus joka ei toistu, toistuu usein; maine ei.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Kieltäydyt: ilman läpinäkyvyyttä ei allekirjoiteta, ja hanke menköön sille, joka hyväksyy nuo ehdot.",
+          "consequence": "Luopuminen kirvelee, ja kuukausia katsot hankkeen jatkuvan ongelmien keskellä: ilman johtoasi tiimi horjuu, ja lopulta rahoittaja vetää varat juuri läpinäkymättömien erien takia. Ei-sanaasi, jonka jotkut lukevat naiiviudeksi, toiset muistavat, kun tarvitaan luotettavaa henkilöä arkaan tehtävään.",
+          "perspectives": [
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Kieltäytyminen suojaa mainetta mutta jättää ongelman koskemattomaksi: hanke menee sille, jolla on vähemmän tunnontarkkuutta, ja siinä työskentelevät ihmiset kärsivät seuraukset. Ei puhdistaa kädet, ei aina maailmaa.",
+              "isEditorial": true
+            },
+            {
+              "label": "Roolin vastuu",
+              "text": "Kirje eräälle ministerille näyttää, että fransiskaaninen johtajuus on läheisyyttä ja palvelua, ei koskaan ylhäistä etäisyyttä. Mutta palveleminen ei merkitse suostumista kaikkeen: ministeri, joka allekirjoittaa sen mitä ei voi hallita, ei palvele veljiä, hän asettaa heidät alttiiksi. Myös kieltäytyminen voi olla huolenpidon muoto.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Pitkä katse",
+              "text": "Urat tehdään tartutuista tilaisuuksista, mutta luottamus tehdään kieltäydytyistä tilaisuuksista. Selvin syin ja ilman moralismia sanottu ei on sijoitus, joka kypsyy hitaasti eikä menetä arvoaan.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Hyväksyt ehdoin: allekirjoitat vasta, kun on kirjattu läpinäkyvä tilinpito, riippumaton tarkastus ja oikeus perusteltuun vetäytymiseen.",
+          "consequence": "Rahoittaja viivyttelee, uhkaa etsiä muita, sitten antaa periksi: kirjalliset ehtosi tulevat hankkeen selkärangaksi. Työ on hitaampaa ja raskaampaa kuin luvattiin, mutta kun tarkastus tulee — ja se tulee — tilit ovat auki ja joukkue kestää. Johtajuudestasi tulee ennakkotapaus: muut, sinun jälkeesi, pyytävät samoja ehtoja.",
+          "perspectives": [
+            {
+              "label": "Roolin vastuu",
+              "text": "Tämä on ministerin tie fransiskaanisessa täydessä merkityksessä: ei paeta palvelua, vaan kieltäytyä siitä, että palvelusta tulee osallisuutta. Joka johtaa, palvelee — ja palvelemiseen kuuluu tiimin ja hankkeen suojaaminen varjoalueilta, vaikka epämukavien neuvottelujen hinnalla.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Kauppiaan logiikka",
+              "text": "Kirjalliset ehdot ovat paras kompromissi, mutta niillä on hinta: riskeeraat menettäväsi tehtävän, jos rahoittaja ei anna periksi, ja työskenteleväsi vuosia kumppanin kanssa, joka pitää sinua valvojana enemmän kuin liittolaisena. Se kannattaa vain, jos sinulla on uskottavia vaihtoehtoja.",
+              "isEditorial": true
+            },
+            {
+              "label": "Pitkä katse",
+              "text": "Ehtojen asettaminen on hitain ja hedelmällisin tapa: se ei rajoitu suojaamaan sinua, se muuttaa käytäntöä. Instituutiot paranevat, kun joku muuttaa henkilökohtaisen tunnontarkkuuden jaetuksi säännöksi.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Franciscus kutsui vastuunkantajia \"ministereiksi\", palvelijoiksi: roolin nimi on jo sen ohjelma. Työssäsi, mitä tarvitaan, jotta palvelusi ei muuttuisi osallisuudeksi — ja mitä, jotta tinkimättömyytesi ei muuttuisi karkuruudeksi?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Veli joka on rikkonut",
+      "situation": "Portiuncula, 1220-luku. Veli Ruffino on rikkonut sääntöä vakavasti: hän on pitänyt itsellään almuksi saatua rahaa, ja asia on jo tunnettu myös ulkopuolella, ihmisten keskuudessa jotka teitä katsovat. Veljeskunnassa on keskusteltu päiväkausia. Jotkut vaativat esimerkillistä parannusta ja hänen lähettämistään pois kylästä; toiset muistuttavat, että Ruffino on sairas ja rikki; toiset pelkäävät, että lempeys kutsuu kaikkia rikkomaan. Ministeri pyytää kunkin mielipidettä. Sinunkin.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Puollat ankaruutta: julkinen parannus ja Ruffinon väliaikainen lähettäminen pois, koska sääntö koskee kaikkia ja maallikoiden pahennus on hyvitettävä kaikkien edessä.",
+          "consequence": "Veljeskunta hyväksyy ankaran kurin. Ruffino lähtee kaukaiseen erakkomajaan, nöyryytettynä niiden edessä jotka hänet tunsivat; kylän maallikot ihailevat veljien johdonmukaisuutta, eivätkä almut vähene. Mutta veljeskunnassa jokin jäykistyy: veljet alkavat kätkeä haurauttaan tuomion pelosta, ja Ruffinolta, yksin, kestää vuosia palata — jos hän palaa.",
+          "perspectives": [
+            {
+              "label": "Yhteisön viisaus",
+              "text": "Yhteinen sääntö erottaa veljeskunnan ystäväjoukosta: jos vakavasti rikkonut ei kohtaa seurauksia, liitto tyhjenee ja heikoimmat maksavat hinnan. Julkinen hyvitys vastaa myös julkiseen pahennukseen.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Kirje ministerille",
+              "text": "Franciscus kirjoittaa ministerille, että jos veli olisi tehnyt syntiä tuhat kertaa, häntä on silti rakastettava ja hänelle julistettava laupeutta: kovuus, joka pahentaa heikkoa veljeä, riskeeraa hänen kadottamisensa. Ankaruus ei ole kielletty, mutta sen ei koskaan pidä muuttua halveksunnaksi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Pitkä katse",
+              "text": "Yhteisö, jossa kaikki pelkäävät tuomiota, muuttuu salaisuuksien yhteisöksi: sääntö pysyy pystyssä paperilla ja sortuu sydämissä. Tinkimättömyys, joka ei näe paluun tietä, tuottaa maanpakolaisia, ei parannuksentekijöitä.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Puollat täyttä vastaanottamista: otatte Ruffinon takaisin ilman julkisia parannuksia, hoidatte hänen sairauttaan ja vastaatte pahennukseen lempeydellä, et rangaistuksilla.",
+          "consequence": "Ruffino jää. Hän itkee veljien edessä, palauttaa minkä voi, ja hitaasti löytää paikan yhteisessä elämässä: kukaan ei enää soimaa häntä asiasta. Kylässä joku nurisee, että veljet peittelevät toisiaan, ja kaksi nuorta veljeskunnasta ottaa lempeyden lupana: ministerin on nähtävä vaivaa kuukausia palauttaakseen, ettei sääntö ole neuvo.",
+          "perspectives": [
+            {
+              "label": "Kirje ministerille",
+              "text": "Tämä on kirjeen eräälle ministerille viitoittama tie: rakastaa enemmän, ei vähemmän, sitä joka on rikkonut; julistaa laupeutta kunhan hän tekee parannuksen; olla kovettamatta sydäntään toisen synnin tähden. Franciscus tietää, että tämä tie maksaa, ja määrää sen silti.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Yhteisön viisaus",
+              "text": "Vuoden 1221 sääntö pyytää ilmaisemaan tarpeet toisilleen ja olemaan halveksimatta heikkoa: sairas Ruffino on juuri se veli, jota sääntö suojaa. Mutta sama sääntö on olemassa, jottei veljeskunta hajoaisi: laupeus ilman totuutta muuttuu osallisuudeksi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Kylän varovaisuus",
+              "text": "Maallikot antavat almunsa köyhille veljille, eivät ovelille veljille: hallitsematon pahennus syö luottamusta, joka pitää yhteisön elossa. Vastaanottaminen on selitettävä kylälle, ei vain elettävä kotona, tai se luetaan peittelyksi.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Puollat yhteisöllistä tietä: Ruffino jää veljeskuntaan, palauttaa velkansa veljien edessä, uskoo itsensä veljelliseen saattoon, ja koko yhteisö kantaa hänen kanssaan hyvityksen kylää kohtaan.",
+          "consequence": "Tie on pitkä ja epämukava: Ruffino tunnustaa veljien edessä, palauttaa rahan talosta taloon vanhemman veljen kanssa, ja vuoden ajan tekee nöyrimpiä palveluksia ilman että kukaan soimaa häntä. Kylä näkee todellisen hyvityksen, ei rangaistusta: luottamus palaa hitaasti. Veljeskunnan sisällä episodista tulee kirjoittamaton sääntö: joka kaatuu, häntä saatetaan, joka on rikkonut, hyvittää, kukaan ei katoa.",
+          "perspectives": [
+            {
+              "label": "Kirje ministerille",
+              "text": "Kirjeen laupeus ei ole alennusta: se on rakkautta, joka saattaa parannusta kunnes se kantaa hedelmää. Ruffino, joka palauttaa talosta taloon, ei ole nöyryytetty: hän on veli joka palaa, ja yhteisö kävelee hänen rinnallaan sen sijaan että katsoisi häntä ylhäältä.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Yhteisön viisaus",
+              "text": "Vuoden 1221 sääntö kuvittelee juuri tämän: veljiä, jotka ilmaisevat tarpeensa — myös häpeälliset — ja kantavat toisiaan. Yhteisöllinen hyvitys yhdistää totuuden ja laupeuden ja muuttaa yhden syyllisyyden kouluksi kaikille.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Ajan oikeus",
+              "text": "Se on kaikille vaativin tie: se vaatii aikaa, salaisuuden varjelemista siellä missä tarvitaan, julkista totuutta siellä missä pahennus on ollut julkinen. Kaikki yhteisöt eivät kestä tätä vaivaa: ilman kykenevää ministeriä keskitie muuttuu vain päättämättömyydeksi.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Veljeys mitataan ei silloin kun kaikki noudattavat sääntöä, vaan kun joku sen rikkoo. Kirje eräälle ministerille kiinnittää tähden — rakastaa enemmän, ei vähemmän — pyyhkimättä totuutta. Yhteisöissäsi, löytääkö erehtynyt paluun tien?"
+    }
+  ]
+}

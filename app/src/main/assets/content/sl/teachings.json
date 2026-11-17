@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Srečanje, ki spremeni življenje",
+      "summary": "Frančiškova spreobrnitev se začne, ko premaga gnus in sreča gobavce: ljubezen kot konkretno srečanje z drugim.",
+      "explanation": "V Oporoki Frančišek pripoveduje, da se mu je zdelo gledanje gobavcev »preveč grenko« in da je prav srečanje z njimi bilo začetek njegove pokore. Frančiškanska ljubezen ni splošen občutek: je telesna gesta tistega, ki se približa izključenemu in odkrije, da se grenkoba spremeni v sladkost. Kdor daje, se ne postavlja nad tistega, ki prejema: srečata se.",
+      "historicalContext": "V 13. stoletju so bili gobavci izključeni iz mestnega življenja, nastanjeni v gobavskih naseljih zunaj obzidja in veljali za znamenje greha. Frančiškova odločitev, da živi med njimi, je bila družbeno škandalozna.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Ničesar lastnega, vse prejeto",
+      "summary": "Pred škofom Frančišek vrne oblačila očetu: odpoved lastnini kot izbira svobode, ne kot prezir do stvari.",
+      "explanation": "Frančiškova odpoved pred škofom Guidom je javna gesta, s katero pretrga vez z družinskim bogastvom. Ni beg pred stvarmi, temveč osvoboditev od misli, da bi jih imel v lasti: kdor ničesar ne poseduje, mu ni treba ničesar braniti in lahko vse sprejme kot dar. Tehnična latinščina izročila to imenuje »sine proprio«: brez lastnine.",
+      "historicalContext": "Sin bogatega trgovca s suknom je bil Frančišek namenjen družbenemu vzponu mestnega meščanstva. Njegova odpoved leta 1206 je pretresla domišljijo Assisija prav zato, ker je bila nasprotna vrednotam trgovskega mesta.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Uboštvo kot svoboda",
+      "summary": "Za Frančiška uboštvo ni romantična beda: je to, da si ničesar ne prilaščaš, da ostaneš svoboden za ljubezen in odvisen samo od Boga.",
+      "explanation": "Pravilo iz leta 1223 od bratov zahteva, naj si ničesar ne prilaščajo, »ne hiše ne kraja ne katere koli stvari«, in naj hodijo po miloščino brez sramu, spominjajoč se, da se je Gospod sam storil ubog. Frančiškansko uboštvo ima teološki temelj (ubogi Kristus) in psihološki: kdor nima ničesar, kar bi branil, je svoboden. Ni vabilo k poveličevanju revščine, ki je družbena rana, temveč k temu, da te lastnina ne opredeljuje.",
+      "historicalContext": "Gibanje prostovoljnih ubogih je nastalo kot odziv na rastoče bogastvo komun in duhovščine; Cerkev je gledala na gibanja uboštva sumničavo, Frančišek pa si je moral potrditev težko izboriti.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Manjši bratje",
+      "summary": "Frančiškova skupnost ni red nadrejenih in podložnikov: je bratstvo »manjših«, v katerem je vsak odgovoren za drugega.",
+      "explanation": "Frančišek je hotel, da se njegovi imenujejo manjši bratje: nihče ni velik, odgovorni se imenujejo »ministri«, se pravi služabniki. Pravilo iz leta 1221 prosi, naj si bratje medsebojno izpovedujejo potrebe, naj ne sodijo brata in naj ne zaničujejo šibkega. Bratstvo je sama oblika evangelija, živega skupaj: bratje smo ne po idealu, temveč po vsakdanji praksi.",
+      "historicalContext": "Bratstvo nastane okoli let 1208–1210 iz prvih tovarišev (Bernard, Egidij …) in hitro raste, dokler ne potrebuje struktur: kapitljev, ministrov, zapisanega pravila.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Pozdrav miru",
+      "summary": "»Gospod naj ti da mir«: Frančišek naredi iz miru oznanilo, ki ga je treba prinesti, preden je odsotnost vojne.",
+      "explanation": "V Oporoki Frančišek spomni, da mu je Gospod razodel pozdrav miru. Prvi viri opisujejo, kako bratje oznanjajo mir od hiše do hiše. Frančiškanski mir je dejaven: prinaša se, gradi se, posreduje se — kot v pripovedi o volku iz Gubbia, kjer mir nastane iz poguma, da greš naproti temu, kar straši.",
+      "historicalContext": "Italijo komun so prepredale fajde med strankami, mestne vojne in spori med posvetno in cerkveno oblastjo. Oznanjati mir je bilo politično dejanje, ne le duhovno.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Sedemdesetkrat sedem, in še čez",
+      "summary": "Odgovornemu v bratstvu Frančišek piše: če bi brat grešil tisočkrat, ga vseeno ljubi bolj kot mene.",
+      "explanation": "Pismo nekemu ministru je frančiškansko besedilo o odpuščanju: kdor vodi, se ne sme zgražati niti otrdeti ob napakah bratov, temveč mora oznanjati usmiljenje. Odpuščanje ne zanika zla: odreka zlu, da bi imelo zadnjo besedo o odnosu. V Spevu je bila kitica o odpuščanju — po izročilu — dodana, da bi spravila škofa in podestata iz Assisija, ki sta bila v sporu.",
+      "historicalContext": "Hitro rastoče bratstvo je živelo notranje napetosti; mesta pa so razdirala maščevanja in fajde, ki so jih frančiškani skušali pomiriti.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Biti manjši, ne čutiti se boljšega",
+      "summary": "Frančiškanska ponižnost je resnica o sebi: ne povzdigovati se, ne zaničevati se, služiti kot zadnji.",
+      "explanation": "Opomini svarijo pred lastno voljo, ki postane merilo vsega, in pred duhovnim samozadovoljstvom. Ponižnost je za Frančiška videti sebe v resnici: majhni pred Bogom, dolžniki vsega, sposobni služiti, ne da bi zahtevali priznanje. Ni nizka samopodoba: je svoboda od potrebe, da se zdiš.",
+      "historicalContext": "V družbi, utemeljeni na časti in stanu, se imenovati »manjši« je bil program proti toku; znotraj rastočega bratstva pa je bila ponižnost protistrup notranjemu tekmovanju.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Brat sonce, sestra voda",
+      "summary": "Spev stvarstva: svet ni skladišče virov niti malik, temveč družina stvari, ki hvalijo Stvarnika.",
+      "explanation": "V Spevu Frančišek hvali Boga »po« stvareh: brata sonca, sestro luno, sestro vodo, »koristno in ponižno in dragoceno in čisto«, sestro naše matere zemlje. Narava ni pobožanstvena: je sestra, ker je hči istega Očeta. Skrb za stvarstvo se tu rodi iz hvaležnosti in sorodstva, ne iz koristi. In Spev nastane v bolezni: hvalnica ni odvisna od okoliščin.",
+      "historicalContext": "Sestavljen v letih 1225–1226, ko je bil Frančišek bolan in skoraj slep, sodi med prva pesniška besedila v italijanskem ljudskem jeziku. Bonaventura ga umešča v čas preizkušenj.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Popolno veselje",
+      "summary": "Frančiškansko veselje ni odvisno od uspehov: ostane tudi v zavrnitvi in trudu, ker se rojeva iz ljubezni in ne iz uspeha.",
+      "explanation": "V Cvetkah Frančišek bratu Leonu razloži, da pravo veselje niso čudeži niti spreobrnjenja, temveč vrniti se zavrnjen in premražen ter ostati potrpežljiv in vesel. To je hagiografska pripoved, ne kronika, a zgošča pristno potezo frančiškanskega duha: veselje kot notranjo izbiro, ki je noben dogodek ne more vzeti.",
+      "historicalContext": "Cvetke (konec 14. stoletja) zbirajo živi spomin na prvo frančiškanstvo; brati jih je treba kot duhovno književnost, ne kot dokumentarno zgodovino.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Puščava, ki prebiva v svetu",
+      "summary": "Frančišek je menjaval poslanstvo in umik: molitev kot kraj, kjer se pred Bogom vračaš k bistvenemu.",
+      "explanation": "Frančiškansko življenje ni samo delovanje: Frančišek je iskal puščavniške kraje in umike (Carceri, Alverna), s seboj je jemal malo tovarišev in dolge tišine. V Pismu bratu Leonu napotuje na vest pred Bogom: molitev ni tehnika, temveč odnos. Hvalnice najvišjega Boga kažejo njegovo najčistejšo molitev: hvalo brez prošenj.",
+      "historicalContext": "Frančiškanske puščave so nastajale v divjih krajih umbrijsko-toskanskega Apenina; Alverna, podarjena Frančišku leta 1213, je postala umik par excellence.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Hoditi po Kristusovih stopinjah",
+      "summary": "Frančiškova duhovnost ni filozofija narave: je nasledovanje ubogega in križanega Kristusa znotraj vere Cerkve.",
+      "explanation": "Vse pri Frančišku izhaja iz Kristusa: razpelo iz San Damiana, ki mu govori, izbira uboštva, »ker se je Gospod storil ubog«, trpljenje, premišljevano na Alverni, preprosta vera v cerkve iz Oporoke. Če iztrgaš to korenino, Frančiška ne narediš bolj univerzalnega: narediš ga neprepoznavnega. Aplikacija jo predstavlja takšno, kakršna je, ne da bi jo vsiljevala in ne da bi jo brisala.",
+      "historicalContext": "Frančišek je vero živel v okviru srednjeveške Cerkve, iskal njeno potrditev za svojo obliko življenja in sprejemal njene meje, čeprav je reformo potiskal od spodaj.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Pravilo, da se ne izgubiš",
+      "summary": "Frančiškanska pokorščina ni izničenje: je skupna zaveza, ki bratstvo varuje pred razpršitvijo in samovoljo.",
+      "explanation": "Frančišek je prosil za potrditev Cerkve in pisal vedno bolj jedrnata pravila (1221, 1223). Pokorščina je v Opominih in Pravilih vzajemna: pokoravaš se skupnemu pravilu, kdor vodi, pa služi. Oporoka prosi, naj se pravila ne glosira: naj se živi »preprosto in brez glos«. Skupnost in pokorščina sta okvir, ki svobodo naredi trajno.",
+      "historicalContext": "Med letoma 1210 in 1223 je bratstvo prešlo iz majhne skupine v priznan red; napetost med karizmo in ustanovo preveva vso frančiškansko zgodovino.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Hvala, ki ničesar ne prosi",
+      "summary": "Hvalnice Boga in Spev nastaneta v bolezni: frančiškanska hvaležnost ne nagrajuje sreče, temveč prepoznava dar v vsaki stvari.",
+      "explanation": "Hvalnice najvišjega Boga, zapisane na Alverni, so molitev brez ene same prošnje: samo priznanje. Tudi Spev, sestavljen v trpljenju, je hvala. Frančiškanska hvaležnost je izurjen pogled: vsako stvar — vodo, sonce, dan, celo smrt — vidi kot prejeto. Kdor se zahvaljuje, ne poseduje: prebiva.",
+      "historicalContext": "V letih 1224–1226 je bil Frančišek hudo bolan, skoraj slep in zaznamovan z oddaljenostjo od vodstva reda: hvala tistih let ni naivnost, temveč osvojitev.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Kdor vodi, služi",
+      "summary": "V bratstvu se odgovorni imenujejo »ministri«: služenje kot edina zakonita oblika avtoritete.",
+      "explanation": "Frančišek obrne hierarhijo: minister je tisti, ki služi, kustos je tisti, ki varuje brate, ne tisti, ki ukazuje. Pismo nekemu ministru kaže ton: bližina tistemu, ki greši, nikoli prezir. Služenje ni strategija, da bi bil všeč: je krščanski način prebivanja v vsaki vlogi, od brata do škofa, od starša do župana.",
+      "historicalContext": "Naslovi frančiškanske hierarhije (minister, kustos, gvardijan) so bili izbrani prav proti logiki srednjeveškega ugleda.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Nihče ni tujec",
+      "summary": "Gobavci, razbojniki, sultan, volk: frančiškansko izročilo potiska sprejemanje čez meje lastne skupine.",
+      "explanation": "Frančišek sreča gobavce, gre naproti sultanu al-Maliku al-Kamilu sredi križarske vojne in v ljudskem spominu se pogovarja celo z volkom. Frančiškansko sprejemanje ni pasivna strpnost: je iti naproti, izpostaviti se, imenovati »brat« tistega, ki ga lastni svet imenuje sovražnik. Začne se pri neprijetnem bližnjem in se ne ustavi pri mejah vere ali jezika.",
+      "historicalContext": "Srečanje s sultanom (1219, Damieta) se je zgodilo med peto križarsko vojno: gesta miru, dokumentirana v virih, čeprav v mejah srednjeveškega pričevanja.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Postati bližnji s telesom",
+      "summary": "»Z njimi sem storil usmiljenje«: frančiškansko usmiljenje je sočutje, ki postane konkretna gesta, ne milost na daljavo.",
+      "explanation": "V Oporoki Frančišek uporabi močno besedo: z gobavci je »storil usmiljenje«. Ne reče, da je čutil sočutje: storil ga je. Usmiljenje je zmožnost, da te doseže trpljenje drugega, dokler ne premakne rok. Je korenina, iz katere rasteta ljubezen, odpuščanje in mir.",
+      "historicalContext": "Srednjeveška pobožnost je poznala miloščino kot zaslužno prakso; Frančišek jo spremeni v odnos: ubogemu se ne daje, z ubogim se biva.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Delo rok",
+      "summary": "Frančišek ne postavlja molitve in dela nasproti: pošteno delo drži stran od lenobe in ne sme ugasniti molitve.",
+      "explanation": "V Oporoki Frančišek pravi, da je delal s svojimi rokami in da hoče, naj bratje delajo, ne iz pohlepa po plačilu, temveč zaradi zgleda in proti lenobi. Če plačila ni, se vrnejo k miloščini. Potrjeno pravilo doda mejo: delo je milost, časne stvari pa morajo služiti duhu molitve, ne ga nadomestiti. V nepotrjenem pravilu je delo tudi način, kako biti v tuji hiši kot manjši, ne da bi prevzemal službe, ki dajejo oblast.",
+      "historicalContext": "Mnogi prvi bratje so prihajali iz obrti. Vprašanje dela in denarja je ostro že pred letom 1223: pravilo iz leta 1221 je obsežnejše in strožje glede denarja; potrjeno je krajše in ministrom zaupa skrb za bolne po duhovnih prijateljih.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Telo, ne ideja",
+      "summary": "Za Frančiška se Božji Sin v tem svetu vidi v telesu in krvi, ki ju duhovniki prejemajo in podeljujejo.",
+      "explanation": "Oporoka veže spoštovanje do duhovnikov na tole: Frančišek pravi, da telesno ne vidi ničesar drugega od Božjega Sina kakor njegovo telo in njegovo kri. Pismo vsemu redu isto vero potisne vse do oblike kruha in od duhovnikov zahteva, naj obhajajo, ne da bi skušali biti všeč ljudem. To ni stranska tema. Je središče, iz katerega Frančišek bere Cerkev, zapisane besede in lastno majhnost. Aplikacija to pove takšno, kakršno je: srednjeveška evharistična vera, ne splošna prispodoba daru.",
+      "historicalContext": "Frančiškova evharistična pobožnost stoji znotraj reforme četrtega lateranskega koncila (1215), ki nalaga letno spoved in natančneje določi nauk o zakramentu. Pisma klerikom in kustosom, ki tu niso v celoti reproducirana, vztrajajo pri isti točki.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Oblika evangelija",
+      "summary": "Frančišek ne izumi duhovnosti poleg evangelija: pravi, da mu je Najvišji razodel, naj živi po tej obliki, in jo je dal zapisati.",
+      "explanation": "Oporoka je jasna: nihče mu ni kazal, kaj naj stori; Najvišji mu je razodel, naj živi po obliki svetega evangelija; on jo je dal zapisati z malo besedami in papež jo je potrdil. Obe Pravili se odpreta na isti točki. Izpolnjevati evangelij v teh besedilih ni čustvo: je pokorščina, ničesar lastnega in čistost, znotraj potrjenega bratstva. Pripoved o odpovedi pred škofom pri Celanu je drug prizor iste izbire. Tu je Frančiškovo besedilo pred pripovedjo o Frančišku.",
+      "historicalContext": "Ustno potrditev Inocenca III. izročilo datira v leto 1209 ali 1210; nepotrjeno pravilo je iz leta 1221; potrjeno potrdi Honorij III. 29. novembra 1223. Oporoka leta 1226 vso to zaporedje na novo prebere kot eno samo razodetje.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

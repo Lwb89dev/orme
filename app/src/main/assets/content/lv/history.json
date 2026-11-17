@@ -1,0 +1,572 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Dzimšana Asīzē",
+      "description": "Jānis, Pjetro di Bernardones dēls, saukts Francisks, piedzimst Asīzē bagātam audumu tirgotājam un madonnai Pikai.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181. vai 1182. gads (nenoteikts)",
+      "chronologicalUncertainty": "Avoti par gadu nesakrīt: vēsturnieki piedāvā gan 1181., gan 1182. gadu.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.pietro_bernardone", "person.madonna_pica"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Karš un gūsts",
+      "description": "Karā starp Asīzi un Perudžu Francisks cīnās Kollestradas kaujā (1202. gada novembris), tiek saņemts gūstā un apmēram gadu paliek Perudžā. Pēc atgriešanās slimība sāk viņu mainīt.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Spoleto sapnis un atgriešanās",
+      "description": "Devies uz Apūliju meklēt militāru slavu, Spoleto Francisks redz sapni, kas liek viņam atgriezties Asīzē. Sākas attālināšanās no agrākās dzīves: sapņi, lūgšana, svētceļojums uz Romu.",
+      "yearFrom": 1205,
+      "dateLabel": "aptuveni 1204–1205",
+      "chronologicalUncertainty": "Šo mēnešu rekonstrukcija ņemta no viduslaiku biogrāfijām; precīzie datumi ir nosacīti.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.celano_vita_seconda"],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Tikšanās ar spitālīgajiem",
+      "description": "Testamentā Francisks stāsta, ka Kungs viņu aizveda pie spitālīgajiem un ka viņš „viņiem darīja žēlsirdību“: epizode, ko viņš pats norāda kā savas atgriešanās sākumu.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "aptuveni 1205–1206",
+      "chronologicalUncertainty": "Testaments nedod datumu; notikumu liek pirms publiskā sarāvuma ar ģimeni.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.testamento", "source.celano_vita_prima"],
+      "teachingIds": ["teaching.carita.lebbrosi", "teaching.misericordia.compassione"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Svētā Damiāna krucifikss",
+      "description": "Svētā Damiāna sabrukušajā baznīciņā, pēc tradīcijas, Francisks dzird, kā krucifikss viņam saka: „Salabo manu māju“. Sākumā viņš to saprot burtiski un ar savām rokām atjauno baznīcas.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "aptuveni 1205–1206",
+      "chronologicalUncertainty": "Epizodi apliecina galvenokārt Otrā dzīve un vēlākā tradīcija; dialoga burtiskums pieder dievbijīgajam stāstījumam.",
+      "placeId": "place.san_damiano",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_seconda"],
+      "teachingIds": ["teaching.fede.cristo_centro"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Atteikšanās bīskapa priekšā",
+      "description": "Tēva izsaukts bīskapa Gvido priekšā pārdoto mantu dēļ, Francisks atdod visu, arī drēbes, un uztic sevi „Tēvam, kas ir debesīs“. Bīskaps viņu apsedz ar savu apmetni.",
+      "yearFrom": 1206,
+      "dateLabel": "1206. gada sākums",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.vescovo_guido", "person.pietro_bernardone"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.rinuncia.sine_proprio"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Pirmie biedri",
+      "description": "Bernardo di Kvintavalle, Egidijs un citi pievienojas Franciskam, dalot viņa dzīves formu: rodas ceļojoša brālība starp darbu, ubagošanu un miera sludināšanu.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": ["person.francesco", "person.bernardo_quintavalle", "person.frate_egidio"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Inocenta III apstiprinājums",
+      "description": "Francisks un biedri dodas uz Romu; Inocents III mutvārdiem apstiprina viņu evaņģēlisko dzīves formu. No apstiprinājuma nav saglabājies neviens dokuments: tradīcija to datē ar 1210. gadu.",
+      "yearFrom": 1210,
+      "dateLabel": "1210. (vai 1209.)",
+      "chronologicalUncertainty": "Apstiprinājums bija mutvārdu, un neviens dokuments nav saglabājies; precīzais gads (1209. vai 1210.) ir apstrīdēts.",
+      "placeId": null,
+      "personIds": ["person.francesco", "person.innocenzo_iii"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.comunita.regola"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Porciunkula, brālības mājas",
+      "description": "Mazā Eņģeļu Svētās Marijas baznīca, saukta Porciunkula, kļūst par brālības pastāvīgo mājvietu: kustības garīgo un sirsnīgo centru.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Klāras bēgšana",
+      "description": "Klāra Offredučo pamet tēva māju un sasniedz Francisku Porciunkulā naktī starp Palmu svētdienu un pirmdienu 1212. gadā: sākas viņas dzīves forma, no kuras celsies klarisas.",
+      "yearFrom": 1212,
+      "dateLabel": "1212. gada 18.–19. marts",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.chiara", "person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.rinuncia.sine_proprio"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Tikšanās ar sultānu",
+      "description": "Piektā krusta kara laikā Francisks šķērso frontes līnijas un Damietā satiek sultānu al-Maliku al-Kamilu: dialoga epizode kara laikā, ko dokumentē franciskāņu avoti un atceras ārējie hronisti.",
+      "yearFrom": 1219,
+      "dateLabel": "1219. gada septembris",
+      "placeId": "place.damietta",
+      "personIds": ["person.francesco", "person.sultano"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.accoglienza.ogni_uomo", "teaching.pace.saluto"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Neapstiprinātā Regula",
+      "description": "Fonte Kolombo pie Rieti tiek sacerēta pirmā pabeigtā brālības regula (Regula non bullata) — gara un garīga, nekad formāli neapstiprināta.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.regola_non_bollata"],
+      "teachingIds": ["teaching.fraternita.minori", "teaching.comunita.regola"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Apstiprinātā Regula",
+      "description": "Honorijs III ar bullu „Solet annuere“ apstiprina galīgo regulu (1223. gada 29. novembris): īsāku un juridiskāku, kas joprojām ir Mazāko brāļu ordeņa pamatā.",
+      "yearFrom": 1223,
+      "dateLabel": "1223. gada 29. novembris",
+      "placeId": null,
+      "personIds": ["person.francesco", "person.onorio_iii"],
+      "sourceDocumentIds": ["source.regola_bollata"],
+      "teachingIds": ["teaching.poverta.liberta", "teaching.comunita.regola"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Greccio Ziemassvētki",
+      "description": "1223. gada Ziemassvētkos Francisks liek Greccio sagatavot īstu silīti ar sienu, vērsi un ēzelīti, lai „miesas acīm“ redzētu Bētlemes nabadzību: Ziemassvētku silītes tradīcijas sākums.",
+      "yearFrom": 1223,
+      "dateLabel": "1223. gada Ziemassvētki",
+      "placeId": "place.greccio",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.poverta.liberta"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "1224. gada septembrī, atkāpjoties La Verna kalnā, Francisks — pēc tuvākajiem viduslaiku avotiem — saņem Kristus ciešanu stigmas, kuras centīsies turēt apslēptas.",
+      "yearFrom": 1224,
+      "dateLabel": "1224. gada septembris",
+      "placeId": "place.laverna",
+      "personIds": ["person.francesco", "person.frate_leone"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.preghiera.eremo", "teaching.fede.cristo_centro"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Radību dziesma",
+      "description": "Slims un gandrīz akls, Francisks vairākos paņēmienos sacer slavas dziesmu umbru tautas valodā, kas pazīstama kā Radību dziesma: slava Dievam caur brāli Sauli, māsu Ūdeni, māti Zemi un beigās miesas nāves māsu.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.cantico", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Gubbio vilks",
+      "description": "Ziediņi stāsta, ka Francisks vidutāja mieru starp Gubbio pilsētu un niknu vilku: pilsēta to barotu, vilks vairs nedarītu ļaunu. Hagiogrāfisks stāsts, nevis hronika.",
+      "yearFrom": 1220,
+      "dateLabel": "datums nenoteikts",
+      "chronologicalUncertainty": "14. gadsimta hagiogrāfiskās tradīcijas epizode (Ziediņi, 21. nodaļa), bez dokumentāra apstiprinājuma: to piedāvājam kā atmiņas stāstu, nevis kā vēsturisku faktu.",
+      "placeId": "place.gubbio",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.fioretti"],
+      "teachingIds": ["teaching.pace.saluto", "teaching.accoglienza.ogni_uomo"],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Nāve Porciunkulā",
+      "description": "Francisks mirst 1226. gada 3. oktobra vakarā Porciunkulā, pēc tam kad ir diktējis Testamentu un lūdzis, lai viņu nogulda kailu uz kailas zemes.",
+      "yearFrom": 1226,
+      "dateLabel": "1226. gada 3. oktobris",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.testamento"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Kanonizācija",
+      "description": "Gregors IX pasludina Francisku par svēto Asīzē 1228. gada 16. jūlijā, nepilnus divus gadus pēc nāves, un uzdod Tomam no Čelāno pirmo oficiālo biogrāfiju.",
+      "yearFrom": 1228,
+      "dateLabel": "1228. gada 16. jūlijs",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.celano"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Asīzes Francisks",
+      "role": "Mazāko brālības dibinātājs",
+      "description": "Jānis, Pjetro di Bernardones dēls (1181./82.–1226.). Tirgotājs, tad ceļojošs gandarītājs, tad brālības dibinātājs, kas mainīja Baznīcas vēsturi. Kanonizēts 1228. gadā.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.testamento"]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Asīzes Klāra",
+      "role": "Klarisu dibinātāja",
+      "description": "Asīzes augstdzimusī (1193./94.–1253.), 1212. gadā seko Franciskam un Svētajā Damiānā dibina „nabago dāmu“ kopienu. Pirmā sieviete, kas uzrakstīja apstiprinātu reliģisku regulu.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernardo di Kvintavalle",
+      "role": "Pirmais biedrs",
+      "description": "Bagāts Asīzes vīrs, izdala savu mantu un kļūst par Franciska pirmo biedru (1208.). Mira 1241. gadā.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Brālis Egidijs",
+      "role": "Starp pirmajiem biedriem",
+      "description": "Izglītots zemnieks un mistiķis, Franciska trešais biedrs; tradīcija viņam piedēvē gudros „Teicienus“.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Brālis Leons",
+      "role": "Biktstēvs un uzticams biedrs",
+      "description": "Pēdējo gadu biedrs, Franciska pašrocīgās vēstules adresāts un La Verna liecinieks.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.lettera_leone", "source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Gvido II, Asīzes bīskaps",
+      "role": "Franciska aizstāvis",
+      "description": "Asīzes bīskaps no 1204. gada; atteikšanās ainā apsedza Francisku ar apmetni un atbalstīja viņa pirmos soļus.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pjetro di Bernardone",
+      "role": "Franciska tēvs",
+      "description": "Asīzes audumu tirgotājs; konflikts ar dēlu par pārdoto mantu izvērtās publiskā ainā bīskapa priekšā.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pika",
+      "role": "Franciska māte",
+      "description": "Tradīcija viņu atceras kā tuvāku dēlam atgriešanās krīzē; avoti par viņu ir trūcīgi.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Pāvests Inocents III",
+      "role": "Pāvests (1198–1216)",
+      "description": "Viens no ietekmīgākajiem viduslaiku pāvestiem; pēc tradīcijas 1210. gadā mutvārdiem apstiprināja Franciska dzīves formu.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Pāvests Honorijs III",
+      "role": "Pāvests (1216–1227)",
+      "description": "1223. gadā ar bullu apstiprināja Regulu un atbalstīja jauno brālību.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": ["source.regola_bollata"]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Maliks al-Kamils",
+      "role": "Ēģiptes sultāns",
+      "description": "Ajūbīdu sultāns, kurš 1219. gadā Damietā, piektā krusta kara laikā, satika Francisku.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.celano",
+      "name": "Toms no Čelāno",
+      "role": "Pirmais biogrāfs",
+      "description": "Mazākais brālis, Gregora IX uzdevumā uzrakstīja Pirmo dzīvi (1228–1229) un Otro dzīvi (1246–1247), vācot biedru liecības.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventura no Baņoredžo",
+      "role": "Teologs un biogrāfs",
+      "description": "Universitātes mācītājs un Ordeņa ģenerālministrs; viņa Lielā leģenda (1260–1263) kļuva par Franciska oficiālo biogrāfiju.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": ["source.bonaventura_leggenda_maggiore"]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardināls Ugolīno (vēlāk Gregors IX)",
+      "role": "Ordeņa aizstāvis",
+      "description": "Brālības kardināls aizstāvis, vēlāk pāvests: 1228. gadā kanonizēja Francisku.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Brālis Elija no Kortonas",
+      "role": "Pretrunīgais pēctecis",
+      "description": "Biedrs un pēc Franciska Ordeņa vadītājs; apstrīdēta figūra, zīme spriedzei starp harismu un institūciju.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": ["source.bonaventura_leggenda_maggiore"]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Asīze",
+      "description": "Franciska dzimtā pilsēta: laukums, Svētā Rufīna katedrāle, mūri, viduslaiku ieliņas.",
+      "historicalNote": "Īsta vēsturiska vieta.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "Svētā Damiāna",
+      "description": "Baznīciņa ārpus Asīzes, kur Francisks lūdza krucifiksa priekšā; vēlāk Klāras un viņas māsu mājvieta.",
+      "historicalNote": "Īsta vēsturiska vieta.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porciunkula (Eņģeļu Svētā Marija)",
+      "description": "Maza baznīca līdzenumā zem Asīzes: pirmās brālības mājvieta un Franciska nāves vieta.",
+      "historicalNote": "Īsta vēsturiska vieta; šodien ieslēgta Eņģeļu Svētās Marijas bazilikā.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Būda pie strauta, kur pirmie biedri dzīvoja ceļojošo dzīves formu.",
+      "historicalNote": "Īsta vēsturiska vieta; tagadējā svētnīca glabā apmetnes atmiņu.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Karčeri vientuļvieta",
+      "description": "Vientuļvieta Subazio kalnā, starp akmens ozoliem un alām: atkāpšanās un lūgšanas vieta.",
+      "historicalNote": "Īsta vēsturiska vieta.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Umbru pilsēta, saistīta ar vilka stāstu un Franciska klātbūtni vientuļnieka laikā.",
+      "historicalNote": "Īsta vēsturiska vieta; vilka epizode pieder hagiogrāfiskajai tradīcijai.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Rieti apvidus ciems, kur Francisks 1223. gada Ziemassvētkos svinēja ar dzīvu silīti.",
+      "historicalNote": "Īsta vēsturiska vieta.",
+      "isHistoricalPlace": true,
+      "region": "Lacio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Toskānas Apenīnu kalns, dāvāts Franciskam; 1224. gada atkāpšanās vieta un, pēc viduslaiku avotiem, stigmu vieta.",
+      "historicalNote": "Īsta vēsturiska vieta.",
+      "isHistoricalPlace": true,
+      "region": "Toskāna"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Kolombo",
+      "description": "Vientuļvieta pie Rieti, kur tika sacerēta 1221. gada neapstiprinātā Regula.",
+      "historicalNote": "Īsta vēsturiska vieta.",
+      "isHistoricalPlace": true,
+      "region": "Lacio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damieta",
+      "description": "Pilsēta Nīlas deltā, piektā krusta kara un Franciska tikšanās ar sultānu (1219) skatuve.",
+      "historicalNote": "Īsta vēsturiska vieta.",
+      "isHistoricalPlace": true,
+      "region": "Ēģipte"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Ozolu ciems",
+      "description": "Iztēlots ciems Spoleto ielejā: Ceļinieka galvenā stāsta vide.",
+      "historicalNote": "Spēlei radīta izdomāta vide; nav vēsturiska vieta.",
+      "isHistoricalPlace": false,
+      "region": "Umbrija (iztēlota)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbrijas lauki un meži",
+      "description": "Ceļi, akmens ozolu meži un lauki starp ciemiem: Ceļinieka stāstu ceļojošā skatuve.",
+      "historicalNote": "Stāsta vide, iedvesmota no īstās Umbrijas ainavas.",
+      "isHistoricalPlace": false,
+      "region": "Umbrija (vide)"
+    }
+  ],
+  "glossary": [
+    { "id": "gloss.agiografia", "term": "Hagiogrāfija", "definition": "Svēto dzīves literatūra: viduslaiku dievbijīgs žanrs, kura mērķis ir celt garu, nevis vest hroniku. To lasa ar citiem instrumentiem nekā dokumentāro vēsturi." },
+    { "id": "gloss.penitenza", "term": "Gandarīšana", "definition": "Franciska valodā: sirds un dzīves atgriešanās, nevis sods. „Darīt gandarīšanu“ nozīmēja mainīt virzienu." },
+    { "id": "gloss.frate_minore", "term": "Mazākais brālis", "definition": "Vārds, ko Francisks izvēlējās saviem biedriem: „mazākie“, tas ir, pēdējie, bez pretenzijām uz kārtu." },
+    { "id": "gloss.ministro", "term": "Ministrs", "definition": "Franciskāņu brālībā: kopienas vai provinces atbildīgais. Vārds nozīmē „kalps“." },
+    { "id": "gloss.regola", "term": "Regula", "definition": "Teksts, kas nosaka reliģiskas kopienas dzīves formu. Francisks uzrakstīja divas versijas: neapstiprināto (1221) un apstiprināto (1223)." },
+    { "id": "gloss.bolla", "term": "Bulla", "definition": "Pāvesta oficiāls dokuments, pēc svina zīmoga (bulla), kas to apliecina. „Apstiprinātā Regula“ = regula, kas apstiprināta ar bullu." },
+    { "id": "gloss.porziuncola", "term": "Porciunkula", "definition": "„Mazs zemes gabals“: Eņģeļu Svētās Marijas baznīciņa pie Asīzes, brālības mājas." },
+    { "id": "gloss.stimmate", "term": "Stigmas", "definition": "Kristus ciešanu zīmes, ko viduslaiku avoti piedēvē Franciskam pēc atkāpšanās La Verna (1224)." },
+    { "id": "gloss.sine_proprio", "term": "Sine proprio", "definition": "Tradīcijas latīņu izteiciens: „bez nekā sava“, franciskāņu nabadzības forma." },
+    { "id": "gloss.lauda", "term": "Lauda", "definition": "Reliģisks dzejas sacerējums tautas valodā, domāts dziedāšanai. Radību dziesma ir lauda." },
+    { "id": "gloss.comune", "term": "Komūna", "definition": "Viduslaiku Itālijas pilsētas pašpārvaldes iestāde: Franciska Asīze bija augoša komūna konfliktā ar Perudžu un ar feodālo varu." },
+    { "id": "gloss.capitolo", "term": "Kapituls", "definition": "Reliģiskas brālības periodiska sapulce; arī „ģenerālkapituls“ visa Ordeņa sapulcei." },
+    { "id": "gloss.lebbrosario", "term": "Spitālīgo nams", "definition": "Viduslaiku hospitālis-lazarete spitālīgajiem ārpus pilsētas mūriem. Franciska izšķirošās tikšanās vieta." },
+    { "id": "gloss.eleemosina", "term": "Žēlastības dāvana", "definition": "Dāvana, ko lūdz vai saņem, lai dzīvotu. Pirmajiem brāļiem tā bija zīme uzticībai Aizgādībai, nevis pazemojums." }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Tirgotāja dēls (1181./82.–1202.)",
+      "text": "Francisks piedzimst Asīzē Pjetro di Bernardone, bagāta audumu tirgotāja, un madonnas Pikas ģimenē. Viņš aug pilsētā, kas pilnā sparā veido komūnu: spožs, devīgs jauneklis, svētku un franču truveru mīļotājs, sapņo par bruņinieka slavu. 1202. gadā viņš cīnās pret Perudžu Kollestradā; sakāve un gads gūstā iezīmē viņa pirmās dzīves skanīgo beigas.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Pagrieziens (1202.–1206.)",
+      "text": "Slimība pēc gūsta, Spoleto sapnis, svētceļojums uz Romu, kur viņš apmaina drēbes ar ubagu: Francisks meklē jaunu virzienu. Tad epizode, ko viņš pats norādīs kā sākumu: tikšanās ar spitālīgajiem, kur „tas, kas man šķita rūgts, pārvērtās maigumā“. Svētā Damiāna, krucifiksa priekšā, viņš dzird aicinājumu salabot Dieva „māju“. Viņš pārdod tēva audumus un zirgu, lai atjaunotu baznīciņu; konflikts uzliesmo bīskapa priekšā, kur viņš atdod visu.",
+      "sourceDocumentIds": ["source.testamento", "source.celano_vita_prima", "source.celano_vita_seconda"],
+      "teachingIds": ["teaching.carita.lebbrosi", "teaching.rinuncia.sine_proprio", "teaching.fede.cristo_centro"]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "„Salabo manu māju“ (1206.–1209.)",
+      "text": "Viens, gandarītāja drēbēs, Francisks akmeni pēc akmens atjauno Svēto Damiānu, Svēto Pēteri un Porciunkulu, kalpodams spitālīgo namos. Pilsēta vispirms viņu izsmej, tad sāk uz viņu skatīties. Klausoties Evaņģēliju, viņš saprot aicinājumu: sludināt mieru, dzīvot bez nekā sava, ceļā. Ieceres izrādās lielāka par trīs baznīcu atjaunošanu: salabot pašu Baznīcu no apakšas.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.poverta.liberta", "teaching.pace.saluto"]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Brālība (1209.–1219.)",
+      "text": "Bernardo di Kvintavalle, Egidijs un citi: pirmie biedri dala dzīves formu, un 1210. (vai 1209.) gadā Inocents III to mutvārdiem apstiprina. Porciunkula kļūst par mājām. 1212. gadā Asīzes Klāra naktī aizbēg, lai sekotu tam pašam aicinājumam. Brālība aug pāri visām prognozēm, ar ikgadējiem kapitulem un sūtībām visā Eiropā: rodas lielo skaitļu problēmas.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori", "teaching.accoglienza.ogni_uomo"]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Uz Austrumiem (1219.–1220.)",
+      "text": "Paša piektā krusta kara laikā Francisks sasniedz krustnešu nometni Damietā, šķērso līnijas un satiek sultānu al-Maliku al-Kamilu. Viduslaiku avoti apraksta savstarpēju cieņu; mūsdienu vēsture apspriež detaļas, bet žests paliek: kara laikā iet pretī. Atgriezies viņš atrod brālību mainītu un grūtībās: apmēri prasa struktūras, no kurām viņš baidās.",
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.accoglienza.ogni_uomo", "teaching.pace.saluto"]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Augšanas grūtums (1220.–1223.)",
+      "text": "Francisks atstāj Ordeņa ikdienas vadību un pievēršas rakstītajai regulai: 1221. gada regula, gara un brīva, netiks apstiprināta; 1223. gada regula, īsāka un juridiskāka, saņem Honorija III bullu. Spriedze starp harismu un institūciju iet cauri šiem gadiem: Francisks to dzīvo uzticībā un ciešanās. Greccio, 1223. gada Ziemassvētkos, viņš liek redzēt Bētlemes nabadzību ar īstu silīti.",
+      "sourceDocumentIds": ["source.regola_non_bollata", "source.regola_bollata", "source.celano_vita_prima"],
+      "teachingIds": ["teaching.comunita.regola", "teaching.poverta.liberta"]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Dziesma un vakars (1224.–1226.)",
+      "text": "La Verna 1224. gada septembrī avoti stāsta par stigmām. Slims un gandrīz akls, Svētā Damiāna viņš sacer Radību dziesmu: slava dzimst tumšākajā laikā. Viņš pievieno pantu par piedošanu, lai izlīgtu bīskapu un podestà, un beigās pantu par „miesas nāves māsu“. Nodiktējis Testamentu, viņš mirst Porciunkulā 1226. gada 3. oktobra vakarā, kails uz kailas zemes. Divus gadus vēlāk Gregors IX viņu pasludina par svēto.",
+      "sourceDocumentIds": ["source.cantico", "source.testamento", "source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi", "teaching.gioia.perfetta_letizia"]
+    }
+  ]
+}

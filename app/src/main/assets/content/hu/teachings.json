@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "A találkozás, amely megváltoztatja az életet",
+      "summary": "Ferenc megtérése akkor kezdődik, amikor legyőzi az undort, és találkozik a leprásokkal: a szeretet mint konkrét találkozás a másikkal.",
+      "explanation": "A Végrendeletben Ferenc elmondja, hogy a leprások látása „túlságosan keserűnek” tűnt neki, és éppen a velük való találkozás volt bűnbánatának kezdete. A ferences szeretet nem általános érzés: annak a testi gesztusa, aki közeledik a kirekesztetthez, és felfedezi, hogy a keserűség lelki és testi édességgé változik. Aki ad, nem a befogadó fölé helyezi magát: találkozik vele.",
+      "historicalContext": "A tizenharmadik században a leprásokat kizárták a városi életből, a falakon kívüli leprakórházakban helyezték el őket, és a bűn jelképének tekintették. Ferenc döntése, hogy közöttük él, társadalmilag botrányos volt.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Semmi saját, minden kapott",
+      "summary": "A püspök előtt Ferenc visszaadja ruháit az apjának: a birtoklásról való lemondás mint a szabadság választása, nem a dolgok megvetése.",
+      "explanation": "Ferenc lemondása Guidó püspök előtt az a nyilvános gesztus, amellyel elvágja a családi gazdagsághoz fűződő köteléket. Nem menekülés a dolgok elől, hanem felszabadulás a birtoklás gondolatától: akinek semmije sincs, annak semmit sem kell védelmeznie, és mindent ajándékként fogadhat. A hagyomány latin szakkifejezése a „sine proprio”: tulajdon nélkül.",
+      "historicalContext": "Egy gazdag posztókereskedő fiaként Ferenc a városi polgárság társadalmi emelkedésére volt hivatott. Lemondása 1206-ban éppen azért ragadta meg Assisi képzeletét, mert a kereskedőváros értékeinek a fordítottja volt.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "A szegénység mint szabadság",
+      "summary": "Ferenc számára a szegénység nem romantikus nyomor: az, hogy semmit sem sajátítunk el, hogy szabadok maradjunk szeretni, és egyedül Istentől függjünk.",
+      "explanation": "Az 1223-as Regula azt kéri a testvérektől, hogy semmit se sajátítsanak el, „sem házat, sem helyet, sem bármi mást”, és szégyen nélkül járjanak alamizsnáért, emlékezve arra, hogy az Úr szegénnyé lett. A ferences szegénységnek teológiai alapja van (a szegény Krisztus) és lélektani is: akinek nincs mit védelmeznie, szabad. Nem felhívás a nélkülözés dicsőítésére — az társadalmi seb —, hanem arra, hogy a birtoklás ne határozzon meg minket.",
+      "historicalContext": "Az önkéntes szegények mozgalma a kommunák és a papság növekvő gazdagságára adott válaszként született; az Egyház gyanakvással nézte a szegénységi mozgalmakat, és Ferencnek fáradságos munkával kellett megszereznie a jóváhagyást.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Kisebb testvérek",
+      "summary": "Ferenc közössége nem elöljárók és alattvalók rendje: a „kisebbek” testvérisége, amelyben mindenki felelős a másikért.",
+      "explanation": "Ferenc azt akarta, hogy övéit kisebb testvéreknek nevezzék: senki sem nagy, a felelősöket „minisztereknek”, azaz szolgáknak hívják. Az 1221-es Regula azt kéri, hogy egymásnak tárják fel szükségleteiket, ne ítéljék a testvért, és ne vessék meg a gyengét. A testvériség a közösen megélt evangélium formája: nem eszményből vagyunk testvérek, hanem mindennapi gyakorlatból.",
+      "historicalContext": "A testvériség 1208–1210 körül születik az első társakból (Bernát, Egyed és a többiek), és gyorsan úgy növekszik, hogy szerkezetet kíván: káptalanokat, minisztereket, írott regulát.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "A béke köszöntése",
+      "summary": "„Az Úr adjon neked békét”: Ferenc a békét hirdetnivaló üzenetté teszi, mielőtt a háború hiányává.",
+      "explanation": "A Végrendeletben Ferenc emlékeztet arra, hogy az Úr béke-köszöntést nyilatkoztatott ki neki. A legkorábbi források leírják, hogy a testvérek házról házra hirdették a békét. A ferences béke tevékeny: vinni kell, építeni, közvetíteni — mint Gubbio farkasának elbeszélésében, ahol a béke abból a bátorságból születik, hogy elébe megyünk annak, ami félelmet kelt.",
+      "historicalContext": "A kommunák Itáliáját pártviszályok, városi háborúk és a világi meg a vallási hatalom konfliktusai szelték át. A béke hirdetése egyszerre volt politikai és lelki gesztus.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Hetvenszer hétszer, és azon túl",
+      "summary": "A testvériség egyik felelősének Ferenc ezt írja: ha egy testvér ezerszer vétkezne is, szeresd őt akkor is jobban, mint engem.",
+      "explanation": "A levél egy miniszterhez a ferences megbocsátás szövege: aki vezet, ne botránkozzék meg, és ne keményedjen meg a testvérek hibái láttán, hanem hirdesse az irgalmat. A megbocsátás nem tagadja a rosszat: elutasítja, hogy a rossznak legyen az utolsó szava a kapcsolatról. A Naphimnuszban a megbocsátás strófáját a hagyomány szerint azért fűzték hozzá, hogy kibékítse Assisi viszálykodó püspökét és podestàját.",
+      "historicalContext": "A gyorsan növekvő testvériség belső feszültségeket élt át; a városokat pedig bosszú és vérbosszú szaggatta, amelyeket a ferencesek igyekeztek lecsendesíteni.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Kisebbnek lenni, nem jobbnak érezni magunkat",
+      "summary": "A ferences alázat igazság önmagunkról: nem felmagasztalni, nem megvetni magunkat, szolgálni, mint az utolsó.",
+      "explanation": "Az Intelmek óvnak a mindent mércévé tett saját akarattól és a lelki önelégültségtől. Ferenc számára az alázat az, hogy az igazságban látjuk magunkat: kicsiknek Isten előtt, mindennel adósoknak, képesnek szolgálni anélkül, hogy elismerést követelnénk. Nem alacsony önértékelés: szabadság a látszani vágyás kényszerétől.",
+      "historicalContext": "A becsületre és rangra épülő társadalomban „kisebbnek” nevezni magunkat ellentétes program volt; a növekvő testvériségen belül pedig az alázat volt az ellenszere a belső versengésnek.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Nap testvér, víz nővér",
+      "summary": "A teremtmények éneke: a világ nem nyersanyagraktár és nem bálvány, hanem a Teremtőt dicsérő teremtmények családja.",
+      "explanation": "A Naphimnuszban Ferenc Istenért dicsér „a” teremtmények által: nap testvér, hold nővér, a víz nővér, aki „hasznos, alázatos, drága és tiszta”, és a föld anya nővérünk. A természet nincs istenítve: testvér, mert ugyanannak az Atyának a gyermeke. A teremtett világ gondja itt a hálából és a rokonságból fakad, nem a haszonból. És a Naphimnusz a betegségben születik: a dicséret nem a körülményektől függ.",
+      "historicalContext": "1225–1226-ban keletkezett, amikor Ferenc beteg volt és szinte vak; az olasz népnyelvű költészet egyik legkorábbi szövege. Bonaventura a megpróbáltatások időszakába helyezi.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "A tökéletes öröm",
+      "summary": "A ferences öröm nem az eredményektől függ: a visszautasításban és a fáradtságban is megmarad, mert a szeretetből születik, nem a sikerből.",
+      "explanation": "A Fiorettiben Ferenc elmagyarázza Leó testvérnek, hogy az igazi öröm nem a csodák és nem a megtérések, hanem az, hogy elutasítva és átfagyva térünk vissza, és türelmesek, vidámak maradunk. Hagiográfiai elbeszélés, nem krónika, de a ferences szellem hiteles vonását sűríti: az öröm mint belső választás, amelyet semmilyen esemény nem vehet el.",
+      "historicalContext": "A Fioretti (a tizennegyedik század vége) a korai ferencesség élő emlékét gyűjti össze; lelki irodalomként olvasandó, nem okirati történelemként.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "A sivatag, amely a világban lakik",
+      "summary": "Ferenc váltogatta a küldetést és a visszavonulást: az ima mint a hely, ahol Isten előtt visszatérünk a lényeghez.",
+      "explanation": "A ferences élet nem csak cselekvés: Ferenc remetelakokat és visszavonulásokat keresett (a Carceri, a La Verna), kevés társat és hosszú csendet vitt magával. Leó testvérhez írt levelében a lelkiismeretre utal Isten előtt: az ima nem technika, hanem kapcsolat. A Magasságbeli Isten dicséretei a legtisztább imáját mutatják: dicséret kérés nélkül.",
+      "historicalContext": "A ferences remetelakok az umbriai-toszkán Appenninek vad helyein születtek; a La Verna, amelyet 1213-ban ajándékoztak Ferencnek, a visszavonulás helye lett.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Krisztus nyomdokain járni",
+      "summary": "Ferenc lelkisége nem természetfilozófia: a szegény és megfeszített Krisztus követése, az Egyház hitében.",
+      "explanation": "Ferencben minden Krisztustól indul: a San Damiano-i feszület, amely szól hozzá, a szegénység választása, „mert az Úr szegénnyé lett”, a La Vernán szemlélt szenvedés, az egyszerű hit a Végrendelet templomaiban. Ha ezt a gyökeret kivesszük, Ferenc nem lesz egyetemesebb: felismerhetetlenné válik. Az alkalmazás olyannak mutatja, amilyen, anélkül hogy ránk kényszerítené, és anélkül hogy eltörölné.",
+      "historicalContext": "Ferenc a középkori Egyház keretében élte a hitet: életformájához annak jóváhagyását kereste, és elfogadta a határait, miközben alulról ösztönözte a reformot.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Regula, hogy el ne vesszünk",
+      "summary": "A ferences engedelmesség nem önmegsemmisítés: közös szövetség, amely megóvja a testvériséget a szétszóródástól és az önkénytől.",
+      "explanation": "Ferenc az Egyház jóváhagyását kérte, és egyre lényegibb regulákat írt (1221, 1223). Az engedelmesség az Intelmekben és a Regulákban kölcsönös: a közös regulának engedelmeskedünk, és aki vezet, szolgál. A Végrendelet azt kéri, hogy a regulát ne glosszázzák: „egyszerűen és glossza nélkül” éljék. A közösség és az engedelmesség az a keret, amely tartóssá teszi a szabadságot.",
+      "historicalContext": "1210 és 1223 között a testvériség kis csoportból elismert Renddé vált; a karizma és az intézmény közötti feszültség az egész ferences történelmet áthatja.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "A dicséret, amely semmit sem kér",
+      "summary": "Az Isten dicséretei és a Naphimnusz a betegségben születnek: a ferences hála nem a szerencsét jutalmazza, hanem mindenben felismeri az ajándékot.",
+      "explanation": "A Magasságbeli Isten dicséretei, amelyeket a La Vernán írtak, egyetlen kérést sem tartalmazó ima: csak elismerés. A Naphimnusz is, a szenvedésben fogalmazva, dicséret. A ferences hála begyakorolt tekintet: mindent — a vizet, a napot, a nappalt, még a halált is — kapottnak lát. Aki hálát ad, nem birtokol: lakik.",
+      "historicalContext": "1224–1226-ban Ferenc súlyosan beteg volt, szinte vak, és a Rend vezetésétől való eltávolodás jelezte: azoknak az éveknek a dicsérete nem naivitás, hanem kivívott állás.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Aki vezet, szolgál",
+      "summary": "A testvériségben a felelősöket „minisztereknek” nevezik: a szolgálat mint a tekintély egyetlen jogos formája.",
+      "explanation": "Ferenc megfordítja a hierarchiát: a miniszter az, aki szolgál, a kusztosz az, aki őrzi a testvéreket, nem az, aki parancsol. A levél egy miniszterhez megmutatja a hangot: közelség a vétkezőhöz, soha megvetés. A szolgálat nem stratégia a tetszés elnyerésére: a keresztény módja annak, hogy bármely szerepben lakjunk, a testvértől a püspökig, a szülőtől a polgármesterig.",
+      "historicalContext": "A ferences hierarchia címeit (miniszter, kusztosz, gvárdián) éppen a középkori presztízs logikája ellen választották.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Senki sem idegen",
+      "summary": "Leprások, útonállók, egy szultán, egy farkas: a ferences hagyomány a befogadást a saját csoport határain túlra viszi.",
+      "explanation": "Ferenc találkozik a leprásokkal, a keresztes hadjárat kellős közepén elébe megy al-Málik al-Kámil szultánnak, és a népi emlékezetben még a farkassal is beszél. A ferences befogadás nem passzív türelem: elébe menni, kitenni magunkat, „testvérnek” nevezni azt, akit a saját világunk ellenségnek hív. A kényelmetlen szomszédnál kezdődik, és nem áll meg a hit vagy a nyelv határánál.",
+      "historicalContext": "A szultánnal való találkozás (1219, Damietta) az ötödik keresztes hadjárat idején történt: a források által dokumentált béke gesztusa, a középkori tanúságtétel határai között.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "A testünkkel felebaráttá lenni",
+      "summary": "„Irgalmasságot cselekedtem velük”: a ferences irgalom együttérzés, amely konkrét gesztussá válik, nem távoli szánalom.",
+      "explanation": "A Végrendeletben Ferenc erős szót használ: a leprásokkal „irgalmasságot cselekedtem”. Nem azt mondja, hogy együttérzést érzett: megtette. Az irgalom az a képesség, hogy a másik szenvedése elérjen minket, egészen addig, hogy megmozdul a kezünk. Ez a gyökér, amelyből a szeretet, a megbocsátás és a béke nő.",
+      "historicalContext": "A középkori jámborság az alamizsnát érdemszerző gyakorlatként ismerte; Ferenc viszonnyá alakítja: nem a szegénynek adunk, a szegénnyel vagyunk.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "A kezek munkája",
+      "summary": "Ferenc nem állítja szembe az imát és a munkát: a becsületes munka távol tartja a tétlenséget, és nem olthatja ki az imádságot.",
+      "explanation": "A Végrendeletben Ferenc azt mondja, hogy a kezeivel dolgozott, és azt akarja, hogy a testvérek dolgozzanak, nem a bér mohóságából, hanem a példa kedvéért és a tétlenség ellen. Ha a bér elmarad, visszatérnek az alamizsnához. A megerősített Regula hozzáteszi a határt: a munka kegyelem, és az időleges dolgoknak az imádság lelkének kell szolgálniuk, nem helyettesíteniük. A meg nem erősített Regulában a munka annak is módja, hogy kisebbekként legyünk mások házában, anélkül hogy hatalmat adó hivatalokat vállalnánk.",
+      "historicalContext": "Az első testvérek közül sokan mesterségekből jöttek. A munka és a pénz kérdése már 1223 előtt éles: az 1221-es Regula bővebb és szigorúbb a pénz dolgában; a bullával megerősített rövidebb, és a betegek gondját lelki barátok révén a miniszterekre bízza.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "A test, nem egy eszme",
+      "summary": "Ferenc számára Isten Fia ebben a világban abban a testben és vérben látható, amelyet a papok fogadnak és adnak.",
+      "explanation": "A Végrendelet a papok iránti tiszteletet ehhez köti: Ferenc azt mondja, hogy Isten Fiából testileg semmi mást nem lát, csak az ő testét és vérét. A levél az egész Rendhez ugyanezt a hitet a kenyér alakjáig viszi, és azt kéri a papoktól, hogy úgy misézzenek, hogy ne az emberek tetszését keressék. Nem melléktéma. Ez a középpont, amelyből Ferenc az Egyházat, az írott szavakat és a saját kicsinységét olvassa. Az alkalmazás annak mondja, ami: középkori eucharisztikus hit, nem az ajándék általános metaforája.",
+      "historicalContext": "Ferenc eucharisztikus jámborsága a IV. lateráni zsinat (1215) reformjába illeszkedik, amely előírja az éves gyónást, és pontosítja a szentség tanát. A klerikusokhoz és a kusztoszokhoz írt levelek, amelyeket itt nem közlünk teljes egészében, ugyanezen a ponton időznek.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Az evangélium formája",
+      "summary": "Ferenc nem az evangélium mellé talál ki lelkiséget: azt mondja, hogy a Magasságbeli kinyilatkoztatta neki, hogy aszerint a forma szerint éljen, és le is íratta.",
+      "explanation": "A Végrendelet egyértelmű: senki sem mutatta meg neki, mit tegyen; a Magasságbeli kinyilatkoztatta, hogy a szent evangélium formája szerint éljen; ő kevés szóval leíratta, és a pápa megerősítette. A két Regula ugyanerre a pontra nyílik. Az evangéliumot megtartani ezekben a szövegekben nem érzés: engedelmesség, semmi saját, és tisztaság, egy jóváhagyott testvériségben. A püspök előtti lemondás elbeszélése Celanónál ugyanezen választás másik jelenete. Itt Ferenc szövege megelőzi a Ferencről szóló elbeszélést.",
+      "historicalContext": "III. Ince szóbeli jóváhagyását a hagyomány 1209-re vagy 1210-re datálja; a meg nem erősített Regula 1221-ből való; a megerősítettet III. Honoriusz 1223. november 29-én hagyta jóvá. A Végrendelet 1226-ban az egész sorozatot egyetlen kinyilatkoztatásként olvassa újra.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Nacimiento en Asís",
+      "description": "Giovanni di Pedro de Bernardone, llamado Francisco, nació en Asís de un rico comerciante de telas y Madonna Pica.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 ó 1182 (sin certificar)",
+      "chronologicalUncertainty": "Las fuentes no están de acuerdo en el año: 1181 y 1182 son ambos propuestos por la historiografía.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Guerra y prisión",
+      "description": "En la guerra entre Asís y Perugia, Francisco luchó en la batalla de Collestrada (noviembre de 1202), fue hecho prisionero y permaneció en Perugia durante aproximadamente un año. A su regreso, una enfermedad comienza a cambiarlo.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202-1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "El sueño de Spoleto y el regreso",
+      "description": "Tras partir hacia Apulia en busca de gloria militar, en Spoleto Francisco tiene un sueño que le hace regresar a Asís. Comienza el desprendimiento de su vida anterior: sueños, oración, peregrinación a Roma.",
+      "yearFrom": 1205,
+      "dateLabel": "1204-1205 aprox.",
+      "chronologicalUncertainty": "La reconstrucción de estos meses está extraída de biografías medievales; las fechas exactas son convencionales.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "El encuentro con los leprosos",
+      "description": "Francisco dice en el Testamento que el Señor lo trajo entre los leprosos y que \"sentir con su misericordia\": el episodio que él mismo indica como el comienzo de su conversión.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "1205-1206 aproximadamente",
+      "chronologicalUncertainty": "El Testamento no da una fecha; la colocación precede a la ruptura pública con la familia.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "El crucifijo de San Damián",
+      "description": "En la iglesia de San Damián, según la tradición, Francisco escucha al crucifijo dirigiéndose a él la invitación: \"Repara mi hogar\". Inicialmente lo interpreta en la carta y restaura iglesias con sus propias manos.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "1205-1206 aproximadamente",
+      "chronologicalUncertainty": "Episodio atestiguado sobre todo por la Segunda Vida y la tradición posterior; la literalidad del diálogo pertenece a la narrativa devocional.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "La renuncia ante el obispo",
+      "description": "Citado por su padre ante el obispo Guido por los bienes vendidos, Francisco vuelve todo, incluyendo sus ropas, y se confía al \"Padre que está en los cielos\". El obispo lo cubre con su propia capa.",
+      "yearFrom": 1206,
+      "dateLabel": "principios de 1206",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Los primeros compañeros",
+      "description": "Bernardo de Quintavalle, Egidio y otros se unen a Francisco, compartiendo su estilo de vida: nace la fraternidad itinerante, entre el trabajo, la limosna y el anuncio de la paz.",
+      "yearFrom": 1208,
+      "dateLabel": "1208-1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "La aprobación del Innocente III",
+      "description": "Francisco y sus compañeros van a Roma; el Innocente III aprueba oralmente su forma de vida evangélica. Ningún documento de aprobación sobrevive: la tradición data de 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (o 1209)",
+      "chronologicalUncertainty": "La aprobación fue oral y ningún documento sobrevivió; se discute el año exacto (1209 o 1210).",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "La Porciúncula, hogar de fraternidad",
+      "description": "La pequeña iglesia de Santa María de los Ángeles, llamada Porciúncula, se convierte en la vivienda estable de la fraternidad: centro espiritual y afectivo del movimiento.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211-1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "El escape de Chiara",
+      "description": "Chiara Offersduccio deja la casa del padre y llega a Francisco alla Porciúncula, la noche entre Domingo de Ramos y Lunes 1212: comienza su forma de vida que dará lugar a los Clarisses.",
+      "yearFrom": 1212,
+      "dateLabel": "18-19 de marzo de 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "La reunión con el sultán",
+      "description": "Durante la Quinta Cruzada, Francisco cruzó las líneas y se reunió con el sultán al-Malik al-Kamil en Damieta: un episodio de diálogo en tiempos de guerra, documentado por fuentes franciscanas y recordado por cronistas externos.",
+      "yearFrom": 1219,
+      "dateLabel": "Septiembre 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "La regla no cocida",
+      "description": "En Fonte Colombo, en Rieti, se elabora la primera regla completa de la hermandad (Non-bulated Regula), larga y espiritual, nunca formalmente aprobada.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "La Regla estampada",
+      "description": "Honorio III aprueba con la burbuja \"Solet annuere\" la regla definitiva (29 de noviembre de 1223): más corta y legal, todavía basada en la Orden de los Frailes Menores.",
+      "yearFrom": 1223,
+      "dateLabel": "29 de noviembre 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Navidad de Greccio",
+      "description": "En Navidad 1223 Francisco hizo Greccio preparar un verdadero pesebre, con heno, buey y burro, para ver \"con los ojos del cuerpo\" la pobreza de Belén: el origen de la tradición de la cuna.",
+      "yearFrom": 1223,
+      "dateLabel": "Navidad 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "En septiembre de 1224, cuando se retiró en el Monte de Verna, Francisco recibe, según las fuentes medievales más cercanas, los estigmas de la pasión de Cristo, que tratará de mantenerse oculto.",
+      "yearFrom": 1224,
+      "dateLabel": "Septiembre 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "La canción de las criaturas",
+      "description": "Enfermo y casi ciego, Francisco compone en varias veces la lauda en vulgar umbro conocida como Cántico de las criaturas: alabanza a Dios por medio del hermano sol, la hermana agua, la madre tierra y, al final, la hermana muerte corporal.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225-1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "El lobo de Gubbio",
+      "description": "Los Fioretti dicen que Francisco negoció la paz entre la ciudad de Gubbio y un lobo feroz: la ciudad lo alimentaría, el lobo ya no le haría daño. Historia hagiográfica, no noticia.",
+      "yearFrom": 1220,
+      "dateLabel": "fecha incierta",
+      "chronologicalUncertainty": "Episodio de la tradición hagiográfica del siglo XIV (Fioretti, capítulo 21), sin constancia documental: lo proponemos como un relato de la memoria, no como un hecho histórico.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Muerte en la Porciúncula",
+      "description": "Francisco murió la tarde del 3 de octubre de 1226 en la Porciúncula, después de dictar el Testamento y pedir ser puesto desnudo en la tierra desnuda.",
+      "yearFrom": 1226,
+      "dateLabel": "3 octubre 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "La canonización",
+      "description": "Gregorio IX proclamó santo a Francisco en Asís el 16 de julio de 1228, menos de dos años después de su muerte, y encargó la primera biografía oficial a Tomás de Celano.",
+      "yearFrom": 1228,
+      "dateLabel": "16 de julio de 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Francisco d'Asís",
+      "role": "Fundador de la fraternidad de Menores",
+      "description": "Giovanni di Pedro de Bernardone (1181/82-1226). Mercante, luego itinerante penitente, luego fundador de una fraternidad que cambió la historia de la Iglesia. Canonizado en 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Clara de Asís",
+      "role": "Fundadora de las Clarisas",
+      "description": "Noble of Asís (1193/94-1253), sigue a Francisco en 1212 y establece la comunidad de \"Poor Dames\" en San Damián. Primera mujer para escribir una regla religiosa aprobada.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernardo de Quintavalle",
+      "role": "Primer camarada",
+      "description": "Ricco di Asís, distribuye sus bienes y se convierte en el primer compañero de Francisco (1208). Murió en 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Hermano Egidio",
+      "role": "Entre los primeros compañeros",
+      "description": "Contadino cultivado y místico, tercer compañero de Francisco; la tradición le atribuye el sabio \"Detti\".",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Hermano Leo",
+      "role": "Confesor y fiel compañero",
+      "description": "Compañero de los últimos años, receptor de la carta de autógrafos de Francisco y testigo del Verna.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II, obispo de Asís",
+      "role": "Protector de Francisco",
+      "description": "Obispo de Asís de 1204; cubrió con el manto Francisco en la escena de la renuncia y apoyó los primeros pasos.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pedro de Bernardone",
+      "role": "Padre de Francisco",
+      "description": "Mercante di panni di Asís; el conflicto con el hijo por las mercancías vendidas resultó en la escena pública delante del obispo.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Virgen Pica",
+      "role": "Madre de Francisco",
+      "description": "La tradición la recuerda más cerca de su hijo en la crisis de la conversión; las fuentes sobre ella son escasas.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Papa Inocencio III",
+      "role": "Pontiff (1198-1216)",
+      "description": "Entre los papas más influyentes de la Edad Media; aprobó oralmente el modo de vida de Francisco, según la tradición en 1210.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Papa Honorio III",
+      "role": "Papa (1216-1227)",
+      "description": "Aprobó la Regla en 1223 y apoyó la hermandad joven.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Sultan of Egypt",
+      "description": "Sultán ayyubide que conoció a Francisco en Damieta en 1219, durante la quinta cruzada.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Tomás de Celano",
+      "role": "Primer biógrafo",
+      "description": "El fraile menor, escribió la Vida antes (1228-29) sobre la comisión de Gregorio IX y la Segunda Vida (1246-47) recogiendo los testimonios de los camaradas.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Buenaventura de Bagnoregio",
+      "role": "Teólogo y biógrafo",
+      "description": "Profesor universitario y ministro general de la Orden; su Leyenda Mayor (1260-63) se convirtió en la biografía oficial de Francisco.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Cardenal Ugolino (más tarde Gregorio IX)",
+      "role": "Protector de la Orden",
+      "description": "Cardenal protector de la hermandad, entonces Papa: Francisco canonizado en 1228.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Hermano Elías de Cortona",
+      "role": "Sucesor controvertido",
+      "description": "Compañero y luego guía de la Orden después de Francisco; figura discutida, signo de las tensiones entre carisma e institución.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Asís",
+      "description": "El lugar de nacimiento de Francisco: la plaza, la catedral de San Rufino, las paredes, los callejones medievales.",
+      "historicalNote": "Verdadero lugar histórico.",
+      "isHistoricalPlace": true,
+      "region": "Umbría"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damián",
+      "description": "Preguntó fuera de Asís donde Francisco oró ante el crucifijo; luego morada de Chiara y sus hermanas.",
+      "historicalNote": "Verdadero lugar histórico.",
+      "isHistoricalPlace": true,
+      "region": "Umbría"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porciúncula (Santa María de los Ángeles)",
+      "description": "Iglesia pequeña en la llanura bajo Asís: hogar de la primera fraternidad y lugar de la muerte de Francisco.",
+      "historicalNote": "Lugar histórico real; hoy incorporado en la basílica de Santa María de los Ángeles.",
+      "isHistoricalPlace": true,
+      "region": "Umbría"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Revocado",
+      "description": "Una choza cerca del arroyo donde los primeros compañeros vivieron la forma itinerante de vida.",
+      "historicalNote": "El santuario actual conserva la memoria del asentamiento.",
+      "isHistoricalPlace": true,
+      "region": "Umbría"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Hermitage of the prisons",
+      "description": "Estaremos en el Monte Subasio, entre lecci y cuevas: lugar de retiro y oración.",
+      "historicalNote": "Verdadero lugar histórico.",
+      "isHistoricalPlace": true,
+      "region": "Umbría"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Ciudad de Umbrian vinculada a la historia del lobo y la presencia de Francisco durante el período hereje.",
+      "historicalNote": "Lugar histórico real; el episodio del lobo pertenece a la tradición agiográfica.",
+      "isHistoricalPlace": true,
+      "region": "Umbría"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Pueblo de la zona de Rieti donde Francisco celebró la Navidad de 1223 con el pesebre viviente.",
+      "historicalNote": "Verdadero lugar histórico.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Monte de los Apeninos toscanos donado a Francisco; lugar del retiro de 1224 y de los estigmas según fuentes medievales.",
+      "historicalNote": "Verdadero lugar histórico.",
+      "isHistoricalPlace": true,
+      "region": "Toscana"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Estaremos en Rieti, donde se redactó la regla de 1221.",
+      "historicalNote": "Verdadero lugar histórico.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damieta",
+      "description": "Ciudad del Delta del Nilo, teatro de la quinta cruzada y del encuentro entre Francisco y el sultán (1219).",
+      "historicalNote": "Verdadero lugar histórico.",
+      "isHistoricalPlace": true,
+      "region": "Egipto"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Aldea de los Robles",
+      "description": "Pueblo imaginario del valle de Spoletina: escenario narrativo principal del Viandante.",
+      "historicalNote": "Un escenario de ficción creado para el juego; no un lugar histórico.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (imaginaria)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Campañas y bosques de Umbrian",
+      "description": "Los caminos, los encinares y los campos entre los pueblos: teatro ambulante de las historias del caminante.",
+      "historicalNote": "Un escenario narrativo inspirado en el verdadero paisaje umbriano.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (cambio)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Agiografía",
+      "definition": "Literatura de la vida de los santos: un género devocional medieval que tiene como objetivo la edificación, no la crónica. Debe leerse con herramientas distintas a la historia documental."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Penance",
+      "definition": "En el idioma de Francisco: conversión del corazón y de la vida, no castigo. \"Hacer penitencia\" significa cambiar la dirección."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Fraile menor",
+      "definition": "Nombre elegido por Francisco para sus compañeros: \"menores\", es decir, último, poco pretencioso de rango."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Ministro",
+      "definition": "En la fraternidad franciscana: la cabeza de una comunidad o provincia. La palabra significa \"servir\"."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Regla",
+      "definition": "El texto que define la forma de vida de una comunidad religiosa. Francisco escribió dos versiones: non bullata (1221) y bullata (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Toro.",
+      "definition": "Documento oficial del Papa, del sello de plomo (bulla) que lo autentifica. \"Backed Rule\" = regla aprobada con burbuja."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Jugo",
+      "definition": "\"Pequeña porción\" de tierra: la pequeña iglesia de Santa María de los Ángeles cerca de Asís, hogar de fraternidad."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Estimulados",
+      "definition": "Los signos de la pasión de Cristo que las fuentes medievales atribuyen a Francisco después de la retirada a Verna (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Expresión latina de la tradición: \"sin nada propio\", la forma franciscana de pobreza."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lauda",
+      "definition": "Composición poética religiosa en vulgar, destinada a cantar. El Cántico de las criaturas es una lauda."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Town",
+      "definition": "La entidad del ciudadano autogobierno de la Italia medieval: el Asís de Francisco era una comuna creciendo y en conflicto con Perugia y el poder feudal."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Capítulo",
+      "definition": "Reunión periódica de una hermandad religiosa; también \"capítulo general\" para el de toda la Orden."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Lebbrosario",
+      "definition": "Hospital-lazareto medieval para leprosos, extramuros de la ciudad. Lugar del encuentro decisivo de Francisco."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Elemosine",
+      "definition": "Dono pidió o recibió vivir. Para los primeros frailes era un signo de confianza en Providence, no humillación."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "El hijo del comerciante (1181/82 - 1202)",
+      "text": "Francisco nació en Asís de Pedro de Bernardone, un rico comerciante de telas, y Madonna Pica. Crece en la ciudad en plena expansión municipal: joven brillante, generoso, amante de las fiestas y de los trouvères franceses, sueña con la gloria caballeresca. En 1202 luchó contra Perugia en Collestrada; La derrota y un año de prisión marcaron el espectacular final de su primera vida.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "El punto de inflexión (1202 - 1206)",
+      "text": "La enfermedad después del cautiverio, el sueño de Spoleto, la peregrinación a Roma donde intercambia ropa con un mendigo: Francisco está buscando una nueva dirección. Luego el episodio que él mismo indicará como el principio: el encuentro con los leprosos, donde \"lo que parecía amargo convertido en dulzura\". En San Damián, frente al crucifijo, siente la invitación a reparar la \"casa\" de Dios. Vende telas y caballo de su padre para restaurar la iglesia; el conflicto explota ante el obispo, donde lo devuelve todo.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "\"Repara mi casa\" (1206 - 1209)",
+      "text": "Solo, vestido de penitente, Francisco restauró piedra a piedra San Damián, San Pedro y la Porciúncula, sirviendo en los hospitales de leprosos. La ciudad primero se ríe de él, luego empieza a mirarlo. Al escuchar el Evangelio comprende la llamada: anunciar la paz, vivir sin nada propio, en itinerancia. El proyecto resulta ser más grande que la restauración de tres iglesias: reparar la Iglesia misma, desde abajo hacia arriba.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Fraternidad (1209 - 1219)",
+      "text": "Bernard de Quintavalle, Egidio y otros: los primeros compañeros comparten la forma de vida y en 1210 (o 1209) Innocent III la aprueba oralmente. Porciúncula se convierte en casa. En 1212 Clara de Asís huyó de noche para seguir la misma llamada. La fraternidad crece más allá de todas las predicciones, con capítulos y misiones anuales en toda Europa: surgen los problemas de gran número.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Hacia el Este (1219 - 1220)",
+      "text": "En medio de la quinta cruzada, Francisco llegó al campamento cruzado en Damieta, cruzó las líneas y se reunió con el sultán al-Malik al-Kamil. Las fuentes medievales describen su respeto mutuo; La historiografía moderna analiza los detalles, pero el gesto permanece: en tiempos de guerra, ir hacia. A su regreso, encuentra la fraternidad cambiada y en dificultades: el tamaño requiere estructuras que teme.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "La fatiga del crecimiento (1220 - 1223)",
+      "text": "Francisco deja la guía diaria de la Orden y se dedica a la regla escrita: la de 1221, larga y libre, no será aprobada; la de 1223, más corta y legal, recibe la burbuja de Honorio III. La tensión entre el carisma y la institución atraviesa estos años: Francisco la vive en fidelidad y sufrimiento. En Greccio, en Navidad 1223, muestra la pobreza de Belén con un verdadero pesebre.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "La canción y la noche (1224 - 1226)",
+      "text": "En La Verna, en septiembre de 1224, las fuentes narran los estigmas. Enfermo y casi ciego, en San Damián compuso el Cántico de las criaturas: la alabanza nace en la estación más oscura. Añade la estrofa del perdón para reconciliar al obispo y al podestá, y finalmente la de «hermana muerte corporal». Después de dictar el Testamento, murió en Porciúncula la tarde del 3 de octubre de 1226, desnudo sobre el suelo. Dos años más tarde Gregorio IX lo proclamó santo.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

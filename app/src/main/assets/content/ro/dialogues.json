@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Ce înseamnă să fii smerit?",
+      "theme": "umilta",
+      "description": "O călăuză onestă desface neînțelegerea smereniei ca dispreț de sine: „adevărul despre sine” al lui Francisc, numele „minorilor” și voința proprie din Admonestări.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Bine ai venit în Dialog. Mă prezint: sunt o călăuză prin sursele franciscane, nu sunt Francisc și nu vorbesc în locul lui. Întrebarea de astăzi sună simplu: ce înseamnă să fii smerit? Mulți, auzind cuvântul „smerenie”, se gândesc îndată să se micșoreze. Înainte să pornim, mă interesează punctul tău de plecare.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Pentru mine, smerenia înseamnă să nu-ți dai importanță, să rămâi la locul tău.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Bănuiesc că este altceva, dar n-aș ști să spun ce.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "De ce frații lui Francisc se numeau „minori”?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Este ideea cea mai răspândită și, totodată, neînțelegerea cea mai rezistentă. Dacă smerenia ar fi să te disprețuiești, ar deveni un fel subtil de a te ocupa tot de tine: de propria imagine, de propriul loc, chiar de mediocritatea etalată. Sursele franciscane arată în altă parte: nu să te socotești mic, ci să te vezi în adevăr. Diferența pare subțire, dar schimbă totul.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Atunci ce este, cu adevărat, smerenia?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Există un text al lui Francisc care o spune?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Această nesiguranță este un bun punct de plecare, ți-o spun fără ironie. Cine recunoaște că nu știe a făcut deja un pas către ceea ce Francisc înțelege prin smerenie: a te vedea în adevăr, fără să te umfli și fără să te sfâșii. Să încercăm să dăm formă acestei idei, pornind de la surse.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Bine: care este inima smereniei franciscane?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Există un pasaj din surse de citit împreună?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Întrebare precisă, iar răspunsul este un mic program. Într-o societate întemeiată pe onoare și pe rang, Francisc a vrut ca ai săi să se numească frați minori: nimeni „mai mare”, nimeni de slujit. Chiar și pe responsabilii fraternității i-a numit „miniștri”, ceea ce în latină înseamnă slujitori. Nu era o fantezie de limbaj: era alegerea unui loc, ultimul, din care nimeni nu te poate da jos.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "Și în viața de fiecare zi, ce schimbă?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "În scrierile lui este ceva despre aceasta?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Iată centrul. Pentru Francisc, smerenia este adevărul despre sine: mic înaintea lui Dumnezeu, dator cu tot ceea ce ești și ai, în stare să slujești fără să pretinzi recunoaștere. Observă că acest adevăr cuprinde și talentele tale: a le recunoaște ca daruri primite nu este trufie, este onestitate. Cel smerit nu se disprețuiește: încetează să joace un rol, într-un sens și în celălalt. Și este liber de nevoia de a părea, care este una dintre cele mai obositoare robii.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "Și talentele proprii? Trebuie negate ca să fii smerit?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Cum se traduce astăzi, de pildă la muncă și online?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Ce spune exact textul Admonestărilor?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Îmi ajunge atât: putem încheia.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Există un text scurt și tăios: Admonestările, îndrumări pe care Francisc le adresa fraternității. Una dintre țintele lor este „voința proprie” făcută măsură a tuturor lucrurilor: cine se socotește drept și înțelept de la sine, avertizează Francisc, se îndepărtează de adevărata smerenie, care stă în a-ți supune judecata și în a sluji. Atenție însă: a supune nu înseamnă a stinge. Sursele nu cer să încetezi să gândești, ci să nu-ți absolutizezi propriul punct de vedere.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Pare o renunțare la propria minte. Nu este prea mult?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "Și concret, astăzi, cum arată?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Să încercăm o traducere, știind că aceasta este o interpretare modernă, nu un text medieval. La muncă, smerenia înseamnă să-ți faci bine partea fără s-o prefaci în spectacol, să recunoști o greșeală fără să construiești alibiuri, să lași meritul cui i se cuvine. Online, unde multe se măsoară în vizibilitate, înseamnă să poți publica și lucra fără ca judecata celorlalți să-ți devină stăpân. Nu este o invitație să te ascunzi: este o invitație să nu depinzi de aplauze.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Frumos, dar în mediul meu câștigă cine se pune în față.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Mă convinge. Încheiem.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Obiecție legitimă, și merită un răspuns onest. În surse, ascultarea nu este anulare: însăși fraternitatea era un loc în care își arătau unii altora nevoile, adică vorbeau. Punctul nu este să-ți desființezi judecata, ci să refuzi ca ea să fie tribunalul suprem al tuturor lucrurilor. Aici însă sursele nu ne predau o cazuistică: nu-ți pot spune pe unde trece hotarul în cazul tău concret. Acela rămâne un lucru al tău și al celor care te cunosc cu adevărat.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Are sens. Și în viața de toate zilele?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Prefer să mă opresc aici.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Ai dreptate să-l ridici, și nu-ți răspund cu un sfat de carieră: nu este rolul meu. Spun doar că sursele franciscane nu făgăduiesc că smerenia „funcționează”: făgăduiesc că te face liber. Uneori costă, iar a pretinde contrariul ar fi necinstit. Alegerea de a nu trăi pentru aprobare rămâne tocmai o alegere: a ta, măsurată pe contextul tău.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Onest, mulțumesc. Încheiem.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Să recitim inima învățăturii.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Nu, iar sursele, citite cu atenție, spun contrariul. Logica lui Francisc este cea a darului: dacă totul este primit, și capacitățile tale sunt primite, iar a le nega ar fi doar un alt fel de a minți despre sine. Smerenia nu cere să spui „nu valorez nimic”, ci să spui adevărul: „aceasta am primit, cu aceasta sunt dator”. Iar cine știe să recunoască un dar știe și să mulțumească: pe drumul franciscan, recunoștința este o poartă a bucuriei.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "Și cum se trăiește aceasta, în concretul de astăzi?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Putem închide aici.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Ne oprim aici. Dacă vrei, ia cu tine o întrebare, nu o sarcină: în ce punct al zilei tale joci un rol, în loc să stai în adevărul a ceea ce ești, în bine și în limită? Nu trebuie să-mi răspunzi mie, nici nimănui. Celelalte conversații ale Dialogului te așteaptă, când vei vrea: iertarea, sărăcia, creația, credința lui Francisc.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Reia această conversație de la început.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Descoperă celelalte conversații ale Dialogului.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Mulțumesc că ai mers cu mine înăuntrul acestor surse. Din lista Dialogului poți deschide o altă conversație sau o poți regăsi pe aceasta când vei vrea: textele rămân, și întrebările la fel.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Reîncepe această conversație.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Încheie deocamdată."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Cum se poate ierta pe cineva?",
+      "theme": "perdono",
+      "description": "Scrisoarea către un ministru și strofa din Cântic: iertarea ca hotărâre reluată, deosebirea de dreptate și un răspuns onest pentru cine nu reușește.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Bine ai venit în Dialog. Te călăuzesc eu: nu sunt Francisc și nu vorbesc în locul lui, te însoțesc în ceea ce sursele spun cu adevărat. Întrebarea de astăzi este una dintre cele mai grele care există: cum se poate ierta pe cineva? Nu-ți făgăduiesc un răspuns comod. Mă ajută să știu de unde pornești.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Am suferit o nedreptate și nu reușesc să las mânia să plece.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "A ierta nu înseamnă oare să te prefaci că nu s-a întâmplat nimic?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Aș vrea întâi să știu ce spune Francisc despre iertare.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Mulțumesc pentru franchețe. Sursele franciscane nu făgăduiesc că mânia dispare și nu-ți cer să te prefaci că nedreptatea nu a avut loc. Ceea ce propun este altceva: iertarea ca o hotărâre care se reînnoiește, chiar când sentimentul nu o urmează. Dacă astăzi nu reușești, aceasta nu te descalifică: este regula, nu excepția.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "O hotărâre care se reînnoiește: explică-mi.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "Și dacă chiar nu pot?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Ce scrie Francisc în privința aceasta?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Nu, și merită spus îndată, cu limpezime: a ierta nu înseamnă a nega. Sursele franciscane nu confundă milostivirea cu nedreptatea: răul făcut rămâne rău, iar urmările lui rămân reale. Iertarea, aici, nu șterge ceea ce s-a întâmplat: refuză ca jignirea să aibă ultimul cuvânt asupra relației. Sunt două planuri diferite, iar a le ține distincte este primul pas.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Atunci iertarea și dreptatea pot sta împreună?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Ce spune exact Francisc?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Textul-cheie este Scrisoarea către un ministru: Francisc îi scrie unui responsabil al fraternității care trebuie să se poarte cu frați care greșesc. Pasajul celebru spune, în substanță: dacă un frate ar fi păcătuit de o mie de ori sub ochii tăi, iubește-l mai mult decât pe mine și vestește-i milostivirea. De o mie de ori: nu o hotărâre eroică luată o dată pentru totdeauna, ci o alegere refăcută în fiecare zi. Aceasta schimbă întrebarea: nu „simt că iert?”, ci „aleg să iert și astăzi?”.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "De o mie de ori este prea mult. Este o cerință realistă?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "Și dreptatea? Cine greșește nu trebuie să răspundă?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Cânticul creaturilor vorbește despre iertare, nu-i așa?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Da, și aceeași Scrisoare lasă să se întrevadă: Francisc cere să se vestească milostivirea cu condiția ca celălalt să se pocăiască, adică iertarea nu-l declară nevinovat pe cel care a greșit și nu-l scutește de a repara. Și în vremea lui, frații împăciuitori n-au desființat tribunalele și răspunderea: lucrau ca răzbunarea să nu fie singura dreptate posibilă. A ierta și a cere ca răul să fie recunoscut nu sunt dușmani. Pot merge împreună, chiar dacă anevoie.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "Și de unde se începe, în practică?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Are vreo legătură strofa din Cântic?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "Și dacă nedreptatea este prea mare, sau prea recentă?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "Și în cetățile dezbinate ale vremii lui?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Se începe cu o îndreptare de perspectivă. Dacă iertarea ar fi un sentiment, ar trebui să aștepți să vină: și adesea nu vine, sau vine și apoi pleacă. Dacă este o hotărâre, o poți lua chiar cu mânia încă aprinsă, și o poți relua mâine, și poimâine. Sursele nu descriu un parcurs liniar: cuvântul „de o mie de ori” sugerează chiar contrariul. Onestitate: în textele franciscane nu există tehnici. Există o direcție.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "Și dacă astăzi chiar nu pot?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "Și cu sine însuși? Te poți ierta?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Povestește-mi strofa din Cântic despre iertare.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Răspuns onest: se poate întâmpla, iar sursele nu te judecă pentru aceasta. Nici eu n-o fac: sunt o călăuză prin texte, nu un duhovnic și nu un terapeut. Îți spun două lucruri care se pot documenta. Întâiul: Scrisoarea vorbește de o mie de ori, ceea ce înseamnă că încă din secolul al XIII-lea iertarea nu era gândită ca un gest instantaneu. Al doilea: dacă o rană este adâncă, a o împărtăși cuiva de încredere, sau unui profesionist când este nevoie, nu este o înfrângere. Despre timpurile iertării, sursele franciscane tac: aici nu putem spune mai mult.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "Și iertarea față de sine?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Mulțumesc pentru onestitate. Încheiem.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Există o strofă din Cânticul creaturilor care îl laudă pe Dumnezeu pentru cei care iartă de dragul lui, suportând neputință și încercare. Critica o datează de obicei în vara lui 1226, iar tradiția o leagă de un episod concret: episcopul și podestà-ul din Assisi erau în conflict deschis, iar Francisc, deja bolnav, ar fi adăugat strofa aceea și ar fi pus să se cânte Cânticul înaintea lor, ca să-i împace. Precizez nivelurile: strofa este autentică, relatarea episodului ne ajunge prin tradiția hagiografică. Rămâne faptul: iertarea, pentru Francisc, era vrednică de laudă chiar înăuntrul conflictelor cetății sale.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "A ierta în mijlocul unui conflict: este posibil?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "Și cine nu reușește să ierte?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Putem încheia.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Aici trebuie să fiu onest cu privire la limitele surselor. Textele franciscane vorbesc despre iertarea față de frați și față de cel care jignește; despre iertarea de sine, așa cum o înțelegem astăzi, nu spun aproape nimic explicit. Putem raționa prin analogie: dacă se vestește milostivirea de o mie de ori celui care greșește, este greu să te excluzi pe tine. Dar rămâne un raționament al nostru, nu un citat. Prefer să ți-o spun, decât să-i pun lui Francisc în gură cuvinte pe care nu le-a scris.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Apreciez precizia. Și de unde se reia?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Închidem aici.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Există și o dimensiune publică. Italia comunelor era străbătută de vendete și răzbunări, iar sursele îi amintesc pe primii frați vestind pacea din casă în casă, cu un salut pe care Francisc a adeverit că l-a primit. Iertarea, în lumea aceea, nu era doar un fapt privat: era punctul în care se putea rupe lanțul răzbunării. Și astăzi vendetele există, în familii, în cartiere, pe rețele, iar logica este aceeași: cineva trebuie să înceteze să întoarcă lovitura.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "Și strofa din Cântic s-a născut tocmai dintr-un conflict, nu?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Îmi ajunge. Încheiem.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Ne oprim aici. Dacă vrei, ia cu tine o singură imagine, nu o sarcină: iertarea ca un drum care se reface un metru pe zi, nu ca un salt de făcut o dată pentru totdeauna. Iar dacă rana ta, astăzi, nu îngăduie aceasta, dialogul acesta nu-ți cerea să reușești: îți cerea să înțelegi. Celelalte conversații ale Dialogului te așteaptă când vei vrea.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Reia această conversație de la început.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Descoperă celelalte conversații ale Dialogului.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Mulțumesc că ai înfruntat o întrebare grea fără scurtături. În lista Dialogului găsești celelalte conversații: eu rămân aici, și textele la fel.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Reîncepe această conversație.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Încheie deocamdată."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Francisc era împotriva bogăției?",
+      "theme": "poverta",
+      "description": "Francisc nu osândea bunurile: elibera de posesie. Regula din 1223, renunțarea dinaintea episcopului și ce înseamnă astăzi, fără romantisme.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Bine ai venit în Dialog. Mă prezint: sunt o călăuză, nu Francisc; cu tine citesc sursele și îți spun când nu ajung să răspundă. Întrebarea de astăzi este plină de echivocuri: Francisc era împotriva bogăției? Răspunsul scurt este „nu, nu în sensul pe care poate ți-l închipui”. Dar merită drumul lung. De unde pornim?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Am crezut mereu că disprețuia banul în sine.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Bănuiesc că punctul este altul, dar nu știu să-l spun.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Nu este doar sărăcie romantică, de afiș din secolul al XIX-lea?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Este reconstituirea cea mai răspândită și, totodată, cea mai puțin exactă. În textele lui Francisc nu găsești o osândă a bunurilor ca și cum ar fi murdare: găsești ceva mai radical și mai subtil, adică refuzul de a ți le însuși. Ținta nu este bogăția, este posesia: ceea ce lucrurile fac celui care crede că le stăpânește. Să mergem la textul care o spune cel mai bine.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Care text?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "Și celebra scenă a renunțării?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Bănuiala ta este întemeiată. Punctul nu este cantitatea bunurilor, ci felul legăturii: Francisc vrea frați care nu-și însușesc nimic, pentru că cine nu posedă nu trebuie să apere, iar cine nu trebuie să apere este liber să iubească. Este o logică a libertății, nu a dezgustului. Ți-o arăt în textul Regulii.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Să citim Regula.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Întâi povestește-mi scena dinaintea episcopului.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Obiecția este serioasă și merită respect: sărăcia romantică există și este o caricatură care are puțin de-a face cu franciscanul. Deci să facem un legământ: niciun fel de idealizări. Privim ce spun sursele — o scenă povestită de primul biograf și un text normativ scris de Francisc însuși — și apoi judeci tu dacă țin.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Bine: scena primului biograf.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Textul normativ.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Regula din 1223, textul definitiv aprobat de Biserică: frații nu-și însușesc nimic, „nici casă, nici loc, nici vreun lucru”; trăiesc ca pelerini și străini și merg după milostenie fără să se rușineze. Motivul declarat este teologic: Domnul s-a făcut sărac pentru noi. Dar există și o logică umană limpede: ceea ce nu posezi nu te posedă. Tradiția tehnică o numește „sine proprio”, fără nimic al său. Nu dispreț față de lucruri, care se primesc, se folosesc și se mulțumesc: eliberare de posesie.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Povestește-mi renunțarea dinaintea episcopului.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "Și astăzi? Ar trebui să vindem totul?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "Și săracii adevărați? Nu se riscă înfrumusețarea mizeriei?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Toma de Celano, primul biograf, o povestește așa: înaintea episcopului Guido și a tatălui Pietro di Bernardone, Francisc înapoiază până și hainele și renunță la bunurile părintești, spunând că de acum poate să-l numească tată numai pe Dumnezeu. Episcopul îl acoperă cu propria mantie. Precizez nivelurile: episodul este un punct de sprijin documentat, dar detaliile de scenă țin de narațiunea lui Celano, care este hagiografie, literatură ziditoare, nu un proces-verbal. Sensul rămâne totuși limpede: a tăia în public legătura cu bogăția familiei.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Un gest teatral sau o alegere chibzuită?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "Și noi, astăzi, ce facem cu ea?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Întrebare inevitabilă, iar răspunsul onest este: sursele nu cer tuturor același lucru. Regula aceea era pentru frați; Francisc n-a scris reguli pentru negustori, părinți, meșteșugari. Deci nu: nu există un text franciscan care îți poruncește să vinzi totul. Ceea ce există este o întrebare incomodă de locuit: ce lucruri posed, și care mă posedă pe mine? Răspunsul concret este proporționat cu viața ta, nu cu a lui.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Cum deosebim sărăcia aleasă de sărăcia îndurată?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "Și cine muncește, câștigă, întreține o familie?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Dă-mi ceva concret, fără gesturi extreme.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Este distincția cea mai importantă a acestei conversații. Sărăcia îndurată — a nu avea ce mânca, cu ce te îngriji, un acoperiș — este o rană socială de vindecat, nu un ideal de contemplat: Francisc îi slujea pe săraci, nu-i estetiza. Sărăcia franciscană este altceva: o alegere liberă de a nu-ți însuși, făcută pentru libertate și pentru solidaritate. A le confunda este greșeala de evitat mereu: a glorifica mizeria altuia ar fi exact „sărăcia romantică” despre care vorbeam.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Deci critica romantismului avea un fond de adevăr?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "Și în practică, pentru mine, astăzi?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Închidem aici.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Teatral a fost, cu siguranță: iar într-o societate întemeiată pe drept și pe posesie, numai un gest public putea dezlega o legătură publică. Dar n-a fost o improvizație: Celano o așază după luni de criză, captivitatea la Perugia, boala, dezamăgirile. Dacă vrei un criteriu ca să judeci gesturile, ale lui și ale tale, iată-l: nu intensitatea clipei, ci ceea ce vine după. Francisc a trăit coerent încă douăzeci de ani. Gesturile adevărate se recunosc după durata lungă.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "Și astăzi, fără gesturi extreme?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Am înțeles. Încheiem.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Concret, atunci, dar fără rețete: nu este rolul meu să ți le dau. Tradiția franciscană sugerează o direcție în trei mișcări: privește ceea ce posezi întrebându-te dacă te face liber sau precaut; folosește lucrurile ca primite, nu ca datorate; lasă simplitatea să elibereze spațiu — timp, atenție, bani — pentru ceilalți. Este o interpretare modernă, ți-o spun cu onestitate: dar este o interpretare fidelă spiritului lui „sine proprio”.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Întoarce-te la textul Regulii.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Încheiem.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Nicio sursă franciscană nu spune că a munci și a câștiga te îndepărtează de Francisc: Regula este forma de viață a unei fraternități anume, nu măsura oricărei existențe. Ba chiar logica este aproape răsturnată: problema nu este a avea, ci a sluji ceea ce ai. Dacă munca ta, câștigul tău, casa ta devin unelte — ale tale și ale celorlalți — și nu stăpâni, ești mai aproape de spiritul Regulii decât crezi.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "Și riscul de a romantiza sărăcia?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Încheiem.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Ne oprim aici. Nu-ți las o sarcină: îți las întrebarea pe care această conversație a încercat s-o deschidă. Ce anume, dintre cele pe care le posezi, te posedă pe tine? Răspunde-i cu calm, sau nu răspunde deloc. Când vei vrea, celelalte conversații ale Dialogului sunt în listă: smerenia, iertarea, creația, credința.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Reia această conversație de la început.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Descoperă celelalte conversații ale Dialogului.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Mulțumesc că ai căutat un răspuns articulat la o întrebare care primește adesea sloganuri. Ne revedem în Dialog, când vei vrea: sursele nu expiră.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Reîncepe această conversație.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Încheie deocamdată."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "De ce vorbea Francisc cu animalele?",
+      "theme": "creato",
+      "description": "Înrudire, nu panteism: Cânticul, păsările lui Celano, lupul din Fioretti și ce spune toate acestea — și ce nu spun — ecologiei de astăzi.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Bine ai venit în Dialog. Sunt călăuza ta: nu sunt Francisc, iar când sursele nu ajung, ți-o spun. Întrebarea de astăzi se afundă în secole de imagini: Francisc vorbind păsărilor, lupului, peștilor. Ce este în spate? Depinde de ceea ce cauți.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Vreau adevărul: este doar legendă că vorbea cu animalele?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Mă întreb dacă îl vedea pe Dumnezeu în natură: era panteist?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Povestește-mi Cânticul creaturilor.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Întrebare de istoric, iar răspunsul este stratificat, ca aproape tot ce-l privește pe Francisc. Nucleul este atestat devreme: Toma de Celano, biograf apropiat, povestește predica către păsări în tonuri sobre. Relatările mai spectaculoase — lupul din Gubbio, peștii, râmele — înfloresc un secol mai târziu în Fioretti. Deci: o memorie veche și o amplificare literară. Ți le arăt pe amândouă, separate.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Versiunea sobră a lui Celano.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Versiunea din Fioretti: lupul.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Nu, iar textul care o dovedește este Cânticul creaturilor. Francisc îl laudă pe Dumnezeu „pentru” creaturi — frate soare, sora lună — nu laudă creaturile ca și cum ar fi divine. Diferența este hotărâtoare: natura nu este Dumnezeu, este familie. Creaturile sunt surori pentru că sunt fiice ale aceluiași Părinte. Cuvântul potrivit este „înrudire”, nu panteism.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Să citim Cânticul.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "Și istoriile cu animalele?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Cânticul creaturilor, compus în 1225-1226, când Francisc era bolnav și aproape orb: este printre primele texte poetice în graiul italian. Îl laudă pe Dumnezeu pentru frate soare, „care este ziua”, pentru sora lună și stele, pentru frate vânt, pentru sora apă „folositoare și smerită și prețioasă și curată”, pentru frate foc și pentru „sora noastră mamă pământ”. Două lucruri de observat. Întâiul: nu este un imn către natură, este o laudă adusă lui Dumnezeu prin natură. Al doilea: se naște în suferință, nu într-o plimbare idilică.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "Și predica către păsări?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "Și lupul din Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Ce spune toate acestea ecologiei de astăzi?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Versiunea lui Celano este surprinzător de sobră: Francisc vede stoluri de păsări, li se adresează ca unor creaturi în stare să asculte și le îndeamnă să-l laude pe Dumnezeu. Niciun dialog articulat, nicio minune spectaculoasă: un gest de recunoaștere. Fioretti, un secol mai târziu, vor adăuga semnul crucii, stolurile care se așază să asculte, rămasul-bun solemn. Întâi stilul lui Francisc, apoi stilul evlaviei. Amândouă ne spun ceva, dar ceva diferit.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "Și lupul din Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Dacă este literatură, ce valoare are?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "Și ecologia contemporană?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Lupul din Gubbio este capodopera din Fioretti: cetatea îngrozită, Francisc care merge în întâmpinarea fiarei, îi vorbește ca unui frate și mijlocește un legământ — cetatea îl va hrăni, el nu va mai face rău nimănui. Trebuie să fiu limpede asupra genului literar: este hagiografie din secolul al XIV-lea, memorie a evlaviei, nu cronică verificabilă. Dar privește ce păstrează: pacea care se naște mergând în întâmpinarea a ceea ce înspăimântă și un animal tratat ca interlocutor, nu ca obiect. Forma este legendă; direcția este franciscană autentică.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Deci, în fond, este inventat?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "Și ecologia de astăzi ce scoate de aici?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Aici trebuie onestitate în ambele direcții. Pe de o parte: Cânticul oferă astăzi o gramatică rară, grija pentru creație din recunoștință și înrudire, nu din utilitate sau frică. Pe de alta: Francisc nu era un ecologist modern, iar sursele lui nu cunosc clima, extincțiile, poluarea. Cine caută la el un program ecologic amănunțit forțează textele. Cine caută o privire — lumea ca familie, nu ca depozit — găsește ceva încă în stare să miște comportamente.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "Și totuși a fost proclamat patron al ecologiei, nu?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Ce rămâne concret pentru mine?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Nu: „nu este cronică” nu înseamnă „inventat din nimic”. Predica către păsări este la Celano, la câțiva ani după moartea lui Francisc; Fioretti o îmbracă în culori legendare, dar firul pornește dintr-o memorie. Așa funcționează multă hagiografie: forma povestește evlavia celui care a transmis-o, substanța păstrează o trăsătură reală. A citi sursele înseamnă tocmai aceasta: a ține împreună cele două lucruri fără a le confunda.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Limpede. Și pentru ecologia de astăzi?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Să ne întoarcem atunci la Cântic.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Da: în 1979, Ioan Paul al II-lea l-a proclamat patron al ecologiștilor. Este un titlu modern — interpretare, nu sursă medievală — și ca atare trebuie mânuit. Este legitim dacă indică rădăcina privirii franciscane: înrudirea cu toate creaturile. Devine înșelător dacă îl aplatizează pe Francisc într-un ecologist avant la lettre, ștergând faptul că Cânticul este înainte de toate o laudă adusă lui Dumnezeu, compusă de un om bolnav care mulțumea. Titlul spune ceva adevărat, cu condiția să nu-l reduci la atât.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "Și pentru mine, concret?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Putem încheia.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Concret, aici, înseamnă o chestiune de privire înainte de a fi de fapte. Cânticul sugerează să locuiești lumea ca înrudire: apa ca soră de neirosit, pământul ca mamă a cărei ființă ești, creaturile ca însoțitoare de laudă, nu ca provizii. Alegerile practice — ce cumperi, ce arunci, cum călătorești — vin după, iar sursele nu le dictează. Dar o privire schimbată le face posibile, și mai puțin obositoare.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Să recitim împreună Cânticul.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Încheiem.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Ne oprim aici. Îți las o imagine, nu o sarcină: un om aproape orb care compune o laudă pentru soarele pe care nu-l mai vede și îl numește frate. Dacă într-o zi ți se va întâmpla să privești un copac, un câine, apa de la robinet ca pe o rudă, nu ca pe un lucru, vei ști de unde vine privirea aceea. Celelalte conversații ale Dialogului te așteaptă în listă.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Reia această conversație de la început.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Descoperă celelalte conversații ale Dialogului.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Mulțumesc că ai deosebit cu mine cronica, legenda și lauda: este un exercițiu care folosește mult dincolo de Francisc. Ne revedem în Dialog, când vei vrea.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Reîncepe această conversație.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Încheie deocamdată."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Poți să-l urmezi pe Francisc fără să fii credincios?",
+      "theme": "fede",
+      "description": "Un răspuns fără ocolișuri la o întrebare serioasă: credința creștină era centrul lui Francisc, iar aplicația n-o ascunde. Ce rămâne pentru cine nu crede.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Bine ai venit în Dialog. Sunt o călăuză prin surse: nu sunt Francisc, nu sunt duhovnic și nu evaluez credința nimănui, nici pe a ta. Întrebarea de astăzi este legitimă și serioasă: poți să-l urmezi pe Francisc fără să fii credincios? Îți făgăduiesc un răspuns fără ocolișuri. Întâi, spune-mi de unde vorbești tu.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Sunt credincios și vreau să-i înțeleg mai bine credința.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Nu sunt credincios: ce pot primi de la el?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Nu știu ce cred. Dialogul acesta este pentru mine?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Atunci să mergem drept la centru. Credința lui Francisc nu era o etichetă culturală: era izvorul a tot restul — al sărăciei, al fraternității, al păcii. În Testament povestește că Domnul i-a dat o credință simplă în biserici; iar toată întâmplarea lui, de la San Damiano la Verna, este citită de surse ca urmare a lui Hristos cel sărac și răstignit. Să vedem textele.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Textele, da.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "Și raportul lui cu Biserica vremii?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Răspuns scurt: da, se poate, cu o condiție de onestitate. Îl poți studia, îl poți admira, te poți lăsa interogat de stilul lui fără să aderi la credința lui; aplicația aceasta este făcută și pentru tine, și nimeni de aici nu-ți evaluează poziția. Condiția este să nu-l amputezi: un Francisc fără Hristos nu devine mai universal, devine un alt personaj. Dacă accepți să-l întâlnești întreg, rădăcină cu tot, este mult de primit.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Arată-mi atunci rădăcina aceasta.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Ce rămâne concret pentru cine nu crede?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Da, este pentru tine: poate mai mult decât pentru oricine altcineva. Întrebările despre credință nu cer un certificat de apartenență: cer onestitate, iar tu tocmai ai avut-o. Nu te voi împinge în nicio direcție: îți arăt textele, deosebesc nivelurile și mă opresc unde se opresc sursele. Pornim de la ceea ce povestește Francisc însuși.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Bine: ce povestește?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "Și cine nu ajunge să creadă, ce primește?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Două mărturii. Întâia este a lui: în Testament, dictat cu puțin înainte de a muri, Francisc amintește că Domnul i-a dat o credință simplă în biserici, unde se ruga întors către Hristos. A doua este a lui Celano: în 1224, pe muntele Verna, Francisc ar fi primit stigmatele, semnele pătimirii, pe care a căutat să le ascundă. Observă nivelurile: Testamentul este cuvântul lui Francisc; stigmatele ne ajung ca mărturie a surselor celor mai apropiate, iar aplicația le prezintă așa, nu ca un dat măsurabil. Împreună spun un singur lucru: centrul vieții lui era persoana lui Hristos.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Stigmatele: cum ar trebui să le înțeleg?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "De ce insistă atât aplicația asupra acestui punct?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "Și pentru cine nu crede, ce rămâne?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "O credință atât de totală nu lăsa loc îndoielilor?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Cu aceeași onestitate cu care le prezintă sursele. Celano le povestește la câțiva ani după moartea lui Francisc, iar tradiția le păstrează ca semn al unei conformări totale cu Hristos răstignit. Evaluarea istorică și teologică este discutată de cercetători; aici sursele nu ne îngăduie să spunem mai mult, iar cine ți-ar spune mai mult, într-un sens sau în celălalt, ar trece dincolo de texte. Ce putem spune: pentru fraternitatea lui, semnul acela confirma ceea ce viața lui spunea deja.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "Și raportul cu Biserica?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Înțeleg. Și pentru cine rămâne în afara credinței?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Din două motive, amândouă declarate. Întâiul este istoric: a-i lua lui Francisc rădăcina creștină nu-l face mai universal, îl face de nerecunoscut — sărăcia este „pentru că Domnul s-a făcut sărac”, pacea este un salut primit, fraternitatea este evanghelie trăită împreună. Al doilea este editorial: aplicația aceasta explică, nu face prozelitism. A explica credința lui Francisc nu înseamnă a-ți cere s-o faci a ta; înseamnă a refuza să-ți dai o versiune îndulcită a faptelor.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "Și ce poate primi cine nu aderă?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "Și Francisc cum a trăit Biserica instituțională?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Îmi ajunge. Încheiem.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Mult, cu condiția să fie luat întreg. Stilul — gratuitatea, minoritatea, pacea construită mergând în întâmpinare, privirea de înrudire asupra creației — vorbește și celui care nu împărtășește rădăcina. Dar lucrurile acelea, în texte, sunt roadele acelui pom: a le cunoaște fără rădăcină este posibil, a le înțelege până la capăt fără rădăcină, nu. Te poți lăsa interogat fără să aderi: este o postură serioasă, iar istoria ideilor este plină de oameni care au învățat din tradiții care nu erau ale lor. Nimeni de aici nu-ți notează scorul spiritual.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Atunci să recitim textele care povestesc rădăcina aceea.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Încheiem.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Sursele nu povestesc îndoieli doctrinare în sensul modern: aici nu putem spune ceea ce textele nu spun. Dar povestesc încercări foarte grele: boala, vederea aproape pierdută, durerea de a vedea fraternitatea crescând și schimbându-se dincolo de intențiile lui. Și tocmai din anotimpul acela, potrivit lui Bonaventura, se naște Cânticul creaturilor. Credința lui Francisc n-a fost absența nopții: a fost laudă înăuntrul nopții. Ceea ce este cu totul altceva decât naivitatea.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "Și stigmatele intră în anotimpul acesta?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Putem încheia.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Nici răzvrătit, nici aliniat: ceva mai interesant. Francisc a trăit înăuntrul Bisericii medievale, i-a căutat cu tenacitate aprobarea pentru forma lui de viață și i-a acceptat limitele, împingând-o totuși să se reformeze de jos, prin exemplu și nu prin revoltă. Ascultarea lui față de Biserică era parte din credința lui, nu un calcul. A înțelege aceasta evită două caricaturi simetrice: sfântul neascultător drag modernilor și sfântul docil drag evlavioșilor.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Să ne întoarcem la textele credinței lui.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Încheiem.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Ne oprim aici. Nu-ți las o sarcină și cu atât mai puțin un examen: îți las un criteriu. Când îl vei întâlni pe Francisc, în aplicația aceasta sau în altă parte, întreabă-te mereu dacă versiunea din fața ta îl arată întreg, rădăcină creștină cu tot. Apoi poziția ta rămâne a ta: nimeni, aici, n-o judecă. Celelalte conversații ale Dialogului te așteaptă în listă.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Reia această conversație de la început.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Descoperă celelalte conversații ale Dialogului.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Mulțumesc pentru seriozitatea întrebării și pentru că ai acceptat un răspuns fără scurtături. Ne revedem în Dialog când vei vrea: întrebările adevărate nu au termen.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Reîncepe această conversație.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Încheie deocamdată."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

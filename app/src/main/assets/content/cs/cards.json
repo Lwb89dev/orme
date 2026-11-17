@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Pozdrav pokoje",
+      "text": "V Závěti František dosvědčuje, že mu Pán zjevil pozdrav pokoje, který má nést druhým, a středověké prameny připomínají první bratry, jak zvěstovali pokoj dům od domu. Pro Františka pokoj není nepřítomnost konfliktu: je to dar, který se předává, dveře od dveří, člověk člověku. Vyprávění o vlku z Gubbia dovádí tuto logiku do krajnosti: pokoj se uzavírá i s tím, co budí strach, tím, že se mu vyjde vstříc. Z téže tradice se rodí lidová formule „pokoj a dobro“.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Chudoba jako svoboda",
+      "text": "Řehole z roku 1223 žádá bratry, aby si nic nepřivlastňovali — ani dům, ani místo, ani žádnou věc — a žili ve světě jako poutníci a cizinci. Františkánská chudoba neoslavuje nouzi, která zůstává společenskou ranou: je to volba nenechat se definovat vlastnictvím. Kdo nemá co bránit, nemá čeho se bát a může vše přijímat jako dar. Základ je teologický dříve než hospodářský: sám Pán se stal chudým.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Menší bratři",
+      "text": "František chtěl, aby se jeho společníci nazývali menšími bratry: nikdo není velký a odpovědní se nazývají „ministrové“, tedy služebníci. Řehole z roku 1221 žádá, aby každý sdělil druhému svou potřebu, aby nikdo nesoudil bratra a aby zdravý nepohrdal slabostí nemocného. Bratrství není ideál k hlásání: je to každodenní praxe vzájemné odpovědnosti. Bratry se člověk stává v konkrétních gestech, anebo jimi není vůbec.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Bratr Slunce, sestra Voda",
+      "text": "Ve Chvalozpěvu stvoření František chválí Boha skrze tvory i spolu s nimi: bratra Slunce, sestru Lunu, bratra Vítr, sestru Vodu, „užitečnou, pokornou, vzácnou a čistou“, sestru naši matku Zemi. Příroda není zbožštěna ani zredukována na skladiště zdrojů: je to rodina, protože všichni tvorové mají téhož Otce. Péče o stvoření se rodí z příbuzenství a vděčnosti, ne z výpočtu. A Chvalozpěv byl složen v nemoci: chvála nezávisí na okolnostech.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Dokonalá radost",
+      "text": "V Kvítkách František vysvětluje bratru Lvovi, že pravá radost nejsou zázraky, ani úspěchy, ani obrácení nevěřících: je to vrátit se ke dveřím odmítnut, prochladlý a ztýraný a zůstat trpělivý a radostný. Je to hagiografické vyprávění, ne kronika, ale soustřeďuje autentický rys františkánského ducha. Dokonalá radost nezávisí na událostech: je to vnitřní volba, kterou žádné odmítnutí nemůže vzít.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Sedmdesátkrát sedmkrát, a ještě dál",
+      "text": "V listu ministrovi František píše, že kdyby bratr zhřešil tisíckrát, je třeba ho přesto milovat a zvěstovat mu milosrdenství, pokud činí pokání. Františkánské odpuštění nepopírá zlo: odmítá, aby zlo mělo ve vztahu poslední slovo. Ve Chvalozpěvu byla sloka o těch, kdo odpouštějí z lásky k Bohu, podle tradice přidána, aby smířila biskupa a podestu z Assisi, kteří byli ve sporu. Odpuštění je zároveň péče o člověka a lék města.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Vánoce v Greccio",
+      "text": "O Vánocích 1223 chtěl František v Greccio slavit narození Ježíše skutečnými jeslemi, senem, volem a oslíkem: aby tělesné oči viděly chudobu Betléma. Tomáš z Celana to představuje jako živou paměť tajemství, ne jako podívanou. Z té noci se rodí tradice betléma. Gesto je typicky františkánské: víra se dotýká, vidí se, obývá se.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Setkání se sultánem",
+      "text": "Roku 1219, během páté křížové výpravy, František překročil linie křižáckého vojska v Damiettě, aby se setkal se sultánem al-Malikem al-Kamilem. Středověké prameny připomínají uctivý rozhovor mezi nimi, přes nesmiřitelnou odlišnost víry. V čase války František zvolil cestu neozbrojeného setkání místo kázání proti. Epizoda zůstává měřítkem pro každý rozhovor, který překračuje hranice vlastního světa.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Vlk z Gubbia",
+      "text": "Kvítky vyprávějí, že v Gubbiu vlk terorizoval město a František, navzdory vyděšenému davu, šel k šelmě a mluvil k ní jako k bratru. Zrodila se smlouva pokoje: město bude vlka živit a vlk už nikomu neublíží. Je to vyprávění hagiografické tradice čtrnáctého století, cenné pro obrazotvornost víc než pro kroniku. Jeho poučení je jasné: pokoj se buduje tím, že se vyjde vstříc tomu, co děsí, a že se do smlouvy zapojí celé společenství.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Zřeknutí před biskupem",
+      "text": "Na počátku roku 1206, před biskupem Guidem a svým otcem Petrem Bernardonem, František vrátil šaty a zřekl se otcovského majetku. Tomáš z Celana vypráví, že ho biskup přikryl vlastním pláštěm: církev přijímala toho, komu kupecká rodina už nerozuměla. Nebyl to útěk od věcí, nýbrž veřejné osvobození od představy, že je vlastníme. Od toho dne mohl František záviset jen na Otci, který je v nebesích — a na štědrosti druhých.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Klára z Assisi",
+      "text": "Mladá šlechtična z Assisi, Klára, opustila otcovský dům v noci Květné neděle roku 1212, aby následovala Františkovu evangelní formu života; on jí na Porciunkule ostříhal vlasy. Založila společenství Chudých sester v San Damianu a celý život bránila „výsadu chudoby“ proti církevním tlakům. Byla první ženou, která napsala řeholi pro ženy, schválenou dva dny před její smrtí roku 1253. Její mírnost byla z téže látky jako její houževnatost.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernard z Quintavalle",
+      "text": "Bohatý a vážený občan Assisi, Bernard, byl Františkův první druh: chtěl na vlastní oči vidět, jak žije ten mladík, kterému se všichni vysmívali, a stačila mu jedna noc modlitby. Prodal svůj majetek, rozdal ho chudým a zvolil putující život. Prameny ho připomínají jako první plod bratrstva a na sklonku života jako milovaného svědka ducha počátků. On začal řetěz: bez prvního bratra není bratrství.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Bratr Lev",
+      "text": "Druh a zpovědník Františka v posledních letech, bratr Lev byl svědkem období La Verny a opatrovníkem jediného světcova vlastnoručního textu: listu a požehnání, které uchovával celý život. V listu František odpovídá na jeho úzkost dobře volit slovy svobody: řiď se svým svědomím před Bohem. V Kvítkách je partnerem rozhovoru o dokonalé radosti. Lev představuje křehkého a upřímného učedníka, bližšího Františkovu duchu, než naznačuje jeho pověst prostoty.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sultán al-Malik al-Kamil",
+      "text": "Egyptský sultán ajjúbovské dynastie, Saladinův vnuk, al-Malik al-Kamil přijal Františka v Damiettě roku 1219, uprostřed páté křížové výpravy. Středověké prameny, křesťanské i jiné, ho popisují jako vládce schopného naslouchat a vést rozhovor s latinským světem, s nímž dlouho jednal o otázce Jeruzaléma. Setkání s Františkem neobrátilo ani jednoho z nich: ukázalo, že věřící mohou mluvit beze zbraně v ruce. Zůstává klíčovou postavou pro pochopení, že františkánské přijetí překračuje hranice víry.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Středověká komuna",
+      "text": "Františkovo Assisi je komuna na vzestupu: konšelé a podestové, věže a sváry, kupci, kteří bohatnou, a cechy, které organizují práci. Je to svět založený na cti, stavu a úvěru, kde je bohatství viditelné a chudoba hanbou. Rodina Petra Bernardoneho patří k této nastupující měšťanské vrstvě. Právě proti těmto hodnotám — ne proti bohatství o sobě, nýbrž proti moci, kterou vykonává nad srdcem — nabývá podoby františkánská volba.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Leprosárium",
+      "text": "Ve třináctém století žili malomocní za hradbami, v lazaretech, jako byly ty u Assisi, vyloučeni z městského života a poznamenáni domnělým znamením hříchu. František v Závěti vyznává, že pohled na ně mu připadal příliš hořký; a že právě mezi nimi, když ho tam uvedl Pán, prokázal milosrdenství a nalezl sladkost. Celano popisuje konkrétní službu: omývat rány, objímat, opatřovat. Leprosárium je místo, kde se rodí františkánská láska: ne cit, nýbrž setkání těl.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Almužna",
+      "text": "Středověká zbožnost znala almužnu jako záslužnou praxi: dávalo se pro vlastní duši, často s odstupem. Řehole z roku 1223 naopak žádá bratry, aby chodili po almužně beze studu, pamatujíce, že Pán se stal chudým: prosit se stává součástí života, ne ponížením, kterému je třeba se vyhnout. A dávání se proměňuje ve vztah: nenechává se něco chudému, zůstává se s chudým. Kdo dává a kdo přijímá, si před Bohem vyměňují roli žebráků.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Poustevna",
+      "text": "Františkánský život není jen cesta a kázání: František vyhledával osamělá ústraní — Carceri nad Assisi, La Vernu v Apeninách — a bral s sebou několik druhů a dlouhá mlčení. Na La Vernu v září 1224 prameny kladou stigmata a složení Chvál Boha: nejčistší Františkova modlitba je chvála bez proseb. Poustevna není útěk ze světa: je to místo, kde se člověk vrací k podstatnému, aby pak znovu sestoupil mezi lidi. Poslání a ústraní se drží jako dvě nohy cesty.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Co tě vlastní?",
+      "text": "Udělej si v duchu soupis věcí, na kterých ti nejvíc záleží. Pak se u každé zeptej: vlastním ji já, nebo ona vlastní mě? Kolik tvého času, tvé pozornosti, tvé úzkosti slouží k obraně toho, co máš? Není tu správná odpověď: je tu jen pravda o tobě.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Kdo je tvůj vlk?",
+      "text": "Ve tvé čtvrti, v tvé práci, v tvé rodině: kdo je člověk nebo situace, před nimiž všichni utíkají? Co by se stalo, kdyby někdo místo stavění zdí vyšel vstříc a zeptal se: po čem hladovíš? Kdo by ve tvém městě mohl být společenství, které se zaručí za smlouvu?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "Na čem závisí tvá radost?",
+      "text": "Vzpomeň si, kdy jsi byl naposledy opravdu spokojený: záviselo to na dosaženém výsledku, na uznání, na nákupu? Teď pomysli na radost, kterou ti žádná vnější událost nemůže vzít. Nenapadá-li tě nic, není to vina: je to stopa k hledání. Co by se v tobě mělo změnit, aby radost nebyla pronajatá od událostí?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Cesta pokoje",
+      "text": "Cesta ve dvou situacích: hraniční spor ve středověké osadě a křivda utrpěná v dnešní kanceláři. Františkánský pokoj není nepřítomnost konfliktu: je to pozdrav, který se nese, zprostředkování, které se nabízí, radost, kterou nenecháváme v zástavě událostí. Otevírá se objevením učení o pozdravu pokoje.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Cesta bratrství",
+      "text": "Cesta dovnitř společného života: co dělat, když bratr těžce pochybí a společenství se rozdělí mezi přísnost a přijetí? Františkánské bratrství se měří právě tam, ne v dobrých úmyslech. Otevírá se objevením učení o menších bratřích a prochází odpuštěním bez mezí i řeholí, která chrání.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Cesta pokoje",
+      "theme": "pace",
+      "description": "Od pozdravu neseného dům od domu k radosti, která nezávisí na událostech: dvě situace, v nichž se pokoj učí jako praxe, ve středověké osadě i v dnešní kanceláři.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Cesta prostoty",
+      "theme": "poverta",
+      "description": "Co dělat s majetkem, který nám prochází rukama: choulostivá úschova ve třináctém století a neprůhledný projekt dnes. Františkánská chudoba jako svoboda od vlastnictví a jako odpovědnost toho, kdo slouží.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Cesta bratrství",
+      "theme": "fraternita",
+      "description": "Když bratr těžce chybuje, bratrství odhaluje, čím opravdu je: soudem, nebo domem. Jedna situace, jíž se prochází odpuštění, řehole a vzájemná odpovědnost.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Hraniční zeď",
+      "situation": "Osada v Assisi, počátek třináctého století. Berta, která vede dílnu barvířů, a Lupo, tkadlec od vedlejších dveří, se už týdny přou o pruh země na šířku paže mezi svými domy: prochází jím okap a každý přísahá, že zeď stojí na jeho straně. Rodiny se přestaly zdravit; učedníci si na ulici vyměňují urážky. Znáš oba a oba ti důvěřují. Dnes večer se tě ptají: na čí straně stojíš?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Nestát na žádné straně: nabídnout, že je vyslechneš jednoho po druhém, pak společně, a pomůžeš jim najít prostou dohodu o zdi a o okapu.",
+          "consequence": "První týdny jsou namáhavé: každý se tě snaží přetáhnout na svou stranu. Pak, protože jsou vyslechnuti, zjistí, že skutečný uzel není pruh země, nýbrž staré bezpráví, které nikdy nebylo odpuštěno. Dohoda o zdi přijde téměř rychle a o svátku svatého Jiří si obě dílny znovu půjčují.",
+          "perspectives": [
+            {
+              "label": "Františkánská cesta",
+              "text": "V Závěti František dosvědčuje, že mu Pán zjevil pozdrav pokoje, který má nést druhým, a prameny připomínají bratry zvěstující pokoj dům od domu. Zprostředkovávat osobně, pokorně, je přesně toto gesto: pokoj se nepřivolává, předává se.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Poučení z Gubbia",
+              "text": "Ve vyprávění o vlku se pokoj rodí, když někdo vyjde vstříc tomu, co děsí, a celé společenství se stane ručitelem smlouvy: město živí vlka, vlk už neškodí. Zde obě rodiny a sousední dílny ručí za dohodu, aby trvala i po tvém odchodu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Obezřetnost osady",
+              "text": "Kdo se postaví doprostřed, riskuje, že se stane terčem obou, selže-li dohoda. Zprostředkování funguje, protože stojíš mimo spor a nic z něj nezískáváš: tvá věrohodnost je tvůj jediný kapitál a je třeba s ním šetřit.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Poradit oběma, aby věc předložili konšelům komuny nebo cechu kupců: hranice se vyměří, listiny se přečtou, právo rozhodne.",
+          "consequence": "Spor odchází z ulice a vstupuje do forem. Znalec komuny měří, čtou se zápisy otců a po několika měsících rozsudek přiřkne zeď Lupovi a okap Bertě. Staré bezpráví však zůstává nevyřešené: rodiny se sotva zdraví a nikdo není opravdu v pokoji.",
+          "perspectives": [
+            {
+              "label": "Právo doby",
+              "text": "Komuna existuje právě proto, aby nahradila svár řízením: rozsudek třetí strany uzavře spor bez prolévání krve a bez ponížení. Je to skutečný občanský pokrok a ve třináctém století ho bylo namáhavé vybojovat.",
+              "isEditorial": true
+            },
+            {
+              "label": "Františkánská cesta",
+              "text": "Františkánská tradice nepohrdá vrchnostmi, ale připomíná, že spravedlnost rozhoduje o zdi, ne o srdci: pozdrav pokoje nesený dům od domu míří k tomu, aby lidi znovu uvedl do vztahu, ne jen aby rozdělil viny. Spravedlivý rozsudek může nechat spor živý pod popelem.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Obezřetnost osady",
+              "text": "Obrátit se na konšely tě chrání: nerozhoduješ ty a nikdo tě nebude moci obvinit ze stranění. Cenou je pomalost a náklady a riziko, že poražený bude chovat zášť spíš ke komuně než k sousedovi.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Nezasahovat: nechat, ať čas spor usadí, a omezit se na to, že ho nebudeš živit soudy a klepy.",
+          "consequence": "Měsíce zůstává napětí pod povrchem: o zdi už nikdo nemluví, ale učedníci se dál pošťuchují a údržba okapu se zastaví. Když přijde zima, déšť zatopí oba sklepy: před společnou škodou se sousedé z nutnosti znovu dají do řeči a spor se vyřeší sám, s trochou rzi navíc.",
+          "perspectives": [
+            {
+              "label": "Obezřetnost osady",
+              "text": "Ne každý konflikt žádá smiřovatele: někdy předčasný zásah postoje zatvrdí. Čas a společná nutnost — zatopený sklep — mohou zprostředkovat lépe než jakákoli řeč.",
+              "isEditorial": true
+            },
+            {
+              "label": "Františkánská cesta",
+              "text": "Františkánský pokoj je činný: nese se, zvěstuje se, buduje se tím, že se vyjde vstříc, jako ve vyprávění o vlku. Nechat věci usadit není hřích, ale není to pozdrav pokoje: je to zřeknutí se role nástroje, které je někdy pokorou a někdy pohodlím.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Právo doby",
+              "text": "Ve středověkém právu má nezasahování cenu: spor, který nepromlčí, se vrací a společná škoda z opuštěného okapu tíží všechny. Čekat není neutrální: je to volba, která posouvá účet dopředu.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Františkánský pokoj začíná pozdravem a končí smlouvou, kterou společenství opatruje. Žádá však někoho ochotného stát uprostřed, aniž by z toho něco měl. Kdo ve tvé čtvrti dnes dělá tuto práci? A mohl bys ji dělat ty?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Odebraná zásluha",
+      "situation": "Dnes na poradě před celým týmem kolega představil jako vlastní práci, která je z velké části tvá. Nikdo nic neřekl; šéf mu poděkoval. Už hodiny tě pálí na prsou. Zítra se v chodbě znovu střetnete pohledem.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Odpovědět stejně ostře: při příští veřejné příležitosti uvést fakta na pravou míru před všemi, přesně a před týmž publikem, které bezpráví vidělo.",
+          "consequence": "Náprava přijde včas a fakta se vrátí na své místo: šéf pochopí, někteří kolegové ti potichu poděkují. Kolega, veřejně ponížený, se stane tichým a trvalým protivníkem; ovzduší týmu ztuhne a každé tvé slovo se teď váží na gram.",
+          "perspectives": [
+            {
+              "label": "Právo doby",
+              "text": "Hájit vlastní práci je oprávněné: pravda o zásluhách není klep a nechat bezpráví projít se může stát precedentem. Na formě však záleží: veřejná náprava vytvoří vítěze a poraženého a poražený dlouhodobě nezapomíná.",
+              "isEditorial": true
+            },
+            {
+              "label": "Františkánská cesta",
+              "text": "Vyprávění o dokonalé radosti učí, že radost nesmí záviset na uznání: vrací-li se tvůj pokoj jen tehdy, když je bezpráví veřejně napraveno, pronajal jsi ho soudu druhých. Uvést fakta na pravou míru je přípustné; potřebovat to k tomu, abys byl v pořádku, je skutečná rána.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Obezřetnost osady",
+              "text": "V pracovním životě se pověst buduje po kapkách a ztrácí po vědrech: dobře odměřená veřejná oprava chrání, veřejné ponížení tě označí jako člověka zášti. Zvolíš-li tuto cestu, měř slova na věc, nikdy na osobu.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Nechat to být: nic neříkat, neživit zášť, jít dál. Práce mluví sama a ty nechceš dát bezpráví moc kazit ti dny.",
+          "consequence": "Ticho tě stojí několik týdnů neklidu, pak se uzel rozváže: další projekt je zjevně tvůj a kdo pozoruje, má dlouhou paměť. Nekonfrontovaný kolega však chování zopakuje u jiného člena týmu: tvůj vnitřní pokoj je zachráněn, ale problém ve skupině zůstává.",
+          "perspectives": [
+            {
+              "label": "Františkánská cesta",
+              "text": "V Kvítkách je dokonalá radost právě toto: snést bezpráví, aniž by mu člověk odevzdal velení nad svým srdcem, a zůstat trpělivý a radostný. Není to naivita ani slabost: je to objev, že radost založená na lásce nepotřebuje vyhrát každý spor.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Právo doby",
+              "text": "Vnitřní pokoj je dobro, ale není jediné: nenapadené nesprávné chování se stane zvykem a příští oběť nemusí mít tvou sílu. Spravedlnost v práci chrání i druhé, ne jen tvou zásluhu.",
+              "isEditorial": true
+            },
+            {
+              "label": "Obezřetnost osady",
+              "text": "Nereagovat je strategie s jednou podmínkou: musí být zvolená, ne snesená. Znamená-li nechat to být, že to v sobě měsíce živíš, nepraktikoval jsi radost, nýbrž zášť na splátky. Srdce je třeba kontrolovat poctivě.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Hledat upřímné setkání: požádat kolegu o rozhovor mezi čtyřma očima, vyložit fakta bez obvinění a vyslechnout, co má na srdci.",
+          "consequence": "Rozhovor je nepříjemný, ale pravdivý: kolega napůl přizná, omlouvá se, pak — překvapen, že nebyl veřejně roztrhán — se na příští poradě sám opraví a zmíní tvůj podíl. Nestanete se přáteli, ale mezi vámi vznikne forma bdělé úcty; a věc se nikdy nedostane na náměstí týmu.",
+          "perspectives": [
+            {
+              "label": "Františkánská cesta",
+              "text": "Jít mezi čtyřma očima se podobá pozdravu pokoje nesenému dům od domu: vystavit se osobně, bez publika, a nechat druhému otevřené dveře. A podobá se dokonalé radosti, protože nepodřizuje tvůj pokoj výsledku: mluvíš pro pravdu, ne abys vyhrál.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Právo doby",
+              "text": "Soukromé setkání chrání fakta, aniž by ponížilo osobu: je to forma nápravy, která nechává pracovní vztahy nedotčené. Jeho mez je v tom, že závisí na dobré víře druhého: popírá-li kolega a setrvává, je pak třeba formální cesty.",
+              "isEditorial": true
+            },
+            {
+              "label": "Obezřetnost osady",
+              "text": "Než promluvíš, zeptej se, co opravdu chceš: uvést fakta na pravou míru, nebo nechat bezpráví zaplatit? Rozhovor funguje, jen když vstupuješ ochoten naslouchat; vstupuješ-li, abys vyhrál, druhý to cítí a zavře se.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Dokonalá radost nezakazuje uvést fakta na pravou míru: zakazuje dát bezpráví klíče od tvého srdce. Zeptej se ve svém týdnu: kolikrát je tvůj pokoj pronajatý od chování druhých?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Úschova kupce",
+      "situation": "Assisi, 1210. Guido, obchodník s suknem, který odjíždí na trhy do Champagne a nevrátí se dříve než za dva roky, ti navrhuje, abys opatroval část jeho majetku: balíky látek a měšec peněz. Mezitím je budeš moci užívat — látka by tvé malé dílně dopomohla ke skoku — a po návratu mu vrátíš smluvenou hodnotu i s podílem na zisku. Je to poctivá příležitost. Je to také pouto, které trvá dva roky.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Přijmout v plnosti: užít látku a peníze k růstu dílny a počítat s tím, že po Guidově návratu vrátíš hodnotu se smluveným úrokem.",
+          "consequence": "Dílna opravdu roste: dva učedníci, nový stav, tvé jméno, které se začíná šířit. Každé rozhodnutí však teď prochází účtem, který bude třeba složit: před trhy už nespíš, bojíš se krádeží a hubených let. Když se Guido vrátí dříve a s vlastními ztrátami k pokrytí, dodržet smlouvu tě stojí téměř všechen zisk — a zjistíš, že jsi dva roky opatroval peníze víc, než jsi žil.",
+          "perspectives": [
+            {
+              "label": "Františkánská cesta",
+              "text": "Řehole z roku 1223 žádá nic si nepřivlastňovat, ani dům, ani místo, ani žádnou věc: ne proto, že by věci byly zlé, nýbrž proto, že to, co musíš vracet a bránit, tě začíná vlastnit. Spánek ztracený před trhy je přesné znamení výměny pána.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Logika kupce",
+              "text": "Ve světě komuny je to praxe: úvěr roztáčí hospodářství a odmítnout každou úschovu znamená zůstat navždy malý. Riziko se měří a oceňuje; dodržet smlouvu je to, co buduje pověst.",
+              "isEditorial": true
+            },
+            {
+              "label": "Pohled zřeknutí",
+              "text": "Celano vypráví o Františkovi, který otci vrací i šaty: ne z pohrdání věcmi, nýbrž aby nezávisel na ničem, co není Otec. Otázka nezní, je-li smlouva poctivá — je —, nýbrž kolik svobody svého srdce jsi ochoten na dva roky zastavit.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Přijmout jen úschovu, ne užívání: zapečetit látku a peníze, držet je v bezpečí, aniž by nesly užitek, a vrátit je nedotčené po návratu.",
+          "consequence": "Dva roky zůstává tvá dílna táž, ale ty jdeš lehce: žádný účet ke složení, žádný zisk k obraně. Guido po návratu najde vše nedotčené a váží si tě jako muže slova; nabídne ti další úschovy, které posoudíš jednu po druhé. Někdo v osadě tě nazve hlupákem: ta látka mohla pracovat pro tebe.",
+          "perspectives": [
+            {
+              "label": "Františkánská cesta",
+              "text": "Opatrovat, aniž si přivlastňuješ, je téměř duchovní cvičení: mít v rukou, aniž máš v srdci. Připomíná to logiku řehole — poutníci a cizinci ve světě, služebníci věcí, ne páni — uplatněnou na cizí majetek.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Logika kupce",
+              "text": "Z hospodářského hlediska je to promarněná příležitost: kapitál, který stojí, neprodukuje, a neplacený správce daruje službu, která se jinde platí. Guidova úcta má cenu, ale nezaplatí nový stav.",
+              "isEditorial": true
+            },
+            {
+              "label": "Obezřetnost osady",
+              "text": "Čistá úschova má svá rizika — krádeže, požáry, obvinění ze zpronevěry —, ale nechává tě svobodného od každého sporu o zisk. Sepiš přesto listinu před svědky: důvěra se ctí lépe s papíry v pořádku.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Odmítnout s úctou: poděkovat Guidovi za důvěru, ale nechtít pouta vlastnictví ani účty ke složení na dva roky.",
+          "consequence": "Guido zůstane překvapen, pak přikývne: látky svěří jinému. Tvá dílna zůstane malá a některá zima je těsná, ale tvé slovo v osadě získá zvláštní zvuk: zvuk toho, kdo se neprodává a nenechá se svázat. Léta poté, až se rozhodneš následovat bratry, kteří procházejí Assisi, nikomu tvůj odstup nebude připadat divný: začal tím ne.",
+          "perspectives": [
+            {
+              "label": "Pohled zřeknutí",
+              "text": "Františkovo zřeknutí před biskupem ukazuje, že říci ne bohatství je gesto svobody, ne pohrdání: vrátil šaty, aby mohl bez pokrytectví říkat „Otče náš“. Odůvodněné ne dnes připravuje ne — i ano — zítřka.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Františkánská cesta",
+              "text": "Pozor, ať nezaměníš svobodu za řeholi ušitou pro sebe: řehole mluví o nepřivlastňování, ne o odmítání každé odpovědnosti za cizí majetek. I odmítnutí se může stát způsobem, jak myslet jen na sebe.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Obezřetnost osady",
+              "text": "Odmítnout je oprávněné, ale má společenskou cenu: v osadě si lidé pomáhají i tak, že si navzájem opatrují majetek. Kdo odmítá vždycky, zůstane časem mimo síť důvěry, na níž všechno stojí.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Františkánská chudoba nežádá pohrdat věcmi: žádá si všimnout, kdy tě věci začínají vlastnit. Až příště něco přijmeš — věc, úkol, dluh —, zeptej se: kdo opatruje koho?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Neprůhledný projekt",
+      "situation": "Dnes. Svěří ti vedení prestižního projektu: viditelnost, tým, který si sám vybereš, značný rozpočet. Dvě položky výdajů však nesedí a financovatel odpovídá na tvé otázky vyhýbavou zdvořilostí. Podepsat znamená vzít na sebe odpovědnost i za tu neprůhlednost. Odmítnout znamená vzdát se příležitosti, která se nevrátí.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Přijmout bez dalších otázek: projekt je jedinečná příležitost, neprůhledné položky nejsou tvá kompetence a stejně by na tvém místě někdo podepsal.",
+          "consequence": "Projekt se podaří a tvá kariéra udělá skok. Když však o rok později správní kontrola ty položky znovu otevře, tvůj podpis je na dokumentech: odpovědnost, na kterou jsi se nechtěl dívat, tě stejně dostihne a získaná prestiž se převrátí v trapnou obhajobu.",
+          "perspectives": [
+            {
+              "label": "Odpovědnost role",
+              "text": "Ve františkánském bratrstvu se ten, kdo vede, nazývá „ministr“, služebník: úřad je tu proto, aby sloužil, ne aby zářil. Služba, která přijme, že neuvidí to, za co odpovídá, už zradila své jméno, ještě před jakoukoli kontrolou.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Logika kupce",
+              "text": "Ve světě práce se uvažuje takto: každý projekt má šedé zóny a kdo chce opravdu pracovat, naučí se s nimi žít. Odmítnout každou nedokonalost znamená odevzdat rozhodnutí tomu, kdo má méně skrupulí než ty.",
+              "isEditorial": true
+            },
+            {
+              "label": "Obezřetnost osady",
+              "text": "Podpis je hranice: co podepíšeš, to vlastníš, se všemi důsledky. Než podepíšeš, nestačí počítat do deseti: je třeba přesně vědět, co se podepisuje. Příležitost, která se nevrátí, se často vrátí; pověst ne.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Odmítnout: bez průhlednosti se nepodepisuje a projekt ať přejde k tomu, kdo ty podmínky přijme.",
+          "consequence": "Zřeknutí pálí a měsíce se díváš, jak projekt pokračuje mezi problémy: bez tvého vedení tým tápe a nakonec financovatel stáhne prostředky právě kvůli neprůhledným položkám. Tvé ne, které někteří čtou jako naivitu, si jiní připomenou, když je třeba důvěryhodného člověka pro choulostivý úkol.",
+          "perspectives": [
+            {
+              "label": "Obezřetnost osady",
+              "text": "Odmítnutí chrání pověst, ale nechává problém nedotčený: projekt jde k tomu, kdo má méně skrupulí, a lidé, kteří na něm pracují, nesou důsledky. Ne si umyje ruce, ne vždycky očistí svět.",
+              "isEditorial": true
+            },
+            {
+              "label": "Odpovědnost role",
+              "text": "List ministrovi ukazuje, že františkánské vedení je blízkost a služba, nikdy nadřazený odstup. Sloužit však neznamená propůjčit se ke všemu: ministr, který podepíše to, co nemůže řídit, bratřím neslouží, vystavuje je. I odmítnutí může být formou péče.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Dlouhý pohled",
+              "text": "Kariéry se dělají z využitých příležitostí, důvěra z příležitostí odmítnutých. Ne vyslovené z jasných důvodů a bez moralizování je investice, která zraje pomalu a neznehodnocuje se.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Přijmout s podmínkami: podepsat až poté, co se písemně stanoví průhledné vyúčtování, nezávislý audit a právo na odůvodněné odstoupení.",
+          "consequence": "Financovatel otálí, hrozí, že bude hledat jiné, pak ustoupí: tvé podmínky, napsané, se stanou páteří projektu. Práce je pomalejší a namáhavější, než slibovala, ale když kontrola přijde — a přijde —, účty jsou otevřené a tým obstojí. Tvé vedení se stane precedentem: jiní po tobě budou žádat tytéž podmínky.",
+          "perspectives": [
+            {
+              "label": "Odpovědnost role",
+              "text": "To je cesta ministra v plném františkánském smyslu: neutíkat před službou, ale odmítnout, aby se služba stala spoluvinou. Kdo vede, slouží — a sloužit zahrnuje chránit tým a projekt před stinnými zónami, i za cenu nepříjemných jednání.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Logika kupce",
+              "text": "Písemné podmínky jsou nejlepší kompromis, ale mají cenu: riskuješ, že o úkol přijdeš, neustoupí-li financovatel, a že budeš léta pracovat s partnerem, který tě považuje spíš za kontrolora než za spojence. Stojí to za to, jen máš-li věrohodné alternativy.",
+              "isEditorial": true
+            },
+            {
+              "label": "Dlouhý pohled",
+              "text": "Klást podmínky je nejpomalejší a nejplodnější způsob: neomezuje se na to, že chrání tebe, mění praxi. Instituce se zlepšují, když někdo promění osobní skrupuli ve sdílené pravidlo.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "František nazýval odpovědné „ministry“, služebníky: jméno role je už její program. Co je ve tvé práci třeba, aby se tvá služba nestala spoluvinou — a co, aby se tvá přísnost nestala dezerce?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Bratr, který pochybil",
+      "situation": "Porciunkula, dvacátá léta třináctého století. Bratr Rufin těžce porušil řeholi: ponechal si peníze přijaté jako almužnu a věc je už známá i venku, mezi lidmi, kteří vás sledují. V bratrstvu se o tom dny diskutuje. Někteří žádají příkladné pokání a jeho vzdálení z osady; jiní připomínají, že Rufin je nemocný a na kusy; další se bojí, že shovívavost pozve všechny k poklesku. Ministr žádá názor každého. I tvůj.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Hájit přísnost: veřejné pokání a dočasné vzdálení Rufina, protože řehole platí pro všechny a pohoršení laiků je třeba napravit přede všemi.",
+          "consequence": "Bratrstvo schválí přísnou kázeň. Rufin odchází do vzdálené poustevny, ponížen před těmi, kdo ho znali; laici osady obdivují důslednost bratří a almužny neklesají. V bratrstvu však něco ztuhne: bratři začínají skrývat vlastní křehkosti ze strachu ze soudu a Rufin, sám, bude potřebovat léta, aby se vrátil — vrátí-li se.",
+          "perspectives": [
+            {
+              "label": "Moudrost společenství",
+              "text": "Společná řehole je to, co odlišuje bratrstvo od společnosti přátel: nenarazí-li ten, kdo těžce pochybí, na důsledky, smlouva se vyprázdní a nejslabší zaplatí cenu. Veřejná náprava odpovídá i na veřejné pohoršení.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "List ministrovi",
+              "text": "František píše ministrovi, že kdyby bratr zhřešil tisíckrát, je třeba ho přesto milovat a zvěstovat mu milosrdenství: tvrdost, která pohorší slabého bratra, hrozí, že ho ztratí. Přísnost není zakázána, ale nesmí se nikdy stát pohrdáním.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Dlouhý pohled",
+              "text": "Společenství, v němž se všichni bojí soudu, se stane společenstvím tajemství: řehole zůstane stát na papíře a zhroutí se v srdcích. Přísnost, která nepředvídá cestu návratu, plodí vyhnance, ne kajícníky.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Hájit plné přijetí: přijmout Rufina zpět bez veřejných pokání, pečovat o jeho nemoc a na pohoršení odpovědět mírností, ne tresty.",
+          "consequence": "Rufin zůstává. Pláče před bratry, vrací, co může, a pomalu nachází místo ve společném životě: nikdo mu už věc nepředhazuje. V osadě někdo mumlá, že se bratři kryjí navzájem, a dva mladí v bratrstvu berou mírnost jako povolení: ministr bude měsíce namáhavě obnovovat, že řehole není rada.",
+          "perspectives": [
+            {
+              "label": "List ministrovi",
+              "text": "Je to cesta vytyčená listem ministrovi: milovat víc, ne méně, toho, kdo pochybil; zvěstovat milosrdenství, pokud činí pokání; nezatvrzovat vlastní srdce kvůli cizímu hříchu. František ví, že tato cesta stojí, a přesto ji ukládá.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Moudrost společenství",
+              "text": "Řehole z roku 1221 žádá sdělovat si navzájem potřeby a nepohrdat slabým: nemocný Rufin je přesně bratr, kterého řehole chrání. Táž řehole však existuje, aby se bratrstvo nerozptýlilo: milosrdenství bez pravdy se stává spoluvinou.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Obezřetnost osady",
+              "text": "Laici dávají almužnu chudým bratřím, ne bratřím prohnaným: neřízený skandál nahlodává důvěru, která drží společenství naživu. Přijetí je třeba osadě vysvětlit, ne jen žít doma, jinak bude čteno jako krytí.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Hájit společnou cestu: Rufin zůstává v bratrstvu, vrací, co dluží, před bratry, svěřuje se bratrskému doprovázení a celé společenství s ním nese nápravu vůči osadě.",
+          "consequence": "Cesta je dlouhá a nepříjemná: Rufin se vyzná před bratry, vrací peníze dům od domu spolu se starším bratrem a rok koná nejponíženější služby, aniž by mu to někdo předhazoval. Osada vidí skutečnou nápravu, ne trest: důvěra se pomalu vrací. Uvnitř bratrstva se epizoda stane nepsaným pravidlem: kdo padne, je doprovázen, kdo pochybil, napravuje, nikdo se neztrácí.",
+          "perspectives": [
+            {
+              "label": "List ministrovi",
+              "text": "Milosrdenství listu není sleva: je to láska, která doprovází pokání, dokud nenese ovoce. Rufin, který vrací dům od domu, není ponížen: je to bratr, který se vrací, a společenství jde vedle něj, místo aby se na něj dívalo shora.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Moudrost společenství",
+              "text": "Řehole z roku 1221 si představuje právě toto: bratry, kteří sdělují své potřeby — i ty hanebné — a kteří se navzájem nesou. Společná náprava spojuje pravdu a milosrdenství a proměňuje vinu jednoho ve školu pro všechny.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Právo doby",
+              "text": "Je to nejnáročnější cesta pro všechny: žádá čas, uchování tajemství tam, kde je třeba, a veřejnou pravdu tam, kde pohoršení bylo veřejné. Ne každé společenství tuto námahu unese: bez schopného ministra se střední cesta stane jen nerozhodností.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Bratrství se neměří tehdy, když všichni zachovávají řeholi, nýbrž když ji někdo poruší. List ministrovi stanoví hvězdu — milovat víc, ne méně — aniž by smazal pravdu. Nachází ve tvých společenstvích ten, kdo chybil, cestu návratu?"
+    }
+  ]
+}

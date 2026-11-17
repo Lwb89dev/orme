@@ -1,0 +1,1372 @@
+{
+  "characters": [
+    {
+      "id": "char.bernardo",
+      "name": "Meister Bernhard",
+      "description": "Seit dreißig Jahren Wirt im Dorf der Eichen: praktisch, misstrauisch gegen Fremde, unfähig, jemanden in der Kälte zu lassen. Vom Dorf kennt er jede Schuld und jede Freundlichkeit.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.lucia",
+      "name": "Lucia",
+      "description": "Witwe und Kräuterfrau im Dorf der Eichen. Scharfe Beobachterin und Gedächtnis des Dorfes: Nichts von dem, was auf der Straße geschieht, entgeht ihr.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.frate_tommaso",
+      "name": "Bruder Thomas",
+      "description": "Minderbruder auf der Durchreise über die Straßen Umbriens. Abgelaufene Sandalen, geflickte Kutte: Er ist an das Schweigen gewöhnt und hat die seltene Gabe zuzuhören.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.martino",
+      "name": "Martin",
+      "description": "Bettler, dem man auf der Straße zum Dorf der Eichen begegnet. Er war Hufschmied in Spoleto, bevor die Krankheit ihm die Schmiede nahm, das Haus und zuletzt den Platz unter den Menschen.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.giacomo",
+      "name": "Jakob",
+      "description": "Maurer aus Assisi. Er arbeitet an der Wiederherstellung der kleinen Kirche von San Damiano und hat aus der Nähe gesehen, wie der junge Franz Steine trug und sang.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.matteo",
+      "name": "Matthäus",
+      "description": "Bergjäger, befehligt in den Tagen der Angst vor dem Wolf die Wache an einem Tor von Gubbio. Gezeichnetes Gesicht, die Lanze nie weit, ein gegebenes Wort, das gilt.",
+      "isHistorical": false
+    },
+    {
+      "id": "char.guido",
+      "name": "Guido II., Bischof von Assisi",
+      "description": "Bischof von Assisi seit 1204. Von den Quellen belegt: Vor der Stadt bedeckte er Franz in der Szene des Verzichts auf die väterlichen Güter mit seinem eigenen Mantel.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.pietro",
+      "name": "Pietro di Bernardone",
+      "description": "Reicher Tuchhändler aus Assisi, Vater des Franz. Der Konflikt mit dem Sohn um die verkauften Güter mündete in die öffentliche Szene vor dem Bischof, erzählt von Thomas von Celano.",
+      "isHistorical": true
+    },
+    {
+      "id": "char.francesco",
+      "name": "Franz von Bernardone",
+      "description": "Der junge Sohn des Kaufmanns, der in Assisi in diesen Jahren alles verlässt und barfuß neu beginnt. Der Wanderer kreuzt ihn von fern oder für wenige Augenblicke; seine Worte sind hier wenige und den Quellen treu.",
+      "isHistorical": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "story.mantello.001",
+      "title": "Der Mantel des Wanderers",
+      "order": 1,
+      "placeId": "place.borgo_querce",
+      "summary": "Unter einem Regen des Spätherbstes kommt der Wanderer im Dorf der Eichen an und begegnet einem durchfrorenen Bettler: die erste Entscheidung des Weges.",
+      "isBiographical": false,
+      "requiredChapters": [],
+      "startNodeId": "mant.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "mant.n1",
+          "text": "Der Regen des Spätherbstes hat dich drei Tage begleitet. Als du die ersten Häuser des Dorfs der Eichen erblickst, schließt der Abend schon die Pfade, und dein Mantel trieft vor Wasser.",
+          "next": "mant.n2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.n2",
+          "text": "Unter einer Schlehdornhecke kauert eine Gestalt in einem schäbigen Sack. Sie streckt die Hand nicht aus: Sie sieht dich nur an, mit den hellen Augen dessen, der aufgehört hat zu bitten.",
+          "next": "mant.enc_martino"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_martino",
+          "characterId": "char.martino",
+          "text": "Martin hat das Alter der Pfade. Er war Hufschmied in Spoleto, bevor die Krankheit ihm die Schmiede und das Haus nahm. Jetzt ist die Straße alles, was ihm bleibt.",
+          "next": "mant.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n3",
+          "speakerId": "char.martino",
+          "text": "Ich bitte um nichts, Fremder. Aber die Nacht wird lang und eisig, und mein Rücken erträgt die Nässe nicht mehr.",
+          "next": "mant.c1"
+        },
+        {
+          "type": "choice",
+          "id": "mant.c1",
+          "prompt": "Martin zittert unter der Hecke. Was tust du?",
+          "options": [
+            {
+              "id": "mant.c1.a",
+              "text": "Du nimmst den Mantel ab und legst ihn ihm um die Schultern.",
+              "next": "mant.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 2
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.b",
+              "text": "Du bietest ihm den Arm und begleitest ihn bis ins Dorf.",
+              "next": "mant.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_accompagnato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.bernardo",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "mant.c1.c",
+              "text": "Du setzt dich neben ihn, unter die Hecke, und hörst ihm zu.",
+              "next": "mant.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "martino_ascoltato",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.lucia",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "mant.a1",
+          "text": "Der Mantel verlässt deine Schultern, und die Kälte dringt dir sofort in die Knochen. Aber in dieser Kälte ist eine neue Leichtigkeit, die du nicht erklären kannst.",
+          "next": "mant.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.a2",
+          "speakerId": "char.martino",
+          "text": "Ich habe dir nichts zu erwidern, Freund. Nur meinen Namen: Martin. Im Dorf wird man wissen, was für ein Fremder du bist.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.b1",
+          "text": "Ihr geht langsam, einer auf den anderen gestützt, unter dem dichten Regen. Am Tor des Gasthauses brennen die Lichter noch.",
+          "next": "mant.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.b2",
+          "speakerId": "char.bernardo",
+          "text": "Du hast dir auf der Straße Gesellschaft geholt, Fremder? Kommt beide herein: Mein Feuer stellt keine Fragen.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.d1",
+          "speakerId": "char.martino",
+          "text": "Ich war Hufschmied in Spoleto: Ich beschlug die Pferde der Herren. Dann fingen die Hände an zu zittern, und niemand will einen Schmied, der zittert. Ich danke dir, dass du dich gesetzt hast: Die Leute gehen vorbei und geradeaus weiter, als wäre das Unglück ansteckend.",
+          "next": "mant.d2"
+        },
+        {
+          "type": "narration",
+          "id": "mant.d2",
+          "text": "Als ihr aufsteht, hat der Regen aufgehört. Du zeigst ihm den Weg ins Dorf und siehst ihm nach, wie er sich langsam entfernt, bis die Dunkelheit ihn nimmt.",
+          "next": "mant.conv"
+        },
+        {
+          "type": "narration",
+          "id": "mant.conv",
+          "text": "Das Gasthaus im Dorf der Eichen riecht nach Holz und Brot. Das niedrige Feuer trocknet die Kleider und löst die Müdigkeit des Weges.",
+          "next": "mant.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "mant.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "mant.cold1"
+            }
+          ],
+          "defaultNext": "mant.enc_bernardo"
+        },
+        {
+          "type": "narration",
+          "id": "mant.cold1",
+          "text": "Du trittst durchfroren und ohne Mantel an die Theke. Meister Bernhard mustert dich lange, dann reicht er dir einen Schöpflöffel heißen Wein: „Den Mantel hast du weggegeben, an einem solchen Abend? Entweder bist du verrückt, oder besser, als du aussiehst. Wir werden sehen.“",
+          "next": "mant.enc_bernardo",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.bernardo",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_bernardo",
+          "characterId": "char.bernardo",
+          "text": "Meister Bernhard führt das Gasthaus seit dreißig Jahren: praktisch, misstrauisch, unfähig, jemanden in der Kälte zu lassen. Vom Dorf kennt er jede Schuld und jede Freundlichkeit.",
+          "next": "mant.n4"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n4",
+          "speakerId": "char.bernardo",
+          "text": "Hier verschenkt niemand etwas, Fremder: Das Brot wird bezahlt, und der Ärger auch. Aber der Platz am Feuer steht nicht zum Verkauf. Der gehört dem, der ankommt.",
+          "next": "mant.enc_lucia"
+        },
+        {
+          "type": "character_encounter",
+          "id": "mant.enc_lucia",
+          "characterId": "char.lucia",
+          "text": "In einer Ecke zerkleinert eine Frau mit wachen Augen Kräuter in einem Mörser. Es ist Lucia, die Witwe, die das Dorf mit Wurzeln und Geduld pflegt. Nichts von dem, was auf der Straße geschieht, entgeht ihr.",
+          "next": "mant.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "mant.n5",
+          "speakerId": "char.lucia",
+          "text": "Ich habe dich unter der Schlehdornhecke anhalten sehen. Viele gehen an jener Biegung vorbei: Die Straße lehrt schnell, nicht hinzusehen. Du bist stehen geblieben. Erinnere dich daran, wenn jemand dir sagt, wer du bist.",
+          "next": "mant.t1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.accoglienza.ogni_uomo"
+            }
+          ]
+        },
+        {
+          "type": "teaching",
+          "id": "mant.t1",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "text": "Du hast entdeckt: Niemand ist fremd. Aufnahme beginnt so: nicht bei einer Idee, sondern bei einer Hecke, bei einem durchfrorenen Mann, bei einem Innehalten. Dem entgegenzugehen, den die Welt zu meiden lehrt, ist der erste Schritt jedes Weges.",
+          "next": "mant.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "mant.r1",
+          "prompt": "Unter jener Hecke: Was hat dich bewegt, und was hat dich zurückgehalten? Denk an deine Straßen von heute: Wem begegnest du gewöhnlich, und an wem hast du gelernt vorbeizugehen?",
+          "teachingId": "teaching.accoglienza.ogni_uomo",
+          "next": "mant.end"
+        },
+        {
+          "type": "completion",
+          "id": "mant.end",
+          "text": "Die Nacht vergeht still. Am Morgen findest du auf der Theke des Gasthauses eine Handvoll Kastanien und kein Wort: Im Dorf erinnert man die Dinge. Dein Weg hat begonnen.",
+          "exploredTeachingIds": [
+            "teaching.accoglienza.ogni_uomo"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.narrazione_gioco"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.rinuncia.001",
+      "title": "Der Sohn des Kaufmanns",
+      "order": 2,
+      "placeId": "place.assisi",
+      "summary": "Assisi, Anfang 1206: Der Wanderer kommt in den Tagen an, in denen Franz vor Bischof Guido dem Vater alles zurückgibt. Die Stadt sieht zu und fragt sich.",
+      "isBiographical": true,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "rin.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "rin.n1",
+          "text": "Assisi empfängt dich mit einem Gemurmel, das nicht das der Markttage ist. In den Gassen spricht man leise von einem einzigen Namen: dem Sohn des Herrn Pietro di Bernardone, des Tuchhändlers.",
+          "next": "rin.n2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.n2",
+          "text": "Am Brunnen des Dorfes erklärt dir eine Frau: Der Vater hat den Jungen vor den Bischof geschleppt, um die verkauften Güter zurückzubekommen, und der Platz füllt sich. Unter den Mauern, an der verfallenen kleinen Kirche von San Damiano, ringt ein Maurer allein mit einer eingestürzten Mauer.",
+          "next": "rin.c1"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c1",
+          "prompt": "Die Stimmen auf dem Platz werden lauter. Auf der einen Seite die Menge, auf der anderen ein Mann allein mit seinen Steinen.",
+          "options": [
+            {
+              "id": "rin.c1.a",
+              "text": "Du gehst hinunter nach San Damiano, um dem Maurer zu helfen.",
+              "next": "rin.h1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.b",
+              "text": "Du läufst auf den Platz, bevor die Menge sich schließt.",
+              "next": "rin.p1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "visto_rinuncia_da_vicino",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "rin.c1.c",
+              "text": "Du steigst die Stufen von San Rufino hinauf, um von oben zu sehen.",
+              "next": "rin.v1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "osservato_rinuncia",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.h1",
+          "text": "Eine Stunde lang hebst du Steine neben dem Maurer, während die Menge dort oben lärmt. Der Mann arbeitet schweigend, dann zeigt er auf die kleine Kirche: Ein Junge aus Assisi stellt sie wieder her, sagt er. Der, von dem alle reden.",
+          "next": "rin.h2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.h2",
+          "speakerId": "char.giacomo",
+          "text": "Er trug die Steine hierher, als wären sie Reliquien, und sang. Man sagt, er sei verrückt geworden. Verrückte habe ich viele gesehen: Keiner hat so gearbeitet.",
+          "next": "rin.h3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.h3",
+          "text": "Als du wieder auf den Platz steigst, löst die Menge sich schon auf. Du sammelst Bruchstücke: Der Junge hat dem Vater alles zurückgegeben, sogar die Kleider, und der Bischof hat ihn mit dem eigenen Mantel bedeckt. Jemand lacht. Viele nicht.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p1",
+          "text": "Du bahnst dir den Weg durch die Menge bis unter den Palast des Bischofs. In der Mitte ein abgemagerter junger Mann mit brennenden Augen; ihm gegenüber ein alter Mann, der vor Zorn zittert: Herr Pietro di Bernardone.",
+          "next": "rin.enc_francesco"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_francesco",
+          "characterId": "char.francesco",
+          "text": "Franz ist etwa vierundzwanzig und hat die Haltung dessen, der zwischen kostbaren Stoffen und Festen aufgewachsen ist. Heute, stehend vor dem Bischof, scheint er all das schon hinter sich gelassen zu haben.",
+          "next": "rin.p2"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p2",
+          "speakerId": "char.pietro",
+          "text": "Meine Tuche, mein Pferd, mein Geld: verkauft für seine Tollheiten! Ich will Gerechtigkeit, Herr Bischof. Er soll auf jedes Ding von mir verzichten, bis auf den letzten Faden.",
+          "next": "rin.p3"
+        },
+        {
+          "type": "narration",
+          "id": "rin.p3",
+          "text": "Ein langes Schweigen. Dann streift der Junge die Kleider ab, eines nach dem anderen, und legt sie dem Vater zu Füßen. Die Menge hält den Atem an. Bischof Guido nimmt den Mantel ab und bedeckt ihm die nackten Schultern.",
+          "next": "rin.p4"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.p4",
+          "speakerId": "char.francesco",
+          "text": "Bis heute habe ich Pietro di Bernardone Vater genannt. Von nun an werde ich frei sagen können: Vater unser, der du bist im Himmel.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v1",
+          "text": "Von den Stufen der Kathedrale ist der Platz ein Ameisenhaufen. Du hörst die Worte nicht, aber du siehst alles: den Jungen, der sich entkleidet, den Alten, der die Kleider aufhebt, den Bischof, der seinen Mantel öffnet.",
+          "next": "rin.v2"
+        },
+        {
+          "type": "narration",
+          "id": "rin.v2",
+          "text": "Neben dir seufzt ein Apfelverkäufer: Prozesse und Raufereien habe ich auf diesem Platz gesehen, sagt er, aber nie einen Sohn, der alles so zurückgibt. Ringsum lacht jemand grob, jemand wischt sich die Augen.",
+          "next": "rin.conv"
+        },
+        {
+          "type": "narration",
+          "id": "rin.conv",
+          "text": "Der Abend senkt sich auf Assisi. In den Gasthäusern spricht man von nichts anderem: Es gibt Leute, die den Jungen verspotten, Leute, die ihn heilig nennen, Leute, die den Kopf schütteln und an die eigenen Kinder denken.",
+          "next": "rin.enc_guido"
+        },
+        {
+          "type": "character_encounter",
+          "id": "rin.enc_guido",
+          "characterId": "char.guido",
+          "text": "Bischof Guido durchquert den entleerten Platz mit dem müden Schritt dessen, der einen schweren Tag gelenkt hat. Er ist es, der Franz vor allen mit dem eigenen Mantel bedeckt hat.",
+          "next": "rin.g1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.g1",
+          "speakerId": "char.guido",
+          "text": "Ich habe in meinem Leben viele Männer gesehen, die sich an die Dinge klammerten. Nie jemanden, der sie so losließ. Betet für diesen Jungen: und betet für uns, die wir zusehen und nicht verstehen.",
+          "next": "rin.c2"
+        },
+        {
+          "type": "choice",
+          "id": "rin.c2",
+          "prompt": "Der Platz leert sich. Was tust du, bevor du den Weg wieder aufnimmst?",
+          "options": [
+            {
+              "id": "rin.c2.a",
+              "text": "Du folgst Franz von fern, der nach San Damiano hinuntergegangen ist.",
+              "next": "rin.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "seguito_francesco",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.b",
+              "text": "Du bleibst, um den Stimmen des Platzes zuzuhören.",
+              "next": "rin.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_assisi",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            },
+            {
+              "id": "rin.c2.c",
+              "text": "Du kehrst zum Maurer zurück, um zu Ende zu bringen, was du begonnen hast.",
+              "next": "rin.s3",
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "aiutato_san_damiano",
+                  "value": true
+                }
+              ],
+              "effects": [
+                {
+                  "type": "add_relation",
+                  "characterId": "char.giacomo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.rinuncia.sine_proprio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "rin.s1",
+          "text": "Du folgst Franz bis zur verfallenen kleinen Kirche. Du siehst, wie er einen Stein aufhebt, ihn abstaubt, ihn auf die Mauer legt wie jemand, der ein Haus ordnet. Du wagst nicht, ihn zu stören. Du nimmst den Weg wieder auf, mit diesem Bild in den Augen.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "rin.s2",
+          "text": "Du bleibst, bis die Fackeln verlöschen. Du hörst das ganze menschliche Bestiarium: den Neid, den Spott, die zurückgehaltene Bewunderung, die Angst der Väter. Die Stadt wird Jahre brauchen, um zu entscheiden, was sie gesehen hat.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "dialogue",
+          "id": "rin.s3",
+          "speakerId": "char.giacomo",
+          "text": "Zurück, um die Mauer zu Ende zu bringen? Gut. Die Steine lügen nicht: Sie bleiben, wo man sie hinlegt. Dieser Junge versteht das: Er fängt bei den Fundamenten neu an. Bei sich selbst, nicht nur bei den Kirchen.",
+          "next": "rin.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "rin.hist1",
+          "title": "Was belegt ist",
+          "text": "Der Verzicht des Franz vor Bischof Guido, Anfang 1206, wird von der Vita prima des Thomas von Celano erzählt, der dem Heiligen nächsten Biografie: die Rückgabe der Kleider, die Worte über den Vater, der im Himmel ist, der Mantel des Bischofs. Belegt ist auch die Wiederherstellung von San Damiano. Zur Fiktion gehören dagegen der Wanderer, den du spielst, der Maurer Jakob und die auf dem Platz aufgesammelten Gespräche.",
+          "sourceDocumentIds": [
+            "source.celano_vita_prima"
+          ],
+          "next": "rin.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "rin.t1",
+          "teachingId": "teaching.rinuncia.sine_proprio",
+          "text": "Du hast entdeckt: Nichts als Eigenes, alles empfangen. Verzicht ist keine Verachtung der Dinge: Er ist Befreiung von der Vorstellung, sie zu besitzen. Wer nichts besitzt, muss nichts verteidigen und kann alles als Gabe empfangen.",
+          "next": "rin.end"
+        },
+        {
+          "type": "completion",
+          "id": "rin.end",
+          "text": "Du verlässt Assisi, während die Lichter eines nach dem anderen aufgehen. Du hast einen Mann nackt und frei auf einem Platz stehen sehen und eine ganze Stadt, die sich befragt. Auch du gehst leichter: oder vielleicht nur aufmerksamer für das Gewicht der Dinge.",
+          "exploredTeachingIds": [
+            "teaching.rinuncia.sine_proprio"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lebbrosi.001",
+      "title": "Der Mann am Straßenrand",
+      "order": 3,
+      "placeId": "place.campagne_umbre",
+      "summary": "Auf den Straßen zwischen den Dörfern kündigt das Geräusch einer Klapper einen Aussätzigen an. Der Wanderer muss sich mit der Angst auseinandersetzen, mit dem Ekel und mit dem Respekt: und mit einem Gesicht, das er kennt.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.mantello.001"
+      ],
+      "startNodeId": "leb.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "leb.n1",
+          "text": "Die Straße zwischen dem Dorf und dem Tal säumt ruhende Felder und Steineichenwälder. An einer Gabelung hörst du einen trockenen, rhythmischen Ton: die hölzerne Klapper, mit der die Aussätzigen ihr Kommen ankündigen.",
+          "next": "leb.n2"
+        },
+        {
+          "type": "narration",
+          "id": "leb.n2",
+          "text": "Am Straßenrand sitzt ein Mann, in Lumpen gehüllt. Das Erste, was du spürst, ist dein eigener Leib, der sich versteift: der Schritt, der langsamer wird, der angehaltene Atem, der Wunsch, auf die andere Seite zu wechseln.",
+          "next": "leb.cb1"
+        },
+        {
+          "type": "conditional_branch",
+          "id": "leb.cb1",
+          "branches": [
+            {
+              "conditions": [
+                {
+                  "type": "flag",
+                  "flag": "mantello_dato",
+                  "value": true
+                }
+              ],
+              "next": "leb.rec1"
+            }
+          ],
+          "defaultNext": "leb.c1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.rec1",
+          "text": "Dann siehst du ihn: Auf den Schultern des Mannes, geflickt und verblichen, liegt dein Mantel. Der, den du am Abend deiner Ankunft im Dorf der Eichen weggegeben hast. Du erkennst den Mantel, bevor du ihn erkennst.",
+          "next": "leb.rec2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.rec2",
+          "speakerId": "char.martino",
+          "text": "Komm nicht näher, Freund: Das Übel hat mich gepackt, und das Gesetz schickt mich aus der Welt hinaus. Aber dein Mantel hat mich den Winter über am Leben gehalten. Ich bin Martin: Ich verdanke dir das Leben, und ich kann dir nicht einmal die Hand drücken.",
+          "next": "leb.c1",
+          "effects": [
+            {
+              "type": "add_relation",
+              "characterId": "char.martino",
+              "delta": 1
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "id": "leb.c1",
+          "prompt": "Ein Aussätziger am Straßenrand. Was tust du?",
+          "options": [
+            {
+              "id": "leb.c1.a",
+              "text": "Du gehst bis auf einen Schritt an ihn heran und sprichst mit ihm.",
+              "next": "leb.a1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "parlato_lebbroso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.b",
+              "text": "Du lässt Brot und Feigen auf einem Stein, ohne näher zu kommen.",
+              "next": "leb.b1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "cibo_lasciato",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "leb.c1.c",
+              "text": "Du gehst vorbei. Aber nach zwanzig Schritten bleibst du stehen und kehrst um.",
+              "next": "leb.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "tornato_indietro",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.a1",
+          "text": "Aus der Nähe, unter der grauen Asche der Krankheit, erkennst du die hellen Augen des Mannes von der Hecke: Es ist Martin, der Bettler deines ersten Tages im Dorf.",
+          "next": "leb.a2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.a2",
+          "speakerId": "char.martino",
+          "text": "Die Krankheit hat mir die Finger genommen, dann hat das Dorf mir den Rest genommen. Ich schlage dieses Holz, und die Leute fliehen, noch bevor sie mich sehen. Du aber bist geblieben. Du weißt nicht, welch ein Geschenk es ist, ins Gesicht gesehen zu werden.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.b1",
+          "text": "Du legst das Brot und die Feigen auf einen flachen Stein, auf halbem Weg zwischen dir und ihm. Es ist die Weise, die alle gebrauchen: die Nächstenliebe auf sichere Distanz. Er neigt langsam den Kopf.",
+          "next": "leb.b2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.b2",
+          "speakerId": "char.martino",
+          "text": "Das Brot genügt mir, und ich danke dir. Aber merke es dir, Fremder: Leute wie ich sterben zweimal. Das erste Mal, wenn das Übel kommt, das zweite, wenn niemand sie mehr beim Namen ruft.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.d1",
+          "text": "Du gehst zwanzig Schritte auf das Tal zu. Dann hält dich die Scham stärker an als die Klapper: Du kehrst langsam um, bis zum Straßenrand. Der Mann hebt den Blick, erstaunt.",
+          "next": "leb.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "leb.d2",
+          "speakerId": "char.martino",
+          "text": "Viele gehen vorbei, wenige kehren um. Der Schritt zurück ist der schwerste von allen: Ich weiß es, ich habe es selbst gelernt. Setz dich, wenn du willst. Erzähl mir, woher du kommst.",
+          "next": "leb.conv"
+        },
+        {
+          "type": "narration",
+          "id": "leb.conv",
+          "text": "Ihr bleibt im Gespräch, während die Sonne sinkt. Martin erzählt dir von einem Bruder aus Assisi, jenem Kaufmannssohn, der alles verließ: Jetzt geht er in die Lazarette, wäscht die Wunden und ruft jeden beim Namen.",
+          "next": "leb.c2"
+        },
+        {
+          "type": "choice",
+          "id": "leb.c2",
+          "prompt": "Das Lazarett liegt im Tal, jenseits der Brücke, sagt Martin. Wenn du jenen Bruder suchst, findest du ihn dort.",
+          "options": [
+            {
+              "id": "leb.c2.a",
+              "text": "Du bietest an, ihn bis zum Lazarett zu begleiten.",
+              "next": "leb.e1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "accompagnato_lazzaretto",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.martino",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            },
+            {
+              "id": "leb.c2.b",
+              "text": "Du versprichst ihm, dass im Dorf niemand ihn vergessen wird.",
+              "next": "leb.e2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "promessa_martino",
+                  "value": true
+                },
+                {
+                  "type": "add_var",
+                  "variable": "fiducia_borgo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.carita.lebbrosi"
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.misericordia.compassione"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "leb.e1",
+          "text": "Du begleitest ihn das Tal entlang, langsam, ohne ihn zu berühren und ohne ihm auszuweichen. An der Brücke verabschiedet ihr euch, wie Freunde sich verabschieden: mit dem Bedauern, sich lassen zu müssen.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "leb.e2",
+          "text": "Das Dorf hat mich verjagt, sagt Martin. Aber wenn jemand dort oben meinen Namen noch ausspricht, bin ich weniger tot. Du versprichst es ihm. Du weißt noch nicht, was es kosten wird, dieses Versprechen zu halten.",
+          "next": "leb.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "leb.hist1",
+          "title": "Die Worte des Franz",
+          "text": "Im Testament, seiner persönlichsten Schrift, am Ende des Lebens diktiert, erzählt Franz, der Herr habe ihn unter die Aussätzigen geführt und er habe ihnen Barmherzigkeit erwiesen: Was ihm bitter schien, verwandelte sich in Süße (Testament 1–3). Es ist eine der wenigen Episoden, die durch seine eigene Stimme bezeugt sind. Martin und deine Begegnung gehören zur Fiktion des Wanderers.",
+          "sourceDocumentIds": [
+            "source.testamento"
+          ],
+          "next": "leb.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t1",
+          "teachingId": "teaching.carita.lebbrosi",
+          "text": "Du hast entdeckt: Die Begegnung, die ein Leben verändert. Nächstenliebe ist kein Gefühl: Sie ist die leibliche Gebärde dessen, der sich dem nähert, der ausgeschlossen ist, und entdeckt, dass die Bitterkeit sich in Süße verwandelt. Wer gibt, stellt sich nicht über den, der empfängt: Sie begegnen einander.",
+          "next": "leb.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "leb.t2",
+          "teachingId": "teaching.misericordia.compassione",
+          "text": "Du hast entdeckt: Mit dem Leib zum Nächsten werden. Im Testament sagt Franz nicht, er habe Barmherzigkeit empfunden: Er sagt, er habe sie getan. Mitleid ist wahr, wenn es sich vom Leiden des anderen erreichen lässt, bis die Hände sich bewegen.",
+          "next": "leb.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "leb.r1",
+          "prompt": "Was hat heute deinen Leib bewegt, vor deinen Gedanken: Angst, Ekel, Zärtlichkeit? Erinnere dich an ein Gesicht, das du zu meiden gelernt hast. Wie heißt es?",
+          "teachingId": "teaching.carita.lebbrosi",
+          "next": "leb.end"
+        },
+        {
+          "type": "completion",
+          "id": "leb.end",
+          "text": "Du nimmst den Weg im Dunkeln wieder auf, mit dem Klang der Klapper, der sich hinter dir verliert. Etwas in deiner Weise, die Menschen anzusehen, hat sich für immer verändert.",
+          "exploredTeachingIds": [
+            "teaching.carita.lebbrosi",
+            "teaching.misericordia.compassione"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.testamento"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.lupo.001",
+      "title": "Die Bestie von Gubbio",
+      "order": 4,
+      "placeId": "place.gubbio",
+      "summary": "Gubbio lebt in der Angst vor einem wilden Wolf. Zwischen denen, die die Verteidigung organisieren, denen, die dem unbewaffneten Bruder folgen, und denen, die eine Vermittlung suchen, sieht der Wanderer einen Frieden entstehen.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.rinuncia.001"
+      ],
+      "startNodeId": "lupo.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "lupo.n1",
+          "text": "Gubbio erscheint dir plötzlich, an den Berg geklammert. Aber die Tore sind am hellen Tag verrammelt, und die Felder ringsum sind verlassen: Niemand schickt die Herden mehr auf die Weide.",
+          "next": "lupo.enc_matteo"
+        },
+        {
+          "type": "character_encounter",
+          "id": "lupo.enc_matteo",
+          "characterId": "char.matteo",
+          "text": "Matthäus befehligt die Torwache: Bergjäger, gezeichnetes Gesicht, die Lanze nie weit. Er ist es, der die Treibjagden gegen die Bestie organisiert.",
+          "next": "lupo.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.n3",
+          "speakerId": "char.matteo",
+          "text": "Ein Wolf, Fremder. Groß wie ein Kalb und ohne Furcht vor den Menschen. Er hat Schafe genommen, Hunde, und dann Schlimmeres. Wir werden zu zwanzig ausziehen, bewaffnet. Wenn du feste Beine hast, halt dich vom Wald fern.",
+          "next": "lupo.n4"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.n4",
+          "text": "In der Schenke am Tor geht eine Stimme um, die wie ein Spott klingt: In der Stadt ist ein Bruder aus Assisi, von denen, die barfuß gehen und den Frieden wünschen. Er sagt, er werde allein und unbewaffnet gehen, um der Bestie zu begegnen.",
+          "next": "lupo.c1"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c1",
+          "prompt": "Die Stadt ist zwischen Angst und Unglauben eingezwängt. Was tust du?",
+          "options": [
+            {
+              "id": "lupo.c1.a",
+              "text": "Du hilfst Matthäus, die Verteidigung der Häuser und Herden zu organisieren.",
+              "next": "lupo.d1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_difesa",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.b",
+              "text": "Du folgst dem Bruder vor die Mauern und bleibst einige Schritte zurück.",
+              "next": "lupo.f1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_seguito_frate",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "id": "lupo.c1.c",
+              "text": "Du überzeugst die Jäger, den Bruder ohne Lanzen zu begleiten.",
+              "next": "lupo.m1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "lupo_mediazione",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d1",
+          "text": "Die ganze Nacht verrammelt ihr Tore, tragt Reisig, organisiert die Wachschichten. Wenn die Bestie angreift, wird die Stadt nicht überrascht. Es ist wirkliche Arbeit, und die Leute atmen auf.",
+          "next": "lupo.d2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.d2",
+          "speakerId": "char.matteo",
+          "text": "Ich mag die nicht, die mit Wölfen reden, aber ich mag die, die arbeiten. Du hast gearbeitet. Morgen, mit den Lanzen oder ohne, wird Gubbio bereit sein.",
+          "next": "lupo.d3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.d3",
+          "text": "Am Morgen seht ihr von den Mauern den Bruder allein auf den Wald zugehen. Ein sehr langes Schweigen. Dann erscheint er wieder auf der Straße: und neben ihm, fügsam wie ein Lamm, geht der Wolf.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f1",
+          "text": "Du gehst drei Schritte hinter dem Bruder, jenseits des letzten Hauses. Der Wald schließt sich über dem Pfad, und die Angst schnürt dir die Kehle zu: Aber seine Schritte sind ruhig und ziehen auch die deinen voran.",
+          "next": "lupo.f2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.f2",
+          "speakerId": "char.francesco",
+          "text": "Fürchte dich nicht, Bruder. Wir gehen einer Kreatur entgegen, die Hunger und Angst hat, wie wir alle. Bleib in der Nähe, wenn du magst.",
+          "next": "lupo.f3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.f3",
+          "text": "Die Bestie kommt knurrend aus dem Wald. Der Bruder bekreuzigt sich und spricht mit ihr wie mit einem Bruder: Er bietet ihr Frieden an, im Namen eines Paktes. Und der Wolf legt sich vor deinen Augen ihm zu Füßen.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m1",
+          "text": "Du sprichst lange mit Matthäus und den Seinen: keine Lanzen, keine Hunde. Ihr werdet dem Bruder mit Abstand folgen, zu allem bereit, aber entschlossen, nicht als Erste zu schlagen. Es kostet Mühe, sie zu überzeugen: Die Angst will immer das Eisen.",
+          "next": "lupo.m2"
+        },
+        {
+          "type": "dialogue",
+          "id": "lupo.m2",
+          "speakerId": "char.matteo",
+          "text": "Wir machen es, wie du sagst. Aber wenn die Bestie springt, stehe ich für nichts ein. Der Himmel helfe uns: Wir gehen auf eine Treibjagd ohne Waffen.",
+          "next": "lupo.m3"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.m3",
+          "text": "Die halbe Stadt folgt schweigend den Pfad entlang. Als der Wolf erscheint, suchen hundert Hände Waffen, die es nicht gibt: Aber keine hebt sich. Der Bruder spricht, die Bestie duckt sich, und der Frieden beginnt so: aus einer Angst, die niemand auf den anderen ablädt.",
+          "next": "lupo.conv"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.conv",
+          "text": "Auf dem Platz, vor ganz Gubbio, besiegelt der Bruder den Pakt: Die Stadt wird den Wolf alle seine Tage nähren, und der Wolf wird weder Menschen noch Tieren mehr ein Haar krümmen. Die Bestie hebt die Pfote, und der Platz bricht in Jubel aus.",
+          "next": "lupo.c2"
+        },
+        {
+          "type": "choice",
+          "id": "lupo.c2",
+          "prompt": "Die Angst löst sich in ein Fest. Was tust du?",
+          "options": [
+            {
+              "id": "lupo.c2.a",
+              "text": "Du bietest an, jeden Tag ein Brot zum Bau des Wolfs zu bringen.",
+              "next": "lupo.g1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "pane_al_lupo",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.b",
+              "text": "Du bleibst bei Matthäus, um die Fallen im Wald abzubauen.",
+              "next": "lupo.g2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "trappole_smontate",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.matteo",
+                  "delta": 1
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            },
+            {
+              "id": "lupo.c2.c",
+              "text": "Du setzt dich auf den Platz und sammelst die Stimmen der Stadt.",
+              "next": "lupo.g3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "voci_gubbio",
+                  "value": true
+                },
+                {
+                  "type": "discover_teaching",
+                  "teachingId": "teaching.pace.saluto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g1",
+          "text": "An den Tagen, die du in Gubbio bleibst, kommt jeden Morgen ein Brot von dir zum Bau. Die Kinder folgen dir mit Abstand: Sie wollen sehen, ob es wahr ist, dass die Bestie die Hand nicht beißt, die sie nährt.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g2",
+          "text": "Ihr baut einen ganzen Tag lang Schlagfallen und Schlingen ab. Jahre, um sie zu stellen, sagt Matthäus, und ein barfüßiger Bruder macht sie an einem Morgen nutzlos. Er lacht, aber in seinem Lachen ist Respekt.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "narration",
+          "id": "lupo.g3",
+          "text": "Auf dem Platz hörst du, wie die Stadt sich wieder erzählt: die Alte, die ihm heimlich die Suppe brachte, der Bäcker, der ihm die Finger verdankt, die Kinder, die ihn inzwischen beim Namen rufen. Die Angst hatte sogar die Geschichten ausgelöscht.",
+          "next": "lupo.hist1"
+        },
+        {
+          "type": "historical_insight",
+          "id": "lupo.hist1",
+          "title": "Erzählung oder Geschichte?",
+          "text": "Der Wolf von Gubbio wird in den Fioretti erzählt, einer Sammlung vom Ende des 14. Jahrhunderts (Kap. 21): hagiografische Literatur, keine Chronik, und kein Dokument der Zeit bestätigt ihn. Wir bieten ihn als Erzählung des Gedächtnisses an, nicht als historische Tatsache. Dokumentarisch begründet sind dagegen der Friedensgruß, den Franz empfangen zu haben sagt, im Testament erinnert, und die Friedensverkündigung der ersten Brüder. Deine Rolle in der Begebenheit ist Fiktion.",
+          "sourceDocumentIds": [
+            "source.fioretti"
+          ],
+          "next": "lupo.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "lupo.t1",
+          "teachingId": "teaching.pace.saluto",
+          "text": "Du hast entdeckt: Der Friedensgruß. Frieden ist nicht die Abwesenheit von Krieg: Er ist eine Botschaft, die man trägt, ein Mut, den man hat. Er entsteht, indem man dem entgegengeht, was Angst macht, ohne Waffen in der Hand.",
+          "next": "lupo.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "lupo.r1",
+          "prompt": "Gubbio hatte drei Wege: sich verteidigen, vertrauen, vermitteln. Welchen hast du gewählt, und warum? Wer oder was ist in deinem Leben der Wolf, vor dem alle sich verteidigen, indem sie die Tore verrammeln?",
+          "teachingId": "teaching.pace.saluto",
+          "next": "lupo.end"
+        },
+        {
+          "type": "completion",
+          "id": "lupo.end",
+          "text": "Du verlässt Gubbio, während der Wolf, inzwischen satt und harmlos, in der Sonne beim Backhaus schläft. Die Stadt hat ein neues Wort gelernt, und du hast es mit ihr gelernt: Den Frieden macht man, man wartet ihn nicht ab.",
+          "exploredTeachingIds": [
+            "teaching.pace.saluto"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "story.tempesta.001",
+      "title": "Die Nacht des Gewitters",
+      "order": 5,
+      "placeId": "place.campagne_umbre",
+      "summary": "Vom Gewitter überrascht, teilt der Wanderer eine Grotte mit Bruder Thomas: eine Nacht des Erzählens und Zuhörens und ein Morgen mit Sonne auf den nassen Blättern.",
+      "isBiographical": false,
+      "requiredChapters": [
+        "story.lupo.001"
+      ],
+      "startNodeId": "temp.n1",
+      "nodes": [
+        {
+          "type": "narration",
+          "id": "temp.n1",
+          "text": "Auf dem Rückweg zum Dorf der Eichen schließt sich der Himmel schnell. Der Wind trägt den Geruch von Regen, und die ersten Donnerschläge rollen jenseits der Kämme.",
+          "next": "temp.n2"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n2",
+          "text": "Während das Gewitter losbricht, ruft dich eine Stimme aus einer Grotte am Rand des Pfades. Ein barfüßiger Bruder winkt dich herein, zwischen zwei Tropfen und einem Blitz.",
+          "next": "temp.enc_tommaso"
+        },
+        {
+          "type": "character_encounter",
+          "id": "temp.enc_tommaso",
+          "characterId": "char.frate_tommaso",
+          "text": "Bruder Thomas ist ein Minderer auf der Durchreise: abgelaufene Sandalen, geflickte Kutte, ein Stock und sonst nichts. Er ist an das Schweigen gewöhnt und hat die seltene Gabe zuzuhören.",
+          "next": "temp.n3"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n3",
+          "speakerId": "char.frate_tommaso",
+          "text": "Komm herein, Bruder, und trockne dich. Die Grotte gehört niemandem: Heute Nacht teilen wir sie mit dem Regen. Ich habe etwas Brot und das Feuer: Für zwei Wanderer ist das ein Palast.",
+          "next": "temp.n4"
+        },
+        {
+          "type": "narration",
+          "id": "temp.n4",
+          "text": "Das Feuer fasst, das Brot teilt sich von selbst. Draußen macht das Gewitter das Geräusch eines Flusses; drinnen hast du zum ersten Mal seit vielen Tagen keine Eile.",
+          "next": "temp.c1"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c1",
+          "prompt": "Die Nacht wird lang sein. Womit füllst du sie?",
+          "options": [
+            {
+              "id": "temp.c1.a",
+              "text": "Du fragst Bruder Thomas nach seinem Leben vor der Kutte.",
+              "next": "temp.s1",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "storia_tommaso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 2
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.b",
+              "text": "Du erzählst selbst: das Dorf, Martin, der Platz von Assisi, der Wolf von Gubbio.",
+              "next": "temp.s2",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "raccontato_viaggio",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            },
+            {
+              "id": "temp.c1.c",
+              "text": "Ihr bleibt im Schweigen und hört dem Regen zu.",
+              "next": "temp.s3",
+              "effects": [
+                {
+                  "type": "set_flag",
+                  "flag": "silenzio_condiviso",
+                  "value": true
+                },
+                {
+                  "type": "add_relation",
+                  "characterId": "char.frate_tommaso",
+                  "delta": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Ich war Hirte auf diesen Bergen. Ein Hochwasser nahm mir die Herde und die Hütte, in einer Nacht wie dieser. Ich weinte wie ein Kind. Dann entdeckte ich, dass ich, da ich nichts mehr besaß, nichts mehr fürchtete: Da verstand ich die Brüder von Assisi.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.s2",
+          "speakerId": "char.frate_tommaso",
+          "text": "Bruder Thomas hört zu, ohne zu unterbrechen, die Augen auf dem Feuer. Am Ende nickt er: Jede Straße lehrt, sagt er, wenn man sie mit offenen Augen geht. Du hast zugelassen, dass die Straße dich verändert, und man sieht es.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.s3",
+          "text": "Das Schweigen ist nicht leer: Der Regen setzt den Takt, das Feuer antwortet, der Atem des anderen hält den Rhythmus. Du verstehst, dass es Gespräche gibt, die keine Worte brauchen.",
+          "next": "temp.conv"
+        },
+        {
+          "type": "narration",
+          "id": "temp.conv",
+          "text": "Gegen die Morgendämmerung dünnt das Gewitter zu einem sanften Regen aus. Bruder Thomas spricht von seinem Bruder Franz, der auch vom Lager des Schmerzes aus Lobpreisungen dichtet: Er nennt die Sonne Bruder, das Wasser Schwester, die Erde Mutter, die uns im Schoß trägt.",
+          "next": "temp.n5"
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.n5",
+          "speakerId": "char.frate_tommaso",
+          "text": "Er sagt, jedes Geschöpf lobe den Schöpfer, indem es tut, was es ist: die Sonne, indem sie wärmt, das Wasser, indem es den Durst stillt, die Erde, indem sie nährt. Und dass auch der schlimme Tag empfangen ist, nicht geschuldet. Wenn ich es wiederhole, dann weil ich es heute Nacht, hier, mit eigenen Augen gesehen habe.",
+          "next": "temp.c2"
+        },
+        {
+          "type": "choice",
+          "id": "temp.c2",
+          "prompt": "Das erste Licht sickert in die Grotte.",
+          "options": [
+            {
+              "id": "temp.c2.a",
+              "text": "Du fragst ihn, wie man dankt, wenn alles schiefläuft.",
+              "next": "temp.q1"
+            },
+            {
+              "id": "temp.c2.b",
+              "text": "Du bittest um nichts: Du siehst die Tropfen auf den Blättern an, und das genügt.",
+              "next": "temp.q2"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "id": "temp.q1",
+          "speakerId": "char.frate_tommaso",
+          "text": "Ich kann es nicht erklären, Bruder. Ich weiß, dass die Dankbarkeit nicht der Preis der guten Tage ist: Sie ist eine Übung, wie das Gehen. Wer sie jeden Tag tut, hat an den schwarzen Tagen geübte Beine.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.q2",
+          "text": "Ihr bleibt und seht zu, bis die Sonne die Wolken durchstößt. Die nassen Blätter entzünden sich eines nach dem anderen, und das ganze Tal scheint eben erst geschaffen.",
+          "next": "temp.m1"
+        },
+        {
+          "type": "narration",
+          "id": "temp.m1",
+          "text": "Ihr tretet aus der Grotte in eine gewaschene Welt. Das Wasser rauscht noch von den Zweigen, die Sonne lässt es glänzen, und du merkst, dass du ohne Grund lächelst. Bruder Thomas nimmt seinen Stock wieder auf: Eure Wege trennen sich hier.",
+          "next": "temp.hist1",
+          "effects": [
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.creato.cantico"
+            },
+            {
+              "type": "discover_teaching",
+              "teachingId": "teaching.gratitudine.lodi"
+            }
+          ]
+        },
+        {
+          "type": "historical_insight",
+          "id": "temp.hist1",
+          "title": "Der Sonnengesang, die Grotte, die Fiktion",
+          "text": "Der Sonnengesang ist ein authentisches Werk des Franz, entstanden 1225–1226, in der Zeit der Krankheit: eine Lauda in der Volkssprache, in der Sonne, Mond, Wind, Wasser, Feuer und Erde Gott als Brüder und Schwestern loben. Authentisch sind auch die Lobpreisungen des höchsten Gottes, ein Gebet ohne Bitten. Bruder Thomas und die Nacht in der Grotte gehören zur Fiktion des Wanderers; seine Worte paraphrasieren den Sonnengesang, ohne ihn zu zitieren.",
+          "sourceDocumentIds": [
+            "source.cantico"
+          ],
+          "next": "temp.t1"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t1",
+          "teachingId": "teaching.creato.cantico",
+          "text": "Du hast entdeckt: Bruder Sonne, Schwester Wasser. Die Welt ist weder ein Lager von Ressourcen noch ein Götze: Sie ist eine Familie von Geschöpfen, die den Schöpfer loben. Die Sorge für die Schöpfung entspringt der Verwandtschaft und der Dankbarkeit, nicht dem Nutzen.",
+          "next": "temp.t2"
+        },
+        {
+          "type": "teaching",
+          "id": "temp.t2",
+          "teachingId": "teaching.gratitudine.lodi",
+          "text": "Du hast entdeckt: Das Lob, das nichts erbittet. Dankbarkeit belohnt nicht das Glück: Sie ist ein geübter Blick, der die Gabe in jedem Ding erkennt, im Wasser, in der Sonne, im Tag, sogar in der Krankheit.",
+          "next": "temp.r1"
+        },
+        {
+          "type": "reflection",
+          "id": "temp.r1",
+          "prompt": "Diese Nacht hast du Brot, Feuer und Schweigen mit einem Unbekannten geteilt. Sieh deinen heutigen Tag an, wie die Grotte das Gewitter ansah: Was von dem, was du hast, ist empfangen und nicht geschuldet?",
+          "teachingId": "teaching.gratitudine.lodi",
+          "next": "temp.rw1"
+        },
+        {
+          "type": "reward_unlock",
+          "id": "temp.rw1",
+          "text": "Auf dem Weg zum Dorf denkst du an Schwester Wasser, die den Durst stillt und wäscht und in den Gräben singt. Im Garten der Erinnerung fließt von heute an ein Brunnen.",
+          "unlocks": [
+            {
+              "type": "unlock_garden",
+              "elementId": "garden.fontana"
+            }
+          ],
+          "next": "temp.end"
+        },
+        {
+          "type": "completion",
+          "id": "temp.end",
+          "text": "Im Dorf der Eichen nimmt man dich auf wie jemanden, der von weit her zurückkehrt. Du hast noch den Geruch von Rauch und Regen in den Kleidern und in den Ohren die Stimme des Wassers. Der Weg geht weiter.",
+          "exploredTeachingIds": [
+            "teaching.creato.cantico",
+            "teaching.gratitudine.lodi"
+          ]
+        }
+      ],
+      "sourceDocumentIds": [
+        "source.cantico"
+      ],
+      "category": "narrazione_originale",
+      "reviewStatus": "verified"
+    }
+  ]
+}

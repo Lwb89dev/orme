@@ -15,6 +15,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
@@ -25,6 +26,8 @@ import it.orma.cammino.core.designsystem.CamminoTheme
 import it.orma.cammino.ui.navigation.LocalReduceAnimations
 import it.orma.cammino.ui.navigation.CamminoNavHost
 import it.orma.cammino.ui.i18n.LocalAppLanguage
+import it.orma.cammino.ui.i18n.LocalUiExtras
+import it.orma.cammino.ui.i18n.loadUiExtras
 import it.orma.cammino.ui.i18n.uiText
 import it.orma.cammino.ui.onboarding.OnboardingScreen
 import kotlinx.coroutines.launch
@@ -44,10 +47,13 @@ class MainActivity : ComponentActivity() {
                 ThemeMode.DARK -> true
                 else -> isSystemInDarkTheme()
             }
+            val language = settings?.language ?: "en"
+            val uiExtras = remember(language) { loadUiExtras(app, language) }
             CamminoTheme(darkTheme = darkTheme) {
                 CompositionLocalProvider(
                     LocalReduceAnimations provides (settings?.reduceAnimations ?: false),
-                    LocalAppLanguage provides (settings?.language ?: "en"),
+                    LocalAppLanguage provides language,
+                    LocalUiExtras provides uiExtras,
                 ) {
                     Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
                         val currentContent = content

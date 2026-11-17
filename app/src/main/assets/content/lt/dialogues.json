@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Ką reiškia būti nuolankiam?",
+      "theme": "umilta",
+      "description": "Sąžiningas vedlys išardo nesusipratimą, kad nuolankumas yra savęs nuvertinimas: Pranciškaus „tiesą apie save“, „mažesniųjų“ vardą ir savą valią Perspėjimuose.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Sveikas atvykęs į Dialogą. Prisistatau: esu vedlys per pranciškonų šaltinius, nesu Pranciškus ir nekalbu jo vardu. Šiandienos klausimas skamba paprastai: ką reiškia būti nuolankiam? Daugelis, išgirdę žodį „nuolankumas“, tuoj pagalvoja apie savęs menkinimą. Prieš pradedant man rūpi tavo išeities taškas.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Man nuolankumas yra nesuteikti sau svarbos, likti savo vietoje.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Įtariu, kad tai kažkas kita, bet nemokėčiau pasakyti kas.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Kodėl Pranciškaus broliai vadinosi „mažesniaisiais“?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Tai labiausiai paplitusi mintis ir atspariausias nesusipratimas. Jei nuolankumas būtų savęs nuvertinimas, jis taptų subtiliu būdu vis dar rūpintis savimi: savo įvaizdžiu, savo vieta, net demonstruojamu savo vidutiniškumu. Pranciškonų šaltiniai rodo kitur: ne manyti save mažais, o matyti save tiesoje. Skirtumas atrodo plonas, bet keičia viską.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Tai kas iš tiesų yra nuolankumas?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Ar yra Pranciškaus tekstas, kuris tai sako?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Šis netikrumas yra geras išeities taškas, sakau be ironijos. Kas pripažįsta nežinąs, jau žengė žingsnį link to, ką Pranciškus laiko nuolankumu: matyti save tiesoje, neišsipučiant ir nesiplėšant. Pabandykime suteikti šiai minčiai formą, pradėdami nuo šaltinių.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Gerai: kokia yra pranciškoniško nuolankumo širdis?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Ar yra šaltinių vieta, kurią skaitytume kartu?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Tikslus klausimas, ir atsakymas yra maža programa. Visuomenėje, grįstoje garbe ir luomu, Pranciškus norėjo, kad saviškiai vadintųsi mažesniaisiais broliais: nė vieno „didesniojo“, nė vieno, kuriam tarnautų. Net brolystės atsakinguosius jis pavadino „ministrais“, o lotyniškai tai reiškia tarnus. Tai nebuvo kalbos įnoris: tai vietos pasirinkimas, paskutinės, iš kurios nieko negalima išstumti.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "O kasdieniame gyvenime, kokį skirtumą tai daro?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Jo raštuose yra kas nors apie tai?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Štai centras. Pranciškui nuolankumas yra tiesa apie save: mažiems Dievo akivaizdoje, skolingiems už viską, kas esame ir turime, gebantiems tarnauti nereikalaujant pripažinimo. Pastebėk, kad ši tiesa apima ir tavo talentus: pripažinti juos gautomis dovanomis nėra puikybė, tai sąžiningumas. Nuolankusis savęs nenuvertina: liaujasi vaidinti ir viena, ir kita prasme. Ir yra laisvas nuo poreikio pasirodyti, kuris yra viena varginančių vergysčių.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "O savi talentai? Ar reikia juos neigti, kad būtum nuolankus?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Kaip tai verčiama šiandien, pavyzdžiui darbe ir internete?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Ką tiksliai sako Perspėjimų tekstas?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Man tiek užtenka: galime užbaigti.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Yra trumpas ir aštrus tekstas: Perspėjimai, pamokymai, kuriuos Pranciškus skyrė brolystei. Vienas taikinių yra „sava valia“, paversta visų matu: kas laiko save teisu ir išmintingu iš savęs, įspėja Pranciškus, tas tolsta nuo tikro nuolankumo, kuris yra palenkti savo sprendimą ir tarnauti. Bet dėmesio: palenkti nereiškia užgesinti. Šaltiniai neprašo liautis mąstyti, o nepaversti savo požiūrio absoliučiu.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Atrodo kaip atsižadėjimas savo galvos. Ar ne per daug?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "O konkrečiai, šiandien, kaip tai atrodo?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Pabandykime išversti, žinodami, kad tai šiuolaikinė interpretacija, ne viduramžių tekstas. Darbe nuolankumas yra gerai atlikti savo dalį nedarant iš to reginio, pripažinti klaidą nestatant alibi, palikti nuopelną tam, kuris jo vertas. Internete, kur daug kas matuojama matomumu, tai galėti skelbti ir dirbti, kad kitų teismas netaptų tavo šeimininku. Tai ne kvietimas slėptis: tai kvietimas nepriklausyti nuo plojimų.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Gražu, bet mano aplinkoje laimi tas, kuris išsiveržia į priekį.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Įtikina. Užbaikime.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Prieštaravimas teisėtas ir vertas sąžiningo atsakymo. Šaltiniuose klusnumas nėra savęs panaikinimas: pati brolystė buvo vieta, kur vieni kitiems išsakydavo poreikius, tai yra kalbėdavo. Esmė ne panaikinti savo sprendimą, o atsisakyti, kad jis būtų aukščiausiasis visko teismas. Bet čia šaltiniai neduoda atvejų sąrašo: negaliu pasakyti, kur eina riba tavo konkrečiu atveju. Tai lieka tavo darbas ir to, kuris tave iš tiesų pažįsta.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Turi prasmės. O kasdieniame gyvenime?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Verčiau čia sustoju.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Teisingai tai keli, ir neatsakau karjeros patarimu: ne mano vaidmuo. Sakau tik tiek, kad pranciškonų šaltiniai nežada, jog nuolankumas „veiks“: žada, kad jis daro laisvus. Kartais kainuoja, ir apsimesti priešingai būtų nesąžininga. Pasirinkimas negyventi dėl pritarimo lieka būtent pasirinkimas: tavo, pamatuotas tavo kontekstu.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Sąžininga, ačiū. Užbaikime.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Perskaitykime mokymo širdį.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Ne, ir šaltiniai, skaitomi atidžiai, sako priešingai. Pranciškaus logika yra dovanos logika: jei viskas gauta, ir tavo gebėjimai tokie, o juos neigti būtų tik kitas būdas meluoti apie save. Nuolankumas neprašo sakyti „nieko nevertas“, o sakyti tiesą: „tai gavau, už tai esu skolingas“. Ir kas moka atpažinti dovaną, moka ir dėkoti: pranciškonų kelyje dėkingumas yra džiaugsmo durys.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "O kaip tai gyvenama šiandienos konkretybėje?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Galime čia užbaigti.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Čia sustojame. Jei nori, nusinešk klausimą, ne užduotį: kurioje savo dienos vietoje vaidini vaidmenį, užuot būdamas tiesoje to, kas esi, gėryje ir riboje? Nereikia atsakyti man nei kam nors. Kiti Dialogo pokalbiai tavęs laukia, kai panorėsi: atleidimas, neturtas, kūrinija, Pranciškaus tikėjimas.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Pereik šį pokalbį nuo pradžios.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Atrask kitus Dialogo pokalbius.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Ačiū, kad ėjai su manimi per šiuos šaltinius. Iš Dialogo sąrašo gali atidaryti kitą pokalbį arba vėl rasti šį, kai panorėsi: tekstai lieka, ir klausimai taip pat.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Pradėk šį pokalbį iš naujo.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Užbaik kol kas."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Kaip galima kam nors atleisti?",
+      "theme": "perdono",
+      "description": "Laiškas ministrui ir Giesmės strofa: atleidimas kaip kartojamas sprendimas, skirtumas nuo teisingumo ir sąžiningas atsakymas tam, kuris nepajėgia.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Sveikas atvykęs į Dialogą. Vedžioju aš: nesu Pranciškus ir nekalbu jo vardu, lydžiu tave į tai, ką šaltiniai iš tiesų sako. Šiandienos klausimas yra vienas sunkiausių, kokie yra: kaip galima kam nors atleisti? Nežadu patogaus atsakymo. Man padeda žinoti, nuo ko pradedi.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Patyriau skriaudą ir nepajėgiu paleisti pykčio.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Ar atleisti nereiškia apsimesti, kad nieko nebuvo?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Pirmiausia norėčiau žinoti, ką Pranciškus sako apie atleidimą.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Ačiū už atvirumą. Pranciškonų šaltiniai nežada, kad pyktis dings, ir neprašo apsimesti, kad skriaudos nebuvo. Tai, ką siūlo, yra kita: atleidimas kaip sprendimas, kuris atnaujinamas, net kai jausmas jo neseka. Jei šiandien nepajėgi, tai tavęs nediskvalifikuoja: tai norma, ne išimtis.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Sprendimas, kuris atnaujinamas: paaiškink.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "O jei tikrai nepajėgiu?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Ką Pranciškus apie tai rašo?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Ne, ir verta tuoj pasakyti aiškiai: atleisti nėra neigti. Pranciškonų šaltiniai nepainioja gailestingumo ir neteisybės: padarytas blogis lieka blogis, ir jo pasekmės lieka tikros. Atleidimas čia neištrina to, kas įvyko: jis atsisako leisti įžeidimui tarti paskutinį žodį apie santykį. Tai du skirtingi lygmenys, ir laikyti juos atskirai yra pirmasis žingsnis.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Tai atleidimas ir teisingumas gali būti kartu?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Ką tiksliai sako Pranciškus?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Pagrindinis tekstas yra Laiškas ministrui: Pranciškus rašo brolystės atsakingajam, kuris turi elgtis su broliais, kurie klysta. Garsioji vieta iš esmės sako: jei brolis būtų nusidėjęs tūkstantį kartų tavo akyse, mylėk jį labiau už mane ir skelbk jam gailestingumą. Tūkstantis kartų: ne didvyriškas sprendimas kartą visiems laikams, o pasirinkimas, daromas kasdien iš naujo. Tai keičia klausimą: ne „ar jaučiu, kad atleidžiu?“, o „ar renkuosi atleisti ir šiandien?“.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Tūkstantis kartų yra per daug. Ar prašymas realus?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "O teisingumas? Ar suklydęs neturi atsakyti?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Kūrinijos giesmė kalba apie atleidimą, tiesa?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Taip, ir pats Laiškas tai leidžia nujausti: Pranciškus prašo skelbti gailestingumą, kad tik kitas atgailautų, tai yra atleidimas nepaskelbia nekalto to, kuris suklydo, ir neatleidžia jo nuo atitaisymo. Ir jo laiku taikantys broliai nepanaikino teismų ir atsakomybės: dirbo, kad kerštas nebūtų vienintelis galimas teisingumas. Atleisti ir prašyti, kad blogis būtų pripažintas, nėra priešai. Jie gali eiti kartu, nors ir vargingai.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "O nuo ko pradedama praktiškai?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Ar čia ką nors turi Giesmės strofa?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "O jei skriauda per didelė arba per nauja?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "O suskaldytuose jo laiko miestuose?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Pradedama nuo perspektyvos pataisos. Jei atleidimas būtų jausmas, turėtum laukti, kol jis ateis: ir dažnai neateina arba ateina ir paskui išeina. Jei tai sprendimas, gali jį priimti ir dar degančiu pykčiu, ir vėl rytoj, ir poryt. Šaltiniai neaprašo linijinio kelio: žodis „tūkstantį kartų“ veikiau rodo priešingai. Sąžiningumas: pranciškonų tekstuose nėra technikų. Yra kryptis.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "O jei šiandien tikrai nepajėgiu?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "O su savimi? Ar galima atleisti sau?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Papasakok Giesmės strofą apie atleidimą.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Sąžiningas atsakymas: taip gali nutikti, ir šaltiniai tavęs už tai neteisia. Nei aš: esu vedlys per tekstus, ne nuodėmklausys ir ne terapeutas. Sakau du dokumentuojamus dalykus. Pirmas: Laiškas kalba apie tūkstantį kartų, o tai reiškia, kad jau XIII amžiuje atleidimas nebuvo mąstomas kaip akimirksnio gestas. Antras: jei žaizda gili, dalytis ja su kuo nors, kuriuo pasitiki, arba su profesionalu, kai reikia, nėra pralaimėjimas. Apie atleidimo laikus pranciškonų šaltiniai tyli: čia daugiau pasakyti negalime.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "O atleidimas sau?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Ačiū už sąžiningumą. Užbaikime.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Yra Kūrinijos giesmės strofa, kuri šlovina Dievą už tuos, kurie atleidžia dėl jo meilės, pakeldami ligą ir vargą. Kritika ją paprastai datuoja 1226 metų vasara, o tradicija sieja su konkrečiu epizodu: Asyžiaus vyskupas ir podestas buvo atvirame konflikte, ir Pranciškus, jau sergantis, būtų pridėjęs tą strofą ir liepęs giedoti Giesmę jų akivaizdoje, kad juos sutaikytų. Patikslinu lygmenis: strofa autentiška, epizodo pasakojimas mus pasiekia per hagiografinę tradiciją. Lieka faktas: atleidimas Pranciškui buvo vertas gyriaus net jo miesto konfliktuose.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Atleisti konflikto viduryje: ar įmanoma?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "O kas nepajėgia atleisti?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Galime užbaigti.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Čia turiu būti sąžiningas dėl šaltinių ribų. Pranciškonų tekstai kalba apie atleidimą broliams ir tam, kuris įžeidžia; apie atleidimą sau, kaip jį suprantame šiandien, beveik nieko aiškaus nesako. Galime mąstyti pagal analogiją: jei gailestingumas skelbiamas tūkstantį kartų tam, kuris klysta, sunku išskirti save. Bet tai lieka mūsų samprotavimas, ne citata. Verčiau tau tai pasakyti, negu dėti Pranciškui į burną žodžius, kurių jis neparašė.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Vertinu tikslumą. O nuo ko vėl pradedama?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Užbaikime čia.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Yra ir viešas matmuo. Komunų Italiją raižė vaidai ir kerštai, o šaltiniai mini pirmuosius brolius, skelbusius taiką iš namų į namus pasveikinimu, kurį Pranciškus liudijo gavęs. Atleidimas tame pasaulyje nebuvo tik privatus dalykas: tai buvo taškas, kuriame galima nutraukti atkirčio grandinę. Ir šiandien vaidai yra – šeimose, kvartaluose, socialiniuose tinkluose – ir logika ta pati: kas nors turi liautis grąžinęs smūgį.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "O Giesmės strofa gimė būtent iš konflikto, ar ne?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Man užtenka. Užbaikime.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Čia sustojame. Jei nori, nusinešk vieną vaizdą, ne užduotį: atleidimą kaip kelią, kuris tiesiamas metras per dieną, ne kaip šuolį kartą visiems laikams. Ir jei tavo žaizda šiandien to neleidžia, šis dialogas neprašė tau pavykti: prašė suprasti. Kiti Dialogo pokalbiai tavęs laukia, kai panorėsi.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Pereik šį pokalbį nuo pradžios.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Atrask kitus Dialogo pokalbius.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Ačiū, kad ėmeisi sunkaus klausimo be trumpinių. Dialogo sąraše rasi kitus pokalbius: aš lieku čia, ir tekstai taip pat.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Pradėk šį pokalbį iš naujo.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Užbaik kol kas."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Ar Pranciškus buvo prieš turtą?",
+      "theme": "poverta",
+      "description": "Pranciškus nesmerkė gėrybių: išlaisvino nuo nuosavybės. 1223 metų Regula, atsižadėjimas vyskupo akivaizdoje ir ką tai reiškia šiandien, be romantikos.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Sveikas atvykęs į Dialogą. Prisistatau: esu vedlys, ne Pranciškus; su tavimi skaitau šaltinius ir pasakau, kada jų nepakanka atsakyti. Šiandienos klausimas pilnas nesusipratimų: ar Pranciškus buvo prieš turtą? Trumpas atsakymas yra „ne, ne ta prasme, kurią galbūt įsivaizduoji“. Bet vertas ilgo kelio. Nuo ko pradedame?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Visada maniau, kad jis niekino pačius pinigus.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Įtariu, kad esmė kita, bet nemoku pasakyti.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Ar tai ne tik romantiškas neturtas, iš XIX amžiaus plakato?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Tai labiausiai paplitusi rekonstrukcija ir kartu mažiausiai tiksli. Pranciškaus tekstuose nerasi gėrybių pasmerkimo, tarsi jos būtų nešvarios: rasi ką radikalesnio ir subtilesnio, tai yra atsisakymą jų savintis. Taikinys ne turtas, o nuosavybė: tai, ką daiktai daro tam, kuris tiki juos valdąs. Eikime prie teksto, kuris tai sako geriausiai.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Kuris tekstas?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "O garsioji atsižadėjimo scena?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Tavo įtarimas pagrįstas. Esmė ne gėrybių kiekis, o ryšio rūšis: Pranciškus nori brolių, kurie nieko nesisavina, nes kas nevaldo, tam nereikia ginti, o kam nereikia ginti, tas laisvas mylėti. Tai laisvės logika, ne pasibjaurėjimo. Parodysiu tau tai Regulos tekste.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Skaitykime Regulą.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Pirmiausia papasakok sceną vyskupo akivaizdoje.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Prieštaravimas rimtas ir vertas pagarbos: romantiškas neturtas yra, ir tai karikatūra, kurioje pranciškoniško mažai. Tad susitarkime: jokių idealizavimų. Žiūrėkime, ką sako šaltiniai – sceną, kurią papasakojo pirmasis biografas, ir norminį tekstą, kurį parašė pats Pranciškus – o paskui tu spręsk, ar jie laikosi.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Gerai: pirmojo biografo scena.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Norminis tekstas.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "1223 metų Regula, galutinis tekstas, patvirtintas Bažnyčios: broliai nieko nesisavina, „nei namų, nei vietos, nei jokio daikto“; gyvena kaip piligrimai ir ateiviai ir eina išmaldos nesigėdydami. Paskelbta priežastis teologinė: Viešpats dėl mūsų tapo neturtėliu. Bet yra ir skaidri žmogiška logika: ko nevaldai, tas nevaldo tavęs. Techninė tradicija tai vadina „sine proprio“, be nieko sava. Ne daiktų panieka – jie gaunami, vartojami ir už juos dėkojama – o išsilaisvinimas nuo nuosavybės.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Papasakok atsižadėjimą vyskupo akivaizdoje.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "O šiandien? Ar turėtume viską parduoti?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "O tikrieji vargšai? Ar nerizikuojame pagražinti skurdo?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Celano Tomas, pirmasis biografas, pasakoja taip: vyskupo Gvido ir tėvo Pietro di Bernardone akivaizdoje Pranciškus grąžina net drabužius ir atsižada tėvo gėrybių, sakydamas, kad nuo šiol tėvu gali vadinti tik Dievą. Vyskupas jį apgaubia savo apsiaustu. Patikslinu lygmenis: epizodas yra dokumentuotas ašis, bet sceninės smulkmenos priklauso Celano pasakojimui, kuris yra hagiografija, ugdanti literatūra, ne protokolas. Prasmė vis dėlto skaidri: viešai nutraukti ryšį su šeimos turtais.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Teatrinis gestas ar apmąstytas pasirinkimas?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "O mes šiandien, ką su tuo darome?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Neišvengiamas klausimas, ir sąžiningas atsakymas yra: šaltiniai neprašo visų to paties. Ta Regula buvo broliams; Pranciškus nerašė regulų pirkliams, tėvams, amatininkams. Tad ne: nėra pranciškoniško teksto, kuris tau įsakytų viską parduoti. Yra nepatogus klausimas, kuriame reikia gyventi: kokius daiktus valdau ir kurie valdo mane? Konkretus atsakymas proporcingas tavo gyvenimui, ne jo.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Kaip skiriame pasirinktą neturtą ir patirtą skurdą?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "O kas dirba, uždirba, išlaiko šeimą?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Duok ko nors konkretaus, be kraštutinių gestų.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Tai svarbiausias šio pokalbio skirtumas. Patirtas skurdas – neturėti ko valgyti, kuo gydytis, stogo – yra socialinė žaizda, kurią reikia gydyti, ne idealas kontempliuoti: Pranciškus tarnavo vargšams, jų neestetizavo. Pranciškoniškas neturtas yra kas kita: laisvas pasirinkimas nesisavinti, padarytas dėl laisvės ir solidarumo. Painioti juos yra klaida, kurios visada reikia vengti: šlovinti svetimą skurdą būtų būtent tas „romantiškas neturtas“, apie kurį kalbėjome.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Tai romantikos kritika turėjo tiesos dugną?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "O praktiškai, man, šiandien?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Užbaikime čia.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Teatrinis jis tikrai buvo: ir visuomenėje, grįstoje teise ir nuosavybe, tik viešas gestas galėjo atrišti viešą saitą. Bet tai nebuvo improvizacija: Celanas jį talpina po mėnesių krizės, nelaisvės Perudžoje, ligos, nusivylimų. Jei nori kriterijaus vertinti gestus, jo ir savo, štai jis: ne akimirkos intensyvumas, o tai, kas ateina paskui. Pranciškus dar dvidešimt metų gyveno nuosekliai. Tikri gestai atpažįstami iš ilgos trukmės.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "O šiandien, be kraštutinių gestų?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Supratau. Užbaikime.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkretu, tad, bet be receptų: ne mano vaidmuo juos duoti. Pranciškonų tradicija siūlo kryptį trimis ėjimais: žiūrėti į tai, ką valdai, klausdamas, ar tai daro tave laisvą, ar atsargų; vartoti daiktus kaip gautus, ne kaip priklausančius; leisti paprastumui išlaisvinti erdvę – laiką, dėmesį, pinigus – kitiems. Tai šiuolaikinė interpretacija, sakau sąžiningai: bet ji ištikima „sine proprio“ dvasiai.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Grįžk prie Regulos teksto.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Užbaikime.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Joks pranciškonų šaltinis nesako, kad dirbti ir uždirbti daro tave tolimą nuo Pranciškaus: Regula yra konkrečios brolystės gyvenimo forma, ne kiekvienos egzistencijos matas. Logika beveik apversta: problema ne turėti, o tarnauti tam, ką turi. Jei tavo darbas, uždarbis, namai tampa įrankiais – tavais ir kitų – o ne šeimininkais, esi arčiau Regulos dvasios, nei manai.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "O rizika romantizuoti neturtą?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Užbaikime.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Čia sustojame. Nepalieku tau užduoties: palieku klausimą, kurį šis pokalbis bandė atverti. Kas iš to, ką valdai, valdo tave? Atsakyk ramiai arba visai neatsakyk. Kai panorėsi, kiti Dialogo pokalbiai yra sąraše: nuolankumas, atleidimas, kūrinija, tikėjimas.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Pereik šį pokalbį nuo pradžios.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Atrask kitus Dialogo pokalbius.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Ačiū, kad ieškojai išskleisto atsakymo į klausimą, kuris dažnai gauna šūkius. Pasimatysime Dialoge, kai panorėsi: šaltiniai negenda.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Pradėk šį pokalbį iš naujo.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Užbaik kol kas."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Kodėl Pranciškus kalbėjo su gyvūnais?",
+      "theme": "creato",
+      "description": "Giminystė, ne panteizmas: Giesmė, Celano paukščiai, Fioretti vilkas ir ką visa tai sako – ir ko nesako – šiandienos ekologijai.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Sveikas atvykęs į Dialogą. Esu tavo vedlys: nesu Pranciškus, ir kai šaltinių nepakanka, tau pasakau. Šiandienos klausimas grimzta į šimtmečių vaizdus: Pranciškus, kalbantis paukščiams, vilkui, žuvims. Kas už to? Priklauso nuo to, ko ieškai.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Noriu tiesos: ar tai tik legenda, kad jis kalbėjo su gyvūnais?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Klausiu savęs, ar jis matė Dievą gamtoje: ar buvo panteistas?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Papasakok Kūrinijos giesmę.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Istoriko klausimas, ir atsakymas sluoksniuotas, kaip beveik viskas, kas liečia Pranciškų. Branduolys paliudytas anksti: Celano Tomas, artimas biografas, pasakoja pamokslą paukščiams santūriais tonais. Sceniškesni pasakojimai – Gubijo vilkas, žuvys, sliekai – pražysta šimtmečiu vėliau Fioretti. Tad: sena atmintis ir literatūrinis išplėtimas. Parodysiu abu, atskirtus.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Santūrioji Celano versija.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Fioretti versija: vilkas.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Ne, ir tekstas, kuris tai rodo, yra Kūrinijos giesmė. Pranciškus šlovina Dievą „už“ kūrinius – brolį saulę, seserį mėnulį – nešlovina kūrinių, tarsi jie būtų dieviški. Skirtumas lemiamas: gamta nėra Dievas, ji yra šeima. Kūriniai yra seserys, nes to paties Tėvo dukros. Tinkamas žodis yra „giminystė“, ne panteizmas.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Skaitykime Giesmę.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "O istorijos su gyvūnais?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Kūrinijos giesmė, sukurta 1225–1226 metais, kai Pranciškus sirgo ir buvo beveik aklas: ji yra tarp pirmųjų poetinių tekstų italų liaudies kalba. Šlovina Dievą už brolį saulę, „kuris yra diena“, už seserį mėnulį ir žvaigždes, už brolį vėją, už seserį vandenį, „labai naudingą, nuolankią, brangią ir skaistią“, už brolį ugnį ir už „seserį mūsų motiną žemę“. Du dalykai pastebėti. Pirmas: tai ne himnas gamtai, o gyrius Dievui per gamtą. Antras: ji gimsta kentėjime, ne idiliškame pasivaikščiojime.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "O pamokslas paukščiams?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "O Gubijo vilkas?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Ką visa tai sako šiandienos ekologijai?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Celano versija stebėtinai santūri: Pranciškus mato paukščių būrius, kreipiasi į juos kaip į kūrinius, gebančius klausytis, ir ragina šlovinti Dievą. Jokių išskleistų dialogų, jokių įspūdingų stebuklų: atpažinimo gestas. Fioretti šimtmečiu vėliau pridės kryžiaus ženklą, būrius, kurie išsirikiuoja klausytis, iškilmingą atsisveikinimą. Pirma Pranciškaus stilius, paskui pamaldumo stilius. Abu mums ką nors sako, bet skirtinga.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "O Gubijo vilkas?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Jei tai literatūra, kokią vertę ji turi?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "O šiuolaikinė ekologija?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Gubijo vilkas yra Fioretti šedevras: išgąsdintas miestas, Pranciškus, einantis priešais žvėrį, kalbantis jam kaip broliui ir tarpininkaujantis sandorai – miestas jį maitins, jis daugiau niekam nedarys žalos. Turiu būti aiškus dėl literatūros žanro: tai XIV amžiaus hagiografija, pamaldumo atmintis, ne patikrinama kronika. Bet pažiūrėk, ką ji išlaiko: taiką, gimstančią einant priešais tai, kas baugina, ir gyvūną, traktuojamą kaip pašnekovą, ne kaip daiktą. Forma yra legenda; kryptis yra autentiškai pranciškoniška.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Tai, iš esmės, tai išgalvota?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "O ką iš to pasiima šiandienos ekologija?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Čia reikia sąžiningumo abiem kryptimis. Viena vertus: Giesmė šiandien duoda retą gramatiką – rūpestį kūrinija iš dėkingumo ir giminystės, ne iš naudos ar baimės. Kita vertus: Pranciškus nebuvo šiuolaikinis aplinkosaugininkas, ir jo šaltiniai nepažįsta klimato, išnykimų, taršos. Kas ieško jame detalios ekologinės programos, verčia tekstus. Kas ieško žvilgsnio – pasaulio kaip šeimos, ne kaip sandėlio – randa ką nors, dar gebančio pakeisti elgesį.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "O vis dėlto jis paskelbtas ekologijos globėju, ar ne?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Kas lieka konkretaus man?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Ne: „ne kronika“ nereiškia „išgalvota iš nieko“. Pamokslas paukščiams yra Celane, praėjus nedaug metų po Pranciškaus mirties; Fioretti jį aprengia legendinėmis spalvomis, bet siūlas prasideda nuo atminties. Taip veikia daug hagiografijos: forma pasakoja to, kuris perdavė, pamaldumą, substancija saugo tikrą bruožą. Skaityti šaltinius reiškia būtent tai: laikyti abu dalykus kartu jų nepainiojant.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Aišku. O šiandienos ekologijai?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Grįžkime tad prie Giesmės.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Taip: 1979 metais Jonas Paulius II paskelbė jį ekologų globėju. Tai šiuolaikinis titulas – interpretacija, ne viduramžių šaltinis – ir taip su juo reikia elgtis. Jis teisėtas, jei rodo pranciškoniško žvilgsnio šaknį: giminystę su visais kūriniais. Tampa klaidinantis, jei suplokština Pranciškų į ekologą prieš laiką, ištrindamas, kad Giesmė pirmiausia yra gyrius Dievui, sukurtas sergančio žmogaus, kuris dėkojo. Titulas sako ką tikra, su sąlyga nesuvesti jo tik į tai.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "O man, konkrečiai?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Galime užbaigti.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkretu čia reiškia žvilgsnio klausimą anksčiau už veiksmus. Giesmė siūlo gyventi pasaulyje kaip giminystėje: vandenį kaip seserį, kurios nešvaistyti, žemę kaip motiną, kurios esi vaikas, kūrinius kaip gyriaus bendražyges, ne kaip atsargas. Praktiniai pasirinkimai – ką perki, ką meti, kaip keliauji – ateina paskui, ir šaltiniai jų nediktuoja. Bet pakeistas žvilgsnis daro juos įmanomus ir mažiau vargingus.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Perskaitykime Giesmę kartu.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Užbaikime.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Čia sustojame. Palieku tau vaizdą, ne užduotį: beveik aklą žmogų, kuriantį gyrių saulei, kurios nebemato, ir vadinantį ją broliu. Jei vieną dieną pažiūrėsi į medį, šunį, čiaupo vandenį kaip į giminaitį, o ne kaip į daiktą, žinosi, iš kur tas žvilgsnis. Kiti Dialogo pokalbiai tavęs laukia sąraše.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Pereik šį pokalbį nuo pradžios.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Atrask kitus Dialogo pokalbius.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Ačiū, kad skyrei su manimi kroniką, legendą ir gyrių: tai pratybos, naudingos toli už Pranciškaus. Pasimatysime Dialoge, kai panorėsi.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Pradėk šį pokalbį iš naujo.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Užbaik kol kas."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Ar galima sekti Pranciškumi nebūnant tikinčiam?",
+      "theme": "fede",
+      "description": "Neišsisukinėjantis atsakymas į rimtą klausimą: krikščionių tikėjimas buvo Pranciškaus centras, ir programėlė jo neslepia. Kas lieka tam, kuris netiki.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Sveikas atvykęs į Dialogą. Esu vedlys per šaltinius: nesu Pranciškus, nesu nuodėmklausys ir nevertinu niekieno tikėjimo, nei tavo. Šiandienos klausimas teisėtas ir rimtas: ar galima sekti Pranciškumi nebūnant tikinčiam? Pažadu neišsisukinėjantį atsakymą. Pirma pasakyk, iš kur kalbi tu.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Esu tikintis ir noriu geriau suprasti jo tikėjimą.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Nesu tikintis: ką galiu iš jo gauti?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Nežinau, kuo tikiu. Ar šis dialogas man?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Tad eikime tiesiai į centrą. Pranciškaus tikėjimas nebuvo kultūrinė etiketė: jis buvo viso kito šaltinis – neturto, brolystės, taikos. Testamente jis pasakoja, kad Viešpats davė jam paprastą tikėjimą bažnyčiomis; ir visa jo istorija, nuo Šv. Damijono iki La Vernos, šaltinių skaitoma kaip neturtėlio ir nukryžiuoto Kristaus sekimas. Žiūrėkime tekstus.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Tekstus, taip.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "O jo santykis su to laiko Bažnyčia?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Trumpas atsakymas: taip, galima, su sąžiningumo sąlyga. Gali jį studijuoti, juo žavėtis, leisti jo stiliui tave klausti neprisijungdamas prie jo tikėjimo; ši programėlė padaryta ir tau, ir niekas čia nevertina tavo pozicijos. Sąlyga yra jo neamputuoti: Pranciškus be Kristaus netampa universalesnis, tampa kitu personažu. Jei sutinki sutikti jį visą, su šaknimi, yra daug ką gauti.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Parodyk man tą šaknį, tad.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Kas lieka konkretaus tam, kuris netiki?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Taip, tau tinka: gal labiau negu kam kitam. Klausimai apie tikėjimą nereikalauja priklausymo pažymėjimo: reikalauja sąžiningumo, ir tu jį ką tik turėjai. Nestumsiu tavęs jokia kryptimi: rodau tekstus, skiriu lygmenis ir sustoju ten, kur sustoja šaltiniai. Pradedame nuo to, ką pasakoja pats Pranciškus.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Gerai: ką jis pasakoja?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "O kas neprieina tikėti, ką gauna?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Du liudijimai. Pirmas jo: Testamente, padiktuotame prieš pat mirtį, Pranciškus prisimena, kad Viešpats davė jam paprastą tikėjimą bažnyčiomis, kur meldėsi atsigręžęs į Kristų. Antras Celano: 1224 metais La Vernos kalne Pranciškus būtų gavęs stigmas, kančios ženklus, kuriuos stengėsi slėpti. Pastebėk lygmenis: Testamentas yra Pranciškaus žodis; stigmos mus pasiekia kaip artimiausių šaltinių liudijimas, ir programėlė jas taip pateikia, ne kaip išmatuojamą duotį. Kartu jos sako vieną dalyką: jo gyvenimo centras buvo Kristaus asmuo.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Stigmos: kaip turėčiau jas suprasti?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Kodėl programėlė taip primygtinai laikosi šio punkto?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "O tam, kuris netiki, kas lieka?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Ar toks visiškas tikėjimas nepaliko vietos abejonėms?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Su tuo pačiu sąžiningumu, kuriuo jas pateikia šaltiniai. Celanas jas pasakoja praėjus nedaug metų po Pranciškaus mirties, o tradicija jas saugo kaip visiško susitapatinimo su nukryžiuotu Kristumi ženklą. Istorinis ir teologinis vertinimas mokslininkų ginčijamas; čia šaltiniai neleidžia pasakyti daugiau, ir kas pasakytų daugiau viena ar kita prasme, išeitų už tekstų. Ką galime pasakyti: jo brolystei tas ženklas patvirtino tai, ką jo gyvenimas jau sakė.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "O santykis su Bažnyčia?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Suprantu. O tam, kuris lieka už tikėjimo?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Dėl dviejų priežasčių, abi paskelbtos. Pirmoji istorinė: atimti iš Pranciškaus krikščionišką šaknį nereiškia padaryti jį universalesnį, reiškia padaryti neatpažįstamą – neturtas yra „nes Viešpats tapo neturtėliu“, taika yra gautas pasveikinimas, brolystė yra kartu gyvenama Evangelija. Antroji redakcinė: ši programėlė aiškina, nedaro prozelitizmo. Aiškinti Pranciškaus tikėjimą nereiškia prašyti, kad jį pasidarytum savu; tai atsisakymas duoti tau pasaldintą faktų versiją.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "O ką gali gauti tas, kuris neprisijungia?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "O kaip Pranciškus gyveno institucinę Bažnyčią?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Man užtenka. Užbaikime.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Daug, jei imamas visas. Stilius – dovanos dovanojimas, mažumas, taika, statoma einant priešais, giminystės žvilgsnis į kūriniją – kalba ir tam, kuris nedalijasi šaknimi. Bet tie dalykai tekstuose yra to medžio vaisiai: pažinti juos be šaknies galima, suprasti iki galo be šaknies – ne. Gali leisti būti klausiamas neprisijungdamas: tai rimta laikysena, ir idėjų istorija pilna žmonių, kurie mokėsi iš ne savo tradicijų. Niekas čia nerašo tavo dvasinio balo.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Tad perskaitykime tekstus, kurie pasakoja tą šaknį.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Užbaikime.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Šaltiniai nepasakoja doktrininių abejonių šiuolaikine prasme: čia negalime pasakyti to, ko tekstai nesako. Bet pasakoja labai kietus išbandymus: ligą, beveik prarastą regą, skausmą matant brolystę augančią ir besikeičiančią už jo ketinimų. Ir būtent iš to meto, pasak Bonaventūros, gimsta Kūrinijos giesmė. Pranciškaus tikėjimas nebuvo nakties nebuvimas: tai buvo gyrius nakties viduje. O tai visai kas kita negu naivumas.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "O stigmos įeina į šį metą?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Galime užbaigti.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Nei maištininkas, nei prisitaikėlis: kas įdomiau. Pranciškus gyveno viduramžių Bažnyčios viduje, atkakliai ieškojo jos pritarimo savo gyvenimo formai ir priėmė jos ribas, nors stūmė ją reformuotis iš apačios, pavyzdžiu, ne maištu. Jo klusnumas Bažnyčiai buvo jo tikėjimo dalis, ne skaičiavimas. Tai suprasti padeda išvengti dviejų veidrodinių karikatūrų: neklusnaus šventojo, brangaus moderniesiems, ir klusnaus šventojo, brangaus pamaldiesiems.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Grįžkime prie jo tikėjimo tekstų.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Užbaikime.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Čia sustojame. Nepalieku tau užduoties ir juo labiau egzamino: palieku kriterijų. Kai sutiksi Pranciškų, šioje programėlėje ar kitur, visada klausk savęs, ar versija priešais tave rodo jį visą, su krikščioniška šaknimi. Paskui tavo pozicija lieka tavo: niekas čia jos neteisia. Kiti Dialogo pokalbiai tavęs laukia sąraše.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Pereik šį pokalbį nuo pradžios.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Atrask kitus Dialogo pokalbius.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Ačiū už klausimo rimtumą ir už tai, kad priėmei atsakymą be trumpinių. Pasimatysime Dialoge, kai panorėsi: tikri klausimai neturi galiojimo pabaigos.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Pradėk šį pokalbį iš naujo.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Užbaik kol kas."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Mida tähendab olla alandlik?",
+      "theme": "umilta",
+      "description": "Aus juhendaja lammutab arusaama, et alandlikkus on enese alavääristamine: Franciscuse „tõde iseenda kohta“, „väiksemate“ nimi ja oma tahe Manitsustes.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Tere tulemast Dialoogi. Tutvustan end: olen teejuht frantsisklike allikate seas, ma ei ole Franciscus ega räägi tema nimel. Tänane küsimus kõlab lihtsalt: mida tähendab olla alandlik? Paljud mõtlevad sõna „alandlikkus“ kuuldes kohe enese vähendamisele. Enne alustamist huvitab mind sinu lähtekoht.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Minu jaoks on alandlikkus mitte pidada end tähtsaks, jääda oma kohale.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Kahtlustan, et see on midagi muud, aga ei oskaks öelda, mis.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Miks Franciscuse vendi kutsuti „väiksemateks“?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "See on kõige levinum mõte ja ka kõige visam väärarusaam. Kui alandlikkus oleks enese alavääristamine, saaks sellest peen viis ikka endaga tegelda: oma kuvandiga, oma kohaga, isegi oma näidatud keskpärasusega. Frantsisklikud allikad osutavad mujale: mitte pidada end väikeseks, vaid näha end tões. Vahe näib õhuke, aga muudab kõik.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Mis on siis alandlikkus tegelikult?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Kas on Franciscuse tekst, mis seda ütleb?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "See ebakindlus on hea lähtekoht, ütlen seda ilma irooniata. Kes tunnistab, et ei tea, on juba astunud sammu selle poole, mida Franciscus alandlikkuse all mõtleb: näha end tões, ilma end paisutamata ja ilma end ribadeks kiskumata. Proovime sellele mõttele kuju anda, alustades allikatest.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Olgu: mis on frantsiskliku alandlikkuse süda?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Kas on allikate lõik, mida koos lugeda?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Täpne küsimus, ja vastus on väike programm. Au ja seisuse peale rajatud ühiskonnas tahtis Franciscus, et tema omasid kutsutaks väiksemateks vendadeks: mitte kedagi „suuremat“, mitte kedagi, keda teenida. Isegi vendluse vastutajaid nimetas ta „ministriteks“, mis ladina keeles tähendab teenreid. See ei olnud keeleline tuju: see oli koha valik, viimase koha, kust kedagi ei saa tõugata.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "Ja igapäevaelus, mis vahet sel on?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Kas tema kirjutistes on selle kohta midagi?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Oleme keskmes. Franciscusele on alandlikkus tõde iseenda kohta: väikesed Jumala ees, võlglased kõige ees, mis me oleme ja mis meil on, suutelised teenima tunnustust nõudmata. Märka, et see tõde hõlmab ka sinu andeid: neid vastu võetud kingitustena ära tunda ei ole uhkus, see on ausus. Alandlik ei alaväärista end: ta lakkab rolli mängimast, ühes ja teises suunas. Ja ta on vaba ilmumise vajadusest, mis on üks kõige väsitavamaid orjusi.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "Aga oma anded? Kas neid tuleb alandlikuks olemiseks eitada?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Kuidas see tõlgib end täna, näiteks tööl ja veebis?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Mida ütleb täpselt Manitsuste tekst?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Sellest piisab: võime lõpetada.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "On lühike ja terav tekst: Manitsused, juhised, mida Franciscus vendlusele andis. Üks sihtmärke on „oma tahe“, millest on tehtud kõige mõõt: kes peab end iseenesest õigeks ja targaks, hoiatab Franciscus, kaugeneb tõelisest alandlikkusest, mis seisneb oma otsustuse allutamises ja teenimises. Aga tähelepanu: allutada ei tähenda kustutada. Allikad ei palu mõtlemist lõpetada, vaid mitte teha oma vaatenurgast absoluuti.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "See näib loobumisena oma peast. Kas see ei ole liig?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "Ja konkreetselt, täna, milline see välja näeb?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Proovime tõlkida, teades, et see on tänapäevane tõlgendus, mitte keskaegne tekst. Tööl on alandlikkus teha oma osa hästi, tegemata sellest vaatemängu, tunnistada viga alibisid ehitamata, jätta teene sellele, kellele see kuulub. Veebis, kus palju mõõdetakse nähtavuses, on see võimalus avaldada ja töötada, ilma et teiste hinnang saaks su peremeheks. See ei ole kutse end peita: see on kutse mitte sõltuda aplausist.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Ilus, aga minu keskkonnas võidab see, kes astub ette.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Mind veenab. Lõpetame.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Vastuväide on õigustatud ja väärib ausat vastust. Allikates ei ole kuulekus enese tühistamine: sama vendlus oli paik, kus avaldati üksteisele vajadusi, see tähendab räägiti. Asi ei ole oma otsustuse kaotamises, vaid keeldumises, et see oleks kõige kõrgeim kohus. Siin aga ei anna allikad meile juhtumite kogu: ma ei saa sulle öelda, kust piir sinu konkreetsel juhul läheb. See jääb sinu tööks ja nende omaks, kes sind tõesti tunnevad.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "See on mõttekas. Aga igapäevaelus?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Eelistan siin peatuda.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Sul on õigus see üles tõsta, ja ma ei vasta sulle karjäärinõuga: see ei ole minu roll. Ütlen ainult, et frantsisklikud allikad ei luba, et alandlikkus „töötab“: nad lubavad, et see teeb vabaks. Mõnikord see maksab, ja vastupidist teeselda oleks ebaaus. Valik mitte elada heakskiidu pärast jääb just valikuks: sinu omaks, mõõdetuna sinu olude järgi.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Aus, aitäh. Lõpetame.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Loeme õpetuse südame uuesti.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Ei, ja hoolikalt loetud allikad ütlevad vastupidist. Franciscuse loogika on kingituse loogika: kui kõik on vastu võetud, on seda ka sinu võimed, ja neid eitada oleks ainult teine viis enda kohta valetada. Alandlikkus ei palu öelda „ma ei kõlba millekski“, vaid öelda tõde: „selle olen saanud, selle võlgnik ma olen“. Ja kes oskab kingitust ära tunda, oskab ka tänada: frantsisklikul teel on tänulikkus rõõmu uks.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "Ja kuidas seda tänases konkreetsuses elatakse?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Võime siin lõpetada.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Peatume siin. Kui tahad, võta kaasa küsimus, mitte ülesanne: millises punktis su päeva mängid sa rolli, selle asemel et olla tões selle suhtes, kes sa oled, heas ja piiris? Sa ei pea vastama minule ega kellelegi. Dialoogi teised vestlused ootavad sind, kui tahad: andestus, vaesus, loodu, Franciscuse usk.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Käi see vestlus algusest läbi.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Avasta Dialoogi teised vestlused.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Aitäh, et kõndisid minuga nende allikate sees. Dialoogi nimekirjast saad avada teise vestluse või leida selle uuesti, kui tahad: tekstid jäävad, ja küsimused samuti.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Alusta seda vestlust uuesti.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Lõpeta esialgu."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Kuidas saab kellelegi andestada?",
+      "theme": "perdono",
+      "description": "Kiri ministrile ja Loodute laulu stroof: andestus kui korduv otsus, erinevus õigusest ja aus vastus sellele, kes ei jaksa.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Tere tulemast Dialoogi. Mina juhin sind: ma ei ole Franciscus ega räägi tema nimel, saadan sind selle sisse, mida allikad tõesti ütlevad. Tänane küsimus on üks raskemaid, mis olemas on: kuidas saab kellelegi andestada? Ma ei luba sulle mugavat vastust. Aitab, kui tean, kust sa alustad.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Mulle on ülekohut tehtud ja ma ei suuda viha lahti lasta.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Kas andestada ei tähenda ehk teha nägu, et midagi ei olnud?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Tahaksin enne teada, mida Franciscus andestusest ütleb.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Aitäh otsekohesuse eest. Frantsisklikud allikad ei luba, et viha kaob, ega palu sul teeselda, et ülekohut ei olnud. See, mida nad pakuvad, on midagi muud: andestus kui otsus, mida uuendatakse, isegi kui tunne ei järgne. Kui sa täna ei jaksa, ei tee see sind kõlbmatuks: see on norm, mitte erand.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Otsus, mida uuendatakse: seleta mulle.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "Aga kui ma tõesti ei jaksa?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Mida Franciscus selle kohta kirjutab?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Ei, ja seda tasub kohe selgelt öelda: andestada ei ole eitada. Frantsisklikud allikad ei aja segi halastust ja ülekohut: tehtud kuri jääb kurjaks, ja selle tagajärjed jäävad tegelikuks. Andestus ei kustuta siin seda, mis juhtus: see keeldub laskmast solvusel öelda suhtele viimast sõna. Need on kaks eri tasandit, ja neid lahus hoida on esimene samm.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Kas andestus ja õiglus saavad siis koos seista?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Mida Franciscus täpselt ütleb?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Võtmetekst on Kiri ministrile: Franciscus kirjutab vendluse vastutajale, kes peab tegema tegemist eksivate vendadega. Kuulus lõik ütleb sisuliselt: kui vend oleks su silme ees tuhat korda patustanud, armasta teda rohkem kui mind ja kuuluta talle halastust. Tuhat korda: mitte kangelaslik otsus, mis tehakse üks kord ja igaveseks, vaid valik, mida tehakse iga päev uuesti. See muudab küsimuse: mitte „kas ma tunnen, et andestan?“, vaid „kas ma valin andestada ka täna?“.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Tuhat korda on liiga palju. Kas see on realistlik palve?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "Aga õiglus? Kas eksinu ei pea vastutama?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Loodute laul räägib andestusest, eks?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Jah, ja sama Kiri laseb seda aimata: Franciscus palub kuulutada halastust, kui teine kahetseb, see tähendab andestus ei kuuluta eksinut süütuks ega vabasta teda heastamisest. Ka tema ajal ei kaotanud rahutegijad vennad kohtuid ja vastutust: nad töötasid selle nimel, et kättemaks ei oleks ainus võimalik õiglus. Andestada ja paluda, et kurja tunnistataks, ei ole vaenlased. Nad võivad koos käia, ehkki vaevaliselt.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "Ja kust praktikas alustatakse?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Kas Loodute laulu stroof on sellega seotud?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "Aga kui ülekohus on liiga suur või liiga värske?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "Ja tema aja lõhestatud linnades?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Alustatakse pilgu parandusest. Kui andestus oleks tunne, peaksid ootama, kuni see tuleb: ja sageli see ei tule, või tuleb ja läheb siis ära. Kui see on otsus, võid selle teha ka siis, kui viha veel põleb, ja võtta selle homme ja ülehomme uuesti. Allikad ei kirjelda sirgjoonelist teed: sõna „tuhat korda“ viitab pigem vastupidisele. Ausus: frantsisklikes tekstides ei ole tehnikaid. On suund.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "Aga kui ma täna tõesti ei jaksa?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "Aga iseendaga? Kas endale saab andestada?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Jutusta mulle Loodute laulu stroof andestusest.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Aus vastus: nii võib juhtuda, ja allikad ei mõista sind selle eest. Mina ka mitte: olen teejuht tekstide seas, mitte pihiisa ega terapeut. Ütlen kaks dokumenteeritavat asja. Esiteks: Kiri räägib tuhandest korrast, mis tähendab, et juba 13. sajandil ei mõeldud andestust hetkelise žestina. Teiseks: kui haav on sügav, jagada seda kellegagi, keda usaldad, või vajaduse korral asjatundjaga, ei ole kaotus. Andestuse aegade kohta frantsisklikud allikad vaikivad: siin ei saa me rohkem öelda.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "Aga andestus iseenda vastu?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Aitäh aususe eest. Lõpetame.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Loodute laulus on stroof, mis kiidab Jumalat nende eest, kes andestavad tema armastuse pärast, kandes haigust ja viletsust. Uurijad dateerivad selle tavaliselt 1226. aasta suvesse, ja traditsioon seob selle konkreetse episoodiga: Assisi piiskop ja podesta olid avalikus tülis, ja Franciscus, juba haige, olevat lisanud selle stroofi ja lasknud Loodute laulu nende ees laulda, et neid lepitada. Täpsustan tasandid: stroof on autentne, episoodi jutustus jõuab meieni hagiograafilise traditsiooni kaudu. Jääb fakt: Franciscusele oli andestus kiitust väärt ka tema linna konfliktide sees.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Andestada keset konflikti: kas see on võimalik?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "Aga kes ei suuda andestada?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Võime lõpetada.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Siin pean olema aus allikate piiride suhtes. Frantsisklikud tekstid räägivad andestusest vendade ja solvuja vastu; eneseandestusest, nii nagu me seda täna mõistame, ei ütle nad peaaegu midagi selget. Võime mõelda analoogia järgi: kui eksinule kuulutatakse halastust tuhat korda, on raske ennast välja jätta. Aga see jääb meie mõttekäiguks, mitte tsitaadiks. Eelistan seda sulle öelda, selle asemel et panna Franciscusele suhu sõnu, mida ta ei kirjutanud.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Hindan täpsust. Ja kust uuesti alustatakse?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Lõpetame siin.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "On ka avalik mõõde. Kommuunide Itaaliat läbisid verivaenud ja kättemaksud, ja allikad mäletavad esimesi vendi rahu kuulutamas majast majja, tervitusega, mille Franciscus tunnistas olevat saanud. Andestus ei olnud selles maailmas ainult eraasi: see oli punkt, kus sai katkestada vastulöögi ahela. Ka täna on verivaenusid, peredes, linnaosades, sotsiaalmeedias, ja loogika on sama: keegi peab löögi tagasi andmise lõpetama.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "Ja Loodute laulu stroof sündis just konfliktist, eks?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Piisab. Lõpetame.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Peatume siin. Kui tahad, võta kaasa üksainus kujund, mitte ülesanne: andestus kui tee, mida tehakse meeter päevas uuesti, mitte kui hüpe, mis tehakse üks kord ja igaveseks. Ja kui su haav täna seda ei luba, ei palunud see dialoog sul õnnestuda: see palus sul mõista. Dialoogi teised vestlused ootavad sind, kui tahad.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Käi see vestlus algusest läbi.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Avasta Dialoogi teised vestlused.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Aitäh, et võtsid raske küsimuse ette ilma otseteeta. Dialoogi nimekirjast leiad teised vestlused: mina jään siia, ja tekstid samuti.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Alusta seda vestlust uuesti.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Lõpeta esialgu."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Kas Franciscus oli rikkuse vastu?",
+      "theme": "poverta",
+      "description": "Franciscus ei mõistnud vara hukka: ta vabastas omandist. 1223. aasta reegel, lahtiütlemine piiskopi ees ja mida see täna tähendab, ilma romantismita.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Tere tulemast Dialoogi. Tutvustan end: olen teejuht, mitte Franciscus; loen sinuga allikaid ja ütlen, kui neist vastamiseks ei piisa. Tänane küsimus on täis väärarusaamu: kas Franciscus oli rikkuse vastu? Lühike vastus on „ei, mitte selles mõttes, mida sa ehk kujutad“. Aga see väärib pikka teed. Kust alustame?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Olen alati arvanud, et ta põlgas raha ennast.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Kahtlustan, et asi on milleski muus, aga ei oska seda öelda.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Kas see ei ole ainult romantiline vaesus, nagu 19. sajandi postril?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "See on kõige levinum rekonstruktsioon ja ka kõige ebatäpsem. Franciscuse tekstides ei leia sa vara hukkamõistu, nagu oleks see must: leiad midagi radikaalsemat ja peenemat, nimelt keeldumise seda omastada. Sihtmärk ei ole rikkus, vaid omand: see, mida asjad teevad sellele, kes usub end neid valdavat. Läheme teksti juurde, mis ütleb seda kõige paremini.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Millise teksti?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "Aga kuulus lahtiütlemise stseen?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Su kahtlus on põhjendatud. Asi ei ole vara hulgas, vaid sideme liigis: Franciscus tahab vendi, kes ei omasta midagi, sest kes ei oma, ei pea kaitsma, ja kes ei pea kaitsma, on vaba armastama. See on vabaduse, mitte tülgastuse loogika. Näitan seda sulle reegli tekstis.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Loeme reeglit.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Jutusta enne stseen piiskopi ees.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Vastuväide on tõsine ja väärib lugupidamist: romantiline vaesus on olemas, ja see on karikatuur, milles on frantsisklikku vähe. Teeme siis lepingu: mitte mingeid idealiseeringuid. Vaatame, mida allikad ütlevad — stseeni, mida jutustab esimene elulookirjutaja, ja normatiivset teksti, mille Franciscus ise kirjutas —, ja siis otsustad sina, kas need peavad vastu.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Olgu: esimese elulookirjutaja stseen.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Normatiivne tekst.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "1223. aasta reegel, Kiriku kinnitatud lõplik tekst: vennad ei omasta midagi, „ei maja ega paika ega ühtki asja“; nad elavad palverändurite ja võõrastena ning lähevad almuse järele seda häbenemata. Öeldud põhjus on teoloogiline: Issand sai meie pärast vaeseks. Aga on ka selge inimlik loogika: mida sa ei oma, see ei oma sind. Tehniline traditsioon nimetab seda „sine proprio“, ilma millestki omast. Mitte asjade põlgus — neid võetakse vastu, kasutatakse ja tänatakse —, vaid vabanemine omandist.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Jutusta mulle lahtiütlemine piiskopi ees.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "Aga täna? Kas peaksime kõik maha müüma?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "Aga tõelised vaesed? Kas ei riskita viletsust ilustada?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Celano Thomas, esimene elulookirjutaja, jutustab nii: piiskop Guido ja isa Pietro di Bernardone ees annab Franciscus tagasi isegi riided ja loobub isalt päritud varast, öeldes, et nüüd võib ta isaks kutsuda ainult Jumalat. Piiskop katab ta oma mantliga. Täpsustan tasandid: episood on dokumenteeritud tugipunkt, aga lavastuslikud üksikasjad kuuluvad Celano jutustusse, mis on hagiograafia, õpetav kirjandus, mitte protokoll. Mõte on ometi selge: lõigata avalikult läbi side perekonna rikkusega.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Teatraalne žest või kaalutud valik?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "Ja meie täna, mida me sellega peale hakkame?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Paratamatu küsimus, ja aus vastus on: allikad ei nõua kõigilt sama asja. See reegel oli vendadele; Franciscus ei kirjutanud reegleid kaupmeestele, vanematele, käsitöölistele. Niisiis ei: ei ole frantsisklikku teksti, mis käsib sul kõik maha müüa. Olemas on ebamugav küsimus, milles elada: milliseid asju ma oman, ja millised omavad mind? Konkreetne vastus on mõõdetud sinu elu, mitte tema elu järgi.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Kuidas eristame valitud vaesust ja kantud puudust?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "Aga kes töötab, teenib, peab perekonda üleval?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Anna mulle midagi konkreetset, ilma äärmuslike žestideta.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "See on selle vestluse kõige tähtsam eristus. Kantud puudus — mitte olla süüa, ravimit, katust — on ühiskondlik haav, mida ravida, mitte ideaal, mida mõtiskleda: Franciscus teenis vaeseid, ta ei ilustanud neid. Frantsisklik vaesus on midagi muud: vaba valik mitte omastada, tehtud vabaduse ja solidaarsuse pärast. Neid segi ajada on viga, mida alati vältida: teise viletsuse ülistamine oleks täpselt see „romantiline vaesus“, millest rääkisime.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Niisiis oli romantismi kriitikal tõepõhi?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "Ja praktikas, minu jaoks, täna?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Lõpetame siin.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Teatraalne see kindlasti oli: ja õiguse ning omandi peale rajatud ühiskonnas võis avaliku sideme vabastada ainult avalik žest. Aga see ei olnud improvisatsioon: Celano paigutab selle kuude pikkuse kriisi, Perugia vangipõlve, haiguse ja pettumuste järele. Kui tahad kriteeriumi žestide hindamiseks, tema ja sinu omade, siis see on: mitte hetke intensiivsus, vaid see, mis tuleb pärast. Franciscus elas järjekindlalt veel kakskümmend aastat. Tõelised žestid tuntakse ära pika kestuse järgi.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "Aga täna, ilma äärmuslike žestideta?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Sain aru. Lõpetame.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkreetselt siis, aga ilma retseptideta: neid anda ei ole minu roll. Frantsisklik traditsioon viitab suunale kolme sammuga: vaata seda, mis sul on, küsides, kas see teeb sind vabaks või ettevaatlikuks; kasuta asju vastuvõetutena, mitte võlgnetutena; lase lihtsusel vabastada ruumi — aega, tähelepanu, raha — teistele. See on tänapäevane tõlgendus, ütlen seda ausalt: aga see on tõlgendus, mis on truu „sine proprio“ vaimule.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Tagasi reegli teksti juurde.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Lõpetame.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Ükski frantsisklik allikas ei ütle, et töötada ja teenida teeb Franciscusest kaugeks: reegel on ühe kindla vendluse eluvorm, mitte iga elu mõõt. Loogika on peaaegu vastupidine: probleem ei ole omada, vaid teenida seda, mis sul on. Kui su töö, su teenistus, su kodu saavad vahenditeks — sinu ja teiste omadeks — ja mitte isandateks, oled reegli vaimule lähemal, kui arvad.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "Aga risk vaesust romantiseerida?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Lõpetame.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Peatume siin. Ma ei jäta sulle ülesannet: jätan küsimuse, mida see vestlus püüdis avada. Mis sellest, mis sul on, valdab sind? Vasta rahulikult, või ära vasta üldse. Kui tahad, on Dialoogi teised vestlused nimekirjas: alandlikkus, andestus, loodu, usk.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Käi see vestlus algusest läbi.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Avasta Dialoogi teised vestlused.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Aitäh, et otsisid liigendatud vastust küsimusele, mis saab sageli loosungeid. Kohtume Dialoogis, kui tahad: allikad ei aegu.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Alusta seda vestlust uuesti.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Lõpeta esialgu."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Miks Franciscus loomadega rääkis?",
+      "theme": "creato",
+      "description": "Sugulus, mitte panteism: Loodute laul, Celano linnud, Väikeste lillede hunt ja mida see kõik tänasele ökoloogiale ütleb — ja mida ei ütle.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Tere tulemast Dialoogi. Olen sinu teejuht: ma ei ole Franciscus, ja kui allikatest ei piisa, ütlen seda sulle. Tänane küsimus ulatub sajanditepikkustesse kujutistesse: Franciscus, kes räägib lindudega, hundiga, kaladega. Mis on selle taga? Oleneb sellest, mida sa otsid.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Tahan tõde: kas see on ainult legend, et ta loomadega rääkis?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Mõtlen, kas ta nägi Jumalat looduses: kas ta oli panteist?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Jutusta mulle Loodute laul.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Ajaloolase küsimus, ja vastus on kihiline, nagu peaaegu kõik, mis Franciscust puudutab. Tuum on varakult tõendatud: Celano Thomas, lähedane elulookirjutaja, jutustab lindudele jutlustamisest kainetes toonides. Lavastuslikumad jutustused — Gubbio hunt, kalad, vihmaussid — õitsevad sajand hiljem Väikestes lilledes. Niisiis: vana mälu ja kirjanduslik võimendus. Näitan sulle mõlemat, lahus.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Celano kainem versioon.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Väikeste lillede versioon: hunt.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Ei, ja tekst, mis seda näitab, on Loodute laul. Franciscus kiidab Jumalat „läbi“ loodute — vend päike, õde kuu —, ta ei kiida looduid, nagu oleksid need jumalikud. Vahe on otsustav: loodus ei ole Jumal, see on perekond. Loodud on õed ja vennad, sest nad on sama Isa lapsed. Õige sõna on „sugulus“, mitte panteism.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Loeme Loodute laulu.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "Aga lood loomadega?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Loodute laul, koostatud 1225–1226, kui Franciscus oli haige ja peaaegu pime: see on itaalia rahvakeele esimeste poeetiliste tekstide seas. See kiidab Jumalat vend päikese eest, „kes on päev“, õe kuu ja tähtede eest, venna tuule eest, õe vee eest, „kasulik ja alandlik ja kallis ja puhas“, venna tule ja „õe, meie ema maa“ eest. Kaks asja tähele panna. Esiteks: see ei ole hümn loodusele, see on kiitus Jumalale läbi looduse. Teiseks: see sünnib kannatuses, mitte idüllilisel jalutuskäigul.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "Aga jutlus lindudele?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "Aga Gubbio hunt?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Mida see kõik tänasele ökoloogiale ütleb?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Celano versioon on üllatavalt kaine: Franciscus näeb linnuparvi, pöördub nende poole kui loodute poole, kes suudavad kuulata, ja manitseb neid Jumalat kiitma. Mitte mingeid liigendatud dialooge, mitte mingeid vaatemängulisi imesid: äratundmise žest. Väikesed lilled lisavad sajand hiljem risti märgi, parved, mis seavad end kuulama, piduliku hüvastijätu. Enne Franciscuse stiil, siis pühendumuse stiil. Mõlemad ütlevad meile midagi, aga erinevat.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "Aga Gubbio hunt?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Kui see on kirjandus, mis väärtus sel on?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "Aga tänapäeva ökoloogia?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Gubbio hunt on Väikeste lillede meistriteos: hirmunud linn, Franciscus, kes läheb metsalisele vastu, räägib temaga nagu vennaga ja vahendab lepingu — linn toidab teda, tema ei tee enam kellelegi kahju. Pean olema selge kirjandusliigi suhtes: see on 14. sajandi hagiograafia, pühendumuse mälu, mitte kontrollitav kroonika. Aga vaata, mida see säilitab: rahu, mis sünnib minnes vastu sellele, mis hirmutab, ja loom, keda koheldakse vestluspartnerina, mitte esemena. Vorm on legend; suund on autentselt frantsisklik.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Kas see on siis lõpuks välja mõeldud?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "Ja mida tänane ökoloogia sellest saab?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Siin on vaja ausust mõlemas suunas. Ühelt poolt: Loodute laul pakub täna haruldast grammatikat, loodu hoolt tänulikkusest ja sugulusest, mitte kasust või hirmust. Teiselt poolt: Franciscus ei olnud tänapäevane keskkonnakaitsja, ja tema allikad ei tunne kliimat, väljasuremisi, reostust. Kes otsib temast üksikasjalikku ökoloogiaprogrammi, painutab tekste. Kes otsib pilku — maailma kui perekonda, mitte kui ladu —, leiab midagi, mis suudab ikka veel käitumist nihutada.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "Ometi kuulutati ta ökoloogia patrooniks, eks?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Mis jääb mulle konkreetselt?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Ei: „mitte kroonika“ ei tähenda „eimillestki välja mõeldud“. Jutlus lindudele on Celanol, mõni aasta pärast Franciscuse surma; Väikesed lilled riietavad selle legendivärvidesse, aga niit lähtub mälust. Nii töötab suur osa hagiograafiat: vorm jutustab selle pühendumust, kes selle edasi andis, sisu säilitab tõelise joone. Allikaid lugeda tähendab just seda: hoida kahte asja koos, neid segi ajamata.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Selge. Aga tänase ökoloogia jaoks?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Tuleme siis Loodute laulu juurde tagasi.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Jah: 1979. aastal kuulutas Johannes Paulus II ta ökoloogide patrooniks. See on tänapäevane tiitel — tõlgendus, mitte keskaegne allikas — ja sellisena tuleb seda käsitseda. See on õigustatud, kui osutab frantsiskliku pilgu juurele: sugulusele kõigi loodutega. See muutub eksitavaks, kui taandab Franciscuse oma aega ennetavaks keskkonnakaitsjaks, kustutades, et Loodute laul on enne kõike kiitus Jumalale, koostatud haige mehe poolt, kes tänas. Tiitel ütleb midagi tõest, tingimusel, et seda ainult selleks ei taandata.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "Ja minu jaoks, konkreetselt?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Võime lõpetada.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkreetselt tähendab siin pilgu küsimust enne tegude oma. Loodute laul soovitab elada maailmas kui suguluses: vesi kui õde, keda mitte raisata, maa kui ema, kelle laps ollakse, loodud kui kiituse kaaslased, mitte kui varud. Praktilised valikud — mida ostad, mida ära viskad, kuidas reisid — tulevad pärast, ja allikad ei dikteeri neid. Aga muutunud pilk teeb need võimalikuks ja vähem vaevaliseks.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Loeme Loodute laulu koos uuesti.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Lõpetame.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Peatume siin. Jätan sulle kujundi, mitte ülesande: peaaegu pime mees, kes koostab kiituse päikesele, mida ta enam ei näe, ja kutsub seda vennaks. Kui sul ühel päeval juhtub vaadata puud, koera, kraanivett kui sugulast, mitte kui asja, tead, kust see pilk tuleb. Dialoogi teised vestlused ootavad sind nimekirjas.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Käi see vestlus algusest läbi.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Avasta Dialoogi teised vestlused.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Aitäh, et eristasid minuga kroonikat, legendi ja kiitust: see on harjutus, mis kulub ära palju kaugemal kui Franciscus. Kohtume Dialoogis, kui tahad.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Alusta seda vestlust uuesti.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Lõpeta esialgu."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Kas Franciscust saab järgida uskujata?",
+      "theme": "fede",
+      "description": "Mitte põiklev vastus tõsisele küsimusele: kristlik usk oli Franciscuse kese ja rakendus ei peida seda. Mis jääb sellele, kes ei usu.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Tere tulemast Dialoogi. Olen teejuht allikate seas: ma ei ole Franciscus, ma ei ole pihiisa, ja ma ei hinda kellegi usku, ka mitte sinu oma. Tänane küsimus on õigustatud ja tõsine: kas Franciscust saab järgida uskujata? Luban vastuse, mis ei põikle. Enne ütle, kust sina räägid.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Olen usklik ja tahan tema usku paremini mõista.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Ma ei ole usklik: mida ma saan temalt vastu võtta?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Ma ei tea, mida ma usun. Kas see dialoog on minu jaoks?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Läheme siis otse keskmesse. Franciscuse usk ei olnud kultuuriline silt: see oli kõige muu allikas — vaesuse, vendluse, rahu oma. Testamendis jutustab ta, et Issand andis talle lihtsa usu kirikutesse; ja kogu tema lugu, San Damianost La Vernani, loevad allikad vaese ja ristilöödud Kristuse järgimisena. Vaatame tekste.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Tekstid, jah.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "Aga tema suhe oma aja Kirikuga?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Lühike vastus: jah, saab, aususe tingimusel. Võid teda uurida, imetleda, lasta tema stiilil endalt küsida, ilma tema usuga ühinemata; see rakendus on tehtud ka sinu jaoks, ja keegi siin ei hinda su seisukohta. Tingimus on teda mitte kärpida: Franciscus ilma Kristuseta ei saa universaalsemaks, temast saab teine tegelane. Kui nõustud teda kohtama tervikuna, juur kaasa arvatud, on palju vastu võtta.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Näita mulle siis seda juurt.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Mis jääb konkreetselt sellele, kes ei usu?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Jah, see on sinu jaoks: võib-olla rohkem kui kellegi teise jaoks. Usu küsimused ei nõua kuuluvustunnistust: nad nõuavad ausust, ja seda sul just oli. Mina ei lükka sind üheski suunas: näitan tekste, eristan tasandeid ja peatan seal, kus allikad peatuvad. Alustame sellest, mida Franciscus ise jutustab.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Olgu: mida ta jutustab?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "Aga kes usuni ei jõua, mida ta saab?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Kaks tunnistust. Esimene on tema oma: Testamendis, mis dikteeriti veidi enne surma, meenutab Franciscus, et Issand andis talle lihtsa usu kirikutesse, kus ta palvetas Kristuse poole pöördunult. Teine on Celano oma: 1224. aastal La Verna mäel olevat Franciscus saanud stigmad, kannatuse märgid, mida ta püüdis varjata. Märka tasandeid: Testament on Franciscuse sõna; stigmad jõuavad meieni lähimate allikate tunnistusena, ja rakendus esitab neid nii, mitte mõõdetava faktina. Koos ütlevad nad ühtainsat asja: tema elu kese oli Kristuse isik.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Stigmad: kuidas peaksin neid mõistma?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Miks rakendus sellel punktil nii palju peatub?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "Aga sellele, kes ei usu, mis jääb?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Kas nii täielik usk ei jätnud kahtlustele ruumi?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Sama aususega, millega allikad neid esitavad. Celano jutustab neid mõni aasta pärast Franciscuse surma, ja traditsioon hoiab neid märgina täielikust sarnanemisest ristilöödud Kristusega. Ajalooline ja teoloogiline hinnang on uurijate seas vaieldav; siin ei luba allikad meil rohkem öelda, ja kes sulle ühes või teises suunas rohkem ütleks, läheks tekstidest kaugemale. Mida võime öelda: tema vendlusele kinnitas see märk seda, mida tema elu juba ütles.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "Aga suhe Kirikuga?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Saan aru. Aga sellele, kes jääb usust välja?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Kahel põhjusel, mõlemad välja öeldud. Esimene on ajalooline: Franciscuselt kristlikku juurt ära võtta ei tee teda universaalsemaks, vaid äratundmatuks — vaesus on „sest Issand sai vaeseks“, rahu on saadud tervitus, vendlus on koos elatud evangeelium. Teine on toimetuslik: see rakendus seletab, ei tee usulevitust. Franciscuse usku seletada ei ole palve, et teeksid selle enda omaks; see on keeldumine anda sulle faktide silutud versioon.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "Ja mida saab vastu võtta see, kes ei ühine?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "Ja kuidas Franciscus institutsionaalset Kirikut elas?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Piisab. Lõpetame.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Palju, kui võtta see tervikuna. Stiil — omakasupüüdmatus, väiksus, rahu, mida ehitatakse vastu minnes, suguluse pilk loodule — kõnetab ka seda, kes juurt ei jaga. Aga need asjad on tekstides selle puu viljad: neid juureta tunda on võimalik, neid lõpuni mõista juureta mitte. Võid lasta endalt küsida, ühinemata: see on tõsine hoiak, ja ideede ajalugu on täis inimesi, kes on õppinud traditsioonidest, mis ei ole nende omad. Keegi siin ei pane sulle vaimulikku punktisummat.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Loeme siis uuesti tekste, mis seda juurt jutustavad.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Lõpetame.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Allikad ei jutusta õpetuslikke kahtlusi tänapäevases mõttes: siin ei saa me öelda seda, mida tekstid ei ütle. Aga nad jutustavad väga raskeid katsumusi: haigust, peaaegu kaotatud nägemist, valu näha vendlust kasvamas ja muutumas üle tema kavatsuste. Ja just sellest ajast, Bonaventura järgi, sünnib Loodute laul. Franciscuse usk ei olnud öö puudumine: see oli kiitus öö sees. Mis on hoopis midagi muud kui naiivsus.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "Kas stigmad kuuluvad sellesse aega?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Võime lõpetada.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Ei mässaja ega joondunu: midagi huvitavamat. Franciscus elas keskaegse Kiriku sees, otsis visalt oma eluvormile selle heakskiitu ja võttis vastu selle piirid, surudes seda ometi altpoolt reformile, eeskuju, mitte mässuga. Tema kuulekus Kirikule oli osa tema usust, mitte arvestus. Seda mõista väldib kahte peegelpildis karikatuuri: sõnakuulmatu pühak, kes on moodsatele kallis, ja kuulekas pühak, kes on pühendunutele kallis.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Tagasi tema usu tekstide juurde.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Lõpetame.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Peatume siin. Ma ei jäta sulle ülesannet ja veel vähem eksamit: jätan sulle kriteeriumi. Kui kohtad Franciscust, selles rakenduses või mujal, küsi alati, kas versioon, mis sul ees on, näitab teda tervikuna, kristlik juur kaasa arvatud. Siis jääb su seisukoht sinu omaks: keegi siin ei mõista selle üle kohut. Dialoogi teised vestlused ootavad sind nimekirjas.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Käi see vestlus algusest läbi.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Avasta Dialoogi teised vestlused.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Aitäh küsimuse tõsiduse eest ja selle eest, et võtsid vastu vastuse ilma otseteeta. Kohtume Dialoogis, kui tahad: tõelistel küsimustel ei ole aegumistähtaega.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Alusta seda vestlust uuesti.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Lõpeta esialgu."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

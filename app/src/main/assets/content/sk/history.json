@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Narodenie v Assisi",
+      "description": "Giovanni di Pietro di Bernardone, zvaný František, sa rodí v Assisi bohatému súkenníkovi a pani Pike.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 alebo 1182 (neisté)",
+      "chronologicalUncertainty": "Pramene sa na roku nezhodujú: historiografia navrhuje aj 1181, aj 1182.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Vojna a zajatie",
+      "description": "Vo vojne medzi Assisi a Perugiou František bojuje v bitke pri Collestrade (november 1202), padne do zajatia a zostane asi rok v Perugii. Po návrate ho začína meniť choroba.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202 – 1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Sen v Spolete a návrat",
+      "description": "Vyrazil do Apúlie za vojenskou slávou a v Spolete má František sen, ktorý ho prinúti vrátiť sa do Assisi. Začína sa odpútanie od predošlého života: sny, modlitba, púť do Ríma.",
+      "yearFrom": 1205,
+      "dateLabel": "približne 1204 – 1205",
+      "chronologicalUncertainty": "Rekonštrukcia týchto mesiacov je vyvodená zo stredovekých životopisov; presné dátumy sú konvenčné.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Stretnutie s malomocnými",
+      "description": "František v Závete rozpráva, že ho Pán priviedol medzi malomocných a že „im preukázal milosrdenstvo“: epizóda, ktorú sám označuje za začiatok svojej konverzie.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "približne 1205 – 1206",
+      "chronologicalUncertainty": "Závet nedáva dátum; udalosť sa kladie pred verejný rozchod s rodinou.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Krucifix zo San Damiano",
+      "description": "V rozpadnutej kaplnke San Damiano František podľa tradície počuje, ako mu krucifix hovorí: „Oprav môj dom.“ Najprv to berie doslova a vlastnými rukami opravuje kostoly.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "približne 1205 – 1206",
+      "chronologicalUncertainty": "Epizóda je doložená predovšetkým Druhým životopisom a neskoršou tradíciou; doslovnosť dialógu patrí do zbožného rozprávania.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Zrieknutie pred biskupom",
+      "description": "Otec ho predvolá pred biskupa Guida pre predané majetky. František vráti všetko, aj šaty, a zverí sa „Otcovi, ktorý je na nebesiach“. Biskup ho prikryje vlastným plášťom.",
+      "yearFrom": 1206,
+      "dateLabel": "začiatok roku 1206",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Prví spoločníci",
+      "description": "Bernard z Quintavalle, Egid a ďalší sa pripájajú k Františkovi a delia sa s ním o formu života: rodí sa putujúce bratstvo, medzi prácou, almužnou a ohlasovaním pokoja.",
+      "yearFrom": 1208,
+      "dateLabel": "1208 – 1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Schválenie Inocenta III.",
+      "description": "František a spoločníci idú do Ríma; Inocent III. ústne schvaľuje ich evanjeliovú formu života. Zo schválenia sa nezachoval nijaký dokument: tradícia ho datuje do roku 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (alebo 1209)",
+      "chronologicalUncertainty": "Schválenie bolo ústne a nijaký dokument sa nezachoval; presný rok (1209 alebo 1210) je sporný.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Porciunkula, dom bratstva",
+      "description": "Malý kostol Santa Maria degli Angeli, zvaný Porciunkula, sa stáva stálym príbytkom bratstva: duchovným a citovým stredom hnutia.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211 – 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Útek Kláry",
+      "description": "Klára Offreduccio opúšťa otcovský dom a prichádza za Františkom na Porciunkulu v noci medzi Kvetnou nedeľou a pondelkom roku 1212: začína sa jej forma života, z ktorej vzniknú klarisky.",
+      "yearFrom": 1212,
+      "dateLabel": "18. – 19. marca 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Stretnutie so sultánom",
+      "description": "Počas piatej križiackej výpravy František prechádza línie a v Damiette sa stretá so sultánom al-Malikom al-Kamilom: epizóda rozhovoru v čase vojny, doložená františkánskymi prameňmi a pripomenutá aj vonkajšími kronikármi.",
+      "yearFrom": 1219,
+      "dateLabel": "september 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Nepotvrdená regula",
+      "description": "Vo Fonte Colombo pri Rieti sa spisuje prvá úplná regula bratstva (Regula non bullata), dlhá a duchovná, nikdy formálne neschválená.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Potvrdená regula",
+      "description": "Honórius III. bulou „Solet annuere“ schvaľuje definitívnu regulu (29. novembra 1223): kratšiu a právnejšiu, dodnes základ Rádu menších bratov.",
+      "yearFrom": 1223,
+      "dateLabel": "29. novembra 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Vianoce v Greccio",
+      "description": "Na Vianoce 1223 dáva František v Greccio pripraviť skutočné jasle so senom, volom a oslíkom, aby „očami tela“ videl chudobu Betlehema: pôvod tradície betlehema.",
+      "yearFrom": 1223,
+      "dateLabel": "Vianoce 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "V septembri 1224, na ústraní na hore La Verna, František podľa najbližších stredovekých prameňov prijíma stigmy Kristovho umučenia, ktoré sa bude snažiť udržať v skrytosti.",
+      "yearFrom": 1224,
+      "dateLabel": "september 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Pieseň stvorenia",
+      "description": "Chorý a takmer slepý František skladá na viac ráz laudu v umbrijskom ľudovom jazyku známu ako Pieseň stvorenia: chválu Boha prostredníctvom brata slnka, sestry vody, matky zeme a napokon sestry telesnej smrti.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225 – 1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Vlk z Gubbia",
+      "description": "Kvietočky rozprávajú, že František sprostredkoval pokoj medzi mestom Gubbio a divým vlkom: mesto ho bude živiť, vlk už nebude škodiť. Hagiografický príbeh, nie kronika.",
+      "yearFrom": 1220,
+      "dateLabel": "neistý dátum",
+      "chronologicalUncertainty": "Epizóda hagiografickej tradície 14. storočia (Kvietočky, kap. 21), bez dokumentárneho potvrdenia: predkladáme ju ako príbeh pamäti, nie ako historický fakt.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Smrť na Porciunkule",
+      "description": "František umiera večer 3. októbra 1226 na Porciunkule, keď nadiktoval Závet a požiadal, aby ho položili nahého na nahú zem.",
+      "yearFrom": 1226,
+      "dateLabel": "3. októbra 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Kanonizácia",
+      "description": "Gregor IX. vyhlasuje Františka za svätého v Assisi 16. júla 1228, necelé dva roky po smrti, a Tomášovi z Celana zadáva prvý oficiálny životopis.",
+      "yearFrom": 1228,
+      "dateLabel": "16. júla 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "František z Assisi",
+      "role": "Zakladateľ bratstva Menších",
+      "description": "Giovanni di Pietro di Bernardone (1181/82 – 1226). Kupec, potom putujúci kajúcnik, potom zakladateľ bratstva, ktoré zmenilo dejiny Cirkvi. Kanonizovaný v roku 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Klára z Assisi",
+      "role": "Zakladateľka klarisiek",
+      "description": "Šľachtičná z Assisi (1193/94 – 1253) nasleduje Františka v roku 1212 a v San Damiano zakladá spoločenstvo „chudobných paní“. Prvá žena, ktorá napísala schválenú rehoľnú regulu.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernard z Quintavalle",
+      "role": "Prvý spoločník",
+      "description": "Boháč z Assisi rozdá svoj majetok a stáva sa prvým Františkovým spoločníkom (1208). Zomrel v roku 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Brat Egid",
+      "role": "Medzi prvými spoločníkmi",
+      "description": "Vzdelaný roľník a mystik, tretí Františkov spoločník; tradícia mu pripisuje mudroslovné „Výroky“.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Brat Lev",
+      "role": "Spovedník a verný spoločník",
+      "description": "Spoločník posledných rokov, adresát Františkovho vlastnoručného listu a svedok La Verny.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II., biskup Assisi",
+      "role": "Františkov ochranca",
+      "description": "Biskup Assisi od roku 1204; pri scéne zrieknutia prikryl Františka plášťom a podoprel jeho prvé kroky.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Františkov otec",
+      "description": "Súkenník z Assisi; spor so synom o predaný majetok vyústil do verejnej scény pred biskupom.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Pani Pica",
+      "role": "Františkova matka",
+      "description": "Tradícia si ju pamätá ako bližšiu synovi v kríze konverzie; prameňov o nej je málo.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Pápež Inocent III.",
+      "role": "Pápež (1198 – 1216)",
+      "description": "Jeden z najvplyvnejších pápežov stredoveku; podľa tradície v roku 1210 ústne schválil Františkovu formu života.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Pápež Honórius III.",
+      "role": "Pápež (1216 – 1227)",
+      "description": "V roku 1223 schválil Potvrdenú regulu a podporil mladé bratstvo.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Sultán Egypta",
+      "description": "Ajjúbovský sultán, ktorý sa s Františkom stretol v Damiette v roku 1219, počas piatej križiackej výpravy.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Tomáš z Celana",
+      "role": "Prvý životopisec",
+      "description": "Menší brat, napísal Prvý životopis (1228 – 1229) na objednávku Gregora IX. a Druhý životopis (1246 – 1247), v ktorom zozbieral svedectvá spoločníkov.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventúra z Bagnoregia",
+      "role": "Teológ a životopisec",
+      "description": "Univerzitný majster a generálny minister Rádu; jeho Väčšia legenda (1260 – 1263) sa stala oficiálnym Františkovým životopisom.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardinál Ugolino (neskôr Gregor IX.)",
+      "role": "Ochranca Rádu",
+      "description": "Kardinál ochranca bratstva, potom pápež: v roku 1228 Františka kanonizoval.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Brat Eliáš z Cortony",
+      "role": "Sporný nástupca",
+      "description": "Spoločník a potom vodca Rádu po Františkovi; sporná postava, znak napätia medzi charizmou a inštitúciou.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Františkovo rodisko: námestie, katedrála San Rufino, hradby, stredoveké uličky.",
+      "historicalNote": "Skutočné historické miesto.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "Kaplnka za Assisi, kde sa František modlil pred krucifixom; neskôr príbytok Kláry a jej sestier.",
+      "historicalNote": "Skutočné historické miesto.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porciunkula (Santa Maria degli Angeli)",
+      "description": "Malý kostol na rovine pod Assisi: príbytok prvého bratstva a miesto Františkovej smrti.",
+      "historicalNote": "Skutočné historické miesto; dnes je včlenené do baziliky Santa Maria degli Angeli.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Chatrč pri potoku, kde prví spoločníci žili putujúcu formu života.",
+      "historicalNote": "Skutočné historické miesto; dnešné sanktuárium opatruje pamiatku toho osídlenia.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Eremitáž Carceri",
+      "description": "Pustovňa na hore Subasio, medzi dubmi cezmínovými a jaskyňami: miesto ústrania a modlitby.",
+      "historicalNote": "Skutočné historické miesto.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Umbrijské mesto spojené s príbehom o vlkovi a s Františkovou prítomnosťou v období pustovníctva.",
+      "historicalNote": "Skutočné historické miesto; epizóda s vlkom patrí do hagiografickej tradície.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Mestečko v reatinskom kraji, kde František slávil Vianoce 1223 so živými jasľami.",
+      "historicalNote": "Skutočné historické miesto.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Hora v toskánskych Apeninách darovaná Františkovi; miesto ústrania v roku 1224 a stigiem podľa stredovekých prameňov.",
+      "historicalNote": "Skutočné historické miesto.",
+      "isHistoricalPlace": true,
+      "region": "Toskánsko"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Pustovňa pri Rieti, kde sa v roku 1221 spísala Nepotvrdená regula.",
+      "historicalNote": "Skutočné historické miesto.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "Mesto v delte Nílu, dejisko piatej križiackej výpravy a stretnutia Františka so sultánom (1219).",
+      "historicalNote": "Skutočné historické miesto.",
+      "isHistoricalPlace": true,
+      "region": "Egypt"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Dubová osada",
+      "description": "Vymyslená osada v spoletskej doline: hlavné rozprávačské prostredie Pútnika.",
+      "historicalNote": "Fiktívne prostredie vytvorené pre hru; nie je to historické miesto.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (vymyslená)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbrijské polia a lesy",
+      "description": "Cesty, lesy cezmínového duba a polia medzi osadami: putovné javisko príbehov Pútnika.",
+      "historicalNote": "Rozprávačské prostredie inšpirované skutočnou umbrijskou krajinou.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (prostredie)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiografia",
+      "definition": "Literatúra o životoch svätých: stredoveký zbožný žáner, ktorého cieľom je poučenie, nie kronika. Treba ju čítať inými nástrojmi než dokumentárnu históriu."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Pokánie",
+      "definition": "Vo Františkovom jazyku: obrátenie srdca a života, nie trest. „Konať pokánie“ znamenalo zmeniť smer."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Menší brat",
+      "definition": "Meno, ktoré František zvolil pre svojich spoločníkov: „menší“, teda poslední, bez nároku na rad."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Minister",
+      "definition": "Vo františkánskom bratstve: zodpovedný za spoločenstvo alebo provinciu. Slovo znamená „služobník“."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Regula",
+      "definition": "Text, ktorý určuje formu života rehoľného spoločenstva. František napísal dve verzie: nepotvrdenú (1221) a potvrdenú (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bula",
+      "definition": "Oficiálny pápežský dokument, podľa olovenej pečate (bulla), ktorá ho overuje. „Potvrdená regula“ = regula schválená bulou."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Porciunkula",
+      "definition": "„Malý podiel“ zeme: kaplnka Santa Maria degli Angeli pri Assisi, dom bratstva."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stigmy",
+      "definition": "Znamenia Kristovho umučenia, ktoré stredoveké pramene pripisujú Františkovi po ústraní na La Verne (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Latinský výraz tradície: „bez ničoho vlastného“, františkánska podoba chudoby."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lauda",
+      "definition": "Nábožná básnická skladba v ľudovom jazyku, určená na spev. Pieseň stvorenia je lauda."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Komúna",
+      "definition": "Orgán mestskej samosprávy stredovekého Talianska: Františkovo Assisi bola rastúca komúna v konflikte s Perugiou a s feudálnou mocou."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Kapitula",
+      "definition": "Pravidelné zhromaždenie rehoľného bratstva; aj „generálna kapitula“ pre zhromaždenie celého Rádu."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Leprosárium",
+      "definition": "Stredoveká nemocnica-lazaret pre malomocných, za mestskými hradbami. Miesto Františkovho rozhodujúceho stretnutia."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Almužna",
+      "definition": "Dar vyžiadaný alebo prijatý na živobytie. Pre prvých bratov bola znakom dôvery v Prozreteľnosť, nie ponížením."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Syn kupca (1181/82 – 1202)",
+      "text": "František sa rodí v Assisi Pietovi di Bernardone, bohatému súkenníkovi, a pani Pike. Vyrastá v meste v plnom rozmachu komúny: bystrý, štedrý mladík, milovník slávností a francúzskych trubadúrov, sníva o rytierskej sláve. V roku 1202 bojuje proti Perugii pri Collestrade; porážka a rok zajatia spektakulárne uzatvárajú jeho prvý život.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Obrat (1202 – 1206)",
+      "text": "Choroba po zajatí, sen v Spolete, púť do Ríma, kde si vymení šaty so žobrákom: František hľadá nový smer. Potom epizóda, ktorú sám označí za začiatok: stretnutie s malomocnými, kde „to, čo mi pripadalo horké, sa obrátilo na sladkosť“. V San Damiano pred krucifixom počuje výzvu opraviť Boží „dom“. Predá otcove súkno a koňa, aby opravil kaplnku; spor vybuchne pred biskupom, kde vráti všetko.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "„Oprav môj dom“ (1206 – 1209)",
+      "text": "Sám, oblečený ako kajúcnik, František kameň po kameni opravuje San Damiano, San Pietro a Porciunkulu a slúži v leprosáriách. Mesto sa mu najprv vysmieva, potom sa naň začína dívať. V počúvaní evanjelia chápe povolanie: ohlasovať pokoj, žiť bez ničoho vlastného, na ceste. Zámer sa ukáže väčší než oprava troch kostolov: opraviť samu Cirkev, zdola.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Bratstvo (1209 – 1219)",
+      "text": "Bernard z Quintavalle, Egid a ostatní: prví spoločníci sa delia o formu života a v roku 1210 (alebo 1209) ju Inocent III. ústne schvaľuje. Porciunkula sa stáva domovom. V roku 1212 Klára z Assisi v noci utečie, aby nasledovala to isté povolanie. Bratstvo rastie nad všetky očakávania, s každoročnými kapitulami a misiami po celej Európe: rodia sa problémy veľkých počtov.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Na Východ (1219 – 1220)",
+      "text": "Uprostred piatej križiackej výpravy František dosahuje križiacky tábor v Damiette, prechádza línie a stretá sa so sultánom al-Malikom al-Kamilom. Stredoveké pramene opisujú vzájomnú úctu; moderná historiografia rozoberá detaily, ale gesto zostáva: v čase vojny ísť v ústrety. Po návrate nachádza bratstvo zmenené a v ťažkostiach: rozmery si žiadajú štruktúry, ktorých sa bojí.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Námaha rásť (1220 – 1223)",
+      "text": "František opúšťa každodenné vedenie Rádu a venuje sa písanej regule: tá z roku 1221, dlhá a voľná, nebude schválená; tá z roku 1223, kratšia a právnejšia, dostáva bulu Honória III. Týmito rokmi prechádza napätie medzi charizmou a inštitúciou: František ho žije vo vernosti a v utrpení. V Greccio na Vianoce 1223 dáva vidieť betlehemskú chudobu skutočnými jasľami.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Pieseň a večer (1224 – 1226)",
+      "text": "Na La Verne v septembri 1224 pramene rozprávajú o stigmách. Chorý a takmer slepý skladá v San Damiano Pieseň stvorenia: chvála sa rodí v najtemnejšom období. Pridáva strofu o odpustení, aby zmieril biskupa a podestu, a napokon strofu o „sestre telesnej smrti“. Keď nadiktuje Závet, umiera na Porciunkule večer 3. októbra 1226, nahý na nahej zemi. O dva roky ho Gregor IX. vyhlasuje za svätého.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

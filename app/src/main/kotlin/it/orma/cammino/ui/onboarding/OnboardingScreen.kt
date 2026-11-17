@@ -45,15 +45,15 @@ private val pages = listOf(
     OnboardingPage(
         title = "Chi è Francesco",
         titleEnglish = "Who Is Francis",
-        text = "Francesco d'Assisi (1181/82-1226): figlio di un mercante che scelse la povertà, fondò una fraternità e lasciò scritti che ancora parlano. Questa app ti invita a conoscerlo davvero — con le sue fonti, non solo con la sua leggenda.",
-        textEnglish = "Francis of Assisi (1181/82–1226): a merchant's son who chose poverty, founded a fraternity, and left writings that still speak. This app invites you to know him through his sources, not only through his legend.",
+        text = "Francesco d'Assisi (1181/82-1226), figlio di un mercante, lasciò una fraternità e un corpus di scritti. Qui si entra da un racconto, e si esce sapendo che cosa quei testi dicono davvero.",
+        textEnglish = "Francis of Assisi (1181/82–1226), a merchant's son, left a fraternity and a body of writings. You enter through a story, and leave knowing what those texts actually say.",
         illustration = OnboardingIllustration.TAU,
     ),
     OnboardingPage(
-        title = "Quattro vie",
-        titleEnglish = "Four Ways",
-        text = "Il Viandante ti fa vivere storie con scelte reali. Il Giardino cresce con ciò che scopri. Le Vie della Saggezza ti mettono di fronte a decisioni. Il Dialogo risponde alle tue domande. Nessun ordine obbligato: inizia da dove vuoi.",
-        textEnglish = "The Wayfarer lets you live stories with real choices. The Garden grows with what you discover. The Ways of Wisdom place decisions before you. The Dialogue answers your questions. There is no required order: begin where you wish.",
+        title = "Il racconto",
+        titleEnglish = "The Story",
+        text = "Si comincia dal racconto. Ogni insegnamento è appeso a uno scritto di Francesco o a una fonte dichiarata. Giardino, scelte e domande restano aperti se vuoi fermarti: non sono un punteggio e non misurano la tua vita.",
+        textEnglish = "You begin with the story. Each teaching hangs from a writing of Francis or from a declared source. Garden, choices and questions stay open if you want to pause: they are not a score and they do not measure your life.",
         illustration = OnboardingIllustration.FOUR_WAYS,
     ),
     OnboardingPage(
@@ -66,8 +66,8 @@ private val pages = listOf(
     OnboardingPage(
         title = "Il tuo passo",
         titleEnglish = "Your Step",
-        text = "Niente account, niente classifiche, niente punteggi di virtù. Quello che scopri resta sul tuo dispositivo; il diario è tuo e soltanto tuo. Buon cammino, pellegrino.",
-        textEnglish = "No account, rankings, or virtue scores. What you discover remains on your device; the journal is yours alone. A good journey, pilgrim.",
+        text = "Niente account, niente classifiche, niente misura della tua bontà. Quello che scopri resta sul dispositivo. Il diario non esce da qui.",
+        textEnglish = "No account, no rankings, no measure of your goodness. What you discover stays on the device. The journal does not leave it.",
         illustration = OnboardingIllustration.SHELL,
     ),
 )

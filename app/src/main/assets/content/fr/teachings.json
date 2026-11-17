@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "La rencontre qui change une vie",
+      "summary": "La conversion de François commence lorsqu'il dépasse le dégoût et rencontre les lépreux : la charité comme rencontre concrète avec l'autre.",
+      "explanation": "Dans le Testament, François raconte que voir les lépreux lui semblait « trop amer », et que c'est précisément la rencontre avec eux qui fut le début de sa pénitence. La charité franciscaine n'est pas un sentiment vague : c'est le geste physique de celui qui s'approche de l'exclu, et découvre que l'amertume se change en douceur. Celui qui donne ne se place pas au-dessus de celui qui reçoit : il le rencontre.",
+      "historicalContext": "Au XIIIe siècle, les lépreux étaient exclus de la vie de la cité, accueillis dans des léproseries hors les murs et tenus pour un symbole du péché. Le choix de François de vivre parmi eux était socialement scandaleux.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Rien en propre, tout reçu",
+      "summary": "Devant l'évêque, François rend ses vêtements à son père : le renoncement à la possession comme choix de liberté, non comme mépris des choses.",
+      "explanation": "Le renoncement de François devant l'évêque Guido est le geste public par lequel il tranche le lien avec la richesse familiale. Ce n'est pas une fuite des choses, mais une libération de l'idée de les posséder : qui ne possède rien n'a rien à défendre, et peut recevoir toute chose comme un don. Le latin technique de la tradition l'appelle « sine proprio » : sans propriété.",
+      "historicalContext": "Fils d'un riche marchand de draps, François était destiné à l'ascension sociale de la bourgeoisie communale. Son renoncement, en 1206, frappa l'imagination d'Assisi précisément parce qu'il renversait les valeurs de la cité marchande.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "La pauvreté comme liberté",
+      "summary": "Pour François, la pauvreté n'est pas une misère romantique : c'est ne s'approprier de rien afin de rester libre d'aimer et de ne dépendre que de Dieu.",
+      "explanation": "La Règle de 1223 demande aux frères de ne s'approprier de rien, « ni maison, ni lieu, ni quoi que ce soit », et d'aller quêter sans honte, en se souvenant que le Seigneur s'est fait pauvre. La pauvreté franciscaine a un fondement théologique (le Christ pauvre) et un fondement psychologique : qui n'a rien à défendre est libre. Ce n'est pas une invitation à glorifier l'indigence, qui est une blessure sociale, mais à ne pas se laisser définir par la possession.",
+      "historicalContext": "Le mouvement des pauvres volontaires naissait en réaction à la richesse croissante des communes et du clergé ; l'Église regardait avec méfiance les mouvements de pauvreté, et François dut conquérir laborieusement son approbation.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Frères mineurs",
+      "summary": "La communauté de François n'est pas un ordre de supérieurs et de sujets : c'est une fraternité de « mineurs », où chacun est responsable de l'autre.",
+      "explanation": "François voulut que les siens s'appellent frères mineurs : personne n'est grand, les responsables s'appellent « ministres », c'est-à-dire serviteurs. La Règle de 1221 demande de se manifester mutuellement ses besoins, de ne pas juger le frère, de ne pas dédaigner le faible. La fraternité est la forme même de l'Évangile vécu ensemble : on est frères non par idéal, mais par pratique quotidienne.",
+      "historicalContext": "La fraternité naît vers 1208-1210 des premiers compagnons (Bernard, Gilles…) et croît rapidement jusqu'à exiger des structures : chapitres, ministres, une règle écrite.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Le salut de paix",
+      "summary": "« Que le Seigneur te donne la paix » : François fait de la paix une annonce à porter, avant même une absence de guerre.",
+      "explanation": "Dans le Testament, François rappelle que le Seigneur lui révéla un salut de paix. Les premières sources décrivent les frères annonçant la paix de maison en maison. La paix franciscaine est active : on la porte, on la construit, on la médie — comme dans le récit du loup de Gubbio, où la paix naît du courage d'aller au-devant de ce qui fait peur.",
+      "historicalContext": "L'Italie des communes était traversée de vendettas entre factions, de guerres urbaines et de conflits entre pouvoirs civils et religieux. Annoncer la paix était un geste politique autant que spirituel.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Soixante-dix fois sept, et au-delà",
+      "summary": "À un responsable de la fraternité, François écrit : si un frère péchait mille fois, aime-le tout de même plus que moi.",
+      "explanation": "La Lettre à un ministre est le texte franciscain du pardon : celui qui guide ne doit ni se scandaliser ni s'endurcir devant les fautes des frères, mais annoncer la miséricorde. Le pardon ne nie pas le mal : il refuse que le mal ait le dernier mot sur la relation. Dans le Cantique, la strophe sur le pardon fut ajoutée — selon la tradition — pour réconcilier l'évêque et le podestat d'Assisi en conflit.",
+      "historicalContext": "La fraternité en croissance rapide vivait des tensions internes ; et les villes étaient déchirées par les vengeances et les vendettas, que les franciscains cherchaient à apaiser.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Être mineur, non se croire meilleur",
+      "summary": "L'humilité franciscaine est une vérité sur soi : ne pas s'exalter, ne pas se mépriser, servir comme le dernier.",
+      "explanation": "Les Admonitions mettent en garde contre sa propre volonté érigée en mesure de tout, et contre la complaisance spirituelle. L'humilité, pour François, est se voir dans la vérité : petit devant Dieu, débiteur de tout, capable de servir sans exiger de reconnaissance. Ce n'est pas une faible estime de soi : c'est la liberté à l'égard du besoin de paraître.",
+      "historicalContext": "Dans une société fondée sur l'honneur et le rang, s'appeler « mineurs » était un programme à contre-courant ; et, au sein de la fraternité en croissance, l'humilité était l'antidote à la compétition interne.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Frère soleil, sœur eau",
+      "summary": "Le Cantique des créatures : le monde n'est ni un entrepôt de ressources ni une idole, mais une famille de créatures qui louent le Créateur.",
+      "explanation": "Dans le Cantique, François loue Dieu « pour » les créatures : frère soleil, sœur lune, sœur eau « utile et humble et précieuse et chaste », sœur notre mère la terre. La nature n'est pas divinisée : elle est sœur, parce que fille du même Père. Le soin de la création naît ici de la gratitude et de la parenté, non de l'utilité. Et le Cantique naît dans la maladie : la louange ne dépend pas des circonstances.",
+      "historicalContext": "Composé en 1225-1226, alors que François était malade et presque aveugle, il compte parmi les premiers textes poétiques en langue vulgaire italienne. Bonaventure le situe dans la saison des épreuves.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "La parfaite allégresse",
+      "summary": "La joie franciscaine ne dépend pas des résultats : elle demeure aussi dans le refus et la fatigue, parce qu'elle naît de l'amour et non du succès.",
+      "explanation": "Dans les Fioretti, François explique à frère Léon que la vraie allégresse n'est ni les miracles ni les conversions, mais revenir repoussé et transi de froid, et rester patient et joyeux. C'est un récit hagiographique, non une chronique, mais il condense un trait authentique de l'esprit franciscain : la joie comme choix intérieur qu'aucun événement ne peut ôter.",
+      "historicalContext": "Les Fioretti (fin du XIVe siècle) recueillent la mémoire vivante du premier franciscanisme ; il faut les lire comme une littérature spirituelle, non comme une histoire documentaire.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Le désert qui habite le monde",
+      "summary": "François alternait mission et retraite : la prière comme lieu où l'on revient à l'essentiel devant Dieu.",
+      "explanation": "La vie franciscaine n'est pas seulement action : François cherchait des ermitages et des retraites (les Carceri, La Verna), avec peu de compagnons et de longs silences. Dans la Lettre à frère Léon, il renvoie à la conscience devant Dieu : la prière n'est pas une technique mais une relation. Les Louanges du Dieu très-haut montrent sa prière la plus pure : une louange sans demandes.",
+      "historicalContext": "Les ermitages franciscains naissaient dans les lieux sauvages de l'Apennin ombro-toscan ; La Verna, donnée à François en 1213, devint la retraite par excellence.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Suivre les traces du Christ",
+      "summary": "La spiritualité de François n'est pas une philosophie de la nature : c'est la suite du Christ pauvre et crucifié, au sein de la foi de l'Église.",
+      "explanation": "Tout, chez François, part du Christ : le crucifix de San Damiano qui lui parle, le choix de la pauvreté « parce que le Seigneur s'est fait pauvre », la passion contemplée à La Verna, la foi simple dans les églises du Testament. Retirer cette racine ne rend pas François plus universel : cela le rend méconnaissable. L'application la présente pour ce qu'elle est, sans l'imposer et sans l'effacer.",
+      "historicalContext": "François vécut la foi dans le cadre de l'Église médiévale, en cherchant son approbation pour sa forme de vie et en en acceptant les limites, tout en poussant la réforme par le bas.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Une règle pour ne pas se perdre",
+      "summary": "L'obéissance franciscaine n'est pas un anéantissement : c'est un pacte commun qui protège la fraternité de la dispersion et de l'arbitraire.",
+      "explanation": "François demanda l'approbation de l'Église et écrivit des règles toujours plus essentielles (1221, 1223). L'obéissance, dans les Admonitions et dans les Règles, est réciproque : on obéit à la règle partagée, et celui qui guide sert. Le Testament demande de ne pas gloser la règle : de la vivre « simplement et sans gloses ». Communauté et obéissance sont le cadre qui rend la liberté durable.",
+      "historicalContext": "Entre 1210 et 1223, la fraternité passa d'un petit groupe à un Ordre reconnu ; la tension entre charisme et institution traverse toute l'histoire franciscaine.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "La louange qui ne demande rien",
+      "summary": "Les Louanges de Dieu et le Cantique naissent dans la maladie : la gratitude franciscaine ne récompense pas la chance, elle reconnaît le don en toute chose.",
+      "explanation": "Les Louanges du Dieu très-haut, écrites à La Verna, sont une prière sans une seule demande : seulement une reconnaissance. Le Cantique aussi, composé dans la souffrance, est louange. La gratitude franciscaine est un regard exercé : il voit toute chose — l'eau, le soleil, le jour, et même la mort — comme reçue. Qui remercie ne possède pas : il habite.",
+      "historicalContext": "En 1224-1226, François était gravement malade, presque aveugle, et marqué par l'éloignement de la conduite de l'Ordre : la louange de ces années n'est pas de la naïveté, mais une conquête.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Qui guide, sert",
+      "summary": "Dans la fraternité, les responsables s'appellent « ministres » : le service comme seule forme légitime d'autorité.",
+      "explanation": "François renverse la hiérarchie : le ministre est celui qui sert, le custode est celui qui garde les frères, non celui qui commande. La Lettre à un ministre en montre le ton : proximité avec celui qui se trompe, jamais le mépris. Le service n'est pas une stratégie pour plaire : c'est la manière chrétienne d'habiter tout rôle, du frère à l'évêque, du parent au maire.",
+      "historicalContext": "Les titres de la hiérarchie franciscaine (ministre, custode, gardien) furent choisis précisément contre la logique du prestige médiéval.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Personne n'est étranger",
+      "summary": "Lépreux, brigands, un sultan, un loup : la tradition franciscaine pousse l'accueil au-delà des frontières de son propre groupe.",
+      "explanation": "François rencontre les lépreux, va au-devant du sultan al-Malik al-Kamil en pleine croisade et, dans la mémoire populaire, parle même avec le loup. L'accueil franciscain n'est pas une tolérance passive : c'est aller au-devant, s'exposer, appeler « frère » celui que son propre monde appelle ennemi. Cela commence par le voisin incommode et ne s'arrête pas aux frontières de la foi ou de la langue.",
+      "historicalContext": "La rencontre avec le sultan (1219, Damiette) eut lieu pendant la cinquième croisade : un geste de paix documenté par les sources, dans les limites du témoignage médiéval.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Se faire prochain avec son corps",
+      "summary": "« Je fis miséricorde avec eux » : la miséricorde franciscaine est une compassion qui se fait geste concret, non une pitié à distance.",
+      "explanation": "Dans le Testament, François emploie un mot fort : avec les lépreux, « je fis miséricorde ». Il ne dit pas qu'il éprouva de la compassion : il la fit. La miséricorde est la capacité de se laisser atteindre par la souffrance de l'autre jusqu'à mettre les mains en mouvement. C'est la racine d'où croissent la charité, le pardon et la paix.",
+      "historicalContext": "La piété médiévale connaissait l'aumône comme pratique méritoire ; François la transforme en relation : on ne donne pas au pauvre, on demeure avec le pauvre.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Le travail des mains",
+      "summary": "François n'oppose pas prière et travail : le travail honnête tient l'oisiveté à distance et ne doit pas éteindre l'oraison.",
+      "explanation": "Dans le Testament, François dit avoir travaillé de ses mains et vouloir que les frères travaillent, non par cupidité du salaire, mais pour l'exemple et contre l'oisiveté. Si le salaire manque, on revient à l'aumône. La Règle bullée ajoute la limite : le travail est une grâce, et les choses temporelles doivent servir l'esprit de l'oraison, non le remplacer. Dans la Règle non bullée, le travail est aussi une manière de demeurer dans la maison d'autrui en mineurs, sans prendre de charges qui donnent du pouvoir.",
+      "historicalContext": "Beaucoup des premiers frères venaient de métiers. La question du travail et de l'argent est déjà aiguë avant 1223 : la Règle de 1221 est plus développée et plus sévère sur l'argent ; la règle bullée est plus brève et confie aux ministres le soin des malades par l'intermédiaire d'amis spirituels.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Le corps, non une idée",
+      "summary": "Pour François, le Fils de Dieu, en ce monde, se voit dans le corps et le sang que les prêtres reçoivent et donnent.",
+      "explanation": "Le Testament lie la révérence pour les prêtres à ceci : François dit ne rien voir corporellement du Fils de Dieu sinon son corps et son sang. La Lettre à tout l'Ordre pousse la même foi jusqu'à la forme du pain, et demande aux prêtres de célébrer sans chercher à plaire aux hommes. Ce n'est pas un thème latéral. C'est le centre à partir duquel François lit l'Église, les paroles écrites et sa propre petitesse. L'application le dit pour ce que c'est : une foi eucharistique médiévale, non une métaphore générique du don.",
+      "historicalContext": "La dévotion eucharistique de François s'inscrit dans la réforme du Latran IV (1215), qui impose la confession annuelle et précise la doctrine du sacrement. Les lettres aux clercs et aux custodes, non reproduites ici en entier, insistent sur le même point.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "La forme de l'Évangile",
+      "summary": "François n'invente pas une spiritualité à côté de l'Évangile : il dit que le Très-Haut lui révéla de vivre selon cette forme, et il la fit écrire.",
+      "explanation": "Le Testament est explicite : personne ne lui montrait quoi faire ; le Très-Haut lui révéla de vivre selon la forme du saint Évangile ; il la fit écrire en peu de mots et le pape la confirma. Les deux Règles s'ouvrent sur le même point. Observer l'Évangile, dans ces textes, n'est pas un sentiment : c'est obéissance, rien en propre, et chasteté, au sein d'une fraternité approuvée. Le récit du renoncement devant l'évêque, chez Thomas de Celano, est une autre scène du même choix. Ici, le texte de François vient avant le récit sur François.",
+      "historicalContext": "L'approbation orale d'Innocent III est datée par la tradition de 1209 ou 1210 ; la Règle non bullée est de 1221 ; la bullée est confirmée par Honorius III le 29 novembre 1223. Le Testament, en 1226, relit toute la séquence comme une seule révélation.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

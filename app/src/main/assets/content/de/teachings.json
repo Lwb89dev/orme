@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Die Begegnung, die ein Leben verändert",
+      "summary": "Die Umkehr des Franz beginnt, als er den Ekel überwindet und den Aussätzigen begegnet: Nächstenliebe als konkrete Begegnung mit dem anderen.",
+      "explanation": "Im Testament erzählt Franz, dass ihm der Anblick der Aussätzigen „zu bitter“ schien und dass gerade die Begegnung mit ihnen der Anfang seiner Buße war. Franziskanische Nächstenliebe ist kein allgemeines Gefühl: Sie ist die leibliche Gebärde dessen, der sich dem nähert, der ausgeschlossen ist, und entdeckt, dass die Bitterkeit sich in Süße verwandelt. Wer gibt, stellt sich nicht über den, der empfängt: Sie begegnen einander.",
+      "historicalContext": "Im 13. Jahrhundert waren die Aussätzigen vom städtischen Leben ausgeschlossen, in Leprosorien außerhalb der Mauern untergebracht und galten als Sinnbild der Sünde. Dass Franz sich entschied, unter ihnen zu leben, war gesellschaftlich ein Skandal.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Nichts als Eigenes, alles empfangen",
+      "summary": "Vor dem Bischof gibt Franz seinem Vater die Kleider zurück: Verzicht auf Besitz als Wahl der Freiheit, nicht als Verachtung der Dinge.",
+      "explanation": "Der Verzicht des Franz vor Bischof Guido ist die öffentliche Gebärde, mit der er das Band zum Reichtum der Familie durchschneidet. Es ist keine Flucht vor den Dingen, sondern Befreiung von der Vorstellung, sie zu besitzen: Wer nichts besitzt, muss nichts verteidigen und kann alles als Gabe empfangen. Das Fachlatein der Überlieferung nennt es „sine proprio“: ohne Eigentum.",
+      "historicalContext": "Als Sohn eines reichen Tuchhändlers war Franz für den sozialen Aufstieg des städtischen Bürgertums bestimmt. Sein Verzicht im Jahr 1206 traf die Vorstellungskraft von Assisi gerade deshalb, weil er die Werte der Handelsstadt auf den Kopf stellte.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Armut als Freiheit",
+      "summary": "Für Franz ist Armut keine romantische Not: Sie bedeutet, sich nichts anzueignen, um frei zu bleiben, zu lieben und allein von Gott abzuhängen.",
+      "explanation": "Die Regel von 1223 verlangt von den Brüdern, sich nichts anzueignen, „weder Haus noch Ort noch irgendein Ding“, und ohne Scham um Almosen zu gehen, eingedenk dessen, dass der Herr arm geworden ist. Franziskanische Armut hat ein theologisches Fundament (der arme Christus) und ein psychologisches: Wer nichts zu verteidigen hat, ist frei. Sie ist keine Einladung, die Not zu verklären, die eine soziale Wunde ist, sondern sich nicht vom Besitz bestimmen zu lassen.",
+      "historicalContext": "Die Bewegung der freiwillig Armen entstand als Reaktion auf den wachsenden Reichtum der Kommunen und des Klerus. Die Kirche begegnete den Armutsbewegungen mit Misstrauen, und Franz musste die Anerkennung mühsam erringen.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Minderbrüder",
+      "summary": "Die Gemeinschaft des Franz ist kein Orden von Vorgesetzten und Untergebenen: Sie ist eine Bruderschaft von „Minderen“, in der jeder für den anderen verantwortlich ist.",
+      "explanation": "Franz wollte, dass die Seinen Minderbrüder heißen: Niemand ist groß, die Verantwortlichen heißen „Minister“, das heißt Diener. Die Regel von 1221 verlangt, einander die Nöte mitzuteilen, den Bruder nicht zu richten und den Schwachen nicht zu verachten. Brüderlichkeit ist die Gestalt des gemeinsam gelebten Evangeliums selbst: Man ist Bruder nicht aus einem Ideal, sondern aus täglicher Übung.",
+      "historicalContext": "Die Bruderschaft entsteht um 1208–1210 aus den ersten Gefährten (Bernhard, Ägidius …) und wächst rasch, bis sie Strukturen braucht: Kapitel, Minister, eine geschriebene Regel.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Der Friedensgruß",
+      "summary": "„Der Herr gebe dir Frieden“: Franz macht den Frieden zu einer Botschaft, die man trägt, noch bevor er die Abwesenheit von Krieg ist.",
+      "explanation": "Im Testament erinnert Franz daran, dass der Herr ihm einen Friedensgruß offenbarte. Die frühen Quellen beschreiben, wie die Brüder den Frieden von Haus zu Haus verkündeten. Franziskanischer Frieden ist tätig: Man trägt ihn, man baut ihn, man vermittelt ihn — wie in der Erzählung vom Wolf von Gubbio, wo der Frieden aus dem Mut entsteht, dem entgegenzugehen, was Angst macht.",
+      "historicalContext": "Das Italien der Kommunen war von Fehden zwischen Parteien, von Städtekriegen und von Konflikten zwischen weltlicher und geistlicher Macht durchzogen. Frieden zu verkünden war eine politische Gebärde ebenso wie eine geistliche.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Siebzigmal sieben, und darüber hinaus",
+      "summary": "Einem Verantwortlichen der Bruderschaft schreibt Franz: Wenn ein Bruder tausendmal sündigte, liebe ihn dennoch mehr als mich.",
+      "explanation": "Der Brief an einen Minister ist der franziskanische Text der Vergebung: Wer führt, darf sich am Fehl der Brüder weder ärgern noch verhärten, sondern muss Barmherzigkeit verkünden. Vergebung leugnet das Böse nicht: Sie verweigert dem Bösen das letzte Wort über die Beziehung. Im Sonnengesang wurde die Strophe über die Vergebung — der Überlieferung nach — hinzugefügt, um den Bischof und den Podestà von Assisi zu versöhnen, die im Streit lagen.",
+      "historicalContext": "Die rasch wachsende Bruderschaft kannte innere Spannungen; und die Städte waren von Rache und Fehden zerrissen, die die Franziskaner zu befrieden suchten.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Minder sein, sich nicht für besser halten",
+      "summary": "Franziskanische Demut ist Wahrheit über sich selbst: sich nicht erheben, sich nicht verachten, dienen wie der Letzte.",
+      "explanation": "Die Ermahnungen warnen davor, den eigenen Willen zum Maß aller Dinge zu machen, und vor geistlicher Selbstgefälligkeit. Demut heißt für Franz, sich in der Wahrheit zu sehen: klein vor Gott, alles schuldig, fähig zu dienen, ohne Anerkennung zu verlangen. Sie ist kein geringes Selbstwertgefühl: Sie ist Freiheit vom Bedürfnis, etwas zu scheinen.",
+      "historicalContext": "In einer Gesellschaft, die auf Ehre und Rang gründete, sich „die Minderen“ zu nennen, war ein Programm gegen den Strom; und innerhalb der wachsenden Bruderschaft war die Demut das Gegengift gegen den inneren Wettbewerb.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Bruder Sonne, Schwester Wasser",
+      "summary": "Der Sonnengesang: Die Welt ist weder ein Lager von Ressourcen noch ein Götze, sondern eine Familie von Geschöpfen, die den Schöpfer loben.",
+      "explanation": "Im Sonnengesang lobt Franz Gott „per“ — für — die Geschöpfe: Bruder Sonne, Schwester Mond, Schwester Wasser, „nützlich und demütig und kostbar und keusch“, unsere Schwester, Mutter Erde. Die Natur wird nicht vergöttlicht: Sie ist Schwester, weil Tochter desselben Vaters. Die Sorge für die Schöpfung entspringt hier der Dankbarkeit und der Verwandtschaft, nicht dem Nutzen. Und der Sonnengesang entsteht in der Krankheit: Das Lob hängt nicht von den Umständen ab.",
+      "historicalContext": "Entstanden 1225–1226, während Franz krank und nahezu blind war, gehört er zu den ersten poetischen Texten in italienischer Volkssprache. Bonaventura setzt ihn in die Zeit der Prüfungen.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Die vollkommene Freude",
+      "summary": "Franziskanische Freude hängt nicht von Ergebnissen ab: Sie bleibt auch in Zurückweisung und Mühsal, weil sie aus der Liebe entsteht und nicht aus dem Erfolg.",
+      "explanation": "In den Fioretti erklärt Franz dem Bruder Leo, dass die wahre Freude nicht die Wunder und nicht die Bekehrungen sind, sondern zurückgewiesen und durchfroren heimzukehren und geduldig und froh zu bleiben. Es ist eine hagiografische Erzählung, keine Chronik, aber sie verdichtet einen echten Zug des franziskanischen Geistes: die Freude als innere Wahl, die kein Ereignis nehmen kann.",
+      "historicalContext": "Die Fioretti (Ende des 14. Jahrhunderts) sammeln das lebendige Gedächtnis des frühen Franziskanertums; sie sind als geistliche Literatur zu lesen, nicht als dokumentarische Geschichte.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Die Wüste, die in der Welt wohnt",
+      "summary": "Franz wechselte zwischen Sendung und Rückzug: das Gebet als Ort, an dem man vor Gott zum Wesentlichen zurückkehrt.",
+      "explanation": "Das franziskanische Leben ist nicht nur Tat: Franz suchte Einsiedeleien und Rückzugsorte (die Carceri, La Verna), mit wenigen Gefährten und langem Schweigen. Im Brief an Bruder Leo verweist er auf das Gewissen vor Gott: Gebet ist keine Technik, sondern Beziehung. Die Lobpreisungen des höchsten Gottes zeigen sein reinestes Gebet: Lob ohne Bitten.",
+      "historicalContext": "Die franziskanischen Einsiedeleien entstanden in den wilden Gegenden des umbrisch-toskanischen Apennins; La Verna, Franz 1213 geschenkt, wurde der Rückzugsort schlechthin.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Den Spuren Christi folgen",
+      "summary": "Die Spiritualität des Franz ist keine Naturphilosophie: Sie ist Nachfolge des armen und gekreuzigten Christus, innerhalb des Glaubens der Kirche.",
+      "explanation": "Bei Franz beginnt alles bei Christus: das Kruzifix von San Damiano, das zu ihm spricht, die Wahl der Armut, „weil der Herr arm geworden ist“, die auf La Verna betrachtete Passion, der schlichte Glaube an die Kirchen im Testament. Diese Wurzel zu entfernen macht Franz nicht universaler: Es macht ihn unkenntlich. Die App stellt sie so dar, wie sie ist, ohne sie aufzudrängen und ohne sie zu tilgen.",
+      "historicalContext": "Franz lebte den Glauben im Rahmen der mittelalterlichen Kirche, suchte ihre Anerkennung für seine Lebensform und nahm ihre Grenzen an, auch wenn er ihre Erneuerung von unten anstieß.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Eine Regel, um sich nicht zu verlieren",
+      "summary": "Franziskanischer Gehorsam ist keine Auslöschung: Er ist ein gemeinsamer Bund, der die Bruderschaft vor Zerstreuung und vor Willkür schützt.",
+      "explanation": "Franz erbat die Anerkennung der Kirche und schrieb immer knappere Regeln (1221, 1223). Der Gehorsam, in den Ermahnungen und in den Regeln, ist wechselseitig: Man gehorcht der gemeinsamen Regel, und wer führt, dient. Das Testament bittet, die Regel nicht zu glossieren: sie „einfach und ohne Glossen“ zu leben. Gemeinschaft und Gehorsam sind der Rahmen, der die Freiheit dauerhaft macht.",
+      "historicalContext": "Zwischen 1210 und 1223 wurde die Bruderschaft von einer kleinen Gruppe zu einem anerkannten Orden; die Spannung zwischen Charisma und Institution durchzieht die gesamte franziskanische Geschichte.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Das Lob, das nichts erbittet",
+      "summary": "Die Lobpreisungen Gottes und der Sonnengesang entstehen in der Krankheit: Franziskanische Dankbarkeit belohnt nicht das Glück, sondern erkennt die Gabe in jedem Ding.",
+      "explanation": "Die Lobpreisungen des höchsten Gottes, auf La Verna geschrieben, sind ein Gebet ohne eine einzige Bitte: nur Anerkennung. Auch der Sonnengesang, im Leiden entstanden, ist Lob. Franziskanische Dankbarkeit ist ein geübter Blick: Sie sieht jedes Ding — das Wasser, die Sonne, den Tag, sogar den Tod — als empfangen. Wer dankt, besitzt nicht: Er wohnt.",
+      "historicalContext": "1224–1226 war Franz schwer krank, nahezu blind und gezeichnet von der Ablösung von der Leitung des Ordens: Das Lob jener Jahre ist keine Naivität, sondern eine errungene Haltung.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Wer führt, dient",
+      "summary": "In der Bruderschaft heißen die Verantwortlichen „Minister“: Dienst als die einzige legitime Form von Autorität.",
+      "explanation": "Franz kehrt die Hierarchie um: Der Minister ist, wer dient, der Kustos ist, wer die Brüder behütet, nicht wer befiehlt. Der Brief an einen Minister zeigt den Ton: Nähe zu dem, der fehlt, niemals Verachtung. Dienst ist keine Strategie, um zu gefallen: Er ist die christliche Weise, jede Rolle zu bewohnen, vom Bruder bis zum Bischof, vom Elternteil bis zum Bürgermeister.",
+      "historicalContext": "Die Titel der franziskanischen Hierarchie (Minister, Kustos, Guardian) wurden gerade gegen die Logik des mittelalterlichen Prestiges gewählt.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Niemand ist fremd",
+      "summary": "Aussätzige, Räuber, ein Sultan, ein Wolf: Die franziskanische Überlieferung treibt die Aufnahme über die Grenzen der eigenen Gruppe hinaus.",
+      "explanation": "Franz begegnet den Aussätzigen, geht dem Sultan al-Malik al-Kamil mitten im Kreuzzug entgegen, und im volkstümlichen Gedächtnis spricht er sogar mit dem Wolf. Franziskanische Aufnahme ist keine passive Toleranz: Sie ist Entgegengehen, Sich-Aussetzen, den „Bruder“ nennen, den die eigene Welt Feind nennt. Sie beginnt beim unbequemen Nächsten und hält nicht an den Grenzen des Glaubens oder der Sprache an.",
+      "historicalContext": "Die Begegnung mit dem Sultan (1219, Damiette) fand während des Fünften Kreuzzugs statt: eine Friedensgebärde, die von den Quellen belegt ist, innerhalb der Grenzen des mittelalterlichen Zeugnisses.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Mit dem Leib zum Nächsten werden",
+      "summary": "„Ich erwies ihnen Barmherzigkeit“: Franziskanische Barmherzigkeit ist Mitleid, das zur konkreten Gebärde wird, nicht Anteilnahme aus der Ferne.",
+      "explanation": "Im Testament gebraucht Franz ein starkes Wort: Mit den Aussätzigen „erwies ich Barmherzigkeit“. Er sagt nicht, dass er Mitleid empfand: Er hat sie getan. Barmherzigkeit ist die Fähigkeit, sich vom Leiden des anderen erreichen zu lassen, bis die Hände sich bewegen. Sie ist die Wurzel, aus der Nächstenliebe, Vergebung und Frieden wachsen.",
+      "historicalContext": "Die mittelalterliche Frömmigkeit kannte das Almosen als verdienstliche Übung. Franz verwandelt es in Beziehung: Man gibt nicht dem Armen, man ist beim Armen.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Die Arbeit der Hände",
+      "summary": "Franz setzt Gebet und Arbeit nicht gegeneinander: Ehrliche Arbeit hält den Müßiggang fern und darf das Gebet nicht auslöschen.",
+      "explanation": "Im Testament sagt Franz, er habe mit seinen Händen gearbeitet und wolle, dass die Brüder arbeiten, nicht aus Gier nach dem Lohn, sondern um des Beispiels willen und gegen den Müßiggang. Fehlt der Lohn, kehrt man zum Almosen zurück. Die bullierte Regel setzt die Grenze hinzu: Arbeit ist Gnade, und die zeitlichen Dinge müssen dem Geist des Gebets dienen, nicht ihn ersetzen. In der nicht-bullierten Regel ist die Arbeit auch eine Weise, im Haus anderer als Mindere zu bleiben, ohne Ämter anzunehmen, die Macht verleihen.",
+      "historicalContext": "Viele der ersten Brüder kamen aus einem Handwerk. Die Frage von Arbeit und Geld ist schon vor 1223 scharf: Die Regel von 1221 ist ausführlicher und strenger beim Geld; die bullierte ist kürzer und vertraut den Ministern die Sorge für die Kranken durch geistliche Freunde an.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Der Leib, keine Idee",
+      "summary": "Für Franz sieht man den Sohn Gottes in dieser Welt in dem Leib und dem Blut, die die Priester empfangen und reichen.",
+      "explanation": "Das Testament bindet die Ehrfurcht vor den Priestern daran: Franz sagt, er sehe leiblich nichts anderes vom Sohn Gottes als seinen Leib und sein Blut. Der Brief an den ganzen Orden treibt denselben Glauben bis zur Gestalt des Brotes und bittet die Priester, zu feiern, ohne den Menschen gefallen zu wollen. Das ist kein Randthema. Es ist die Mitte, von der aus Franz die Kirche, die geschriebenen Worte und die eigene Kleinheit liest. Die App sagt es so, wie es ist: mittelalterlicher eucharistischer Glaube, keine allgemeine Metapher der Gabe.",
+      "historicalContext": "Die eucharistische Frömmigkeit des Franz steht innerhalb der Reform des IV. Laterankonzils (1215), das die jährliche Beichte vorschreibt und die Lehre vom Sakrament präzisiert. Die Briefe an die Kleriker und an die Kustoden, hier nicht vollständig wiedergegeben, beharren auf demselben Punkt.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Die Form des Evangeliums",
+      "summary": "Franz erfindet keine Spiritualität neben dem Evangelium: Er sagt, der Allerhöchste habe ihm offenbart, nach jener Form zu leben, und er ließ sie niederschreiben.",
+      "explanation": "Das Testament ist eindeutig: Niemand zeigte ihm, was er tun sollte; der Allerhöchste offenbarte ihm, nach der Form des heiligen Evangeliums zu leben; er ließ sie mit wenigen Worten niederschreiben, und der Papst bestätigte sie. Die beiden Regeln beginnen mit demselben Punkt. Das Evangelium zu beobachten heißt in diesen Texten kein Gefühl: Es ist Gehorsam, nichts Eigenes und Keuschheit, innerhalb einer anerkannten Bruderschaft. Die Erzählung vom Verzicht vor dem Bischof bei Celano ist eine andere Szene derselben Wahl. Hier kommt der Text des Franz vor der Erzählung über Franz.",
+      "historicalContext": "Die mündliche Anerkennung durch Innozenz III. wird von der Überlieferung auf 1209 oder 1210 datiert; die nicht-bullierte Regel stammt von 1221; die bullierte wird von Honorius III. am 29. November 1223 bestätigt. Das Testament liest 1226 die ganze Folge als eine einzige Offenbarung.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

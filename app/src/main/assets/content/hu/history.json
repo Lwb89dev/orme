@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Születés Assisiben",
+      "description": "Bernardone Péter fia, Giovanni, akit Ferencnek hívnak, Assisiben születik, egy gazdag posztókereskedő és Pica úrnő gyermekeként.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 vagy 1182 (bizonytalan)",
+      "chronologicalUncertainty": "A források nem egyeznek az évben: a történetírás 1181-et és 1182-t egyaránt javasolja.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Háború és fogság",
+      "description": "Assisi és Perugia háborújában Ferenc a collestradai csatában harcol (1202 novembere), fogságba esik, és körülbelül egy évet tölt Perugiában. Hazatérve egy betegség kezdi megváltoztatni.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "A spoletói álom és a visszatérés",
+      "description": "Ferenc katonai dicsőségért Pugliába indul, Spoletóban azonban álmot lát, amely visszatéríti Assisibe. Kezdődik az elszakadás a korábbi élettől: álmok, ima, zarándoklat Rómába.",
+      "yearFrom": 1205,
+      "dateLabel": "1204–1205 körül",
+      "chronologicalUncertainty": "Ezeknek a hónapoknak a rekonstrukciója a középkori életrajzokból származik; a pontos dátumok konvencionálisak.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "A találkozás a leprásokkal",
+      "description": "Ferenc a Végrendeletben elmondja, hogy az Úr a leprások közé vezette, és „irgalmasságot cselekedett velük”: ez az epizód, amelyet ő maga jelöl meg megtérése kezdeteként.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "1205–1206 körül",
+      "chronologicalUncertainty": "A Végrendelet nem ad dátumot; az elhelyezés a családdal való nyilvános szakítás elé esik.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "A San Damiano-i feszület",
+      "description": "San Damiano romos kis templomában a hagyomány szerint Ferenc hallja, amint a feszület így szólítja: „Építsd újjá a házamat.” Eleinte szó szerint érti, és saját kezével restaurál templomokat.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "1205–1206 körül",
+      "chronologicalUncertainty": "Az epizódot főként a Második életrajz és a későbbi hagyomány tanúsítja; a párbeszéd szó szerinti volta a jámbor elbeszéléshez tartozik.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "A lemondás a püspök előtt",
+      "description": "Apja Guidó püspök elé citálja az eladott javak miatt. Ferenc mindent visszaad, a ruháit is, és a „mennyei Atyára” bízza magát. A püspök a saját köpenyével takarja be.",
+      "yearFrom": 1206,
+      "dateLabel": "1206 eleje",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Az első társak",
+      "description": "Quintavallei Bernát, Egyed és mások csatlakoznak Ferenchez, és osztoznak életformájában: megszületik a vándorló testvériség, munka, alamizsna és a béke hirdetése között.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "III. Ince jóváhagyása",
+      "description": "Ferenc és társai Rómába mennek; III. Ince szóban jóváhagyja evangéliumi életformájukat. A jóváhagyásnak semmilyen irata nem maradt fenn: a hagyomány 1210-re datálja.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (vagy 1209)",
+      "chronologicalUncertainty": "A jóváhagyás szóbeli volt, és egyetlen irat sem maradt fenn; a pontos év (1209 vagy 1210) vitatott.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "A Porciunkula, a testvériség otthona",
+      "description": "Az Angyalos Szűz Mária kis temploma, a Porciunkula, a testvériség állandó lakhelyévé válik: a mozgalom lelki és érzelmi központja.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Klára szökése",
+      "description": "Klára Offreduccio elhagyja atyai házát, és a Porciunkulánál csatlakozik Ferenchez, a virágvasárnap és 1212. március 19-e, hétfő közötti éjszakán: kezdetét veszi az az életforma, amelyből a klarisszák születnek.",
+      "yearFrom": 1212,
+      "dateLabel": "1212. március 18–19.",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "A találkozás a szultánnal",
+      "description": "Az ötödik keresztes hadjárat alatt Ferenc átlépi a vonalakat, és Damiettánál találkozik al-Málik al-Kámil szultánnal: párbeszéd háború idején, amelyet ferences források dokumentálnak, és külső krónikások is megemlítenek.",
+      "yearFrom": 1219,
+      "dateLabel": "1219 szeptembere",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "A meg nem erősített Regula",
+      "description": "Fonte Colombónál, Rieti közelében készül el a testvériség első teljes regulája (Regula non bullata): hosszú és lelki, formálisan soha nem hagyják jóvá.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "A megerősített Regula",
+      "description": "III. Honoriusz a „Solet annuere” bullával hagyja jóvá a végleges regulát (1223. november 29.): rövidebb és jogibb, mindmáig a Kisebb Testvérek Rendjének alapja.",
+      "yearFrom": 1223,
+      "dateLabel": "1223. november 29.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "A greccioi karácsony",
+      "description": "1223 karácsonyán Ferenc Greccióban igazi jászolt készíttet, szénával, ökörrel és szamárral, hogy „a test szemével” lássa Betlehem szegénységét: a betlehemezés hagyományának eredete.",
+      "yearFrom": 1223,
+      "dateLabel": "1223 karácsonya",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "A La Verna",
+      "description": "1224 szeptemberében, a La Verna hegyén visszavonulva Ferenc — a legközelebbi középkori források szerint — megkapja Krisztus szenvedésének stigmáit, amelyeket igyekszik titokban tartani.",
+      "yearFrom": 1224,
+      "dateLabel": "1224 szeptembere",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "A teremtmények éneke",
+      "description": "Betegen és szinte vakon Ferenc több részletben megírja az umbriai népnyelvű laudát, amelyet a teremtmények énekeként ismerünk: dicséret Istennek nap testvér, víz nővér, földanya és végül a testi halál nővér által.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Gubbio farkasa",
+      "description": "A Fioretti elbeszéli, hogy Ferenc békét közvetített Gubbio városa és egy vad farkas között: a város táplálta volna, a farkas többé nem ártott volna. Hagiográfiai elbeszélés, nem krónika.",
+      "yearFrom": 1220,
+      "dateLabel": "bizonytalan dátum",
+      "chronologicalUncertainty": "A tizennegyedik századi hagiográfiai hagyomány epizódja (Fioretti, 21. fejezet), okirati megerősítés nélkül: az emlékezet elbeszéléseként kínáljuk, nem történelmi tényként.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "A halál a Porciunkulán",
+      "description": "Ferenc 1226. október 3-án este hal meg a Porciunkulán, miután lediktálta a Végrendeletet, és kérte, hogy meztelenül fektessék a puszta földre.",
+      "yearFrom": 1226,
+      "dateLabel": "1226. október 3.",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "A szentté avatás",
+      "description": "IX. Gergely 1228. július 16-án, Assisiben nyilvánítja szentté Ferencet, kevesebb mint két évvel a halála után, és Celanói Tamást bízza meg az első hivatalos életrajzzal.",
+      "yearFrom": 1228,
+      "dateLabel": "1228. július 16.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Assisi Szent Ferenc",
+      "role": "A kisebb testvérek testvériségének alapítója",
+      "description": "Bernardone Péter fia, Giovanni (1181/82–1226). Kereskedő, majd vándorló bűnbánó, majd egy olyan testvériség alapítója, amely megváltoztatta az Egyház történetét. 1228-ban avatták szentté.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Assisi Szent Klára",
+      "role": "A klarisszák alapítója",
+      "description": "Assisi nemesasszonya (1193/94–1253), 1212-ben követi Ferencet, és San Damianóban megalapítja a „szegény úrnők” közösségét. Az első nő, aki jóváhagyott szerzetesi regulát írt.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Quintavallei Bernát",
+      "role": "Az első társ",
+      "description": "Assisi gazdag polgára, szétosztja javait, és Ferenc első társa lesz (1208). 1241-ben halt meg.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Egyed testvér",
+      "role": "Az első társak között",
+      "description": "Művelt paraszt és misztikus, Ferenc harmadik társa; a hagyomány neki tulajdonítja a bölcs „Mondásokat”.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Leó testvér",
+      "role": "Gyóntató és hűséges társ",
+      "description": "Az utolsó évek társa, Ferenc saját kezű levelének címzettje és a La Verna tanúja.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "II. Guidó, Assisi püspöke",
+      "role": "Ferenc pártfogója",
+      "description": "Assisi püspöke 1204-től; a lemondás jelenetében köpenyével takarta be Ferencet, és támogatta első lépéseit.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Bernardone Péter",
+      "role": "Ferenc apja",
+      "description": "Assisi posztókereskedője; a fiával az eladott javak miatt támadt viszály a püspök előtti nyilvános jelenetbe torkollott.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Pica úrnő",
+      "role": "Ferenc anyja",
+      "description": "A hagyomány úgy emlékezik rá, mint aki a megtérés válságában közelebb állt a fiához; a róla szóló források szűkösek.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "III. Ince pápa",
+      "role": "Pápa (1198–1216)",
+      "description": "A középkor egyik legnagyobb hatású pápája; a hagyomány szerint 1210-ben szóban jóváhagyta Ferenc életformáját.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "III. Honoriusz pápa",
+      "role": "Pápa (1216–1227)",
+      "description": "1223-ban jóváhagyta a megerősített Regulát, és támogatta a fiatal testvériséget.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Málik al-Kámil",
+      "role": "Egyiptom szultánja",
+      "description": "Ajjúbida szultán, aki 1219-ben, az ötödik keresztes hadjárat alatt találkozott Ferenccel Damiettánál.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Celanói Tamás",
+      "role": "Az első életrajzíró",
+      "description": "Kisebb testvér, IX. Gergely megbízásából írta az Első életrajzot (1228–29), a Második életrajzot (1246–47) pedig a társak tanúságtételeit összegyűjtve.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bagnoregiói Bonaventura",
+      "role": "Teológus és életrajzíró",
+      "description": "Egyetemi mester és a Rend általános minisztere; Nagy legendája (1260–63) Ferenc hivatalos életrajzává vált.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Hugolin bíboros (később IX. Gergely)",
+      "role": "A Rend pártfogója",
+      "description": "A testvériség bíboros pártfogója, majd pápa: 1228-ban szentté avatta Ferencet.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Cortonai Illés testvér",
+      "role": "Vitatott utód",
+      "description": "Társ, majd Ferenc után a Rend vezetője; vitatott alak, a karizma és az intézmény közötti feszültség jele.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Ferenc szülővárosa: a tér, San Rufino székesegyháza, a falak, a középkori sikátorok.",
+      "historicalNote": "Valódi történelmi hely.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "Kis templom Assisin kívül, ahol Ferenc a feszület előtt imádkozott; később Klára és nővérei lakhelye.",
+      "historicalNote": "Valódi történelmi hely.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porciunkula (Angyalos Szűz Mária)",
+      "description": "Kis templom a síkon Assisi alatt: az első testvériség lakhelye és Ferenc halálának helye.",
+      "historicalNote": "Valódi történelmi hely; ma az Angyalos Szűz Mária-bazilika fogja körül.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Kunyhó a patak mellett, ahol az első társak a vándorló életformát élték.",
+      "historicalNote": "Valódi történelmi hely; a mai szentély a letelepedés emlékét őrzi.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.carcere",
+      "name": "A Carceri remeteség",
+      "description": "Remeteség a Subasio hegyén, magyaltölgyek és barlangok között: a visszavonulás és az ima helye.",
+      "historicalNote": "Valódi történelmi hely.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Umbriai város, amelyet a farkas elbeszélése és Ferenc jelenléte köt a remeteidőszakhoz.",
+      "historicalNote": "Valódi történelmi hely; a farkas epizódja a hagiográfiai hagyományhoz tartozik.",
+      "isHistoricalPlace": true,
+      "region": "Umbria"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "A Rieti környéki falu, ahol Ferenc 1223 karácsonyát élő jászollal ünnepelte.",
+      "historicalNote": "Valódi történelmi hely.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "A toszkán Appenninek hegye, amelyet Ferencnek ajándékoztak; az 1224-es visszavonulás és a középkori források szerint a stigmák helye.",
+      "historicalNote": "Valódi történelmi hely.",
+      "isHistoricalPlace": true,
+      "region": "Toszkána"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Remeteség Rieti közelében, ahol az 1221-es, meg nem erősített Regulát megszövegezték.",
+      "historicalNote": "Valódi történelmi hely.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "Város a Nílus deltájában, az ötödik keresztes hadjárat és Ferenc meg a szultán találkozásának (1219) színtere.",
+      "historicalNote": "Valódi történelmi hely.",
+      "isHistoricalPlace": true,
+      "region": "Egyiptom"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Tölgyfalu",
+      "description": "Képzeletbeli falu a spoletói völgyben: a Vándor fő elbeszélői helyszíne.",
+      "historicalNote": "A játék számára kitalált helyszín; nem történelmi hely.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (képzeletbeli)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbriai mezők és erdők",
+      "description": "Az utak, a magyaltölgyesek és a falvak közötti földek: a Vándor történeteinek vándorló színtere.",
+      "historicalNote": "Elbeszélői helyszín, a valódi umbriai táj ihlette.",
+      "isHistoricalPlace": false,
+      "region": "Umbria (helyszín)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiográfia",
+      "definition": "A szentek életeinek irodalma: középkori jámbor műfaj, amely az épülést célozza, nem a krónikát. Más eszközökkel olvasandó, mint az okirati történelem."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Bűnbánat",
+      "definition": "Ferenc nyelvén: a szív és az élet megtérése, nem büntetés. „Bűnbánatot tartani” irányt változtatni jelentett."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Kisebb testvér",
+      "definition": "A név, amelyet Ferenc választott társainak: „kisebbek”, vagyis utolsók, rangigény nélkül."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Miniszter",
+      "definition": "A ferences testvériségben: egy közösség vagy provincia felelőse. A szó „szolgát” jelent."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Regula",
+      "definition": "A szöveg, amely egy szerzetesi közösség életformáját meghatározza. Ferenc két változatot írt: meg nem erősítettet (1221) és megerősítettet (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bulla",
+      "definition": "A pápa hivatalos irata, az azt hitelesítő ólompecsétről (bulla). „Megerősített regula” = bullával jóváhagyott regula."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Porciunkula",
+      "definition": "„Kis földdarab”: az Angyalos Szűz Mária kis temploma Assisi mellett, a testvériség otthona."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stigmák",
+      "definition": "Krisztus szenvedésének jelei, amelyeket a középkori források Ferencnek tulajdonítanak a La Vernán töltött visszavonulás (1224) után."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "A hagyomány latin kifejezése: „semmi saját nélkül”, a szegénység ferences formája."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lauda",
+      "definition": "Népnyelvű vallásos költemény, éneklésre szánva. A teremtmények éneke lauda."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Kommuna",
+      "definition": "A középkori Itália városi önkormányzata: Ferenc Assisija növekvő kommuna volt, konfliktusban Perugiával és a hűbéri hatalommal."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Káptalan",
+      "definition": "Egy szerzetesi testvériség időszakos gyűlése; „általános káptalan” az egész Rendé."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Leprakórház",
+      "definition": "Középkori kórház-lazarétum a leprásoknak, a városfalakon kívül. Ferenc döntő találkozásának helye."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Alamizsna",
+      "definition": "Az életfenntartásért kért vagy kapott ajándék. Az első testvéreknek a gondviselésbe vetett bizalom jele volt, nem megaláztatás."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "A kereskedő fia (1181/82–1202)",
+      "text": "Ferenc Assisiben születik, Bernardone Péter, a gazdag posztókereskedő és Pica úrnő gyermekeként. A kommuna teljes kibontakozásának városában nő fel: ragyogó, nagylelkű ifjú, a mulatságok és a francia trubadúrok kedvelője, lovagi dicsőségről álmodik. 1202-ben Perugia ellen harcol Collestradánál; a vereség és egy év fogság látványosan lezárja első életét.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "A fordulat (1202–1206)",
+      "text": "A fogság utáni betegség, a spoletói álom, a római zarándoklat, ahol ruhát cserél egy koldussal: Ferenc új irányt keres. Aztán az epizód, amelyet ő maga jelöl meg kezdetként: a találkozás a leprásokkal, ahol „ami keserűnek tűnt, édességgé változott”. San Damianóban, a feszület előtt, meghallja a felhívást, hogy építse újjá Isten „házát”. Eladja apja posztóit és lovát, hogy a kis templomot restaurálja; a konfliktus a püspök előtt robban ki, ahol mindent visszaad.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "„Építsd újjá a házamat” (1206–1209)",
+      "text": "Egyedül, bűnbánó ruhában Ferenc kőről kőre restaurálja San Damianót, Szent Pétert és a Porciunkulát, és a leprakórházakban szolgál. A város előbb kigúnyolja, aztán kezd rátekinteni. Az evangélium hallgatásában megérti a hívást: békét hirdetni, semmi saját nélkül élni, úton lenni. A terv nagyobbnak bizonyul három templom rendbehozatalánál: magát az Egyházat kell újjáépíteni, alulról.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "A testvériség (1209–1219)",
+      "text": "Quintavallei Bernát, Egyed és a többiek: az első társak osztoznak az életformában, és 1210-ben (vagy 1209-ben) III. Ince szóban jóváhagyja. A Porciunkula otthonná válik. 1212-ben Assisi Klára éjjel megszökik, hogy ugyanazt a hívást kövesse. A testvériség minden várakozáson túl növekszik, évi káptalanokkal és missziókkal egész Európában: megszületnek a nagy számok problémái.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Kelet felé (1219–1220)",
+      "text": "Az ötödik keresztes hadjárat kellős közepén Ferenc eléri a keresztes tábort Damiettánál, átlépi a vonalakat, és találkozik al-Málik al-Kámil szultánnal. A középkori források kölcsönös tiszteletet írnak le; a modern történetírás a részleteket vitatja, de a gesztus megmarad: háború idején elébe menni. Hazatérve a testvériséget megváltozva és nehézségek között találja: a méretek olyan szerkezeteket kívánnak, amelyektől ő tart.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "A növekedés fáradsága (1220–1223)",
+      "text": "Ferenc átadja a Rend mindennapi vezetését, és az írott regulának szenteli magát: az 1221-es, hosszú és szabad, nem kap jóváhagyást; az 1223-as, rövidebb és jogibb, megkapja III. Honoriusz bulláját. A karizma és az intézmény közötti feszültség ezeket az éveket áthatja: Ferenc hűségben és szenvedésben éli meg. Greccióban, 1223 karácsonyán, igazi jászollal láttatja Betlehem szegénységét.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "A Naphimnusz és az este (1224–1226)",
+      "text": "A La Vernán, 1224 szeptemberében, a források a stigmákat beszélik el. Betegen és szinte vakon San Damianóban megírja a teremtmények énekét: a dicséret a legsötétebb időszakban születik. Hozzáfűzi a megbocsátás strófáját, hogy kibékítse a püspököt és a podestàt, végül a „testi halál nővérét”. A Végrendelet lediktálása után 1226. október 3-án este meghal a Porciunkulán, meztelenül a puszta földön. Két évvel később IX. Gergely szentté nyilvánítja.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

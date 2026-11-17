@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Stenstigen",
+      "kind": "sentiero",
+      "description": "En stig av ljusa stenar korsar trädgården: den punkt där varje vandring börjar.",
+      "symbolism": "Vandringen som en bild av livet: man gör sig en väg genom att gå, en sten i taget.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Fredens olivträd",
+      "kind": "albero",
+      "description": "Ett gammalt olivträd med silvergrå krona, planterat när du upptäckte fredshälsningen.",
+      "symbolism": "Olivträdet: en medelhavsväxt för fred och tålamod. Det växer långsamt och varar i generationer.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Syster Vattens fontän",
+      "kind": "acqua",
+      "description": "En stenfontän med klart vatten, som solen tänder på morgonen.",
+      "symbolism": "”Syster Vatten, nyttig och ödmjuk och dyrbar och kysk”: i Solsången är vattnet en syster att tacka.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Rosorna vid San Damiano",
+      "kind": "fiore",
+      "description": "En blommande rosenbuske intill muren: den växer där någon har tagit hand om andra.",
+      "symbolism": "Skönheten som föds ur tjänsten: kärleken får de torra platserna att blomma.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Den delade köksträdgården",
+      "kind": "orto",
+      "description": "Små bäddar med örter och grönsaker, skötta i tur och ordning: det ödmjuka arbetet som mättar alla.",
+      "symbolism": "Den dagliga tjänsten: den som odlar trädgården äger den inte, utan vårdar den åt den som kommer.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Tystnadens cypress",
+      "kind": "albero",
+      "description": "En hög och rak cypress som markerar gränsen mellan trädgården och skogen.",
+      "symbolism": "Bönen som en lodrät linje: rötter i jorden, toppen vänd mot himlen.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Bofinkarnas bo",
+      "kind": "animali",
+      "description": "Bland de säkraste grenarna har ett par bofinkar valt trädgården för sitt bo.",
+      "symbolism": "Välkomnandet: trädgården blir hem också för den som kommer utifrån.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Stenbänken",
+      "kind": "struttura",
+      "description": "En stenbänk under muren vid middagstid: platsen där man sätter sig och stannar.",
+      "symbolism": "Tron som en förtröstansfull paus: inte alltid gå, ibland bara vara kvar.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Tacksamhetens solrosor",
+      "kind": "fiore",
+      "description": "En rad solrosor som vrider sig och följer ljuset under dagen.",
+      "symbolism": "Tacksamheten: att vända sig mot ljuset är en daglig övning för blicken.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Binaskupan",
+      "kind": "animali",
+      "description": "En träkupa doftar av vax; bina kommer och går bland trädgårdens blommor.",
+      "symbolism": "Brödraskapet: inget bi gör honung ensamt, och inget äger vaxkakan.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Att se mot himlen",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Lyft blicken från trädgården mot himlen. Stanna en stund i tystnad, utan att göra något."
+        },
+        {
+          "kind": "leggi",
+          "text": "Läs långsamt öppningen av Solsången.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Franciskus kallar solen ”broder” och månen ”syster”. Vilken skillnad skulle det göra att se världen som en familj i stället för som en resurs?"
+        },
+        {
+          "kind": "annota",
+          "text": "Om du vill, skriv i dagboken en sak som du i dag kan säga om: ”Lovad vare du, min Herre”."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Att lyssna till vattnet",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Gå nära fontänen. Lyssna till vattnets ljud under några andetag, utan brådska."
+        },
+        {
+          "kind": "leggi",
+          "text": "Läs åter lovsången till Gud som skrevs på La Verna: en bön som inte ber om något.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Den Högstes lov innehåller inga önskningar: bara erkännande. När tackade du senast utan att be om något?"
+        },
+        {
+          "kind": "annota",
+          "text": "Om du vill, skriv i dagboken tre saker du har tagit emot i dag, även små."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Det långsamma steget",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Gå stenstigen långsamt och lägg märke till varje steg: tyngden, kontakten, rytmen."
+        },
+        {
+          "kind": "leggi",
+          "text": "Läs Franciskus svar till broder Leo, som sökte det rätta valet.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Till broder Leo ger Franciskus inga instruktioner utan frihet: ”följ ditt samvete inför Gud”. Vad lär dig det här sättet att följa någon?"
+        },
+        {
+          "kind": "annota",
+          "text": "Om du vill, skriv i dagboken om ett beslut du bär på, och var du känner att ditt samvete vänder sig."
+        }
+      ]
+    }
+  ]
+}

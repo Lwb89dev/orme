@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Kohtaaminen, joka muuttaa elämän",
+      "summary": "Franciscuksen kääntymys alkaa, kun hän voittaa inhonsa ja kohtaa spitaaliset: lähimmäisenrakkaus on konkreettista kohtaamista toisen kanssa.",
+      "explanation": "Testamentissa Franciscus kertoo, että spitaalisten näkeminen tuntui hänestä \"liian katkeralta\" ja että juuri kohtaaminen heidän kanssaan oli hänen parannuksensa alku. Franciskaaninen rakkaus ei ole yleinen tunne: se on ruumiillinen ele, jolla astutaan syrjäytetyn luo, ja huomataan, että katkeruus muuttuu suloisuudeksi. Antaja ei asetu saajan yläpuolelle: he kohtaavat.",
+      "historicalContext": "1200-luvulla spitaaliset oli suljettu kaupunkielämän ulkopuolelle. Heidät majoitettiin leprasairaaloihin muurien taakse, ja heitä pidettiin synnin merkkinä. Franciscuksen päätös elää heidän keskellään oli yhteiskunnallinen skandaali.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Ei mitään omaa, kaikki saatu",
+      "summary": "Piispan edessä Franciscus palauttaa vaatteensa isälleen: omistuksesta luopuminen on vapauden valinta, ei luotujen halveksimista.",
+      "explanation": "Franciscuksen luopuminen piispa Guidon edessä on julkinen teko, jolla hän katkaisee siteen perheen varallisuuteen. Se ei ole pakoa asioista vaan vapautumista ajatuksesta omistaa ne: sillä, jolla ei ole mitään, ei ole mitään puolustettavaa, ja hän voi ottaa kaiken vastaan lahjana. Perinteen tekninen latina kutsuu tätä nimellä \"sine proprio\": ilman omaisuutta.",
+      "historicalContext": "Varakkaan kangaskauppiaan poika Franciscus oli määrätty kaupunkiporvariston yhteiskunnalliseen nousuun. Hänen luopumisensa vuonna 1206 iski Assisin mielikuvitukseen juuri siksi, että se käänsi kaupankäyvän kaupungin arvot nurin.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Köyhyys vapautena",
+      "summary": "Franciscukselle köyhyys ei ole romanttista kurjuutta: se on kieltäytymistä ottamasta mitään omaksi, jotta jäisi vapaaksi rakastamaan ja riippumaan yksin Jumalasta.",
+      "explanation": "Vuoden 1223 sääntö pyytää veljiä olemaan ottamatta mitään omakseen, \"ei taloa, ei paikkaa eikä mitään\", ja kulkemaan almun varassa häpeämättä, muistaen että Herra teki itsensä köyhäksi. Franciskaanisella köyhyydellä on teologinen perusta (köyhä Kristus) ja psykologinen: se, jolla ei ole mitään puolustettavaa, on vapaa. Tämä ei ole kehotus ylistää puutetta, joka on yhteiskunnallinen haava, vaan kieltäytymistä siitä, että omistus määrittelisi ihmisen.",
+      "historicalContext": "Vapaaehtoisen köyhyyden liike syntyi reaktiona kaupunkien ja papiston kasvavaan rikkauteen. Kirkko katsoi köyhyysliikkeitä epäluuloisesti, ja Franciscuksen oli voitettava hyväksyntä vaivalla.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Vähäisemmät veljet",
+      "summary": "Franciscuksen yhteisö ei ole esimiesten ja alaisten sääntökunta: se on \"vähäisten\" veljeskunta, jossa jokainen on vastuussa toisesta.",
+      "explanation": "Franciscus tahtoi, että hänen kumppaneitaan kutsuttaisiin vähäisemmiksi veljiksi: kukaan ei ole suuri, ja vastuunkantajia kutsutaan \"ministereiksi\", siis palvelijoiksi. Vuoden 1221 sääntö pyytää heitä ilmaisemaan tarpeensa toisilleen, olemaan tuomitsematta veljeä ja olemaan halveksimatta heikkoja. Veljeys on yhdessä eletyn evankeliumin muoto: veljeksi ei tulla ihanteen vaan jokapäiväisen käytännön kautta.",
+      "historicalContext": "Veljeskunta syntyi noin vuosina 1208–1210 ensimmäisten kumppanien (Bernardo, Egidio ja muut) ympärille ja kasvoi nopeasti, kunnes se tarvitsi rakenteita: kapiteleita, ministereitä ja kirjoitetun säännön.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Rauhan tervehdys",
+      "summary": "\"Herra antakoon teille rauhan\": Franciscus tekee rauhasta sanoman, jota kannetaan, ennen kuin hän tekee siitä sodan poissaolon.",
+      "explanation": "Testamentissa Franciscus muistaa, että Herra ilmoitti hänelle rauhan tervehdyksen. Varhaisimmat lähteet kuvaavat veljiä julistamassa rauhaa talosta taloon. Franciskaaninen rauha on aktiivista: sitä kannetaan, rakennetaan ja välitetään — kuten Gubbion suden kertomuksessa, jossa rauha syntyy rohkeudesta lähestyä sitä, mikä pelottaa.",
+      "historicalContext": "Kaupunkien Italiaa halkoivat puoluekiistat, sisällissodat sekä maallisen ja kirkollisen vallan ristiriidat. Rauhan julistaminen oli hengellinen teko ja samalla poliittinen.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Seitsemänkymmentä kertaa seitsemän, ja ylikin",
+      "summary": "Veljeskunnan ministerille Franciscus kirjoittaa: vaikka veli tekisi syntiä tuhat kertaa, rakasta häntä silti enemmän kuin minua.",
+      "explanation": "Kirje ministerille on franciskaaninen anteeksiannon teksti: sen, joka johtaa, ei pidä pahentua eikä kovettua veljen virheiden edessä, vaan julistaa laupeutta. Anteeksianto ei kiellä pahaa: se kieltäytyy antamasta pahalle viimeistä sanaa ihmissuhteessa. Luotujen lauluun lisättiin perinteen mukaan anteeksiannon säkeistö sovittamaan Assisin piispa ja podestà heidän riidassaan.",
+      "historicalContext": "Nopeasti kasvava veljeskunta eli sisäisiä jännitteitä. Kaupunkeja repivät verikostot ja kiistat, joita franciskaanit pyrkivät rauhoittamaan.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Olla vähäinen, ei luulla itseään paremmaksi",
+      "summary": "Franciskaaninen nöyryys on totuutta itsestä: ei korottaa eikä halveksia itseään, vaan palvella vähäisimpänä.",
+      "explanation": "Kehotukset varoittavat tekemästä omaa tahtoa kaiken mitaksi ja hengellisestä itsetyytyväisyydestä. Franciscukselle nöyryys merkitsee itsensä näkemistä totuudessa: pienenä Jumalan edessä, kaikesta velallisena ja kykenevänä palvelemaan vaatimatta tunnustusta. Se ei ole huonoa itsetuntoa: se on vapautta tarpeesta näyttää joltakin.",
+      "historicalContext": "Kunnian ja arvoaseman varaan rakennetussa yhteiskunnassa itsensä kutsuminen \"vähäiseksi\" oli vastakulttuurinen ohjelma. Kasvavan veljeskunnan sisällä nöyryys oli vastalääke sisäiselle kilpailulle.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Veli aurinko, sisar vesi",
+      "summary": "Luotujen laulu: maailma ei ole varasto eikä epäjumala, vaan luotujen perhe, joka ylistää Luojaa.",
+      "explanation": "Luotujen laulussa Franciscus ylistää Jumalaa \"kautta\" luotujen: veli aurinko, sisar kuu, sisar vesi, \"hyödyllinen ja nöyrä, kallisarvoinen ja puhdas\", ja sisaremme äiti maa. Luontoa ei jumaloida: se on sisar, koska se on saman Isän lapsi. Luomakunnan hoiva alkaa tästä kiitollisuudesta ja sukulaisuudesta, ei hyödyllisyydestä. Ja laulu syntyi sairaudessa: ylistys ei riipu olosuhteista.",
+      "historicalContext": "Se laadittiin vuosina 1225–1226, kun Franciscus oli sairas ja lähes sokea. Se on Italian kansankielen varhaisimpia runotekstejä. Bonaventura sijoittaa sen koettelemuksen aikaan.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Täydellinen ilo",
+      "summary": "Franciskaaninen ilo ei riipu tuloksista: se säilyy myös torjunnassa ja vaivassa, koska se syntyy rakkaudesta eikä menestyksestä.",
+      "explanation": "Pienissä kukissa Franciscus selittää veli Leolle, ettei todellinen ilo ole ihmeitä eikä kääntymyksiä, vaan paluuta torjuttuna ja kylmissään ja silti kärsivällisenä ja iloisena. Kertomus on hagiografinen, ei kronikka, mutta se tiivistää franciskaanisen hengen aidon piirteen: ilo on sisäinen valinta, jota mikään tapahtuma ei voi viedä.",
+      "historicalContext": "Pienet kukat (1300-luvun loppu) säilyttävät ensimmäisen franciskaanisen liikkeen elävän muistin. Niitä on luettava hengellisenä kirjallisuutena, ei dokumentaarisena historiana.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Autiomaa maailman keskellä",
+      "summary": "Franciscus vuorotteli lähetystä ja vetäytymistä: rukous on paikka, jossa palataan olennaiseen Jumalan edessä.",
+      "explanation": "Franciskaaninen elämä ei ole pelkkää toimintaa: Franciscus etsi erakkomajoja ja vetäytymisen paikkoja (Carceri, La Verna) ja vei mukanaan muutaman kumppanin ja pitkiä hiljaisuuksia. Kirjeessä veli Leolle hän palauttaa tämän omalletunnolle Jumalan edessä: rukous ei ole tekniikka vaan suhde. Korkeimman Jumalan ylistykset näyttävät hänen puhtaimman rukouksensa: ylistystä ilman pyyntöjä.",
+      "historicalContext": "Franciskaaniset erakkolat syntyivät Umbrian ja Toscanan Apenniinien jylhiin paikkoihin. La Verna, joka annettiin Franciscukselle vuonna 1213, tuli vetäytymisen tärkeimmäksi paikaksi.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Kristuksen jäljissä",
+      "summary": "Franciscuksen hengellisyys ei ole luonnonfilosofiaa: se on köyhän ja ristiinnaulitun Kristuksen seuraamista Kirkon uskon sisällä.",
+      "explanation": "Kaikki Franciscuksessa alkaa Kristuksesta: San Damianon krusifiksi, joka puhuu hänelle, köyhyyden valinta \"koska Herra teki itsensä köyhäksi\", La Vernassa katseltu kärsimys ja Testamentin yksinkertainen usko kirkkoihin. Tämän juuren poistaminen ei tee Franciscuksesta yleismaailmallisempaa: se tekee hänestä tunnistamattoman. Sovellus esittää hänet sellaisena kuin hän on, pakottamatta tätä uskoa ja pyyhkimättä sitä pois.",
+      "historicalContext": "Franciscus eli uskonsa keskiaikaisen Kirkon sisällä, haki sille hyväksyntää elämänmuodolleen ja hyväksyi sen rajat, mutta painosti sen uudistusta alhaalta käsin.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Sääntö, ettei eksyttäisi",
+      "summary": "Franciskaaninen kuuliaisuus ei ole itsensä mitätöintiä: se on yhteinen liitto, joka suojaa veljeskuntaa hajaantumiselta ja mielivallalta.",
+      "explanation": "Franciscus haki Kirkon hyväksyntää ja kirjoitti sääntöjä, joista tuli yhä tiiviimpiä (1221, 1223). Kehotuksissa ja säännöissä kuuliaisuus on vastavuoroista: noudatetaan yhteistä sääntöä, ja se, joka johtaa, palvelee. Testamentti pyytää, ettei sääntöä selitettäisi, vaan elettäisiin \"yksinkertaisesti ja ilman selityksiä\". Yhteisö ja kuuliaisuus ovat kehys, joka antaa vapauden kestää.",
+      "historicalContext": "Vuosien 1210 ja 1223 välillä veljeskunta kasvoi pienestä ryhmästä tunnustetuksi sääntökunnaksi. Jännite karisman ja instituution välillä kulkee läpi koko franciskaanisen tarinan.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Ylistys, joka ei pyydä mitään",
+      "summary": "Jumalan ylistykset ja Luotujen laulu syntyivät sairaudessa: franciskaaninen kiitollisuus ei palkitse hyvää onnea, vaan tunnistaa lahjan kaikessa.",
+      "explanation": "La Vernassa kirjoitetut Korkeimman Jumalan ylistykset ovat rukous, jossa ei ole yhtään pyyntöä: vain tunnustamista. Myös sairaudessa laadittu Luotujen laulu on ylistystä. Franciskaaninen kiitollisuus on harjaantunut katse: se näkee kaiken — veden, auringon, päivän, jopa kuoleman — saaduksi. Se, joka kiittää, ei omista: hän asuu.",
+      "historicalContext": "Vuosina 1224–1226 Franciscus oli vakavasti sairas, lähes sokea ja haavoitettu etäisyydestään sääntökunnan johtoon. Niiden vuosien ylistys ei ole naiiviutta vaan saavutus.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Se, joka johtaa, palvelee",
+      "summary": "Veljeskunnassa vastuunkantajia kutsutaan \"ministereiksi\": palvelu on ainoa oikeutettu vallan muoto.",
+      "explanation": "Franciscus kääntää hierarkian: ministeri on se, joka palvelee, custos se, joka varjelee veljiä, ei se, joka komentaa. Kirje ministerille näyttää sävyn: läheisyys erehtyvälle, ei koskaan halveksuntaa. Palvelu ei ole strategia miellyttää muita: se on kristillinen tapa asua jokaisessa roolissa, veljestä piispaan, vanhemmasta pormestariin.",
+      "historicalContext": "Franciskaanisen vastuun nimitykset (ministeri, custos, guardian) valittiin nimenomaan keskiaikaisen arvovallan logiikkaa vastaan.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Kukaan ei ole vieras",
+      "summary": "Spitaaliset, rosvot, sulttaani, susi: franciskaaninen perinne työntää vastaanottavaisuuden oman ryhmän rajojen yli.",
+      "explanation": "Franciscus kohtaa spitaaliset, lähestyy sulttaani al-Malik al-Kamilia ristiretken keskellä ja kansan muistissa puhuu jopa sudelle. Franciskaaninen vastaanottavaisuus ei ole passiivista suvaitsevaisuutta: se on lähtemistä vastaan, riskin ottamista, \"veljeksi\" kutsumista sille, jota oma maailma kutsuu viholliseksi. Se alkaa vaikeasta lähimmäisestä eikä pysähdy uskon tai kielen rajoille.",
+      "historicalContext": "Kohtaaminen sulttaanin kanssa (1219, Damietta) tapahtui viidennen ristiretken aikana: rauhan ele, jonka lähteet dokumentoivat, keskiaikaisen todistuksen rajoissa.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Lähestyä koko ruumiilla",
+      "summary": "\"Osoitin heille laupeutta\": franciskaaninen laupeus on myötätuntoa, josta on tullut konkreettinen ele, ei etäältä pidettyä sääliä.",
+      "explanation": "Testamentissa Franciscus käyttää vahvaa ilmaisua: spitaalisten kanssa \"osoitin laupeutta\". Hän ei sano tunteneensa myötätuntoa: hän teki sen. Laupeus on kykyä antaa toisen kärsimyksen ulottua itseen niin, että se liikuttaa käsiä. Siitä kasvavat rakkaus, anteeksianto ja rauha.",
+      "historicalContext": "Keskiaikainen hurskaus tunsi almun ansiollisena käytäntönä. Franciscus muuttaa sen suhteeksi: köyhälle ei vain anneta, köyhän luona pysytään.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Käsien työ",
+      "summary": "Franciscus ei aseta rukousta ja työtä vastakkain: rehellinen työ pitää joutilaisuuden loitolla, eikä se saa sammuttaa rukousta.",
+      "explanation": "Testamentissa Franciscus sanoo työskennelleensä käsillään ja tahtovansa, että veljet työskentelevät, eivät palkan ahneudesta vaan esimerkin vuoksi ja joutilaisuutta vastaan. Jos palkkaa ei tule, palataan almuun. Vahvistettu sääntö lisää rajan: työ on armo, ja ajallisten asioiden on palveltava rukouksen henkeä, ei korvattava sitä. Vahvistamattomassa säännössä työ on myös tapa pysyä toisen talossa vähäisenä, ottamatta virkoja, jotka tuovat valtaa.",
+      "historicalContext": "Monet ensimmäisistä veljistä tulivat ammateista. Työn ja rahan kysymys on jo terävä ennen vuotta 1223: vuoden 1221 sääntö on täydempi ja tiukempi rahasta; sinetöity sääntö on lyhyempi ja uskoo sairaiden hoidon ministereille hengellisten ystävien kautta.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Ruumis, ei ajatus",
+      "summary": "Franciscukselle Jumalan Poika nähdään tässä maailmassa ruumiissa ja veressä, jonka papit vastaanottavat ja jakavat.",
+      "explanation": "Testamentti sitoo pappien kunnioituksen tähän: Franciscus sanoo, ettei hän ruumiillisilla silmillään näe Jumalan Pojasta mitään muuta kuin hänen ruumiinsa ja verensä. Kirje koko sääntökunnalle vie saman uskon leivän muotoon asti ja pyytää pappeja viettämään messua yrittämättä miellyttää ihmisiä. Tämä ei ole sivuteema. Se on keskus, josta Franciscus lukee Kirkkoa, kirjoitettuja sanoja ja omaa vähäisyyttään. Sovellus sanoo sen siksi, mitä se on: keskiaikaista eukaristista uskoa, ei antamisen yleistä vertauskuvaa.",
+      "historicalContext": "Franciscuksen eukaristinen hartaus asettuu neljännen Lateraanikonsiilin (1215) uudistuksen sisään. Konsiili edellyttää vuosittaista rippiä ja lausuu sakramentin opin. Kirjeet papistolle ja custodeille, joita ei tässä toisteta kokonaan, painottavat samaa asiaa.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Evankeliumin muoto",
+      "summary": "Franciscus ei keksi hengellisyyttä evankeliumin rinnalle: hän sanoo, että Korkein ilmoitti hänelle, että hänen tuli elää sen muodon mukaan, ja hän kirjoitutti sen.",
+      "explanation": "Testamentti on suora: kukaan ei näyttänyt hänelle, mitä tehdä; Korkein ilmoitti, että hänen tuli elää pyhän evankeliumin muodon mukaan; hän kirjoitutti sen muutamalla sanalla, ja paavi vahvisti sen. Molemmat säännöt avautuvat samasta kohdasta. Evankeliumin noudattaminen ei näissä teksteissä ole tunne: se on kuuliaisuutta, ei mitään omaa, ja siveyttä, hyväksytyn veljeskunnan sisällä. Luopumisen kertomus piispan edessä Celanolla on toinen näyttämö samasta valinnasta. Tässä Franciscuksen oma teksti tulee ennen kertomusta Franciscuksesta.",
+      "historicalContext": "Perinne ajoittaa Innocentius III:n suullisen hyväksynnän vuoteen 1209 tai 1210. Vahvistamaton sääntö on vuodelta 1221. Vahvistetun säännön vahvistaa Honorius III 29. marraskuuta 1223. Testamentti vuonna 1226 lukee koko sarjan yhtenä ilmoituksena.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

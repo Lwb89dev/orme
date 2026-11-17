@@ -54,7 +54,9 @@ Esempio di catena verificata in test: completare "Il mantello del viandante" →
 
 ## Onboarding
 
-Quattro pagine illustrate (vettoriali): chi è Francesco, le quattro vie, l'importanza delle fonti, la privacy. Nessun account, nessun permesso richiesto.
+Quattro pagine illustrate (vettoriali): chi è Francesco, il racconto come porta, l'importanza delle fonti, la privacy. Nessun account, nessun permesso richiesto.
+
+La home non è un menu di quattro prodotti. Il primo gesto è continuare il racconto; subito sotto stanno lo scritto del giorno e un insegnamento. Giardino, scelte e dialogo restano, come stanze in cui fermarsi.
 
 ## Diario
 

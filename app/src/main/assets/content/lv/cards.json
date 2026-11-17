@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Miera sveiciens",
+      "text": "Testamentā Francisks apliecina, ka Kungs viņam atklāja miera sveicienu, ko nest citiem, un viduslaiku avoti atceras pirmos brāļus, kas sludināja mieru no mājas uz māju. Franciskam miers nav konflikta neesamība: tā ir dāvana, kas jānodod no durvīm līdz durvīm, no cilvēka līdz cilvēkam. Gubbio vilka stāsts aizved šo loģiku līdz galam: mieru slēdz pat ar to, kas biedē, ejot tam pretī. No tās pašas tradīcijas dzimst tautas formula „miers un labums“.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Nabadzība kā brīvība",
+      "text": "1223. gada Regula lūdz brāļus nepieņemt neko par savu — ne māju, ne vietu, ne kādu lietu — un dzīvot pasaulē kā svētceļniekiem un svešiniekiem. Franciskāņu nabadzība neslavē trūkumu, kas paliek sabiedriska brūce: tā ir izvēle neļaut sevi noteikt īpašumam. Kam nav nekā, ko aizstāvēt, tam nav nekā, no kā baidīties, un viņš var saņemt visu kā dāvanu. Pamats ir teoloģisks, pirms tas ir saimniecisks: pats Kungs ir kļuvis nabags.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Mazākie brāļi",
+      "text": "Francisks gribēja, lai viņējos sauc par mazākajiem brāļiem: neviens nav liels, un atbildīgos sauc par „ministriem“, tas ir, kalpiem. 1221. gada Regula lūdz, lai katrs otram atklāj savu vajadzību, lai neviens netiesā brāli, lai veselais nenonicina slimā vājumu. Brālība nav ideāls, ko pasludināt: tā ir ikdienas savstarpējas atbildības prakse. Brāļi ir konkrētos žestos, vai arī nav nemaz.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Brālis Saule, māsa Ūdens",
+      "text": "Radību dziesmā Francisks slavē Dievu „par“ un „ar“ radībām: brāli Sauli, māsu Mēnesi, brāli Vēju, māsu Ūdeni, „noderīgu, pazemīgu, dārgu un šķīstu“, māsu mūsu māti Zemi. Daba nav ne dievināta, ne reducēta par resursu noliktavu: tā ir saime, jo visām radībām ir tas pats Tēvs. Rūpes par radību dzimst no radniecības un pateicības, nevis no aprēķina. Un dziesma tika sacerēta slimībā: slava nav atkarīga no apstākļiem.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Pilnīgais prieks",
+      "text": "Ziediņos Francisks skaidro brālim Leonam, ka īstais prieks nav ne brīnumi, ne panākumi, ne neticīgo atgriešanās: tas ir atgriezties pie durvīm atraidītiem, nosalušiem un slikti apietiem un palikt pacietīgiem un priecīgiem. Tas ir hagiogrāfisks stāsts, nevis hronika, bet tas sakopo autentisku franciskāņu gara iezīmi. Pilnīgais prieks nav atkarīgs no notikumiem: tā ir iekšēja izvēle, ko neviens atraidījums nevar atņemt.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Septiņdesmit reiz septiņi, un vēl tālāk",
+      "text": "Vēstulē ministram Francisks raksta: ja brālis būtu grēkojis tūkstoš reižu, viņš tik un tā jāmīl un viņam jāsludina žēlsirdība, ja vien viņš nožēlo. Franciskāņu piedošana nenoliedz ļaunu: tā atsakās ļaut, lai ļaunumam piederētu pēdējais vārds attiecībās. Radību dziesmā pants par tiem, kas piedod Dieva mīlestības dēļ, tika pievienots — pēc tradīcijas —, lai izlīgtu Asīzes bīskapu un podestà, kuri bija konfliktā. Piedošana ir reizē rūpes par cilvēku un pilsētas zāles.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Greccio Ziemassvētki",
+      "text": "1223. gada Ziemassvētkos Francisks gribēja Greccio svinēt Jēzus dzimšanu ar īstu silīti, sienu, vērsi un ēzelīti: lai miesas acis redzētu Bētlemes nabadzību. Toms no Čelāno to rāda kā dzīvu noslēpuma atmiņu, nevis kā izrādi. No tās nakts dzimst Ziemassvētku silītes tradīcija. Žests ir tipiski franciskāņu: ticību aizskar, redz, tajā mājo.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Tikšanās ar sultānu",
+      "text": "1219. gadā, piektā krusta kara laikā, Francisks Damietā šķērsoja krustnešu armijas līnijas, lai satiktu sultānu al-Maliku al-Kamilu. Viduslaiku avoti atceras cieņas pilnu dialogu starp abiem, kaut ticības atšķirība palika nepārvarama. Kara laikā Francisks izvēlējās neapbruņotas tikšanās ceļu, nevis sludināšanu pret. Epizode paliek mēraukla katram dialogam, kas šķērso savas pasaules robežas.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Gubbio vilks",
+      "text": "Ziediņi stāsta, ka Gubbio vilks turēja pilsētu šausmās un Francisks, pretī nobijušajam pūlim, gāja pie zvēra un runāja ar to kā ar brāli. No tā dzima miera derība: pilsēta barotu vilku, un vilks vairs nevienam nedarītu ļaunu. Tas ir 14. gadsimta hagiogrāfiskās tradīcijas stāsts, dārgāks iztēlei nekā hronikai. Tā mācība ir skaidra: mieru būvē, ejot pretī tam, kas biedē, un iesaistot visu kopienu derībā.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Atteikšanās bīskapa priekšā",
+      "text": "1206. gada sākumā bīskapa Gvido un sava tēva Pjetro di Bernardones priekšā Francisks atdeva drēbes un atteicās no tēva mantas. Toms no Čelāno stāsta, ka bīskaps viņu apsedza ar savu apmetni: Baznīca uzņēma to, kuru tirgotāju ģimene vairs nesaprata. Tā nebija bēgšana no lietām, bet publiska atbrīvošanās no domas tās piederēt. No tās dienas Francisks varēja būt atkarīgs tikai no Tēva, kas ir debesīs, — un no citu devības.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Asīzes Klāra",
+      "text": "Jauna Asīzes augstdzimusi, Klāra pameta tēva māju 1212. gada Palmu nakts laikā, lai sekotu Franciska evaņģēliskajai dzīves formai; Porciunkulā viņš viņai nogrieza matus. Viņa dibināja Svētā Damiāna Nabago māsu kopienu un visu mūžu aizstāvēja „nabadzības privilēģiju“ pret baznīcas spiedienu. Viņa bija pirmā sieviete, kas uzrakstīja reliģisku regulu sievietēm, apstiprinātu divas dienas pirms viņas nāves 1253. gadā. Viņas lēnprātība bija no tās pašas vielas kā viņas neatlaidība.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernardo di Kvintavalle",
+      "text": "Bagāts un cienīts Asīzes pilsonis Bernardo bija Franciska pirmais biedrs: viņš gribēja savām acīm redzēt, kā dzīvo tas jauneklis, kuru visi izsmēja, un pietika ar vienu lūgšanas nakti. Viņš pārdeva savu mantu, izdalīja to nabagiem un izvēlējās ceļojošu dzīvi. Avoti viņu atceras kā brālības pirmo augli un, mūža beigās, kā mīlētu sākotnes gara liecinieku. Viņš iesāka ķēdi: bez pirmā brāļa nav brālības.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Brālis Leons",
+      "text": "Franciska biedrs un biktstēvs pēdējos gados, brālis Leons bija La Verna laika liecinieks un svētā vienīgā autogrāfa sargs: vēstules un svētības, ko glabāja visu mūžu. Vēstulē Francisks atbild uz viņa nemieru izvēlēties pareizi ar brīvības vārdiem: seko savai sirdsapziņai Dieva priekšā. Ziediņos viņš ir sarunu biedrs dialogā par pilnīgo prieku. Leons ir trauslais un patiesais māceklis, Franciska dvēselei tuvāks, nekā liek domāt viņa vienkāršības slava.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sultāns al-Maliks al-Kamils",
+      "text": "Ēģiptes sultāns no ajūbīdu dinastijas, Saladīna mazdēls, al-Maliks al-Kamils 1219. gadā Damietā, paša piektā krusta kara laikā, uzņēma Francisku. Viduslaiku avoti, kristīgie un ne tikai, viņu apraksta kā valdnieku, kas spēja klausīties un dialogā ar latīņu pasauli ilgi risināja Jeruzalemes jautājumu. Tikšanās ar Francisku nevienu no abiem neatgrieza: tā parādīja, ka ticīgie var runāt bez ieroča rokā. Viņš paliek atslēgas figūra, lai saprastu, ka franciskāņu uzņemšana šķērso ticības robežas.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Viduslaiku komūna",
+      "text": "Franciska Asīze ir augoša komūna: konsuli un podestà, torņi un naidi, tirgotāji, kas iedzīvojas, un cunftes, kas organizē darbu. Tā ir pasaule, kas balstīta uz godu, kārtu un kredītu, kur bagātība ir redzama un nabadzība ir kauns. Pjetro di Bernardones ģimene pieder šai jaunajai pilsonībai. Tieši pret šīm vērtībām — nevis pret bagātību pašu par sevi, bet pret varu, ko tā īsteno pār sirdi — veidojas franciskāņu izvēle.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Spitālīgo nams",
+      "text": "13. gadsimtā spitālīgie dzīvoja ārpus mūriem, lazaretēs kā tās pie Asīzes, izslēgti no pilsētas dzīves un apzīmēti ar it kā grēka zīmi. Testamentā Francisks atzīstas, ka redzēt viņus viņam šķita pārāk rūgti; un ka tieši viņu vidū, kad Kungs viņu tur aizveda, viņš darīja žēlsirdību un atrada maigumu. Čelāno apraksta konkrēto kalpošanu: mazgāt brūces, apskaut, gādāt. Spitālīgo nams ir vieta, kur dzimst franciskāņu tuvākmīlestība: nevis sajūta, bet ķermeņu tikšanās.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Žēlastības dāvana",
+      "text": "Viduslaiku dievbijība pazina žēlastības dāvanu kā nopelnu praksi: deva savas dvēseles dēļ, bieži turoties attālumā. 1223. gada Regula turpretī lūdz brāļus iet ubagot bez kauna, atceroties, ka Kungs ir kļuvis nabags: lūgt kļūst par dzīves daļu, nevis par pazemojumu, no kā izvairīties. Un došana pārvēršas attiecībās: neatstāj kaut ko nabagam, bet ir kopā ar nabagu. Kas dod un kas saņem, tie Dieva priekšā apmaina ubaga lomu.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Vientuļvieta",
+      "text": "Franciskāņu dzīve nav tikai ceļš un sludināšana: Francisks meklēja vientuļas atkāpšanās — Karčeri virs Asīzes, La Verna Apenīnos —, ņemot līdzi nedaudzus biedrus un garus klusumus. La Verna 1224. gada septembrī avoti novieto stigmas un Dieva slavu sacerēšanu: Franciska tīrākā lūgšana ir slava bez lūgumiem. Vientuļvieta nav bēgšana no pasaules: tā ir vieta, kur atgriežas pie būtiskā, lai tad nokāptu atpakaļ pie cilvēkiem. Sūtība un atkāpšanās turas kā ceļa abas kājas.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Kas tev pieder — un kam pieder tu?",
+      "text": "Iztēlē sastādi sarakstu lietām, kas tev visdārgākās. Tad jautā sev, vienai pēc otras: vai es tai piederu, vai tā pieder man? Cik daudz tava laika, uzmanības, nemiera kalpo tam, lai aizstāvētu to, kas tev ir? Nav pareizās atbildes: ir tikai patiesība par tevi.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Kas ir tavs vilks?",
+      "text": "Tavā apkaimē, tavā darbā, tavā ģimenē: kas ir cilvēks vai situācija, no kuras visi bēg? Kas notiktu, ja kāds, tā vietā, lai celtu mūrus, ietu pretī un jautātu: pēc kā tev ir izsalkums? Kas tavā pilsētā varētu būt kopiena, kas galvo par derību?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "No kā ir atkarīgs tavs prieks?",
+      "text": "Padomā par pēdējo reizi, kad biji patiesi priecīgs: vai tas bija atkarīgs no sasniegta rezultāta, no atzinības, no pirkuma? Tagad padomā par prieku, ko neviens ārējs notikums nevar atņemt. Ja nekas nenāk prātā, tā nav vaina: tā ir meklējuma pēda. Kam tevī būtu jāmainās, lai prieks nebūtu iznomāts notikumiem?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Miera ceļš",
+      "text": "Ceļš divos scenārijos: robežstrīds viduslaiku ciemā un pārestība šodienas birojā. Franciskāņu miers nav konflikta neesamība: tas ir sveiciens, kas jānes, vidutājība, kas jāpiedāvā, prieks, ko neatstāt par ķīlu notikumiem. Atveras, kad atklāta miera sveiciena mācība.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Brālības ceļš",
+      "text": "Ceļš kopīgajā dzīvē: ko darīt, kad brālis smagi pārkāpj un kopiena sadalās starp bardzību un uzņemšanu? Franciskāņu brālība mērojas tieši tur, nevis labajos nodomos. Atveras, kad atklāta mazāko brāļu mācība, un iet cauri piedošanai bez robežas un regulai, kas sargā.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Miera ceļš",
+      "theme": "pace",
+      "description": "No sveiciena, ko nes no mājas uz māju, līdz priekam, kas nav atkarīgs no notikumiem: divi scenāriji, lai mācītos mieru kā praksi — viduslaiku ciemā un šodienas birojā.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Vienkāršības ceļš",
+      "theme": "poverta",
+      "description": "Ko darīt ar mantu, kas iet caur mūsu rokām: smalka glabāšana 13. gadsimtā un neskaidrs projekts šodien. Franciskāņu nabadzība kā brīvība no īpašuma un kā atbildība tam, kurš kalpo.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Brālības ceļš",
+      "theme": "fraternita",
+      "description": "Kad brālis smagi kļūdās, brālība atklāj, kas tā patiesībā ir: tiesa vai mājas. Scenārijs, lai izietu cauri piedošanai, regulai un savstarpējai atbildībai.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Robežas mūris",
+      "situation": "Asīzes ciems, 13. gadsimta sākums. Berta, kas tur krāsotāju bodīti, un Lupo, audējs blakus durvīs, jau nedēļām strīdas par zemes sprīdi starp savām mājām: tur iet noteka, un katrs zvēr, ka mūris ir viņa pusē. Ģimenes ir beigušas sveicināties; mācekļi uz ielas met apvainojumus. Tu pazīsti abus, un abi tev uzticas. Šovakar viņi tev jautā: kurā pusē tu stāvi?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Nestāvēt nevienā pusē: piedāvāt uzklausīt viņus pa vienam, tad kopā, un palīdzēt atrast vienkāršu vienošanos par mūri un noteku.",
+          "consequence": "Pirmās nedēļas ir grūtas: katrs cenšas tevi vilkt savā pusē. Tad, būdami uzklausīti, viņi atklāj, ka īstais mezgls nav zemes sprīdis, bet sena, nekad nepiedota pārestība. Vienošanās par mūri pienāk gandrīz ātri, un svētā Jura svētkos abas bodītes atkal sāk aizdot viena otrai.",
+          "perspectives": [
+            {
+              "label": "Franciskāņu ceļš",
+              "text": "Testamentā Francisks apliecina, ka Kungs viņam atklāja miera sveicienu, ko nest citiem, un avoti atceras brāļus, kas sludināja mieru no mājas uz māju. Vidot pašam, pazemīgi, ir tieši šis žests: mieru nenovēl, to nodod.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Gubbio mācība",
+              "text": "Vilka stāstā miers dzimst tad, kad kāds iet pretī tam, kas biedē, un visa kopiena kļūst par derības galvotāju: pilsēta baro vilku, vilks vairs nedara ļaunu. Šeit abas ģimenes un kaimiņu bodītes galvo par vienošanos, lai tā turētos arī pēc tavas klātbūtnes.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Ciema apdomība",
+              "text": "Kas stājas pa vidu, riskē kļūt par abu mērķi, ja vienošanās izgāžas. Vidutājība darbojas tāpēc, ka tu esi ārpus strīda un neko no tā negūsti: tava uzticamība ir tavs vienīgais kapitāls, un to jātērē taupīgi.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Ieteikt abiem nest lietu komūnas konsulu vai tirgotāju cunfte priekšā: robežu izmēra, rakstus izlasa, tiesības izlemj.",
+          "consequence": "Strīds iziet no ielas un ieiet formās. Komūnas mērnieks mēra, tēvu rakstus nolasa, un pēc dažiem mēnešiem spriedums piešķir mūri Lupo un noteku Bertai. Senā pārestība tomēr paliek neatrisināta: ģimenes tik tikko sveicinās, un neviens nav patiesi mierā.",
+          "perspectives": [
+            {
+              "label": "Tā laika tiesības",
+              "text": "Komūna pastāv tieši tāpēc, lai aizstātu naidu ar procedūru: trešās puses spriedums noslēdz strīdu bez asinsizliešanas un bez pazemošanas. Tas ir īsts pilsonisks progress, un 13. gadsimtā to izcīnīt maksāja pūles.",
+              "isEditorial": true
+            },
+            {
+              "label": "Franciskāņu ceļš",
+              "text": "Franciskāņu tradīcija nenicina varas, bet atgādina, ka taisnība izlemj mūri, nevis sirdi: miera sveiciens, nests no mājas uz māju, tiecas atjaunot attiecības starp cilvēkiem, nevis tikai sadalīt pārestības. Taisns spriedums var atstāt strīdu dzīvu zem pelniem.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Ciema apdomība",
+              "text": "Vērsties pie konsuliem tevi sargā: ne tu izlem, un neviens nevarēs tevi apsūdzēt labvēlībā. Cena ir lēnums un izdevumi, un risks, ka zaudētājs glabā aizvainojumu vairāk pret komūnu nekā pret kaimiņu.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Neiejaukties: ļaut laikam nosēdināt strīdu, aprobežojoties ar to, ka to nebaro ar spriedumiem un tenkām.",
+          "consequence": "Mēnešiem spriedze paliek zem virsmas: neviens vairs nerunā par mūri, bet mācekļi turpina bakstīties, un notekas uzturēšanas darbi apstājas. Kad pienāk ziema, lietus pārpludina abus pagrabus: kopīgā kaitējuma priekšā abi kaimiņi atkal sāk runāt no nepieciešamības, un strīds atrisinās pats, ar nedaudz vairāk rūsas.",
+          "perspectives": [
+            {
+              "label": "Ciema apdomība",
+              "text": "Ne katrs konflikts prasa miera nesēju: reizēm pārāk agra iejaukšanās sastingdina pozīcijas. Laiks un kopīga nepieciešamība — pārpludināts pagrabs — var vidot labāk par jebkuru runu.",
+              "isEditorial": true
+            },
+            {
+              "label": "Franciskāņu ceļš",
+              "text": "Franciskāņu miers ir aktīvs: to nes, to sludina, to būvē, ejot pretī, kā vilka stāstā. Ļaut nosēsties nav grēks, bet tas nav miera sveiciens: tā ir atteikšanās būt par rīku, kas reizēm ir pazemība un reizēm ērtība.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Tā laika tiesības",
+              "text": "Viduslaiku tiesībās neiejaukšanās maksā: nenokavēts strīds atgriežas, un pamestas notekas kopīgais kaitējums gulstas uz visiem. Gaidīt nav neitrāli: tā ir izvēle, kas pārbīda rēķinu uz priekšu.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Franciskāņu miers sākas ar sveicienu un beidzas derībā, ko kopiena sargā. Bet tam vajag kādu, kurš ir gatavs stāvēt pa vidu, neko no tā negūstot. Tavā apkaimē šodien — kurš dara šo darbu? Un vai tu to varētu darīt?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Atņemtais nopelns",
+      "situation": "Šodien, sapulcē visa komandas priekšā, kolēģis ir uzrādījis kā savu darbu, kas lielā daļā ir tavs. Neviens neko neteica; priekšnieks viņam pateicās. Krūtis tev deg jau stundām. Rīt gaitenī jūs atkal satiksieties skatienos.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Atbildēt ar to pašu: nākamajā publiskajā reizē atjaunot faktus visu priekšā, precīzi un tai pašai auditorijai, kas redzēja pārestību.",
+          "consequence": "Labojums pienāk laikā, un fakti atgriežas savā vietā: priekšnieks saprot, daži kolēģi tev klusi pateicas. Kolēģis, publiski pazemots, kļūst par klusu un noturīgu pretinieku; komandas klimats sastingst, un katrs tavs vārds tagad tiek svērts uz gramu.",
+          "perspectives": [
+            {
+              "label": "Tā laika tiesības",
+              "text": "Pieprasīt savu darbu ir likumīgi: patiesība par nopelniem nav tenkas, un ļaut pārestībai paiet garām var kļūt par precedentu. Bet forma ir svarīga: publiska atlīdzināšana rada uzvarētāju un zaudētāju, un ilgtermiņā zaudētājs neaizmirst.",
+              "isEditorial": true
+            },
+            {
+              "label": "Franciskāņu ceļš",
+              "text": "Pilnīgā prieka stāsts māca, ka priekam nav jāatkarās no atzinības: ja tavs miers atgriežas tikai tad, kad pārestība ir publiski labota, tu esi to iznomājis citu spriedumam. Atjaunot faktus ir atļauts; vajadzēt to, lai justos labi, ir īstā brūce.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Ciema apdomība",
+              "text": "Darba dzīvē reputāciju būvē pa pilienam un zaudē pa spaiņiem: labi nomērīts publisks labojums sargā, publisks pazemojums tevi iezīmē kā aizvainotu cilvēku. Ja izvēlies šo ceļu, mēri vārdus pēc satura, nekad pēc personas.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Laist garām: neteikt neko, neglabāt aizvainojumu, iet tālāk. Darbs runā pats, un tu negribi dot pārestībai varu sabojāt tavas dienas.",
+          "consequence": "Klusums tev maksā dažas neiecietības nedēļas, tad mezgls atraisās: nākamais projekts ir skaidri tavs, un tiem, kas vēro, atmiņa ir gara. Kolēģis, neapturēts, tomēr atkārto rīcību ar citu komandas locekli: tavs iekšējais miers ir glābts, bet problēma paliek grupā.",
+          "perspectives": [
+            {
+              "label": "Franciskāņu ceļš",
+              "text": "Ziediņos pilnīgais prieks ir tieši šis: panest pārestību, neatdodot tai varu pār savu sirdi, paliekot pacietīgam un priecīgam. Tā nav naivitāte un nav vājums: tā ir atklāsme, ka prieks, kas balstīts mīlestībā, nav jāuzvar katrā strīdā.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Tā laika tiesības",
+              "text": "Iekšējais miers ir labums, bet nav vienīgais: neapturēta nekorekta rīcība kļūst par ieradumu, un nākamajam cietušajam var nebūt tava spēka. Taisnība darbā sargā arī citus, ne tikai tavu nopelnu.",
+              "isEditorial": true
+            },
+            {
+              "label": "Ciema apdomība",
+              "text": "Nereaģēt ir stratēģija ar vienu nosacījumu: tai jābūt izvēlētai, nevis panestai. Ja laist garām nozīmē glabāt mēnešiem, tu neesi praktizējis prieku, bet aizvainojumu pa daļām. Sirds jāpārbauda godīgi.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Meklēt patiesu sarunu: lūgt kolēģim sarunu divatā, izklāstīt faktus bez apsūdzībām un uzklausīt, kas viņam sakāms.",
+          "consequence": "Saruna ir neērta, bet īsta: kolēģis pa pusei atzīstas, taisnojas, tad — pārsteigts, ka nav saplosīts publiski — nākamajā sapulcē pats izlabojas, minot tavu ieguldījumu. Draugi nekļūstat, bet starp jums rodas modras cieņas forma; un jautājums nekad nenonāk komandas laukumā.",
+          "perspectives": [
+            {
+              "label": "Franciskāņu ceļš",
+              "text": "Iet divatā līdzinās miera sveicienam, ko nes no mājas uz māju: pakļaut sevi personīgi, bez auditorijas, atstājot otram durvis vaļā. Un tas līdzinās pilnīgajam priekam, jo nepakārto tavu mieru iznākumam: runā patiesības dēļ, nevis lai uzvarētu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Tā laika tiesības",
+              "text": "Privāta saruna sargā faktus, nepazemojot personu: tā ir atlīdzināšanas forma, kas atstāj darba attiecības neskartas. Tās robeža ir tā, ka tā ir atkarīga no otra labās ticības: ja kolēģis noliedz un turpina, pēc tam vajag formālo ceļu.",
+              "isEditorial": true
+            },
+            {
+              "label": "Ciema apdomība",
+              "text": "Pirms runā, pajautā sev, ko tu patiesi gribi: atjaunot faktus vai likt samaksāt par pārestību? Saruna darbojas tikai tad, ja ieej gatavs klausīties; ja ieej, lai uzvarētu, otrs to jūt un aizveras.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Pilnīgais prieks neaizliedz atjaunot faktus: tas aizliedz atdot pārestībai tavas sirds atslēgas. Pajautā sev savā nedēļā: cik reižu tavs miers ir iznomāts citu rīcībai?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Tirgotāja glabāšana",
+      "situation": "Asīze, 1210. Gvido, audumu tirgotājs, kas dodas uz Šampaņas gadatirgiem un neatgriezīsies agrāk kā pēc diviem gadiem, tev piedāvā glabāt daļu savas mantas: audumu baķus un naudas maku. Pa to laiku vari tos lietot — audums liktu tavai mazajai bodītei uzlēkt —, un, atgriezies, tu viņam atdosi nolīgto vērtību ar daļu no peļņas. Tā ir godīga izdevība. Tā ir arī saite, kas ilgst divus gadus.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Pieņemt pilnībā: lietot audumu un naudu, lai bodīte augtu, rēķinoties atdot vērtību ar nolīgto pieaugumu, kad Gvido atgriezīsies.",
+          "consequence": "Bodīte tiešām aug: divi mācekļi, jaunas stelles, tavs vārds sāk klīst. Bet katrs lēmums tagad iet caur rēķinu, kas jāatdod: pirms gadatirgiem vairs neguli, baidies no zādzībām un liesiem gadiem. Kad Gvido atgriežas agrāk un ar saviem zaudējumiem, ko segt, godāt derību tev maksā gandrīz visu nopelnīto — un tu saproti, ka divus gadus esi pavadījis, glabājot naudu vairāk nekā dzīvojot.",
+          "perspectives": [
+            {
+              "label": "Franciskāņu ceļš",
+              "text": "1223. gada Regula lūdz nepieņemt neko par savu, ne māju, ne vietu, ne kādu lietu: nevis tāpēc, ka lietas būtu sliktas, bet tāpēc, ka tas, kas tev jāatdod un jāaizstāv, sāk valdīt pār tevi. Pazaudētais miegs pirms gadatirgiem ir precīza zīme, ka saimnieks ir mainījies.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Tirgotāja loģika",
+              "text": "Komūnas pasaulē tā ir prakse: kredīts griež saimniecību, un atteikties no katras glabāšanas nozīmē palikt maziņam uz visiem laikiem. Risku mēra un novērtē; godāt derību ir tas, kas būvē reputāciju.",
+              "isEditorial": true
+            },
+            {
+              "label": "Atteikšanās skats",
+              "text": "Čelāno stāsta par Francisku, kurš atdod tēvam pat drēbes: nevis nicinājuma dēļ pret lietām, bet lai nebūtu atkarīgs no nekā cita kā no Tēva. Jautājums nav, vai derība ir godīga — tā ir —, bet cik daudz savas sirds brīvības tu esi gatavs ieķīlāt uz diviem gadiem.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Pieņemt tikai glabāšanu, ne lietošanu: aizzīmogot audumu un naudu, turēt drošībā, neliekot tiem nest augļus, un atdot neskartus, kad viņš atgriežas.",
+          "consequence": "Divus gadus tava bodīte paliek tāda pati, bet tu ej viegls: nav rēķina, ko atdot, nav peļņas, ko aizstāvēt. Gvido, atgriezies, atrod visu neskartu un tevi ciena kā vārda vīru; viņš piedāvā citas glabāšanas, ko vērtēsi pa vienai. Kāds ciemā tevi sauc par muļķi: tas audums varēja strādāt tev.",
+          "perspectives": [
+            {
+              "label": "Franciskāņu ceļš",
+              "text": "Glabāt, nepieņemot par savu, ir gandrīz garīgs vingrinājums: turēt rokās, neturot sirdī. Tas atgādina Regulas loģiku — svētceļnieki un svešinieki pasaulē, lietu kalpi, ne saimnieki —, piemērotu svešai mantai.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Tirgotāja loģika",
+              "text": "No saimniecības viedokļa tā ir izniekota izdevība: stāvošs kapitāls neražo, un bezmaksas glabātājs dāvina pakalpojumu, ko citur apmaksā. Gvido cieņa ir vērta, bet tā neapmaksā jaunās stelles.",
+              "isEditorial": true
+            },
+            {
+              "label": "Ciema apdomība",
+              "text": "Tīrai glabāšanai ir savi riski — zādzības, ugunsgrēki, apsūdzības nelietīgā rīcībā —, bet tā tevi atstāj brīvu no katra strīda par peļņu. Tik un tā uzraksti aktu liecinieku priekšā: uzticību godā labāk ar kārtībā esošiem rakstiem.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Atteikt ar cieņu: pateikties Gvido par uzticību, bet negribēt ne īpašuma saites, ne rēķinus, kas jāatdod divus gadus.",
+          "consequence": "Gvido paliek pārsteigts, tad pamāj: audumus uzticēs citam. Tava bodīte paliek maza, un kāda ziema ir šaura, bet tavs vārds ciemā iegūst īpašu skanējumu: tā skan tam, kurš nepārdodas un nesaistās. Gadus vēlāk, kad izvēlēsies sekot brāļiem, kas iet caur Asīzi, neviens nebrīnīsies par tavu atbrīvotību: tā bija sākusies ar to nē.",
+          "perspectives": [
+            {
+              "label": "Atteikšanās skats",
+              "text": "Franciska atteikšanās bīskapa priekšā rāda, ka teikt nē bagātībai ir brīvības žests, nevis nicinājums: viņš atdeva drēbes, lai bez liekulības varētu teikt „Mūsu Tēvs“. Motivēts nē šodien sagatavo rītdienas nē — un jā.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Franciskāņu ceļš",
+              "text": "Uzmanies, lai nejauktu brīvību ar regulu, ko esi uztaisījis sev: Regula runā par nepieņemšanu par savu, nevis par atteikšanos no katras atbildības pret svešu mantu. Arī atteikšanās var kļūt par veidu domāt tikai par sevi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Ciema apdomība",
+              "text": "Atteikt ir likumīgi, bet tam ir sabiedriska cena: ciemā viens otram palīdz arī tā, glabājot cits cita mantu. Kas vienmēr atsakās, tas ilgtermiņā paliek ārpus uzticības tīkla, uz kura viss turas.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Franciskāņu nabadzība nelūdz nicināt lietas: tā lūdz pamanīt, kad lietas sāk valdīt pār tevi. Nākamreiz, kad kaut ko pieņem — lietu, uzdevumu, parādu —, pajautā: kurš kuru glabā?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Neskaidrais projekts",
+      "situation": "Šodien. Tev uztic prestiža projekta vadību: redzamību, komandu, ko izvēlies pats, būtisku budžetu. Bet divas izdevumu rindas nesakrīt, un finansētājs uz taviem jautājumiem atbild ar izvairīgām pieklājībām. Parakstīt nozīmē uzņemties atbildību arī par šo neskaidrību. Atteikt nozīmē atteikties no izdevības, kas neatkārtosies.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Pieņemt bez turpmākiem jautājumiem: projekts ir vienreizēja izdevība, neskaidrās rindas nav tava kompetence, un tik un tā kāds būtu parakstījis tavā vietā.",
+          "consequence": "Projekts izdodas labi, un tava karjera uzlec. Bet, kad gadu vēlāk administratīva pārbaude atkal atver tās izdevumu rindas, tavs paraksts ir uz dokumentiem: atbildība, uz kuru negribēji skatīties, tevi tik un tā sasniedz, un iekarotais prestižs apgāžas neērtā aizstāvībā.",
+          "perspectives": [
+            {
+              "label": "Lomas atbildība",
+              "text": "Franciskāņu brālībā to, kurš vada, sauc par „ministru“, kalpu: amats pastāv, lai kalpotu, nevis lai mirdzētu. Kalpošana, kas piekrīt neredzēt to, par ko atbild, jau ir nodevusi savu vārdu, vēl pirms jebkuras pārbaudes.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Tirgotāja loģika",
+              "text": "Darba pasaulē spriež tā: katram projektam ir pelēkas zonas, un kas patiesi grib strādāt, iemācās ar tām sadzīvot. Atteikties no katras nepilnības nozīmē atdot lēmumus tam, kam skrupuļu ir mazāk nekā tev.",
+              "isEditorial": true
+            },
+            {
+              "label": "Ciema apdomība",
+              "text": "Paraksts ir robeža: ko paraksti, to tu uzņemies kā savu, ar visām sekām. Pirms parakstīšanas saskaitīt līdz desmit nepietiek: jāzina precīzi, ko tu paraksti. Izdevība, kas neatkārtojas, bieži tomēr atkārtojas; reputācija — nē.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Atteikt: bez caurspīdīguma neparaksta, un projekts lai iet tam, kurš šos nosacījumus pieņem.",
+          "consequence": "Atteikšanās dedzina, un mēnešiem tu skaties, kā projekts iet uz priekšu starp problēmām: bez tavas vadības komanda svārstās, un beigās finansētājs atsauc līdzekļus tieši neskaidro rindu dēļ. Tavu nē daži lasa kā naivitāti, citi atceras tad, kad vajag uzticamu cilvēku smalkam uzdevumam.",
+          "perspectives": [
+            {
+              "label": "Ciema apdomība",
+              "text": "Atteikums sargā reputāciju, bet atstāj problēmu neskartu: projekts aiziet tam, kam skrupuļu mazāk, un cilvēki, kas tur strādā, cieš sekas. Nē notīra rokas, ne vienmēr pasauli.",
+              "isEditorial": true
+            },
+            {
+              "label": "Lomas atbildība",
+              "text": "Vēstule ministram rāda, ka franciskāņu vadība ir tuvums un kalpošana, nekad augstprātīga attālināšanās. Bet kalpot nenozīmē atdoties visam: ministrs, kurš paraksta to, ko nevar pārvaldīt, nekalpo brāļiem, bet viņus pakļauj. Arī atteikums var būt rūpju forma.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Garais skats",
+              "text": "Karjeras veido no izmantotām izdevībām, bet uzticību — no atteiktām. Nē, kas pateikts skaidru iemeslu dēļ un bez morālizēšanas, ir ieguldījums, kas nobriest lēni un nenovērtējas.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Pieņemt ar nosacījumiem: parakstīt tikai pēc tam, kad rakstiski ir caurspīdīga atskaite, neatkarīga revīzija un tiesības pamatoti atkāpties.",
+          "consequence": "Finansētājs vilcinās, draud meklēt citus, tad piekāpjas: tavi nosacījumi, rakstīti, kļūst par projekta mugurkaulu. Darbs ir lēnāks un grūtāks, nekā solīja, bet, kad pārbaude pienāk — un tā pienāk —, rēķini ir atvērti un komanda turas. Tava vadība kļūst par precedentu: citi pēc tevis prasīs tos pašus nosacījumus.",
+          "perspectives": [
+            {
+              "label": "Lomas atbildība",
+              "text": "Šis ir ministra ceļš pilnā franciskāņu nozīmē: nebēgt no kalpošanas, bet atteikties, lai kalpošana kļūtu par līdzdalību. Kas vada, tas kalpo — un kalpot ietver sargāt komandu un projektu no ēnas zonām, arī par neērtu sarunu cenu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Tirgotāja loģika",
+              "text": "Rakstīti nosacījumi ir labākais kompromiss, bet tiem ir cena: riskē zaudēt uzdevumu, ja finansētājs nepiekāpjas, un strādāt gadiem ar partneri, kas tevi uzskata vairāk par kontrolieri nekā par sabiedroto. Tas ir vērts tikai tad, ja tev ir ticamas alternatīvas.",
+              "isEditorial": true
+            },
+            {
+              "label": "Garais skats",
+              "text": "Izvirzīt nosacījumus ir lēnākais un auglīgākais veids: tas ne tikai sargā tevi, tas maina praksi. Institūcijas uzlabojas tad, kad kāds pārvērš personīgu skrupulu par kopīgu likumu.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Francisks sauca atbildīgos par „ministriem“, kalpiem: lomas vārds jau ir tās programma. Tavā darbā — kas vajadzīgs, lai tava kalpošana nekļūtu par līdzdalību, un kas, lai tava stingrība nekļūtu par dezertēšanu?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Brālis, kurš ir pārkāpis",
+      "situation": "Porciunkula, 13. gadsimta divdesmitie gadi. Brālis Rufīns ir smagi pārkāpis regulu: viņš ir paturējis sev naudu, kas saņemta ubagojot, un fakts jau ir zināms arī ārpusē, starp ļaudīm, kas uz jums skatās. Brālībā jau dienām diskutē. Daži prasa parauga gandarīšanu un viņa attālināšanu no ciema; citi atgādina, ka Rufīns ir slims un salauzts; vēl citi baidās, ka iecietība aicinās visus pārkāpt. Ministrs lūdz katra viedokli. Arī tavu.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Aizstāvēt bardzību: publiska gandarīšana un Rufīna pagaidu attālināšana, jo regula ir visiem un laju skandāls jālabo visu priekšā.",
+          "consequence": "Brālība apstiprina stingru disciplīnu. Rufīns dodas uz tālu vientuļvietu, pazemots to priekšā, kas viņu pazina; ciema laji apbrīno brāļu konsekvenci, un žēlastības dāvanas nemazinās. Bet brālībā kaut kas sastingst: brāļi sāk slēpt savu trauslumu, baidoties no sprieduma, un Rufīns, viens, pavadīs gadus, lai atgrieztos — ja atgriezīsies.",
+          "perspectives": [
+            {
+              "label": "Kopienas gudrība",
+              "text": "Kopīgā regula ir tas, kas atšķir brālību no draugu pulciņa: ja tas, kurš smagi pārkāpj, nesastop sekas, derība iztukšojas un vājākie par to maksā. Publiska labošana atbild arī uz publisku skandālu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Vēstule ministram",
+              "text": "Francisks raksta ministram: ja brālis būtu grēkojis tūkstoš reižu, viņš tik un tā jāmīl un viņam jāsludina žēlsirdība: bardzība, kas apskandālē vājo brāli, riskē viņu pazaudēt. Bardzība nav aizliegta, bet tai nekad nav jākļūst par nicinājumu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Garais skats",
+              "text": "Kopiena, kurā visi baidās no sprieduma, kļūst par noslēpumu kopienu: regula paliek stāvus uz papīra un sabrūk sirdīs. Stingrība, kas neparedz atgriešanās ceļu, ražo izsūtītos, nevis gandarītājus.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Aizstāvēt pilnu uzņemšanu: uzņemt Rufīnu atpakaļ bez publiskām gandarīšanām, ārstēt viņa slimību un atbildēt uz skandālu ar lēnprātību, nevis ar sodiem.",
+          "consequence": "Rufīns paliek. Viņš raud brāļu priekšā, atdod, cik var, un lēni atrod vietu kopīgajā dzīvē: neviens viņam vairs nepārmet faktu. Ciemā kāds murmina, ka brāļi sedz cits citu, un divi jauni brālības locekļi uztver lēnprātību kā atļauju: ministram mēnešiem būs jāpūlas, lai atjaunotu, ka regula nav padoms.",
+          "perspectives": [
+            {
+              "label": "Vēstule ministram",
+              "text": "Tas ir ceļš, ko iezīmē Vēstule ministram: mīlēt vairāk, ne mazāk, to, kurš ir pārkāpis; sludināt žēlsirdību, ja vien viņš nožēlo; nenocietināt savu sirdi otra grēka dēļ. Francisks zina, ka šis ceļš maksā, un tik un tā to prasa.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Kopienas gudrība",
+              "text": "1221. gada Regula lūdz cits citam atklāt vajadzības un nenonicināt vājo: slimais Rufīns ir tieši tas brālis, kuru regula sargā. Bet tā pati regula pastāv, lai brālība neizklīstu: žēlsirdība bez patiesības kļūst par līdzdalību.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Ciema apdomība",
+              "text": "Laji dod žēlastības dāvanas nabagiem brāļiem, nevis viltīgiem brāļiem: nevaldīts skandāls grauž uzticību, kas tur kopienu dzīvu. Uzņemšana jāpaskaidro ciemam, ne tikai jādzīvo mājās, citādi to nolasīs kā piesegšanu.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Aizstāvēt kopienas ceļu: Rufīns paliek brālībā, atdod pienākošos brāļu priekšā, uztic sevi brālīgai pavadīšanai, un visa kopiena kopā ar viņu nes labošanu pret ciemu.",
+          "consequence": "Ceļš ir garš un neērts: Rufīns atzīstas brāļu priekšā, atdod naudu no mājas uz māju kopā ar vecāku brāli, un gadu veic pazemīgākos pakalpojumus, nevienam to nepārmetot. Ciems redz īstu labošanu, nevis sodu: uzticība atgriežas lēni. Brālībā epizode kļūst par nerakstītu regulu: kas krīt, to pavada, kas pārkāpis, tas labo, neviens nepazūd.",
+          "perspectives": [
+            {
+              "label": "Vēstule ministram",
+              "text": "Vēstules žēlsirdība nav atlaide: tā ir mīlestība, kas pavada nožēlu, līdz tā nes augļus. Rufīns, kurš atdod no mājas uz māju, nav pazemots: viņš ir brālis, kas atgriežas, un kopiena iet viņam līdzās, nevis skatās no augšas.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Kopienas gudrība",
+              "text": "1221. gada Regula iztēlojas tieši šo: brāļus, kas atklāj savas vajadzības — arī kaunīgās — un nes cits citu. Kopienas labošana savieno patiesību un žēlsirdību un pārvērš viena vainu par skolu visiem.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Tā laika tiesības",
+              "text": "Tas ir visprasīgākais ceļš visiem: tas prasa laiku, noslēpuma sargāšanu tur, kur vajag, publisku patiesību tur, kur skandāls ir bijis publisks. Ne katra kopiena iztur šo pūliņu: bez spējīga ministra vidusceļš kļūst tikai par neizlēmību.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Brālību mēra nevis tad, kad visi ievēro regulu, bet tad, kad kāds to pārkāpj. Vēstule ministram fiksē zvaigzni — mīlēt vairāk, ne mazāk —, neizdzēšot patiesību. Tavās kopienās — vai tam, kurš ir kļūdījies, ir atgriešanās ceļš?"
+    }
+  ]
+}

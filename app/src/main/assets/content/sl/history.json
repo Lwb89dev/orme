@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Rojstvo v Assisiju",
+      "description": "Janez, sin Petra Bernardoneja, imenovan Frančišek, se rodi v Assisiju bogatemu trgovcu s suknom in gospe Pici.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 ali 1182 (negotovo)",
+      "chronologicalUncertainty": "Viri se ne ujemajo glede leta: zgodovinopisje predlaga tako 1181 kot 1182.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Vojna in ujetništvo",
+      "description": "V vojni med Assisijem in Perugio se Frančišek bori v bitki pri Collestradi (november 1202), pade v ujetništvo in ostane približno leto dni v Perugii. Ob vrnitvi ga začne spreminjati bolezen.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Sen v Spoletu in vrnitev",
+      "description": "Odpravi se v Apulijo iskat vojaško slavo; v Spoletu ima Frančišek sen, zaradi katerega se vrne v Assisi. Začne se oddaljevanje od prejšnjega življenja: sanje, molitev, romanje v Rim.",
+      "yearFrom": 1205,
+      "dateLabel": "okoli 1204–1205",
+      "chronologicalUncertainty": "Rekonstrukcija teh mesecev je vzeta iz srednjeveških življenjepisov; natančni datumi so konvencionalni.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Srečanje z gobavci",
+      "description": "Frančišek v Oporoki pripoveduje, da ga je Gospod pripeljal med gobavce in da je »z njimi storil usmiljenje«: dogodek, ki ga sam označi za začetek svoje spreobrnitve.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "okoli 1205–1206",
+      "chronologicalUncertainty": "Oporoka ne daje datuma; umestitev je pred javnim prelomom z družino.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Razpelo iz San Damiana",
+      "description": "V podrti cerkvici San Damiano Frančišek po izročilu sliši, kako mu razpelo reče: »Popravi mojo hišo«. Sprva to razume dobesedno in z lastnimi rokami obnavlja cerkve.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "okoli 1205–1206",
+      "chronologicalUncertainty": "Dogodek, izpričan predvsem v Drugem življenju in v poznejšem izročilu; dobesednost dialoga sodi v pobožno pripoved.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Odpoved pred škofom",
+      "description": "Oče ga pokliče pred škofa Guida zaradi prodanega imetja; Frančišek vrne vse, tudi oblačila, in se zaupa »Očetu, ki je v nebesih«. Škof ga pokrije s svojim plaščem.",
+      "yearFrom": 1206,
+      "dateLabel": "začetek leta 1206",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Prvi tovariši",
+      "description": "Bernard iz Quintavalle, Egidij in drugi se pridružijo Frančišku in delijo njegovo obliko življenja: rodi se potujoče bratstvo, med delom, miloščino in oznanilom miru.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Potrditev Inocenca III.",
+      "description": "Frančišek in tovariši gredo v Rim; Inocenc III. ustno potrdi njihovo evangeljsko obliko življenja. Noben dokument o potrditvi se ni ohranil: izročilo jo datira v leto 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (ali 1209)",
+      "chronologicalUncertainty": "Potrditev je bila ustna in noben dokument se ni ohranil; natančno leto (1209 ali 1210) je sporno.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Porciunkula, dom bratstva",
+      "description": "Majhna cerkev svete Marije Angelske, imenovana Porciunkula, postane stalno bivališče bratstva: duhovno in srčno središče gibanja.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Klarin beg",
+      "description": "Klara Offreduccio zapusti očetovo hišo in v noči med cvetno nedeljo in ponedeljkom leta 1212 doseže Frančiška v Porciunkuli: začne se njena oblika življenja, iz katere bodo nastale klarise.",
+      "yearFrom": 1212,
+      "dateLabel": "18.–19. marec 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Srečanje s sultanom",
+      "description": "Med peto križarsko vojno Frančišek prečka črte in v Damieti sreča sultana al-Malika al-Kamila: dogodek pogovora v času vojne, dokumentiran v frančiškanskih virih in omenjen pri zunanjih kronistih.",
+      "yearFrom": 1219,
+      "dateLabel": "september 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Nepotrjeno pravilo",
+      "description": "V Fonte Colombu pri Rietiju je sestavljeno prvo celovito pravilo bratstva (Regula non bullata), dolgo in duhovno, nikoli formalno potrjeno.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Potrjeno pravilo",
+      "description": "Honorij III. z bulo »Solet annuere« potrdi dokončno pravilo (29. november 1223): krajše in pravno, še danes temelj reda manjših bratov.",
+      "yearFrom": 1223,
+      "dateLabel": "29. november 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Božič v Grecciu",
+      "description": "Na božič 1223 da Frančišek v Grecciu pripraviti prave jasli, s senom, volom in osličkom, da bi »s telesnimi očmi« videl uboštvo Betlehema: izvor izročila jaslic.",
+      "yearFrom": 1223,
+      "dateLabel": "Božič 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "Alverna",
+      "description": "Septembra 1224 na umiku na gori Alverni Frančišek — po najbližjih srednjeveških virih — prejme stigme Kristusovega trpljenja, ki jih bo skušal skrivati.",
+      "yearFrom": 1224,
+      "dateLabel": "september 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Spev stvarstva",
+      "description": "Bolan in skoraj slep Frančišek v več zamahih sestavi lavdo v umbrijskem ljudskem jeziku, znano kot Spev stvarstva: hvala Bogu po bratu soncu, sestri vodi, materi zemlji in nazadnje sestri telesni smrti.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Volk iz Gubbia",
+      "description": "Cvetke pripovedujejo, da je Frančišek posredoval mir med mestom Gubbio in silovitim volkom: mesto naj bi ga hranilo, volk pa naj ne bi več škodoval. Hagiografska pripoved, ne kronika.",
+      "yearFrom": 1220,
+      "dateLabel": "negotov datum",
+      "chronologicalUncertainty": "Dogodek hagiografskega izročila iz 14. stoletja (Cvetke, 21. poglavje), brez listinske opore: ponujamo ga kot pripoved spomina, ne kot zgodovinsko dejstvo.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Smrt v Porciunkuli",
+      "description": "Frančišek umre zvečer 3. oktobra 1226 v Porciunkuli, potem ko je narekoval Oporoko in prosil, naj ga položijo nagega na golo zemljo.",
+      "yearFrom": 1226,
+      "dateLabel": "3. oktober 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Kanonizacija",
+      "description": "Gregor IX. razglasi Frančiška za svetnika v Assisiju 16. julija 1228, manj kot dve leti po smrti, in Tomažu Celanskemu naroči prvi uradni življenjepis.",
+      "yearFrom": 1228,
+      "dateLabel": "16. julij 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Frančišek Asiški",
+      "role": "Ustanovitelj bratstva manjših bratov",
+      "description": "Janez, sin Petra Bernardoneja (1181/82–1226). Trgovec, nato potujoči spokornik, nato ustanovitelj bratstva, ki je spremenilo zgodovino Cerkve. Kanoniziran leta 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Klara Asiška",
+      "role": "Ustanoviteljica klaris",
+      "description": "Plemkinja iz Assisija (1193/94–1253), Frančišku sledi leta 1212 in v San Damianu ustanovi skupnost »ubogih gospa«. Prva ženska, ki je napisala potrjeno redovno pravilo.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernard iz Quintavalle",
+      "role": "Prvi tovariš",
+      "description": "Bogataš iz Assisija, razdeli svoje imetje in postane Frančiškov prvi tovariš (1208). Umrl je leta 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Brat Egidij",
+      "role": "Med prvimi tovariši",
+      "description": "Izobražen kmet in mistik, Frančiškov tretji tovariš; izročilo mu pripisuje modrostne »Izreke«.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Brat Leon",
+      "role": "Spovednik in zvesti tovariš",
+      "description": "Tovariš zadnjih let, naslovnik Frančiškovega lastnoročnega pisma in priča z Alverne.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II., škof iz Assisija",
+      "role": "Frančiškov zavetnik",
+      "description": "Škof v Assisiju od leta 1204; v prizoru odpovedi je Frančiška pokril s plaščem in podprl njegove prve korake.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Peter Bernardone",
+      "role": "Frančiškov oče",
+      "description": "Trgovec s suknom iz Assisija; spor s sinom zaradi prodanega imetja se je iztekel v javni prizor pred škofom.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Gospa Pica",
+      "role": "Frančiškova mati",
+      "description": "Izročilo se je spominja kot bližje sinu v krizi spreobrnitve; viri o njej so skopi.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Papež Inocenc III.",
+      "role": "Papež (1198–1216)",
+      "description": "Med najvplivnejšimi papeži srednjega veka; po izročilu je leta 1210 ustno potrdil Frančiškovo obliko življenja.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Papež Honorij III.",
+      "role": "Papež (1216–1227)",
+      "description": "Leta 1223 je potrdil potrjeno pravilo in podprl mlado bratstvo.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Egiptovski sultan",
+      "description": "Ajubidski sultan, ki je Frančiška srečal v Damieti leta 1219, med peto križarsko vojno.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Tomaž Celanski",
+      "role": "Prvi življenjepisec",
+      "description": "Manjši brat, napisal je Prvo življenje (1228–29) po naročilu Gregorja IX. in Drugo življenje (1246–47), v katerem je zbral pričevanja tovarišev.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventura iz Bagnoregia",
+      "role": "Teolog in življenjepisec",
+      "description": "Univerzitetni učitelj in generalni minister reda; njegova Velika legenda (1260–63) je postala uradni Frančiškov življenjepis.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardinal Hugolin (pozneje Gregor IX.)",
+      "role": "Zavetnik reda",
+      "description": "Kardinal zavetnik bratstva, nato papež: Frančiška je kanoniziral leta 1228.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Brat Elija iz Cortone",
+      "role": "Sporni naslednik",
+      "description": "Tovariš in nato voditelj reda po Frančišku; sporna osebnost, znamenje napetosti med karizmo in ustanovo.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Frančiškovo rojstno mesto: trg, stolnica San Rufino, obzidje, srednjeveške ulice.",
+      "historicalNote": "Dejanski zgodovinski kraj.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "Cerkvica zunaj Assisija, kjer je Frančišek molil pred razpelom; pozneje bivališče Klare in njenih sester.",
+      "historicalNote": "Dejanski zgodovinski kraj.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Porciunkula (Sveta Marija Angelska)",
+      "description": "Majhna cerkev na ravnici pod Assisijem: bivališče prvega bratstva in kraj Frančiškove smrti.",
+      "historicalNote": "Dejanski zgodovinski kraj; danes je vključen v baziliko svete Marije Angelske.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Koča ob potoku, kjer so prvi tovariši živeli potujočo obliko življenja.",
+      "historicalNote": "Dejanski zgodovinski kraj; današnje svetišče hrani spomin na naselbino.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Erem Carceri",
+      "description": "Erem na gori Subasio, med črnikami in jamami: kraj umika in molitve.",
+      "historicalNote": "Dejanski zgodovinski kraj.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Umbrijsko mesto, povezano s pripovedjo o volku in s Frančiškovo navzočnostjo v puščavniškem obdobju.",
+      "historicalNote": "Dejanski zgodovinski kraj; dogodek z volkom sodi v hagiografsko izročilo.",
+      "isHistoricalPlace": true,
+      "region": "Umbrija"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Kraj v reatinskem, kjer je Frančišek na božič 1223 obhajal praznik z živimi jaslimi.",
+      "historicalNote": "Dejanski zgodovinski kraj.",
+      "isHistoricalPlace": true,
+      "region": "Lacij"
+    },
+    {
+      "id": "place.laverna",
+      "name": "Alverna",
+      "description": "Gora v toskanskem Apeninu, podarjena Frančišku; kraj umika leta 1224 in — po srednjeveških virih — stigem.",
+      "historicalNote": "Dejanski zgodovinski kraj.",
+      "isHistoricalPlace": true,
+      "region": "Toskana"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Erem pri Rietiju, kjer je bilo leta 1221 sestavljeno nepotrjeno pravilo.",
+      "historicalNote": "Dejanski zgodovinski kraj.",
+      "isHistoricalPlace": true,
+      "region": "Lacij"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damieta",
+      "description": "Mesto v delti Nila, prizorišče pete križarske vojne in srečanja med Frančiškom in sultanom (1219).",
+      "historicalNote": "Dejanski zgodovinski kraj.",
+      "isHistoricalPlace": true,
+      "region": "Egipt"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Hrastova vas",
+      "description": "Izmišljeni kraj v spoletski dolini: glavno pripovedno prizorišče Popotnika.",
+      "historicalNote": "Izmišljeno prizorišče, ustvarjeno za igro; ni zgodovinski kraj.",
+      "isHistoricalPlace": false,
+      "region": "Umbrija (izmišljeno)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbrijska podeželja in gozdovi",
+      "description": "Ceste, gozdovi črnike in polja med kraji: potujoče prizorišče Popotnikovih zgodb.",
+      "historicalNote": "Pripovedno prizorišče, navdihnjeno z dejansko umbrijsko pokrajino.",
+      "isHistoricalPlace": false,
+      "region": "Umbrija (prizorišče)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiografija",
+      "definition": "Književnost življenj svetnikov: srednjeveška pobožna zvrst, ki meri na spodbudo, ne na kroniko. Brati jo je treba z drugačnimi orodji kot dokumentarno zgodovino."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Pokora",
+      "definition": "V Frančiškovem jeziku: spreobrnitev srca in življenja, ne kazen. »Delati pokoro« je pomenilo spremeniti smer."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Manjši brat",
+      "definition": "Ime, ki ga je Frančišek izbral za svoje tovariše: »manjši«, se pravi zadnji, brez zahtev po stanu."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Minister",
+      "definition": "V frančiškanskem bratstvu: odgovorni za skupnost ali provinco. Beseda pomeni »služabnik«."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Pravilo",
+      "definition": "Besedilo, ki določa obliko življenja verske skupnosti. Frančišek je napisal dve različici: nepotrjeno (1221) in potrjeno (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bula",
+      "definition": "Uradni papeški dokument, po svinčenem pečatu (bulla), ki ga potrjuje. »Potrjeno pravilo« = pravilo, potrjeno z bulo."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Porciunkula",
+      "definition": "»Majhen kos« zemlje: cerkvica svete Marije Angelske pri Assisiju, dom bratstva."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stigme",
+      "definition": "Znamenja Kristusovega trpljenja, ki jih srednjeveški viri pripisujejo Frančišku po umiku na Alverno (1224)."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Latinski izraz izročila: »brez česar koli lastnega«, frančiškanska oblika uboštva."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lavda",
+      "definition": "Versko pesniško besedilo v ljudskem jeziku, namenjeno petju. Spev stvarstva je lavda."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Komuna",
+      "definition": "Mestna samoupravna oblast srednjeveške Italije: Frančiškov Assisi je bila rastoča komuna v sporu s Perugio in s fevdalno oblastjo."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Kapitel",
+      "definition": "Redno zborovanje verskega bratstva; tudi »generalni kapitel« za zborovanje vsega reda."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Gobavsko naselje",
+      "definition": "Srednjeveška bolnišnica-lazaret za gobavce, zunaj mestnega obzidja. Kraj Frančiškovega odločilnega srečanja."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Miloščina",
+      "definition": "Dar, zaprošen ali prejet za življenje. Za prve brate je bil znamenje zaupanja v Previdnost, ne ponižanje."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Trgovčev sin (1181/82–1202)",
+      "text": "Frančišek se rodi v Assisiju Petru Bernardoneju, bogatemu trgovcu s suknom, in gospe Pici. Odrašča v mestu sredi komunskega razcveta: bleščeč mladenič, radodaren, ljubitelj praznikov in francoskih trubadurjev, sanja o viteški slavi. Leta 1202 se bori proti Perugii pri Collestradi; poraz in leto ujetništva spektakularno končata njegovo prvo življenje.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Prelom (1202–1206)",
+      "text": "Bolezen po ujetništvu, sen v Spoletu, romanje v Rim, kjer zamenja oblačila z beračem: Frančišek išče novo smer. Nato dogodek, ki ga bo sam označil za začetek: srečanje z gobavci, kjer se »kar se mi je zdelo grenko, spremeni v sladkost«. V San Damianu pred razpelom zasliši vabilo, naj popravi Božjo »hišo«. Proda očetovo sukno in konja, da bi obnovil cerkvico; spor izbruhne pred škofom, kjer vrne vse.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "»Popravi mojo hišo« (1206–1209)",
+      "text": "Sam, oblečen kot spokornik, Frančišek kamen za kamnom obnavlja San Damiano, San Pietro in Porciunkulo ter služi v gobavskih naseljih. Mesto se mu najprej posmehuje, nato ga začne gledati. Ob poslušanju evangelija razume klic: oznanjati mir, živeti brez česar koli lastnega, na poti. Načrt se izkaže za večjega od obnove treh cerkva: popraviti samo Cerkev, od spodaj.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Bratstvo (1209–1219)",
+      "text": "Bernard iz Quintavalle, Egidij in drugi: prvi tovariši delijo obliko življenja in leta 1210 (ali 1209) jo Inocenc III. ustno potrdi. Porciunkula postane dom. Leta 1212 Klara Asiška ponoči pobegne, da bi sledila istemu klicu. Bratstvo raste čez vse napovedi, z letnimi kapitlji in misijoni po vsej Evropi: rojevajo se težave velikih števil.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Proti Vzhodu (1219–1220)",
+      "text": "Sredi pete križarske vojne Frančišek doseže križarski tabor v Damieti, prečka črte in sreča sultana al-Malika al-Kamila. Srednjeveški viri opisujejo medsebojno spoštovanje; sodobno zgodovinopisje razpravlja o podrobnostih, a gesta ostane: v času vojne iti naproti. Ob vrnitvi najde bratstvo spremenjeno in v težavah: obseg terja strukture, ki se jih boji.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Napor rasti (1220–1223)",
+      "text": "Frančišek zapusti vsakdanje vodstvo reda in se posveti zapisanemu pravilu: tisto iz leta 1221, dolgo in svobodno, ne bo potrjeno; tisto iz leta 1223, krajše in pravno, prejme bulo Honorija III. Napetost med karizmo in ustanovo preveva ta leta: Frančišek jo živi v zvestobi in v trpljenju. V Grecciu na božič 1223 da videti uboštvo Betlehema s pravimi jaslimi.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Spev in večer (1224–1226)",
+      "text": "Na Alverni septembra 1224 viri pripovedujejo o stigmah. Bolan in skoraj slep v San Damianu sestavi Spev stvarstva: hvala se rodi v najtemnejšem času. Doda kitico odpuščanja, da bi spravil škofa in podestata, in nazadnje kitico o »sora morte corporale«. Ko narekuje Oporoko, umre v Porciunkuli zvečer 3. oktobra 1226, nag na goli zemlji. Dve leti pozneje ga Gregor IX. razglasi za svetnika.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

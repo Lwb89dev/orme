@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Spotkanie, które zmienia życie",
+      "summary": "Nawrócenie Franciszka zaczyna się wtedy, gdy przezwycięża wstręt i spotyka trędowatych: miłość bliźniego jako konkretne spotkanie z drugim człowiekiem.",
+      "explanation": "W Testamencie Franciszek opowiada, że widok trędowatych wydawał mu się „zbyt gorzki” i że właśnie spotkanie z nimi było początkiem jego pokuty. Franciszkańska miłość bliźniego nie jest ogólnym uczuciem: to fizyczny gest kogoś, kto zbliża się do wykluczonego i odkrywa, że gorycz zamienia się w słodycz. Kto daje, nie staje ponad tym, kto otrzymuje: spotykają się.",
+      "historicalContext": "W XIII wieku trędowaci byli wykluczeni z życia miasta, przyjmowani w leprozoriach za murami i uważani za znak grzechu. Decyzja Franciszka, by żyć wśród nich, była społecznie skandaliczna.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Nic własnego, wszystko otrzymane",
+      "summary": "Przed biskupem Franciszek oddaje ojcu szaty: wyrzeczenie się posiadania jako wybór wolności, nie jako pogarda dla rzeczy.",
+      "explanation": "Wyrzeczenie Franciszka przed biskupem Guidonem jest publicznym gestem, którym przecina więź z rodzinnym bogactwem. To nie ucieczka od rzeczy, lecz uwolnienie od myśli, że się je posiada: kto nic nie posiada, nie musi niczego bronić i może przyjmować wszystko jako dar. Techniczna łacina tradycji nazywa to „sine proprio”: bez własności.",
+      "historicalContext": "Syn bogatego kupca sukna, Franciszek był przeznaczony do społecznego awansu mieszczaństwa komunalnego. Jego wyrzeczenie, w 1206 roku, poruszyło wyobraźnię Asyżu właśnie dlatego, że odwracało wartości kupieckiego miasta.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Ubóstwo jako wolność",
+      "summary": "Dla Franciszka ubóstwo nie jest romantyczną nędzą: to nieprzywłaszczanie sobie niczego, aby pozostać wolnym do miłości i zależeć tylko od Boga.",
+      "explanation": "Reguła z 1223 roku prosi braci, by niczego sobie nie przywłaszczali, „ani domu, ani miejsca, ani żadnej rzeczy”, i by szli po jałmużnę bez wstydu, pamiętając, że Pan stał się ubogi. Franciszkańskie ubóstwo ma fundament teologiczny (ubogi Chrystus) i psychologiczny: kto nie ma czego bronić, jest wolny. To nie wezwanie, by sławić niedostatek, który jest społeczną raną, lecz by nie dać się określić przez posiadanie.",
+      "historicalContext": "Ruch dobrowolnych ubogich rodził się w reakcji na rosnące bogactwo komun i duchowieństwa; Kościół patrzył na ruchy ubóstwa z podejrzliwością, a Franciszek musiał z trudem wywalczyć zatwierdzenie.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Bracia mniejsi",
+      "summary": "Wspólnota Franciszka nie jest zakonem przełożonych i poddanych: to braterstwo „mniejszych”, w którym każdy jest odpowiedzialny za drugiego.",
+      "explanation": "Franciszek chciał, by jego towarzysze nazywali się braćmi mniejszymi: nikt nie jest wielki, a odpowiedzialni nazywają się „ministrami”, czyli sługami. Reguła z 1221 roku prosi, by okazywać sobie nawzajem potrzeby, nie osądzać brata, nie gardzić słabym. Braterstwo jest samą formą Ewangelii przeżywanej razem: jest się braćmi nie z ideału, lecz przez codzienną praktykę.",
+      "historicalContext": "Braterstwo rodzi się około 1208–1210 z pierwszych towarzyszy (Bernard, Idzi…) i szybko rośnie, aż wymaga struktur: kapituł, ministrów, spisanej reguły.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Pozdrowienie pokoju",
+      "summary": "„Pan niech ci da pokój”: Franciszek czyni z pokoju orędzie, które się niesie, zanim jeszcze będzie brakiem wojny.",
+      "explanation": "W Testamencie Franciszek wspomina, że Pan objawił mu pozdrowienie pokoju. Najwcześniejsze źródła opisują braci głoszących pokój od domu do domu. Franciszkański pokój jest czynny: niesie się go, buduje, pośredniczy w nim — jak w opowieści o wilku z Gubbio, gdzie pokój rodzi się z odwagi wyjścia naprzeciw temu, co budzi lęk.",
+      "historicalContext": "Włochy komun przecinały waśnie stronnictw, wojny miast i konflikty władzy świeckiej z religijną. Głosić pokój było gestem politycznym, nie tylko duchowym.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Siedemdziesiąt siedem razy, i więcej",
+      "summary": "Do odpowiedzialnego za braterstwo Franciszek pisze: jeśli brat zgrzeszyłby tysiąc razy, i tak kochaj go bardziej niż mnie.",
+      "explanation": "List do ministra jest franciszkańskim tekstem o przebaczeniu: kto prowadzi, nie powinien gorszyć się ani twardnieć wobec błędów braci, lecz głosić miłosierdzie. Przebaczenie nie zaprzecza złu: odmawia złu ostatniego słowa o relacji. W Pieśni strofę o przebaczeniu dodano — według tradycji — aby pojednać biskupa i podestę Asyżu, pozostających w konflikcie.",
+      "historicalContext": "Szybko rosnące braterstwo przeżywało wewnętrzne napięcia; miasta zaś rozdzierały zemsty i waśnie, które franciszkanie starali się uciszać.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Być mniejszym, nie czuć się lepszym",
+      "summary": "Franciszkańska pokora jest prawdą o sobie: nie wywyższać się, nie gardzić sobą, służyć jak ostatni.",
+      "explanation": "Napomnienia ostrzegają przed własną wolą uczynioną miarą wszystkiego i przed duchowym samozadowoleniem. Pokora, dla Franciszka, to widzieć siebie w prawdzie: małym przed Bogiem, dłużnikiem wszystkiego, zdolnym służyć bez żądania uznania. To nie niska samoocena: to wolność od potrzeby, by się pokazywać.",
+      "historicalContext": "W społeczeństwie opartym na honorze i randze nazywać się „mniejszymi” było programem pod prąd; a wewnątrz rosnącego braterstwa pokora była odtrutką na wewnętrzną rywalizację.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Brat słońce, siostra woda",
+      "summary": "Pieśń stworzeń: świat nie jest magazynem zasobów ani bożkiem, lecz rodziną stworzeń, które chwalą Stwórcę.",
+      "explanation": "W Pieśni Franciszek chwali Boga „przez” stworzenia: brata słońce, siostrę księżyc, siostrę wodę „użyteczną i pokorną, cenną i czystą”, siostrę naszą matkę ziemię. Przyroda nie jest ubóstwiona: jest siostrą, bo córką tego samego Ojca. Troska o stworzenie rodzi się tu z wdzięczności i pokrewieństwa, nie z użyteczności. A Pieśń powstaje w chorobie: pochwała nie zależy od okoliczności.",
+      "historicalContext": "Ułożona w latach 1225–1226, gdy Franciszek był chory i niemal niewidomy, należy do pierwszych tekstów poetyckich w języku ludowym Italii. Bonawentura umieszcza ją w porze prób.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Doskonała radość",
+      "summary": "Franciszkańska radość nie zależy od wyników: zostaje także w odrzuceniu i trudzie, bo rodzi się z miłości, nie z sukcesu.",
+      "explanation": "W Kwiatkach Franciszek wyjaśnia bratu Leonowi, że prawdziwa radość to nie cuda ani nawrócenia, lecz wrócić odprawionym i zziębniętym i pozostać cierpliwym i radosnym. To opowieść hagiograficzna, nie kronika, ale skupia autentyczny rys ducha franciszkańskiego: radość jako wybór wewnętrzny, którego żadne wydarzenie nie może odebrać.",
+      "historicalContext": "Kwiatki (koniec XIV wieku) zbierają żywą pamięć pierwszego franciszkanizmu; należy je czytać jako literaturę duchową, nie jako historię dokumentalną.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Pustynia, która mieszka w świecie",
+      "summary": "Franciszek przeplatał misję i odosobnienie: modlitwa jako miejsce, w którym wraca się do tego, co istotne, przed Bogiem.",
+      "explanation": "Życie franciszkańskie nie jest tylko działaniem: Franciszek szukał eremów i odosobnień (Carceri, La Verna), zabierając niewielu towarzyszy i długie milczenie. W Liście do brata Leona odsyła do sumienia przed Bogiem: modlitwa nie jest techniką, lecz relacją. Pochwały Boga Najwyższego pokazują jego najczystszą modlitwę: chwałę bez próśb.",
+      "historicalContext": "Franciszkańskie eremy powstawały w dzikich miejscach Apeninów umbryjsko-toskańskich; La Verna, podarowana Franciszkowi w 1213 roku, stała się odosobnieniem par excellence.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Iść śladami Chrystusa",
+      "summary": "Duchowość Franciszka nie jest filozofią przyrody: to naśladowanie ubogiego i ukrzyżowanego Chrystusa, wewnątrz wiary Kościoła.",
+      "explanation": "Wszystko u Franciszka zaczyna się od Chrystusa: krucyfiks z San Damiano, który do niego mówi, wybór ubóstwa „bo Pan stał się ubogi”, męka kontemplowana na La Vernie, prosta wiara w kościoły z Testamentu. Usunąć ten korzeń nie czyni Franciszka bardziej uniwersalnym: czyni go nie do poznania. Aplikacja przedstawia go takim, jaki jest, nie narzucając i nie wymazując.",
+      "historicalContext": "Franciszek żył wiarą w ramach średniowiecznego Kościoła, szukając jego zatwierdzenia dla swojej formy życia i przyjmując jego granice, choć popychał reformę od dołu.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Reguła, żeby się nie zagubić",
+      "summary": "Franciszkańskie posłuszeństwo nie jest unicestwieniem: to wspólne przymierze, które chroni braterstwo przed rozproszeniem i samowolą.",
+      "explanation": "Franciszek prosił o zatwierdzenie Kościoła i pisał reguły coraz bardziej zwięzłe (1221, 1223). Posłuszeństwo, w Napomnieniach i w Regułach, jest wzajemne: jest się posłusznym wspólnej regule, a kto prowadzi, służy. Testament prosi, by nie glosować reguły: żyć nią „prosto i bez glos”. Wspólnota i posłuszeństwo są ramą, która czyni wolność trwałą.",
+      "historicalContext": "Między 1210 a 1223 rokiem braterstwo przeszło od małej grupy do uznanego Zakonu; napięcie między charyzmatem a instytucją przenika całą historię franciszkańską.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Pochwała, która o nic nie prosi",
+      "summary": "Pochwały Boga i Pieśń rodzą się w chorobie: franciszkańska wdzięczność nie nagradza szczęścia, lecz rozpoznaje dar w każdej rzeczy.",
+      "explanation": "Pochwały Boga Najwyższego, spisane na La Vernie, są modlitwą bez jednej prośby: tylko uznanie. Także Pieśń, ułożona w cierpieniu, jest chwałą. Franciszkańska wdzięczność jest wyćwiczonym spojrzeniem: widzi każdą rzecz — wodę, słońce, dzień, nawet śmierć — jako otrzymaną. Kto dziękuje, nie posiada: mieszka.",
+      "historicalContext": "W latach 1224–1226 Franciszek był ciężko chory, niemal niewidomy i naznaczony odejściem od prowadzenia Zakonu: pochwała tamtych lat nie jest naiwnością, lecz zdobyczą.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Kto prowadzi, służy",
+      "summary": "W braterstwie odpowiedzialni nazywają się „ministrami”: służba jako jedyna uprawniona forma władzy.",
+      "explanation": "Franciszek odwraca hierarchię: minister to ten, kto służy, kustosz to ten, kto strzeże braci, nie ten, kto rozkazuje. List do ministra pokazuje ton: bliskość wobec tego, kto błądzi, nigdy pogarda. Służba nie jest strategią, by się podobać: to chrześcijański sposób zamieszkiwania każdej roli, od brata po biskupa, od rodzica po burmistrza.",
+      "historicalContext": "Tytuły franciszkańskiej hierarchii (minister, kustosz, gwardian) wybrano właśnie wbrew logice średniowiecznego prestiżu.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Nikt nie jest obcy",
+      "summary": "Trędowaci, zbójcy, sułtan, wilk: tradycja franciszkańska przesuwa gościnność poza granice własnej grupy.",
+      "explanation": "Franciszek spotyka trędowatych, wychodzi naprzeciw sułtanowi al-Malikowi al-Kamilowi w pełni krucjaty, a w pamięci ludowej rozmawia nawet z wilkiem. Franciszkańska gościnność nie jest bierną tolerancją: to wyjście naprzeciw, wystawienie się, nazwanie „bratem” tego, kogo własny świat nazywa wrogiem. Zaczyna się od niewygodnego bliźniego i nie zatrzymuje się na granicach wiary ani języka.",
+      "historicalContext": "Spotkanie z sułtanem (1219, Damietta) odbyło się podczas piątej krucjaty: gest pokoju poświadczony przez źródła, w granicach średniowiecznego świadectwa.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Stać się bliźnim ciałem",
+      "summary": "„Okazałem im miłosierdzie”: franciszkańskie miłosierdzie jest współczuciem, które staje się konkretnym gestem, nie litością z daleka.",
+      "explanation": "W Testamencie Franciszek używa mocnego słowa: z trędowatymi „uczyniłem miłosierdzie”. Nie mówi, że poczuł współczucie: uczynił je. Miłosierdzie to zdolność, by dać się dosięgnąć cierpieniu drugiego aż po poruszenie rąk. To korzeń, z którego wyrastają miłość bliźniego, przebaczenie i pokój.",
+      "historicalContext": "Średniowieczna pobożność znała jałmużnę jako praktykę zasługującą; Franciszek przemienia ją w relację: nie daje się ubogiemu, jest się z ubogim.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Praca rąk",
+      "summary": "Franciszek nie przeciwstawia modlitwy i pracy: uczciwa praca trzyma z dala od bezczynności i nie powinna gasić modlitwy.",
+      "explanation": "W Testamencie Franciszek mówi, że pracował własnymi rękami i chce, by bracia pracowali, nie z chciwości zapłaty, lecz dla przykładu i przeciw bezczynności. Jeśli zapłaty brak, wraca się do jałmużny. Reguła zatwierdzona bullą dodaje granicę: praca jest łaską, a sprawy doczesne mają służyć duchowi modlitwy, nie go zastępować. W Regule niezatwierdzonej bullą praca jest także sposobem przebywania w cudzym domu jako mniejsi, bez obejmowania urzędów, które dają władzę.",
+      "historicalContext": "Wielu pierwszych braci pochodziło z rzemiosł. Kwestia pracy i pieniądza jest ostra już przed 1223 rokiem: Reguła z 1221 jest obszerniejsza i surowsza wobec pieniądza; zatwierdzona bullą jest krótsza i powierza ministrom troskę o chorych za pośrednictwem przyjaciół duchowych.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Ciało, nie idea",
+      "summary": "Dla Franciszka Syn Boży na tym świecie jest widziany w ciele i krwi, które kapłani przyjmują i dają.",
+      "explanation": "Testament wiąże cześć dla kapłanów z tym: Franciszek mówi, że nie widzi cieleśnie niczego innego z Syna Bożego poza jego ciałem i krwią. List do całego Zakonu prowadzi tę samą wiarę aż do postaci chleba i prosi kapłanów, by sprawowali liturgię, nie szukając podobania się ludziom. To nie temat boczny. To centrum, z którego Franciszek czyta Kościół, spisane słowa i własną małość. Aplikacja mówi to takim, jakie jest: średniowieczna wiara eucharystyczna, nie ogólna metafora daru.",
+      "historicalContext": "Eucharystyczna pobożność Franciszka mieści się w reformie IV Soboru Laterańskiego (1215), który nakazuje coroczną spowiedź i precyzuje naukę o sakramencie. Listy do duchownych i do kustoszów, nieodtworzone tu w całości, nalegają na ten sam punkt.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Forma Ewangelii",
+      "summary": "Franciszek nie wymyśla duchowości obok Ewangelii: mówi, że Najwyższy objawił mu, by żył według tej formy, i kazał ją spisać.",
+      "explanation": "Testament jest wyraźny: nikt mu nie pokazywał, co czynić; Najwyższy objawił mu, by żył według formy świętej Ewangelii; on kazał ją spisać w niewielu słowach, a papież ją potwierdził. Obie Reguły otwierają się na tym samym punkcie. Zachowywać Ewangelię, w tych tekstach, nie jest uczuciem: to posłuszeństwo, nic własnego i czystość, wewnątrz zatwierdzonego braterstwa. Opowieść o wyrzeczeniu przed biskupem, u Celana, jest inną sceną tego samego wyboru. Tu tekst Franciszka poprzedza opowieść o Franciszku.",
+      "historicalContext": "Ustne zatwierdzenie Innocentego III tradycja datuje na 1209 lub 1210; Reguła niezatwierdzona bullą jest z 1221; zatwierdzona bullą zostaje potwierdzona przez Honoriusza III 29 listopada 1223. Testament, w 1226, odczytuje całą sekwencję jako jedno objawienie.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

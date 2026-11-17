@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Het stenen pad",
+      "kind": "sentiero",
+      "description": "Een pad van lichte stenen loopt door de tuin: het punt waar elke weg begint.",
+      "symbolism": "De weg als beeld van het leven: je baant hem door te gaan, steen voor steen.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "De olijfboom van de vrede",
+      "kind": "albero",
+      "description": "Een oude olijfboom, met een zilveren kruin, geplant toen je de vredesgroet ontdekte.",
+      "symbolism": "De olijfboom: een mediterrane plant van vrede en geduld. Hij groeit langzaam en doorstaat generaties.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "De fontein van zuster water",
+      "kind": "acqua",
+      "description": "Een stenen fontein met helder water, dat de zon 's ochtends doet oplichten.",
+      "symbolism": "\"Zuster water, nuttig en nederig en kostbaar en kuis\": in het Zonnelied is het water een zuster om te danken.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "De rozen van San Damiano",
+      "kind": "fiore",
+      "description": "Een bloeiende rozentak bij de muur: hij groeit waar iemand voor anderen heeft gezorgd.",
+      "symbolism": "De schoonheid die uit dienst ontstaat: naastenliefde laat dorre plaatsen bloeien.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "De gedeelde moestuin",
+      "kind": "orto",
+      "description": "Kleine bedden met kruiden en groenten, om beurten verzorgd: het nederige werk dat iedereen voedt.",
+      "symbolism": "De dagelijkse dienst: wie de moestuin bewerkt, bezit hem niet, maar behoedt hem voor wie komt.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "De cipres van de stilte",
+      "kind": "albero",
+      "description": "Een hoge, rechte cipres, die de grens markeert tussen de tuin en het bos.",
+      "symbolism": "Het gebed als verticale lijn: wortels in de aarde, de top naar de hemel.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Het nest van de vinken",
+      "kind": "animali",
+      "description": "In de veiligste takken heeft een vinkenpaar de tuin gekozen om te nestelen.",
+      "symbolism": "De gastvrijheid: de tuin wordt ook een huis voor wie van buiten komt.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "De stenen bank",
+      "kind": "struttura",
+      "description": "Een stenen bank onder de muur, op het middaguur: de plek om te zitten en te blijven.",
+      "symbolism": "Het geloof als een vertrouwd oponthoud: niet altijd gaan, soms eenvoudig blijven.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "De zonnebloemen van de dank",
+      "kind": "fiore",
+      "description": "Een rij zonnebloemen die overdag met het licht meedraaien.",
+      "symbolism": "De dankbaarheid: je naar het licht keren is een dagelijkse oefening van de blik.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "De bijenkorf",
+      "kind": "animali",
+      "description": "Een houten korf ruikt naar was; de bijen gaan en komen van de bloemen in de tuin.",
+      "symbolism": "De broederschap: geen bij maakt alleen honing, en geen enkele bezit de raat.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Naar de hemel kijken",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        { "kind": "osserva", "text": "Hef je blik van de tuin naar de hemel. Blijf een ogenblik in stilte, zonder iets te doen." },
+        { "kind": "leggi", "text": "Lees langzaam de opening van het Zonnelied.", "sourcePassageId": "pass.cantico.apertura" },
+        { "kind": "rifletti", "text": "Franciscus noemt de zon \"broeder\" en de maan \"zuster\". Wat zou het veranderen als je de wereld als een familie zou zien, en niet als een voorraad?" },
+        { "kind": "annota", "text": "Als je wilt, noteer dan in het dagboek één ding waarvoor je vandaag kunt zeggen: \"Laudato sie, mi' Signore\"." }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Naar het water luisteren",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        { "kind": "ascolta", "text": "Ga naar de fontein. Luister een paar ademhalingen naar het geluid van het water, zonder haast." },
+        { "kind": "leggi", "text": "Lees opnieuw de lof van God die op La Verna is geschreven: een gebed dat niets vraagt.", "sourcePassageId": "pass.lodi_dio.lode" },
+        { "kind": "rifletti", "text": "De Lofzangen van God bevatten geen verzoeken: alleen erkenning. Wanneer heb je voor het laatst gedankt zonder iets te vragen?" },
+        { "kind": "annota", "text": "Als je wilt, schrijf dan in het dagboek drie dingen die je vandaag hebt ontvangen, ook kleine." }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "De trage stap",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        { "kind": "osserva", "text": "Loop het stenen pad langzaam, en merk elke stap op: het gewicht, het contact, het ritme." },
+        { "kind": "leggi", "text": "Lees het antwoord van Franciscus aan broeder Leo, die de juiste keuze zocht.", "sourcePassageId": "pass.lettera_leone.coscienza" },
+        { "kind": "rifletti", "text": "Aan broeder Leo geeft Franciscus geen instructies maar vrijheid: \"volg je geweten voor God\". Wat leert deze manier van begeleiden je?" },
+        { "kind": "annota", "text": "Als je wilt, noteer dan in het dagboek een beslissing die je draagt, en waar je je geweten voelt keren." }
+      ]
+    }
+  ]
+}

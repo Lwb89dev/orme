@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Kamenný chodník",
+      "kind": "sentiero",
+      "description": "Svetlý kamenný chodník pretína záhradu: miesto, odkiaľ sa začína každá cesta.",
+      "symbolism": "Cesta ako obraz života: robí sa kráčaním, kameň po kameni.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Olivovník pokoja",
+      "kind": "albero",
+      "description": "Starý olivovník so striebristou korunou, zasadený v deň, keď si objavil pozdrav pokoja.",
+      "symbolism": "Olivovník: stredomorská rastlina pokoja a trpezlivosti. Rastie pomaly a pretrváva celé generácie.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Fontána sestry vody",
+      "kind": "acqua",
+      "description": "Kamenná fontána s čírou vodou, ktorú ráno rozsvieti slnko.",
+      "symbolism": "„Sestra voda, užitočná a pokorná a vzácna a čistá“: v Piesni je voda sestrou, ktorej treba ďakovať.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Ruže zo San Damiano",
+      "kind": "fiore",
+      "description": "Kvitnúci ružový ker pri múre: rastie tam, kde sa niekto postaral o druhých.",
+      "symbolism": "Krása, ktorá sa rodí zo služby: láska k blížnemu necháva kvitnúť vyprahlé miesta.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Spoločná záhradka",
+      "kind": "orto",
+      "description": "Malé záhony bylín a zeleniny, o ktoré sa staráte na striedačku: pokorná práca, ktorá živí všetkých.",
+      "symbolism": "Každodenná služba: kto obrába záhradku, nevlastní ju, opatrujuje ju pre tých, čo prídu.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Cyprus ticha",
+      "kind": "albero",
+      "description": "Vysoký a priamy cyprus, ktorý značí hranicu medzi záhradou a lesom.",
+      "symbolism": "Modlitba ako zvislica: korene v zemi, vrchol obrátený k nebu.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Hniezdo piniek",
+      "kind": "animali",
+      "description": "V najbezpečnejších konároch si pár piniek vybral záhradu, aby si urobil hniezdo.",
+      "symbolism": "Prijatie: záhrada sa stáva domovom aj pre toho, kto prichádza zvonka.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Kamenná lavica",
+      "kind": "struttura",
+      "description": "Kamenná lavica pod múrom na poludnie: miesto, kde sa dá sadnúť a zostať.",
+      "symbolism": "Viera ako dôveryplné zastavenie: nie vždy kráčať, niekedy jednoducho byť.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Slnečnice vďaky",
+      "kind": "fiore",
+      "description": "Rad slnečníc, ktoré sa cez deň otáčajú za svetlom.",
+      "symbolism": "Vďačnosť: obracať sa k svetlu je každodenné cvičenie pohľadu.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Včelí úľ",
+      "kind": "animali",
+      "description": "Drevený úľ vonia voskom; včely prilietajú a odlietajú ku kvetom záhrady.",
+      "symbolism": "Bratstvo: žiadna včela nerobí med sama a žiadna nevlastní plást.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Pozerať sa na nebo",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Zdvihni pohľad zo záhrady k nebu. Zostaň chvíľu v tichu a nerob nič."
+        },
+        {
+          "kind": "leggi",
+          "text": "Pomaly si prečítaj začiatok Piesne stvorenia.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "František volá slnko „bratom“ a mesiac „sestrou“. Aký rozdiel by znamenalo pozerať sa na svet ako na rodinu, a nie ako na surovinu?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ak chceš, zapíš si do denníka niečo, za čo dnes môžeš povedať: „Laudato sie, mi' Signore“."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Počúvať vodu",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Pristúp k fontáne. Počúvaj zvuk vody niekoľko dychov, bez náhlenia."
+        },
+        {
+          "kind": "leggi",
+          "text": "Znova si prečítaj chválu Boha napísanú na La Verne: modlitbu, ktorá o nič neprosí.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Chvály Boha neobsahujú prosby, len uznanie. Kedy si naposledy ďakoval a o nič nežiadal?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ak chceš, zapíš si do denníka tri veci, ktoré si dnes dostal, aj malé."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Pomalý krok",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Prejdi kamenný chodník pomaly a všímaj si každý krok: váhu, dotyk, rytmus."
+        },
+        {
+          "kind": "leggi",
+          "text": "Prečítaj si Františkovu odpoveď bratovi Levovi, ktorý hľadal správnu voľbu.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Bratovi Levovi František nedáva pokyny, ale slobodu: „nasleduj svoje svedomie pred Bohom“. Čo ťa učí tento spôsob sprevádzania?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ak chceš, zapíš si do denníka rozhodnutie, ktoré nesieš, a to, kam cítiš, že sa tvoje svedomie obracia."
+        }
+      ]
+    }
+  ]
+}

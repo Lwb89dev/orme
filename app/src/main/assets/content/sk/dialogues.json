@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Čo znamená byť pokorný?",
+      "theme": "umilta",
+      "description": "Poctivý sprievodca rozoberá nedorozumenie, že pokora je znehodnotenie seba: Františkova „pravda o sebe“, meno „menších“ a vlastná vôľa v Napomenutiach.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Vitaj v Rozhovore. Predstavím sa: som sprievodca františkánskymi prameňmi, nie som František a nehovorím namiesto neho. Dnešná otázka znie jednoducho: čo znamená byť pokorný? Mnohí pri slove „pokora“ hneď myslia na to, že sa majú umenšovať. Skôr než vyrazíme, zaujíma ma tvoj východiskový bod.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Pre mňa je pokora nedávať si dôležitosť, zostať na svojom mieste.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Tuším, že je to niečo iné, ale neviem povedať čo.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Prečo sa Františkovi bratia volali „menší“?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Je to najrozšírenejšia predstava a aj najodolnejšie nedorozumenie. Ak by pokora bola znehodnocovať sa, stala by sa jemným spôsobom, ako sa ešte stále zaoberať sebou: vlastným obrazom, vlastným miestom, ba aj vystavovanou priemernosťou. Františkánske pramene miera inde: nie myslieť si, že sme malí, ale vidieť sa v pravde. Rozdiel sa zdá jemný, ale mení všetko.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Tak čo je teda pokora naozaj?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Je nejaký Františkov text, ktorý to hovorí?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Táto neistota je dobrý východiskový bod, hovorím ti to bez irónie. Kto prizná, že nevie, už urobil krok k tomu, čo František pokorou myslí: vidieť sa v pravde, bez nafukovania a bez trhania sa. Skúsme tejto myšlienke dať tvar, počnúc prameňmi.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Dobre: čo je jadro františkánskej pokory?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Je nejaký úryvok z prameňov, ktorý by sme čítali spolu?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Presná otázka a odpoveď je malý program. V spoločnosti založenej na cti a na rade chcel František, aby sa jeho spoločníci volali menší bratia: nikto „väčší“, nikto, komu by sa slúžilo. Aj zodpovedných v bratstve nazval „ministrami“, čo po latinsky znamená služobníci. Nebola to jazyková manýra: bola to voľba miesta, posledného, z ktorého nikoho nemožno zhodiť.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "A v každodennom živote, aký je v tom rozdiel?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Je v jeho spisoch niečo o tomto?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Sme v strede. Pre Františka je pokora pravda o sebe: malí pred Bohom, dlžníci všetkého, čím sme a čo máme, schopní slúžiť bez nároku na uznanie. Všimni si, že táto pravda zahŕňa aj tvoje dary: uznať ich ako prijaté dary nie je pýcha, je to úprimnosť. Pokorný sa neznehodnocuje: prestane hrať úlohu, jedným aj druhým smerom. A je slobodný od potreby javiť sa, čo je jedno z najnamáhavejších otroctiev.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "A vlastné dary? Treba ich zapierať, aby bol človek pokorný?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Ako sa to prekladá dnes, napríklad v práci a na internete?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Čo presne hovorí text Napomenutí?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Stačí mi to: môžeme uzavrieť.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Je krátky a ostrý text: Napomenutia, poučenia, ktoré František adresoval bratstvu. Jedným z terčov je „vlastná vôľa“ urobená mierou všetkého: kto sa pokladá za spravodlivého a múdreho sám od seba, varuje František, vzďaľuje sa od pravej pokory, ktorá je v tom, podriadiť vlastný úsudok a slúžiť. Pozor však: podriadiť neznamená uhasiť. Pramene nežiadajú prestať myslieť, ale neabsolutizovať vlastné hľadisko.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Znie to ako zrieknutie sa vlastnej hlavy. Nie je to priveľa?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "A konkrétne, dnes, ako to vyzerá?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Skúsme to preložiť s vedomím, že toto je moderný výklad, nie stredoveký text. V práci je pokora urobiť dobre svoju časť bez toho, aby sa z nej robilo predstavenie, priznať chybu bez budovania výhovoriek, nechať zásluhu tomu, komu patrí. Na internete, kde sa veľa meria viditeľnosťou, je to môcť zverejňovať a pracovať bez toho, aby sa súd druhých stal tvojím pánom. Nie je to výzva skrývať sa: je to výzva nezávisieť od potlesku.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Pekné, ale v mojom prostredí vyhráva ten, kto sa pretlačí dopredu.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Presvedčilo ma to. Uzavrime.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Námietka je oprávnená a zaslúži si úprimnú odpoveď. V prameňoch poslušnosť nie je sebazrušenie: to isté bratstvo bolo miestom, kde si ľudia navzájom dávali najavo potreby, teda hovorili. Pointa nie je zrušiť vlastný úsudok, ale odmietnuť, aby bol najvyšším tribunálom všetkého. Tu nám však pramene nedávajú kazuistiku: nemôžem ti povedať, kde prechádza hranica v tvojom konkrétnom prípade. To zostáva práca tvoja a tých, ktorí ťa naozaj poznajú.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Dáva to zmysel. A v každodennom živote?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Radšej sa tu zastavím.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Máš pravdu, že to otváraš, a neodpoviem ti kariérnou radou: to nie je moja úloha. Poviem len, že františkánske pramene nesľubujú, že pokora „funguje“: sľubujú, že oslobodzuje. Niekedy stojí a predstierať opak by bolo nepoctivé. Voľba nežijeť pre schválenie zostáva práve voľbou: tvojou, odmeranou na tvoj kontext.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Úprimné, ďakujem. Uzavrime.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Znova si prečítajme jadro učenia.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Nie, a pramene, čítané pozorne, hovoria opak. Františkova logika je logika daru: ak je všetko prijaté, sú prijaté aj tvoje schopnosti a zapierať ich by bol len ďalší spôsob, ako o sebe klamať. Pokora nežiada povedať „nič nehodím“, ale povedať pravdu: „toto som dostal, za toto som dlžník“. A kto vie rozpoznať dar, vie aj ďakovať: na františkánskej ceste je vďačnosť bránou radosti.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "A ako sa to žije, v konkrétnosti dneška?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Môžeme tu skončiť.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Tu sa zastavíme. Ak chceš, vezmi si so sebou otázku, nie úlohu: v ktorom bode svojho dňa hráš úlohu, namiesto aby si bol v pravde toho, čím si, v dobre aj v medziach? Nemusíš odpovedať mne ani nikomu. Ostatné rozhovory tejto časti na teba čakajú, keď budeš chcieť: odpustenie, chudoba, stvorenstvo, Františkova viera.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Prejdi tento rozhovor od začiatku.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Objav ostatné rozhovory tejto časti.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Ďakujem, že si so mnou kráčal týmito prameňmi. Zo zoznamu Rozhovoru môžeš otvoriť iný rozhovor alebo sa k tomuto vrátiť, keď budeš chcieť: texty zostávajú a otázky tiež.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Začni tento rozhovor odznova.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Zatiaľ ukonči."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Ako možno niekomu odpustiť?",
+      "theme": "perdono",
+      "description": "List ministrovi a strofa Piesne: odpustenie ako opakované rozhodnutie, rozdiel oproti spravodlivosti a úprimná odpoveď tomu, kto na to nemá.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Vitaj v Rozhovore. Sprevádzam ťa ja: nie som František a nehovorím namiesto neho, sprevádzam ťa tým, čo pramene naozaj hovoria. Dnešná otázka je jedna z najťažších, aké sú: ako možno niekomu odpustiť? Nesľubujem ti pohodlnú odpoveď. Pomôže mi vedieť, odkiaľ vychádzaš.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Stalo sa mi bezprávie a neviem pustiť hnev.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Odpustiť predsa neznamená tváriť sa, že sa nič nestalo?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Najprv by som chcel vedieť, čo František hovorí o odpustení.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Ďakujem za úprimnosť. Františkánske pramene nesľubujú, že hnev zmizne, a nežiadajú od teba predstierať, že sa bezprávie nestalo. To, čo navrhujú, je iné: odpustenie ako rozhodnutie, ktoré sa obnovuje, aj keď ho cit nenasleduje. Ak to dnes nedokážeš, nediskvalifikuje ťa to: je to norma, nie výnimka.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Rozhodnutie, ktoré sa obnovuje: vysvetli mi to.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "A ak na to naozaj nemám?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Čo o tom František píše?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Nie, a oplatí sa to povedať hneď jasne: odpustiť nie je popierať. Františkánske pramene nemiešajú milosrdenstvo a nespravodlivosť: spáchané zlo zostáva zlom a jeho dôsledky zostávajú skutočné. Odpustenie tu nemaže, čo sa stalo: odmieta, aby urážka mala posledné slovo o vzťahu. Sú to dve rôzne roviny a držať ich oddelene je prvý krok.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Takže odpustenie a spravodlivosť môžu stáť spolu?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Čo presne hovorí František?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Kľúčový text je List ministrovi: František píše zodpovednému v bratstve, ktorý má jednať s bratmi, ktorí sa mýlia. Slávne miesto hovorí v podstate toto: ak by brat zhrešil tisíc ráz pred tvojimi očami, miluj ho viac než mňa a ohlás mu milosrdenstvo. Tisíc ráz: nie hrdinské rozhodnutie raz a navždy, ale voľba urobená znova každý deň. To mení otázku: nie „cítim, že odpúšťam?“, ale „volím si odpustiť aj dnes?“.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Tisíc ráz je priveľa. Je to realistická požiadavka?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "A spravodlivosť? Nemá ten, kto zlyhá, niesť zodpovednosť?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Pieseň stvorenia hovorí o odpustení, však?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Áno, a ten istý List to naznačuje: František žiada ohlasovať milosrdenstvo, ak druhý robí pokánie, teda odpustenie nevyhlasuje za nevinného toho, kto sa pomýlil, a neoslobodzuje ho od nápravy. Aj v jeho čase františkánski zmierovatelia nezrušili súdy a zodpovednosť: pracovali na tom, aby pomsta nebola jedinou možnou spravodlivosťou. Odpustiť a žiadať, aby zlo bolo uznané, nie sú nepriatelia. Môžu kráčať spolu, hoci namáhavo.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "A odkiaľ sa v praxi začína?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Má s tým niečo strofa Piesne?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "A ak je bezprávie priveľké alebo priveľmi čerstvé?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "A v rozdelených mestách jeho čias?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Začína sa opravou perspektívy. Ak by odpustenie bolo cit, musel by si čakať, kým príde: a často nepríde, alebo príde a potom odíde. Ak je to rozhodnutie, môžeš ho urobiť aj s hnevom ešte zažatým a vziať ho znova zajtra a pozajtra. Pramene neopisujú priamočiary postup: slovo „tisíc ráz“ skôr naznačuje opak. Úprimnosť: vo františkánskych textoch nie sú techniky. Je tam smer.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "A ak na to dnes naozaj nemám?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "A voči sebe? Dá sa odpustiť sebe?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Porozprávaj mi strofu Piesne o odpustení.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Úprimná odpoveď: môže sa to stať a pramene ťa za to nesúdia. Ani ja to nerobím: som sprievodca textami, nie spovedník a nie terapeut. Poviem ti dve veci, ktoré sa dajú doložiť. Prvá: List hovorí o tisíc razoch, čo znamená, že už v 13. storočí sa odpustenie nemyslelo ako okamžité gesto. Druhá: ak je rana hlboká, zdieľať ju s niekým dôveryhodným alebo s odborníkom, keď treba, nie je porážka. O časoch odpustenia františkánske pramene mlčia: tu nemôžeme povedať viac.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "A odpustenie voči sebe?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Ďakujem za úprimnosť. Uzavrime.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Je strofa Piesne stvorenia, ktorá chváli Boha za tých, čo odpúšťajú pre jeho lásku a znášajú chorobu a súženie. Kritika ju bežne datuje do leta 1226 a tradícia ju spája s konkrétnou epizódou: biskup a podesta Assisi boli v otvorenom konflikte a František, už chorý, mal tú strofu pridať a dať Pieseň spievať pred nimi, aby ich zmieril. Spresním roviny: strofa je autentická, rozprávanie o epizóde k nám prichádza cez hagiografickú tradíciu. Zostáva fakt: odpustenie bolo pre Františka hodné chvály aj vnútri konfliktov jeho mesta.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Odpustiť uprostred konfliktu: je to možné?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "A kto nedokáže odpustiť?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Môžeme uzavrieť.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Tu musím byť úprimný o medziach prameňov. Františkánske texty hovoria o odpustení voči bratom a voči tomu, kto uráža; o odpustení sebe, ako ho chápeme dnes, nehovoria takmer nič výslovné. Môžeme uvažovať analogicky: ak sa milosrdenstvo ohlasuje tisíc ráz tomu, kto sa mýli, je ťažké vylúčiť seba. Ale zostáva to naše uvažovanie, nie citát. Radšej ti to poviem, než aby som Františkovi vkladal do úst slová, ktoré nenapísal.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Vážim si presnosť. A odkiaľ sa znova začína?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Tu skončíme.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Je tu aj verejný rozmer. Taliansko komún pretínali sváry a pomsty a pramene pripomínajú, ako prví bratia ohlasujú pokoj z domu do domu, pozdravom, o ktorom František dosvedčil, že ho dostal. Odpustenie v tom svete nebolo len súkromná vec: bolo to miesto, kde sa dala pretrhnúť reťaz odvety. Aj dnes sváry jestvujú, v rodinách, v štvrtiach, na sociálnych sieťach, a logika je tá istá: niekto musí prestať vracať úder.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "A strofa Piesne sa predsa zrodila práve z konfliktu, nie?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Stačí mi to. Uzavrime.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Tu sa zastavíme. Ak chceš, vezmi si so sebou jediný obraz, nie úlohu: odpustenie ako cestu, ktorá sa robí znova meter za dňom, nie ako skok raz a navždy. A ak to tvoja rana dnes nedovoľuje, tento rozhovor od teba nežiadal, aby sa ti to podarilo: žiadal, aby si pochopil. Ostatné rozhovory tejto časti na teba čakajú, keď budeš chcieť.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Prejdi tento rozhovor od začiatku.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Objav ostatné rozhovory tejto časti.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Ďakujem, že si sa postavil ťažkej otázke bez skratiek. V zozname Rozhovoru nájdeš ostatné rozhovory: ja zostávam tu a texty tiež.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Začni tento rozhovor odznova.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Zatiaľ ukonči."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Bol František proti bohatstvu?",
+      "theme": "poverta",
+      "description": "František neodsúdil majetok: oslobodzoval od vlastníctva. Regula z roku 1223, zrieknutie pred biskupom a čo to znamená dnes, bez romantizovania.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Vitaj v Rozhovore. Predstavím sa: som sprievodca, nie František; s tebou čítam pramene a poviem ti, keď na odpoveď nestačia. Dnešná otázka je plná omylov: bol František proti bohatstvu? Krátka odpoveď je „nie, nie v tom zmysle, ktorý si možno predstavuješ“. Ale zaslúži si dlhú cestu. Odkiaľ začneme?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Vždy som si myslel, že pohŕdal peniazmi ako takými.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Tuším, že pointa je inde, ale neviem to povedať.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Nie je to len romantická chudoba, ako z plagátu 19. storočia?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Je to najrozšírenejšia rekonštrukcia a aj najmenej presná. Vo Františkových textoch nenájdeš odsúdenie majetku, akoby bol špinavý: nájdeš niečo radikálnejšie a jemnejšie, totiž odmietnutie privlastniť si ho. Terč nie je bohatstvo, je to vlastníctvo: to, čo veci robia tomu, kto verí, že ich vlastní. Poďme k textu, ktorý to hovorí najlepšie.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Ktorý text?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "A slávna scéna zrieknutia?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Tvoje tušenie má základ. Pointa nie je množstvo majetku, ale druh puta: František chce bratov, ktorí si nič neprivlastňujú, lebo kto nevlastní, nemusí brániť, a kto nemusí brániť, je slobodný milovať. Je to logika slobody, nie hnusu. Ukážem ti to v texte Reguly.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Prečítajme Regulú.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Najprv mi porozprávaj scénu pred biskupom.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Námietka je vážna a zaslúži si úctu: romantická chudoba jestvuje a je to karikatúra, ktorá má s františkánstvom málo spoločné. Urobme preto dohodu: nijaké idealizácie. Pozrime sa, čo hovoria pramene — scénu, ktorú rozpráva prvý životopisec, a normatívny text, ktorý napísal sám František — a potom posúď ty, či obstoja.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Dobre: scéna prvého životopisca.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Normatívny text.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Regula z roku 1223, definitívny text schválený Cirkvou: bratia si neprivlastňujú nič, „ani dom, ani miesto, ani nijakú vec“; žijú ako pútnici a cudzinci a chodia po almužnu bez hanby. Uvedený dôvod je teologický: Pán sa pre nás stal chudobným. Je tu však aj jasná ľudská logika: to, čo nevlastníš, nevlastní teba. Technická tradícia to volá „sine proprio“, bez ničoho vlastného. Nie pohŕdanie vecami, ktoré sa prijímajú, používajú a za ktoré sa ďakuje: oslobodenie od vlastníctva.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Porozprávaj mi zrieknutie pred biskupom.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "A dnes? Mali by sme predať všetko?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "A skutoční chudobní? Neriskujeme, že skrášlime biedu?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Tomáš z Celana, prvý životopisec, to rozpráva takto: pred biskupom Guidom a otcom Pietrom di Bernardone František vráti aj šaty a zriekne sa otcovského majetku, hovoriac, že už môže volať otcom len Boha. Biskup ho prikryje vlastným plášťom. Spresním roviny: epizóda je doložený oporný bod, ale scénické detaily patria do Celanovho rozprávania, ktoré je hagiografia, poučná literatúra, nie zápisnica. Zmysel je však jasný: verejne pretnúť puto s rodinným bohatstvom.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Divadelné gesto, alebo premyslená voľba?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "A my dnes, čo s tým?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Nevyhnutná otázka a úprimná odpoveď je: pramene nežiadajú od všetkých to isté. Tá Regula bola pre bratov; František nepísal reguly pre kupcov, rodičov, remeselníkov. Takže nie: nejestvuje františkánsky text, ktorý ti prikazuje predať všetko. To, čo jestvuje, je nepohodlná otázka, v ktorej treba bývať: ktoré veci vlastním a ktoré vlastnia mňa? Konkrétna odpoveď je úmerná tvojmu životu, nie jeho.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Ako odlíšime zvolenú chudobu a podstúpenú núdzu?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "A kto pracuje, zarába, živí rodinu?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Daj mi niečo konkrétne, bez krajných gest.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Je to najdôležitejšie rozlíšenie tohto rozhovoru. Podstúpená núdza — nemať čo jesť, z čoho sa liečiť, strechu — je spoločenská rana, ktorú treba liečiť, nie ideál na kontempláciu: František chudobným slúžil, neestetizoval ich. Františkánska chudoba je niečo iné: slobodná voľba neprivlastňovať si, urobená pre slobodu a pre solidaritu. Mýliť ich je chyba, ktorej sa treba vždy vyhnúť: oslavovať cudziu biedu by bola presne tá „romantická chudoba“, o ktorej sme hovorili.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Takže kritika romantizmu mala kus pravdy?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "A v praxi, pre mňa, dnes?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Tu skončíme.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Divadelné to určite bolo: a v spoločnosti založenej na práve a na vlastníctve mohlo verejné puto rozviazať len verejné gesto. Nebola to však improvizácia: Celano ju kladie po mesiacoch krízy, zajatí v Perugii, chorobe, sklamaniach. Ak chceš kritérium na posúdenie gest, jeho aj tvojich, tu je: nie intenzita okamihu, ale to, čo príde potom. František žil súdržne ďalších dvadsať rokov. Skutočné gestá sa poznajú podľa dlhého trvania.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "A dnes, bez krajných gest?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Pochopil som. Uzavrime.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkrétne teda, ale bez receptov: nie je moja úloha ti ich dávať. Františkánska tradícia naznačuje smer v troch krokoch: dívať sa na to, čo vlastníš, a pýtať sa, či ťa to robí slobodným, alebo opatrným; používať veci ako prijaté, nie ako dlžné; nechať, aby jednoduchosť uvoľnila priestor — čas, pozornosť, peniaze — pre druhých. Je to moderný výklad, hovorím ti to úprimne: ale je to výklad verný duchu „sine proprio“.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Vráť sa k textu Reguly.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Uzavrime.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Nijaký františkánsky prameň nehovorí, že pracovať a zarábať ťa vzďaľuje od Františka: Regula je forma života konkrétneho bratstva, nie miera každej existencie. Logika je skoro obrátená: problém nie je mať, ale slúžiť tomu, čo sa má. Ak sa tvoja práca, tvoj zárobok, tvoj dom stanú nástrojmi — tvojimi aj druhých — a nie pánmi, si duchu Reguly bližšie, než si myslíš.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "A riziko romantizovať chudobu?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Uzavrime.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Tu sa zastavíme. Nenechávam ti úlohu: nechávam ti otázku, ktorú sa tento rozhovor pokúsil otvoriť. Čo z toho, čo vlastníš, vlastní teba? Odpovedz si pokojne, alebo neodpovedz vôbec. Keď budeš chcieť, ostatné rozhovory tejto časti sú v zozname: pokora, odpustenie, stvorenstvo, viera.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Prejdi tento rozhovor od začiatku.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Objav ostatné rozhovory tejto časti.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Ďakujem, že si hľadal rozvinutú odpoveď na otázku, ktorá často dostáva heslá. Uvidíme sa v Rozhovore, keď budeš chcieť: pramene neexpirujú.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Začni tento rozhovor odznova.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Zatiaľ ukonči."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Prečo sa František rozprával so zvieratami?",
+      "theme": "creato",
+      "description": "Príbuzenstvo, nie panteizmus: Pieseň, Celanove vtáky, vlk z Kvietočkov a čo toto všetko hovorí — a nehovorí — dnešnej ekológii.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Vitaj v Rozhovore. Som tvoj sprievodca: nie som František a keď pramene nestačia, poviem ti to. Dnešná otázka siaha do storočí obrazov: František, ktorý hovorí k vtákom, k vlkovi, k rybám. Čo je za tým? Záleží na tom, čo hľadáš.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Chcem pravdu: je to len legenda, že sa rozprával so zvieratami?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Pýtam sa, či videl Boha v prírode: bol panteista?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Porozprávaj mi Pieseň stvorenia.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Otázka historika a odpoveď je vrstvená, ako takmer všetko, čo sa Františka týka. Jadro je doložené skoro: Tomáš z Celana, blízky životopisec, rozpráva kázeň vtákom v triezvych tónoch. Scénickejšie príbehy — vlk z Gubbia, ryby, dážďovky — rozkvitnú o storočie neskôr v Kvietočkoch. Takže: stará pamäť a literárne zosilnenie. Ukážem ti oboje, oddelene.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Triezva Celanova verzia.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Verzia Kvietočkov: vlk.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Nie, a text, ktorý to dokazuje, je Pieseň stvorenia. František chváli Boha „pre“ stvorenia — brat slnko, sestra mesiac —, nechváli stvorenia, akoby boli božské. Rozdiel je rozhodujúci: príroda nie je Boh, je rodina. Stvorenia sú sestry, lebo sú dcéry toho istého Otca. Správne slovo je „príbuzenstvo“, nie panteizmus.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Prečítajme Pieseň.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "A príbehy so zvieratami?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Pieseň stvorenia, zložená v rokoch 1225 – 1226, keď bol František chorý a takmer slepý: patrí medzi prvé básnické texty v talianskom ľudovom jazyku. Chváli Boha pre brata slnko, „ktorý je dňom“, pre sestru mesiac a hviezdy, pre brata vietor, pre sestru vodu „užitočnú a pokornú a vzácnu a čistú“, pre brata oheň a pre „sestru našu matku zem“. Dve veci si treba všimnúť. Prvá: nie je to hymnus na prírodu, je to chvála Boha skrze prírodu. Druhá: rodí sa v utrpení, nie na idylickej prechádzke.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "A kázeň vtákom?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "A vlk z Gubbia?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Čo toto všetko hovorí dnešnej ekológii?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Celanova verzia je prekvapivo triezva: František vidí kŕdle vtákov, obracia sa k nim ako k stvoreniam schopným počúvať a nabáda ich chváliť Boha. Nijaké rozvinuté dialógy, nijaké okázalé zázraky: gesto uznania. Kvietočky o storočie neskôr pridajú znamenie kríža, kŕdle, ktoré sa zoradia, aby počúvali, slávnostné rozlúčenie. Najprv Františkov štýl, potom štýl zbožnosti. Oboje nám niečo hovorí, ale niečo iné.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "A vlk z Gubbia?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Ak je to literatúra, akú má cenu?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "A súčasná ekológia?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Vlk z Gubbia je majstrovské dielo Kvietočkov: vydesené mesto, František, ktorý ide v ústrety šelme, hovorí k nej ako k bratovi a sprostredkuje zmluvu — mesto ju bude živiť, ona už nikomu neublíži. Musím byť jasný o literárnom žánri: je to hagiografia 14. storočia, pamäť zbožnosti, nie overiteľná kronika. Ale pozri, čo uchováva: pokoj, ktorý sa rodí tým, že ideš v ústrety tomu, čo naháňa strach, a zviera brané ako partner rozhovoru, nie ako predmet. Forma je legenda; smer je autenticky františkánsky.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Takže je to v podstate vymyslené?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "A čo z toho berie dnešná ekológia?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Tu treba úprimnosť oboma smermi. Na jednej strane: Pieseň dnes ponúka vzácnu gramatiku, starostlivosť o stvorenstvo z vďačnosti a príbuzenstva, nie z úžitku alebo strachu. Na druhej: František nebol moderný environmentalista a jeho pramene nepoznajú klímu, vymieranie, znečistenie. Kto v ňom hľadá podrobný ekologický program, texty núti. Kto hľadá pohľad — svet ako rodinu, nie ako sklad —, nájde niečo, čo ešte dokáže posunúť správanie.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "A predsa bol vyhlásený za patróna ekológie, nie?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Čo z toho zostáva konkrétne pre mňa?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Nie: „nie kronika“ neznamená „vymyslené z ničoho“. Kázeň vtákom je u Celana, pár rokov po Františkovej smrti; Kvietočky ju oblečú do legendárnych farieb, ale niť vychádza z pamäti. Takto funguje veľká časť hagiografie: forma rozpráva zbožnosť tých, ktorí ju odovzdali, podstata uchováva skutočnú črtu. Čítať pramene znamená práve toto: držať oboje spolu a nemýliť ich.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Jasné. A pre dnešnú ekológiu?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Vráťme sa teda k Piesni.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Áno: v roku 1979 ho Ján Pavol II. vyhlásil za patróna ekológov. Je to moderný titul — výklad, nie stredoveký prameň — a tak s ním treba narábať. Je oprávnený, ak ukazuje koreň františkánskeho pohľadu: príbuzenstvo so všetkými stvoreniami. Zavádza, ak Františka sploští na environmentalistu ante litteram a vymaže, že Pieseň je predovšetkým chvála Boha, zložená chorým mužom, ktorý ďakoval. Titul hovorí niečo pravdivé, pod podmienkou, že sa na to nezredukuje.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "A pre mňa, konkrétne?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Môžeme uzavrieť.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkrétne tu znamená najprv otázku pohľadu, až potom činov. Pieseň naznačuje obývať svet ako príbuzenstvo: vodu ako sestru, ktorou sa neplytvá, zem ako matku, ktorej sme deťmi, stvorenia ako spoločníčky chvály, nie ako zásoby. Praktické voľby — čo kupuješ, čo vyhadzuješ, ako cestuješ — prichádzajú potom a pramene ich nediktujú. Ale zmenený pohľad ich robí možnými a menej namáhavými.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Prečítajme si spolu Pieseň.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Uzavrime.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Tu sa zastavíme. Nechávam ti obraz, nie úlohu: takmer slepého muža, ktorý skladá chválu slnku, ktoré už nevidí, a volá ho bratom. Ak sa ti raz stane, že sa na strom, na psa, na vodu z kohútika pozrieš ako na príbuzného, a nie ako na vec, budeš vedieť, odkiaľ ten pohľad prichádza. Ostatné rozhovory tejto časti na teba čakajú v zozname.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Prejdi tento rozhovor od začiatku.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Objav ostatné rozhovory tejto časti.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Ďakujem, že si so mnou rozlíšil kroniku, legendu a chválu: je to cvičenie, ktoré slúži ďaleko za Františkom. Uvidíme sa v Rozhovore, keď budeš chcieť.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Začni tento rozhovor odznova.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Zatiaľ ukonči."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Dá sa nasledovať Františka bez toho, aby bol človek veriaci?",
+      "theme": "fede",
+      "description": "Nevyhýbavá odpoveď na vážnu otázku: kresťanská viera bola Františkov stred a aplikácia ju neskrýva. Čo zostáva tomu, kto neverí.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Vitaj v Rozhovore. Som sprievodca prameňmi: nie som František, nie som spovedník a nehodnotím vieru nikoho, ani tvoju. Dnešná otázka je oprávnená a vážna: dá sa nasledovať Františka bez toho, aby bol človek veriaci? Sľubujem ti odpoveď, ktorá sa nevyhýba. Najprv mi povedz, odkiaľ hovoríš ty.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Som veriaci a chcem lepšie pochopiť jeho vieru.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Nie som veriaci: čo od neho môžem dostať?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Neviem, čomu verím. Je tento rozhovor pre mňa?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Tak poďme rovno do stredu. Františkova viera nebola kultúrna nálepka: bola prameňom všetkého ostatného — chudoby, bratstva, pokoja. V Závete rozpráva, že mu Pán dal prostú vieru v kostoly; a celý jeho príbeh, od San Damiano po La Vernu, čítajú pramene ako nasledovanie chudobného a ukrižovaného Krista. Pozrime sa na texty.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Texty, áno.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "A jeho vzťah k Cirkvi jeho čias?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Krátka odpoveď: áno, dá sa, s podmienkou úprimnosti. Môžeš ho študovať, obdivovať, nechať sa spytovať jeho štýlom bez toho, aby si prijal jeho vieru; táto aplikácia je aj pre teba a nikto tu nehodnotí tvoju pozíciu. Podmienka je neamputovať ho: František bez Krista sa nestane univerzálnejším, stane sa inou postavou. Ak prijmeš, že ho stretneš celého, aj s koreňom, je čo prijať.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Ukáž mi teda tento koreň.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Čo zostáva konkrétne tomu, kto neverí?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Áno, je pre teba: možno viac než pre kohokoľvek iného. Otázky o viere nevyžadujú potvrdenie o príslušnosti: vyžadujú úprimnosť a tú si práve mal. Nebudem ťa tlačiť nijakým smerom: ukážem ti texty, rozlíšim roviny a zastavím sa tam, kde sa zastavujú pramene. Začnime tým, čo rozpráva sám František.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Dobre: čo rozpráva?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "A kto nedôjde k viere, čo dostane?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Dve svedectvá. Prvé je jeho: v Závete, nadiktovanom krátko pred smrťou, František pripomína, že mu Pán dal prostú vieru v kostoly, kde sa modlil obrátený ku Kristovi. Druhé je Celanovo: v roku 1224 na hore La Verna mal František dostať stigmy, znamenia umučenia, ktoré sa snažil skryť. Všimni si roviny: Závet je Františkovo slovo; stigmy k nám prichádzajú ako svedectvo najbližších prameňov a aplikácia ich tak predstavuje, nie ako merateľný údaj. Spolu hovoria jediné: stredom jeho života bola osoba Krista.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Stigmy: ako ich mám chápať?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Prečo aplikácia na tomto bode tak nalieha?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "A pre toho, kto neverí, čo zostáva?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Taká totálna viera nenechávala priestor pochybnostiam?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "S tou istou úprimnosťou, s akou ich predstavujú pramene. Celano ich rozpráva pár rokov po Františkovej smrti a tradícia ich uchováva ako znamenie úplného pripodobnenia ukrižovanému Kristovi. Historické a teologické hodnotenie vedci rozoberajú; tu nám pramene nedovoľujú povedať viac a kto by ti povedal viac, jedným alebo druhým smerom, šiel by za texty. Čo môžeme povedať: pre jeho bratstvo to znamenie potvrdzovalo, čo jeho život už hovoril.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "A vzťah k Cirkvi?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Rozumiem. A pre toho, kto zostáva mimo viery?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Z dvoch dôvodov, oboch vyslovených. Prvý je historický: vziať Františkovi kresťanský koreň ho nerobí univerzálnejším, robí ho nerozpoznateľným — chudoba je „pretože sa Pán stal chudobným“, pokoj je prijatý pozdrav, bratstvo je evanjelium žité spolu. Druhý je redakčný: táto aplikácia vysvetľuje, nerobí prozelytizmus. Vysvetliť Františkovu vieru nie je žiadať, aby si si ju osvojil; je to odmietnuť dať ti pricukrenú verziu faktov.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "A čo môže dostať ten, kto sa nepridá?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "A ako František žil inštitucionálnu Cirkev?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Stačí mi to. Uzavrime.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Veľa, ak sa to berie celé. Štýl — bezplatnosť, menšosť, pokoj budovaný tým, že ideš v ústrety, pohľad príbuzenstva na stvorenstvo — hovorí aj k tomu, kto nezdieľa koreň. Ale tie veci sú v textoch ovocím toho stromu: poznať ich bez koreňa je možné, pochopiť ich až do dna bez koreňa nie. Môžeš sa nechať spytovať bez toho, aby si sa pridal: je to vážny postoj a dejiny myšlienok sú plné ľudí, ktorí sa učili z tradícií, ktoré neboli ich. Nikto tu nezaznamenáva tvoje duchovné skóre.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Tak si znova prečítajme texty, ktoré ten koreň rozprávajú.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Uzavrime.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Pramene nerozprávajú doktrinálne pochybnosti v modernom zmysle: tu nemôžeme povedať, čo texty nehovoria. Rozprávajú však veľmi tvrdé skúšky: chorobu, takmer stratený zrak, bolesť z toho, že vidí bratstvo rásť a meniť sa ponad jeho zámery. A práve z toho obdobia sa podľa Bonaventúru rodí Pieseň stvorenia. Františkova viera nebola neprítomnosť noci: bola chválou vnútri noci. Čo je niečo celkom iné než naivita.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "A stigmy patria do tohto obdobia?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Môžeme uzavrieť.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Ani vzbúrenec, ani prispôsobený: niečo zaujímavejšie. František žil vnútri stredovekej Cirkvi, húževnato hľadal jej schválenie pre svoju formu života a prijímal jej medze, hoci ju tlačil, aby sa obnovila zdola, príkladom a nie vzburou. Jeho poslušnosť Cirkvi bola časťou jeho viery, nie kalkulom. Pochopiť to zabráni dvom zrkadlovým karikatúram: neposlušnému svätcovi milému moderným a poslušnému svätcovi milému zbožným.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Vráťme sa k textom jeho viery.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Uzavrime.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Tu sa zastavíme. Nenechávam ti úlohu a už vôbec nie skúšku: nechávam ti kritérium. Keď stretneš Františka, v tejto aplikácii alebo inde, vždy sa pýtaj, či verzia, ktorú máš pred sebou, ho ukazuje celého, aj s kresťanským koreňom. Potom tvoja pozícia zostáva tvoja: nikto ju tu nesúdi. Ostatné rozhovory tejto časti na teba čakajú v zozname.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Prejdi tento rozhovor od začiatku.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Objav ostatné rozhovory tejto časti.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Ďakujem za vážnosť otázky a za to, že si prijal odpoveď bez skratiek. Uvidíme sa v Rozhovore, keď budeš chcieť: skutočné otázky nemajú lehotu.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Začni tento rozhovor odznova.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Zatiaľ ukonči."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

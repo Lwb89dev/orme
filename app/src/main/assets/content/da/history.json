@@ -1,0 +1,572 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Fødsel i Assisi",
+      "description": "Giovanni di Pietro di Bernardone, kaldet Frans, fødes i Assisi af en rig klædehandler og Madonna Pica.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 eller 1182 (usikkert)",
+      "chronologicalUncertainty": "Kilderne er ikke enige om året: både 1181 og 1182 foreslås af historikerne.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.pietro_bernardone", "person.madonna_pica"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Krig og fangenskab",
+      "description": "I krigen mellem Assisi og Perugia kæmper Frans i slaget ved Collestrada (november 1202), tages til fange og bliver i Perugia i omkring et år. Ved hjemkomsten begynder en sygdom at forandre ham.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Drømmen i Spoleto og hjemkomsten",
+      "description": "Draget ud mod Apulien for at søge militær ære har Frans en drøm i Spoleto, der sender ham tilbage til Assisi. Han begynder at løsne grebet om sit tidligere liv: drømme, bøn og pilgrimsfærd til Rom.",
+      "yearFrom": 1205,
+      "dateLabel": "ca. 1204–1205",
+      "chronologicalUncertainty": "Rekonstruktionen af disse måneder kommer fra middelalderlige biografier; de nøjagtige datoer er konventionelle.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.celano_vita_seconda"],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Mødet med de spedalske",
+      "description": "I sit Testamente fortæller Frans, hvordan Herren førte ham ind blandt de spedalske, og hvordan han »viste dem barmhjertighed«: den episode, han selv nævner som begyndelsen på sin omvendelse.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "ca. 1205–1206",
+      "chronologicalUncertainty": "Testamentet angiver ingen dato; begivenheden går forud for det offentlige brud med familien.",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.testamento", "source.celano_vita_prima"],
+      "teachingIds": ["teaching.carita.lebbrosi", "teaching.misericordia.compassione"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Krucifikset i San Damiano",
+      "description": "I den forfaldne lille kirke San Damiano hører Frans ifølge traditionen krucifikset tiltale sig: »Reparer mit hus.« Først forstår han det bogstaveligt og genopbygger kirker med egne hænder.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "ca. 1205–1206",
+      "chronologicalUncertainty": "Episoden bevidnes først og fremmest af det andet levned og den senere tradition; den ordrette dialog hører til den andægtige fortælling.",
+      "placeId": "place.san_damiano",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_seconda"],
+      "teachingIds": ["teaching.fede.cristo_centro"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Afkaldet foran biskoppen",
+      "description": "Ført for biskop Guido af sin far på grund af gods, han havde solgt, giver Frans alt tilbage, selv klæderne, og betroer sig til »Faderen, som er i himlen«. Biskoppen dækker ham med sin egen kappe.",
+      "yearFrom": 1206,
+      "dateLabel": "begyndelsen af 1206",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.vescovo_guido", "person.pietro_bernardone"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.rinuncia.sine_proprio"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "De første ledsagere",
+      "description": "Bernhard af Quintavalle, Ægidius og andre slutter sig til Frans og deler hans livsform: et omvandrende broderskab, midt i arbejde, almisse og forkyndelse af fred.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": ["person.francesco", "person.bernardo_quintavalle", "person.frate_egidio"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Innocens III's godkendelse",
+      "description": "Frans og hans ledsagere drager til Rom; Innocens III giver mundtlig godkendelse af deres evangeliske livsform. Intet dokument om godkendelsen er bevaret: traditionen daterer den til 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (eller 1209)",
+      "chronologicalUncertainty": "Godkendelsen var mundtlig, og intet dokument er bevaret; det nøjagtige år (1209 eller 1210) er omstridt.",
+      "placeId": null,
+      "personIds": ["person.francesco", "person.innocenzo_iii"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.comunita.regola"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Portiuncula, broderskabets hjem",
+      "description": "Den lille kirke Sankta Maria af Englene, kaldet Portiuncula, bliver broderskabets faste hjem: bevægelsens åndelige og følelsesmæssige centrum.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Claras flugt",
+      "description": "Clara Offreduccio forlader faderens hus og når Frans ved Portiuncula natten mellem palmesøndag og mandag i 1212: hendes livsform begynder og giver ophav til klarisserne.",
+      "yearFrom": 1212,
+      "dateLabel": "18.–19. marts 1212",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.chiara", "person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.rinuncia.sine_proprio"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Mødet med sultanen",
+      "description": "Under det femte korstog krydser Frans linjerne og møder sultanen al-Malik al-Kamil i Damietta: et møde i dialog midt i krig, dokumenteret af franciskanske kilder og husket af udenforstående krønikeskrivere.",
+      "yearFrom": 1219,
+      "dateLabel": "september 1219",
+      "placeId": "place.damietta",
+      "personIds": ["person.francesco", "person.sultano"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.accoglienza.ogni_uomo", "teaching.pace.saluto"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Den ikke-stadfæstede regel",
+      "description": "Ved Fonte Colombo nær Rieti komponeres broderskabets første fuldstændige regel (Regula non bullata): lang og åndelig, og den bliver aldrig formelt godkendt.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.regola_non_bollata"],
+      "teachingIds": ["teaching.fraternita.minori", "teaching.comunita.regola"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Den stadfæstede regel",
+      "description": "Honorius III godkender den endelige regel med bullen »Solet annuere« (29. november 1223): kortere og juridisk forbliver den grundlaget for Mindrebrødrenes Orden.",
+      "yearFrom": 1223,
+      "dateLabel": "29. november 1223",
+      "placeId": null,
+      "personIds": ["person.francesco", "person.onorio_iii"],
+      "sourceDocumentIds": ["source.regola_bollata"],
+      "teachingIds": ["teaching.poverta.liberta", "teaching.comunita.regola"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Jul i Greccio",
+      "description": "Julen 1223 lader Frans en virkelig krybbe gøre i stand i Greccio, med hø, en okse og et æsel, for at se Betlehems fattigdom »med legemets øjne«: oprindelsen til traditionen med julekrybben.",
+      "yearFrom": 1223,
+      "dateLabel": "julen 1223",
+      "placeId": "place.greccio",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.poverta.liberta"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "I september 1224, trukket tilbage på bjerget La Verna, modtager Frans — ifølge de nærmeste middelalderlige kilder — stigmata fra Kristi lidelse, som han søger at holde skjult.",
+      "yearFrom": 1224,
+      "dateLabel": "september 1224",
+      "placeId": "place.laverna",
+      "personIds": ["person.francesco", "person.frate_leone"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.preghiera.eremo", "teaching.fede.cristo_centro"],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Skabningernes sang",
+      "description": "Syg og næsten blind komponerer Frans i flere tempi lovsangen på umbrisk folkesprog, kendt som Skabningernes sang: lovprisning af Gud gennem broder Sol, søster Vand, Moder Jord og til sidst søster den legemlige død.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.cantico", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi"],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Ulven fra Gubbio",
+      "description": "De små blomster fortæller, at Frans mæglede fred mellem byen Gubbio og en grum ulv: byen skulle føde ham, og ulven skulle ikke skade nogen mere. En hagiografisk fortælling, ikke en krønike.",
+      "yearFrom": 1220,
+      "dateLabel": "usikker datering",
+      "chronologicalUncertainty": "En episode fra 1300-tallets hagiografiske tradition (De små blomster, kapitel 21), uden dokumentarisk bekræftelse: vi fremstiller den som en erindringsfortælling, ikke som historisk kendsgerning.",
+      "placeId": "place.gubbio",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.fioretti"],
+      "teachingIds": ["teaching.pace.saluto", "teaching.accoglienza.ogni_uomo"],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Døden ved Portiuncula",
+      "description": "Frans dør om aftenen den 3. oktober 1226 ved Portiuncula, efter at have dikteret sit Testamente og bedt om at blive lagt nøgen på den nøgne jord.",
+      "yearFrom": 1226,
+      "dateLabel": "3. oktober 1226",
+      "placeId": "place.porziuncola",
+      "personIds": ["person.francesco"],
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.testamento"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Helgenkåring",
+      "description": "Gregor IX udråber Frans til helgen i Assisi den 16. juli 1228, mindre end to år efter hans død, og bestiller Thomas af Celano til at skrive den første officielle biografi.",
+      "yearFrom": 1228,
+      "dateLabel": "16. juli 1228",
+      "placeId": "place.assisi",
+      "personIds": ["person.francesco", "person.celano"],
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Frans af Assisi",
+      "role": "Grundlægger af mindrebrødrenes broderskab",
+      "description": "Giovanni di Pietro di Bernardone (1181/82–1226). Købmand, derefter omvandrende bodgænger, derefter grundlægger af et broderskab, der forandrede Kirkens historie. Helgenkåret i 1228.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.testamento"]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Clara af Assisi",
+      "role": "Grundlæggerinde af klarisserne",
+      "description": "En adelskvinde fra Assisi (1193/94–1253). Hun følger Frans i 1212 og grundlægger fællesskabet af de »fattige damer« i San Damiano. Den første kvinde, der skrev en godkendt religiøs regel.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernhard af Quintavalle",
+      "role": "Første ledsager",
+      "description": "En rig mand fra Assisi. Han uddeler sit gods og bliver Frans' første ledsager (1208). Han døde i 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Broder Ægidius",
+      "role": "Blandt de første ledsagere",
+      "description": "En dannet bonde og mystiker, Frans' tredje ledsager; traditionen tillægger ham de vise »udtalelser«.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Broder Leo",
+      "role": "Skriftefader og trofast ledsager",
+      "description": "En ledsager i de sidste år, modtager af Frans' autografe brev og vidne på La Verna.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.lettera_leone", "source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II, biskop af Assisi",
+      "role": "Frans' beskytter",
+      "description": "Biskop af Assisi fra 1204; han dækkede Frans med sin kappe ved afkaldet og støttede hans første skridt.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Frans' far",
+      "description": "En klædehandler i Assisi; konflikten med sønnen om det solgte gods kulminerede i den offentlige scene foran biskoppen.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pica",
+      "role": "Frans' mor",
+      "description": "Traditionen husker hende som nærmere sin søn under krisen i hans omvendelse; kilderne om hende er sparsomme.",
+      "isHistorical": true,
+      "sourceDocumentIds": ["source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Pave Innocens III",
+      "role": "Pave (1198–1216)",
+      "description": "Blandt middelalderens mest indflydelsesrige paver; ifølge traditionen gav han mundtlig godkendelse af Frans' livsform i 1210.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Pave Honorius III",
+      "role": "Pave (1216–1227)",
+      "description": "Han godkendte den stadfæstede regel i 1223 og støttede det unge broderskab.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": ["source.regola_bollata"]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Sultan af Egypten",
+      "description": "Den ayyubidiske sultan, som mødte Frans i Damietta i 1219 under det femte korstog.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.celano",
+      "name": "Thomas af Celano",
+      "role": "Første biograf",
+      "description": "En mindrebroder. Han skrev det første levned (1228–29) på Gregor IX's bestilling og det andet levned (1246–47), idet han samlede ledsagernes vidnesbyrd.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.celano_vita_seconda"]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventura af Bagnoregio",
+      "role": "Teolog og biograf",
+      "description": "Universitetsmester og generalminister for Ordenen; hans store legend (1260–63) blev Frans' officielle biografi.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": ["source.bonaventura_leggenda_maggiore"]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardinal Ugolino (senere Gregor IX)",
+      "role": "Ordenens beskytter",
+      "description": "Kardinalbeskytter for broderskabet, senere pave: han helgenkårer Frans i 1228.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": ["source.celano_vita_prima"]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Broder Elias af Cortona",
+      "role": "Omstridt efterfølger",
+      "description": "En ledsager og senere leder af Ordenen efter Frans; en omdiskuteret skikkelse, tegn på spændingerne mellem karisme og institution.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": ["source.bonaventura_leggenda_maggiore"]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Frans' fødeby: pladsen, domkirken San Rufino, murene og de middelalderlige stræder.",
+      "historicalNote": "Et virkeligt historisk sted.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "En lille kirke uden for Assisi, hvor Frans bad foran krucifikset; senere hjem for Clara og hendes søstre.",
+      "historicalNote": "Et virkeligt historisk sted.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Portiuncula (Sankta Maria af Englene)",
+      "description": "En lille kirke på sletten under Assisi: hjem for det første broderskab og stedet for Frans' død.",
+      "historicalNote": "Et virkeligt historisk sted; i dag indesluttet i basilikaen Sankta Maria af Englene.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "En hytte ved bækken, hvor de første ledsagere levede deres omvandrende livsform.",
+      "historicalNote": "Et virkeligt historisk sted; den nuværende helligdom bevarer mindet om bosættelsen.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Eremitagen Le Carceri",
+      "description": "En eremitage på bjerget Subasio, mellem steneg og huler: et sted for tilbagetrækning og bøn.",
+      "historicalNote": "Et virkeligt historisk sted.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "En umbrisk by, knyttet til fortællingen om ulven og til Frans' nærvær i eremitårene.",
+      "historicalNote": "Et virkeligt historisk sted; episoden med ulven hører til den hagiografiske tradition.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "En landsby i Rieti-egnen, hvor Frans fejrede julen 1223 med en levende krybbe.",
+      "historicalNote": "Et virkeligt historisk sted.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Et bjerg i det toskanske Appennin, skænket til Frans; stedet for hans tilbagetrækning i 1224 og, ifølge middelalderlige kilder, stigmata.",
+      "historicalNote": "Et virkeligt historisk sted.",
+      "isHistoricalPlace": true,
+      "region": "Toscana"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "En eremitage nær Rieti, hvor den ikke-stadfæstede regel fra 1221 blev komponeret.",
+      "historicalNote": "Et virkeligt historisk sted.",
+      "isHistoricalPlace": true,
+      "region": "Lazio"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damietta",
+      "description": "En by i Nildeltaet, skueplads for det femte korstog og for mødet mellem Frans og sultanen (1219).",
+      "historicalNote": "Et virkeligt historisk sted.",
+      "isHistoricalPlace": true,
+      "region": "Egypten"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Egenes landsby",
+      "description": "En opdigtet landsby i Spoleto-dalen: Vandringsmandens vigtigste fortællende ramme.",
+      "historicalNote": "En fiktiv ramme, skabt til spillet; ikke et historisk sted.",
+      "isHistoricalPlace": false,
+      "region": "Umbrien (opdigtet)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbrisk land og skov",
+      "description": "Vejene, stenege-skovene og markerne mellem landsbyerne: den omvandrende ramme for Vandringsmandens fortællinger.",
+      "historicalNote": "En fortællende ramme, inspireret af det virkelige umbriske landskab.",
+      "isHistoricalPlace": false,
+      "region": "Umbrien (ramme)"
+    }
+  ],
+  "glossary": [
+    {"id": "gloss.agiografia", "term": "Hagiografi", "definition": "Litteratur om helgeners liv: en middelalderlig andægtig genre, rettet mod opbyggelse, ikke krønike. Den må læses med andre redskaber end den dokumentariske histories."},
+    {"id": "gloss.penitenza", "term": "Bod", "definition": "I Frans' sprog: omvendelse af hjerte og liv, ikke straf. At »gøre bod« betød at ændre retning."},
+    {"id": "gloss.frate_minore", "term": "Mindrebroder", "definition": "Det navn, Frans valgte til sine ledsagere: »mindre«, det vil sige de mindste, uden krav på rang."},
+    {"id": "gloss.ministro", "term": "Minister", "definition": "I det franciskanske broderskab: vogteren af et fællesskab eller en provins. Ordet betyder »tjener«."},
+    {"id": "gloss.regola", "term": "Regel", "definition": "Den tekst, der fastlægger et religiøst fællesskabs livsform. Frans skrev to versioner: den ikke-stadfæstede regel (1221) og den stadfæstede (1223)."},
+    {"id": "gloss.bolla", "term": "Pavelig bulle", "definition": "Et officielt paveligt dokument, opkaldt efter det blysegl (bulla), der bekræfter det. »Stadfæstet regel« betyder en regel, godkendt med en bulle."},
+    {"id": "gloss.porziuncola", "term": "Portiuncula", "definition": "En »lille del« af jord: kirken Sankta Maria af Englene nær Assisi, broderskabets hjem."},
+    {"id": "gloss.stimmate", "term": "Stigmata", "definition": "Mærkerne efter Kristi lidelse, som middelalderlige kilder tillægger Frans efter hans tilbagetrækning til La Verna (1224)."},
+    {"id": "gloss.sine_proprio", "term": "Sine proprio", "definition": "Et udtryk fra traditionen: »uden noget eget«, den franciskanske form for fattigdom."},
+    {"id": "gloss.lauda", "term": "Lauda", "definition": "En religiøs poetisk komposition på folkesprog, beregnet til at synges. Skabningernes sang er en lauda."},
+    {"id": "gloss.comune", "term": "Kommune", "definition": "Bystyret i det middelalderlige Italien: Frans' Assisi var en voksende kommune i konflikt med Perugia og feudalmagten."},
+    {"id": "gloss.capitolo", "term": "Kapitel", "definition": "Den periodiske forsamling af et religiøst broderskab; også et »generalkapitel« for hele Ordenen."},
+    {"id": "gloss.lebbrosario", "term": "Spedalskhedshospital", "definition": "Et middelalderligt hospital eller lazaret for spedalske, uden for bymurene. Stedet for Frans' afgørende møde."},
+    {"id": "gloss.eleemosina", "term": "Almisse", "definition": "En gave, man beder om eller modtager for at leve. For de første brødre var den et tegn på tillid til Forsynet, ikke en ydmygelse."}
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Købmandens søn (1181/82–1202)",
+      "text": "Frans fødes i Assisi af Pietro di Bernardone, en rig klædehandler, og Madonna Pica. Han vokser op i en by, der blomstrer som kommune: en begavet ung mand, gavmild, glad for fester og franske troubadourer, med drømme om ridderlig ære. I 1202 kæmper han mod Perugia ved Collestrada; nederlaget og et års fangenskab bringer hans første liv til en dramatisk afslutning.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Vendingen (1202–1206)",
+      "text": "Sygdommen efter fangenskabet, drømmen i Spoleto og pilgrimsfærden til Rom, hvor han bytter klæder med en tigger: Frans søger en ny retning. Så kommer den begivenhed, han selv skulle nævne som begyndelsen: mødet med de spedalske, hvor »det, der havde syntes mig bittert, blev forvandlet til sødme«. I San Damiano, foran krucifikset, hører han kaldet til at reparere Guds »hus«. Han sælger faderens klæde og hest for at genopbygge den lille kirke; konflikten bryder ud foran biskoppen, hvor han giver alt tilbage.",
+      "sourceDocumentIds": ["source.testamento", "source.celano_vita_prima", "source.celano_vita_seconda"],
+      "teachingIds": ["teaching.carita.lebbrosi", "teaching.rinuncia.sine_proprio", "teaching.fede.cristo_centro"]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "»Reparer mit hus« (1206–1209)",
+      "text": "Alene, klædt som bodgænger, genopbygger Frans San Damiano, San Pietro og Portiuncula sten for sten og tjener i spedalskhedshospitalerne. Først spotter byen ham, så begynder den at se på ham. Ved at lytte til evangeliet forstår han kaldet: at forkynde fred, at leve uden noget eget, på vandring. Foretagendet viser sig større end genopbygningen af tre kirker: at reparere selve Kirken, nedefra.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.poverta.liberta", "teaching.pace.saluto"]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Broderskabet (1209–1219)",
+      "text": "Bernhard af Quintavalle, Ægidius og de andre: de første ledsagere deler livsformen, og i 1210 (eller 1209) giver Innocens III den mundtlig godkendelse. Portiuncula bliver hjem. I 1212 flygter Clara af Assisi om natten for at følge det samme kald. Broderskabet vokser ud over enhver forventning, med årlige kapitler og missioner i hele Europa: vanskelighederne ved det store antal begynder.",
+      "sourceDocumentIds": ["source.celano_vita_prima"],
+      "teachingIds": ["teaching.fraternita.minori", "teaching.accoglienza.ogni_uomo"]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Mod øst (1219–1220)",
+      "text": "Midt under det femte korstog når Frans korsfarernes lejr i Damietta, krydser linjerne og møder sultanen al-Malik al-Kamil. Middelalderlige kilder beskriver deres gensidige respekt; den moderne forskning diskuterer detaljerne, men gestussen står: i krigstid at gå den anden i møde. Ved hjemkomsten finder han broderskabet forandret og uroligt: dets størrelse kræver strukturer, han frygter.",
+      "sourceDocumentIds": ["source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.accoglienza.ogni_uomo", "teaching.pace.saluto"]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Vækstens møje (1220–1223)",
+      "text": "Frans forlader den daglige ledelse af Ordenen og vier sig til den skrevne regel: den fra 1221, lang og fri, bliver ikke godkendt; den fra 1223, kortere og juridisk, modtager Honorius III's bulle. Spændingen mellem karisme og institution går gennem disse år: Frans lever den i troskab og lidelse. I Greccio, julen 1223, gør han Betlehems fattigdom synlig med en virkelig krybbe.",
+      "sourceDocumentIds": ["source.regola_non_bollata", "source.regola_bollata", "source.celano_vita_prima"],
+      "teachingIds": ["teaching.comunita.regola", "teaching.poverta.liberta"]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Sangen og aftenen (1224–1226)",
+      "text": "På La Verna, i september 1224, fortæller kilderne om stigmata. Syg og næsten blind komponerer han i San Damiano Skabningernes sang: lovprisningen stiger i den mørkeste tid. Han føjer strofen om tilgivelse til for at forsone biskop og podestà, og til sidst den om »søster den legemlige død«. Efter at have dikteret Testamentet dør han ved Portiuncula om aftenen den 3. oktober 1226, nøgen på den nøgne jord. To år senere udråber Gregor IX ham til helgen.",
+      "sourceDocumentIds": ["source.cantico", "source.testamento", "source.celano_vita_prima", "source.bonaventura_leggenda_maggiore"],
+      "teachingIds": ["teaching.creato.cantico", "teaching.gratitudine.lodi", "teaching.gioia.perfetta_letizia"]
+    }
+  ]
+}

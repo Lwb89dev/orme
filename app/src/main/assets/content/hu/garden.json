@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "A kőösvény",
+      "kind": "sentiero",
+      "description": "Világos kövekből rakott ösvény szeli át a kertet: innen indul minden út.",
+      "symbolism": "Az út mint az élet képe: járva készül, kőről kőre.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "A béke olajfája",
+      "kind": "albero",
+      "description": "Ősi olajfa ezüst lombkoronával; akkor ültetted, amikor felfedezted a béke köszöntését.",
+      "symbolism": "Az olajfa: a béke és a türelem mediterrán növénye. Lassan nő, és nemzedékeken át megmarad.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "A víz nővér kútja",
+      "kind": "acqua",
+      "description": "Kőkút tiszta vízzel, amelyet reggel felgyújt a nap.",
+      "symbolism": "„Sora acqua, utile e umile e preziosa e casta”: a Naphimnuszban a víz testvér, akinek hálát adunk.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "San Damiano rózsái",
+      "kind": "fiore",
+      "description": "Virágzó rózsabokor a fal mellett: ott nő, ahol valaki másokról gondoskodott.",
+      "symbolism": "A szolgálatból születő szépség: a szeretet virágba borítja a kiaszott helyeket.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "A közös kert",
+      "kind": "orto",
+      "description": "Apró ágyások fűszernövényekkel és zöldséggel, felváltva gondozva: alázatos munka, amely mindenkit táplál.",
+      "symbolism": "A mindennapi szolgálat: aki a kertet műveli, nem birtokolja, hanem őrzi azoknak, akik majd jönnek.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "A csend ciprusa",
+      "kind": "albero",
+      "description": "Magas, egyenes ciprus, amely a kert és az erdő határát jelzi.",
+      "symbolism": "Az ima mint függőleges: gyökerei a földben, csúcsa az ég felé.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "A pintyek fészke",
+      "kind": "animali",
+      "description": "A legvédettebb ágak között egy pintypár a kertet választotta fészekrakásra.",
+      "symbolism": "A befogadás: a kert otthona lesz annak is, aki kívülről érkezik.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "A kőpad",
+      "kind": "struttura",
+      "description": "Kőpad a fal alatt, délben: a hely, ahol leülni és maradni lehet.",
+      "symbolism": "A hit mint bizakodó megállás: nem mindig menni kell, néha egyszerűen ott lenni.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "A hála napraforgói",
+      "kind": "fiore",
+      "description": "Napraforgósor, amely napközben a fényt követve fordul.",
+      "symbolism": "A hála: a fény felé fordulni a tekintet mindennapi gyakorlata.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "A méhek kaptára",
+      "kind": "animali",
+      "description": "Fakaptár viaszillattal; a méhek jönnek-mennek a kert virágai között.",
+      "symbolism": "A testvériség: egyetlen méh sem készít mézet egyedül, és egyik sem birtokolja a lépet.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Az eget nézni",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Emeld a tekinteted a kertről az égre. Maradj néhány pillanatig csendben, anélkül hogy bármit tennél."
+        },
+        {
+          "kind": "leggi",
+          "text": "Olvasd lassan a teremtmények énekének nyitányát.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Ferenc a napot „testvérnek”, a holdat „nővérnek” nevezi. Mit változtatna, ha a világot családnak látnád, nem nyersanyagnak?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ha szeretnéd, jegyezd fel a naplóba azt az egyet, amiért ma elmondhatod: „Laudato sie, mi' Signore”."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "A vizet hallgatni",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Lépj a kúthoz. Hallgasd a víz hangját néhány lélegzetvételnyi ideig, sietség nélkül."
+        },
+        {
+          "kind": "leggi",
+          "text": "Olvasd újra az Isten dicséretét, amelyet a La Vernán írtak: imádság, amely semmit sem kér.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Az Isten dicséretei nem tartalmaznak kérést: csak elismerést. Mikor adtál utoljára hálát anélkül, hogy kértél volna?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ha szeretnéd, írd a naplóba a három dolgot, amit ma kaptál, még ha aprók is."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "A lassú lépés",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Járd végig lassan a kőösvényt, és figyeld meg minden lépésedet: a súlyt, az érintkezést, a ritmust."
+        },
+        {
+          "kind": "leggi",
+          "text": "Olvasd el Ferenc válaszát Leó testvérnek, aki a helyes választást kereste.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Leó testvérnek Ferenc nem utasítást ad, hanem szabadságot: „kövesd a lelkiismeretedet Isten előtt”. Mit tanít ez a kísérés módja?"
+        },
+        {
+          "kind": "annota",
+          "text": "Ha szeretnéd, jegyezd fel a naplóba azt a döntést, amelyet hordozol, és azt, merre hajlik a lelkiismereted."
+        }
+      ]
+    }
+  ]
+}

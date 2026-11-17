@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Tikšanās, kas maina dzīvi",
+      "summary": "Franciska atgriešanās sākas tad, kad viņš pārvar riebumu un satiek spitālīgos: tuvākmīlestība kā konkrēta tikšanās ar otru.",
+      "explanation": "Testamentā Francisks stāsta, ka redzēt spitālīgos viņam šķita „pārāk rūgti“ un ka tieši tikšanās ar viņiem bija viņa gandarīšanas sākums. Franciskāņu tuvākmīlestība nav vispārīga sajūta: tā ir fizisks žests tam, kurš tuvojas izstumtajam un atklāj, ka rūgtums pārvēršas maigumā. Kas dod, nestājas pāri tam, kurš saņem: viņi satiekas.",
+      "historicalContext": "13. gadsimtā spitālīgie bija izslēgti no pilsētas dzīves, izmitināti spitālīgo namos ārpus mūriem un uzskatīti par grēka simbolu. Franciska izvēle dzīvot viņu vidū sabiedrībai bija skandaloza.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Nekā sava, viss saņemts",
+      "summary": "Bīskapa priekšā Francisks atdod drēbes tēvam: atteikšanās no īpašuma kā brīvības izvēle, nevis kā nicinājums pret lietām.",
+      "explanation": "Franciska atteikšanās bīskapa Gvido priekšā ir publisks žests, ar kuru viņš pārrauj saiti ar ģimenes bagātību. Tā nav bēgšana no lietām, bet atbrīvošanās no domas tās piederēt: kam nepieder nekas, tam nav jāaizstāv nekas, un viņš var saņemt visu kā dāvanu. Tradīcijas tehniskā latīņu valoda to sauc „sine proprio“: bez īpašuma.",
+      "historicalContext": "Bagāta audumu tirgotāja dēls Francisks bija lemts komūnas pilsoņu kārtas augšupejai. Viņa atteikšanās 1206. gadā satrieca Asīzes iztēli tieši tāpēc, ka bija apgriezta pret tirgotāju pilsētas vērtībām.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Nabadzība kā brīvība",
+      "summary": "Franciskam nabadzība nav romantiska posts: tā ir nepieņemt neko par savu, lai paliktu brīvs mīlēt un būt atkarīgs tikai no Dieva.",
+      "explanation": "1223. gada Regula lūdz brāļus nepieņemt neko par savu, „ne māju, ne vietu, ne kādu lietu“, un iet ubagot bez kauna, atceroties, ka Kungs ir kļuvis nabags. Franciskāņu nabadzībai ir teoloģisks pamats (nabagais Kristus) un psiholoģisks: kam nav nekā, ko aizstāvēt, tas ir brīvs. Tas nav aicinājums slavēt trūkumu, kas ir sabiedriska brūce, bet neļaut sevi noteikt īpašumam.",
+      "historicalContext": "Brīvprātīgo nabagu kustība radās kā atbilde uz komūnu un garīdzniecības augošo bagātību; Baznīca uz nabadzības kustībām skatījās ar aizdomām, un Franciskam nācās grūti izcīnīt apstiprinājumu.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Mazākie brāļi",
+      "summary": "Franciska kopiena nav priekšnieku un padoto ordenis: tā ir „mazāko“ brālība, kurā katrs ir atbildīgs par otru.",
+      "explanation": "Francisks gribēja, lai viņējos sauc par mazākajiem brāļiem: neviens nav liels, atbildīgos sauc par „ministriem“, tas ir, kalpiem. 1221. gada Regula lūdz cits citam atklāt vajadzības, netiesāt brāli un nenonicināt vājo. Brālība ir pati Evaņģēlija forma, nodzīvota kopā: brāļi ir nevis ideāla dēļ, bet ikdienas prakses dēļ.",
+      "historicalContext": "Brālība rodas ap 1208.–1210. gadu no pirmajiem biedriem (Bernards, Egidijs…) un aug tik strauji, ka prasa struktūras: kapitulus, ministrus, rakstītu regulu.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Miera sveiciens",
+      "summary": "„Kungs lai tev dod mieru“: Francisks padara mieru par vēsti, kas jānes, pirms tas ir kara neesamība.",
+      "explanation": "Testamentā Francisks atceras, ka Kungs viņam atklāja miera sveicienu. Agrīnie avoti apraksta, kā brāļi sludina mieru no mājas uz māju. Franciskāņu miers ir aktīvs: to nes, to būvē, to vidutā — kā Gubbio vilka stāstā, kur miers dzimst no drosmes iet pretī tam, kas biedē.",
+      "historicalContext": "Komūnu Itāliju šķērsoja frakciju naidi, pilsētu kari un konflikti starp laicīgo un reliģisko varu. Sludināt mieru bija politisks žests tikpat, cik garīgs.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Septiņdesmit reiz septiņi, un vēl tālāk",
+      "summary": "Brālības atbildīgajam Francisks raksta: ja brālis grēkotu tūkstoš reižu, tik un tā mīli viņu vairāk nekā mani.",
+      "explanation": "Vēstule ministram ir franciskāņu piedošanas teksts: tam, kurš vada, nav jāapskandālējas un jānocietinās brāļu kļūdu priekšā, bet jāsludina žēlsirdība. Piedošana nenoliedz ļaunu: tā atsakās ļaut, lai ļaunumam piederētu pēdējais vārds attiecībās. Radību dziesmā pants par piedošanu tika pievienots — pēc tradīcijas —, lai izlīgtu Asīzes bīskapu un podestà, kuri bija savstarpējā konfliktā.",
+      "historicalContext": "Strauji augošajā brālībā bija iekšējas spriedzes; un pilsētas plosīja atriebības un naidi, ko franciskāņi centās samierināt.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Būt mazākajiem, nejusties labākiem",
+      "summary": "Franciskāņu pazemība ir patiesība par sevi: nepaaugstināties, nenonicināt sevi, kalpot kā pēdējam.",
+      "explanation": "Pamācības brīdina no savas gribas, kas kļuvusi par visu mēru, un no garīgās pašapmierinātības. Pazemība Franciskam ir redzēt sevi patiesībā: mazus Dieva priekšā, par visu parādniekus, spējīgus kalpot, neprasot atzinību. Tā nav zema pašcieņa: tā ir brīvība no vajadzības izrādīties.",
+      "historicalContext": "Sabiedrībā, kas balstīta uz godu un kārtu, saukt sevi par „mazākajiem“ bija pretstraumes programma; un augošajā brālībā pazemība bija pretinde iekšējai sacensībai.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Brālis Saule, māsa Ūdens",
+      "summary": "Radību dziesma: pasaule nav ne resursu noliktava, ne elks, bet radību saime, kas slavē Radītāju.",
+      "explanation": "Radību dziesmā Francisks slavē Dievu „par“ radībām: brāli Sauli, māsu Mēnesi, māsu Ūdeni, „noderīgu, pazemīgu, dārgu un šķīstu“, māsu mūsu māti Zemi. Daba nav dievināta: tā ir māsa, jo ir tā paša Tēva meita. Rūpes par radību šeit dzimst no pateicības un radniecības, nevis no lietderības. Un dziesma dzimst slimībā: slava nav atkarīga no apstākļiem.",
+      "historicalContext": "Sacerēta 1225.–1226. gadā, kamēr Francisks bija slims un gandrīz akls, tā ir starp pirmajiem poētiskajiem tekstiem itāļu tautas valodā. Bonaventura to novieto pārbaudījumu laikā.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Pilnīgais prieks",
+      "summary": "Franciskāņu prieks nav atkarīgs no rezultātiem: tas paliek arī atraidījumā un grūtībās, jo dzimst no mīlestības, nevis no panākuma.",
+      "explanation": "Ziediņos Francisks skaidro brālim Leonam, ka īstais prieks nav ne brīnumi, ne atgriešanās, bet atgriezties atraidītiem un nosalušiem un palikt pacietīgiem un priecīgiem. Tas ir hagiogrāfisks stāsts, nevis hronika, bet tas sakopo autentisku franciskāņu gara iezīmi: prieks kā iekšēja izvēle, ko neviens notikums nevar atņemt.",
+      "historicalContext": "Ziediņi (14. gadsimta beigas) vāc dzīvo pirmā franciskānisma atmiņu; tie jālasa kā garīgā literatūra, nevis kā dokumentāra vēsture.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Tuksnesis, kas mājo pasaulē",
+      "summary": "Francisks mija sūtību un atkāpšanos: lūgšana kā vieta, kur atgriežas pie būtiskā Dieva priekšā.",
+      "explanation": "Franciskāņu dzīve nav tikai darbība: Francisks meklēja vientuļvietas un atkāpšanās (Karčeri, La Verna), ņemot līdzi nedaudzus biedrus un garus klusumus. Vēstulē brālim Leonam viņš norāda uz sirdsapziņu Dieva priekšā: lūgšana nav tehnika, bet attiecības. Visuaugstākā Dieva slavas rāda viņa tīrāko lūgšanu: slava bez lūgumiem.",
+      "historicalContext": "Franciskāņu vientuļvietas radās Umbrijas un Toskānas Apenīnu mežonīgajās vietās; La Verna, dāvāta Franciskam 1213. gadā, kļuva par atkāpšanās vietu par excellence.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Sekot Kristus pēdām",
+      "summary": "Franciska garīgums nav dabas filozofija: tā ir sekošana nabagajam un krustā sistajam Kristum Baznīcas ticībā.",
+      "explanation": "Viss Franciskā sākas no Kristus: Svētā Damiāna krucifikss, kas viņam runā, nabadzības izvēle, „jo Kungs ir kļuvis nabags“, ciešanas, ko viņš kontemplē La Verna, vienkāršā ticība Testamenta baznīcām. Izraut šo sakni nepadara Francisku universālāku: tas padara viņu neatpazīstamu. Lietotne to rāda tādu, kāda tā ir, neuzspiežot un neizdzēšot.",
+      "historicalContext": "Francisks dzīvoja ticību viduslaiku Baznīcas ietvaros, meklēdams tās apstiprinājumu savam dzīves veidam un pieņemdams tās robežas, lai gan no apakšas spieda uz reformu.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Regula, lai nepazustu",
+      "summary": "Franciskāņu paklausība nav sevis izdzēšana: tā ir kopīgs derības līgums, kas sargā brālību no izklīšanas un patvaļas.",
+      "explanation": "Francisks lūdza Baznīcas apstiprinājumu un rakstīja aizvien būtiskākas regulas (1221., 1223.). Paklausība Pamācībās un Regulās ir savstarpēja: paklausa kopīgajai regulai, un tas, kurš vada, kalpo. Testaments lūdz neglosēt regulu: dzīvot to „vienkārši un bez glosām“. Kopiena un paklausība ir ietvars, kas padara brīvību noturīgu.",
+      "historicalContext": "No 1210. līdz 1223. gadam brālība no nelielas grupas kļuva par atzītu Ordeni; spriedze starp harismu un institūciju iet cauri visai franciskāņu vēsturei.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Slava, kas neko neprasa",
+      "summary": "Dieva slavas un Radību dziesma dzimst slimībā: franciskāņu pateicība neatalgo veiksmi, bet atpazīst dāvanu katrā lietā.",
+      "explanation": "Visuaugstākā Dieva slavas, rakstītas La Verna, ir lūgšana bez viena vienīga lūguma: tikai atzīšana. Arī Radību dziesma, sacerēta ciešanās, ir slava. Franciskāņu pateicība ir vingrināts skatiens: tā redz katru lietu — ūdeni, sauli, dienu, pat nāvi — kā saņemtu. Kas pateicas, tas nepieder: tas mājo.",
+      "historicalContext": "1224.–1226. gadā Francisks bija smagi slims, gandrīz akls un iezīmēts ar attālināšanos no Ordeņa vadības: to gadu slava nav naivitāte, bet iekarojums.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Kas vada, tas kalpo",
+      "summary": "Brālībā atbildīgos sauc par „ministriem“: kalpošana kā vienīgā likumīgā varas forma.",
+      "explanation": "Francisks apgriež hierarhiju: ministrs ir tas, kurš kalpo, sargs ir tas, kurš sargā brāļus, nevis tas, kurš pavēl. Vēstule ministram rāda toni: tuvums tam, kurš kļūdās, nekad nicinājums. Kalpošana nav stratēģija, lai patiktu: tas ir kristīgais veids, kā mājo katrā lomā, no brāļa līdz bīskapam, no vecāka līdz pilsētas pārvaldniekam.",
+      "historicalContext": "Franciskāņu hierarhijas nosaukumi (ministrs, kustods, gvardāns) tika izvēlēti tieši pret viduslaiku prestiža loģiku.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Neviens nav svešs",
+      "summary": "Spitālīgie, laupītāji, sultāns, vilks: franciskāņu tradīcija dzen uzņemšanu pāri savas grupas robežām.",
+      "explanation": "Francisks satiek spitālīgos, iet pretī sultānam al-Malikam al-Kamilam paša krusta kara laikā, un tautas atmiņā runā pat ar vilku. Franciskāņu uzņemšana nav pasīva iecietība: tā ir iet pretī, pakļaut sevi, saukt par „brāli“ to, ko sava pasaule sauc par ienaidnieku. Tā sākas pie neērtā tuvākā un neapstājas pie ticības vai valodas robežām.",
+      "historicalContext": "Tikšanās ar sultānu (1219., Damieta) notika piektā krusta kara laikā: miera žests, ko avoti dokumentē, kaut viduslaiku liecības robežās.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Kļūt par tuvāko ar ķermeni",
+      "summary": "„Es viņiem darīju žēlsirdību“: franciskāņu žēlsirdība ir līdzcietība, kas kļūst par konkrētu žestu, nevis žēlums no attāluma.",
+      "explanation": "Testamentā Francisks lieto spēcīgu vārdu: ar spitālīgajiem „es darīju žēlsirdību“. Viņš nesaka, ka juta līdzcietību: viņš to darīja. Žēlsirdība ir spēja ļauties otra ciešanām tik tālu, ka sakustas rokas. Tā ir sakne, no kuras aug tuvākmīlestība, piedošana un miers.",
+      "historicalContext": "Viduslaiku dievbijība pazina žēlastības dāvanu kā nopelnu praksi; Francisks to pārvērš attiecībās: nedod nabagam, bet ir kopā ar nabagu.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Roku darbs",
+      "summary": "Francisks nepretstata lūgšanu un darbu: godīgs darbs tur tālu no slinkuma un nedrīkst apdzēst lūgšanu.",
+      "explanation": "Testamentā Francisks saka, ka strādājis ar savām rokām un grib, lai brāļi strādā, nevis cenas kāres dēļ, bet parauga dēļ un pret slinkumu. Ja cenas nav, atgriežas pie ubagošanas. Apstiprinātā Regula pievieno robežu: darbs ir žēlastība, un laicīgajām lietām jākalpo lūgšanas garam, nevis jāaizstāj tas. Neapstiprinātajā Regulā darbs ir arī veids, kā uzturēties svešā mājā kā mazākajiem, neuzņemoties amatus, kas dod varu.",
+      "historicalContext": "Daudzi no pirmajiem brāļiem nāca no arodiem. Darba un naudas jautājums ir ass jau pirms 1223. gada: 1221. gada Regula ir plašāka un stingrāka pret naudu; apstiprinātā ir īsāka un uztic ministriem slimo aprūpi caur garīgajiem draugiem.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Ķermenis, nevis ideja",
+      "summary": "Franciskam Dieva Dēls šajā pasaulē ir redzams ķermenī un asinīs, ko priesteri saņem un dod.",
+      "explanation": "Testaments saista cieņu pret priesteriem ar šo: Francisks saka, ka miesīgi neredz neko citu no Dieva Dēla kā tikai viņa ķermeni un asinis. Vēstule visam Ordenim dzen to pašu ticību līdz maizes veidam un lūdz priesterus svinēt, nemeklējot patikt cilvēkiem. Tā nav blakus tēma. Tas ir centrs, no kura Francisks lasa Baznīcu, rakstītos vārdus un savu mazumu. Lietotne to saka tādu, kāds tas ir: viduslaiku euharistiskā ticība, nevis vispārīga metafora par dāvanu.",
+      "historicalContext": "Franciska euharistiskā dievbijība stāv Laterāna IV (1215) reformas ietvaros, kas uzliek ikgadēju grēksūdzi un precizē sakramenta mācību. Vēstules garīdzniekiem un kustodiem, kas šeit nav atkārtotas pilnībā, uzstāj uz to pašu.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Evaņģēlija forma",
+      "summary": "Francisks neizgudro garīgumu līdzās Evaņģēlijam: viņš saka, ka Visuaugstākais viņam atklāja dzīvot pēc šīs formas, un viņš to lika uzrakstīt.",
+      "explanation": "Testaments ir skaidrs: neviens viņam nerādīja, ko darīt; Visuaugstākais viņam atklāja dzīvot pēc svētā Evaņģēlija formas; viņš to lika uzrakstīt ar nedaudziem vārdiem, un pāvests to apstiprināja. Abas Regulas sākas ar to pašu. Ievērot Evaņģēliju šajos tekstos nav sajūta: tā ir paklausība, nekā sava un šķīstība apstiprinātā brālībā. Stāsts par atteikšanos bīskapa priekšā, ko stāsta Toms no Čelāno, ir cita aina tai pašai izvēlei. Šeit Franciska teksts ir pirms stāsta par Francisku.",
+      "historicalContext": "Inocenta III mutvārdu apstiprinājumu tradīcija datē ar 1209. vai 1210. gadu; neapstiprinātā Regula ir no 1221. gada; apstiprināto Honorijs III apstiprina 1223. gada 29. novembrī. Testaments 1226. gadā pārlasa visu secību kā vienu vienīgu atklāsmi.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

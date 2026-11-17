@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "O caminho de pedra",
+      "kind": "sentiero",
+      "description": "Um caminho de pedras claras atravessa o jardim: o ponto de onde todo o percurso começa.",
+      "symbolism": "O caminho como imagem da vida: faz-se estrada ao caminhar, uma pedra de cada vez.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "A oliveira da paz",
+      "kind": "albero",
+      "description": "Uma oliveira antiga, de copa prateada, plantada quando descobriste a saudação da paz.",
+      "symbolism": "A oliveira: planta mediterrânica da paz e da paciência. Cresce devagar e dura gerações.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "A fonte da irmã água",
+      "kind": "acqua",
+      "description": "Uma fonte de pedra com água límpida, que o sol acende de manhã.",
+      "symbolism": "«Irmã água, útil e humilde e preciosa e casta»: no Cântico, a água é irmã a quem se agradece.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "As rosas de São Damião",
+      "kind": "fiore",
+      "description": "Uma roseira em flor junto ao muro: cresce onde alguém cuidou dos outros.",
+      "symbolism": "A beleza que nasce do serviço: a caridade faz florir os lugares áridos.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "A horta partilhada",
+      "kind": "orto",
+      "description": "Pequenos canteiros de ervas e hortaliças, tratados à vez: o trabalho humilde que alimenta todos.",
+      "symbolism": "O serviço quotidiano: quem cultiva a horta não a possui; guarda-a para quem vier.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "O cipreste do silêncio",
+      "kind": "albero",
+      "description": "Um cipreste alto e direito, que marca o limite entre o jardim e o bosque.",
+      "symbolism": "A oração como vertical: raízes na terra, a ponta voltada para o céu.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "O ninho dos tentilhões",
+      "kind": "animali",
+      "description": "Entre os ramos mais seguros, um casal de tentilhões escolheu o jardim para fazer o ninho.",
+      "symbolism": "O acolhimento: o jardim torna-se casa também de quem chega de fora.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "O banco de pedra",
+      "kind": "struttura",
+      "description": "Um banco de pedra sob o muro, ao meio-dia: o lugar onde se senta e se fica.",
+      "symbolism": "A fé como pausa confiante: nem sempre caminhar; por vezes, simplesmente permanecer.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Os girassóis da ação de graças",
+      "kind": "fiore",
+      "description": "Uma fileira de girassóis que rodam seguindo a luz ao longo do dia.",
+      "symbolism": "A gratidão: voltar-se para a luz é um exercício quotidiano do olhar.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "A colmeia das abelhas",
+      "kind": "animali",
+      "description": "Uma colmeia de madeira cheira a cera; as abelhas vão e vêm das flores do jardim.",
+      "symbolism": "A fraternidade: nenhuma abelha faz mel sozinha, e nenhuma possui o favo.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Olhar o céu",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Ergue o olhar do jardim para o céu. Fica uns instantes em silêncio, sem fazer nada."
+        },
+        {
+          "kind": "leggi",
+          "text": "Lê devagar a abertura do Cântico das Criaturas.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Francisco chama o sol «irmão» e a lua «irmã». Que diferença faria olhar o mundo como uma família, em vez de o olhar como um recurso?"
+        },
+        {
+          "kind": "annota",
+          "text": "Se quiseres, anota no diário uma coisa pela qual hoje podes dizer: «Laudato sie, mi' Signore»."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Escutar a água",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Aproxima-te da fonte. Escuta o som da água durante algumas respirações, sem pressa."
+        },
+        {
+          "kind": "leggi",
+          "text": "Reler o louvor de Deus escrito em Alverne: uma oração que nada pede.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Os Louvores de Deus não contêm pedidos: apenas reconhecimento. Quando foi a última vez que agradeceste sem pedir?"
+        },
+        {
+          "kind": "annota",
+          "text": "Se quiseres, escreve no diário três coisas recebidas hoje, ainda que pequenas."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "O passo lento",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Percorre o caminho de pedra devagar, reparando em cada passo: o peso, o contacto, o ritmo."
+        },
+        {
+          "kind": "leggi",
+          "text": "Lê a resposta de Francisco a frei Leão, que procurava a escolha certa.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "A frei Leão, Francisco não dá instruções, mas liberdade: «segue a tua consciência diante de Deus». Que te ensina este modo de acompanhar?"
+        },
+        {
+          "kind": "annota",
+          "text": "Se quiseres, anota no diário uma decisão que estás a carregar e para onde sentes que a tua consciência se orienta."
+        }
+      ]
+    }
+  ]
+}

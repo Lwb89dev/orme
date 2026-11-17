@@ -1,0 +1,833 @@
+{
+  "events": [
+    {
+      "id": "event.nascita",
+      "title": "Geburt in Assisi",
+      "description": "Giovanni di Pietro di Bernardone, genannt Franz, wird in Assisi als Sohn eines reichen Tuchhändlers und der Madonna Pica geboren.",
+      "yearFrom": 1181,
+      "yearTo": 1182,
+      "dateLabel": "1181 oder 1182 (ungewiss)",
+      "chronologicalUncertainty": "Die Quellen stimmen im Jahr nicht überein: Die Geschichtsschreibung schlägt sowohl 1181 als auch 1182 vor.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.pietro_bernardone",
+        "person.madonna_pica"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.collestrada",
+      "title": "Krieg und Gefangenschaft",
+      "description": "Im Krieg zwischen Assisi und Perugia kämpft Franz in der Schlacht von Collestrada (November 1202), gerät in Gefangenschaft und bleibt etwa ein Jahr in Perugia. Nach der Rückkehr beginnt eine Krankheit, ihn zu verändern.",
+      "yearFrom": 1202,
+      "yearTo": 1203,
+      "dateLabel": "1202–1203",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.spoleto",
+      "title": "Der Traum von Spoleto und die Rückkehr",
+      "description": "Aufgebrochen nach Apulien auf der Suche nach militärischem Ruhm, hat Franz in Spoleto einen Traum, der ihn nach Assisi zurückschickt. Die Lösung vom früheren Leben beginnt: Träume, Gebet, Pilgerfahrt nach Rom.",
+      "yearFrom": 1205,
+      "dateLabel": "um 1204–1205",
+      "chronologicalUncertainty": "Die Rekonstruktion dieser Monate stammt aus den mittelalterlichen Biografien; die genauen Daten sind konventionell.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lebbrosi",
+      "title": "Die Begegnung mit den Aussätzigen",
+      "description": "Franz erzählt im Testament, der Herr habe ihn unter die Aussätzigen geführt und er habe „ihnen Barmherzigkeit erwiesen“: die Episode, die er selbst als Anfang seiner Umkehr bezeichnet.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "um 1205–1206",
+      "chronologicalUncertainty": "Das Testament gibt kein Datum; die Einordnung liegt vor dem öffentlichen Bruch mit der Familie.",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.misericordia.compassione"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.san_damiano_crocifisso",
+      "title": "Das Kruzifix von San Damiano",
+      "description": "In der verfallenen kleinen Kirche von San Damiano hört Franz der Überlieferung nach das Kruzifix zu ihm sagen: „Repariere mein Haus“. Zuerst versteht er es wörtlich und stellt Kirchen mit eigenen Händen wieder her.",
+      "yearFrom": 1205,
+      "yearTo": 1206,
+      "dateLabel": "um 1205–1206",
+      "chronologicalUncertainty": "Die Episode ist vor allem durch die Vita secunda und die spätere Überlieferung bezeugt; die Wörtlichkeit des Dialogs gehört zur erzählten Andacht.",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.rinuncia_vescovo",
+      "title": "Der Verzicht vor dem Bischof",
+      "description": "Vom Vater wegen der verkauften Güter vor Bischof Guido gebracht, gibt Franz alles zurück, auch die Kleider, und vertraut sich dem „Vater, der im Himmel ist“ an. Der Bischof bedeckt ihn mit seinem eigenen Mantel.",
+      "yearFrom": 1206,
+      "dateLabel": "Anfang 1206",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.vescovo_guido",
+        "person.pietro_bernardone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.primi_compagni",
+      "title": "Die ersten Gefährten",
+      "description": "Bernhard von Quintavalle, Ägidius und andere schließen sich Franz an und teilen seine Lebensform: Es entsteht die wandernde Bruderschaft, zwischen Arbeit, Almosen und der Verkündigung des Friedens.",
+      "yearFrom": 1208,
+      "dateLabel": "1208–1209",
+      "placeId": "place.rivotorto",
+      "personIds": [
+        "person.francesco",
+        "person.bernardo_quintavalle",
+        "person.frate_egidio"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.approvazione_innocenzo",
+      "title": "Die Anerkennung durch Innozenz III.",
+      "description": "Franz und die Gefährten gehen nach Rom; Innozenz III. erkennt ihre evangelische Lebensform mündlich an. Kein Dokument der Anerkennung ist erhalten: Die Überlieferung datiert sie auf 1210.",
+      "yearFrom": 1210,
+      "dateLabel": "1210 (oder 1209)",
+      "chronologicalUncertainty": "Die Anerkennung war mündlich, und kein Dokument ist erhalten; das genaue Jahr (1209 oder 1210) ist umstritten.",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.innocenzo_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.porziuncola",
+      "title": "Die Portiunkula, Haus der Bruderschaft",
+      "description": "Die kleine Kirche Santa Maria degli Angeli, Portiunkula genannt, wird die bleibende Wohnung der Bruderschaft: geistliches und affektives Zentrum der Bewegung.",
+      "yearFrom": 1211,
+      "yearTo": 1212,
+      "dateLabel": "1211–1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.chiara",
+      "title": "Die Flucht der Klara",
+      "description": "Klara Offreduccio verlässt das väterliche Haus und erreicht Franz in der Portiunkula in der Nacht zwischen Palmsonntag und Montag 1212: Ihre Lebensform beginnt, aus der die Klarissen hervorgehen werden.",
+      "yearFrom": 1212,
+      "dateLabel": "18.–19. März 1212",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.chiara",
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.sultano",
+      "title": "Die Begegnung mit dem Sultan",
+      "description": "Während des Fünften Kreuzzugs überschreitet Franz die Linien und begegnet dem Sultan al-Malik al-Kamil in Damiette: eine Episode des Gesprächs in Kriegszeit, von franziskanischen Quellen belegt und von äußeren Chronisten erinnert.",
+      "yearFrom": 1219,
+      "dateLabel": "September 1219",
+      "placeId": "place.damietta",
+      "personIds": [
+        "person.francesco",
+        "person.sultano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1221",
+      "title": "Die nicht-bullierte Regel",
+      "description": "In Fonte Colombo bei Rieti wird die erste vollständige Regel der Bruderschaft verfasst (Regula non bullata), lang und geistlich, niemals förmlich bestätigt.",
+      "yearFrom": 1221,
+      "dateLabel": "1221",
+      "placeId": "place.fonte_colombo",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_non_bollata"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.regola_1223",
+      "title": "Die bullierte Regel",
+      "description": "Honorius III. bestätigt mit der Bulle „Solet annuere“ die endgültige Regel (29. November 1223): kürzer und rechtlich, bis heute die Grundlage des Ordens der Minderbrüder.",
+      "yearFrom": 1223,
+      "dateLabel": "29. November 1223",
+      "placeId": null,
+      "personIds": [
+        "person.francesco",
+        "person.onorio_iii"
+      ],
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.comunita.regola"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.greccio",
+      "title": "Weihnachten in Greccio",
+      "description": "Zu Weihnachten 1223 lässt Franz in Greccio eine wirkliche Krippe herrichten, mit Heu, Ochse und Esel, um die Armut von Bethlehem „mit den Augen des Leibes“ zu sehen: der Ursprung der Krippentradition.",
+      "yearFrom": 1223,
+      "dateLabel": "Weihnachten 1223",
+      "placeId": "place.greccio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.laverna_stimmate",
+      "title": "La Verna",
+      "description": "Im September 1224, im Rückzug auf dem Berg La Verna, empfängt Franz — nach den nächsten mittelalterlichen Quellen — die Stigmata der Passion Christi, die er verborgen zu halten sucht.",
+      "yearFrom": 1224,
+      "dateLabel": "September 1224",
+      "placeId": "place.laverna",
+      "personIds": [
+        "person.francesco",
+        "person.frate_leone"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.fede.cristo_centro"
+      ],
+      "certaintyLevel": "tradition",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.cantico",
+      "title": "Der Sonnengesang",
+      "description": "Krank und nahezu blind dichtet Franz in mehreren Abschnitten die Lauda in umbrischer Volkssprache, bekannt als Sonnengesang: Lob Gottes durch Bruder Sonne, Schwester Wasser, Mutter Erde und schließlich Schwester, den leiblichen Tod.",
+      "yearFrom": 1225,
+      "yearTo": 1226,
+      "dateLabel": "1225–1226",
+      "placeId": "place.san_damiano",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi"
+      ],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.lupo_gubbio",
+      "title": "Der Wolf von Gubbio",
+      "description": "Die Fioretti erzählen, Franz habe den Frieden zwischen der Stadt Gubbio und einem wilden Wolf vermittelt: Die Stadt würde ihn nähren, der Wolf niemandem mehr schaden. Eine hagiografische Erzählung, keine Chronik.",
+      "yearFrom": 1220,
+      "dateLabel": "Datum ungewiss",
+      "chronologicalUncertainty": "Episode der hagiografischen Überlieferung des 14. Jahrhunderts (Fioretti, Kap. 21), ohne dokumentarischen Beleg: Wir bieten sie als Erzählung des Gedächtnisses an, nicht als historische Tatsache.",
+      "placeId": "place.gubbio",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.fioretti"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "certaintyLevel": "legend",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.morte",
+      "title": "Der Tod in der Portiunkula",
+      "description": "Franz stirbt am Abend des 3. Oktober 1226 in der Portiunkula, nachdem er das Testament diktiert und gebeten hat, nackt auf die nackte Erde gelegt zu werden.",
+      "yearFrom": 1226,
+      "dateLabel": "3. Oktober 1226",
+      "placeId": "place.porziuncola",
+      "personIds": [
+        "person.francesco"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "event.canonizzazione",
+      "title": "Die Heiligsprechung",
+      "description": "Gregor IX. ruft Franz am 16. Juli 1228 in Assisi heilig, weniger als zwei Jahre nach dem Tod, und beauftragt Thomas von Celano mit der ersten offiziellen Biografie.",
+      "yearFrom": 1228,
+      "dateLabel": "16. Juli 1228",
+      "placeId": "place.assisi",
+      "personIds": [
+        "person.francesco",
+        "person.celano"
+      ],
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [],
+      "certaintyLevel": "documented",
+      "reviewStatus": "verified"
+    }
+  ],
+  "persons": [
+    {
+      "id": "person.francesco",
+      "name": "Franz von Assisi",
+      "role": "Gründer der Bruderschaft der Minderen",
+      "description": "Giovanni di Pietro di Bernardone (1181/82–1226). Kaufmann, dann wandernder Büßer, dann Gründer einer Bruderschaft, die die Geschichte der Kirche veränderte. 1228 heiliggesprochen.",
+      "isHistorical": true,
+      "yearFrom": 1181,
+      "yearTo": 1226,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.testamento"
+      ]
+    },
+    {
+      "id": "person.chiara",
+      "name": "Klara von Assisi",
+      "role": "Gründerin der Klarissen",
+      "description": "Adelige aus Assisi (1193/94–1253), folgt Franz 1212 und gründet in San Damiano die Gemeinschaft der „armen Damen“. Die erste Frau, die eine anerkannte Ordensregel schrieb.",
+      "isHistorical": true,
+      "yearFrom": 1193,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.bernardo_quintavalle",
+      "name": "Bernhard von Quintavalle",
+      "role": "Erster Gefährte",
+      "description": "Ein reicher Mann aus Assisi, verteilt seine Güter und wird der erste Gefährte des Franz (1208). Er starb 1241.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_egidio",
+      "name": "Bruder Ägidius",
+      "role": "Unter den ersten Gefährten",
+      "description": "Gebildeter Bauer und Mystiker, dritter Gefährte des Franz; die Überlieferung schreibt ihm die weisheitlichen „Sprüche“ zu.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_leone",
+      "name": "Bruder Leo",
+      "role": "Beichtvater und treuer Gefährte",
+      "description": "Gefährte der letzten Jahre, Empfänger des eigenhändigen Briefes des Franz und Zeuge auf La Verna.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.lettera_leone",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.vescovo_guido",
+      "name": "Guido II., Bischof von Assisi",
+      "role": "Beschützer des Franz",
+      "description": "Bischof von Assisi seit 1204; er bedeckte Franz in der Szene des Verzichts mit dem Mantel und stützte seine ersten Schritte.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.pietro_bernardone",
+      "name": "Pietro di Bernardone",
+      "role": "Vater des Franz",
+      "description": "Tuchhändler aus Assisi; der Konflikt mit dem Sohn um die verkauften Güter mündete in die öffentliche Szene vor dem Bischof.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.madonna_pica",
+      "name": "Madonna Pica",
+      "role": "Mutter des Franz",
+      "description": "Die Überlieferung erinnert sie als dem Sohn in der Krise der Umkehr näher; die Quellen über sie sind spärlich.",
+      "isHistorical": true,
+      "sourceDocumentIds": [
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.innocenzo_iii",
+      "name": "Papst Innozenz III.",
+      "role": "Pontifex (1198–1216)",
+      "description": "Einer der einflussreichsten Päpste des Mittelalters; er erkannte der Überlieferung nach 1210 die Lebensform des Franz mündlich an.",
+      "isHistorical": true,
+      "yearFrom": 1160,
+      "yearTo": 1216,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.onorio_iii",
+      "name": "Papst Honorius III.",
+      "role": "Pontifex (1216–1227)",
+      "description": "Er bestätigte 1223 die bullierte Regel und stützte die junge Bruderschaft.",
+      "isHistorical": true,
+      "yearTo": 1227,
+      "sourceDocumentIds": [
+        "source.regola_bollata"
+      ]
+    },
+    {
+      "id": "person.sultano",
+      "name": "Al-Malik al-Kamil",
+      "role": "Sultan von Ägypten",
+      "description": "Ayyubidischer Sultan, der Franz 1219 in Damiette während des Fünften Kreuzzugs begegnete.",
+      "isHistorical": true,
+      "yearTo": 1238,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.celano",
+      "name": "Thomas von Celano",
+      "role": "Erster Biograf",
+      "description": "Minderbruder, schrieb die Vita prima (1228–29) im Auftrag Gregors IX. und die Vita secunda (1246–47), indem er die Zeugnisse der Gefährten sammelte.",
+      "isHistorical": true,
+      "yearFrom": 1185,
+      "yearTo": 1265,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ]
+    },
+    {
+      "id": "person.bonaventura",
+      "name": "Bonaventura von Bagnoregio",
+      "role": "Theologe und Biograf",
+      "description": "Universitätslehrer und Generalminister des Ordens; seine Legenda maior (1260–63) wurde die offizielle Biografie des Franz.",
+      "isHistorical": true,
+      "yearFrom": 1217,
+      "yearTo": 1274,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    },
+    {
+      "id": "person.cardinale_ugolino",
+      "name": "Kardinal Ugolino (später Gregor IX.)",
+      "role": "Beschützer des Ordens",
+      "description": "Kardinalprotektor der Bruderschaft, später Papst: Er sprach Franz 1228 heilig.",
+      "isHistorical": true,
+      "yearTo": 1241,
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ]
+    },
+    {
+      "id": "person.frate_elia",
+      "name": "Bruder Elias von Cortona",
+      "role": "Umstrittener Nachfolger",
+      "description": "Gefährte und später Leiter des Ordens nach Franz; eine umstrittene Gestalt, Zeichen der Spannungen zwischen Charisma und Institution.",
+      "isHistorical": true,
+      "yearTo": 1253,
+      "sourceDocumentIds": [
+        "source.bonaventura_leggenda_maggiore"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "place.assisi",
+      "name": "Assisi",
+      "description": "Geburtsstadt des Franz: der Platz, die Kathedrale San Rufino, die Mauern, die mittelalterlichen Gassen.",
+      "historicalNote": "Ein realer historischer Ort.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.san_damiano",
+      "name": "San Damiano",
+      "description": "Kleine Kirche außerhalb von Assisi, wo Franz vor dem Kruzifix betete; später Wohnung Klaras und ihrer Schwestern.",
+      "historicalNote": "Ein realer historischer Ort.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.porziuncola",
+      "name": "Portiunkula (Santa Maria degli Angeli)",
+      "description": "Kleine Kirche in der Ebene unterhalb von Assisi: Wohnung der ersten Bruderschaft und Ort des Todes von Franz.",
+      "historicalNote": "Ein realer historischer Ort; heute in die Basilika Santa Maria degli Angeli eingeschlossen.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.rivotorto",
+      "name": "Rivotorto",
+      "description": "Eine Hütte am Bach, wo die ersten Gefährten die wandernde Lebensform lebten.",
+      "historicalNote": "Ein realer historischer Ort; das heutige Heiligtum bewahrt das Gedächtnis der Niederlassung.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.carcere",
+      "name": "Eremo delle Carceri",
+      "description": "Einsiedelei auf dem Monte Subasio, zwischen Steineichen und Grotten: Ort des Rückzugs und des Gebets.",
+      "historicalNote": "Ein realer historischer Ort.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.gubbio",
+      "name": "Gubbio",
+      "description": "Umbrische Stadt, verbunden mit der Erzählung vom Wolf und mit der Gegenwart des Franz in der Zeit des Einsiedlerlebens.",
+      "historicalNote": "Ein realer historischer Ort; die Episode vom Wolf gehört zur hagiografischen Überlieferung.",
+      "isHistoricalPlace": true,
+      "region": "Umbrien"
+    },
+    {
+      "id": "place.greccio",
+      "name": "Greccio",
+      "description": "Ein Ort im Reatiner Land, wo Franz Weihnachten 1223 mit einer lebendigen Krippe feierte.",
+      "historicalNote": "Ein realer historischer Ort.",
+      "isHistoricalPlace": true,
+      "region": "Latium"
+    },
+    {
+      "id": "place.laverna",
+      "name": "La Verna",
+      "description": "Ein Berg im toskanischen Apennin, Franz geschenkt; Ort des Rückzugs von 1224 und, nach den mittelalterlichen Quellen, der Stigmata.",
+      "historicalNote": "Ein realer historischer Ort.",
+      "isHistoricalPlace": true,
+      "region": "Toskana"
+    },
+    {
+      "id": "place.fonte_colombo",
+      "name": "Fonte Colombo",
+      "description": "Einsiedelei bei Rieti, wo 1221 die nicht-bullierte Regel verfasst wurde.",
+      "historicalNote": "Ein realer historischer Ort.",
+      "isHistoricalPlace": true,
+      "region": "Latium"
+    },
+    {
+      "id": "place.damietta",
+      "name": "Damiette",
+      "description": "Stadt im Nildelta, Schauplatz des Fünften Kreuzzugs und der Begegnung zwischen Franz und dem Sultan (1219).",
+      "historicalNote": "Ein realer historischer Ort.",
+      "isHistoricalPlace": true,
+      "region": "Ägypten"
+    },
+    {
+      "id": "place.borgo_querce",
+      "name": "Dorf der Eichen",
+      "description": "Erdachtes Dorf im Spoletaner Tal: der wichtigste erzählerische Schauplatz des Wanderers.",
+      "historicalNote": "Eine für das Spiel erfundene Umgebung; kein historischer Ort.",
+      "isHistoricalPlace": false,
+      "region": "Umbrien (erfunden)"
+    },
+    {
+      "id": "place.campagne_umbre",
+      "name": "Umbrische Felder und Wälder",
+      "description": "Die Straßen, die Steineichenwälder und die Felder zwischen den Dörfern: der wandernde Schauplatz der Geschichten des Wanderers.",
+      "historicalNote": "Erzählerische Umgebung, vom wirklichen umbrischen Landschaftsbild angeregt.",
+      "isHistoricalPlace": false,
+      "region": "Umbrien (Schauplatz)"
+    }
+  ],
+  "glossary": [
+    {
+      "id": "gloss.agiografia",
+      "term": "Hagiografie",
+      "definition": "Literatur der Heiligenleben: eine mittelalterliche Gattung der Andacht, die erbauen will, nicht chronikartig berichten. Man liest sie mit anderen Werkzeugen als die der dokumentarischen Geschichte."
+    },
+    {
+      "id": "gloss.penitenza",
+      "term": "Buße",
+      "definition": "In der Sprache des Franz: Umkehr des Herzens und des Lebens, nicht Strafe. „Buße tun“ hieß, die Richtung zu ändern."
+    },
+    {
+      "id": "gloss.frate_minore",
+      "term": "Minderbruder",
+      "definition": "Der Name, den Franz für seine Gefährten wählte: „die Minderen“, das heißt die Letzten, ohne Anspruch auf Rang."
+    },
+    {
+      "id": "gloss.ministro",
+      "term": "Minister",
+      "definition": "In der franziskanischen Bruderschaft: der Verantwortliche einer Gemeinschaft oder Provinz. Das Wort bedeutet „Diener“."
+    },
+    {
+      "id": "gloss.regola",
+      "term": "Regel",
+      "definition": "Der Text, der die Lebensform einer religiösen Gemeinschaft bestimmt. Franz schrieb zwei Fassungen: die nicht-bullierte (1221) und die bullierte (1223)."
+    },
+    {
+      "id": "gloss.bolla",
+      "term": "Bulle",
+      "definition": "Amtliches Dokument des Papstes, nach dem Bleisiegel (bulla), das es beglaubigt. „Bullierte Regel“ = eine mit einer Bulle bestätigte Regel."
+    },
+    {
+      "id": "gloss.porziuncola",
+      "term": "Portiunkula",
+      "definition": "„Kleiner Anteil“ an Land: die Kirche Santa Maria degli Angeli bei Assisi, Haus der Bruderschaft."
+    },
+    {
+      "id": "gloss.stimmate",
+      "term": "Stigmata",
+      "definition": "Zeichen der Passion Christi, die die mittelalterlichen Quellen Franz nach dem Rückzug auf La Verna (1224) zuschreiben."
+    },
+    {
+      "id": "gloss.sine_proprio",
+      "term": "Sine proprio",
+      "definition": "Lateinischer Ausdruck der Überlieferung: „ohne irgendetwas Eigenes“, die franziskanische Gestalt der Armut."
+    },
+    {
+      "id": "gloss.lauda",
+      "term": "Lauda",
+      "definition": "Religiöse Dichtung in der Volkssprache, zum Singen bestimmt. Der Sonnengesang ist eine Lauda."
+    },
+    {
+      "id": "gloss.comune",
+      "term": "Kommune",
+      "definition": "Die städtische Selbstverwaltung des mittelalterlichen Italien: Das Assisi des Franz war eine wachsende Kommune im Konflikt mit Perugia und mit der feudalen Macht."
+    },
+    {
+      "id": "gloss.capitolo",
+      "term": "Kapitel",
+      "definition": "Regelmäßige Versammlung einer religiösen Bruderschaft; auch „Generalkapitel“ für die des ganzen Ordens."
+    },
+    {
+      "id": "gloss.lebbrosario",
+      "term": "Leprosorium",
+      "definition": "Mittelalterliches Hospital oder Lazarett für die Aussätzigen, außerhalb der Stadtmauern. Ort der entscheidenden Begegnung des Franz."
+    },
+    {
+      "id": "gloss.eleemosina",
+      "term": "Almosen",
+      "definition": "Eine Gabe, die man erbittet oder empfängt, um zu leben. Für die ersten Brüder war sie Zeichen des Vertrauens auf die Vorsehung, nicht Erniedrigung."
+    }
+  ],
+  "biography": [
+    {
+      "id": "bio.giovinezza",
+      "order": 1,
+      "title": "Der Sohn des Kaufmanns (1181/82–1202)",
+      "text": "Franz wird in Assisi als Sohn Pietro di Bernardones geboren, eines reichen Tuchhändlers, und der Madonna Pica. Er wächst in einer Stadt auf, die als Kommune in voller Blüte steht: ein glänzender junger Mann, freigebig, Freund der Feste und der französischen Trouvères, der vom ritterlichen Ruhm träumt. 1202 kämpft er bei Collestrada gegen Perugia; die Niederlage und ein Jahr Gefangenschaft setzen seinem ersten Leben ein dramatisches Ende.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": []
+    },
+    {
+      "id": "bio.svolta",
+      "order": 2,
+      "title": "Die Wende (1202–1206)",
+      "text": "Die Krankheit nach der Gefangenschaft, der Traum von Spoleto, die Pilgerfahrt nach Rom, wo er die Kleider mit einem Bettler tauscht: Franz sucht eine neue Richtung. Dann die Episode, die er selbst als den Anfang bezeichnen wird: die Begegnung mit den Aussätzigen, wo „sich verwandelte, was mir bitter schien, in Süße“. In San Damiano, vor dem Kruzifix, hört er die Einladung, das „Haus“ Gottes zu reparieren. Er verkauft Tuch und Pferd des Vaters, um die kleine Kirche instand zu setzen; der Konflikt bricht vor dem Bischof aus, wo er alles zurückgibt.",
+      "sourceDocumentIds": [
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.celano_vita_seconda"
+      ],
+      "teachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.rinuncia.sine_proprio",
+        "teaching.fede.cristo_centro"
+      ]
+    },
+    {
+      "id": "bio.ripara",
+      "order": 3,
+      "title": "„Repariere mein Haus“ (1206–1209)",
+      "text": "Allein, als Büßer gekleidet, stellt Franz Stein um Stein San Damiano, San Pietro und die Portiunkula wieder her und dient in den Leprosorien. Die Stadt verspottet ihn zuerst, dann beginnt sie, ihn anzusehen. Im Hören des Evangeliums versteht er die Berufung: den Frieden verkünden, ohne irgendetwas Eigenes leben, unterwegs. Das Vorhaben erweist sich als größer als die Wiederherstellung dreier Kirchen: die Kirche selbst von unten zu reparieren.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.fraternita",
+      "order": 4,
+      "title": "Die Bruderschaft (1209–1219)",
+      "text": "Bernhard von Quintavalle, Ägidius und die anderen: Die ersten Gefährten teilen die Lebensform, und 1210 (oder 1209) erkennt Innozenz III. sie mündlich an. Die Portiunkula wird zum Haus. 1212 flieht Klara von Assisi bei Nacht, um derselben Berufung zu folgen. Die Bruderschaft wächst über jede Erwartung hinaus, mit jährlichen Kapiteln und Missionen in ganz Europa: Die Schwierigkeiten der großen Zahlen beginnen.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.accoglienza.ogni_uomo"
+      ]
+    },
+    {
+      "id": "bio.sultano",
+      "order": 5,
+      "title": "Nach Osten (1219–1220)",
+      "text": "Mitten im Fünften Kreuzzug erreicht Franz das Kreuzfahrerlager in Damiette, überschreitet die Linien und begegnet dem Sultan al-Malik al-Kamil. Die mittelalterlichen Quellen beschreiben ihren gegenseitigen Respekt; die moderne Geschichtsschreibung erörtert die Einzelheiten, aber die Gebärde bleibt: in Kriegszeit entgegengehen. Bei der Rückkehr findet er die Bruderschaft verändert und in Schwierigkeiten: Die Größe verlangt Strukturen, die er fürchtet.",
+      "sourceDocumentIds": [
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.pace.saluto"
+      ]
+    },
+    {
+      "id": "bio.regola",
+      "order": 6,
+      "title": "Die Mühe des Wachsens (1220–1223)",
+      "text": "Franz gibt die tägliche Leitung des Ordens ab und widmet sich der geschriebenen Regel: die von 1221, lang und frei, wird nicht bestätigt; die von 1223, kürzer und rechtlich, erhält die Bulle Honorius’ III. Die Spannung zwischen Charisma und Institution durchzieht diese Jahre: Franz lebt sie in Treue und im Leiden. In Greccio, zu Weihnachten 1223, macht er die Armut Bethlehems mit einer wirklichen Krippe sichtbar.",
+      "sourceDocumentIds": [
+        "source.regola_non_bollata",
+        "source.regola_bollata",
+        "source.celano_vita_prima"
+      ],
+      "teachingIds": [
+        "teaching.comunita.regola",
+        "teaching.poverta.liberta"
+      ]
+    },
+    {
+      "id": "bio.ultimi",
+      "order": 7,
+      "title": "Der Sonnengesang und der Abend (1224–1226)",
+      "text": "Auf La Verna, im September 1224, erzählen die Quellen die Stigmata. Krank und nahezu blind dichtet er in San Damiano den Sonnengesang: Das Lob entsteht in der dunkelsten Zeit. Er fügt die Strophe der Vergebung hinzu, um Bischof und Podestà zu versöhnen, und schließlich die von „Schwester, dem leiblichen Tod“. Nachdem er das Testament diktiert hat, stirbt er in der Portiunkula am Abend des 3. Oktober 1226, nackt auf der nackten Erde. Zwei Jahre später ruft Gregor IX. ihn heilig.",
+      "sourceDocumentIds": [
+        "source.cantico",
+        "source.testamento",
+        "source.celano_vita_prima",
+        "source.bonaventura_leggenda_maggiore"
+      ],
+      "teachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    }
+  ]
+}

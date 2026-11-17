@@ -1,0 +1,758 @@
+{
+  "cards": [
+    {
+      "id": "card.ins.pace_saluto",
+      "type": "insegnamento",
+      "title": "Pozdrav mira",
+      "text": "U Oporuci Franjo svjedoči da mu je Gospodin objavio pozdrav mira koji treba nositi drugima, a srednjovjekovni izvori pamte prvu braću kako navješćuju mir od kuće do kuće. Za Franju mir nije odsutnost sukoba: to je dar koji se predaje, od vrata do vrata, od osobe do osobe. Pripovijest o vuku iz Gubbia tu logiku dovodi do krajnosti: mir se sklapa čak i s onim što plaši, idući mu ususret. Iz iste predaje rađa se pučka formula „mir i dobro“.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.poverta_liberta",
+      "type": "insegnamento",
+      "title": "Siromaštvo kao sloboda",
+      "text": "Pravilo iz 1223. traži od braće da si ništa ne prisvajaju — ni kuće, ni mjesta, ni bilo koje stvari — i da žive kao hodočasnici i došljaci u svijetu. Franjevačko siromaštvo ne veliča oskudicu, koja ostaje društvena rana: to je izbor da nas posjed ne određuje. Tko nema što braniti, nema čega se bojati i sve može primiti kao dar. Temelj je teološki prije nego gospodarski: sam se Gospodin učinio siromašnim.",
+      "theme": "poverta",
+      "teachingId": "teaching.poverta.liberta",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.fraternita_minori",
+      "type": "insegnamento",
+      "title": "Manja braća",
+      "text": "Franjo je htio da se njegovi zovu manja braća: nitko nije velik, a odgovorni se zovu „ministri“, to jest sluge. Pravilo iz 1221. traži da svatko drugomu očituje svoju potrebu, da nitko ne sudi brata, da zdrav ne prezire slabost bolesnoga. Bratstvo nije ideal koji se proglašuje: to je svakodnevna praksa uzajamne odgovornosti. Braća se jest u konkretnim gestama, ili se uopće nije.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.creato_cantico",
+      "type": "insegnamento",
+      "title": "Brat sunce, sestra voda",
+      "text": "U Pjesmi stvorova Franjo hvali Boga „po“ stvorovima i „sa“ stvorovima: brate sunce, sestro mjeseče, brate vjetre, sestro vodo „korisna i ponizna i dragocjena i čista“, sestro naša majko zemljo. Priroda nije pobožanstvenjena niti svedena na skladište zaliha: ona je obitelj, jer sva stvorenja imaju istoga Oca. Briga za stvoreno rađa se iz srodstva i zahvalnosti, ne iz računa. A Pjesma je sastavljena u bolesti: hvala ne ovisi o okolnostima.",
+      "theme": "creato",
+      "teachingId": "teaching.creato.cantico",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.gioia_letizia",
+      "type": "insegnamento",
+      "title": "Savršena radost",
+      "text": "U Cvjetićima Franjo bratu Leonu objašnjava da prava radost nisu čudesa, ni uspjesi, ni obraćenja nevjernika: to je vratiti se na vrata odbačen, promrzao i zlostavljan, i ostati strpljiv i radostan. To je hagiografska pripovijest, ne kronika, ali sažima vjerodostojnu crtu franjevačkog duha. Savršena radost ne ovisi o događajima: to je unutarnji izbor koji joj nijedno odbijanje ne može oduzeti.",
+      "theme": "gioia",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.ins.perdono_mille",
+      "type": "insegnamento",
+      "title": "Sedamdeset puta sedam, i dalje",
+      "text": "U Pismu ministru Franjo piše da, ako bi brat sagriješio tisuću puta, treba ga ipak ljubiti i navijestiti mu milosrđe, samo ako se pokaje. Franjevačko oproštenje ne niječe zlo: odbija da zlo ima posljednju riječ o odnosu. U Pjesmi je strofa o onima koji opraštaju iz ljubavi prema Bogu dodana — prema predaji — da pomiri biskupa i podestu Assisija koji su bili u sukobu. Oproštenje je ujedno skrb za osobu i lijek gradu.",
+      "theme": "perdono",
+      "teachingId": "teaching.perdono.mille_volte",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.greccio",
+      "type": "evento",
+      "title": "Božić u Grecciu",
+      "text": "Na Božić 1223. Franjo je u Grecciu htio slaviti Isusovo rođenje pravim jaslama, sijenom, volom i magarcem: da tjelesne oči vide siromaštvo Betlehema. Toma Čelanski to prikazuje kao živo sjećanje otajstva, ne kao predstavu. Iz te noći rađa se predaja o jaslicama. Gesta je tipično franjevačka: vjera se dotiče, vidi, u njoj se stanuje.",
+      "theme": "fede",
+      "sourcePassageIds": [
+        "pass.celano1.greccio"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.sultano",
+      "type": "evento",
+      "title": "Susret sa sultanom",
+      "text": "Godine 1219., tijekom petog križarskog rata, Franjo je prešao linije križarske vojske u Damietti da susretne sultana al-Malika al-Kamila. Srednjovjekovni izvori pamte poštovan razgovor među njima, usprkos nesvedivoj razlici vjere. U ratno doba Franjo je odabrao put nenaoružanog susreta umjesto propovijedi protiv. Događaj ostaje mjerilo za svaki razgovor koji prelazi granice vlastitoga svijeta.",
+      "theme": "accoglienza",
+      "teachingId": "teaching.accoglienza.ogni_uomo",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.lupo",
+      "type": "evento",
+      "title": "Vuk iz Gubbia",
+      "text": "Cvjetići pripovijedaju da je u Gubbiu vuk držao grad u strahu, a Franjo je, ususret uplašenom mnoštvu, pošao prema zvijeri i govorio joj kao bratu. Iz toga se rodio savez mira: grad bi hranio vuka, a vuk više ne bi nikomu činio zla. To je pripovijest hagiografske predaje četrnaestog stoljeća, dragocjena više za imaginarij nego za kroniku. Pouka je jasna: mir se gradi odlaskom ususret onomu što plaši, i uključivanjem cijele zajednice u savez.",
+      "theme": "pace",
+      "sourcePassageIds": [
+        "pass.fioretti.lupo"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.evt.rinuncia",
+      "type": "evento",
+      "title": "Odricanje pred biskupom",
+      "text": "Početkom 1206., pred biskupom Guidom i svojim ocem Petrom Bernardoneom, Franjo je vratio odjeću i odrekao se očevih dobara. Toma Čelanski pripovijeda da ga je biskup pokrio svojim plaštem: Crkva je primala onoga koga trgovačka obitelj više nije razumjela. Nije to bio bijeg od stvari, nego javno oslobođenje od zamisli da ih se posjeduje. Od toga dana Franjo je mogao ovisiti samo o Ocu koji je na nebesima — i o darežljivosti drugih.",
+      "theme": "rinuncia",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.chiara",
+      "type": "personaggio",
+      "title": "Klara Asiška",
+      "text": "Mlada plemkinja iz Assisija, Klara je napustila očinsku kuću u noći Cvjetnice 1212. da slijedi Franjin evanđeoski oblik života; on joj je na Porcijunkuli odrezao kosu. Utemeljila je zajednicu siromašnih sestara San Damiana i cijeli život branila „povlasticu siromaštva“ protiv crkvenih pritisaka. Bila je prva žena koja je napisala redovničko pravilo za žene, odobreno dva dana prije njezine smrti, 1253. Njezina blagost bila je od iste tvari kao i njezina ustrajnost.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.bernardo",
+      "type": "personaggio",
+      "title": "Bernard od Quintavallea",
+      "text": "Bogat i poštovan građanin Assisija, Bernard je bio Franjin prvi drug: htio je svojim očima vidjeti kako živi taj mladić kojeg su svi ismijavali, i jedna mu je noć molitve bila dovoljna. Prodao je svoja dobra, razdijelio ih siromasima i odabrao putujući život. Izvori ga pamte kao prvi plod bratstva i, na kraju života, kao ljubljenog svjedoka duha početaka. On je započeo lanac: bez prvog brata nema bratstva.",
+      "theme": "fraternita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.leone",
+      "type": "personaggio",
+      "title": "Brat Leon",
+      "text": "Drug i ispovjednik Franje u posljednjim godinama, brat Leon bio je svjedok doba La Verne i čuvar jedinog svetčeva autografa: pisma i blagoslova koje je čuvao cijeli život. U pismu Franjo na njegovu tjeskobu da dobro odabere odgovara riječima slobode: slijedi svoju savjest pred Bogom. U Cvjetićima on je sugovornik razgovora o savršenoj radosti. Leon predstavlja krhkog i iskrenog učenika, bližeg Franjinu duhu nego što sugerira njegov glas jednostavnosti.",
+      "theme": "umilta",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.pers.sultano",
+      "type": "personaggio",
+      "title": "Sultan al-Malik al-Kamil",
+      "text": "Sultan Egipta iz ajubidske dinastije, Saladinnov unuk, al-Malik al-Kamil primio je Franju u Damietti 1219., usred petog križarskog rata. Srednjovjekovni izvori, kršćanski i ne samo oni, opisuju ga kao vladara sposobnog za slušanje i razgovor s latinskim svijetom, s kojim je dugo pregovarao o Jeruzalemu. Susret s Franjom nije obratio nijednoga od njih: pokazao je da se može govoriti kao vjernik bez oružja u ruci. Ostaje ključna osoba da se razumije kako franjevačko prihvaćanje prelazi granice vjere.",
+      "theme": "accoglienza",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.comune",
+      "type": "contesto",
+      "title": "Srednjovjekovna komuna",
+      "text": "Franjin Assisi je komuna u usponu: konzuli i podeste, kule i zavade, trgovci koji se bogate i cehovi koji organiziraju rad. To je svijet utemeljen na časti, položaju i kreditu, gdje je bogatstvo vidljivo, a siromaštvo sramota. Obitelj Petra Bernardonea pripada tom izranjajućem građanstvu. Upravo protiv tih vrijednosti — ne protiv bogatstva samog po sebi, nego protiv vlasti koju ono vrši nad srcem — oblikuje se franjevački izbor.",
+      "theme": "comunita",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.lebbrosario",
+      "type": "contesto",
+      "title": "Gubilište",
+      "text": "U trinaestom stoljeću gubavci su živjeli izvan zidina, u lazzaretima poput onih kraj Assisija, isključeni iz gradskog života i obilježeni tobožnjim žigom grijeha. Franjo u Oporuci ispovijeda da mu se činilo odviše gorkim gledati ih; i da je upravo među njima, kad ga je Gospodin onamo odveo, učinio milosrđe i našao slatkoću. Čelanski opisuje konkretno služenje: prati rane, grliti, opskrbljivati. Gubilište je mjesto gdje se rađa franjevačka ljubav: ne osjećaj, nego susret tijela.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.elemosina",
+      "type": "contesto",
+      "title": "Milostinja",
+      "text": "Srednjovjekovna pobožnost poznavala je milostinju kao zaslužno djelo: davalo se za vlastitu dušu, često držeći se podalje. Pravilo iz 1223. naprotiv traži od braće da idu po milostinju ne stideći se, sjećajući se da se Gospodin učinio siromašnim: tražiti postaje dio života, ne poniženje koje se izbjegava. A davanje se pretvara u odnos: ne ostavlja se nešto siromahu, ostaje se sa siromahom. Tko daruje i tko prima mijenjaju ulogu prosjaka pred Bogom.",
+      "theme": "carita",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.cont.eremo",
+      "type": "contesto",
+      "title": "Erem",
+      "text": "Franjevački život nije samo cesta i propovijedanje: Franjo je tražio samotna povlačenja — Carceri iznad Assisija, La Vernu na Apeninima — vodeći malo drugova i duge šutnje. Na La Vernu, u rujnu 1224., izvori smještaju stigme i sastavljanje Hvala Boga: Franjina najčišća molitva je hvala bez molbi. Erem nije bijeg od svijeta: to je mjesto na koje se vraća bitnome da bi se zatim sišlo među ljude. Poslanje i povlačenje drže se kao dvije noge puta.",
+      "theme": "preghiera",
+      "sourcePassageIds": [
+        "pass.celano1.stimmate",
+        "pass.lodi_dio.lode"
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.possesso",
+      "type": "riflessione",
+      "title": "Što posjeduje tebe?",
+      "text": "U mislima napravi inventar stvari do kojih ti je najviše stalo. Zatim se pitaj, jednu po jednu: posjedujem li je ja, ili ona posjeduje mene? Koliko tvog vremena, pažnje, tjeskobe služi da braniš ono što imaš? Nema točnog odgovora: ima samo istina o tebi.",
+      "theme": "poverta",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.nemico",
+      "type": "riflessione",
+      "title": "Tko je tvoj vuk?",
+      "text": "U tvojoj četvrti, na tvom poslu, u tvojoj obitelji: tko je osoba ili situacija od koje svi bježe? Što bi se dogodilo kad bi, umjesto da se dižu zidovi, netko pošao ususret i pitao: čega si gladan? Tko bi, u tvom gradu, mogla biti zajednica koja jamči savez?",
+      "theme": "pace",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.rifl.gioia",
+      "type": "riflessione",
+      "title": "O čemu ovisi tvoja radost?",
+      "text": "Sjeti se zadnji put kad si bio doista radostan: je li to ovisilo o postignutom rezultatu, o priznanju, o kupnji? Sada pomisli na radost koju ti nijedan vanjski događaj ne može oduzeti. Ako ti ništa ne pada na pamet, nije to krivnja: to je trag za traženje. Što bi se u tebi moralo promijeniti da radost ne bude u najmu od događaja?",
+      "theme": "gioia",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.pace",
+      "type": "percorso",
+      "title": "Put mira",
+      "text": "Put u dvije situacije: spor o međi u srednjovjekovnom naselju i nepravda pretrpljena u današnjem uredu. Franjevački mir nije odsutnost sukoba: to je pozdrav koji se nosi, posredovanje koje se nudi, radost koju se ne ostavlja kao taoca događaja. Otvara se kad otkriješ nauk o pozdravu mira.",
+      "theme": "pace",
+      "teachingId": "teaching.pace.saluto",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "card.path.fraternita",
+      "type": "percorso",
+      "title": "Put bratstva",
+      "text": "Put unutar zajedničkog života: što učiniti kad brat teško zgriješi, a zajednica se podijeli između strogosti i prihvaćanja? Franjevačko bratstvo mjeri se upravo ondje, ne u dobrim nakanama. Otvara se kad otkriješ nauk o manjoj braći, i prolazi kroz oproštenje bez granice i pravilo koje štiti.",
+      "theme": "fraternita",
+      "teachingId": "teaching.fraternita.minori",
+      "reviewStatus": "verified"
+    }
+  ],
+  "paths": [
+    {
+      "id": "path.pace",
+      "title": "Put mira",
+      "theme": "pace",
+      "description": "Od pozdrava nošenog od kuće do kuće do radosti koja ne ovisi o događajima: dvije situacije da se mir uči kao praksa, u srednjovjekovnom naselju i u današnjem uredu.",
+      "requiresTeachings": [
+        "teaching.pace.saluto"
+      ],
+      "scenarioIds": [
+        "scen.pace.001",
+        "scen.pace.002"
+      ],
+      "teachingIds": [
+        "teaching.pace.saluto",
+        "teaching.gioia.perfetta_letizia"
+      ]
+    },
+    {
+      "id": "path.semplicita",
+      "title": "Put jednostavnosti",
+      "theme": "poverta",
+      "description": "Što učiniti s dobrima koja nam prolaze kroz ruke: osjetljivo čuvanje u trinaestom stoljeću i neproziran projekt danas. Franjevačko siromaštvo kao sloboda od posjeda i kao odgovornost onoga tko služi.",
+      "requiresTeachings": [
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "scenarioIds": [
+        "scen.semplicita.001",
+        "scen.semplicita.002"
+      ],
+      "teachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.poverta.liberta",
+        "teaching.servizio.ministro"
+      ]
+    },
+    {
+      "id": "path.fraternita",
+      "title": "Put bratstva",
+      "theme": "fraternita",
+      "description": "Kad brat teško pogriješi, bratstvo otkriva što doista jest: sud ili dom. Jedna situacija da se prođe kroz oproštenje, pravilo i uzajamnu odgovornost.",
+      "requiresTeachings": [
+        "teaching.fraternita.minori"
+      ],
+      "scenarioIds": [
+        "scen.fraternita.001"
+      ],
+      "teachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.perdono.mille_volte",
+        "teaching.comunita.regola"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scen.pace.001",
+      "title": "Zid na međi",
+      "situation": "Naselje u Assisiju, početak trinaestog stoljeća. Berta, koja drži bojadisarsku radnju, i Lupo, tkalac iz susjednih vrata, već tjednima spore lakat zemlje između svojih kuća: njome prolazi oluk, i svatko se kune da je zid na njegovoj strani. Obitelji su prestale pozdravljati se; naučnici si na cesti dobacuju uvrede. Poznaješ oboje, i oboje ti vjeruju. Večeras te pitaju: na čijoj si strani?",
+      "teachingId": "teaching.pace.saluto",
+      "options": [
+        {
+          "id": "opt.pace.001.a",
+          "text": "Ne stati ni na čiju stranu: ponuditi se da ih saslušaš jednog po jednog, zatim zajedno, i pomoći im da nađu jednostavan dogovor o zidu i oluku.",
+          "consequence": "Prvi su tjedni naporni: svatko te pokušava povući na svoju stranu. Zatim, silom toga što su saslušani, otkrivaju da pravi čvor nije lakat zemlje nego stara nepravda koja nikad nije oproštena. Dogovor o zidu stiže gotovo brzo, i na blagdan svetog Jurja dvije se radnje opet međusobno posuđuju.",
+          "perspectives": [
+            {
+              "label": "Franjevački put",
+              "text": "U Oporuci Franjo svjedoči da mu je Gospodin objavio pozdrav mira koji treba nositi drugima, a izvori pamte braću kako navješćuju mir od kuće do kuće. Posredovati osobno, ponizno, upravo je ta gesta: mir se ne želi, predaje se.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Pouka Gubbia",
+              "text": "U pripovijesti o vuku mir se rađa kad netko ide ususret onomu što plaši i cijela zajednica postaje jamac saveza: grad hrani vuka, vuk više ne škodi. Ovdje dvije obitelji i susjedne radnje jamče dogovor, da traje i nakon tvoje nazočnosti.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Razboritost naselja",
+              "text": "Tko stane u sredinu, riskira postati meta obiju strana ako dogovor propadne. Posredovanje uspijeva jer si izvan spora i ništa ne dobivaš: tvoja vjerodostojnost tvoj je jedini kapital, i treba ga trošiti štedljivo.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.b",
+          "text": "Savjetovati oboma da stvar iznesu pred konzule komune ili pred ceh trgovaca: međa se izmjeri, isprave se čitaju, pravo odlučuje.",
+          "consequence": "Svađa izlazi s ceste i ulazi u oblike. Vještak komune mjeri, očinske se isprave čitaju, i nakon nekoliko mjeseci presuda dodjeljuje zid Lupu, a oluk Berti. Stara nepravda ipak ostaje neriješena: obitelji se jedva pozdravljaju, i nitko doista nije u miru.",
+          "perspectives": [
+            {
+              "label": "Pravo toga doba",
+              "text": "Komuna postoji upravo da zavadu zamijeni postupkom: treća presuda zatvara spor bez prolijevanja krvi i bez poniženja. To je stvarni građanski napredak, u trinaestom stoljeću teško izboren.",
+              "isEditorial": true
+            },
+            {
+              "label": "Franjevački put",
+              "text": "Franjevačka predaja ne prezire vlasti, ali podsjeća da pravda odlučuje o zidu, ne o srcu: pozdrav mira nošen od kuće do kuće teži vratiti ljude u odnos, ne samo raspodijeliti krivnje. Pravedna presuda može ostaviti svađu živom pod pepelom.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace"
+              ]
+            },
+            {
+              "label": "Razboritost naselja",
+              "text": "Obratiti se konzulima štiti te: ne odlučuješ ti, i nitko te neće moći optužiti za pristranost. Cijena je sporost i troškovi, i rizik da onaj tko izgubi čuva zamjerku prema komuni više nego prema susjedu.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.001.c",
+          "text": "Ne intervenirati: pustiti da vrijeme istaloži svađu, ograničivši se na to da je ne hraniš sudovima i ogovaranjem.",
+          "consequence": "Mjesecima napetost ostaje ispod površine: nitko više ne govori o zidu, ali naučnici se i dalje peckaju, a radovi na održavanju oluka stanu. Kad stigne zima, kiša poplavi oba podruma: pred zajedničkom štetom dva se susjeda iz nužde opet razgovaraju, i svađa se riješi sama, s nešto više hrđe.",
+          "perspectives": [
+            {
+              "label": "Razboritost naselja",
+              "text": "Ne traži svaki sukob miritelja: katkad prerani zahvat ukoči položaje. Vrijeme i zajednička nužda — poplavljen podrum — mogu posredovati bolje od bilo kojeg govora.",
+              "isEditorial": true
+            },
+            {
+              "label": "Franjevački put",
+              "text": "Franjevački mir je djelatan: nosi se, navješćuje, gradi se odlaskom ususret, kao u pripovijesti o vuku. Pustiti da se istaloži nije grijeh, ali nije pozdrav mira: to je odricanje da se bude sredstvo, što je katkad poniznost, a katkad udobnost.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.lupo"
+              ]
+            },
+            {
+              "label": "Pravo toga doba",
+              "text": "U srednjovjekovnom pravu neinterveniranje ima cijenu: svađa koja nije zastarjela vraća se, a zajednička šteta zapuštenog oluka pada na sve. Čekati nije neutralno: to je izbor koji račun pomiče unaprijed.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo"
+      ],
+      "closingReflection": "Franjevački mir počinje od pozdrava i završava u savezu koji zajednica čuva. Ali traži nekoga spremnog stajati u sredini ne dobivajući ništa. U tvojoj četvrti, danas, tko radi taj posao? I bi li ga ti mogao?"
+    },
+    {
+      "id": "scen.pace.002",
+      "title": "Oduzeta zasluga",
+      "situation": "Danas je na sastanku pred cijelim timom kolega predstavio kao svoje djelo koje je velikim dijelom tvoje. Nitko nije ništa rekao; šef mu je zahvalio. Već satima te peče u prsima. Sutra ćete se opet susresti pogledom u hodniku.",
+      "teachingId": "teaching.gioia.perfetta_letizia",
+      "options": [
+        {
+          "id": "opt.pace.002.a",
+          "text": "Odgovoriti istom mjerom: pri sljedećoj javnoj prigodi vratiti činjenice pred svima, precizno i pred istom publikom koja je vidjela nepravdu.",
+          "consequence": "Ispravak stiže točno i činjenice se vraćaju na svoje mjesto: šef razumije, neki ti kolege potiho zahvale. Kolega, javno ponižen, postaje tih i trajan protivnik; ozračje tima se ukoči i svaka se tvoja riječ sada mjeri na gram.",
+          "perspectives": [
+            {
+              "label": "Pravo toga doba",
+              "text": "Tražiti natrag vlastiti rad je zakonito: istina o zaslugama nije ogovaranje, a pustiti nepravdu da prođe može postati presedan. Ali oblik je važan: javna popravka stvara pobjednika i pobijeđenoga, a na duge staze pobijeđeni ne zaboravlja.",
+              "isEditorial": true
+            },
+            {
+              "label": "Franjevački put",
+              "text": "Pripovijest o savršenoj radosti uči da radost ne smije ovisiti o priznanju: ako ti se mir vraća tek kad je nepravda javno popravljena, dao si ga u najam sudu drugih. Vratiti činjenice je dopušteno; trebati to da bi ti bilo dobro prava je rana.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Razboritost naselja",
+              "text": "U radnom životu ugled se gradi kap po kap, a gubi vedrima: dobro odmjerena javna ispravka štiti, javno poniženje žigoše te kao osvetoljubivu osobu. Ako odabereš taj put, mjeri riječi prema sadržaju, nikad prema osobi.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.b",
+          "text": "Pustiti da prođe: ne reći ništa, ne gajiti zamjerku, ići dalje. Rad govori sam za sebe, a ti ne želiš dati nepravdi moć da ti upropasti dane.",
+          "consequence": "Šutnja te stoji nekoliko tjedana nestrpljivosti, zatim se čvor razriješi: sljedeći je projekt jasno tvoj, a tko promatra, ima dugo pamćenje. Kolega, neosporavan, ipak ponavlja ponašanje s drugim članom tima: tvoj unutarnji mir je spašen, ali problem ostaje u skupini.",
+          "perspectives": [
+            {
+              "label": "Franjevački put",
+              "text": "U Cvjetićima savršena radost upravo je ovo: podnijeti nepravdu ne dajući joj zapovijed nad vlastitim srcem, ostajući strpljiv i radostan. Nije to naivnost ni slabost: to je otkriće da radosti utemeljenoj na ljubavi ne treba pobijediti u svakom sporu.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Pravo toga doba",
+              "text": "Unutarnji mir je dobro, ali nije jedino: neosporavano neispravno ponašanje postaje navika, a sljedeća žrtva možda nema tvoju snagu. Pravda na poslu štiti i druge, ne samo tvoju zaslugu.",
+              "isEditorial": true
+            },
+            {
+              "label": "Razboritost naselja",
+              "text": "Ne reagirati je strategija s jednim uvjetom: mora biti odabrana, ne pretrpljena. Ako pustiti da prođe znači mjesecima gajiti, nisi vježbao radost nego zamjerku na rate. Srce treba provjeravati iskreno.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.pace.002.c",
+          "text": "Tražiti iskren razgovor: zamoliti kolegu za razgovor nasamo, izložiti činjenice bez optužbi i saslušati što ima reći.",
+          "consequence": "Razgovor je nezgodan, ali istinit: kolega napola priznaje, opravdava se, zatim — iznenađen što nije javno rastrgan — sam se ispravi na sljedećem sastanku, spominjući tvoj doprinos. Ne postajete prijatelji, ali među vama se rađa oblik budnog poštovanja; i stvar nikad ne stiže na trg tima.",
+          "perspectives": [
+            {
+              "label": "Franjevački put",
+              "text": "Ići nasamo nalikuje pozdravu mira nošenom od kuće do kuće: izložiti se osobno, bez publike, ostavljajući drugome otvorena vrata. I nalikuje savršenoj radosti jer tvoj mir ne podređuje ishodu: govoriš zbog istine, ne da pobijediš.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.testamento.saluto_pace",
+                "pass.fioretti.perfetta_letizia"
+              ]
+            },
+            {
+              "label": "Pravo toga doba",
+              "text": "Privatni razgovor štiti činjenice ne ponižavajući osobu: to je oblik popravke koji ostavlja radne odnose netaknutima. Njegova je granica što ovisi o dobroj vjeri drugoga: ako kolega niječe i ustraje, zatim treba formalni put.",
+              "isEditorial": true
+            },
+            {
+              "label": "Razboritost naselja",
+              "text": "Prije nego progovoriš, pitaj se što doista želiš: vratiti činjenice, ili naplatiti nepravdu? Razgovor uspijeva samo ako uđeš spreman slušati; ako uđeš da pobijediš, drugi to osjeti i zatvori se.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "closingReflection": "Savršena radost ne zabranjuje vratiti činjenice: zabranjuje dati nepravdi ključeve tvog srca. Pitaj se, u svom tjednu: koliko je puta tvoj mir u najmu od ponašanja drugih?"
+    },
+    {
+      "id": "scen.semplicita.001",
+      "title": "Trgovčevo čuvanje",
+      "situation": "Assisi, 1210. Guido, trgovac suknom koji kreće na sajmove u Champagne i neće se vratiti prije dvije godine, predlaže ti da čuvaš dio njegovih dobara: bale tkanine i kesu novca. Moći ćeš ih dotad rabiti — tkanina bi tvojoj maloj radnji dala skok — a po povratku vratit ćeš mu ugovorenu vrijednost, s dijelom dobitka. To je poštena prigoda. To je i veza koja traje dvije godine.",
+      "teachingId": "teaching.poverta.liberta",
+      "options": [
+        {
+          "id": "opt.semplicita.001.a",
+          "text": "Prihvatiti u cijelosti: rabiti tkaninu i novac da radnja naraste, računajući da ćeš vratiti vrijednost s ugovorenom dobiti kad se Guido vrati.",
+          "consequence": "Radnja doista raste: dva naučnika, novi tkalački stan, tvoje ime koje počinje kružiti. Ali svaka odluka sada prolazi kroz račun koji treba položiti: više ne spavaš pred sajmovima, bojiš se krađa i mršavih godina. Kad se Guido vrati, prije vremena i s vlastitim gubicima koje treba pokriti, održati savez stoji te gotovo sav dobitak — i uvidiš da si dvije godine proveo čuvajući novac više nego živeći.",
+          "perspectives": [
+            {
+              "label": "Franjevački put",
+              "text": "Pravilo iz 1223. traži da se ništa ne prisvaja, ni kuća ni mjesto ni bilo koja stvar: ne zato što su stvari zle, nego zato što ono što moraš vratiti i braniti počinje posjedovati tebe. San izgubljen pred sajmovima točan je znak promjene gospodara.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Logika trgovca",
+              "text": "U svijetu komune to je praksa: kredit vrti gospodarstvo, a odbiti svaki polog znači zauvijek ostati malen. Rizik se mjeri i cijeni; održati savez gradi ugled.",
+              "isEditorial": true
+            },
+            {
+              "label": "Pogled odricanja",
+              "text": "Čelanski pripovijeda Franju koji ocu vraća čak i odjeću: ne iz prezira prema stvarima, nego da ne ovisi ni o čemu što nije Otac. Pitanje nije je li savez pošten — jest — nego koliko slobode svog srca si spreman založiti na dvije godine.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.b",
+          "text": "Prihvatiti samo čuvanje, ne uporabu: zapečatiti tkaninu i novac, držati ih na sigurnom ne dajući im da rode, i vratiti ih netaknute po povratku.",
+          "consequence": "Dvije godine tvoja radnja ostaje ista, ali ti hodaš lako: nema računa koji treba položiti, nema dobitka koji treba braniti. Guido, vrativši se, nalazi sve netaknuto i cijeni te kao čovjeka od riječi; nudi ti druga čuvanja, koja ćeš vagati jedno po jedno. Netko te u naselju zove ludim: ta je tkanina mogla raditi za tebe.",
+          "perspectives": [
+            {
+              "label": "Franjevački put",
+              "text": "Čuvati ne prisvajajući gotovo je duhovna vježba: imati u rukama, a ne imati u srcu. Podsjeća na logiku Pravila — hodočasnici i došljaci u svijetu, sluge stvari a ne gospodari — primijenjenu na tuđe dobro.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Logika trgovca",
+              "text": "S gospodarskog gledišta to je propuštena prigoda: kapital koji stoji ne proizvodi, a besplatni čuvar daruje uslugu koja se drugdje plaća. Guidovo poštovanje vrijedi, ali ne plaća novi tkalački stan.",
+              "isEditorial": true
+            },
+            {
+              "label": "Razboritost naselja",
+              "text": "Čisto čuvanje ima svoje rizike — krađe, požari, optužbe za pronevjeru — ali ostavlja te slobodnim od svakog spora o dobitku. Ipak napiši ispravu pred svjedocima: povjerenje se bolje časti kad su papiri u redu.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.001.c",
+          "text": "Odbiti s poštovanjem: zahvaliti Guidu na povjerenju, ali ne htjeti veze posjeda ni račune koje treba polagati dvije godine.",
+          "consequence": "Guido ostane iznenađen, zatim kimne: tkanine će povjeriti drugome. Tvoja radnja ostaje mala i neka je zima tijesna, ali tvoja riječ u naselju dobiva poseban zvuk: onoga tko se ne prodaje i ne veže. Godinama poslije, kad odabereš slijediti braću koja prolaze kroz Assisi, nitko neće čudnim smatrati tvoj odmak: počeo je od tog ne.",
+          "perspectives": [
+            {
+              "label": "Pogled odricanja",
+              "text": "Franjino odricanje pred biskupom pokazuje da reći ne bogatstvu jest gesta slobode, ne prezira: vratio je odjeću da bi bez licemjerja mogao reći „Oče naš“. Motivirano ne danas pripravlja ne — i da — sutrašnjice.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.celano1.rinuncia"
+              ]
+            },
+            {
+              "label": "Franjevački put",
+              "text": "Pazi da slobodu ne pomiješaš s pravilom skrojenim za sebe: Pravilo govori o neprisvajanju, ne o odbijanju svake odgovornosti prema tuđim dobrima. I odbijanje može postati način da se misli samo na sebe.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_bollata.poverta"
+              ]
+            },
+            {
+              "label": "Razboritost naselja",
+              "text": "Odbiti je zakonito, ali ima društvenu cijenu: u naselju se pomaže i tako, čuvajući jedni drugima dobra. Tko uvijek odbija, s vremenom ostaje izvan mreže povjerenja na kojoj sve stoji.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.celano1.rinuncia"
+      ],
+      "closingReflection": "Franjevačko siromaštvo ne traži da se prezire stvari: traži da se primijeti kad stvari počinju posjedovati tebe. Sljedeći put kad nešto prihvatiš — predmet, zaduženje, dug — pitaj se: tko čuva koga?"
+    },
+    {
+      "id": "scen.semplicita.002",
+      "title": "Neproziran projekt",
+      "situation": "Danas. Povjeravaju ti vodstvo prestižnog projekta: vidljivost, tim koji sam biraš, znatan proračun. Ali dvije stavke rashoda ne štima, a financijer na tvoja pitanja odgovara izbjegavajućom ljubaznošću. Potpisati znači preuzeti odgovornost i za tu neprozirnost. Odbiti znači odreći se prigode koja se neće ponoviti.",
+      "teachingId": "teaching.servizio.ministro",
+      "options": [
+        {
+          "id": "opt.semplicita.002.a",
+          "text": "Prihvatiti bez daljnjih pitanja: projekt je jedinstvena prigoda, neprozirne stavke nisu tvoja nadležnost, i ionako bi netko potpisao umjesto tebe.",
+          "consequence": "Projekt dobro uspije i tvoja karijera napravi skok. Ali kad, godinu poslije, upravna provjera ponovno otvori te stavke rashoda, tvoj je potpis na dokumentima: odgovornost koju nisi htio pogledati ipak te sustigne, i osvojeni se ugled prevrne u neugodnu obranu.",
+          "perspectives": [
+            {
+              "label": "Odgovornost uloge",
+              "text": "U franjevačkom bratstvu tko vodi zove se „ministar“, sluga: služba postoji da bi se služilo, ne da bi se blistalo. Služba koja pristaje ne vidjeti ono za što odgovara već je izdala svoje ime, prije bilo kakve provjere.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Logika trgovca",
+              "text": "U svijetu rada razmišlja se ovako: svaki projekt ima sive zone, i tko hoće doista raditi nauči s njima živjeti. Odbiti svaku nesavršenost znači predati odluke onomu tko ima manje skrupula od tebe.",
+              "isEditorial": true
+            },
+            {
+              "label": "Razboritost naselja",
+              "text": "Potpis je granica: ono što potpišeš, to posjeduješ, sa svim posljedicama. Prije potpisa nije dosta izbrojiti do deset: treba točno znati što se potpisuje. Prigoda koja se neće ponoviti često se ponovi; ugled ne.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.b",
+          "text": "Odbiti: bez prozirnosti se ne potpisuje, i neka projekt prijeđe onomu tko te uvjete prihvaća.",
+          "consequence": "Odricanje peče, i mjesecima gledaš kako projekt ide dalje među problemima: bez tvog vodstva tim zanosi, i na kraju financijer povlači sredstva upravo zbog neprozirnih stavki. Tvoje ne, koje neki čitaju kao naivnost, drugi se sjećaju kad treba osoba od povjerenja za osjetljivu zadaću.",
+          "perspectives": [
+            {
+              "label": "Razboritost naselja",
+              "text": "Odbijanje štiti ugled, ali ostavlja problem netaknutim: projekt ide onomu tko ima manje skrupula, a ljudi koji na njemu rade trpe posljedice. Jedno ne čisti ruke, ne uvijek svijet.",
+              "isEditorial": true
+            },
+            {
+              "label": "Odgovornost uloge",
+              "text": "Pismo ministru pokazuje da je franjevačko vodstvo blizina i služenje, nikad nadmoćan odmak. Ali služiti ne znači pristati na sve: ministar koji potpisuje ono čime ne može upravljati ne služi braći, izlaže ih. I odbijanje može biti oblik skrbi.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Dugi pogled",
+              "text": "Karijere se grade od uhvaćenih prigoda, ali povjerenje se gradi od odbijenih. Ne izrečeno iz jasnih razloga i bez moraliziranja ulaganje je koje sporo sazrijeva i ne gubi vrijednost.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.semplicita.002.c",
+          "text": "Prihvatiti pod uvjetima: potpisati tek nakon što se pismeno utvrde prozirno izvješćivanje, neovisna revizija i pravo na obrazloženo povlačenje.",
+          "consequence": "Financijer odugovlači, prijeti da će tražiti druge, zatim popusti: tvoji uvjeti, napisani, postaju kralježnica projekta. Rad je sporiji i naporniji nego što je obećavao, ali kad provjera stigne — a stigne — računi su otvoreni i ekipa drži. Tvoje vodstvo postaje presedan: drugi će, nakon tebe, tražiti iste uvjete.",
+          "perspectives": [
+            {
+              "label": "Odgovornost uloge",
+              "text": "Ovo je put ministra u punom franjevačkom smislu: ne bježati od služenja, nego odbiti da služenje postane suučesništvo. Tko vodi, služi — a služiti uključuje štititi tim i projekt od sjenovitih zona, čak i po cijenu nezgodnih pregovora.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Logika trgovca",
+              "text": "Pisani uvjeti najbolji su kompromis, ali imaju cijenu: riskiraš izgubiti zadaću ako financijer ne popusti, i raditi godine s partnerom koji te smatra kontrolorom više nego saveznikom. Isplati se samo ako imaš vjerodostojne alternative.",
+              "isEditorial": true
+            },
+            {
+              "label": "Dugi pogled",
+              "text": "Postaviti uvjete najsporiji je i najplodniji način: ne ograničava se na to da te zaštiti, mijenja praksu. Ustanove se poboljšavaju kad netko osobni skrupul pretvori u zajedničko pravilo.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte"
+      ],
+      "closingReflection": "Franjo je odgovorne zvao „ministrima“, slugama: ime uloge već je njezin program. U tvom radu, što treba da tvoje služenje ne postane suučesništvo — i što da tvoja strogoća ne postane dezertiranje?"
+    },
+    {
+      "id": "scen.fraternita.001",
+      "title": "Brat koji je zgriješio",
+      "situation": "Porcijunkula, dvadesete godine trinaestog stoljeća. Brat Rufin teško je zgriješio protiv pravila: zadržao je za sebe novac primljen kao milostinju, i stvar je već poznata i izvana, među ljudima koji vas gledaju. U bratstvu se raspravlja danima. Neki traže uzornu pokoru i njegovo udaljenje iz naselja; drugi podsjećaju da je Rufin bolestan i skrhan; treći se boje da popustljivost pozove sve da griješe. Ministar traži mišljenje svakoga. I tvoje.",
+      "teachingId": "teaching.perdono.mille_volte",
+      "options": [
+        {
+          "id": "opt.fraternita.001.a",
+          "text": "Poduprijeti strogost: javna pokora i privremeno udaljenje Rufina, jer pravilo vrijedi za sve, a sablazan svjetovnjaka treba popraviti pred svima.",
+          "consequence": "Bratstvo odobrava strogu stegu. Rufin odlazi u daleki erem, ponižen pred onima koji su ga poznavali; svjetovnjaci naselja dive se dosljednosti braće i milostinje ne padaju. Ali u bratstvu se nešto ukoči: braća počinju skrivati svoje krhkosti iz straha od suda, a Rufinu, samom, trebat će godine da se vrati — ako se vrati.",
+          "perspectives": [
+            {
+              "label": "Mudrost zajednice",
+              "text": "Zajedničko pravilo razlikuje bratstvo od družine prijatelja: ako onaj tko teško zgriješi ne susretne posljedice, savez se isprazni i najslabiji plate cijenu. Javna popravka odgovara i na javnu sablazan.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Pismo ministru",
+              "text": "Franjo piše ministru da, ako bi brat sagriješio tisuću puta, treba ga ipak ljubiti i navijestiti mu milosrđe: tvrdoća koja sablazni slabog brata riskira da ga izgubi. Strogost nije zabranjena, ali nikad ne smije postati prezir.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Dugi pogled",
+              "text": "Zajednica u kojoj se svi boje suda postaje zajednica tajni: pravilo ostaje na papiru, a ruši se u srcima. Strogost koja ne predviđa put povratka proizvodi prognanike, ne pokornike.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.b",
+          "text": "Poduprijeti potpuno prihvaćanje: ponovno primiti Rufina bez javnih pokora, liječiti mu bolest i na sablazan odgovoriti blagošću, ne kaznama.",
+          "consequence": "Rufin ostaje. Plače pred braćom, vraća koliko može i polako nalazi mjesto u zajedničkom životu: nitko mu više ne predbacuje stvar. U naselju netko mrmlja da se braća međusobno pokrivaju, a dva mlada u bratstvu blagost uzimaju kao dopuštenje: ministar će se mjesecima mučiti da ponovno uspostavi da pravilo nije savjet.",
+          "perspectives": [
+            {
+              "label": "Pismo ministru",
+              "text": "To je put koji crta Pismo ministru: ljubiti više, ne manje, onoga tko je zgriješio; navijestiti milosrđe samo ako se pokaje; ne otvrdnuti vlastito srce zbog tuđeg grijeha. Franjo zna da taj put stoji i ipak ga propisuje.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Mudrost zajednice",
+              "text": "Pravilo iz 1221. traži da se jedni drugima očituju potrebe i da se ne prezire slabi: bolesni Rufin upravo je brat kojeg pravilo štiti. Ali isto pravilo postoji da se bratstvo ne raspe: milosrđe bez istine postaje suučesništvo.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Razboritost naselja",
+              "text": "Svjetovnjaci daju milostinju siromašnoj braći, ne lukavoj: neupravljana sablazan nagriza povjerenje koje drži zajednicu na životu. Prihvaćanje treba objasniti naselju, ne samo živjeti ga u kući, inače će se čitati kao pokriće.",
+              "isEditorial": true
+            }
+          ]
+        },
+        {
+          "id": "opt.fraternita.001.c",
+          "text": "Poduprijeti zajednički put: Rufin ostaje u bratstvu, vraća dugovano pred braćom, povjerava se bratskom praćenju, i cijela zajednica s njim nosi popravak prema naselju.",
+          "consequence": "Put je dug i nezgodan: Rufin se ispovijeda pred braćom, vraća novac od kuće do kuće zajedno sa starijim bratom i godinu dana obavlja najponiznije službe, a da mu nitko ne predbacuje. Naselje vidi pravu popravku, ne kaznu: povjerenje se polako vraća. Unutar bratstva događaj postaje nenapisano pravilo: tko padne, prati se; tko je zgriješio, popravlja se; nitko se ne gubi.",
+          "perspectives": [
+            {
+              "label": "Pismo ministru",
+              "text": "Milosrđe Pisma nije popust: to je ljubav koja prati pokajanje dok ne urodi plodom. Rufin koji vraća od kuće do kuće nije ponižen: to je brat koji se vraća, sa zajednicom koja hoda uz njega umjesto da ga gleda odozgo.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.lettera_ministro.mille_volte"
+              ]
+            },
+            {
+              "label": "Mudrost zajednice",
+              "text": "Pravilo iz 1221. zamišlja upravo ovo: braću koja očituju svoje potrebe — i one sramotne — i koja se međusobno nose. Zajednička popravka sjedinjuje istinu i milosrđe i krivnju jednoga pretvara u školu za sve.",
+              "isEditorial": false,
+              "sourcePassageIds": [
+                "pass.regola_non_bollata.fratelli"
+              ]
+            },
+            {
+              "label": "Pravo toga doba",
+              "text": "To je najzahtjevniji put za sve: traži vrijeme, čuvanje tajne ondje gdje treba, javnu istinu ondje gdje je sablazan bila javna. Ne podnose sve zajednice taj napor: bez sposobnog ministra srednji put postaje samo neodlučnost.",
+              "isEditorial": true
+            }
+          ]
+        }
+      ],
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.fratelli"
+      ],
+      "closingReflection": "Bratstvo se mjeri ne kad svi obdržavaju pravilo, nego kad ga netko prekrši. Pismo ministru fiksira zvijezdu — ljubiti više, ne manje — ne brišući istinu. U tvojim zajednicama, nalazi li onaj tko je pogriješio put povratka?"
+    }
+  ]
+}

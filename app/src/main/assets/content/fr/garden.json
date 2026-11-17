@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Le sentier de pierre",
+      "kind": "sentiero",
+      "description": "Un sentier de pierres claires traverse le jardin : le point d'où tout chemin commence.",
+      "symbolism": "Le chemin comme image de la vie : on se fraye une route en marchant, une pierre après l'autre.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "L'olivier de la paix",
+      "kind": "albero",
+      "description": "Un olivier ancien, à la couronne argentée, planté lorsque tu as découvert le salut de paix.",
+      "symbolism": "L'olivier : plante méditerranéenne de la paix et de la patience. Il croît lentement et dure des générations.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "La fontaine de sœur eau",
+      "kind": "acqua",
+      "description": "Une fontaine de pierre à l'eau limpide, que le soleil allume au matin.",
+      "symbolism": "« Sœur eau, utile et humble et précieuse et chaste » : dans le Cantique, l'eau est une sœur à remercier.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Les roses de San Damiano",
+      "kind": "fiore",
+      "description": "Un rosier en fleurs près du mur : il pousse là où quelqu'un a pris soin des autres.",
+      "symbolism": "La beauté qui naît du service : la charité fait fleurir les lieux arides.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Le potager partagé",
+      "kind": "orto",
+      "description": "De petites plates-bandes d'herbes et de légumes, soignées à tour de rôle : le travail humble qui nourrit tout le monde.",
+      "symbolism": "Le service quotidien : qui cultive le potager ne le possède pas, il le garde pour ceux qui viendront.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Le cyprès du silence",
+      "kind": "albero",
+      "description": "Un cyprès haut et droit, qui marque la limite entre le jardin et le bois.",
+      "symbolism": "La prière comme verticale : les racines dans la terre, la pointe vers le ciel.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Le nid des pinsons",
+      "kind": "animali",
+      "description": "Parmi les branches les plus sûres, un couple de pinsons a choisi le jardin pour faire son nid.",
+      "symbolism": "L'accueil : le jardin devient aussi la maison de ceux qui arrivent du dehors.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Le banc de pierre",
+      "kind": "struttura",
+      "description": "Un banc de pierre sous le mur, à l'heure de midi : l'endroit où s'asseoir et demeurer.",
+      "symbolism": "La foi comme une halte confiante : ne pas toujours marcher, parfois simplement rester.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Les tournesols de l'action de grâce",
+      "kind": "fiore",
+      "description": "Une rangée de tournesols qui tournent en suivant la lumière au long du jour.",
+      "symbolism": "La gratitude : se tourner vers la lumière est un exercice quotidien du regard.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "La ruche des abeilles",
+      "kind": "animali",
+      "description": "Une ruche de bois sent la cire ; les abeilles vont et viennent parmi les fleurs du jardin.",
+      "symbolism": "La fraternité : aucune abeille ne fait le miel seule, et aucune ne possède le rayon.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Regarder le ciel",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Lève les yeux du jardin vers le ciel. Reste un instant en silence, sans rien faire."
+        },
+        {
+          "kind": "leggi",
+          "text": "Lis lentement l'ouverture du Cantique des créatures.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "François appelle le soleil « frère » et la lune « sœur ». Quelle différence cela ferait-il de regarder le monde comme une famille plutôt que comme une ressource ?"
+        },
+        {
+          "kind": "annota",
+          "text": "Si tu veux, note dans le journal une chose pour laquelle tu peux dire aujourd'hui : « Laudato sie, mi' Signore »."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Écouter l'eau",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Approche-toi de la fontaine. Écoute le bruit de l'eau pendant quelques respirations, sans hâte."
+        },
+        {
+          "kind": "leggi",
+          "text": "Relis la louange de Dieu écrite à La Verna : une prière qui ne demande rien.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Les Louanges de Dieu ne contiennent aucune demande : seulement une reconnaissance. Quand as-tu remercié pour la dernière fois sans rien demander ?"
+        },
+        {
+          "kind": "annota",
+          "text": "Si tu veux, écris dans le journal trois choses reçues aujourd'hui, même petites."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Le pas lent",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Parcours lentement le sentier de pierre, en remarquant chaque pas : le poids, le contact, le rythme."
+        },
+        {
+          "kind": "leggi",
+          "text": "Lis la réponse de François à frère Léon, qui cherchait le bon choix.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "À frère Léon, François ne donne pas des consignes mais une liberté : « suis ta conscience devant Dieu ». Que t'apprend cette manière d'accompagner ?"
+        },
+        {
+          "kind": "annota",
+          "text": "Si tu veux, note dans le journal une décision que tu portes, et où tu sens ta conscience s'orienter."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Der Steinpfad",
+      "kind": "sentiero",
+      "description": "Ein Pfad aus hellen Steinen durchquert den Garten: der Punkt, an dem jeder Weg beginnt.",
+      "symbolism": "Der Weg als Bild des Lebens: Man bahnt ihn sich im Gehen, Stein um Stein.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Der Ölbaum des Friedens",
+      "kind": "albero",
+      "description": "Ein alter Ölbaum mit silberner Krone, gepflanzt, als du den Friedensgruß entdeckt hast.",
+      "symbolism": "Der Ölbaum: eine mediterrane Pflanze des Friedens und der Geduld. Er wächst langsam und überdauert Generationen.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Der Brunnen der Schwester Wasser",
+      "kind": "acqua",
+      "description": "Ein Steinbrunnen mit klarem Wasser, das die Sonne am Morgen entzündet.",
+      "symbolism": "„Schwester Wasser, nützlich und demütig und kostbar und keusch“: Im Sonnengesang ist das Wasser eine Schwester, der man dankt.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Die Rosen von San Damiano",
+      "kind": "fiore",
+      "description": "Ein blühender Rosenstock an der Mauer: Er wächst dort, wo jemand für andere gesorgt hat.",
+      "symbolism": "Die Schönheit, die aus dem Dienst entsteht: Nächstenliebe lässt dürre Orte blühen.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Der gemeinsame Nutzgarten",
+      "kind": "orto",
+      "description": "Kleine Beete mit Kräutern und Gemüse, abwechselnd gepflegt: die demütige Arbeit, die alle nährt.",
+      "symbolism": "Der tägliche Dienst: Wer den Garten bestellt, besitzt ihn nicht, er hütet ihn für die, die kommen werden.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Die Zypresse der Stille",
+      "kind": "albero",
+      "description": "Eine hohe, gerade Zypresse, die die Grenze zwischen Garten und Wald markiert.",
+      "symbolism": "Das Gebet als Senkrechte: Wurzeln in der Erde, die Spitze zum Himmel.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Das Nest der Finken",
+      "kind": "animali",
+      "description": "In den sichersten Zweigen hat ein Finkenpaar den Garten gewählt, um zu nisten.",
+      "symbolism": "Die Aufnahme: Der Garten wird auch für den zum Haus, der von außen kommt.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Die Steinbank",
+      "kind": "struttura",
+      "description": "Eine Steinbank unter der Mauer zur Mittagszeit: der Ort, um sich zu setzen und zu bleiben.",
+      "symbolism": "Der Glaube als vertrauendes Verweilen: nicht immer gehen, manchmal einfach bleiben.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Die Sonnenblumen des Dankes",
+      "kind": "fiore",
+      "description": "Eine Reihe Sonnenblumen, die sich im Lauf des Tages nach dem Licht drehen.",
+      "symbolism": "Die Dankbarkeit: sich zum Licht zu wenden, ist eine tägliche Übung des Blicks.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Der Bienenstock",
+      "kind": "animali",
+      "description": "Ein hölzerner Bienenkorb duftet nach Wachs; die Bienen kommen und gehen zwischen den Blüten des Gartens.",
+      "symbolism": "Die Brüderlichkeit: Keine Biene macht den Honig allein, und keine besitzt die Wabe.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Den Himmel ansehen",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Heb den Blick vom Garten zum Himmel. Bleib einen Augenblick still, ohne etwas zu tun."
+        },
+        {
+          "kind": "leggi",
+          "text": "Lies langsam den Anfang des Sonnengesangs.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Franz nennt die Sonne „Bruder“ und den Mond „Schwester“. Was würde sich ändern, wenn man die Welt als eine Familie ansähe und nicht als eine Ressource?"
+        },
+        {
+          "kind": "annota",
+          "text": "Wenn du willst, notiere im Tagebuch eines, wofür du heute sagen kannst: „Gelobt seist du, mein Herr“."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Dem Wasser zuhören",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Tritt an den Brunnen. Höre einige Atemzüge lang den Klang des Wassers, ohne Eile."
+        },
+        {
+          "kind": "leggi",
+          "text": "Lies noch einmal das Gotteslob, das auf La Verna geschrieben wurde: ein Gebet, das nichts erbittet.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Die Lobpreisungen Gottes enthalten keine Bitten: nur Anerkennung. Wann hast du das letzte Mal gedankt, ohne zu bitten?"
+        },
+        {
+          "kind": "annota",
+          "text": "Wenn du willst, schreib ins Tagebuch drei Dinge, die du heute empfangen hast, auch kleine."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Der langsame Schritt",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Geh den Steinpfad langsam und nimm jeden Schritt wahr: das Gewicht, den Kontakt, den Rhythmus."
+        },
+        {
+          "kind": "leggi",
+          "text": "Lies die Antwort des Franz an Bruder Leo, der die richtige Wahl suchte.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Franz gibt Bruder Leo keine Anweisungen, sondern Freiheit: „Folge deinem Gewissen vor Gott“. Was lehrt dich diese Weise der Begleitung?"
+        },
+        {
+          "kind": "annota",
+          "text": "Wenn du willst, notiere im Tagebuch eine Entscheidung, die du mit dir trägst, und wohin dein Gewissen sich wendet."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Ko nozīmē būt pazemīgam?",
+      "theme": "umilta",
+      "description": "Godīgs vadītājs nojauc pārpratumu, ka pazemība ir sevis noniecināšana: Franciska „patiesība par sevi“, „mazāko“ vārds un sava griba Pamācībās.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Laipni lūgts Dialogā. Iepazīstos: esmu vadītājs caur franciskāņu avotiem, neesmu Francisks un nerunāju viņa vietā. Šodienas jautājums skan vienkārši: ko nozīmē būt pazemīgam? Daudzi, dzirdot vārdu „pazemība“, tūlīt domā par sevis mazināšanu. Pirms sākam, mani interesē tavs sākumpunkts.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Man pazemība ir nepiešķirt sev nozīmi, palikt savā vietā.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Nojaušu, ka tas ir kaut kas cits, bet neprastu pateikt, kas.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Kāpēc Franciska brāļus sauca par „mazākajiem“?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "Tā ir visizplatītākā ideja un arī visnoturīgākais pārpratums. Ja pazemība būtu sevis noniecināšana, tā kļūtu par smalku veidu joprojām nodarboties ar sevi: ar savu tēlu, savu vietu, pat ar izrādītu viduvējību. Franciskāņu avoti rāda citur: nevis domāt sevi mazu, bet redzēt sevi patiesībā. Atšķirība šķiet smalka, bet tā maina visu.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Tad kas pazemība patiesībā ir?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Vai ir Franciska teksts, kas to saka?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Šī nenoteiktība ir labs sākumpunkts, saku bez ironijas. Kas atzīst, ka nezina, tas jau ir spēris soli pretī tam, ko Francisks saprot ar pazemību: redzēt sevi patiesībā, neuzpūšoties un neplēšot sevi. Mēģināsim šai idejai dot formu, sākot no avotiem.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Labi: kas ir franciskāņu pazemības sirds?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Vai ir avotu vieta, ko lasīt kopā?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Precīzs jautājums, un atbilde ir maza programma. Sabiedrībā, kas balstīta uz godu un kārtu, Francisks gribēja, lai viņējos sauc par mazākajiem brāļiem: neviens „lielākais“, neviens, kam jākalpo. Pat brālības atbildīgos viņš sauca par „ministriem“, kas latīniski nozīmē kalpi. Tā nebija valodas iedoma: tā bija vietas izvēle, pēdējās, no kuras nevienu nevar izstumt.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "Un ikdienas dzīvē — kāda starpība?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Viņa rakstos ir kaut kas par to?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Esam centrā. Franciskam pazemība ir patiesība par sevi: maziem Dieva priekšā, parādniekiem par visu, kas esam un kas mums ir, spējīgiem kalpot, neprasot atzinību. Ievēro, ka šī patiesība ietver arī tavus talantus: atzīt tos par saņemtām dāvanām nav lepnība, tā ir godprātība. Pazemīgais sevi nenoniecina: viņš beidz spēlēt lomu, vienā un otrā virzienā. Un viņš ir brīvs no vajadzības izrādīties, kas ir viena no nogurdinošākajām verdzībām.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "Un savi talanti? Vai tie jānoliedz, lai būtu pazemīgs?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Kā to tulkot šodien, piemēram, darbā un tiešsaistē?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Ko tieši saka Pamācību teksts?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Man ar to pietiek: varam noslēgt.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Ir īss un ass teksts: Pamācības, norādījumi, ko Francisks vērsis brālībai. Viens no mērķiem ir „sava griba“, kas kļuvusi par visu mēru: kas sevi uzskata par taisnu un gudru pats no sevis, brīdina Francisks, tas attālinās no īstās pazemības, kas ir pakļaut savu spriedumu un kalpot. Bet uzmanies: pakļaut nenozīmē apdzēst. Avoti nelūdz beigt domāt, bet nepadarīt savu skatpunktu par absolūtu.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Izklausās pēc atteikšanās no savas galvas. Vai tas nav par daudz?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "Un konkrēti šodien — kā tas izskatās?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Mēģināsim tulkot, apzinoties, ka šī ir mūsdienu interpretācija, nevis viduslaiku teksts. Darbā pazemība ir labi darīt savu daļu, nepadarot to par izrādi, atzīt kļūdu, nebūvējot alibi, atstāt nopelnu tam, kuram tas pienākas. Tiešsaistē, kur daudz ko mēra redzamībā, tas ir spēt publicēt un strādāt, neļaujot citu spriedumam kļūt par tavu saimnieku. Tas nav aicinājums slēpties: tas ir aicinājums nebūt atkarīgam no aplausiem.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Skaisti, bet manā vidē uzvar tas, kurš iet uz priekšu.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Mani pārliecina. Noslēdzam.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Iebildums ir likumīgs un pelna godīgu atbildi. Avotos paklausība nav sevis izdzēšana: tā pati brālība bija vieta, kur cits citam atklāja vajadzības, tas ir, runāja. Lieta nav atcelt savu spriedumu, bet atteikties, lai tas būtu visa augstākā tiesa. Šeit avoti mums nedod gadījumu sarakstu: nevaru tev pateikt, kur tavam konkrētajam gadījumam iet robeža. Tas paliek tavs darbs un to darbs, kas tevi patiesi pazīst.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "Ir jēga. Un ikdienas dzīvē?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Labāk apstājos šeit.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Tev ir taisnība to celt, un es neatbildēšu ar karjeras padomu: tā nav mana loma. Saku tikai, ka franciskāņu avoti nesola, ka pazemība „strādā“: tie sola, ka tā dara brīvu. Reizēm tas maksā, un izlikties pretējo būtu negodīgi. Izvēle nedzīvot apstiprinājuma dēļ paliek tieši izvēle: tava, mērīta pēc tava konteksta.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Godīgi, paldies. Noslēdzam.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Pārlasām mācības sirdi.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Nē, un avoti, lasīti uzmanīgi, saka pretējo. Franciska loģika ir dāvanas loģika: ja viss ir saņemts, arī tavas spējas ir saņemtas, un tās noliegt būtu tikai cits veids melot par sevi. Pazemība nelūdz teikt „es neesmu nekā vērts“, bet teikt patiesību: „šo esmu saņēmis, par šo esmu parādnieks“. Un kas prot atpazīt dāvanu, prot arī pateikties: franciskāņu ceļā pateicība ir prieka durvis.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "Un kā to dzīvot šodienas konkrētībā?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Varam šeit noslēgt.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Apstājamies šeit. Ja gribi, nes līdzi jautājumu, nevis uzdevumu: kurā savas dienas punktā tu spēlē lomu, tā vietā, lai būtu patiesībā par to, kas esi, labajā un robežā? Tev nav jāatbild man un nevienam. Citas Dialoga sarunas tevi gaida, kad gribēsi: piedošana, nabadzība, radība, Franciska ticība.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Ej šo sarunu no sākuma.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Atklāj citas Dialoga sarunas.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Paldies, ka gāji ar mani caur šiem avotiem. No Dialoga saraksta vari atvērt citu sarunu vai atrast šo atkal, kad gribēsi: teksti paliek, un jautājumi arī.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Sāc šo sarunu no jauna.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Pagaidām noslēdz."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Kā var piedot kādam?",
+      "theme": "perdono",
+      "description": "Vēstule ministram un Radību dziesmas pants: piedošana kā atkārtots lēmums, atšķirība no taisnības un godīga atbilde tam, kurš netiek galā.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Laipni lūgts Dialogā. Tevi vedu es: neesmu Francisks un nerunāju viņa vietā, es tevi pavadu tajā, ko avoti patiesi saka. Šodienas jautājums ir viens no grūtākajiem, kādi ir: kā var piedot kādam? Nesolu ērtu atbildi. Man palīdz zināt, no kurienes tu sāc.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Man ir nodarīta pārestība, un neprotu palaist dusmas.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Vai piedot nenozīmē izlikties, ka nekas nav bijis?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Vispirms gribu zināt, ko Francisks saka par piedošanu.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Paldies par atklātību. Franciskāņu avoti nesola, ka dusmas pazudīs, un nelūdz izlikties, ka pārestība nav notikusi. Ko tie piedāvā, ir kas cits: piedošana kā lēmums, kas atjaunojas, arī tad, kad sajūta tam neseko. Ja šodien nevari, tas tevi nediskvalificē: tā ir norma, nevis izņēmums.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Lēmums, kas atjaunojas: paskaidro.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "Un ja tiešām netieku galā?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Ko Francisks par to raksta?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Nē, un ir vērts to pateikt tūlīt skaidri: piedot nav noliegt. Franciskāņu avoti nejauc žēlsirdību un netaisnību: nodarītais ļaunums paliek ļaunums, un tā sekas paliek īstas. Piedošana šeit neizdzēš notikušo: tā atsakās ļaut, lai aizvainojumam piederētu pēdējais vārds attiecībās. Tie ir divi dažādi līmeņi, un tos turēt atsevišķi ir pirmais solis.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Tad piedošana un taisnība var būt kopā?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Ko tieši saka Francisks?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Atslēgas teksts ir Vēstule ministram: Francisks raksta brālības atbildīgajam, kuram jāapietas ar brāļiem, kas kļūdās. Slavenā vieta būtībā saka: ja brālis tavu acu priekšā būtu grēkojis tūkstoš reižu, mīli viņu vairāk nekā mani un sludini viņam žēlsirdību. Tūkstoš reižu: nevis varonīgs lēmums, pieņemts vienreiz uz visiem laikiem, bet izvēle, kas jāpārtaisa katru dienu. Tas maina jautājumu: nevis „vai jūtu, ka piedodu?“, bet „vai izvēlos piedot arī šodien?“.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Tūkstoš reižu ir par daudz. Vai tā ir reālistiska prasība?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "Un taisnība? Vai tam, kurš kļūdās, nav jāatbild?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Radību dziesma runā par piedošanu, vai ne?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Jā, un tā pati Vēstule to ļauj nojaust: Francisks lūdz sludināt žēlsirdību, ja vien otrs nožēlo, tas ir, piedošana nepasludina nevainīgu to, kurš ir kļūdījies, un neatbrīvo viņu no labošanas. Arī viņa laikā brāļi miera nesēji neatcēla tiesas un atbildību: viņi strādāja, lai atriebība nebūtu vienīgā iespējamā taisnība. Piedot un lūgt, lai ļaunums tiktu atzīts, nav ienaidnieki. Tie var iet kopā, kaut arī grūti.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "Un no kurienes sākt praksē?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Vai te iederas Radību dziesmas pants?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "Un ja pārestība ir pārāk liela vai pārāk svaiga?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "Un viņa laika sašķeltajās pilsētās?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Sāk ar skatpunkta labojumu. Ja piedošana būtu sajūta, tev būtu jāgaida, līdz tā atnāk: un bieži tā neatnāk vai atnāk un tad aiziet. Ja tā ir lēmums, vari to pieņemt arī ar vēl degošām dusmām un atjaunot rīt un parīt. Avoti neapraksta lineāru ceļu: vārds „tūkstoš reižu“ drīzāk liek domāt pretējo. Godīgi: franciskāņu tekstos nav tehniku. Ir virziens.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "Un ja šodien tiešām netieku galā?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "Un ar sevi? Vai var piedot sev?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Pastāsti Radību dziesmas pantu par piedošanu.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Godīga atbilde: tā var notikt, un avoti tevi par to netiesā. Es arī ne: esmu vadītājs caur tekstiem, nevis biktstēvs un nevis terapeits. Saku divas dokumentējamas lietas. Pirmā: Vēstule runā par tūkstoš reizēm, kas nozīmē, ka jau 13. gadsimtā piedošanu nedomāja kā acumirklīgu žestu. Otrā: ja brūce ir dziļa, dalīties ar kādu, kam uzticies, vai ar profesionāli, kad vajag, nav sakāve. Par piedošanas laikiem franciskāņu avoti klusē: šeit nevaram teikt vairāk.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "Un piedošana pret sevi?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Paldies par godīgumu. Noslēdzam.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Ir Radību dziesmas pants, kas slavē Dievu par tiem, kas piedod viņa mīlestības dēļ, panesot vājumu un bēdas. Kritika to parasti datē ar 1226. gada vasaru, un tradīcija to saista ar konkrētu epizodi: Asīzes bīskaps un podestà bija atklātā konfliktā, un Francisks, jau slims, esot pievienojis šo pantu un licis dziedāt dziesmu viņu priekšā, lai viņus izlīgtu. Precizēju līmeņus: pants ir autentisks, epizodes stāsts mūs sasniedz caur hagiogrāfisko tradīciju. Paliek fakts: piedošana Franciskam bija slavas vērta arī viņa pilsētas konfliktos.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Piedot paša konflikta vidū: vai tas ir iespējams?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "Un kas nespēj piedot?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Varam noslēgt.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Šeit man jābūt godīgam par avotu robežām. Franciskāņu teksti runā par piedošanu brāļiem un tam, kurš aizvaino; par piedošanu sev, kā to saprotam šodien, tie gandrīz neko skaidri nesaka. Varam spriest pēc analoģijas: ja žēlsirdību tūkstoš reižu sludina tam, kurš kļūdās, ir grūti izslēgt sevi. Bet tas paliek mūsu spriedums, nevis citāts. Labāk to pateikt, nekā likt Franciskam mutē vārdus, ko viņš nav rakstījis.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Novērtēju precizitāti. Un no kurienes sākt no jauna?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Noslēdzam šeit.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Ir arī publiska dimensija. Komūnu Itāliju šķērsoja naidi un atriebības, un avoti atceras pirmos brāļus, kas sludināja mieru no mājas uz māju ar sveicienu, kuru Francisks apliecināja saņēmis. Piedošana tajā pasaulē nebija tikai privāts fakts: tā bija punkts, kur varēja pārraut atriebības ķēdi. Arī šodien naidi pastāv — ģimenēs, apkaimēs, sociālajos tīklos —, un loģika ir tā pati: kādam jābeidz atdot sitiens.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "Un Radību dziesmas pants taču dzima tieši no konflikta, vai ne?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Man pietiek. Noslēdzam.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Apstājamies šeit. Ja gribi, nes līdzi vienu tēlu, nevis uzdevumu: piedošanu kā ceļu, ko no jauna veido metru dienā, nevis kā lēcienu, kas jāizdara vienreiz uz visiem laikiem. Un ja tava brūce šodien to neļauj, šis dialogs neprasīja tev izdoties: tas prasīja saprast. Citas Dialoga sarunas tevi gaida, kad gribēsi.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Ej šo sarunu no sākuma.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Atklāj citas Dialoga sarunas.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Paldies, ka ķēries pie grūta jautājuma bez saīsnēm. Dialoga sarakstā atradīsi citas sarunas: es palieku šeit, un teksti arī.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Sāc šo sarunu no jauna.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Pagaidām noslēdz."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Vai Francisks bija pret bagātību?",
+      "theme": "poverta",
+      "description": "Francisks nesodīja mantu: viņš atbrīvoja no īpašuma. 1223. gada Regula, atteikšanās bīskapa priekšā un ko tas nozīmē šodien, bez romantikas.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Laipni lūgts Dialogā. Iepazīstos: esmu vadītājs, nevis Francisks; ar tevi lasu avotus un saku, kad tie nepietiek, lai atbildētu. Šodienas jautājums ir pilns ar pārpratumiem: vai Francisks bija pret bagātību? Īsā atbilde ir „nē, ne tajā nozīmē, ko tu varbūt iedomājies“. Bet tas ir gara ceļa vērts. No kurienes sākam?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Vienmēr esmu domājis, ka viņš nicināja naudu pašu par sevi.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Nojaušu, ka lieta ir cita, bet neprotu to pateikt.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Vai tā nav tikai romantiska nabadzība, kā no 19. gadsimta plakāta?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "Tā ir visizplatītākā rekonstrukcija un arī visneprecīzākā. Franciska tekstos neatradīsi mantas nosodījumu, it kā tā būtu netīra: atradīsi kaut ko radikālāku un smalkāku, proti, atteikšanos to pieņemt par savu. Mērķis nav bagātība, bet īpašums: tas, ko lietas dara ar to, kurš tic, ka tās pieder. Iesim pie teksta, kas to saka vislabāk.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Kurš teksts?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "Un slavenā atteikšanās aina?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Tava nojauta ir pamatota. Lieta nav mantas daudzums, bet saites veids: Francisks grib brāļus, kas neko nepieņem par savu, jo kam nepieder, tam nav jāaizstāv, un kam nav jāaizstāv, tas ir brīvs mīlēt. Tā ir brīvības loģika, nevis riebuma. Parādīšu to Regulas tekstā.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Lasām Regulu.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Vispirms pastāsti ainu bīskapa priekšā.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Iebildums ir nopietns un pelna cieņu: romantiska nabadzība pastāv, un tā ir karikatūra, kurā no franciskāniskā ir maz. Tāpēc slēdzam derību: nekādas idealizācijas. Skatāmies, ko saka avoti — ainu, ko stāsta pirmais biogrāfs, un normatīvu tekstu, ko rakstījis pats Francisks —, un tad tu spriež, vai tie turas.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Labi: pirmā biogrāfa aina.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Normatīvais teksts.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "1223. gada Regula, galīgais teksts, ko apstiprinājusi Baznīca: brāļi neko nepieņem par savu, „ne māju, ne vietu, ne kādu lietu“; dzīvo kā svētceļnieki un svešinieki un iet ubagot bez kauna. Paziņotais iemesls ir teoloģisks: Kungs ir kļuvis nabags mūsu dēļ. Bet ir arī skaidra cilvēciska loģika: kas tev nepieder, tas tevi nevalda. Tehniskā tradīcija to sauc „sine proprio“, bez nekā sava. Nevis nicinājums pret lietām, kuras saņem, lieto un par kurām pateicas: atbrīvošanās no īpašuma.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Pastāsti atteikšanos bīskapa priekšā.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "Un šodien? Vai mums viss jāpārdod?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "Un īstie nabagi? Vai neriskējam izskaistināt postu?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Toms no Čelāno, pirmais biogrāfs, to stāsta tā: bīskapa Gvido un tēva Pjetro di Bernardones priekšā Francisks atdod pat drēbes un atsakās no tēva mantas, sakot, ka turpmāk par tēvu var saukt tikai Dievu. Bīskaps viņu apsedz ar savu apmetni. Precizēju līmeņus: epizode ir dokumentēts balsts, bet skatuves detaļas pieder Čelāno stāstījumam, kas ir hagiogrāfija, cēloša literatūra, nevis protokols. Jēga tik un tā ir skaidra: publiski pārgriezt saiti ar ģimenes bagātību.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Teatrāls žests vai pārdomāta izvēle?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "Un mēs šodien — ko ar to darām?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Neizbēgams jautājums, un godīgā atbilde ir: avoti neprasa visiem to pašu. Tā Regula bija brāļiem; Francisks nerakstīja regulas tirgotājiem, vecākiem, amatniekiem. Tātad nē: nav franciskāņu teksta, kas tev pavēlētu pārdot visu. Ir neērts jautājums, kurā mājo: kuras lietas man pieder un kuras valda pār mani? Konkrētā atbilde ir samērīga ar tavu dzīvi, nevis ar viņa.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Kā atšķiram izvēlētu nabadzību no panesta trūkuma?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "Un kas strādā, pelna, uztur ģimeni?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Dod man kaut ko konkrētu, bez galējiem žestiem.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "Tā ir šīs sarunas svarīgākā atšķirība. Panestais trūkums — nav ko ēst, nav ar ko ārstēties, nav jumta — ir sabiedriska brūce, kas jādziedē, nevis ideāls, ko kontemplēt: Francisks kalpoja nabagiem, viņš tos neestētizēja. Franciskāņu nabadzība ir kas cits: brīva izvēle neko nepieņemt par savu, brīvības un solidaritātes dēļ. Tās sajaukt ir kļūda, no kuras vienmēr jāizvairās: slavēt cita postu būtu tieši tā „romantiskā nabadzība“, par kuru runājām.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Tātad romantikas kritikai bija patiesības pamats?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "Un praksē, man, šodien?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Noslēdzam šeit.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Teatrāls tas noteikti bija: un sabiedrībā, kas balstīta uz tiesībām un īpašumu, tikai publisks žests varēja atraisīt publisku saiti. Bet tā nebija improvizācija: Čelāno to novieto pēc mēnešiem ilgas krīzes, gūsta Perudžā, slimības, vilšanos. Ja gribi kritēriju, pēc kura spriest žestus, viņa un savus, lūk: ne mirkļa intensitāte, bet tas, kas nāk pēc tam. Francisks divdesmit gadus dzīvoja saskaņoti. Īstos žestus pazīst pēc ilguma.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "Un šodien, bez galējiem žestiem?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Sapratu. Noslēdzam.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkrēti tad, bet bez receptēm: nav mana loma tās tev dot. Franciskāņu tradīcija iesaka virzienu trīs soļos: skatīties uz to, kas tev pieder, jautājot, vai tas tevi dara brīvu vai piesardzīgu; lietot lietas kā saņemtas, nevis kā pienākušās; ļaut vienkāršībai atbrīvot vietu — laiku, uzmanību, naudu — citiem. Tā ir mūsdienu interpretācija, saku godīgi: bet tā ir interpretācija, uzticīga „sine proprio“ garam.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Atpakaļ pie Regulas teksta.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Noslēdzam.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Neviens franciskāņu avots nesaka, ka strādāt un pelnīt attālina no Franciska: Regula ir konkrētas brālības dzīves forma, nevis katras eksistences mērs. Loģika ir gandrīz apgriezta: problēma nav būt, bet kalpot tam, kas ir. Ja tavs darbs, tava peļņa, tava māja kļūst par rīkiem — taviem un citu — un nevis par saimniekiem, tu esi tuvāk Regulas garam, nekā domā.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "Un risks romantizēt nabadzību?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Noslēdzam.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Apstājamies šeit. Neatstāju tev uzdevumu: atstāju jautājumu, ko šī saruna mēģināja atvērt. Kas no tā, kas tev pieder, valda pār tevi? Atbildi mierīgi vai neatbildi nemaz. Kad gribēsi, citas Dialoga sarunas ir sarakstā: pazemība, piedošana, radība, ticība.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Ej šo sarunu no sākuma.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Atklāj citas Dialoga sarunas.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Paldies, ka meklēji izvērstu atbildi jautājumam, kas bieži saņem saukļus. Tiksimies Dialogā, kad gribēsi: avotiem nav derīguma termiņa.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Sāc šo sarunu no jauna.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Pagaidām noslēdz."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Kāpēc Francisks runāja ar dzīvniekiem?",
+      "theme": "creato",
+      "description": "Radniecība, nevis panteisms: Radību dziesma, Čelāno putni, Ziediņu vilks un ko tas viss saka — un nesaka — šodienas ekoloģijai.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Laipni lūgts Dialogā. Esmu tavs vadītājs: neesmu Francisks, un, kad avoti nepietiek, es to saku. Šodienas jautājums iegrimst gadsimtiem ilgos tēlos: Francisks, kas runā ar putniem, ar vilku, ar zivīm. Kas aiz tā ir? Atkarīgs no tā, ko tu meklē.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Gribu patiesību: vai tā ir tikai leģenda, ka viņš runāja ar dzīvniekiem?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Prātoju, vai viņš redzēja Dievu dabā: vai viņš bija panteists?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Pastāsti Radību dziesmu.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Vēsturnieka jautājums, un atbilde ir slāņaina, kā gandrīz viss, kas attiecas uz Francisku. Kodols ir apliecināts agri: Toms no Čelāno, tuvs biogrāfs, stāsta sludināšanu putniem atturīgos toņos. Skatuviskākie stāsti — Gubbio vilks, zivis, sliekas — uzzied gadsimtu vēlāk Ziediņos. Tātad: sena atmiņa un literāra pastiprināšana. Parādīšu abus, atsevišķi.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Čelāno atturīgā versija.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Ziediņu versija: vilks.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Nē, un teksts, kas to pierāda, ir Radību dziesma. Francisks slavē Dievu „par“ radībām — brāli Sauli, māsu Mēnesi —, viņš neslavē radības, it kā tās būtu dievišķas. Atšķirība ir izšķiroša: daba nav Dievs, tā ir saime. Radības ir māsas, jo ir tā paša Tēva meitas. Pareizais vārds ir „radniecība“, nevis panteisms.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Lasām dziesmu.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "Un stāsti ar dzīvniekiem?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Radību dziesma, sacerēta 1225.–1226. gadā, kad Francisks bija slims un gandrīz akls: tā ir starp pirmajiem poētiskajiem tekstiem itāļu tautas valodā. Tā slavē Dievu par brāli Sauli, „kas ir diena“, par māsu Mēnesi un zvaigznēm, par brāli Vēju, par māsu Ūdeni, „noderīgu, pazemīgu, dārgu un šķīstu“, par brāli Uguni un par „māsu mūsu māti Zemi“. Divas lietas, ko pamanīt. Pirmā: tā nav himna dabai, tā ir slava Dievam caur dabu. Otrā: tā dzimst ciešanās, nevis idilliskā pastaigā.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "Un sludināšana putniem?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "Un Gubbio vilks?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Ko tas viss saka šodienas ekoloģijai?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Čelāno versija ir pārsteidzoši atturīga: Francisks redz putnu barus, vēršas pie tiem kā pie radībām, kas spēj klausīties, un mudina tās slavēt Dievu. Nekādu izvērstu dialogu, nekādu skatuvisku brīnumu: atzīšanas žests. Ziediņi gadsimtu vēlāk pievienos krusta zīmi, barus, kas izkārtojas klausīties, svinīgu atvadu. Vispirms Franciska stils, tad dievbijības stils. Abi mums kaut ko saka, bet atšķirīgu.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "Un Gubbio vilks?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Ja tā ir literatūra, kāda tai vērtība?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "Un mūsdienu ekoloģija?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Gubbio vilks ir Ziediņu meistardarbs: šausmās turēta pilsēta, Francisks, kas iet pretī zvēram, runā ar to kā ar brāli un vidutā derību — pilsēta to baros, tas vairs nevienam nedarīs ļaunu. Man jābūt skaidram par literāro žanru: tā ir 14. gadsimta hagiogrāfija, dievbijības atmiņa, nevis pārbaudāma hronika. Bet skaties, ko tā glabā: mieru, kas dzimst, ejot pretī tam, kas biedē, un dzīvnieku, ar ko apietas kā ar sarunu biedru, nevis kā ar lietu. Forma ir leģenda; virziens ir autentiski franciskāņu.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Tātad galu galā tas ir izdomāts?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "Un ko no tā gūst šodienas ekoloģija?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Šeit vajag godīgumu abos virzienos. No vienas puses: dziesma šodien piedāvā retu gramatiku — rūpes par radību pateicības un radniecības dēļ, nevis lietderības vai baiļu dēļ. No otras: Francisks nebija mūsdienu vides aizstāvis, un viņa avoti nepazīst klimatu, izmiršanu, piesārņojumu. Kas viņā meklē detalizētu ekoloģijas programmu, tas spiež tekstus. Kas meklē skatienu — pasauli kā saimi, nevis kā noliktavu —, atrod kaut ko, kas vēl spēj pārbīdīt rīcību.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "Un tomēr viņš tika pasludināts par ekoloģijas aizbildni, vai ne?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Kas man paliek konkrēts?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Nē: „nav hronika“ nenozīmē „izdomāts no nekā“. Sludināšana putniem ir Čelāno, dažus gadus pēc Franciska nāves; Ziediņi to ietērpj leģendas krāsās, bet diegs sākas no atmiņas. Tā darbojas liela daļa hagiogrāfijas: forma stāsta to dievbijību, kas to nodevusi tālāk, substance glabā īstu iezīmi. Lasīt avotus nozīmē tieši šo: turēt abas lietas kopā, tās nejaucot.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Skaidrs. Un šodienas ekoloģijai?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Tad atgriežamies pie dziesmas.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Jā: 1979. gadā Jānis Pāvils II viņu pasludināja par ekologu aizbildni. Tas ir mūsdienu tituls — interpretācija, nevis viduslaiku avots —, un tā ar to jāapietas. Tas ir likumīgs, ja norāda uz franciskāņu skatiena sakni: radniecību ar visām radībām. Tas kļūst maldinošs, ja saplacina Francisku par ekologu pirms sava laika, izdzēšot, ka dziesma vispirms ir slava Dievam, ko sacerējis slims cilvēks, kurš pateicās. Tituls saka kaut ko patiesu ar noteikumu to uz to vien nereducēt.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "Un man, konkrēti?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Varam noslēgt.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkrēti šeit nozīmē skatiena jautājumu, pirms tas ir darbību jautājums. Dziesma iesaka mājot pasaulē kā radniecībā: ūdeni kā māsu, ko neizšķiest, zemi kā māti, kuras bērni esam, radības kā slavas biedrenes, nevis kā krājumus. Praktiskās izvēles — ko pērc, ko met, kā ceļo — nāk pēc tam, un avoti tās nediktē. Bet mainīts skatiens tās padara iespējamas un mazāk grūtas.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Pārlasām dziesmu kopā.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Noslēdzam.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Apstājamies šeit. Atstāju tev tēlu, nevis uzdevumu: gandrīz akls cilvēks, kas sacer slavu saulei, kuru vairs neredz, un sauc to par brāli. Ja kādu dienu tev gadīsies skatīties uz koku, suni, krāna ūdeni kā uz radinieku, nevis kā uz lietu, zināsi, no kurienes nāk šis skatiens. Citas Dialoga sarunas tevi gaida sarakstā.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Ej šo sarunu no sākuma.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Atklāj citas Dialoga sarunas.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Paldies, ka ar mani šķīri hroniku, leģendu un slavu: tas ir vingrinājums, kas noder tālu aiz Franciska. Tiksimies Dialogā, kad gribēsi.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Sāc šo sarunu no jauna.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Pagaidām noslēdz."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Vai Franciskam var sekot, nebūdams ticīgais?",
+      "theme": "fede",
+      "description": "Neizvairīga atbilde nopietnam jautājumam: kristīgā ticība bija Franciska centrs, un lietotne to neslēpj. Kas paliek tam, kurš netic.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Laipni lūgts Dialogā. Esmu vadītājs caur avotiem: neesmu Francisks, neesmu biktstēvs un nevērtēju neviena ticību, arī ne tavu. Šodienas jautājums ir likumīgs un nopietns: vai Franciskam var sekot, nebūdams ticīgais? Solu neizvairīgu atbildi. Vispirms pasaki, no kurienes tu runā.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Esmu ticīgais un gribu labāk saprast viņa ticību.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Neesmu ticīgais: ko varu no viņa saņemt?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Nezinu, kam ticu. Vai šis dialogs ir man?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Tad ejam taisni uz centru. Franciska ticība nebija kultūras etiķete: tā bija visa pārējā avots — nabadzības, brālības, miera. Testamentā viņš stāsta, ka Kungs viņam deva vienkāršu ticību baznīcām; un visu viņa gaitu, no Svētā Damiāna līdz La Verna, avoti lasa kā sekošanu nabagajam un krustā sistajam Kristum. Skatām tekstus.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Tekstus, jā.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "Un viņa attiecības ar tā laika Baznīcu?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Īsa atbilde: jā, var, ar godīguma nosacījumu. Vari viņu pētīt, apbrīnot, ļauties viņa stilam jautāt, nepievienojoties viņa ticībai; šī lietotne ir arī tev, un neviens šeit nevērtē tavu pozīciju. Nosacījums ir viņu neapgriezt: Francisks bez Kristus nekļūst universālāks, viņš kļūst par citu personāžu. Ja piekrīti satikt viņu veselu, ar sakni, ir daudz, ko saņemt.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Tad parādi man šo sakni.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Kas paliek konkrēts tam, kurš netic?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Jā, tas ir tev: varbūt vairāk nekā jebkuram citam. Jautājumi par ticību neprasa piederības apliecību: tie prasa godīgumu, un tu to tikko parādīji. Es tevi nespiešu nevienā virzienā: rādu tekstus, šķiru līmeņus un apstājos tur, kur apstājas avoti. Sākam ar to, ko stāsta pats Francisks.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Labi: ko viņš stāsta?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "Un kas nenonāk līdz ticībai — ko saņem?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Divas liecības. Pirmā ir viņa: Testamentā, diktētā neilgi pirms nāves, Francisks atceras, ka Kungs viņam deva vienkāršu ticību baznīcām, kur viņš lūdza, vērsts pret Kristu. Otrā ir Čelāno: 1224. gadā La Verna kalnā Francisks esot saņēmis stigmas, ciešanu zīmes, kuras centās slēpt. Ievēro līmeņus: Testaments ir Franciska vārds; stigmas mūs sasniedz kā tuvāko avotu liecība, un lietotne tās tā arī rāda, nevis kā izmērāmu datu. Kopā tās saka vienu: viņa dzīves centrs bija Kristus persona.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Stigmas: kā man tās saprast?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Kāpēc lietotne tik ļoti uzstāj uz šo punktu?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "Un tam, kurš netic, kas paliek?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Vai tik totāla ticība neatstāja vietu šaubām?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Ar to pašu godīgumu, ar kādu tās rāda avoti. Čelāno tās stāsta dažus gadus pēc Franciska nāves, un tradīcija tās glabā kā zīmi pilnīgai pielīdzināšanai krustā sistajam Kristum. Vēsturisko un teoloģisko vērtējumu pētnieki apspriež; šeit avoti neļauj teikt vairāk, un kas tev teiktu vairāk, vienā vai otrā virzienā, ietu pāri tekstiem. Ko varam teikt: viņa brālībai šī zīme apstiprināja to, ko viņa dzīve jau teica.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "Un attiecības ar Baznīcu?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Saprotu. Un tam, kurš paliek ārpus ticības?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Divu iemeslu dēļ, abi ir pateikti. Pirmais ir vēsturisks: izraut Franciskam kristīgo sakni nepadara viņu universālāku, tas padara viņu neatpazīstamu — nabadzība ir „jo Kungs ir kļuvis nabags“, miers ir saņemts sveiciens, brālība ir kopā nodzīvots evaņģēlijs. Otrais ir redakcionāls: šī lietotne skaidro, tā neveic prozelītismu. Skaidrot Franciska ticību nav lūgt tev to padarīt par savu; tas ir atteikties dot tev izskaistinātu faktu versiju.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "Un ko var saņemt tas, kurš nepievienojas?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "Un kā Francisks dzīvoja institucionālo Baznīcu?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Man pietiek. Noslēdzam.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Daudz, ja ņem veselu. Stils — bezatlīdzība, mazākums, miers, ko būvē, ejot pretī, radniecības skatiens uz radību — runā arī ar to, kurš nesadala sakni. Bet šīs lietas tekstos ir tā koka augļi: pazīt tās bez saknes ir iespējams, saprast līdz galam bez saknes — nē. Vari ļauties jautājumam, nepievienojoties: tā ir nopietna stāja, un ideju vēsture ir pilna ar cilvēkiem, kas mācījušies no svešām tradīcijām. Neviens šeit nezīmē tavu garīgo punktu skaitu.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Tad pārlasām tekstus, kas stāsta šo sakni.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Noslēdzam.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Avoti nestāsta doktrinālas šaubas mūsdienu nozīmē: šeit nevaram teikt to, ko teksti nesaka. Bet tie stāsta ļoti smagas pārbaudes: slimību, gandrīz zaudētu redzi, sāpes redzēt, kā brālība aug un mainās pāri viņa nodomiem. Un tieši no šī laika, pēc Bonaventuras, dzimst Radību dziesma. Franciska ticība nebija nakts neesamība: tā bija slava nakts vidū. Kas ir pavisam kas cits nekā naivitāte.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "Un stigmas ietilpst šajā laikā?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Varam noslēgt.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Ne dumpinieks, ne pielāgojies: kaut kas interesantāks. Francisks dzīvoja viduslaiku Baznīcā, neatlaidīgi meklēja tās apstiprinājumu savam dzīves veidam un pieņēma tās robežas, lai gan spieda to reformēties no apakšas, ar piemēru, nevis ar dumpi. Viņa paklausība Baznīcai bija daļa no viņa ticības, nevis aprēķins. To saprast izvairās no divām spoguļkarikatūrām: nepaklausīgā svētā, mīļa modernajiem, un paklausīgā svētā, mīļa dievbijīgajiem.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Atgriežamies pie viņa ticības tekstiem.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Noslēdzam.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Apstājamies šeit. Neatstāju tev uzdevumu un vēl mazāk eksāmenu: atstāju kritēriju. Kad satiksi Francisku, šajā lietotnē vai citur, vienmēr jautā, vai versija, kas tev priekšā, rāda viņu veselu, ar kristīgo sakni. Tad tava pozīcija paliek tava: neviens šeit to netiesā. Citas Dialoga sarunas tevi gaida sarakstā.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Ej šo sarunu no sākuma.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Atklāj citas Dialoga sarunas.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Paldies par jautājuma nopietnību un par to, ka pieņēmi atbildi bez saīsnēm. Tiksimies Dialogā, kad gribēsi: īstiem jautājumiem nav derīguma termiņa.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Sāc šo sarunu no jauna.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Pagaidām noslēdz."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

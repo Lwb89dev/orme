@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "O encontro que muda a vida",
+      "summary": "A conversão de Francisco começa quando ele vence o nojo e encontra os leprosos: a caridade como encontro concreto com o outro.",
+      "explanation": "No Testamento, Francisco conta que ver os leprosos lhe parecia «demasiado amargo», e que foi precisamente o encontro com eles o início da sua penitência. A caridade franciscana não é um sentimento genérico: é o gesto físico de quem se aproxima de quem está excluído e descobre que a amargura se converte em doçura. Quem dá não se põe acima de quem recebe: encontra-se.",
+      "historicalContext": "No século XIII, os leprosos estavam excluídos da vida da cidade, acolhidos em leprosarias fora das muralhas e tidos como símbolo do pecado. A escolha de Francisco de viver entre eles era socialmente escandalosa.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Nada de próprio, tudo recebido",
+      "summary": "Diante do bispo, Francisco devolve as roupas ao pai: a renúncia à posse como escolha de liberdade, não como desprezo das coisas.",
+      "explanation": "A renúncia de Francisco diante do bispo Guido é o gesto público com que corta o laço com a riqueza da família. Não é fuga das coisas, mas libertação da ideia de as possuir: quem nada possui não tem nada a defender e pode receber cada coisa como dom. O latim técnico da tradição chama-lhe «sine proprio»: sem propriedade.",
+      "historicalContext": "Filho de um rico mercador de panos, Francisco estava destinado à ascensão social da burguesia comunal. A sua renúncia, em 1206, feriu a imaginação de Assis precisamente porque invertia os valores da cidade mercantil.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "A pobreza como liberdade",
+      "summary": "Para Francisco, a pobreza não é miséria romântica: é não se apropriar de nada, para permanecer livre de amar e depender só de Deus.",
+      "explanation": "A Regra de 1223 pede aos frades que não se apropriem de nada, «nem casa, nem lugar, nem coisa alguma», e que andem à esmola sem vergonha, lembrando que o Senhor se fez pobre. A pobreza franciscana tem um fundamento teológico (o Cristo pobre) e um fundamento psicológico: quem não tem nada a defender é livre. Não é um convite a glorificar a indigência, que é uma ferida social, mas a não se deixar definir pela posse.",
+      "historicalContext": "O movimento dos pobres voluntários nascia em reação à riqueza crescente das comunas e do clero; a Igreja olhava com suspeita os movimentos de pobreza, e Francisco teve de conquistar com esforço a aprovação.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Irmãos menores",
+      "summary": "A comunidade de Francisco não é uma ordem de superiores e súbditos: é uma fraternidade de «menores», na qual cada um é responsável pelo outro.",
+      "explanation": "Francisco quis que os seus se chamassem frades menores: ninguém é grande, e os responsáveis chamam-se «ministros», isto é, servos. A Regra de 1221 pede que se manifestem uns aos outros as necessidades, que não se julgue o irmão, que não se despreze o fraco. A fraternidade é a própria forma do Evangelho vivido em conjunto: é-se irmão não por ideal, mas por prática quotidiana.",
+      "historicalContext": "A fraternidade nasce por volta de 1208-1210 com os primeiros companheiros (Bernardo, Egídio…) e cresce depressa, até exigir estruturas: capítulos, ministros, uma regra escrita.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "A saudação da paz",
+      "summary": "«O Senhor te dê a paz»: Francisco faz da paz um anúncio a levar, antes de ser uma ausência de guerra.",
+      "explanation": "No Testamento, Francisco recorda que o Senhor lhe revelou uma saudação de paz. As primeiras fontes descrevem os frades a anunciar a paz de casa em casa. A paz franciscana é ativa: leva-se, constrói-se, medeia-se — como no relato do lobo de Gúbio, em que a paz nasce da coragem de ir ao encontro daquilo que mete medo.",
+      "historicalContext": "A Itália das comunas era atravessada por vendetas entre facções, guerras citadinas e conflitos entre os poderes civil e religioso. Anunciar a paz era um gesto político, além de espiritual.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Setenta vezes sete, e para além disso",
+      "summary": "A um responsável da fraternidade, Francisco escreve: se um irmão pecasse mil vezes, ama-o ainda assim, mais do que a mim.",
+      "explanation": "A Carta a um ministro é o texto franciscano do perdão: quem guia não deve escandalizar-se nem endurecer diante dos erros dos irmãos, mas anunciar misericórdia. O perdão não nega o mal: recusa que o mal tenha a última palavra sobre a relação. No Cântico, a estrofe sobre o perdão foi acrescentada — segundo a tradição — para reconciliar o bispo e o podestà de Assis, em conflito.",
+      "historicalContext": "A fraternidade, em rápido crescimento, vivia tensões internas; e as cidades estavam rasgadas por vinganças e vendetas, que os franciscanos procuravam pacificar.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Ser menores, não se sentir melhores",
+      "summary": "A humildade franciscana é verdade acerca de si: não se exaltar, não se desprezar, servir como o último.",
+      "explanation": "As Admoestações põem de guarda contra a própria vontade feita medida de tudo e contra a autocomplacência espiritual. Humildade, para Francisco, é ver-se na verdade: pequenos diante de Deus, devedores de tudo, capazes de servir sem exigir reconhecimento. Não é uma autoestima baixa: é liberdade da necessidade de parecer.",
+      "historicalContext": "Numa sociedade fundada na honra e na condição social, chamar-se «menores» era um programa contra a corrente; e, dentro da fraternidade em crescimento, a humildade era o antídoto da competição interna.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Irmão sol, irmã água",
+      "summary": "O Cântico das Criaturas: o mundo não é um armazém de recursos nem um ídolo, mas uma família de criaturas que louvam o Criador.",
+      "explanation": "No Cântico, Francisco louva Deus «por» as criaturas: irmão sol, irmã lua, irmã água «útil e humilde e preciosa e casta», irmã nossa mãe terra. A natureza não é divinizada: é irmã, porque filha do mesmo Pai. O cuidado da criação nasce aqui da gratidão e do parentesco, não da utilidade. E o Cântico nasce na doença: o louvor não depende das circunstâncias.",
+      "historicalContext": "Composto em 1225-1226, enquanto Francisco estava doente e quase cego, está entre os primeiros textos poéticos em vernáculo italiano. Boaventura situa-o no tempo das provações.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "A perfeita alegria",
+      "summary": "A alegria franciscana não depende dos resultados: permanece também na recusa e no cansaço, porque nasce do amor e não do êxito.",
+      "explanation": "Nas Florinhas, Francisco explica a frei Leão que a verdadeira alegria não são os milagres nem as conversões, mas voltar rejeitados e enregelados e permanecer pacientes e alegres. É um relato hagiográfico, não uma crónica, mas condensa um traço autêntico do espírito franciscano: a alegria como escolha interior que nenhum acontecimento pode tirar.",
+      "historicalContext": "As Florinhas (finais do século XIV) recolhem a memória viva do primeiro franciscanismo; devem ler-se como literatura espiritual, não como história documental.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "O deserto que habita no mundo",
+      "summary": "Francisco alternava missão e retiro: a oração como lugar em que se volta ao essencial diante de Deus.",
+      "explanation": "A vida franciscana não é só ação: Francisco procurava eremitérios e retiros (as Carceri, Alverne), levando poucos companheiros e longos silêncios. Na Carta a frei Leão remete para a consciência diante de Deus: a oração não é técnica, mas relação. Os Louvores do Deus Altíssimo mostram a sua oração mais pura: louvor sem pedidos.",
+      "historicalContext": "Os eremitérios franciscanos nasciam nos lugares selvagens dos Apeninos úmbrio-toscanos; Alverne, doada a Francisco em 1213, tornou-se o retiro por excelência.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "Seguir as pegadas de Cristo",
+      "summary": "A espiritualidade de Francisco não é uma filosofia da natureza: é seguimento do Cristo pobre e crucificado, dentro da fé da Igreja.",
+      "explanation": "Tudo em Francisco parte de Cristo: o crucifixo de São Damião que lhe fala, a escolha da pobreza «porque o Senhor se fez pobre», a paixão contemplada em Alverne, a fé simples nas igrejas do Testamento. Tirar esta raiz não torna Francisco mais universal: torna-o irreconhecível. A aplicação apresenta-a pelo que é, sem a impor e sem a apagar.",
+      "historicalContext": "Francisco viveu a fé no quadro da Igreja medieval, procurando a aprovação dela para a sua forma de vida e aceitando-lhe os limites, embora empurrasse a reforma a partir de baixo.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "Uma regra para não se perder",
+      "summary": "A obediência franciscana não é anulação: é um pacto comum que protege a fraternidade da dispersão e do arbítrio.",
+      "explanation": "Francisco pediu a aprovação da Igreja e escreveu regras cada vez mais essenciais (1221, 1223). A obediência, nas Admoestações e nas Regras, é recíproca: obedece-se à regra partilhada, e quem guia serve. O Testamento pede que não se glose a regra: que se viva «simplesmente e sem glosas». Comunidade e obediência são o quadro que torna durável a liberdade.",
+      "historicalContext": "Entre 1210 e 1223, a fraternidade passou de pequeno grupo a Ordem reconhecida; a tensão entre carisma e instituição atravessa toda a história franciscana.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "O louvor que nada pede",
+      "summary": "Os Louvores de Deus e o Cântico nascem na doença: a gratidão franciscana não premia a fortuna, mas reconhece o dom em cada coisa.",
+      "explanation": "Os Louvores do Deus Altíssimo, escritos em Alverne, são uma oração sem um único pedido: só reconhecimento. Também o Cântico, composto no sofrimento, é louvor. A gratidão franciscana é um olhar treinado: vê cada coisa — a água, o sol, o dia, até a morte — como recebida. Quem agradece não possui: habita.",
+      "historicalContext": "Em 1224-1226, Francisco estava gravemente doente, quase cego, e marcado pelo afastamento da direção da Ordem: o louvor desses anos não é ingenuidade, mas conquista.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Quem guia serve",
+      "summary": "Na fraternidade, os responsáveis chamam-se «ministros»: o serviço como única forma legítima de autoridade.",
+      "explanation": "Francisco inverte a hierarquia: o ministro é quem serve, o custódio é quem guarda os irmãos, não quem manda. A Carta a um ministro mostra o tom: proximidade de quem erra, nunca desprezo. O serviço não é uma estratégia para agradar: é o modo cristão de habitar qualquer função, do frade ao bispo, do pai ao presidente da câmara.",
+      "historicalContext": "Os títulos da hierarquia franciscana (ministro, custódio, guardião) foram escolhidos precisamente contra a lógica do prestígio medieval.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Ninguém é estranho",
+      "summary": "Leprosos, salteadores, um sultão, um lobo: a tradição franciscana empurra o acolhimento para além das fronteiras do próprio grupo.",
+      "explanation": "Francisco encontra os leprosos, vai ao encontro do sultão al-Malik al-Kamil em plena cruzada e, na memória popular, fala até com o lobo. O acolhimento franciscano não é tolerância passiva: é ir ao encontro, expor-se, chamar «irmão» a quem o próprio mundo chama inimigo. Começa no vizinho incómodo e não pára nas fronteiras da fé ou da língua.",
+      "historicalContext": "O encontro com o sultão (1219, Damieta) deu-se durante a quinta cruzada: um gesto de paz documentado pelas fontes, ainda que dentro dos limites do testemunho medieval.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Fazer-se próximo com o corpo",
+      "summary": "«Fiz com eles misericórdia»: a misericórdia franciscana é compaixão que se faz gesto concreto, não piedade à distância.",
+      "explanation": "No Testamento, Francisco usa uma palavra forte: com os leprosos «fiz misericórdia». Não diz que sentiu compaixão: fê-la. A misericórdia é a capacidade de se deixar alcançar pelo sofrimento do outro até mover as mãos. É a raiz de onde crescem a caridade, o perdão e a paz.",
+      "historicalContext": "A piedade medieval conhecia a esmola como prática meritória; Francisco transforma-a em relação: não se dá ao pobre, está-se com o pobre.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "O trabalho das mãos",
+      "summary": "Francisco não opõe oração e trabalho: o trabalho honesto afasta a ociosidade e não deve apagar a oração.",
+      "explanation": "No Testamento, Francisco diz que trabalhou com as suas mãos e que quer que os frades trabalhem, não pela cobiça do preço, mas pelo exemplo e contra a ociosidade. Se o preço falta, volta-se à esmola. A Regra bulada acrescenta o limite: o trabalho é graça, e as coisas temporais devem servir o espírito da oração, não substituí-lo. Na Regra não bulada, o trabalho é também um modo de estar em casa alheia como menores, sem aceitar ofícios que deem poder.",
+      "historicalContext": "Muitos dos primeiros frades vinham de ofícios. A questão do trabalho e do dinheiro já é aguda antes de 1223: a Regra de 1221 é mais extensa e mais severa quanto ao dinheiro; a bulada é mais breve e confia aos ministros o cuidado dos enfermos por meio de amigos espirituais.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "O corpo, não uma ideia",
+      "summary": "Para Francisco, o Filho de Deus, neste mundo, vê-se no corpo e no sangue que os sacerdotes recebem e dão.",
+      "explanation": "O Testamento liga a reverência pelos sacerdotes a isto: Francisco diz que não vê corporalmente nada mais do Filho de Deus senão o seu corpo e o seu sangue. A Carta a toda a Ordem leva a mesma fé até à forma do pão e pede aos sacerdotes que celebrem sem procurar agradar aos homens. Não é um tema lateral. É o centro a partir do qual Francisco lê a Igreja, as palavras escritas e a sua própria pequenez. A aplicação diz isto pelo que é: fé eucarística medieval, não uma metáfora genérica do dom.",
+      "historicalContext": "A devoção eucarística de Francisco está dentro da reforma do Lateranense IV (1215), que impõe a confissão anual e precisa a doutrina do sacramento. As cartas aos clérigos e aos custódios, não reproduzidas aqui por inteiro, insistem no mesmo ponto.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "A forma do Evangelho",
+      "summary": "Francisco não inventa uma espiritualidade ao lado do Evangelho: diz que o Altíssimo lhe revelou que vivesse segundo essa forma, e fê-la escrever.",
+      "explanation": "O Testamento é explícito: ninguém lhe mostrava o que devia fazer; o Altíssimo revelou-lhe que vivesse segundo a forma do santo Evangelho; ele fê-la escrever com poucas palavras e o papa confirmou-a. As duas Regras abrem sobre o mesmo ponto. Observar o Evangelho, nestes textos, não é um sentimento: é obediência, nada de próprio e castidade, dentro de uma fraternidade aprovada. O relato da renúncia diante do bispo, em Celano, é outra cena da mesma escolha. Aqui o texto de Francisco vem antes do relato sobre Francisco.",
+      "historicalContext": "A aprovação oral de Inocêncio III é datada pela tradição em 1209 ou 1210; a Regra não bulada é de 1221; a bulada é confirmada por Honório III a 29 de novembro de 1223. O Testamento, em 1226, relê toda a sequência como uma só revelação.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

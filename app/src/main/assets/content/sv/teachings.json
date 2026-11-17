@@ -1,0 +1,578 @@
+{
+  "items": [
+    {
+      "id": "teaching.carita.lebbrosi",
+      "theme": "carita",
+      "title": "Mötet som förändrar ett liv",
+      "summary": "Franciskus omvändelse börjar när han övervinner sin avsky och möter de spetälska: kärleken som ett konkret möte med den andre.",
+      "explanation": "I Testamentet säger Franciskus att det tycktes honom ”alltför bittert” att se de spetälska, och att just detta möte var början på hans bot. Den franciskanska kärleken är inte en allmän känsla: den är den kroppsliga gesten att närma sig den som är utesluten, och att upptäcka att det bittra förvandlas till sötma. Den som ger ställer sig inte över den som tar emot: de möts.",
+      "historicalContext": "På 1200-talet var de spetälska uteslutna ur det medborgerliga livet, inhysta i spetälskesjukhus utanför murarna och sedda som en sinnebild för synd. Franciskus val att leva bland dem var en social skandal.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.accoglienza.ogni_uomo",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [
+          "garden.rose"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.rinuncia.sine_proprio",
+      "theme": "rinuncia",
+      "title": "Inget eget, allt mottaget",
+      "summary": "Inför biskopen ger Franciskus kläderna tillbaka till sin far: avsägelsen av ägandet som ett val av frihet, inte som förakt för tingen.",
+      "explanation": "Franciskus avsägelse inför biskop Guido är den offentliga handling genom vilken han skär av bandet till familjens rikedom. Det är inte en flykt från tingen, utan en befrielse från tanken att äga dem: den som inte äger något har inget att försvara och kan ta emot allt som gåva. Traditionens latinska fackterm är ”sine proprio”: utan egendom.",
+      "historicalContext": "Son till en förmögen tyghandlare var Franciskus ämnad för den sociala uppstigningen i stadens borgarklass. Hans avsägelse 1206 grep fantasin i Assisi just därför att den vände upp och ner på en handelsstads värden.",
+      "sourcePassageIds": [
+        "pass.celano1.rinuncia",
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.rinuncia_vescovo"
+      ],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.poverta.liberta",
+      "theme": "poverta",
+      "title": "Fattigdomen som frihet",
+      "summary": "För Franciskus är fattigdomen inte romantisk misär: den är att inte tillägna sig något, för att förbli fri att älska och bero av Gud allena.",
+      "explanation": "Regeln från 1223 ber bröderna att inte tillägna sig något, ”varken hus eller plats eller något annat”, och att gå och tigga utan skam, i minnet av att Herren gjorde sig fattig. Den franciskanska fattigdomen har en teologisk grund (den fattige Kristus) och en psykologisk: den som inte har något att försvara är fri. Det är ingen inbjudan att förhärliga nöd, som är ett socialt sår, utan att vägra låta sig definieras av ägande.",
+      "historicalContext": "Rörelsen för frivillig fattigdom uppstod som en reaktion mot kommunernas och prästerskapets växande rikedom. Kyrkan såg på fattigdomsrörelserna med misstänksamhet, och Franciskus fick med möda vinna dess godkännande.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.c08",
+        "pass.regola_non_bollata.c09"
+      ],
+      "relatedEventIds": [
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.rinuncia.sine_proprio",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "path.semplicita"
+        ],
+        "dialogue": [
+          "dlg.poverta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fraternita.minori",
+      "theme": "fraternita",
+      "title": "Mindrebröder",
+      "summary": "Franciskus gemenskap är inte en orden av överordnade och underlydande: den är ett brödraskap av ”mindre”, där var och en är ansvarig för den andre.",
+      "explanation": "Franciskus ville att hans följeslagare skulle kallas mindrebröder: ingen är stor, och de som får ansvar kallas ”ministrar”, det vill säga tjänare. Regeln från 1221 ber dem att göra sina behov kända för varandra, att inte döma en broder och att inte förakta de svaga. Brödraskapet är själva formen för evangeliet levt tillsammans: man blir broder inte genom ett ideal, utan genom daglig praktik.",
+      "historicalContext": "Brödraskapet uppstod omkring 1208–1210 bland de första följeslagarna (Bernhard, Egidius och andra) och växte snabbt tills det behövde strukturer: kapitel, ministrar och en skriven regel.",
+      "sourcePassageIds": [
+        "pass.regola_non_bollata.fratelli",
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_non_bollata.c10",
+        "pass.regola_non_bollata.c11"
+      ],
+      "relatedEventIds": [
+        "event.primi_compagni",
+        "event.regola_1221"
+      ],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.api"
+        ],
+        "cards": [
+          "path.fraternita"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.pace.saluto",
+      "theme": "pace",
+      "title": "Fredshälsningen",
+      "summary": "”Herren give dig fred”: Franciskus gör freden till ett budskap som ska bäras ut, innan den är frånvaro av krig.",
+      "explanation": "I Testamentet minns Franciskus att Herren uppenbarade en fredshälsning för honom. De tidigaste källorna beskriver hur bröderna förkunnade fred från hus till hus. Den franciskanska freden är aktiv: den bärs, byggs och förmedlas — som i berättelsen om vargen i Gubbio, där freden föds ur modet att närma sig det som väcker fruktan.",
+      "historicalContext": "Det kommunala Italien genomkorsades av partistrider, strider inom städerna och konflikter mellan världslig och kyrklig makt. Att förkunna fred var en politisk handling lika mycket som en andlig.",
+      "sourcePassageIds": [
+        "pass.testamento.saluto_pace",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c03",
+        "pass.regola_non_bollata.c14"
+      ],
+      "relatedEventIds": [
+        "event.lupo_gubbio"
+      ],
+      "relatedTeachingIds": [
+        "teaching.perdono.mille_volte",
+        "teaching.accoglienza.ogni_uomo"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lupo.001"
+        ],
+        "garden": [
+          "garden.ulivo"
+        ],
+        "cards": [
+          "path.pace"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.perdono.mille_volte",
+      "theme": "perdono",
+      "title": "Sjuttio gånger sju, och därutöver",
+      "summary": "Till en minister i brödraskapet skriver Franciskus: även om en broder syndar tusen gånger, älska honom ändå mer än jag.",
+      "explanation": "Brevet till en minister är den franciskanska texten om förlåtelse: den som leder får varken ta anstöt eller hårdna inför en broders fel, utan ska förkunna barmhärtighet. Förlåtelsen förnekar inte det onda: den vägrar att låta det onda få sista ordet i en relation. I Solsången lades strofen om förlåtelse till — enligt traditionen — för att försona biskopen och Assisis podestà i deras konflikt.",
+      "historicalContext": "Det snabbt växande brödraskapet levde med inre spänningar. Städerna slets sönder av vendettor och fejder, som franciskanerna försökte stilla.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.pace.saluto",
+        "teaching.misericordia.compassione"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": [
+          "dlg.perdono"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.umilta.ultimo",
+      "theme": "umilta",
+      "title": "Att vara mindre, inte att tycka sig vara bättre",
+      "summary": "Den franciskanska ödmjukheten är sanning om en själv: varken upphöja sig eller förakta sig, utan tjäna som den minste.",
+      "explanation": "Förmaningarna varnar för att göra den egna viljan till mått på allt och för andligt självbehag. För Franciskus betyder ödmjukhet att se sig själv i sanning: liten inför Gud, skyldig allt, och förmögen att tjäna utan att kräva erkännande. Det är inte låg självkänsla: det är frihet från behovet att synas.",
+      "historicalContext": "I ett samhälle grundat på heder och rang var det ett motkulturellt program att kalla sig ”mindre”. Inom det växande brödraskapet var ödmjukheten ett motgift mot inre tävlan.",
+      "sourcePassageIds": [
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_non_bollata.c17",
+        "pass.testamento.vangelo"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.servizio.ministro",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.umilta"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.creato.cantico",
+      "theme": "creato",
+      "title": "Broder Sol, syster Vatten",
+      "summary": "Solsången: världen är varken ett förråd av resurser eller en avgud, utan en familj av skapelser som lovar Skaparen.",
+      "explanation": "I Solsången lovar Franciskus Gud ”genom” skapelserna: broder Sol, syster Måne, syster Vatten, ”nyttig och ödmjuk och dyrbar och kysk”, och vår syster moder Jord. Naturen gudomliggörs inte: den är syster därför att den är barn av samme Fader. Omsorgen om skapelsen börjar här i tacksamhet och släktskap, inte i nytta. Och Solsången föddes i sjukdom: lovsången beror inte av omständigheterna.",
+      "historicalContext": "Den skrevs 1225–1226, när Franciskus var sjuk och nästan blind, och hör till de tidigaste poetiska texterna på italienskt folkspråk. Bonaventura förlägger den till prövningens tid.",
+      "sourcePassageIds": [
+        "pass.cantico.apertura",
+        "pass.cantico.creature",
+        "pass.bonaventura.cantico",
+        "pass.celano1.uccelli",
+        "pass.cantico.perdono_morte"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.gratitudine.lodi",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.tempesta.001"
+        ],
+        "garden": [
+          "garden.fontana",
+          "cont.cielo"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.creato"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gioia.perfetta_letizia",
+      "theme": "gioia",
+      "title": "Den fullkomliga glädjen",
+      "summary": "Den franciskanska glädjen beror inte av resultat: den består också i avvisande och umbäranden, eftersom den föds av kärlek och inte av framgång.",
+      "explanation": "I Fioretti förklarar Franciskus för broder Leo att den sanna glädjen inte är under eller omvändelser, utan att komma tillbaka avvisad och genomfrusen och ändå förbli tålmodig och glad. Det är en hagiografisk berättelse, inte en krönika, men den sammanfattar ett äkta drag i den franciskanska andan: glädjen som ett inre val som ingen händelse kan ta ifrån en.",
+      "historicalContext": "Fioretti (sent 1300-tal) bevarar det levande minnet av den första franciskanrörelsen. De ska läsas som andlig litteratur, inte som dokumentär historia.",
+      "sourcePassageIds": [
+        "pass.fioretti.perfetta_letizia"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.umilta.ultimo",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.pace.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.preghiera.eremo",
+      "theme": "preghiera",
+      "title": "Öknen mitt i världen",
+      "summary": "Franciskus växlade mellan uppdrag och tillbakadragande: bönen som den plats där man återvänder till det väsentliga inför Gud.",
+      "explanation": "Det franciskanska livet är inte bara handling: Franciskus sökte eremitage och platser för tillbakadragande (Carceri, La Verna) och tog med sig några följeslagare och långa tystnader. I brevet till broder Leo sänder han honom tillbaka till samvetet inför Gud: bönen är inte en teknik utan en relation. Den Högstes lov visar hans renaste bön: lov utan begäran.",
+      "historicalContext": "Franciskanska eremitage uppstod i de vilda trakterna av Apenninerna mellan Umbrien och Toscana. La Verna, som skänktes till Franciskus 1213, blev den främsta platsen för tillbakadragande.",
+      "sourcePassageIds": [
+        "pass.lettera_leone.coscienza",
+        "pass.lodi_dio.lode",
+        "pass.celano1.stimmate",
+        "pass.regola_bollata.c03",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.laverna_stimmate"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.gratitudine.lodi"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.cipresso",
+          "cont.passo"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.fede.cristo_centro",
+      "theme": "fede",
+      "title": "I Kristi fotspår",
+      "summary": "Franciskus andlighet är inte en naturfilosofi: den är efterföljelsen av den fattige och korsfäste Kristus, inom kyrkans tro.",
+      "explanation": "Allt hos Franciskus börjar med Kristus: krucifixet i San Damiano som talar till honom, valet av fattigdom ”därför att Herren gjorde sig fattig”, passionen som betraktas på La Verna och den enkla tron på kyrkorna i Testamentet. Att ta bort denna rot gör inte Franciskus mer universell: den gör honom oigenkännlig. Appen visar honom som han är, utan att påtvinga denna tro och utan att utplåna den.",
+      "historicalContext": "Franciskus levde sin tro inom den medeltida kyrkan, sökte dess godkännande för sin livsform och accepterade dess gränser, samtidigt som han drev på dess förnyelse underifrån.",
+      "sourcePassageIds": [
+        "pass.testamento.chiese",
+        "pass.celano1.stimmate",
+        "pass.lettera_ordine.eucaristia",
+        "pass.regola_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.san_damiano_crocifisso"
+      ],
+      "relatedTeachingIds": [
+        "teaching.preghiera.eremo",
+        "teaching.comunita.regola"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.panca"
+        ],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.comunita.regola",
+      "theme": "comunita",
+      "title": "En regel, för att inte gå vilse",
+      "summary": "Den franciskanska lydnaden är inte självutplåning: den är ett gemensamt förbund som skyddar brödraskapet från splittring och godtycke.",
+      "explanation": "Franciskus sökte kyrkans godkännande och skrev regler som blev allt mer kärnfulla (1221, 1223). I Förmaningarna och reglerna är lydnaden ömsesidig: man lyder den gemensamma regeln, och den som leder tjänar. Testamentet ber att regeln inte ska förses med glossa, utan levas ”enkelt och utan glossa”. Gemenskap och lydnad är den ram som gör att friheten varar.",
+      "historicalContext": "Mellan 1210 och 1223 växte brödraskapet från en liten grupp till en erkänd orden. Spänningen mellan karisma och institution löper genom hela den franciskanska historien.",
+      "sourcePassageIds": [
+        "pass.regola_bollata.poverta",
+        "pass.regola_non_bollata.fratelli",
+        "pass.ammonizioni.propria_volonta",
+        "pass.regola_bollata.c01",
+        "pass.testamento.senza_glossa"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [
+          "scen.fraternita.001"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.gratitudine.lodi",
+      "theme": "gratitudine",
+      "title": "Ett lov som inte ber om något",
+      "summary": "Den Högstes lov och Solsången föddes i sjukdom: den franciskanska tacksamheten belönar inte god tur, utan igenkänner gåvan i allt.",
+      "explanation": "Den Högstes lov, skrivet på La Verna, är en bön utan en enda begäran: enbart erkännande. Också Solsången, skriven i lidande, är lov. Den franciskanska tacksamheten är en övad blick: den ser allt — vatten, sol, dag, till och med döden — som mottaget. Den som tackar äger inte: han bor.",
+      "historicalContext": "Åren 1224–1226 var Franciskus svårt sjuk, nästan blind och sårad av avståndet till ordens ledning: de årens lovsång är inte naivitet utan en erövring.",
+      "sourcePassageIds": [
+        "pass.lodi_dio.lode",
+        "pass.cantico.perdono_morte",
+        "pass.regola_non_bollata.c23",
+        "pass.lettera_ordine.orazione"
+      ],
+      "relatedEventIds": [
+        "event.cantico"
+      ],
+      "relatedTeachingIds": [
+        "teaching.creato.cantico",
+        "teaching.gioia.perfetta_letizia"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.girasoli",
+          "cont.acqua"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.servizio.ministro",
+      "theme": "carita",
+      "title": "Den som leder tjänar",
+      "summary": "I brödraskapet kallas de som får ansvar ”ministrar”: tjänsten som den enda giltiga formen av auktoritet.",
+      "explanation": "Franciskus vänder hierarkin upp och ner: en minister är den som tjänar, en kustod den som vårdar bröderna, inte den som befaller. Brevet till en minister visar tonen: närhet till den som felar, aldrig förakt. Tjänsten är inte en strategi för att behaga: den är det kristna sättet att bebo varje roll, från broder till biskop, från förälder till borgmästare.",
+      "historicalContext": "Titlarna för franciskanskt ansvar (minister, kustod, guardian) valdes just mot den medeltida prestigelogiken.",
+      "sourcePassageIds": [
+        "pass.lettera_ministro.mille_volte",
+        "pass.regola_bollata.c10",
+        "pass.regola_non_bollata.c04"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fraternita.minori",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [
+          "garden.orto"
+        ],
+        "cards": [
+          "scen.semplicita.002"
+        ],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.accoglienza.ogni_uomo",
+      "theme": "accoglienza",
+      "title": "Ingen är en främling",
+      "summary": "Spetälska, rövare, en sultan, en varg: den franciskanska traditionen driver välkomnandet bortom den egna gruppens gränser.",
+      "explanation": "Franciskus möter de spetälska, närmar sig sultanen al-Malik al-Kamil mitt under ett korståg, och talar i det folkliga minnet till och med med vargen. Det franciskanska välkomnandet är inte passiv tolerans: det är att gå någon till mötes, ta en risk, kalla ”broder” den som ens värld kallar fiende. Det börjar med den svåra nästan och stannar inte vid trons eller språkets gränser.",
+      "historicalContext": "Mötet med sultanen (1219, Damietta) ägde rum under det femte korståget: en fredsgest som källorna dokumenterar, inom gränserna för det medeltida vittnesbördet.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.fioretti.lupo",
+        "pass.regola_bollata.c12",
+        "pass.regola_non_bollata.c16"
+      ],
+      "relatedEventIds": [
+        "event.sultano"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.pace.saluto"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.mantello.001"
+        ],
+        "garden": [
+          "garden.nido"
+        ],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.misericordia.compassione",
+      "theme": "misericordia",
+      "title": "Att närma sig med hela kroppen",
+      "summary": "”Jag visade dem barmhärtighet”: den franciskanska barmhärtigheten är medlidande som blivit en konkret gest, inte medömkan på håll.",
+      "explanation": "I Testamentet använder Franciskus en stark formulering: med de spetälska ”visade jag barmhärtighet”. Han säger inte att han kände medlidande: han gjorde det. Barmhärtighet är förmågan att låta en annans lidande nå fram tills det sätter händerna i rörelse. Den är roten ur vilken kärlek, förlåtelse och fred växer.",
+      "historicalContext": "Den medeltida fromheten kände allmosan som en förtjänstfull sed. Franciskus gör den till relation: man ger inte bara åt de fattiga, man stannar hos de fattiga.",
+      "sourcePassageIds": [
+        "pass.testamento.lebbrosi",
+        "pass.celano1.lebbrosi"
+      ],
+      "relatedEventIds": [
+        "event.lebbrosi"
+      ],
+      "relatedTeachingIds": [
+        "teaching.carita.lebbrosi",
+        "teaching.perdono.mille_volte"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.lebbrosi.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.lavoro.mani",
+      "theme": "poverta",
+      "title": "Händernas arbete",
+      "summary": "Franciskus ställer inte bön mot arbete: ärligt arbete håller sysslolösheten borta, och det får inte släcka bönen.",
+      "explanation": "I Testamentet säger Franciskus att han arbetade med sina händer och vill att bröderna ska arbeta, inte av begär efter lönen utan för exemplets skull och mot sysslolöshet. Om lönen uteblir återvänder man till allmosan. Den senare regeln lägger till gränsen: arbetet är en nåd, och de timliga tingen ska tjäna bönens anda, inte ersätta den. I den tidigare regeln är arbetet också ett sätt att bo i någon annans hus som en mindre, utan att ta ämbeten som ger makt.",
+      "historicalContext": "Många av de första bröderna kom från hantverk. Frågan om arbete och pengar är redan skarp före 1223: regeln från 1221 är fylligare och strängare om pengar; den stadfästa regeln är kortare och anförtror vården av de sjuka åt ministrarna genom andliga vänner.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c05",
+        "pass.regola_non_bollata.c07"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.preghiera.eremo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.eucaristia.presenza",
+      "theme": "fede",
+      "title": "Kroppen, inte en idé",
+      "summary": "För Franciskus ses Guds Son i denna värld i den kropp och det blod som prästerna tar emot och ger.",
+      "explanation": "Testamentet knyter vördnaden för prästerna till detta: Franciskus säger att han kroppsligen inte ser något annat av Guds Son än hans kropp och hans blod. Brevet till hela orden driver samma tro ända till brödets gestalt och ber prästerna att fira utan att försöka behaga människor. Detta är inget sidotema. Det är det centrum utifrån vilket Franciskus läser kyrkan, de skrivna orden och sin egen litenhet. Appen säger det för vad det är: medeltida eukaristisk tro, inte en allmän metafor för givande.",
+      "historicalContext": "Franciskus eukaristiska fromhet hör hemma i fjärde laterankonciliets reform (1215), som kräver årlig bikt och fastställer läran om sakramentet. Breven till prästerskapet och till kustoderna, som inte återges i sin helhet här, driver samma sak.",
+      "sourcePassageIds": [
+        "pass.lettera_ordine.eucaristia",
+        "pass.testamento.chiese",
+        "pass.regola_non_bollata.c20"
+      ],
+      "relatedEventIds": [],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.umilta.ultimo"
+      ],
+      "experiences": {
+        "viandante": [],
+        "garden": [],
+        "cards": [],
+        "dialogue": [
+          "dlg.fede"
+        ]
+      },
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "teaching.vangelo.forma",
+      "theme": "fede",
+      "title": "Evangeliets form",
+      "summary": "Franciskus uppfinner inte en andlighet vid sidan av evangeliet: han säger att den Högste uppenbarade för honom att han skulle leva enligt den formen, och han lät skriva ner den.",
+      "explanation": "Testamentet är tydligt: ingen visade honom vad han skulle göra; den Högste uppenbarade för honom att han skulle leva enligt det heliga evangeliets form; han lät skriva ner den med få ord och påven stadfäste den. Båda reglerna öppnar på samma punkt. Att hålla evangeliet är i dessa texter inte en känsla: det är lydnad, inget eget och kyskhet, inom ett godkänt brödraskap. Berättelsen om avsägelsen inför biskopen, hos Celano, är en annan scen av samma val. Här kommer Franciskus egen text före berättelsen om Franciskus.",
+      "historicalContext": "Det muntliga godkännandet av Innocentius III dateras av traditionen till 1209 eller 1210; den tidigare regeln är från 1221; den senare regeln stadfästs av Honorius III den 29 november 1223. Testamentet, från 1226, läser om hela följden som en enda uppenbarelse.",
+      "sourcePassageIds": [
+        "pass.testamento.vangelo",
+        "pass.regola_bollata.c01",
+        "pass.regola_non_bollata.c01"
+      ],
+      "relatedEventIds": [
+        "event.approvazione_innocenzo",
+        "event.regola_1223"
+      ],
+      "relatedTeachingIds": [
+        "teaching.fede.cristo_centro",
+        "teaching.comunita.regola",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "experiences": {
+        "viandante": [
+          "story.rinuncia.001"
+        ],
+        "garden": [],
+        "cards": [],
+        "dialogue": []
+      },
+      "reviewStatus": "verified"
+    }
+  ]
+}

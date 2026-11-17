@@ -1,0 +1,1192 @@
+{
+  "conversations": [
+    {
+      "id": "dlg.umilta",
+      "title": "Co znaczy być pokornym?",
+      "theme": "umilta",
+      "description": "Uczciwy przewodnik rozbiera nieporozumienie pokory jako umniejszania siebie: „prawdę o sobie” u Franciszka, imię „mniejszych” i własną wolę w Napomnieniach.",
+      "teachingIds": [
+        "teaching.umilta.ultimo"
+      ],
+      "startNodeId": "umilta.n1",
+      "nodes": [
+        {
+          "id": "umilta.n1",
+          "mentorText": "Witaj w Dialogu. Przedstawiam się: jestem przewodnikiem przez źródła franciszkańskie, nie jestem Franciszkiem i nie mówię w jego imieniu. Dzisiejsze pytanie brzmi prosto: co znaczy być pokornym? Wielu, słysząc słowo „pokora”, od razu myśli o umniejszaniu siebie. Zanim ruszymy, obchodzi mnie twój punkt wyjścia.",
+          "options": [
+            {
+              "id": "umilta.n1.o1",
+              "text": "Dla mnie pokora to nie nadawać sobie wagi, zostać na swoim miejscu.",
+              "next": "umilta.n2"
+            },
+            {
+              "id": "umilta.n1.o2",
+              "text": "Podejrzewam, że to coś innego, ale nie umiałbym powiedzieć co.",
+              "next": "umilta.n3"
+            },
+            {
+              "id": "umilta.n1.o3",
+              "text": "Dlaczego bracia Franciszka nazywali się „mniejszymi”?",
+              "next": "umilta.n4"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n2",
+          "mentorText": "To myśl najbardziej rozpowszechniona i nieporozumienie najbardziej odporne. Gdyby pokora była umniejszaniem siebie, stałaby się subtelnym sposobem, by wciąż zajmować się sobą: własnym obrazem, własnym miejscem, nawet wystawioną na pokaz przeciętnością. Źródła franciszkańskie wskazują gdzie indziej: nie myśleć o sobie jako o małych, lecz widzieć siebie w prawdzie. Różnica wydaje się cienka, ale zmienia wszystko.",
+          "options": [
+            {
+              "id": "umilta.n2.o1",
+              "text": "Więc czym naprawdę jest pokora?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n2.o2",
+              "text": "Czy jest tekst Franciszka, który to mówi?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n3",
+          "mentorText": "Ta niepewność jest dobrym punktem wyjścia, mówię to bez ironii. Kto przyznaje, że nie wie, zrobił już krok ku temu, co Franciszek rozumie przez pokorę: widzieć siebie w prawdzie, nie nadymając się i nie rozdzierając. Spróbujmy nadać tej myśli kształt, wychodząc od źródeł.",
+          "options": [
+            {
+              "id": "umilta.n3.o1",
+              "text": "Dobrze: co jest sercem franciszkańskiej pokory?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n3.o2",
+              "text": "Czy jest fragment źródeł, który przeczytamy razem?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n4",
+          "mentorText": "Pytanie precyzyjne, a odpowiedź jest małym programem. W społeczeństwie opartym na honorze i randze Franciszek chciał, by jego towarzysze nazywali się braćmi mniejszymi: nikt „większy”, nikt, komu się służy jako panu. Nawet odpowiedzialnych za braterstwo nazwał „ministrami”, co po łacinie znaczy słudzy. To nie był językowy kaprys: to wybór miejsca, ostatniego, z którego nikt nie może być strącony.",
+          "options": [
+            {
+              "id": "umilta.n4.o1",
+              "text": "A w codziennym życiu, jaką to robi różnicę?",
+              "next": "umilta.n5"
+            },
+            {
+              "id": "umilta.n4.o2",
+              "text": "Czy w jego pismach jest coś o tym?",
+              "next": "umilta.n6"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n5",
+          "mentorText": "Jesteśmy w centrum. Dla Franciszka pokora jest prawdą o sobie: małymi przed Bogiem, dłużnikami wszystkiego, czym jesteśmy i co mamy, zdolnymi służyć bez żądania uznania. Zauważ, że ta prawda obejmuje także twoje talenty: rozpoznać je jako otrzymane dary nie jest pychą, jest uczciwością. Pokorny nie umniejsza siebie: przestaje grać rolę, w jedną i w drugą stronę. I jest wolny od potrzeby, by się pokazywać, a to jedna z najbardziej męczących niewoli.",
+          "options": [
+            {
+              "id": "umilta.n5.o1",
+              "text": "A własne talenty? Trzeba je zaprzeczać, by być pokornym?",
+              "next": "umilta.n10"
+            },
+            {
+              "id": "umilta.n5.o2",
+              "text": "Jak to się przekłada dziś, na przykład w pracy i w sieci?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n5.o3",
+              "text": "Co dokładnie mówi tekst Napomnień?",
+              "next": "umilta.n6"
+            },
+            {
+              "id": "umilta.n5.o4",
+              "text": "Tyle mi wystarczy: możemy zakończyć.",
+              "next": "umilta.chiusura"
+            }
+          ],
+          "teachingId": "teaching.umilta.ultimo"
+        },
+        {
+          "id": "umilta.n6",
+          "mentorText": "Jest tekst krótki i ostry: Napomnienia, wskazówki, które Franciszek kierował do braterstwa. Jednym z celów jest „własna wola” uczyniona miarą wszystkiego: kto uważa się za sprawiedliwego i mądrego sam z siebie, ostrzega Franciszek, oddala się od prawdziwej pokory, która polega na poddaniu własnego sądu i na służbie. Uwaga jednak: poddać nie znaczy zgasić. Źródła nie proszą, by przestać myśleć, lecz by nie absolutyzować własnego punktu widzenia.",
+          "options": [
+            {
+              "id": "umilta.n6.o1",
+              "text": "Brzmi jak rezygnacja z własnej głowy. Czy to nie za dużo?",
+              "next": "umilta.n8"
+            },
+            {
+              "id": "umilta.n6.o2",
+              "text": "A konkretnie, dziś, jak to wygląda?",
+              "next": "umilta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.ammonizioni.propria_volonta"
+          ]
+        },
+        {
+          "id": "umilta.n7",
+          "mentorText": "Spróbujmy to przełożyć, świadomi, że to interpretacja współczesna, nie tekst średniowieczny. W pracy pokora to dobrze robić swoją część, nie robiąc z niej widowiska, przyznać się do błędu, nie budując alibi, zostawić zasługę temu, kto na nią zasługuje. W sieci, gdzie wiele mierzy się widocznością, to móc publikować i pracować, nie pozwalając, by sąd innych stał się twoim panem. To nie zaproszenie, by się chować: to zaproszenie, by nie zależeć od oklasku.",
+          "options": [
+            {
+              "id": "umilta.n7.o1",
+              "text": "Piękne, ale w moim środowisku wygrywa ten, kto się wysuwa.",
+              "next": "umilta.n9"
+            },
+            {
+              "id": "umilta.n7.o2",
+              "text": "Przekonuje mnie. Zakończmy.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n8",
+          "mentorText": "Zarzut uprawniony i zasługuje na uczciwą odpowiedź. W źródłach posłuszeństwo nie jest unicestwieniem: samo braterstwo było miejscem, w którym okazywano sobie nawzajem potrzeby, czyli mówiono. Chodzi nie o zniesienie własnego sądu, lecz o odmowę, by był najwyższym trybunałem wszystkiego. Tu jednak źródła nie dają nam kazuistyki: nie mogę ci powiedzieć, gdzie przebiega granica w twoim konkretnym przypadku. To zostaje twoją pracą i pracą tych, którzy naprawdę cię znają.",
+          "options": [
+            {
+              "id": "umilta.n8.o1",
+              "text": "To ma sens. A w życiu codziennym?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n8.o2",
+              "text": "Wolę zatrzymać się tutaj.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n9",
+          "mentorText": "Masz rację, że to podnosisz, i nie odpowiem radą kariery: to nie moja rola. Mówię tylko, że źródła franciszkańskie nie obiecują, że pokora „działa”: obiecują, że czyni wolnymi. Czasem kosztuje, a udawać przeciwnie byłoby nieuczciwe. Wybór, by nie żyć dla aprobaty, zostaje właśnie wyborem: twoim, mierzonym twoim kontekstem.",
+          "options": [
+            {
+              "id": "umilta.n9.o1",
+              "text": "Uczciwie, dziękuję. Zakończmy.",
+              "next": "umilta.chiusura"
+            },
+            {
+              "id": "umilta.n9.o2",
+              "text": "Przeczytajmy na nowo serce nauczania.",
+              "next": "umilta.n5"
+            }
+          ]
+        },
+        {
+          "id": "umilta.n10",
+          "mentorText": "Nie, a źródła czytane uważnie mówią przeciwnie. Logika Franciszka jest logiką daru: jeśli wszystko jest otrzymane, także twoje zdolności takie są, a zaprzeczać im byłoby tylko innym sposobem kłamania o sobie. Pokora nie prosi, by mówić „nic nie jestem wart”, lecz by mówić prawdę: „to otrzymałem, tego jestem dłużnikiem”. A kto umie rozpoznać dar, umie też dziękować: na franciszkańskiej drodze wdzięczność jest bramą radości.",
+          "options": [
+            {
+              "id": "umilta.n10.o1",
+              "text": "A jak się tym żyje, konkretnie dziś?",
+              "next": "umilta.n7"
+            },
+            {
+              "id": "umilta.n10.o2",
+              "text": "Możemy tu zamknąć.",
+              "next": "umilta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "umilta.chiusura",
+          "mentorText": "Zatrzymujemy się tutaj. Jeśli chcesz, zabierz ze sobą pytanie, nie zadanie: w którym punkcie twojego dnia grasz rolę, zamiast stać w prawdzie tego, kim jesteś, w dobru i w granicy? Nie musisz odpowiadać mnie ani nikomu. Inne rozmowy Dialogu czekają, kiedy zechcesz: przebaczenie, ubóstwo, stworzenie, wiara Franciszka.",
+          "options": [
+            {
+              "id": "umilta.chiusura.o1",
+              "text": "Przejdź tę rozmowę od początku.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.chiusura.o2",
+              "text": "Odkryj inne rozmowy Dialogu.",
+              "next": "umilta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "umilta.fine",
+          "mentorText": "Dziękuję, że szedłeś ze mną wewnątrz tych źródeł. Z listy Dialogu możesz otworzyć inną rozmowę albo odnaleźć tę, kiedy zechcesz: teksty zostają, i pytania też.",
+          "options": [
+            {
+              "id": "umilta.fine.o1",
+              "text": "Zacznij tę rozmowę od nowa.",
+              "next": "umilta.n1"
+            },
+            {
+              "id": "umilta.fine.o2",
+              "text": "Zakończ na razie."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.perdono",
+      "title": "Jak można komuś przebaczyć?",
+      "theme": "perdono",
+      "description": "List do ministra i strofa Pieśni: przebaczenie jako decyzja powtarzana, różnica wobec sprawiedliwości i uczciwa odpowiedź temu, kto nie daje rady.",
+      "teachingIds": [
+        "teaching.perdono.mille_volte"
+      ],
+      "startNodeId": "perdono.n1",
+      "nodes": [
+        {
+          "id": "perdono.n1",
+          "mentorText": "Witaj w Dialogu. Prowadzę cię ja: nie jestem Franciszkiem i nie mówię w jego imieniu, towarzyszę ci w tym, co źródła naprawdę mówią. Dzisiejsze pytanie jest jednym z najtrudniejszych, jakie istnieją: jak można komuś przebaczyć? Nie obiecuję wygodnej odpowiedzi. Pomaga mi wiedzieć, skąd wychodzisz.",
+          "options": [
+            {
+              "id": "perdono.n1.o1",
+              "text": "Doświadczyłem krzywdy i nie potrafię puścić gniewu.",
+              "next": "perdono.n2"
+            },
+            {
+              "id": "perdono.n1.o2",
+              "text": "Czy przebaczać nie znaczy udawać, że nic się nie stało?",
+              "next": "perdono.n3"
+            },
+            {
+              "id": "perdono.n1.o3",
+              "text": "Najpierw chciałbym wiedzieć, co Franciszek mówi o przebaczeniu.",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n2",
+          "mentorText": "Dziękuję za szczerość. Źródła franciszkańskie nie obiecują, że gniew zniknie, i nie proszą, by udawać, że krzywdy nie było. To, co proponują, jest inne: przebaczenie jako decyzja, która się odnawia, nawet gdy uczucie za nią nie idzie. Jeśli dziś nie dajesz rady, to cię nie dyskwalifikuje: to norma, nie wyjątek.",
+          "options": [
+            {
+              "id": "perdono.n2.o1",
+              "text": "Decyzja, która się odnawia: wyjaśnij.",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n2.o2",
+              "text": "A jeśli naprawdę nie dam rady?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n2.o3",
+              "text": "Co Franciszek o tym pisze?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n3",
+          "mentorText": "Nie, i warto powiedzieć to od razu jasno: przebaczać nie jest zaprzeczać. Źródła franciszkańskie nie mylą miłosierdzia z niesprawiedliwością: wyrządzone zło zostaje złem, a jego skutki zostają realne. Przebaczenie tutaj nie wymazuje tego, co się stało: odmawia obeldze ostatniego słowa o relacji. To dwa różne plany i trzymać je osobno to pierwszy krok.",
+          "options": [
+            {
+              "id": "perdono.n3.o1",
+              "text": "Więc przebaczenie i sprawiedliwość mogą stać razem?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n3.o2",
+              "text": "Co dokładnie mówi Franciszek?",
+              "next": "perdono.n4"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n4",
+          "mentorText": "Tekstem kluczowym jest List do ministra: Franciszek pisze do odpowiedzialnego za braterstwo, który ma postępować z braćmi, którzy błądzą. Słynny fragment mówi w istocie: jeśli brat zgrzeszyłby tysiąc razy na twoich oczach, kochaj go bardziej niż mnie i głoś mu miłosierdzie. Tysiąc razy: nie heroiczna decyzja raz na zawsze, lecz wybór podejmowany na nowo każdego dnia. To zmienia pytanie: nie „czy czuję, że przebaczam?”, lecz „czy wybieram przebaczyć także dziś?”.",
+          "options": [
+            {
+              "id": "perdono.n4.o1",
+              "text": "Tysiąc razy to za dużo. Czy to realistyczne żądanie?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n4.o2",
+              "text": "A sprawiedliwość? Czy ten, kto błądzi, nie powinien za to odpowiadać?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n4.o3",
+              "text": "Pieśń stworzeń mówi o przebaczeniu, prawda?",
+              "next": "perdono.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.lettera_ministro.mille_volte"
+          ],
+          "teachingId": "teaching.perdono.mille_volte"
+        },
+        {
+          "id": "perdono.n5",
+          "mentorText": "Tak, i sam List pozwala to dostrzec: Franciszek prosi, by głosić miłosierdzie, byleby drugi żałował, czyli przebaczenie nie ogłasza niewinnym tego, kto zbłądził, i nie zwalnia go z naprawienia. Także w jego czasie bracia pokoju nie znieśli trybunałów ani odpowiedzialności: pracowali, by zemsta nie była jedyną możliwą sprawiedliwością. Przebaczać i prosić, by zło zostało uznane, nie są wrogami. Mogą iść razem, choć z trudem.",
+          "options": [
+            {
+              "id": "perdono.n5.o1",
+              "text": "A od czego się zaczyna, w praktyce?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n5.o2",
+              "text": "Czy strofa Pieśni ma z tym coś wspólnego?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n5.o3",
+              "text": "A jeśli krzywda jest zbyt wielka albo zbyt świeża?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n5.o4",
+              "text": "A w podzielonych miastach jego czasu?",
+              "next": "perdono.n10"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n6",
+          "mentorText": "Zaczyna się od korekty perspektywy. Gdyby przebaczenie było uczuciem, musiałbyś czekać, aż przyjdzie: a często nie przychodzi albo przychodzi i odchodzi. Jeśli jest decyzją, możesz ją podjąć nawet z gniewem jeszcze rozpalonym i podjąć ją jutro, i pojutrze. Źródła nie opisują drogi liniowej: słowo „tysiąc razy” sugeruje raczej przeciwieństwo. Uczciwie: w tekstach franciszkańskich nie ma technik. Jest kierunek.",
+          "options": [
+            {
+              "id": "perdono.n6.o1",
+              "text": "A jeśli dziś naprawdę nie dam rady?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n6.o2",
+              "text": "A wobec siebie? Czy można sobie przebaczyć?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n6.o3",
+              "text": "Opowiedz mi strofę Pieśni o przebaczeniu.",
+              "next": "perdono.n8"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n7",
+          "mentorText": "Uczciwa odpowiedź: może się zdarzyć, a źródła cię za to nie sądzą. Ja też nie: jestem przewodnikiem przez teksty, nie spowiednikiem i nie terapeutą. Mówię dwie rzeczy, które da się udokumentować. Pierwsza: List mówi o tysiącu razy, co znaczy, że już w XIII wieku przebaczenia nie myślano jako gestu natychmiastowego. Druga: jeśli rana jest głęboka, podzielić się nią z kimś zaufanym albo z fachowcem, gdy trzeba, nie jest porażką. O czasach przebaczenia źródła franciszkańskie milczą: tutaj nie możemy powiedzieć więcej.",
+          "options": [
+            {
+              "id": "perdono.n7.o1",
+              "text": "A przebaczenie wobec siebie?",
+              "next": "perdono.n9"
+            },
+            {
+              "id": "perdono.n7.o2",
+              "text": "Dziękuję za uczciwość. Zakończmy.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n8",
+          "mentorText": "Jest strofa Pieśni stworzeń, która chwali Boga za tych, którzy przebaczają z miłości do Niego, znosząc chorobę i utrapienie. Krytyka datuje ją zwykle na lato 1226, a tradycja wiąże z konkretnym epizodem: biskup i podesta Asyżu byli w otwartym konflikcie, a Franciszek, już chory, miał dodać tę strofę i kazać śpiewać Pieśń przed nimi, by ich pojednać. Precyzuję poziomy: strofa jest autentyczna, opowieść o epizodzie dochodzi do nas przez tradycję hagiograficzną. Zostaje fakt: przebaczenie, dla Franciszka, było godne pochwały także wewnątrz konfliktów jego miasta.",
+          "options": [
+            {
+              "id": "perdono.n8.o1",
+              "text": "Przebaczać w środku konfliktu: czy to możliwe?",
+              "next": "perdono.n5"
+            },
+            {
+              "id": "perdono.n8.o2",
+              "text": "A kto nie potrafi przebaczyć?",
+              "next": "perdono.n7"
+            },
+            {
+              "id": "perdono.n8.o3",
+              "text": "Możemy zakończyć.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.perdono_morte"
+          ]
+        },
+        {
+          "id": "perdono.n9",
+          "mentorText": "Tu muszę być uczciwy co do granic źródeł. Teksty franciszkańskie mówią o przebaczeniu wobec braci i wobec tego, kto obraża; o przebaczeniu sobie, jak je dziś rozumiemy, nie mówią prawie nic wprost. Możemy rozumować przez analogię: jeśli głosi się miłosierdzie tysiąc razy temu, kto błądzi, trudno wykluczyć siebie. Ale zostaje to naszym rozumowaniem, nie cytatem. Wolę ci to powiedzieć, niż wkładać Franciszkowi w usta słowa, których nie napisał.",
+          "options": [
+            {
+              "id": "perdono.n9.o1",
+              "text": "Cenię precyzję. A skąd się zaczyna od nowa?",
+              "next": "perdono.n6"
+            },
+            {
+              "id": "perdono.n9.o2",
+              "text": "Zamknijmy tutaj.",
+              "next": "perdono.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "perdono.n10",
+          "mentorText": "Jest też wymiar publiczny. Włochy komun przecinały waśnie i zemsty, a źródła pamiętają pierwszych braci głoszących pokój od domu do domu, pozdrowieniem, które Franciszek zaświadczył, że otrzymał. Przebaczenie w tamtym świecie nie było tylko sprawą prywatną: było punktem, w którym można było zerwać łańcuch odwetu. Także dziś waśnie istnieją, w rodzinach, w dzielnicach, w mediach społecznościowych, i logika jest ta sama: ktoś musi przestać oddawać cios.",
+          "options": [
+            {
+              "id": "perdono.n10.o1",
+              "text": "A strofa Pieśni zrodziła się właśnie z konfliktu, prawda?",
+              "next": "perdono.n8"
+            },
+            {
+              "id": "perdono.n10.o2",
+              "text": "Wystarczy mi. Zakończmy.",
+              "next": "perdono.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.saluto_pace"
+          ]
+        },
+        {
+          "id": "perdono.chiusura",
+          "mentorText": "Zatrzymujemy się tutaj. Jeśli chcesz, zabierz ze sobą jeden obraz, nie zadanie: przebaczenie jako drogę, którą robi się metr dziennie, nie jako skok raz na zawsze. A jeśli twoja rana dziś na to nie pozwala, ten dialog nie prosił cię, by ci się udało: prosił, by zrozumieć. Inne rozmowy Dialogu czekają, kiedy zechcesz.",
+          "options": [
+            {
+              "id": "perdono.chiusura.o1",
+              "text": "Przejdź tę rozmowę od początku.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.chiusura.o2",
+              "text": "Odkryj inne rozmowy Dialogu.",
+              "next": "perdono.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "perdono.fine",
+          "mentorText": "Dziękuję, że podjąłeś trudne pytanie bez skrótów. Na liście Dialogu znajdziesz inne rozmowy: ja zostaję tutaj, i teksty też.",
+          "options": [
+            {
+              "id": "perdono.fine.o1",
+              "text": "Zacznij tę rozmowę od nowa.",
+              "next": "perdono.n1"
+            },
+            {
+              "id": "perdono.fine.o2",
+              "text": "Zakończ na razie."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.poverta",
+      "title": "Czy Franciszek był przeciwny bogactwu?",
+      "theme": "poverta",
+      "description": "Franciszek nie potępiał dóbr: uwalniał od posiadania. Reguła z 1223, wyrzeczenie przed biskupem i co to znaczy dziś, bez romantyzmu.",
+      "teachingIds": [
+        "teaching.poverta.liberta",
+        "teaching.rinuncia.sine_proprio"
+      ],
+      "startNodeId": "poverta.n1",
+      "nodes": [
+        {
+          "id": "poverta.n1",
+          "mentorText": "Witaj w Dialogu. Przedstawiam się: jestem przewodnikiem, nie Franciszkiem; z tobą czytam źródła i mówię, kiedy nie wystarczają do odpowiedzi. Dzisiejsze pytanie jest pełne nieporozumień: czy Franciszek był przeciwny bogactwu? Krótka odpowiedź brzmi: „nie, nie w tym sensie, który może sobie wyobrażasz”. Ale zasługuje na długą drogę. Skąd zaczynamy?",
+          "options": [
+            {
+              "id": "poverta.n1.o1",
+              "text": "Zawsze myślałem, że gardził pieniędzmi samymi w sobie.",
+              "next": "poverta.n2"
+            },
+            {
+              "id": "poverta.n1.o2",
+              "text": "Podejrzewam, że chodzi o coś innego, ale nie umiem tego powiedzieć.",
+              "next": "poverta.n3"
+            },
+            {
+              "id": "poverta.n1.o3",
+              "text": "Czy to nie tylko romantyczne ubóstwo, z dziewiętnastowiecznego plakatu?",
+              "next": "poverta.n4"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n2",
+          "mentorText": "To rekonstrukcja najbardziej rozpowszechniona i najmniej dokładna. W tekstach Franciszka nie znajdziesz potępienia dóbr, jakby były brudne: znajdziesz coś bardziej radykalnego i subtelniejszego, czyli odmowę przywłaszczania ich sobie. Celem nie jest bogactwo, jest posiadanie: to, co rzeczy robią temu, kto wierzy, że je posiada. Idźmy do tekstu, który mówi to najlepiej.",
+          "options": [
+            {
+              "id": "poverta.n2.o1",
+              "text": "Który tekst?",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n2.o2",
+              "text": "A słynna scena wyrzeczenia?",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n3",
+          "mentorText": "Twoje podejrzenie jest uzasadnione. Chodzi nie o ilość dóbr, lecz o rodzaj więzi: Franciszek chce braci, którzy niczego sobie nie przywłaszczają, bo kto nie posiada, nie musi bronić, a kto nie musi bronić, jest wolny, by kochać. To logika wolności, nie wstrętu. Pokażę ci to w tekście Reguły.",
+          "options": [
+            {
+              "id": "poverta.n3.o1",
+              "text": "Przeczytajmy Regułę.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n3.o2",
+              "text": "Najpierw opowiedz mi scenę przed biskupem.",
+              "next": "poverta.n6"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n4",
+          "mentorText": "Zarzut jest poważny i zasługuje na szacunek: romantyczne ubóstwo istnieje i jest karykaturą, która z franciszkanizmu ma niewiele. Więc zróbmy umowę: żadnych idealizacji. Popatrzmy, co mówią źródła — scena opowiedziana przez pierwszego biografa i tekst normatywny napisany przez samego Franciszka — a potem ty ocenisz, czy się trzymają.",
+          "options": [
+            {
+              "id": "poverta.n4.o1",
+              "text": "Dobrze: scena pierwszego biografa.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n4.o2",
+              "text": "Tekst normatywny.",
+              "next": "poverta.n5"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n5",
+          "mentorText": "Reguła z 1223, tekst ostateczny zatwierdzony przez Kościół: bracia niczego sobie nie przywłaszczają, „ani domu, ani miejsca, ani żadnej rzeczy”; żyją jak pielgrzymi i obcy i idą po jałmużnę, nie wstydząc się. Podany powód jest teologiczny: Pan stał się ubogi dla nas. Ale jest też jasna ludzka logika: to, czego nie posiadasz, nie posiada ciebie. Tradycja techniczna nazywa to „sine proprio”, bez niczego własnego. Nie pogarda dla rzeczy, które się przyjmuje, których się używa i za które się dziękuje: uwolnienie od posiadania.",
+          "options": [
+            {
+              "id": "poverta.n5.o1",
+              "text": "Opowiedz mi wyrzeczenie przed biskupem.",
+              "next": "poverta.n6"
+            },
+            {
+              "id": "poverta.n5.o2",
+              "text": "A dziś? Czy powinniśmy sprzedać wszystko?",
+              "next": "poverta.n7"
+            },
+            {
+              "id": "poverta.n5.o3",
+              "text": "A prawdziwi ubodzy? Czy nie ryzykujemy upiększania nędzy?",
+              "next": "poverta.n8"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.regola_bollata.poverta"
+          ],
+          "teachingId": "teaching.poverta.liberta"
+        },
+        {
+          "id": "poverta.n6",
+          "mentorText": "Tomasz z Celano, pierwszy biograf, opowiada to tak: przed biskupem Guidonem i ojcem Piotrem di Bernardone Franciszek oddaje nawet szaty i zrzeka się dóbr ojcowskich, mówiąc, że może już nazywać ojcem tylko Boga. Biskup okrywa go własnym płaszczem. Precyzuję poziomy: epizod jest udokumentowanym zwornikiem, ale szczegóły sceniczne należą do narracji Celana, która jest hagiografią, literaturą budującą, nie protokołem. Sens i tak jest jasny: publicznie przeciąć więź z rodzinnym bogactwem.",
+          "options": [
+            {
+              "id": "poverta.n6.o1",
+              "text": "Gest teatralny czy wybór przemyślany?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n6.o2",
+              "text": "A my dziś, co z tym robimy?",
+              "next": "poverta.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.rinuncia"
+          ],
+          "teachingId": "teaching.rinuncia.sine_proprio"
+        },
+        {
+          "id": "poverta.n7",
+          "mentorText": "Pytanie nieuniknione, a uczciwa odpowiedź brzmi: źródła nie żądają od wszystkich tego samego. Tamta Reguła była dla braci; Franciszek nie pisał reguł dla kupców, rodziców, rzemieślników. Więc nie: nie istnieje tekst franciszkański, który każe ci sprzedać wszystko. Istnieje niewygodne pytanie, w którym trzeba zamieszkać: które rzeczy posiadam, a które posiadają mnie? Konkretna odpowiedź jest proporcjonalna do twojego życia, nie do jego.",
+          "options": [
+            {
+              "id": "poverta.n7.o1",
+              "text": "Jak odróżniamy ubóstwo wybrane od niedostatku doznanego?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n7.o2",
+              "text": "A kto pracuje, zarabia, utrzymuje rodzinę?",
+              "next": "poverta.n11"
+            },
+            {
+              "id": "poverta.n7.o3",
+              "text": "Daj mi coś konkretnego, bez skrajnych gestów.",
+              "next": "poverta.n10"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n8",
+          "mentorText": "To najważniejsze rozróżnienie tej rozmowy. Niedostatek doznany — nie mieć co jeść, czym się leczyć, dachu — jest społeczną raną do leczenia, nie ideałem do kontemplacji: Franciszek służył ubogim, nie estetyzował ich. Franciszkańskie ubóstwo jest czymś innym: wolnym wyborem, by niczego sobie nie przywłaszczać, podjętym dla wolności i dla solidarności. Mieszać je to błąd, którego trzeba zawsze unikać: sławić cudzą nędzę byłoby dokładnie owym „romantycznym ubóstwem”, o którym mówiliśmy.",
+          "options": [
+            {
+              "id": "poverta.n8.o1",
+              "text": "Więc krytyka romantyzmu miała w sobie ziarno prawdy?",
+              "next": "poverta.n9"
+            },
+            {
+              "id": "poverta.n8.o2",
+              "text": "A w praktyce, dla mnie, dziś?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n8.o3",
+              "text": "Zamknijmy tutaj.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n9",
+          "mentorText": "Teatralny był na pewno: a w społeczeństwie opartym na prawie i posiadaniu tylko publiczny gest mógł rozwiązać publiczną więź. Ale nie była to improwizacja: Celano umieszcza go po miesiącach kryzysu, niewoli w Perugii, chorobie, rozczarowaniach. Jeśli chcesz kryterium, by sądzić gesty, jego i swoje, oto ono: nie intensywność chwili, lecz to, co przychodzi potem. Franciszek żył spójnie przez kolejne dwadzieścia lat. Prawdziwe gesty poznaje się po długim trwaniu.",
+          "options": [
+            {
+              "id": "poverta.n9.o1",
+              "text": "A dziś, bez skrajnych gestów?",
+              "next": "poverta.n10"
+            },
+            {
+              "id": "poverta.n9.o2",
+              "text": "Rozumiem. Zakończmy.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n10",
+          "mentorText": "Konkretnie zatem, ale bez recept: nie moja rola ci ich dawać. Tradycja franciszkańska sugeruje kierunek w trzech ruchach: patrzeć na to, co posiadasz, pytając, czy czyni cię wolnym czy ostrożnym; używać rzeczy jako otrzymanych, nie jako należnych; pozwolić, by prostota uwolniła przestrzeń — czas, uwagę, pieniądze — dla innych. To interpretacja współczesna, mówię to uczciwie: ale wierna duchowi „sine proprio”.",
+          "options": [
+            {
+              "id": "poverta.n10.o1",
+              "text": "Wróć do tekstu Reguły.",
+              "next": "poverta.n5"
+            },
+            {
+              "id": "poverta.n10.o2",
+              "text": "Zakończmy.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.n11",
+          "mentorText": "Żadne źródło franciszkańskie nie mówi, że pracować i zarabiać oddala od Franciszka: Reguła jest formą życia konkretnego braterstwa, nie miarą każdego istnienia. Logika jest niemal odwrócona: problemem nie jest mieć, lecz służyć temu, co się ma. Jeśli twoja praca, twój zarobek, twój dom stają się narzędziami — twoimi i innych — a nie panami, jesteś bliżej ducha Reguły, niż myślisz.",
+          "options": [
+            {
+              "id": "poverta.n11.o1",
+              "text": "A ryzyko romantyzowania ubóstwa?",
+              "next": "poverta.n8"
+            },
+            {
+              "id": "poverta.n11.o2",
+              "text": "Zakończmy.",
+              "next": "poverta.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "poverta.chiusura",
+          "mentorText": "Zatrzymujemy się tutaj. Nie zostawiam ci zadania: zostawiam pytanie, które ta rozmowa próbowała otworzyć. Co spośród tego, co posiadasz, posiada ciebie? Odpowiedz spokojnie albo nie odpowiadaj wcale. Kiedy zechcesz, inne rozmowy Dialogu są na liście: pokora, przebaczenie, stworzenie, wiara.",
+          "options": [
+            {
+              "id": "poverta.chiusura.o1",
+              "text": "Przejdź tę rozmowę od początku.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.chiusura.o2",
+              "text": "Odkryj inne rozmowy Dialogu.",
+              "next": "poverta.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "poverta.fine",
+          "mentorText": "Dziękuję, że szukałeś rozwiniętej odpowiedzi na pytanie, które często dostaje slogany. Spotkamy się w Dialogu, kiedy zechcesz: źródła nie tracą ważności.",
+          "options": [
+            {
+              "id": "poverta.fine.o1",
+              "text": "Zacznij tę rozmowę od nowa.",
+              "next": "poverta.n1"
+            },
+            {
+              "id": "poverta.fine.o2",
+              "text": "Zakończ na razie."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.creato",
+      "title": "Dlaczego Franciszek rozmawiał ze zwierzętami?",
+      "theme": "creato",
+      "description": "Pokrewieństwo, nie panteizm: Pieśń, ptaki u Celana, wilk z Kwiatków i co to wszystko mówi — i czego nie mówi — dzisiejszej ekologii.",
+      "teachingIds": [
+        "teaching.creato.cantico"
+      ],
+      "startNodeId": "creato.n1",
+      "nodes": [
+        {
+          "id": "creato.n1",
+          "mentorText": "Witaj w Dialogu. Jestem twoim przewodnikiem: nie jestem Franciszkiem, a gdy źródła nie wystarczają, mówię ci o tym. Dzisiejsze pytanie tonie w wiekach obrazów: Franciszek, który mówi do ptaków, do wilka, do ryb. Co jest za tym? Zależy od tego, czego szukasz.",
+          "options": [
+            {
+              "id": "creato.n1.o1",
+              "text": "Chcę prawdy: czy to tylko legenda, że rozmawiał ze zwierzętami?",
+              "next": "creato.n2"
+            },
+            {
+              "id": "creato.n1.o2",
+              "text": "Zastanawiam się, czy widział Boga w przyrodzie: czy był panteistą?",
+              "next": "creato.n3"
+            },
+            {
+              "id": "creato.n1.o3",
+              "text": "Opowiedz mi Pieśń stworzeń.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n2",
+          "mentorText": "Pytanie historyka, a odpowiedź jest warstwowa, jak niemal wszystko, co dotyczy Franciszka. Rdzeń jest poświadczony wcześnie: Tomasz z Celano, bliski biograf, opowiada kazanie do ptaków tonem powściągliwym. Opowieści bardziej sceniczne — wilk z Gubbio, ryby, dżdżownice — rozkwitają wiek później w Kwiatkach. A więc: dawna pamięć i literackie wzmocnienie. Pokażę ci oba, osobno.",
+          "options": [
+            {
+              "id": "creato.n2.o1",
+              "text": "Powściągliwa wersja Celana.",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n2.o2",
+              "text": "Wersja Kwiatków: wilk.",
+              "next": "creato.n6"
+            }
+          ]
+        },
+        {
+          "id": "creato.n3",
+          "mentorText": "Nie, a tekstem, który to pokazuje, jest Pieśń stworzeń. Franciszek chwali Boga „przez” stworzenia — brata słońce, siostrę księżyc — nie chwali stworzeń, jakby były boskie. Różnica jest rozstrzygająca: przyroda nie jest Bogiem, jest rodziną. Stworzenia są siostrami, bo córkami tego samego Ojca. Właściwe słowo to „pokrewieństwo”, nie panteizm.",
+          "options": [
+            {
+              "id": "creato.n3.o1",
+              "text": "Przeczytajmy Pieśń.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n3.o2",
+              "text": "A opowieści ze zwierzętami?",
+              "next": "creato.n2"
+            }
+          ]
+        },
+        {
+          "id": "creato.n4",
+          "mentorText": "Pieśń stworzeń, ułożona w latach 1225–1226, gdy Franciszek był chory i niemal niewidomy: należy do pierwszych tekstów poetyckich w języku ludowym Italii. Chwali Boga za brata słońce, „który jest dniem”, za siostrę księżyc i gwiazdy, za brata wiatr, za siostrę wodę „użyteczną i pokorną, cenną i czystą”, za brata ogień i za „siostrę naszą matkę ziemię”. Dwie rzeczy do zauważenia. Pierwsza: to nie hymn do przyrody, to chwała Bogu przez przyrodę. Druga: rodzi się w cierpieniu, nie na sielskim spacerze.",
+          "options": [
+            {
+              "id": "creato.n4.o1",
+              "text": "A kazanie do ptaków?",
+              "next": "creato.n5"
+            },
+            {
+              "id": "creato.n4.o2",
+              "text": "A wilk z Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n4.o3",
+              "text": "Co to wszystko mówi dzisiejszej ekologii?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.cantico.apertura",
+            "pass.cantico.creature"
+          ],
+          "teachingId": "teaching.creato.cantico"
+        },
+        {
+          "id": "creato.n5",
+          "mentorText": "Wersja Celana jest zaskakująco powściągliwa: Franciszek widzi stada ptaków, zwraca się do nich jak do stworzeń zdolnych słuchać i zachęca je, by chwaliły Boga. Żadnych rozbudowanych dialogów, żadnych spektakularnych cudów: gest uznania. Kwiatki, wiek później, dodadzą znak krzyża, stada układające się do słuchania, uroczyste pożegnanie. Najpierw styl Franciszka, potem styl pobożności. Oba mówią nam coś, ale coś innego.",
+          "options": [
+            {
+              "id": "creato.n5.o1",
+              "text": "A wilk z Gubbio?",
+              "next": "creato.n6"
+            },
+            {
+              "id": "creato.n5.o2",
+              "text": "Jeśli to literatura, jaką ma wartość?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n5.o3",
+              "text": "A współczesna ekologia?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.celano1.uccelli"
+          ]
+        },
+        {
+          "id": "creato.n6",
+          "mentorText": "Wilk z Gubbio jest arcydziełem Kwiatków: przerażone miasto, Franciszek, który wychodzi naprzeciw bestii, mówi do niej jak do brata i pośredniczy w przymierzu — miasto będzie go karmić, on nie skrzywdzi już nikogo. Muszę być jasny co do gatunku: to hagiografia XIV wieku, pamięć pobożności, nie weryfikowalna kronika. Ale popatrz, co zachowuje: pokój, który rodzi się, gdy wychodzi się naprzeciw temu, co budzi lęk, i zwierzę traktowane jako rozmówca, nie jako przedmiot. Forma jest legendą; kierunek jest autentycznie franciszkański.",
+          "options": [
+            {
+              "id": "creato.n6.o1",
+              "text": "Więc w gruncie rzeczy jest wymyślone?",
+              "next": "creato.n8"
+            },
+            {
+              "id": "creato.n6.o2",
+              "text": "A co z tego bierze dzisiejsza ekologia?",
+              "next": "creato.n7"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.fioretti.lupo"
+          ]
+        },
+        {
+          "id": "creato.n7",
+          "mentorText": "Tu potrzeba uczciwości w obie strony. Z jednej: Pieśń daje dziś rzadką gramatykę, troskę o stworzenie z wdzięczności i pokrewieństwa, nie z użyteczności ani z lęku. Z drugiej: Franciszek nie był współczesnym ekologiem, a jego źródła nie znają klimatu, wymierań, zanieczyszczenia. Kto szuka w nim szczegółowego programu ekologicznego, nagina teksty. Kto szuka spojrzenia — świat jako rodzina, nie jako magazyn — znajduje coś wciąż zdolnego przesunąć zachowania.",
+          "options": [
+            {
+              "id": "creato.n7.o1",
+              "text": "A przecież ogłoszono go patronem ekologii, prawda?",
+              "next": "creato.n9"
+            },
+            {
+              "id": "creato.n7.o2",
+              "text": "Co zostaje konkretnego dla mnie?",
+              "next": "creato.n10"
+            }
+          ]
+        },
+        {
+          "id": "creato.n8",
+          "mentorText": "Nie: „nie kronika” nie znaczy „wymyślone z niczego”. Kazanie do ptaków jest u Celana, kilka lat po śmierci Franciszka; Kwiatki ubierają je w legendarne barwy, ale nić wychodzi z pamięci. Tak działa wiele hagiografii: forma opowiada pobożność tych, którzy ją przekazali, substancja zachowuje rys rzeczywisty. Czytać źródła znaczy właśnie to: trzymać obie rzeczy razem, nie mieszając ich.",
+          "options": [
+            {
+              "id": "creato.n8.o1",
+              "text": "Jasne. A dla dzisiejszej ekologii?",
+              "next": "creato.n7"
+            },
+            {
+              "id": "creato.n8.o2",
+              "text": "Wróćmy zatem do Pieśni.",
+              "next": "creato.n4"
+            }
+          ]
+        },
+        {
+          "id": "creato.n9",
+          "mentorText": "Tak: w 1979 Jan Paweł II ogłosił go patronem ekologów. To tytuł współczesny — interpretacja, nie źródło średniowieczne — i tak należy go traktować. Jest uprawniony, jeśli wskazuje korzeń franciszkańskiego spojrzenia: pokrewieństwo ze wszystkimi stworzeniami. Staje się mylący, jeśli spłaszcza Franciszka do ekologa avant la lettre, wymazując, że Pieśń jest przede wszystkim chwałą Boga, ułożoną przez chorego człowieka, który dziękował. Tytuł mówi coś prawdziwego, pod warunkiem, że się go do tego nie sprowadza.",
+          "options": [
+            {
+              "id": "creato.n9.o1",
+              "text": "A dla mnie, konkretnie?",
+              "next": "creato.n10"
+            },
+            {
+              "id": "creato.n9.o2",
+              "text": "Możemy zakończyć.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.n10",
+          "mentorText": "Konkretnie znaczy tu sprawę spojrzenia, zanim sprawę czynów. Pieśń sugeruje zamieszkiwać świat jako pokrewieństwo: wodę jako siostrę, której się nie marnuje, ziemię jako matkę, której jest się dzieckiem, stworzenia jako towarzyszki chwały, nie jako zapasy. Praktyczne wybory — co kupujesz, co wyrzucasz, jak podróżujesz — przychodzą potem, a źródła ich nie dyktują. Ale zmienione spojrzenie czyni je możliwymi i mniej męczącymi.",
+          "options": [
+            {
+              "id": "creato.n10.o1",
+              "text": "Przeczytajmy razem Pieśń.",
+              "next": "creato.n4"
+            },
+            {
+              "id": "creato.n10.o2",
+              "text": "Zakończmy.",
+              "next": "creato.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "creato.chiusura",
+          "mentorText": "Zatrzymujemy się tutaj. Zostawiam ci obraz, nie zadanie: człowiek niemal niewidomy, który układa pochwałę słońca, którego już nie widzi, i nazywa je bratem. Jeśli pewnego dnia zdarzy ci się spojrzeć na drzewo, na psa, na wodę z kranu jak na krewnego, a nie jak na rzecz, będziesz wiedział, skąd bierze się to spojrzenie. Inne rozmowy Dialogu czekają na liście.",
+          "options": [
+            {
+              "id": "creato.chiusura.o1",
+              "text": "Przejdź tę rozmowę od początku.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.chiusura.o2",
+              "text": "Odkryj inne rozmowy Dialogu.",
+              "next": "creato.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "creato.fine",
+          "mentorText": "Dziękuję, że rozróżniałeś ze mną kronikę, legendę i pochwałę: to ćwiczenie, które służy daleko poza Franciszkiem. Spotkamy się w Dialogu, kiedy zechcesz.",
+          "options": [
+            {
+              "id": "creato.fine.o1",
+              "text": "Zacznij tę rozmowę od nowa.",
+              "next": "creato.n1"
+            },
+            {
+              "id": "creato.fine.o2",
+              "text": "Zakończ na razie."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    },
+    {
+      "id": "dlg.fede",
+      "title": "Czy można iść za Franciszkiem, nie będąc wierzącym?",
+      "theme": "fede",
+      "description": "Niewymijająca odpowiedź na poważne pytanie: wiara chrześcijańska była centrum Franciszka i aplikacja tego nie ukrywa. Co zostaje temu, kto nie wierzy.",
+      "teachingIds": [
+        "teaching.fede.cristo_centro"
+      ],
+      "startNodeId": "fede.n1",
+      "nodes": [
+        {
+          "id": "fede.n1",
+          "mentorText": "Witaj w Dialogu. Jestem przewodnikiem przez źródła: nie jestem Franciszkiem, nie jestem spowiednikiem i nie oceniam wiary nikogo, także twojej. Dzisiejsze pytanie jest uprawnione i poważne: czy można iść za Franciszkiem, nie będąc wierzącym? Obiecuję odpowiedź niewymijającą. Najpierw powiedz, skąd mówisz.",
+          "options": [
+            {
+              "id": "fede.n1.o1",
+              "text": "Jestem wierzący i chcę lepiej zrozumieć jego wiarę.",
+              "next": "fede.n2"
+            },
+            {
+              "id": "fede.n1.o2",
+              "text": "Nie jestem wierzący: co mogę od niego otrzymać?",
+              "next": "fede.n3"
+            },
+            {
+              "id": "fede.n1.o3",
+              "text": "Nie wiem, w co wierzę. Czy ten dialog jest dla mnie?",
+              "next": "fede.n4"
+            }
+          ]
+        },
+        {
+          "id": "fede.n2",
+          "mentorText": "Idźmy więc prosto do centrum. Wiara Franciszka nie była etykietą kulturową: była źródłem wszystkiego innego — ubóstwa, braterstwa, pokoju. W Testamencie opowiada, że Pan dał mu prostą wiarę w kościoły; a całą jego drogę, od San Damiano po La Vernę, źródła czytają jako naśladowanie ubogiego i ukrzyżowanego Chrystusa. Zobaczmy teksty.",
+          "options": [
+            {
+              "id": "fede.n2.o1",
+              "text": "Teksty, tak.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n2.o2",
+              "text": "A jego stosunek do Kościoła tamtego czasu?",
+              "next": "fede.n10"
+            }
+          ]
+        },
+        {
+          "id": "fede.n3",
+          "mentorText": "Krótka odpowiedź: tak, można, pod warunkiem uczciwości. Możesz go studiować, podziwiać, dać się pytać jego stylowi, nie przystępując do jego wiary; ta aplikacja jest także dla ciebie i nikt tu nie ocenia twojego stanowiska. Warunek jest taki, by go nie amputować: Franciszek bez Chrystusa nie staje się bardziej uniwersalny, staje się inną postacią. Jeśli godzisz się spotkać go całego, z korzeniem włącznie, jest wiele do otrzymania.",
+          "options": [
+            {
+              "id": "fede.n3.o1",
+              "text": "Pokaż mi więc ten korzeń.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n3.o2",
+              "text": "Co zostaje konkretnego temu, kto nie wierzy?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n4",
+          "mentorText": "Tak, jest dla ciebie: może bardziej niż dla kogokolwiek innego. Pytania o wiarę nie wymagają świadectwa przynależności: wymagają uczciwości, a ty właśnie ją miałeś. Nie popchnę cię w żadną stronę: pokazuję teksty, rozróżniam poziomy i zatrzymuję się tam, gdzie zatrzymują się źródła. Zacznijmy od tego, co opowiada sam Franciszek.",
+          "options": [
+            {
+              "id": "fede.n4.o1",
+              "text": "Dobrze: co opowiada?",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n4.o2",
+              "text": "A kto nie dochodzi do wiary, co otrzymuje?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n5",
+          "mentorText": "Dwa świadectwa. Pierwsze jest jego: w Testamencie, podyktowanym na krótko przed śmiercią, Franciszek wspomina, że Pan dał mu prostą wiarę w kościoły, gdzie modlił się zwrócony ku Chrystusowi. Drugie jest Celana: w 1224, na górze La Verna, Franciszek miał otrzymać stygmaty, znaki męki, które starał się ukryć. Zauważ poziomy: Testament jest słowem Franciszka; stygmaty dochodzą do nas jako świadectwo najbliższych źródeł, i aplikacja tak je przedstawia, nie jako dany mierzalny. Razem mówią jedno: centrum jego życia była osoba Chrystusa.",
+          "options": [
+            {
+              "id": "fede.n5.o1",
+              "text": "Stygmaty: jak powinienem je rozumieć?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n5.o2",
+              "text": "Dlaczego aplikacja tak nalega na ten punkt?",
+              "next": "fede.n7"
+            },
+            {
+              "id": "fede.n5.o3",
+              "text": "A dla tego, kto nie wierzy, co zostaje?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n5.o4",
+              "text": "Czy tak całkowita wiara nie zostawiała miejsca na wątpliwości?",
+              "next": "fede.n9"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.testamento.chiese",
+            "pass.celano1.stimmate"
+          ],
+          "teachingId": "teaching.fede.cristo_centro"
+        },
+        {
+          "id": "fede.n6",
+          "mentorText": "Z tą samą uczciwością, z jaką przedstawiają je źródła. Celano opowiada je kilka lat po śmierci Franciszka, a tradycja zachowuje je jako znak całkowitego upodobnienia do ukrzyżowanego Chrystusa. Ocena historyczna i teologiczna jest dyskutowana przez badaczy; tutaj źródła nie pozwalają nam powiedzieć więcej, a kto powiedziałby ci więcej, w jedną albo w drugą stronę, wyszedłby poza teksty. Co możemy powiedzieć: dla jego braterstwa ten znak potwierdzał to, co jego życie już mówiło.",
+          "options": [
+            {
+              "id": "fede.n6.o1",
+              "text": "A stosunek do Kościoła?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n6.o2",
+              "text": "Rozumiem. A dla tego, kto zostaje poza wiarą?",
+              "next": "fede.n8"
+            }
+          ]
+        },
+        {
+          "id": "fede.n7",
+          "mentorText": "Z dwóch powodów, oba są nazwane. Pierwszy jest historyczny: odjąć Franciszkowi chrześcijański korzeń nie czyni go bardziej uniwersalnym, czyni go nie do poznania — ubóstwo jest „bo Pan stał się ubogi”, pokój jest otrzymanym pozdrowieniem, braterstwo jest Ewangelią przeżywaną razem. Drugi jest redakcyjny: ta aplikacja wyjaśnia, nie uprawia prozelityzmu. Wyjaśniać wiarę Franciszka nie jest prosić, byś uczynił ją swoją; jest odmową dania ci złagodzonej wersji faktów.",
+          "options": [
+            {
+              "id": "fede.n7.o1",
+              "text": "A co może otrzymać ten, kto nie przystępuje?",
+              "next": "fede.n8"
+            },
+            {
+              "id": "fede.n7.o2",
+              "text": "A jak Franciszek żył Kościołem instytucjonalnym?",
+              "next": "fede.n10"
+            },
+            {
+              "id": "fede.n7.o3",
+              "text": "Wystarczy mi. Zakończmy.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n8",
+          "mentorText": "Wiele, byle wzięte w całości. Styl — bezinteresowność, mniejszość, pokój budowany przez wyjście naprzeciw, spojrzenie pokrewieństwa na stworzenie — mówi także do tego, kto nie dzieli korzenia. Ale te rzeczy, w tekstach, są owocami tamtego drzewa: znać je bez korzenia można, zrozumieć do końca bez korzenia nie. Możesz dać się pytać, nie przystępując: to poważna postawa, a historia idei jest pełna ludzi, którzy uczyli się z tradycji nie swoich. Nikt tu nie zapisuje twojego duchowego wyniku.",
+          "options": [
+            {
+              "id": "fede.n8.o1",
+              "text": "Przeczytajmy więc na nowo teksty, które opowiadają ten korzeń.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n8.o2",
+              "text": "Zakończmy.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.n9",
+          "mentorText": "Źródła nie opowiadają wątpliwości doktrynalnych w sensie współczesnym: tutaj nie możemy powiedzieć tego, czego teksty nie mówią. Ale opowiadają bardzo ciężkie próby: chorobę, wzrok niemal utracony, ból widzenia, jak braterstwo rośnie i zmienia się poza jego zamysł. I właśnie z tamtej pory, według Bonawentury, rodzi się Pieśń stworzeń. Wiara Franciszka nie była brakiem nocy: była pochwałą wewnątrz nocy. A to rzecz bardzo różna od naiwności.",
+          "options": [
+            {
+              "id": "fede.n9.o1",
+              "text": "A stygmaty należą do tej pory?",
+              "next": "fede.n6"
+            },
+            {
+              "id": "fede.n9.o2",
+              "text": "Możemy zakończyć.",
+              "next": "fede.chiusura"
+            }
+          ],
+          "sourcePassageIds": [
+            "pass.bonaventura.cantico"
+          ]
+        },
+        {
+          "id": "fede.n10",
+          "mentorText": "Ani buntownik, ani ułożony: coś ciekawszego. Franciszek żył wewnątrz średniowiecznego Kościoła, wytrwale szukał jego zatwierdzenia dla swojej formy życia i przyjmował jego granice, choć popychał go do reformy od dołu, przykładem, nie buntem. Jego posłuszeństwo Kościołowi było częścią jego wiary, nie rachunkiem. Zrozumieć to pozwala uniknąć dwóch lustrzanych karykatur: świętego nieposłusznego, drogiego nowoczesnym, i świętego potulnego, drogiego pobożnym.",
+          "options": [
+            {
+              "id": "fede.n10.o1",
+              "text": "Wróćmy do tekstów jego wiary.",
+              "next": "fede.n5"
+            },
+            {
+              "id": "fede.n10.o2",
+              "text": "Zakończmy.",
+              "next": "fede.chiusura"
+            }
+          ]
+        },
+        {
+          "id": "fede.chiusura",
+          "mentorText": "Zatrzymujemy się tutaj. Nie zostawiam ci zadania, a tym bardziej egzaminu: zostawiam kryterium. Gdy spotkasz Franciszka, w tej aplikacji albo gdzie indziej, pytaj zawsze, czy wersja, którą masz przed sobą, pokazuje go całego, z chrześcijańskim korzeniem włącznie. Potem twoje stanowisko zostaje twoje: nikt, tutaj, go nie sądzi. Inne rozmowy Dialogu czekają na liście.",
+          "options": [
+            {
+              "id": "fede.chiusura.o1",
+              "text": "Przejdź tę rozmowę od początku.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.chiusura.o2",
+              "text": "Odkryj inne rozmowy Dialogu.",
+              "next": "fede.fine"
+            }
+          ],
+          "isTerminal": true
+        },
+        {
+          "id": "fede.fine",
+          "mentorText": "Dziękuję za powagę pytania i za to, że przyjąłeś odpowiedź bez skrótów. Spotkamy się w Dialogu, kiedy zechcesz: prawdziwe pytania nie mają terminu ważności.",
+          "options": [
+            {
+              "id": "fede.fine.o1",
+              "text": "Zacznij tę rozmowę od nowa.",
+              "next": "fede.n1"
+            },
+            {
+              "id": "fede.fine.o2",
+              "text": "Zakończ na razie."
+            }
+          ],
+          "isTerminal": true
+        }
+      ]
+    }
+  ]
+}

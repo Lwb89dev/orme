@@ -1,6 +1,8 @@
 package it.orma.cammino.ui.settings
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -43,6 +45,7 @@ import it.orma.cammino.core.designsystem.components.OrnamentalDivider
 import it.orma.cammino.core.designsystem.components.PergamenaSection
 import it.orma.cammino.core.model.ReviewStatus
 import it.orma.cammino.di.AppContainer
+import it.orma.cammino.ui.i18n.APP_LANGUAGES
 import it.orma.cammino.ui.i18n.uiText
 import kotlinx.coroutines.launch
 
@@ -60,7 +63,7 @@ class SettingsViewModel(container: AppContainer) : ViewModel() {
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
 fun SettingsScreen(
     container: AppContainer,
@@ -98,8 +101,8 @@ fun SettingsScreen(
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.semantics { heading() },
             )
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                listOf("it" to "Italiano", "en" to "English").forEach { (language, label) ->
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                APP_LANGUAGES.forEach { (language, label) ->
                     FilterChip(
                         selected = settings.language == language,
                         onClick = { scope.launch { vm.repository.setLanguage(language) } },
@@ -107,6 +110,14 @@ fun SettingsScreen(
                     )
                 }
             }
+            Text(
+                uiText(
+                    "Il racconto, gli scritti e l'interfaccia seguono la lingua scelta. L'originale medievale resta in latino o in volgare.",
+                    "The story, the writings and the interface follow the chosen language. The medieval original stays in Latin or in the vernacular.",
+                ),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
 
             // Aspetto
             Text(

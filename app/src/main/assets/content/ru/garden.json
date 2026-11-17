@@ -1,0 +1,174 @@
+{
+  "elements": [
+    {
+      "id": "garden.sentiero",
+      "name": "Каменная тропа",
+      "kind": "sentiero",
+      "description": "Тропа из светлых камней пересекает сад: место, откуда начинается всякий путь.",
+      "symbolism": "Путь как образ жизни: дорогу прокладывают, идя по ней, камень за камнем.",
+      "requiresTeaching": null,
+      "teachingId": null
+    },
+    {
+      "id": "garden.ulivo",
+      "name": "Маслина мира",
+      "kind": "albero",
+      "description": "Древняя маслина с серебристой кроной, посаженная, когда ты открыл приветствие мира.",
+      "symbolism": "Маслина: средиземноморское дерево мира и терпения. Растёт медленно и живёт поколениями.",
+      "requiresTeaching": "teaching.pace.saluto",
+      "teachingId": "teaching.pace.saluto"
+    },
+    {
+      "id": "garden.fontana",
+      "name": "Фонтан сестры воды",
+      "kind": "acqua",
+      "description": "Каменный фонтан с прозрачной водой, которую утром зажигает солнце.",
+      "symbolism": "«Сестра вода, весьма полезная, смиренная, драгоценная и чистая»: в Песни вода — сестра, которую благодарят.",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico"
+    },
+    {
+      "id": "garden.rose",
+      "name": "Розы Сан-Дамиано",
+      "kind": "fiore",
+      "description": "Цветущий куст роз у стены: он растёт там, где кто-то позаботился о других.",
+      "symbolism": "Красота, рождённая служением: деятельная любовь заставляет цвести сухие места.",
+      "requiresTeaching": "teaching.carita.lebbrosi",
+      "teachingId": "teaching.carita.lebbrosi"
+    },
+    {
+      "id": "garden.orto",
+      "name": "Общий огород",
+      "kind": "orto",
+      "description": "Небольшие гряды трав и овощей, за которыми ухаживают по очереди: смиренный труд, кормящий всех.",
+      "symbolism": "Ежедневное служение: кто возделывает огород, тот им не владеет, а хранит его для тех, кто придёт.",
+      "requiresTeaching": "teaching.servizio.ministro",
+      "teachingId": "teaching.servizio.ministro"
+    },
+    {
+      "id": "garden.cipresso",
+      "name": "Кипарис тишины",
+      "kind": "albero",
+      "description": "Высокий прямой кипарис, отмечающий границу между садом и лесом.",
+      "symbolism": "Молитва как вертикаль: корни в земле, вершина к небу.",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo"
+    },
+    {
+      "id": "garden.nido",
+      "name": "Гнездо зябликов",
+      "kind": "animali",
+      "description": "На самых надёжных ветвях пара зябликов выбрала сад, чтобы свить гнездо.",
+      "symbolism": "Принятие: сад становится домом и для тех, кто приходит извне.",
+      "requiresTeaching": "teaching.accoglienza.ogni_uomo",
+      "teachingId": "teaching.accoglienza.ogni_uomo"
+    },
+    {
+      "id": "garden.panca",
+      "name": "Каменная скамья",
+      "kind": "struttura",
+      "description": "Каменная скамья под стеной в полдень: место, где сесть и остаться.",
+      "symbolism": "Вера как доверчивая остановка: не всегда идти — иногда просто быть.",
+      "requiresTeaching": "teaching.fede.cristo_centro",
+      "teachingId": "teaching.fede.cristo_centro"
+    },
+    {
+      "id": "garden.girasoli",
+      "name": "Подсолнухи благодарности",
+      "kind": "fiore",
+      "description": "Ряд подсолнухов, которые днём поворачиваются вслед за светом.",
+      "symbolism": "Благодарность: обращаться к свету — ежедневное упражнение взгляда.",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi"
+    },
+    {
+      "id": "garden.api",
+      "name": "Пчелиный улей",
+      "kind": "animali",
+      "description": "Деревянный улей пахнет воском; пчёлы летают к цветам сада и обратно.",
+      "symbolism": "Братство: ни одна пчела не делает мёд одна, и ни одна не владеет сотами.",
+      "requiresTeaching": "teaching.fraternita.minori",
+      "teachingId": "teaching.fraternita.minori"
+    }
+  ],
+  "contemplations": [
+    {
+      "id": "cont.cielo",
+      "title": "Смотреть на небо",
+      "theme": "creato",
+      "requiresTeaching": "teaching.creato.cantico",
+      "teachingId": "teaching.creato.cantico",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Подними взгляд от сада к небу. Побудь несколько мгновений в тишине, ничего не делая."
+        },
+        {
+          "kind": "leggi",
+          "text": "Медленно прочитай начало Песни творений.",
+          "sourcePassageId": "pass.cantico.apertura"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Франциск называет солнце «братом», а луну «сестрой». Что изменилось бы, если смотреть на мир как на семью, а не как на ресурс?"
+        },
+        {
+          "kind": "annota",
+          "text": "Если хочешь, запиши в дневник что-то, за что сегодня можешь сказать: «Laudato sie, mi' Signore»."
+        }
+      ]
+    },
+    {
+      "id": "cont.acqua",
+      "title": "Слушать воду",
+      "theme": "gratitudine",
+      "requiresTeaching": "teaching.gratitudine.lodi",
+      "teachingId": "teaching.gratitudine.lodi",
+      "steps": [
+        {
+          "kind": "ascolta",
+          "text": "Подойди к фонтану. Послушай звук воды несколько вдохов, не торопясь."
+        },
+        {
+          "kind": "leggi",
+          "text": "Перечитай хвалу Богу, написанную на Альверне: молитву, которая ни о чём не просит.",
+          "sourcePassageId": "pass.lodi_dio.lode"
+        },
+        {
+          "kind": "rifletti",
+          "text": "В Хвалах Богу нет просьб: только признание. Когда ты в последний раз благодарил, ничего не прося?"
+        },
+        {
+          "kind": "annota",
+          "text": "Если хочешь, запиши в дневник три вещи, полученные сегодня, даже маленькие."
+        }
+      ]
+    },
+    {
+      "id": "cont.passo",
+      "title": "Медленный шаг",
+      "theme": "preghiera",
+      "requiresTeaching": "teaching.preghiera.eremo",
+      "teachingId": "teaching.preghiera.eremo",
+      "steps": [
+        {
+          "kind": "osserva",
+          "text": "Пройди каменную тропу медленно, замечая каждый шаг: вес, касание, ритм."
+        },
+        {
+          "kind": "leggi",
+          "text": "Прочитай ответ Франциска брату Льву, который искал правильный выбор.",
+          "sourcePassageId": "pass.lettera_leone.coscienza"
+        },
+        {
+          "kind": "rifletti",
+          "text": "Брату Льву Франциск даёт не указания, а свободу: «следуй своей совести перед Богом». Чему учит такой способ сопровождать?"
+        },
+        {
+          "kind": "annota",
+          "text": "Если хочешь, запиши в дневник решение, которое ты несёшь, и куда, как ты чувствуешь, обращается твоя совесть."
+        }
+      ]
+    }
+  ]
+}
